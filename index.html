@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unilanguage</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#020817;
+  color:white;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;
+  overflow-x:hidden;
+}
+
+/* ================= PART 1：Header ================= */
+
+.site{
+  width:100%;
+  min-height:100vh;
+  background:
+    radial-gradient(circle at top,#0b2b72 0%,#061338 38%,#020817 78%);
+  position:relative;
+}
+
+.site::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:
+    radial-gradient(circle at 20% 20%,rgba(0,170,255,.25),transparent 25%),
+    radial-gradient(circle at 80% 10%,rgba(80,120,255,.18),transparent 28%),
+    radial-gradient(circle at 50% 90%,rgba(0,170,255,.22),transparent 35%);
+  pointer-events:none;
+  z-index:0;
+}
+
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:82px;
+  padding:0 44px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:50;
+  background:rgba(2,8,23,.55);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(0,170,255,.18);
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+.logo-mark{
+  width:54px;
+  height:54px;
+  border-radius:50%;
+  background:radial-gradient(circle at 35% 25%,#58ccff,#0756c8 60%,#021a63);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:32px;
+  font-weight:900;
+  box-shadow:0 0 28px rgba(0,170,255,.75);
+}
+
+.logo-text h3{
+  font-size:24px;
+  line-height:1;
+}
+
+.logo-text p{
+  font-size:12px;
+  color:#b9d7ff;
+  margin-top:5px;
+}
+
+.lang{
+  display:flex;
+  gap:18px;
+  align-items:center;
+  border:1px solid rgba(0,170,255,.45);
+  border-radius:30px;
+  padding:10px 20px;
+  background:rgba(5,20,50,.65);
+}
+
+.lang a{
+  color:white;
+  text-decoration:none;
+  font-size:15px;
+}
+
+.lang span{
+  color:#6ea8ff;
+}
+
+/* ================= PART 2：Hero ================= */
+
+.hero{
+  position:relative;
+  z-index:2;
+  min-height:100vh;
+  padding:110px 28px 40px;
+}
+
+.hero-title{
+  text-align:center;
+  margin-bottom:28px;
+}
+
+.hero-title h1{
+  font-family:Georgia,serif;
+  font-size:76px;
+  letter-spacing:2px;
+  text-shadow:0 0 24px rgba(80,160,255,.45);
+}
+
+.hero-title h2{
+  font-size:34px;
+  margin-top:8px;
+}
+
+.hero-title h3{
+  font-size:21px;
+  color:#e6efff;
+  font-weight:400;
+  margin-top:8px;
+}
+
+.hero-title p{
+  color:#c7d8ff;
+  margin-top:12px;
+  font-size:18px;
+}
+
+.hero-grid{
+  max-width:1420px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:310px 1fr 310px;
+  gap:22px;
+}
+
+.panel{
+  border:1px solid rgba(0,170,255,.45);
+  border-radius:20px;
+  background:rgba(5,25,65,.58);
+  box-shadow:0 0 28px rgba(0,120,255,.25);
+  backdrop-filter:blur(14px);
+}
+
+.side-panel{
+  padding:24px;
+  margin-bottom:22px;
+}
+
+.side-panel h2{
+  font-size:22px;
+  margin-bottom:6px;
+}
+
+.side-panel h4{
+  font-weight:400;
+  color:#d4e3ff;
+  margin-bottom:18px;
+}
+
+.side-panel p{
+  color:#dce7ff;
+  line-height:1.65;
+  font-size:14px;
+}
+
+.feature{
+  display:flex;
+  gap:16px;
+  margin-top:20px;
+}
+
+.feature .ficon{
+  width:44px;
+  height:44px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:30px;
+  color:#00d8ff;
+}
+
+.feature h3{
+  font-size:18px;
+  margin-bottom:4px;
+}
+
+.feature p{
+  font-size:13px;
+  color:#c8d8ff;
+}
+
+.center{
+  display:flex;
+  flex-direction:column;
+  gap:22px;
+}
+
+.planet-area{
+  height:480px;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.earth{
+  width:360px;
+  height:360px;
+  border-radius:50%;
+  background:
+    radial-gradient(circle at 35% 28%,rgba(255,255,255,.95),transparent 9%),
+    radial-gradient(circle at 42% 38%,#4bd8ff,#0059d6 45%,#00245f 75%,#00102e);
+  box-shadow:
+    0 0 35px rgba(0,190,255,.95),
+    inset 0 0 55px rgba(255,255,255,.22),
+    inset -40px -40px 80px rgba(0,0,0,.42);
+  position:relative;
+}
+
+.earth::after{
+  content:"Unilanguage";
+  position:absolute;
+  left:0;
+  right:0;
+  top:42%;
+  text-align:center;
+  font-family:Georgia,serif;
+  font-size:48px;
+  font-weight:700;
+  text-shadow:0 0 18px rgba(0,0,0,.8);
+}
+
+.earth::before{
+  content:"语言宇宙  Language Universe";
+  position:absolute;
+  left:0;
+  right:0;
+  top:59%;
+  text-align:center;
+  font-size:20px;
+}
+
+.orbit{
+  position:absolute;
+  border:2px solid rgba(64,205,255,.65);
+  border-radius:50%;
+  box-shadow:0 0 22px rgba(0,190,255,.55);
+}
+
+.orbit.one{
+  width:620px;
+  height:185px;
+  transform:rotate(0deg);
+}
+
+.orbit.two{
+  width:600px;
+  height:220px;
+  transform:rotate(22deg);
+}
+
+.orbit.three{
+  width:600px;
+  height:220px;
+  transform:rotate(-22deg);
+}
+
+.bubble{
+  position:absolute;
+  width:92px;
+  height:92px;
+  border-radius:50%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:radial-gradient(circle at 35% 25%,#74eaff,#0b53d9 70%);
+  border:1px solid rgba(255,255,255,.45);
+  box-shadow:0 0 26px rgba(0,190,255,.75);
+  font-weight:700;
+}
+
+.bubble small{
+  font-weight:400;
+  font-size:13px;
+}
+
+.b1{top:18px;}
+.b2{left:95px;top:145px;}
+.b3{right:95px;top:145px;}
+.b4{left:190px;bottom:55px;background:radial-gradient(circle,#ffe08b,#695642);}
+.b5{right:190px;bottom:55px;background:radial-gradient(circle,#70fff2,#006e76);}
+
+.layers{
+  min-height:245px;
+  padding:24px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+
+.layers h2{
+  grid-column:1/-1;
+  font-size:24px;
+}
+
+.pyramid{
+  display:flex;
+  flex-direction:column-reverse;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+}
+
+.level{
+  height:28px;
+  border-radius:6px;
+  box-shadow:0 0 18px rgba(0,170,255,.45);
+}
+
+.l1{width:150px;background:#bb8b25;}
+.l2{width:122px;background:#5746d9;}
+.l3{width:96px;background:#1a62df;}
+.l4{width:70px;background:#19a9e8;}
+.l5{width:40px;background:#8aff79;}
+
+.cube{
+  display:grid;
+  grid-template-columns:repeat(3,58px);
+  grid-template-rows:repeat(3,58px);
+  gap:5px;
+  justify-content:center;
+  align-content:center;
+}
+
+.cube div{
+  border:1px solid rgba(0,200,255,.8);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:27px;
+  color:#9ef3ff;
+  background:rgba(0,80,170,.25);
+  box-shadow:0 0 15px rgba(0,190,255,.28);
+}
+
+/* 底部横条 */
+.slogan{
+  max-width:1420px;
+  margin:22px auto 0;
+  padding:18px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+}
+
+.slogan strong{
+  font-size:23px;
+}
+
+.slogan small{
+  display:block;
+  margin-top:4px;
+  color:#c6d7ff;
+}
+
+.slogan-icons{
+  display:flex;
+  gap:28px;
+  color:#b9d8ff;
+}
+
+.enter-wrap{
+  text-align:center;
+  padding:55px 0 20px;
+}
+
+.enter{
+  display:inline-block;
+  padding:24px 76px;
+  border-radius:46px;
+  font-family:Georgia,serif;
+  font-size:30px;
+  color:white;
+  text-decoration:none;
+  border:2px solid #ffd46b;
+  background:rgba(6,19,45,.82);
+  box-shadow:0 0 35px rgba(255,210,80,.75);
+  transition:.35s;
+}
+
+.enter:hover{
+  transform:translateY(-5px);
+  background:#d4af37;
+  color:#061225;
+}
+
+.scroll{
+  margin-top:20px;
+  letter-spacing:2px;
+  color:#c8d7ff;
+}
+
+/* ================= PART 3：Explore ================= */
+
+.explore{
+  position:relative;
+  z-index:2;
+  padding:45px 28px 70px;
+}
+
+.explore-box{
+  max-width:1380px;
+  margin:0 auto;
+  padding:42px 52px;
+  border:1px solid rgba(0,170,255,.42);
+  border-radius:24px;
+  background:rgba(2,18,50,.72);
+  box-shadow:0 0 35px rgba(0,130,255,.18);
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+
+.card{
+  min-height:205px;
+  border-radius:22px;
+  padding:32px;
+  display:grid;
+  grid-template-columns:82px 1fr;
+  gap:18px;
+  align-items:center;
+  border:1px solid rgba(0,170,255,.48);
+  background:linear-gradient(135deg,rgba(0,50,120,.52),rgba(0,12,45,.7));
+  box-shadow:0 0 25px rgba(0,120,255,.22);
+  transition:.35s;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  border-color:#ffd46b;
+  box-shadow:0 0 38px rgba(255,210,80,.35);
+}
+
+.card-icon{
+  font-size:58px;
+  color:#11eaff;
+  text-shadow:0 0 22px rgba(0,230,255,.8);
+}
+
+.card h2{
+  font-family:Georgia,serif;
+  font-size:28px;
+  margin-bottom:8px;
+}
+
+.card h3{
+  font-size:18px;
+  color:#dce8ff;
+  margin-bottom:10px;
+}
+
+.card p{
+  font-size:13px;
+  line-height:1.55;
+  color:#c5d7ff;
+  margin-bottom:16px;
+}
+
+.card a{
+  display:inline-block;
+  padding:8px 22px;
+  border:1px solid rgba(0,170,255,.75);
+  border-radius:16px;
+  color:white;
+  text-decoration:none;
+  font-size:13px;
+}
+
+/* ================= PART 4：Footer + Responsive ================= */
+
+footer{
+  position:relative;
+  z-index:2;
+  text-align:center;
+  padding:30px;
+  color:#a9bdf0;
+}
+
+@media(max-width:1100px){
+  .hero-grid{
+    grid-template-columns:1fr;
+  }
+
+  .planet-area{
+    height:430px;
+  }
+
+  .cards{
+    grid-template-columns:1fr;
+  }
+
+  .layers{
+    grid-template-columns:1fr;
+  }
+
+  header{
+    padding:0 20px;
+  }
+
+  .logo-text{
+    display:none;
+  }
+
+  .hero-title h1{
+    font-size:48px;
+  }
+
+  .lang{
+    gap:10px;
+    padding:8px 12px;
+  }
+
+  .side-panel{
+    margin-bottom:18px;
+  }
+
+  .slogan{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .slogan-icons{
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .earth{
+    width:280px;
+    height:280px;
+  }
+
+  .earth::after{
+    font-size:34px;
+  }
+
+  .orbit.one,
+  .orbit.two,
+  .orbit.three{
+    width:420px;
+  }
+
+  .bubble{
+    width:70px;
+    height:70px;
+    font-size:14px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="site">
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">U</div>
+    <div class="logo-text">
+      <h3>Unilanguage</h3>
+      <p>One World, One Language</p>
+    </div>
+  </div>
+
+  <div class="lang">
+    <a href="index.zh.html">中文</a>
+    <span>|</span>
+    <a href="index.en.html">English</a>
+    <span>|</span>
+    <a href="index.fr.html">Français</a>
+  </div>
+</header>
+
+<section class="hero">
+
+  <div class="hero-title">
+    <h1>Unilanguage</h1>
+    <h2>语义语言统一协议系统</h2>
+    <h3>Semantic Language Unification Protocol System</h3>
+    <p>一个语言宇宙 · 一种语义协议 · 无限表达可能</p>
+  </div>
+
+  <div class="hero-grid">
+
+    <div>
+      <div class="panel side-panel">
+        <h2>Unilanguage 是什么？</h2>
+        <h4>What is Unilanguage?</h4>
+        <p>Unilanguage 是一个基于语义的语言统一协议系统，旨在打破自然语言的界限，建立一个可互通、可计算、可无限扩展的全新语言生态。</p>
+        <br>
+        <p>Unilanguage is a semantic-based language unification protocol system designed to build a new linguistic ecosystem.</p>
+      </div>
+
+      <div class="panel side-panel">
+        <h2>核心特性 Core Features</h2>
+
+        <div class="feature">
+          <div class="ficon">◎</div>
+          <div>
+            <h3>语义优先</h3>
+            <p>Meaning is the core, beyond words and grammar.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="ficon">◌</div>
+          <div>
+            <h3>跨语言互通</h3>
+            <p>Seamless understanding between languages.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="ficon">◇</div>
+          <div>
+            <h3>结构化协议</h3>
+            <p>Formal rules ensure precision and consistency.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="ficon">∞</div>
+          <div>
+            <h3>无限扩展</h3>
+            <p>Supports future languages, symbols and expressions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="center">
+
+      <div class="planet-area">
+        <div class="orbit one"></div>
+        <div class="orbit two"></div>
+        <div class="orbit three"></div>
+
+        <div class="bubble b1">语义<small>Semantic</small></div>
+        <div class="bubble b2">表达<small>Expression</small></div>
+        <div class="bubble b3">符号<small>Symbol</small></div>
+        <div class="bubble b4">应用<small>Application</small></div>
+        <div class="bubble b5">协议<small>Protocol</small></div>
+
+        <div class="earth"></div>
+      </div>
+
+      <div class="panel layers">
+        <h2>Unilanguage 协议层次 <small>Protocol Layers</small></h2>
+
+        <div class="pyramid">
+          <div class="level l1"></div>
+          <div class="level l2"></div>
+          <div class="level l3"></div>
+          <div class="level l4"></div>
+          <div class="level l5"></div>
+        </div>
+
+        <div class="cube">
+          <div>A</div><div>语</div><div>文</div>
+          <div>Ω</div><div>あ</div><div>한</div>
+          <div>字</div><div>Ω</div><div>书</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="panel side-panel">
+        <h2>Unilanguage 的目标</h2>
+        <h4>Our Mission</h4>
+        <p>◎ 建立全球统一的语义语言标准</p>
+        <br>
+        <p>◎ 促进跨文化、跨语言的深度理解</p>
+        <br>
+        <p>◎ 赋能人工智能与人类的自然协同</p>
+        <br>
+        <p>◎ 构建开放、共享、可持续的语言生态</p>
+      </div>
+
+      <div class="panel side-panel">
+        <h2>应用场景 Applications</h2>
+
+        <div class="feature">
+          <div class="ficon">▣</div>
+          <div>
+            <h3>跨语言沟通</h3>
+            <p>Real-time translation and semantic understanding.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="ficon">⌘</div>
+          <div>
+            <h3>知识图谱构建</h3>
+            <p>Connect multilingual knowledge graphs.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="ficon">🤖</div>
+          <div>
+            <h3>人工智能训练</h3>
+            <p>Provide richer semantic data for AI.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="ficon">▱</div>
+          <div>
+            <h3>教育与学习</h3>
+            <p>Create a learning environment without barriers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="panel slogan">
+    <div>
+      <strong>Unilanguage · 让语言回归语义，让沟通回归本质</strong>
+      <small>Let language return to semantics, let communication return to its essence.</small>
+    </div>
+
+    <div class="slogan-icons">
+      <span>开放 Open</span>
+      <span>协作 Collaborative</span>
+      <span>共享 Share</span>
+      <span>创新 Innovative</span>
+      <span>未来 Future</span>
+    </div>
+  </div>
+
+  <div class="enter-wrap">
+    <a class="enter" href="#explore">Enter Universe</a>
+    <div class="scroll">SCROLL ↓</div>
+  </div>
+
+</section>
+
+<section id="explore" class="explore">
+  <div class="explore-box">
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-icon">🔍</div>
+        <div>
+          <h2>Search</h2>
+          <h3>语义搜索</h3>
+          <p>Search words, concepts and semantic mappings across the multilingual universe.</p>
+          <a href="search.html">Explore →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📖</div>
+        <div>
+          <h2>Dictionary</h2>
+          <h3>语义词典</h3>
+          <p>Explore the semantics, etymology and mapping of words.</p>
+          <a href="dictionary.html">Explore →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">◎</div>
+        <div>
+          <h2>Knowledge Graph</h2>
+          <h3>知识图谱</h3>
+          <p>Build semantic networks to connect knowledge and wisdom.</p>
+          <a href="graph.html">Explore →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <div>
+          <h2>AI</h2>
+          <h3>人工智能</h3>
+          <p>Empower semantic understanding and language learning with AI.</p>
+          <a href="ai.html">Explore →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📜</div>
+        <div>
+          <h2>Protocol</h2>
+          <h3>语义协议</h3>
+          <p>Learn the structure and rules of the semantic protocol.</p>
+          <a href="protocol.html">Explore →</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📘</div>
+        <div>
+          <h2>Language Book</h2>
+          <h3>语言之书</h3>
+          <p>The complete language knowledge system and learning resources.</p>
+          <a href="book.html">Explore →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Unilanguage Protocol v1.0 · Semantic Language Universe</p>
+  <p>© 2026 Unilanguage. All rights reserved.</p>
+</footer>
+
+</div>
+
+</body>
+</html>

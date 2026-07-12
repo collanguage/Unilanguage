@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knowledge Graph · Unilanguage</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">U</div>
+    <div class="logo-text">
+      <h3>Unilanguage</h3>
+      <p>Knowledge Graph</p>
+    </div>
+  </div>
+
+  <div class="lang">
+    <a href="index.html">Home</a>
+    <span>|</span>
+    <a href="search.html">Search</a>
+    <span>|</span>
+    <a href="dictionary.html">Dictionary</a>
+    <span>|</span>
+    <a href="protocol.html">Protocol</a>
+    <span>|</span>
+    <a href="book.html">Book</a>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="page-title">
+    <h1>Knowledge Graph</h1>
+    <p>语义知识图谱 · connect words, meanings, symbols and concepts inside the Unilanguage universe.</p>
+  </section>
+
+  <section class="panel graph-panel">
+
+    <div class="graph-space">
+
+      <div class="graph-line line-a"></div>
+      <div class="graph-line line-b"></div>
+      <div class="graph-line line-c"></div>
+      <div class="graph-line line-d"></div>
+      <div class="graph-line line-e"></div>
+      <div class="graph-line line-f"></div>
+
+      <a class="graph-node center-node" href="dictionary.html#language">
+        <strong>Language</strong>
+        <span>语言</span>
+      </a>
+
+      <a class="graph-node node-universe" href="dictionary.html#universe">
+        <strong>Universe</strong>
+        <span>宇宙</span>
+      </a>
+
+      <a class="graph-node node-human" href="dictionary.html#human">
+        <strong>Human</strong>
+        <span>人</span>
+      </a>
+
+      <a class="graph-node node-knowledge" href="dictionary.html#knowledge">
+        <strong>Knowledge</strong>
+        <span>知识</span>
+      </a>
+
+      <a class="graph-node node-ai" href="ai.html">
+        <strong>AI</strong>
+        <span>智能</span>
+      </a>
+
+      <a class="graph-node node-protocol" href="protocol.html">
+        <strong>Protocol</strong>
+        <span>协议</span>
+      </a>
+
+      <a class="graph-node node-symbol" href="dictionary.html#language">
+        <strong>Symbol</strong>
+        <span>符号</span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <section class="cards" style="margin-top:42px;">
+
+    <div class="card">
+      <div class="card-icon">🗣</div>
+      <div>
+        <h2>Language</h2>
+        <h3>Core Node</h3>
+        <p>Language connects sound, symbol, meaning, culture and human cognition.</p>
+        <a href="dictionary.html#language">Open →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">📚</div>
+      <div>
+        <h2>Knowledge</h2>
+        <h3>Structured Meaning</h3>
+        <p>Knowledge is organized meaning, connected through concepts and semantic fields.</p>
+        <a href="dictionary.html#knowledge">Open →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">📜</div>
+      <div>
+        <h2>Protocol</h2>
+        <h3>Rule System</h3>
+        <p>The protocol defines how meaning is encoded, connected and reconstructed.</p>
+        <a href="protocol.html">Open →</a>
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>Unilanguage Protocol v1.0 · Knowledge Graph</p>
+</footer>
+
+<style>
+.graph-panel{
+  max-width:1180px;
+  margin:auto;
+  padding:30px;
+}
+
+.graph-space{
+  position:relative;
+  height:620px;
+  border-radius:26px;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at center,rgba(0,170,255,.20),transparent 35%),
+    radial-gradient(circle at 20% 20%,rgba(255,212,107,.10),transparent 30%),
+    rgba(2,8,23,.55);
+}
+
+.graph-node{
+  position:absolute;
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  border:1px solid rgba(0,220,255,.72);
+  background:radial-gradient(circle at 35% 25%,rgba(120,240,255,.92),rgba(0,70,180,.85) 62%,rgba(0,15,60,.95));
+  box-shadow:0 0 32px rgba(0,190,255,.65);
+  z-index:5;
+  transition:.35s;
+}
+
+.graph-node:hover{
+  transform:scale(1.08);
+  border-color:#ffd46b;
+  box-shadow:0 0 45px rgba(255,212,107,.65);
+}
+
+.graph-node strong{
+  font-size:20px;
+}
+
+.graph-node span{
+  margin-top:6px;
+  color:#e0efff;
+}
+
+.center-node{
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width:190px;
+  height:190px;
+  border-color:#ffd46b;
+  box-shadow:0 0 50px rgba(255,212,107,.7);
+}
+
+.center-node:hover{
+  transform:translate(-50%,-50%) scale(1.08);
+}
+
+.node-universe{left:8%;top:8%;}
+.node-human{right:10%;top:10%;}
+.node-knowledge{left:12%;bottom:12%;}
+.node-ai{right:12%;bottom:12%;}
+.node-protocol{left:50%;top:6%;transform:translateX(-50%);}
+.node-symbol{left:50%;bottom:7%;transform:translateX(-50%);}
+
+.node-protocol:hover,
+.node-symbol:hover{
+  transform:translateX(-50%) scale(1.08);
+}
+
+.graph-line{
+  position:absolute;
+  height:2px;
+  background:linear-gradient(to right,transparent,#00d8ff,#ffd46b,transparent);
+  box-shadow:0 0 18px rgba(0,220,255,.7);
+  transform-origin:left center;
+  z-index:1;
+}
+
+.line-a{width:430px;left:230px;top:150px;transform:rotate(25deg);}
+.line-b{width:420px;left:560px;top:155px;transform:rotate(155deg);}
+.line-c{width:430px;left:240px;bottom:170px;transform:rotate(-25deg);}
+.line-d{width:420px;left:560px;bottom:170px;transform:rotate(205deg);}
+.line-e{width:340px;left:420px;top:160px;transform:rotate(90deg);}
+.line-f{width:340px;left:420px;bottom:160px;transform:rotate(-90deg);}
+
+@media(max-width:900px){
+  .graph-space{
+    height:auto;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:18px;
+    padding:24px;
+  }
+
+  .graph-node,
+  .center-node,
+  .node-universe,
+  .node-human,
+  .node-knowledge,
+  .node-ai,
+  .node-protocol,
+  .node-symbol{
+    position:relative;
+    left:auto;
+    right:auto;
+    top:auto;
+    bottom:auto;
+    transform:none;
+    width:100%;
+    height:auto;
+    min-height:100px;
+    border-radius:20px;
+  }
+
+  .center-node:hover,
+  .node-protocol:hover,
+  .node-symbol:hover,
+  .graph-node:hover{
+    transform:scale(1.02);
+  }
+
+  .graph-line{
+    display:none;
+  }
+}
+</style>
+
+</body>
+</html>

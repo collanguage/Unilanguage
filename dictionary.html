@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dictionary · Unilanguage</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">U</div>
+    <div class="logo-text">
+      <h3>Unilanguage</h3>
+      <p>Semantic Dictionary</p>
+    </div>
+  </div>
+
+  <div class="lang">
+    <a href="index.html">Home</a>
+    <span>|</span>
+    <a href="search.html">Search</a>
+    <span>|</span>
+    <a href="chinese.html">中文</a>
+    <span>|</span>
+    <a href="english.html">EN</a>
+    <span>|</span>
+    <a href="french.html">FR</a>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="page-title">
+    <h1>Unilanguage Dictionary</h1>
+    <p>English · Chinese · French · Semantic Mapping</p>
+  </section>
+
+  <section class="search-box">
+    <input id="dictSearch" type="text" placeholder="Search: universe, human, language, knowledge...">
+    <button onclick="filterDictionary()">Search</button>
+  </section>
+
+  <section class="dictionary-grid">
+
+    <div class="word-card" id="universe" data-word="universe cosmos 宇宙 世界 cosmos">
+      <h2>🌍 Universe</h2>
+      <div class="word-row"><span>English</span><strong>Universe / Cosmos</strong></div>
+      <div class="word-row"><span>Chinese</span><strong>宇宙 / 世界</strong></div>
+      <div class="word-row"><span>French</span><strong>Univers / Monde</strong></div>
+      <div class="word-row"><span>Meaning</span><strong>All existence</strong></div>
+      <a class="btn" href="words/universe.html">Word Page →</a>
+    </div>
+
+    <div class="word-card" id="human" data-word="human person 人 homme human">
+      <h2>👤 Human</h2>
+      <div class="word-row"><span>English</span><strong>Human / Person</strong></div>
+      <div class="word-row"><span>Chinese</span><strong>人 / 人类</strong></div>
+      <div class="word-row"><span>French</span><strong>Humain / Homme</strong></div>
+      <div class="word-row"><span>Meaning</span><strong>Conscious being</strong></div>
+      <a class="btn" href="words/human.html">Word Page →</a>
+    </div>
+
+    <div class="word-card" id="language" data-word="language 语言 langue speech">
+      <h2>🗣 Language</h2>
+      <div class="word-row"><span>English</span><strong>Language / Speech</strong></div>
+      <div class="word-row"><span>Chinese</span><strong>语言 / 言语</strong></div>
+      <div class="word-row"><span>French</span><strong>Langue / Langage</strong></div>
+      <div class="word-row"><span>Meaning</span><strong>Symbol communication system</strong></div>
+      <a class="btn" href="words/language.html">Word Page →</a>
+    </div>
+
+    <div class="word-card" id="knowledge" data-word="knowledge 知识 savoir connaissance">
+      <h2>📚 Knowledge</h2>
+      <div class="word-row"><span>English</span><strong>Knowledge</strong></div>
+      <div class="word-row"><span>Chinese</span><strong>知识 / 知</strong></div>
+      <div class="word-row"><span>French</span><strong>Connaissance / Savoir</strong></div>
+      <div class="word-row"><span>Meaning</span><strong>Structured information</strong></div>
+      <a class="btn" href="words/knowledge.html">Word Page →</a>
+    </div>
+
+    <div class="word-card" id="time" data-word="time 时间 temps chrono">
+      <h2>⏳ Time</h2>
+      <div class="word-row"><span>English</span><strong>Time</strong></div>
+      <div class="word-row"><span>Chinese</span><strong>时间 / 时</strong></div>
+      <div class="word-row"><span>French</span><strong>Temps</strong></div>
+      <div class="word-row"><span>Meaning</span><strong>Sequence and change</strong></div>
+      <a class="btn" href="words/time.html">Word Page →</a>
+    </div>
+
+    <div class="word-card" id="life" data-word="life 生活 vie living">
+      <h2>🏠 Life</h2>
+      <div class="word-row"><span>English</span><strong>Life</strong></div>
+      <div class="word-row"><span>Chinese</span><strong>生活 / 生命</strong></div>
+      <div class="word-row"><span>French</span><strong>Vie</strong></div>
+      <div class="word-row"><span>Meaning</span><strong>Living existence</strong></div>
+      <a class="btn" href="words/life.html">Word Page →</a>
+    </div>
+
+    <div class="word-card" id="nature" data-word="nature 自然 nature world">
+      <h2>🌳 Nature</h2>
+      <div class="word-row"><span>English</span><strong>Nature</strong></div>
+      <div class="word-row"><span>Chinese</span><strong>自然</strong></div>
+      <div class="word-row"><span>French</span><strong>Nature</strong></div>
+      <div class="word-row"><span>Meaning</span><strong>External world system</strong></div>
+      <a class="btn" href="words/nature.html">Word Page →</a>
+    </div>
+
+    <div class="word-card" id="emotion" data-word="emotion 情感 feeling émotion">
+      <h2>❤️ Emotion</h2>
+      <div class="word-row"><span>English</span><strong>Emotion / Feeling</strong></div>
+      <div class="word-row"><span>Chinese</span><strong>情感 / 感情</strong></div>
+      <div class="word-row"><span>French</span><strong>Émotion / Sentiment</strong></div>
+      <div class="word-row"><span>Meaning</span><strong>Internal state system</strong></div>
+      <a class="btn" href="words/emotion.html">Word Page →</a>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>Unilanguage Protocol v1.0 · Semantic Dictionary</p>
+</footer>
+
+<script src="js/search.js"></script>
+
+</body>
+</html>

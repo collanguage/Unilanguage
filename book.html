@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language Book · Unilanguage</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">U</div>
+    <div class="logo-text">
+      <h3>Unilanguage</h3>
+      <p>Language Book</p>
+    </div>
+  </div>
+
+  <div class="lang">
+    <a href="index.html">Home</a>
+    <span>|</span>
+    <a href="search.html">Search</a>
+    <span>|</span>
+    <a href="dictionary.html">Dictionary</a>
+    <span>|</span>
+    <a href="graph.html">Graph</a>
+    <span>|</span>
+    <a href="protocol.html">Protocol</a>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="page-title">
+    <h1>Language Book</h1>
+    <p>语言书 · vocabulary, etymology, semantic mapping, protocol rules and literary explanation.</p>
+  </section>
+
+  <section class="cards">
+
+    <div class="card">
+      <div class="card-icon">📚</div>
+      <div>
+        <h2>Dictionary</h2>
+        <h3>词汇系统</h3>
+        <p>Browse multilingual entries and semantic fields.</p>
+        <a href="dictionary.html">Open →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">🌐</div>
+      <div>
+        <h2>Knowledge Graph</h2>
+        <h3>知识图谱</h3>
+        <p>See how meanings connect across languages and concepts.</p>
+        <a href="graph.html">Open →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-icon">📜</div>
+      <div>
+        <h2>Protocol</h2>
+        <h3>语义协议</h3>
+        <p>Read the rules behind semantic encoding and reconstruction.</p>
+        <a href="protocol.html">Open →</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="panel book-section">
+
+    <h2>Book Structure · 语言书结构</h2>
+
+    <div class="book-list">
+
+      <div class="book-item">
+        <strong>1. Word Entry · 词条</strong>
+        <p>Each word contains English, Chinese, French, pronunciation, category and semantic meaning.</p>
+      </div>
+
+      <div class="book-item">
+        <strong>2. Etymology · 语源</strong>
+        <p>Trace the origin of words through English, French, Latin, Chinese and other language layers.</p>
+      </div>
+
+      <div class="book-item">
+        <strong>3. Semantic Mapping · 语义映射</strong>
+        <p>Connect words through sound, image, direction, culture and meaning fields.</p>
+      </div>
+
+      <div class="book-item">
+        <strong>4. Protocol Rules · 协议规则</strong>
+        <p>Explain how meaning is encoded, transmitted and reconstructed across systems.</p>
+      </div>
+
+      <div class="book-item">
+        <strong>5. Literary Explanation · 文学讲解</strong>
+        <p>Each word may begin with a poetic sentence, then unfold into linguistic analysis.</p>
+      </div>
+
+      <div class="book-item">
+        <strong>6. Media Layer · 媒体层</strong>
+        <p>Future entries may include images, music, video explanation and AI narration.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="panel sample-entry">
+
+    <h2>Sample Entry · 示例词条</h2>
+
+    <div class="entry-head">
+      <div>
+        <h3>LANGUAGE</h3>
+        <p>English · 语言 · Langue</p>
+      </div>
+      <span>Core Concept</span>
+    </div>
+
+    <p class="literary">
+      “Language is the bridge between minds, but meaning is the universe beneath the bridge.”
+    </p>
+
+    <div class="entry-grid">
+
+      <div>
+        <strong>English</strong>
+        <p>Language / Speech</p>
+      </div>
+
+      <div>
+        <strong>Chinese</strong>
+        <p>语言 / 言语</p>
+      </div>
+
+      <div>
+        <strong>French</strong>
+        <p>Langue / Langage</p>
+      </div>
+
+      <div>
+        <strong>Semantic Field</strong>
+        <p>Symbol · Sound · Meaning · Human · Culture</p>
+      </div>
+
+    </div>
+
+    <a class="btn" href="dictionary.html#language">Open in Dictionary →</a>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>Unilanguage Protocol v1.0 · Language Book</p>
+</footer>
+
+<style>
+.book-section,
+.sample-entry{
+  max-width:1180px;
+  margin:42px auto 0;
+  padding:38px;
+}
+
+.book-section h2,
+.sample-entry h2{
+  font-family:Georgia,serif;
+  color:#ffd46b;
+  font-size:34px;
+  margin-bottom:28px;
+}
+
+.book-list{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:22px;
+}
+
+.book-item{
+  padding:24px;
+  border-radius:18px;
+  border:1px solid rgba(0,170,255,.35);
+  background:rgba(0,40,100,.32);
+}
+
+.book-item strong{
+  display:block;
+  font-size:20px;
+  color:white;
+  margin-bottom:10px;
+}
+
+.book-item p{
+  color:#c8d9ff;
+  line-height:1.7;
+}
+
+.entry-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  border-bottom:1px solid rgba(255,255,255,.1);
+  padding-bottom:18px;
+  margin-bottom:24px;
+}
+
+.entry-head h3{
+  font-family:Georgia,serif;
+  font-size:40px;
+  color:white;
+}
+
+.entry-head p{
+  color:#c8d9ff;
+  margin-top:6px;
+}
+
+.entry-head span{
+  color:#061225;
+  background:#d4af37;
+  padding:10px 18px;
+  border-radius:20px;
+  font-weight:700;
+}
+
+.literary{
+  font-size:21px;
+  line-height:1.8;
+  color:#f2e6c8;
+  margin-bottom:28px;
+  font-family:Georgia,serif;
+}
+
+.entry-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+  margin-bottom:28px;
+}
+
+.entry-grid div{
+  padding:20px;
+  border-radius:16px;
+  border:1px solid rgba(0,170,255,.28);
+  background:rgba(0,40,100,.24);
+}
+
+.entry-grid strong{
+  display:block;
+  color:#ffd46b;
+  margin-bottom:8px;
+}
+
+.entry-grid p{
+  color:#d8e6ff;
+}
+
+@media(max-width:900px){
+  .book-list,
+  .entry-grid{
+    grid-template-columns:1fr;
+  }
+
+  .entry-head{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+}
+</style>
+
+</body>
+</html>
