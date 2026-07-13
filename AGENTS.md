@@ -17,6 +17,7 @@ Its purpose is to study, document, test, and publish systematic relationships am
 
 - sound
 - space
+- time
 - meaning
 - language
 - human cognition
