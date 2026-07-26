@@ -1,342 +1,649 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Space Protocol · Unilanguage</title>
-
-<link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spatial Semantics Version 1.1 — a Protocol Book theory chapter explaining the spatial foundations of MOVE, UP, DOWN, EXIST and related semantic operations.">
+    <meta name="keywords" content="Unilanguage, Spatial Semantics, Protocol Book, Semantic Protocol, spatial metaphor, meaning, multilingual mapping">
+    <meta name="author" content="Unilanguage">
+    <meta property="og:title" content="Spatial Semantics · Unilanguage">
+    <meta property="og:description" content="A theoretical foundation for understanding how spatial relations support existing semantic operations.">
+    <meta property="og:type" content="article">
+    <title>Spatial Semantics · Protocol Book Chapter 02 · Unilanguage</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+    <header class="site-header">
+        <a class="site-logo" href="../index.html" aria-label="Unilanguage home">
+            Unilanguage
+        </a>
 
-<header>
-  <div class="logo">UNILANGUAGE</div>
-  <nav>
-    <a href="../index.html">Home</a>
-    <a href="../search.html">Search</a>
-    <a href="../dictionary.html">Dictionary</a>
-    <a href="../protocol.html">Protocol</a>
-    <a href="../translation-protocol.html">UTP</a>
-  </nav>
-</header>
+        <nav class="main-navigation" aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../search.html">Search</a>
+            <a href="../dictionary.html">Dictionary</a>
+            <a href="../protocol.html" aria-current="page">Protocol</a>
+            <a href="../literature.html">Literature</a>
+            <a href="../knowledge-graph.html">Knowledge Graph</a>
+            <a href="../translation-protocol.html">UTP</a>
+            <a href="../contribute.html">Community</a>
+        </nav>
+    </header>
 
-<main class="page">
+    <main class="protocol-page">
+        <article>
+            <header class="page-hero">
+                <p class="eyebrow">Protocol Book · Chapter 02</p>
+                <h1>Spatial Semantics</h1>
+                <p class="subtitle">空间语义基础 · Sémantique spatiale</p>
+                <p class="version">Version 1.1 · 2026-07-24</p>
+                <p class="hero-statement">
+                    Space is not only where meaning occurs. Space is one of the
+                    structures through which meaning becomes imaginable.
+                </p>
+                <p class="hero-statement" lang="zh-Hans">
+                    空间不只是意义发生的地方；空间也是意义得以被想象的一种结构。
+                </p>
+            </header>
 
-<section class="hero">
-  <h1>Space Protocol</h1>
-  <p class="subtitle">Protocol Book · Chapter 02</p>
-  <p class="tagline">Space is not only where things exist. Space is how meaning begins.</p>
-</section>
+            <nav class="case-path" aria-label="First complete case">
+                <p class="case-path-title">The First Complete Case · 第一组完整案例</p>
+                <ol>
+                    <li>
+                        <strong>Protocol Book</strong>
+                        <span>Spatial Semantics</span>
+                    </li>
+                    <li>
+                        <strong>Language Book</strong>
+                        <a href="../words/sky.html">Sky → 天 → 昊 → 盖</a>
+                    </li>
+                    <li>
+                        <strong>UTP Lab</strong>
+                        <a href="../translation/sky.utp.html">Sky Translation Evaluation</a>
+                    </li>
+                </ol>
+            </nav>
 
-<section class="card">
-  <h2>1. Literary Introduction</h2>
-  <p>
-    Before language became grammar, there was space.
-    A child reaches upward before speaking “up.”
-    Water falls before anyone invents the word “down.”
-    The sky surrounds the earth before any civilization names it.
-  </p>
-  <p>
-    Every language is written differently, but every human body lives inside the same space.
-    Meaning begins not with words, but with movement inside space.
-  </p>
-  <p class="cn">
-    在语言成为语法之前，世界已经拥有空间。孩子在学会“上”之前，已经知道伸手。
-    水在学会名字之前，已经向下流。天空包围大地，远早于任何一种语言。
-  </p>
-</section>
+            <section id="literary-introduction" class="literary-introduction">
+                <p class="section-number">01</p>
+                <h2>Literary Introduction · 文学引言</h2>
 
-<section class="card">
-  <h2>2. Definition</h2>
-  <h3>What is Space?</h3>
-  <p>
-    Space is not merely physical location. Within the Semantic Protocol,
-    Space is the relational structure that organizes meaning.
-  </p>
-  <p>
-    Objects, actions, emotions, and concepts are interpreted according to their positions,
-    directions, distance, and containment.
-  </p>
-  <p class="highlight">
-    Meaning exists because semantic objects occupy space.
-  </p>
-  <p class="cn">
-    空间不仅仅是物理位置。在 Semantic Protocol 中，Space 是组织意义的关系结构。
-    对象、动作、情感和概念，都通过位置、方向、距离和内外关系获得意义。
-  </p>
-</section>
+                <blockquote>
+                    <p>
+                        A child looks upward. Above him, the sky appears without
+                        walls, yet it gathers the whole world beneath it. A bird
+                        rises, a star seems distant, and a cloud passes from east
+                        to west. Before the child learns the words
+                        <em>height</em>, <em>distance</em>, or <em>freedom</em>,
+                        the body has already understood their directions.
+                    </p>
+                    <p lang="zh-Hans">
+                        一个孩子抬头望去。天空没有墙，却把整个世界收在它的下面。
+                        鸟向上飞，星辰显得遥远，云从东方移向西方。在孩子学会“高度”、
+                        “距离”或“自由”这些词以前，身体已经先理解了它们的方向。
+                    </p>
+                </blockquote>
 
-<section class="card">
-  <h2>3. Multilingual Mapping</h2>
+                <p>
+                    Language begins in lived relations: above and below, inside
+                    and outside, near and far, toward and away. This theory
+                    chapter studies how these relations become semantic
+                    structure.
+                </p>
+            </section>
 
-  <table>
-    <tr>
-      <th>English</th>
-      <th>Chinese</th>
-      <th>French</th>
-    </tr>
-    <tr>
-      <td>space</td>
-      <td>空间</td>
-      <td>espace</td>
-    </tr>
-    <tr>
-      <td>position</td>
-      <td>位置</td>
-      <td>position</td>
-    </tr>
-    <tr>
-      <td>direction</td>
-      <td>方向</td>
-      <td>direction</td>
-    </tr>
-    <tr>
-      <td>inside</td>
-      <td>内</td>
-      <td>intérieur</td>
-    </tr>
-    <tr>
-      <td>outside</td>
-      <td>外</td>
-      <td>extérieur</td>
-    </tr>
-    <tr>
-      <td>above</td>
-      <td>上</td>
-      <td>au-dessus</td>
-    </tr>
-    <tr>
-      <td>below</td>
-      <td>下</td>
-      <td>en dessous</td>
-    </tr>
-  </table>
-</section>
+            <section id="definition">
+                <p class="section-number">02</p>
+                <h2>Definition · What Is Space?</h2>
 
-<section class="card">
-  <h2>4. Etymology</h2>
-  <p>
-    English <strong>space</strong> comes from Latin <em>spatium</em>,
-    meaning room, distance, interval, or extent.
-  </p>
-  <p>
-    French <strong>espace</strong> also comes from Latin <em>spatium</em>.
-  </p>
-  <p>
-    Chinese <strong>空间</strong> combines <strong>空</strong>, meaning empty,
-    and <strong>间</strong>, meaning interval or between.
-  </p>
-  <p class="cn">
-    “空间”由“空”和“间”组成。空，表示可容纳；间，表示间隔与关系。
-    因此，空间不是虚无，而是意义关系可以发生的场域。
-  </p>
-</section>
+                <p>
+                    In ordinary use, <strong>space</strong> may mean room,
+                    distance, an interval, an area, or the expanse beyond Earth.
+                    In this Protocol Book theory chapter, space is defined as:
+                </p>
 
-<section class="card">
-  <h2>5. Unilanguage Interpretation</h2>
-  <p>
-    Traditional linguistics often treats space as a background for language.
-    Unilanguage reverses this perspective.
-  </p>
-  <p>
-    Language does not simply exist in space.
-    Language exists because semantic space already organizes meaning.
-  </p>
-  <p>
-    Words are compressed descriptions of spatial relations.
-    Different languages encode the same spatial structures through different sounds and symbols.
-  </p>
-  <p class="highlight">
-    Semantic correspondence is often more fundamental than lexical correspondence.
-  </p>
-</section>
+                <blockquote class="protocol-definition">
+                    <p>
+                        <strong>Space is a relational field in which an entity,
+                        event, or idea can be located, oriented, bounded,
+                        separated, connected, or moved.</strong>
+                    </p>
+                </blockquote>
 
-<section class="card">
-  <h2>6. Semantic Rules</h2>
+                <p>
+                    This definition has two layers:
+                </p>
 
-  <h3>Rule 1 · Meaning begins with spatial distinction</h3>
-  <p>No space, no object. No object, no relation. No relation, no meaning.</p>
+                <dl class="definition-list">
+                    <dt>Physical space</dt>
+                    <dd>
+                        Observable relations among bodies and places: position,
+                        distance, direction, boundary, containment, and movement.
+                    </dd>
 
-  <h3>Rule 2 · Every semantic object occupies a position</h3>
-  <p>Sky, earth, human, tree, house, and body all carry spatial positions.</p>
+                    <dt>Semantic space</dt>
+                    <dd>
+                        A structured field in which ideas are understood through
+                        relations such as high/low, inner/outer, near/far,
+                        center/edge, and source/path/goal.
+                    </dd>
+                </dl>
 
-  <h3>Rule 3 · Direction creates semantic change</h3>
-  <p>Up, down, inside, outside, near, and far are not only physical directions. They are semantic operators.</p>
+                <p>
+                    The protocol does not claim that all meanings are spatial.
+                    It proposes that spatial relations provide one important and
+                    testable layer for constructing, comparing, and translating
+                    meaning.
+                </p>
 
-  <h3>Rule 4 · Containment creates category</h3>
-  <p>Body, house, city, memory, book, and language can all be understood through inside/outside structure.</p>
+                <aside class="evidence-card">
+                    <h3>Positioning statement · 定位说明</h3>
+                    <p>
+                        <strong>SPACE is not a named operation in the current
+                        Semantic Protocol.</strong> This chapter provides
+                        theoretical background for interpreting existing
+                        operations such as <code>MOVE</code>,
+                        <code>CHANGE</code>, <code>EXIST</code>,
+                        <code>UP</code>, <code>DOWN</code>, and
+                        <code>CONNECT</code>.
+                    </p>
+                    <p lang="zh-Hans">
+                        <strong>SPACE 不是当前 Semantic Protocol 中的一项正式操作。</strong>
+                        本章是 Protocol Book 的理论章节，用于解释 MOVE、CHANGE、
+                        EXIST、UP、DOWN 和 CONNECT 等现有语义操作所涉及的空间基础。
+                    </p>
+                </aside>
+            </section>
 
-  <h3>Rule 5 · Distance creates relation</h3>
-  <p>Near, far, approach, leave, return, belong, and exile all come from distance transformation.</p>
-</section>
+            <section id="multilingual-mapping">
+                <p class="section-number">03</p>
+                <h2>Multilingual Mapping · 多语言映射</h2>
 
-<section class="card">
-  <h2>7. Spatial Directions</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <caption>Core terms for space and spatial relations</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Concept</th>
+                                <th scope="col">English</th>
+                                <th scope="col">中文</th>
+                                <th scope="col">Français</th>
+                                <th scope="col">Relation to current operations</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Space</th>
+                                <td>space</td>
+                                <td lang="zh-Hans">空间</td>
+                                <td lang="fr">espace</td>
+                                <td><code>EXIST</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Above</th>
+                                <td>up / above</td>
+                                <td lang="zh-Hans">上</td>
+                                <td lang="fr">haut / au-dessus</td>
+                                <td>UP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Below</th>
+                                <td>down / below</td>
+                                <td lang="zh-Hans">下</td>
+                                <td lang="fr">bas / au-dessous</td>
+                                <td>DOWN</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Interior</th>
+                                <td>in / inside</td>
+                                <td lang="zh-Hans">内 / 里</td>
+                                <td lang="fr">dans / intérieur</td>
+                                <td>Spatial relation; not a current operation</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Exterior</th>
+                                <td>out / outside</td>
+                                <td lang="zh-Hans">外</td>
+                                <td lang="fr">hors / extérieur</td>
+                                <td>Spatial relation; not a current operation</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Approach</th>
+                                <td>near / toward</td>
+                                <td lang="zh-Hans">近 / 向</td>
+                                <td lang="fr">près / vers</td>
+                                <td><code>MOVE</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Separation</th>
+                                <td>far / away</td>
+                                <td lang="zh-Hans">远 / 离</td>
+                                <td lang="fr">loin / s’éloigner</td>
+                                <td><code>MOVE</code></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-  <div class="diagram">
-<pre>
-                    UP
-                     ↑
-                     |
-        OUT  ←   MEANING   →  IN
-                     |
-                     ↓
-                   DOWN
-</pre>
-  </div>
+                <p class="evidence-note">
+                    These are semantic equivalents used for comparison. Their
+                    placement in one table does not imply a shared historical
+                    origin.
+                </p>
+            </section>
 
-  <p>
-    In Semantic Protocol, direction is not decorative.
-    Direction is a basic semantic force.
-  </p>
+            <section id="etymology">
+                <p class="section-number">04</p>
+                <h2>Etymology · 词源</h2>
 
-  <ul>
-    <li><strong>UP</strong>: rise, growth, sky, hope, spirit</li>
-    <li><strong>DOWN</strong>: fall, depth, earth, body, foundation</li>
-    <li><strong>IN</strong>: inner world, memory, self, protection</li>
-    <li><strong>OUT</strong>: expression, expansion, openness, freedom</li>
-  </ul>
-</section>
+                <h3>English and French</h3>
+                <p>
+                    English <em>space</em> entered through Old French
+                    <em>espace</em>, from Latin <em>spatium</em>, a word that
+                    carried senses including room, area, distance, and an
+                    interval of time. French <em>espace</em> belongs to the same
+                    historical line. The deeper origin of Latin
+                    <em>spatium</em> is uncertain.
+                </p>
 
-<section class="card">
-  <h2>8. Spatial Metaphors</h2>
-  <p>
-    Human beings do not understand abstract meaning directly.
-    We often understand abstract meaning through spatial metaphors.
-  </p>
+                <h3>Chinese</h3>
+                <p lang="zh-Hans">
+                    汉语“空间”由“空”与“间”组成。“空”可以表示未被占据、没有内容，
+                    也可以指可容纳事物的空处；“间”突出事物之间的间隔与关系。
+                    因而“空间”既可被理解为“可容纳之处”，也可被理解为“事物之间的关系场”。
+                </p>
 
-  <table>
-    <tr>
-      <th>Spatial Form</th>
-      <th>Semantic Meaning</th>
-    </tr>
-    <tr>
-      <td>high</td>
-      <td>noble, spiritual, powerful</td>
-    </tr>
-    <tr>
-      <td>low</td>
-      <td>humble, basic, physical</td>
-    </tr>
-    <tr>
-      <td>inside</td>
-      <td>self, memory, secret, origin</td>
-    </tr>
-    <tr>
-      <td>outside</td>
-      <td>world, expression, freedom</td>
-    </tr>
-    <tr>
-      <td>far</td>
-      <td>dream, distance, future</td>
-    </tr>
-    <tr>
-      <td>near</td>
-      <td>intimacy, presence, belonging</td>
-    </tr>
-  </table>
-</section>
+                <aside class="evidence-card">
+                    <h3>Evidence boundary · 证据边界</h3>
+                    <p>
+                        The historical relation between English
+                        <em>space</em> and French <em>espace</em> is
+                        etymological. The comparison with Chinese
+                        <span lang="zh-Hans">空间</span> is semantic and
+                        conceptual; this page does not claim historical cognacy
+                        between them.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://www.etymonline.com/word/space">
+                                Online Etymology Dictionary: space
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.zdic.net/hans/%E7%A9%BA">
+                                汉典：空
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+            </section>
 
-<section class="card">
-  <h2>9. Case Study · Sora, Sky, and World Model</h2>
+            <section id="unilanguage-interpretation">
+                <p class="section-number">05</p>
+                <h2>Unilanguage Interpretation · 共通语言解释</h2>
 
-  <p>
-    The name <strong>Sora</strong> provides an interesting illustration of semantic space.
-    In Japanese, <strong>sora</strong> means sky.
-  </p>
+                <p>
+                    Unilanguage treats space as a <strong>semantic
+                    coordinate system</strong>. A word or sentence may place an
+                    entity within a field, assign it a direction, establish a
+                    boundary, or describe a path of change.
+                </p>
 
-  <p>
-    The sky is not merely an object above us.
-    It represents openness, height, freedom, imagination, and possibility.
-  </p>
+                <div class="semantic-sequence" aria-label="Semantic sequence">
+                    <p><strong>Sound</strong></p>
+                    <p aria-hidden="true">↓</p>
+                    <p><strong>Spatial orientation</strong></p>
+                    <p aria-hidden="true">↓</p>
+                    <p><strong>Conceptual relation</strong></p>
+                    <p aria-hidden="true">↓</p>
+                    <p><strong>Meaning</strong></p>
+                    <p aria-hidden="true">↓</p>
+                    <p><strong>Language and translation</strong></p>
+                </div>
 
-  <p>
-    In modern AI, a world model does not merely generate words.
-    It attempts to reconstruct spatial relations, physical interactions, and causal structures.
-  </p>
+                <p>
+                    For example, <em>rise</em> first describes upward movement.
+                    It can then describe a rise in temperature, status, hope, or
+                    intensity. The physical direction remains available as a
+                    semantic pattern even when no object literally moves.
+                </p>
 
-  <p class="highlight">
-    Space becomes the bridge between imagination and reality.
-  </p>
+                <h3>Spatial metaphor</h3>
+                <div class="mapping-grid">
+                    <article class="mapping-card">
+                        <h4>UP / 上</h4>
+                        <p>
+                            May organize meanings such as increase, emergence,
+                            visibility, power, or hope.
+                        </p>
+                    </article>
 
-  <p class="cn">
-    Sora 可以作为一个空间隐喻案例。天空不仅是物理空间，也是自由、开放、想象和可能性的象征。
-    当 AI 从语言模型走向世界模型，空间不再只是背景，而成为理解现实规则的基础。
-  </p>
-</section>
+                    <article class="mapping-card">
+                        <h4>DOWN / 下</h4>
+                        <p>
+                            May organize meanings such as decrease, descent,
+                            submission, concealment, or sadness.
+                        </p>
+                    </article>
 
-<section class="card">
-  <h2>10. Protocol Position</h2>
+                    <article class="mapping-card">
+                        <h4>IN / 内</h4>
+                        <p>
+                            May organize meanings such as containment, belonging,
+                            privacy, memory, or inward attention.
+                        </p>
+                    </article>
 
-  <div class="diagram">
-<pre>
-Semantic Protocol
+                    <article class="mapping-card">
+                        <h4>OUT / 外</h4>
+                        <p>
+                            May organize meanings such as expression, exclusion,
+                            expansion, appearance, or release.
+                        </p>
+                    </article>
+                </div>
 
-Sound
-  ↓
-Space
-  ↓
-Time
-  ↓
-World
-  ↓
-Meaning
-  ↓
-Language
-  ↓
-Knowledge
-</pre>
-  </div>
+                <p class="hypothesis-note">
+                    These associations are analytical possibilities, not fixed
+                    universal equations. Their strength must be tested in each
+                    language, expression, and cultural context.
+                </p>
 
-  <p>
-    Space defines where something exists.
-    Time defines when it exists.
-    World defines how objects interact under rules.
-    Language describes how this meaning is expressed.
-  </p>
-</section>
+                <p class="evidence-note">
+                    The labels <strong>IN</strong>, <strong>OUT</strong>,
+                    <strong>TOWARD</strong>, and <strong>AWAY</strong> in this
+                    discussion describe spatial relations only. They are not
+                    being added to the current Semantic Protocol as formal
+                    operations.
+                </p>
+            </section>
 
-<section class="card">
-  <h2>11. Reflection</h2>
-  <p>
-    Before there is a dictionary, there is direction.
-    Before there is grammar, there is distance.
-    Before there is language, there is space.
-  </p>
-  <p>
-    To understand language, first understand space.
-  </p>
-  <p class="cn">
-    在词典之前，是方向。  
-    在语法之前，是距离。  
-    在语言之前，是空间。  
-    理解语言，应先理解空间。
-  </p>
-</section>
+            <section id="semantic-rules">
+                <p class="section-number">06</p>
+                <h2>Spatial Analysis Rules · 空间分析规则</h2>
 
-<section class="card">
-  <h2>12. Contribute</h2>
-  <p>
-    You may contribute examples of spatial metaphors, cross-language mappings,
-    etymological evidence, visual diagrams, and semantic rules.
-  </p>
-  <p>
-    This chapter belongs to the Protocol Book of Unilanguage.
-  </p>
-</section>
+                <p>
+                    The following rules guide analysis inside this theory
+                    chapter. They do not create a new <code>SPACE</code>
+                    operation or expand the official Semantic Protocol.
+                </p>
 
-<section class="nav-bottom">
-  <a href="protocol.sound.html">← Previous: Sound Protocol</a>
-  <a href="protocol.time.html">Next: Time Protocol →</a>
-</section>
+                <ol class="protocol-rules">
+                    <li>
+                        <h3>Rule S1 — Position</h3>
+                        <p>
+                            Meaning may locate an entity relative to a reference
+                            point: above, below, within, outside, before, behind,
+                            near, or far.
+                        </p>
+                    </li>
 
-</main>
+                    <li>
+                        <h3>Rule S2 — Direction</h3>
+                        <p>
+                            A change of orientation can carry meaning.
+                            <code>UP</code> and <code>DOWN</code> are current
+                            Semantic Protocol operations. Inside, outside,
+                            toward, and away remain analytical spatial relations
+                            unless they are formally adopted in a later protocol
+                            version.
+                        </p>
+                    </li>
 
-<footer>
-  <p>© Unilanguage · Semantic Protocol</p>
-</footer>
+                    <li>
+                        <h3>Rule S3 — Boundary</h3>
+                        <p>
+                            A boundary creates an inside and an outside.
+                            Crossing, opening, closing, entering, or leaving that
+                            boundary changes the semantic state.
+                        </p>
+                    </li>
 
+                    <li>
+                        <h3>Rule S4 — Path</h3>
+                        <p>
+                            Movement can be represented as
+                            <code>SOURCE → PATH → GOAL</code>. This structure
+                            supports both physical descriptions and abstract
+                            processes.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>Rule S5 — Scale and distance</h3>
+                        <p>
+                            Near/far, large/small, center/edge, and open/closed
+                            relations can organize attention, importance,
+                            intimacy, accessibility, and difference.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>Rule S6 — Metaphorical projection</h3>
+                        <p>
+                            A spatial relation may be projected onto a
+                            non-spatial domain. The translation should preserve
+                            the intended relation even when the target language
+                            uses a different image.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>Rule S7 — Context verification</h3>
+                        <p>
+                            No spatial mapping should be accepted from form
+                            alone. It must be checked against syntax, usage,
+                            cultural context, and the speaker’s intended meaning.
+                        </p>
+                    </li>
+                </ol>
+
+                <aside class="hypothesis-card">
+                    <h3>Current research hypotheses</h3>
+                    <p>
+                        The project is also testing whether recurring sound
+                        patterns can interact with spatial meaning—for example,
+                        <code>a</code> as outward, <code>i/u</code> as downward,
+                        <code>o</code> as inward, and tonal movement as spatial
+                        movement.
+                    </p>
+                    <p>
+                        These are <strong>Unilanguage research
+                        hypotheses</strong>, not universally proven linguistic
+                        laws. Each proposed mapping requires evidence,
+                        counterexamples, and cross-language testing.
+                    </p>
+                </aside>
+            </section>
+
+            <section id="protocol-position">
+                <p class="section-number">07</p>
+                <h2>Protocol Position · 空间在语义协议中的位置</h2>
+
+                <p>
+                    Spatial Semantics is a theoretical chapter in the Protocol
+                    Book. It is not a node or operation in the current Semantic
+                    Protocol. Its role is to explain the spatial assumptions
+                    that may underlie existing operations and to provide an
+                    analytical bridge from those operations to word studies and
+                    translation experiments.
+                </p>
+
+                <div class="protocol-flow" aria-label="Relationship between Spatial Semantics and the current Semantic Protocol">
+                    <strong class="current-step">
+                        Spatial Semantics
+                        <span>theoretical explanation</span>
+                    </strong>
+                    <span aria-hidden="true">→</span>
+                    <strong>
+                        Current Semantic Protocol
+                        <span>MOVE · CHANGE · EXIST · UP · DOWN · CONNECT</span>
+                    </strong>
+                    <span aria-hidden="true">→</span>
+                    <a href="../words/sky.html">
+                        <strong>Language Book</strong>
+                        <span>Sky word analysis</span>
+                    </a>
+                    <span aria-hidden="true">→</span>
+                    <a href="../translation/sky.utp.html">
+                        <strong>UTP Lab</strong>
+                        <span>translation evaluation</span>
+                    </a>
+                </div>
+
+                <h3>Protocol input</h3>
+                <ul>
+                    <li>An entity, event, image, or utterance</li>
+                    <li>A reference point or frame</li>
+                    <li>A spatial relation or movement</li>
+                    <li>A linguistic and cultural context</li>
+                </ul>
+
+                <h3>Protocol output</h3>
+                <ul>
+                    <li>A spatial interpretation of one or more existing operations</li>
+                    <li>A possible metaphorical extension for further testing</li>
+                    <li>An explicit confidence or uncertainty label</li>
+                    <li>A translation relation that can be compared and tested</li>
+                </ul>
+
+                <aside class="application-card">
+                    <p class="eyebrow">Protocol → Word → Evaluation</p>
+                    <h3>Read the first application: Sky</h3>
+                    <p>
+                        The Sky case examines how an overhead spatial field can
+                        connect <em>sky</em>, <span lang="zh-Hans">天</span>,
+                        <span lang="zh-Hans">昊</span>, and the covering image of
+                        <span lang="zh-Hans">盖</span>—while keeping historical
+                        evidence separate from proposed semantic mapping.
+                    </p>
+                    <a class="button" href="../words/sky.html">
+                        Read the Sky Example →
+                    </a>
+                </aside>
+            </section>
+
+            <section id="related-concepts">
+                <p class="section-number">08</p>
+                <h2>Related Concepts · 相关概念</h2>
+
+                <div class="related-links">
+                    <a class="related-card" href="protocol.sound.html">
+                        <span>Protocol Book 01</span>
+                        <strong>Sound · 声音</strong>
+                        <p>How perceptible vibration becomes a semantic signal.</p>
+                    </a>
+
+                    <a class="related-card" href="protocol.time.html">
+                        <span>Protocol Book 03</span>
+                        <strong>Time · 时间</strong>
+                        <p>How sequence, duration, and change organize meaning.</p>
+                    </a>
+
+                    <a class="related-card" href="protocol.meaning.html">
+                        <span>Protocol Book</span>
+                        <strong>Meaning · 意义</strong>
+                        <p>How relations are interpreted and reconstructed.</p>
+                    </a>
+
+                    <a class="related-card" href="../words/sky.html">
+                        <span>Language Book</span>
+                        <strong>Sky · 天空</strong>
+                        <p>The first complete word application of Spatial Semantics.</p>
+                    </a>
+
+                    <a class="related-card" href="../translation/sky.utp.html">
+                        <span>UTP Lab</span>
+                        <strong>Sky Evaluation</strong>
+                        <p>Compare literal, semantic, and protocol-based translation.</p>
+                    </a>
+                </div>
+            </section>
+
+            <section id="reflection">
+                <p class="section-number">09</p>
+                <h2>Reflection · 思考</h2>
+
+                <p>
+                    When people say that hope rises, a thought comes from within,
+                    a problem lies ahead, or someone falls into despair, language
+                    turns invisible experience into a place that can be entered,
+                    crossed, shared, or escaped.
+                </p>
+
+                <p lang="zh-Hans">
+                    当我们说“希望升起”、“思想来自内心”、“问题就在前方”或“陷入绝望”时，
+                    语言把看不见的经验变成了一个可以进入、穿越、分享或离开的地方。
+                </p>
+
+                <p>
+                    This suggests a philosophical possibility: speech does not
+                    merely report a world already arranged. Through relations,
+                    boundaries, viewpoints, and directions, speech may also
+                    construct a temporary semantic world for speaker and listener
+                    to inhabit together.
+                </p>
+
+                <p class="reflection-boundary">
+                    This section is a philosophical interpretation. It is not
+                    presented as historical or experimental proof.
+                </p>
+            </section>
+
+            <section id="contribute">
+                <p class="section-number">10</p>
+                <h2>Contribute · 共同研究</h2>
+
+                <p>
+                    Spatial Semantics Version 1.1 is a research framework open to
+                    testing and revision. Contributions may include:
+                </p>
+
+                <ul>
+                    <li>spatial metaphors from additional languages;</li>
+                    <li>counterexamples to the proposed directional patterns;</li>
+                    <li>historical and etymological corrections;</li>
+                    <li>corpus examples and classical texts;</li>
+                    <li>alternative analyses of sky, cover, height, or openness;</li>
+                    <li>translation cases for the UTP benchmark;</li>
+                    <li>visual, audio, comic, or video interpretations.</li>
+                </ul>
+
+                <p>
+                    Please label each contribution as evidence, established
+                    linguistic knowledge, project rule, research hypothesis,
+                    metaphor, or literary reflection.
+                </p>
+
+                <a class="button" href="../contribute.html">
+                    Contribute to Spatial Semantics →
+                </a>
+            </section>
+
+            <nav class="chapter-navigation" aria-label="Protocol chapter navigation">
+                <a class="previous" href="protocol.sound.html">
+                    <span>← Previous Protocol</span>
+                    <strong>01 · Sound</strong>
+                </a>
+
+                <a class="case-next" href="../words/sky.html">
+                    <span>Continue the Complete Case</span>
+                    <strong>Language Book · Sky →</strong>
+                </a>
+
+                <a class="next" href="protocol.time.html">
+                    <span>Next Protocol →</span>
+                    <strong>03 · Time</strong>
+                </a>
+            </nav>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <p><strong>Unilanguage</strong> · Language, a system.</p>
+        <p lang="zh-Hans">语言，一个系统。</p>
+        <p>Protocol Book · Spatial Semantics · Version 1.1</p>
+    </footer>
 </body>
 </html>
