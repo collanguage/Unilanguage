@@ -93,8 +93,8 @@ a {
     height: auto !important;
     min-height: 0 !important;
     max-height: none !important;
-    margin-block: 32px 56px;
-    padding: clamp(28px, 5vw, 64px);
+    margin-block: 32px 28px !important;
+    padding: clamp(28px, 5vw, 58px) !important;
     overflow: visible !important;
     border: 1px solid var(--uni-line);
     border-radius: 28px;
@@ -166,11 +166,51 @@ a {
 .protocol-page article > section,
 .case-path,
 .chapter-navigation {
-    margin-block: 28px;
-    padding: clamp(24px, 4vw, 46px);
+    position: relative !important;
+    inset: auto !important;
+    z-index: 1 !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin-block: 28px !important;
+    padding: clamp(24px, 4vw, 46px) !important;
+    overflow: visible !important;
+    transform: none !important;
+    float: none !important;
+    clear: both !important;
     border: 1px solid var(--uni-line);
     border-radius: 22px;
     background: var(--uni-panel-soft);
+}
+
+.case-path > *,
+.protocol-page article > section > .section-number,
+.protocol-page article > section > h2 {
+    position: static !important;
+    inset: auto !important;
+    z-index: auto !important;
+    width: auto !important;
+    height: auto !important;
+    max-height: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    float: none !important;
+}
+
+.case-path {
+    margin-top: 28px !important;
+    margin-bottom: 36px !important;
+}
+
+.case-path-title {
+    display: block !important;
+    margin: 0 0 18px !important;
+    color: var(--uni-text) !important;
+    font-size: 1.2rem !important;
 }
 
 .protocol-page h2 {
