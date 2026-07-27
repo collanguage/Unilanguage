@@ -85,6 +85,13 @@ a {
 }
 
 .page-hero {
+    position: relative !important;
+    inset: auto !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    z-index: 1 !important;
     display: block !important;
     grid-template-columns: none !important;
     grid-template-rows: none !important;
@@ -96,6 +103,9 @@ a {
     margin-block: 32px 28px !important;
     padding: clamp(28px, 5vw, 58px) !important;
     overflow: visible !important;
+    float: none !important;
+    clear: both !important;
+    transform: none !important;
     border: 1px solid var(--uni-line);
     border-radius: 28px;
     background:
