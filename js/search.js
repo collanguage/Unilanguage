@@ -1,5 +1,13 @@
 const dictionary = [
   {
+    keys: ["sky", "skies", "heaven", "天空", "天", "昊", "盖", "ciel", "firmament", "乾", "qian"],
+    page: "words/sky.html"
+  },
+  {
+    keys: ["space", "spatial", "spatial semantics", "空间", "空间语义", "盖天", "position", "direction", "boundary"],
+    page: "protocol/protocol.space.html"
+  },
+  {
     keys: ["universe", "cosmos", "宇宙", "世界", "univers", "monde"],
     page: "dictionary.html#universe"
   },
