@@ -12,6 +12,161 @@
     <title>Sky · 天空 · Language Book Entry 001 · Unilanguage</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/bilingual-layout.css">
+    <style>
+        /*
+         * Sky layout safeguard · Sky 页面布局保护
+         * Prevents legacy site rules from stretching or offsetting this page.
+         * 防止旧版全站样式拉伸或错位本页面。
+         */
+        html,
+        body {
+            max-width: 100% !important;
+            overflow-x: hidden !important;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        body > .site-header,
+        body > .protocol-page,
+        body > .site-footer {
+            position: relative !important;
+            inset: auto !important;
+            left: auto !important;
+            right: auto !important;
+            width: min(1180px, calc(100% - 40px)) !important;
+            max-width: 1180px !important;
+            height: auto !important;
+            margin-right: auto !important;
+            margin-left: auto !important;
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            float: none !important;
+            transform: none !important;
+        }
+
+        body > .site-header {
+            z-index: 20 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: space-between !important;
+            gap: 28px !important;
+            min-height: 0 !important;
+            padding-top: 18px !important;
+            padding-bottom: 18px !important;
+        }
+
+        body > .protocol-page,
+        body > .protocol-page > article {
+            display: block !important;
+            overflow: visible !important;
+        }
+
+        body > .protocol-page > article {
+            position: relative !important;
+            inset: auto !important;
+            width: 100% !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            float: none !important;
+            transform: none !important;
+        }
+
+        body .language-page .page-hero,
+        body .language-page .case-path,
+        body .language-page article > section,
+        body .language-page .chapter-navigation {
+            position: relative !important;
+            inset: auto !important;
+            left: auto !important;
+            right: auto !important;
+            display: block !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            height: auto !important;
+            min-height: 0 !important;
+            margin: 28px 0 !important;
+            float: none !important;
+            clear: both !important;
+            transform: none !important;
+        }
+
+        body .language-page .page-hero {
+            margin-top: 32px !important;
+            padding: clamp(28px, 5vw, 58px) !important;
+            overflow: hidden !important;
+        }
+
+        body .language-page .page-hero > * {
+            position: static !important;
+            inset: auto !important;
+            max-width: 100% !important;
+            float: none !important;
+            transform: none !important;
+        }
+
+        body .language-page .page-hero h1 {
+            width: auto !important;
+            margin: 6px 0 0 !important;
+            overflow-wrap: normal !important;
+            word-break: normal !important;
+        }
+
+        body .language-page .bilingual-pair {
+            display: grid !important;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            margin: 18px 0 !important;
+            float: none !important;
+            transform: none !important;
+        }
+
+        body .language-page .language-panel {
+            min-width: 0 !important;
+            max-width: 100% !important;
+        }
+
+        body .language-page .table-wrapper {
+            width: 100% !important;
+            max-width: 100% !important;
+            overflow-x: auto !important;
+        }
+
+        body .language-page .protocol-flow {
+            max-width: 100% !important;
+            flex-wrap: wrap !important;
+        }
+
+        @media (max-width: 800px) {
+            body > .site-header {
+                align-items: flex-start !important;
+                flex-direction: column !important;
+            }
+
+            body > .site-header,
+            body > .protocol-page,
+            body > .site-footer {
+                width: min(100% - 24px, 1180px) !important;
+            }
+
+            body .language-page .bilingual-pair {
+                grid-template-columns: 1fr !important;
+            }
+
+            body .language-page .bilingual-pair > .language-panel + .language-panel {
+                border-top: 1px solid rgba(45, 204, 255, 0.18) !important;
+                border-left: 0 !important;
+            }
+
+            body .language-page .protocol-flow {
+                flex-direction: column !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -37,7 +192,7 @@
                 <p class="eyebrow">Language Book · Entry 001 · 语言书词条 001</p>
                 <h1>Sky</h1>
                 <p class="subtitle">天空 · 天 · 昊 · ciel</p>
-                <p class="version">Version 1.4 · Yijing Semantic Classification Pilot · 易经语义分类系统试验版 · 2026-07-31</p>
+                <p class="version">Version 1.4.1 · Yijing Semantic Classification Pilot · 易经语义分类系统试验版 · Layout Correction · 版面修正版 · 2026-08-01</p>
 
                 <div class="bilingual-pair hero-pair">
                     <div class="language-panel" lang="en">
@@ -1211,7 +1366,7 @@
 
     <footer class="site-footer">
         <p><strong>Unilanguage</strong> · Language, a system. · 语言，一个系统。</p>
-        <p>Language Book · Sky · 天空 · Version 1.4</p>
+        <p>Language Book · Sky · 天空 · Version 1.4.1</p>
     </footer>
 </body>
 </html>
