@@ -1,3 +1,9 @@
+/*
+ * Unilanguage Semantic Search
+ * Version 1.1 · Sky and Space Edition
+ * 统一语言语义搜索 · Sky 与 Space 版
+ */
+
 const dictionary = [
   {
     keys: ["sky", "skies", "heaven", "天空", "天", "昊", "盖", "ciel", "firmament", "乾", "qian"],
@@ -32,7 +38,7 @@ const dictionary = [
     page: "dictionary.html#life"
   },
   {
-    keys: ["nature", "自然", "nature"],
+    keys: ["nature", "自然"],
     page: "dictionary.html#nature"
   },
   {
@@ -41,80 +47,79 @@ const dictionary = [
   }
 ];
 
-function searchWord(){
-  const input = document.getElementById("searchInput");
-
-  if(!input){
-    return;
-  }
-
-  const value = input.value.trim().toLowerCase();
-
-  if(value === ""){
-    alert("Please enter a word.");
-    return;
-  }
-
-  for(let item of dictionary){
-    for(let key of item.keys){
-      if(value === key.toLowerCase()){
-        window.location.href = item.page;
-        return;
-      }
-    }
-  }
-
-  for(let item of dictionary){
-    for(let key of item.keys){
-      if(key.toLowerCase().includes(value) || value.includes(key.toLowerCase())){
-        window.location.href = item.page;
-        return;
-      }
-    }
-  }
-
-  alert("Word not found yet. Opening dictionary.");
-  window.location.href = "dictionary.html";
+function normalizeSearchValue(value) {
+  return value.trim().toLocaleLowerCase();
 }
 
-function filterDictionary(){
-  const input = document.getElementById("dictSearch");
+function findDictionaryItem(value) {
+  const exactMatch = dictionary.find(item =>
+    item.keys.some(key => normalizeSearchValue(key) === value)
+  );
 
-  if(!input){
+  if (exactMatch) {
+    return exactMatch;
+  }
+
+  return dictionary.find(item =>
+    item.keys.some(key => {
+      const normalizedKey = normalizeSearchValue(key);
+      return normalizedKey.includes(value) || value.includes(normalizedKey);
+    })
+  );
+}
+
+function searchWord() {
+  const input = document.getElementById("searchInput");
+
+  if (!input) {
     return;
   }
 
-  const value = input.value.trim().toLowerCase();
-  const cards = document.querySelectorAll(".word-card");
+  const value = normalizeSearchValue(input.value);
+
+  if (!value) {
+    alert("Please enter a word. · 请输入一个词。");
+    input.focus();
+    return;
+  }
+
+  const result = findDictionaryItem(value);
+
+  if (result) {
+    window.location.href = result.page;
+    return;
+  }
+
+  alert("Word not found yet. · 暂未收录该词。");
+}
+
+function filterDictionary() {
+  const input = document.getElementById("dictSearch");
+
+  if (!input) {
+    return;
+  }
+
+  const value = normalizeSearchValue(input.value);
+  const cards = Array.from(document.querySelectorAll(".word-card"));
 
   cards.forEach(card => {
-    const words = card.getAttribute("data-word");
-
-    if(!words){
-      return;
-    }
-
-    if(value === ""){
-      card.style.display = "block";
-    }else if(words.toLowerCase().includes(value)){
-      card.style.display = "block";
-    }else{
-      card.style.display = "none";
-    }
+    const words = normalizeSearchValue(card.getAttribute("data-word") || "");
+    card.hidden = Boolean(value) && !words.includes(value);
   });
 }
 
-document.addEventListener("keydown", function(event){
-  if(event.key === "Enter"){
-    const searchInput = document.getElementById("searchInput");
-    const dictSearch = document.getElementById("dictSearch");
+document.addEventListener("keydown", event => {
+  if (event.key !== "Enter") {
+    return;
+  }
 
-    if(document.activeElement === searchInput){
-      searchWord();
-    }
+  if (document.activeElement?.id === "searchInput") {
+    searchWord();
+  }
 
-    if(document.activeElement === dictSearch){
-      filterDictionary();
-    }
+  if (document.activeElement?.id === "dictSearch") {
+    filterDictionary();
   }
 });
+
