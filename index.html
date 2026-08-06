@@ -522,6 +522,11 @@ er{
   font-size:13px;
 }
 
+/* The seventh card is centered on desktop. */
+.card.utp-card{
+  grid-column:2;
+}
+
 /* ================= PART 4：Footer + Responsive ================= */
 
 footer{
@@ -543,6 +548,10 @@ footer{
 
   .cards{
     grid-template-columns:1fr;
+  }
+
+  .card.utp-card{
+    grid-column:auto;
   }
 
   .layers{
@@ -855,6 +864,19 @@ footer{
           <h3>语言之书</h3>
           <p>The complete language knowledge system and learning resources.</p>
           <a href="book.html">Explore →</a>
+        </div>
+      </div>
+
+      <div class="card utp-card">
+        <div class="card-icon">⚖️</div>
+        <div>
+          <h2>UTP Lab</h2>
+          <h3>翻译实验室</h3>
+          <p>
+            Evaluate meaning preservation, translation choices and semantic loss across languages.<br>
+            <span lang="zh-Hans">评估跨语言翻译中的意义保留、翻译选择与语义失真。</span>
+          </p>
+          <a href="translation-protocol.html">Explore · 进入实验室 →</a>
         </div>
       </div>
 
