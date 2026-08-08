@@ -1,59 +1,89 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Semantic Search · 语义搜索 | Unilanguage</title>
-    <meta name="description"
-        content="Search Unilanguage words, protocols and UTP evaluations. 搜索 Unilanguage 词条、协议与翻译评测。">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sky-case.css">
-</head>
-
-<body>
+    <meta
+      name="description"
+      content="Search Unilanguage words, protocols and UTP evaluations. 搜索 Unilanguage 词条、协议与翻译评测。"
+    />
+    <link rel="stylesheet" href="css/sky-case.css" />
+  </head>
+  <body>
     <header class="site-header">
-        <div class="header-inner"><a class="brand" href="index.html">Unilanguage</a>
-            <nav class="nav"><a href="index.html">Home · 首页</a><a href="search.html" aria-current="page">Search ·
-                    搜索</a><a href="dictionary.html">Dictionary · 词典</a><a href="protocol.html">Protocol · 协议</a><a
-                    href="translation-protocol.html">UTP · 翻译实验</a></nav>
-        </div>
+      <div class="header-inner">
+        <a class="brand" href="index.html">Unilanguage</a>
+        <nav class="nav">
+          <a href="index.html">Home · 首页</a
+          ><a href="search.html" aria-current="page">Search · 搜索</a
+          ><a href="dictionary.html">Dictionary · 词典</a
+          ><a href="protocol.html">Protocol · 协议</a
+          ><a href="translation-protocol.html">UTP · 翻译实验</a>
+        </nav>
+      </div>
     </header>
     <main>
-        <header class="hero">
-            <p class="eyebrow">Semantic Search · 语义搜索</p>
-            <h1>Search</h1>
-            <p class="subtitle">Words, Protocols and Evaluations · 词条、协议与评测</p>
-            <div class="pair">
-                <div>
-                    <p class="label">Query · 查询</p><input id="searchInput" aria-label="Semantic search"
-                        style="width:100%;padding:18px;border-radius:12px;border:1px solid var(--line);background:var(--deep);color:var(--text);font-size:1.05rem"
-                        placeholder="sky, 天空, 盖, space, UTP...">
-                </div>
-                <div>
-                    <p class="label">Action · 操作</p><button id="searchButton" onclick="searchWord()"
-                        style="padding:18px 30px;border:0;border-radius:12px;background:var(--gold);font-weight:800">Search
-                        · 搜索</button>
-                    <p id="searchMessage" class="small" aria-live="polite"></p>
-                </div>
-            </div>
-        </header>
-        <section class="section">
-            <h2>Try the Sky Case · 试用 Sky 案例</h2>
-            <div class="cards"><a class="card" href="protocol/protocol.space.html">
-                    <h3>space · 空间语义</h3>
-                    <p>Protocol Book · 协议书</p>
-                </a><a class="card" href="words/sky.html">
-                    <h3>sky · 天空 · 天 · 昊 · 盖</h3>
-                    <p>Language Book · 语言书</p>
-                </a><a class="card" href="translation/sky.utp.html">
-                    <h3>Sky UTP · Sky 翻译评测</h3>
-                    <p>UTP Lab · 翻译实验室</p>
-                </a></div>
-        </section>
+      <header class="hero">
+        <p class="eyebrow">Semantic Search · 语义搜索</p>
+        <h1>Search</h1>
+        <p class="subtitle">
+          Words, Protocols and Evaluations · 词条、协议与评测
+        </p>
+        <div class="pair">
+          <div>
+            <p class="label">Query · 查询</p>
+            <input
+              id="searchInput"
+              aria-label="Semantic search"
+              style="
+                width: 100%;
+                padding: 18px;
+                border-radius: 12px;
+                border: 1px solid var(--line);
+                background: var(--deep);
+                color: var(--text);
+                font-size: 1.05rem;
+              "
+              placeholder="sky, 天空, 盖, space, UTP..."
+            />
+          </div>
+          <div>
+            <p class="label">Action · 操作</p>
+            <button
+              id="searchButton"
+              onclick="searchWord()"
+              style="
+                padding: 18px 30px;
+                border: 0;
+                border-radius: 12px;
+                background: var(--gold);
+                font-weight: 800;
+              "
+            >
+              Search · 搜索
+            </button>
+            <p id="searchMessage" class="small" aria-live="polite"></p>
+          </div>
+        </div>
+      </header>
+      <section class="section">
+        <h2>Try the Sky Case · 试用 Sky 案例</h2>
+        <div class="cards">
+          <a class="card" href="protocol/protocol.space.html"
+            ><h3>space · 空间语义</h3>
+            <p>Protocol Book · 协议书</p></a
+          ><a class="card" href="words/sky.html"
+            ><h3>sky · 天空 · 天 · 昊 · 盖</h3>
+            <p>Language Book · 语言书</p></a
+          ><a class="card" href="translation/sky.utp.html"
+            ><h3>Sky UTP · Sky 翻译评测</h3>
+            <p>UTP Lab · 翻译实验室</p></a
+          >
+        </div>
+      </section>
     </main>
     <footer class="footer">Unilanguage · Semantic Search · 语义搜索</footer>
     <script src="js/search.js"></script>
-</body>
-
+  </body>
 </html>

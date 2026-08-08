@@ -1,88 +1,151 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Language Book Index · 语言书目录 | Unilanguage</title>
-    <meta name="description" content="Unilanguage Language Book and semantic dictionary index. Unilanguage 语言书与语义词典目录。">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sky-case.css">
-</head>
-
-<body>
+    <meta
+      name="description"
+      content="Unilanguage Language Book and semantic dictionary index. Unilanguage 语言书与语义词典目录。"
+    />
+    <link rel="stylesheet" href="css/sky-case.css" />
+  </head>
+  <body>
     <header class="site-header">
-        <div class="header-inner"><a class="brand" href="index.html">Unilanguage</a>
-            <nav class="nav"><a href="index.html">Home · 首页</a><a href="search.html">Search · 搜索</a><a
-                    href="dictionary.html" aria-current="page">Dictionary · 词典</a><a href="protocol.html">Protocol ·
-                    协议</a><a href="translation-protocol.html">UTP · 翻译实验</a></nav>
-        </div>
+      <div class="header-inner">
+        <a class="brand" href="index.html">Unilanguage</a>
+        <nav class="nav">
+          <a href="index.html">Home · 首页</a
+          ><a href="search.html">Search · 搜索</a
+          ><a href="dictionary.html" aria-current="page">Dictionary · 词典</a
+          ><a href="protocol.html">Protocol · 协议</a
+          ><a href="translation-protocol.html">UTP · 翻译实验</a>
+        </nav>
+      </div>
     </header>
     <main>
-        <header class="hero">
-            <p class="eyebrow">Language Book · 语言书</p>
-            <h1>Dictionary</h1>
-            <p class="subtitle">Semantic Dictionary and Word Entries · 语义词典与完整词条</p>
-            <div class="pair">
-                <div>
-                    <p class="label">English</p>
-                    <p>Short cards provide an index. Each complete Language Book entry develops meaning, etymology,
-                        mapping, evidence and translation tests.</p>
-                </div>
-                <div lang="zh-Hans">
-                    <p class="label">中文</p>
-                    <p>简明卡片构成目录；每个完整语言书词条进一步展开词义、词源、映射、证据与翻译检验。</p>
-                </div>
-            </div>
-        </header>
-        <section class="section">
-            <div class="pair">
-                <div>
-                    <p class="label">Search · 搜索</p><input id="dictSearch" aria-label="Dictionary search"
-                        style="width:100%;padding:16px;border-radius:12px;border:1px solid var(--line);background:var(--deep);color:var(--text);font-size:1rem"
-                        placeholder="sky, 天空, 盖, universe...">
-                </div>
-                <div>
-                    <p class="label">Action · 操作</p><button onclick="filterDictionary()"
-                        style="padding:16px 28px;border:0;border-radius:12px;background:var(--gold);font-weight:800">Search
-                        · 搜索</button>
-                    <p id="dictMessage" class="small" aria-live="polite"></p>
-                </div>
-            </div>
-            <div class="cards" id="dictionaryGrid">
-                <article class="card word-card" id="sky"
-                    data-word="sky skies heaven 天空 天 昊 盖 ciel firmament 苍穹 穹盖 乾 qian">
-                    <h2>☁️ Sky · 天空</h2>
-                    <p>Sky / 天空、天、昊 / ciel</p>
-                    <p><strong>Mapping · 映射：</strong> sky ↔ 盖</p>
-                    <p><span class="status">Experimental · 实验性</span></p><a href="words/sky.html">Read the Sky Entry ·
-                        阅读 Sky 词条 →</a>
-                </article>
-                <article class="card word-card" id="universe" data-word="universe cosmos 宇宙 世界 univers monde">
-                    <h2>🌍 Universe · 宇宙</h2>
-                    <p>Universe / 宇宙、世界 / univers</p><a href="words/universe.html">Word Page · 词条 →</a>
-                </article>
-                <article class="card word-card" id="human" data-word="human person 人 人类 humain homme">
-                    <h2>👤 Human · 人</h2>
-                    <p>Human / 人、人类 / humain</p><a href="words/human.html">Word Page · 词条 →</a>
-                </article>
-                <article class="card word-card" id="language" data-word="language speech 语言 言语 langue langage">
-                    <h2>🗣️ Language · 语言</h2>
-                    <p>Language / 语言、言语 / langue</p><a href="words/language.html">Word Page · 词条 →</a>
-                </article>
-                <article class="card word-card" id="knowledge" data-word="knowledge know 知识 知 connaissance savoir">
-                    <h2>📚 Knowledge · 知识</h2>
-                    <p>Knowledge / 知识、知 / connaissance</p><a href="words/knowledge.html">Word Page · 词条 →</a>
-                </article>
-                <article class="card word-card" id="sound" data-word="sound voice 声音 声 响 son">
-                    <h2>🔊 Sound · 声音</h2>
-                    <p>Sound / 声音、声、响 / son</p><a href="words/sound.html">Word Page · 词条 →</a>
-                </article>
-            </div>
-        </section>
+      <header class="hero">
+        <p class="eyebrow">Language Book · 语言书</p>
+        <h1>Dictionary</h1>
+        <p class="subtitle">
+          Semantic Dictionary and Word Entries · 语义词典与完整词条
+        </p>
+        <div class="pair">
+          <div>
+            <p class="label">English</p>
+            <p>
+              Short cards provide an index. Each complete Language Book entry
+              develops meaning, etymology, mapping, evidence and translation
+              tests.
+            </p>
+          </div>
+          <div lang="zh-Hans">
+            <p class="label">中文</p>
+            <p>
+              简明卡片构成目录；每个完整语言书词条进一步展开词义、词源、映射、证据与翻译检验。
+            </p>
+          </div>
+        </div>
+      </header>
+      <section class="section">
+        <div class="pair">
+          <div>
+            <p class="label">Search · 搜索</p>
+            <input
+              id="dictSearch"
+              aria-label="Dictionary search"
+              style="
+                width: 100%;
+                padding: 16px;
+                border-radius: 12px;
+                border: 1px solid var(--line);
+                background: var(--deep);
+                color: var(--text);
+                font-size: 1rem;
+              "
+              placeholder="sky, 天空, 盖, universe..."
+            />
+          </div>
+          <div>
+            <p class="label">Action · 操作</p>
+            <button
+              onclick="filterDictionary()"
+              style="
+                padding: 16px 28px;
+                border: 0;
+                border-radius: 12px;
+                background: var(--gold);
+                font-weight: 800;
+              "
+            >
+              Search · 搜索
+            </button>
+            <p id="dictMessage" class="small" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="cards" id="dictionaryGrid">
+          <article
+            class="card word-card"
+            id="sky"
+            data-word="sky skies heaven 天空 天 昊 盖 ciel firmament 苍穹 穹盖 乾 qian"
+          >
+            <h2>☁️ Sky · 天空</h2>
+            <p>Sky / 天空、天、昊 / ciel</p>
+            <p><strong>Mapping · 映射：</strong> sky ↔ 盖</p>
+            <p><span class="status">Experimental · 实验性</span></p>
+            <a href="words/sky.html">Read the Sky Entry · 阅读 Sky 词条 →</a>
+          </article>
+          <article
+            class="card word-card"
+            id="universe"
+            data-word="universe cosmos 宇宙 世界 univers monde"
+          >
+            <h2>🌍 Universe · 宇宙</h2>
+            <p>Universe / 宇宙、世界 / univers</p>
+            <a href="words/universe.html">Word Page · 词条 →</a>
+          </article>
+          <article
+            class="card word-card"
+            id="human"
+            data-word="human person 人 人类 humain homme"
+          >
+            <h2>👤 Human · 人</h2>
+            <p>Human / 人、人类 / humain</p>
+            <a href="words/human.html">Word Page · 词条 →</a>
+          </article>
+          <article
+            class="card word-card"
+            id="language"
+            data-word="language speech 语言 言语 langue langage"
+          >
+            <h2>🗣️ Language · 语言</h2>
+            <p>Language / 语言、言语 / langue</p>
+            <a href="words/language.html">Word Page · 词条 →</a>
+          </article>
+          <article
+            class="card word-card"
+            id="knowledge"
+            data-word="knowledge know 知识 知 connaissance savoir"
+          >
+            <h2>📚 Knowledge · 知识</h2>
+            <p>Knowledge / 知识、知 / connaissance</p>
+            <a href="words/knowledge.html">Word Page · 词条 →</a>
+          </article>
+          <article
+            class="card word-card"
+            id="sound"
+            data-word="sound voice 声音 声 响 son"
+          >
+            <h2>🔊 Sound · 声音</h2>
+            <p>Sound / 声音、声、响 / son</p>
+            <a href="words/sound.html">Word Page · 词条 →</a>
+          </article>
+        </div>
+      </section>
     </main>
-    <footer class="footer">Unilanguage · Language, a system. · 语言，一个系统。</footer>
+    <footer class="footer">
+      Unilanguage · Language, a system. · 语言，一个系统。
+    </footer>
     <script src="js/search.js"></script>
-</body>
-
+  </body>
 </html>
