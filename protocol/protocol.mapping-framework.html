@@ -30,7 +30,13 @@
     .mapping-framework .table-wrap { overflow-x: auto; }
     .mapping-framework .meta { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--mf-border); }
     .mapping-framework .site-nav-placeholder ul { display: flex; flex-wrap: wrap; gap: .5rem 1rem; list-style: none; padding: 0; }
-    @media (max-width: 600px) { .mapping-framework { padding: 1rem; } .mapping-framework th, .mapping-framework td { padding: .55rem; } }
+    .mapping-header { position: sticky; top: 0; left: auto; width: 100%; height: auto; min-height: 82px; padding: .75rem clamp(1rem, 4vw, 2.75rem); display: block; }
+    .mapping-header .site-nav-placeholder { width: min(1180px, 100%); margin: 0 auto; }
+    .mapping-header .site-nav-placeholder ul { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; margin: 0; padding: 0; list-style: none; }
+    .mapping-header .site-nav-placeholder a { color: #fff; text-decoration: none; }
+    .mapping-header .site-nav-placeholder a[aria-current="page"] { color: #58ccff; }
+    .mapping-framework > .hero { position: static; top: auto; left: auto; width: auto; height: auto; padding: 2rem 0 0; display: block; z-index: auto; background: transparent; backdrop-filter: none; border-bottom: 0; }
+    @media (max-width: 600px) { .mapping-header { min-height: 0; } .mapping-framework { padding: 1rem; } .mapping-framework > .hero { padding-top: 1.25rem; } .mapping-framework th, .mapping-framework td { padding: .55rem; } }
   </style>
 </head>
 <body>
