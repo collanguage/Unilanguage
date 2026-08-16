@@ -29,6 +29,14 @@
     .mapping-framework th, .mapping-framework td { padding: .7rem; border: 1px solid var(--mf-border); text-align: left; vertical-align: top; }
     .mapping-framework .table-wrap { overflow-x: auto; }
     .mapping-framework .meta { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--mf-border); }
+    .mapping-framework .hypothesis-groups { display: grid; gap: 1.35rem; margin-top: 1.5rem; }
+    .mapping-framework .hypothesis-group { padding: 1rem; border: 1px solid var(--mf-border); border-radius: .8rem; background: rgba(127,127,127,.06); }
+    .mapping-framework .hypothesis-group > h4 { margin-top: 0; }
+    .mapping-framework details.hypothesis-record { margin-top: .8rem; border: 1px solid var(--mf-border); border-radius: .65rem; overflow: hidden; }
+    .mapping-framework details.hypothesis-record summary { cursor: pointer; padding: .85rem 1rem; font-weight: 700; }
+    .mapping-framework details.hypothesis-record[open] summary { border-bottom: 1px solid var(--mf-border); }
+    .mapping-framework .hypothesis-record .table-wrap { padding: .75rem; }
+    .mapping-framework .hypothesis-record th { width: 15rem; }
     .mapping-framework .site-nav-placeholder ul { display: flex; flex-wrap: wrap; gap: .5rem 1rem; list-style: none; padding: 0; }
     .mapping-header { position: sticky; top: 0; left: auto; width: 100%; height: auto; min-height: 82px; padding: .75rem clamp(1rem, 4vw, 2.75rem); display: block; }
     .mapping-header .site-nav-placeholder { width: min(1180px, 100%); margin: 0 auto; }
@@ -69,6 +77,7 @@
         <li><a href="#transmission">Cultural Transmission｜文化传播</a></li>
         <li><a href="#sound-before-writing">Sound Before Writing｜声音先于文字</a></li>
         <li><a href="#experimental">Experimental Layer｜实验层</a></li>
+        <li><a href="#hypothesis-lab">Hypothesis Lab｜假说实验室</a></li>
         <li><a href="#visualization">Visualization｜可视化</a></li>
         <li><a href="#evaluation">Evidence &amp; Evaluation｜证据与评估</a></li>
         <li><a href="#mission">Long-Term Mission｜长期使命</a></li>
@@ -221,11 +230,12 @@
       </div>
 
       <article id="hypothesis-lab">
-        <h3>Hypothesis Lab<span class="zh" lang="zh-Hans">假设实验室</span></h3>
-        <p>Each proposal receives a hypothesis type and a transparent research state.<span class="zh" lang="zh-Hans">每个提案都必须标注假设类型与透明的研究状态。</span></p>
+        <h3>Hypothesis Lab<span class="zh" lang="zh-Hans">假说实验室</span></h3>
+        <p>The Lab is the single registry for unconventional but testable proposals. It protects exploratory research by separating it from established conclusions and by giving every claim the same metadata and falsification requirements.<span class="zh" lang="zh-Hans">假说实验室是非主流但可检验提案的统一登记处。它通过把探索性研究与已确立结论分开，并要求每项主张使用相同元数据和证伪条件，来保护这些研究的可讨论性。</span></p>
+        <h4>Four Evidence Tracks<span class="zh" lang="zh-Hans">四条证据轨道</span></h4>
         <div class="table-wrap">
           <table>
-            <thead><tr><th scope="col">Hypothesis Type<br><span lang="zh-Hans">假设类型</span></th><th scope="col">Primary Question<br><span lang="zh-Hans">核心问题</span></th></tr></thead>
+            <thead><tr><th scope="col">Evidence Track<br><span lang="zh-Hans">证据轨道</span></th><th scope="col">Primary Question<br><span lang="zh-Hans">核心问题</span></th></tr></thead>
             <tbody>
               <tr><td>Historical Relation<br><span lang="zh-Hans">历史关系</span></td><td>Is there evidence of inheritance, borrowing, or documented transmission?<br><span lang="zh-Hans">是否存在继承、借用或有记录传播的证据？</span></td></tr>
               <tr><td>Phonetic-Semantic Tendency<br><span lang="zh-Hans">音义倾向</span></td><td>Does a sound–meaning association exceed chance under controlled comparison?<br><span lang="zh-Hans">在受控比较中，音义关联是否显著超出偶然水平？</span></td></tr>
@@ -234,14 +244,52 @@
             </tbody>
           </table>
         </div>
+
+        <div class="hypothesis-groups">
+          <section class="hypothesis-group" aria-labelledby="sound-hypotheses">
+            <h4 id="sound-hypotheses">Sound Hypotheses<span class="zh" lang="zh-Hans">声音假说</span></h4>
+            <details class="hypothesis-record"><summary>SND-M-001 · M Semantic Field｜M 语义场</summary><div class="table-wrap"><table><tbody>
+              <tr><th>Hypothesis ID</th><td>SND-M-001</td></tr><tr><th>Claim · 主张</th><td>Initial or prominent M may show a repeatable tendency toward mouth, mother, matter, containment or origin meanings across controlled samples. · 首音或显著位置的 M 可能在受控样本中反复趋向口、母亲、物质、容纳或起源语义。</td></tr><tr><th>Author · 作者</th><td>Jinkai Liu</td></tr><tr><th>Origin or System · 来源或系统</th><td>Collanguage</td></tr><tr><th>Theoretical Support · 理论支持</th><td>Articulatory iconicity; sound symbolism; initial-consonant semantic-field model. · 发音象似、语音象征、首辅音语义场模型。</td></tr><tr><th>Supporting Cases · 支持案例</th><td>Provisional M word lists in multiple languages; no validated corpus result yet. · 多语言 M 词表的初步观察；尚无验证语料结果。</td></tr><tr><th>Counterexamples · 反例</th><td>Many M-initial words fall outside the proposed field; genealogy and borrowing may inflate clusters. · 大量 M 首音词不属于拟议语义场；谱系和借词可能放大聚类。</td></tr><tr><th>Mapping Type · 映射类型</th><td>Phonetic-Semantic Tendency · 语音—语义倾向</td></tr><tr><th>Evidence Status · 证据状态</th><td>Experimental · 实验性</td></tr><tr><th>Review Status · 评审状态</th><td>Author-proposed; corpus design pending · 作者提出；语料设计待完成</td></tr><tr><th>Falsification Test · 证伪检验</th><td>Matched multilingual corpora show no effect above phonotactic, genealogical and chance baselines. · 匹配的多语言语料在控制音系配列、谱系与随机基线后不显示超额效应。</td></tr>
+            </tbody></table></div></details>
+            <details class="hypothesis-record"><summary>SND-GKH-001 · G / K / H Group｜G／K／H 辅音组</summary><div class="table-wrap"><table><tbody>
+              <tr><th>Hypothesis ID</th><td>SND-GKH-001</td></tr><tr><th>Claim · 主张</th><td>G, K and some H reflexes may form a testable comparison group in selected cross-language phonetic-semantic mappings. · 在特定跨语言音义映射中，G、K 与部分 H 反映形式可能构成可检验的比较组。</td></tr><tr><th>Author · 作者</th><td>Jinkai Liu</td></tr><tr><th>Origin or System · 来源或系统</th><td>Collanguage / Unilanguage</td></tr><tr><th>Theoretical Support · 理论支持</th><td>Shared or historically related dorsal articulation in selected sound changes; phonetic feature comparison. · 特定音变中的背部发音关联与语音特征比较。</td></tr><tr><th>Supporting Cases · 支持案例</th><td><a href="../words/sky.html#sky-discovery">sky /skaɪ/ ↔ 盖 /kaɪ/</a>; velar /k/–/g/ comparison. · Sky—盖及软腭 /k/–/g/ 比较。</td></tr><tr><th>Counterexamples · 反例</th><td>Initial /s/, voicing and tone remain unmatched in Sky; H is not universally interchangeable with G/K. · Sky 案例中 /s/、清浊和声调未对应；H 并非普遍可与 G/K 互换。</td></tr><tr><th>Mapping Type · 映射类型</th><td>Phonetic-Semantic Tendency · 语音—语义倾向</td></tr><tr><th>Evidence Status · 证据状态</th><td>Experimental · 实验性</td></tr><tr><th>Review Status · 评审状态</th><td>Case registered; comparative rule set pending · 案例已登记；比较规则集待建</td></tr><tr><th>Falsification Test · 证伪检验</th><td>Pre-registered tests find candidate pairs no more frequent or semantically aligned than matched controls. · 预注册检验显示候选词对的频率或语义一致度不高于匹配对照。</td></tr>
+            </tbody></table></div></details>
+            <details class="hypothesis-record"><summary>SND-V-001 · V Transformation Tendency｜V 转换倾向</summary><div class="table-wrap"><table><tbody>
+              <tr><th>Hypothesis ID</th><td>SND-V-001</td></tr><tr><th>Claim · 主张</th><td>V-like sounds or shapes may recur in meanings involving division, turning, valley, opening or directional transformation. · V 类声音或形状可能在分叉、转向、山谷、开口或方向转换意义中反复出现。</td></tr><tr><th>Author · 作者</th><td>Jinkai Liu</td></tr><tr><th>Origin or System · 来源或系统</th><td>Collanguage</td></tr><tr><th>Theoretical Support · 理论支持</th><td>Visual geometry, articulatory comparison and transformation mapping. · 视觉几何、发音比较与转换映射。</td></tr><tr><th>Supporting Cases · 支持案例</th><td>Exploratory V-form and V-sound collections; controlled cases not yet established. · V 形与 V 音的探索性集合；受控案例尚未确立。</td></tr><tr><th>Counterexamples · 反例</th><td>Sound and letter shape have independent histories; many V words lack the proposed meanings. · 声音与字母形状具有独立历史；大量 V 词不含拟议意义。</td></tr><tr><th>Mapping Type · 映射类型</th><td>Phonetic-Semantic + Transformation · 语音—语义＋转换</td></tr><tr><th>Evidence Status · 证据状态</th><td>Speculative · 推测性</td></tr><tr><th>Review Status · 评审状态</th><td>Definition and sampling protocol pending · 定义与抽样协议待完成</td></tr><tr><th>Falsification Test · 证伪检验</th><td>Blind coding finds no association between V features and the proposed semantic categories beyond controls. · 盲法编码显示 V 特征与拟议语义类别的关联不高于对照。</td></tr>
+            </tbody></table></div></details>
+          </section>
+
+          <section class="hypothesis-group" aria-labelledby="script-hypotheses">
+            <h4 id="script-hypotheses">Script Hypotheses<span class="zh" lang="zh-Hans">文字假说</span></h4>
+            <details class="hypothesis-record"><summary>SCR-ZHOU-YOU-001 · 宙—由 Script Relation｜宙—由文字关系</summary><div class="table-wrap"><table><tbody>
+              <tr><th>Hypothesis ID</th><td>SCR-ZHOU-YOU-001</td></tr><tr><th>Claim · 主张</th><td>The phonetic role of 由 in 宙 is established at the script-analysis level; additional semantic transfer from 由 to 宙 is a separate testable hypothesis. · “由”在“宙”中的声符作用可在字形分析层确立；从“由”向“宙”的额外语义转移则是独立的可检验假说。</td></tr><tr><th>Author · 作者</th><td>Jinkai Liu</td></tr><tr><th>Origin or System · 来源或系统</th><td>Unilanguage</td></tr><tr><th>Theoretical Support · 理论支持</th><td>Chinese phonetic-component analysis; historical phonology; semantic-family comparison. · 汉字声符分析、历史音韵与语义家族比较。</td></tr><tr><th>Supporting Cases · 支持案例</th><td><a href="../words/universe.html#etymology">Universe · 宇宙</a>; conventional analysis of 宙 as 宀 plus phonetic 由. · Universe 词条及“宀＋声符由”的常规分析。</td></tr><tr><th>Counterexamples · 反例</th><td>A phonetic component does not automatically contribute its full lexical meaning. · 声符不会自动贡献其全部词汇意义。</td></tr><tr><th>Mapping Type · 映射类型</th><td>Historical Relation + Script Hypothesis · 历史关系＋文字假说</td></tr><tr><th>Evidence Status · 证据状态</th><td>Supported for phonetic role; Experimental for semantic extension · 声符作用有支持；语义延伸属实验性</td></tr><tr><th>Review Status · 评审状态</th><td>Palaeographic citations pending · 古文字引文待补</td></tr><tr><th>Falsification Test · 证伪检验</th><td>Historical readings or early forms contradict the proposed phonetic series, or semantic-family tests show no patterned extension. · 历史读音或早期字形否定拟议声系，或语义家族检验不显示规律延伸。</td></tr>
+            </tbody></table></div></details>
+          </section>
+
+          <section class="hypothesis-group" aria-labelledby="deep-history-hypotheses">
+            <h4 id="deep-history-hypotheses">Deep-History Hypotheses<span class="zh" lang="zh-Hans">深历史假说</span></h4>
+            <details class="hypothesis-record"><summary>DHH-SOUND-001 · Sound Before Writing｜声音先于文字</summary><div class="table-wrap"><table><tbody>
+              <tr><th>Hypothesis ID</th><td>DHH-SOUND-001</td></tr><tr><th>Claim · 主张</th><td>Because speech predates writing, some patterned sound-meaning relations may preserve layers older than attested scripts. · 由于口语早于文字，部分有规律的音义关系可能保存早于现存文字的层次。</td></tr><tr><th>Author · 作者</th><td>Jinkai Liu</td></tr><tr><th>Origin or System · 来源或系统</th><td>Collanguage / Unilanguage</td></tr><tr><th>Theoretical Support · 理论支持</th><td>Chronological priority of speech; comparative reconstruction; sound symbolism. · 口语的时间先行性、比较重构与语音象征。</td></tr><tr><th>Supporting Cases · 支持案例</th><td>Speech-before-writing is established generally; M, G/K/H and V are registered candidate studies. · 口语早于文字是一般事实；M、G/K/H、V 为已登记候选研究。</td></tr><tr><th>Counterexamples · 反例</th><td>Deep time erodes forms; convergence, chance and borrowing can imitate continuity. · 深时会侵蚀形式；趋同、巧合与借用会模拟连续性。</td></tr><tr><th>Mapping Type · 映射类型</th><td>Speculative Deep-History Hypothesis · 推测性深历史假说</td></tr><tr><th>Evidence Status · 证据状态</th><td>Speculative · 推测性</td></tr><tr><th>Review Status · 评审状态</th><td>Scope defined; reconstruction and null model pending · 范围已定义；重构与零模型待建</td></tr><tr><th>Falsification Test · 证伪检验</th><td>Proposed patterns disappear after controlling genealogy, borrowing, typology and multiple comparisons. · 控制谱系、借用、类型学与多重比较后，拟议模式消失。</td></tr>
+            </tbody></table></div></details>
+          </section>
+
+          <section class="hypothesis-group" aria-labelledby="cognitive-hypotheses">
+            <h4 id="cognitive-hypotheses">Cognitive Hypotheses<span class="zh" lang="zh-Hans">认知假说</span></h4>
+            <details class="hypothesis-record"><summary>COG-ABOVE-COVER-001 · ABOVE → COVER｜上方→覆盖</summary><div class="table-wrap"><table><tbody>
+              <tr><th>Hypothesis ID</th><td>COG-ABOVE-COVER-001</td></tr><tr><th>Claim · 主张</th><td>Humans may recurrently conceptualize an extended upper field as a cover, canopy or dome. · 人类可能反复把延展的上方场域理解为盖、伞盖或穹隆。</td></tr><tr><th>Author · 作者</th><td>Jinkai Liu</td></tr><tr><th>Origin or System · 来源或系统</th><td>Unilanguage</td></tr><tr><th>Theoretical Support · 理论支持</th><td>Embodied cognition; container and verticality schemas; conceptual metaphor. · 具身认知、容器与垂直图式、概念隐喻。</td></tr><tr><th>Supporting Cases · 支持案例</th><td><a href="../words/sky.html#sky-discovery">Sky · 天空</a>; 盖天说; tent, vault and canopy metaphors. · Sky 词条、盖天说、帐幕／拱顶／伞盖隐喻。</td></tr><tr><th>Counterexamples · 反例</th><td>Some cultures or contexts model sky as open depth, path, realm or emptiness rather than cover. · 部分文化或语境把天空理解为开放深度、路径、领域或虚空，而非覆盖物。</td></tr><tr><th>Mapping Type · 映射类型</th><td>Cognitive Association · 认知关联</td></tr><tr><th>Evidence Status · 证据状态</th><td>Supported as cultural pattern; Experimental as universal tendency · 文化模式有支持；普遍倾向属实验性</td></tr><tr><th>Review Status · 评审状态</th><td>Cross-cultural corpus expansion pending · 跨文化语料扩展待完成</td></tr><tr><th>Falsification Test · 证伪检验</th><td>Representative cross-cultural corpora show no recurrent ABOVE–COVER association beyond sampling and translation artifacts. · 代表性跨文化语料不显示超出抽样与翻译伪影的“上方—覆盖”反复关联。</td></tr>
+            </tbody></table></div></details>
+          </section>
+
+          <section class="hypothesis-group" aria-labelledby="transformation-hypotheses">
+            <h4 id="transformation-hypotheses">Transformation Hypotheses<span class="zh" lang="zh-Hans">转换假说</span></h4>
+            <details class="hypothesis-record"><summary>TRN-DOME-001 · Space → Dome → Visual Form｜空间→穹隆→视觉形态</summary><div class="table-wrap"><table><tbody>
+              <tr><th>Hypothesis ID</th><td>TRN-DOME-001</td></tr><tr><th>Claim · 主张</th><td>A spatial relation can be transformed into object metaphor and geometric form while preserving selected ABOVE, COVER and BOUNDARY relations. · 空间关系可转换为物体隐喻与几何形态，同时保留部分“上方、覆盖、边界”关系。</td></tr><tr><th>Author · 作者</th><td>Jinkai Liu</td></tr><tr><th>Origin or System · 来源或系统</th><td>Unilanguage</td></tr><tr><th>Theoretical Support · 理论支持</th><td>Structure-preserving transformation; spatial semantics; multimodal representation. · 结构保持转换、空间语义与多模态表达。</td></tr><tr><th>Supporting Cases · 支持案例</th><td><a href="../words/sky.html#sky-transformation">SKY → ABOVE SPACE → COVER / DOME → geometric form</a>; Universe diagram chain. · Sky 转换链与 Universe 图式链。</td></tr><tr><th>Counterexamples · 反例</th><td>Transformations may introduce new meanings or erase source distinctions; not every sky representation is domed. · 转换可能引入新意义或抹去来源差异；并非所有天空表达都是穹隆形。</td></tr><tr><th>Mapping Type · 映射类型</th><td>Transformation Hypothesis · 转换假说</td></tr><tr><th>Evidence Status · 证据状态</th><td>Experimental · 实验性</td></tr><tr><th>Review Status · 评审状态</th><td>Case model built; preservation metrics pending · 案例模型已建；结构保持指标待建</td></tr><tr><th>Falsification Test · 证伪检验</th><td>Blind reviewers cannot recover the proposed invariant relations from transformed representations above chance. · 盲评者从转换后的表达中恢复拟议不变量的表现不高于随机水平。</td></tr>
+            </tbody></table></div></details>
+          </section>
+        </div>
+
         <h4>Required Research Record<span class="zh" lang="zh-Hans">必需研究记录</span></h4>
-        <ol>
-          <li><strong>Established facts</strong> — dated, attributable observations.<span class="zh" lang="zh-Hans"><strong>已确立事实</strong>——可注明年代与来源的观察。</span></li>
-          <li><strong>Supported interpretation</strong> — an inference backed by converging evidence.<span class="zh" lang="zh-Hans"><strong>有支持的解释</strong>——获得多项证据共同支持的推论。</span></li>
-          <li><strong>Experimental hypothesis</strong> — a testable proposal with explicit variables.<span class="zh" lang="zh-Hans"><strong>实验性假设</strong>——具有明确变量、可以检验的提案。</span></li>
-          <li><strong>Speculative extension</strong> — a lower-confidence extrapolation kept separate from findings.<span class="zh" lang="zh-Hans"><strong>推测性延伸</strong>——与研究发现分开标注的低置信度外推。</span></li>
-          <li><strong>Falsification test</strong> — the observation or result that would weaken or reject the proposal.<span class="zh" lang="zh-Hans"><strong>证伪检验</strong>——能够削弱或否定该提案的观察或结果。</span></li>
-        </ol>
+        <p>Every new record must retain: Hypothesis ID / Claim / Author / Origin or System / Theoretical Support / Supporting Cases / Counterexamples / Mapping Type / Evidence Status / Review Status / Falsification Test.<span class="zh" lang="zh-Hans">每条新记录必须保留：假说编号／主张／作者／来源或系统／理论支持／支持案例／反例／映射类型／证据状态／评审状态／证伪检验。</span></p>
       </article>
       <blockquote class="statement">
         <p><strong>A hypothesis does not need to be established before it can be tested computationally. Its status must be explicit.</strong><span class="zh" lang="zh-Hans"><strong>一个假设不必先成为定论，才可以接受计算检验；但它的状态必须明确。</strong></span></p>

@@ -4,32 +4,33 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Language Book Template · Unilanguage</title>
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/sky-case.css">
 </head>
 
 <body>
 
-<header>
-    <div class="logo">Unilanguage</div>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../search.html">Search</a>
-        <a href="../dictionary.html">Language Book</a>
-        <a href="../protocol.html">Protocol Book</a>
-        <a href="../translation-protocol.html">UTP</a>
-        <a href="../contribute.html">Community</a>
-    </nav>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="../index.html">Unilanguage</a>
+        <nav class="nav" aria-label="Main navigation">
+            <a href="../index.html">Home · 首页</a>
+            <a href="../search.html">Search · 搜索</a>
+            <a href="../dictionary.html" aria-current="page">Dictionary · 词典</a>
+            <a href="../protocol.html">Protocol · 协议</a>
+            <a href="../translation-protocol.html">UTP · 翻译实验</a>
+        </nav>
+    </div>
 </header>
 
 <main class="word-page">
 
-<section class="word-hero">
+<section class="word-hero hero">
     <p class="word-category">Language Book · Word Template</p>
     <h1>[Word]</h1>
     <p class="word-subtitle">[phonetic] · [part of speech] · [Chinese] · [French]</p>
 </section>
 
-<section class="word-section literature">
+<section class="word-section section literature">
     <h2>① Literary Introduction（文学引言）</h2>
     <p>
         在这里放入一段诗歌、散文、场景描写或文学性开头。<br>
@@ -37,7 +38,7 @@
     </p>
 </section>
 
-<section class="word-section">
+<section class="word-section section">
     <h2>② Basic Meaning（基本词义）</h2>
     <p>
         <strong>[Word]</strong> means ...
@@ -48,10 +49,10 @@
     </p>
 </section>
 
-<section class="word-section">
+<section class="word-section section">
     <h2>③ Multilingual Mapping（多语言对应）</h2>
 
-    <div class="mapping-box">
+    <div class="card">
         English: [word]<br>
         Chinese: [汉语词] [pinyin]<br>
         French: [mot français]<br>
@@ -59,7 +60,7 @@
     </div>
 </section>
 
-<section class="word-section">
+<section class="word-section section">
     <h2>④ Etymology（词源）</h2>
     <p>
         在这里写传统词源：Old English、Latin、Greek、French、古汉语等。
@@ -69,42 +70,87 @@
     </p>
 </section>
 
-<section class="word-section">
-    <h2>⑤ Unilanguage Mapping（共通语言映射）</h2>
-
-    <div class="mapping-box">
-        [Word]<br>
-        ↓<br>
-        [Semantic Bridge]<br>
-        ↓<br>
-        [Chinese Mapping]<br>
-        ↓<br>
-        [Meaning Reconstruction]
-    </div>
-
+<section class="word-section section" id="multidimensional-mapping">
+    <h2>⑤ Multidimensional Mapping（多维映射）</h2>
     <p>
-        在这里给出这个词的共通语言对应关系。
+        Apply the three mechanisms from the
+        <a href="../protocol/protocol.mapping-framework.html">Mapping Framework</a>
+        separately. Do not place historical evidence, created metaphor and
+        representational transformation in one undifferentiated claim.
     </p>
-</section>
+    <p lang="zh-Hans">
+        分别应用<a href="../protocol/protocol.mapping-framework.html">多维映射框架</a>的三大机制。不要把历史证据、被创造的隐喻与表达转换写成同一种未区分的主张。
+    </p>
 
-<section class="word-section">
-    <h2>⑤A Mapping Level（映射等级）</h2>
-
-    <div class="mapping-box">
-        Mapping Level: ★★★★★<br>
-        Status: Strong / Good / Moderate / Weak / Tentative
+    <div class="mapping-level-banner">
+        <span class="label">Overall Mapping Level · 整体映射层级</span>
+        <strong>[A / B / C / D] — [Level name · 层级名称]</strong>
+        <span>[One-sentence rationale in English. · 一句中文理由。]</span>
     </div>
 
-    <ul>
-        <li>★★★★★ Strong Mapping（强对应）</li>
-        <li>★★★★ Good Mapping（较强对应）</li>
-        <li>★★★ Moderate Mapping（中等对应）</li>
-        <li>★★ Weak Mapping（弱对应）</li>
-        <li>★ Tentative Mapping（暂定对应）</li>
-    </ul>
+    <div class="mechanism-stack">
+        <article class="mechanism-card">
+            <p class="mechanism-tag">01 · Discovery · 发现</p>
+            <h3>Observed or proposed relations · 已观察或拟议关系</h3>
+            <div class="mapping-facts">
+                <div><span class="label">Historical / Etymological · 历史／词源</span><strong>[Claim]</strong><p>[Evidence, sources, limits and alternatives. · 证据、来源、限制与其他解释。]</p></div>
+                <div><span class="label">Phonetic-Semantic · 语音—语义</span><strong>[Claim]</strong><p>[Correspondences, unmatched features and controls. · 对应、未对应特征与控制条件。]</p></div>
+                <div><span class="label">Cognitive / Spatial · 认知／空间</span><strong>[SCHEMA → SCHEMA]</strong><p>[Embodied or spatial explanation. · 具身或空间解释。]</p></div>
+                <div><span class="label">Cultural / Script · 文化／文字</span><strong>[Claim]</strong><p>[Documented interpretation and evidence boundary. · 有记录的解释与证据边界。]</p></div>
+            </div>
+        </article>
+
+        <article class="mechanism-card">
+            <p class="mechanism-tag">02 · Creation · 创造</p>
+            <h3>Created Semantic Relations · 被创造的语义关系</h3>
+            <div class="pair">
+                <div><p class="label">English</p><p>[Literary, poetic, metaphorical, narrative or naming relation intentionally created here.]</p></div>
+                <div lang="zh-Hans"><p class="label">中文</p><p>[在此主动创造的文学、诗歌、隐喻、叙事或命名关系。]</p></div>
+            </div>
+            <p class="boundary"><strong>Creation boundary · 创造边界：</strong> A created relation is not evidence of historical etymology. · 被创造的关系不构成历史词源证据。</p>
+        </article>
+
+        <article class="mechanism-card">
+            <p class="mechanism-tag">03 · Transformation · 转换</p>
+            <h3>Structure across representational domains · 跨表达域结构</h3>
+            <p class="formula">[WORD] → [CONCEPT] → [OBJECT / SPACE] → [GEOMETRY / IMAGE / MOTION]</p>
+            <div class="transformation-grid" aria-label="Transformation chain template">
+                <div><strong>Language · 语言</strong><span>[word / character]</span></div>
+                <div><strong>Concept · 概念</strong><span>[semantic structure]</span></div>
+                <div><strong>Spatial / Object · 空间／物体</strong><span>[schema or metaphor]</span></div>
+                <div><strong>Visual / Motion · 视觉／运动</strong><span>[form or action]</span></div>
+            </div>
+            <p class="small">State what is preserved, lost and newly created during transformation. · 说明转换中哪些内容被保留、丢失或新生成。</p>
+        </article>
+    </div>
 </section>
 
-<section class="word-section highlight-section">
+<section class="word-section section" id="evidence-classification">
+    <h2>⑤A Evidence Status, Mapping Level and Hypothesis Status（证据状态、映射层级与假说状态）</h2>
+    <div class="cards">
+        <div class="card"><h3>Evidence Status · 证据状态</h3><p>Established · 已确立<br>Supported · 有支持<br>Experimental · 实验性<br>Speculative · 推测性</p></div>
+        <div class="card"><h3>Mapping Level A / B / C / D · 映射层级</h3><p>A — Historical / structural correspondence · 历史／结构对应<br>B — Experimental candidate · 实验性候选<br>C — Semantic / cognitive mapping · 语义／认知映射<br>D — Created / transformative relation · 创造／转换关系</p></div>
+        <div class="card"><h3>Hypothesis Status · 假说状态</h3><p>Not applicable / Registered / Testing / Revised / Supported / Rejected · 不适用／已登记／检验中／已修订／有支持／已否定</p></div>
+        <div class="card"><h3>Historical Cognacy · 历史同源</h3><p>Established / Supported / Unknown-Unproven / Rejected · 已确立／有支持／未知-未证实／已否定</p></div>
+    </div>
+    <p class="boundary"><strong>Required separation · 必须区分：</strong> Evidence Status records confidence; Mapping Level records the kind and strength of correspondence; Hypothesis Status records the proposal's workflow state. · 证据状态记录置信度；映射层级记录对应类型与强度；假说状态记录提案所处流程阶段。</p>
+</section>
+
+<section class="word-section section" id="visualization">
+    <h2>⑤B Lexical Cube / Visualization（词汇立方体／可视化）</h2>
+    <p>The Lexical Cube visualizes relations; it is not a fourth mechanism. Fill only dimensions supported by the case. · 词汇立方体用于显示关系，并非第四种机制；只填写本案例有依据的维度。</p>
+    <div class="mapping-facts">
+        <div><span class="label">Sound · 声音</span><strong>[phonetic features]</strong></div>
+        <div><span class="label">Meaning · 意义</span><strong>[semantic field]</strong></div>
+        <div><span class="label">Form · 形式</span><strong>[word / script / symbol]</strong></div>
+        <div><span class="label">Space / Time · 时空</span><strong>[spatial or temporal schema]</strong></div>
+        <div><span class="label">History / Culture · 历史／文化</span><strong>[attested or interpreted context]</strong></div>
+        <div><span class="label">Literature / Transformation · 文学／转换</span><strong>[created or transformed relation]</strong></div>
+    </div>
+    <p class="small">Optional visualization output: table, diagram, graph, cube, image or motion study. · 可选可视化输出：表格、图式、关系图、立方体、图像或运动研究。</p>
+</section>
+
+<section class="word-section section highlight-section">
     <h2>⑥ Mapping Justification（映射依据）</h2>
 
     <p class="note">
@@ -112,39 +158,39 @@
         It explains why this mapping is possible.
     </p>
 
-    <div class="justification-grid">
+    <div class="mapping-facts">
 
-        <div class="justification-card">
+        <div>
             <h3>Semantic Analysis（语义分析）</h3>
             <p>[Explain the semantic connection.]</p>
         </div>
 
-        <div class="justification-card">
+        <div>
             <h3>Spatial Analysis（空间分析）</h3>
             <p>[Explain spatial metaphor, direction or position.]</p>
         </div>
 
-        <div class="justification-card">
+        <div>
             <h3>Temporal Analysis（时间分析）</h3>
             <p>[Explain time, change, process or memory.]</p>
         </div>
 
-        <div class="justification-card">
+        <div>
             <h3>Phonetic Analysis（语音分析）</h3>
             <p>[Explain sound, consonant, vowel or pronunciation.]</p>
         </div>
 
-        <div class="justification-card">
+        <div>
             <h3>Cultural Analysis（文化分析）</h3>
             <p>[Explain cultural metaphor or symbolic meaning.]</p>
         </div>
 
-        <div class="justification-card">
+        <div>
             <h3>Civilizational Analysis（文明分析）</h3>
             <p>[Explain historical, religious, philosophical or civilizational background.]</p>
         </div>
 
-        <div class="justification-card">
+        <div>
             <h3>Cognitive Analysis（认知分析）</h3>
             <p>[Explain how human cognition supports this mapping.]</p>
         </div>
@@ -152,19 +198,19 @@
     </div>
 </section>
 
-<section class="word-section">
+<section class="word-section section">
     <h2>⑦ Protocol References（协议依据）</h2>
 
     <ul>
-        <li><a href="../protocol/protocol.sound.html">Sound Protocol</a>：Initial Consonant Principle</li>
-        <li><a href="../protocol/protocol.space.html">Space Protocol</a>：Spatial Metaphor</li>
-        <li><a href="../protocol/protocol.meaning.html">Meaning Protocol</a>：Semantic Correspondence</li>
-        <li><a href="../protocol/protocol.culture.html">Culture Protocol</a>：Cultural Mapping</li>
-        <li><a href="../translation-protocol.html">UTP</a>：Meaning Reconstruction</li>
+        <li><a href="../protocol/protocol.mapping-framework.html">Mapping Framework · 多维映射框架</a>：Discovery / Creation / Transformation</li>
+        <li><a href="../protocol/protocol.mapping-framework.html#hypothesis-lab">Hypothesis Lab · 假说实验室</a>：Registered hypotheses and falsification tests</li>
+        <li><a href="../protocol/protocol.sound.html">Sound Protocol · 声音协议</a>：Phonetic comparison</li>
+        <li><a href="../protocol/protocol.space.html">Space Protocol · 空间协议</a>：Spatial metaphor</li>
+        <li><a href="../translation-protocol.html">UTP · 翻译实验</a>：Meaning reconstruction</li>
     </ul>
 </section>
 
-<section class="word-section">
+<section class="word-section section">
     <h2>⑧ Translation Protocol（UTP）</h2>
 
     <p>
@@ -172,14 +218,14 @@
         under the Unilanguage Translation Protocol.
     </p>
 
-    <div class="mapping-box">
+    <div class="card">
         Normal Translation: [ordinary translation]<br>
         UTP Mapping: [deeper mapping]<br>
         Reconstruction: [meaning reconstruction]
     </div>
 </section>
 
-<section class="word-section">
+<section class="word-section section">
     <h2>⑨ Examples（例句）</h2>
 
     <p>
@@ -195,7 +241,7 @@
     </p>
 </section>
 
-<section class="word-section contribute">
+<section class="word-section section contribute">
     <h2>⑩ Community（社区共创）</h2>
 
     <p>
@@ -208,16 +254,17 @@
         词源补充和 UTP 评价。
     </p>
 
-    <a class="btn" href="../contribute.html">Submit Contribution</a>
+    <a class="btn" href="../protocol/protocol.mapping-framework.html#hypothesis-lab">Review Hypothesis Lab · 查看假说实验室</a>
 </section>
 
-<section class="word-section">
+<section class="word-section section">
     <h2>Version（版本信息）</h2>
-    <div class="mapping-box">
+    <div class="card">
         Language Book Template<br>
-        Version: 1.0<br>
+        Version: 2.0<br>
         Core: Mapping Justification<br>
-        Status: Golden Template
+        Framework: Discovery / Creation / Transformation<br>
+        Status: Standard Template
     </div>
 </section>
 
@@ -227,8 +274,8 @@
 
 </main>
 
-<footer>
-    <p>Unilanguage Language Book · Golden Template v1.0</p>
+<footer class="footer">
+    <p>Unilanguage Language Book · Standard Template v2.0</p>
 </footer>
 
 </body>
