@@ -2,51 +2,72 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Protocol Book · Unilanguage</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sound · 声音协议 · Protocol Book | Unilanguage</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/sky-case.css">
+<style>
+    /* Shared-style compatibility: style.css applies fixed positioning to all headers. */
+    .site-header {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0;
+        display: block;
+    }
+
+    .hero {
+        position: static;
+        inset: auto;
+        width: auto;
+        height: auto;
+        display: block;
+        z-index: auto;
+    }
+</style>
 </head>
 
 <body>
 
-<header>
-    <div class="logo">Unilanguage</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="search.html">Search</a>
-        <a href="dictionary.html">Dictionary</a>
-        <a href="protocol.html">Protocol</a>
-        <a href="contribute.html">Community</a>
-    </nav>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="../index.html">Unilanguage</a>
+        <nav class="nav" aria-label="Primary navigation">
+            <a href="../index.html">Home · 首页</a>
+            <a href="../search.html">Search · 搜索</a>
+            <a href="../dictionary.html">Dictionary · 词典</a>
+            <a href="../protocol.html" aria-current="page">Protocol · 协议</a>
+            <a href="../translation-protocol.html">UTP · 翻译实验</a>
+        </nav>
+    </div>
 </header>
 
-<main class="word-page">
+<main>
 
-    <section class="word-hero">
-        <p class="word-category">Unilanguage · Protocol Book</p>
-        <h1>Protocol</h1>
-        <p class="word-subtitle">
-            Sound · Space · Time · Meaning · Language · Human · Knowledge
+    <header class="hero">
+        <p class="eyebrow">Protocol Book · Chapter 01 · 协议书第一章</p>
+        <h1>Sound · 声音协议</h1>
+        <p class="subtitle">
+            Sound Structure · 声音结构 · Structure sonore
+        </p>
+    </header>
+
+    <section class="section">
+        <h2>Sound Protocol · 声音协议</h2>
+        <p>
+            Sound is vibration perceived by living beings. In physics, sound is
+            a mechanical wave; in language, it is a primary medium through which
+            speech becomes perceptible.
+        </p>
+        <p>
+            在 Unilanguage 中，声音不只是物理现象，也是意义出现之前最早可以被感知的信息形式之一。
         </p>
     </section>
 
-    <section class="word-section">
-        <h2>Protocol Book（协议之书）</h2>
-        <p>
-            The Protocol Book explains the foundation of Unilanguage:
-            what language is, what sound is, how meaning appears,
-            and how human knowledge is formed through language.
-        </p>
-        <p>
-            Protocol Book 回答：
-            语言是什么？声音是什么？意义如何产生？
-            人类如何通过语言形成知识？
-        </p>
-    </section>
+    <section class="section">
+        <h2>Protocol Position · 协议位置</h2>
 
-    <section class="word-section">
-        <h2>Core Structure（核心结构）</h2>
-
-        <div class="protocol-flow">
+        <div class="formula">
             Sound<br>
             ↓<br>
             Space<br>
@@ -63,95 +84,80 @@
         </div>
     </section>
 
-    <section class="word-section">
-        <h2>Chapters（章节）</h2>
+    <section class="section">
+        <h2>Semantic Rules · 语义规则</h2>
 
-        <div class="chapter-grid">
+        <div class="cards">
 
-            <a class="chapter-card" href="protocol/sound.html">
-                <h3>① Sound</h3>
-                <p>所有语言的起点。声音、振动、感知与记忆。</p>
-            </a>
+            <div class="card">
+                <h3>Vibration · 振动</h3>
+                <p>Sound begins as physical vibration moving through a medium.</p>
+                <p>声音始于在介质中传播的物理振动。</p>
+            </div>
 
-            <a class="chapter-card" href="protocol/space.html">
-                <h3>② Space</h3>
-                <p>声音存在的场域。方向、位置、距离与结构。</p>
-            </a>
+            <div class="card">
+                <h3>Perception · 感知</h3>
+                <p>A vibration becomes sound when a listener can perceive it.</p>
+                <p>振动被听者感知时，才成为经验中的声音。</p>
+            </div>
 
-            <a class="chapter-card" href="protocol/time.html">
-                <h3>③ Time</h3>
-                <p>声音与意义展开的过程。变化、顺序与记忆。</p>
-            </a>
+            <div class="card">
+                <h3>Memory · 记忆</h3>
+                <p>Memory compares present sound with earlier patterns and contexts.</p>
+                <p>记忆把当下声音与既有模式和语境进行比较。</p>
+            </div>
 
-            <a class="chapter-card" href="protocol/meaning.html">
-                <h3>④ Meaning</h3>
-                <p>声音经过感知与记忆之后形成的语义。</p>
-            </a>
-
-            <a class="chapter-card" href="protocol/language.html">
-                <h3>⑤ Language</h3>
-                <p>意义被组织、传递和重建的系统。</p>
-            </a>
-
-            <a class="chapter-card" href="protocol/human.html">
-                <h3>⑥ Human</h3>
-                <p>语言的感知者、创造者与解释者。</p>
-            </a>
-
-            <a class="chapter-card" href="protocol/knowledge.html">
-                <h3>⑦ Knowledge</h3>
-                <p>语言最终通向知识、文明与共同理解。</p>
-            </a>
+            <div class="card">
+                <h3>Mapping · 映射</h3>
+                <p>Phonetic resemblance may motivate a testable comparison, but does not by itself prove historical relation.</p>
+                <p>语音相似可以成为可检验比较的起点，但不能单独证明历史同源。</p>
+            </div>
 
         </div>
     </section>
 
-    <section class="word-section">
-        <h2>Protocol Page Template（页面统一模板）</h2>
+    <section class="section">
+        <h2>Evidence Boundaries · 证据边界</h2>
 
         <ol>
-            <li>Literary Introduction（文学引言）</li>
-            <li>Definition（定义）</li>
-            <li>Multilingual Mapping（多语言对应）</li>
-            <li>Etymology（词源）</li>
-            <li>Unilanguage Interpretation（共通语言解释）</li>
-            <li>Semantic Rules（语义规则）</li>
-            <li>Protocol Example（协议实例）</li>
-            <li>Protocol Position（协议位置）</li>
-            <li>Related Concepts（相关概念）</li>
-            <li>Reflection（思考）</li>
-            <li>Community（社区共创）</li>
+            <li>Document established phonetic and historical facts separately.</li>
+            <li>Label cross-language sound comparisons as proposed mappings.</li>
+            <li>Record alternative explanations and limitations.</li>
+            <li>Treat sound symbolism and deep-history proposals as hypotheses.</li>
         </ol>
 
-        <p class="note">
-            注：虽然我们称为 10 个核心章节，但 “Protocol Example” 可以作为
-            Semantic Rules 后面的子栏目 ⑥A。
+        <p class="boundary">
+            Homophony is evidence to investigate, not evidence to conclude. ·
+            同音是调查的入口，而不是结论。
         </p>
     </section>
 
-    <section class="word-section">
-        <h2>Relationship with Language Book（与词典之书的关系）</h2>
+    <section class="section">
+        <h2>Related Pages · 相关页面</h2>
 
         <p>
-            <strong>Protocol Book</strong> explains the system.
+            <a href="protocol.space.html">Space Protocol · 空间协议</a> explains
+            the field in which sound is located and propagated.
         </p>
 
         <p>
-            <strong>Language Book</strong> explains each word.
+            <a href="../words/sound.html">Sound Language Book · Sound 语言书</a>
+            preserves the extended literary and lexical discussion.
         </p>
 
         <p>
-            Protocol Book 回答：“语言是什么？声音是什么？意义如何产生？”
-            <br>
-            Language Book 回答：“这个词是什么意思？它与其他语言如何对应？”
+            Sound comparison must remain connected to meaning, context and
+            evidence status rather than being treated as proof by resemblance alone.
         </p>
     </section>
 
-    <div class="back-link">
-        <a href="index.html">← Back to Home</a>
-    </div>
+    <nav class="chapter-nav" aria-label="Page navigation">
+        <a href="../protocol.html">← Protocol Index · 协议目录</a>
+    </nav>
 
 </main>
+
+<footer class="footer">Unilanguage · Protocol Book · Sound · 声音协议</footer>
 
 </body>
 </html>
