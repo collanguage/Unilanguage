@@ -6,7 +6,7 @@ const dictionary=[
  {keys:["protocol","protocol book","semantic protocol","协议","协议书","语义协议"],page:"protocol.html"},
  {keys:["dictionary","language book","词典","语言书"],page:"dictionary.html"},
  {keys:["universe","cosmos","宇宙","世界","univers","monde"],page:"dictionary.html#universe"},
- {keys:["human","person","人","人类","humain","homme"],page:"dictionary.html#human"},
+ {keys:["man","male","human","person","男","男人","男子","氓","meng","mang","humain","homme"],page:"words/man.html"},
  {keys:["language","speech","语言","言语","langue","langage"],page:"dictionary.html#language"},
  {keys:["knowledge","know","知识","知","connaissance","savoir"],page:"dictionary.html#knowledge"},
  {keys:["sound","voice","声音","声","响","son"],page:"dictionary.html#sound"}
