@@ -26,11 +26,11 @@
       <div class="container">
         <p class="eyebrow">Public-safe research record · 公开安全研究记录 · UNI-EXP-001A-R2</p>
         <h1>Exploratory AI Blind Annotation</h1>
-        <p class="subtitle">Completed and frozen at the blinded agreement gate.</p>
-        <p class="subtitle-cn" lang="zh-Hans">探索性 AI 盲标已完成，并在盲态一致性阶段冻结。</p>
+        <p class="subtitle">Frozen passes unblinded under authorization; aggregate exploratory result published.</p>
+        <p class="subtitle-cn" lang="zh-Hans">两份冻结标注已在授权下揭盲，并公布探索性汇总结果。</p>
         <div class="tags" aria-label="Current research statuses · 当前研究状态">
-          <span class="tag">AI annotation completed · AI 标注已完成</span>
-          <span class="tag">Unblinding not yet performed · 尚未揭盲</span>
+          <span class="tag">Exploratory AI Result · 探索性 AI 结果</span>
+          <span class="tag">Tentatively Supported · 初步支持</span>
           <span class="tag">Human annotation pending · 真人标注待进行</span>
         </div>
       </div>
@@ -51,6 +51,8 @@
             <ul class="method-list">
               <li>AI Blind Annotation Protocol v1.0 · AI 盲标协议 v1.0</li>
               <li>Blinded AI-A/AI-B agreement diagnostics · AI-A/AI-B 盲态一致性诊断</li>
+              <li>Aggregate M/Control outcome statistics for each frozen pass · 两份冻结标注各自的 M/对照组汇总统计</li>
+              <li>Aggregate evidence-family and frozen-category sensitivities · 证据家族与冻结类别汇总敏感性分析</li>
               <li>The fact that both outputs are frozen · 两份输出已冻结的事实</li>
               <li>Public-safe checksums and manifest · 公开安全校验和与清单</li>
               <li>Methodology, limitations, and current statuses · 方法、局限与当前状态</li>
@@ -63,6 +65,7 @@
               <li>M/control identity mappings or reconstructive files · M/对照组身份映射或可重建文件</li>
               <li>Internal blind-breaking keys · 内部揭盲密钥</li>
               <li>AI-A and AI-B row-level outputs and workbooks · AI-A 与 AI-B 逐行输出及工作簿</li>
+              <li>Joined item-level unblinded data · 揭盲后的逐项连接数据</li>
               <li>Material that could compromise later human blind annotation · 可能破坏后续真人盲标的材料</li>
             </ul>
           </article>
@@ -75,15 +78,15 @@
     <section class="section" aria-labelledby="status-title">
       <div class="container">
         <p class="eyebrow">Stage status · 阶段状态</p>
-        <h2 id="status-title">The study remains blinded<span class="zh-heading" lang="zh-Hans">研究仍保持盲态</span></h2>
+        <h2 id="status-title">Exploratory AI unblinding completed<span class="zh-heading" lang="zh-Hans">探索性 AI 揭盲已完成</span></h2>
         <div class="status-grid">
           <article class="status-card"><strong>Completed · 已完成</strong><span>AI-A independent blind pass · AI-A 独立盲标</span></article>
           <article class="status-card"><strong>Completed · 已完成</strong><span>AI-B independent blind pass · AI-B 独立盲标</span></article>
-          <article class="status-card"><strong>Not performed · 尚未进行</strong><span>Exploratory AI unblinding · 探索性 AI 揭盲</span></article>
+          <article class="status-card"><strong>Completed · 已完成</strong><span>Exploratory AI unblinding v1.0 · 探索性 AI 揭盲 v1.0</span></article>
           <article class="status-card"><strong>Pending · 待进行</strong><span>Preregistered human annotation · 预注册真人标注</span></article>
         </div>
-        <p>No M versus Control outcome rates have been calculated or published. No disagreements have been adjudicated. The restricted analysis key was not accessed for this stage.</p>
-        <p class="zh" lang="zh-Hans">本阶段未计算或发布 M 组与对照组结果率，未裁决分歧，也未访问受限分析密钥。</p>
+        <p>The restricted key was accessed only after explicit authorization and a checksum integrity gate. AI-A and AI-B were analyzed separately; no disagreements were adjudicated and no pass was selected or merged.</p>
+        <p class="zh" lang="zh-Hans">受限密钥仅在明确授权和校验和完整性检查后访问。AI-A 与 AI-B 分别分析；未裁决分歧，也未选择或合并任何一份结果。</p>
       </div>
     </section>
 
@@ -118,14 +121,43 @@
       </div>
     </section>
 
+    <section class="section section-highlight" id="unblinded-results" aria-labelledby="results-title">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="eyebrow">Exploratory AI Result · 探索性 AI 结果</p>
+            <h2 id="results-title">Tentatively Supported<span class="zh-heading" lang="zh-Hans">初步支持</span></h2>
+          </div>
+          <span class="status-badge">Human annotation pending · 真人标注待进行</span>
+        </div>
+        <p>Both frozen AI passes show a modest positive HUMAN difference for M versus pooled Controls. The direction and approximate magnitude survive the fixed evidence-family analysis, but every primary 95% confidence interval includes zero.</p>
+        <p class="zh" lang="zh-Hans">两份冻结 AI 标注均显示 M 组相对于合并对照组有小幅正向 HUMAN 差异；固定证据家族分析保留了方向和近似幅度，但所有主要 95% 置信区间都包含 0。</p>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Exploratory AI primary HUMAN results">
+          <table class="research-table">
+            <thead><tr><th scope="col">Frozen pass · 冻结标注</th><th scope="col">M HUMAN</th><th scope="col">Control HUMAN</th><th scope="col">Risk difference · 风险差</th><th scope="col">95% CI</th><th scope="col">Fisher p (one-sided)</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">AI-A</th><td>76/510 · 14.90%</td><td>60/510 · 11.76%</td><td>+3.14 pp</td><td>−1.05 to +7.33 pp</td><td>0.0835</td></tr>
+              <tr><th scope="row">AI-B</th><td>79/510 · 15.49%</td><td>61/510 · 11.96%</td><td>+3.53 pp</td><td>−0.71 to +7.77 pp</td><td>0.0608</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Evidence-family robustness · 证据家族稳健性</h3>
+        <p>Using only representatives fixed before annotation, AI-A estimates +3.42 pp (95% CI −1.23 to +8.22; one-sided p=0.0901) and AI-B estimates +3.47 pp (95% CI −1.21 to +8.30; one-sided p=0.0883).</p>
+        <p class="zh" lang="zh-Hans">仅使用标注前固定的代表词项，AI-A 估计为 +3.42 个百分点（95% CI −1.23 至 +8.22；单侧 p=0.0901），AI-B 估计为 +3.47 个百分点（95% CI −1.21 至 +8.30；单侧 p=0.0883）。</p>
+        <p class="record-note"><strong>Exploratory AI Result — Tentatively Supported:</strong> directionally consistent across both passes and family-level robustness, but not conventionally decisive. This is not a preregistered human conclusion. <strong>Preregistered Human Annotation: Pending.</strong></p>
+        <p class="record-note zh" lang="zh-Hans"><strong>探索性 AI 结果——初步支持：</strong>两份标注及家族层稳健性分析方向一致，但尚不构成常规意义上的决定性证据。本结论不是预注册真人结论。<strong>预注册真人标注：待进行。</strong></p>
+      </div>
+    </section>
+
     <section class="section" aria-labelledby="method-title">
       <div class="container">
         <p class="eyebrow">Methodology notes · 方法说明</p>
-        <h2 id="method-title">Independent passes, frozen labels, blinded comparison<span class="zh-heading" lang="zh-Hans">独立标注、冻结标签与盲态比较</span></h2>
+        <h2 id="method-title">Independent passes, frozen labels, controlled unblinding<span class="zh-heading" lang="zh-Hans">独立标注、冻结标签与受控揭盲</span></h2>
         <div class="workflow-grid">
           <article class="workflow-card"><span class="workflow-number">01</span><h3>Isolated annotation<span class="zh-heading" lang="zh-Hans">独立隔离标注</span></h3><p>AI-A and AI-B used separate contexts and distinct pre-existing randomized orders. Neither pass received group assignment, pilot outcomes, the restricted analysis key, or the other pass's output.</p><p class="zh" lang="zh-Hans">AI-A 与 AI-B 在彼此隔离的上下文中，使用各自既有的随机排序。两轮均未获得分组分配、Pilot 结果、受限分析密钥或另一轮的输出。</p></article>
           <article class="workflow-card"><span class="workflow-number">02</span><h3>Frozen coding scheme<span class="zh-heading" lang="zh-Hans">冻结编码方案</span></h3><p>Both passes used only HUMAN, PERSON, PEOPLE, IDENTITY, HUMAN-ATTRIBUTE, and UNCERTAIN under the frozen definitions.</p><p class="zh" lang="zh-Hans">两轮均只依照冻结定义使用 HUMAN、PERSON、PEOPLE、IDENTITY、HUMAN-ATTRIBUTE 与 UNCERTAIN 六个标签。</p></article>
           <article class="workflow-card"><span class="workflow-number">03</span><h3>Freeze before comparison<span class="zh-heading" lang="zh-Hans">比较前冻结</span></h3><p>Both 1,020-row outputs were structurally validated and hashed before inter-pass comparison. Agreement was joined by blind identifier, not row position.</p><p class="zh" lang="zh-Hans">两份各 1,020 行的输出在相互比较前均已完成结构验证并计算校验和。一致性通过盲态标识符配对，而不是按行位置配对。</p></article>
+          <article class="workflow-card"><span class="workflow-number">04</span><h3>Separate unblinded analyses<span class="zh-heading" lang="zh-Hans">分别进行揭盲分析</span></h3><p>After authorization and hash verification, the restricted key was joined separately to AI-A and AI-B. No pass selection, pooling, consensus label, or post-unblinding adjudication was used.</p><p class="zh" lang="zh-Hans">在授权及哈希核验后，受限密钥分别连接 AI-A 与 AI-B；未选择某一份结果、未合并、未生成共识标签，也未在揭盲后裁决。</p></article>
         </div>
       </div>
     </section>
@@ -134,22 +166,32 @@
       <div class="container">
         <p class="eyebrow">Public documents · 公开文件</p>
         <h2 id="downloads-title">Curated, public-safe materials<span class="zh-heading" lang="zh-Hans">经筛选的公开安全材料</span></h2>
-        <p>These downloads contain methodology, blinded aggregate diagnostics, and integrity records only. Row-level annotations and any identity-recovery material are intentionally absent.</p>
-        <p class="zh" lang="zh-Hans">这些下载文件仅包含方法、盲态汇总诊断与完整性记录；逐行标注以及任何可恢复身份的信息均被有意排除。</p>
+        <p>These downloads contain methodology, aggregate exploratory statistics, blinded diagnostics, analysis code, and integrity records. Row-level annotations and any identity-recovery material are intentionally absent.</p>
+        <p class="zh" lang="zh-Hans">这些下载文件包含方法、探索性汇总统计、盲态诊断、分析代码与完整性记录；逐行标注以及任何可恢复身份的信息均被有意排除。</p>
         <div class="download-list">
           <a class="button" href="public-record/ai-blind-annotation-protocol-v1.0.md" download>AI Blind Annotation Protocol v1.0 · AI 盲标协议</a>
           <a class="button secondary" href="public-record/blinded-inter-ai-agreement-v1.0.md" download>Blinded Agreement Report v1.0 · 盲态一致性报告</a>
           <a class="button secondary" href="public-record/public-safe-manifest-v1.0.json" download>Public-safe Manifest v1.0 · 公开安全清单</a>
           <a class="button secondary" href="public-record/public-safe-checksums-v1.0.sha256" download>Public-safe Checksums · 公开安全校验和</a>
+          <a class="button" href="public-record/exploratory-ai-unblinding-report-v1.0.md" download>Exploratory Unblinding Report v1.0 · 探索性揭盲报告</a>
+          <a class="button secondary" href="public-record/exploratory-ai-analysis-output-v1.0.json" download>Aggregate Analysis JSON · 汇总分析 JSON</a>
+          <a class="button secondary" href="public-record/exploratory-ai-analysis-output-v1.0.csv" download>Aggregate Analysis CSV · 汇总分析 CSV</a>
+          <a class="button secondary" href="public-record/exploratory-ai-analysis-code-v1.0.py" download>Reproducible Analysis Code · 可复现分析代码</a>
+          <a class="button secondary" href="public-record/exploratory-ai-public-summary-v1.0.md" download>Public-safe Summary · 公开安全摘要</a>
+          <a class="button secondary" href="public-record/exploratory-ai-unblinding-audit-log-v1.0.md" download>Unblinding Audit Log · 揭盲审计记录</a>
+          <a class="button secondary" href="public-record/exploratory-ai-unblinding-decision-log-v1.0.md" download>Analysis Decision Log · 分析决策记录</a>
+          <a class="button secondary" href="public-record/exploratory-ai-public-release-review-v1.0.md" download>Public-release Review · 公开发布审查</a>
+          <a class="button secondary" href="public-record/exploratory-ai-public-release-manifest-v1.0.json" download>Unblinding Release Manifest · 揭盲发布清单</a>
+          <a class="button secondary" href="public-record/exploratory-ai-public-release-checksums-v1.0.sha256" download>Unblinding Release Checksums · 揭盲发布校验和</a>
         </div>
-        <p class="record-note"><strong>Next decision is separate:</strong> authorize unblinding of the exploratory AI results, or preserve the blind state and wait for future preregistered human annotation. This public record does not make that decision.</p>
-        <p class="record-note zh" lang="zh-Hans"><strong>下一步需另行决定：</strong>授权对探索性 AI 结果揭盲，或继续保持盲态并等待未来的预注册真人标注。本公开记录不作出这一决定。</p>
+        <p class="record-note"><strong>Continuing boundary:</strong> the exploratory AI result is public, while the reusable key and row-level mappings remain private. Future preregistered human annotation remains pending and must retain its blind procedure.</p>
+        <p class="record-note zh" lang="zh-Hans"><strong>持续边界：</strong>探索性 AI 结果已公开，而可复用密钥与逐项映射继续保密。未来的预注册真人标注仍待进行，并必须保持盲法。</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container"><span>Unilanguage Hypothesis Lab · 假说实验室</span><span>UNI-EXP-001A-R2 · Public-safe record v1.0 · 公开安全记录</span></div>
+    <div class="container"><span>Unilanguage Hypothesis Lab · 假说实验室</span><span>UNI-EXP-001A-R2 · Exploratory AI Unblinding v1.0 · 探索性 AI 揭盲</span></div>
   </footer>
 </body>
 </html>

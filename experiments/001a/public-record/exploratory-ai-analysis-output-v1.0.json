@@ -1,0 +1,1239 @@
+{
+  "record_id": "UNI-EXP-001A-R2-AIUNBLIND-1.0",
+  "generated_at_utc": "2026-08-24T23:17:09.965536Z",
+  "result_label": "Exploratory AI Result",
+  "preregistered_human_annotation": "Pending",
+  "experiment_001b_started": false,
+  "input_sha256": {
+    "restricted_analysis_key": "74bfdbfd1ff8fa564520a75db35c92702ea6385209c65a2b80f073d110412ca2",
+    "ai_a_labels": "ccecdd2716bbf3f3180ff1260f2fe9d59161639271753b0cad845b1512bb9c13",
+    "ai_b_labels": "af4644ad15215dfea7e929c303438adee68d4d5091906020b0bcaa0e3169f6a4"
+  },
+  "methods": {
+    "primary_outcome": "frozen HUMAN binary label",
+    "primary_analysis_level": "all frozen lexemes/items",
+    "primary_effect": "M minus pooled-Control absolute risk difference",
+    "risk_difference_ci": "two-sided 95% Newcombe score interval without continuity correction",
+    "hypothesis_test": "Fisher exact test; one-sided greater follows the frozen directional hypothesis; two-sided also reported",
+    "robustness": "evidence-family representatives fixed before annotation",
+    "pass_handling": "AI-A and AI-B analyzed separately; no selection, pooling, consensus, or adjudication"
+  },
+  "passes": {
+    "ai_a": {
+      "lexeme_level": {
+        "primary_human": {
+          "label": "human",
+          "m": {
+            "n": 510,
+            "positive": 76,
+            "rate": 0.14901960784313725,
+            "wilson_95_ci": [
+              0.12074154567041648,
+              0.1825455016191547
+            ]
+          },
+          "control": {
+            "n": 510,
+            "positive": 60,
+            "rate": 0.11764705882352941,
+            "wilson_95_ci": [
+              0.09250154866374904,
+              0.1485094805064542
+            ]
+          },
+          "risk_difference_m_minus_control": 0.03137254901960784,
+          "risk_difference_newcombe_95_ci": [
+            -0.01048599697017695,
+            0.07328057014535921
+          ],
+          "odds_ratio": 1.3133640552995391,
+          "odds_ratio_wald_95_ci": [
+            0.9133209013003319,
+            1.8886298772939558
+          ],
+          "fisher_exact_p_greater": 0.08345238945927158,
+          "fisher_exact_p_two_sided": 0.16690477891854316,
+          "table_m_control_by_positive_negative": [
+            [
+              76,
+              434
+            ],
+            [
+              60,
+              450
+            ]
+          ]
+        },
+        "secondary_frozen_categories": {
+          "person": {
+            "label": "person",
+            "m": {
+              "n": 510,
+              "positive": 38,
+              "rate": 0.07450980392156863,
+              "wilson_95_ci": [
+                0.054763771056591234,
+                0.10061773319948113
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 34,
+              "rate": 0.06666666666666667,
+              "wilson_95_ci": [
+                0.048096485540628856,
+                0.09171601418560153
+              ]
+            },
+            "risk_difference_m_minus_control": 0.00784313725490196,
+            "risk_difference_newcombe_95_ci": [
+              -0.02405318894466428,
+              0.03988179512682805
+            ],
+            "odds_ratio": 1.1271186440677967,
+            "odds_ratio_wald_95_ci": [
+              0.6975265292806275,
+              1.8212876277486
+            ],
+            "fisher_exact_p_greater": 0.3570302553718188,
+            "fisher_exact_p_two_sided": 0.7140605107436376,
+            "table_m_control_by_positive_negative": [
+              [
+                38,
+                472
+              ],
+              [
+                34,
+                476
+              ]
+            ]
+          },
+          "people": {
+            "label": "people",
+            "m": {
+              "n": 510,
+              "positive": 38,
+              "rate": 0.07450980392156863,
+              "wilson_95_ci": [
+                0.054763771056591234,
+                0.10061773319948113
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 26,
+              "rate": 0.050980392156862744,
+              "wilson_95_ci": [
+                0.03502492097724237,
+                0.07364956968930404
+              ]
+            },
+            "risk_difference_m_minus_control": 0.023529411764705882,
+            "risk_difference_newcombe_95_ci": [
+              -0.006533812012895025,
+              0.0541268141339296
+            ],
+            "odds_ratio": 1.498696219035202,
+            "odds_ratio_wald_95_ci": [
+              0.8957414948653922,
+              2.507520718673351
+            ],
+            "fisher_exact_p_greater": 0.07752538665731416,
+            "fisher_exact_p_two_sided": 0.15505077331462833,
+            "table_m_control_by_positive_negative": [
+              [
+                38,
+                472
+              ],
+              [
+                26,
+                484
+              ]
+            ]
+          },
+          "identity": {
+            "label": "identity",
+            "m": {
+              "n": 510,
+              "positive": 66,
+              "rate": 0.12941176470588237,
+              "wilson_95_ci": [
+                0.10302836474643282,
+                0.16133617121853347
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 38,
+              "rate": 0.07450980392156863,
+              "wilson_95_ci": [
+                0.054763771056591234,
+                0.10061773319948113
+              ]
+            },
+            "risk_difference_m_minus_control": 0.05490196078431374,
+            "risk_difference_newcombe_95_ci": [
+              0.017784474816097046,
+              0.09243958917356826
+            ],
+            "odds_ratio": 1.8463726884779517,
+            "odds_ratio_wald_95_ci": [
+              1.213607712568657,
+              2.8090560643700893
+            ],
+            "fisher_exact_p_greater": 0.0025047237360992674,
+            "fisher_exact_p_two_sided": 0.005009447472198535,
+            "table_m_control_by_positive_negative": [
+              [
+                66,
+                444
+              ],
+              [
+                38,
+                472
+              ]
+            ]
+          },
+          "human_attribute": {
+            "label": "human_attribute",
+            "m": {
+              "n": 510,
+              "positive": 117,
+              "rate": 0.22941176470588234,
+              "wilson_95_ci": [
+                0.1950244043256299,
+                0.26784493939482157
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 129,
+              "rate": 0.2529411764705882,
+              "wilson_95_ci": [
+                0.21715729325511648,
+                0.29241906405486096
+              ]
+            },
+            "risk_difference_m_minus_control": -0.023529411764705882,
+            "risk_difference_newcombe_95_ci": [
+              -0.0758839164614159,
+              0.02898339824055892
+            ],
+            "odds_ratio": 0.8792827977986863,
+            "odds_ratio_wald_95_ci": [
+              0.6597971241528617,
+              1.1717817647316162
+            ],
+            "fisher_exact_p_greater": 0.8293177961020517,
+            "fisher_exact_p_two_sided": 0.42079043818625833,
+            "table_m_control_by_positive_negative": [
+              [
+                117,
+                393
+              ],
+              [
+                129,
+                381
+              ]
+            ]
+          },
+          "uncertain": {
+            "label": "uncertain",
+            "m": {
+              "n": 510,
+              "positive": 0,
+              "rate": 0.0,
+              "wilson_95_ci": [
+                4.336808689942018e-19,
+                0.007475961222573534
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 0,
+              "rate": 0.0,
+              "wilson_95_ci": [
+                4.336808689942018e-19,
+                0.007475961222573534
+              ]
+            },
+            "risk_difference_m_minus_control": 0.0,
+            "risk_difference_newcombe_95_ci": [
+              -0.007475961222573534,
+              0.007475961222573534
+            ],
+            "odds_ratio": null,
+            "odds_ratio_wald_95_ci": null,
+            "fisher_exact_p_greater": 1.0,
+            "fisher_exact_p_two_sided": 1.0,
+            "table_m_control_by_positive_negative": [
+              [
+                0,
+                510
+              ],
+              [
+                0,
+                510
+              ]
+            ]
+          }
+        }
+      },
+      "evidence_family_level_fixed_representatives": {
+        "representative_n": 860,
+        "primary_human": {
+          "label": "human",
+          "m": {
+            "n": 385,
+            "positive": 61,
+            "rate": 0.15844155844155844,
+            "wilson_95_ci": [
+              0.12536506915927975,
+              0.1982667246374903
+            ]
+          },
+          "control": {
+            "n": 475,
+            "positive": 59,
+            "rate": 0.12421052631578948,
+            "wilson_95_ci": [
+              0.09753041652260391,
+              0.15692010478515656
+            ]
+          },
+          "risk_difference_m_minus_control": 0.03423103212576896,
+          "risk_difference_newcombe_95_ci": [
+            -0.012287465989329067,
+            0.08216715755440607
+          ],
+          "odds_ratio": 1.3274743670223896,
+          "odds_ratio_wald_95_ci": [
+            0.9021689959425552,
+            1.9532794886842906
+          ],
+          "fisher_exact_p_greater": 0.09008789119038178,
+          "fisher_exact_p_two_sided": 0.16608817741122694,
+          "table_m_control_by_positive_negative": [
+            [
+              61,
+              324
+            ],
+            [
+              59,
+              416
+            ]
+          ]
+        },
+        "secondary_frozen_categories": {
+          "person": {
+            "label": "person",
+            "m": {
+              "n": 385,
+              "positive": 36,
+              "rate": 0.09350649350649351,
+              "wilson_95_ci": [
+                0.06830725090753202,
+                0.12673743144375701
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 34,
+              "rate": 0.07157894736842105,
+              "wilson_95_ci": [
+                0.05167186271466349,
+                0.09835996409838554
+              ]
+            },
+            "risk_difference_m_minus_control": 0.021927546138072462,
+            "risk_difference_newcombe_95_ci": [
+              -0.014845061665181764,
+              0.060664960295474975
+            ],
+            "odds_ratio": 1.3379403337266138,
+            "odds_ratio_wald_95_ci": [
+              0.8202360338863175,
+              2.1824014828158402
+            ],
+            "fisher_exact_p_greater": 0.14829847473388605,
+            "fisher_exact_p_two_sided": 0.2603952660476734,
+            "table_m_control_by_positive_negative": [
+              [
+                36,
+                349
+              ],
+              [
+                34,
+                441
+              ]
+            ]
+          },
+          "people": {
+            "label": "people",
+            "m": {
+              "n": 385,
+              "positive": 25,
+              "rate": 0.06493506493506493,
+              "wilson_95_ci": [
+                0.044367004166773936,
+                0.09409934914850346
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 25,
+              "rate": 0.05263157894736842,
+              "wilson_95_ci": [
+                0.035900861375447346,
+                0.07654023541950555
+              ]
+            },
+            "risk_difference_m_minus_control": 0.01230348598769651,
+            "risk_difference_newcombe_95_ci": [
+              -0.019234887116678673,
+              0.045925984172001735
+            ],
+            "odds_ratio": 1.25,
+            "odds_ratio_wald_95_ci": [
+              0.7059017368131805,
+              2.2134808834073194
+            ],
+            "fisher_exact_p_greater": 0.26683737715528544,
+            "fisher_exact_p_two_sided": 0.466350409754926,
+            "table_m_control_by_positive_negative": [
+              [
+                25,
+                360
+              ],
+              [
+                25,
+                450
+              ]
+            ]
+          },
+          "identity": {
+            "label": "identity",
+            "m": {
+              "n": 385,
+              "positive": 53,
+              "rate": 0.13766233766233765,
+              "wilson_95_ci": [
+                0.10680952515673464,
+                0.1756743929774815
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 37,
+              "rate": 0.07789473684210527,
+              "wilson_95_ci": [
+                0.057038648981725025,
+                0.10552342117068939
+              ]
+            },
+            "risk_difference_m_minus_control": 0.059767600820232386,
+            "risk_difference_newcombe_95_ci": [
+              0.01835214190409283,
+              0.10312533081295058
+            ],
+            "odds_ratio": 1.889775317486161,
+            "odds_ratio_wald_95_ci": [
+              1.2128968343969966,
+              2.9443977833080934
+            ],
+            "fisher_exact_p_greater": 0.0031818061298295843,
+            "fisher_exact_p_two_sided": 0.005015986008095591,
+            "table_m_control_by_positive_negative": [
+              [
+                53,
+                332
+              ],
+              [
+                37,
+                438
+              ]
+            ]
+          },
+          "human_attribute": {
+            "label": "human_attribute",
+            "m": {
+              "n": 385,
+              "positive": 79,
+              "rate": 0.2051948051948052,
+              "wilson_95_ci": [
+                0.16786192293200036,
+                0.24835259110551605
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 113,
+              "rate": 0.23789473684210527,
+              "wilson_95_ci": [
+                0.20180203724722234,
+                0.2781928641691148
+              ]
+            },
+            "risk_difference_m_minus_control": -0.03269993164730006,
+            "risk_difference_newcombe_95_ci": [
+              -0.08763337468623875,
+              0.023560866860730494
+            ],
+            "odds_ratio": 0.8270576667245069,
+            "odds_ratio_wald_95_ci": [
+              0.5974230916600409,
+              1.144958060102947
+            ],
+            "fisher_exact_p_greater": 0.8903506227349458,
+            "fisher_exact_p_two_sided": 0.28444551346122393,
+            "table_m_control_by_positive_negative": [
+              [
+                79,
+                306
+              ],
+              [
+                113,
+                362
+              ]
+            ]
+          },
+          "uncertain": {
+            "label": "uncertain",
+            "m": {
+              "n": 385,
+              "positive": 0,
+              "rate": 0.0,
+              "wilson_95_ci": [
+                0.0,
+                0.009879241869796428
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 0,
+              "rate": 0.0,
+              "wilson_95_ci": [
+                8.673617379884035e-19,
+                0.008022402300241486
+              ]
+            },
+            "risk_difference_m_minus_control": 0.0,
+            "risk_difference_newcombe_95_ci": [
+              -0.008022402300241486,
+              0.009879241869796428
+            ],
+            "odds_ratio": null,
+            "odds_ratio_wald_95_ci": null,
+            "fisher_exact_p_greater": 1.0,
+            "fisher_exact_p_two_sided": 1.0,
+            "table_m_control_by_positive_negative": [
+              [
+                0,
+                385
+              ],
+              [
+                0,
+                475
+              ]
+            ]
+          }
+        }
+      },
+      "descriptive_control_letters_human": {
+        "B": {
+          "n": 30,
+          "human_positive": 3,
+          "human_rate": 0.1
+        },
+        "C": {
+          "n": 30,
+          "human_positive": 1,
+          "human_rate": 0.03333333333333333
+        },
+        "D": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "F": {
+          "n": 30,
+          "human_positive": 3,
+          "human_rate": 0.1
+        },
+        "G": {
+          "n": 30,
+          "human_positive": 5,
+          "human_rate": 0.16666666666666666
+        },
+        "H": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "J": {
+          "n": 30,
+          "human_positive": 6,
+          "human_rate": 0.2
+        },
+        "K": {
+          "n": 30,
+          "human_positive": 2,
+          "human_rate": 0.06666666666666667
+        },
+        "L": {
+          "n": 30,
+          "human_positive": 5,
+          "human_rate": 0.16666666666666666
+        },
+        "N": {
+          "n": 30,
+          "human_positive": 6,
+          "human_rate": 0.2
+        },
+        "P": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "Q": {
+          "n": 30,
+          "human_positive": 2,
+          "human_rate": 0.06666666666666667
+        },
+        "R": {
+          "n": 30,
+          "human_positive": 2,
+          "human_rate": 0.06666666666666667
+        },
+        "S": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "T": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "V": {
+          "n": 30,
+          "human_positive": 3,
+          "human_rate": 0.1
+        },
+        "W": {
+          "n": 30,
+          "human_positive": 2,
+          "human_rate": 0.06666666666666667
+        }
+      }
+    },
+    "ai_b": {
+      "lexeme_level": {
+        "primary_human": {
+          "label": "human",
+          "m": {
+            "n": 510,
+            "positive": 79,
+            "rate": 0.15490196078431373,
+            "wilson_95_ci": [
+              0.12609218370553407,
+              0.1888716169814186
+            ]
+          },
+          "control": {
+            "n": 510,
+            "positive": 61,
+            "rate": 0.11960784313725491,
+            "wilson_95_ci": [
+              0.09425023225675905,
+              0.15065304804590474
+            ]
+          },
+          "risk_difference_m_minus_control": 0.03529411764705882,
+          "risk_difference_newcombe_95_ci": [
+            -0.007059252976175323,
+            0.07768451717001859
+          ],
+          "odds_ratio": 1.349168917119927,
+          "odds_ratio_wald_95_ci": [
+            0.9419780106182549,
+            1.9323771323789762
+          ],
+          "fisher_exact_p_greater": 0.060836476602121395,
+          "fisher_exact_p_two_sided": 0.12167295320424279,
+          "table_m_control_by_positive_negative": [
+            [
+              79,
+              431
+            ],
+            [
+              61,
+              449
+            ]
+          ]
+        },
+        "secondary_frozen_categories": {
+          "person": {
+            "label": "person",
+            "m": {
+              "n": 510,
+              "positive": 71,
+              "rate": 0.1392156862745098,
+              "wilson_95_ci": [
+                0.11186036925771191,
+                0.17196542236955684
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 55,
+              "rate": 0.10784313725490197,
+              "wilson_95_ci": [
+                0.08379563963941432,
+                0.13775413386848648
+              ]
+            },
+            "risk_difference_m_minus_control": 0.03137254901960784,
+            "risk_difference_newcombe_95_ci": [
+              -0.00916115408666382,
+              0.07200292381313037
+            ],
+            "odds_ratio": 1.3379581693932492,
+            "odds_ratio_wald_95_ci": [
+              0.9189299931546333,
+              1.9480614153214384
+            ],
+            "fisher_exact_p_greater": 0.07662838506074025,
+            "fisher_exact_p_two_sided": 0.1532567701214805,
+            "table_m_control_by_positive_negative": [
+              [
+                71,
+                439
+              ],
+              [
+                55,
+                455
+              ]
+            ]
+          },
+          "people": {
+            "label": "people",
+            "m": {
+              "n": 510,
+              "positive": 8,
+              "rate": 0.01568627450980392,
+              "wilson_95_ci": [
+                0.007969437066686716,
+                0.030644533215570785
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 6,
+              "rate": 0.011764705882352941,
+              "wilson_95_ci": [
+                0.005402718468476807,
+                0.0254267495488597
+              ]
+            },
+            "risk_difference_m_minus_control": 0.00392156862745098,
+            "risk_difference_newcombe_95_ci": [
+              -0.01176922540182087,
+              0.02017654901387312
+            ],
+            "odds_ratio": 1.3386454183266931,
+            "odds_ratio_wald_95_ci": [
+              0.46114907258256843,
+              3.885883464909703
+            ],
+            "fisher_exact_p_greater": 0.39453776802174717,
+            "fisher_exact_p_two_sided": 0.7890755360434943,
+            "table_m_control_by_positive_negative": [
+              [
+                8,
+                502
+              ],
+              [
+                6,
+                504
+              ]
+            ]
+          },
+          "identity": {
+            "label": "identity",
+            "m": {
+              "n": 510,
+              "positive": 81,
+              "rate": 0.1588235294117647,
+              "wilson_95_ci": [
+                0.1296679415968155,
+                0.19308036135505818
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 61,
+              "rate": 0.11960784313725491,
+              "wilson_95_ci": [
+                0.09425023225675905,
+                0.15065304804590474
+              ]
+            },
+            "risk_difference_m_minus_control": 0.03921568627450979,
+            "risk_difference_newcombe_95_ci": [
+              -0.0033736674263303984,
+              0.08183656102336606
+            ],
+            "odds_ratio": 1.3897741602659635,
+            "odds_ratio_wald_95_ci": [
+              0.9718983279616451,
+              1.987319209195293
+            ],
+            "fisher_exact_p_greater": 0.04271459725652847,
+            "fisher_exact_p_two_sided": 0.08542919451305694,
+            "table_m_control_by_positive_negative": [
+              [
+                81,
+                429
+              ],
+              [
+                61,
+                449
+              ]
+            ]
+          },
+          "human_attribute": {
+            "label": "human_attribute",
+            "m": {
+              "n": 510,
+              "positive": 79,
+              "rate": 0.15490196078431373,
+              "wilson_95_ci": [
+                0.12609218370553407,
+                0.1888716169814186
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 76,
+              "rate": 0.14901960784313725,
+              "wilson_95_ci": [
+                0.12074154567041648,
+                0.1825455016191547
+              ]
+            },
+            "risk_difference_m_minus_control": 0.0058823529411764774,
+            "risk_difference_newcombe_95_ci": [
+              -0.03832159268373107,
+              0.050081745950512783
+            ],
+            "odds_ratio": 1.046708999877885,
+            "odds_ratio_wald_95_ci": [
+              0.7435585624503815,
+              1.4734545276633442
+            ],
+            "fisher_exact_p_greater": 0.43078439915828565,
+            "fisher_exact_p_two_sided": 0.8615687983165713,
+            "table_m_control_by_positive_negative": [
+              [
+                79,
+                431
+              ],
+              [
+                76,
+                434
+              ]
+            ]
+          },
+          "uncertain": {
+            "label": "uncertain",
+            "m": {
+              "n": 510,
+              "positive": 0,
+              "rate": 0.0,
+              "wilson_95_ci": [
+                4.336808689942018e-19,
+                0.007475961222573534
+              ]
+            },
+            "control": {
+              "n": 510,
+              "positive": 1,
+              "rate": 0.00196078431372549,
+              "wilson_95_ci": [
+                0.0003462104727956607,
+                0.01102200188223837
+              ]
+            },
+            "risk_difference_m_minus_control": -0.00196078431372549,
+            "risk_difference_newcombe_95_ci": [
+              -0.01102200188223837,
+              0.00568753869783973
+            ],
+            "odds_ratio": null,
+            "odds_ratio_wald_95_ci": null,
+            "fisher_exact_p_greater": 1.0,
+            "fisher_exact_p_two_sided": 1.0,
+            "table_m_control_by_positive_negative": [
+              [
+                0,
+                510
+              ],
+              [
+                1,
+                509
+              ]
+            ]
+          }
+        }
+      },
+      "evidence_family_level_fixed_representatives": {
+        "representative_n": 860,
+        "primary_human": {
+          "label": "human",
+          "m": {
+            "n": 385,
+            "positive": 62,
+            "rate": 0.16103896103896104,
+            "wilson_95_ci": [
+              0.12770041098968835,
+              0.20107486726490095
+            ]
+          },
+          "control": {
+            "n": 475,
+            "positive": 60,
+            "rate": 0.12631578947368421,
+            "wilson_95_ci": [
+              0.09940811194630499,
+              0.1592191571412439
+            ]
+          },
+          "risk_difference_m_minus_control": 0.03472317156527682,
+          "risk_difference_newcombe_95_ci": [
+            -0.012117948438993706,
+            0.08296109126803436
+          ],
+          "odds_ratio": 1.32765737874097,
+          "odds_ratio_wald_95_ci": [
+            0.9046898812910047,
+            1.9483738591283721
+          ],
+          "fisher_exact_p_greater": 0.08826651115936174,
+          "fisher_exact_p_two_sided": 0.1687626418610617,
+          "table_m_control_by_positive_negative": [
+            [
+              62,
+              323
+            ],
+            [
+              60,
+              415
+            ]
+          ]
+        },
+        "secondary_frozen_categories": {
+          "person": {
+            "label": "person",
+            "m": {
+              "n": 385,
+              "positive": 57,
+              "rate": 0.14805194805194805,
+              "wilson_95_ci": [
+                0.116058044943537,
+                0.18699981102195612
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 54,
+              "rate": 0.11368421052631579,
+              "wilson_95_ci": [
+                0.08818368726264351,
+                0.14538309514617465
+              ]
+            },
+            "risk_difference_m_minus_control": 0.034367737525632255,
+            "risk_difference_newcombe_95_ci": [
+              -0.010670347716232972,
+              0.08092106948642339
+            ],
+            "odds_ratio": 1.3548441734417345,
+            "odds_ratio_wald_95_ci": [
+              0.9088970828740789,
+              2.0195936029462715
+            ],
+            "fisher_exact_p_greater": 0.08214536155209276,
+            "fisher_exact_p_two_sided": 0.15223533297512998,
+            "table_m_control_by_positive_negative": [
+              [
+                57,
+                328
+              ],
+              [
+                54,
+                421
+              ]
+            ]
+          },
+          "people": {
+            "label": "people",
+            "m": {
+              "n": 385,
+              "positive": 5,
+              "rate": 0.012987012987012988,
+              "wilson_95_ci": [
+                0.005559689336897086,
+                0.030036974821995542
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 6,
+              "rate": 0.01263157894736842,
+              "wilson_95_ci": [
+                0.005801675971132493,
+                0.027281213007839734
+              ]
+            },
+            "risk_difference_m_minus_control": 0.0003554340396445671,
+            "risk_difference_newcombe_95_ci": [
+              -0.016069453013522413,
+              0.018722490778250184
+            ],
+            "odds_ratio": 1.0285087719298245,
+            "odds_ratio_wald_95_ci": [
+              0.3114887916153655,
+              3.3960460935070564
+            ],
+            "fisher_exact_p_greater": 0.5974849728135623,
+            "fisher_exact_p_two_sided": 1.0,
+            "table_m_control_by_positive_negative": [
+              [
+                5,
+                380
+              ],
+              [
+                6,
+                469
+              ]
+            ]
+          },
+          "identity": {
+            "label": "identity",
+            "m": {
+              "n": 385,
+              "positive": 65,
+              "rate": 0.16883116883116883,
+              "wilson_95_ci": [
+                0.1347259959230581,
+                0.20947973570498893
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 60,
+              "rate": 0.12631578947368421,
+              "wilson_95_ci": [
+                0.09940811194630499,
+                0.1592191571412439
+              ]
+            },
+            "risk_difference_m_minus_control": 0.04251537935748462,
+            "risk_difference_newcombe_95_ci": [
+              -0.004874434136121195,
+              0.09126298544037707
+            ],
+            "odds_ratio": 1.4049479166666667,
+            "odds_ratio_wald_95_ci": [
+              0.9608089213302056,
+              2.0543925069026656
+            ],
+            "fisher_exact_p_greater": 0.048561344912071015,
+            "fisher_exact_p_two_sided": 0.08082192884954331,
+            "table_m_control_by_positive_negative": [
+              [
+                65,
+                320
+              ],
+              [
+                60,
+                415
+              ]
+            ]
+          },
+          "human_attribute": {
+            "label": "human_attribute",
+            "m": {
+              "n": 385,
+              "positive": 58,
+              "rate": 0.15064935064935064,
+              "wilson_95_ci": [
+                0.11837950920081788,
+                0.18982183122249444
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 66,
+              "rate": 0.13894736842105262,
+              "wilson_95_ci": [
+                0.11072799803949035,
+                0.1729597577267893
+              ]
+            },
+            "risk_difference_m_minus_control": 0.011701982228298019,
+            "risk_difference_newcombe_95_ci": [
+              -0.03518282654169093,
+              0.05998050850018335
+            ],
+            "odds_ratio": 1.0991567046612918,
+            "odds_ratio_wald_95_ci": [
+              0.7505111229032972,
+              1.6097635658326397
+            ],
+            "fisher_exact_p_greater": 0.34824365600916757,
+            "fisher_exact_p_two_sided": 0.6271370568027901,
+            "table_m_control_by_positive_negative": [
+              [
+                58,
+                327
+              ],
+              [
+                66,
+                409
+              ]
+            ]
+          },
+          "uncertain": {
+            "label": "uncertain",
+            "m": {
+              "n": 385,
+              "positive": 0,
+              "rate": 0.0,
+              "wilson_95_ci": [
+                0.0,
+                0.009879241869796428
+              ]
+            },
+            "control": {
+              "n": 475,
+              "positive": 1,
+              "rate": 0.002105263157894737,
+              "wilson_95_ci": [
+                0.0003717273588636997,
+                0.011827422721166244
+              ]
+            },
+            "risk_difference_m_minus_control": -0.002105263157894737,
+            "risk_difference_newcombe_95_ci": [
+              -0.011827422721166244,
+              0.007924919606564792
+            ],
+            "odds_ratio": null,
+            "odds_ratio_wald_95_ci": null,
+            "fisher_exact_p_greater": 1.0,
+            "fisher_exact_p_two_sided": 1.0,
+            "table_m_control_by_positive_negative": [
+              [
+                0,
+                385
+              ],
+              [
+                1,
+                474
+              ]
+            ]
+          }
+        }
+      },
+      "descriptive_control_letters_human": {
+        "B": {
+          "n": 30,
+          "human_positive": 3,
+          "human_rate": 0.1
+        },
+        "C": {
+          "n": 30,
+          "human_positive": 1,
+          "human_rate": 0.03333333333333333
+        },
+        "D": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "F": {
+          "n": 30,
+          "human_positive": 3,
+          "human_rate": 0.1
+        },
+        "G": {
+          "n": 30,
+          "human_positive": 5,
+          "human_rate": 0.16666666666666666
+        },
+        "H": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "J": {
+          "n": 30,
+          "human_positive": 6,
+          "human_rate": 0.2
+        },
+        "K": {
+          "n": 30,
+          "human_positive": 2,
+          "human_rate": 0.06666666666666667
+        },
+        "L": {
+          "n": 30,
+          "human_positive": 6,
+          "human_rate": 0.2
+        },
+        "N": {
+          "n": 30,
+          "human_positive": 6,
+          "human_rate": 0.2
+        },
+        "P": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "Q": {
+          "n": 30,
+          "human_positive": 2,
+          "human_rate": 0.06666666666666667
+        },
+        "R": {
+          "n": 30,
+          "human_positive": 2,
+          "human_rate": 0.06666666666666667
+        },
+        "S": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "T": {
+          "n": 30,
+          "human_positive": 4,
+          "human_rate": 0.13333333333333333
+        },
+        "V": {
+          "n": 30,
+          "human_positive": 3,
+          "human_rate": 0.1
+        },
+        "W": {
+          "n": 30,
+          "human_positive": 2,
+          "human_rate": 0.06666666666666667
+        }
+      }
+    }
+  }
+}

@@ -31,7 +31,7 @@
         <div class="tags">
           <span class="tag">Preregistered · Round 2</span>
           <span class="tag">Rules frozen</span>
-          <span class="tag">AI annotation completed</span>
+          <span class="tag">Exploratory AI result published</span>
           <span class="tag">Human annotation pending</span>
         </div>
       </div>
@@ -41,8 +41,8 @@
       <div class="container">
         <div class="section-heading-row">
           <div>
-            <p class="eyebrow">Exploratory AI annotation</p>
-            <h2>Completed and frozen—still blinded</h2>
+            <p class="eyebrow">Exploratory AI Result</p>
+            <h2>Tentatively Supported—human result still pending</h2>
           </div>
           <span class="status-badge">Public-safe record</span>
         </div>
@@ -50,16 +50,16 @@
           <article class="panel">
             <h3>Current status</h3>
             <ul class="method-list">
-              <li>AI-A and AI-B annotation completed</li>
-              <li>Both outputs frozen by checksum</li>
-              <li>Blinded agreement: 828/1,020 full vectors (81.18%)</li>
-              <li>Unblinding not yet performed</li>
+              <li>AI-A: M 14.90% vs Controls 11.76%; risk difference +3.14 pp</li>
+              <li>AI-B: M 15.49% vs Controls 11.96%; risk difference +3.53 pp</li>
+              <li>Both 95% confidence intervals include zero</li>
+              <li>Evidence-family analysis preserves the positive direction</li>
             </ul>
           </article>
           <article class="panel">
             <h3>Research boundary</h3>
-            <p>Exploratory AI annotation does not replace the preregistered human blind annotation. No M versus Control outcome rates have been calculated or published.</p>
-            <p class="zh" lang="zh-Hans">探索性 AI 标注不替代预注册真人盲标；尚未计算或发布 M 组与对照组结果率。</p>
+            <p><strong>Exploratory AI Result — Tentatively Supported.</strong> The direction is consistent across both frozen passes, but uncertainty remains. This result does not replace or decide the preregistered human blind analysis.</p>
+            <p class="zh" lang="zh-Hans"><strong>探索性 AI 结果——初步支持。</strong>两份冻结标注的方向一致，但仍存在不确定性；本结果不替代、也不裁定预注册真人盲标分析。</p>
           </article>
         </div>
         <a class="card-link" href="001a/ai-annotation-record.html">Open the Public-safe AI Annotation Record · 查看公开安全记录</a>
@@ -227,28 +227,29 @@
     <section class="section section-soft" id="results">
       <div class="container">
         <div class="section-heading-row">
-          <div><p class="eyebrow">Round 2 outcomes</p><h2>Results</h2></div>
-          <span class="status-badge">Pending data collection</span>
+          <div><p class="eyebrow">Round 2 outcomes</p><h2>Exploratory AI Result</h2></div>
+          <span class="status-badge">Tentatively Supported</span>
         </div>
-        <p>No Round 2 outcome has been entered. This section is deliberately reserved so results can be reported under the frozen standard without changing the preregistered rules.</p>
-        <p class="zh" lang="zh-Hans">Round 2 尚未录入结果。本区有意保留，待数据收集与揭盲后，按照已冻结的报告标准填写，不修改预注册规则。</p>
+        <p>Both frozen AI passes show a modest positive M-minus-Control HUMAN difference, while both 95% confidence intervals include zero. The evidence-family robustness analysis retains the same direction. This is an <strong>Exploratory AI Result</strong>; <strong>Preregistered Human Annotation: Pending.</strong></p>
+        <p class="zh" lang="zh-Hans">两份冻结 AI 标注均显示 M 组 HUMAN 比例略高于对照组，但两个 95% 置信区间都包含 0；证据家族去重分析仍保持同一方向。本结果为<strong>探索性 AI 结果</strong>；<strong>预注册真人标注：待进行。</strong></p>
         <div class="metric-grid">
-          <article class="metric placeholder"><span class="value">N —</span><span class="label">Eligible sample · 有效样本</span></article>
-          <article class="metric placeholder"><span class="value">P(HUMAN|M) —</span><span class="label">M group proportion · M 组比例</span></article>
-          <article class="metric placeholder"><span class="value">P(HUMAN|Controls) —</span><span class="label">Control proportion · 对照组比例</span></article>
-          <article class="metric placeholder"><span class="value">Effect + 95% CI —</span><span class="label">Primary estimate · 主要估计</span></article>
+          <article class="metric"><span class="value">AI-A: 14.90% vs 11.76%</span><span class="label">76/510 M vs 60/510 Controls · M 组与对照组</span></article>
+          <article class="metric"><span class="value">+3.14 pp</span><span class="label">95% CI −1.05 to +7.33 · one-sided Fisher p=0.0835</span></article>
+          <article class="metric"><span class="value">AI-B: 15.49% vs 11.96%</span><span class="label">79/510 M vs 61/510 Controls · M 组与对照组</span></article>
+          <article class="metric"><span class="value">+3.53 pp</span><span class="label">95% CI −0.71 to +7.77 · one-sided Fisher p=0.0608</span></article>
         </div>
+        <a class="card-link" href="001a/ai-annotation-record.html#unblinded-results">Read the complete exploratory AI record · 查看完整探索性 AI 记录</a>
       </div>
     </section>
 
     <section class="section" id="assessment">
       <div class="container">
         <div class="section-heading-row">
-          <div><p class="eyebrow">Decision record</p><h2>Final assessment</h2></div>
-          <span class="status-badge">Not yet assigned</span>
+          <div><p class="eyebrow">Decision record</p><h2>Human assessment remains pending</h2></div>
+          <span class="status-badge">Preregistered human result pending</span>
         </div>
-        <p>The final record will assign one preregistered status: <strong>Supported, Tentatively Supported, Inconclusive, Not Supported,</strong> or <strong>Contradicted</strong>. A non-supportive result after frequency matching and evidence-family correction will downgrade the M → HUMAN hypothesis; favorable examples cannot be selected afterward to rescue it.</p>
-        <p class="zh" lang="zh-Hans">最终记录将采用预注册的五级状态：<strong>支持、初步支持、无法判断、未获支持或被反证</strong>。如果结果在频率匹配和证据家族校正后仍不支持假说，M → HUMAN 将被降级，不能事后挑选有利案例加以挽救。</p>
+        <p><strong>Exploratory AI Result — Tentatively Supported:</strong> the estimated HUMAN effect is positive and consistent across AI-A, AI-B, and fixed-family robustness analyses, but the uncertainty intervals include zero. This status is restricted to the exploratory AI layer. No preregistered human status has been assigned.</p>
+        <p class="zh" lang="zh-Hans"><strong>探索性 AI 结果——初步支持：</strong>AI-A、AI-B 与冻结证据家族稳健性分析均给出正向 HUMAN 效应，但不确定性区间包含 0。此状态仅属于探索性 AI 层；预注册真人结论尚未分配。</p>
         <blockquote class="research-quote">We publish hypotheses—including hypotheses our own experiments fail to support.</blockquote>
         <p class="zh" lang="zh-Hans"><strong>我们公开记录假说，也公开记录实验未能支持的假说。</strong></p>
       </div>
