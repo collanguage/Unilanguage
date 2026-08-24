@@ -30,3 +30,5 @@
 The release directory and website public-record additions were checked for accidental restricted-file copies, raw blind identifiers matching `BLD-[0-9A-F]+`, row-level mapping fields in aggregate data, and links to private paths. The analysis code necessarily names expected private input columns and accepts private input paths, but it embeds no key row, item identity, blind identifier value, or mapping.
 
 The public files are sufficient to understand the methods and reproduce the statistics when the separately held frozen private inputs are supplied. They do not make the reusable blind-breaking key public and therefore preserve the possibility of later preregistered human blind annotation.
+
+The website release manifest and checksum file hash the LF-normalized bytes stored and deployed by Git. The separate local handoff manifest hashes the local deliverable bytes. This distinction prevents Windows working-tree line endings from producing false deployment-integrity mismatches.
