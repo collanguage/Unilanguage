@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Public-safe research record for the completed and frozen exploratory AI blind annotation stage of Unilanguage Experiment 001A Round 2.">
+  <meta name="robots" content="index,follow">
+  <title>Experiment 001A Exploratory AI Annotation Record | Unilanguage</title>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body class="research-record">
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="../../hypothesis-lab.html">Unilanguage</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="../../hypothesis-lab.html">Hypothesis Lab</a>
+        <a href="../001a-m-human.html">Experiment 001A</a>
+        <a href="preregistration.html">Preregistration</a>
+        <a class="active" href="ai-annotation-record.html" aria-current="page">AI Annotation Record</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero compact">
+      <div class="container">
+        <p class="eyebrow">Public-safe research record · UNI-EXP-001A-R2</p>
+        <h1>Exploratory AI Blind Annotation</h1>
+        <p class="subtitle">Completed and frozen at the blinded agreement gate.</p>
+        <p class="subtitle-cn" lang="zh-Hans">探索性 AI 盲标已完成，并在盲态一致性阶段冻结。</p>
+        <div class="tags" aria-label="Current research statuses">
+          <span class="tag">AI annotation completed</span>
+          <span class="tag">Unblinding not yet performed</span>
+          <span class="tag">Human annotation pending</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-highlight" aria-labelledby="boundary-title">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="eyebrow">Publication boundary</p>
+            <h2 id="boundary-title">What this record does—and does not—report</h2>
+          </div>
+          <span class="status-badge">Public-safe</span>
+        </div>
+        <div class="card-grid two-columns">
+          <article class="panel">
+            <h3>Public in this record</h3>
+            <ul class="method-list">
+              <li>AI Blind Annotation Protocol v1.0</li>
+              <li>Blinded AI-A/AI-B agreement diagnostics</li>
+              <li>The fact that both outputs are frozen</li>
+              <li>Public-safe checksums and manifest</li>
+              <li>Methodology, limitations, and current statuses</li>
+            </ul>
+          </article>
+          <article class="panel private-boundary">
+            <h3>Private—not published</h3>
+            <ul class="method-list">
+              <li>Restricted analysis key</li>
+              <li>M/control identity mappings or reconstructive files</li>
+              <li>Internal blind-breaking keys</li>
+              <li>AI-A and AI-B row-level outputs and workbooks</li>
+              <li>Material that could compromise later human blind annotation</li>
+            </ul>
+          </article>
+        </div>
+        <p class="record-note"><strong>Required distinction:</strong> this is an <strong>exploratory AI annotation</strong> record. It does not replace, complete, amend, or stand in for the preregistered human blind annotation. <strong>Preregistered Human Annotation: Pending.</strong></p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="status-title">
+      <div class="container">
+        <p class="eyebrow">Stage status</p>
+        <h2 id="status-title">The study remains blinded</h2>
+        <div class="status-grid">
+          <article class="status-card"><strong>Completed</strong><span>AI-A independent blind pass</span></article>
+          <article class="status-card"><strong>Completed</strong><span>AI-B independent blind pass</span></article>
+          <article class="status-card"><strong>Not performed</strong><span>Exploratory AI unblinding</span></article>
+          <article class="status-card"><strong>Pending</strong><span>Preregistered human annotation</span></article>
+        </div>
+        <p>No M versus Control outcome rates have been calculated or published. No disagreements have been adjudicated. The restricted analysis key was not accessed for this stage.</p>
+        <p class="zh" lang="zh-Hans">本阶段未计算或发布 M 组与对照组结果率，未裁决分歧，也未访问受限分析密钥。</p>
+      </div>
+    </section>
+
+    <section class="section section-soft" aria-labelledby="agreement-title">
+      <div class="container">
+        <div class="section-heading-row">
+          <div>
+            <p class="eyebrow">Blinded inter-AI agreement</p>
+            <h2 id="agreement-title">Agreement before any unblinding</h2>
+          </div>
+          <span class="status-badge">1,020 paired items</span>
+        </div>
+        <div class="metric-grid">
+          <article class="metric"><span class="value">828 / 1,020</span><span class="label">Exact six-label-vector agreement</span></article>
+          <article class="metric"><span class="value">81.18%</span><span class="label">Full-vector raw agreement</span></article>
+        </div>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Agreement metrics by frozen field">
+          <table class="research-table">
+            <thead><tr><th scope="col">Frozen field</th><th scope="col">Raw agreement</th><th scope="col">Cohen's κ</th><th scope="col">Disagreements</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">HUMAN</th><td>99.61%</td><td>0.9832</td><td>4</td></tr>
+              <tr><th scope="row">PERSON</th><td>94.71%</td><td>0.7004</td><td>54</td></tr>
+              <tr><th scope="row">PEOPLE</th><td>94.31%</td><td>0.2393</td><td>58</td></tr>
+              <tr><th scope="row">IDENTITY</th><td>96.27%</td><td>0.8249</td><td>38</td></tr>
+              <tr><th scope="row">HUMAN-ATTRIBUTE</th><td>88.92%</td><td>0.6536</td><td>113</td></tr>
+              <tr><th scope="row">UNCERTAIN</th><td>99.90%</td><td>0.0000</td><td>1</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The largest disagreement concentration was in <strong>HUMAN-ATTRIBUTE</strong>, followed by boundaries among <strong>PERSON</strong>, <strong>PEOPLE</strong>, and <strong>IDENTITY</strong>. The low κ for PEOPLE and zero κ for UNCERTAIN should be read alongside their highly imbalanced positive-label frequencies; raw agreement and cross-tabulations remain part of the public report.</p>
+        <p class="zh" lang="zh-Hans">分歧主要集中在 HUMAN-ATTRIBUTE，以及 PERSON、PEOPLE 与 IDENTITY 的类别边界。PEOPLE 的较低 κ 与 UNCERTAIN 的零 κ 需结合高度不平衡的阳性标签频率理解；公开报告同时保留原始一致率与列联表。</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="method-title">
+      <div class="container">
+        <p class="eyebrow">Methodology notes</p>
+        <h2 id="method-title">Independent passes, frozen labels, blinded comparison</h2>
+        <div class="workflow-grid">
+          <article class="workflow-card"><span class="workflow-number">01</span><h3>Isolated annotation</h3><p>AI-A and AI-B used separate contexts and distinct pre-existing randomized orders. Neither pass received group assignment, pilot outcomes, the restricted analysis key, or the other pass's output.</p></article>
+          <article class="workflow-card"><span class="workflow-number">02</span><h3>Frozen coding scheme</h3><p>Both passes used only HUMAN, PERSON, PEOPLE, IDENTITY, HUMAN-ATTRIBUTE, and UNCERTAIN under the frozen definitions.</p></article>
+          <article class="workflow-card"><span class="workflow-number">03</span><h3>Freeze before comparison</h3><p>Both 1,020-row outputs were structurally validated and hashed before inter-pass comparison. Agreement was joined by blind identifier, not row position.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-highlight" aria-labelledby="downloads-title">
+      <div class="container">
+        <p class="eyebrow">Public documents</p>
+        <h2 id="downloads-title">Curated, public-safe materials</h2>
+        <p>These downloads contain methodology, blinded aggregate diagnostics, and integrity records only. Row-level annotations and any identity-recovery material are intentionally absent.</p>
+        <div class="download-list">
+          <a class="button" href="public-record/ai-blind-annotation-protocol-v1.0.md" download>AI Blind Annotation Protocol v1.0</a>
+          <a class="button secondary" href="public-record/blinded-inter-ai-agreement-v1.0.md" download>Blinded Agreement Report v1.0</a>
+          <a class="button secondary" href="public-record/public-safe-manifest-v1.0.json" download>Public-safe Manifest v1.0</a>
+          <a class="button secondary" href="public-record/public-safe-checksums-v1.0.sha256" download>Public-safe Checksums</a>
+        </div>
+        <p class="record-note"><strong>Next decision is separate:</strong> authorize unblinding of the exploratory AI results, or preserve the blind state and wait for future preregistered human annotation. This public record does not make that decision.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><span>Unilanguage Hypothesis Lab</span><span>UNI-EXP-001A-R2 · Public-safe record v1.0</span></div>
+  </footer>
+</body>
+</html>

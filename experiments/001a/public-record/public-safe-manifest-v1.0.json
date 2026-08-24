@@ -1,0 +1,36 @@
+{
+  "manifest_id": "UNI-EXP-001A-R2-AIANN-PUBLIC-1.0",
+  "record_date": "2026-08-24",
+  "stage": "Exploratory AI Annotation — Completed & Frozen",
+  "unblinding_performed": false,
+  "preregistered_human_annotation": "Pending",
+  "exploratory_ai_replaces_human_annotation": false,
+  "restricted_analysis_key_accessed": false,
+  "m_vs_control_outcome_rates_calculated": false,
+  "frozen_outputs": {
+    "ai_a_workbook_sha256": "796a974d24266e2170920718333ae39b9ce3d3afac6c7c20cd4ecd099f77cdff",
+    "ai_a_labels_sha256": "ccecdd2716bbf3f3180ff1260f2fe9d59161639271753b0cad845b1512bb9c13",
+    "ai_b_workbook_sha256": "8eef7e5996d89632da2f77ad9ad5d75a4da6bae8b28d406f16319be6fd7c8718",
+    "ai_b_labels_sha256": "af4644ad15215dfea7e929c303438adee68d4d5091906020b0bcaa0e3169f6a4",
+    "publication_status": "checksums public; row-level artifacts private"
+  },
+  "agreement": {
+    "paired_items": 1020,
+    "exact_vector_agreements": 828,
+    "exact_vector_raw_agreement": 0.8117647058823529
+  },
+  "public_files": [
+    "../ai-annotation-record.html",
+    "ai-blind-annotation-protocol-v1.0.md",
+    "blinded-inter-ai-agreement-v1.0.md",
+    "public-safe-manifest-v1.0.json",
+    "public-safe-checksums-v1.0.sha256"
+  ],
+  "excluded_categories": [
+    "restricted analysis key",
+    "experimental/control assignment mappings",
+    "internal blind-breaking keys",
+    "row-level AI-A and AI-B annotations and workbooks",
+    "material capable of compromising future human blind annotation"
+  ]
+}

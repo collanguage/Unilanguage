@@ -62,6 +62,14 @@ body.research-record {
 .research-record .card-link:hover,.research-record .button:hover { color: white; background: var(--record-green-2); }
 .research-record .button.secondary { color: var(--record-green); background: transparent; border: 1px solid var(--record-green); }
 .research-record .button.secondary:hover { color: white; background: var(--record-green); }
+.research-record .private-boundary { border-color: #c9aeb0; background: #fff9f8; }
+.research-record .table-scroll { margin-top: 24px; overflow-x: auto; border: 1px solid var(--record-line); border-radius: 14px; background: var(--record-white); }
+.research-record .research-table { width: 100%; min-width: 650px; border-collapse: collapse; }
+.research-record .research-table th,.research-record .research-table td { padding: 13px 16px; border-bottom: 1px solid var(--record-line); text-align: left; }
+.research-record .research-table thead th { color: var(--record-green); background: var(--record-mint); font-size: .82rem; letter-spacing: .04em; }
+.research-record .research-table tbody tr:last-child th,.research-record .research-table tbody tr:last-child td { border-bottom: 0; }
+.research-record .download-list { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+.research-record .download-list .button { margin-top: 0; }
 .research-record .prereg-cta { font-size: 1.05rem; padding: 15px 20px; }
 .research-record .record-note { margin-top: 18px; padding: 14px 16px; border-left: 4px solid var(--record-gold); background: #f5f0e6; }
 .research-record .record-banner { max-width: 820px; margin: 22px 0 0; padding: 14px 18px; border: 1px solid rgba(255,255,255,.3); border-radius: 12px; background: rgba(255,255,255,.1); color: #fff; }
