@@ -13,6 +13,7 @@
 - separate AI-A and AI-B aggregate analyses;
 - aggregate evidence-family and frozen-category sensitivity analyses;
 - methods, analysis code, input SHA-256 fingerprints, audit/decision records, and release checksums;
+- the bilingual public-safe exploratory result summary;
 - a bilingual public-safe reconstruction of the pre-unblinding methodological review, explicitly identified as reconstructed after unblinding;
 - the conclusion `Exploratory AI Result — Tentatively Supported` and the continuing human-pending status.
 
