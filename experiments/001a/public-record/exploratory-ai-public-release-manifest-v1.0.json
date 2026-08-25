@@ -1,54 +1,78 @@
 {
   "record_id": "UNI-EXP-001A-R2-AIUNBLIND-PUBLIC-RELEASE-1.0",
   "created_at_utc": "2026-08-25T01:02:32.708667Z",
-  "updated_at_utc": "2026-08-25T17:09:01.6591709Z",
+  "updated_at_utc": "2026-08-25T17:18:53.178150Z",
+  "schema_note": "Canonical technical keys and filenames remain in English for compatibility; Chinese descriptions are additive.",
+  "schema_note_zh": "为保持兼容性，规范技术字段和文件名保留英文；中文说明为增补内容。",
   "result_label": "Exploratory AI Result — Tentatively Supported",
+  "result_label_zh": "探索性 AI 结果——初步支持",
   "preregistered_human_annotation": "Pending",
+  "preregistered_human_annotation_zh": "待进行",
   "experiment_001b_started": false,
+  "experiment_001b_started_zh": "否",
   "privacy_boundary": "Aggregate outputs and reproducibility materials only; no raw key, row-level identity mapping, or row-level AI labels.",
+  "privacy_boundary_zh": "仅公开汇总输出和可复现材料；不含原始密钥、逐项身份映射或逐项 AI 标签。",
   "files": [
     {
       "file": "exploratory-ai-unblinding-report-v1.0.md",
-      "bytes": 5984,
-      "sha256": "4d3b5b97a6d813486949425729319bc2a05693454ce635dec86706e00c61e59c"
+      "description": "Bilingual complete exploratory unblinding report",
+      "description_zh": "双语完整探索性揭盲报告",
+      "bytes": 10157,
+      "sha256": "a4d4ea5395b0d2bf12398edcd77ed7e604a4d89837dae8f5f8d158d7ca2c7438"
     },
     {
       "file": "exploratory-ai-public-summary-v1.0.md",
+      "description": "Bilingual public-safe summary",
+      "description_zh": "双语公开安全摘要",
       "bytes": 2446,
       "sha256": "237e9ad668b395e82845bfe33f0db0d4ba0a814ec593b5a10e36c72e67cfbf57"
     },
     {
       "file": "exploratory-ai-analysis-output-v1.0.json",
-      "bytes": 35438,
-      "sha256": "5407550fd100e4e36ce2032985663f6b35331a2d89a616c10e04020833f5656d"
+      "description": "Aggregate JSON with English canonical keys and Chinese metadata",
+      "description_zh": "保留英文规范键并增补中文元数据的汇总 JSON",
+      "bytes": 36593,
+      "sha256": "06d4d29d8e4675686b542524c5b794e3f74f551c95831916b2a0ee8b8ea64bd0"
     },
     {
       "file": "exploratory-ai-analysis-output-v1.0.csv",
-      "bytes": 4451,
-      "sha256": "148af6a911cff182b820143c6563a2ac06491a854f5f13a9c068c9cfa5284a39"
+      "description": "Aggregate CSV with paired English and Chinese label columns",
+      "description_zh": "含中英文配对标签列的汇总 CSV",
+      "bytes": 5542,
+      "sha256": "77acb46b6e03ab6b447541c2b1373f91e14d88039d5e98a426c5dac4ab7ce369"
     },
     {
       "file": "exploratory-ai-analysis-code-v1.0.py",
-      "bytes": 12358,
-      "sha256": "dd6815a9800ca32b4c6068ee6fdd25adeaa61df2e0bdda003078d26402d52a57"
+      "description": "Executable reproducibility code with bilingual comments",
+      "description_zh": "带双语注释的可执行复现代码",
+      "bytes": 14374,
+      "sha256": "d37d8855b863bb0ce2efba71a9b5b1046040fd22d3978d28b938efedbf95f8a4"
     },
     {
       "file": "exploratory-ai-unblinding-audit-log-v1.0.md",
-      "bytes": 3139,
-      "sha256": "ce68550aada18e87c2bf04abb4cb52cfecfc4757fcb651335d7e1eec056999a5"
+      "description": "Bilingual unblinding audit log",
+      "description_zh": "双语揭盲审计记录",
+      "bytes": 5019,
+      "sha256": "0eee390d9484f1770d6ebf0f576c23409e28c1153ff460dc82b462ae9f74bd1e"
     },
     {
       "file": "exploratory-ai-unblinding-decision-log-v1.0.md",
-      "bytes": 2752,
-      "sha256": "bef0fc7e7a8b11ff786af1b0af8a3065432544e6f7be350346373d7d243791c0"
+      "description": "Bilingual analysis decision log",
+      "description_zh": "双语分析决策记录",
+      "bytes": 4708,
+      "sha256": "89e137b84f536963102a22fb8d55a1788f018d84ec903efca3fa22afb23e1d4b"
     },
     {
       "file": "exploratory-ai-public-release-review-v1.0.md",
-      "bytes": 2332,
-      "sha256": "82f6808202eb409c481f225c4c61190bf6f6f8aafb8bf487255e88364c3539a9"
+      "description": "Bilingual public-release privacy review",
+      "description_zh": "双语公开发布隐私审查",
+      "bytes": 4131,
+      "sha256": "4018e9b464df764fb8df03811565769af3196f0a0c328a0594df102c269689fb"
     },
     {
       "file": "blinded-methodological-review-public-reconstruction-v1.0.md",
+      "description": "Bilingual public reconstruction of the blinded methodological review",
+      "description_zh": "盲态方法审查的双语公开重建版",
       "bytes": 11113,
       "sha256": "4f7f36a49a954ef24aeb29837acc9b059f2fb3f4f661c8175414096288903fbc"
     }

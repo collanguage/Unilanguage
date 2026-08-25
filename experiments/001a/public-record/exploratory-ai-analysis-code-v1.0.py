@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """Reproduce Experiment 001A Round 2 Exploratory AI Unblinding v1.0.
 
+复现 Experiment 001A Round 2 探索性 AI 揭盲 v1.0。
+
 This program requires three separately held frozen private inputs: the restricted
 analysis key and the frozen machine-readable AI-A and AI-B labels. It writes a
 restricted joined file and public-safe aggregate outputs. It never rewrites an
 input artifact.
+
+本程序需要三份分开保存的冻结私有输入：受限分析密钥，以及 AI-A、AI-B 的冻结机器
+可读标签。程序会生成一份受限连接文件和公开安全的汇总输出，但绝不会改写输入文件。
 """
 
 from __future__ import annotations
@@ -21,6 +26,19 @@ from pathlib import Path
 
 LABELS = ("human", "person", "people", "identity", "human_attribute", "uncertain")
 SENSITIVITY_LABELS = ("person", "people", "identity", "human_attribute", "uncertain")
+LABEL_ZH = {
+    "human": "人类",
+    "person": "个人／人物",
+    "people": "人群／人民",
+    "identity": "身份",
+    "human_attribute": "人类属性",
+    "uncertain": "不确定",
+}
+PASS_ZH = {"ai_a": "AI-A 轮", "ai_b": "AI-B 轮"}
+LEVEL_ZH = {
+    "lexeme": "词项层级",
+    "evidence_family_representative": "证据家族固定代表项层级",
+}
 
 
 def sha256(path: Path) -> str:
@@ -42,7 +60,10 @@ def wilson_interval(x: int, n: int, z: float = 1.959963984540054) -> tuple[float
 
 
 def newcombe_difference_ci(x1: int, n1: int, x0: int, n0: int) -> tuple[float, float]:
-    """Newcombe score interval for p1-p0 without continuity correction."""
+    """Newcombe score interval for p1-p0 without continuity correction.
+
+    计算 p1-p0 的 Newcombe score 区间，不作连续性校正。
+    """
     p1, p0 = x1 / n1, x0 / n0
     l1, u1 = wilson_interval(x1, n1)
     l0, u0 = wilson_interval(x0, n0)
@@ -56,7 +77,7 @@ def hypergeom_probability(a: int, row1: int, col1: int, total: int) -> float:
 
 
 def fisher_exact(a: int, b: int, c: int, d: int) -> tuple[float, float]:
-    """Return one-sided greater and probability-ordering two-sided Fisher p-values."""
+    """Return directional and two-sided Fisher p-values｜返回单侧及双侧 Fisher p 值。"""
     row1, col1, total = a + b, a + c, a + b + c + d
     lo = max(0, row1 - (total - col1))
     hi = min(row1, col1)
@@ -214,8 +235,11 @@ def flatten_output(result: dict, path: Path) -> None:
             for label, stat in categories.items():
                 rows.append({
                     "pass": pass_name,
+                    "pass_zh": PASS_ZH[pass_name],
                     "analysis_level": level_name,
+                    "analysis_level_zh": LEVEL_ZH[level_name],
                     "label": label,
+                    "label_zh": LABEL_ZH[label],
                     "m_n": stat["m"]["n"],
                     "m_positive": stat["m"]["positive"],
                     "m_rate": stat["m"]["rate"],
@@ -252,9 +276,14 @@ def main() -> None:
     result = {
         "record_id": "UNI-EXP-001A-R2-AIUNBLIND-1.0",
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "language_note": "Canonical machine keys remain in English; paired Chinese metadata is additive.",
+        "language_note_zh": "规范机器字段保留英文；中文元数据为兼容性增补，不替换原字段。",
         "result_label": "Exploratory AI Result",
+        "result_label_zh": "探索性 AI 结果",
         "preregistered_human_annotation": "Pending",
+        "preregistered_human_annotation_zh": "待进行",
         "experiment_001b_started": False,
+        "experiment_001b_started_zh": "否",
         "input_sha256": {
             "restricted_analysis_key": sha256(args.analysis_key),
             "ai_a_labels": sha256(args.ai_a),
@@ -269,6 +298,16 @@ def main() -> None:
             "robustness": "evidence-family representatives fixed before annotation",
             "pass_handling": "AI-A and AI-B analyzed separately; no selection, pooling, consensus, or adjudication",
         },
+        "methods_zh": {
+            "primary_outcome": "冻结的 HUMAN 二元标签",
+            "primary_analysis_level": "全部冻结词项／项目",
+            "primary_effect": "M 组减合并对照组的绝对风险差",
+            "risk_difference_ci": "双侧 95% Newcombe score 区间，不作连续性校正",
+            "hypothesis_test": "Fisher 精确检验；单侧 greater 对应冻结的方向性假说，同时报告双侧结果",
+            "robustness": "使用标注前固定的证据家族代表项",
+            "pass_handling": "AI-A 与 AI-B 分开分析；不挑选、不合并、不建立共识标签、不裁决",
+        },
+        "label_glossary_zh": LABEL_ZH,
         "passes": {"ai_a": pass_analysis(a_rows), "ai_b": pass_analysis(b_rows)},
     }
     args.public_json.parent.mkdir(parents=True, exist_ok=True)
@@ -279,7 +318,7 @@ def main() -> None:
         "private_joined_sha256": sha256(args.private_joined),
         "public_json_sha256": sha256(args.public_json),
         "public_csv_sha256": sha256(args.public_csv),
-    }, indent=2))
+    }, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

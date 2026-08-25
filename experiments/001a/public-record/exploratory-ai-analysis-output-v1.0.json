@@ -1,9 +1,14 @@
 {
   "record_id": "UNI-EXP-001A-R2-AIUNBLIND-1.0",
-  "generated_at_utc": "2026-08-24T23:17:09.965536Z",
+  "generated_at_utc": "2026-08-25T17:18:53.178150Z",
+  "language_note": "Canonical machine keys remain in English; paired Chinese metadata is additive.",
+  "language_note_zh": "规范机器字段保留英文；中文元数据为兼容性增补，不替换原字段。",
   "result_label": "Exploratory AI Result",
+  "result_label_zh": "探索性 AI 结果",
   "preregistered_human_annotation": "Pending",
+  "preregistered_human_annotation_zh": "待进行",
   "experiment_001b_started": false,
+  "experiment_001b_started_zh": "否",
   "input_sha256": {
     "restricted_analysis_key": "74bfdbfd1ff8fa564520a75db35c92702ea6385209c65a2b80f073d110412ca2",
     "ai_a_labels": "ccecdd2716bbf3f3180ff1260f2fe9d59161639271753b0cad845b1512bb9c13",
@@ -17,6 +22,23 @@
     "hypothesis_test": "Fisher exact test; one-sided greater follows the frozen directional hypothesis; two-sided also reported",
     "robustness": "evidence-family representatives fixed before annotation",
     "pass_handling": "AI-A and AI-B analyzed separately; no selection, pooling, consensus, or adjudication"
+  },
+  "methods_zh": {
+    "primary_outcome": "冻结的 HUMAN 二元标签",
+    "primary_analysis_level": "全部冻结词项／项目",
+    "primary_effect": "M 组减合并对照组的绝对风险差",
+    "risk_difference_ci": "双侧 95% Newcombe score 区间，不作连续性校正",
+    "hypothesis_test": "Fisher 精确检验；单侧 greater 对应冻结的方向性假说，同时报告双侧结果",
+    "robustness": "使用标注前固定的证据家族代表项",
+    "pass_handling": "AI-A 与 AI-B 分开分析；不挑选、不合并、不建立共识标签、不裁决"
+  },
+  "label_glossary_zh": {
+    "human": "人类",
+    "person": "个人／人物",
+    "people": "人群／人民",
+    "identity": "身份",
+    "human_attribute": "人类属性",
+    "uncertain": "不确定"
   },
   "passes": {
     "ai_a": {
