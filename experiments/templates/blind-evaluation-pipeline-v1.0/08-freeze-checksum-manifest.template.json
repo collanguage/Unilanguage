@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "UNI-EXP-{{NNN}}",
+  "gate": "{{1_OR_2}}",
+  "freeze_id": "{{UNIQUE_FREEZE_ID}}",
+  "frozen_at_utc": "{{TIMESTAMP}}",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {"artifact_role": "{{ROLE}}", "path_or_private_id": "{{PATH_OR_ID}}", "version": "{{VERSION}}", "bytes": "{{COUNT}}", "sha256": "{{HASH}}", "publication_zone": "{{PUBLIC_OR_PRIVATE}}", "annotation_stream_id": "{{STREAM_ID_OR_NULL}}"}
+  ],
+  "schema_checks_passed": false,
+  "completeness_checks_passed": false,
+  "blind_leakage_check_passed": false,
+  "machine_checks_completed_at_utc": null,
+  "runner_state": "AWAITING_PREREQUISITES",
+  "authorized_by": null,
+  "authority_basis": null,
+  "authorized_at_utc": null,
+  "decision": null,
+  "rule": "Set AWAITING_AUTHORIZATION after machine checks. Authorization binds this exact manifest; any changed byte invalidates it."
+}

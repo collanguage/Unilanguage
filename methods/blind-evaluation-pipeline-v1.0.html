@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Blind Evaluation Pipeline v1.0 · 盲评标准流程 v1.0 | Unilanguage</title>
+    <meta name="description" content="The five-gate reusable Unilanguage method for preregistration, blind annotation, quality review, authorized unblinding and final classification." />
+    <link rel="stylesheet" href="../css/sky-case.css?v=20260827" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="../index.html">Unilanguage</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="../index.html">Home · 首页</a>
+          <a href="../hypothesis-lab.html">Hypothesis Lab · 假说实验室</a>
+          <a href="../evaluation-framework.html" aria-current="page">Evaluation · 评测框架</a>
+          <a href="../experiments/001a-m-human.html">Experiment 001A</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article>
+        <header class="hero">
+          <p class="eyebrow">Reusable Gated Research Method · 可复用门控研究方法</p>
+          <h1>Blind Evaluation Pipeline v1.0</h1>
+          <p class="subtitle">盲评标准流程 v1.0</p>
+          <p class="version">Method release 1.0 · 2026-08-27 · Status: Active</p>
+          <div class="pair">
+            <div><p class="label">Purpose</p><p>Turn a registered Unilanguage observation into a reproducible experiment without allowing outcome knowledge to leak backward into frozen rules, annotations or quality review.</p></div>
+            <div lang="zh-Hans"><p class="label">目的</p><p>把已登记的 Unilanguage 观察转化为可复现实验，同时禁止结果信息反向渗入已冻结的规则、标注或质量复核。</p></div>
+          </div>
+        </header>
+
+        <section class="section" id="contract">
+          <p class="number">01</p>
+          <h2>Pipeline Contract · 流程契约</h2>
+          <div class="boundary"><strong>Non-bypass rule · 不可绕过规则：</strong> The workflow may be launched as one automated program, but the program must halt at each gate. It may continue only after the prerequisite artifacts exist, their hashes and status checks pass, and the gate's named authority records approval. A successful technical check is not authorization. No automatic crossing, inferred approval or retrospective approval is valid.<br /><span lang="zh-Hans">流程可以由一个自动化程序统一启动，但程序必须在每道 Gate 停止。只有在前置材料存在、哈希与状态检查通过、并且该 Gate 的指定授权者留下批准记录之后才能继续。技术检查通过不等于获得授权；自动跨越、推定批准或事后补批均无效。</span></div>
+          <p class="formula">REGISTERED → G1 🔒 → G2 🔒 → G3 🔒 → G4 🔓 → G5</p>
+          <div class="cards">
+            <article class="card"><p class="label">Machine responsibility</p><h3>Validate, hash, stop and report</h3><p>The runner may create permitted artifacts, validate schemas, calculate checksums and report readiness. At every boundary it writes <code>AWAITING_AUTHORIZATION</code> and exits or pauses.</p><p lang="zh-Hans">程序可生成获准材料、验证结构、计算校验和并报告就绪状态；在每个边界写入 <code>AWAITING_AUTHORIZATION</code> 后退出或暂停。</p></article>
+            <article class="card"><p class="label">Human authority</p><h3>Approve a specific frozen state</h3><p>The authorized person approves an identified artifact set and checksum manifest. Approval does not cover later edits; any changed prerequisite returns the workflow to the relevant earlier gate.</p><p lang="zh-Hans">授权者只批准由明确文件与校验清单标识的冻结状态。批准不涵盖后续修改；任何前置材料变化都必须退回相应的早期 Gate。</p></article>
+          </div>
+        </section>
+
+        <section class="section" id="gates">
+          <p class="number">02</p>
+          <h2>Five Non-bypassable Gates · 五道不可绕过 Gate</h2>
+          <div class="mechanism-stack">
+            <article class="mechanism-card"><p class="mechanism-tag">Gate 1 · Preregistration Freeze 🔒</p><h3>Freeze the claim before outcomes exist · 在结果产生前冻结主张</h3><p><strong>Required artifacts:</strong> stable experiment ID and metadata; preregistration; operational specification (OPS); dataset source/sampling plan; exclusion, control, effect-size and classification rules; randomization method and seed-record policy.</p><p><strong>Exit condition:</strong> all documents are complete, versioned, timestamped and hashed; the preregistration authority approves the exact manifest. After exit, amendments are append-only and cannot silently replace the frozen record.</p><p lang="zh-Hans"><strong>必需材料：</strong>稳定实验编号与元数据、预注册、操作规范（OPS）、数据来源／抽样计划、排除／对照／效应量／分类规则、随机化方法与种子记录规则。<br /><strong>放行条件：</strong>文件完整、带版本和时间戳并已哈希；预注册授权者批准精确清单。放行后只能追加修订，不得暗中替换冻结记录。</p></article>
+            <article class="mechanism-card"><p class="mechanism-tag">Gate 2 · Annotation Freeze 🔒</p><h3>Freeze A/B judgments while identities remain hidden · 在身份仍隐藏时冻结 A/B 判断</h3><p><strong>Required artifacts:</strong> blinded packages A and B; codebook and annotation protocol; annotator provenance permitted by the preregistration; completed annotations; annotation freeze/checksum manifest.</p><p><strong>Exit condition:</strong> packages contain no analysis key or group identity; completeness and schema checks pass; all permitted annotation streams are separately labeled and frozen.</p><p lang="zh-Hans"><strong>必需材料：</strong>A/B 盲标包、码本与标注协议、预注册允许的标注者来源、已完成标注、标注冻结／校验清单。<br /><strong>放行条件：</strong>标注包不含分析密钥或组身份；完整性与结构检查通过；所有获准标注流分别标明并冻结。</p></article>
+            <article class="mechanism-card"><p class="mechanism-tag">Gate 3 · Blinded Quality Review 🔒</p><h3>Review reliability before learning the groups · 在获知组别前复核可靠性</h3><p><strong>Required artifacts:</strong> blinded agreement report; missingness, disagreement and protocol-deviation review; reviewer attestation that identities were unavailable; resolution policy fixed without outcome knowledge.</p><p><strong>Exit condition:</strong> preregistered quality thresholds are evaluated and a blinded reviewer authorizes either continuation, a documented return to Gate 2, or termination. Group identity remains sealed.</p><p lang="zh-Hans"><strong>必需材料：</strong>盲态一致性报告、缺失／分歧／协议偏离复核、评审者未接触组身份的声明、在不知道结果时固定的处理规则。<br /><strong>放行条件：</strong>完成预注册质量阈值评估；盲态评审者批准继续、书面退回 Gate 2 或终止。组身份仍须密封。</p></article>
+            <article class="mechanism-card"><p class="mechanism-tag">Gate 4 · Authorized Unblinding 🔓</p><h3>Reveal only the approved mapping · 只揭示获准的映射</h3><p><strong>Required artifacts:</strong> Gate 1–3 approval records and immutable hashes; explicit unblinding decision; named authority, timestamp, purpose and scope; separate restricted identity mapping and analysis key.</p><p><strong>Exit condition:</strong> an authorized unblinding log binds the revealed mapping to the already frozen inputs. The analysis key and group-identity mapping remain in the Private Research Package and are never publicly deployed.</p><p lang="zh-Hans"><strong>必需材料：</strong>Gate 1–3 批准记录与不可变哈希、明确揭盲决定、授权者／时间／目的／范围、单独保存的受限身份映射与分析密钥。<br /><strong>放行条件：</strong>授权揭盲日志把所揭示映射绑定到已冻结输入。分析密钥与组身份映射继续保存在 Private Research Package，绝不公开部署。</p></article>
+            <article class="mechanism-card"><p class="mechanism-tag">Gate 5 · Final Classification</p><h3>Apply the frozen decision rule · 执行冻结的裁决规则</h3><p><strong>Required artifacts:</strong> reproducible analysis output; effect sizes and uncertainty; deviations and limitations; analysis report; classification worksheet linked to the preregistered rule.</p><p><strong>Exit condition:</strong> the authorized classifier records exactly one outcome—<strong>Supported</strong>, <strong>Not Supported</strong> or <strong>Inconclusive</strong>—and publishes the Public Research Record. A result may not be upgraded by substituting an exploratory analysis for the preregistered analysis.</p><p lang="zh-Hans"><strong>必需材料：</strong>可复现分析输出、效应量与不确定性、偏离与限制、分析报告、关联预注册规则的分类表。<br /><strong>放行条件：</strong>授权裁决者只记录一个结果——<strong>Supported（支持）</strong>、<strong>Not Supported（不支持）</strong>或 <strong>Inconclusive（结论不确定）</strong>——并发布 Public Research Record。不得用探索性分析替换预注册分析来升级结论。</p></article>
+          </div>
+        </section>
+
+        <section class="section" id="artifacts">
+          <p class="number">03</p>
+          <h2>Artifact and Status Model · 材料与状态模型</h2>
+          <p class="section-intro">Every experiment receives a stable identifier, an append-only version history and two publication zones. Gate state is explicit rather than inferred from which files happen to exist.</p>
+          <div class="cards">
+            <article class="card"><p class="label">Stable identity · 稳定编号</p><h3><code>UNI-EXP-NNN[-variant]</code></h3><p>Reserve a number once. Never reuse, renumber or fill a withdrawn experiment's number. Rounds and variants are recorded in metadata, while every artifact carries its own immutable version.</p><p lang="zh-Hans">编号一经保留便不再复用、改号或用已撤回实验的号码补位。轮次与变体写入元数据，每份材料有自己的不可变版本。</p></article>
+            <article class="card"><p class="label">Explicit gate status · 明确 Gate 状态</p><h3><code>DRAFT / FROZEN / APPROVED / BLOCKED</code></h3><p>Each transition records actor, authority, UTC time, prerequisite manifest hash and decision. File presence alone never opens the next gate.</p><p lang="zh-Hans">每次转换记录执行者、授权依据、UTC 时间、前置清单哈希与决定。仅有文件存在绝不能打开下一道 Gate。</p></article>
+            <article class="card"><p class="label">Public Research Record</p><h3>Auditable, safe-to-publish evidence</h3><p>May contain preregistration, public-safe manifests and checksums, blinded protocols, public reconstructions, aggregate results, analysis code, reports, deviations and final classification—only after release review.</p><p lang="zh-Hans">可包含预注册、公开安全的清单与校验和、盲标协议、公开重建记录、汇总结果、分析代码、报告、偏离与最终分类，但必须先通过发布审查。</p></article>
+            <article class="card"><p class="label">Private Research Package</p><h3>Restricted operational material</h3><p>Contains raw restricted data, completed item-level annotations when restricted, analysis keys, A/B group-identity mappings, credentials and any re-identification risk. It stays outside the public repository and deployment.</p><p lang="zh-Hans">保存受限原始数据、受限的逐项完整标注、分析密钥、A/B 组身份映射、凭据及任何再识别风险材料；始终位于公开仓库与部署之外。</p></article>
+          </div>
+          <a class="btn" href="../experiments/templates/blind-evaluation-pipeline-v1.0/index.html">Downloadable template index · 可复用模板索引 →</a>
+        </section>
+
+        <section class="section" id="annotation-streams">
+          <p class="number">04</p>
+          <h2>Human and Exploratory AI Streams · 人类与探索性 AI 标注流</h2>
+          <div class="boundary"><strong>Required distinction · 必须区分：</strong> A preregistered human-annotation stream and a later exploratory AI-annotation stream are different analyses. The exploratory stream must be labeled with its protocol, model/provenance, timing, permissions and limitations. It cannot be described as the preregistered human annotation, silently pooled with it or used to satisfy a human-only decision rule.<br /><span lang="zh-Hans">预注册的人类标注流与后来进行的探索性 AI 标注流属于不同分析。探索性流必须标明协议、模型／来源、时间、权限与限制；不得把它写成预注册人类标注，不得静默合并，也不得用于满足仅限人类标注的裁决规则。</span></div>
+          <table>
+            <thead><tr><th>Field · 字段</th><th>Preregistered human stream · 预注册人类流</th><th>Exploratory AI stream · 探索性 AI 流</th></tr></thead>
+            <tbody><tr><th>Authority</th><td>Defined and approved before Gate 1 closes.</td><td>Requires a separately dated exploratory authorization.</td></tr><tr><th>Role in classification</th><td>As specified by the frozen decision rule.</td><td>Exploratory unless the preregistration explicitly authorized it.</td></tr><tr><th>Reporting</th><td>Primary/confirmatory label if preregistered as such.</td><td>Always labeled exploratory; report divergence from the human plan.</td></tr><tr><th>Traceability</th><td>Annotator protocol, dates, blind condition and freeze hash.</td><td>Model/version, prompt/protocol, dates, blind condition and freeze hash.</td></tr></tbody>
+          </table>
+        </section>
+
+        <section class="section" id="reference">
+          <p class="number">05</p>
+          <h2>First Reference Implementation · 首个参考实例</h2>
+          <div class="pair">
+            <div><p class="label">Experiment 001A</p><h3>UNI-EXP-001A-R2 · M → HUMAN</h3><p>Experiment 001A is the first reference implementation from which Pipeline v1.0 abstracts preregistration freeze, blinded A/B work, agreement review, authorized unblinding, public/private separation and explicit classification discipline.</p></div>
+            <div lang="zh-Hans"><p class="label">边界</p><h3>抽象方法，不改写历史</h3><p>Pipeline v1.0 从 001A 抽象预注册冻结、A/B 盲态工作、一致性复核、授权揭盲、公开／私有分界与明确分类纪律。它不修改、覆盖或重新解释任何 001A 冻结记录。</p></div>
+          </div>
+          <nav class="chapter-nav"><a href="../experiments/001a-m-human.html">Reference case · 参考案例<br /><strong>Experiment 001A</strong></a><a href="../experiments/001a/preregistration.html">Immutable record · 不可覆盖记录<br /><strong>Preregistration v1.0</strong></a><a href="../evaluation-framework.html">Parent method · 上位框架<br /><strong>Evaluation Framework</strong></a></nav>
+        </section>
+
+        <section class="section" id="future-use">
+          <p class="number">06</p>
+          <h2>Future Use and Versioning · 未来使用与版本管理</h2>
+          <blockquote><strong>Register this Language Book observation as UNI-EXP-002 and execute Blind Evaluation Pipeline v1.0.</strong><br /><span lang="zh-Hans">将这个 Language Book observation 注册为 UNI-EXP-002，并按 Blind Evaluation Pipeline v1.0 执行。</span></blockquote>
+          <p>This command means “initialize the approved template set and begin Gate 1.” It does <strong>not</strong> authorize any later gate. The runner must still halt for every artifact check and recorded authorization.</p>
+          <p lang="zh-Hans">这条命令只表示“用批准的模板初始化并开始 Gate 1”，不授权任何后续 Gate；程序仍须在每次材料检查和书面授权处停止。</p>
+          <div class="cards">
+            <article class="card"><p class="label">Pipeline v1.1 · Compatible refinement</p><h3>Additive clarification</h3><p>Use for backward-compatible clarifications, optional fields or stronger validation. Publish a new method page, changelog entry and template directory; existing experiments keep the version they registered under.</p></article>
+            <article class="card"><p class="label">Pipeline v2.0 · Breaking change</p><h3>New contract</h3><p>Use when gate semantics, required artifacts, authority roles or classification logic change incompatibly. Never migrate a frozen experiment silently; a new experiment or explicitly preregistered amendment is required.</p></article>
+          </div>
+          <div class="boundary"><strong>Change-history minimum · 变更历史最低要求：</strong> version, release date, author/approver, changed clauses and templates, compatibility assessment, migration guidance and cryptographic hashes. Old pages, packages and experiment records remain addressable and unchanged.</div>
+          <a class="btn" href="blind-evaluation-pipeline-change-history.md">Read change history · 阅读变更历史 →</a>
+        </section>
+      </article>
+    </main>
+    <footer class="footer"><strong>Unilanguage</strong> · Blind Evaluation Pipeline v1.0 · 盲评标准流程 v1.0 · 2026-08-27</footer>
+  </body>
+</html>

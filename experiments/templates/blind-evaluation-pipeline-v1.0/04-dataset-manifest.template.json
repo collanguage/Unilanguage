@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "UNI-EXP-{{NNN}}",
+  "artifact_version": "1.0",
+  "created_at_utc": "{{TIMESTAMP}}",
+  "created_by": "{{ACTOR}}",
+  "dataset": {
+    "name": "{{NAME}}",
+    "source": "{{TRACEABLE_SOURCE}}",
+    "source_version_or_date": "{{VERSION_OR_DATE}}",
+    "license_or_access_basis": "{{BASIS}}",
+    "unit_of_analysis": "{{UNIT}}",
+    "row_count": "{{COUNT}}",
+    "sampling_frame_count": "{{COUNT}}",
+    "inclusion_rule": "{{RULE}}",
+    "exclusion_rule": "{{RULE}}",
+    "deduplication_rule": "{{RULE}}",
+    "content_sha256": "{{HASH}}"
+  },
+  "files": [
+    {"path_or_private_id": "{{PATH_OR_ID}}", "publication_zone": "{{PUBLIC_OR_PRIVATE}}", "bytes": "{{COUNT}}", "sha256": "{{HASH}}"}
+  ],
+  "contains_group_identity": false,
+  "contains_analysis_key": false,
+  "release_review_status": "NOT_REVIEWED"
+}

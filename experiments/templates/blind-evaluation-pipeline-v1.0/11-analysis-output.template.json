@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "UNI-EXP-{{NNN}}",
+  "artifact_version": "1.0",
+  "pipeline_version": "1.0",
+  "generated_at_utc": "{{TIMESTAMP}}",
+  "analysis_code_sha256": "{{HASH}}",
+  "input_manifest_sha256": "{{HASH}}",
+  "unblinding_decision_id": "{{ID}}",
+  "streams": [
+    {
+      "annotation_stream_id": "HUMAN-PRIMARY",
+      "role": "{{PREREGISTERED_PRIMARY_OR_NOT_RUN}}",
+      "protocol_sha256": "{{HASH_OR_NULL}}",
+      "result": {"estimand": "{{NAME}}", "estimate": "{{VALUE}}", "ci_95": ["{{LOW}}", "{{HIGH}}"], "p_value_if_preregistered": "{{VALUE_OR_NULL}}"}
+    },
+    {
+      "annotation_stream_id": "AI-EXPLORATORY",
+      "role": "EXPLORATORY",
+      "model_and_protocol": "{{MODEL_VERSION_AND_PROTOCOL}}",
+      "protocol_sha256": "{{HASH_OR_NULL}}",
+      "result": {"estimand": "{{NAME}}", "estimate": "{{VALUE}}", "ci_95": ["{{LOW}}", "{{HIGH}}"], "p_value_if_applicable": "{{VALUE_OR_NULL}}"},
+      "classification_eligible": false
+    }
+  ],
+  "preregistered_decision_rule_evaluation": {
+    "supported_conditions_met": [],
+    "not_supported_conditions_met": [],
+    "inconclusive_conditions_met": [],
+    "provisional_classification": "{{SUPPORTED_NOT_SUPPORTED_OR_INCONCLUSIVE}}"
+  },
+  "deviations": [],
+  "public_safe": false
+}

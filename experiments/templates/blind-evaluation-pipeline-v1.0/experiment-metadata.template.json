@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "pipeline": {
+    "name": "Blind Evaluation Pipeline",
+    "version": "1.0"
+  },
+  "experiment": {
+    "id": "UNI-EXP-{{NNN}}",
+    "variant": null,
+    "round": 1,
+    "title": "{{TITLE}}",
+    "source_observation_id": "{{LANGUAGE_BOOK_OR_HYPOTHESIS_ID}}",
+    "registered_at_utc": "{{YYYY-MM-DDTHH:MM:SSZ}}",
+    "registered_by": "{{NAME_OR_STABLE_ID}}",
+    "status": "DRAFT",
+    "withdrawn": false,
+    "supersedes": null
+  },
+  "authority_roles": {
+    "preregistration_freeze": "{{AUTHORITY}}",
+    "annotation_freeze": "{{AUTHORITY}}",
+    "blinded_quality_review": "{{AUTHORITY}}",
+    "authorized_unblinding": "{{AUTHORITY}}",
+    "final_classification": "{{AUTHORITY}}",
+    "public_release_review": "{{AUTHORITY}}"
+  },
+  "artifact_versions": {},
+  "notes": "Identifiers are permanent and never reused. Amendments append new artifacts; they do not overwrite frozen ones."
+}

@@ -1,3 +1,10 @@
 # Experiment 001A private working package. Public-safe records use
 # experiments/001a/ai-annotation-record.html and experiments/001a/public-record/.
 experiments/001a/round-2/
+
+# Reusable blind-evaluation rule: actual private packages, analysis keys and
+# group-identity mappings must remain outside the public deployment.
+private-research-packages/
+experiments/**/private-research-package/
+experiments/**/analysis-key*
+experiments/**/identity-map*

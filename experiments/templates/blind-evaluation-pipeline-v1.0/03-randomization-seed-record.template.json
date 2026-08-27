@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "UNI-EXP-{{NNN}}",
+  "purpose": "{{SAMPLING_OR_BLIND_LABEL_ASSIGNMENT}}",
+  "algorithm": "{{ALGORITHM}}",
+  "implementation": "{{SOFTWARE_AND_VERSION}}",
+  "seed_format": "{{INTEGER_HEX_OR_OTHER}}",
+  "seed_value": "{{VALUE_OR_RESTRICTED_REFERENCE}}",
+  "seed_visibility": "{{PUBLIC_AT_FREEZE_OR_PRIVATE_UNTIL_GATE_4}}",
+  "generated_by": "{{ACTOR_OR_SYSTEM}}",
+  "generated_at_utc": "{{TIMESTAMP}}",
+  "generation_method": "{{DETERMINISTIC_DERIVATION_OR_SECURE_RANDOM_SOURCE}}",
+  "input_manifest_sha256": "{{HASH}}",
+  "output_sha256": "{{HASH}}",
+  "custodian": "{{ROLE}}",
+  "notes": "A restricted seed stays in the Private Research Package. Disclose only according to the frozen preregistration."
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "UNI-EXP-{{NNN}}",
+  "pipeline_version": "1.0",
+  "current_gate": 1,
+  "runner_state": "AWAITING_PREREQUISITES",
+  "gates": [
+    {"gate": 1, "name": "Preregistration Freeze", "state": "DRAFT", "prerequisite_manifest_sha256": null, "machine_checks_passed": false, "authorized_by": null, "authorized_at_utc": null, "decision": null},
+    {"gate": 2, "name": "Annotation Freeze", "state": "BLOCKED", "prerequisite_manifest_sha256": null, "machine_checks_passed": false, "authorized_by": null, "authorized_at_utc": null, "decision": null},
+    {"gate": 3, "name": "Blinded Quality Review", "state": "BLOCKED", "prerequisite_manifest_sha256": null, "machine_checks_passed": false, "authorized_by": null, "authorized_at_utc": null, "decision": null},
+    {"gate": 4, "name": "Authorized Unblinding", "state": "BLOCKED", "prerequisite_manifest_sha256": null, "machine_checks_passed": false, "authorized_by": null, "authorized_at_utc": null, "decision": null},
+    {"gate": 5, "name": "Final Classification", "state": "BLOCKED", "prerequisite_manifest_sha256": null, "machine_checks_passed": false, "authorized_by": null, "authorized_at_utc": null, "decision": null}
+  ],
+  "transition_rule": "Machine checks may set runner_state to AWAITING_AUTHORIZATION. Only the named authority may approve the exact prerequisite manifest. No automatic gate crossing."
+}
