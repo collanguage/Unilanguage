@@ -2,7 +2,9 @@
 
 ## v1.0 — 2026-08-27
 
-- Status: Active
+- Status: Frozen / Released
+- Release acceptance date: 2026-08-27
+- Release manifest: `methods/blind-evaluation-pipeline-v1.0-release.json`
 - Basis: abstracted from Experiment 001A, the First Reference Implementation
 - Scope: five non-bypassable gates; explicit machine halt and human authorization; stable experiment metadata; public/private publication boundary; separate preregistered-human and exploratory-AI annotation streams; reusable templates
 - Compatibility: initial release

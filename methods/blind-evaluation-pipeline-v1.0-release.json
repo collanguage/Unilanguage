@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "pipeline": {
+    "name": "Blind Evaluation Pipeline",
+    "version": "1.0",
+    "status": "FROZEN_RELEASED",
+    "release_date": "2026-08-27",
+    "repository_path": "methods/blind-evaluation-pipeline-v1.0.html",
+    "live_route": "https://language.vu/methods/blind-evaluation-pipeline-v1.0.html"
+  },
+  "acceptance": {
+    "accepted_implementation_commit": "828b52d47b23ac169733ea4635f95b84ab6e4138",
+    "protected_baseline_commit": "8f3a6c5",
+    "first_reference_implementation": "UNI-EXP-001A-R2",
+    "protected_paths": [
+      "experiments/001a/",
+      "experiments/001a-m-human.html"
+    ],
+    "protected_paths_unchanged": true,
+    "missing_planned_templates": []
+  },
+  "checksum": {
+    "algorithm": "SHA-256",
+    "basis": "Git index bytes as committed; the release manifest does not hash itself.",
+    "artifacts": [
+      {"path": ".gitignore", "bytes": 448, "sha256": "a0c192325579d3b2815f2c9e50a0948378cb218ee8155102a8c5230d49e0953d"},
+      {"path": "evaluation-framework.html", "bytes": 8329, "sha256": "9a8185245ca07eb88e7e902672dfd3bb3eb7015f44ec0180b3e475f160d0cd6c"},
+      {"path": "sitemap.xml", "bytes": 1986, "sha256": "1f85370546bba1970a73dc4085881a9d4eb5ce7263b3201cfc31e15094a02219"},
+      {"path": "methods/blind-evaluation-pipeline-v1.0.html", "bytes": 17931, "sha256": "f86e67b50ab3a62e451d085918897211e546b873956e6d9113a029025441c151"},
+      {"path": "methods/blind-evaluation-pipeline-change-history.md", "bytes": 1621, "sha256": "c07d953e148eb0fdb3098ae719839b2a23b2d33026363debf13a21e697aaa3b4"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/01-preregistration.template.md", "bytes": 2768, "sha256": "735c67f89165b91d3fa97937bd8bf9f02f8a72360cc3679e79f708d4b6b4204d"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/02-operational-specification.template.md", "bytes": 1823, "sha256": "05d0e1dc38516b0a6dab327c07745b304e1ae895fd7d335b5048a85520c21690"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/03-randomization-seed-record.template.json", "bytes": 752, "sha256": "c57f74017c97779d6ee8836d4988a1afee61b4d5a74c912f144ded6980cc776a"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/04-dataset-manifest.template.json", "bytes": 853, "sha256": "8386e71c48813531d85759885a3f317ef586bc9c299969b5caef99283b428bf7"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/05-blind-annotation-protocol.template.md", "bytes": 1340, "sha256": "5ff6a3bb8e1e3b16bc5672b86dbc8f772446d040a261416e5d9d6e488514e786"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/06-blind-annotation-package-a.template.csv", "bytes": 274, "sha256": "00ad5eb8a8c510db7217470f9091a192728464c87c0328585b6011bb0b613e73"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/07-blind-annotation-package-b.template.csv", "bytes": 274, "sha256": "edec5ca66ac434db2ec08db55672fa83048927c95770ad3212130056cdc0f954"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/08-freeze-checksum-manifest.template.json", "bytes": 889, "sha256": "725f9a75e047f043b6f5623f31565c85dae3b69494e29040d95ecdea7c6c03b3"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/09-blinded-agreement-review.template.md", "bytes": 1629, "sha256": "7c4b7e9c093ba863a1728be4bf35d3d944558bbc13ba605d0ed72e1a6f4c300f"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/10-authorized-unblinding-log.template.md", "bytes": 1385, "sha256": "1dbc7fd58d22c36f0886a9c2656b80197bebb03cc8b3448e318d8a9eee112eff"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/11-analysis-output.template.json", "bytes": 1280, "sha256": "92e202d3cae56bdb399cd9438a1caf719691851a66b740368a0d2dec4e4332a0"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/12-analysis-report.template.md", "bytes": 1385, "sha256": "d33a9396d5521051d3d39810d6cf9a479fc2d4892bf57d5a31a48bb2f9531283"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/13-final-classification.template.md", "bytes": 1523, "sha256": "8c91d236f781b4115799d88b77a7e15477243a6d53f7930493a9dc192b3f347c"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/14-public-private-boundary.template.md", "bytes": 2303, "sha256": "918bafec73c213c175723fa2e5c2763cf75d7725b83eb085500f321bb7120c77"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/README.md", "bytes": 4257, "sha256": "1662a1f8eab10d2ef27f100f0550c3af69b6bc53238843806aa0c206978a06eb"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/experiment-metadata.template.json", "bytes": 917, "sha256": "4810eb7216dfd761c9b038f9e697f1c6c74169283afa08311d11480e41177cf3"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/gate-status.template.json", "bytes": 1399, "sha256": "18ad0b1b72c29af06225532ec847c8b11b0bf218d371289a683993d98736faef"},
+      {"path": "experiments/templates/blind-evaluation-pipeline-v1.0/index.html", "bytes": 6288, "sha256": "61a2d8bf399949ed1ec56c29a6b57a0c01e7fc8667bbaa2fbb1c83749c9e48ca"}
+    ]
+  }
+}
