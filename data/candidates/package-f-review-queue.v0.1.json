@@ -1,0 +1,3106 @@
+{
+  "package": "Package F — Candidate Source Verification + Human Review",
+  "package_version": "0.1.0",
+  "schema_version": "1.0.0",
+  "created_at": "2026-08-30",
+  "baseline_batch": "data/candidates/package-e-batch-001.v0.2.json",
+  "baseline_record_count": 19,
+  "scope_rule": "Only the 19 Package E candidates are in scope. No candidate expansion and no Experiment 003 work is permitted.",
+  "workflow": {
+    "review_states": [
+      "candidate",
+      "reviewed",
+      "rejected",
+      "needs_evidence"
+    ],
+    "transitions": {
+      "candidate": [
+        "reviewed",
+        "rejected",
+        "needs_evidence"
+      ],
+      "needs_evidence": [
+        "candidate",
+        "rejected"
+      ]
+    },
+    "publication_state": "published",
+    "publication_is_separate_gate": true,
+    "promotion_rule": "A documented human reviewer must complete the checklist and sign a decision. This generated verification package does not promote any record to Reviewed or Published."
+  },
+  "evidence_track_definitions": {
+    "linguistic_etymological": "Lexical, grammatical, historical-linguistic, borrowing, or cognacy evidence. Ordinary translation support must be distinguished from etymology.",
+    "phonetic": "Pronunciation, phonological form, regular sound correspondence, or measured phonetic comparison.",
+    "semantic_cognitive": "Sense structure, conceptual metaphor, spatial schema, psycholinguistic, or cognitive evidence.",
+    "speculative_association": "Exploratory analogy, sound symbolism, literary association, or untested cross-language proposal."
+  },
+  "status_summary": {
+    "candidate": 10,
+    "reviewed": 0,
+    "rejected": 0,
+    "needs_evidence": 9,
+    "published": 0
+  },
+  "records": [
+    {
+      "candidate_id": "CAND-en-time-001",
+      "source_word": "time",
+      "normalized_form": "time",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "Temporal duration, sequence or a located moment.",
+          "zh-Hans": "时间的持续、顺序或某一时刻。"
+        },
+        "candidate_mapping": "时间 · temps",
+        "source_provenance": "AGENTS.md",
+        "blockers": [
+          "authoritative English–Chinese–French lexical sources",
+          "dedicated Language Book review"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "temporal duration, sequence, or a point in time",
+        "reviewed_candidate_mapping": "时间 · temps",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-time-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: AGENTS.md",
+          "locator": "AGENTS.md",
+          "url": "AGENTS.md",
+          "specific_location": "document-level occurrence",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-time-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: time — English–Mandarin Chinese",
+          "locator": "headword “time”; reviewer-selected sense: temporal duration, sequence, or a point in time",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/time",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “时间”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 时间"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “time”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-time-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: time — English–French",
+          "locator": "headword “time”; reviewer-selected sense: temporal duration, sequence, or a point in time",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/time",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “temps”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): temps"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “time”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "not_assessed",
+          "supports": "No independent cognitive evidence is recorded.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "high",
+        "mapping_level": "A",
+        "level_is_provisional": true,
+        "reason": "The selected ordinary temporal sense is directly represented, but time is highly polysemous.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The selected ordinary temporal sense is directly represented, but time is highly polysemous.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-space-001",
+      "source_word": "space",
+      "normalized_form": "space",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "Physical or conceptual extension in which position and relation can be described.",
+          "zh-Hans": "可描述位置与关系的物理或概念延展。"
+        },
+        "candidate_mapping": "空间 · espace",
+        "source_provenance": "protocol/protocol.space.html#definition",
+        "blockers": [
+          "external lexical citations",
+          "mapping-level review"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "physical or conceptual extent in which position can be described",
+        "reviewed_candidate_mapping": "空间 · espace",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-space-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#definition",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "definition",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-space-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: space — English–Mandarin Chinese",
+          "locator": "headword “space”; reviewer-selected sense: physical or conceptual extent in which position can be described",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/space",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “空间”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 空间"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “space”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-space-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: space — English–French",
+          "locator": "headword “space”; reviewer-selected sense: physical or conceptual extent in which position can be described",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/space",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “espace”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): espace"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “space”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "high",
+        "mapping_level": "A",
+        "level_is_provisional": true,
+        "reason": "The ordinary spatial sense is supported; outer space, blank space, and available-room senses must remain separate.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The ordinary spatial sense is supported; outer space, blank space, and available-room senses must remain separate.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-meaning-001",
+      "source_word": "meaning",
+      "normalized_form": "meaning",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "What a sign, word, act or structure conveys or makes interpretable.",
+          "zh-Hans": "符号、词语、行为或结构所传达或使人理解的内容。"
+        },
+        "candidate_mapping": "意义 · sens",
+        "source_provenance": "protocol/protocol.mapping-framework.html",
+        "blockers": [
+          "external lexical citations",
+          "sense-disambiguation review"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "what a word, sign, or expression conveys",
+        "reviewed_candidate_mapping": "意义／意思 · sens／signification",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-meaning-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.mapping-framework.html",
+          "locator": "protocol/protocol.mapping-framework.html",
+          "url": "protocol/protocol.mapping-framework.html",
+          "specific_location": "document-level occurrence",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-meaning-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: meaning — English–Mandarin Chinese",
+          "locator": "headword “meaning”; reviewer-selected sense: what a word, sign, or expression conveys",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/meaning",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “意义／意思”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 意义／意思"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “meaning”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-meaning-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: meaning — English–French",
+          "locator": "headword “meaning”; reviewer-selected sense: what a word, sign, or expression conveys",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/meaning",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “sens／signification”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): sens／signification"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “meaning”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "The narrower linguistic sense is supportable; the original wording also covers acts and structures and needs a reviewer to approve that extension.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The narrower linguistic sense is supportable; the original wording also covers acts and structures and needs a reviewer to approve that extension.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-containment-001",
+      "source_word": "containment",
+      "normalized_form": "containment",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "The relation of being held within a boundary or container.",
+          "zh-Hans": "被容纳在边界或容器内部的关系。"
+        },
+        "candidate_mapping": "容纳／包含 · contenance／inclusion",
+        "source_provenance": "protocol/protocol.space.html#containment",
+        "blockers": [
+          "relation/process sense review",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "the spatial relation of being within a boundary",
+        "reviewed_candidate_mapping": "包含／容纳关系 · relation d’inclusion／contenance",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-containment-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#containment",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "containment",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-containment-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: containment — English–Mandarin Chinese",
+          "locator": "headword “containment”; reviewer-selected sense: the spatial relation of being within a boundary",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/containment",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “包含／容纳关系”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 包含／容纳关系"
+          ],
+          "does_not_support": [
+            "The Chinese containment page supports control/limitation senses, not the proposed spatial relation; the French contain page concerns the verb contenir.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-containment-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: containment — English–French",
+          "locator": "headword “containment”; reviewer-selected sense: the spatial relation of being within a boundary",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/contain",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “relation d’inclusion／contenance”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): relation d’inclusion／contenance"
+          ],
+          "does_not_support": [
+            "The Chinese containment page supports control/limitation senses, not the proposed spatial relation; the French contain page concerns the verb contenir.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "low",
+        "mapping_level": "C",
+        "level_is_provisional": true,
+        "reason": "The candidate uses a technical spatial-relation sense, while the general dictionary headword primarily describes control or limitation. A specialist cognitive-linguistics or topology source is required.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The candidate uses a technical spatial-relation sense, while the general dictionary headword primarily describes control or limitation. A specialist cognitive-linguistics or topology source is required.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-knowledge-001",
+      "source_word": "knowledge",
+      "normalized_form": "knowledge",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "Understanding or information acquired through learning or experience.",
+          "zh-Hans": "通过学习或经验获得的理解或信息。"
+        },
+        "candidate_mapping": "知识 · connaissance／savoir",
+        "source_provenance": "AGENTS.md",
+        "blockers": [
+          "French noun/verb boundary",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "information or understanding acquired through learning or experience",
+        "reviewed_candidate_mapping": "知识 · connaissance／savoir",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-knowledge-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: AGENTS.md",
+          "locator": "AGENTS.md",
+          "url": "AGENTS.md",
+          "specific_location": "document-level occurrence",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-knowledge-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: knowledge — English–Mandarin Chinese",
+          "locator": "headword “knowledge”; reviewer-selected sense: information or understanding acquired through learning or experience",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/knowledge",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “知识”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 知识"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “knowledge”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-knowledge-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: knowledge — English–French",
+          "locator": "headword “knowledge”; reviewer-selected sense: information or understanding acquired through learning or experience",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/knowledge",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “connaissance／savoir”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): connaissance／savoir"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “knowledge”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "not_assessed",
+          "supports": "No independent cognitive evidence is recorded.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "Chinese is straightforward; French connaissance and savoir divide countability, domain, and construction differently.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "Chinese is straightforward; French connaissance and savoir divide countability, domain, and construction differently.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-move-001",
+      "source_word": "move",
+      "normalized_form": "move",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "To change position or cause a change of position.",
+          "zh-Hans": "改变位置或使某物改变位置。"
+        },
+        "candidate_mapping": "移动 · déplacer／bouger",
+        "source_provenance": "protocol/protocol.space.html#operations",
+        "blockers": [
+          "verb-sense review",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "verb",
+        "selected_sense": "change position or cause a change of position",
+        "reviewed_candidate_mapping": "移动／搬动 · bouger／déplacer",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-move-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#operations",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "operations",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-move-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: move — English–Mandarin Chinese",
+          "locator": "headword “move”; reviewer-selected sense: change position or cause a change of position",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/move",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the verb headword, sense boundaries, and candidate Mandarin Chinese rendering “移动／搬动”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 移动／搬动"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “move”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-move-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: move — English–French",
+          "locator": "headword “move”; reviewer-selected sense: change position or cause a change of position",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/move",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the verb headword, sense boundaries, and candidate French rendering “bouger／déplacer”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): bouger／déplacer"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “move”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "The intransitive/transitive split determines whether bouger or déplacer is appropriate.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The intransitive/transitive split determines whether bouger or déplacer is appropriate.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-change-001",
+      "source_word": "change",
+      "normalized_form": "change",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "To become or make something different.",
+          "zh-Hans": "变得不同或使某物发生改变。"
+        },
+        "candidate_mapping": "改变／变化 · changer／changement",
+        "source_provenance": "AGENTS.md",
+        "blockers": [
+          "part-of-speech separation",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "verb and noun in baseline",
+        "selected_sense": "become or make different; a resulting difference",
+        "reviewed_candidate_mapping": "改变／变化 · changer／changement",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-change-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: AGENTS.md",
+          "locator": "AGENTS.md",
+          "url": "AGENTS.md",
+          "specific_location": "document-level occurrence",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-change-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: change — English–Mandarin Chinese",
+          "locator": "headword “change”; reviewer-selected sense: become or make different; a resulting difference",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/change",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the verb and noun in baseline headword, sense boundaries, and candidate Mandarin Chinese rendering “改变／变化”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 改变／变化"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “change”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-change-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: change — English–French",
+          "locator": "headword “change”; reviewer-selected sense: become or make different; a resulting difference",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/change",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the verb and noun in baseline headword, sense boundaries, and candidate French rendering “changer／changement”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): changer／changement"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “change”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "not_assessed",
+          "supports": "No independent cognitive evidence is recorded.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "The baseline combines verb and noun. Human review must select one part of speech or split the record.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The baseline combines verb and noun. Human review must select one part of speech or split the record.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-exist-001",
+      "source_word": "exist",
+      "normalized_form": "exist",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "To have being or reality.",
+          "zh-Hans": "具有存在或现实状态。"
+        },
+        "candidate_mapping": "存在 · exister",
+        "source_provenance": "AGENTS.md",
+        "blockers": [
+          "external lexical citations",
+          "protocol relation review"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "verb",
+        "selected_sense": "have objective reality or being",
+        "reviewed_candidate_mapping": "存在 · exister",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-exist-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: AGENTS.md",
+          "locator": "AGENTS.md",
+          "url": "AGENTS.md",
+          "specific_location": "document-level occurrence",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-exist-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: exist — English–Mandarin Chinese",
+          "locator": "headword “exist”; reviewer-selected sense: have objective reality or being",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/exist",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the verb headword, sense boundaries, and candidate Mandarin Chinese rendering “存在”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 存在"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “exist”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-exist-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: exist — English–French",
+          "locator": "headword “exist”; reviewer-selected sense: have objective reality or being",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/exist",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the verb headword, sense boundaries, and candidate French rendering “exister”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): exister"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “exist”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "not_assessed",
+          "supports": "No independent cognitive evidence is recorded.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "high",
+        "mapping_level": "A",
+        "level_is_provisional": true,
+        "reason": "The ordinary existence sense is direct; philosophical uses should not be inferred automatically.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The ordinary existence sense is direct; philosophical uses should not be inferred automatically.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-up-001",
+      "source_word": "up",
+      "normalized_form": "up",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "Toward or in a higher position.",
+          "zh-Hans": "朝向或处于更高位置。"
+        },
+        "candidate_mapping": "上／向上 · haut／vers le haut",
+        "source_provenance": "protocol/protocol.space.html#direction",
+        "blockers": [
+          "part-of-speech and context review",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "adverb/preposition/adjective",
+        "selected_sense": "toward or at a higher position",
+        "reviewed_candidate_mapping": "向上／在上面 · vers le haut／en haut",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-up-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#direction",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "direction",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-up-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: up — English–Mandarin Chinese",
+          "locator": "headword “up”; reviewer-selected sense: toward or at a higher position",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/up",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the adverb/preposition/adjective headword, sense boundaries, and candidate Mandarin Chinese rendering “向上／在上面”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 向上／在上面"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “up”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-up-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: up — English–French",
+          "locator": "headword “up”; reviewer-selected sense: toward or at a higher position",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/up",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the adverb/preposition/adjective headword, sense boundaries, and candidate French rendering “vers le haut／en haut”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): vers le haut／en haut"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “up”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "The baseline collapses direction, location, and adjective uses.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The baseline collapses direction, location, and adjective uses.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-down-001",
+      "source_word": "down",
+      "normalized_form": "down",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "Toward or in a lower position.",
+          "zh-Hans": "朝向或处于更低位置。"
+        },
+        "candidate_mapping": "下／向下 · bas／vers le bas",
+        "source_provenance": "protocol/protocol.space.html#direction",
+        "blockers": [
+          "part-of-speech and context review",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "adverb/preposition/adjective",
+        "selected_sense": "toward or at a lower position",
+        "reviewed_candidate_mapping": "向下／在下面 · vers le bas／en bas",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-down-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#direction",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "direction",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-down-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: down — English–Mandarin Chinese",
+          "locator": "headword “down”; reviewer-selected sense: toward or at a lower position",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/down",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the adverb/preposition/adjective headword, sense boundaries, and candidate Mandarin Chinese rendering “向下／在下面”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 向下／在下面"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “down”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-down-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: down — English–French",
+          "locator": "headword “down”; reviewer-selected sense: toward or at a lower position",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/down",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the adverb/preposition/adjective headword, sense boundaries, and candidate French rendering “vers le bas／en bas”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): vers le bas／en bas"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “down”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "The baseline collapses direction, location, and adjective uses.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The baseline collapses direction, location, and adjective uses.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-boundary-001",
+      "source_word": "boundary",
+      "normalized_form": "boundary",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "A limit separating areas, states or categories.",
+          "zh-Hans": "分隔区域、状态或类别的界限。"
+        },
+        "candidate_mapping": "边界 · limite／frontière",
+        "source_provenance": "protocol/protocol.space.html#boundary",
+        "blockers": [
+          "limit/frontier sense review",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "a line or limit separating areas, states, or categories",
+        "reviewed_candidate_mapping": "边界／界限 · limite／frontière",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-boundary-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#boundary",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "boundary",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-boundary-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: boundary — English–Mandarin Chinese",
+          "locator": "headword “boundary”; reviewer-selected sense: a line or limit separating areas, states, or categories",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/boundary",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “边界／界限”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 边界／界限"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “boundary”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-boundary-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: boundary — English–French",
+          "locator": "headword “boundary”; reviewer-selected sense: a line or limit separating areas, states, or categories",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/boundary",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “limite／frontière”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): limite／frontière"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “boundary”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "Frontière is favored for territorial separation; limite is broader. The category/state extension needs explicit sense selection.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "Frontière is favored for territorial separation; limite is broader. The category/state extension needs explicit sense selection.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-inside-001",
+      "source_word": "inside",
+      "normalized_form": "inside",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "In or into an interior area.",
+          "zh-Hans": "位于或进入内部区域。"
+        },
+        "candidate_mapping": "里面／内部 · intérieur／dedans",
+        "source_provenance": "protocol/protocol.space.html#containment",
+        "blockers": [
+          "part-of-speech review",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "preposition/adverb/noun/adjective",
+        "selected_sense": "in or into an interior area",
+        "reviewed_candidate_mapping": "里面／内部 · à l’intérieur／dedans／intérieur",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-inside-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#containment",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "containment",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-inside-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: inside — English–Mandarin Chinese",
+          "locator": "headword “inside”; reviewer-selected sense: in or into an interior area",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/inside",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the preposition/adverb/noun/adjective headword, sense boundaries, and candidate Mandarin Chinese rendering “里面／内部”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 里面／内部"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “inside”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-inside-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: inside — English–French",
+          "locator": "headword “inside”; reviewer-selected sense: in or into an interior area",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/inside",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the preposition/adverb/noun/adjective headword, sense boundaries, and candidate French rendering “à l’intérieur／dedans／intérieur”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): à l’intérieur／dedans／intérieur"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “inside”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "The proposed forms differ by part of speech and syntactic environment.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The proposed forms differ by part of speech and syntactic environment.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-outside-001",
+      "source_word": "outside",
+      "normalized_form": "outside",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "Beyond or not within a boundary.",
+          "zh-Hans": "位于边界之外或不在内部。"
+        },
+        "candidate_mapping": "外面／外部 · extérieur／dehors",
+        "source_provenance": "protocol/protocol.space.html#containment",
+        "blockers": [
+          "part-of-speech review",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "preposition/adverb/noun/adjective",
+        "selected_sense": "beyond or not within a boundary",
+        "reviewed_candidate_mapping": "外面／外部 · à l’extérieur／dehors／extérieur",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-outside-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#containment",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "containment",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-outside-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: outside — English–Mandarin Chinese",
+          "locator": "headword “outside”; reviewer-selected sense: beyond or not within a boundary",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/outside",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the preposition/adverb/noun/adjective headword, sense boundaries, and candidate Mandarin Chinese rendering “外面／外部”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 外面／外部"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “outside”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-outside-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: outside — English–French",
+          "locator": "headword “outside”; reviewer-selected sense: beyond or not within a boundary",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/outside",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the preposition/adverb/noun/adjective headword, sense boundaries, and candidate French rendering “à l’extérieur／dehors／extérieur”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): à l’extérieur／dehors／extérieur"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “outside”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "The proposed forms differ by part of speech and syntactic environment.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The proposed forms differ by part of speech and syntactic environment.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-source-001",
+      "source_word": "source",
+      "normalized_form": "source",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "A point or entity from which something begins or comes.",
+          "zh-Hans": "某事物开始或来源的点或实体。"
+        },
+        "candidate_mapping": "来源／源头 · source",
+        "source_provenance": "protocol/protocol.space.html#movement",
+        "blockers": [
+          "literal/metaphorical sense separation",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "a place, person, or thing from which something originates",
+        "reviewed_candidate_mapping": "来源／源头 · source",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-source-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#movement",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "movement",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-source-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: source — English–Mandarin Chinese",
+          "locator": "headword “source”; reviewer-selected sense: a place, person, or thing from which something originates",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/source",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “来源／源头”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 来源／源头"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “source”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-source-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: source — English–French",
+          "locator": "headword “source”; reviewer-selected sense: a place, person, or thing from which something originates",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/source",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “source”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): source"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “source”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "Literal origin and informational-source senses are related but not interchangeable in every context.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "Literal origin and informational-source senses are related but not interchangeable in every context.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-path-001",
+      "source_word": "path",
+      "normalized_form": "path",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "A route between a source and a destination.",
+          "zh-Hans": "连接来源与目的地的路线。"
+        },
+        "candidate_mapping": "路径／道路 · chemin／trajet",
+        "source_provenance": "protocol/protocol.space.html#movement",
+        "blockers": [
+          "route/path sense review",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "a route or way along which movement occurs",
+        "reviewed_candidate_mapping": "路径／道路 · chemin／trajet",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-path-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#movement",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "movement",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-path-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: path — English–Mandarin Chinese",
+          "locator": "headword “path”; reviewer-selected sense: a route or way along which movement occurs",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/path",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “路径／道路”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 路径／道路"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “path”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-path-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: path — English–French",
+          "locator": "headword “path”; reviewer-selected sense: a route or way along which movement occurs",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/path",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “chemin／trajet”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): chemin／trajet"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “path”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "Chemin can denote a physical way; trajet emphasizes a journey or route. The protocol’s SOURCE–PATH–GOAL abstraction is broader than either headword.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "Chemin can denote a physical way; trajet emphasizes a journey or route. The protocol’s SOURCE–PATH–GOAL abstraction is broader than either headword.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-goal-001",
+      "source_word": "goal",
+      "normalized_form": "goal",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "A destination or intended result of movement or action.",
+          "zh-Hans": "移动或行动的目的地或预期结果。"
+        },
+        "candidate_mapping": "目标／目的 · but／objectif",
+        "source_provenance": "protocol/protocol.space.html#movement",
+        "blockers": [
+          "destination/objective sense separation",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "an intended result or a destination in a movement schema",
+        "reviewed_candidate_mapping": "目标／目的 · but／objectif",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-goal-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#movement",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "movement",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-goal-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: goal — English–Mandarin Chinese",
+          "locator": "headword “goal”; reviewer-selected sense: an intended result or a destination in a movement schema",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/goal",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “目标／目的”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 目标／目的"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “goal”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-goal-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: goal — English–French",
+          "locator": "headword “goal”; reviewer-selected sense: an intended result or a destination in a movement schema",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/goal",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “but／objectif”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): but／objectif"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “goal”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-cover-001",
+      "source_word": "cover",
+      "normalized_form": "cover",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "To place something over another thing or the object doing so.",
+          "zh-Hans": "覆盖某物，或指起覆盖作用的物体。"
+        },
+        "candidate_mapping": "覆盖／盖 · couvrir／couverture",
+        "source_provenance": "protocol/protocol.space.html#sky-case",
+        "blockers": [
+          "verb/noun separation",
+          "external lexical citations",
+          "sky-hypothesis boundary review"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "verb and noun in baseline",
+        "selected_sense": "put something over another thing; an object placed over it",
+        "reviewed_candidate_mapping": "覆盖／盖上；盖子／覆盖物 · couvrir；couverture／couvercle",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-cover-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#sky-case",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "sky-case",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-cover-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: cover — English–Mandarin Chinese",
+          "locator": "headword “cover”; reviewer-selected sense: put something over another thing; an object placed over it",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/cover",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the verb and noun in baseline headword, sense boundaries, and candidate Mandarin Chinese rendering “覆盖／盖上；盖子／覆盖物”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 覆盖／盖上；盖子／覆盖物"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “cover”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-cover-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: cover — English–French",
+          "locator": "headword “cover”; reviewer-selected sense: put something over another thing; an object placed over it",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/cover",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the verb and noun in baseline headword, sense boundaries, and candidate French rendering “couvrir；couverture／couvercle”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): couvrir；couverture／couvercle"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “cover”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "partial",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "needs_evidence",
+        "confidence": "medium",
+        "mapping_level": "B",
+        "level_is_provisional": true,
+        "reason": "The baseline combines verb and noun, and the sky ↔ cover hypothesis must remain outside ordinary lexical evidence.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The baseline combines verb and noun, and the sky ↔ cover hypothesis must remain outside ordinary lexical evidence.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-direction-001",
+      "source_word": "direction",
+      "normalized_form": "direction",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "The course along which something moves or faces.",
+          "zh-Hans": "事物移动或朝向的路线。"
+        },
+        "candidate_mapping": "方向 · direction",
+        "source_provenance": "protocol/protocol.space.html#direction",
+        "blockers": [
+          "spatial/instruction sense separation",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "the course toward which something moves or faces",
+        "reviewed_candidate_mapping": "方向 · direction",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-direction-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: protocol/protocol.space.html",
+          "locator": "protocol/protocol.space.html#direction",
+          "url": "protocol/protocol.space.html",
+          "specific_location": "direction",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-direction-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: direction — English–Mandarin Chinese",
+          "locator": "headword “direction”; reviewer-selected sense: the course toward which something moves or faces",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/direction",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “方向”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 方向"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “direction”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-direction-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: direction — English–French",
+          "locator": "headword “direction”; reviewer-selected sense: the course toward which something moves or faces",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/direction",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “direction”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): direction"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “direction”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "partial",
+          "supports": "The project source places the concept in an internal semantic framework.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "high",
+        "mapping_level": "A",
+        "level_is_provisional": true,
+        "reason": "The spatial-course sense is supported; management and instruction senses are excluded.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The spatial-course sense is supported; management and instruction senses are excluded.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    },
+    {
+      "candidate_id": "CAND-en-translation-001",
+      "source_word": "translation",
+      "normalized_form": "translation",
+      "baseline_record": {
+        "lexical_meaning": {
+          "en": "The process or result of expressing content in another language.",
+          "zh-Hans": "用另一种语言表达内容的过程或结果。"
+        },
+        "candidate_mapping": "翻译 · traduction",
+        "source_provenance": "translation-protocol.html",
+        "blockers": [
+          "process/result distinction",
+          "external lexical citations"
+        ]
+      },
+      "scoped_analysis": {
+        "part_of_speech": "noun",
+        "selected_sense": "the process or product of expressing content in another language",
+        "reviewed_candidate_mapping": "翻译／译文 · traduction",
+        "mapping_type": "lexical-equivalent-candidate",
+        "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+      },
+      "source_verification": [
+        {
+          "verification_id": "CAND-en-translation-001-SRC-PROJECT",
+          "source_type": "project-primary-source",
+          "title": "Unilanguage project source: translation-protocol.html",
+          "locator": "translation-protocol.html",
+          "url": "translation-protocol.html",
+          "specific_location": "document-level occurrence",
+          "accessed_at": "2026-08-30",
+          "version_info": "Package E baseline commit 1a06dfd",
+          "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+          "supports": [
+            "candidate inclusion in this fixed 19-record review queue",
+            "project-internal semantic context"
+          ],
+          "does_not_support": [
+            "external lexical equivalence",
+            "shared etymology",
+            "phonetic correspondence",
+            "publication readiness"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-translation-001-SRC-CAM-ZH",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: translation — English–Mandarin Chinese",
+          "locator": "headword “translation”; reviewer-selected sense: the process or product of expressing content in another language",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/translation",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “翻译／译文”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "Mandarin Chinese candidate form(s): 翻译／译文"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “translation”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        },
+        {
+          "verification_id": "CAND-en-translation-001-SRC-CAM-FR",
+          "source_type": "authoritative-bilingual-dictionary",
+          "title": "Cambridge Dictionary: translation — English–French",
+          "locator": "headword “translation”; reviewer-selected sense: the process or product of expressing content in another language",
+          "url": "https://dictionary.cambridge.org/dictionary/english-french/translation",
+          "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+          "accessed_at": "2026-08-30",
+          "version_info": "live web edition; no stable release number displayed",
+          "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “traduction”.",
+          "supports": [
+            "ordinary lexical comparison for the selected sense",
+            "French candidate form(s): traduction"
+          ],
+          "does_not_support": [
+            "The page does not establish unrestricted equivalence across every sense of “translation”.",
+            "common origin, borrowing, or regular sound correspondence",
+            "the Unilanguage protocol mapping level"
+          ]
+        }
+      ],
+      "evidence_tracks": {
+        "linguistic_etymological": {
+          "status": "supported",
+          "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+          "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+        },
+        "phonetic": {
+          "status": "not_assessed",
+          "supports": "No phonetic evidence is used for this candidate.",
+          "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+        },
+        "semantic_cognitive": {
+          "status": "not_assessed",
+          "supports": "No independent cognitive evidence is recorded.",
+          "limits": "Project framework text is not independent empirical cognitive evidence."
+        },
+        "speculative_association": {
+          "status": "not_supported",
+          "supports": "No speculative association is required for the ordinary lexical comparison.",
+          "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+        }
+      },
+      "provisional_assessment": {
+        "review_status": "candidate",
+        "confidence": "high",
+        "mapping_level": "A",
+        "level_is_provisional": true,
+        "reason": "The process/result distinction is lexical polysemy and should be recorded, not treated as cross-language identity in every context.",
+        "publication_status": "not_published",
+        "automatic_publication_allowed": false
+      },
+      "counterexamples_uncertainties_conflicts": [
+        "The process/result distinction is lexical polysemy and should be recorded, not treated as cross-language identity in every context.",
+        "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+        "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+      ],
+      "human_review": {
+        "reviewer": null,
+        "reviewed_at": null,
+        "decision": null,
+        "rationale": null,
+        "checklist": [
+          {
+            "item": "Confirm all three source locators open and match the recorded headword/sense.",
+            "complete": false
+          },
+          {
+            "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+            "complete": false
+          },
+          {
+            "item": "Confirm Chinese and French forms with context-sensitive examples.",
+            "complete": false
+          },
+          {
+            "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+            "complete": false
+          },
+          {
+            "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+            "complete": false
+          },
+          {
+            "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+            "complete": false
+          }
+        ],
+        "allowed_decisions": [
+          "reviewed",
+          "rejected",
+          "needs_evidence"
+        ],
+        "publish_requires_separate_gate": true
+      }
+    }
+  ]
+}

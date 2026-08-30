@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Package F Candidate Review · 候选审核 | Unilanguage</title>
+    <meta name="description" content="Traceable source verification and human-review preparation for the fixed 19-record Package E candidate queue." />
+    <link rel="stylesheet" href="css/sky-case.css" />
+    <link rel="stylesheet" href="css/candidate-review.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#reviewQueue">Skip to review queue · 跳到审核队列</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">Unilanguage</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home · 首页</a><a href="semantic-mapper.html">Mapper · 映射器</a><a href="dictionary.html">Dictionary · 词典</a><a href="data-foundation.html">Data · 数据</a><a href="candidate-review.html" aria-current="page">Review · 审核</a><a href="protocol.html">Protocol · 协议</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <header class="hero review-hero">
+        <div>
+          <p class="eyebrow">Package F v0.1 · Source Verification + Human Review</p>
+          <h1>Review evidence, not resemblance.</h1>
+          <p class="subtitle">核验证据，而不是凭相似感下结论。</p>
+          <p>This workspace contains exactly the 19 Package E candidates. Candidate and Needs Evidence are review-preparation states; neither means Reviewed or Published.</p>
+        </div>
+        <aside class="review-gate" aria-label="Publication rule">
+          <strong>Publication is a separate gate · 发布是独立门槛</strong>
+          <p>No control on this page can publish a record. A named human reviewer must sign the review checklist first, and publication requires a later canonical-dataset change.</p>
+        </aside>
+      </header>
+
+      <section class="section" aria-labelledby="workflowTitle">
+        <h2 id="workflowTitle">Workflow · 审核流程</h2>
+        <div class="workflow">
+          <div><strong>Candidate</strong><span>sources prepared; human decision pending</span></div>
+          <div><strong>Reviewed / Rejected / Needs Evidence</strong><span>signed human decision only</span></div>
+          <div><strong>Published</strong><span>separate higher-threshold release gate</span></div>
+        </div>
+        <p class="boundary"><strong>Claim boundary:</strong> bilingual dictionary evidence can support a context-bound lexical equivalent. It does not prove common origin, borrowing, regular sound correspondence, a cognitive universal, or an Unilanguage hypothesis.</p>
+      </section>
+
+      <section class="section queue-controls" aria-labelledby="queueTitle">
+        <div>
+          <p class="eyebrow">Fixed queue · 固定队列</p>
+          <h2 id="queueTitle">19 candidate records</h2>
+          <p id="queueSummary" aria-live="polite">Loading verified review data · 正在加载核验数据</p>
+        </div>
+        <div class="filters" aria-label="Review queue filters">
+          <label for="statusFilter">Status · 状态</label>
+          <select id="statusFilter"><option value="all">All</option><option value="candidate">Candidate</option><option value="needs_evidence">Needs Evidence</option><option value="reviewed">Reviewed</option><option value="rejected">Rejected</option></select>
+          <label for="reviewSearch">Find · 查找</label>
+          <input id="reviewSearch" type="search" placeholder="word, mapping, source…" />
+        </div>
+      </section>
+      <section id="reviewQueue" class="review-queue" aria-live="polite"></section>
+    </main>
+    <footer class="footer">Package F v0.1 · 19 records only · No automatic review or publication</footer>
+    <script src="js/candidate-review.js"></script>
+  </body>
+</html>

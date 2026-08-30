@@ -10,6 +10,10 @@ The public product entry is `semantic-mapper.html`. It performs exact and normal
 
 The same dataset powers Semantic Mapper, Dictionary and reviewed-word Search. Package E tracks six published entries plus a separate 19-record candidate batch; candidates do not appear in formal lookup. Architecture and governance are documented in `docs/product/semantic-mapper-v0.1.md` and `docs/product/semantic-mapper-v0.2.md`. Validate with `scripts/validate-language-book.mjs`, run `tests/product-v0.2.test.cjs`, check critical links with `scripts/check-product-links.mjs`, and regenerate release records with `scripts/build-product-manifest.mjs`.
 
+## Package F · Candidate Source Verification + Human Review v0.1
+
+Package F keeps the Package E canonical dataset unchanged and prepares exactly its 19 candidates for human review. `data/candidates/package-f-review-queue.v0.1.json` records source type, exact locator, access/version details, supported and unsupported claims, four separated evidence tracks, conflicts, provisional confidence/mapping level, and an unsigned checklist. `candidate-review.html` renders the queue without any automatic review or publication action. Run `node scripts/validate-package-f.mjs` and `node --test tests/package-f.test.cjs`.
+
 ---
 
 # What is Unilanguage?
