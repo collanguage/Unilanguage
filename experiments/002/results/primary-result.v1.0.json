@@ -1,0 +1,34 @@
+{
+  "alpha": 0.05,
+  "analysis_level": "deduplicated lexical family",
+  "analysis_script_sha256": "d485a22cbec3911a53b87f76d1add8058f443cf4badd3a983c756451d8dfecea",
+  "continuity_corrected_rr_sensitivity": 1.5724227925184864,
+  "experiment_id": "UNI-EXP-002",
+  "fisher_two_sided_p": 0.41853111355468275,
+  "input_sha256": "0c13bca9efc04fcd73fb0d87629e831c6457641561c526332e94548575d60b5e",
+  "n_control": 240,
+  "n_w": 120,
+  "outcome": "INCONCLUSIVE",
+  "p_control": 0.0375,
+  "p_w": 0.058333333333333334,
+  "positive_definition": "final Direct Target code 1 only",
+  "risk_difference": 0.020833333333333336,
+  "risk_difference_95_ci_newcombe_wilson": [
+    -0.04117922263197322,
+    0.09567377702255274
+  ],
+  "risk_ratio": 1.5555555555555556,
+  "risk_ratio_95_ci_katz": [
+    0.5937587598471545,
+    4.075313494393996
+  ],
+  "run_at_utc": "2026-08-29T22:58:33.157290+00:00",
+  "schema_version": "1.0",
+  "sesoi_rr": 2.0,
+  "table": {
+    "control_nontarget": 231,
+    "control_target": 9,
+    "w_nontarget": 113,
+    "w_target": 7
+  }
+}

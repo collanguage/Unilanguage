@@ -1,0 +1,61 @@
+{
+  "analysis_script": {
+    "path": "analysis/run_package_b.py",
+    "sha256": "d485a22cbec3911a53b87f76d1add8058f443cf4badd3a983c756451d8dfecea"
+  },
+  "experiment_id": "UNI-EXP-002",
+  "frozen_inputs": {
+    "annotation_freeze_sha256": "fb14381344a015a93ae6914fce4f5e65f16195c2edf04c72fff86ad322b43a2e",
+    "annotation_manifest_sha256": "63885419c13fb66cd8ef2dcc100e42c3710a241463d1ad0b7f865cb27f2b8556",
+    "blind_id_map_sha256": "c396db26ee03fe518af4f92e38e8dc721d1b344f06f45c0426445329301e14e5",
+    "checks": {
+      "annotation_hash_chain": "PASS",
+      "annotation_integrity": "PASS",
+      "implementation_public_checksum_chain": "PASS",
+      "pre_unblind_condition_key_accessed": false,
+      "pre_unblind_primary_analysis_performed": false
+    },
+    "final_annotation_labels_sha256": "c05c721fc16964ce955ef1b39b88d13d3d3a8998aa58995d1c8c90ab0ae14090",
+    "implementation_freeze_sha256": "6529834c17260389691f3778ee166bf7d94b4be681027ed6f23c7e34bc5cc728",
+    "sampling_manifest_sha256": "39046a83d0743320bea3340f58088767f178c2aa9b3fb5dedb7ceda6458c3d9e"
+  },
+  "outputs": {
+    "analysis/locked-family-dataset.v1.0.csv": {
+      "bytes": 39229,
+      "sha256": "0c13bca9efc04fcd73fb0d87629e831c6457641561c526332e94548575d60b5e"
+    },
+    "analysis/locked-family-dataset.v1.0.sha256": {
+      "bytes": 107,
+      "sha256": "f5ea1231330bbd91b0e1fa7cc4d223c86e71ab09bfd094ebd3843ac22b0d7a38"
+    },
+    "audit/unblinding-event.v1.0.json": {
+      "bytes": 1555,
+      "sha256": "bc95c1a33f2cfc16a9e35959597a47b92a5e992e8f1ef32320bc18ccd2d071a4"
+    },
+    "results/analysis-output.v1.0.csv": {
+      "bytes": 1057,
+      "sha256": "5ad352ed5e664ba6d5578cb90f118c00ee5e81e36d8ebf4f6c47e94ef2ce5508"
+    },
+    "results/annotation-robustness.v1.0.json": {
+      "bytes": 3829,
+      "sha256": "6a18cfc659fbe033dd363808ba2f62de740082f4052e81c8e1b51942422d53b5"
+    },
+    "results/audit-trail.v1.0.json": {
+      "bytes": 1709,
+      "sha256": "d4d852204abc140462d47e398d12c17d077b30fb9e8de1255e14308090907da5"
+    },
+    "results/primary-result.v1.0.json": {
+      "bytes": 1076,
+      "sha256": "9347e51e4416dff855f15182047c14f05f36930e19cbf89d91b4acf283949492"
+    },
+    "results/secondary-robustness.v1.0.json": {
+      "bytes": 3915,
+      "sha256": "2419880401efbc792b2a2732e2928b846c289df8f948853135a01a9d9bd3e6a3"
+    }
+  },
+  "runtime": {
+    "platform": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "schema_version": "1.0"
+}
