@@ -1,0 +1,29 @@
+{
+  "authorization": "User instruction executing Package B after Annotation Freeze v1.0",
+  "condition_key_components": {
+    "blind_id_map_sha256": "c396db26ee03fe518af4f92e38e8dc721d1b344f06f45c0426445329301e14e5",
+    "sampling_manifest_sha256": "39046a83d0743320bea3340f58088767f178c2aa9b3fb5dedb7ceda6458c3d9e"
+  },
+  "event": "AUTHORIZED_UNBLIND",
+  "experiment_id": "UNI-EXP-002",
+  "joined_rows": 360,
+  "locked_family_dataset_sha256": "0c13bca9efc04fcd73fb0d87629e831c6457641561c526332e94548575d60b5e",
+  "pre_unblind_validation": {
+    "annotation_freeze_sha256": "fb14381344a015a93ae6914fce4f5e65f16195c2edf04c72fff86ad322b43a2e",
+    "annotation_manifest_sha256": "63885419c13fb66cd8ef2dcc100e42c3710a241463d1ad0b7f865cb27f2b8556",
+    "blind_id_map_sha256": "c396db26ee03fe518af4f92e38e8dc721d1b344f06f45c0426445329301e14e5",
+    "checks": {
+      "annotation_hash_chain": "PASS",
+      "annotation_integrity": "PASS",
+      "implementation_public_checksum_chain": "PASS",
+      "pre_unblind_condition_key_accessed": false,
+      "pre_unblind_primary_analysis_performed": false
+    },
+    "final_annotation_labels_sha256": "c05c721fc16964ce955ef1b39b88d13d3d3a8998aa58995d1c8c90ab0ae14090",
+    "implementation_freeze_sha256": "6529834c17260389691f3778ee166bf7d94b4be681027ed6f23c7e34bc5cc728",
+    "sampling_manifest_sha256": "39046a83d0743320bea3340f58088767f178c2aa9b3fb5dedb7ceda6458c3d9e"
+  },
+  "schema_version": "1.0",
+  "unblinded_at_utc": "2026-08-29T22:58:33.140678+00:00",
+  "unique_family_ids": 360
+}
