@@ -1,0 +1,70 @@
+{
+  "annotation_mode": "machine-based exploratory blind annotation — not human double-blind validation",
+  "artifacts": {
+    "../002-w-water.html": {
+      "bytes": 9534,
+      "sha256": "204edc92cc7d6f696213ebf1f2a1cff8dbc75f0c662d1759a5997ff60e7e58cb"
+    },
+    "analysis/finalize_result_freeze.py": {
+      "bytes": 3631,
+      "sha256": "efae824b238b01db1674b02d970455af78dc644a18bc0950c3b3d089783bba70"
+    },
+    "analysis/locked-family-dataset.v1.0.csv": {
+      "bytes": 39229,
+      "sha256": "0c13bca9efc04fcd73fb0d87629e831c6457641561c526332e94548575d60b5e"
+    },
+    "analysis/locked-family-dataset.v1.0.sha256": {
+      "bytes": 107,
+      "sha256": "f5ea1231330bbd91b0e1fa7cc4d223c86e71ab09bfd094ebd3843ac22b0d7a38"
+    },
+    "analysis/run_package_b.py": {
+      "bytes": 17612,
+      "sha256": "d485a22cbec3911a53b87f76d1add8058f443cf4badd3a983c756451d8dfecea"
+    },
+    "audit/unblinding-event.v1.0.json": {
+      "bytes": 1555,
+      "sha256": "bc95c1a33f2cfc16a9e35959597a47b92a5e992e8f1ef32320bc18ccd2d071a4"
+    },
+    "results.html": {
+      "bytes": 5634,
+      "sha256": "f8126a1d8f1471137f11ec48845dea24901d4d17f28a764c70adc93d071dd8e7"
+    },
+    "results/analysis-manifest.v1.0.json": {
+      "bytes": 2583,
+      "sha256": "5756c0ec18ec8a4b758399f183fab20374521e8e95a0fc73e14bacc2f0da9d96"
+    },
+    "results/analysis-output.v1.0.csv": {
+      "bytes": 1057,
+      "sha256": "5ad352ed5e664ba6d5578cb90f118c00ee5e81e36d8ebf4f6c47e94ef2ce5508"
+    },
+    "results/annotation-robustness.v1.0.json": {
+      "bytes": 3829,
+      "sha256": "6a18cfc659fbe033dd363808ba2f62de740082f4052e81c8e1b51942422d53b5"
+    },
+    "results/audit-trail.v1.0.json": {
+      "bytes": 1709,
+      "sha256": "d4d852204abc140462d47e398d12c17d077b30fb9e8de1255e14308090907da5"
+    },
+    "results/primary-result.v1.0.json": {
+      "bytes": 1076,
+      "sha256": "9347e51e4416dff855f15182047c14f05f36930e19cbf89d91b4acf283949492"
+    },
+    "results/public-safe-result-summary-v1.0.md": {
+      "bytes": 3137,
+      "sha256": "a6f9e975474a8dd7ebff4a3b8552143c194d3999560c8ee3b0f62f3e26e4967e"
+    },
+    "results/secondary-robustness.v1.0.json": {
+      "bytes": 3915,
+      "sha256": "2419880401efbc792b2a2732e2928b846c289df8f948853135a01a9d9bd3e6a3"
+    },
+    "tests/test_result_freeze.py": {
+      "bytes": 3287,
+      "sha256": "2414453d917001271de9097dc4bb69887b24af8e9fcd5e89cde1c3472aed996b"
+    }
+  },
+  "experiment_id": "UNI-EXP-002",
+  "no_rescue_rule": "OBSERVED",
+  "primary_outcome": "INCONCLUSIVE",
+  "schema_version": "1.0",
+  "status": "READY_FOR_RESULT_FREEZE"
+}
