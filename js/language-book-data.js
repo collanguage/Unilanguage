@@ -5,7 +5,7 @@
 })(typeof globalThis !== "undefined" ? globalThis : this, function () {
   "use strict";
 
-  const DATASET_URL = "data/language-book.v0.1.json";
+  const DATASET_URL = "data/language-book.v0.2.json";
 
   function normalize(value) {
     return String(value ?? "")

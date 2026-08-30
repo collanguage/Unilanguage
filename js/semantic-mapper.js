@@ -144,7 +144,8 @@
     ui.result = document.getElementById("mapperResult");
     try {
       dataset = await UnilanguageData.loadDataset();
-      document.getElementById("datasetVersion").textContent = `Dataset v${dataset.dataset_version} · ${dataset.entries.length} reviewed entries`;
+      const publishedCount = dataset.entries.filter((entry) => entry.entry_review_status === "published").length;
+      document.getElementById("datasetVersion").textContent = `Dataset v${dataset.dataset_version} · ${publishedCount} published entries`;
       ui.form.addEventListener("submit", (event) => {
         event.preventDefault();
         runLookup();
