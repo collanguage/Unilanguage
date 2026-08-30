@@ -1,0 +1,117 @@
+{
+  "agreement": {
+    "adjudicated_count": 3,
+    "disagreement_count": 3,
+    "exact_count": 357,
+    "exact_rate": 0.9916666666666667,
+    "unweighted_cohen_kappa": 0.98048004626952
+  },
+  "annotation_mode": "machine-based exploratory blind annotation — not human double-blind validation",
+  "artifacts": {
+    "annotation/adjudication-input-manifest.v1.0.json": {
+      "bytes": 618,
+      "path": "annotation/adjudication-input-manifest.v1.0.json",
+      "sha256": "316556b5388d6465911f809f172ee65f2ae4163aa178953d23b36cfacbaca800"
+    },
+    "annotation/agreement-report.v1.0.json": {
+      "bytes": 1056,
+      "path": "annotation/agreement-report.v1.0.json",
+      "sha256": "d8a57e8c40eba5cf1b55fd0d2bc5f73d42a03d6095a281ee452fda6756ba19d6"
+    },
+    "annotation/ai-blind-annotation-protocol-v1.0.md": {
+      "bytes": 2640,
+      "path": "annotation/ai-blind-annotation-protocol-v1.0.md",
+      "sha256": "fdd20c5dcd93b9b04321363ca3b64afea4484b1d459590c4f9f4ed3d0a921b78"
+    },
+    "annotation/ai-run-input-manifest.v1.0.json": {
+      "bytes": 3093,
+      "path": "annotation/ai-run-input-manifest.v1.0.json",
+      "sha256": "5fa6a0d4eecaef11089f78db38a2497fe2def89e2182d9d9b66674d21eccbe29"
+    },
+    "annotation/annotation-integrity-report.v1.0.json": {
+      "bytes": 799,
+      "path": "annotation/annotation-integrity-report.v1.0.json",
+      "sha256": "ae559206ee87d3d561fca4a87e1b3900267e07ad0d8965a41b03b6dfc2fb285b"
+    },
+    "annotation/annotation-modality-amendment-v1.0.md": {
+      "bytes": 2089,
+      "path": "annotation/annotation-modality-amendment-v1.0.md",
+      "sha256": "861943070b313145291df06b6e1fcd1fce5aa99232d765ec6ab194410d60da5b"
+    },
+    "annotation/coding-rubric-v1.0.md": {
+      "bytes": 2413,
+      "path": "annotation/coding-rubric-v1.0.md",
+      "sha256": "221d673d2d7700c883d825d4624d6da8df9c8acf0c4215d8496ae6e858a984b3"
+    },
+    "annotation/disagreement-manifest.v1.0.csv": {
+      "bytes": 50,
+      "path": "annotation/disagreement-manifest.v1.0.csv",
+      "sha256": "4904f556d79ee01550e274f4bc859ce36e8b1374d42dcaa488b52525bcca0d5c"
+    },
+    "annotation/final-annotation-labels.v1.0.csv": {
+      "bytes": 15819,
+      "path": "annotation/final-annotation-labels.v1.0.csv",
+      "sha256": "c05c721fc16964ce955ef1b39b88d13d3d3a8998aa58995d1c8c90ab0ae14090"
+    },
+    "annotation/protocol-deviations.v1.0.json": {
+      "bytes": 1410,
+      "path": "annotation/protocol-deviations.v1.0.json",
+      "sha256": "a8e05d02c75c1f6f588e0fb9a28ea92c8262c3bd46f494cfdc6d141a2e6c9509"
+    },
+    "annotation/runs/ai-a/input-batch.csv": {
+      "bytes": 136921,
+      "path": "annotation/runs/ai-a/input-batch.csv",
+      "sha256": "3396f39fe8dcd2f3579c95e9edbb8526569523bb1d2b7cb3daef0e464a598ad6"
+    },
+    "annotation/runs/ai-a/raw-annotations.csv": {
+      "bytes": 87963,
+      "path": "annotation/runs/ai-a/raw-annotations.csv",
+      "sha256": "82f84a3e0e54e42fd0fd758c4837decd93b231154b034613e8a9d96f5d23e017"
+    },
+    "annotation/runs/ai-a/raw-output-freeze.v1.0.json": {
+      "bytes": 907,
+      "path": "annotation/runs/ai-a/raw-output-freeze.v1.0.json",
+      "sha256": "c9256ea48256e48ffb97bdb5d18749c2dcec241dff0c5f16bf55f535b16254bb"
+    },
+    "annotation/runs/ai-b/input-batch.csv": {
+      "bytes": 136921,
+      "path": "annotation/runs/ai-b/input-batch.csv",
+      "sha256": "249aaf3db661d09c725663ce1e404a4eb88eb2d4ed54837d637caabebdc08f3e"
+    },
+    "annotation/runs/ai-b/raw-annotations.csv": {
+      "bytes": 81228,
+      "path": "annotation/runs/ai-b/raw-annotations.csv",
+      "sha256": "520ed58b30ae1d0a206cf919225582081741218d0666cec7d78a51bcd1222579"
+    },
+    "annotation/runs/ai-b/raw-output-freeze.v1.0.json": {
+      "bytes": 907,
+      "path": "annotation/runs/ai-b/raw-output-freeze.v1.0.json",
+      "sha256": "9eb12398f4fd97d05fd7a8d0248ce9bd261dd35aba6c8835635cd7de508a9754"
+    },
+    "annotation/runs/ai-c/input-batch.csv": {
+      "bytes": 1491,
+      "path": "annotation/runs/ai-c/input-batch.csv",
+      "sha256": "530b16707ffccf0f9caccb57b3efd417f0448b9242c38650420254eb9c764a66"
+    },
+    "annotation/runs/ai-c/raw-adjudication.csv": {
+      "bytes": 731,
+      "path": "annotation/runs/ai-c/raw-adjudication.csv",
+      "sha256": "46d809009c5bbef631d2f66291ac12461f5b0856f564d0305f9a9afdd39a9f56"
+    },
+    "annotation/runs/ai-c/raw-output-freeze.v1.0.json": {
+      "bytes": 905,
+      "path": "annotation/runs/ai-c/raw-output-freeze.v1.0.json",
+      "sha256": "3e75b545d7ca35dc23229742a249c6992520e9cf54d3fc40636c7e22e1dcb160"
+    }
+  },
+  "condition_key_accessed": false,
+  "experiment_id": "UNI-EXP-002",
+  "frozen_at_utc": "2026-08-29T22:45:30.855642+00:00",
+  "integrity": "PASS",
+  "primary_analysis_performed": false,
+  "protocol_deviation_count": 1,
+  "rows": 360,
+  "schema_version": "1.0",
+  "status": "ANNOTATION FREEZE — FROZEN",
+  "unblind_performed": false
+}

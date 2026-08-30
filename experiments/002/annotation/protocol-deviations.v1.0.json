@@ -1,0 +1,24 @@
+{
+  "deviations": [
+    {
+      "cause": "Orchestration sequencing error.",
+      "containment": "AI-B was interrupted immediately. Read-only verification confirmed that no raw output file had been created. AI-B was restarted as a fresh isolated execution only after AI-A raw output validated and froze.",
+      "description": "AI-B was initially dispatched concurrently with AI-A instead of after AI-A raw-output freeze.",
+      "design_or_analysis_changed": false,
+      "impact": "No annotation data were produced by the aborted dispatch; no A/B sharing or condition exposure occurred. The usable AI-B output comes solely from the post-A-freeze fresh execution.",
+      "severity": "minor-contained-process-deviation",
+      "stage": "AI run dispatch",
+      "timestamp_utc": "2026-08-29T22:39:58Z"
+    }
+  ],
+  "experiment_id": "UNI-EXP-002",
+  "frozen_at_utc": "2026-08-29T22:45:30.855642+00:00",
+  "operational_notes_not_protocol_deviations": [
+    {
+      "note": "An optional public-dictionary supplementation attempt was stopped after six cached HTTP attempts because the endpoint was unreliable. No retrieved response was incorporated into frozen sense materials. The 80 WordNet-uncovered items remained explicitly information-inadequate under the frozen U rule.",
+      "stage": "neutral lexical-material preparation before input freeze"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "FROZEN"
+}

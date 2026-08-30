@@ -1,0 +1,48 @@
+{
+  "ai_a_raw_sha256": "82f84a3e0e54e42fd0fd758c4837decd93b231154b034613e8a9d96f5d23e017",
+  "ai_b_raw_sha256": "520ed58b30ae1d0a206cf919225582081741218d0666cec7d78a51bcd1222579",
+  "chance_expected_agreement": 0.5730864197530864,
+  "codes": [
+    "1",
+    "2",
+    "0",
+    "U"
+  ],
+  "condition_key_accessed": false,
+  "contingency_ai_a_by_ai_b": {
+    "0": {
+      "0": 259,
+      "1": 1,
+      "2": 0,
+      "U": 0
+    },
+    "1": {
+      "0": 0,
+      "1": 15,
+      "2": 1,
+      "U": 0
+    },
+    "2": {
+      "0": 1,
+      "1": 0,
+      "2": 3,
+      "U": 0
+    },
+    "U": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "U": 80
+    }
+  },
+  "created_at_utc": "2026-08-29T22:44:45.102958+00:00",
+  "disagreement_count": 3,
+  "disagreement_manifest_sha256": "4904f556d79ee01550e274f4bc859ce36e8b1374d42dcaa488b52525bcca0d5c",
+  "exact_agreement_count": 357,
+  "exact_agreement_rate": 0.9916666666666667,
+  "experiment_id": "UNI-EXP-002",
+  "n": 360,
+  "schema_version": "1.0",
+  "status": "FROZEN",
+  "unweighted_cohen_kappa": 0.98048004626952
+}
