@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Package G Review Decisions · 审核决策 | Unilanguage</title>
+    <meta name="description" content="Human decision records, evidence-completeness checks, publication eligibility, and audit history for the fixed 19-record candidate queue." />
+    <link rel="stylesheet" href="css/sky-case.css" />
+    <link rel="stylesheet" href="css/candidate-review.css" />
+    <link rel="stylesheet" href="css/review-decisions.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#decisionQueue">Skip to decision register · 跳到决策记录</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">Unilanguage</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home · 首页</a><a href="semantic-mapper.html">Mapper · 映射器</a><a href="dictionary.html">Dictionary · 词典</a><a href="data-foundation.html">Data · 数据</a><a href="candidate-review.html">Evidence · 证据</a><a href="review-decisions.html" aria-current="page">Decisions · 决策</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <header class="hero review-hero">
+        <div>
+          <p class="eyebrow">Package G v0.1 · Review Decision + Publication Gate</p>
+          <h1>Decision is not publication.</h1>
+          <p class="subtitle">审核通过不等于发布。</p>
+          <p>The fixed 19 Package F records now have a formal, auditable decision layer. This page is inspection-only: it cannot sign a review, grant eligibility, or publish a record.</p>
+        </div>
+        <aside class="review-gate" aria-label="Gate rule">
+          <strong>Two independent gates · 两个独立门槛</strong>
+          <p><b>Reviewed</b> requires a named human, a rationale, and every evidence-standard check. <b>Published</b> additionally requires a release checklist and explicit human publication approval.</p>
+        </aside>
+      </header>
+
+      <section class="section" aria-labelledby="gateModelTitle">
+        <h2 id="gateModelTitle">Gate model · 门槛模型</h2>
+        <div class="workflow">
+          <div><strong>Package F intake</strong><span>10 Candidate · 9 Needs Evidence</span></div>
+          <div><strong>Human decision</strong><span>Pending / Reviewed / Needs Evidence / Rejected, with reason and audit record</span></div>
+          <div><strong>Publication gate</strong><span>Eligibility checklist + explicit approval; never automatic</span></div>
+        </div>
+        <p class="boundary"><strong>Current state:</strong> no named reviewer or publisher approval exists. Therefore all 19 formal decisions are Pending, all 19 publication gates are Not Eligible, and 0 records are Published.</p>
+      </section>
+
+      <section class="section decision-summary" aria-labelledby="summaryTitle">
+        <div><p class="eyebrow">Formal governance · 正式治理</p><h2 id="summaryTitle">Current register</h2><p id="decisionSummary" aria-live="polite">Loading decision data · 正在加载决策数据</p></div>
+        <div class="summary-grid" id="summaryGrid" aria-label="Decision summary"></div>
+      </section>
+
+      <section class="section queue-controls" aria-labelledby="queueTitle">
+        <div><p class="eyebrow">Fixed scope · 固定范围</p><h2 id="queueTitle">19 decision records</h2><p>No new candidates · no Experiment 003 · no automatic promotion</p></div>
+        <div class="filters" aria-label="Decision register filters">
+          <label for="intakeFilter">F intake · F 状态</label>
+          <select id="intakeFilter"><option value="all">All</option><option value="candidate">Candidate</option><option value="needs_evidence">Needs Evidence</option></select>
+          <label for="decisionSearch">Find · 查找</label>
+          <input id="decisionSearch" type="search" placeholder="word, reason, check…" />
+        </div>
+      </section>
+      <section id="decisionQueue" class="review-queue" aria-live="polite"></section>
+    </main>
+    <footer class="footer">Package G v0.1 · Reviewed ≠ Published · Explicit human approval required</footer>
+    <script src="js/review-decisions.js"></script>
+  </body>
+</html>

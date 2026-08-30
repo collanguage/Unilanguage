@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://language.vu/data/candidates/package-g-decision.schema.json",
+  "title": "Package G human decision and publication gate register",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["package", "package_version", "schema_version", "created_at", "source_review_package", "baseline_record_count", "scope_rule", "governance", "status_summary", "records"],
+  "properties": {
+    "package": { "const": "Package G — Review Decision + Publication Gate" },
+    "package_version": { "const": "0.1.0" },
+    "schema_version": { "const": "1.0.0" },
+    "created_at": { "type": "string", "format": "date" },
+    "source_review_package": { "const": "data/candidates/package-f-review-queue.v0.1.json" },
+    "baseline_record_count": { "const": 19 },
+    "scope_rule": { "type": "string", "minLength": 1 },
+    "governance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decision_states", "decision_reason_requirements", "reviewed_is_not_published", "publication_requires_explicit_human_approval", "automatic_review_allowed", "automatic_publication_allowed"],
+      "properties": {
+        "decision_states": { "const": ["pending", "reviewed", "needs_evidence", "rejected"] },
+        "decision_reason_requirements": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["reviewed", "needs_evidence", "rejected"],
+          "properties": {
+            "reviewed": { "type": "string", "minLength": 1 },
+            "needs_evidence": { "type": "string", "minLength": 1 },
+            "rejected": { "type": "string", "minLength": 1 }
+          }
+        },
+        "reviewed_is_not_published": { "const": true },
+        "publication_requires_explicit_human_approval": { "const": true },
+        "automatic_review_allowed": { "const": false },
+        "automatic_publication_allowed": { "const": false }
+      }
+    },
+    "status_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["package_f_intake", "human_decisions", "publication_gate"],
+      "properties": {
+        "package_f_intake": { "$ref": "#/$defs/intakeSummary" },
+        "human_decisions": { "$ref": "#/$defs/decisionSummary" },
+        "publication_gate": { "$ref": "#/$defs/publicationSummary" }
+      }
+    },
+    "records": { "type": "array", "minItems": 19, "maxItems": 19, "items": { "$ref": "#/$defs/record" } }
+  },
+  "$defs": {
+    "intakeSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate", "needs_evidence"],
+      "properties": { "candidate": { "type": "integer", "minimum": 0 }, "needs_evidence": { "type": "integer", "minimum": 0 } }
+    },
+    "decisionSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pending", "reviewed", "needs_evidence", "rejected"],
+      "properties": {
+        "pending": { "type": "integer", "minimum": 0 },
+        "reviewed": { "type": "integer", "minimum": 0 },
+        "needs_evidence": { "type": "integer", "minimum": 0 },
+        "rejected": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "publicationSummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["not_eligible", "eligible", "published"],
+      "properties": {
+        "not_eligible": { "type": "integer", "minimum": 0 },
+        "eligible": { "type": "integer", "minimum": 0 },
+        "published": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["check_id", "label", "complete", "evidence_reference"],
+      "properties": {
+        "check_id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "complete": { "type": "boolean" },
+        "evidence_reference": { "type": ["string", "null"] }
+      }
+    },
+    "evidenceCheck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["check_id", "label", "complete", "basis"],
+      "properties": {
+        "check_id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "complete": { "type": "boolean" },
+        "basis": { "type": "string", "minLength": 1 }
+      }
+    },
+    "auditEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["event_id", "occurred_at", "event_type", "actor", "from_state", "to_state", "reason_code", "rationale", "source_references"],
+      "properties": {
+        "event_id": { "type": "string", "minLength": 1 },
+        "occurred_at": { "type": "string", "format": "date" },
+        "event_type": { "enum": ["decision_gate_initialized", "human_decision_recorded", "decision_reopened", "publication_eligibility_changed", "publication_approved", "published"] },
+        "actor": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["actor_type", "actor_id"],
+          "properties": { "actor_type": { "enum": ["system", "human"] }, "actor_id": { "type": "string", "minLength": 1 } }
+        },
+        "from_state": { "type": "object" },
+        "to_state": { "type": "object" },
+        "reason_code": { "type": "string", "minLength": 1 },
+        "rationale": { "type": "string", "minLength": 1 },
+        "source_references": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_id", "source_word", "normalized_form", "package_f_source", "evidence_completeness", "decision_record", "publication_gate", "audit_log"],
+      "properties": {
+        "candidate_id": { "type": "string", "pattern": "^CAND-[a-z]{2,3}-[a-z0-9-]+-[0-9]{3}$" },
+        "source_word": { "type": "string", "minLength": 1 },
+        "normalized_form": { "type": "string", "minLength": 1 },
+        "package_f_source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["package", "package_version", "intake_status", "provisional_reason", "source_verification_count", "source_record_locator"],
+          "properties": {
+            "package": { "const": "Package F — Candidate Source Verification + Human Review" },
+            "package_version": { "const": "0.1.0" },
+            "intake_status": { "enum": ["candidate", "needs_evidence"] },
+            "provisional_reason": { "type": "string", "minLength": 1 },
+            "source_verification_count": { "type": "integer", "minimum": 3 },
+            "source_record_locator": { "type": "string", "minLength": 1 }
+          }
+        },
+        "evidence_completeness": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "checks", "missing_required_checks", "reviewed_eligible", "eligibility_reason"],
+          "properties": {
+            "status": { "enum": ["blocked_evidence_gap", "awaiting_human_confirmation", "complete"] },
+            "checks": { "type": "array", "minItems": 6, "items": { "$ref": "#/$defs/evidenceCheck" } },
+            "missing_required_checks": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+            "reviewed_eligible": { "type": "boolean" },
+            "eligibility_reason": { "type": "string", "minLength": 1 }
+          }
+        },
+        "decision_record": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["decision_id", "status", "status_reason", "reason_codes", "rationale", "remediation_required", "reviewer", "decided_at", "evidence_standard", "checklist"],
+          "properties": {
+            "decision_id": { "type": "string", "minLength": 1 },
+            "status": { "enum": ["pending", "reviewed", "needs_evidence", "rejected"] },
+            "status_reason": { "type": "string", "minLength": 1 },
+            "reason_codes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+            "rationale": { "type": ["string", "null"] },
+            "remediation_required": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+            "reviewer": { "type": ["string", "null"] },
+            "decided_at": { "type": ["string", "null"], "format": "date" },
+            "evidence_standard": { "const": "Package G reviewed-evidence standard v0.1" },
+            "checklist": { "type": "array", "minItems": 6, "items": { "$ref": "#/$defs/check" } }
+          }
+        },
+        "publication_gate": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["eligibility_status", "eligibility_reason", "checklist", "approval", "publication_status", "automatic_promotion_allowed"],
+          "properties": {
+            "eligibility_status": { "enum": ["not_eligible", "eligible"] },
+            "eligibility_reason": { "type": "string", "minLength": 1 },
+            "checklist": { "type": "array", "minItems": 6, "items": { "$ref": "#/$defs/check" } },
+            "approval": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["publisher", "approved_at", "rationale", "release_commit"],
+              "properties": {
+                "publisher": { "type": ["string", "null"] },
+                "approved_at": { "type": ["string", "null"], "format": "date" },
+                "rationale": { "type": ["string", "null"] },
+                "release_commit": { "type": ["string", "null"] }
+              }
+            },
+            "publication_status": { "enum": ["not_published", "published"] },
+            "automatic_promotion_allowed": { "const": false }
+          }
+        },
+        "audit_log": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/auditEvent" } }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "decision_record": { "properties": { "status": { "const": "reviewed" } } } } },
+          "then": {
+            "properties": {
+              "evidence_completeness": { "properties": { "reviewed_eligible": { "const": true }, "missing_required_checks": { "maxItems": 0 } } },
+              "decision_record": {
+                "properties": {
+                  "reviewer": { "type": "string", "minLength": 1 },
+                  "decided_at": { "type": "string", "format": "date" },
+                  "rationale": { "type": "string", "minLength": 1 },
+                  "checklist": { "items": { "properties": { "complete": { "const": true }, "evidence_reference": { "type": "string", "minLength": 1 } } } }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "decision_record": { "properties": { "status": { "enum": ["needs_evidence", "rejected"] } } } } },
+          "then": {
+            "properties": {
+              "decision_record": {
+                "properties": {
+                  "reviewer": { "type": "string", "minLength": 1 },
+                  "decided_at": { "type": "string", "format": "date" },
+                  "rationale": { "type": "string", "minLength": 1 }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "publication_gate": { "properties": { "publication_status": { "const": "published" } } } } },
+          "then": {
+            "properties": {
+              "decision_record": { "properties": { "status": { "const": "reviewed" } } },
+              "publication_gate": {
+                "properties": {
+                  "eligibility_status": { "const": "eligible" },
+                  "checklist": { "items": { "properties": { "complete": { "const": true }, "evidence_reference": { "type": "string", "minLength": 1 } } } },
+                  "approval": {
+                    "properties": {
+                      "publisher": { "type": "string", "minLength": 1 },
+                      "approved_at": { "type": "string", "format": "date" },
+                      "rationale": { "type": "string", "minLength": 1 },
+                      "release_commit": { "type": "string", "minLength": 1 }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

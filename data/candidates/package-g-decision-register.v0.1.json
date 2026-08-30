@@ -1,0 +1,3625 @@
+{
+  "package": "Package G — Review Decision + Publication Gate",
+  "package_version": "0.1.0",
+  "schema_version": "1.0.0",
+  "created_at": "2026-08-30",
+  "source_review_package": "data/candidates/package-f-review-queue.v0.1.json",
+  "baseline_record_count": 19,
+  "scope_rule": "Only the fixed 19 Package F records are in scope. Package G records governance state; it does not add candidates, alter evidence conclusions, publish records, or begin Experiment 003.",
+  "governance": {
+    "decision_states": [
+      "pending",
+      "reviewed",
+      "needs_evidence",
+      "rejected"
+    ],
+    "decision_reason_requirements": {
+      "reviewed": "Require a named reviewer, date, substantive rationale, every evidence-standard check, and no unresolved evidence blocker.",
+      "needs_evidence": "Require a named reviewer, date, explicit evidence-gap reason code, substantive rationale, and remediation request.",
+      "rejected": "Require a named reviewer, date, explicit rejection reason code, substantive rationale, and preserved counterevidence."
+    },
+    "reviewed_is_not_published": true,
+    "publication_requires_explicit_human_approval": true,
+    "automatic_review_allowed": false,
+    "automatic_publication_allowed": false
+  },
+  "status_summary": {
+    "package_f_intake": {
+      "candidate": 10,
+      "needs_evidence": 9
+    },
+    "human_decisions": {
+      "pending": 19,
+      "reviewed": 0,
+      "needs_evidence": 0,
+      "rejected": 0
+    },
+    "publication_gate": {
+      "not_eligible": 19,
+      "eligible": 0,
+      "published": 0
+    }
+  },
+  "records": [
+    {
+      "candidate_id": "CAND-en-time-001",
+      "source_word": "time",
+      "normalized_form": "time",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "The selected ordinary temporal sense is directly represented, but time is highly polysemous.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-time-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-time-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-time-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-time-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-time-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-space-001",
+      "source_word": "space",
+      "normalized_form": "space",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "The ordinary spatial sense is supported; outer space, blank space, and available-room senses must remain separate.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-space-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-space-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-space-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-space-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-space-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-meaning-001",
+      "source_word": "meaning",
+      "normalized_form": "meaning",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "The narrower linguistic sense is supportable; the original wording also covers acts and structures and needs a reviewer to approve that extension.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-meaning-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-meaning-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-meaning-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-meaning-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-meaning-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-containment-001",
+      "source_word": "containment",
+      "normalized_form": "containment",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "The candidate uses a technical spatial-relation sense, while the general dictionary headword primarily describes control or limitation. A specialist cognitive-linguistics or topology source is required.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-containment-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-containment-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "The candidate uses a technical spatial-relation sense, while the general dictionary headword primarily describes control or limitation. A specialist cognitive-linguistics or topology source is required."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-containment-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: The candidate uses a technical spatial-relation sense, while the general dictionary headword primarily describes control or limitation. A specialist cognitive-linguistics or topology source is required. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "The candidate uses a technical spatial-relation sense, while the general dictionary headword primarily describes control or limitation. A specialist cognitive-linguistics or topology source is required.",
+          "relation/process sense review",
+          "external lexical citations"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-containment-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-containment-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-knowledge-001",
+      "source_word": "knowledge",
+      "normalized_form": "knowledge",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "Chinese is straightforward; French connaissance and savoir divide countability, domain, and construction differently.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-knowledge-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-knowledge-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-knowledge-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-knowledge-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-knowledge-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-move-001",
+      "source_word": "move",
+      "normalized_form": "move",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "The intransitive/transitive split determines whether bouger or déplacer is appropriate.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-move-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-move-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-move-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-move-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-move-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-change-001",
+      "source_word": "change",
+      "normalized_form": "change",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "The baseline combines verb and noun. Human review must select one part of speech or split the record.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-change-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-change-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "The baseline combines verb and noun. Human review must select one part of speech or split the record."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-change-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: The baseline combines verb and noun. Human review must select one part of speech or split the record. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "The baseline combines verb and noun. Human review must select one part of speech or split the record.",
+          "part-of-speech separation",
+          "external lexical citations"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-change-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-change-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-exist-001",
+      "source_word": "exist",
+      "normalized_form": "exist",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "The ordinary existence sense is direct; philosophical uses should not be inferred automatically.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-exist-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-exist-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-exist-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-exist-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-exist-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-up-001",
+      "source_word": "up",
+      "normalized_form": "up",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "The baseline collapses direction, location, and adjective uses.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-up-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-up-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "The baseline collapses direction, location, and adjective uses."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-up-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: The baseline collapses direction, location, and adjective uses. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "The baseline collapses direction, location, and adjective uses.",
+          "part-of-speech and context review",
+          "external lexical citations"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-up-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-up-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-down-001",
+      "source_word": "down",
+      "normalized_form": "down",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "The baseline collapses direction, location, and adjective uses.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-down-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-down-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "The baseline collapses direction, location, and adjective uses."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-down-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: The baseline collapses direction, location, and adjective uses. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "The baseline collapses direction, location, and adjective uses.",
+          "part-of-speech and context review",
+          "external lexical citations"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-down-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-down-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-boundary-001",
+      "source_word": "boundary",
+      "normalized_form": "boundary",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "Frontière is favored for territorial separation; limite is broader. The category/state extension needs explicit sense selection.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-boundary-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-boundary-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "Frontière is favored for territorial separation; limite is broader. The category/state extension needs explicit sense selection."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-boundary-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: Frontière is favored for territorial separation; limite is broader. The category/state extension needs explicit sense selection. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "Frontière is favored for territorial separation; limite is broader. The category/state extension needs explicit sense selection.",
+          "limit/frontier sense review",
+          "external lexical citations"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-boundary-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-boundary-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-inside-001",
+      "source_word": "inside",
+      "normalized_form": "inside",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "The proposed forms differ by part of speech and syntactic environment.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-inside-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-inside-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "The proposed forms differ by part of speech and syntactic environment."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-inside-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: The proposed forms differ by part of speech and syntactic environment. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "The proposed forms differ by part of speech and syntactic environment.",
+          "part-of-speech review",
+          "external lexical citations"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-inside-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-inside-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-outside-001",
+      "source_word": "outside",
+      "normalized_form": "outside",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "The proposed forms differ by part of speech and syntactic environment.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-outside-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-outside-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "The proposed forms differ by part of speech and syntactic environment."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-outside-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: The proposed forms differ by part of speech and syntactic environment. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "The proposed forms differ by part of speech and syntactic environment.",
+          "part-of-speech review",
+          "external lexical citations"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-outside-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-outside-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-source-001",
+      "source_word": "source",
+      "normalized_form": "source",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "Literal origin and informational-source senses are related but not interchangeable in every context.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-source-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-source-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-source-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-source-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-source-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-path-001",
+      "source_word": "path",
+      "normalized_form": "path",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "Chemin can denote a physical way; trajet emphasizes a journey or route. The protocol’s SOURCE–PATH–GOAL abstraction is broader than either headword.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-path-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-path-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-path-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-path-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-path-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-goal-001",
+      "source_word": "goal",
+      "normalized_form": "goal",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-goal-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-goal-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-goal-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source.",
+          "destination/objective sense separation",
+          "external lexical citations"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-goal-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-goal-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-cover-001",
+      "source_word": "cover",
+      "normalized_form": "cover",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "needs_evidence",
+        "provisional_reason": "The baseline combines verb and noun, and the sky ↔ cover hypothesis must remain outside ordinary lexical evidence.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-cover-001"
+      },
+      "evidence_completeness": {
+        "status": "blocked_evidence_gap",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-cover-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": false,
+            "basis": "The baseline combines verb and noun, and the sky ↔ cover hypothesis must remain outside ordinary lexical evidence."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "sense_and_part_of_speech_resolved",
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-cover-001-001",
+        "status": "pending",
+        "status_reason": "Package F records an unresolved evidence gap: The baseline combines verb and noun, and the sky ↔ cover hypothesis must remain outside ordinary lexical evidence. This is an inherited preparation status, not a signed human decision.",
+        "reason_codes": [
+          "package_f_evidence_gap_unresolved"
+        ],
+        "rationale": null,
+        "remediation_required": [
+          "The baseline combines verb and noun, and the sky ↔ cover hypothesis must remain outside ordinary lexical evidence.",
+          "verb/noun separation",
+          "external lexical citations",
+          "sky-hypothesis boundary review"
+        ],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-cover-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "needs_evidence",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "package_f_evidence_gap_unresolved",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-cover-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-direction-001",
+      "source_word": "direction",
+      "normalized_form": "direction",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "The spatial-course sense is supported; management and instruction senses are excluded.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-direction-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-direction-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-direction-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-direction-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-direction-001"
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-en-translation-001",
+      "source_word": "translation",
+      "normalized_form": "translation",
+      "package_f_source": {
+        "package": "Package F — Candidate Source Verification + Human Review",
+        "package_version": "0.1.0",
+        "intake_status": "candidate",
+        "provisional_reason": "The process/result distinction is lexical polysemy and should be recorded, not treated as cross-language identity in every context.",
+        "source_verification_count": 3,
+        "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-translation-001"
+      },
+      "evidence_completeness": {
+        "status": "awaiting_human_confirmation",
+        "checks": [
+          {
+            "check_id": "fixed_candidate_identity",
+            "label": "Candidate ID and source word match the fixed Package E/F queue.",
+            "complete": true,
+            "basis": "CAND-en-translation-001"
+          },
+          {
+            "check_id": "traceable_source_packet",
+            "label": "At least three source verifications include locators, limits, access dates, and version details.",
+            "complete": true,
+            "basis": "3 source verifications"
+          },
+          {
+            "check_id": "four_evidence_tracks",
+            "label": "The four evidence tracks are present and separately labeled.",
+            "complete": true,
+            "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+          },
+          {
+            "check_id": "counterevidence_retained",
+            "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+            "complete": true,
+            "basis": "3 retained statements"
+          },
+          {
+            "check_id": "sense_and_part_of_speech_resolved",
+            "label": "The sense and part of speech have no unresolved Package F blocker.",
+            "complete": true,
+            "basis": "Package F marks the source packet Candidate-ready for human review."
+          },
+          {
+            "check_id": "signed_human_confirmation",
+            "label": "A named human reviewer completed and signed all review checks.",
+            "complete": false,
+            "basis": "No human reviewer or signature is recorded."
+          }
+        ],
+        "missing_required_checks": [
+          "signed_human_confirmation"
+        ],
+        "reviewed_eligible": false,
+        "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+      },
+      "decision_record": {
+        "decision_id": "DEC-CAND-en-translation-001-001",
+        "status": "pending",
+        "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+        "reason_codes": [
+          "awaiting_human_review"
+        ],
+        "rationale": null,
+        "remediation_required": [],
+        "reviewer": null,
+        "decided_at": null,
+        "evidence_standard": "Package G reviewed-evidence standard v0.1",
+        "checklist": [
+          {
+            "check_id": "source_availability_confirmed",
+            "label": "Confirm every required source locator is available and matches the recorded sense.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "sense_and_part_of_speech_confirmed",
+            "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "bilingual_context_confirmed",
+            "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "counterevidence_reviewed",
+            "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "evidence_tracks_confirmed",
+            "label": "Confirm all four evidence-track labels and their stated limitations.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "claim_boundary_confirmed",
+            "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ]
+      },
+      "publication_gate": {
+        "eligibility_status": "not_eligible",
+        "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+        "checklist": [
+          {
+            "check_id": "signed_reviewed_decision",
+            "label": "A named human reviewer signed a Reviewed decision.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "reviewed_gate_passed",
+            "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_record_prepared",
+            "label": "A normalized canonical record and provenance references were prepared.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "canonical_validation_passed",
+            "label": "Canonical schema, dataset, and regression validation passed.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "release_audit_linked",
+            "label": "The release change is linked to the review decision and audit history.",
+            "complete": false,
+            "evidence_reference": null
+          },
+          {
+            "check_id": "explicit_publication_approval",
+            "label": "A named human publisher explicitly approved publication.",
+            "complete": false,
+            "evidence_reference": null
+          }
+        ],
+        "approval": {
+          "publisher": null,
+          "approved_at": null,
+          "rationale": null,
+          "release_commit": null
+        },
+        "publication_status": "not_published",
+        "automatic_promotion_allowed": false
+      },
+      "audit_log": [
+        {
+          "event_id": "AUD-CAND-en-translation-001-001",
+          "occurred_at": "2026-08-30",
+          "event_type": "decision_gate_initialized",
+          "actor": {
+            "actor_type": "system",
+            "actor_id": "package-g-builder"
+          },
+          "from_state": {
+            "intake_status": "candidate",
+            "decision_status": null,
+            "publication_status": "not_published"
+          },
+          "to_state": {
+            "intake_status": "candidate",
+            "decision_status": "pending",
+            "publication_status": "not_published"
+          },
+          "reason_code": "awaiting_human_review",
+          "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+          "source_references": [
+            "data/candidates/package-f-review-queue.v0.1.json#CAND-en-translation-001"
+          ]
+        }
+      ]
+    }
+  ]
+}

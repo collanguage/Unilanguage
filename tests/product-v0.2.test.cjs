@@ -61,5 +61,7 @@ test("product pages point at v0.2 and expose data governance", () => {
   assert.match(loader, /language-book\.v0\.2\.json/);
   assert.match(dataPage, /Reviewed \/ Rejected \/ Needs Evidence/);
   assert.match(dataPage, /Published.*separate release gate/);
+  assert.match(dataPage, /19 Pending · 0 Reviewed/);
+  assert.match(dataPage, /19 Not Eligible · 0 Published/);
   assert.match(dataPage, /19/);
 });

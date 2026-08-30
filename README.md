@@ -14,6 +14,10 @@ The same dataset powers Semantic Mapper, Dictionary and reviewed-word Search. Pa
 
 Package F keeps the Package E canonical dataset unchanged and prepares exactly its 19 candidates for human review. `data/candidates/package-f-review-queue.v0.1.json` records source type, exact locator, access/version details, supported and unsupported claims, four separated evidence tracks, conflicts, provisional confidence/mapping level, and an unsigned checklist. `candidate-review.html` renders the queue without any automatic review or publication action. Run `node scripts/validate-package-f.mjs` and `node --test tests/package-f.test.cjs`.
 
+## Package G · Review Decision + Publication Gate v0.1
+
+Package G adds an auditable decision register without changing Package F’s 10 Candidate / 9 Needs Evidence intake result. All 19 human decisions remain Pending and all publication gates remain Not Eligible because no named reviewer or publisher has signed. `review-decisions.html` shows evidence completeness, decision reasons, separate release eligibility, checklists, and audit history. Rebuild with `scripts/build-package-g-review.mjs` and validate with `scripts/validate-package-g.mjs`; Reviewed and Published are enforced as independent human gates.
+
 ---
 
 # What is Unilanguage?
