@@ -31,6 +31,12 @@ test("new entries publish lexical equivalence without speculative upgrades", () 
   }
 });
 
+test("published Chinese sound forms include tone-marked pinyin", () => {
+  const sound = dataApi.lookup(dataset, "sound").entry;
+  const mapping = sound.candidate_cross_language_mappings[0];
+  assert.equal(mapping.mapping_form, "声音 shēngyīn · 声 shēng · son");
+});
+
 test("19 candidates remain isolated from formal lookup", () => {
   assert.equal(candidates.records.length, 19);
   assert.ok(candidates.records.every((record) => record.review_status === "candidate" && record.blockers.length));
