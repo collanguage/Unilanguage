@@ -4,11 +4,11 @@
 
 **语言，一个系统。**
 
-## Semantic Mapper MVP v0.1
+## Semantic Mapper MVP v0.2
 
-The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against the versioned canonical Language Book dataset at `data/language-book.v0.1.json`; unknown terms never receive generated evidence.
+The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against the versioned canonical Language Book dataset at `data/language-book.v0.2.json`; unknown terms never receive generated evidence.
 
-The same dataset powers Semantic Mapper, Dictionary and reviewed-word Search. Architecture, evidence rules and contribution workflow are documented in `docs/product/semantic-mapper-v0.1.md`. Validate with `scripts/validate-language-book.mjs`, run the product tests in `tests/product-v0.1.test.cjs`, check critical links with `scripts/check-product-links.mjs`, and regenerate the release records with `scripts/build-product-manifest.mjs`.
+The same dataset powers Semantic Mapper, Dictionary and reviewed-word Search. Package E tracks six published entries plus a separate 19-record candidate batch; candidates do not appear in formal lookup. Architecture and governance are documented in `docs/product/semantic-mapper-v0.1.md` and `docs/product/semantic-mapper-v0.2.md`. Validate with `scripts/validate-language-book.mjs`, run `tests/product-v0.2.test.cjs`, check critical links with `scripts/check-product-links.mjs`, and regenerate release records with `scripts/build-product-manifest.mjs`.
 
 ---
 
