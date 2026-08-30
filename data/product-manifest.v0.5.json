@@ -1,0 +1,188 @@
+{
+  "product": "Unilanguage Semantic Mapper MVP",
+  "version": "0.5.0",
+  "dataset_version": "0.5.0",
+  "created_at": "2026-08-30",
+  "canonical_dataset": "data/language-book.v0.5.json",
+  "canonical_schema": "data/language-book.schema.json",
+  "published_entry_count": 4,
+  "calibration_candidate_count": 3,
+  "candidate_entry_count": 19,
+  "files": [
+    {
+      "path": "data/language-book.schema.json",
+      "bytes": 10931,
+      "sha256": "55c3da454465289277cde861fe2bece9ada8b7547d5d49a8763aca23b70d84a2"
+    },
+    {
+      "path": "data/language-book.v0.5.json",
+      "bytes": 69479,
+      "sha256": "3b837e4f2a74295da5a08cf799235a814576a2d4d86683518b109030c979bacc"
+    },
+    {
+      "path": "data/review/object-review-rubric.g2.v0.1.json",
+      "bytes": 4646,
+      "sha256": "614def0b62588baceb2efd193f6acaaeafa486458eda80019a5988ec6d96acc0"
+    },
+    {
+      "path": "data/candidates/import-template.json",
+      "bytes": 246,
+      "sha256": "a0a3b28dc07ffe30f2265a7f0cb88a47136273a4c9b68340ee2be84c48240efe"
+    },
+    {
+      "path": "data/candidates/README.md",
+      "bytes": 1736,
+      "sha256": "6bc35fa70a3d41d38917937fa34926ffce979f6086e21c8037c2a377845414ee"
+    },
+    {
+      "path": "data/candidates/package-e-batch-001.v0.2.json",
+      "bytes": 8854,
+      "sha256": "bdb0fe795bb8626c1d85f3e0dbe7cbcccfbc4697db9fa2b7c8f5a946dc87df1c"
+    },
+    {
+      "path": "semantic-mapper.html",
+      "bytes": 3691,
+      "sha256": "d30d98b26a548e4648960284bfa5c86486fe63ec1b4ed9f1b27a984e27abd921"
+    },
+    {
+      "path": "object-review-method.html",
+      "bytes": 6548,
+      "sha256": "350074091406d6cd69ee29648880a8b701e135218270b1a4534fac74f6b2b329"
+    },
+    {
+      "path": "dictionary.html",
+      "bytes": 3479,
+      "sha256": "005da7b424dd7bf0b752bbb27371409182022058c828e2e93e7f1c2cacf83947"
+    },
+    {
+      "path": "data-foundation.html",
+      "bytes": 7540,
+      "sha256": "fec67bdc240885ace5f95a340e1895c49cee335b4d2d6b9e2eff670abd0c3269"
+    },
+    {
+      "path": "search.html",
+      "bytes": 3687,
+      "sha256": "0bc1e2b092eb3e9bfeb9b9a0a15a78d0e85057b1c5880de1c7c62dd9611fbb8c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5599,
+      "sha256": "59456daa3402634318249dd0b146cadb036aacd0ee4292b3b40eaadce5c21b8d"
+    },
+    {
+      "path": "css/semantic-mapper.css",
+      "bytes": 8559,
+      "sha256": "c685524f34b26f427e58674e92a559432a789051a8f2ac16c93b657e967f8fb7"
+    },
+    {
+      "path": "js/language-book-data.js",
+      "bytes": 2107,
+      "sha256": "f8fce171176f3dabc26cfbdc5036b5c9e83f1b68af01ba3bdd35f58c2043f886"
+    },
+    {
+      "path": "js/semantic-mapper.js",
+      "bytes": 14331,
+      "sha256": "013e02a96eb0d6a4c4b05769258158fa5bf983571e5519914a6e99b480ef4d9f"
+    },
+    {
+      "path": "js/search.js",
+      "bytes": 4964,
+      "sha256": "87862e1af5d14dc8cf55d103e96f84b6add44375ca3e798d2a5207dfe80d043f"
+    },
+    {
+      "path": "scripts/migrate-classification-g1.mjs",
+      "bytes": 14864,
+      "sha256": "6fa10c8a776b9dc3edbca5af9eb172a9446304520f47eed4579f8d3db1d4403f"
+    },
+    {
+      "path": "scripts/migrate-source-verification-g2.mjs",
+      "bytes": 10323,
+      "sha256": "a8a540dc15856fe2b54a7f963c300f78eb81c539aca430c1d4bb49e68b36f0e2"
+    },
+    {
+      "path": "scripts/add-advance-calibration-g3.mjs",
+      "bytes": 15898,
+      "sha256": "39541f1f7b1b95225237b1eb4bc9699b46bb87c632735402ab57df7de6218bf3"
+    },
+    {
+      "path": "scripts/validate-language-book.mjs",
+      "bytes": 8860,
+      "sha256": "a8e404f1b1088174be66fdc561e6c6f9498de1393404d2c317ea4f53173f885b"
+    },
+    {
+      "path": "scripts/validate-package-g2.mjs",
+      "bytes": 5845,
+      "sha256": "8ec03074e2a64442b93178d8ab9bf958604159a7fd13dddbfd0d04850966fadf"
+    },
+    {
+      "path": "scripts/validate-package-g3.mjs",
+      "bytes": 4517,
+      "sha256": "c0a26fe8083c6d07d61be1474c37baf99e025e58373b05598e239ef27817074b"
+    },
+    {
+      "path": "scripts/check-product-links.mjs",
+      "bytes": 1124,
+      "sha256": "a9f376f96031d58ead87196e9bb334c60602518e81b53909d853b13bffae3889"
+    },
+    {
+      "path": "tests/product-v0.2.test.cjs",
+      "bytes": 3689,
+      "sha256": "0228b7a24ee1fa3fcdecaf4a1c499a3adb752949d166f9141d2009400237254b"
+    },
+    {
+      "path": "tests/package-g1.test.cjs",
+      "bytes": 4615,
+      "sha256": "2d01372c3f19fe62515f0d7e61c98a8aa27a8943d9be6b8f30e87389b05ef303"
+    },
+    {
+      "path": "tests/package-g2.test.cjs",
+      "bytes": 4469,
+      "sha256": "ab892865752a42eb717ea2d6ff35febab155cd3913c554ebccd566ede885feba"
+    },
+    {
+      "path": "tests/package-g3.test.cjs",
+      "bytes": 3424,
+      "sha256": "d6ed74ab8fa298cbab6237ce9d6e8ccd24d933f29ebd441d06dbcaced624d773"
+    },
+    {
+      "path": "words/advance.html",
+      "bytes": 8138,
+      "sha256": "990fe882de5596d7af38b5788ec04efe591e3fe0162c08e3f49dec4a25751cd4"
+    },
+    {
+      "path": "docs/product/semantic-mapper-v0.1.md",
+      "bytes": 3443,
+      "sha256": "90fa87c3702c651d643cc00d3f6347f7aadad73d9ea7c50dd63f74e09a095a8f"
+    },
+    {
+      "path": "docs/product/semantic-mapper-v0.2.md",
+      "bytes": 1542,
+      "sha256": "39f97ce4d192235b6b828f547ffab162307cd8ef0f485f5d9c8a83f42a2a4bc5"
+    },
+    {
+      "path": "docs/product/package-g1-classification-model-v0.1.md",
+      "bytes": 4587,
+      "sha256": "cac98863f32c9df7c0ca4f7b165eb38f2637bcdf44e401f9990a75f62552979d"
+    },
+    {
+      "path": "docs/product/package-g2-source-verification-v0.1.md",
+      "bytes": 4937,
+      "sha256": "eda6aed2b58dd3f9c8ff0d6a8af74eb11df23098759f32f9d571323c7c98bcca"
+    },
+    {
+      "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+      "bytes": 2735,
+      "sha256": "6b0c1743d7d4d5750c9d528e58b9812438fb577e4027fbc6a37832b1d05014fd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4010,
+      "sha256": "adc14f0d9efa1327d2ce6c1f89264a4d0c2487e6d9cac237c5c267db3d407a80"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 3076,
+      "sha256": "a0745aa4cc3c569bb43cc3650a857391a8b87c5d1b1b0a6d0935704360e50229"
+    }
+  ]
+}

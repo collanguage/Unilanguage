@@ -17,7 +17,7 @@
     const ai = item.ai_review;
     const sourceMap = byId(dataset.sources, "source_id");
     const sources = source.source_refs.map((id) => sourceMap.get(id)).filter(Boolean);
-    const sourceLinks = sources.length ? `<details class="source-details"><summary>Sources · 来源 (${sources.length})</summary><ul>${sources.map((record) => `<li>${record.url ? `<a href="${escapeHtml(record.url)}" target="_blank" rel="noopener">${escapeHtml(record.title)}</a>` : escapeHtml(record.title)}${record.source_quality ? ` <small>${escapeHtml(record.source_quality)}</small>` : ""}</li>`).join("")}</ul><p>${text(source.notes)}</p></details>` : `<p class="source-limit">${text(source.notes)}</p>`;
+    const sourceLinks = sources.length ? `<details class="source-details"><summary>Sources · 来源 (${sources.length})</summary><ul>${sources.map((record) => `<li>${record.url ? `<a href="${escapeHtml(record.url)}" target="_blank" rel="noopener">${escapeHtml(record.title)}</a>` : `<a href="${escapeHtml(record.path)}">${escapeHtml(record.title)}</a>`}${record.source_quality ? ` <small>${escapeHtml(record.source_quality)}</small>` : ""}</li>`).join("")}</ul><p>${text(source.notes)}</p></details>` : `<p class="source-limit">${text(source.notes)}</p>`;
     return `<div class="object-reviews" aria-label="Object reviews">
       <span><strong>Source Verification · 来源核验</strong>${escapeHtml(source.status)}</span>
       <span><strong>AI Review · AI 审核</strong>${escapeHtml(ai.status)}</span>
@@ -32,6 +32,7 @@
       "author-hypothesis": "Author Hypothesis · 作者假说",
       "author-note": "Author Note · 作者笔记",
       "experimental-result": "Experimental Result · 实验结果",
+      "experimental-plan": "Experimental Plan · 实验计划",
     };
     return `<span class="identity-badge identity-${escapeHtml(identity)}">${escapeHtml(labels[identity] || identity)}</span>`;
   }

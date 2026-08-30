@@ -14,7 +14,7 @@
       "type": "object", "additionalProperties": false,
       "required": ["package", "version", "principle", "review_rule"],
       "properties": {
-        "package": { "enum": ["G.1", "G.2"] }, "version": { "const": "0.1" }, "parent_package": { "type": "string", "minLength": 1 },
+        "package": { "enum": ["G.1", "G.2", "G.3"] }, "version": { "const": "0.1" }, "parent_package": { "type": "string", "minLength": 1 },
         "principle": { "type": "string", "minLength": 1 }, "review_rule": { "type": "string", "minLength": 1 }
       }
     },
@@ -107,9 +107,9 @@
       "type": "object", "additionalProperties": false,
       "required": ["experiment_id", "title", "status", "primary", "metrics", "source_refs", "identity", "tested_condition", "result", "hypothesis_refs", "source_verification", "ai_review"],
       "properties": {
-        "experiment_id": { "type": "string", "pattern": "^UNI-EXP-[0-9]{3}[A-Z]?$" }, "title": { "$ref": "#/$defs/localizedText" },
+        "experiment_id": { "type": "string", "pattern": "^UNI-EXP-(?:[0-9]{3}[A-Z]?|[A-Z]+-[0-9]{3})$" }, "title": { "$ref": "#/$defs/localizedText" },
         "status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] }, "primary": { "type": "boolean" }, "metrics": { "type": "object" },
-        "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true }, "identity": { "const": "experimental-result" },
+        "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true }, "identity": { "enum": ["experimental-result", "experimental-plan"] },
         "tested_condition": { "$ref": "#/$defs/localizedText" }, "result": { "$ref": "#/$defs/localizedText" }, "hypothesis_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
         "source_verification": { "$ref": "#/$defs/sourceVerification" }, "ai_review": { "$ref": "#/$defs/aiReview" }
       }

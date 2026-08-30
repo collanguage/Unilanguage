@@ -4,11 +4,11 @@
 
 **语言，一个系统。**
 
-## Semantic Mapper Package G.2 · Source Verification + Object Review Method v0.1
+## Semantic Mapper Package G.3 · ADVANCE Calibration v0.1
 
-The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against `data/language-book.v0.4.json` and renders seven independent layers: Primary Chinese Mapping, Mapping Rationale / Author Idea, Historical Etymology, Sound/Consonant/Symbol Hypotheses, Other Author Notes, Experimental Validation, and object-level Source Verification + AI Review. Unknown terms never receive generated evidence.
+The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against `data/language-book.v0.5.json` and renders seven independent layers: Primary Chinese Mapping, Mapping Rationale / Author Idea, Historical Etymology, Sound/Consonant/Symbol Hypotheses, Other Author Notes, Experimental Validation, and object-level Source Verification + AI Review. Unknown terms never receive generated evidence.
 
-The same dataset powers Semantic Mapper, Dictionary and Search. WATER and LANGUAGE remain explicit Candidate / Not Reviewed calibration records; the separate 19-record Package E/F/G review queue remains excluded and unchanged. G.2 adds bounded sources for LANGUAGE etymology, W/F/H phonetic classification and L writing history, plus an object-level review rubric that has not yet been executed. Rebuild with `scripts/migrate-classification-g1.mjs` followed by `scripts/migrate-source-verification-g2.mjs`; validate with `scripts/validate-language-book.mjs` and `scripts/validate-package-g2.mjs`; then run the tests and `scripts/build-product-manifest.mjs`.
+The same dataset powers Semantic Mapper, Dictionary and Search. WATER, LANGUAGE and ADVANCE are explicit Candidate / Not Reviewed calibration records; the separate 19-record Package E/F/G review queue remains excluded and unchanged. ADVANCE keeps 往 as the author-proposed primary mapping, 推进／前进 as secondary lexical mappings, author segmentation separate from source-backed etymology, `van/vance ↔ wang/往` as Untested, and its future validation as Not Tested. Rebuild v0.5 from v0.4 with `scripts/add-advance-calibration-g3.mjs`; validate with `scripts/validate-package-g3.mjs`; then run the tests and `scripts/build-product-manifest.mjs`.
 
 ## Package F · Candidate Source Verification + Human Review v0.1
 
