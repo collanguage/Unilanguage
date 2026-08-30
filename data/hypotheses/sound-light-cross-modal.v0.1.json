@@ -1,0 +1,26 @@
+{
+  "record_type": "cross_modal_hypothesis",
+  "record_id": "UNI-LIGHT-LAI-001",
+  "name": "Sound↔Light Cross-modal Mapping Hypothesis",
+  "version": "0.1",
+  "status": "Candidate",
+  "workflow_status": "Untested",
+  "review_decision": "retain_without_promotion",
+  "claim": "For some participants or cultural contexts, sound/music and light/brightness may form a salient bidirectional conceptual association; the modern phonetic resemblance between light and 籁 may strengthen that association.",
+  "not_claimed": [
+    "light and 籁 are translations",
+    "light and 籁 are cognates",
+    "sound physically becomes light in ordinary perception",
+    "the literary material is population-level psychological evidence"
+  ],
+  "motivation": [
+    "modern segmental resemblance: English /laɪt/ and Mandarin lài /laɪ̯⁵¹/",
+    "literary recurrence of eye↔ear, note↔ray, and music↔inner-light imagery"
+  ],
+  "linked_literary_source": "../sources/literary/ru-guang-tian-lai.v0.1.json",
+  "linked_experiment": "../experiments/plans/light-lai-cross-modal.v0.1.json",
+  "confidence": "low",
+  "evidence_level": "interpretive_motivation_only",
+  "updated_at": "2026-08-30"
+}
+

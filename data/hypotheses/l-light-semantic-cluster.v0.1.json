@@ -1,0 +1,40 @@
+{
+  "record_type": "semantic_cluster_hypothesis",
+  "record_id": "UNI-L-LIGHT-CLUSTER-001",
+  "name": "L-Light Semantic Cluster Hypothesis",
+  "version": "0.1",
+  "status": "Candidate",
+  "workflow_status": "Untested",
+  "review_decision": "retain_without_promotion",
+  "research_question": "Do L-initial words or roots denoting LIGHT / BRIGHTNESS / ILLUMINATION occur more often than an explicit language-specific baseline predicts?",
+  "current_conclusion": "Not established. The motivating positive forms are genealogically dependent, while ordinary L-initial counterexamples are plentiful.",
+  "positive_observations": [
+    {"item": "light", "language": "English", "immediate_family_id": "germanic_leuhtam", "deep_family_id": "pie_leuk", "count_as_surface": true},
+    {"item": "lumière", "language": "French", "immediate_family_id": "latin_lumen_descendants", "deep_family_id": "pie_leuk", "count_as_surface": true},
+    {"item": "lumen", "language": "Latin", "immediate_family_id": "latin_lumen_descendants", "deep_family_id": "pie_leuk", "count_as_surface": true},
+    {"item": "lux", "language": "Latin", "immediate_family_id": "latin_lux_lumen_family", "deep_family_id": "pie_leuk", "count_as_surface": true},
+    {"item": "luminous", "language": "English", "immediate_family_id": "latin_lumen_descendants", "deep_family_id": "pie_leuk", "count_as_surface": false, "exclusion_reason": "derivative/borrowing already represented by lumen"},
+    {"item": "illuminate", "language": "English", "immediate_family_id": "latin_lumen_descendants", "deep_family_id": "pie_leuk", "count_as_surface": false, "exclusion_reason": "derivative already represented and not surface-L-initial"}
+  ],
+  "negative_controls": [
+    {"item": "love", "deep_family_id": "pie_leubh", "meaning": "affection"},
+    {"item": "land", "deep_family_id": "pie_lendh", "meaning": "ground/territory"},
+    {"item": "law", "deep_family_id": "pie_legh", "meaning": "rule"},
+    {"item": "language", "deep_family_id": "pie_dnghu_via_latin_lingua", "meaning": "system of communication"},
+    {"item": "long", "deep_family_id": "pie_del_1", "meaning": "great length or duration"}
+  ],
+  "deduplication": {
+    "method": "Report raw surface count, immediate historical-family count, and deepest traceable family count separately. Never use derivatives or borrowings as independent observations.",
+    "positive_counts": {"eligible_surface_forms": 4, "immediate_branch_groups": 2, "deep_pie_families": 1},
+    "negative_counts": {"surface_controls": 5, "deep_families": 5},
+    "interpretation": "light, lumière, lumen, and lux look like four examples but ultimately represent one reconstructed PIE *leuk- family. They are not four independent confirmations of an L=LIGHT tendency."
+  },
+  "minimum_next_dataset": {
+    "sampling_frame": "A frequency-matched lexicon sampled independently within each language, with a preregistered definition of L-initial and light-related sense.",
+    "required_controls": ["word frequency", "part of speech", "borrowing status", "language genealogy", "polysemy", "orthography versus phonological onset"],
+    "analysis_unit": "etymological family within language family, with sensitivity analyses at surface-word and branch levels"
+  },
+  "confidence": "low",
+  "updated_at": "2026-08-30"
+}
+

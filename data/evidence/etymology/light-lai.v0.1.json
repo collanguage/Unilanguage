@@ -1,0 +1,40 @@
+{
+  "record_type": "historical_etymology_evidence",
+  "record_id": "ETY-light-lai-bundle-001",
+  "version": "0.1.0",
+  "status": "Candidate",
+  "review_decision": "retain_without_promotion",
+  "scope_note": "Historical derivation only; modern sound resemblance and literary interpretation are excluded from historical evidence.",
+  "tracks": [
+    {
+      "track_id": "english_light_brightness",
+      "chain": ["Modern English light", "Middle English light", "Old English lēoht / līht", "Proto-Germanic *leuhtam / *leukhtam", "Proto-Indo-European *leuk- 'light, brightness'"],
+      "conclusion": "The English brightness noun is inherited through Germanic; it is not borrowed from Latin.",
+      "source_refs": ["SRC-AHD-LIGHT", "SRC-AHD-LEUK", "SRC-ETYMONLINE-LIGHT"]
+    },
+    {
+      "track_id": "latin_french_light_system",
+      "chain": ["French lumière", "Christian Latin luminaria (plural of luminare)", "Latin luminare / lumen 'light'", "Latin lux 'light'", "Proto-Indo-European *leuk- 'light, brightness'"],
+      "precision_note": "lumière descends through luminaria/luminare/lumen. lux is a related Latin member of the broader *leuk- family, not an intermediate stage in lumière.",
+      "source_refs": ["SRC-CNRTL-LUMIERE", "SRC-CNRTL-LUMEN", "SRC-AHD-LEUK"]
+    },
+    {
+      "track_id": "chinese_lai",
+      "chain": ["籟: 從竹，賴聲", "三孔龠: a three-holed wind instrument", "sound produced through apertures", "人籟 / 地籟 / 天籟 / 萬籟"],
+      "conclusion": "The Chinese history belongs to an instrument-and-sound system independent of the Indo-European light family.",
+      "source_refs": ["SRC-CUHK-LAI", "SRC-CTEXT-LAI"]
+    }
+  ],
+  "cross_track_conclusion": "No historical cognacy or borrowing is established between English light and Chinese 籟/籁. English light and the Latin forms meet only at the deeper reconstructed PIE *leuk- family level; English is not derived from Latin lumen or lux.",
+  "sources": [
+    {"source_id": "SRC-AHD-LIGHT", "title": "American Heritage Dictionary · light", "url": "https://www.ahdictionary.com/word/search.html?q=light"},
+    {"source_id": "SRC-AHD-LEUK", "title": "American Heritage Dictionary · Indo-European root leuk-", "url": "https://www.ahdictionary.com/word/indoeurop.html"},
+    {"source_id": "SRC-ETYMONLINE-LIGHT", "title": "Online Etymology Dictionary · light", "url": "https://www.etymonline.com/word/light"},
+    {"source_id": "SRC-CNRTL-LUMIERE", "title": "CNRTL · étymologie de lumière", "url": "https://www.cnrtl.fr/etymologie/lumiere"},
+    {"source_id": "SRC-CNRTL-LUMEN", "title": "CNRTL · étymologie de lumen", "url": "https://www.cnrtl.fr/etymologie/lumen"},
+    {"source_id": "SRC-CUHK-LAI", "title": "CUHK Multi-function Chinese Character Database · 籟", "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E7%B1%9F"},
+    {"source_id": "SRC-CTEXT-LAI", "title": "Chinese Text Project · 籟", "url": "https://ctext.org/dictionary.pl?char=%E7%B1%9F&if=gb"}
+  ],
+  "accessed_at": "2026-08-30"
+}
+

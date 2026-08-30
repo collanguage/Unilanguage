@@ -1,0 +1,50 @@
+{
+  "record_type": "mapping_candidate",
+  "record_id": "LB-en-light-001",
+  "version": "0.1.0",
+  "status": "Candidate",
+  "review_decision": "retain_without_promotion",
+  "english": {
+    "lexeme": "light",
+    "sense_id": "light_n_brightness",
+    "part_of_speech": "noun",
+    "meaning": ["light", "brightness", "illumination"],
+    "pronunciation_broad_ipa": "/laɪt/",
+    "homograph_exclusion": "The adjective light meaning 'not heavy' belongs to a different historical root and is outside this record."
+  },
+  "primary_chinese_mapping": {
+    "traditional": "籟",
+    "simplified": "籁",
+    "pinyin": "lài",
+    "pronunciation_broad_ipa": "/laɪ̯⁵¹/",
+    "historical_core_meaning": "a three-holed bamboo wind instrument",
+    "extended_meanings": ["sound from apertures", "natural sound", "music or sound, especially in 天籁 and 万籁"]
+  },
+  "mapping_cardinality": {
+    "rule": "one_english_lexeme_sense_to_one_primary_chinese_mapping",
+    "primary_mapping_count": 1,
+    "compliant": true
+  },
+  "observed_relation": {
+    "phonetic": "The modern forms share an approximate /laɪ/ sequence; English has final /t/, while Mandarin has a lexical falling tone and no final /t/.",
+    "direct_lexical_semantics": "weak: light denotes illumination; 籁 historically denotes an instrument and then sound",
+    "cross_modal_semantics": "candidate: LIGHT ↔ SOUND / MUSIC",
+    "historical_cognacy": "unsupported; no historical common-origin or borrowing evidence has been identified"
+  },
+  "linked_records": {
+    "etymology": "../evidence/etymology/light-lai.v0.1.json",
+    "cross_modal_hypothesis": "../hypotheses/sound-light-cross-modal.v0.1.json",
+    "cluster_hypothesis": "../hypotheses/l-light-semantic-cluster.v0.1.json",
+    "planned_experiment": "../experiments/plans/light-lai-cross-modal.v0.1.json",
+    "literary_source": "../sources/literary/ru-guang-tian-lai.v0.1.json",
+    "page": "../../words/light.html"
+  },
+  "promotion_blockers": [
+    "No preregistered behavioral evidence for a sound-symbolic or cross-modal association.",
+    "The direct lexical meanings differ.",
+    "The motivating European positive forms collapse to one PIE family at the deepest deduplication level."
+  ],
+  "author": "Jinkai Liu｜劉金凱",
+  "updated_at": "2026-08-30"
+}
+

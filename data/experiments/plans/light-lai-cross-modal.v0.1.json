@@ -1,0 +1,32 @@
+{
+  "record_type": "planned_experiment",
+  "record_id": "UNI-EXP-LIGHT-001",
+  "name": "Light–籁 cross-modal forced-choice study",
+  "version": "0.1",
+  "status": "Candidate",
+  "workflow_status": "Untested",
+  "review_decision": "retain_without_promotion",
+  "linked_hypothesis": "../../../data/hypotheses/sound-light-cross-modal.v0.1.json",
+  "primary_question": "Does the spoken form /laɪ/ or /laɪt/ increase selection of bright/light-related stimuli relative to matched control forms?",
+  "design_outline": {
+    "participants": ["Mandarin-dominant group", "English-dominant group", "bilingual group if adequately powered"],
+    "tasks": [
+      "forced choice between brightness-matched visual pairs after hearing target or control forms",
+      "semantic association ratings for LIGHT versus SOUND/MUSIC concepts",
+      "a written-form-removed condition to isolate sound from spelling"
+    ],
+    "critical_conditions": ["light /laɪt/", "lài /laɪ̯⁵¹/", "phonotactically matched nonce controls", "unrelated real-word controls"],
+    "controls": ["language knowledge", "word familiarity", "tone", "final /t/", "orthographic exposure", "order", "baseline brightness preference"]
+  },
+  "primary_outcome": "Difference in probability of choosing the bright/light-associated stimulus between target and matched-control conditions.",
+  "disconfirmation_criteria": [
+    "no reliable target-control difference with an equivalence bound fixed before collection",
+    "the effect disappears after familiarity and orthography controls",
+    "the effect occurs only after participants are explicitly told the proposed mapping"
+  ],
+  "method_requirements_before_run": ["preregistration", "power analysis", "counterbalancing", "exclusion rules fixed in advance", "materials pilot"],
+  "metrics": {},
+  "result": "Not Tested. No observations, metrics, outcomes, or evidential update exist.",
+  "updated_at": "2026-08-30"
+}
+

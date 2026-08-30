@@ -4,11 +4,11 @@
 
 **语言，一个系统。**
 
-## Semantic Mapper Package G.3 · ADVANCE Calibration v0.1
+## Semantic Mapper Package G.4 · LIGHT Candidate v0.1
 
-The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against `data/language-book.v0.5.json` and renders seven independent layers: Primary Chinese Mapping, Mapping Rationale / Author Idea, Historical Etymology, Sound/Consonant/Symbol Hypotheses, Other Author Notes, Experimental Validation, and object-level Source Verification + AI Review. Unknown terms never receive generated evidence.
+The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against `data/language-book.v0.6.json` and renders seven independent layers: Primary Chinese Mapping, Mapping Rationale / Author Idea, Historical Etymology, Sound/Consonant/Symbol Hypotheses, Other Author Notes, Experimental Validation, and object-level Source Verification + AI Review. Unknown terms never receive generated evidence.
 
-The same dataset powers Semantic Mapper, Dictionary and Search. WATER, LANGUAGE and ADVANCE are explicit Candidate / Not Reviewed calibration records; the separate 19-record Package E/F/G review queue remains excluded and unchanged. ADVANCE keeps 往 as the author-proposed primary mapping, 推进／前进 as secondary lexical mappings, author segmentation separate from source-backed etymology, `van/vance ↔ wang/往` as Untested, and its future validation as Not Tested. Rebuild v0.5 from v0.4 with `scripts/add-advance-calibration-g3.mjs`; validate with `scripts/validate-package-g3.mjs`; then run the tests and `scripts/build-product-manifest.mjs`.
+The same dataset powers Semantic Mapper, Dictionary and Search. WATER, LANGUAGE, ADVANCE and LIGHT are explicit Candidate / Not Reviewed records; the separate 19-record Package E/F/G review queue remains excluded and unchanged. LIGHT keeps 籁 as the sole primary author-proposed mapping, separates three historical tracks from two Untested hypotheses and one Not Tested experiment, and preserves `retain_without_promotion`. Rebuild v0.6 from v0.5 with `scripts/add-light-lai-candidate-g4.mjs`; validate with `scripts/validate-light-lai-g4.mjs`; then run the tests and `scripts/build-product-manifest.mjs`.
 
 ## Package F · Candidate Source Verification + Human Review v0.1
 
