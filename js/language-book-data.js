@@ -5,7 +5,7 @@
 })(typeof globalThis !== "undefined" ? globalThis : this, function () {
   "use strict";
 
-  const DATASET_URL = "data/language-book.v0.2.json";
+  const DATASET_URL = "data/language-book.v0.4.json";
 
   function normalize(value) {
     return String(value ?? "")
@@ -25,13 +25,11 @@
   function lookup(dataset, query) {
     const term = normalize(query);
     if (!term) return { kind: "empty", entry: null, suggestions: [] };
-    const published = dataset.entries.filter(
-      (entry) => entry.entry_review_status === "published",
-    );
-    const exact = published.find((entry) => searchableForms(entry).includes(term));
+    const visible = dataset.entries.filter((entry) => entry.classification_status !== "rejected");
+    const exact = visible.find((entry) => searchableForms(entry).includes(term));
     if (exact) return { kind: "exact", entry: exact, suggestions: [] };
 
-    const suggestions = published
+    const suggestions = visible
       .filter((entry) => searchableForms(entry).some((form) => form.startsWith(term)))
       .slice(0, 5);
     return { kind: "unknown", entry: null, suggestions };

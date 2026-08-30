@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Language Book Index · 语言书目录 | Unilanguage</title>
-    <meta name="description" content="The reviewed Unilanguage Language Book canonical dataset. Unilanguage 语言书已审核 canonical dataset。" />
+    <meta name="description" content="The layered Unilanguage Language Book classification dataset. Unilanguage 语言书分层分类数据集。" />
     <link rel="stylesheet" href="css/sky-case.css" />
   </head>
   <body>
@@ -13,17 +13,17 @@
       <header class="hero">
         <p class="eyebrow">Language Book Data Foundation · 语言书数据基础</p>
         <h1>Dictionary</h1>
-        <p class="subtitle">Reviewed entries from one canonical dataset · 来自单一 canonical dataset 的已审核词条</p>
+        <p class="subtitle">Layered word records from one canonical dataset · 来自单一 canonical dataset 的分层词条</p>
         <div class="pair"><div><p class="label">English</p><p>This index and Semantic Mapper read the same versioned evidence layer. A smaller dataset with clear provenance is preferred to unsupported scale.</p></div><div lang="zh-Hans"><p class="label">中文</p><p>本目录与 Semantic Mapper 读取同一版本化证据层。宁可数据规模较小、来源清楚，也不以未经支持的映射凑数量。</p></div></div>
       </header>
       <section class="section">
-        <div class="pair"><div><label class="label" for="dictSearch">Filter reviewed entries · 筛选已审核词条</label><input id="dictSearch" aria-label="Dictionary search" style="width:100%;padding:16px;border-radius:12px;border:1px solid var(--line);background:var(--deep);color:var(--text);font-size:1rem" placeholder="sky, universe, man, W, water..." /></div><div><p class="label">Product entry · 产品入口</p><a class="btn" href="semantic-mapper.html">Enter a word · 输入一个词 →</a><p id="dictMessage" class="small" aria-live="polite"></p></div></div>
-        <p class="boundary"><strong>Single source of truth · 单一数据源：</strong> Only records with <code>entry_review_status: published</code> appear. Candidate imports never become public automatically. · 仅显示状态为 published 的记录；候选导入不会自动公开。</p>
+        <div class="pair"><div><label class="label" for="dictSearch">Filter classified records · 筛选分类词条</label><input id="dictSearch" aria-label="Dictionary search" style="width:100%;padding:16px;border-radius:12px;border:1px solid var(--line);background:var(--deep);color:var(--text);font-size:1rem" placeholder="water, language, sky..." /></div><div><p class="label">Product entry · 产品入口</p><a class="btn" href="semantic-mapper.html">Enter a word · 输入一个词 →</a><p id="dictMessage" class="small" aria-live="polite"></p></div></div>
+        <p class="boundary"><strong>Single source of truth · 单一数据源：</strong> Published records and the two explicit G.2 calibration candidates appear with their real status. The separate 19-record review queue remains excluded. · 已发布记录与两个明确的 G.2 校准候选按真实状态显示；独立的 19 条审核队列仍不进入此目录。</p>
         <div class="cards" id="dictionaryGrid" aria-live="polite"><article class="card"><h2>Loading reviewed entries · 正在加载已审核词条</h2></article></div>
-        <noscript><p class="boundary">JavaScript is required for the generated index. The canonical JSON remains available at <a href="data/language-book.v0.1.json">language-book.v0.1.json</a>. · 生成目录需要 JavaScript；canonical JSON 仍可直接查看。</p></noscript>
+        <noscript><p class="boundary">JavaScript is required for the generated index. The canonical JSON remains available at <a href="data/language-book.v0.4.json">language-book.v0.4.json</a>. · 生成目录需要 JavaScript；canonical JSON 仍可直接查看。</p></noscript>
       </section>
     </main>
-    <footer class="footer">Unilanguage Language Book · Dataset v0.2.0 · Published evidence only · 仅限已发布证据</footer>
+    <footer class="footer">Unilanguage Language Book · Dataset v0.4.0 · G.2 source boundaries preserved · 保留 G.2 来源边界</footer>
     <script src="js/language-book-data.js"></script><script src="js/search.js"></script>
   </body>
 </html>

@@ -8,12 +8,12 @@ const root = path.resolve(__dirname, "..");
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v0.1.json"), "utf8"));
 const schema = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.schema.json"), "utf8"));
 
-test("canonical schema declares required extensible record fields", () => {
+test("current canonical schema declares separated G.1 layers", () => {
   assert.equal(schema.$schema, "https://json-schema.org/draft/2020-12/schema");
   const entryFields = schema.$defs.entry.required;
   const mappingFields = schema.$defs.mapping.required;
-  for (const field of ["entry_id", "source_word", "language", "normalized_form", "pronunciation", "phonetic_form", "lexical_meaning", "candidate_cross_language_mappings", "source_provenance", "author", "version"]) assert.ok(entryFields.includes(field));
-  for (const field of ["mapping_language", "mapping_form", "mapping_type", "phonetic_relation", "semantic_structure", "etymology_evidence", "evidence_tracks", "mapping_level", "hypothesis_links", "experiment_status", "confidence", "review_status", "source_provenance", "notes"]) assert.ok(mappingFields.includes(field));
+  for (const field of ["entry_id", "source_word", "primary_chinese_mapping", "secondary_chinese_mappings", "mapping_rationales", "historical_etymologies", "sound_symbol_hypothesis_refs", "other_author_notes", "experimental_validation_refs"]) assert.ok(entryFields.includes(field));
+  for (const field of ["mapping_id", "chinese_form", "role", "mapping_basis", "identity", "source_verification", "ai_review"]) assert.ok(mappingFields.includes(field));
 });
 
 test("known word and alias lookup use the canonical dataset", () => {
@@ -61,7 +61,7 @@ test("critical pages expose mapper, data layer and no-result behavior", () => {
   const home = fs.readFileSync(path.join(root, "index.html"), "utf8");
   assert.match(mapper, /Lexical Meaning|Enter a word/);
   assert.match(mapper, /js\/language-book-data\.js/);
-  assert.match(script, /No reviewed mapping/);
-  assert.match(script, /Tested — Inconclusive/);
+  assert.match(script, /No classified word record/);
+  assert.match(script, /Experimental Result/);
   assert.match(home, /semantic-mapper\.html/);
 });

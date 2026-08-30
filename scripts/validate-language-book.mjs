@@ -3,105 +3,96 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const datasetPath = path.join(root, "data", "language-book.v0.2.json");
-const dataset = JSON.parse(fs.readFileSync(datasetPath, "utf8"));
-const candidateBatch = JSON.parse(fs.readFileSync(path.join(root, "data", "candidates", "package-e-batch-001.v0.2.json"), "utf8"));
+const dataset = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book.v0.3.json"), "utf8"));
+const schema = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book.schema.json"), "utf8"));
+const candidates = JSON.parse(fs.readFileSync(path.join(root, "data", "candidates", "package-e-batch-001.v0.2.json"), "utf8"));
 const errors = [];
-const requiredEntry = ["entry_id", "source_word", "language", "normalized_form", "pronunciation", "phonetic_form", "lexical_meaning", "aliases", "candidate_cross_language_mappings", "entry_review_status", "source_provenance", "notes", "author", "version"];
-const requiredMapping = ["mapping_id", "mapping_language", "mapping_form", "mapping_type", "claim_kind", "phonetic_relation", "semantic_structure", "etymology_evidence", "evidence_tracks", "mapping_level", "hypothesis_links", "experiment_status", "experiment_links", "confidence", "review_status", "source_provenance", "notes"];
-const enums = {
-  mapping_type: ["lexical-equivalent", "historical-relation", "script-relation", "phonetic-semantic-candidate", "semantic-cognitive-association", "cultural-metaphor", "research-condition"],
-  claim_kind: ["Observed Mapping", "Hypothesis", "Experimentally Tested Result"],
-  mapping_level: ["A", "B", "C", "D"],
-  experiment_status: ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"],
-  confidence: ["low", "medium", "high"],
-  review_status: ["candidate", "reviewed", "published", "rejected"],
-  evidence_tracks: ["Historical", "Phonetic-Semantic", "Cognitive", "Speculative"],
-};
+const check = (condition, message) => { if (!condition) errors.push(message); };
+const unique = (values, label) => { const seen = new Set(); for (const value of values) { check(!seen.has(value), `Duplicate ${label}: ${value}`); seen.add(value); } };
+const localized = (value) => value && typeof value.en === "string" && value.en.trim() && typeof value["zh-Hans"] === "string" && value["zh-Hans"].trim();
 
-function check(condition, message) { if (!condition) errors.push(message); }
-function unique(values, label) {
-  const seen = new Set();
-  values.forEach((value) => { if (seen.has(value)) errors.push(`Duplicate ${label}: ${value}`); seen.add(value); });
+function validateReviews(item, label, sourceIds) {
+  check(item.source_verification && item.ai_review, `${label} must have separate source_verification and ai_review`);
+  if (!item.source_verification || !item.ai_review) return;
+  for (const ref of item.source_verification.source_refs) check(sourceIds.has(ref), `${label} broken source verification ref ${ref}`);
+  check(localized(item.source_verification.notes), `${label} source verification notes must be bilingual`);
+  check(localized(item.ai_review.rationale), `${label} AI review rationale must be bilingual`);
+  if (item.ai_review.status === "not-reviewed") {
+    check(item.ai_review.reviewer === null && item.ai_review.reviewed_at === null, `${label} not-reviewed must not name a reviewer or date`);
+  }
 }
-function hasLocalizedText(value) { return value && typeof value.en === "string" && value.en.trim() && typeof value["zh-Hans"] === "string" && value["zh-Hans"].trim(); }
 
-check(dataset.schema_version === "1.0.0", "schema_version must be 1.0.0");
-check(dataset.dataset_version === "0.2.0", "latest canonical dataset must be v0.2.0");
-check(/^\d+\.\d+\.\d+$/.test(dataset.dataset_version), "dataset_version must use semver");
-check(JSON.stringify(dataset.lifecycle.stages) === JSON.stringify(["candidate", "reviewed", "published"]), "lifecycle must be candidate → reviewed → published");
-unique(dataset.sources.map((source) => source.source_id), "source_id");
-unique(dataset.hypotheses.map((item) => item.hypothesis_id), "hypothesis_id");
-unique(dataset.experiments.map((item) => item.experiment_id), "experiment_id");
-unique(dataset.entries.map((entry) => entry.entry_id), "entry_id");
+check(dataset.schema_version === "2.0.0", "schema_version must be 2.0.0");
+check(dataset.dataset_version === "0.3.0", "latest canonical dataset must be v0.3.0");
+check(schema.properties.schema_version.const === dataset.schema_version, "schema and dataset versions disagree");
+check(dataset.classification_model.package === "G.1" && dataset.classification_model.version === "0.1", "G.1 classification metadata missing");
+check(/one primary Chinese mapping/i.test(dataset.classification_model.principle), "core G.1 principle missing");
+
 const sourceIds = new Set(dataset.sources.map((source) => source.source_id));
 const hypothesisIds = new Set(dataset.hypotheses.map((item) => item.hypothesis_id));
-const experimentMap = new Map(dataset.experiments.map((item) => [item.experiment_id, item]));
+const experimentIds = new Set(dataset.experiments.map((item) => item.experiment_id));
+unique([...sourceIds], "source_id"); unique([...hypothesisIds], "hypothesis_id"); unique([...experimentIds], "experiment_id");
+for (const source of dataset.sources) check(fs.existsSync(path.join(root, source.path)), `Broken provenance path ${source.source_id}: ${source.path}`);
 
-for (const source of dataset.sources) {
-  check(fs.existsSync(path.join(root, source.path)), `Broken provenance path ${source.source_id}: ${source.path}`);
+for (const hypothesis of dataset.hypotheses) {
+  check(hypothesis.identity === "author-hypothesis", `${hypothesis.hypothesis_id} lost hypothesis identity`);
+  check(localized(hypothesis.statement), `${hypothesis.hypothesis_id} statement must be bilingual`);
+  validateReviews(hypothesis, hypothesis.hypothesis_id, sourceIds);
 }
-for (const item of [...dataset.hypotheses, ...dataset.experiments]) {
-  for (const ref of item.source_refs) check(sourceIds.has(ref), `Broken source ref ${ref}`);
+for (const experiment of dataset.experiments) {
+  check(experiment.identity === "experimental-result", `${experiment.experiment_id} lost experimental-result identity`);
+  check(localized(experiment.tested_condition) && localized(experiment.result), `${experiment.experiment_id} lacks tested condition/result`);
+  for (const ref of experiment.hypothesis_refs) check(hypothesisIds.has(ref), `${experiment.experiment_id} broken hypothesis ref ${ref}`);
+  validateReviews(experiment, experiment.experiment_id, sourceIds);
 }
 
+unique(dataset.entries.map((entry) => entry.entry_id), "entry_id");
 const mappingIds = [];
 for (const entry of dataset.entries) {
-  for (const field of requiredEntry) check(Object.hasOwn(entry, field), `${entry.entry_id || "entry"} missing ${field}`);
-  check(entry.normalized_form === entry.source_word.normalize("NFKC").trim().toLocaleLowerCase("en"), `${entry.entry_id} normalized_form mismatch`);
-  check(hasLocalizedText(entry.lexical_meaning), `${entry.entry_id} lexical_meaning must be bilingual`);
-  check(hasLocalizedText(entry.notes), `${entry.entry_id} notes must be bilingual`);
-  check(entry.entry_review_status === "published", `${entry.entry_id} canonical entry must be published`);
-  for (const ref of entry.source_provenance) check(sourceIds.has(ref), `${entry.entry_id} broken source ref ${ref}`);
-  for (const mapping of entry.candidate_cross_language_mappings) {
-    mappingIds.push(mapping.mapping_id);
-    for (const field of requiredMapping) check(Object.hasOwn(mapping, field), `${mapping.mapping_id || entry.entry_id} missing ${field}`);
-    for (const field of ["mapping_type", "claim_kind", "mapping_level", "experiment_status", "confidence", "review_status"]) check(enums[field].includes(mapping[field]), `${mapping.mapping_id} invalid ${field}: ${mapping[field]}`);
-    mapping.evidence_tracks.forEach((track) => check(enums.evidence_tracks.includes(track), `${mapping.mapping_id} invalid evidence track: ${track}`));
-    check(hasLocalizedText(mapping.etymology_evidence), `${mapping.mapping_id} etymology_evidence must be bilingual`);
-    check(hasLocalizedText(mapping.notes), `${mapping.mapping_id} notes must be bilingual`);
-    for (const ref of mapping.source_provenance) check(sourceIds.has(ref), `${mapping.mapping_id} broken source ref ${ref}`);
-    for (const ref of mapping.hypothesis_links) check(hypothesisIds.has(ref), `${mapping.mapping_id} broken hypothesis ref ${ref}`);
-    for (const ref of mapping.experiment_links) {
-      check(experimentMap.has(ref), `${mapping.mapping_id} broken experiment ref ${ref}`);
-      if (experimentMap.has(ref)) check(mapping.experiment_status === experimentMap.get(ref).status, `${mapping.mapping_id} experiment status conflicts with ${ref}`);
-    }
-    if (mapping.claim_kind === "Experimentally Tested Result") check(mapping.experiment_links.length > 0, `${mapping.mapping_id} tested result lacks experiment link`);
-    if (mapping.experiment_links.length === 0) check(mapping.experiment_status === "Untested", `${mapping.mapping_id} has status without experiment link`);
-  }
+  check(entry.primary_chinese_mapping?.role === "primary", `${entry.entry_id} must have exactly one primary Chinese mapping`);
+  check(!Object.hasOwn(entry, "candidate_cross_language_mappings"), `${entry.entry_id} retains mixed legacy mapping objects`);
+  check(!Object.hasOwn(entry.primary_chinese_mapping || {}, "etymology_evidence"), `${entry.entry_id} mapping still embeds etymology`);
+  check(!Object.hasOwn(entry.primary_chinese_mapping || {}, "experiment_links"), `${entry.entry_id} mapping still embeds experiment links`);
+  check(entry.secondary_chinese_mappings.every((mapping) => mapping.role === "secondary"), `${entry.entry_id} secondary list contains non-secondary mapping`);
+  const mappings = [entry.primary_chinese_mapping, ...entry.secondary_chinese_mappings];
+  for (const mapping of mappings) { mappingIds.push(mapping.mapping_id); validateReviews(mapping, mapping.mapping_id, sourceIds); }
+  for (const rationale of entry.mapping_rationales) { check(rationale.identity === "author-idea", `${rationale.rationale_id} must remain author idea`); validateReviews(rationale, rationale.rationale_id, sourceIds); }
+  for (const item of entry.historical_etymologies) { check(item.identity === "historical-claim", `${item.etymology_id} must remain historical claim`); validateReviews(item, item.etymology_id, sourceIds); }
+  for (const ref of entry.sound_symbol_hypothesis_refs) check(hypothesisIds.has(ref), `${entry.entry_id} broken hypothesis ref ${ref}`);
+  for (const item of entry.other_author_notes) validateReviews(item, item.note_id, sourceIds);
+  for (const ref of entry.experimental_validation_refs) check(experimentIds.has(ref), `${entry.entry_id} broken experiment ref ${ref}`);
+  for (const ref of entry.source_provenance) check(sourceIds.has(ref), `${entry.entry_id} broken entry source ref ${ref}`);
 }
 unique(mappingIds, "mapping_id");
 
-check(candidateBatch.review_status === "candidate", "Package E batch must remain candidate");
-check(candidateBatch.records.length === 19, "Package E batch must contain 19 candidate records");
-unique(candidateBatch.records.map((record) => record.candidate_id), "candidate_id");
-for (const record of candidateBatch.records) {
-  check(record.review_status === "candidate", `${record.candidate_id} was promoted without review`);
-  check(Array.isArray(record.blockers) && record.blockers.length > 0, `${record.candidate_id} lacks review blockers`);
-  check(!dataset.entries.some((entry) => entry.normalized_form === record.normalized_form), `${record.candidate_id} leaked into canonical published entries`);
+const water = dataset.entries.find((entry) => entry.normalized_form === "water");
+const language = dataset.entries.find((entry) => entry.normalized_form === "language");
+check(water?.classification_status === "candidate", "WATER calibration record must remain candidate");
+check(water?.primary_chinese_mapping.chinese_form === "哗" && water.primary_chinese_mapping.status === "candidate", "WATER primary candidate must be 哗");
+check(water?.sound_symbol_hypothesis_refs.includes("UNI-W-FH-PHONETIC-001") && water.sound_symbol_hypothesis_refs.includes("UNI-W-WATER-002"), "WATER hypotheses are not independently linked");
+check(water?.experimental_validation_refs.includes("UNI-EXP-002"), "WATER must link independent Experiment 002 validation");
+check(language?.classification_status === "candidate", "LANGUAGE calibration record must remain candidate");
+check(language?.primary_chinese_mapping.chinese_form === "朗" && language.primary_chinese_mapping.status === "candidate", "LANGUAGE primary candidate must be 朗");
+check(language?.historical_etymologies[0].chain.join("|") === "English language|Old French langage|Latin lingua", "LANGUAGE etymology chain must be separate");
+check(language?.sound_symbol_hypothesis_refs.includes("UNI-L-INHERENT-SEMANTIC-001"), "LANGUAGE L hypothesis must be independently linked");
+for (const entry of [water, language]) {
+  const objects = [entry.primary_chinese_mapping, ...entry.mapping_rationales, ...entry.historical_etymologies, ...entry.sound_symbol_hypothesis_refs.map((id) => dataset.hypotheses.find((item) => item.hypothesis_id === id)), ...entry.experimental_validation_refs.map((id) => dataset.experiments.find((item) => item.experiment_id === id))].filter(Boolean);
+  check(objects.every((item) => item.ai_review.status === "not-reviewed"), `${entry.source_word} calibration objects were automatically AI-reviewed`);
 }
 
-const exp002 = experimentMap.get("UNI-EXP-002");
-check(exp002?.status === "Tested-Inconclusive", "UNI-EXP-002 primary status must remain Tested-Inconclusive");
-check(exp002?.primary === true, "UNI-EXP-002 must remain primary");
-const expected002 = {
-  w_target: 7, w_total: 120, w_rate_percent: 5.83,
-  control_target: 9, control_total: 240, control_rate_percent: 3.75,
-  risk_ratio: 1.556, risk_ratio_95_ci: [0.594, 4.075],
-  risk_difference_percentage_points: 2.08,
-  risk_difference_95_ci_percentage_points: [-4.12, 9.57],
-  fisher_two_sided_p: 0.4185,
-};
-check(JSON.stringify(exp002?.metrics) === JSON.stringify(expected002), "UNI-EXP-002 metrics differ from the frozen public result");
-const frozenPrimary = JSON.parse(fs.readFileSync(path.join(root, "experiments", "002", "results", "primary-result.v1.0.json"), "utf8"));
-check(frozenPrimary.outcome === "INCONCLUSIVE", "Frozen Experiment 002 outcome is not INCONCLUSIVE");
-check(frozenPrimary.table.w_target === 7 && frozenPrimary.table.control_target === 9, "Frozen Experiment 002 counts changed");
-check(Math.abs(frozenPrimary.risk_ratio - 1.5555555555555556) < 1e-12, "Frozen Experiment 002 RR changed");
+check(candidates.records.length === 19, "Package E/F/G queue must remain exactly 19 records");
+check(candidates.records.every((record) => record.review_status === "candidate"), "A 19-record candidate was promoted by G.1");
+for (const record of candidates.records) check(!dataset.entries.some((entry) => entry.normalized_form === record.normalized_form), `${record.candidate_id} leaked into G.1 canonical records`);
+
+const exp002 = dataset.experiments.find((item) => item.experiment_id === "UNI-EXP-002");
+check(exp002?.status === "Tested-Inconclusive", "UNI-EXP-002 must remain Tested-Inconclusive");
+check(exp002?.metrics.w_target === 7 && exp002?.metrics.w_total === 120 && exp002?.metrics.control_target === 9 && exp002?.metrics.control_total === 240, "UNI-EXP-002 frozen counts changed");
+check(exp002?.metrics.risk_ratio === 1.556 && exp002?.metrics.fisher_two_sided_p === 0.4185, "UNI-EXP-002 frozen metrics changed");
 
 if (errors.length) {
-  console.error(`Language Book validation failed (${errors.length}):`);
+  console.error(`Language Book G.1 validation failed (${errors.length}):`);
   errors.forEach((error) => console.error(`- ${error}`));
   process.exit(1);
 }
 console.log(`Language Book dataset v${dataset.dataset_version}: VALID`);
-console.log(`${dataset.entries.length} entries · ${mappingIds.length} mappings · ${dataset.sources.length} provenance sources · ${dataset.experiments.length} experiment`);
+console.log(`${dataset.entries.length} word records · ${mappingIds.length} Chinese mappings · ${dataset.hypotheses.length} independent hypotheses · ${dataset.experiments.length} experiment`);

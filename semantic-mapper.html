@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Semantic Mapper v0.2 · 语义映射器 | Unilanguage</title>
-    <meta name="description" content="Explore reviewed cross-language semantic mappings and their evidence, provenance and experimental status. 探索经审核的跨语言语义映射及证据、来源与实验状态。" />
+    <title>Semantic Mapper G.2 · 语义映射器 | Unilanguage</title>
+    <meta name="description" content="Explore independently classified mappings, author ideas, etymologies, hypotheses and experiments. 分层查看映射、作者想法、词源、假说与实验。" />
     <link rel="stylesheet" href="css/sky-case.css" />
     <link rel="stylesheet" href="css/semantic-mapper.css" />
   </head>
@@ -21,28 +21,28 @@
     <main>
       <header class="hero mapper-hero">
         <div>
-          <p class="eyebrow">Semantic Mapper MVP v0.2 · 语义映射器</p>
+          <p class="eyebrow">Package G.2 · Source Verification + Review Method</p>
           <h1>Enter a word.</h1>
-          <p class="subtitle">See the mapping, evidence and evaluation status. · 查看映射、证据与评估状态。</p>
-          <p>This tool searches a versioned, reviewed Language Book dataset. It does not ask generative AI to invent a result. · 本工具查询版本化、经审核的 Language Book 数据集，不调用生成式 AI 临时编造结果。</p>
+          <p class="subtitle">See what is fact-backed, author-proposed or experimentally tested. · 一眼分辨来源事实、作者假说与实验结果。</p>
+          <p>One English word → one primary Chinese mapping → separate etymology → separate hypothesis → separate experiment. No layer inherits another layer's evidence status. · 一个英语词 → 一个主要汉语 Mapping → 独立词源 → 独立假说 → 独立实验；各层不共享或冒用证据身份。</p>
         </div>
         <form id="mapperForm" class="mapper-form" role="search">
-          <label for="mapperInput">Word or reviewed form · 单词或已审核形式</label>
+          <label for="mapperInput">English word or recorded form · 英语词或已记录形式</label>
           <div class="mapper-input-row">
-            <input id="mapperInput" name="q" type="search" autocomplete="off" placeholder="sky, universe, man, W, water…" aria-describedby="datasetVersion" />
+            <input id="mapperInput" name="q" type="search" autocomplete="off" placeholder="water, language, sky…" aria-describedby="datasetVersion" />
             <button type="submit">Map · 映射</button>
           </div>
           <p id="datasetVersion" class="small" aria-live="polite">Loading versioned dataset · 正在加载版本化数据</p>
           <div class="example-row" aria-label="Example entries">
-            <span>Try · 试用：</span><button type="button" data-example="sky">sky</button><button type="button" data-example="language">language</button><button type="button" data-example="sound">sound</button><button type="button" data-example="W">W / water</button>
+            <span>G.2 calibration · 校准：</span><button type="button" data-example="water">water</button><button type="button" data-example="language">language</button><button type="button" data-example="sky">sky</button>
           </div>
         </form>
       </header>
       <section id="mapperState" class="mapper-state" aria-live="polite"></section>
       <section id="mapperResult" class="mapper-result" aria-live="polite" hidden></section>
-      <noscript><section class="section"><h2>JavaScript is required · 需要 JavaScript</h2><p>The evidence dataset remains available at <a href="data/language-book.v0.2.json">language-book.v0.2.json</a>. · 证据数据仍可通过该 JSON 文件查看。</p></section></noscript>
+      <noscript><section class="section"><h2>JavaScript is required · 需要 JavaScript</h2><p>The classification dataset remains available at <a href="data/language-book.v0.4.json">language-book.v0.4.json</a>. · 分类数据仍可通过该 JSON 文件查看。</p></section></noscript>
     </main>
-    <footer class="footer">Unilanguage Semantic Mapper MVP v0.2 · Versioned evidence, explicit uncertainty. · 版本化证据，明确表达不确定性。</footer>
+    <footer class="footer">Semantic Mapper G.2 · Sources define both support and limits. · 来源同时定义支持与边界。</footer>
     <script src="js/language-book-data.js"></script>
     <script src="js/semantic-mapper.js"></script>
   </body>

@@ -1,19 +1,25 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://language.vu/data/language-book.schema.json",
-  "title": "Unilanguage Language Book canonical dataset",
+  "title": "Unilanguage Language Book classification model G.1",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "dataset_version", "lifecycle", "sources", "hypotheses", "experiments", "entries"],
+  "required": ["schema_version", "dataset_version", "classification_model", "lifecycle", "sources", "hypotheses", "experiments", "entries"],
   "properties": {
-    "schema_version": { "const": "1.0.0" },
+    "schema_version": { "const": "2.0.0" },
     "dataset_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
     "published_at": { "type": "string", "format": "date" },
     "author": { "type": "string", "minLength": 1 },
+    "classification_model": {
+      "type": "object", "additionalProperties": false,
+      "required": ["package", "version", "principle", "review_rule"],
+      "properties": {
+        "package": { "enum": ["G.1", "G.2"] }, "version": { "const": "0.1" }, "parent_package": { "type": "string", "minLength": 1 },
+        "principle": { "type": "string", "minLength": 1 }, "review_rule": { "type": "string", "minLength": 1 }
+      }
+    },
     "lifecycle": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["stages", "promotion_rule"],
+      "type": "object", "additionalProperties": false, "required": ["stages", "promotion_rule"],
       "properties": {
         "stages": { "type": "array", "prefixItems": [{ "const": "candidate" }, { "const": "reviewed" }, { "const": "published" }], "items": false },
         "promotion_rule": { "type": "string", "minLength": 1 }
@@ -25,91 +31,101 @@
     "entries": { "type": "array", "items": { "$ref": "#/$defs/entry" } }
   },
   "$defs": {
-    "localizedText": {
-      "type": "object",
-      "additionalProperties": { "type": "string", "minLength": 1 },
-      "required": ["en", "zh-Hans"]
-    },
+    "localizedText": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 }, "required": ["en", "zh-Hans"] },
     "source": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["source_id", "title", "source_type", "path", "version", "notes"],
+      "type": "object", "additionalProperties": false, "required": ["source_id", "title", "source_type", "path", "version", "notes"],
       "properties": {
-        "source_id": { "type": "string", "pattern": "^SRC-[A-Z0-9-]+$" },
-        "title": { "type": "string", "minLength": 1 },
-        "source_type": { "enum": ["language-book-page", "protocol-page", "frozen-experiment", "project-documentation"] },
-        "path": { "type": "string", "minLength": 1 },
-        "version": { "type": "string", "minLength": 1 },
-        "notes": { "type": "string" }
+        "source_id": { "type": "string", "pattern": "^SRC-[A-Z0-9-]+$" }, "title": { "type": "string", "minLength": 1 },
+        "source_type": { "enum": ["language-book-page", "protocol-page", "frozen-experiment", "project-documentation", "author-research-record", "authoritative-dictionary", "official-standard", "scholarly-source", "primary-historical-source"] },
+        "path": { "type": "string", "minLength": 1 }, "version": { "type": "string", "minLength": 1 }, "notes": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }, "accessed_at": { "type": "string", "format": "date" },
+        "source_quality": { "enum": ["project-record", "authoritative-dictionary", "official-standard", "scholarly-publication", "primary-publication"] },
+        "supports": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "does_not_support": { "type": "array", "items": { "type": "string", "minLength": 1 } }
       }
     },
-    "hypothesis": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["hypothesis_id", "label", "status", "source_refs"],
+    "sourceVerification": {
+      "type": "object", "additionalProperties": false, "required": ["status", "source_refs", "notes"],
       "properties": {
-        "hypothesis_id": { "type": "string", "pattern": "^UNI-[A-Z0-9-]+$" },
-        "label": { "$ref": "#/$defs/localizedText" },
-        "status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] },
-        "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true }
+        "status": { "enum": ["unverified", "needs-verification", "needs-authoritative-source", "source-backed", "experiment-linked", "disputed", "not-applicable"] },
+        "source_refs": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }, "notes": { "$ref": "#/$defs/localizedText" }
       }
     },
-    "experiment": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["experiment_id", "title", "status", "primary", "metrics", "source_refs"],
+    "aiReview": {
+      "type": "object", "additionalProperties": false, "required": ["status", "reviewer", "reviewed_at", "rationale"],
       "properties": {
-        "experiment_id": { "type": "string", "pattern": "^UNI-EXP-[0-9]{3}[A-Z]?$" },
-        "title": { "$ref": "#/$defs/localizedText" },
-        "status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] },
-        "primary": { "type": "boolean" },
-        "metrics": { "type": "object" },
-        "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true }
+        "status": { "enum": ["not-reviewed", "pending", "reviewed-by-ai", "needs-evidence", "rejected"] },
+        "reviewer": { "type": ["string", "null"] }, "reviewed_at": { "type": ["string", "null"], "format": "date-time" }, "rationale": { "$ref": "#/$defs/localizedText" }
       }
     },
     "mapping": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["mapping_id", "mapping_language", "mapping_form", "mapping_type", "claim_kind", "phonetic_relation", "semantic_structure", "etymology_evidence", "evidence_tracks", "mapping_level", "hypothesis_links", "experiment_status", "experiment_links", "confidence", "review_status", "source_provenance", "notes"],
+      "type": "object", "additionalProperties": false,
+      "required": ["mapping_id", "chinese_form", "pinyin", "role", "mapping_basis", "status", "identity", "source_verification", "ai_review"],
       "properties": {
-        "mapping_id": { "type": "string", "pattern": "^MAP-[a-z0-9-]+$" },
-        "mapping_language": { "type": "string", "minLength": 1 },
-        "mapping_form": { "type": "string", "minLength": 1 },
-        "mapping_type": { "enum": ["lexical-equivalent", "historical-relation", "script-relation", "phonetic-semantic-candidate", "semantic-cognitive-association", "cultural-metaphor", "research-condition"] },
-        "claim_kind": { "enum": ["Observed Mapping", "Hypothesis", "Experimentally Tested Result"] },
-        "phonetic_relation": { "type": ["string", "null"] },
-        "semantic_structure": { "type": "string", "minLength": 1 },
-        "etymology_evidence": { "$ref": "#/$defs/localizedText" },
-        "evidence_tracks": { "type": "array", "items": { "enum": ["Historical", "Phonetic-Semantic", "Cognitive", "Speculative"] }, "minItems": 1, "uniqueItems": true },
-        "mapping_level": { "enum": ["A", "B", "C", "D"] },
-        "hypothesis_links": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
-        "experiment_status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] },
-        "experiment_links": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
-        "confidence": { "enum": ["low", "medium", "high"] },
-        "review_status": { "enum": ["candidate", "reviewed", "published", "rejected"] },
-        "source_provenance": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
-        "notes": { "$ref": "#/$defs/localizedText" }
+        "mapping_id": { "type": "string", "pattern": "^MAP-[a-z0-9-]+$" }, "chinese_form": { "type": "string", "minLength": 1 }, "pinyin": { "type": ["string", "null"] },
+        "role": { "enum": ["primary", "secondary"] }, "mapping_basis": { "enum": ["lexical-equivalent", "author-proposal"] },
+        "status": { "enum": ["candidate", "reviewed", "published", "rejected"] }, "identity": { "enum": ["source-backed-lexical-mapping", "author-idea"] },
+        "source_verification": { "$ref": "#/$defs/sourceVerification" }, "ai_review": { "$ref": "#/$defs/aiReview" }
+      }
+    },
+    "rationale": {
+      "type": "object", "additionalProperties": false, "required": ["rationale_id", "mapping_ref", "identity", "status", "statement", "source_verification", "ai_review"],
+      "properties": {
+        "rationale_id": { "type": "string", "pattern": "^RAT-[a-z0-9-]+$" }, "mapping_ref": { "type": "string" }, "identity": { "const": "author-idea" },
+        "status": { "enum": ["candidate", "reviewed", "rejected"] }, "statement": { "$ref": "#/$defs/localizedText" },
+        "source_verification": { "$ref": "#/$defs/sourceVerification" }, "ai_review": { "$ref": "#/$defs/aiReview" }
+      }
+    },
+    "etymology": {
+      "type": "object", "additionalProperties": false, "required": ["etymology_id", "identity", "status", "chain", "summary", "source_verification", "ai_review"],
+      "properties": {
+        "etymology_id": { "type": "string", "pattern": "^ETY-[a-z0-9-]+$" }, "identity": { "const": "historical-claim" },
+        "status": { "enum": ["candidate", "reviewed", "rejected"] }, "chain": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 2 },
+        "summary": { "$ref": "#/$defs/localizedText" }, "source_verification": { "$ref": "#/$defs/sourceVerification" }, "ai_review": { "$ref": "#/$defs/aiReview" }
+      }
+    },
+    "authorNote": {
+      "type": "object", "additionalProperties": false, "required": ["note_id", "identity", "status", "text", "source_verification", "ai_review"],
+      "properties": {
+        "note_id": { "type": "string", "pattern": "^NOTE-[a-z0-9-]+$" }, "identity": { "const": "author-note" },
+        "status": { "enum": ["needs-classification", "classified", "archived"] }, "text": { "$ref": "#/$defs/localizedText" },
+        "source_verification": { "$ref": "#/$defs/sourceVerification" }, "ai_review": { "$ref": "#/$defs/aiReview" }
+      }
+    },
+    "hypothesis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["hypothesis_id", "label", "status", "source_refs", "hypothesis_type", "identity", "statement", "evidence_refs", "confidence", "source_verification", "ai_review"],
+      "properties": {
+        "hypothesis_id": { "type": "string", "pattern": "^UNI-[A-Z0-9-]+$" }, "label": { "$ref": "#/$defs/localizedText" },
+        "status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] }, "source_refs": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "hypothesis_type": { "enum": ["sound-semantic", "initial-consonant-semantics", "consonant-correspondence", "letter-symbol-history"] }, "identity": { "const": "author-hypothesis" },
+        "statement": { "$ref": "#/$defs/localizedText" }, "evidence_refs": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }, "confidence": { "enum": ["low", "medium", "high"] },
+        "source_verification": { "$ref": "#/$defs/sourceVerification" }, "ai_review": { "$ref": "#/$defs/aiReview" }
+      }
+    },
+    "experiment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["experiment_id", "title", "status", "primary", "metrics", "source_refs", "identity", "tested_condition", "result", "hypothesis_refs", "source_verification", "ai_review"],
+      "properties": {
+        "experiment_id": { "type": "string", "pattern": "^UNI-EXP-[0-9]{3}[A-Z]?$" }, "title": { "$ref": "#/$defs/localizedText" },
+        "status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] }, "primary": { "type": "boolean" }, "metrics": { "type": "object" },
+        "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true }, "identity": { "const": "experimental-result" },
+        "tested_condition": { "$ref": "#/$defs/localizedText" }, "result": { "$ref": "#/$defs/localizedText" }, "hypothesis_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
+        "source_verification": { "$ref": "#/$defs/sourceVerification" }, "ai_review": { "$ref": "#/$defs/aiReview" }
       }
     },
     "entry": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["entry_id", "source_word", "language", "normalized_form", "pronunciation", "phonetic_form", "lexical_meaning", "aliases", "candidate_cross_language_mappings", "entry_review_status", "source_provenance", "notes", "author", "version"],
+      "type": "object", "additionalProperties": false,
+      "required": ["entry_id", "source_word", "language", "normalized_form", "pronunciation", "phonetic_form", "lexical_meaning", "aliases", "classification_status", "primary_chinese_mapping", "secondary_chinese_mappings", "mapping_rationales", "historical_etymologies", "sound_symbol_hypothesis_refs", "other_author_notes", "experimental_validation_refs", "source_provenance", "author", "version"],
       "properties": {
-        "entry_id": { "type": "string", "pattern": "^LB-[a-z]{2,3}-[a-z0-9-]+-[0-9]{3}$" },
-        "source_word": { "type": "string", "minLength": 1 },
-        "language": { "type": "string", "minLength": 2 },
-        "normalized_form": { "type": "string", "minLength": 1 },
-        "pronunciation": { "type": ["string", "null"] },
-        "phonetic_form": { "type": ["string", "null"] },
-        "lexical_meaning": { "$ref": "#/$defs/localizedText" },
-        "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
-        "candidate_cross_language_mappings": { "type": "array", "items": { "$ref": "#/$defs/mapping" }, "minItems": 1 },
-        "entry_review_status": { "enum": ["candidate", "reviewed", "published", "rejected"] },
-        "source_provenance": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
-        "notes": { "$ref": "#/$defs/localizedText" },
-        "author": { "type": "string", "minLength": 1 },
-        "version": { "type": "string", "minLength": 1 }
+        "entry_id": { "type": "string", "pattern": "^LB-[a-z]{2,3}-[a-z0-9-]+-[0-9]{3}$" }, "source_word": { "type": "string", "minLength": 1 }, "language": { "type": "string", "minLength": 2 },
+        "normalized_form": { "type": "string", "minLength": 1 }, "pronunciation": { "type": ["string", "null"] }, "phonetic_form": { "type": ["string", "null"] },
+        "lexical_meaning": { "$ref": "#/$defs/localizedText" }, "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "classification_status": { "enum": ["candidate", "reviewed", "published", "rejected"] }, "primary_chinese_mapping": { "$ref": "#/$defs/mapping" },
+        "secondary_chinese_mappings": { "type": "array", "items": { "$ref": "#/$defs/mapping" } }, "mapping_rationales": { "type": "array", "items": { "$ref": "#/$defs/rationale" } },
+        "historical_etymologies": { "type": "array", "items": { "$ref": "#/$defs/etymology" } }, "sound_symbol_hypothesis_refs": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "other_author_notes": { "type": "array", "items": { "$ref": "#/$defs/authorNote" } }, "experimental_validation_refs": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "source_provenance": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true }, "author": { "type": "string", "minLength": 1 }, "version": { "type": "string", "minLength": 1 }
       }
     }
   }

@@ -58,13 +58,13 @@ test("Experiment 002 remains frozen as Tested-Inconclusive", () => {
   });
 });
 
-test("product pages point at v0.2 and expose data governance", () => {
+test("product pages advance to G.2 while preserving Package E/G governance", () => {
   const mapper = fs.readFileSync(path.join(root, "semantic-mapper.html"), "utf8");
   const dataPage = fs.readFileSync(path.join(root, "data-foundation.html"), "utf8");
   const loader = fs.readFileSync(path.join(root, "js/language-book-data.js"), "utf8");
-  assert.match(mapper, /MVP v0\.2/);
-  assert.match(mapper, /language-book\.v0\.2\.json/);
-  assert.match(loader, /language-book\.v0\.2\.json/);
+  assert.match(mapper, /Package G\.2/);
+  assert.match(mapper, /language-book\.v0\.4\.json/);
+  assert.match(loader, /language-book\.v0\.4\.json/);
   assert.match(dataPage, /Reviewed \/ Rejected \/ Needs Evidence/);
   assert.match(dataPage, /Published.*separate release gate/);
   assert.match(dataPage, /19 Pending · 0 Reviewed/);

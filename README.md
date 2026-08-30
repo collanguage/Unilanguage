@@ -4,11 +4,11 @@
 
 **语言，一个系统。**
 
-## Semantic Mapper MVP v0.2
+## Semantic Mapper Package G.2 · Source Verification + Object Review Method v0.1
 
-The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against the versioned canonical Language Book dataset at `data/language-book.v0.2.json`; unknown terms never receive generated evidence.
+The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against `data/language-book.v0.4.json` and renders seven independent layers: Primary Chinese Mapping, Mapping Rationale / Author Idea, Historical Etymology, Sound/Consonant/Symbol Hypotheses, Other Author Notes, Experimental Validation, and object-level Source Verification + AI Review. Unknown terms never receive generated evidence.
 
-The same dataset powers Semantic Mapper, Dictionary and reviewed-word Search. Package E tracks six published entries plus a separate 19-record candidate batch; candidates do not appear in formal lookup. Architecture and governance are documented in `docs/product/semantic-mapper-v0.1.md` and `docs/product/semantic-mapper-v0.2.md`. Validate with `scripts/validate-language-book.mjs`, run `tests/product-v0.2.test.cjs`, check critical links with `scripts/check-product-links.mjs`, and regenerate release records with `scripts/build-product-manifest.mjs`.
+The same dataset powers Semantic Mapper, Dictionary and Search. WATER and LANGUAGE remain explicit Candidate / Not Reviewed calibration records; the separate 19-record Package E/F/G review queue remains excluded and unchanged. G.2 adds bounded sources for LANGUAGE etymology, W/F/H phonetic classification and L writing history, plus an object-level review rubric that has not yet been executed. Rebuild with `scripts/migrate-classification-g1.mjs` followed by `scripts/migrate-source-verification-g2.mjs`; validate with `scripts/validate-language-book.mjs` and `scripts/validate-package-g2.mjs`; then run the tests and `scripts/build-product-manifest.mjs`.
 
 ## Package F · Candidate Source Verification + Human Review v0.1
 

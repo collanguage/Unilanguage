@@ -1,0 +1,133 @@
+{
+  "product": "Unilanguage Semantic Mapper MVP",
+  "version": "0.3.0",
+  "dataset_version": "0.3.0",
+  "created_at": "2026-08-30",
+  "canonical_dataset": "data/language-book.v0.3.json",
+  "canonical_schema": "data/language-book.schema.json",
+  "published_entry_count": 4,
+  "calibration_candidate_count": 2,
+  "candidate_entry_count": 19,
+  "files": [
+    {
+      "path": "data/language-book.schema.json",
+      "bytes": 10349,
+      "sha256": "8be5c47f9b77a91d0aae3114cddddf034ec6aa227b5367833a4720d923a7a410"
+    },
+    {
+      "path": "data/language-book.v0.3.json",
+      "bytes": 40469,
+      "sha256": "74cd0295e65b088cd71319e2358bf130c667046ae9cd560e58b48109e62bedd5"
+    },
+    {
+      "path": "data/candidates/import-template.json",
+      "bytes": 246,
+      "sha256": "a0a3b28dc07ffe30f2265a7f0cb88a47136273a4c9b68340ee2be84c48240efe"
+    },
+    {
+      "path": "data/candidates/README.md",
+      "bytes": 1736,
+      "sha256": "6bc35fa70a3d41d38917937fa34926ffce979f6086e21c8037c2a377845414ee"
+    },
+    {
+      "path": "data/candidates/package-e-batch-001.v0.2.json",
+      "bytes": 8854,
+      "sha256": "bdb0fe795bb8626c1d85f3e0dbe7cbcccfbc4697db9fa2b7c8f5a946dc87df1c"
+    },
+    {
+      "path": "semantic-mapper.html",
+      "bytes": 3566,
+      "sha256": "186ef23196078725a84c3b1ebee86613f0dc49b3a9c71c38e6a38c8336d25f55"
+    },
+    {
+      "path": "dictionary.html",
+      "bytes": 3431,
+      "sha256": "ec9dc521bc137a252c8cf7ef8910ad137cf61a43f18368ae7eb226388d412ac7"
+    },
+    {
+      "path": "data-foundation.html",
+      "bytes": 5573,
+      "sha256": "091fd3dd82ecc102369ac77c3bfeea5db47191ab68c8c572fb9b0200b0fd3e7b"
+    },
+    {
+      "path": "search.html",
+      "bytes": 3687,
+      "sha256": "0bc1e2b092eb3e9bfeb9b9a0a15a78d0e85057b1c5880de1c7c62dd9611fbb8c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5599,
+      "sha256": "59456daa3402634318249dd0b146cadb036aacd0ee4292b3b40eaadce5c21b8d"
+    },
+    {
+      "path": "css/semantic-mapper.css",
+      "bytes": 8202,
+      "sha256": "0e0a8d3282905fb0f06643815e99edf93568627af1e3191d40b30372fd43db1e"
+    },
+    {
+      "path": "js/language-book-data.js",
+      "bytes": 2107,
+      "sha256": "872e528485eb47f41d2bf80a8a0fdbf0e0594b137038b596339d952c48716bdd"
+    },
+    {
+      "path": "js/semantic-mapper.js",
+      "bytes": 13438,
+      "sha256": "ce9578e0067a3105542eef71964a3f11b69e73bf4de9c13116137f5f14330311"
+    },
+    {
+      "path": "js/search.js",
+      "bytes": 4964,
+      "sha256": "87862e1af5d14dc8cf55d103e96f84b6add44375ca3e798d2a5207dfe80d043f"
+    },
+    {
+      "path": "scripts/migrate-classification-g1.mjs",
+      "bytes": 14864,
+      "sha256": "6fa10c8a776b9dc3edbca5af9eb172a9446304520f47eed4579f8d3db1d4403f"
+    },
+    {
+      "path": "scripts/validate-language-book.mjs",
+      "bytes": 8860,
+      "sha256": "a8e404f1b1088174be66fdc561e6c6f9498de1393404d2c317ea4f53173f885b"
+    },
+    {
+      "path": "scripts/check-product-links.mjs",
+      "bytes": 1095,
+      "sha256": "3c4594ddc67993966e0b94f72487b961b1e3477b18ebfcac13349488c18cac28"
+    },
+    {
+      "path": "tests/product-v0.2.test.cjs",
+      "bytes": 3689,
+      "sha256": "699494f8102307d4956e8c3f9f1c2cb12fb3443ad622abc3ad6d7ca5165e1e1f"
+    },
+    {
+      "path": "tests/package-g1.test.cjs",
+      "bytes": 4615,
+      "sha256": "2d01372c3f19fe62515f0d7e61c98a8aa27a8943d9be6b8f30e87389b05ef303"
+    },
+    {
+      "path": "docs/product/semantic-mapper-v0.1.md",
+      "bytes": 3443,
+      "sha256": "90fa87c3702c651d643cc00d3f6347f7aadad73d9ea7c50dd63f74e09a095a8f"
+    },
+    {
+      "path": "docs/product/semantic-mapper-v0.2.md",
+      "bytes": 1542,
+      "sha256": "39f97ce4d192235b6b828f547ffab162307cd8ef0f485f5d9c8a83f42a2a4bc5"
+    },
+    {
+      "path": "docs/product/package-g1-classification-model-v0.1.md",
+      "bytes": 4587,
+      "sha256": "cac98863f32c9df7c0ca4f7b165eb38f2637bcdf44e401f9990a75f62552979d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3935,
+      "sha256": "735418561175e2f886329c18bacb9f5f97ca0e593321b18a894806f4cb858905"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 2887,
+      "sha256": "1ff899c42bcafdb4ed98e355e56d0cc7e1b258985483dc35aa8bbf7eecfdaeea"
+    }
+  ]
+}

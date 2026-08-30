@@ -1,0 +1,100 @@
+{
+  "rubric_id": "UNI-G2-OBJECT-REVIEW-001",
+  "version": "0.1.0",
+  "status": "active-method-not-yet-executed",
+  "scope": "Canonical Language Book evidence objects; excludes the separate 19-record Package E/F/G decision queue.",
+  "principles": [
+    "Review one evidence object at a time.",
+    "Source Verification and AI Review are independent decisions.",
+    "A word-record status never transfers to its child objects.",
+    "A linked experiment does not convert a hypothesis into a fact.",
+    "Reviewed never implies Published."
+  ],
+  "object_types": [
+    "primary_chinese_mapping",
+    "secondary_chinese_mapping",
+    "mapping_rationale_author_idea",
+    "historical_etymology",
+    "sound_consonant_symbol_hypothesis",
+    "other_author_note",
+    "experimental_validation"
+  ],
+  "source_verification": {
+    "statuses": [
+      "unverified",
+      "needs-verification",
+      "needs-authoritative-source",
+      "source-backed",
+      "experiment-linked",
+      "disputed",
+      "not-applicable"
+    ],
+    "required_checks": [
+      "The source is identifiable, dated/versioned when possible, and directly accessible or locally archived.",
+      "The exact claim supported by the source is recorded.",
+      "The claim the source does not support is recorded.",
+      "Conflicts, ambiguity and source-quality limitations remain visible.",
+      "A project page or author note is not treated as independent verification."
+    ]
+  },
+  "ai_review": {
+    "statuses": ["not-reviewed", "pending", "reviewed-by-ai", "needs-evidence", "rejected"],
+    "required_common_checks": [
+      "Confirm the object's identity and do not review a different layer by proxy.",
+      "Confirm every cited source is relevant to this exact claim.",
+      "Distinguish observation, interpretation, historical assertion, hypothesis and experimental result.",
+      "Retain counterevidence and narrower alternative explanations.",
+      "Calibrate confidence to the evidence actually attached.",
+      "Record reviewer identifier, timestamp, rationale and cited object/source IDs.",
+      "Do not change publication status."
+    ],
+    "type_specific_checks": {
+      "primary_chinese_mapping": [
+        "The record has exactly one primary Chinese mapping.",
+        "A proposed mapping is not described as standard translation unless lexical sources support it.",
+        "Phonetic resemblance is not used as historical etymology."
+      ],
+      "mapping_rationale_author_idea": [
+        "The author's original reason is preserved accurately.",
+        "The rationale is labelled as author idea rather than external fact."
+      ],
+      "historical_etymology": [
+        "Each link in the chain is supported by historical dictionary or scholarly evidence.",
+        "Intermediate forms are not silently skipped when the source distinguishes them.",
+        "Cross-language resemblance is excluded from the historical chain."
+      ],
+      "sound_consonant_symbol_hypothesis": [
+        "The hypothesis is operational enough to be contradicted or tested.",
+        "Articulatory categories are accurate.",
+        "Historical sound claims require regular correspondences across multiple forms and a plausible chronology.",
+        "A letter-name or pictorial origin does not by itself establish modern sound semantics."
+      ],
+      "other_author_note": [
+        "Do not force classification when evidence is insufficient.",
+        "If classified, preserve the original note and record the new target object ID."
+      ],
+      "experimental_validation": [
+        "Only an actually executed experiment may enter this layer.",
+        "The tested condition, result, status and hypothesis reference are explicit.",
+        "Frozen results are not rewritten.",
+        "The conclusion does not extend beyond the preregistered condition."
+      ]
+    }
+  },
+  "promotion_gate": {
+    "reviewed_by_ai_requires": [
+      "all required common checks complete",
+      "all applicable type-specific checks complete",
+      "no unresolved material source conflict",
+      "signed AI review metadata and rationale"
+    ],
+    "published_requires": "A separate Package G publication gate and explicit human publisher approval."
+  },
+  "current_calibration_state": {
+    "language_etymology": "source-backed / AI not-reviewed",
+    "w_f_h_hypothesis": "disputed as stated / AI not-reviewed",
+    "l_glyph_history": "partially source-backed but disputed in precise origin / AI not-reviewed",
+    "l_inherent_semantics": "needs verification / AI not-reviewed",
+    "experiment_002": "source-backed frozen Tested-Inconclusive result / AI not-reviewed"
+  }
+}
