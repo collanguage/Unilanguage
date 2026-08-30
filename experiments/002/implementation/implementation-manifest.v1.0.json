@@ -1,0 +1,88 @@
+{
+  "artifacts": {
+    "exact_power_report": {
+      "path": "../analysis/exact-power-verification.v1.0.json",
+      "required": true,
+      "sha256": "3ba4cb9d064f31abb4779884a6af590cc0ea11c38cad990f2eeb7845153c37d7",
+      "status": "FROZEN"
+    },
+    "family_manifest": {
+      "path": "../data/manifests/family-assignment-manifest.v1.0.csv",
+      "required": true,
+      "sha256": "696c1442cc8912a632c1db9c63ebb0708278fb9fb7f3a6a63f3b601df2f88888",
+      "status": "FROZEN"
+    },
+    "family_manifest_freeze": {
+      "path": "../data/manifests/family-assignment-freeze.v1.0.json",
+      "required": true,
+      "sha256": "5ac5d2c76627f4138a5ca27133494464c5bafe3352c2216910c9b9471525b399",
+      "status": "FROZEN"
+    },
+    "lemmatization_exceptions": {
+      "path": "../config/lemma-exceptions.v1.0.tsv",
+      "required": true,
+      "sha256": "c4e68b5b0a185f1d67bdbfb25f28460d9409ba49444cbc4945cb39298cc7080a",
+      "status": "FROZEN"
+    },
+    "pipeline_config": {
+      "path": "../config/pipeline-config.v1.0.json",
+      "required": true,
+      "sha256": "9b1705fa9a1a53e138731b51180d67fb35004556dadc4cf967c02284ce400036",
+      "status": "FROZEN"
+    },
+    "preprocessing_code": {
+      "path": "../pipeline/preprocess.py",
+      "required": true,
+      "sha256": "30b1537576557b59e527cbfe216db5e7c202818243accc28cb2951563dfb914d",
+      "status": "FROZEN"
+    },
+    "sampling_manifest": {
+      "path": "../data/manifests/sampling-manifest.v1.0.csv",
+      "required": true,
+      "sha256": "39046a83d0743320bea3340f58088767f178c2aa9b3fb5dedb7ceda6458c3d9e",
+      "status": "FROZEN"
+    },
+    "sampling_manifest_freeze": {
+      "path": "../data/manifests/sampling-manifest-freeze.v1.0.json",
+      "required": true,
+      "sha256": "440ebcd7443adab4c5e9d9a2b3ed10a50650f159e0e67e3f4b032027b7416241",
+      "status": "FROZEN"
+    },
+    "source_provenance": {
+      "path": "../source/source-provenance.json",
+      "required": true,
+      "sha256": "da1e86feb0e8a156bc3ac536db247c5149d7e22103202aa30dc93a0c6dccc762",
+      "status": "FROZEN"
+    }
+  },
+  "design_freeze": {
+    "date": "2026-08-27",
+    "path": "../design-freeze/design-v1.0.md",
+    "sha256": "6faa535c15c463016b899ac054793e25f53ea5a21aa668addd86b72cb87de11c",
+    "status": "FROZEN",
+    "version": "1.0"
+  },
+  "experiment_id": "UNI-EXP-002",
+  "implementation_freeze": {
+    "frozen_at_utc": "2026-08-28T15:35:54.408769+00:00",
+    "frozen_by": "Jinkai Liu authorization via explicit 2026-08-28 instruction; executed by Codex",
+    "notes": "Must remain PENDING until every prerequisite validates.",
+    "status": "FROZEN",
+    "version": "1.0"
+  },
+  "prohibited_before_freeze": [
+    "formal blind annotation",
+    "adjudication",
+    "primary analysis",
+    "inspection of aggregate target counts"
+  ],
+  "randomization": {
+    "algorithm": "Python random.Random (MT19937)",
+    "annotator_a_order_seed": 20260827003,
+    "annotator_b_order_seed": 20260827004,
+    "master_seed": 20260827002,
+    "robustness_seed": 20260827005,
+    "sampling_seed": 20260827002
+  },
+  "schema_version": "1.0"
+}
