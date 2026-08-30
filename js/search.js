@@ -8,6 +8,7 @@ const dictionary=[
  {keys:["universe","cosmos","宇宙","世界","univers","monde"],page:"dictionary.html#universe"},
  {keys:["man","male","human","person","男","男人","男子","氓","meng","mang","humain","homme"],page:"words/man.html"},
  {keys:["experiment 001a","001a","ai annotation","blind annotation","exploratory ai annotation","实验001a","ai盲标","探索性ai标注"],page:"experiments/001a/ai-annotation-record.html"},
+ {keys:["experiment 002","002","w water","w wetness","w wave","semantic concentration","inconclusive","实验002","水语义","波动语义","不确定"],page:"experiments/002-w-water.html"},
  {keys:["language","speech","语言","言语","langue","langage"],page:"dictionary.html#language"},
  {keys:["knowledge","know","知识","知","connaissance","savoir"],page:"dictionary.html#knowledge"},
  {keys:["sound","voice","声音","声","响","son"],page:"dictionary.html#sound"}
