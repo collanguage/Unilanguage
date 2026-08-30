@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Experiment 002 tests W-initial lexical-family concentration in WATER, WETNESS and WAVE-FLOW semantics.">
+  <title>Experiment 002: W → WATER / WETNESS / WAVE-FLOW | Unilanguage</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="research-record">
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="../hypothesis-lab.html">Unilanguage</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="../hypothesis-lab.html">Hypothesis Lab</a>
+        <a href="../evaluation-framework.html">Evaluation Framework</a>
+        <a class="active" href="002-w-water.html" aria-current="page">Experiment 002</a>
+        <a href="002/preregistration.html">Preregistration</a>
+        <a href="002/implementation-status.html">Implementation</a>
+        <a href="002/results.html">Results</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Unilanguage Experimental Research · UNI-EXP-002</p>
+        <h1>W → WATER / WETNESS / WAVE-FLOW</h1>
+        <p class="subtitle">Does W predict a semantic concentration across independent lexical families?</p>
+        <p class="subtitle-cn" lang="zh-Hans">W → 水／湿润／波动—流动：W 是否在独立词汇家族层面预测语义集中？</p>
+        <div class="tags">
+          <span class="tag">Design frozen · v1.0</span>
+          <span class="tag">Implementation frozen · v1.0</span>
+          <span class="tag">Annotation frozen · v1.0</span>
+          <span class="tag">Result frozen · INCONCLUSIVE</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-highlight">
+      <div class="container">
+        <div class="section-heading-row">
+          <div><p class="eyebrow">Freeze status</p><h2>Result Freeze v1.0 is complete</h2></div>
+          <span class="status-badge">INCONCLUSIVE</span>
+        </div>
+        <div class="status-grid">
+          <article class="status-card"><span>Design Freeze</span><strong>FROZEN · 2026-08-27</strong><p>Question, domain, controls, sampling principles, family rules, blind annotation, statistics and decision rules are immutable.</p></article>
+          <article class="status-card"><span>Implementation Freeze</span><strong>FROZEN · 2026-08-28</strong><p>Source, preprocessing, exact power, Family Assignment and Sampling Manifests validate and are checksummed.</p></article>
+          <article class="status-card"><span>Blind annotation</span><strong>FROZEN · 360</strong><p>Machine-based exploratory blind annotation; 357/360 agreement and three adjudications.</p></article>
+          <article class="status-card"><span>Primary result</span><strong>INCONCLUSIVE</strong><p>W 7/120 vs Controls 9/240; RR=1.556; Fisher p=.4185.</p></article>
+        </div>
+        <p class="zh" lang="zh-Hans">设计、实施、机器盲标和结果现已分别冻结。主结果为不确定；次要分析不得覆盖这一结论。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <p class="eyebrow">Research question</p>
+        <h2>A family-level enrichment test</h2>
+        <div class="equation">P(Direct Target | W families) &gt; P(Direct Target | pooled Controls)</div>
+        <p>The experiment tests a lexical distributional tendency in modern English. It does not test whether W itself means water, whether its shape originated as a wave, or whether the relevant words share an ancient source.</p>
+        <p class="zh" lang="zh-Hans">本实验只检验现代英语词汇分布中的统计性语义集中；不检验 W 本身是否表示水、字形是否起源于水波，或相关词是否具有共同远古来源。</p>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <p class="eyebrow">Primary semantic endpoint</p>
+        <h2>Direct meaning, not loose association</h2>
+        <div class="workflow-grid">
+          <article class="workflow-card"><span class="workflow-number">A</span><h3>WATER</h3><p>Water, bodies of water, or the presence and state of water.</p><p class="zh" lang="zh-Hans">水、水体，以及水的存在或状态。</p></article>
+          <article class="workflow-card"><span class="workflow-number">B</span><h3>WETNESS / CONTACT</h3><p>Wetness, soaking, washing, or direct water/liquid-contact states and processes.</p><p class="zh" lang="zh-Hans">湿润、浸泡、冲洗，以及直接水／液体接触状态或过程。</p></article>
+          <article class="workflow-card"><span class="workflow-number">C</span><h3>WAVE / FLOW</h3><p>Wave, flow, oscillation, or undulating movement encoded by the lexical sense.</p><p class="zh" lang="zh-Hans">词义直接编码波、流动、振荡或起伏运动。</p></article>
+        </div>
+        <p class="boundary"><strong>Primary coding:</strong> `1 = Direct Target`; `2 = Associated/Borderline`; `0 = Not Target`; `U = Unclear`. Only `1` enters the primary endpoint. Habitat, use, cultural association and merely being a liquid do not qualify.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow">Sampling and independence</p>
+        <h2>One lexical family, at most one vote</h2>
+        <div class="card-grid two-columns">
+          <article class="panel"><h3>Frozen target</h3><ul class="method-list"><li>SUBTLEX-US frozen local source</li><li>120 W families</li><li>240 pooled Control families</li><li>Three frequency strata</li><li>Master seed: 20260827002</li></ul></article>
+          <article class="panel"><h3>Anti-inflation rule</h3><p>Transparent derivatives and compounds inheriting the same target meaning are collapsed. Near-level documented stem families contribute once; speculative deep historical relations do not force merging.</p><p class="zh" lang="zh-Hans">透明派生词与复合词不得重复投票；有明确依据的近层级词干家族只计一次，推测性的深历史关系不强制合并。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <p class="eyebrow">Hypothesis-blind annotation</p>
+        <h2>Independent judgments before aggregate results</h2>
+        <p>Two annotators independently code standardized conventional senses in separately randomized orders. They do not receive the hypothesis, group labels, frequency strata, family outcome, aggregate counts, or each other's judgments. A third hypothesis-blind adjudicator resolves preserved disagreements under the same frozen rules.</p>
+        <p class="zh" lang="zh-Hans">两名标注者按不同随机顺序独立判断标准化常规义项；他们看不到假说、组别、频率层、词族统计贡献、总体计数和对方判断。分歧保留原记录，再由第三名假说盲裁决者依据相同冻结规则处理。</p>
+        <p class="boundary"><strong>Terminology boundary · 术语边界：</strong> This is hypothesis-blind independent semantic annotation, not “fully double-blind” annotation, because annotators can see each lemma.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow">Primary decision</p>
+        <h2>One test, four possible outcomes</h2>
+        <div class="metric-grid">
+          <article class="metric"><span>Primary test</span><strong>Two-sided Fisher exact</strong><p>Family-level, alpha=.05; report RR, RD and 95% intervals.</p></article>
+          <article class="metric"><span>Meaningful enrichment</span><strong>SESOI RR=2.0</strong><p>The planning reference RR=3.0 is not the success threshold.</p></article>
+          <article class="metric"><span>SUPPORTED</span><strong>RR&gt;1 + CI excludes 1 + p&lt;.05</strong><p>All required conditions must hold.</p></article>
+          <article class="metric"><span>Other outcomes</span><strong>INCONCLUSIVE / NOT SUPPORTED / INVALID</strong><p>Every outcome remains publicly reportable.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-highlight">
+      <div class="container">
+        <div class="experiment-card">
+          <div class="experiment-meta"><span>Design v1.0</span><span>Frozen 27 August 2026</span><span>UNI-EXP-002</span></div>
+          <h2>Read the immutable preregistration record</h2>
+          <p>The full bilingual record separates design decisions from implementation artifacts and preserves the No Rescue and negative-result publication rules.</p>
+          <a class="card-link prereg-cta" href="002/preregistration.html">View Preregistration v1.0 · 查看预注册 v1.0</a>
+          <a class="card-link" href="002/implementation-status.html">View Implementation Gate · 查看实施闸门</a>
+          <a class="card-link" href="002/results.html">View Result Freeze v1.0 · 查看正式结果</a>
+          <p class="record-note"><strong>Current result:</strong> INCONCLUSIVE. Machine-based exploratory blind annotation — not human double-blind validation.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p>Unilanguage Hypothesis Evaluation System · Language, a system.</p></div></footer>
+</body>
+</html>
