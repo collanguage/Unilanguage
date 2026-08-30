@@ -4,6 +4,12 @@
 
 **语言，一个系统。**
 
+## Semantic Mapper MVP v0.1
+
+The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against the versioned canonical Language Book dataset at `data/language-book.v0.1.json`; unknown terms never receive generated evidence.
+
+The same dataset powers Semantic Mapper, Dictionary and reviewed-word Search. Architecture, evidence rules and contribution workflow are documented in `docs/product/semantic-mapper-v0.1.md`. Validate with `scripts/validate-language-book.mjs`, run the product tests in `tests/product-v0.1.test.cjs`, check critical links with `scripts/check-product-links.mjs`, and regenerate the release records with `scripts/build-product-manifest.mjs`.
+
 ---
 
 # What is Unilanguage?

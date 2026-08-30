@@ -1,0 +1,101 @@
+{
+  "product": "Unilanguage Semantic Mapper MVP",
+  "version": "0.1.0",
+  "dataset_version": "0.1.0",
+  "created_at": "2026-08-29",
+  "canonical_dataset": "data/language-book.v0.1.json",
+  "canonical_schema": "data/language-book.schema.json",
+  "entry_count": 4,
+  "files": [
+    {
+      "path": "data/language-book.schema.json",
+      "bytes": 6763,
+      "sha256": "049c7cb503de702600bf42c333ece73aef278c073efe8dab85d73bc6d3f3c782"
+    },
+    {
+      "path": "data/language-book.v0.1.json",
+      "bytes": 16740,
+      "sha256": "c72ed8797dda668740248fb4b670e71d138e841dbf920cfb21b25f8634472064"
+    },
+    {
+      "path": "data/candidates/import-template.json",
+      "bytes": 246,
+      "sha256": "a0a3b28dc07ffe30f2265a7f0cb88a47136273a4c9b68340ee2be84c48240efe"
+    },
+    {
+      "path": "data/candidates/README.md",
+      "bytes": 652,
+      "sha256": "95b064682dab413f051e3f2ee50cb0771d6f20f16d706a005c65979a4de604f7"
+    },
+    {
+      "path": "semantic-mapper.html",
+      "bytes": 3429,
+      "sha256": "48b4b81af4418aebb0e4a73d488ba89df6c760675f300ccba95801f63bf9adb0"
+    },
+    {
+      "path": "dictionary.html",
+      "bytes": 3301,
+      "sha256": "9bc53670c89ee09992c9709a6f52c370666f28b9c751e01ba3dd63df238ee940"
+    },
+    {
+      "path": "search.html",
+      "bytes": 3536,
+      "sha256": "89c1f94138da0f99989031aeb9257dbf981be353a23ae87e02a0070cdb6e8cdb"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5169,
+      "sha256": "f59b04f5253dd2a8982295686b1a4d3d66ebfeb162b2b194a3212d80b488dbb4"
+    },
+    {
+      "path": "css/semantic-mapper.css",
+      "bytes": 5040,
+      "sha256": "d200c167fb10528c247c2f8751fdc5ffad7594ccf8af8f1dc343ee2b39afe6a9"
+    },
+    {
+      "path": "js/language-book-data.js",
+      "bytes": 2125,
+      "sha256": "409480001321bdf0f68065b6868078777e6d41d748139253512272d87d2bceb4"
+    },
+    {
+      "path": "js/semantic-mapper.js",
+      "bytes": 10018,
+      "sha256": "29123b861b7619276d90a7a7248759267f3a0e0d19af07b0afdb1104c3078168"
+    },
+    {
+      "path": "js/search.js",
+      "bytes": 4973,
+      "sha256": "b945ebf69619d560c17b8f67fea941d609e101d749189ba8c51260386dc2b953"
+    },
+    {
+      "path": "scripts/validate-language-book.mjs",
+      "bytes": 7312,
+      "sha256": "6ae5e40233c839547eca3d6f757b4afce7e5533af6758adb7b26524a50f16f8e"
+    },
+    {
+      "path": "scripts/check-product-links.mjs",
+      "bytes": 1021,
+      "sha256": "2e323623eb3270af215a8af2d2de121bfb901e33128c258ed59efe6cb0a0e366"
+    },
+    {
+      "path": "tests/product-v0.1.test.cjs",
+      "bytes": 3901,
+      "sha256": "0d5ec17d313cf16c7c910a40ebec3572a1fb1f8a290bffbc3a3ee11ab3da4cb3"
+    },
+    {
+      "path": "docs/product/semantic-mapper-v0.1.md",
+      "bytes": 3443,
+      "sha256": "90fa87c3702c651d643cc00d3f6347f7aadad73d9ea7c50dd63f74e09a095a8f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2332,
+      "sha256": "18176b3a37d73a073b21b2e81245ff98cb0ac28a3602c4767831f8777b0e5544"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 2607,
+      "sha256": "e073efcf0534916cd0ed471d31fbfa27e29560f45d97b9233acf727d856f7790"
+    }
+  ]
+}

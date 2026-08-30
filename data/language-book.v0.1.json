@@ -1,0 +1,375 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_version": "0.1.0",
+  "published_at": "2026-08-29",
+  "author": "Jinkai Liu｜劉金凱",
+  "lifecycle": {
+    "stages": ["candidate", "reviewed", "published"],
+    "promotion_rule": "AI may extract candidate records, but only documented human or research review may promote evidence level, confidence, experiment status or publication status."
+  },
+  "sources": [
+    {
+      "source_id": "SRC-LB-SKY",
+      "title": "Language Book · Sky",
+      "source_type": "language-book-page",
+      "path": "words/sky.html",
+      "version": "1.5",
+      "notes": "Project-authored bilingual page; established facts and experimental mappings remain separately labelled."
+    },
+    {
+      "source_id": "SRC-LB-UNIVERSE",
+      "title": "Language Book · Universe",
+      "source_type": "language-book-page",
+      "path": "words/universe.html",
+      "version": "1.1",
+      "notes": "Project-authored bilingual multidimensional mapping case."
+    },
+    {
+      "source_id": "SRC-LB-MAN",
+      "title": "Language Book · Man",
+      "source_type": "language-book-page",
+      "path": "words/man.html",
+      "version": "0.2",
+      "notes": "Project-authored experimental mapping-score case; score is provisional and not historically calibrated."
+    },
+    {
+      "source_id": "SRC-PROTOCOL-MAPPING",
+      "title": "Protocol Book · Multidimensional Mapping Framework",
+      "source_type": "protocol-page",
+      "path": "protocol/protocol.mapping-framework.html",
+      "version": "current",
+      "notes": "Defines mapping mechanisms and evidence boundaries used by the source pages."
+    },
+    {
+      "source_id": "SRC-HYPOTHESIS-LAB",
+      "title": "Unilanguage Hypothesis Lab",
+      "source_type": "project-documentation",
+      "path": "hypothesis-lab.html",
+      "version": "2026-08-29",
+      "notes": "Registry for experimental hypotheses and evaluation records."
+    },
+    {
+      "source_id": "SRC-EXP-002-PRIMARY",
+      "title": "UNI-EXP-002 frozen primary result",
+      "source_type": "frozen-experiment",
+      "path": "experiments/002/results/primary-result.v1.0.json",
+      "version": "1.0 FROZEN",
+      "notes": "Machine-readable primary result. This source and its frozen statistics must not be modified by the product dataset."
+    },
+    {
+      "source_id": "SRC-EXP-002-PAGE",
+      "title": "UNI-EXP-002 public result page",
+      "source_type": "frozen-experiment",
+      "path": "experiments/002/results.html",
+      "version": "Result Freeze v1.0",
+      "notes": "Public bilingual result page."
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-SKY-COVER-001",
+      "label": {
+        "en": "sky ↔ 盖 as a phonetic-semantic and cognitive candidate",
+        "zh-Hans": "sky ↔ 盖：语音—语义与认知候选映射"
+      },
+      "status": "Untested",
+      "source_refs": ["SRC-LB-SKY", "SRC-PROTOCOL-MAPPING"]
+    },
+    {
+      "hypothesis_id": "UNI-UNIVERSE-FLOW-001",
+      "label": {
+        "en": "Selected universe / 宇宙 sound and continuity sub-mappings",
+        "zh-Hans": "universe／宇宙的声音与连续性子映射"
+      },
+      "status": "Untested",
+      "source_refs": ["SRC-LB-UNIVERSE", "SRC-PROTOCOL-MAPPING"]
+    },
+    {
+      "hypothesis_id": "UNI-SOUND-MN-001",
+      "label": {
+        "en": "M–N correspondence hypothesis",
+        "zh-Hans": "M–N 对应假说"
+      },
+      "status": "Untested",
+      "source_refs": ["SRC-LB-MAN", "SRC-HYPOTHESIS-LAB"]
+    },
+    {
+      "hypothesis_id": "UNI-W-WATER-002",
+      "label": {
+        "en": "W-family enrichment in WATER / WETNESS / WAVE-FLOW semantics",
+        "zh-Hans": "W 词族在水／湿润／波动—流动语义中的富集假说"
+      },
+      "status": "Tested-Inconclusive",
+      "source_refs": ["SRC-EXP-002-PRIMARY", "SRC-EXP-002-PAGE"]
+    }
+  ],
+  "experiments": [
+    {
+      "experiment_id": "UNI-EXP-002",
+      "title": {
+        "en": "W → WATER / WETNESS / WAVE-FLOW semantic enrichment",
+        "zh-Hans": "W → 水／湿润／波动—流动语义富集"
+      },
+      "status": "Tested-Inconclusive",
+      "primary": true,
+      "metrics": {
+        "w_target": 7,
+        "w_total": 120,
+        "w_rate_percent": 5.83,
+        "control_target": 9,
+        "control_total": 240,
+        "control_rate_percent": 3.75,
+        "risk_ratio": 1.556,
+        "risk_ratio_95_ci": [0.594, 4.075],
+        "risk_difference_percentage_points": 2.08,
+        "risk_difference_95_ci_percentage_points": [-4.12, 9.57],
+        "fisher_two_sided_p": 0.4185
+      },
+      "source_refs": ["SRC-EXP-002-PRIMARY", "SRC-EXP-002-PAGE"]
+    }
+  ],
+  "entries": [
+    {
+      "entry_id": "LB-en-sky-001",
+      "source_word": "sky",
+      "language": "English",
+      "normalized_form": "sky",
+      "pronunciation": "/skaɪ/",
+      "phonetic_form": "skaɪ",
+      "lexical_meaning": {
+        "en": "The visible region above the earth.",
+        "zh-Hans": "从地面向上看见的广大空间。"
+      },
+      "aliases": ["skies", "heaven", "天空", "天", "昊", "ciel", "盖"],
+      "candidate_cross_language_mappings": [
+        {
+          "mapping_id": "MAP-sky-standard-equivalents",
+          "mapping_language": "Chinese / French",
+          "mapping_form": "天空 · 天 · ciel",
+          "mapping_type": "lexical-equivalent",
+          "claim_kind": "Observed Mapping",
+          "phonetic_relation": null,
+          "semantic_structure": "VISIBLE REGION ABOVE",
+          "etymology_evidence": {
+            "en": "These are ordinary lexical equivalents; the page does not claim that the English, Chinese and French forms share an origin.",
+            "zh-Hans": "这些是日常词汇对应；词条不主张英、汉、法语形式具有共同起源。"
+          },
+          "evidence_tracks": ["Historical", "Cognitive"],
+          "mapping_level": "A",
+          "hypothesis_links": [],
+          "experiment_status": "Untested",
+          "experiment_links": [],
+          "confidence": "high",
+          "review_status": "published",
+          "source_provenance": ["SRC-LB-SKY"],
+          "notes": {
+            "en": "Lexical equivalence is distinct from historical cognacy.",
+            "zh-Hans": "词汇对应不等于历史同源。"
+          }
+        },
+        {
+          "mapping_id": "MAP-sky-cover-candidate",
+          "mapping_language": "Chinese",
+          "mapping_form": "盖 gài",
+          "mapping_type": "phonetic-semantic-candidate",
+          "claim_kind": "Hypothesis",
+          "phonetic_relation": "sky /skaɪ/ ↔ 盖 /kaɪ/: comparable /aɪ/ and velar consonants; initial /s/, voicing and tone do not correspond.",
+          "semantic_structure": "ABOVE → COVER",
+          "etymology_evidence": {
+            "en": "Gaitian supplies a documented cultural cover metaphor, but no regular sound correspondence, borrowing path or documentary chain establishes cognacy.",
+            "zh-Hans": "盖天说提供有文献的覆盖隐喻，但没有规律音变、借词路径或文献链证明同源。"
+          },
+          "evidence_tracks": ["Phonetic-Semantic", "Cognitive", "Speculative"],
+          "mapping_level": "B",
+          "hypothesis_links": ["UNI-SKY-COVER-001"],
+          "experiment_status": "Untested",
+          "experiment_links": [],
+          "confidence": "medium",
+          "review_status": "published",
+          "source_provenance": ["SRC-LB-SKY", "SRC-PROTOCOL-MAPPING"],
+          "notes": {
+            "en": "A proposed Unilanguage mapping, not a standard translation or established etymology.",
+            "zh-Hans": "这是 Unilanguage 候选映射，不是标准翻译或已确立词源。"
+          }
+        }
+      ],
+      "entry_review_status": "published",
+      "source_provenance": ["SRC-LB-SKY", "SRC-PROTOCOL-MAPPING"],
+      "notes": {
+        "en": "Complete demonstration case with explicit evidence boundaries.",
+        "zh-Hans": "完整示范案例，包含明确证据边界。"
+      },
+      "author": "Jinkai Liu｜劉金凱",
+      "version": "1.5 / dataset 0.1.0"
+    },
+    {
+      "entry_id": "LB-en-universe-001",
+      "source_word": "universe",
+      "language": "English",
+      "normalized_form": "universe",
+      "pronunciation": null,
+      "phonetic_form": null,
+      "lexical_meaning": {
+        "en": "The totality of space, time, matter and energy; also a complete conceptual world.",
+        "zh-Hans": "空间、时间、物质与能量的整体；也可指完整的概念世界。"
+      },
+      "aliases": ["cosmos", "宇宙", "univers", "世界"],
+      "candidate_cross_language_mappings": [
+        {
+          "mapping_id": "MAP-universe-space-time",
+          "mapping_language": "Chinese",
+          "mapping_form": "宇宙 yǔzhòu",
+          "mapping_type": "semantic-cognitive-association",
+          "claim_kind": "Observed Mapping",
+          "phonetic_relation": null,
+          "semantic_structure": "SPACE + TIME → TOTALITY",
+          "etymology_evidence": {
+            "en": "The English and Chinese expressions are not presented as cognates. The comparison concerns totalizing semantic structure.",
+            "zh-Hans": "英语与汉语表达不被视为同源；这里比较的是整体化语义结构。"
+          },
+          "evidence_tracks": ["Historical", "Cognitive"],
+          "mapping_level": "C",
+          "hypothesis_links": [],
+          "experiment_status": "Untested",
+          "experiment_links": [],
+          "confidence": "high",
+          "review_status": "published",
+          "source_provenance": ["SRC-LB-UNIVERSE", "SRC-PROTOCOL-MAPPING"],
+          "notes": {
+            "en": "The source page keeps the overall case at Level C; selected sub-mappings may be Level B candidates.",
+            "zh-Hans": "源词条将整体案例保持为 C 级；部分子映射可作为 B 级候选。"
+          }
+        },
+        {
+          "mapping_id": "MAP-universe-zhou-zhou",
+          "mapping_language": "Chinese",
+          "mapping_form": "宙 zhòu ↔ 咒 zhòu",
+          "mapping_type": "phonetic-semantic-candidate",
+          "claim_kind": "Hypothesis",
+          "phonetic_relation": "Modern Mandarin homophony: zhòu ↔ zhòu.",
+          "semantic_structure": "UNIVERSE ↔ UTTERANCE / INCANTATION (candidate association)",
+          "etymology_evidence": {
+            "en": "Homophony permits investigation but does not establish shared etymology or unrestricted semantic identity.",
+            "zh-Hans": "同音可作为调查线索，但不证明共同词源或不受限制的语义同一。"
+          },
+          "evidence_tracks": ["Phonetic-Semantic", "Speculative"],
+          "mapping_level": "B",
+          "hypothesis_links": ["UNI-UNIVERSE-FLOW-001"],
+          "experiment_status": "Untested",
+          "experiment_links": [],
+          "confidence": "low",
+          "review_status": "published",
+          "source_provenance": ["SRC-LB-UNIVERSE"],
+          "notes": {
+            "en": "Published as a reviewed hypothesis label, not as a validated historical claim.",
+            "zh-Hans": "作为经审核的假说标签发布，不作为已验证的历史主张。"
+          }
+        }
+      ],
+      "entry_review_status": "published",
+      "source_provenance": ["SRC-LB-UNIVERSE", "SRC-PROTOCOL-MAPPING"],
+      "notes": {
+        "en": "Demonstrates semantic-structure and phonetic-candidate mappings in one general renderer.",
+        "zh-Hans": "用同一通用渲染器展示语义结构与语音候选映射。"
+      },
+      "author": "Jinkai Liu｜劉金凱",
+      "version": "1.1 / dataset 0.1.0"
+    },
+    {
+      "entry_id": "LB-en-man-001",
+      "source_word": "man",
+      "language": "English",
+      "normalized_form": "man",
+      "pronunciation": "/mæn/",
+      "phonetic_form": "mæn",
+      "lexical_meaning": {
+        "en": "An adult male human; historically, also a person or human being in some uses.",
+        "zh-Hans": "成年男性；部分历史用法中也可泛指人。"
+      },
+      "aliases": ["male", "human", "person", "男", "男人", "男子", "氓"],
+      "candidate_cross_language_mappings": [
+        {
+          "mapping_id": "MAP-man-male",
+          "mapping_language": "Chinese",
+          "mapping_form": "男 nán",
+          "mapping_type": "phonetic-semantic-candidate",
+          "claim_kind": "Hypothesis",
+          "phonetic_relation": "/mæn/ ↔ nán: compact nasal-bounded syllables; m ↔ n remains an experimental correspondence.",
+          "semantic_structure": "HUMAN CATEGORY → MALE MEMBER",
+          "etymology_evidence": {
+            "en": "The core meanings overlap strongly, but no documented transmission path or regular historical sound correspondence establishes cognacy.",
+            "zh-Hans": "核心词义高度重合，但没有文献传播路径或规律历史音变证明同源。"
+          },
+          "evidence_tracks": ["Phonetic-Semantic", "Cognitive", "Speculative"],
+          "mapping_level": "A",
+          "hypothesis_links": ["UNI-SOUND-MN-001"],
+          "experiment_status": "Untested",
+          "experiment_links": [],
+          "confidence": "medium",
+          "review_status": "published",
+          "source_provenance": ["SRC-LB-MAN", "SRC-HYPOTHESIS-LAB"],
+          "notes": {
+            "en": "Level A is the source page's provisional mapping score, not historical certainty and not a statistically calibrated result.",
+            "zh-Hans": "A 级来自源词条的暂定映射评分，不等于历史确定性，也不是统计校准结果。"
+          }
+        }
+      ],
+      "entry_review_status": "published",
+      "source_provenance": ["SRC-LB-MAN", "SRC-HYPOTHESIS-LAB"],
+      "notes": {
+        "en": "The secondary man ↔ 氓 case remains outside the public canonical mapping until reading-sensitive review is complete.",
+        "zh-Hans": "man ↔ 氓 辅助案例在完成读音敏感审核前不进入公开 canonical mapping。"
+      },
+      "author": "Jinkai Liu｜劉金凱",
+      "version": "0.2 / dataset 0.1.0"
+    },
+    {
+      "entry_id": "LB-en-w-condition-001",
+      "source_word": "W",
+      "language": "English research condition",
+      "normalized_form": "w",
+      "pronunciation": null,
+      "phonetic_form": "w",
+      "lexical_meaning": {
+        "en": "The preregistered W-initial lexical-family condition evaluated in UNI-EXP-002.",
+        "zh-Hans": "UNI-EXP-002 中预注册评估的 W 起始词族条件。"
+      },
+      "aliases": ["water", "wetness", "wave", "flow", "WATER/WETNESS/WAVE-FLOW"],
+      "candidate_cross_language_mappings": [
+        {
+          "mapping_id": "MAP-w-water-experiment",
+          "mapping_language": "Multilingual lexical-family sample",
+          "mapping_form": "W → WATER / WETNESS / WAVE-FLOW semantic family",
+          "mapping_type": "research-condition",
+          "claim_kind": "Experimentally Tested Result",
+          "phonetic_relation": "The tested condition was W-initial lexical families; the result does not establish a universal sound law.",
+          "semantic_structure": "W-INITIAL CONDITION → TARGET SEMANTIC FAMILY",
+          "etymology_evidence": {
+            "en": "This is a preregistered enrichment test, not an etymological claim. Direction matched the hypothesis, but evidence was insufficient.",
+            "zh-Hans": "这是预注册富集检验，不是词源主张；方向与假说一致，但证据不足。"
+          },
+          "evidence_tracks": ["Phonetic-Semantic"],
+          "mapping_level": "B",
+          "hypothesis_links": ["UNI-W-WATER-002"],
+          "experiment_status": "Tested-Inconclusive",
+          "experiment_links": ["UNI-EXP-002"],
+          "confidence": "low",
+          "review_status": "published",
+          "source_provenance": ["SRC-EXP-002-PRIMARY", "SRC-EXP-002-PAGE"],
+          "notes": {
+            "en": "Primary status is INCONCLUSIVE: W 7/120 (5.83%), Controls 9/240 (3.75%), RR 1.556, 95% CI 0.594–4.075, RD +2.08 pp, 95% CI −4.12 to +9.57, Fisher p=.4185.",
+            "zh-Hans": "主状态为不确定：W 7/120（5.83%），Controls 9/240（3.75%），RR 1.556，95% CI 0.594–4.075，RD +2.08 个百分点，95% CI −4.12 至 +9.57，Fisher p=.4185。"
+          }
+        }
+      ],
+      "entry_review_status": "published",
+      "source_provenance": ["SRC-EXP-002-PRIMARY", "SRC-EXP-002-PAGE"],
+      "notes": {
+        "en": "A research-condition record, not a normal dictionary equivalence.",
+        "zh-Hans": "这是研究条件记录，不是普通词典对应。"
+      },
+      "author": "Unilanguage Experiment 002 team",
+      "version": "Result Freeze v1.0 / dataset 0.1.0"
+    }
+  ]
+}

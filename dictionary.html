@@ -4,151 +4,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Language Book Index · 语言书目录 | Unilanguage</title>
-    <meta
-      name="description"
-      content="Unilanguage Language Book and semantic dictionary index. Unilanguage 语言书与语义词典目录。"
-    />
+    <meta name="description" content="The reviewed Unilanguage Language Book canonical dataset. Unilanguage 语言书已审核 canonical dataset。" />
     <link rel="stylesheet" href="css/sky-case.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="brand" href="index.html">Unilanguage</a>
-        <nav class="nav">
-          <a href="index.html">Home · 首页</a
-          ><a href="search.html">Search · 搜索</a
-           ><a href="dictionary.html" aria-current="page">Dictionary · 词典</a
-           ><a href="protocol.html">Protocol · 协议</a
-           ><a href="hypothesis-lab.html">Hypothesis Lab · 假说实验室</a
-           ><a href="translation-protocol.html">UTP · 翻译实验</a>
-        </nav>
-      </div>
-    </header>
+    <header class="site-header"><div class="header-inner"><a class="brand" href="index.html">Unilanguage</a><nav class="nav" aria-label="Main navigation"><a href="index.html">Home · 首页</a><a href="semantic-mapper.html">Mapper · 映射器</a><a href="dictionary.html" aria-current="page">Dictionary · 词典</a><a href="protocol.html">Protocol · 协议</a><a href="hypothesis-lab.html">Hypothesis Lab · 假说实验室</a><a href="translation-protocol.html">UTP · 翻译实验</a></nav></div></header>
     <main>
       <header class="hero">
-        <p class="eyebrow">Language Book · 语言书</p>
+        <p class="eyebrow">Language Book Data Foundation · 语言书数据基础</p>
         <h1>Dictionary</h1>
-        <p class="subtitle">
-          Semantic Dictionary and Word Entries · 语义词典与完整词条
-        </p>
-        <div class="pair">
-          <div>
-            <p class="label">English</p>
-            <p>
-              Short cards provide an index. Each complete Language Book entry
-              develops meaning, etymology, mapping, evidence and translation
-              tests.
-            </p>
-          </div>
-          <div lang="zh-Hans">
-            <p class="label">中文</p>
-            <p>
-              简明卡片构成目录；每个完整语言书词条进一步展开词义、词源、映射、证据与翻译检验。
-            </p>
-          </div>
-        </div>
+        <p class="subtitle">Reviewed entries from one canonical dataset · 来自单一 canonical dataset 的已审核词条</p>
+        <div class="pair"><div><p class="label">English</p><p>This index and Semantic Mapper read the same versioned evidence layer. A smaller dataset with clear provenance is preferred to unsupported scale.</p></div><div lang="zh-Hans"><p class="label">中文</p><p>本目录与 Semantic Mapper 读取同一版本化证据层。宁可数据规模较小、来源清楚，也不以未经支持的映射凑数量。</p></div></div>
       </header>
       <section class="section">
-        <div class="pair">
-          <div>
-            <p class="label">Search · 搜索</p>
-            <input
-              id="dictSearch"
-              aria-label="Dictionary search"
-              style="
-                width: 100%;
-                padding: 16px;
-                border-radius: 12px;
-                border: 1px solid var(--line);
-                background: var(--deep);
-                color: var(--text);
-                font-size: 1rem;
-              "
-              placeholder="sky, universe, man, 男, 氓..."
-            />
-          </div>
-          <div>
-            <p class="label">Action · 操作</p>
-            <button
-              onclick="filterDictionary()"
-              style="
-                padding: 16px 28px;
-                border: 0;
-                border-radius: 12px;
-                background: var(--gold);
-                font-weight: 800;
-              "
-            >
-              Search · 搜索
-            </button>
-            <p id="dictMessage" class="small" aria-live="polite"></p>
-          </div>
-        </div>
-        <div class="cards" id="dictionaryGrid">
-          <article
-            class="card word-card"
-            id="sky"
-            data-word="sky skies heaven 天空 天 昊 盖 ciel firmament 苍穹 穹盖 乾 qian"
-          >
-            <h2>☁️ Sky · 天空</h2>
-            <p>Sky / 天空、天、昊 / ciel</p>
-            <p><strong>Mapping · 映射：</strong> sky ↔ 盖</p>
-            <p><span class="status">Experimental · 实验性</span></p>
-            <a href="words/sky.html">Read the Sky Entry · 阅读 Sky 词条 →</a>
-          </article>
-          <article
-            class="card word-card"
-            id="universe"
-            data-word="universe cosmos 宇宙 世界 univers monde"
-          >
-            <h2>🌍 Universe · 宇宙</h2>
-            <p>Universe / 宇宙、世界 / univers</p>
-            <a href="words/universe.html">Word Page · 词条 →</a>
-          </article>
-          <article
-            class="card word-card"
-            id="man"
-            data-word="man male human person 男 男人 男子 氓 meng mang homme humain"
-          >
-            <h2>👤 Man · 男 / 氓</h2>
-            <p>Mapping Score v0.2 · Case 03</p>
-            <p><strong>Core mapping · 核心映射：</strong> man ↔ 男</p>
-            <p><span class="status cultural">A — Strong · Experimental / Provisional</span></p>
-            <a href="words/man.html">Read the Man Entry · 阅读 Man 词条 →</a>
-          </article>
-          <article
-            class="card word-card"
-            id="language"
-            data-word="language speech 语言 言语 langue langage"
-          >
-            <h2>🗣️ Language · 语言</h2>
-            <p>Language / 语言、言语 / langue</p>
-            <a href="words/language.html">Word Page · 词条 →</a>
-          </article>
-          <article
-            class="card word-card"
-            id="knowledge"
-            data-word="knowledge know 知识 知 connaissance savoir"
-          >
-            <h2>📚 Knowledge · 知识</h2>
-            <p>Knowledge / 知识、知 / connaissance</p>
-            <a href="words/knowledge.html">Word Page · 词条 →</a>
-          </article>
-          <article
-            class="card word-card"
-            id="sound"
-            data-word="sound voice 声音 声 响 son"
-          >
-            <h2>🔊 Sound · 声音</h2>
-            <p>Sound / 声音、声、响 / son</p>
-            <a href="words/sound.html">Word Page · 词条 →</a>
-          </article>
-        </div>
+        <div class="pair"><div><label class="label" for="dictSearch">Filter reviewed entries · 筛选已审核词条</label><input id="dictSearch" aria-label="Dictionary search" style="width:100%;padding:16px;border-radius:12px;border:1px solid var(--line);background:var(--deep);color:var(--text);font-size:1rem" placeholder="sky, universe, man, W, water..." /></div><div><p class="label">Product entry · 产品入口</p><a class="btn" href="semantic-mapper.html">Enter a word · 输入一个词 →</a><p id="dictMessage" class="small" aria-live="polite"></p></div></div>
+        <p class="boundary"><strong>Single source of truth · 单一数据源：</strong> Only records with <code>entry_review_status: published</code> appear. Candidate imports never become public automatically. · 仅显示状态为 published 的记录；候选导入不会自动公开。</p>
+        <div class="cards" id="dictionaryGrid" aria-live="polite"><article class="card"><h2>Loading reviewed entries · 正在加载已审核词条</h2></article></div>
+        <noscript><p class="boundary">JavaScript is required for the generated index. The canonical JSON remains available at <a href="data/language-book.v0.1.json">language-book.v0.1.json</a>. · 生成目录需要 JavaScript；canonical JSON 仍可直接查看。</p></noscript>
       </section>
     </main>
-    <footer class="footer">
-      Unilanguage · Language, a system. · 语言，一个系统。
-    </footer>
-    <script src="js/search.js"></script>
+    <footer class="footer">Unilanguage Language Book · Dataset v0.1.0 · Reviewed evidence only · 仅限已审核证据</footer>
+    <script src="js/language-book-data.js"></script><script src="js/search.js"></script>
   </body>
 </html>

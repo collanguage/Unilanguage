@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://language.vu/data/language-book.schema.json",
+  "title": "Unilanguage Language Book canonical dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "dataset_version", "lifecycle", "sources", "hypotheses", "experiments", "entries"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "dataset_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "published_at": { "type": "string", "format": "date" },
+    "author": { "type": "string", "minLength": 1 },
+    "lifecycle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stages", "promotion_rule"],
+      "properties": {
+        "stages": { "type": "array", "prefixItems": [{ "const": "candidate" }, { "const": "reviewed" }, { "const": "published" }], "items": false },
+        "promotion_rule": { "type": "string", "minLength": 1 }
+      }
+    },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "hypotheses": { "type": "array", "items": { "$ref": "#/$defs/hypothesis" } },
+    "experiments": { "type": "array", "items": { "$ref": "#/$defs/experiment" } },
+    "entries": { "type": "array", "items": { "$ref": "#/$defs/entry" } }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "minLength": 1 },
+      "required": ["en", "zh-Hans"]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "title", "source_type", "path", "version", "notes"],
+      "properties": {
+        "source_id": { "type": "string", "pattern": "^SRC-[A-Z0-9-]+$" },
+        "title": { "type": "string", "minLength": 1 },
+        "source_type": { "enum": ["language-book-page", "protocol-page", "frozen-experiment", "project-documentation"] },
+        "path": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 },
+        "notes": { "type": "string" }
+      }
+    },
+    "hypothesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hypothesis_id", "label", "status", "source_refs"],
+      "properties": {
+        "hypothesis_id": { "type": "string", "pattern": "^UNI-[A-Z0-9-]+$" },
+        "label": { "$ref": "#/$defs/localizedText" },
+        "status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] },
+        "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true }
+      }
+    },
+    "experiment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["experiment_id", "title", "status", "primary", "metrics", "source_refs"],
+      "properties": {
+        "experiment_id": { "type": "string", "pattern": "^UNI-EXP-[0-9]{3}[A-Z]?$" },
+        "title": { "$ref": "#/$defs/localizedText" },
+        "status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] },
+        "primary": { "type": "boolean" },
+        "metrics": { "type": "object" },
+        "source_refs": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true }
+      }
+    },
+    "mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mapping_id", "mapping_language", "mapping_form", "mapping_type", "claim_kind", "phonetic_relation", "semantic_structure", "etymology_evidence", "evidence_tracks", "mapping_level", "hypothesis_links", "experiment_status", "experiment_links", "confidence", "review_status", "source_provenance", "notes"],
+      "properties": {
+        "mapping_id": { "type": "string", "pattern": "^MAP-[a-z0-9-]+$" },
+        "mapping_language": { "type": "string", "minLength": 1 },
+        "mapping_form": { "type": "string", "minLength": 1 },
+        "mapping_type": { "enum": ["lexical-equivalent", "historical-relation", "script-relation", "phonetic-semantic-candidate", "semantic-cognitive-association", "cultural-metaphor", "research-condition"] },
+        "claim_kind": { "enum": ["Observed Mapping", "Hypothesis", "Experimentally Tested Result"] },
+        "phonetic_relation": { "type": ["string", "null"] },
+        "semantic_structure": { "type": "string", "minLength": 1 },
+        "etymology_evidence": { "$ref": "#/$defs/localizedText" },
+        "evidence_tracks": { "type": "array", "items": { "enum": ["Historical", "Phonetic-Semantic", "Cognitive", "Speculative"] }, "minItems": 1, "uniqueItems": true },
+        "mapping_level": { "enum": ["A", "B", "C", "D"] },
+        "hypothesis_links": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "experiment_status": { "enum": ["Untested", "Tested-Supported", "Tested-Inconclusive", "Tested-Not-Supported", "Invalid"] },
+        "experiment_links": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "confidence": { "enum": ["low", "medium", "high"] },
+        "review_status": { "enum": ["candidate", "reviewed", "published", "rejected"] },
+        "source_provenance": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
+        "notes": { "$ref": "#/$defs/localizedText" }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entry_id", "source_word", "language", "normalized_form", "pronunciation", "phonetic_form", "lexical_meaning", "aliases", "candidate_cross_language_mappings", "entry_review_status", "source_provenance", "notes", "author", "version"],
+      "properties": {
+        "entry_id": { "type": "string", "pattern": "^LB-[a-z]{2,3}-[a-z0-9-]+-[0-9]{3}$" },
+        "source_word": { "type": "string", "minLength": 1 },
+        "language": { "type": "string", "minLength": 2 },
+        "normalized_form": { "type": "string", "minLength": 1 },
+        "pronunciation": { "type": ["string", "null"] },
+        "phonetic_form": { "type": ["string", "null"] },
+        "lexical_meaning": { "$ref": "#/$defs/localizedText" },
+        "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "candidate_cross_language_mappings": { "type": "array", "items": { "$ref": "#/$defs/mapping" }, "minItems": 1 },
+        "entry_review_status": { "enum": ["candidate", "reviewed", "published", "rejected"] },
+        "source_provenance": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
+        "notes": { "$ref": "#/$defs/localizedText" },
+        "author": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

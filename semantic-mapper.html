@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Semantic Mapper · 语义映射器 | Unilanguage</title>
+    <meta name="description" content="Explore reviewed cross-language semantic mappings and their evidence, provenance and experimental status. 探索经审核的跨语言语义映射及证据、来源与实验状态。" />
+    <link rel="stylesheet" href="css/sky-case.css" />
+    <link rel="stylesheet" href="css/semantic-mapper.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#mapperResult">Skip to results · 跳到结果</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">Unilanguage</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home · 首页</a><a href="semantic-mapper.html" aria-current="page">Mapper · 映射器</a><a href="dictionary.html">Dictionary · 词典</a><a href="protocol.html">Protocol · 协议</a><a href="hypothesis-lab.html">Hypothesis Lab · 假说实验室</a><a href="translation-protocol.html">UTP · 翻译实验</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <header class="hero mapper-hero">
+        <div>
+          <p class="eyebrow">Semantic Mapper MVP v0.1 · 语义映射器</p>
+          <h1>Enter a word.</h1>
+          <p class="subtitle">See the mapping, evidence and evaluation status. · 查看映射、证据与评估状态。</p>
+          <p>This tool searches a versioned, reviewed Language Book dataset. It does not ask generative AI to invent a result. · 本工具查询版本化、经审核的 Language Book 数据集，不调用生成式 AI 临时编造结果。</p>
+        </div>
+        <form id="mapperForm" class="mapper-form" role="search">
+          <label for="mapperInput">Word or reviewed form · 单词或已审核形式</label>
+          <div class="mapper-input-row">
+            <input id="mapperInput" name="q" type="search" autocomplete="off" placeholder="sky, universe, man, W, water…" aria-describedby="datasetVersion" />
+            <button type="submit">Map · 映射</button>
+          </div>
+          <p id="datasetVersion" class="small" aria-live="polite">Loading versioned dataset · 正在加载版本化数据</p>
+          <div class="example-row" aria-label="Example entries">
+            <span>Try · 试用：</span><button type="button" data-example="sky">sky</button><button type="button" data-example="universe">universe</button><button type="button" data-example="W">W / water</button>
+          </div>
+        </form>
+      </header>
+      <section id="mapperState" class="mapper-state" aria-live="polite"></section>
+      <section id="mapperResult" class="mapper-result" aria-live="polite" hidden></section>
+      <noscript><section class="section"><h2>JavaScript is required · 需要 JavaScript</h2><p>The evidence dataset remains available at <a href="data/language-book.v0.1.json">language-book.v0.1.json</a>. · 证据数据仍可通过该 JSON 文件查看。</p></section></noscript>
+    </main>
+    <footer class="footer">Unilanguage Semantic Mapper MVP v0.1 · Versioned evidence, explicit uncertainty. · 版本化证据，明确表达不确定性。</footer>
+    <script src="js/language-book-data.js"></script>
+    <script src="js/semantic-mapper.js"></script>
+  </body>
+</html>
