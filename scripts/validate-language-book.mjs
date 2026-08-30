@@ -3,8 +3,9 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const datasetPath = path.join(root, "data", "language-book.v0.1.json");
+const datasetPath = path.join(root, "data", "language-book.v0.2.json");
 const dataset = JSON.parse(fs.readFileSync(datasetPath, "utf8"));
+const candidateBatch = JSON.parse(fs.readFileSync(path.join(root, "data", "candidates", "package-e-batch-001.v0.2.json"), "utf8"));
 const errors = [];
 const requiredEntry = ["entry_id", "source_word", "language", "normalized_form", "pronunciation", "phonetic_form", "lexical_meaning", "aliases", "candidate_cross_language_mappings", "entry_review_status", "source_provenance", "notes", "author", "version"];
 const requiredMapping = ["mapping_id", "mapping_language", "mapping_form", "mapping_type", "claim_kind", "phonetic_relation", "semantic_structure", "etymology_evidence", "evidence_tracks", "mapping_level", "hypothesis_links", "experiment_status", "experiment_links", "confidence", "review_status", "source_provenance", "notes"];
@@ -26,6 +27,7 @@ function unique(values, label) {
 function hasLocalizedText(value) { return value && typeof value.en === "string" && value.en.trim() && typeof value["zh-Hans"] === "string" && value["zh-Hans"].trim(); }
 
 check(dataset.schema_version === "1.0.0", "schema_version must be 1.0.0");
+check(dataset.dataset_version === "0.2.0", "latest canonical dataset must be v0.2.0");
 check(/^\d+\.\d+\.\d+$/.test(dataset.dataset_version), "dataset_version must use semver");
 check(JSON.stringify(dataset.lifecycle.stages) === JSON.stringify(["candidate", "reviewed", "published"]), "lifecycle must be candidate → reviewed → published");
 unique(dataset.sources.map((source) => source.source_id), "source_id");
@@ -69,6 +71,15 @@ for (const entry of dataset.entries) {
   }
 }
 unique(mappingIds, "mapping_id");
+
+check(candidateBatch.review_status === "candidate", "Package E batch must remain candidate");
+check(candidateBatch.records.length === 19, "Package E batch must contain 19 candidate records");
+unique(candidateBatch.records.map((record) => record.candidate_id), "candidate_id");
+for (const record of candidateBatch.records) {
+  check(record.review_status === "candidate", `${record.candidate_id} was promoted without review`);
+  check(Array.isArray(record.blockers) && record.blockers.length > 0, `${record.candidate_id} lacks review blockers`);
+  check(!dataset.entries.some((entry) => entry.normalized_form === record.normalized_form), `${record.candidate_id} leaked into canonical published entries`);
+}
 
 const exp002 = experimentMap.get("UNI-EXP-002");
 check(exp002?.status === "Tested-Inconclusive", "UNI-EXP-002 primary status must remain Tested-Inconclusive");
