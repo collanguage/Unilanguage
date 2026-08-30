@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Frozen Implementation Manifest and provenance for Unilanguage Experiment 002.">
+  <title>Experiment 002 Implementation Status | Unilanguage</title>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body class="research-record">
+  <header class="site-header"><div class="container"><a class="site-logo" href="../../hypothesis-lab.html">Unilanguage</a><nav class="main-nav" aria-label="Main navigation"><a href="../../hypothesis-lab.html">Hypothesis Lab</a><a href="../002-w-water.html">Experiment 002</a><a href="preregistration.html">Preregistration</a><a class="active" href="implementation-status.html" aria-current="page">Implementation</a><a href="results.html">Results</a></nav></div></header>
+  <main>
+    <section class="hero compact"><div class="container"><p class="eyebrow">UNI-EXP-002 · Implementation Record</p><h1>Implementation Freeze v1.0</h1><p class="subtitle">Family Assignment and fixed-seed Sampling Manifests are frozen.</p><p class="subtitle-cn" lang="zh-Hans">词族分配与固定种子抽样清单已经冻结。</p><div class="tags"><span class="tag">Design FROZEN</span><span class="tag">Implementation FROZEN</span><span class="tag">Annotation NOT STARTED</span><span class="tag">Analysis NOT STARTED</span></div></div></section>
+
+    <section class="section"><div class="container"><div class="section-heading-row"><div><p class="eyebrow">Completed controls</p><h2>Verified implementation artifacts</h2></div><span class="status-badge">Checksummed</span></div>
+      <div class="card-grid two-columns">
+        <article class="panel"><h3>Official SUBTLEX-US source</h3><p>Complete 74,286-word text release downloaded from <a href="https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexus">Ghent University</a> on 2026-08-28.</p><ul class="method-list"><li>Archive: <code>subtlexus2.zip</code></li><li>Archive SHA-256: <code>67e595da…ad83856</code></li><li>Table SHA-256: <code>c5f86f06…29c86e4</code></li><li>Raw rows: 74,286</li></ul><p class="zh" lang="zh-Hans">下载容器与实际读取表分别留存校验和，原始文件不经改名或重存后再计算来源哈希。</p></article>
+        <article class="panel"><h3>Deterministic lemmatization</h3><p>Conservative WordNet 3.0 Morphy rules merge only unique supported forms. Ambiguous forms remain isolated from the eligible pool until reviewed.</p><ul class="method-list"><li>WordNet archive SHA-256: <code>cbda5ea6…e2646ab59</code></li><li>Processed lemma candidates: 53,586</li><li>Eligible resolved lemmas: 38,668</li><li>Ambiguous review queue: 4,895</li></ul><p class="zh" lang="zh-Hans">只在 WordNet 支持且结果唯一时合并；多解词形进入独立审查队列，不被强行词元化。</p></article>
+        <article class="panel"><h3>Exact-power verification</h3><p>Unconditional binomial enumeration evaluates every possible table with the two-sided Fisher exact conditional p-value.</p><ul class="method-list"><li>nW=120; nC=240</li><li>Reference pW=.15; pC=.05</li><li>Direction-consistent power: <strong>0.858948</strong></li><li>Status: <strong>VERIFIED</strong></li></ul><p class="zh" lang="zh-Hans">参考情景的方向一致精确检验功效为 0.858948，达到预定的 0.80 目标；这不保证更小效应或其他基线下的功效。</p></article>
+        <article class="panel"><h3>Randomization and population audit</h3><ul class="method-list"><li>Master seed: 20260827002</li><li>Eligible W lemmas before family deduplication: 969</li><li>Eligible pooled-control lemmas: 28,695</li><li>Semantic labels used in audit: No</li><li>Family-review reserve queue: 1,080 items</li></ul><p class="zh" lang="zh-Hans">总体审计与词族审查候选队列完全不使用目标语义标签，不能被解释为最终样本或实验结果。</p></article>
+      </div>
+    </div></section>
+
+    <section class="section section-highlight"><div class="container"><p class="eyebrow">Frozen manifests</p><h2>Implementation Freeze complete</h2><div class="status-grid"><article class="status-card"><span>Family assignment</span><strong>FROZEN</strong><p>1,080 lemmas assigned to 971 semantic-label-blind structural families.</p></article><article class="status-card"><span>Sampling manifest</span><strong>FROZEN</strong><p>120 W and 240 Controls; 360 unique Family IDs under seed 20260827002.</p></article><article class="status-card"><span>Blind batches</span><strong>NOT GENERATED</strong><p>Annotator A/B work remains outside this completed implementation phase.</p></article><article class="status-card"><span>Primary analysis</span><strong>NOT RUN</strong><p>No locked semantic dataset or result exists.</p></article></div><p class="boundary"><strong>No target semantics or result has been inspected.</strong> Implementation status is not evidence for or against the W hypothesis. · <span lang="zh-Hans">尚未查看目标语义或实验结果；实施状态不构成支持或反对 W 假说的证据。</span></p></div></section>
+  </main>
+  <footer class="site-footer"><div class="container"><p>UNI-EXP-002 · Implementation record · Last updated 2026-08-28</p></div></footer>
+</body>
+</html>
