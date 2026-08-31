@@ -1,7 +1,7 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
   "version": "1.0.0",
-  "dataset_version": "1.0.2",
+  "dataset_version": "1.0.3",
   "created_at": "2026-08-31",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
@@ -11,13 +11,13 @@
   "files": [
     {
       "path": "data/language-book-entry.schema.v1.json",
-      "bytes": 7048,
-      "sha256": "a2cf5a9f24b52d211acb3080f9d752f4cc07a860adac117e2653a8442160f3be"
+      "bytes": 7548,
+      "sha256": "79a561d7f9802429de95a04dec98307b0794e36dccd72875917c7d86173920f5"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 243642,
-      "sha256": "7f3873d92d06e4b4a5049ba6af0257e48435e40469bedd74246fe4af02c82c26"
+      "bytes": 255328,
+      "sha256": "8ac5de6167db1f18fc836a412ec6eda997bbb6ae6b43b0b7c331ceb4980053ed"
     },
     {
       "path": "data/entries/abbey.v1.json",
@@ -36,28 +36,28 @@
     },
     {
       "path": "data/entries/namcha-barwa.v1.json",
-      "bytes": 14680,
-      "sha256": "e6b162d054bcf1b1bc19a1e1299774d75cfcbecbaf0c0a05fc59a5e354050f97"
+      "bytes": 24214,
+      "sha256": "4389c7243cd95f9e4462a639788c8354cc0c8ebfda5db57a23540dcefb82bd3b"
     },
     {
       "path": "docs/language-book-entry-schema-v1.md",
-      "bytes": 10695,
-      "sha256": "26e3003fd3b2622988ae633c87e2c9cae1b64db1bc6cf7c932d9f095b095c172"
+      "bytes": 10723,
+      "sha256": "89a9007a5c6682d1446b32e15faafa452b74dc7e56bcafdce438c7b693689a0b"
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
       "bytes": 24098,
-      "sha256": "be04173e5e525f98aa1c168e75488242c08af046b374a5ce880743b37ec6c4c2"
+      "sha256": "159a183e837062c44a74c95f4c27e53ff86d6bf00a9b795cdc7a1116d4cd1db6"
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 11656,
-      "sha256": "5ddac729d91acfd77ade4f8bfbe5a5943153380e1ddeb7fa94bb9c72c258a3df"
+      "bytes": 12610,
+      "sha256": "da623af68270fdb6ce4f765f2d0dd641c0edcef990ea6d8c9e6cf974b58f1baf"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
-      "bytes": 9919,
-      "sha256": "e941bef9b07a42c40c5528767ba6dde235c72bc3552badde25e2773f8bbf04ca"
+      "bytes": 10659,
+      "sha256": "8e05d75ab2a16e2ed85ec410e2688ac66a0c213fcd819ffca30dfccbd47dc097"
     },
     {
       "path": "tests/package-g1.test.cjs",
@@ -91,8 +91,8 @@
     },
     {
       "path": "js/semantic-mapper.js",
-      "bytes": 15011,
-      "sha256": "65d19927054e400078d7d73af724208c65c82e06595a11e5e0ec84ffa1ba2960"
+      "bytes": 15364,
+      "sha256": "19e52c62489af674642770099d5a774a4f0bbc7cd2b4c9a72dec003bedf9c714"
     },
     {
       "path": "js/search.js",
@@ -102,7 +102,7 @@
     {
       "path": "semantic-mapper.html",
       "bytes": 3834,
-      "sha256": "2dee3b37ba0cf2026d36f84076cd376c6668ef087b68cdf44b2eb59810a9e844"
+      "sha256": "e100c824d616fd71559577f113784e136dd36084be83463ae862d14a425c5337"
     },
     {
       "path": "dictionary.html",
@@ -121,18 +121,18 @@
     },
     {
       "path": "words/namcha-barwa.html",
-      "bytes": 10273,
-      "sha256": "f0cde5dcad42baf52a28fd7c74b184a451b8e77d440a207f910404c85b5a69a3"
+      "bytes": 14185,
+      "sha256": "d9d80873c3e581278ce96ff094acb8133d4d4fb0de01ebc4abce39c261d21c7d"
     },
     {
       "path": "css/namcha-barwa.css",
-      "bytes": 836,
-      "sha256": "8acb62fc2d90314547efa76d3726bdfa9e3010dcf85461ae22e3277860513df5"
+      "bytes": 1518,
+      "sha256": "742781c34174f79c8ae0a246b8561c6c3448fe930d47a0be4ef43577552e668b"
     },
     {
       "path": "README.md",
-      "bytes": 4843,
-      "sha256": "910b537444d10f499759e233ef23b10fea6d219ca2b93f2d50bed667bad88b96"
+      "bytes": 4986,
+      "sha256": "c3ef8c6001f9dfa0647f951065caa0e84c39d03d4e91e6727171664e1bd248ef"
     },
     {
       "path": "sitemap.xml",

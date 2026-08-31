@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.0.2", "Schema must remain 1.0.0 and Dataset Expansion release must be 1.0.2");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.0.3", "Schema must remain 1.0.0 and Dataset Expansion release must be 1.0.3");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
 check(/one English word/i.test(dataset.editorial_policy.data_separation.en), "data separation policy missing");
@@ -103,6 +103,11 @@ check(namcha?.evidence?.["Phonetic-Semantic"]?.status === "Not claimed" && namch
 check(namcha?.literary_layer?.status === "Published" && namcha?.literary_layer?.is_historical_evidence === false, "Namcha Barwa literary/evidence boundary changed");
 check(/直刺天空的长矛/.test(namcha?.search_terms?.join(" ") || "") && /情青/.test(namcha?.source?.raw_note || ""), "Namcha Barwa search alias or raw note missing");
 check(namcha?.media?.some((item) => item.type === "external creative work" && item.content_status === "not independently verified"), "Namcha Barwa external creative work boundary missing");
+check(namcha?.languages?.some((item) => item.code === "bo" && item.word === "གནམ་ལྕགས་འབར་བ།"), "Namcha Barwa primary Tibetan form missing");
+check(namcha?.name_analysis?.wylie === "gnam lcags ’bar ba" && namcha?.name_analysis?.morphemes?.length === 4, "Namcha Barwa Tibetan lexical analysis incomplete");
+check(namcha?.name_analysis?.chinese_name_assessment?.type === "phonetic transcription plus geographic classifier", "Namcha Barwa Chinese transcription assessment missing");
+check(namcha?.name_analysis?.translation_assessments?.some((item) => item.chinese === "直刺蓝天的战矛／直刺天空的长矛" && item.literal_match === "weak"), "Namcha Barwa spear interpretation boundary missing");
+check(namcha?.name_analysis?.translation_assessments?.some((item) => item.chinese === "雷电如火燃烧" && item.grade === "closest semantic paraphrase"), "Namcha Barwa closest Chinese semantic paraphrase missing");
 
 if (errors.length) {
   console.error(`Language Book v1.0 validation failed (${errors.length}):`);

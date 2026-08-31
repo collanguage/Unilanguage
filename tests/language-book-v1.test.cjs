@@ -141,7 +141,7 @@ test("Mapper presents dataset-driven language groups and the shared-record expla
 });
 
 test("Namcha Barwa is a searchable named entity and literary entry, not a phonetic candidate", () => {
-  for (const query of ["Namcha Barwa", "南迦巴瓦", "南迦巴瓦峰", "直刺天空的长矛"]) {
+  for (const query of ["Namcha Barwa", "Namjagbarwa", "གནམ་ལྕགས་འབར་བ", "gnam lcags 'bar ba", "南迦巴瓦", "南迦巴瓦峰", "直刺天空的长矛", "燃烧的天铁"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "namcha-barwa", `lookup failed for ${query}`);
   }
   const entry = dataApi.lookup(dataset, "Namcha Barwa").entry;
@@ -155,10 +155,16 @@ test("Namcha Barwa is a searchable named entity and literary entry, not a phonet
   assert.equal(entry.literary_layer.is_historical_evidence, false);
   assert.match(entry.source.raw_note, /情青/);
   assert.equal(entry.media[0].content_status, "not independently verified");
+  assert.equal(entry.languages.find((form) => form.code === "bo").word, "གནམ་ལྕགས་འབར་བ།");
+  assert.equal(entry.name_analysis.wylie, "gnam lcags ’bar ba");
+  assert.equal(entry.name_analysis.chinese_name_assessment.type, "phonetic transcription plus geographic classifier");
+  assert.equal(entry.name_analysis.translation_assessments.find((item) => item.chinese === "雷电如火燃烧").grade, "closest semantic paraphrase");
+  assert.equal(entry.name_analysis.translation_assessments.find((item) => item.chinese.includes("长矛")).literal_match, "weak");
 });
 
 test("Mapper exposes the named-entity label separately from ordinary mappings", () => {
   const mapper = fs.readFileSync(path.join(root, "js/semantic-mapper.js"), "utf8");
   assert.match(mapper, /Named Entity \/ Literary Entry/);
   assert.match(mapper, /Named Entity Forms/);
+  assert.match(mapper, /form\.code === "bo"/);
 });

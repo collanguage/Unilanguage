@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.0.2" },
+    "dataset_version": { "const": "1.0.3" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
@@ -43,6 +43,16 @@
           "type": "array",
           "items": { "enum": ["proper_name", "place", "named_entity"] },
           "uniqueItems": true
+        },
+        "name_analysis": {
+          "type": "object",
+          "required": ["tibetan_form", "wylie", "orthography_note", "morphemes", "chinese_name_assessment", "translation_assessments"],
+          "properties": {
+            "tibetan_form": { "type": "string", "minLength": 1 },
+            "wylie": { "type": "string", "minLength": 1 },
+            "morphemes": { "type": "array", "minItems": 1 },
+            "translation_assessments": { "type": "array", "minItems": 1 }
+          }
         },
         "title": { "$ref": "#/$defs/localized" },
         "languages": { "type": "array", "minItems": 2 },
