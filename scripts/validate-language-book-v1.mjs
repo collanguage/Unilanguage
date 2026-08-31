@@ -37,6 +37,7 @@ for (const entry of dataset.entries) {
   check(entry.literary_layer?.is_historical_evidence === false, `${entry.id}: literature must not be historical evidence`);
   check(entry.author === "Jinkai Liu", `${entry.id}: author must follow project convention`);
   check(Array.isArray(entry.search_terms) && entry.search_terms.length, `${entry.id}: search_terms required`);
+  if (entry.source) check(entry.source.type && entry.source.author && entry.source.status && entry.source.normalization && entry.source.raw_note, `${entry.id}: incomplete source/raw note`);
   for (const media of entry.media || []) {
     check(["archival image", "original manuscript", "illustration", "generated illustration", "research figure"].includes(media.type), `${entry.id}/${media.media_id}: invalid media type`);
     check(media.alt?.en && media.alt?.["zh-Hans"] && media.caption?.en && media.source && media.provenance, `${entry.id}/${media.media_id}: incomplete media provenance`);
@@ -49,6 +50,7 @@ for (const entry of dataset.entries) {
 }
 
 for (const slug of ["sky", "light", "at", "universe", "human", "sound"]) check(slugs.has(slug), `required migrated entry missing: ${slug}`);
+check(slugs.has("abbey"), "Dataset Expansion v1 sample missing: abbey");
 const at = dataset.entries.find((entry) => entry.slug === "at");
 check(at?.entry_status === "Published" && at?.mapping_status === "Candidate" && at?.historical_relation_status === "Not claimed", "AT status axes changed");
 check(at?.primary_mapping.source.pronunciation === "/æt/" && /tsaɪ̯/.test(at?.primary_mapping.target.pronunciation), "AT pronunciation observation changed");
@@ -58,6 +60,13 @@ const sky = dataset.entries.find((entry) => entry.slug === "sky");
 check(sky?.mapping_status === "Candidate" && sky?.semantic_structure.relation === "ABOVE → COVER", "Sky calibration boundary changed");
 const light = dataset.entries.find((entry) => entry.slug === "light");
 check(light?.entry_status === "Published" && light?.mapping_status === "Candidate" && light?.literary_layer.is_historical_evidence === false, "Light status/literary boundary changed");
+const abbey = dataset.entries.find((entry) => entry.slug === "abbey");
+check(abbey?.entry_status === "Reviewed" && abbey?.mapping_status === "Reviewed" && abbey?.mapping_level === "Unrated", "Abbey editorial/mapping classification changed");
+check(abbey?.primary_mapping.target.word === "修道院", "Abbey primary mapping must remain the standard Chinese equivalent");
+check(abbey?.historical_relation_status === "Not claimed" && abbey?.evidence?.Historical?.status === "Established", "Abbey historical word history must remain separate from cross-language historical relation");
+check(abbey?.evidence?.["Phonetic-Semantic"]?.confidence === "Low", "Abbey modern-form resemblance must remain low confidence");
+check(abbey?.literary_layer?.status === "Reviewed" && abbey?.literary_layer?.is_historical_evidence === false, "Abbey literary boundary changed");
+check(/蓓蕾/.test(abbey?.source?.raw_note || ""), "Abbey author source/raw note missing");
 
 if (errors.length) {
   console.error(`Language Book v1.0 validation failed (${errors.length}):`);

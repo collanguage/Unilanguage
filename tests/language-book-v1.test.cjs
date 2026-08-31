@@ -41,3 +41,20 @@ test("Sky and Light retain calibration boundaries", () => {
   assert.equal(light.mapping_status, "Candidate");
   assert.equal(light.literary_layer.is_historical_evidence, false);
 });
+
+test("Dataset Expansion v1 abbey sample separates lexical, historical, phonetic and literary claims", () => {
+  for (const query of ["abbey", "abbaye", "abbé", "abbesse", "修道院", "bi", "bei", "蓓蕾"]) {
+    assert.equal(dataApi.lookup(dataset, query).entry.slug, "abbey", `lookup failed for ${query}`);
+  }
+  const abbey = dataApi.lookup(dataset, "abbey").entry;
+  assert.equal(abbey.entry_status, "Reviewed");
+  assert.equal(abbey.mapping_status, "Reviewed");
+  assert.equal(abbey.mapping_level, "Unrated");
+  assert.equal(abbey.primary_mapping.target.word, "修道院");
+  assert.equal(abbey.historical_relation_status, "Not claimed");
+  assert.equal(abbey.evidence.Historical.status, "Established");
+  assert.equal(abbey.evidence["Phonetic-Semantic"].confidence, "Low");
+  assert.equal(abbey.literary_layer.status, "Reviewed");
+  assert.equal(abbey.literary_layer.is_historical_evidence, false);
+  assert.match(abbey.source.raw_note, /蓓蕾/);
+});

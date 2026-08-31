@@ -5,39 +5,44 @@
   "created_at": "2026-08-30",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
-  "entry_count": 9,
+  "entry_count": 10,
   "published_entry_count": 6,
   "candidate_mapping_count": 7,
   "files": [
     {
       "path": "data/language-book-entry.schema.v1.json",
-      "bytes": 4924,
-      "sha256": "6188b23389458bf0b80d5beae411bd6cfeddd52190c047ae9db5e2059da01ff7"
+      "bytes": 5449,
+      "sha256": "e9cf62195a2c4c2022fe6d22e7e5802e4165a0e35c6f5a68085f95bc8a71a348"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 148001,
-      "sha256": "9581c2b016f65f241b43befef6206ae2a0d59d6da27f12d76690e7b57803376b"
+      "bytes": 171657,
+      "sha256": "0fb31925fdb011d5a4d86696b87752eb721236ca4f91d438ab575662a14374d0"
+    },
+    {
+      "path": "data/entries/abbey.v1.json",
+      "bytes": 19277,
+      "sha256": "bafa0efa64425a40ec2e27774535f044d6c770ce642bbc0d3d7b4e5ce6a649a2"
     },
     {
       "path": "docs/language-book-entry-schema-v1.md",
-      "bytes": 8517,
-      "sha256": "c7f1e3a013f2748d073435c1ba3c6513ca5f40416609eac769afe3d75d1b1e49"
+      "bytes": 9533,
+      "sha256": "4a71fb2cbb29036c72450e3d0da53d915458dfa2a1c543d8f116c00187b42884"
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
-      "bytes": 23476,
-      "sha256": "de95a3f47c87670c8e20a95946d108900e292408ef62c7bdc3d914c0af7545eb"
+      "bytes": 24026,
+      "sha256": "7ab9effff8396654fc08128c208538128ab15c3dd3c5a5d6f8bf07973486ad61"
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 5508,
-      "sha256": "da6c7959e3c3a85e6e621963fb5b34287560c136a560036a7078b27fe6b39050"
+      "bytes": 6721,
+      "sha256": "067a824f4b81101553e2f4fc9725ef9a76907504552e61c1360fb0f0add1b10d"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
-      "bytes": 2046,
-      "sha256": "7ee60076846f956a95576da28fa7756c608686f129b9b5df756bdbda0269d6c7"
+      "bytes": 3007,
+      "sha256": "af1ddb1798c046c67861821a6e7b686b8e49e9698adfacd9038304ef1ddf295d"
     },
     {
       "path": "tests/package-g1.test.cjs",
@@ -71,8 +76,8 @@
     },
     {
       "path": "js/semantic-mapper.js",
-      "bytes": 11132,
-      "sha256": "ef87c0fc587b66d578a9455e98a47d688469cf11ec3542fbeee5d525f3c0565c"
+      "bytes": 12461,
+      "sha256": "6db926d1bc10e773296b152c0a2e1ff6c83a81bd91a1dc9d0c26acc0f2d17756"
     },
     {
       "path": "js/search.js",
@@ -81,8 +86,8 @@
     },
     {
       "path": "semantic-mapper.html",
-      "bytes": 3918,
-      "sha256": "4d802fe1aa871db5f92636d379c875b17fc662fd855f3cdddaa8ed30c0046230"
+      "bytes": 3987,
+      "sha256": "bbf433972949f8b62a61f67e80f8baea0e5cf91f4e9b4ee969bd8263737372cb"
     },
     {
       "path": "dictionary.html",
@@ -101,8 +106,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3808,
-      "sha256": "b98e04e09c6b9397161ab4d38fd7ad7bc799c5f2f615cff452855e4906aa059a"
+      "bytes": 4019,
+      "sha256": "c178cc92c0b09c55b83f3823af094d22e6286da63714e3c34375d61a251a54bc"
     },
     {
       "path": "sitemap.xml",

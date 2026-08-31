@@ -7,9 +7,21 @@
   const layer = (letter, title, description, content) => `<section class="classification-layer"><div class="layer-label">${letter}</div><div class="layer-content"><h3>${title}</h3><p class="layer-description">${description}</p>${content}</div></section>`;
   const empty = (message) => `<p class="empty-layer">${message}</p>`;
   const statusCard = (label, value, css = "candidate") => `<div class="status-card ${css}"><span>${label}</span><strong>${escapeHtml(value)}</strong></div>`;
+  const safeUrl = (value) => /^https:\/\//i.test(String(value || "")) ? String(value) : null;
 
   function evidenceCard(name, track) {
-    return `<article class="classification-object"><div class="object-heading"><span class="identity-badge">${escapeHtml(name)}</span><span class="status-chip">${escapeHtml(track.status)} · ${escapeHtml(track.confidence)}</span></div><p>${localized(track.summary)}</p><p><strong>Independent items · 独立对象：</strong> ${track.items.length} · <strong>Source refs · 来源：</strong> ${track.source_refs.length}</p></article>`;
+    const items = track.items.length ? `<div class="evidence-items">${track.items.map((item) => `<div class="evidence-item"><p><strong>${escapeHtml(item.evidence_id || "Evidence item")}</strong> <span class="status-chip">${escapeHtml(item.status || "Not evaluated")} · ${escapeHtml(item.confidence || "Unknown")}</span></p><p>${localized(item.claim)}</p></div>`).join("")}</div>` : "";
+    return `<article class="classification-object"><div class="object-heading"><span class="identity-badge">${escapeHtml(name)}</span><span class="status-chip">${escapeHtml(track.status)} · ${escapeHtml(track.confidence)}</span></div><p>${localized(track.summary)}</p>${items}<p><strong>Independent items · 独立对象：</strong> ${track.items.length} · <strong>Source refs · 来源：</strong> ${track.source_refs.length}</p></article>`;
+  }
+
+  function referencesCard(entry) {
+    const references = entry.references.map((item) => {
+      const url = safeUrl(item.url);
+      const title = url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a>` : escapeHtml(item.title);
+      return `<li>${title}<br><span class="small">${escapeHtml(item.type)} · ${escapeHtml(item.provenance)}</span></li>`;
+    }).join("");
+    const sourceNote = entry.source?.raw_note ? `<details class="source-note"><summary>Author source/raw note · 作者原始研究笔记</summary><p><strong>${escapeHtml(entry.source.status)}</strong></p><p>${escapeHtml(entry.source.normalization)}</p><p lang="zh-Hans">${escapeHtml(entry.source.raw_note)}</p></details>` : "";
+    return `<article class="classification-object"><p><strong>References · 参考：</strong> ${entry.references.length} · <strong>Media · 媒体：</strong> ${entry.media.length} · <strong>Author · 作者：</strong> ${escapeHtml(entry.author)}</p>${references ? `<ol>${references}</ol>` : ""}${sourceNote}${entry.page ? `<p><a href="${escapeHtml(entry.page)}">Open published/editorial page · 打开词条页面 →</a></p>` : ""}</article>`;
   }
 
   function hypothesisCard(item) {
@@ -37,7 +49,7 @@
         ${layer("E", "Hypotheses · 假说", "Consonantal, root, vowel and other candidate rules remain individually graded. · 辅音、词根、元音及其他候选规则逐条分级。", entry.hypotheses.length ? entry.hypotheses.map(hypothesisCard).join("") : empty("No hypothesis linked · 尚无关联假说"))}
         ${layer("F", "Experimental Validation · 实验验证", "An experiment tests a linked hypothesis; it does not inherit publication status. · 实验检验关联假说，不继承发表状态。", entry.experiments.length ? entry.experiments.map(experimentCard).join("") : empty("Not tested; absence is not negative evidence. · 尚未测试；没有实验不等于反证。"))}
         ${layer("G", "Literary Layer · 文学层", "Literature is preserved and searchable, but explicitly excluded from historical evidence. · 文学内容被保留并可检索，但明确排除于历史证据之外。", `<article class="classification-object note-object"><div class="object-heading"><span class="identity-badge identity-author-note">${escapeHtml(literature.status)}</span><span class="status-chip">Historical evidence: no</span></div><h4>${literature.proposition ? localized(literature.proposition) : "No proposition recorded · 未记录命题"}</h4><p>${localized(literature.evidence_boundary)}</p><p><strong>Prose · 散文：</strong> ${literature.essay_prose.length} · <strong>Poem/lyrics · 诗／歌词：</strong> ${literature.poem_lyrics.length} · <strong>Archive · 档案：</strong> ${literature.archival_manuscript_media.length}</p></article>`)}
-        ${layer("H", "Sources, Media and Entry · 来源、媒体与词条", "Unknown provenance remains unknown; it is never guessed. · 未知来源保持 unknown，不作猜测。", `<article class="classification-object"><p><strong>References · 参考：</strong> ${entry.references.length} · <strong>Media · 媒体：</strong> ${entry.media.length} · <strong>Author · 作者：</strong> ${escapeHtml(entry.author)}</p>${entry.page ? `<p><a href="${escapeHtml(entry.page)}">Open published/editorial page · 打开词条页面 →</a></p>` : ""}</article>`)}
+        ${layer("H", "Sources, Media and Entry · 来源、媒体与词条", "Unknown provenance remains unknown; it is never guessed. · 未知来源保持 unknown，不作猜测。", referencesCard(entry))}
       </div>`;
   }
 

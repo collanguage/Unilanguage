@@ -122,3 +122,9 @@ The canonical AT record contains additional references and literary/media object
 ## Editing and validation workflow
 
 Edit the migration source or a future data-authoring source, regenerate v1.0, run `validate-language-book-v1.mjs`, then run the browser-data tests and link checks. Do not bypass a failed validator. Missing evidence, dates or provenance remain `null`, `unknown`, `Not claimed` or `Not evaluated` as appropriate.
+
+## Dataset Expansion v1 workflow
+
+New reviewed records are authored one per file in `data/entries/*.v1.json`; `scripts/build-language-book-v1.mjs` sorts and merges them after the deterministic legacy migration. Each record must preserve the author's source/raw note, independently verify historical claims, use the standard lexical equivalent as `primary_mapping`, and keep phonetic observations, hypotheses and literature on their own status tracks. Search aliases belong in `search_terms`, including accented and unaccented forms when both are reasonable queries.
+
+Before adding a batch: compare stable IDs/slugs, leave unknown fields null or unclaimed, run the builder and validator, test English plus at least one non-English alias through `UnilanguageData.lookup`, run the full test suite and link checker, then regenerate the product manifest/checksums. A record may be Reviewed without being Published; a literary proposition may be Reviewed while its phonetic hypothesis remains Candidate or Unestablished.

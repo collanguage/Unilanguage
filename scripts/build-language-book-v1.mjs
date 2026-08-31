@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const legacy = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book.v0.6.json"), "utf8"));
 const out = path.join(root, "data", "language-book.v1.0.json");
+const authoredEntriesDirectory = path.join(root, "data", "entries");
 const today = "2026-08-30";
 const localized = (en, zh) => ({ en, "zh-Hans": zh });
 const clean = (values) => [...new Set(values.filter((value) => value !== null && value !== undefined && String(value).trim()).map(String))];
@@ -249,6 +250,16 @@ const atEntry = {
   page: "words/at.html", legacy: null,
 };
 entries.push(atEntry);
+
+// Dataset Expansion records live as independently reviewable authoring files.
+// The deterministic build keeps migration logic and new research records separate.
+const authoredEntries = fs.existsSync(authoredEntriesDirectory)
+  ? fs.readdirSync(authoredEntriesDirectory)
+      .filter((name) => name.endsWith(".v1.json"))
+      .sort()
+      .map((name) => JSON.parse(fs.readFileSync(path.join(authoredEntriesDirectory, name), "utf8")))
+  : [];
+entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",

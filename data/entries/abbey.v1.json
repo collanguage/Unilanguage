@@ -1,0 +1,214 @@
+{
+  "id": "LB-en-abbey-010",
+  "slug": "abbey",
+  "title": {
+    "en": "Abbey · Monastery · Bud",
+    "zh-Hans": "Abbey · 修道院 · 蓓蕾"
+  },
+  "languages": [
+    { "role": "source", "code": "en", "name": "English", "word": "abbey", "pronunciation": "/ˈæbi/" },
+    { "role": "historically-related-form", "code": "fr", "name": "French", "word": "abbaye", "pronunciation": "/a.be.i/" },
+    { "role": "historically-related-title", "code": "fr", "name": "French", "word": "abbé", "pronunciation": "/a.be/" },
+    { "role": "historically-related-title", "code": "fr", "name": "French", "word": "abbesse", "pronunciation": "/a.bɛs/" },
+    { "role": "target", "code": "zh-Hans", "name": "Chinese", "word": "修道院", "pronunciation": "xiūdàoyuàn" },
+    { "role": "phonetic-candidate", "code": "zh-Hans", "name": "Chinese", "word": "比", "pronunciation": "bǐ /pi˨˩˦/" },
+    { "role": "phonetic-candidate", "code": "zh-Hans", "name": "Chinese", "word": "笔", "pronunciation": "bǐ /pi˨˩˦/" },
+    { "role": "literary-candidate", "code": "zh-Hans", "name": "Chinese", "word": "蓓／蓓蕾", "pronunciation": "bèi /peɪ̯˥˩/ · bèilěi" }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-abbey-primary-xiudaoyuan",
+    "source": { "language": "English", "word": "abbey", "pronunciation": "/ˈæbi/" },
+    "target": { "language": "Chinese", "word": "修道院", "pronunciation": "xiūdàoyuàn" },
+    "gloss": {
+      "en": "A monastery or convent governed by an abbot or abbess; also its buildings or church",
+      "zh-Hans": "由男修道院院长或女修道院院长主持的修道院，也可指其建筑或教堂"
+    },
+    "meaning": {
+      "en": "The primary Chinese lexical equivalent is 修道院. 比, 笔 and 蓓 are not standard translations.",
+      "zh-Hans": "主要汉语词义对应是“修道院”；“比”“笔”“蓓”都不是标准翻译。"
+    },
+    "mapping_type": "Reviewed lexical equivalent",
+    "rationale": {
+      "en": "Authoritative English and French dictionaries define the word as a monastic institution. The Chinese target records that ordinary lexical meaning; sound and literary candidates remain separate observations.",
+      "zh-Hans": "权威英语、法语词典均把该词定义为修道制度中的机构。汉语目标记录普通词义对应；声音候选与文学候选另轨保存。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Reviewed",
+  "mapping_level": "Unrated",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "English abbey came through Middle English and Anglo-French from Medieval Latin abbātia. The base title abbās/abbot ultimately reflects Aramaic abba ‘father’ through ecclesiastical Greek and Christian Latin. This supports an indirect historical connection to Abba, not a direct borrowing from a modern Jewish form and not a relation to Chinese bi/bei.",
+        "zh-Hans": "英语 abbey 经中古英语和盎格鲁-法语进入，来源是中世纪拉丁语 abbātia。其基础称谓 abbās／abbot 又经教会希腊语和基督教拉丁语上溯至阿拉米语 abba“父亲”。这说明它与 Abba 有间接的深层词史联系，并非直接借自某个现代犹太教形式，也不证明与汉语 bi／bei 有历史关系。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-ABBEY-001",
+          "claim": { "en": "Middle English abbeye/abbay was borrowed from Anglo-French abeie/abbaye, from Medieval Latin abbātia.", "zh-Hans": "中古英语 abbeye／abbay 借自盎格鲁-法语 abeie／abbaye，后者来自中世纪拉丁语 abbātia。" },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": ["REF-MW-ABBEY", "REF-CNRTL-ABBAYE"]
+        },
+        {
+          "evidence_id": "HIST-ABBA-002",
+          "claim": { "en": "French abbé comes from Christian Latin abbās, transmitted through ecclesiastical Greek from Aramaic abba ‘father’; abbaye is derived from that abbatial title through Latin abbātia.", "zh-Hans": "法语 abbé 来自基督教拉丁语 abbās；该称谓经教会希腊语源自阿拉米语 abba“父亲”。abbaye 则经拉丁语 abbātia 从这一院长称谓派生。" },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": ["REF-AF-ABBE", "REF-AF-ABBAYE", "REF-CNRTL-ABBE"]
+        },
+        {
+          "evidence_id": "HIST-ABBESSE-003",
+          "claim": { "en": "French abbesse is borrowed from Christian Latin abbatissa, a derivative of abbas, and names the female head of an abbey.", "zh-Hans": "法语 abbesse 借自基督教拉丁语 abbatissa，是 abbas 的派生词，指女修道院院长。" },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": ["REF-AF-ABBESSE", "REF-CNRTL-ABBESSE"]
+        }
+      ],
+      "source_refs": ["REF-MW-ABBEY", "REF-CNRTL-ABBAYE", "REF-AF-ABBAYE", "REF-AF-ABBE", "REF-CNRTL-ABBE", "REF-AF-ABBESSE", "REF-CNRTL-ABBESSE"]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Modern abbey /ˈæbi/ has a surface-final resemblance to Mandarin bǐ /pi/; French abbaye /a.be.i/ and abbé /a.be/ can also sound loosely similar to bi/bei. These are non-systematic modern-form resemblances. 比 and 笔 lack the required lexical meaning; 蓓 gains relevance only through a literary metaphor.",
+        "zh-Hans": "现代英语 abbey /ˈæbi/ 的词尾与普通话 bǐ /pi/ 有表面近似；法语 abbaye /a.be.i/、abbé /a.be/ 与 bi／bei 也可能产生宽泛听感近似。这些都不是系统音变。“比”“笔”缺少所需词义，“蓓”只通过文学隐喻获得关联。"
+      },
+      "items": [
+        { "evidence_id": "PHONSEM-ABBEY-BI-001", "claim": { "en": "abbey-final /bi/ and 比/笔 bǐ /pi/ share a high front vowel and a labial stop, but differ in voicing/phonological system, syllable position and Mandarin tone.", "zh-Hans": "abbey 词尾 /bi/ 与“比／笔”bǐ /pi/ 共享高前元音与唇塞音，但在浊音／音系、音节位置及普通话声调上不同。" }, "status": "Candidate", "confidence": "Low", "source_refs": ["REF-CAMBRIDGE-ABBEY", "REF-JL-ABBEY-RAW"] },
+        { "evidence_id": "PHONSEM-ABBAYE-BEI-002", "claim": { "en": "French abbaye /a.be.i/ and 蓓 bèi /peɪ̯/ offer a loose auditory resemblance, but no regular historical correspondence or independent lexical-semantic match has been shown.", "zh-Hans": "法语 abbaye /a.be.i/ 与“蓓”bèi /peɪ̯/ 有宽泛听感近似，但尚无规律历史对应或独立词义对应。" }, "status": "Candidate", "confidence": "Low", "source_refs": ["REF-JL-ABBEY-RAW"] }
+      ],
+      "source_refs": ["REF-CAMBRIDGE-ABBEY", "REF-JL-ABBEY-RAW"]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Low",
+      "summary": {
+        "en": "The standard concept is a monastic institution/community. Spiritual cultivation as growth is a plausible interpretive frame, but the bud-to-rose transformation belongs to the literary layer.",
+        "zh-Hans": "标准概念是修道机构／共同体。“灵魂修持如成长”可作解释性框架，但“蓓蕾长成玫瑰”的转换属于文学层。"
+      },
+      "items": [],
+      "source_refs": ["REF-CAMBRIDGE-ABBEY", "REF-MW-ABBEY", "REF-JL-ABBEY-RAW"]
+    },
+    "Speculative": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "The 比, 笔 and 蓓 comparisons are retained as separately graded author observations. None is historical evidence or a replacement for 修道院.",
+        "zh-Hans": "“比”“笔”“蓓”的比较作为分别分级的作者观察保留；均不是历史证据，也不替代“修道院”。"
+      },
+      "items": [
+        { "evidence_id": "SPEC-ABBEY-BI-001", "claim": { "en": "比 bǐ is a phonetic candidate only; no supporting abbey-related lexical meaning is recorded.", "zh-Hans": "“比”bǐ 仅为声音候选；未记录与修道院相关的支持性词义。" }, "status": "Candidate", "confidence": "Low", "source_refs": ["REF-JL-ABBEY-RAW"] },
+        { "evidence_id": "SPEC-ABBEY-PEN-002", "claim": { "en": "笔 bǐ is a weak/speculative observation. The proposed ‘using a pen’ interpretation lacks an independently established semantic bridge to abbey.", "zh-Hans": "“笔”bǐ 是弱／推测性观察。“用笔”的解释缺少独立成立的语义桥梁。" }, "status": "Unestablished", "confidence": "High", "source_refs": ["REF-JL-ABBEY-RAW"] },
+        { "evidence_id": "SPEC-ABBEY-BUD-003", "claim": { "en": "蓓 bèi / 蓓蕾 is a literary phonetic-semantic association: an abbey imagined as a place where the soul develops like a rosebud.", "zh-Hans": "“蓓”bèi／“蓓蕾”是文学性的声音—语义联想：把修道院想象为灵魂如玫瑰蓓蕾般成长之所。" }, "status": "Interpretive", "confidence": "Low", "source_refs": ["REF-JL-ABBEY-RAW"] }
+      ],
+      "source_refs": ["REF-JL-ABBEY-RAW"]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-ABBEY-BI-001",
+      "claim": { "en": "English abbey /ˈæbi/ ends in /bi/, while Mandarin 比 and 笔 are bǐ /pi˨˩˦/.", "zh-Hans": "英语 abbey /ˈæbi/ 以 /bi/ 结尾；普通话“比”“笔”为 bǐ /pi˨˩˦/。" },
+      "status": "Candidate",
+      "limitations": { "en": "This is a surface resemblance, not a demonstrated sound law. English /b/ and Mandarin pinyin b represent different phonetic categories, and Mandarin tone has no counterpart here.", "zh-Hans": "这是表面音似，不是已证明的音变规律。英语 /b/ 与普通话拼音 b 所代表的语音范畴不同，普通话声调在此也无对应。" }
+    },
+    {
+      "observation_id": "PHON-ABBAYE-BEI-002",
+      "claim": { "en": "French abbaye /a.be.i/, abbé /a.be/ and abbesse /a.bɛs/ share the historical abb-/ab- family; 蓓 bèi /peɪ̯˥˩/ only resembles part of these modern sounds.", "zh-Hans": "法语 abbaye /a.be.i/、abbé /a.be/、abbesse /a.bɛs/ 属于有词史关系的 abb-／ab- 词族；“蓓”bèi /peɪ̯˥˩/ 只与部分现代音形近似。" },
+      "status": "Candidate",
+      "limitations": { "en": "The relation among the French forms is historical; their resemblance to Chinese bei is not. Surface similarity must not be transferred across those two claims.", "zh-Hans": "法语各形式之间有历史关系；它们与汉语 bei 的近似没有已证历史关系。不能把前一事实转移成后一结论。" }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": ["RELIGIOUS INSTITUTION", "MONASTIC COMMUNITY", "SPIRITUAL CULTIVATION", "GROWTH"],
+    "relation": "RELIGIOUS INSTITUTION → MONASTIC COMMUNITY; literary extension: SPIRITUAL CULTIVATION → GROWTH",
+    "status": "Interpretive"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-ABBEY-BI-001",
+      "type": "Modern-form phonetic candidate",
+      "claim": { "en": "The final syllable of abbey may invite a phonetic association with 比 bǐ, without a semantic or historical claim.", "zh-Hans": "abbey 的末音节可能引发与“比”bǐ 的声音联想，但不提出语义或历史关系主张。" },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": ["abbey /ˈæbi/", "比 bǐ /pi˨˩˦/"],
+      "counterexamples": ["No abbey-related lexical meaning in 比", "English voicing vs Mandarin aspiration contrast", "Unmatched tone and first syllable"],
+      "testability": { "en": "Use blinded similarity ratings with unrelated /bi, pi, bei/ controls; semantic support must be tested separately.", "zh-Hans": "可用盲法相似度评分，并加入无关 /bi、pi、bei/ 负对照；语义支持必须另行检验。" },
+      "experiment_link": null,
+      "source_refs": ["REF-JL-ABBEY-RAW"]
+    },
+    {
+      "hypothesis_id": "UNI-ABBEY-PEN-002",
+      "type": "Weak semantic candidate / negative-control-like observation",
+      "claim": { "en": "笔 bǐ may be heard as similar to abbey-final /bi/, but ‘using a pen’ does not currently supply a supported abbey meaning.", "zh-Hans": "“笔”bǐ 在听感上可能接近 abbey 词尾 /bi/，但“用笔”目前不能提供有支持的修道院词义。" },
+      "status": "Unestablished",
+      "confidence": "High",
+      "supporting_cases": ["abbey /ˈæbi/", "笔 bǐ /pi˨˩˦/"],
+      "counterexamples": ["No independent semantic bridge", "Many unrelated words can share /bi/-like syllables", "Not a standard translation"],
+      "testability": { "en": "Require a preregistered semantic criterion and negative controls before promotion; otherwise retain as a weak observation.", "zh-Hans": "升级前须预先注册语义判据并设置负对照；否则只保留为弱观察。" },
+      "experiment_link": null,
+      "source_refs": ["REF-JL-ABBEY-RAW"]
+    },
+    {
+      "hypothesis_id": "UNI-ABBAYE-BUD-003",
+      "type": "Literary phonetic-semantic association",
+      "claim": { "en": "Abbaye/abbey and 蓓 bèi can support a literary image of an abbey as a place where the soul grows like a bud, without etymological force.", "zh-Hans": "abbaye／abbey 与“蓓”bèi 可支持“修道院如灵魂蓓蕾成长之所”的文学意象，但不具有词源证明力。" },
+      "status": "Interpretive",
+      "confidence": "Low",
+      "supporting_cases": ["abbaye /a.be.i/", "蓓 bèi /peɪ̯˥˩/", "author's bud/rose metaphor"],
+      "counterexamples": ["No demonstrated historical correspondence", "蓓蕾 is not the standard translation of abbey", "Metaphorical meaning supplied by the author"],
+      "testability": { "en": "Evaluate as literary reception or mnemonic association, not as an etymological hypothesis.", "zh-Hans": "应作为文学接受或记忆联想评价，而不是词源假说。" },
+      "experiment_link": null,
+      "source_refs": ["REF-JL-ABBEY-RAW"]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Reviewed",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "An abbey is a place where the soul is cultivated like a bud opening toward a rose.",
+      "zh-Hans": "修道院如灵魂的蓓蕾之所，在修持中向玫瑰生长。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The bud, rose and spiritual-growth image is authored literature. It is searchable and preserved, but it is not lexical translation, historical etymology or independent semantic evidence.",
+      "zh-Hans": "蓓蕾、玫瑰与灵魂成长的意象属于作者文学创作。它可检索、被保留，但不是词义翻译、历史词源或独立语义证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    { "reference_id": "REF-JL-ABBEY-RAW", "title": "Jinkai Liu: abbey source/raw research note", "type": "author research note", "url": null, "path": null, "provenance": "author-provided in conversation; normalized spelling and decoded HTML entities; research ideas preserved" },
+    { "reference_id": "REF-MW-ABBEY", "title": "Merriam-Webster Dictionary: abbey", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/abbey", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
+    { "reference_id": "REF-CAMBRIDGE-ABBEY", "title": "Cambridge Dictionary: abbey", "type": "dictionary", "url": "https://dictionary.cambridge.org/dictionary/english/abbey", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
+    { "reference_id": "REF-CNRTL-ABBAYE", "title": "CNRTL/TLFi: étymologie de abbaye", "type": "historical dictionary", "url": "https://www.cnrtl.fr/etymologie/abbaye", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" },
+    { "reference_id": "REF-AF-ABBAYE", "title": "Dictionnaire de l’Académie française, 9e édition: abbaye", "type": "dictionary", "url": "https://www.cnrtl.fr/definition/academie9/abbaye", "path": null, "provenance": "Académie française dictionary text via CNRTL; accessed 2026-08-30" },
+    { "reference_id": "REF-AF-ABBE", "title": "Dictionnaire de l’Académie française, 9e édition: abbé", "type": "dictionary", "url": "https://www.cnrtl.fr/definition/academie9/abb%C3%A9", "path": null, "provenance": "Académie française dictionary text via CNRTL; accessed 2026-08-30" },
+    { "reference_id": "REF-CNRTL-ABBE", "title": "CNRTL/TLFi: abbé", "type": "historical dictionary", "url": "https://www.cnrtl.fr/definition/abbe", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" },
+    { "reference_id": "REF-AF-ABBESSE", "title": "Dictionnaire de l’Académie française, 9e édition: abbesse", "type": "dictionary", "url": "https://www.cnrtl.fr/definition/academie9/abbesse", "path": null, "provenance": "Académie française dictionary text via CNRTL; accessed 2026-08-30" },
+    { "reference_id": "REF-CNRTL-ABBESSE", "title": "CNRTL/TLFi: étymologie de abbesse", "type": "historical dictionary", "url": "https://www.cnrtl.fr/etymologie/abbesse", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Dataset Expansion v1 sample / Schema v1.0",
+  "dates": { "created": "2026-08-30", "modified": "2026-08-30", "published": null },
+  "editorial_notes": [
+    { "en": "Entry review and historical-source review do not promote the Chinese sound candidates.", "zh-Hans": "词条审核与历史来源核验不会自动升级汉语声音候选。" },
+    { "en": "The primary mapping is the ordinary lexical equivalent 修道院; mapping level is Unrated because A–D grading is not being used to manufacture a cross-language sound claim.", "zh-Hans": "主要 Mapping 是普通词义对应“修道院”；Mapping Level 记为 Unrated，避免用 A–D 等级制造跨语言声音主张。" }
+  ],
+  "search_terms": ["abbey", "abbeys", "abbaye", "abbé", "abbe", "abbesse", "修道院", "修道", "monastery", "convent", "abbot", "abbess", "abba", "阿爸", "阿比", "比", "bi", "笔", "筆", "蓓", "bei", "蓓蕾", "玫瑰", "灵魂修持", "靈魂修持", "spiritual cultivation", "rosebud", "RELIGIOUS INSTITUTION", "MONASTIC COMMUNITY"],
+  "page": null,
+  "legacy": null,
+  "source": {
+    "type": "author-provided raw research note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "French spelling normalized to abbaye/abbé/abbesse and HTML entities decoded; the research ideas are not overwritten.",
+    "raw_note": "英语：abbey ['æbi] n. 修道院。法语：abbaye n. 修道院；abbé n. 修道院院长；abbesse n. 女修道院院长。汉语候选：比 bi；笔 bi；以及文学候选‘蓓 bei／蓓蕾’。解释：这个词应该从犹太教的阿比而来。而比或许是用笔 bi 的意思。或者解释成蓓 bei、蓓蕾；这里用一个蓓蕾的蓓字对应，因为修道院是人的灵魂的修持，而生长出绚丽的玫瑰的蓓蕾的圣所。"
+  }
+}

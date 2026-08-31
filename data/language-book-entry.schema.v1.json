@@ -81,6 +81,18 @@
         "dates": { "type": "object", "required": ["created", "modified", "published"] },
         "editorial_notes": { "type": "array", "items": { "$ref": "#/$defs/localized" } },
         "search_terms": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "source": {
+          "type": "object",
+          "required": ["type", "author", "status", "normalization", "raw_note"],
+          "properties": {
+            "type": { "type": "string", "minLength": 1 },
+            "author": { "type": "string", "minLength": 1 },
+            "status": { "type": "string", "minLength": 1 },
+            "normalization": { "type": "string", "minLength": 1 },
+            "raw_note": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": false
+        },
         "page": { "type": ["string", "null"] },
         "legacy": { "type": ["object", "null"] }
       }

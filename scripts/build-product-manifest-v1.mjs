@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const files = [
   "data/language-book-entry.schema.v1.json", "data/language-book.v1.0.json",
+  "data/entries/abbey.v1.json",
   "docs/language-book-entry-schema-v1.md", "scripts/build-language-book-v1.mjs",
   "scripts/validate-language-book-v1.mjs", "tests/language-book-v1.test.cjs",
   "tests/package-g1.test.cjs", "tests/package-g3.test.cjs", "tests/package-g4-light.test.cjs",
