@@ -67,6 +67,14 @@ check(abbey?.historical_relation_status === "Not claimed" && abbey?.evidence?.Hi
 check(abbey?.evidence?.["Phonetic-Semantic"]?.confidence === "Low", "Abbey modern-form resemblance must remain low confidence");
 check(abbey?.literary_layer?.status === "Reviewed" && abbey?.literary_layer?.is_historical_evidence === false, "Abbey literary boundary changed");
 check(/蓓蕾/.test(abbey?.source?.raw_note || ""), "Abbey author source/raw note missing");
+const aberrant = dataset.entries.find((entry) => entry.slug === "aberrant");
+check(aberrant?.entry_status === "Reviewed" && aberrant?.mapping_status === "Reviewed", "Aberrant lexical mapping classification changed");
+check(aberrant?.primary_mapping?.target?.word === "反常的／偏离常规的", "Aberrant primary mapping must remain adjectival and ordinary");
+check(aberrant?.historical_relation_status === "Not claimed" && aberrant?.evidence?.Historical?.status === "Established", "Aberrant historical family must remain separate from cross-language relation");
+check(aberrant?.evidence?.["Phonetic-Semantic"]?.status === "Candidate", "err ↔ 讹 must remain Candidate");
+check(aberrant?.evidence?.Speculative?.status === "Rejected", "consonant-bridge account must remain rejected historically");
+check(aberrant?.literary_layer?.is_historical_evidence === false, "Aberrant literature must not become historical evidence");
+check(/天鹅/.test(aberrant?.source?.raw_note || ""), "Aberrant author source/raw note missing");
 
 if (errors.length) {
   console.error(`Language Book v1.0 validation failed (${errors.length}):`);

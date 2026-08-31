@@ -58,3 +58,20 @@ test("Dataset Expansion v1 abbey sample separates lexical, historical, phonetic 
   assert.equal(abbey.literary_layer.is_historical_evidence, false);
   assert.match(abbey.source.raw_note, /蓓蕾/);
 });
+
+test("Dataset Expansion v1 aberrant sample keeps morphology, word class and err ↔ 讹 candidate separate", () => {
+  for (const query of ["aberrant", "err", "erreur", "aberrante", "讹", "错讹", "错误", "荒谬"]) {
+    assert.equal(dataApi.lookup(dataset, query).entry.slug, "aberrant", `lookup failed for ${query}`);
+  }
+  const aberrant = dataApi.lookup(dataset, "aberrant").entry;
+  assert.equal(aberrant.entry_status, "Reviewed");
+  assert.equal(aberrant.mapping_status, "Reviewed");
+  assert.equal(aberrant.primary_mapping.target.word, "反常的／偏离常规的");
+  assert.equal(aberrant.historical_relation_status, "Not claimed");
+  assert.equal(aberrant.evidence.Historical.status, "Established");
+  assert.equal(aberrant.evidence["Phonetic-Semantic"].status, "Candidate");
+  assert.equal(aberrant.evidence.Speculative.status, "Rejected");
+  assert.equal(aberrant.hypotheses.find((item) => item.hypothesis_id === "UNI-ABERRANT-BRIDGE-B-002").status, "Rejected");
+  assert.equal(aberrant.literary_layer.is_historical_evidence, false);
+  assert.match(aberrant.source.raw_note, /天鹅/);
+});

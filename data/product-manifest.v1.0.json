@@ -5,7 +5,7 @@
   "created_at": "2026-08-30",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
-  "entry_count": 10,
+  "entry_count": 11,
   "published_entry_count": 6,
   "candidate_mapping_count": 7,
   "files": [
@@ -16,13 +16,18 @@
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 171657,
-      "sha256": "0fb31925fdb011d5a4d86696b87752eb721236ca4f91d438ab575662a14374d0"
+      "bytes": 193307,
+      "sha256": "880db9621eef649d27dbb8571685c5fb5c418702e961e11adccefa309cdf2d79"
     },
     {
       "path": "data/entries/abbey.v1.json",
       "bytes": 19277,
       "sha256": "bafa0efa64425a40ec2e27774535f044d6c770ce642bbc0d3d7b4e5ce6a649a2"
+    },
+    {
+      "path": "data/entries/aberrant.v1.json",
+      "bytes": 17259,
+      "sha256": "8b61ab25e5f317e0124fad7ffffac77c81de04665adf8f443eff90a67d141bb4"
     },
     {
       "path": "docs/language-book-entry-schema-v1.md",
@@ -36,13 +41,13 @@
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 6721,
-      "sha256": "067a824f4b81101553e2f4fc9725ef9a76907504552e61c1360fb0f0add1b10d"
+      "bytes": 7748,
+      "sha256": "9c636907750e551005d78c0c28c9956caff6b006ba55ad1a52848afa3d8a742f"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
-      "bytes": 3007,
-      "sha256": "af1ddb1798c046c67861821a6e7b686b8e49e9698adfacd9038304ef1ddf295d"
+      "bytes": 4116,
+      "sha256": "b406a7b477bfa86806ded10d877ff85571368e2468907037edaf2afcf3fcac05"
     },
     {
       "path": "tests/package-g1.test.cjs",
@@ -86,8 +91,8 @@
     },
     {
       "path": "semantic-mapper.html",
-      "bytes": 3987,
-      "sha256": "bbf433972949f8b62a61f67e80f8baea0e5cf91f4e9b4ee969bd8263737372cb"
+      "bytes": 3983,
+      "sha256": "cea66c52bc9c274017be5a6fd47bb53733886345a5c80c1a7af403bf296fc5ff"
     },
     {
       "path": "dictionary.html",
@@ -106,8 +111,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4019,
-      "sha256": "c178cc92c0b09c55b83f3823af094d22e6286da63714e3c34375d61a251a54bc"
+      "bytes": 4203,
+      "sha256": "86dae794c1e6b057c7ecff4c613fd249079d50ac805290265588dd4bb71e9a21"
     },
     {
       "path": "sitemap.xml",

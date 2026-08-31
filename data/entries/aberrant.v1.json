@@ -1,0 +1,141 @@
+{
+  "id": "LB-en-aberrant-011",
+  "slug": "aberrant",
+  "title": { "en": "Aberrant · Err · Error", "zh-Hans": "Aberrant · 错讹 · 反常" },
+  "languages": [
+    { "role": "source", "code": "en", "name": "English", "word": "aberrant", "pronunciation": "/əˈberənt/; also /ˈæbərənt/" },
+    { "role": "historically-related-root-family", "code": "en", "name": "English", "word": "err", "pronunciation": "/er/ or /ɜːr/" },
+    { "role": "historically-related-form", "code": "fr", "name": "French", "word": "aberrant / aberrante", "pronunciation": "/a.bɛ.ʁɑ̃/ · /a.bɛ.ʁɑ̃t/" },
+    { "role": "historically-related-root-family", "code": "fr", "name": "French", "word": "erreur", "pronunciation": "/ɛ.ʁœʁ/" },
+    { "role": "target", "code": "zh-Hans", "name": "Chinese", "word": "反常的／偏离常规的", "pronunciation": "fǎncháng de / piānlí chángguī de" },
+    { "role": "phonetic-semantic-candidate", "code": "zh-Hans", "name": "Chinese", "word": "讹", "pronunciation": "é /ɤ˧˥/" }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-aberrant-primary-fanchang",
+    "source": { "language": "English", "word": "aberrant", "pronunciation": "/əˈberənt/; also /ˈæbərənt/" },
+    "target": { "language": "Chinese", "word": "反常的／偏离常规的", "pronunciation": "fǎncháng de / piānlí chángguī de" },
+    "gloss": { "en": "Departing from an accepted standard, normal course or natural type; atypical", "zh-Hans": "偏离公认标准、正常路径或通常类型的；反常的、异常的" },
+    "meaning": { "en": "Aberrant is primarily an adjective, not the ordinary noun for an error. Chinese 讹 is a semantic neighbour and sound candidate, not the primary translation.", "zh-Hans": "aberrant 主要是形容词，并非普通名词“错误”。汉语“讹”是语义邻近项和声音候选，不是主要翻译。" },
+    "mapping_type": "Reviewed lexical equivalent",
+    "rationale": { "en": "Dictionary meaning and part of speech support 反常的／偏离常规的. The separate err ↔ 讹 comparison remains a candidate hypothesis.", "zh-Hans": "词典义与词性支持“反常的／偏离常规的”；err ↔ 讹的比较另列为候选假说。" }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Reviewed",
+  "mapping_level": "Unrated",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": { "en": "English aberrant comes from Latin aberrant-, aberrans, the present participle of aberrare: ab- ‘away, from’ + errare ‘wander, stray, be mistaken’. French aberrant/aberrante is the adjectivized present participle of French aberrer, itself borrowed from Latin aberrare; it is not evidenced here as an English loan. French erreur continues Latin error, erroris.", "zh-Hans": "英语 aberrant 来自拉丁语 aberrant-、aberrans，即 aberrare 的现在分词：ab-“离开、从” + errare“游荡、偏离、犯错”。法语 aberrant／aberrante 是法语 aberrer 的形容词化现在分词，而 aberrer 借自拉丁语 aberrare；没有证据支持它从英语借入。法语 erreur 承自拉丁语 error、erroris。" },
+      "items": [
+        { "evidence_id": "HIST-ABERRANT-EN-001", "claim": { "en": "English aberrant is chiefly an adjective borrowed from Latin aberrant-, aberrans, present participle of aberrare.", "zh-Hans": "英语 aberrant 主要是形容词，借自拉丁语 aberrant-、aberrans，即 aberrare 的现在分词。" }, "status": "Established", "confidence": "High", "source_refs": ["REF-MW-ABERRANT", "REF-OALD-ABERRANT"] },
+        { "evidence_id": "HIST-ABERRANT-MORPH-002", "claim": { "en": "Latin aberrare is morphologically ab- ‘away/from’ + errare ‘wander, stray, err’; the b belongs to the inherited prefix ab-.", "zh-Hans": "拉丁语 aberrare 的形态是 ab-“离开／从” + errare“游荡、偏离、犯错”；b 属于继承的前缀 ab-。" }, "status": "Established", "confidence": "High", "source_refs": ["REF-MW-ABERRANT", "REF-OALD-ABERRANT"] },
+        { "evidence_id": "HIST-ABERRANT-FR-003", "claim": { "en": "French aberrant/aberrante is an adjectivized present participle of aberrer; French aberrer was borrowed from Latin aberrare.", "zh-Hans": "法语 aberrant／aberrante 是 aberrer 的形容词化现在分词；法语 aberrer 借自拉丁语 aberrare。" }, "status": "Established", "confidence": "High", "source_refs": ["REF-AF-ABERRANT", "REF-CNRTL-ABERRANT", "REF-CNRTL-ABERRER"] },
+        { "evidence_id": "HIST-ERR-FAMILY-004", "claim": { "en": "English err is a verb from Middle English erren, borrowed from Anglo-French and Latin errare; French erreur is a feminine noun from Latin error, erroris.", "zh-Hans": "英语 err 是动词，来自中古英语 erren，经盎格鲁-法语和拉丁语 errare；法语 erreur 是阴性名词，来自拉丁语 error、erroris。" }, "status": "Established", "confidence": "High", "source_refs": ["REF-MW-ERR", "REF-CNRTL-ERREUR"] }
+      ],
+      "source_refs": ["REF-MW-ABERRANT", "REF-OALD-ABERRANT", "REF-AF-ABERRANT", "REF-CNRTL-ABERRANT", "REF-CNRTL-ABERRER", "REF-MW-ERR", "REF-CNRTL-ERREUR"]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": { "en": "English err and Mandarin 讹 é occupy a related error/deviation semantic field and may sound loosely similar. Their actual pronunciations are not identical: English has an r-coloured or vowel-plus-/r/ form depending on accent, while Mandarin é /ɤ˧˥/ is non-rhotic and bears lexical tone. No regular correspondence or common origin is claimed.", "zh-Hans": "英语 err 与普通话“讹”é 同处错误／偏离语义场，也可能产生宽泛音近感。但实际发音并不相同：英语依口音具有卷舌色彩或元音加 /r/，普通话 é /ɤ˧˥/ 不卷舌且带词汇声调。这里不主张规律音变或共同来源。" },
+      "items": [
+        { "evidence_id": "PHONSEM-ERR-E-001", "claim": { "en": "err ↔ 讹 é is a modern-form phonetic-semantic candidate: both can concern mistake/error, but sound overlap is partial and accent-dependent.", "zh-Hans": "err ↔ 讹 é 是现代词形的语音—语义候选：两者都可涉及错误，但声音重合仅属部分且受英语口音影响。" }, "status": "Candidate", "confidence": "Low", "source_refs": ["REF-MW-ERR", "REF-MOE-E", "REF-JL-ABERRANT-RAW"] }
+      ],
+      "source_refs": ["REF-MW-ERR", "REF-MOE-E", "REF-JL-ABERRANT-RAW"]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": { "en": "The historically attested motion image ‘wander away’ supports a cognitive path DEPARTURE → DEVIATION → ERROR/ABNORMALITY. This explains a shared semantic neighbourhood, not a Chinese–European etymological relation.", "zh-Hans": "历史可证的运动意象“游荡离开”支持 DEPARTURE → DEVIATION → ERROR／ABNORMALITY 的认知路径。这解释共享语义邻域，不证明汉语与欧洲语言的词源关系。" },
+      "items": [],
+      "source_refs": ["REF-MW-ABERRANT", "REF-MW-ERR", "REF-MOE-E"]
+    },
+    "Speculative": {
+      "status": "Rejected",
+      "confidence": "High",
+      "summary": { "en": "The proposed idea that b was inserted merely to connect initial a to err is rejected as a historical explanation: b is part of Latin ab-. The observation is preserved as an author sound-structure hypothesis, not deleted.", "zh-Hans": "“b 只是为连接开头 a 与 err 而加入”的想法，作为历史解释被否定：b 属于拉丁前缀 ab-。这一观察仍作为作者的声音结构假说保留，而非删除。" },
+      "items": [
+        { "evidence_id": "SPEC-ABERRANT-B-001", "claim": { "en": "Author hypothesis: b may have been inserted between a and err as a consonantal bridge.", "zh-Hans": "作者假说：b 可能作为辅音桥梁插入 a 与 err 之间。" }, "status": "Rejected", "confidence": "High", "source_refs": ["REF-JL-ABERRANT-RAW", "REF-MW-ABERRANT", "REF-OALD-ABERRANT"] }
+      ],
+      "source_refs": ["REF-JL-ABERRANT-RAW", "REF-MW-ABERRANT", "REF-OALD-ABERRANT"]
+    }
+  },
+  "phonetic_observation": [
+    { "observation_id": "PHON-ERR-E-001", "claim": { "en": "English err /er, ɜːr/ and Mandarin 讹 é /ɤ˧˥/ share an onsetless vowel-centred impression for some listeners and overlap semantically around error.", "zh-Hans": "英语 err /er, ɜːr/ 与普通话“讹”é /ɤ˧˥/ 对部分听者有以元音为中心的近似听感，语义又都涉及错误。" }, "status": "Candidate", "limitations": { "en": "English rhoticity, vowel quality and Mandarin lexical tone differ; ‘same sound’ overstates the comparison.", "zh-Hans": "英语卷舌性、元音音质与普通话词汇声调均不同；称为“同音”会夸大比较。" } }
+  ],
+  "semantic_structure": {
+    "concepts": ["DEPARTURE", "WANDERING", "DEVIATION", "ERROR", "ABNORMALITY"],
+    "relation": "DEPARTURE → WANDERING → DEVIATION → ERROR / ABNORMALITY",
+    "status": "Supported"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-ERR-E-001",
+      "type": "Cross-language phonetic-semantic candidate",
+      "claim": { "en": "English err and Mandarin 讹 é may form a memorable modern sound-meaning association in the ERROR/DEVIATION field, without common-origin claim.", "zh-Hans": "英语 err 与普通话“讹”é 可能在 ERROR／DEVIATION 语义场形成可记忆的现代声音—意义联想，但不主张共同来源。" },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": ["err /er, ɜːr/: make a mistake; stray", "讹 é /ɤ˧˥/: erroneous, incorrect", "shared ERROR/DEVIATION field"],
+      "counterexamples": ["non-identical vowel quality", "English rhoticity absent in Mandarin", "Mandarin lexical tone unmatched", "no demonstrated historical chain"],
+      "testability": { "en": "Test blinded sound-similarity and semantic-relatedness separately, with unrelated onsetless-vowel controls and multiple English accents.", "zh-Hans": "分别盲测声音相似度与语义相关度，加入无关零声母元音负对照，并覆盖多种英语口音。" },
+      "experiment_link": null,
+      "source_refs": ["REF-MW-ERR", "REF-MOE-E", "REF-JL-ABERRANT-RAW"]
+    },
+    {
+      "hypothesis_id": "UNI-ABERRANT-BRIDGE-B-002",
+      "type": "Author sound-structure hypothesis",
+      "claim": { "en": "The b in aberrant was added as a consonantal bridge between a and err.", "zh-Hans": "aberrant 中的 b 是在 a 与 err 之间加入的辅音桥。" },
+      "status": "Rejected",
+      "confidence": "High",
+      "supporting_cases": ["surface segmentation a.b.err.ant in the author note"],
+      "counterexamples": ["documented Latin aberrant-, aberrans", "documented morpheme ab- + errare", "French aberrer independently continues Latin aberrare"],
+      "testability": { "en": "Historical morphology is already testable against attested Latin forms and dictionary etymologies; those sources contradict the insertion account.", "zh-Hans": "历史形态可直接用有文献的拉丁语形式与词源词典检验；这些来源与插入说相矛盾。" },
+      "experiment_link": null,
+      "source_refs": ["REF-JL-ABERRANT-RAW", "REF-MW-ABERRANT", "REF-OALD-ABERRANT", "REF-CNRTL-ABERRER"]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Reviewed",
+    "is_historical_evidence": false,
+    "proposition": { "en": "When it is aberrant, is it beautiful like a swan, or a mis-sounded cry of a domestic goose? No—that love is full of beauty and art.", "zh-Hans": "错讹的时候，是一种如天鹅般的美，还是家鹅的一声讹音？不——那爱里，仍充满美与艺。" },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [
+      { "language": "English", "status": "Reviewed", "text": "When it is aberrant, is it beautiful like a swan, or a mis-sounded cry of a domestic goose? No—that love is full of beauty and art." }
+    ],
+    "archival_manuscript_media": [],
+    "evidence_boundary": { "en": "The swan/domestic-goose, mis-sound, love, beauty and art wordplay is literature. It does not support the historical morphology or the err ↔ 讹 hypothesis.", "zh-Hans": "天鹅／家鹅、讹音、爱、美与艺的文字游戏属于文学，不为历史形态或 err ↔ 讹假说提供证据。" }
+  },
+  "media": [],
+  "references": [
+    { "reference_id": "REF-JL-ABERRANT-RAW", "title": "Jinkai Liu: aberrant / err / 讹 source research note", "type": "author research note", "url": null, "path": null, "provenance": "author-provided in conversation; original ideas and literary text preserved" },
+    { "reference_id": "REF-MW-ABERRANT", "title": "Merriam-Webster Dictionary: aberrant", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/aberrant", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
+    { "reference_id": "REF-OALD-ABERRANT", "title": "Oxford Advanced Learner’s Dictionary: aberrant", "type": "dictionary", "url": "https://www.oxfordlearnersdictionaries.com/definition/english/aberrant", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
+    { "reference_id": "REF-MW-ERR", "title": "Merriam-Webster Dictionary: err", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/err", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
+    { "reference_id": "REF-AF-ABERRANT", "title": "Dictionnaire de l’Académie française, 9e édition: aberrant, aberrante", "type": "dictionary", "url": "https://www.dictionnaire-academie.fr/article/A9A0057", "path": null, "provenance": "Académie française; accessed 2026-08-30" },
+    { "reference_id": "REF-CNRTL-ABERRANT", "title": "CNRTL/TLFi: étymologie de aberrant", "type": "historical dictionary", "url": "https://www.cnrtl.fr/etymologie/aberrant", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" },
+    { "reference_id": "REF-CNRTL-ABERRER", "title": "CNRTL/TLFi: étymologie de aberrer", "type": "historical dictionary", "url": "https://www.cnrtl.fr/etymologie/aberrer", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" },
+    { "reference_id": "REF-CNRTL-ERREUR", "title": "CNRTL/TLFi: erreur", "type": "historical dictionary", "url": "https://www.cnrtl.fr/definition/erreur", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" },
+    { "reference_id": "REF-MOE-E", "title": "Taiwan Ministry of Education Mandarin Dictionary: 訛", "type": "dictionary", "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39395&la=0&powerMode=0", "path": null, "provenance": "Ministry of Education dictionary; accessed 2026-08-30" }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Dataset Expansion v1 / Schema v1.0",
+  "dates": { "created": "2026-08-30", "modified": "2026-08-30", "published": null },
+  "editorial_notes": [
+    { "en": "Aberrant and err remain distinct: aberrant is chiefly an adjective; err is a verb. They are connected through the Latin errare family.", "zh-Hans": "aberrant 与 err 保持区分：aberrant 主要是形容词，err 是动词；两者通过拉丁语 errare 词族相连。" },
+    { "en": "The ordinary lexical mapping is reviewed; the err ↔ 讹 sound-meaning observation remains Candidate. Publication or literary review does not prove that candidate.", "zh-Hans": "普通词义对应已核验；err ↔ 讹的声音—意义观察仍为 Candidate。词条发表或文学审核都不证明该候选成立。" }
+  ],
+  "search_terms": ["aberrant", "aberrants", "aberrance", "aberration", "err", "errs", "erred", "erring", "error", "erreur", "erreurs", "aberrer", "aberrante", "aberrantes", "讹", "訛", "é", "e", "讹误", "訛誤", "错讹", "錯訛", "错误", "錯誤", "谬误", "謬誤", "偏离", "偏離", "偏差", "反常", "异常", "異常", "荒谬", "荒謬", "absurd", "atypical", "deviant", "deviation", "DEPARTURE", "WANDERING", "DEVIATION", "ERROR", "ABNORMALITY", "天鹅", "天鵝", "家鹅", "家鵝", "讹音", "訛音", "美艺", "美藝"],
+  "page": null,
+  "legacy": null,
+  "source": {
+    "type": "author-provided raw research note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Parts of speech, French accents and punctuation normalized in the reviewed fields; the original research claims and literary text remain quoted here.",
+    "raw_note": "英语：aberrant n. 错误；a.b.err.ant；这里也许是 err 前面与元音 a 相连需要加一个辅音。err n. 错误。法语：aberrant a. 荒谬；a.b.err.ant；这个词从英语而来；aberrant (masculine)，aberrante (feminine)；erreur n. 错误。汉语：讹【e】n. 谣言，错误。备注：这里 aberrant，是 err 前面与元音 a 相连需要加一个辅音。诗文：错讹的时候，是一种如天鹅般美丽还是家鹅的讹音？不，那爱充满美艺。When it is aberrant, is it a kind of beautiful like a swan or a mispronunciation of a goose? No, that love is full of beauty and art."
+  }
+}
