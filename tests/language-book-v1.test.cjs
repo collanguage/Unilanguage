@@ -154,7 +154,9 @@ test("Namcha Barwa is a searchable named entity and literary entry, not a phonet
   assert.equal(entry.literary_layer.status, "Published");
   assert.equal(entry.literary_layer.is_historical_evidence, false);
   assert.match(entry.source.raw_note, /情青/);
-  assert.equal(entry.media[0].content_status, "not independently verified");
+  assert.equal(entry.media.find((item) => item.type === "external creative work").content_status, "not independently verified");
+  assert.equal(entry.media.find((item) => item.media_id === "MEDIA-NAMCHA-PHOTO-001").license, "CC BY-SA 3.0");
+  assert.equal(entry.media.find((item) => item.media_id === "MEDIA-NAMCHA-LITERARY-001").content_status, "literary visualization; not geographic evidence");
   assert.equal(entry.languages.find((form) => form.code === "bo").word, "གནམ་ལྕགས་འབར་བ།");
   assert.equal(entry.name_analysis.wylie, "gnam lcags ’bar ba");
   assert.equal(entry.name_analysis.chinese_name_assessment.type, "phonetic transcription plus geographic classifier");

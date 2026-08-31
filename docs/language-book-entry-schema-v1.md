@@ -22,7 +22,7 @@ Language Book is a **cross-language comparable semantic database**. It records m
 
 The v0.6 dataset and earlier package records remain in the repository as migration provenance. v1.0 copies each old entry into `legacy` so that no reviewed object is silently discarded.
 
-Current Dataset Expansion release: `1.0.3` (13 records; Schema remains `1.0.0`). Patch releases may add reviewed records and optional schema-compatible fields without changing the v1.0 canonical filename. The Namcha Barwa record demonstrates the optional `record_kind: named_entity`, `entity_types: [proper_name, place, named_entity]` and structured `name_analysis` extension; ordinary lexical records remain valid without those fields.
+Current Dataset Expansion release: `1.0.4` (13 records; Schema remains `1.0.0`). Patch releases may add reviewed records and optional schema-compatible fields without changing the v1.0 canonical filename. The Namcha Barwa record demonstrates the optional `record_kind: named_entity`, `entity_types: [proper_name, place, named_entity]`, structured `name_analysis`, and media provenance separation between a licensed terrain photograph and an AI literary visualization; ordinary lexical records remain valid without those fields.
 
 ## Entry fields
 

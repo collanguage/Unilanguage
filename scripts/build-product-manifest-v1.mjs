@@ -17,10 +17,14 @@ const files = [
   "tests/product-v0.1.test.cjs", "tests/product-v0.2.test.cjs",
   "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js",
   "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html",
-  "words/namcha-barwa.html", "css/namcha-barwa.css", "README.md", "sitemap.xml"
+  "words/namcha-barwa.html", "css/namcha-barwa.css",
+  "images/namcha-barwa-west-cherry933.jpg", "images/namcha-barwa-literary-landscape.png",
+  "README.md", "sitemap.xml"
 ];
 const records = files.map((file) => {
-  const bytes = Buffer.from(fs.readFileSync(path.join(root, file), "utf8").replace(/\r\n/g, "\n"), "utf8");
+  const source = fs.readFileSync(path.join(root, file));
+  const isBinary = [".jpg", ".jpeg", ".png", ".gif", ".webp"].includes(path.extname(file).toLowerCase());
+  const bytes = isBinary ? source : Buffer.from(source.toString("utf8").replace(/\r\n/g, "\n"), "utf8");
   return { path: file, bytes: bytes.length, sha256: crypto.createHash("sha256").update(bytes).digest("hex") };
 });
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));

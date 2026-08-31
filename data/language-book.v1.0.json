@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.0.3",
+  "dataset_version": "1.0.4",
   "published_at": "2026-08-31",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -6026,6 +6026,48 @@
       },
       "media": [
         {
+          "media_id": "MEDIA-NAMCHA-PHOTO-001",
+          "type": "archival image",
+          "path": "images/namcha-barwa-west-cherry933.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Namcha_Barwa_from_the_west.jpg",
+          "title": {
+            "en": "Namcha Barwa from the west",
+            "zh-Hans": "南迦巴瓦峰西坡实拍"
+          },
+          "alt": {
+            "en": "The steep west face of Namcha Barwa with rock walls, snow gullies and subsidiary ridges under a deep blue sky.",
+            "zh-Hans": "南迦巴瓦峰西坡的陡峭岩壁、冰雪沟槽与复合山脊。"
+          },
+          "caption": {
+            "en": "Verified terrain photograph from Zhibai observation platform; Cherry933, CC BY-SA 3.0.",
+            "zh-Hans": "从直白观景台拍摄的可核验地貌实景；Cherry933，CC BY-SA 3.0。"
+          },
+          "content_status": "verified photograph; geographic evidence",
+          "source": "Cherry933 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "provenance": "photographed from Zhibai observation platform, Tibet, China, 2008-12-30; downloaded from Wikimedia Commons on 2026-08-31"
+        },
+        {
+          "media_id": "MEDIA-NAMCHA-LITERARY-001",
+          "type": "generated illustration",
+          "path": "images/namcha-barwa-literary-landscape.png",
+          "title": {
+            "en": "Namcha Barwa literary landscape",
+            "zh-Hans": "南迦巴瓦文学视觉图"
+          },
+          "alt": {
+            "en": "A literary visualization of a cloud-wrapped snowy mountain above forest and a lake.",
+            "zh-Hans": "云雾环绕的雪山、森林与湖面的文学视觉创作。"
+          },
+          "caption": {
+            "en": "AI-generated literary visualization; not a terrain photograph or geographic evidence.",
+            "zh-Hans": "AI 生成的文学视觉图；不是真实地貌照片或地理证据。"
+          },
+          "content_status": "literary visualization; not geographic evidence",
+          "source": "generated for Unilanguage",
+          "provenance": "AI-generated during the Namcha Barwa entry workflow on 2026-08-31; explicitly excluded from factual terrain evidence"
+        },
+        {
           "media_id": "MEDIA-NAMCHA-RUNWAY-001",
           "type": "external creative work",
           "url": "https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4",
@@ -6136,6 +6178,14 @@
           "provenance": "academic reference dictionary; translates the Tibetan name as Blazing Meteor; accessed 2026-08-31"
         },
         {
+          "reference_id": "REF-COMMONS-NAMCHA-WEST",
+          "title": "Wikimedia Commons: Namcha Barwa from the west",
+          "type": "licensed terrain photograph",
+          "url": "https://commons.wikimedia.org/wiki/File:Namcha_Barwa_from_the_west.jpg",
+          "path": "images/namcha-barwa-west-cherry933.jpg",
+          "provenance": "Cherry933; photographed from Zhibai observation platform on 2008-12-30; CC BY-SA 3.0; accessed 2026-08-31"
+        },
+        {
           "reference_id": "REF-RUNWAY-NAMCHA",
           "title": "Runway related creative work",
           "type": "external creative work",
@@ -6145,7 +6195,7 @@
         }
       ],
       "author": "Jinkai Liu",
-      "version": "Named Entity / Cultural-Literary Entry v1.1 · Tibetan source analysis · Schema v1.0 compatible",
+      "version": "Named Entity / Cultural-Literary Entry v1.2 · verified terrain photograph and separated literary visualization · Schema v1.0 compatible",
       "dates": {
         "created": "2026-08-31",
         "modified": "2026-08-31",
@@ -6163,6 +6213,10 @@
         {
           "en": "南迦巴瓦 is assessed as phonetic transcription; its Chinese character meanings are not used to infer Tibetan semantics.",
           "zh-Hans": "“南迦巴瓦”判定为音译，不以各汉字字义反推藏文语义。"
+        },
+        {
+          "en": "The licensed terrain photograph and the AI-generated literary visualization have separate provenance and evidence status.",
+          "zh-Hans": "授权地貌实拍与 AI 文学视觉图分别记录来源和证据身份。"
         }
       ],
       "search_terms": [

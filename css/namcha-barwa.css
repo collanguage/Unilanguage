@@ -43,6 +43,33 @@
 .translation-assessment th:nth-child(2) { width: 22%; }
 .translation-assessment td { vertical-align: top; }
 
+.entry-image {
+  margin: 26px 0 32px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 213, 79, 0.3);
+  border-radius: 22px;
+  background: rgba(5, 13, 32, 0.72);
+}
+
+.entry-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.entry-image figcaption {
+  padding: 16px 20px 18px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.entry-image figcaption strong { color: #fff; }
+.evidence-photo { border-color: rgba(37, 217, 247, 0.42); }
+.literary-image { border-color: rgba(255, 213, 79, 0.42); }
+
 @media (max-width: 820px) {
   .namcha-hero h1 { font-size: clamp(2.5rem, 12vw, 3.8rem); }
   .poem-single { padding: 24px 20px; }

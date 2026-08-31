@@ -1,7 +1,7 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
   "version": "1.0.0",
-  "dataset_version": "1.0.3",
+  "dataset_version": "1.0.4",
   "created_at": "2026-08-31",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
@@ -12,12 +12,12 @@
     {
       "path": "data/language-book-entry.schema.v1.json",
       "bytes": 7548,
-      "sha256": "79a561d7f9802429de95a04dec98307b0794e36dccd72875917c7d86173920f5"
+      "sha256": "99781224ee45c5d4389aae1915b59240a2b625c9bab13e47058a5989e92e3363"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 255328,
-      "sha256": "8ac5de6167db1f18fc836a412ec6eda997bbb6ae6b43b0b7c331ceb4980053ed"
+      "bytes": 258370,
+      "sha256": "85c469db228484bac61fc4bb56df055fb97f413e57c675cb6bb465801eab0d70"
     },
     {
       "path": "data/entries/abbey.v1.json",
@@ -36,28 +36,28 @@
     },
     {
       "path": "data/entries/namcha-barwa.v1.json",
-      "bytes": 24214,
-      "sha256": "4389c7243cd95f9e4462a639788c8354cc0c8ebfda5db57a23540dcefb82bd3b"
+      "bytes": 26852,
+      "sha256": "c7c9657d215e5282468cfd158ace7615e06b6fc8168547a4cc2307d3e8e622a3"
     },
     {
       "path": "docs/language-book-entry-schema-v1.md",
-      "bytes": 10723,
-      "sha256": "89a9007a5c6682d1446b32e15faafa452b74dc7e56bcafdce438c7b693689a0b"
+      "bytes": 10814,
+      "sha256": "8562f7d619b3014bcaad23839dfee09a32313abad519363a2e5df4a9541ae40d"
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
       "bytes": 24098,
-      "sha256": "159a183e837062c44a74c95f4c27e53ff86d6bf00a9b795cdc7a1116d4cd1db6"
+      "sha256": "b75334ba15811a87cd7ec2b5f1d779ebad33092d411b53b8838f800e29e32c26"
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
       "bytes": 12610,
-      "sha256": "da623af68270fdb6ce4f765f2d0dd641c0edcef990ea6d8c9e6cf974b58f1baf"
+      "sha256": "33e124d66bfe7cdbde2ae2e9ab0f79c90ff65e18aa6e0dd843dddcb2ed65d17f"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
-      "bytes": 10659,
-      "sha256": "8e05d75ab2a16e2ed85ec410e2688ac66a0c213fcd819ffca30dfccbd47dc097"
+      "bytes": 10980,
+      "sha256": "afea9b6c829e256f3e969926dae475114a0c3fc077abab8fc3325200fb295f54"
     },
     {
       "path": "tests/package-g1.test.cjs",
@@ -102,17 +102,17 @@
     {
       "path": "semantic-mapper.html",
       "bytes": 3834,
-      "sha256": "e100c824d616fd71559577f113784e136dd36084be83463ae862d14a425c5337"
+      "sha256": "bd2055cec8797eb3bdbc5aae48fb3c6a7ce225c1099e38a7c634741db352e23c"
     },
     {
       "path": "dictionary.html",
       "bytes": 3800,
-      "sha256": "0a4bc5341aecd81b2418034d2e4086e9f7d76f94d23746dbe47df5acf555ffc4"
+      "sha256": "4f4d2a55308d399361e988d05574a489296c50107695eab76cbab58a7dba5411"
     },
     {
       "path": "search.html",
       "bytes": 3927,
-      "sha256": "8c5e502e67b87cdc362df6477cbae8e2c316f4344eac5c64782b7dae6bf88717"
+      "sha256": "4bc5a15c9a9056f8a142aab3b688323378267f0057807c02ba9601c42e36c11a"
     },
     {
       "path": "data-foundation.html",
@@ -121,18 +121,28 @@
     },
     {
       "path": "words/namcha-barwa.html",
-      "bytes": 14185,
-      "sha256": "d9d80873c3e581278ce96ff094acb8133d4d4fb0de01ebc4abce39c261d21c7d"
+      "bytes": 15524,
+      "sha256": "bbc471d0b56a00c84651cdfee5eba294bb5dd077e0d9173a23c21c891d865e57"
     },
     {
       "path": "css/namcha-barwa.css",
-      "bytes": 1518,
-      "sha256": "742781c34174f79c8ae0a246b8561c6c3448fe930d47a0be4ef43577552e668b"
+      "bytes": 2090,
+      "sha256": "97104dd6b81ee7db32d18b9e0c53c4e17c11de2276801f4c91ed86cc4d7440f0"
+    },
+    {
+      "path": "images/namcha-barwa-west-cherry933.jpg",
+      "bytes": 2145225,
+      "sha256": "edf1ecab4848ea2befe1ab4a5e2f72938d21465a52d75630531b36dfb9a93024"
+    },
+    {
+      "path": "images/namcha-barwa-literary-landscape.png",
+      "bytes": 2367970,
+      "sha256": "4f56b6eb615fb640ff70e700206cbe877fb1343367b7288519b62b2c01191363"
     },
     {
       "path": "README.md",
-      "bytes": 4986,
-      "sha256": "c3ef8c6001f9dfa0647f951065caa0e84c39d03d4e91e6727171664e1bd248ef"
+      "bytes": 5066,
+      "sha256": "96e78e2c119a75cfa718cd13538991b737d2ed8af11ebda3a49252ff89531c37"
     },
     {
       "path": "sitemap.xml",

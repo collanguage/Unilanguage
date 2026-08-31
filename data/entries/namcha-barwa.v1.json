@@ -180,6 +180,30 @@
   },
   "media": [
     {
+      "media_id": "MEDIA-NAMCHA-PHOTO-001",
+      "type": "archival image",
+      "path": "images/namcha-barwa-west-cherry933.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Namcha_Barwa_from_the_west.jpg",
+      "title": { "en": "Namcha Barwa from the west", "zh-Hans": "南迦巴瓦峰西坡实拍" },
+      "alt": { "en": "The steep west face of Namcha Barwa with rock walls, snow gullies and subsidiary ridges under a deep blue sky.", "zh-Hans": "南迦巴瓦峰西坡的陡峭岩壁、冰雪沟槽与复合山脊。" },
+      "caption": { "en": "Verified terrain photograph from Zhibai observation platform; Cherry933, CC BY-SA 3.0.", "zh-Hans": "从直白观景台拍摄的可核验地貌实景；Cherry933，CC BY-SA 3.0。" },
+      "content_status": "verified photograph; geographic evidence",
+      "source": "Cherry933 / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "provenance": "photographed from Zhibai observation platform, Tibet, China, 2008-12-30; downloaded from Wikimedia Commons on 2026-08-31"
+    },
+    {
+      "media_id": "MEDIA-NAMCHA-LITERARY-001",
+      "type": "generated illustration",
+      "path": "images/namcha-barwa-literary-landscape.png",
+      "title": { "en": "Namcha Barwa literary landscape", "zh-Hans": "南迦巴瓦文学视觉图" },
+      "alt": { "en": "A literary visualization of a cloud-wrapped snowy mountain above forest and a lake.", "zh-Hans": "云雾环绕的雪山、森林与湖面的文学视觉创作。" },
+      "caption": { "en": "AI-generated literary visualization; not a terrain photograph or geographic evidence.", "zh-Hans": "AI 生成的文学视觉图；不是真实地貌照片或地理证据。" },
+      "content_status": "literary visualization; not geographic evidence",
+      "source": "generated for Unilanguage",
+      "provenance": "AI-generated during the Namcha Barwa entry workflow on 2026-08-31; explicitly excluded from factual terrain evidence"
+    },
+    {
       "media_id": "MEDIA-NAMCHA-RUNWAY-001",
       "type": "external creative work",
       "url": "https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4",
@@ -202,15 +226,17 @@
     { "reference_id": "REF-RY-GNAM-LCAGS", "title": "Rangjung Yeshe Dictionary: gnam lcags", "type": "Tibetan dictionary", "url": "https://rywiki.tsadra.org/index.php/gnam_lcags", "path": null, "provenance": "Tibetan lexicographic resource; records meteoric iron, thunderbolt and lightning senses; accessed 2026-08-31" },
     { "reference_id": "REF-RY-BAR-BA", "title": "Rangjung Yeshe Dictionary: ’bar ba", "type": "Tibetan dictionary", "url": "https://rywiki.tsadra.org/index.php/%27bar_ba", "path": null, "provenance": "Tibetan lexicographic resource; records blaze, burn, shine and glow senses; accessed 2026-08-31" },
     { "reference_id": "REF-PRINCETON-BUDDHISM-NAMCHA", "title": "The Princeton Dictionary of Buddhism: Gnam lcags bar ba", "type": "academic reference dictionary", "url": "https://journeytothewestresearch.com/wp-content/uploads/2024/11/The-Princeton-Dictionary-of-Buddhism-2014-compressed.pdf", "path": null, "provenance": "academic reference dictionary; translates the Tibetan name as Blazing Meteor; accessed 2026-08-31" },
+    { "reference_id": "REF-COMMONS-NAMCHA-WEST", "title": "Wikimedia Commons: Namcha Barwa from the west", "type": "licensed terrain photograph", "url": "https://commons.wikimedia.org/wiki/File:Namcha_Barwa_from_the_west.jpg", "path": "images/namcha-barwa-west-cherry933.jpg", "provenance": "Cherry933; photographed from Zhibai observation platform on 2008-12-30; CC BY-SA 3.0; accessed 2026-08-31" },
     { "reference_id": "REF-RUNWAY-NAMCHA", "title": "Runway related creative work", "type": "external creative work", "url": "https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4", "path": null, "provenance": "author-provided link; content not independently verified" }
   ],
   "author": "Jinkai Liu",
-  "version": "Named Entity / Cultural-Literary Entry v1.1 · Tibetan source analysis · Schema v1.0 compatible",
+  "version": "Named Entity / Cultural-Literary Entry v1.2 · verified terrain photograph and separated literary visualization · Schema v1.0 compatible",
   "dates": { "created": "2026-08-31", "modified": "2026-08-31", "published": "2026-08-31" },
   "editorial_notes": [
     { "en": "Name-meaning evidence and literary imagery remain strictly separate.", "zh-Hans": "名称释义证据与文学意象严格分层。" },
     { "en": "‘Battle spear piercing the blue sky’ is retained as a cultural-iconic interpretation, not a literal morpheme-by-morpheme translation.", "zh-Hans": "“直刺蓝天的战矛”作为文化—形象解释保留，不标作逐词素直译。" },
-    { "en": "南迦巴瓦 is assessed as phonetic transcription; its Chinese character meanings are not used to infer Tibetan semantics.", "zh-Hans": "“南迦巴瓦”判定为音译，不以各汉字字义反推藏文语义。" }
+    { "en": "南迦巴瓦 is assessed as phonetic transcription; its Chinese character meanings are not used to infer Tibetan semantics.", "zh-Hans": "“南迦巴瓦”判定为音译，不以各汉字字义反推藏文语义。" },
+    { "en": "The licensed terrain photograph and the AI-generated literary visualization have separate provenance and evidence status.", "zh-Hans": "授权地貌实拍与 AI 文学视觉图分别记录来源和证据身份。" }
   ],
   "search_terms": ["Namcha Barwa", "namcha barwa", "Namchabarwa", "Namjagbarwa", "གནམ་ལྕགས་འབར་བ", "གནམས་ལྕགས་འབར་བ", "gnam lcags ’bar ba", "gnam lcags 'bar ba", "南迦巴瓦", "南迦巴瓦峰", "南迦巴瓦山", "直刺天空的长矛", "直刺蓝天的战矛", "雷电如火燃烧", "燃烧的天铁", "闪耀的天铁", "陨铁", "众山之父", "Nánjiābāwǎ", "proper name", "place", "named entity"],
   "page": "words/namcha-barwa.html",
