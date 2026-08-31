@@ -16,7 +16,8 @@ const files = [
   "tests/package-g1.test.cjs", "tests/package-g3.test.cjs", "tests/package-g4-light.test.cjs",
   "tests/product-v0.1.test.cjs", "tests/product-v0.2.test.cjs",
   "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js",
-  "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html", "README.md", "sitemap.xml"
+  "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html",
+  "words/namcha-barwa.html", "css/namcha-barwa.css", "README.md", "sitemap.xml"
 ];
 const records = files.map((file) => {
   const bytes = Buffer.from(fs.readFileSync(path.join(root, file), "utf8").replace(/\r\n/g, "\n"), "utf8");
@@ -25,7 +26,7 @@ const records = files.map((file) => {
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const manifest = {
   product: "Unilanguage Language Book + Semantic Mapper",
-  version: "1.0.0", dataset_version: dataset.dataset_version, created_at: "2026-08-30",
+  version: "1.0.0", dataset_version: dataset.dataset_version, created_at: "2026-08-31",
   canonical_dataset: "data/language-book.v1.0.json",
   canonical_schema: "data/language-book-entry.schema.v1.json",
   entry_count: dataset.entries.length,

@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const pages = ["index.html", "semantic-mapper.html", "object-review-method.html", "dictionary.html", "data-foundation.html", "candidate-review.html", "review-decisions.html", "search.html", "words/light.html"];
+const pages = ["index.html", "semantic-mapper.html", "object-review-method.html", "dictionary.html", "data-foundation.html", "candidate-review.html", "review-decisions.html", "search.html", "words/light.html", "words/namcha-barwa.html"];
 const errors = [];
 for (const page of pages) {
   const html = fs.readFileSync(path.join(root, page), "utf8");

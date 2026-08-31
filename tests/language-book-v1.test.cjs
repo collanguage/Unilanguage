@@ -139,3 +139,26 @@ test("Mapper presents dataset-driven language groups and the shared-record expla
   assert.doesNotMatch(html, /Schema records · 统一词条/);
   assert.match(mapper, /UnilanguageData\.languageForms\(dataset\)/);
 });
+
+test("Namcha Barwa is a searchable named entity and literary entry, not a phonetic candidate", () => {
+  for (const query of ["Namcha Barwa", "南迦巴瓦", "南迦巴瓦峰", "直刺天空的长矛"]) {
+    assert.equal(dataApi.lookup(dataset, query).entry.slug, "namcha-barwa", `lookup failed for ${query}`);
+  }
+  const entry = dataApi.lookup(dataset, "Namcha Barwa").entry;
+  assert.equal(entry.record_kind, "named_entity");
+  assert.deepEqual(entry.entity_types, ["proper_name", "place", "named_entity"]);
+  assert.equal(entry.mapping_status, "Reviewed");
+  assert.equal(entry.mapping_level, "Unrated");
+  assert.equal(entry.evidence["Phonetic-Semantic"].status, "Not claimed");
+  assert.equal(entry.hypotheses.length, 0);
+  assert.equal(entry.literary_layer.status, "Published");
+  assert.equal(entry.literary_layer.is_historical_evidence, false);
+  assert.match(entry.source.raw_note, /情青/);
+  assert.equal(entry.media[0].content_status, "not independently verified");
+});
+
+test("Mapper exposes the named-entity label separately from ordinary mappings", () => {
+  const mapper = fs.readFileSync(path.join(root, "js/semantic-mapper.js"), "utf8");
+  assert.match(mapper, /Named Entity \/ Literary Entry/);
+  assert.match(mapper, /Named Entity Forms/);
+});

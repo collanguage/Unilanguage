@@ -6,7 +6,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const legacy = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book.v0.6.json"), "utf8"));
 const out = path.join(root, "data", "language-book.v1.0.json");
 const authoredEntriesDirectory = path.join(root, "data", "entries");
-const today = "2026-08-30";
+const migrationDate = "2026-08-30";
+const releaseDate = "2026-08-31";
 const localized = (en, zh) => ({ en, "zh-Hans": zh });
 const clean = (values) => [...new Set(values.filter((value) => value !== null && value !== undefined && String(value).trim()).map(String))];
 const sourceMap = new Map(legacy.sources.map((item) => [item.source_id, item]));
@@ -189,7 +190,7 @@ function migrateEntry(entry) {
     references: mapReferences(sourceIds),
     author: "Jinkai Liu",
     version: entry.version,
-    dates: { created: null, modified: today, published: documentedPublicationDates[entry.source_word] || null },
+    dates: { created: null, modified: migrationDate, published: documentedPublicationDates[entry.source_word] || null },
     editorial_notes: [c.note],
     search_terms: clean([entry.source_word, entry.normalized_form, ...entry.aliases, entry.primary_chinese_mapping.chinese_form, entry.primary_chinese_mapping.pinyin, ...(c.semantic || [])]),
     page: pageSlugs.has(entry.source_word) ? `words/${entry.source_word}.html` : entry.source_word === "man" ? null : null,
@@ -244,7 +245,7 @@ const atEntry = {
     { reference_id: "REF-AHD-AT", title: "American Heritage Dictionary: at", type: "dictionary", url: "https://www.ahdictionary.com/word/search.html?q=at", path: null, provenance: "external reference" },
     { reference_id: "REF-CUHK-CHAR", title: "CUHK Multi-function Chinese Character Database", type: "character database", url: "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/index.php", path: null, provenance: "external reference" },
   ],
-  author: "Jinkai Liu", version: "Literary Entry v1.0 / Schema v1.0", dates: { created: null, modified: today, published: today },
+  author: "Jinkai Liu", version: "Literary Entry v1.0 / Schema v1.0", dates: { created: null, modified: migrationDate, published: migrationDate },
   editorial_notes: [localized("Publication, mapping, evidence/historical relation and literature are independent axes.", "词条发表、mapping、证据／历史关系与文学层是四条独立状态轴。")],
   search_terms: ["at", "在", "爱", "愛", "love", "presence", "location", "relation", "world", "世界", "爱在", "愛在", "love is presence", "第一次遇见你的时候", "一个美丽的向往，在那太空", "a beautiful yearning in space"],
   page: "words/at.html", legacy: null,
@@ -263,8 +264,8 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.0.1",
-  published_at: today,
+  dataset_version: "1.0.2",
+  published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",
   editorial_policy: {

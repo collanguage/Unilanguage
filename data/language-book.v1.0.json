@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.0.1",
-  "published_at": "2026-08-30",
+  "dataset_version": "1.0.2",
+  "published_at": "2026-08-31",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
     "zh-Hans": "Language Book：跨语言可比较语义数据库"
@@ -5636,6 +5636,346 @@
         "status": "Preserved; claims independently classified above",
         "normalization": "Parts of speech, French accents and punctuation normalized in the reviewed fields; the original research claims and literary text remain quoted here.",
         "raw_note": "英语：aberrant n. 错误；a.b.err.ant；这里也许是 err 前面与元音 a 相连需要加一个辅音。err n. 错误。法语：aberrant a. 荒谬；a.b.err.ant；这个词从英语而来；aberrant (masculine)，aberrante (feminine)；erreur n. 错误。汉语：讹【e】n. 谣言，错误。备注：这里 aberrant，是 err 前面与元音 a 相连需要加一个辅音。诗文：错讹的时候，是一种如天鹅般美丽还是家鹅的讹音？不，那爱充满美艺。When it is aberrant, is it a kind of beautiful like a swan or a mispronunciation of a goose? No, that love is full of beauty and art."
+      }
+    },
+    {
+      "id": "LB-place-namcha-barwa-013",
+      "slug": "namcha-barwa",
+      "record_kind": "named_entity",
+      "entity_types": [
+        "proper_name",
+        "place",
+        "named_entity"
+      ],
+      "title": {
+        "en": "Namcha Barwa · Named Entity / Literary Entry",
+        "zh-Hans": "南迦巴瓦峰｜专名／文学词条"
+      },
+      "languages": [
+        {
+          "role": "romanized-name",
+          "code": "en",
+          "name": "English / Romanized form",
+          "word": "Namcha Barwa",
+          "pronunciation": "name form; pronunciation not independently normalized"
+        },
+        {
+          "role": "chinese-name",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "南迦巴瓦峰",
+          "pronunciation": "Nánjiābāwǎ Fēng"
+        },
+        {
+          "role": "short-chinese-name",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "南迦巴瓦",
+          "pronunciation": "Nánjiābāwǎ"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-namcha-barwa-name-forms",
+        "source": {
+          "language": "English / Romanized name",
+          "word": "Namcha Barwa",
+          "pronunciation": "not independently normalized"
+        },
+        "target": {
+          "language": "Chinese name",
+          "word": "南迦巴瓦峰",
+          "pronunciation": "Nánjiābāwǎ Fēng"
+        },
+        "gloss": {
+          "en": "A proper name for the 7,782-metre mountain in Nyingchi, Tibet Autonomous Region, at the eastern end of the Himalayas.",
+          "zh-Hans": "西藏自治区林芝市境内、喜马拉雅山脉东端一座海拔 7782 米山峰的专名。"
+        },
+        "meaning": {
+          "en": "Named-entity correspondence, not an ordinary lexical translation. Published explanations include ‘a battle spear piercing the blue sky’ and ‘lightning burning like fire’; ‘father of mountains’ is also an attested epithet. These are presented as source-attributed interpretations, not one settled etymology.",
+          "zh-Hans": "这是专名形式对应，不是普通词汇翻译。已发表资料中可见“直刺蓝天的战矛”“雷电如火燃烧”等解释，亦见“众山之父”的称谓；本词条按来源并列，不把其中一种写成唯一确定词源。"
+        },
+        "mapping_type": "Named-entity name-form correspondence",
+        "rationale": {
+          "en": "The Romanized and Chinese forms identify the same place. Name-meaning reports are kept as separate, attributed evidence items and are not converted into a phonetic-semantic candidate.",
+          "zh-Hans": "罗马字母形式与汉字形式指向同一地点。名称释义按来源拆分为独立证据项，不转化为语音—语义候选。"
+        }
+      },
+      "entry_status": "Published",
+      "mapping_status": "Reviewed",
+      "mapping_level": "Unrated",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Supported",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Authoritative and institutional sources agree on the place identity and commonly report 7,782 metres, but published explanations of the Tibetan name vary and do not establish one exclusive etymology here.",
+            "zh-Hans": "权威及机构来源对地点身份一致，并普遍采用海拔 7782 米；但公开资料对藏语名称的解释不一，本词条不据此确立唯一词源。"
+          },
+          "items": [
+            {
+              "evidence_id": "NAME-NAMCHA-SPEAR-001",
+              "claim": {
+                "en": "A Tibet Autonomous Region government page reports the name as meaning ‘a battle spear piercing the blue sky.’",
+                "zh-Hans": "西藏自治区人民政府页面将名称释为“直刺蓝天的战矛”。"
+              },
+              "status": "Supported",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-XIZANG-WINTER-NAMCHA"
+              ]
+            },
+            {
+              "evidence_id": "NAME-NAMCHA-FIRE-002",
+              "claim": {
+                "en": "China Tibet Online reports multiple explanations: ‘lightning burning like fire’ and ‘a long spear piercing the sky’; it connects the latter image with the ‘Battle of Menling’ in the Epic of King Gesar.",
+                "zh-Hans": "中国西藏网明确称其藏语有多种解释：一为“雷电如火燃烧”，一为“直刺天空的长矛”；后者与《格萨尔王传》“门岭一战”的长矛意象相连。"
+              },
+              "status": "Supported",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-TIBET-NAMCHA-NAME"
+              ]
+            },
+            {
+              "evidence_id": "PLACE-NAMCHA-7782-003",
+              "claim": {
+                "en": "The Nyingchi municipal government identifies Namcha Barwa as a 7,782-metre mountain at the eastern end of the Himalayas and the highest mountain in Nyingchi.",
+                "zh-Hans": "林芝市人民政府资料记载：南迦巴瓦峰海拔 7782 米，位于喜马拉雅山脉东端，是林芝市最高山峰。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LINZHI-NAMCHA-GEOGRAPHY"
+              ]
+            },
+            {
+              "evidence_id": "EPITHET-NAMCHA-FATHER-004",
+              "claim": {
+                "en": "A Chinese Academy of Sciences science-communication article records ‘father of mountains’ as a Tibetan epithet alongside the spear-like image; it is treated as an epithet, not a literal decomposition of the name.",
+                "zh-Hans": "中国科学院科普文章在“刺向苍穹的利矛”意象之外，记录其藏语称谓“众山之父”；本词条将其视为称谓，不作为名称字面拆解。"
+              },
+              "status": "Supported",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-CAS-NAMCHA-CANYON"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-XIZANG-WINTER-NAMCHA",
+            "REF-TIBET-NAMCHA-NAME",
+            "REF-LINZHI-NAMCHA-GEOGRAPHY",
+            "REF-CAS-NAMCHA-CANYON"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Not claimed",
+          "confidence": "High",
+          "summary": {
+            "en": "This entry records forms of one proper name; it makes no cross-language phonetic-semantic candidate claim.",
+            "zh-Hans": "本词条记录同一专名的不同形式，不提出跨语言语音—语义候选。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Cloud veil, youthful face, forest, lake and song are literary images created by the author around the named place.",
+            "zh-Hans": "云的面纱、青春容颜、森林、湖与歌声是作者围绕该地点专名展开的文学意象。"
+          },
+          "items": [],
+          "source_refs": [
+            "REF-JL-NAMCHA-RAW"
+          ]
+        },
+        "Speculative": {
+          "status": "Not claimed",
+          "confidence": "High",
+          "summary": {
+            "en": "No new etymological, phonetic or historical-origin hypothesis is proposed.",
+            "zh-Hans": "不提出新的词源、语音或历史起源假说。"
+          },
+          "items": [],
+          "source_refs": []
+        }
+      },
+      "phonetic_observation": [],
+      "semantic_structure": {
+        "concepts": [
+          "PLACE",
+          "MOUNTAIN",
+          "PROPER NAME",
+          "CULTURAL INTERPRETATION",
+          "LITERARY IMAGE"
+        ],
+        "relation": "NAMED PLACE → SOURCE-ATTRIBUTED NAME INTERPRETATIONS; NAMED PLACE → AUTHORIAL LITERARY IMAGERY",
+        "status": "Reviewed"
+      },
+      "related_words": [],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-NAMCHA-VEIL-001",
+          "relation": "CLOUD → VEIL → DESIRE TO SEE THE TRUE FACE",
+          "status": "Literary",
+          "is_etymological": false
+        },
+        {
+          "association_id": "ASSOC-NAMCHA-YOUTH-002",
+          "relation": "MOUNTAIN → YOUTHFUL FACE → TREES AND LAKE",
+          "status": "Literary",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Published",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "Namcha Barwa, may you keep your countenance.",
+          "zh-Hans": "南迦巴瓦，愿你保留你的容颜。"
+        },
+        "essay_prose": [
+          {
+            "work_id": "LB-NAMCHA-PRELUDE-001",
+            "title": {
+              "en": "Garden Prelude",
+              "zh-Hans": "花园序言"
+            },
+            "text": {
+              "zh-Hans": "在花园里，水仙、迎春、春兰、杜鹃花、牡丹、月季，她们同时在春天盛开。和风吹在我的花园内，吹动着花的香气。"
+            },
+            "status": "Published; punctuation and one traditional character normalized"
+          }
+        ],
+        "poem_lyrics": [
+          {
+            "work_id": "LB-NAMCHA-POEM-001",
+            "title": {
+              "en": "Namcha Barwa, May You Keep Your Countenance",
+              "zh-Hans": "南迦巴瓦，愿你保留你的容颜"
+            },
+            "text": {
+              "zh-Hans": "看过南迦巴瓦山的一些照片，很喜欢西藏这个藏在漫漫群山中的秀丽山峰。\n\n南迦巴瓦山啊，\n你是我的心里的少男少女，\n是我自己心里的透出熏香味的向往，\n还是我自己那少年时代的持续？\n那美丽是就像我看到那青春的照片，\n那是少年时代的情绪的青涩，\n那不正是你的青春似的树🌳与湖吗？\n有愿望的我想保持一颗爱你的心💕，\n因为我的爱你的光芒，\n将使你的青春的面容总是清秀。\n\n你轻柔的云的面纱，\n你貌似的对我发出尊重的话语，\n可是我却总是希望撕下，\n你的优雅的话语所包围的遮幕，\n总是想看到你的真容，\n在走进你心底的森林的深处，\n我却晓得了你的柔美的如丽水般，\n流淌的心如歌声的，\n在与你温煦话语的对话，\n与你激烈的对抗中，\n我却对你产生了从我的心底，\n流出的一种爱意。"
+            },
+            "status": "Published; lineation preserved; obvious typo 情青 normalized to 青春"
+          }
+        ],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The garden, youth, face, veil, forest, lake, fragrance and love are the author's literary layer. They do not establish the mountain name's etymology or geographic facts.",
+          "zh-Hans": "花园、青春、容颜、面纱、森林、湖、香气与爱意均属作者文学层，不用于确立山名词源或地理事实。"
+        }
+      },
+      "media": [
+        {
+          "media_id": "MEDIA-NAMCHA-RUNWAY-001",
+          "type": "external creative work",
+          "url": "https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4",
+          "title": {
+            "en": "Related creative work on Runway",
+            "zh-Hans": "Runway 相关创作"
+          },
+          "content_status": "not independently verified",
+          "source": "Jinkai Liu",
+          "provenance": "author-provided external link; content not described"
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "REF-JL-NAMCHA-RAW",
+          "title": "Jinkai Liu: Namcha Barwa prelude and poem raw note",
+          "type": "author literary source",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; raw note preserved below"
+        },
+        {
+          "reference_id": "REF-LINZHI-NAMCHA-GEOGRAPHY",
+          "title": "Nyingchi Municipal People's Government: Namcha Barwa",
+          "type": "government place reference",
+          "url": "https://www.linzhi.gov.cn/linzhi/zmlz/201812/28aa35ef0a164fb8a584b129ae6b0911.shtml",
+          "path": null,
+          "provenance": "official municipal government page; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-XIZANG-WINTER-NAMCHA",
+          "title": "People's Government of Tibet Autonomous Region: Winter tourism begins in Tibet",
+          "type": "government name-meaning report",
+          "url": "https://www.xizang.gov.cn/xwzx_406/bmkx/201812/t20181216_10418.html",
+          "path": null,
+          "provenance": "official regional government page; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-TIBET-NAMCHA-NAME",
+          "title": "China Tibet Online: Namcha Barwa name interpretations",
+          "type": "institutional cultural report",
+          "url": "https://www.tibet.cn/cn/travel/201801/t20180108_5331116.html",
+          "path": null,
+          "provenance": "institutional cultural report; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-CAS-NAMCHA-CANYON",
+          "title": "Chinese Academy of Sciences: Exploring the Yarlung Tsangpo Grand Canyon — glaciers",
+          "type": "scientific institution article",
+          "url": "https://idea.cas.cn/zhhh/dqkxyzyhj/dqkxyzyhj_dqkx/info/2026/554175.html",
+          "path": null,
+          "provenance": "Chinese Academy of Sciences science-communication page; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-RUNWAY-NAMCHA",
+          "title": "Runway related creative work",
+          "type": "external creative work",
+          "url": "https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4",
+          "path": null,
+          "provenance": "author-provided link; content not independently verified"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Named Entity / Cultural-Literary Entry v1.0 · Schema v1.0 compatible",
+      "dates": {
+        "created": "2026-08-31",
+        "modified": "2026-08-31",
+        "published": "2026-08-31"
+      },
+      "editorial_notes": [
+        {
+          "en": "Name-meaning evidence and literary imagery remain strictly separate.",
+          "zh-Hans": "名称释义证据与文学意象严格分层。"
+        },
+        {
+          "en": "‘Battle spear piercing the blue sky’ is retained as one source-attributed interpretation, not the sole etymology.",
+          "zh-Hans": "“直刺蓝天的战矛”仅作为有来源的一种解释保留，不写成唯一词源。"
+        }
+      ],
+      "search_terms": [
+        "Namcha Barwa",
+        "namcha barwa",
+        "Namchabarwa",
+        "南迦巴瓦",
+        "南迦巴瓦峰",
+        "南迦巴瓦山",
+        "直刺天空的长矛",
+        "直刺蓝天的战矛",
+        "雷电如火燃烧",
+        "众山之父",
+        "Nánjiābāwǎ",
+        "proper name",
+        "place",
+        "named entity"
+      ],
+      "page": "words/namcha-barwa.html",
+      "legacy": null,
+      "source": {
+        "type": "author-provided literary source and related-media link",
+        "author": "Jinkai Liu",
+        "status": "Published as literature; factual and name-meaning claims independently sourced",
+        "normalization": "Web punctuation normalized; 吹動 normalized to 吹动; obvious typo 情青 normalized to 青春; other idiosyncratic wording and emoji preserved.",
+        "raw_note": "在花园里，水仙，迎春，春兰，杜鹃花、牡丹，月季，她们同时在春天盛开。和风吹在我的花园内，吹動着花的香气。\nRelated media: https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4\n詩歌\n南迦巴瓦，愿你保留你的容颜\n看过南迦巴瓦山的一些照片，很喜欢西藏这个藏在漫漫群山中的秀丽山峰。\n南迦巴瓦山啊，\n你是我的心里的少男少女，\n是我自己心里的透出熏香味的向往，\n还是我自己那少年时代的持续？\n那美丽是就像我看到那青春的照片，\n那是少年时代的情绪的青涩，\n那不正是你的青春似的树🌳与湖吗？\n有愿望的我想保持一颗爱你的心💕，\n因为我的爱你的光芒，\n将使你的情青的面容总是清秀。\n你轻柔的云的面纱，\n你貌似的对我发出尊重的话语，\n可是我却总是希望撕下，\n你的优雅的话语所包围的遮幕，\n总是想看到你的真容，\n在走进你心底的森林的深处，\n我却晓得了你的柔美的如丽水般，\n流淌的心如歌声的，\n在与你温煦话语的对话，\n与你激烈的对抗中，\n我却对你产生了从我的心底，\n流出的一种爱意。"
       }
     }
   ]

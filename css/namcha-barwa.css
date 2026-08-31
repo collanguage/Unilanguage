@@ -1,0 +1,26 @@
+.namcha-hero {
+  background:
+    radial-gradient(circle at 76% 18%, rgba(255, 213, 79, 0.16), transparent 29%),
+    radial-gradient(circle at 18% 8%, rgba(37, 217, 247, 0.17), transparent 35%),
+    linear-gradient(145deg, rgba(9, 28, 49, 0.94), rgba(5, 13, 32, 0.98));
+}
+
+.namcha-hero h1 { font-size: clamp(3rem, 7vw, 6.4rem); }
+
+.poem-single {
+  max-width: 820px;
+  margin: 26px auto;
+  padding: 30px clamp(22px, 5vw, 54px);
+  border: 1px solid rgba(255, 213, 79, 0.35);
+  border-radius: 22px;
+  background: rgba(5, 13, 32, 0.58);
+  font-family: Georgia, "Times New Roman", "Microsoft YaHei", serif;
+}
+
+.poem-single p { font-size: 1.08rem; line-height: 2.05; }
+.poem-single p + p { margin-top: 1.7em; }
+
+@media (max-width: 820px) {
+  .namcha-hero h1 { font-size: clamp(2.5rem, 12vw, 3.8rem); }
+  .poem-single { padding: 24px 20px; }
+}

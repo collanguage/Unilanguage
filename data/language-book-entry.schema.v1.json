@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.0.1" },
+    "dataset_version": { "const": "1.0.2" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
@@ -38,6 +38,12 @@
       "properties": {
         "id": { "type": "string", "minLength": 1 },
         "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "record_kind": { "enum": ["lexical_entry", "named_entity"] },
+        "entity_types": {
+          "type": "array",
+          "items": { "enum": ["proper_name", "place", "named_entity"] },
+          "uniqueItems": true
+        },
         "title": { "$ref": "#/$defs/localized" },
         "languages": { "type": "array", "minItems": 2 },
         "primary_mapping": {

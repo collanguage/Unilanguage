@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.0.1", "Schema must remain 1.0.0 and Dataset Expansion release must be 1.0.1");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.0.2", "Schema must remain 1.0.0 and Dataset Expansion release must be 1.0.2");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
 check(/one English word/i.test(dataset.editorial_policy.data_separation.en), "data separation policy missing");
@@ -39,9 +39,10 @@ for (const entry of dataset.entries) {
   check(Array.isArray(entry.search_terms) && entry.search_terms.length, `${entry.id}: search_terms required`);
   if (entry.source) check(entry.source.type && entry.source.author && entry.source.status && entry.source.normalization && entry.source.raw_note, `${entry.id}: incomplete source/raw note`);
   for (const media of entry.media || []) {
-    check(["archival image", "original manuscript", "illustration", "generated illustration", "research figure"].includes(media.type), `${entry.id}/${media.media_id}: invalid media type`);
-    check(media.alt?.en && media.alt?.["zh-Hans"] && media.caption?.en && media.source && media.provenance, `${entry.id}/${media.media_id}: incomplete media provenance`);
-    check(fs.existsSync(path.join(root, media.path)), `${entry.id}/${media.media_id}: missing media file ${media.path}`);
+    const external = media.type === "external creative work";
+    check(["archival image", "original manuscript", "illustration", "generated illustration", "research figure", "external creative work"].includes(media.type), `${entry.id}/${media.media_id}: invalid media type`);
+    check(external ? /^https:\/\//.test(media.url || "") && media.title?.en && media.source && media.provenance : media.alt?.en && media.alt?.["zh-Hans"] && media.caption?.en && media.source && media.provenance, `${entry.id}/${media.media_id}: incomplete media provenance`);
+    if (!external) check(fs.existsSync(path.join(root, media.path)), `${entry.id}/${media.media_id}: missing media file ${media.path}`);
   }
   for (const hypothesis of entry.hypotheses || []) {
     check(hypothesis.hypothesis_id && hypothesis.claim && hypothesis.status && hypothesis.supporting_cases && hypothesis.counterexamples && hypothesis.testability && Object.hasOwn(hypothesis, "experiment_link"), `${entry.id}: incomplete hypothesis`);
@@ -60,6 +61,7 @@ for (const entry of dataset.entries) {
 for (const slug of ["sky", "light", "at", "universe", "human", "sound"]) check(slugs.has(slug), `required migrated entry missing: ${slug}`);
 check(slugs.has("abbey"), "Dataset Expansion v1 sample missing: abbey");
 check(slugs.has("abdomen"), "Dataset Expansion v1 sample missing: abdomen");
+check(slugs.has("namcha-barwa"), "Named Entity / Literary Entry missing: namcha-barwa");
 const at = dataset.entries.find((entry) => entry.slug === "at");
 check(at?.entry_status === "Published" && at?.mapping_status === "Candidate" && at?.historical_relation_status === "Not claimed", "AT status axes changed");
 check(at?.primary_mapping.source.pronunciation === "/æt/" && /tsaɪ̯/.test(at?.primary_mapping.target.pronunciation), "AT pronunciation observation changed");
@@ -94,6 +96,13 @@ check(abdomen?.related_words?.some((item) => item.word === "dome" && /Speculativ
 check(abdomen?.semantic_associations?.every((item) => item.is_etymological === false), "Abdomen cognitive associations must not be marked etymological");
 check(abdomen?.literary_layer?.proposition?.["zh-Hans"] === "肚子是我们的领地吗？" && abdomen?.literary_layer?.is_historical_evidence === false, "Abdomen literary layer changed");
 check(/用户英文原稿/.test(abdomen?.source?.raw_note || ""), "Abdomen raw English source missing");
+const namcha = dataset.entries.find((entry) => entry.slug === "namcha-barwa");
+check(namcha?.record_kind === "named_entity" && ["proper_name", "place", "named_entity"].every((type) => namcha?.entity_types?.includes(type)), "Namcha Barwa entity typing missing");
+check(namcha?.entry_status === "Published" && namcha?.mapping_status === "Reviewed" && namcha?.mapping_level === "Unrated", "Namcha Barwa must remain a published named entity, not a phonetic candidate");
+check(namcha?.evidence?.["Phonetic-Semantic"]?.status === "Not claimed" && namcha?.hypotheses?.length === 0, "Namcha Barwa must not become a phonetic candidate");
+check(namcha?.literary_layer?.status === "Published" && namcha?.literary_layer?.is_historical_evidence === false, "Namcha Barwa literary/evidence boundary changed");
+check(/直刺天空的长矛/.test(namcha?.search_terms?.join(" ") || "") && /情青/.test(namcha?.source?.raw_note || ""), "Namcha Barwa search alias or raw note missing");
+check(namcha?.media?.some((item) => item.type === "external creative work" && item.content_status === "not independently verified"), "Namcha Barwa external creative work boundary missing");
 
 if (errors.length) {
   console.error(`Language Book v1.0 validation failed (${errors.length}):`);
