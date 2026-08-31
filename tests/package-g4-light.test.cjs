@@ -58,10 +58,19 @@ test("all six formal records and the word page are indexed", () => {
   assert.equal(dataApi.DATASET_URL, "data/language-book.v0.6.json");
   assert.equal(dataApi.lookup(dataset, "籁").entry.entry_id, light.entry_id);
   assert.match(fs.readFileSync(path.join(root, "semantic-mapper.html"), "utf8"), /data-example="light"/);
-  assert.match(fs.readFileSync(path.join(root, "words/light.html"), "utf8"), /Candidate \/ retain_without_promotion/);
+  const page = fs.readFileSync(path.join(root, "words/light.html"), "utf8");
+  const candidate = JSON.parse(fs.readFileSync(path.join(root, "data/candidates/light-lai.v0.1.json"), "utf8"));
+  const literary = JSON.parse(fs.readFileSync(path.join(root, "data/sources/literary/ru-guang-tian-lai.v0.1.json"), "utf8"));
+  assert.match(page, /Entry Status · 词条状态[\s\S]*Published · 已发表/);
+  assert.match(page, /Mapping Status · 映射状态[\s\S]*Candidate · 候选/);
+  assert.match(page, /Literary Status · 文学状态[\s\S]*Published · 已发表/);
+  assert.equal(candidate.status, "Candidate");
+  assert.equal(candidate.review_decision, "retain_without_promotion");
+  assert.equal(literary.status, "Published");
+  assert.equal(literary.author_attribution, "Jinkai Liu");
 });
 
-test("no LIGHT object is Reviewed, Published or AI-reviewed", () => {
+test("no LIGHT mapping, hypothesis or experiment object is promoted or AI-reviewed", () => {
   const objects = [light.primary_chinese_mapping, ...light.mapping_rationales, ...light.historical_etymologies, ...light.other_author_notes, crossModal, cluster, experiment];
   for (const object of objects) {
     assert.equal(object.ai_review.status, "not-reviewed");

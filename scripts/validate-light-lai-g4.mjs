@@ -39,7 +39,7 @@ const standaloneFiles = [
   "data/sources/literary/ru-guang-tian-lai.v0.1.json",
 ];
 const standalone = standaloneFiles.map((file) => ({ file, record: read(file) }));
-for (const { file, record } of standalone) {
+for (const { file, record } of standalone.slice(0, 5)) {
   check(record.status === "Candidate", `${file} must remain Candidate`);
   check(record.review_decision === "retain_without_promotion", `${file} must retain_without_promotion`);
 }
@@ -61,8 +61,10 @@ check(crossModal.workflow_status === "Untested" && crossModal.confidence === "lo
 check(cluster.workflow_status === "Untested" && cluster.confidence === "low", "L-Light hypothesis must remain Untested/low");
 check(cluster.deduplication.positive_counts.eligible_surface_forms === 4 && cluster.deduplication.positive_counts.deep_pie_families === 1, "L-Light deduplication must remain 4 surface → 1 PIE family");
 check(cluster.negative_controls.length >= 5, "L-Light hypothesis needs positive and negative controls");
-check(experimentPlan.workflow_status === "Untested" && Object.keys(experimentPlan.metrics).length === 0 && /Not Tested/i.test(experimentPlan.result), "LIGHT experiment must remain an unexecuted plan with no metrics");
-check(literary.historical_evidence === false && literary.classification === "Literary / Cognitive Interpretation", "Literary record must stay outside historical evidence");
+check(experimentPlan.workflow_status === "Planned / Not tested" && Object.keys(experimentPlan.metrics).length === 0 && /Not Tested/i.test(experimentPlan.result), "LIGHT experiment must remain a planned, unexecuted study with no metrics");
+check(literary.status === "Published" && literary.review_decision === "published_as_literary_work_without_hypothesis_promotion" && literary.author_attribution === "Jinkai Liu", "Literary work must be published with Jinkai Liu attribution without promoting the hypothesis");
+check(literary.historical_evidence === false && literary.classification === "Literary / Cognitive Interpretation", "Published literary record must stay outside historical evidence");
+check(candidate.publication_axes?.entry_status === "Published" && candidate.publication_axes?.mapping_status === "Candidate" && candidate.publication_axes?.literary_status === "Published", "Publication axes must separate the Published entry/literature from the Candidate mapping");
 
 check(dataset.schema_version === schema.properties.schema_version.const, "Canonical dataset and schema version disagree");
 check(dataset.dataset_version === "0.6.0" && dataset.classification_model.package === "G.4", "Canonical dataset must be G.4 / v0.6.0");
@@ -137,4 +139,4 @@ if (errors.length) {
   process.exit(1);
 }
 console.log("LIGHT G.4: VALID");
-console.log("6 standalone records · 1 canonical Candidate entry · 2 Untested hypotheses · 1 Not Tested experiment · 0 promotions");
+console.log("Published entry + Published literature · 1 canonical Candidate mapping · 2 Untested hypotheses · 1 Planned/Not tested experiment · 0 hypothesis promotions");

@@ -5,6 +5,7 @@
     { keys: ["utp", "translation protocol", "翻译实验室", "翻译协议"], page: "translation-protocol.html" },
     { keys: ["protocol", "protocol book", "semantic protocol", "协议", "语义协议"], page: "protocol.html" },
     { keys: ["dictionary", "language book", "词典", "语言书"], page: "dictionary.html" },
+    { keys: ["如光天籁", "ru guang tian lai"], page: "words/light.html#literary" },
     { keys: ["experiment 001a", "001a", "实验001a"], page: "experiments/001a/ai-annotation-record.html" },
     { keys: ["experiment 002", "002", "实验002"], page: "experiments/002/results.html" },
   ];
@@ -36,12 +37,15 @@
       const primary = entry.primary_chinese_mapping;
       const secondary = entry.secondary_chinese_mappings;
       const forms = [primary, ...secondary].map((mapping) => `${mapping.chinese_form}${mapping.pinyin ? ` ${mapping.pinyin}` : ""}`).join(" · ");
-      return `<article class="card word-card" data-word="${escapeHtml([entry.source_word, ...entry.aliases].join(" "))}">
+      const isLight = UnilanguageData.normalize(entry.source_word) === "light";
+      const literaryForms = isLight ? " 光 光明 籁 籟 lai lài lumière 如光天籁" : "";
+      const publicEntryLink = isLight ? '<a href="words/light.html">Read the Published Light Entry / 《如光天籁》 · 阅读公开词条 →</a><br>' : "";
+      return `<article class="card word-card" data-word="${escapeHtml([entry.source_word, ...entry.aliases].join(" ") + literaryForms)}">
         <p class="label">${escapeHtml(entry.entry_id)}</p><h2>${escapeHtml(entry.source_word)}</h2>
         <p>${escapeHtml(entry.lexical_meaning.en)}</p><p lang="zh-Hans">${escapeHtml(entry.lexical_meaning["zh-Hans"])}</p>
         <p><strong>Primary / secondary · 主要／次要映射：</strong> ${escapeHtml(forms)}</p>
         <p><span class="status">${escapeHtml(entry.classification_status)}</span> <span class="status cultural">${entry.sound_symbol_hypothesis_refs.length} hypothesis · ${entry.experimental_validation_refs.length} experiment</span></p>
-        <a href="semantic-mapper.html?q=${encodeURIComponent(entry.source_word)}">Open in Mapper · 在映射器中打开 →</a></article>`;
+        ${publicEntryLink}<a href="semantic-mapper.html?q=${encodeURIComponent(entry.source_word)}">Open in Mapper · 在映射器中打开 →</a></article>`;
     }).join("");
   }
   async function filterDictionary() {
@@ -52,7 +56,11 @@
     try {
       const dataset = await getDataset();
       const term = UnilanguageData.normalize(input.value);
-      const entries = dataset.entries.filter((entry) => entry.classification_status !== "rejected" && (!term || UnilanguageData.searchableForms(entry).some((form) => form.includes(term))));
+      const entries = dataset.entries.filter((entry) => {
+        if (entry.classification_status === "rejected") return false;
+        const extraForms = UnilanguageData.normalize(entry.source_word) === "light" ? ["光", "光明", "籁", "籟", "lai", "lài", "lumière", "如光天籁"] : [];
+        return !term || [...UnilanguageData.searchableForms(entry), ...extraForms].some((form) => UnilanguageData.normalize(form).includes(term));
+      });
       renderDictionary(entries);
       if (message) message.textContent = entries.length ? `${entries.length} classified record(s) · ${entries.length} 个分类记录` : "No classified record found. · 未找到分类记录。";
     } catch (error) {
