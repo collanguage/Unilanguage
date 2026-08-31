@@ -74,7 +74,8 @@ test("G.1 UI visibly distinguishes object identities", () => {
   assert.match(html, /Fact.*Source-backed|fact-backed/i);
   assert.match(js, /Author Hypothesis/);
   assert.match(js, /Experimental Result/);
-  assert.match(js, /Historical Etymology/);
-  assert.match(js, /Source Verification/);
-  assert.match(js, /AI Review/);
+  assert.match(js, /Four Independent Evidence Tracks/);
+  assert.match(js, /Historical/);
+  assert.match(js, /Source refs/);
+  assert.match(js, /Literary Layer/);
 });

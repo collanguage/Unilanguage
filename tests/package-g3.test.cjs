@@ -51,7 +51,7 @@ test("every ADVANCE object keeps Source Verification separate from AI Review", (
 });
 
 test("G.3 archive remains queryable after the canonical loader advances", () => {
-  assert.equal(dataApi.DATASET_URL, "data/language-book.v0.6.json");
+  assert.equal(dataApi.DATASET_URL, "data/language-book.v1.0.json");
   assert.equal(dataApi.lookup(dataset, "advancement").entry.entry_id, advance.entry_id);
   assert.equal(dataApi.lookup(dataset, "往").entry.entry_id, advance.entry_id);
   assert.match(fs.readFileSync(path.join(root, "semantic-mapper.html"), "utf8"), /data-example="advance"/);

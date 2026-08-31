@@ -5,7 +5,7 @@
 })(typeof globalThis !== "undefined" ? globalThis : this, function () {
   "use strict";
 
-  const DATASET_URL = "data/language-book.v0.6.json";
+  const DATASET_URL = "data/language-book.v1.0.json";
 
   function normalize(value) {
     return String(value ?? "")
@@ -17,7 +17,15 @@
   }
 
   function searchableForms(entry) {
-    return [entry.source_word, entry.normalized_form, ...(entry.aliases || [])]
+    return [
+      entry.primary_mapping?.source?.word,
+      entry.primary_mapping?.target?.word,
+      entry.slug,
+      ...(entry.search_terms || []),
+      entry.source_word,
+      entry.normalized_form,
+      ...(entry.aliases || []),
+    ]
       .map(normalize)
       .filter(Boolean);
   }
@@ -25,7 +33,7 @@
   function lookup(dataset, query) {
     const term = normalize(query);
     if (!term) return { kind: "empty", entry: null, suggestions: [] };
-    const visible = dataset.entries.filter((entry) => entry.classification_status !== "rejected");
+    const visible = dataset.entries.filter((entry) => entry.mapping_status !== "Rejected" && entry.classification_status !== "rejected");
     const exact = visible.find((entry) => searchableForms(entry).includes(term));
     if (exact) return { kind: "exact", entry: exact, suggestions: [] };
 
@@ -35,14 +43,14 @@
     return { kind: "unknown", entry: null, suggestions };
   }
 
-  function resolveSources(dataset, refs) {
-    const sourceMap = new Map(dataset.sources.map((source) => [source.source_id, source]));
+  function resolveSources(entry, refs) {
+    const sourceMap = new Map(entry.references.map((source) => [source.reference_id, source]));
     return refs.map((ref) => sourceMap.get(ref)).filter(Boolean);
   }
 
   function resolveExperiments(dataset, refs) {
     const experimentMap = new Map(
-      dataset.experiments.map((experiment) => [experiment.experiment_id, experiment]),
+      dataset.entries.flatMap((entry) => entry.experiments).map((experiment) => [experiment.experiment_id, experiment]),
     );
     return refs.map((ref) => experimentMap.get(ref)).filter(Boolean);
   }

@@ -4,11 +4,11 @@
 
 **语言，一个系统。**
 
-## Semantic Mapper Package G.4 · LIGHT Candidate v0.1
+## Language Book Entry Schema v1.0 + Semantic Mapper Data Foundation
 
-The public product entry is `semantic-mapper.html`. It performs exact and normalized lookup against `data/language-book.v0.6.json` and renders seven independent layers: Primary Chinese Mapping, Mapping Rationale / Author Idea, Historical Etymology, Sound/Consonant/Symbol Hypotheses, Other Author Notes, Experimental Validation, and object-level Source Verification + AI Review. Unknown terms never receive generated evidence.
+Language Book is a cross-language comparable semantic database, not a proof that all languages share one historical origin. `data/language-book.v1.0.json` is the canonical browser dataset and `data/language-book-entry.schema.v1.json` defines its machine-readable contract. Entry publication, mapping status, historical relation, evidence tracks and literary status are independent.
 
-The same dataset powers Semantic Mapper, Dictionary and Search. WATER, LANGUAGE, ADVANCE and LIGHT are explicit Candidate / Not Reviewed records; the separate 19-record Package E/F/G review queue remains excluded and unchanged. LIGHT keeps 籁 as the sole primary author-proposed mapping, separates three historical tracks from two Untested hypotheses and one Not Tested experiment, and preserves `retain_without_promotion`. Rebuild v0.6 from v0.5 with `scripts/add-light-lai-candidate-g4.mjs`; validate with `scripts/validate-light-lai-g4.mjs`; then run the tests and `scripts/build-product-manifest.mjs`.
+Semantic Mapper, Dictionary and Search consume the same `search_terms` and structured entries. Nine records were migrated without discarding the v0.6 objects: Sky, Universe, Human/Man, Sound, Language, Water, Advance, Light and AT · 在 · 爱. Rebuild with `scripts/build-language-book-v1.mjs`, validate with `scripts/validate-language-book-v1.mjs`, and run `tests/language-book-v1.test.cjs`. See `docs/language-book-entry-schema-v1.md` for fields, enums, policy and a complete example.
 
 ## Package F · Candidate Source Verification + Human Review v0.1
 

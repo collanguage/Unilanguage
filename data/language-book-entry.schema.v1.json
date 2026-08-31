@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unilanguage.org/data/language-book-entry.schema.v1.json",
+  "title": "Language Book Entry Schema v1.0",
+  "type": "object",
+  "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "dataset_version": { "const": "1.0.0" },
+    "product": { "$ref": "#/$defs/localized" },
+    "author": { "const": "Jinkai Liu" },
+    "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
+    "status_enums": { "type": "object" },
+    "entries": { "type": "array", "minItems": 3, "items": { "$ref": "#/$defs/entry" } }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "required": ["en", "zh-Hans"],
+      "properties": { "en": { "type": "string", "minLength": 1 }, "zh-Hans": { "type": "string", "minLength": 1 } },
+      "additionalProperties": false
+    },
+    "statusTrack": {
+      "type": "object",
+      "required": ["status", "confidence", "summary", "items", "source_refs"],
+      "properties": {
+        "status": { "enum": ["Established", "Supported", "Candidate", "Interpretive", "Under review", "Unestablished", "Rejected", "Not claimed", "Not evaluated"] },
+        "confidence": { "enum": ["High", "Medium", "Low", "Unknown"] },
+        "summary": { "$ref": "#/$defs/localized" },
+        "items": { "type": "array" },
+        "source_refs": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "entry": {
+      "type": "object",
+      "required": ["id", "slug", "title", "languages", "primary_mapping", "entry_status", "mapping_status", "mapping_level", "historical_relation_status", "evidence", "phonetic_observation", "semantic_structure", "hypotheses", "experiments", "literary_layer", "media", "references", "author", "version", "dates", "editorial_notes", "search_terms"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "title": { "$ref": "#/$defs/localized" },
+        "languages": { "type": "array", "minItems": 2 },
+        "primary_mapping": {
+          "type": "object",
+          "required": ["mapping_id", "source", "target", "gloss", "meaning", "mapping_type", "rationale"],
+          "properties": {
+            "mapping_id": { "type": "string" },
+            "source": { "type": "object", "required": ["language", "word", "pronunciation"] },
+            "target": { "type": "object", "required": ["language", "word", "pronunciation"] },
+            "gloss": { "$ref": "#/$defs/localized" },
+            "meaning": { "$ref": "#/$defs/localized" },
+            "mapping_type": { "type": "string", "minLength": 1 },
+            "rationale": { "$ref": "#/$defs/localized" }
+          },
+          "additionalProperties": false
+        },
+        "entry_status": { "enum": ["Draft", "Reviewed", "Published", "Archived"] },
+        "mapping_status": { "enum": ["Candidate", "Reviewed", "Supported", "Rejected"] },
+        "mapping_level": { "enum": ["A", "B", "C", "D", "Unrated"] },
+        "historical_relation_status": { "enum": ["Established", "Supported", "Unestablished", "Rejected", "Not claimed"] },
+        "evidence": {
+          "type": "object",
+          "required": ["Historical", "Phonetic-Semantic", "Cognitive", "Speculative"],
+          "properties": {
+            "Historical": { "$ref": "#/$defs/statusTrack" },
+            "Phonetic-Semantic": { "$ref": "#/$defs/statusTrack" },
+            "Cognitive": { "$ref": "#/$defs/statusTrack" },
+            "Speculative": { "$ref": "#/$defs/statusTrack" }
+          },
+          "additionalProperties": false
+        },
+        "phonetic_observation": { "type": "array" },
+        "semantic_structure": { "type": "object", "required": ["concepts", "relation", "status"] },
+        "hypotheses": { "type": "array" },
+        "experiments": { "type": "array" },
+        "literary_layer": { "type": "object", "required": ["status", "is_historical_evidence", "proposition", "essay_prose", "poem_lyrics", "translations", "archival_manuscript_media", "evidence_boundary"], "properties": { "is_historical_evidence": { "const": false } } },
+        "media": { "type": "array" },
+        "references": { "type": "array" },
+        "author": { "const": "Jinkai Liu" },
+        "version": { "type": "string" },
+        "dates": { "type": "object", "required": ["created", "modified", "published"] },
+        "editorial_notes": { "type": "array", "items": { "$ref": "#/$defs/localized" } },
+        "search_terms": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "page": { "type": ["string", "null"] },
+        "legacy": { "type": ["object", "null"] }
+      }
+    }
+  }
+}

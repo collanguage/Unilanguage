@@ -61,7 +61,7 @@ test("critical pages expose mapper, data layer and no-result behavior", () => {
   const home = fs.readFileSync(path.join(root, "index.html"), "utf8");
   assert.match(mapper, /Lexical Meaning|Enter a word/);
   assert.match(mapper, /js\/language-book-data\.js/);
-  assert.match(script, /No classified word record/);
+  assert.match(script, /No schema or classified word record/);
   assert.match(script, /Experimental Result/);
   assert.match(home, /semantic-mapper\.html/);
 });

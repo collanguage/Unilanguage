@@ -55,7 +55,7 @@ test("all six formal records and the word page are indexed", () => {
     "words/light.html",
   ];
   for (const file of files) assert.ok(fs.existsSync(path.join(root, file)), file);
-  assert.equal(dataApi.DATASET_URL, "data/language-book.v0.6.json");
+  assert.equal(dataApi.DATASET_URL, "data/language-book.v1.0.json");
   assert.equal(dataApi.lookup(dataset, "籁").entry.entry_id, light.entry_id);
   assert.match(fs.readFileSync(path.join(root, "semantic-mapper.html"), "utf8"), /data-example="light"/);
   const page = fs.readFileSync(path.join(root, "words/light.html"), "utf8");

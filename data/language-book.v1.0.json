@@ -1,0 +1,3894 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_version": "1.0.0",
+  "published_at": "2026-08-30",
+  "product": {
+    "en": "Language Book: a cross-language comparable semantic database",
+    "zh-Hans": "Language Book：跨语言可比较语义数据库"
+  },
+  "author": "Jinkai Liu",
+  "editorial_policy": {
+    "publication_boundary": {
+      "en": "An entry may be published; a hypothesis must be graded; literature may explore freely; evidence must be evaluated independently.",
+      "zh-Hans": "词条可以发表，假说必须标级，文学可以自由展开，证据必须独立核验。"
+    },
+    "data_separation": {
+      "en": "One English word → one primary Chinese mapping → separate historical etymology → separate sound-semantic hypothesis → separate experimental validation.",
+      "zh-Hans": "一个英语词 → 一个主要汉语 Mapping → 独立历史词源 → 独立声音假说 → 独立实验验证。"
+    },
+    "non_cognacy_position": {
+      "en": "The database compares languages; it is not evidence that all languages share one historical origin.",
+      "zh-Hans": "本数据库用于跨语言比较，不是“所有语言历史同源”的证明。"
+    }
+  },
+  "status_enums": {
+    "entry_status": [
+      "Draft",
+      "Reviewed",
+      "Published",
+      "Archived"
+    ],
+    "mapping_status": [
+      "Candidate",
+      "Reviewed",
+      "Supported",
+      "Rejected"
+    ],
+    "mapping_level": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "Unrated"
+    ],
+    "historical_relation_status": [
+      "Established",
+      "Supported",
+      "Unestablished",
+      "Rejected",
+      "Not claimed"
+    ],
+    "literary_status": [
+      "Draft",
+      "Reviewed",
+      "Published",
+      "Not present"
+    ],
+    "evidence_status": [
+      "Established",
+      "Supported",
+      "Candidate",
+      "Interpretive",
+      "Under review",
+      "Unestablished",
+      "Rejected",
+      "Not claimed",
+      "Not evaluated"
+    ],
+    "confidence": [
+      "High",
+      "Medium",
+      "Low",
+      "Unknown"
+    ]
+  },
+  "entries": [
+    {
+      "id": "LB-en-sky-001",
+      "slug": "sky",
+      "title": {
+        "en": "Sky · Cover",
+        "zh-Hans": "Sky · 天空 · 盖"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "sky",
+          "pronunciation": "/skaɪ/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "天空",
+          "pronunciation": "tiānkōng"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-sky-primary-tiankong",
+        "source": {
+          "language": "English",
+          "word": "sky",
+          "pronunciation": "/skaɪ/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "天空",
+          "pronunciation": "tiānkōng"
+        },
+        "gloss": {
+          "en": "The visible region above the earth.",
+          "zh-Hans": "从地面向上看见的广大空间。"
+        },
+        "meaning": {
+          "en": "The visible region above the earth.",
+          "zh-Hans": "从地面向上看见的广大空间。"
+        },
+        "mapping_type": "Lexical equivalent",
+        "rationale": {
+          "en": "Calibration case: ordinary lexical equivalence (sky → 天空), the sky ↔ 盖 candidate, independent word histories, the ABOVE → COVER schema and literary interpretation remain separate.",
+          "zh-Hans": "Mapping 校准案例：普通词义对应（sky → 天空）、sky ↔ 盖候选、各自词史、ABOVE → COVER 图式与文学解释保持分离。"
+        }
+      },
+      "entry_status": "Published",
+      "mapping_status": "Candidate",
+      "mapping_level": "B",
+      "historical_relation_status": "Unestablished",
+      "evidence": {
+        "Historical": {
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ is a candidate velar and rhyme resemblance associated with the cognitive schema ABOVE → COVER.",
+            "zh-Hans": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ 是候选软腭音与韵部近似观察，并与 ABOVE → COVER 认知图式相连。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: ABOVE → COVER.",
+            "zh-Hans": "已记录语义结构：ABOVE → COVER。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-SKY-COVER-001",
+              "claim": {
+                "en": "sky ↔ 盖 as a phonetic-semantic and cognitive candidate",
+                "zh-Hans": "sky ↔ 盖：语音—语义与认知候选映射"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-LB-SKY",
+                "SRC-PROTOCOL-MAPPING"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LB-SKY",
+            "SRC-PROTOCOL-MAPPING"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-sky-001",
+          "claim": {
+            "en": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ is a candidate velar and rhyme resemblance associated with the cognitive schema ABOVE → COVER.",
+            "zh-Hans": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ 是候选软腭音与韵部近似观察，并与 ABOVE → COVER 认知图式相连。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Modern-form resemblance is not a regular sound correspondence or proof of cognacy.",
+            "zh-Hans": "现代词形近似不是规律音变，也不证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABOVE",
+          "COVER"
+        ],
+        "relation": "ABOVE → COVER",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-SKY-COVER-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "sky ↔ 盖 as a phonetic-semantic and cognitive candidate",
+            "zh-Hans": "sky ↔ 盖：语音—语义与认知候选映射"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-LB-SKY",
+            "SRC-PROTOCOL-MAPPING"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-LB-SKY",
+            "SRC-PROTOCOL-MAPPING"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Published",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "The sky is above us; a cover is over what it contains.",
+          "zh-Hans": "天在上，盖在所覆之物的上方。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "SRC-LB-SKY",
+          "title": "Language Book · Sky",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/sky.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-PROTOCOL-MAPPING",
+          "title": "Protocol Book · Multidimensional Mapping Framework",
+          "type": "protocol-page",
+          "url": null,
+          "path": "protocol/protocol.mapping-framework.html",
+          "provenance": "unknown"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "1.5 / dataset 0.1.0 / G.1 migration",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": "2026-08-07"
+      },
+      "editorial_notes": [
+        {
+          "en": "Calibration case: ordinary lexical equivalence (sky → 天空), the sky ↔ 盖 candidate, independent word histories, the ABOVE → COVER schema and literary interpretation remain separate.",
+          "zh-Hans": "Mapping 校准案例：普通词义对应（sky → 天空）、sky ↔ 盖候选、各自词史、ABOVE → COVER 图式与文学解释保持分离。"
+        }
+      ],
+      "search_terms": [
+        "sky",
+        "skies",
+        "heaven",
+        "天空",
+        "天",
+        "昊",
+        "ciel",
+        "盖",
+        "tiānkōng",
+        "ABOVE",
+        "COVER"
+      ],
+      "page": "words/sky.html",
+      "legacy": {
+        "entry_id": "LB-en-sky-001",
+        "source_word": "sky",
+        "language": "English",
+        "normalized_form": "sky",
+        "pronunciation": "/skaɪ/",
+        "phonetic_form": "skaɪ",
+        "lexical_meaning": {
+          "en": "The visible region above the earth.",
+          "zh-Hans": "从地面向上看见的广大空间。"
+        },
+        "aliases": [
+          "skies",
+          "heaven",
+          "天空",
+          "天",
+          "昊",
+          "ciel",
+          "盖"
+        ],
+        "classification_status": "published",
+        "primary_chinese_mapping": {
+          "mapping_id": "MAP-sky-primary-tiankong",
+          "chinese_form": "天空",
+          "pinyin": "tiānkōng",
+          "role": "primary",
+          "mapping_basis": "lexical-equivalent",
+          "status": "published",
+          "identity": "source-backed-lexical-mapping",
+          "source_verification": {
+            "status": "source-backed",
+            "source_refs": [
+              "SRC-LB-SKY"
+            ],
+            "notes": {
+              "en": "Ordinary Chinese lexical equivalent; no common-origin claim.",
+              "zh-Hans": "普通汉语词汇对应；不主张共同词源。"
+            }
+          },
+          "ai_review": {
+            "status": "not-reviewed",
+            "reviewer": null,
+            "reviewed_at": null,
+            "rationale": {
+              "en": "No G.1 object-level AI review has been completed.",
+              "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+            }
+          }
+        },
+        "secondary_chinese_mappings": [
+          {
+            "mapping_id": "MAP-sky-secondary-tian",
+            "chinese_form": "天",
+            "pinyin": "tiān",
+            "role": "secondary",
+            "mapping_basis": "lexical-equivalent",
+            "status": "published",
+            "identity": "source-backed-lexical-mapping",
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-LB-SKY"
+              ],
+              "notes": {
+                "en": "Secondary lexical equivalent retained from v0.2.",
+                "zh-Hans": "保留自 v0.2 的次要词汇对应。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "mapping_rationales": [],
+        "historical_etymologies": [],
+        "sound_symbol_hypothesis_refs": [
+          "UNI-SKY-COVER-001"
+        ],
+        "other_author_notes": [
+          {
+            "note_id": "NOTE-sky-french",
+            "identity": "author-note",
+            "status": "classified",
+            "text": {
+              "en": "French lexical counterpart retained from v0.2: ciel.",
+              "zh-Hans": "保留 v0.2 中的法语词汇对应：ciel。"
+            },
+            "source_verification": {
+              "status": "not-applicable",
+              "source_refs": [
+                "SRC-LB-SKY"
+              ],
+              "notes": {
+                "en": "Preserved during migration without forcing an evidential interpretation.",
+                "zh-Hans": "迁移时原样保留，不强行赋予证据解释。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "experimental_validation_refs": [],
+        "source_provenance": [
+          "SRC-LB-SKY",
+          "SRC-PROTOCOL-MAPPING"
+        ],
+        "author": "Jinkai Liu｜劉金凱",
+        "version": "1.5 / dataset 0.1.0 / G.1 migration"
+      }
+    },
+    {
+      "id": "LB-en-universe-001",
+      "slug": "universe",
+      "title": {
+        "en": "Universe · 宇宙",
+        "zh-Hans": "Universe · 宇宙"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "universe",
+          "pronunciation": "unknown"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "宇宙",
+          "pronunciation": "yǔzhòu"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-universe-primary-yuzhou",
+        "source": {
+          "language": "English",
+          "word": "universe",
+          "pronunciation": "unknown"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "宇宙",
+          "pronunciation": "yǔzhòu"
+        },
+        "gloss": {
+          "en": "The totality of space, time, matter and energy; also a complete conceptual world.",
+          "zh-Hans": "空间、时间、物质与能量的整体；也可指完整的概念世界。"
+        },
+        "meaning": {
+          "en": "The totality of space, time, matter and energy; also a complete conceptual world.",
+          "zh-Hans": "空间、时间、物质与能量的整体；也可指完整的概念世界。"
+        },
+        "mapping_type": "Lexical equivalent",
+        "rationale": {
+          "en": "SPACE + TIME and ONE + TURN are compared as semantic structures; selected sound networks remain experimental.",
+          "zh-Hans": "SPACE + TIME 与 ONE + TURN 作为语义结构比较；选定的声音网络仍属实验性。"
+        }
+      },
+      "entry_status": "Published",
+      "mapping_status": "Supported",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "No separate phonetic-semantic observation is recorded.",
+            "zh-Hans": "未记录独立的语音—语义观察。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: SPACE → TIME → TOTALITY → ONE → TURN.",
+            "zh-Hans": "已记录语义结构：SPACE → TIME → TOTALITY → ONE → TURN。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-UNIVERSE-FLOW-001",
+              "claim": {
+                "en": "Selected universe / 宇宙 sound and continuity sub-mappings",
+                "zh-Hans": "universe／宇宙的声音与连续性子映射"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-LB-UNIVERSE",
+                "SRC-PROTOCOL-MAPPING"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LB-UNIVERSE",
+            "SRC-PROTOCOL-MAPPING"
+          ]
+        }
+      },
+      "phonetic_observation": [],
+      "semantic_structure": {
+        "concepts": [
+          "SPACE",
+          "TIME",
+          "TOTALITY",
+          "ONE",
+          "TURN"
+        ],
+        "relation": "SPACE → TIME → TOTALITY → ONE → TURN",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-UNIVERSE-FLOW-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "Selected universe / 宇宙 sound and continuity sub-mappings",
+            "zh-Hans": "universe／宇宙的声音与连续性子映射"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-LB-UNIVERSE",
+            "SRC-PROTOCOL-MAPPING"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-LB-UNIVERSE",
+            "SRC-PROTOCOL-MAPPING"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Published",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "The universe is a poem written by existence itself.",
+          "zh-Hans": "宇宙是存在本身写下的一首诗。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "SRC-LB-UNIVERSE",
+          "title": "Language Book · Universe",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/universe.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-PROTOCOL-MAPPING",
+          "title": "Protocol Book · Multidimensional Mapping Framework",
+          "type": "protocol-page",
+          "url": null,
+          "path": "protocol/protocol.mapping-framework.html",
+          "provenance": "unknown"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "1.1 / dataset 0.1.0 / G.1 migration",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": "2026-08-16"
+      },
+      "editorial_notes": [
+        {
+          "en": "SPACE + TIME and ONE + TURN are compared as semantic structures; selected sound networks remain experimental.",
+          "zh-Hans": "SPACE + TIME 与 ONE + TURN 作为语义结构比较；选定的声音网络仍属实验性。"
+        }
+      ],
+      "search_terms": [
+        "universe",
+        "cosmos",
+        "宇宙",
+        "univers",
+        "世界",
+        "yǔzhòu",
+        "SPACE",
+        "TIME",
+        "TOTALITY",
+        "ONE",
+        "TURN"
+      ],
+      "page": "words/universe.html",
+      "legacy": {
+        "entry_id": "LB-en-universe-001",
+        "source_word": "universe",
+        "language": "English",
+        "normalized_form": "universe",
+        "pronunciation": null,
+        "phonetic_form": null,
+        "lexical_meaning": {
+          "en": "The totality of space, time, matter and energy; also a complete conceptual world.",
+          "zh-Hans": "空间、时间、物质与能量的整体；也可指完整的概念世界。"
+        },
+        "aliases": [
+          "cosmos",
+          "宇宙",
+          "univers",
+          "世界"
+        ],
+        "classification_status": "published",
+        "primary_chinese_mapping": {
+          "mapping_id": "MAP-universe-primary-yuzhou",
+          "chinese_form": "宇宙",
+          "pinyin": "yǔzhòu",
+          "role": "primary",
+          "mapping_basis": "lexical-equivalent",
+          "status": "published",
+          "identity": "source-backed-lexical-mapping",
+          "source_verification": {
+            "status": "source-backed",
+            "source_refs": [
+              "SRC-LB-UNIVERSE"
+            ],
+            "notes": {
+              "en": "Cross-language lexical mapping based on totalizing semantic structure, not cognacy.",
+              "zh-Hans": "基于整体语义结构的跨语言词汇对应，不主张同源。"
+            }
+          },
+          "ai_review": {
+            "status": "not-reviewed",
+            "reviewer": null,
+            "reviewed_at": null,
+            "rationale": {
+              "en": "No G.1 object-level AI review has been completed.",
+              "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+            }
+          }
+        },
+        "secondary_chinese_mappings": [],
+        "mapping_rationales": [],
+        "historical_etymologies": [],
+        "sound_symbol_hypothesis_refs": [
+          "UNI-UNIVERSE-FLOW-001"
+        ],
+        "other_author_notes": [],
+        "experimental_validation_refs": [],
+        "source_provenance": [
+          "SRC-LB-UNIVERSE",
+          "SRC-PROTOCOL-MAPPING"
+        ],
+        "author": "Jinkai Liu｜劉金凱",
+        "version": "1.1 / dataset 0.1.0 / G.1 migration"
+      }
+    },
+    {
+      "id": "LB-en-man-001",
+      "slug": "human",
+      "title": {
+        "en": "Man · Human",
+        "zh-Hans": "Man · 人 · 男"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "man",
+          "pronunciation": "/mæn/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "男",
+          "pronunciation": "nán"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-man-primary-nan",
+        "source": {
+          "language": "English",
+          "word": "man",
+          "pronunciation": "/mæn/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "男",
+          "pronunciation": "nán"
+        },
+        "gloss": {
+          "en": "An adult male human; historically, also a person or human being in some uses.",
+          "zh-Hans": "成年男性；部分历史用法中也可泛指人。"
+        },
+        "meaning": {
+          "en": "An adult male human; historically, also a person or human being in some uses.",
+          "zh-Hans": "成年男性；部分历史用法中也可泛指人。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The author compares the M–N consonant relation in man and 男.",
+          "zh-Hans": "作者比较 man 与“男”中的 M–N 辅音关系。"
+        }
+      },
+      "entry_status": "Published",
+      "mapping_status": "Candidate",
+      "mapping_level": "B",
+      "historical_relation_status": "Unestablished",
+      "evidence": {
+        "Historical": {
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The M–N relation in man /mæn/ and 男 nán is an author-proposed consonantal comparison.",
+            "zh-Hans": "man /mæn/ 与 男 nán 的 M–N 关系是作者提出的辅音比较。"
+          },
+          "items": [
+            {
+              "evidence_id": "RAT-man-mn",
+              "claim": {
+                "en": "The author compares the M–N consonant relation in man and 男.",
+                "zh-Hans": "作者比较 man 与“男”中的 M–N 辅音关系。"
+              },
+              "status": "Not evaluated",
+              "confidence": "Unknown",
+              "source_refs": [
+                "SRC-LB-MAN"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LB-MAN"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: HUMAN → PERSON → MALE.",
+            "zh-Hans": "已记录语义结构：HUMAN → PERSON → MALE。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-SOUND-MN-001",
+              "claim": {
+                "en": "M–N correspondence hypothesis",
+                "zh-Hans": "M–N 对应假说"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-LB-MAN",
+                "SRC-HYPOTHESIS-LAB"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LB-MAN",
+            "SRC-HYPOTHESIS-LAB"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-man-001",
+          "claim": {
+            "en": "The M–N relation in man /mæn/ and 男 nán is an author-proposed consonantal comparison.",
+            "zh-Hans": "man /mæn/ 与 男 nán 的 M–N 关系是作者提出的辅音比较。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Modern-form resemblance is not a regular sound correspondence or proof of cognacy.",
+            "zh-Hans": "现代词形近似不是规律音变，也不证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "HUMAN",
+          "PERSON",
+          "MALE"
+        ],
+        "relation": "HUMAN → PERSON → MALE",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-SOUND-MN-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "M–N correspondence hypothesis",
+            "zh-Hans": "M–N 对应假说"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-LB-MAN",
+            "SRC-HYPOTHESIS-LAB"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-LB-MAN",
+            "SRC-HYPOTHESIS-LAB"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Not present",
+        "is_historical_evidence": false,
+        "proposition": null,
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "SRC-LB-MAN",
+          "title": "Language Book · Man",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/man.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-HYPOTHESIS-LAB",
+          "title": "Unilanguage Hypothesis Lab",
+          "type": "project-documentation",
+          "url": null,
+          "path": "hypothesis-lab.html",
+          "provenance": "unknown"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "0.2 / dataset 0.1.0 / G.1 migration",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "The record preserves the existing man/human calibration case without asserting historical cognacy.",
+          "zh-Hans": "本记录保留既有 man/human 校准案例，不主张历史同源。"
+        }
+      ],
+      "search_terms": [
+        "man",
+        "male",
+        "human",
+        "person",
+        "男",
+        "男人",
+        "男子",
+        "氓",
+        "nán",
+        "HUMAN",
+        "PERSON",
+        "MALE"
+      ],
+      "page": null,
+      "legacy": {
+        "entry_id": "LB-en-man-001",
+        "source_word": "man",
+        "language": "English",
+        "normalized_form": "man",
+        "pronunciation": "/mæn/",
+        "phonetic_form": "mæn",
+        "lexical_meaning": {
+          "en": "An adult male human; historically, also a person or human being in some uses.",
+          "zh-Hans": "成年男性；部分历史用法中也可泛指人。"
+        },
+        "aliases": [
+          "male",
+          "human",
+          "person",
+          "男",
+          "男人",
+          "男子",
+          "氓"
+        ],
+        "classification_status": "published",
+        "primary_chinese_mapping": {
+          "mapping_id": "MAP-man-primary-nan",
+          "chinese_form": "男",
+          "pinyin": "nán",
+          "role": "primary",
+          "mapping_basis": "author-proposal",
+          "status": "published",
+          "identity": "author-idea",
+          "source_verification": {
+            "status": "needs-verification",
+            "source_refs": [
+              "SRC-LB-MAN"
+            ],
+            "notes": {
+              "en": "Previously published project mapping retained with its hypothesis identity.",
+              "zh-Hans": "保留此前发布的项目映射及其假说身份。"
+            }
+          },
+          "ai_review": {
+            "status": "not-reviewed",
+            "reviewer": null,
+            "reviewed_at": null,
+            "rationale": {
+              "en": "No G.1 object-level AI review has been completed.",
+              "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+            }
+          }
+        },
+        "secondary_chinese_mappings": [],
+        "mapping_rationales": [
+          {
+            "rationale_id": "RAT-man-mn",
+            "mapping_ref": "MAP-man-primary-nan",
+            "identity": "author-idea",
+            "status": "candidate",
+            "statement": {
+              "en": "The author compares the M–N consonant relation in man and 男.",
+              "zh-Hans": "作者比较 man 与“男”中的 M–N 辅音关系。"
+            },
+            "source_verification": {
+              "status": "not-applicable",
+              "source_refs": [
+                "SRC-LB-MAN"
+              ],
+              "notes": {
+                "en": "This preserves the author's reason for proposing the mapping; it is not an established fact.",
+                "zh-Hans": "此对象保存作者提出映射的理由，不是既成事实。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "historical_etymologies": [],
+        "sound_symbol_hypothesis_refs": [
+          "UNI-SOUND-MN-001"
+        ],
+        "other_author_notes": [],
+        "experimental_validation_refs": [],
+        "source_provenance": [
+          "SRC-LB-MAN",
+          "SRC-HYPOTHESIS-LAB"
+        ],
+        "author": "Jinkai Liu｜劉金凱",
+        "version": "0.2 / dataset 0.1.0 / G.1 migration"
+      }
+    },
+    {
+      "id": "LB-en-sound-001",
+      "slug": "sound",
+      "title": {
+        "en": "Sound · 声音",
+        "zh-Hans": "Sound · 声音"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "sound",
+          "pronunciation": "unknown"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "声音",
+          "pronunciation": "shēngyīn"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-sound-primary-shengyin",
+        "source": {
+          "language": "English",
+          "word": "sound",
+          "pronunciation": "unknown"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "声音",
+          "pronunciation": "shēngyīn"
+        },
+        "gloss": {
+          "en": "Vibration that can be heard; in language, the audible medium of speech.",
+          "zh-Hans": "可被听见的振动；在语言中也是言语的可听媒介。"
+        },
+        "meaning": {
+          "en": "Vibration that can be heard; in language, the audible medium of speech.",
+          "zh-Hans": "可被听见的振动；在语言中也是言语的可听媒介。"
+        },
+        "mapping_type": "Lexical equivalent",
+        "rationale": {
+          "en": "This is primarily a lexical and protocol record; no cross-language origin claim is made.",
+          "zh-Hans": "本条主要是词义与协议记录；不主张跨语言共同来源。"
+        }
+      },
+      "entry_status": "Published",
+      "mapping_status": "Supported",
+      "mapping_level": "A",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Phonetic-Semantic": {
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "No separate phonetic-semantic observation is recorded.",
+            "zh-Hans": "未记录独立的语音—语义观察。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: VIBRATION → HEARING → SPEECH.",
+            "zh-Hans": "已记录语义结构：VIBRATION → HEARING → SPEECH。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Not claimed",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [],
+          "source_refs": []
+        }
+      },
+      "phonetic_observation": [],
+      "semantic_structure": {
+        "concepts": [
+          "VIBRATION",
+          "HEARING",
+          "SPEECH"
+        ],
+        "relation": "VIBRATION → HEARING → SPEECH",
+        "status": "Interpretive"
+      },
+      "hypotheses": [],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Not present",
+        "is_historical_evidence": false,
+        "proposition": null,
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "SRC-LB-SOUND",
+          "title": "Language Book · Sound",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/sound.html",
+          "provenance": "unknown"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "source page current / dataset 0.2.0 / G.1 migration",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "This is primarily a lexical and protocol record; no cross-language origin claim is made.",
+          "zh-Hans": "本条主要是词义与协议记录；不主张跨语言共同来源。"
+        }
+      ],
+      "search_terms": [
+        "sound",
+        "voice",
+        "声音",
+        "声",
+        "响",
+        "son",
+        "shēngyīn",
+        "VIBRATION",
+        "HEARING",
+        "SPEECH"
+      ],
+      "page": "words/sound.html",
+      "legacy": {
+        "entry_id": "LB-en-sound-001",
+        "source_word": "sound",
+        "language": "English",
+        "normalized_form": "sound",
+        "pronunciation": null,
+        "phonetic_form": null,
+        "lexical_meaning": {
+          "en": "Vibration that can be heard; in language, the audible medium of speech.",
+          "zh-Hans": "可被听见的振动；在语言中也是言语的可听媒介。"
+        },
+        "aliases": [
+          "voice",
+          "声音",
+          "声",
+          "响",
+          "son"
+        ],
+        "classification_status": "published",
+        "primary_chinese_mapping": {
+          "mapping_id": "MAP-sound-primary-shengyin",
+          "chinese_form": "声音",
+          "pinyin": "shēngyīn",
+          "role": "primary",
+          "mapping_basis": "lexical-equivalent",
+          "status": "published",
+          "identity": "source-backed-lexical-mapping",
+          "source_verification": {
+            "status": "source-backed",
+            "source_refs": [
+              "SRC-LB-SOUND"
+            ],
+            "notes": {
+              "en": "Ordinary Chinese lexical equivalent.",
+              "zh-Hans": "普通汉语词汇对应。"
+            }
+          },
+          "ai_review": {
+            "status": "not-reviewed",
+            "reviewer": null,
+            "reviewed_at": null,
+            "rationale": {
+              "en": "No G.1 object-level AI review has been completed.",
+              "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+            }
+          }
+        },
+        "secondary_chinese_mappings": [
+          {
+            "mapping_id": "MAP-sound-secondary-sheng",
+            "chinese_form": "声",
+            "pinyin": "shēng",
+            "role": "secondary",
+            "mapping_basis": "lexical-equivalent",
+            "status": "published",
+            "identity": "source-backed-lexical-mapping",
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-LB-SOUND"
+              ],
+              "notes": {
+                "en": "Secondary Chinese form retained from v0.2.",
+                "zh-Hans": "保留自 v0.2 的次要汉语形式。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "mapping_rationales": [],
+        "historical_etymologies": [],
+        "sound_symbol_hypothesis_refs": [],
+        "other_author_notes": [
+          {
+            "note_id": "NOTE-sound-french",
+            "identity": "author-note",
+            "status": "classified",
+            "text": {
+              "en": "French lexical counterpart retained from v0.2: son.",
+              "zh-Hans": "保留 v0.2 中的法语词汇对应：son。"
+            },
+            "source_verification": {
+              "status": "not-applicable",
+              "source_refs": [
+                "SRC-LB-SOUND"
+              ],
+              "notes": {
+                "en": "Preserved during migration without forcing an evidential interpretation.",
+                "zh-Hans": "迁移时原样保留，不强行赋予证据解释。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "experimental_validation_refs": [],
+        "source_provenance": [
+          "SRC-LB-SOUND"
+        ],
+        "author": "Jinkai Liu｜劉金凱",
+        "version": "source page current / dataset 0.2.0 / G.1 migration"
+      }
+    },
+    {
+      "id": "LB-en-language-001",
+      "slug": "language",
+      "title": {
+        "en": "Language · 朗",
+        "zh-Hans": "Language · 语言 · 朗"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "language",
+          "pronunciation": "/ˈlæŋɡwɪdʒ/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "朗",
+          "pronunciation": "lǎng"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-language-primary-lang",
+        "source": {
+          "language": "English",
+          "word": "language",
+          "pronunciation": "/ˈlæŋɡwɪdʒ/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "朗",
+          "pronunciation": "lǎng"
+        },
+        "gloss": {
+          "en": "A structured system used to communicate and interpret meaning.",
+          "zh-Hans": "用于交流和解释意义的结构化系统。"
+        },
+        "meaning": {
+          "en": "A structured system used to communicate and interpret meaning.",
+          "zh-Hans": "用于交流和解释意义的结构化系统。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The author associates language with 朗读 and 朗朗上口: language is cognitively linked with being voiced or read aloud.",
+          "zh-Hans": "作者把 language 与“朗读／朗朗上口”联系：语言在认知上与发声、朗读相关。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "B",
+      "historical_relation_status": "Unestablished",
+      "evidence": {
+        "Historical": {
+          "status": "Supported",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [
+            {
+              "evidence_id": "ETY-language-001",
+              "claim": {
+                "en": "Historical dictionaries trace English language through Middle English and Old French langage, from langue, ultimately Latin lingua (‘tongue; language’).",
+                "zh-Hans": "历史词典将英语 language 追溯为：中古英语 langage／language，经古法语 langage、langue，最终来自拉丁语 lingua（“舌；语言”）。"
+              },
+              "status": "Supported",
+              "confidence": "High",
+              "chain": [
+                "English language",
+                "Middle English langage / language",
+                "Old French langage",
+                "Old French langue",
+                "Latin lingua"
+              ],
+              "source_refs": [
+                "SRC-AHD-LANGUAGE",
+                "SRC-MED-LANGAGE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-AHD-LANGUAGE",
+            "SRC-MED-LANGAGE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "No separate phonetic-semantic observation is recorded.",
+            "zh-Hans": "未记录独立的语音—语义观察。"
+          },
+          "items": [
+            {
+              "evidence_id": "RAT-language-lang",
+              "claim": {
+                "en": "The author associates language with 朗读 and 朗朗上口: language is cognitively linked with being voiced or read aloud.",
+                "zh-Hans": "作者把 language 与“朗读／朗朗上口”联系：语言在认知上与发声、朗读相关。"
+              },
+              "status": "Not evaluated",
+              "confidence": "Unknown",
+              "source_refs": [
+                "SRC-LB-LANGUAGE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LB-LANGUAGE"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: VOICE → MEANING → COMMUNICATION.",
+            "zh-Hans": "已记录语义结构：VOICE → MEANING → COMMUNICATION。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-L-GLYPH-HISTORY-001",
+              "claim": {
+                "en": "Research the proposed path from early alphabetic signs in an Egyptian contact setting through Semitic lamed and Greek lambda to Latin L. The proposed pictorial source of lamed, often linked with an ox-goad or crook, remains a historical reconstruction—not a semantic law.",
+                "zh-Hans": "研究在埃及接触环境中的早期字母符号，经闪米特 lamed、希腊 lambda 到拉丁 L 的提议路径。lamed 的图画来源常与赶牛杖或弯杖联系，但仍属于历史重建，不是语义法则。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-YALE-WADI-EL-HOL",
+                "SRC-ANTIQUITY-EARLY-ALPHABET",
+                "SRC-COLLESS-ALPHABET-L"
+              ]
+            },
+            {
+              "evidence_id": "UNI-L-INHERENT-SEMANTIC-001",
+              "claim": {
+                "en": "Research whether modern L or /l/ has a repeatable semantic association across words. Historical glyph evidence is context for a separate object and does not establish this hypothesis.",
+                "zh-Hans": "研究现代字母 L 或 /l/ 音在多个词汇中是否存在可重复的语义关联。历史字形资料属于另一个对象的背景，不能证明本假说。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-LB-LANGUAGE",
+                "SRC-COLLESS-ALPHABET-L"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-YALE-WADI-EL-HOL",
+            "SRC-ANTIQUITY-EARLY-ALPHABET",
+            "SRC-COLLESS-ALPHABET-L",
+            "SRC-LB-LANGUAGE"
+          ]
+        }
+      },
+      "phonetic_observation": [],
+      "semantic_structure": {
+        "concepts": [
+          "VOICE",
+          "MEANING",
+          "COMMUNICATION"
+        ],
+        "relation": "VOICE → MEANING → COMMUNICATION",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-L-GLYPH-HISTORY-001",
+          "type": "letter-symbol-history",
+          "claim": {
+            "en": "Research the proposed path from early alphabetic signs in an Egyptian contact setting through Semitic lamed and Greek lambda to Latin L. The proposed pictorial source of lamed, often linked with an ox-goad or crook, remains a historical reconstruction—not a semantic law.",
+            "zh-Hans": "研究在埃及接触环境中的早期字母符号，经闪米特 lamed、希腊 lambda 到拉丁 L 的提议路径。lamed 的图画来源常与赶牛杖或弯杖联系，但仍属于历史重建，不是语义法则。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-YALE-WADI-EL-HOL",
+            "SRC-ANTIQUITY-EARLY-ALPHABET",
+            "SRC-COLLESS-ALPHABET-L"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-YALE-WADI-EL-HOL",
+            "SRC-ANTIQUITY-EARLY-ALPHABET",
+            "SRC-COLLESS-ALPHABET-L"
+          ]
+        },
+        {
+          "hypothesis_id": "UNI-L-INHERENT-SEMANTIC-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "Research whether modern L or /l/ has a repeatable semantic association across words. Historical glyph evidence is context for a separate object and does not establish this hypothesis.",
+            "zh-Hans": "研究现代字母 L 或 /l/ 音在多个词汇中是否存在可重复的语义关联。历史字形资料属于另一个对象的背景，不能证明本假说。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-COLLESS-ALPHABET-L"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-LB-LANGUAGE",
+            "SRC-COLLESS-ALPHABET-L"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Not present",
+        "is_historical_evidence": false,
+        "proposition": null,
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "SRC-LB-LANGUAGE",
+          "title": "Language Book · Language",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/language.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-AHD-LANGUAGE",
+          "title": "American Heritage Dictionary · language",
+          "type": "authoritative-dictionary",
+          "url": "https://www.ahdictionary.com/word/search.html?q=language",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-MED-LANGAGE",
+          "title": "Middle English Dictionary · langage",
+          "type": "authoritative-dictionary",
+          "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED24625",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-YALE-WADI-EL-HOL",
+          "title": "Darnell et al. · Two Early Alphabetic Inscriptions from Wadi el-Hol",
+          "type": "primary-historical-source",
+          "url": "https://nelc.yale.edu/publications/two-early-alphabetic-inscriptions-wadi-el-hol-new-evidence-origin-alphabet-western",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "primary-publication"
+        },
+        {
+          "reference_id": "SRC-ANTIQUITY-EARLY-ALPHABET",
+          "title": "Höflmayer et al. · Early alphabetic writing at Tel Lachish",
+          "type": "scholarly-source",
+          "url": "https://www.cambridge.org/core/journals/antiquity/article/early-alphabetic-writing-in-the-ancient-near-east-the-missing-link-from-tel-lachish/C73F769B7CF3A7E4E2607958A096B7D8",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "scholarly-publication"
+        },
+        {
+          "reference_id": "SRC-COLLESS-ALPHABET-L",
+          "title": "Colless · The Origin of the Alphabet: An Examination of the Goldwasser Hypothesis",
+          "type": "scholarly-source",
+          "url": "https://repositorio.uca.edu.ar/bitstream/123456789/6787/4/origin-alphabet-goldwasser-hypothesis.pdf",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "scholarly-publication"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "source page current / dataset 0.2.0 / G.1 migration / G.2 source verification",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "The language → 朗 mapping is an author proposal. English historical etymology remains a separate track.",
+          "zh-Hans": "language → 朗 是作者提案；英语历史词源保持独立轨道。"
+        }
+      ],
+      "search_terms": [
+        "language",
+        "speech",
+        "语言",
+        "言语",
+        "langue",
+        "langage",
+        "朗",
+        "lǎng",
+        "VOICE",
+        "MEANING",
+        "COMMUNICATION"
+      ],
+      "page": "words/language.html",
+      "legacy": {
+        "entry_id": "LB-en-language-001",
+        "source_word": "language",
+        "language": "English",
+        "normalized_form": "language",
+        "pronunciation": "/ˈlæŋɡwɪdʒ/",
+        "phonetic_form": "læŋɡwɪdʒ",
+        "lexical_meaning": {
+          "en": "A structured system used to communicate and interpret meaning.",
+          "zh-Hans": "用于交流和解释意义的结构化系统。"
+        },
+        "aliases": [
+          "speech",
+          "语言",
+          "言语",
+          "langue",
+          "langage",
+          "朗",
+          "lǎng"
+        ],
+        "classification_status": "candidate",
+        "primary_chinese_mapping": {
+          "mapping_id": "MAP-language-primary-lang",
+          "chinese_form": "朗",
+          "pinyin": "lǎng",
+          "role": "primary",
+          "mapping_basis": "author-proposal",
+          "status": "candidate",
+          "identity": "author-idea",
+          "source_verification": {
+            "status": "needs-verification",
+            "source_refs": [
+              "SRC-LB-LANGUAGE"
+            ],
+            "notes": {
+              "en": "Author-proposed calibration mapping; not historical etymology and not reviewed fact.",
+              "zh-Hans": "作者提出的校准映射；不是历史词源，也不是已审核事实。"
+            }
+          },
+          "ai_review": {
+            "status": "not-reviewed",
+            "reviewer": null,
+            "reviewed_at": null,
+            "rationale": {
+              "en": "No G.1 object-level AI review has been completed.",
+              "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+            }
+          }
+        },
+        "secondary_chinese_mappings": [
+          {
+            "mapping_id": "MAP-language-secondary-yuyan",
+            "chinese_form": "语言",
+            "pinyin": "yǔyán",
+            "role": "secondary",
+            "mapping_basis": "lexical-equivalent",
+            "status": "published",
+            "identity": "source-backed-lexical-mapping",
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-LB-LANGUAGE"
+              ],
+              "notes": {
+                "en": "Ordinary Chinese lexical equivalent retained separately from the author proposal.",
+                "zh-Hans": "普通汉语词汇对应，与作者假说分开保留。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "mapping_rationales": [
+          {
+            "rationale_id": "RAT-language-lang",
+            "mapping_ref": "MAP-language-primary-lang",
+            "identity": "author-idea",
+            "status": "candidate",
+            "statement": {
+              "en": "The author associates language with 朗读 and 朗朗上口: language is cognitively linked with being voiced or read aloud.",
+              "zh-Hans": "作者把 language 与“朗读／朗朗上口”联系：语言在认知上与发声、朗读相关。"
+            },
+            "source_verification": {
+              "status": "not-applicable",
+              "source_refs": [
+                "SRC-LB-LANGUAGE"
+              ],
+              "notes": {
+                "en": "This preserves the author's reason for proposing the mapping; it is not an established fact.",
+                "zh-Hans": "此对象保存作者提出映射的理由，不是既成事实。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "historical_etymologies": [
+          {
+            "etymology_id": "ETY-language-001",
+            "identity": "historical-claim",
+            "status": "candidate",
+            "chain": [
+              "English language",
+              "Middle English langage / language",
+              "Old French langage",
+              "Old French langue",
+              "Latin lingua"
+            ],
+            "summary": {
+              "en": "Historical dictionaries trace English language through Middle English and Old French langage, from langue, ultimately Latin lingua (‘tongue; language’).",
+              "zh-Hans": "历史词典将英语 language 追溯为：中古英语 langage／language，经古法语 langage、langue，最终来自拉丁语 lingua（“舌；语言”）。"
+            },
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-AHD-LANGUAGE",
+                "SRC-MED-LANGAGE"
+              ],
+              "notes": {
+                "en": "The lexical-history chain is source-backed. These sources do not support the separate language↔朗 author mapping.",
+                "zh-Hans": "该词汇史链已有来源支持；这些来源不支持独立的 language↔朗 作者映射。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "G.2 completed Source Verification only; object-level AI Review has not been executed.",
+                "zh-Hans": "G.2 仅完成来源核验；尚未执行对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "sound_symbol_hypothesis_refs": [
+          "UNI-L-GLYPH-HISTORY-001",
+          "UNI-L-INHERENT-SEMANTIC-001"
+        ],
+        "other_author_notes": [
+          {
+            "note_id": "NOTE-language-stream",
+            "identity": "author-note",
+            "status": "needs-classification",
+            "text": {
+              "en": "The source page's lang/朗/亮/廊/浪/良/粮/梁/凉/力/量 stream is preserved as author research material pending finer classification.",
+              "zh-Hans": "源页面的 lang／朗／亮／廊／浪／良／粮／梁／凉／力／量联想链作为作者研究材料保留，等待进一步分类。"
+            },
+            "source_verification": {
+              "status": "not-applicable",
+              "source_refs": [
+                "SRC-LB-LANGUAGE"
+              ],
+              "notes": {
+                "en": "Preserved during migration without forcing an evidential interpretation.",
+                "zh-Hans": "迁移时原样保留，不强行赋予证据解释。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "experimental_validation_refs": [],
+        "source_provenance": [
+          "SRC-LB-LANGUAGE"
+        ],
+        "author": "Jinkai Liu｜劉金凱",
+        "version": "source page current / dataset 0.2.0 / G.1 migration / G.2 source verification"
+      }
+    },
+    {
+      "id": "LB-en-water-001",
+      "slug": "water",
+      "title": {
+        "en": "Water · 哗",
+        "zh-Hans": "Water · 水 · 哗"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "water",
+          "pronunciation": "/ˈwɔːtər/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "哗",
+          "pronunciation": "huā"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-water-primary-hua",
+        "source": {
+          "language": "English",
+          "word": "water",
+          "pronunciation": "/ˈwɔːtər/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "哗",
+          "pronunciation": "huā"
+        },
+        "gloss": {
+          "en": "The transparent liquid essential to life; also water as flow, surface and sound.",
+          "zh-Hans": "生命所必需的透明液体；也包括水的流动、表面与声音。"
+        },
+        "meaning": {
+          "en": "The transparent liquid essential to life; also water as flow, surface and sound.",
+          "zh-Hans": "生命所必需的透明液体；也包括水的流动、表面与声音。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The author links water with 哗/哗哗流水 as an auditory and semantic association.",
+          "zh-Hans": "作者把 water 与“哗／哗哗流水”联系，作为听觉与语义联想。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "B",
+      "historical_relation_status": "Unestablished",
+      "evidence": {
+        "Historical": {
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "No separate phonetic-semantic observation is recorded.",
+            "zh-Hans": "未记录独立的语音—语义观察。"
+          },
+          "items": [
+            {
+              "evidence_id": "RAT-water-hua",
+              "claim": {
+                "en": "The author links water with 哗/哗哗流水 as an auditory and semantic association.",
+                "zh-Hans": "作者把 water 与“哗／哗哗流水”联系，作为听觉与语义联想。"
+              },
+              "status": "Not evaluated",
+              "confidence": "Unknown",
+              "source_refs": [
+                "SRC-G1-CALIBRATION"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-G1-CALIBRATION"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: WATER → FLOW → SURFACE → SOUND.",
+            "zh-Hans": "已记录语义结构：WATER → FLOW → SURFACE → SOUND。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-W-FH-PHONETIC-001",
+              "claim": {
+                "en": "The author proposes that W may correspond with F or H in the water ↔ 哗 comparison. No regular sound change is asserted.",
+                "zh-Hans": "作者提出在 water ↔ 哗 的比较中，W 可能与 F 或 H 对应；此处不声称存在已证实的规律音变。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-G1-CALIBRATION",
+                "SRC-IPA-CHART",
+                "SRC-CAMBRIDGE-COMPARATIVE"
+              ]
+            },
+            {
+              "evidence_id": "UNI-W-WATER-002",
+              "claim": {
+                "en": "W-family enrichment in WATER / WETNESS / WAVE-FLOW semantics",
+                "zh-Hans": "W 词族在水／湿润／波动—流动语义中的富集假说"
+              },
+              "status": "Tested-Inconclusive",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-EXP-002-PRIMARY",
+                "SRC-EXP-002-PAGE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-G1-CALIBRATION",
+            "SRC-IPA-CHART",
+            "SRC-CAMBRIDGE-COMPARATIVE",
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ]
+        }
+      },
+      "phonetic_observation": [],
+      "semantic_structure": {
+        "concepts": [
+          "WATER",
+          "FLOW",
+          "SURFACE",
+          "SOUND"
+        ],
+        "relation": "WATER → FLOW → SURFACE → SOUND",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-W-FH-PHONETIC-001",
+          "type": "consonant-correspondence",
+          "claim": {
+            "en": "The author proposes that W may correspond with F or H in the water ↔ 哗 comparison. No regular sound change is asserted.",
+            "zh-Hans": "作者提出在 water ↔ 哗 的比较中，W 可能与 F 或 H 对应；此处不声称存在已证实的规律音变。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-IPA-CHART",
+            "SRC-CAMBRIDGE-COMPARATIVE"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-G1-CALIBRATION",
+            "SRC-IPA-CHART",
+            "SRC-CAMBRIDGE-COMPARATIVE"
+          ]
+        },
+        {
+          "hypothesis_id": "UNI-W-WATER-002",
+          "type": "initial-consonant-semantics",
+          "claim": {
+            "en": "W-family enrichment in WATER / WETNESS / WAVE-FLOW semantics",
+            "zh-Hans": "W 词族在水／湿润／波动—流动语义中的富集假说"
+          },
+          "status": "Tested-Inconclusive",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": "UNI-EXP-002",
+          "source_refs": [
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ]
+        }
+      ],
+      "experiments": [
+        {
+          "experiment_id": "UNI-EXP-002",
+          "title": {
+            "en": "W → WATER / WETNESS / WAVE-FLOW semantic enrichment",
+            "zh-Hans": "W → 水／湿润／波动—流动语义富集"
+          },
+          "status": "Tested-Inconclusive",
+          "tested_hypotheses": [
+            "UNI-W-WATER-002"
+          ],
+          "design": {
+            "en": "Preregistered W-initial lexical-family enrichment for WATER / WETNESS / WAVE-FLOW semantics against controls.",
+            "zh-Hans": "预注册检验 W 起始词族在水／湿润／波动—流动语义上相对控制组的富集。"
+          },
+          "result": {
+            "en": "Tested-Inconclusive. Direction matched the hypothesis, but uncertainty was wide and the evidence did not establish enrichment or a universal sound law.",
+            "zh-Hans": "检验结果为不确定。方向与假说一致，但不确定性较大，证据未确立富集，更未确立普遍声音法则。"
+          },
+          "metrics": {
+            "w_target": 7,
+            "w_total": 120,
+            "w_rate_percent": 5.83,
+            "control_target": 9,
+            "control_total": 240,
+            "control_rate_percent": 3.75,
+            "risk_ratio": 1.556,
+            "risk_ratio_95_ci": [
+              0.594,
+              4.075
+            ],
+            "risk_difference_percentage_points": 2.08,
+            "risk_difference_95_ci_percentage_points": [
+              -4.12,
+              9.57
+            ],
+            "fisher_two_sided_p": 0.4185
+          },
+          "path": "experiments/002/results.html",
+          "source_refs": [
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ]
+        }
+      ],
+      "literary_layer": {
+        "status": "Not present",
+        "is_historical_evidence": false,
+        "proposition": null,
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "SRC-EXP-002-PRIMARY",
+          "title": "UNI-EXP-002 frozen primary result",
+          "type": "frozen-experiment",
+          "url": null,
+          "path": "experiments/002/results/primary-result.v1.0.json",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-EXP-002-PAGE",
+          "title": "UNI-EXP-002 public result page",
+          "type": "frozen-experiment",
+          "url": null,
+          "path": "experiments/002/results.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-G1-CALIBRATION",
+          "title": "Package G.1 WATER / LANGUAGE author calibration record",
+          "type": "author-research-record",
+          "url": null,
+          "path": "docs/product/package-g1-classification-model-v0.1.md",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-IPA-CHART",
+          "title": "International Phonetic Association · official IPA chart",
+          "type": "official-standard",
+          "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "official-standard"
+        },
+        {
+          "reference_id": "SRC-CAMBRIDGE-COMPARATIVE",
+          "title": "Cambridge · Historical Linguistics / comparative method",
+          "type": "scholarly-source",
+          "url": "https://doi.org/10.1017/9781108344326.020",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "scholarly-publication"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "G.1 calibration v0.1",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "The water → 哗 mapping and Experiment 002 result remain independently classified.",
+          "zh-Hans": "water → 哗 mapping 与实验 002 结果保持独立分类。"
+        }
+      ],
+      "search_terms": [
+        "water",
+        "W",
+        "wetness",
+        "wave",
+        "flow",
+        "哗",
+        "huā",
+        "水",
+        "shuǐ",
+        "WATER",
+        "FLOW",
+        "SURFACE",
+        "SOUND"
+      ],
+      "page": null,
+      "legacy": {
+        "entry_id": "LB-en-water-001",
+        "source_word": "water",
+        "language": "English",
+        "normalized_form": "water",
+        "pronunciation": "/ˈwɔːtər/",
+        "phonetic_form": "wɔːtər",
+        "lexical_meaning": {
+          "en": "The transparent liquid essential to life; also water as flow, surface and sound.",
+          "zh-Hans": "生命所必需的透明液体；也包括水的流动、表面与声音。"
+        },
+        "aliases": [
+          "W",
+          "wetness",
+          "wave",
+          "flow",
+          "哗",
+          "huā",
+          "水",
+          "shuǐ"
+        ],
+        "classification_status": "candidate",
+        "primary_chinese_mapping": {
+          "mapping_id": "MAP-water-primary-hua",
+          "chinese_form": "哗",
+          "pinyin": "huā",
+          "role": "primary",
+          "mapping_basis": "author-proposal",
+          "status": "candidate",
+          "identity": "author-idea",
+          "source_verification": {
+            "status": "needs-verification",
+            "source_refs": [
+              "SRC-G1-CALIBRATION"
+            ],
+            "notes": {
+              "en": "Author-proposed sound-semantic calibration mapping based on the sound of flowing water; not reviewed fact.",
+              "zh-Hans": "作者基于流水声提出的声音—语义校准映射；不是已审核事实。"
+            }
+          },
+          "ai_review": {
+            "status": "not-reviewed",
+            "reviewer": null,
+            "reviewed_at": null,
+            "rationale": {
+              "en": "No G.1 object-level AI review has been completed.",
+              "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+            }
+          }
+        },
+        "secondary_chinese_mappings": [
+          {
+            "mapping_id": "MAP-water-secondary-shui",
+            "chinese_form": "水",
+            "pinyin": "shuǐ",
+            "role": "secondary",
+            "mapping_basis": "lexical-equivalent",
+            "status": "published",
+            "identity": "source-backed-lexical-mapping",
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-PROTOCOL-MAPPING"
+              ],
+              "notes": {
+                "en": "Ordinary Chinese lexical equivalent included as a separate secondary mapping.",
+                "zh-Hans": "普通汉语词汇对应，作为独立次要 mapping 保存。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "mapping_rationales": [
+          {
+            "rationale_id": "RAT-water-hua",
+            "mapping_ref": "MAP-water-primary-hua",
+            "identity": "author-idea",
+            "status": "candidate",
+            "statement": {
+              "en": "The author links water with 哗/哗哗流水 as an auditory and semantic association.",
+              "zh-Hans": "作者把 water 与“哗／哗哗流水”联系，作为听觉与语义联想。"
+            },
+            "source_verification": {
+              "status": "not-applicable",
+              "source_refs": [
+                "SRC-G1-CALIBRATION"
+              ],
+              "notes": {
+                "en": "This preserves the author's reason for proposing the mapping; it is not an established fact.",
+                "zh-Hans": "此对象保存作者提出映射的理由，不是既成事实。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "historical_etymologies": [],
+        "sound_symbol_hypothesis_refs": [
+          "UNI-W-FH-PHONETIC-001",
+          "UNI-W-WATER-002"
+        ],
+        "other_author_notes": [
+          {
+            "note_id": "NOTE-water-other",
+            "identity": "author-note",
+            "status": "needs-classification",
+            "text": {
+              "en": "Reserved for additional author ideas about water without forcing them into a hypothesis or etymology.",
+              "zh-Hans": "用于继续保存作者关于 water 的其他想法，不强行归入假说或词源。"
+            },
+            "source_verification": {
+              "status": "not-applicable",
+              "source_refs": [
+                "SRC-G1-CALIBRATION"
+              ],
+              "notes": {
+                "en": "Preserved during migration without forcing an evidential interpretation.",
+                "zh-Hans": "迁移时原样保留，不强行赋予证据解释。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "No G.1 object-level AI review has been completed.",
+                "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "experimental_validation_refs": [
+          "UNI-EXP-002"
+        ],
+        "source_provenance": [
+          "SRC-EXP-002-PRIMARY",
+          "SRC-EXP-002-PAGE",
+          "SRC-G1-CALIBRATION"
+        ],
+        "author": "Jinkai Liu｜劉金凱",
+        "version": "G.1 calibration v0.1"
+      }
+    },
+    {
+      "id": "LB-en-advance-001",
+      "slug": "advance",
+      "title": {
+        "en": "Advance · 往",
+        "zh-Hans": "Advance · 往"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "advance",
+          "pronunciation": "/ədˈvæns/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "往",
+          "pronunciation": "wǎng"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-advance-primary-wang",
+        "source": {
+          "language": "English",
+          "word": "advance",
+          "pronunciation": "/ədˈvæns/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "往",
+          "pronunciation": "wǎng"
+        },
+        "gloss": {
+          "en": "To move or bring something forward; to progress or promote development.",
+          "zh-Hans": "向前移动、使某物向前推进，或取得进展、促进发展。"
+        },
+        "meaning": {
+          "en": "To move or bring something forward; to progress or promote development.",
+          "zh-Hans": "向前移动、使某物向前推进，或取得进展、促进发展。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The proposed mapping compares a shared semantic structure: MOVE → FORWARD / TOWARD A DIRECTION. English advance foregrounds forward motion or progress; Chinese 往 profiles movement toward a destination or direction.",
+          "zh-Hans": "该 mapping 比较共同语义结构：MOVE → FORWARD／TOWARD A DIRECTION。英语 advance 突出向前移动或进展，汉语“往”突出朝目的地或方向移动。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Unestablished",
+      "evidence": {
+        "Historical": {
+          "status": "Supported",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [
+            {
+              "evidence_id": "ETY-advance-001",
+              "claim": {
+                "en": "Reliable dictionaries trace advance through Middle English and Anglo-French avancer to Vulgar Latin *abantiāre, based on Latin abante. English advancement reflects Anglo-French avancement from avancer + -ment; French avance is deverbal from avancer, and French avancement is avancer + -ment. This source-backed morphology does not contain an independently established historical morpheme vance meaning '前的'.",
+                "zh-Hans": "可靠词典把 advance 经中古英语、盎格鲁法语 avancer 追溯到通俗拉丁语 *abantiāre，其基础为拉丁语 abante。英语 advancement 反映盎格鲁法语 avancement（avancer + -ment）；法语 avance 是由 avancer 逆生的名词，avancement 为 avancer + -ment。该有来源的形态分析不含一个独立且已确立、意为“前的”的历史词素 vance。"
+              },
+              "status": "Supported",
+              "confidence": "High",
+              "chain": [
+                "English advance",
+                "Middle English advauncen / avauncen",
+                "Anglo-French avancer",
+                "Vulgar Latin *abantiāre",
+                "Latin abante (ab + ante: before / in front)"
+              ],
+              "source_refs": [
+                "SRC-MW-ADVANCE",
+                "SRC-MW-ADVANCEMENT",
+                "SRC-CNRTL-AVANCER",
+                "SRC-CNRTL-AVANCE",
+                "SRC-CNRTL-AVANCEMENT"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-MW-ADVANCE",
+            "SRC-MW-ADVANCEMENT",
+            "SRC-CNRTL-AVANCER",
+            "SRC-CNRTL-AVANCE",
+            "SRC-CNRTL-AVANCEMENT"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "No separate phonetic-semantic observation is recorded.",
+            "zh-Hans": "未记录独立的语音—语义观察。"
+          },
+          "items": [
+            {
+              "evidence_id": "RAT-advance-wang",
+              "claim": {
+                "en": "The proposed mapping compares a shared semantic structure: MOVE → FORWARD / TOWARD A DIRECTION. English advance foregrounds forward motion or progress; Chinese 往 profiles movement toward a destination or direction.",
+                "zh-Hans": "该 mapping 比较共同语义结构：MOVE → FORWARD／TOWARD A DIRECTION。英语 advance 突出向前移动或进展，汉语“往”突出朝目的地或方向移动。"
+              },
+              "status": "Under review",
+              "confidence": "Unknown",
+              "source_refs": [
+                "SRC-LB-ADVANCE",
+                "SRC-CAMBRIDGE-ADVANCE-ZH"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-CAMBRIDGE-ADVANCE-ZH"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: MOVE → FORWARD → TOWARD.",
+            "zh-Hans": "已记录语义结构：MOVE → FORWARD → TOWARD。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-VANCE-WANG-001",
+              "claim": {
+                "en": "The author proposes testing whether van/vance and Mandarin wang/往 show a repeatable sound-semantic association around forward movement or direction. No sound change, historical correspondence, or common origin is asserted.",
+                "zh-Hans": "作者提出检验 van／vance 与汉语 wang／往 是否围绕向前移动或方向形成可重复的声音—语义关联；此处不声称已证实音变、历史对应或共同词源。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-LB-ADVANCE",
+                "SRC-MW-ADVANCE",
+                "SRC-CNRTL-AVANCER"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-MW-ADVANCE",
+            "SRC-CNRTL-AVANCER"
+          ]
+        }
+      },
+      "phonetic_observation": [],
+      "semantic_structure": {
+        "concepts": [
+          "MOVE",
+          "FORWARD",
+          "TOWARD"
+        ],
+        "relation": "MOVE → FORWARD → TOWARD",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-VANCE-WANG-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "The author proposes testing whether van/vance and Mandarin wang/往 show a repeatable sound-semantic association around forward movement or direction. No sound change, historical correspondence, or common origin is asserted.",
+            "zh-Hans": "作者提出检验 van／vance 与汉语 wang／往 是否围绕向前移动或方向形成可重复的声音—语义关联；此处不声称已证实音变、历史对应或共同词源。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-LB-ADVANCE"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": "UNI-EXP-ADVANCE-001",
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-MW-ADVANCE",
+            "SRC-CNRTL-AVANCER"
+          ]
+        }
+      ],
+      "experiments": [
+        {
+          "experiment_id": "UNI-EXP-ADVANCE-001",
+          "title": {
+            "en": "Future van/vance ↔ wang/往 validation",
+            "zh-Hans": "未来 van／vance ↔ wang／往 验证"
+          },
+          "status": "Untested",
+          "tested_hypotheses": [
+            "UNI-VANCE-WANG-001"
+          ],
+          "design": {
+            "en": "Not tested. A future preregistered design must define the phonetic comparison, semantic categories, sampling frame, controls, annotation and decision rule before data are inspected.",
+            "zh-Hans": "尚未检验。未来必须先预注册语音比较、语义类别、抽样框、控制组、标注方法与判定规则，再查看数据。"
+          },
+          "result": {
+            "en": "Not Tested. No observations, metrics, outcomes or evidential update exist.",
+            "zh-Hans": "Not Tested／尚未检验：没有观察数据、统计量、结果或证据更新。"
+          },
+          "metrics": {},
+          "path": null,
+          "source_refs": [
+            "SRC-LB-ADVANCE"
+          ]
+        }
+      ],
+      "literary_layer": {
+        "status": "Not present",
+        "is_historical_evidence": false,
+        "proposition": null,
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "SRC-LB-ADVANCE",
+          "title": "Language Book · Advance",
+          "type": "author-research-record",
+          "url": null,
+          "path": "words/advance.html",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-CAMBRIDGE-ADVANCE-ZH",
+          "title": "Cambridge Dictionary · advance (English–Chinese Simplified)",
+          "type": "authoritative-dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/advance",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-MW-ADVANCE",
+          "title": "Merriam-Webster · advance",
+          "type": "authoritative-dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/advance",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-MW-ADVANCEMENT",
+          "title": "Merriam-Webster · advancement",
+          "type": "authoritative-dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/advancement",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-AVANCER",
+          "title": "CNRTL / TLFi · avancer",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/avancer",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-AVANCE",
+          "title": "CNRTL / TLFi · avance",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/avance",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-AVANCEMENT",
+          "title": "CNRTL / TLFi · avancement",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/avancement",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "G.3 calibration v0.1 / dataset 0.5.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "The semantic structure MOVE → FORWARD/TOWARD is distinct from both historical etymology and the vance ↔ 往 sound hypothesis.",
+          "zh-Hans": "MOVE → FORWARD/TOWARD 语义结构与历史词源、vance ↔ 往声音假说彼此独立。"
+        }
+      ],
+      "search_terms": [
+        "advance",
+        "advancement",
+        "avance",
+        "avancer",
+        "avancement",
+        "往",
+        "wǎng",
+        "推进",
+        "前进",
+        "MOVE",
+        "FORWARD",
+        "TOWARD"
+      ],
+      "page": "words/advance.html",
+      "legacy": {
+        "entry_id": "LB-en-advance-001",
+        "source_word": "advance",
+        "language": "English",
+        "normalized_form": "advance",
+        "pronunciation": "/ədˈvæns/",
+        "phonetic_form": "ədˈvæns",
+        "lexical_meaning": {
+          "en": "To move or bring something forward; to progress or promote development.",
+          "zh-Hans": "向前移动、使某物向前推进，或取得进展、促进发展。"
+        },
+        "aliases": [
+          "advancement",
+          "avance",
+          "avancer",
+          "avancement",
+          "往",
+          "wǎng",
+          "推进",
+          "前进"
+        ],
+        "classification_status": "candidate",
+        "primary_chinese_mapping": {
+          "mapping_id": "MAP-advance-primary-wang",
+          "chinese_form": "往",
+          "pinyin": "wǎng",
+          "role": "primary",
+          "mapping_basis": "author-proposal",
+          "status": "candidate",
+          "identity": "author-idea",
+          "source_verification": {
+            "status": "needs-verification",
+            "source_refs": [
+              "SRC-LB-ADVANCE",
+              "SRC-CAMBRIDGE-ADVANCE-ZH"
+            ],
+            "notes": {
+              "en": "This is the author's selected cross-language research mapping. Cambridge supports ordinary forward-motion translations, but does not establish 往 as a unique primary equivalent or historical relation.",
+              "zh-Hans": "这是作者选择的跨语言研究 mapping。剑桥词典支持通常的向前运动译义，但不确立“往”为唯一主要对应，也不支持历史关系。"
+            }
+          },
+          "ai_review": {
+            "status": "not-reviewed",
+            "reviewer": null,
+            "reviewed_at": null,
+            "rationale": {
+              "en": "This calibration object has not received an object-level AI review.",
+              "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+            }
+          }
+        },
+        "secondary_chinese_mappings": [
+          {
+            "mapping_id": "MAP-advance-secondary-tuijin",
+            "chinese_form": "推进",
+            "pinyin": "tuījìn",
+            "role": "secondary",
+            "mapping_basis": "lexical-equivalent",
+            "status": "published",
+            "identity": "source-backed-lexical-mapping",
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-CAMBRIDGE-ADVANCE-ZH"
+              ],
+              "notes": {
+                "en": "Cambridge uses 推进 in a contextual forward-motion example and lists the broader forward/development senses.",
+                "zh-Hans": "剑桥词典在向前运动的语境例句中使用“推进”，并列出相关的前进／发展义。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This calibration object has not received an object-level AI review.",
+                "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+              }
+            }
+          },
+          {
+            "mapping_id": "MAP-advance-secondary-qianjin",
+            "chinese_form": "前进",
+            "pinyin": "qiánjìn",
+            "role": "secondary",
+            "mapping_basis": "lexical-equivalent",
+            "status": "published",
+            "identity": "source-backed-lexical-mapping",
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-CAMBRIDGE-ADVANCE-ZH"
+              ],
+              "notes": {
+                "en": "Cambridge gives （使）前进 for the forward-motion verb sense.",
+                "zh-Hans": "剑桥词典将向前运动的动词义译为“（使）前进”。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This calibration object has not received an object-level AI review.",
+                "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "mapping_rationales": [
+          {
+            "rationale_id": "RAT-advance-wang",
+            "mapping_ref": "MAP-advance-primary-wang",
+            "identity": "author-idea",
+            "status": "candidate",
+            "statement": {
+              "en": "The proposed mapping compares a shared semantic structure: MOVE → FORWARD / TOWARD A DIRECTION. English advance foregrounds forward motion or progress; Chinese 往 profiles movement toward a destination or direction.",
+              "zh-Hans": "该 mapping 比较共同语义结构：MOVE → FORWARD／TOWARD A DIRECTION。英语 advance 突出向前移动或进展，汉语“往”突出朝目的地或方向移动。"
+            },
+            "source_verification": {
+              "status": "needs-verification",
+              "source_refs": [
+                "SRC-LB-ADVANCE",
+                "SRC-CAMBRIDGE-ADVANCE-ZH"
+              ],
+              "notes": {
+                "en": "The component meanings are documentable, but the decision to make 往 the primary research mapping is the author's analytical proposal.",
+                "zh-Hans": "两个词的相关义项可以记录，但把“往”选作主要研究 mapping 是作者的分析提议。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This calibration object has not received an object-level AI review.",
+                "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "historical_etymologies": [
+          {
+            "etymology_id": "ETY-advance-001",
+            "identity": "historical-claim",
+            "status": "candidate",
+            "chain": [
+              "English advance",
+              "Middle English advauncen / avauncen",
+              "Anglo-French avancer",
+              "Vulgar Latin *abantiāre",
+              "Latin abante (ab + ante: before / in front)"
+            ],
+            "summary": {
+              "en": "Reliable dictionaries trace advance through Middle English and Anglo-French avancer to Vulgar Latin *abantiāre, based on Latin abante. English advancement reflects Anglo-French avancement from avancer + -ment; French avance is deverbal from avancer, and French avancement is avancer + -ment. This source-backed morphology does not contain an independently established historical morpheme vance meaning '前的'.",
+              "zh-Hans": "可靠词典把 advance 经中古英语、盎格鲁法语 avancer 追溯到通俗拉丁语 *abantiāre，其基础为拉丁语 abante。英语 advancement 反映盎格鲁法语 avancement（avancer + -ment）；法语 avance 是由 avancer 逆生的名词，avancement 为 avancer + -ment。该有来源的形态分析不含一个独立且已确立、意为“前的”的历史词素 vance。"
+            },
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-MW-ADVANCE",
+                "SRC-MW-ADVANCEMENT",
+                "SRC-CNRTL-AVANCER",
+                "SRC-CNRTL-AVANCE",
+                "SRC-CNRTL-AVANCEMENT"
+              ],
+              "notes": {
+                "en": "The cited dictionary etymologies agree on the avancer → *abantiare/abante lineage and on the derivational status of avance/avancement. They do not support the author's ad.van.ce or ad.vance.ment segmentation as historical morphology.",
+                "zh-Hans": "所引词典词源一致支持 avancer → *abantiare／abante 的谱系及 avance／avancement 的派生身份；它们不支持把作者的 ad.van.ce 或 ad.vance.ment 切分当作历史形态。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This calibration object has not received an object-level AI review.",
+                "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "sound_symbol_hypothesis_refs": [
+          "UNI-VANCE-WANG-001"
+        ],
+        "other_author_notes": [
+          {
+            "note_id": "NOTE-advance-author-analysis",
+            "identity": "author-note",
+            "status": "classified",
+            "text": {
+              "en": "Author Analysis (preserved verbatim in substance): English advance [ədˈvæns], v., 推进; advancement, n., 推进; proposed segmentations ad.van.ce and ad.vance.ment. French avance / avancement; proposed observation vance, adjective, '前的'. Chinese 往 wǎng. These are author-supplied observations and segmentations, not automatically accepted historical morphology.",
+              "zh-Hans": "Author Analysis／作者分析（实质原样保留）：English advance [ədˈvæns] v. 推进；advancement n. 推进；作者切分 ad.van.ce、ad.vance.ment；French avance／avancement，以及作者提出的 vance a. “前的”观察；Chinese 往 wǎng。这些是作者提供的观察与切分，不自动视为历史形态分析。"
+            },
+            "source_verification": {
+              "status": "disputed",
+              "source_refs": [
+                "SRC-LB-ADVANCE",
+                "SRC-MW-ADVANCE",
+                "SRC-MW-ADVANCEMENT",
+                "SRC-CNRTL-AVANCE",
+                "SRC-CNRTL-AVANCEMENT"
+              ],
+              "notes": {
+                "en": "The author record is authentic as an author analysis. Its proposed segmentation and vance gloss are not supported by the consulted historical dictionaries, which instead analyze the documented forms through avancer and -ment.",
+                "zh-Hans": "该记录作为作者分析本身是真实的；但所提切分与 vance 释义未获已查历史词典支持，词典把相关形式分析为经 avancer 及后缀 -ment 构成。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This calibration object has not received an object-level AI review.",
+                "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "experimental_validation_refs": [
+          "UNI-EXP-ADVANCE-001"
+        ],
+        "source_provenance": [
+          "SRC-LB-ADVANCE",
+          "SRC-CAMBRIDGE-ADVANCE-ZH",
+          "SRC-MW-ADVANCE",
+          "SRC-MW-ADVANCEMENT",
+          "SRC-CNRTL-AVANCER",
+          "SRC-CNRTL-AVANCE",
+          "SRC-CNRTL-AVANCEMENT"
+        ],
+        "author": "Jinkai Liu｜劉金凱",
+        "version": "G.3 calibration v0.1 / dataset 0.5.0"
+      }
+    },
+    {
+      "id": "LB-en-light-001",
+      "slug": "light",
+      "title": {
+        "en": "Light · 籁 · 如光天籁",
+        "zh-Hans": "Light · 光 · 籁 · 如光天籁"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "light",
+          "pronunciation": "/laɪt/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "籁",
+          "pronunciation": "lài"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-light-primary-lai",
+        "source": {
+          "language": "English",
+          "word": "light",
+          "pronunciation": "/laɪt/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "籁",
+          "pronunciation": "lài"
+        },
+        "gloss": {
+          "en": "Visible illumination, brightness, or something that illuminates.",
+          "zh-Hans": "可见的光、明亮状态或照明之物。"
+        },
+        "meaning": {
+          "en": "Visible illumination, brightness, or something that illuminates.",
+          "zh-Hans": "可见的光、明亮状态或照明之物。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The modern forms share an approximate /laɪ/ sequence, while their lexical meanings differ. This motivates a testable LIGHT ↔ SOUND/MUSIC cross-modal comparison rather than an etymological claim.",
+          "zh-Hans": "两个现代读音共享近似 /laɪ/ 序列，但直接词义不同；这支持提出可检验的 LIGHT ↔ SOUND／MUSIC 跨模态比较，而不是词源主张。"
+        }
+      },
+      "entry_status": "Published",
+      "mapping_status": "Candidate",
+      "mapping_level": "B",
+      "historical_relation_status": "Unestablished",
+      "evidence": {
+        "Historical": {
+          "status": "Supported",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [
+            {
+              "evidence_id": "ETY-light-english-001",
+              "claim": {
+                "en": "The brightness noun is inherited through Germanic and is not a Latin borrowing. The homographic not-heavy adjective belongs to PIE *legwh- and is out of scope.",
+                "zh-Hans": "表示光明的名词经日耳曼语传承，并非拉丁语借词；同形的“重量轻”形容词属于 PIE *legwh-，不在本条范围内。"
+              },
+              "status": "Supported",
+              "confidence": "High",
+              "chain": [
+                "English light 'brightness'",
+                "Old English lēoht / līht",
+                "Proto-Germanic *leuhtam / *leukhtam",
+                "PIE *leuk- 'light, brightness'"
+              ],
+              "source_refs": [
+                "SRC-AHD-LIGHT",
+                "SRC-AHD-LEUK"
+              ]
+            },
+            {
+              "evidence_id": "ETY-light-latin-001",
+              "claim": {
+                "en": "French lumière follows the luminaria/luminare/lumen line. Latin lux is a related family member, not an intermediate stage in lumière.",
+                "zh-Hans": "法语 lumière 沿 luminaria／luminare／lumen 谱系发展；拉丁语 lux 是相关词族成员，不是 lumière 的中间环节。"
+              },
+              "status": "Supported",
+              "confidence": "High",
+              "chain": [
+                "French lumière",
+                "Christian Latin luminaria / luminare",
+                "Latin lumen 'light'",
+                "Latin lux 'light'",
+                "PIE *leuk- 'light, brightness'"
+              ],
+              "source_refs": [
+                "SRC-CNRTL-LUMIERE",
+                "SRC-CNRTL-LUMEN",
+                "SRC-AHD-LEUK"
+              ]
+            },
+            {
+              "evidence_id": "ETY-light-lai-001",
+              "claim": {
+                "en": "The Chinese word belongs to an instrument-and-sound history. No historical cognacy or borrowing with English light is established.",
+                "zh-Hans": "汉语“籟／籁”属于乐器—声音历史系统；没有证据证明其与英语 light 历史同源或存在借词关系。"
+              },
+              "status": "Supported",
+              "confidence": "High",
+              "chain": [
+                "籟: 從竹，賴聲",
+                "三孔龠: three-holed wind instrument",
+                "sound from apertures",
+                "人籟 / 地籟 / 天籟 / 萬籟"
+              ],
+              "source_refs": [
+                "SRC-CUHK-LAI",
+                "SRC-CTEXT-LAI"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-AHD-LIGHT",
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE",
+            "SRC-CNRTL-LUMEN",
+            "SRC-CUHK-LAI",
+            "SRC-CTEXT-LAI"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "light /laɪt/ ↔ 籁 lài shares an approximate /laɪ/ sequence; lexical meanings differ.",
+            "zh-Hans": "light /laɪt/ ↔ 籁 lài 共享近似 /laɪ/ 音序，但直接词义不同。"
+          },
+          "items": [
+            {
+              "evidence_id": "RAT-light-lai",
+              "claim": {
+                "en": "The modern forms share an approximate /laɪ/ sequence, while their lexical meanings differ. This motivates a testable LIGHT ↔ SOUND/MUSIC cross-modal comparison rather than an etymological claim.",
+                "zh-Hans": "两个现代读音共享近似 /laɪ/ 序列，但直接词义不同；这支持提出可检验的 LIGHT ↔ SOUND／MUSIC 跨模态比较，而不是词源主张。"
+              },
+              "status": "Under review",
+              "confidence": "Unknown",
+              "source_refs": [
+                "SRC-LIGHT-CANDIDATE",
+                "SRC-CUHK-LAI"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-CUHK-LAI"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: LIGHT → BRIGHTNESS → SOUND → INNER VISION.",
+            "zh-Hans": "已记录语义结构：LIGHT → BRIGHTNESS → SOUND → INNER VISION。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-LIGHT-LAI-001",
+              "claim": {
+                "en": "Test whether the modern resemblance between light /laɪt/ and 籁 lài /laɪ̯⁵¹/ strengthens a LIGHT ↔ SOUND/MUSIC association. No translation equivalence, sound law, borrowing or common origin is asserted.",
+                "zh-Hans": "检验 light /laɪt/ 与“籁” lài /laɪ̯⁵¹/ 的现代近音是否会增强 LIGHT ↔ SOUND／MUSIC 联想；本假说不主张翻译等值、音变规律、借词或共同词源。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-LIGHT-CROSSMODAL-RECORD",
+                "SRC-LIGHT-CANDIDATE",
+                "SRC-RUGUANG-TIANLAI"
+              ]
+            },
+            {
+              "evidence_id": "UNI-L-LIGHT-CLUSTER-001",
+              "claim": {
+                "en": "Test whether L-initial light/brightness words occur above a language-specific baseline after etymological-family deduplication. The four motivating surface positives collapse to one PIE *leuk- family at the deepest level.",
+                "zh-Hans": "在进行词源家族去重后，检验 L 起首的光／明亮词是否高于各语言基线。四个表面正例在最深层均归入同一 PIE *leuk- 词族。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-L-LIGHT-CLUSTER-RECORD",
+                "SRC-LIGHT-ETYMOLOGY",
+                "SRC-AHD-LEUK",
+                "SRC-CNRTL-LUMIERE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LIGHT-CROSSMODAL-RECORD",
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-RUGUANG-TIANLAI",
+            "SRC-L-LIGHT-CLUSTER-RECORD",
+            "SRC-LIGHT-ETYMOLOGY",
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-light-001",
+          "claim": {
+            "en": "light /laɪt/ ↔ 籁 lài shares an approximate /laɪ/ sequence; lexical meanings differ.",
+            "zh-Hans": "light /laɪt/ ↔ 籁 lài 共享近似 /laɪ/ 音序，但直接词义不同。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Modern-form resemblance is not a regular sound correspondence or proof of cognacy.",
+            "zh-Hans": "现代词形近似不是规律音变，也不证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "LIGHT",
+          "BRIGHTNESS",
+          "SOUND",
+          "INNER VISION"
+        ],
+        "relation": "LIGHT → BRIGHTNESS → SOUND → INNER VISION",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LIGHT-LAI-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "Test whether the modern resemblance between light /laɪt/ and 籁 lài /laɪ̯⁵¹/ strengthens a LIGHT ↔ SOUND/MUSIC association. No translation equivalence, sound law, borrowing or common origin is asserted.",
+            "zh-Hans": "检验 light /laɪt/ 与“籁” lài /laɪ̯⁵¹/ 的现代近音是否会增强 LIGHT ↔ SOUND／MUSIC 联想；本假说不主张翻译等值、音变规律、借词或共同词源。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-RUGUANG-TIANLAI"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": "UNI-EXP-LIGHT-001",
+          "source_refs": [
+            "SRC-LIGHT-CROSSMODAL-RECORD",
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-RUGUANG-TIANLAI"
+          ]
+        },
+        {
+          "hypothesis_id": "UNI-L-LIGHT-CLUSTER-001",
+          "type": "initial-consonant-semantics",
+          "claim": {
+            "en": "Test whether L-initial light/brightness words occur above a language-specific baseline after etymological-family deduplication. The four motivating surface positives collapse to one PIE *leuk- family at the deepest level.",
+            "zh-Hans": "在进行词源家族去重后，检验 L 起首的光／明亮词是否高于各语言基线。四个表面正例在最深层均归入同一 PIE *leuk- 词族。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE",
+            "SRC-L-LIGHT-CLUSTER-RECORD"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-L-LIGHT-CLUSTER-RECORD",
+            "SRC-LIGHT-ETYMOLOGY",
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE"
+          ]
+        }
+      ],
+      "experiments": [
+        {
+          "experiment_id": "UNI-EXP-LIGHT-001",
+          "title": {
+            "en": "Future Light–籁 cross-modal forced-choice study",
+            "zh-Hans": "未来 Light–籁 跨模态强制选择实验"
+          },
+          "status": "Untested",
+          "tested_hypotheses": [
+            "UNI-LIGHT-LAI-001"
+          ],
+          "design": {
+            "en": "Not tested. A preregistered design will compare spoken /laɪ/ or /laɪt/ with matched controls while separating sound, spelling, familiarity, Mandarin tone and English final /t/.",
+            "zh-Hans": "尚未检验。未来预注册设计将比较 /laɪ/ 或 /laɪt/ 与匹配控制，并分离声音、拼写、熟悉度、普通话声调及英语词尾 /t/。"
+          },
+          "result": {
+            "en": "Not Tested. No observations, metrics, outcomes or evidential update exist.",
+            "zh-Hans": "Not Tested／尚未检验：没有观察数据、统计量、结果或证据更新。"
+          },
+          "metrics": {},
+          "path": null,
+          "source_refs": [
+            "SRC-LIGHT-EXPERIMENT-PLAN",
+            "SRC-LIGHT-CANDIDATE"
+          ]
+        }
+      ],
+      "literary_layer": {
+        "status": "Published",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "Sound, music, light and inner vision transform into one another in 《如光天籁》.",
+          "zh-Hans": "《如光天籁》让声音、音乐、光与内在视觉彼此转换。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "SRC-LB-LIGHT",
+          "title": "Language Book · Light → 籁",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/light.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-LIGHT-CANDIDATE",
+          "title": "LIGHT → 籁 mapping Candidate",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/candidates/light-lai.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-LIGHT-ETYMOLOGY",
+          "title": "LIGHT / lumière / lumen / lux / 籁 etymology bundle",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-LIGHT-CROSSMODAL-RECORD",
+          "title": "Sound↔Light Cross-modal Hypothesis v0.1",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/hypotheses/sound-light-cross-modal.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-L-LIGHT-CLUSTER-RECORD",
+          "title": "L-Light Semantic Cluster Hypothesis v0.1",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/hypotheses/l-light-semantic-cluster.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-LIGHT-EXPERIMENT-PLAN",
+          "title": "Light–籁 cross-modal experiment plan v0.1",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/experiments/plans/light-lai-cross-modal.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-RUGUANG-TIANLAI",
+          "title": "《如光天籁》 selected literary source material",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/sources/literary/ru-guang-tian-lai.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-AHD-LIGHT",
+          "title": "American Heritage Dictionary · light",
+          "type": "authoritative-dictionary",
+          "url": "https://www.ahdictionary.com/word/search.html?q=light",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-AHD-LEUK",
+          "title": "American Heritage Dictionary · Indo-European root leuk-",
+          "type": "authoritative-dictionary",
+          "url": "https://www.ahdictionary.com/word/indoeurop.html",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-LUMIERE",
+          "title": "CNRTL / TLFi · lumière",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/lumiere",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-LUMEN",
+          "title": "CNRTL / TLFi · lumen",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/lumen",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CUHK-LAI",
+          "title": "CUHK Multi-function Chinese Character Database · 籟",
+          "type": "authoritative-dictionary",
+          "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E7%B1%9F",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CTEXT-LAI",
+          "title": "Chinese Text Project · 籟",
+          "type": "primary-historical-source",
+          "url": "https://ctext.org/dictionary.pl?char=%E7%B1%9F&if=gb",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "primary-publication"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "G.4 Candidate v0.1 / dataset 0.6.0 / retain_without_promotion",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": "2026-08-30"
+      },
+      "editorial_notes": [
+        {
+          "en": "The published literary layer does not promote the light ↔ 籁 candidate or prove etymology.",
+          "zh-Hans": "已发表的文学层不升级 light ↔ 籁 候选，也不证明词源。"
+        }
+      ],
+      "search_terms": [
+        "light",
+        "籁",
+        "籟",
+        "lài",
+        "LIGHT",
+        "BRIGHTNESS",
+        "SOUND",
+        "INNER VISION"
+      ],
+      "page": "words/light.html",
+      "legacy": {
+        "entry_id": "LB-en-light-001",
+        "source_word": "light",
+        "language": "English",
+        "normalized_form": "light",
+        "pronunciation": "/laɪt/",
+        "phonetic_form": "laɪt",
+        "lexical_meaning": {
+          "en": "Visible illumination, brightness, or something that illuminates.",
+          "zh-Hans": "可见的光、明亮状态或照明之物。"
+        },
+        "aliases": [
+          "籁",
+          "籟",
+          "lài"
+        ],
+        "classification_status": "candidate",
+        "primary_chinese_mapping": {
+          "mapping_id": "MAP-light-primary-lai",
+          "chinese_form": "籁",
+          "pinyin": "lài",
+          "role": "primary",
+          "mapping_basis": "author-proposal",
+          "status": "candidate",
+          "identity": "author-idea",
+          "source_verification": {
+            "status": "needs-verification",
+            "source_refs": [
+              "SRC-LIGHT-CANDIDATE",
+              "SRC-LB-LIGHT"
+            ],
+            "notes": {
+              "en": "This is the author's selected research mapping, retained without promotion. It is not an ordinary lexical translation or historical cognate claim.",
+              "zh-Hans": "这是作者选择并保留、但不升级的研究 mapping；它不是普通词典翻译，也不是历史同源主张。"
+            }
+          },
+          "ai_review": {
+            "status": "not-reviewed",
+            "reviewer": null,
+            "reviewed_at": null,
+            "rationale": {
+              "en": "This Candidate object has not received object-level AI review.",
+              "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+            }
+          }
+        },
+        "secondary_chinese_mappings": [],
+        "mapping_rationales": [
+          {
+            "rationale_id": "RAT-light-lai",
+            "mapping_ref": "MAP-light-primary-lai",
+            "identity": "author-idea",
+            "status": "candidate",
+            "statement": {
+              "en": "The modern forms share an approximate /laɪ/ sequence, while their lexical meanings differ. This motivates a testable LIGHT ↔ SOUND/MUSIC cross-modal comparison rather than an etymological claim.",
+              "zh-Hans": "两个现代读音共享近似 /laɪ/ 序列，但直接词义不同；这支持提出可检验的 LIGHT ↔ SOUND／MUSIC 跨模态比较，而不是词源主张。"
+            },
+            "source_verification": {
+              "status": "needs-verification",
+              "source_refs": [
+                "SRC-LIGHT-CANDIDATE",
+                "SRC-CUHK-LAI"
+              ],
+              "notes": {
+                "en": "The component pronunciations and meanings are documentable; the cross-modal comparison remains an author proposal.",
+                "zh-Hans": "相关读音与词义可以记录，但跨模态比较仍是作者提议。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This Candidate object has not received object-level AI review.",
+                "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "historical_etymologies": [
+          {
+            "etymology_id": "ETY-light-english-001",
+            "identity": "historical-claim",
+            "status": "candidate",
+            "chain": [
+              "English light 'brightness'",
+              "Old English lēoht / līht",
+              "Proto-Germanic *leuhtam / *leukhtam",
+              "PIE *leuk- 'light, brightness'"
+            ],
+            "summary": {
+              "en": "The brightness noun is inherited through Germanic and is not a Latin borrowing. The homographic not-heavy adjective belongs to PIE *legwh- and is out of scope.",
+              "zh-Hans": "表示光明的名词经日耳曼语传承，并非拉丁语借词；同形的“重量轻”形容词属于 PIE *legwh-，不在本条范围内。"
+            },
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-AHD-LIGHT",
+                "SRC-AHD-LEUK"
+              ],
+              "notes": {
+                "en": "The brightness noun is inherited through Germanic and is not a Latin borrowing. The homographic not-heavy adjective belongs to PIE *legwh- and is out of scope.",
+                "zh-Hans": "表示光明的名词经日耳曼语传承，并非拉丁语借词；同形的“重量轻”形容词属于 PIE *legwh-，不在本条范围内。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This Candidate object has not received object-level AI review.",
+                "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+              }
+            }
+          },
+          {
+            "etymology_id": "ETY-light-latin-001",
+            "identity": "historical-claim",
+            "status": "candidate",
+            "chain": [
+              "French lumière",
+              "Christian Latin luminaria / luminare",
+              "Latin lumen 'light'",
+              "Latin lux 'light'",
+              "PIE *leuk- 'light, brightness'"
+            ],
+            "summary": {
+              "en": "French lumière follows the luminaria/luminare/lumen line. Latin lux is a related family member, not an intermediate stage in lumière.",
+              "zh-Hans": "法语 lumière 沿 luminaria／luminare／lumen 谱系发展；拉丁语 lux 是相关词族成员，不是 lumière 的中间环节。"
+            },
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-CNRTL-LUMIERE",
+                "SRC-CNRTL-LUMEN",
+                "SRC-AHD-LEUK"
+              ],
+              "notes": {
+                "en": "French lumière follows the luminaria/luminare/lumen line. Latin lux is a related family member, not an intermediate stage in lumière.",
+                "zh-Hans": "法语 lumière 沿 luminaria／luminare／lumen 谱系发展；拉丁语 lux 是相关词族成员，不是 lumière 的中间环节。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This Candidate object has not received object-level AI review.",
+                "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+              }
+            }
+          },
+          {
+            "etymology_id": "ETY-light-lai-001",
+            "identity": "historical-claim",
+            "status": "candidate",
+            "chain": [
+              "籟: 從竹，賴聲",
+              "三孔龠: three-holed wind instrument",
+              "sound from apertures",
+              "人籟 / 地籟 / 天籟 / 萬籟"
+            ],
+            "summary": {
+              "en": "The Chinese word belongs to an instrument-and-sound history. No historical cognacy or borrowing with English light is established.",
+              "zh-Hans": "汉语“籟／籁”属于乐器—声音历史系统；没有证据证明其与英语 light 历史同源或存在借词关系。"
+            },
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-CUHK-LAI",
+                "SRC-CTEXT-LAI"
+              ],
+              "notes": {
+                "en": "The Chinese word belongs to an instrument-and-sound history. No historical cognacy or borrowing with English light is established.",
+                "zh-Hans": "汉语“籟／籁”属于乐器—声音历史系统；没有证据证明其与英语 light 历史同源或存在借词关系。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This Candidate object has not received object-level AI review.",
+                "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "sound_symbol_hypothesis_refs": [
+          "UNI-LIGHT-LAI-001",
+          "UNI-L-LIGHT-CLUSTER-001"
+        ],
+        "other_author_notes": [
+          {
+            "note_id": "NOTE-light-literary-interpretation",
+            "identity": "author-note",
+            "status": "classified",
+            "text": {
+              "en": "《如光天籁》 repeatedly transforms sound, music, light and inner vision into one another. Its selected passages are Literary / Cognitive Interpretation only and are excluded from historical evidence.",
+              "zh-Hans": "《如光天籁》反复在声音、音乐、光与内在视觉之间转换；所选片段仅归为 Literary／Cognitive Interpretation，不进入历史证据。"
+            },
+            "source_verification": {
+              "status": "source-backed",
+              "source_refs": [
+                "SRC-RUGUANG-TIANLAI"
+              ],
+              "notes": {
+                "en": "The source record preserves the selected user-provided passages and their evidence boundary.",
+                "zh-Hans": "来源记录保存了用户提供的选段及其证据边界。"
+              }
+            },
+            "ai_review": {
+              "status": "not-reviewed",
+              "reviewer": null,
+              "reviewed_at": null,
+              "rationale": {
+                "en": "This Candidate object has not received object-level AI review.",
+                "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+              }
+            }
+          }
+        ],
+        "experimental_validation_refs": [
+          "UNI-EXP-LIGHT-001"
+        ],
+        "source_provenance": [
+          "SRC-LB-LIGHT",
+          "SRC-LIGHT-CANDIDATE",
+          "SRC-LIGHT-ETYMOLOGY",
+          "SRC-LIGHT-CROSSMODAL-RECORD",
+          "SRC-L-LIGHT-CLUSTER-RECORD",
+          "SRC-LIGHT-EXPERIMENT-PLAN",
+          "SRC-RUGUANG-TIANLAI",
+          "SRC-AHD-LIGHT",
+          "SRC-AHD-LEUK",
+          "SRC-CNRTL-LUMIERE",
+          "SRC-CNRTL-LUMEN",
+          "SRC-CUHK-LAI",
+          "SRC-CTEXT-LAI"
+        ],
+        "author": "Jinkai Liu｜劉金凱",
+        "version": "G.4 Candidate v0.1 / dataset 0.6.0 / retain_without_promotion"
+      }
+    },
+    {
+      "id": "LB-en-at-003",
+      "slug": "at",
+      "title": {
+        "en": "AT · 在 · 爱 | Love Is Presence",
+        "zh-Hans": "AT · 在 · 爱｜爱在，世界就在"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "at",
+          "pronunciation": "/æt/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "在",
+          "pronunciation": "zài /tsaɪ̯/"
+        },
+        {
+          "role": "literary-transformation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "爱",
+          "pronunciation": "ài /aɪ̯˥˩/"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-at-primary-zai",
+        "source": {
+          "language": "English",
+          "word": "at",
+          "pronunciation": "/æt/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "在",
+          "pronunciation": "zài /tsaɪ̯/"
+        },
+        "gloss": {
+          "en": "Location, point or state → presence",
+          "zh-Hans": "位置、点或状态 → 在场／存在"
+        },
+        "meaning": {
+          "en": "A candidate comparison through LOCATION → PRESENCE; not interchangeable in every context.",
+          "zh-Hans": "通过 LOCATION → PRESENCE 建立的候选比较；并非所有语境都可互换。"
+        },
+        "mapping_type": "Phonetic-semantic candidate",
+        "rationale": {
+          "en": "The strongest support is the semantic intersection LOCATION → PRESENCE; /æ/ ↔ /aɪ̯/ is only a limited vowel observation.",
+          "zh-Hans": "最强支持是 LOCATION → PRESENCE 的语义交点；/æ/ ↔ /aɪ̯/ 仅为有限元音观察。"
+        }
+      },
+      "entry_status": "Published",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "English at, Chinese 在 and Chinese 爱 have independent histories. No common origin is claimed.",
+            "zh-Hans": "英语 at、汉语“在”和“爱”各有独立历史；不主张共同来源。"
+          },
+          "items": [],
+          "source_refs": [
+            "REF-AHD-AT",
+            "REF-CUHK-CHAR"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "at /æt/ ↔ 在 zài /tsaɪ̯/ is a candidate vowel and phonetic-semantic observation; /t/ does not correspond regularly to /ts/, and Mandarin tone is unmatched.",
+            "zh-Hans": "at /æt/ ↔ 在 zài /tsaɪ̯/ 是候选元音与语音—语义观察；/t/ 与 /ts/ 不构成规律对应，普通话声调也无对应。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "LOCATION → PRESENCE → RELATION → WORLD",
+            "zh-Hans": "位置 → 在场／存在 → 关系 → 世界"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The comparison is testable but currently untested.",
+            "zh-Hans": "该比较可检验，但目前尚未测试。"
+          },
+          "items": [],
+          "source_refs": []
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-at-zai-001",
+          "claim": {
+            "en": "at /æt/ ↔ 在 zài /tsaɪ̯/: limited open/front vowel resemblance plus semantic intersection.",
+            "zh-Hans": "at /æt/ ↔ 在 zài /tsaɪ̯/：有限的开放／前部元音听感近似与语义交点。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "English /t/ and Mandarin /ts/ occupy different positions; no regular sound correspondence is established.",
+            "zh-Hans": "英语 /t/ 与普通话 /ts/ 位置不同；未建立规律音变。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "LOCATION",
+          "PRESENCE",
+          "RELATION",
+          "WORLD"
+        ],
+        "relation": "LOCATION → PRESENCE → RELATION → WORLD",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-AT-ZAI-001",
+          "type": "Vowel relation / phonetic-semantic candidate",
+          "claim": {
+            "en": "The modern forms at and 在 may support a limited phonetic-semantic association around location and presence.",
+            "zh-Hans": "现代词形 at 与“在”可能围绕位置与在场形成有限语音—语义联想。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "at /æt/",
+            "在 zài /tsaɪ̯/",
+            "LOCATION → PRESENCE"
+          ],
+          "counterexamples": [
+            "English final /t/ vs Mandarin initial /ts/",
+            "Mandarin lexical tone",
+            "non-identical grammar"
+          ],
+          "testability": {
+            "en": "Test with blinded auditory judgments, corpus-based semantic overlap and explicit negative controls.",
+            "zh-Hans": "可用盲法听辨、语料语义重叠与明确负对照检验。"
+          },
+          "experiment_link": null,
+          "source_refs": []
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Published",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "Love is presence. Where love is, the world is.",
+          "zh-Hans": "爱就是在。爱在，世界就在。"
+        },
+        "essay_prose": [
+          {
+            "work_id": "LB-AT-PROSE-001",
+            "title": {
+              "en": "When I First Met You / Space and a Common Language / Cosmic Prose Poem",
+              "zh-Hans": "第一次遇见你的时候／太空与共通语言／宇宙散文诗"
+            },
+            "page_anchor": "words/at.html#first-meeting"
+          }
+        ],
+        "poem_lyrics": [
+          {
+            "work_id": "LB-AT-LYRICS-001",
+            "title": {
+              "en": "A Beautiful Yearning, in Space",
+              "zh-Hans": "一个美丽的向往，在那太空"
+            },
+            "page_anchor": "words/at.html#lyrics"
+          }
+        ],
+        "translations": [
+          {
+            "language": "English",
+            "status": "Published",
+            "page": "words/at.html"
+          }
+        ],
+        "archival_manuscript_media": [
+          "MEDIA-AT-MS-001",
+          "MEDIA-AT-MS-002"
+        ],
+        "evidence_boundary": {
+          "en": "在 → 爱 is an intentional literary transformation, not etymology or historical evidence.",
+          "zh-Hans": "在 → 爱是有意的文学转换，不是词源或历史证据。"
+        }
+      },
+      "media": [
+        {
+          "media_id": "MEDIA-AT-ILL-001",
+          "type": "illustration",
+          "path": "images/at-astronaut-pair-illustration.png",
+          "alt": {
+            "en": "Two young astronauts with a blue planet and stars behind them.",
+            "zh-Hans": "两位年轻宇航员，身后是蓝色星球与星空。"
+          },
+          "caption": {
+            "en": "Visual supplied with the literary work.",
+            "zh-Hans": "随文学作品提供的视觉材料。"
+          },
+          "source": "unknown",
+          "provenance": "unknown"
+        },
+        {
+          "media_id": "MEDIA-AT-ILL-002",
+          "type": "illustration",
+          "path": "images/at-galaxy-visual.png",
+          "alt": {
+            "en": "A blue galaxy and dense star field.",
+            "zh-Hans": "蓝色银河与密集星空。"
+          },
+          "caption": {
+            "en": "Literary visual; not scientific evidence. Creation method is unknown.",
+            "zh-Hans": "文学视觉材料；不是科学证据。创作方式未知。"
+          },
+          "source": "unknown",
+          "provenance": "unknown"
+        },
+        {
+          "media_id": "MEDIA-AT-MS-001",
+          "type": "original manuscript",
+          "path": "images/at-original-manuscript-01.png",
+          "alt": {
+            "en": "First page of the original handwritten musical score.",
+            "zh-Hans": "原始手写曲谱第 1 页。"
+          },
+          "caption": {
+            "en": "Author-provided scan; date unknown.",
+            "zh-Hans": "作者提供扫描件；日期未知。"
+          },
+          "source": "Jinkai Liu",
+          "provenance": "author-provided scan"
+        },
+        {
+          "media_id": "MEDIA-AT-MS-002",
+          "type": "original manuscript",
+          "path": "images/at-original-manuscript-02.png",
+          "alt": {
+            "en": "Second page of the original handwritten musical score.",
+            "zh-Hans": "原始手写曲谱第 2 页。"
+          },
+          "caption": {
+            "en": "Author-provided scan; date unknown.",
+            "zh-Hans": "作者提供扫描件；日期未知。"
+          },
+          "source": "Jinkai Liu",
+          "provenance": "author-provided scan"
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "REF-AHD-AT",
+          "title": "American Heritage Dictionary: at",
+          "type": "dictionary",
+          "url": "https://www.ahdictionary.com/word/search.html?q=at",
+          "path": null,
+          "provenance": "external reference"
+        },
+        {
+          "reference_id": "REF-CUHK-CHAR",
+          "title": "CUHK Multi-function Chinese Character Database",
+          "type": "character database",
+          "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/index.php",
+          "path": null,
+          "provenance": "external reference"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Literary Entry v1.0 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-08-30",
+        "published": "2026-08-30"
+      },
+      "editorial_notes": [
+        {
+          "en": "Publication, mapping, evidence/historical relation and literature are independent axes.",
+          "zh-Hans": "词条发表、mapping、证据／历史关系与文学层是四条独立状态轴。"
+        }
+      ],
+      "search_terms": [
+        "at",
+        "在",
+        "爱",
+        "愛",
+        "love",
+        "presence",
+        "location",
+        "relation",
+        "world",
+        "世界",
+        "爱在",
+        "愛在",
+        "love is presence",
+        "第一次遇见你的时候",
+        "一个美丽的向往，在那太空",
+        "a beautiful yearning in space"
+      ],
+      "page": "words/at.html",
+      "legacy": null
+    }
+  ]
+}
