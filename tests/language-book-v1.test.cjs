@@ -75,3 +75,29 @@ test("Dataset Expansion v1 aberrant sample keeps morphology, word class and err 
   assert.equal(aberrant.literary_layer.is_historical_evidence, false);
   assert.match(aberrant.source.raw_note, /天鹅/);
 });
+
+test("abdomen keeps translation, sound candidate, word families and literary association separate", () => {
+  for (const query of ["abdomen", "肚", "肚子", "腹", "腹部", "belly", "ventre", "abdominal", "dome", "domain", "domestic", "dominant", "dominate"]) {
+    assert.equal(dataApi.lookup(dataset, query).entry.slug, "abdomen", `lookup failed for ${query}`);
+  }
+  const abdomen = dataApi.lookup(dataset, "abdomen").entry;
+  assert.equal(abdomen.entry_status, "Reviewed");
+  assert.equal(abdomen.mapping_status, "Reviewed");
+  assert.equal(abdomen.primary_mapping.target.word, "肚子");
+  assert.match(abdomen.primary_mapping.meaning["zh-Hans"], /腹部／腹/);
+  assert.equal(abdomen.historical_relation_status, "Not claimed");
+  assert.equal(abdomen.evidence.Historical.status, "Established");
+  assert.equal(abdomen.evidence["Phonetic-Semantic"].confidence, "Low");
+  assert.equal(abdomen.related_words.find((item) => item.word === "abdominal").relationship_type, "Etymological derivative");
+  assert.equal(abdomen.related_words.find((item) => item.word === "dome").relationship_type, "Speculative semantic association");
+  assert.ok(abdomen.semantic_associations.every((item) => item.is_etymological === false));
+  assert.equal(abdomen.literary_layer.proposition["zh-Hans"], "肚子是我们的领地吗？");
+  assert.equal(abdomen.literary_layer.is_historical_evidence, false);
+  assert.match(abdomen.source.raw_note, /Is the belly our domain\?/);
+});
+
+test("Mapper labels related-word etymology separately from speculative association", () => {
+  const mapper = fs.readFileSync(path.join(root, "js/semantic-mapper.js"), "utf8");
+  assert.match(mapper, /Etymological relation · 词源关系/);
+  assert.match(mapper, /Semantic\/speculative association · 语义／推测联想/);
+});

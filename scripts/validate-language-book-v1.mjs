@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.0.0", "dataset/schema version must be 1.0.0");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.0.1", "Schema must remain 1.0.0 and Dataset Expansion release must be 1.0.1");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
 check(/one English word/i.test(dataset.editorial_policy.data_separation.en), "data separation policy missing");
@@ -46,11 +46,20 @@ for (const entry of dataset.entries) {
   for (const hypothesis of entry.hypotheses || []) {
     check(hypothesis.hypothesis_id && hypothesis.claim && hypothesis.status && hypothesis.supporting_cases && hypothesis.counterexamples && hypothesis.testability && Object.hasOwn(hypothesis, "experiment_link"), `${entry.id}: incomplete hypothesis`);
   }
+  const referenceIds = new Set((entry.references || []).map((item) => item.reference_id));
+  for (const related of entry.related_words || []) {
+    check(related.word && related.language && related.relationship_type && related.family && related.relation_to_entry?.en && related.relation_to_entry?.["zh-Hans"], `${entry.id}: incomplete related word`);
+    for (const ref of related.source_refs || []) check(referenceIds.has(ref), `${entry.id}/${related.word}: broken related-word source ref ${ref}`);
+  }
+  for (const association of entry.semantic_associations || []) {
+    check(association.association_id && association.relation && association.status && typeof association.is_etymological === "boolean", `${entry.id}: incomplete semantic association`);
+  }
   if (entry.page) check(fs.existsSync(path.join(root, entry.page)), `${entry.id}: missing page ${entry.page}`);
 }
 
 for (const slug of ["sky", "light", "at", "universe", "human", "sound"]) check(slugs.has(slug), `required migrated entry missing: ${slug}`);
 check(slugs.has("abbey"), "Dataset Expansion v1 sample missing: abbey");
+check(slugs.has("abdomen"), "Dataset Expansion v1 sample missing: abdomen");
 const at = dataset.entries.find((entry) => entry.slug === "at");
 check(at?.entry_status === "Published" && at?.mapping_status === "Candidate" && at?.historical_relation_status === "Not claimed", "AT status axes changed");
 check(at?.primary_mapping.source.pronunciation === "/æt/" && /tsaɪ̯/.test(at?.primary_mapping.target.pronunciation), "AT pronunciation observation changed");
@@ -75,6 +84,16 @@ check(aberrant?.evidence?.["Phonetic-Semantic"]?.status === "Candidate", "err �
 check(aberrant?.evidence?.Speculative?.status === "Rejected", "consonant-bridge account must remain rejected historically");
 check(aberrant?.literary_layer?.is_historical_evidence === false, "Aberrant literature must not become historical evidence");
 check(/天鹅/.test(aberrant?.source?.raw_note || ""), "Aberrant author source/raw note missing");
+const abdomen = dataset.entries.find((entry) => entry.slug === "abdomen");
+check(abdomen?.entry_status === "Reviewed" && abdomen?.mapping_status === "Reviewed" && abdomen?.mapping_level === "Unrated", "Abdomen editorial/mapping classification changed");
+check(abdomen?.primary_mapping.target.word === "肚子" && /腹部/.test(abdomen?.primary_mapping.meaning?.["zh-Hans"] || ""), "Abdomen standard translation and primary mapping boundary changed");
+check(abdomen?.historical_relation_status === "Not claimed" && abdomen?.evidence?.Historical?.status === "Established", "Abdomen lexical history must remain separate from cross-language historical relation");
+check(abdomen?.evidence?.["Phonetic-Semantic"]?.confidence === "Low", "Abdomen ↔ 肚 must remain a low-confidence phonetic-semantic candidate");
+check(abdomen?.related_words?.some((item) => item.word === "abdominal" && /Etymological/.test(item.relationship_type)), "Abdominal etymological derivative missing");
+check(abdomen?.related_words?.some((item) => item.word === "dome" && /Speculative/.test(item.relationship_type)), "Dome speculative association boundary missing");
+check(abdomen?.semantic_associations?.every((item) => item.is_etymological === false), "Abdomen cognitive associations must not be marked etymological");
+check(abdomen?.literary_layer?.proposition?.["zh-Hans"] === "肚子是我们的领地吗？" && abdomen?.literary_layer?.is_historical_evidence === false, "Abdomen literary layer changed");
+check(/用户英文原稿/.test(abdomen?.source?.raw_note || ""), "Abdomen raw English source missing");
 
 if (errors.length) {
   console.error(`Language Book v1.0 validation failed (${errors.length}):`);

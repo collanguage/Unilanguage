@@ -1,28 +1,33 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
   "version": "1.0.0",
-  "dataset_version": "1.0.0",
+  "dataset_version": "1.0.1",
   "created_at": "2026-08-30",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
-  "entry_count": 11,
+  "entry_count": 12,
   "published_entry_count": 6,
   "candidate_mapping_count": 7,
   "files": [
     {
       "path": "data/language-book-entry.schema.v1.json",
-      "bytes": 5449,
-      "sha256": "e9cf62195a2c4c2022fe6d22e7e5802e4165a0e35c6f5a68085f95bc8a71a348"
+      "bytes": 6811,
+      "sha256": "62d0640ecd37db984a5c55984b5e0caf86803497cd967bdea8f6eaf737053d67"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 193307,
-      "sha256": "880db9621eef649d27dbb8571685c5fb5c418702e961e11adccefa309cdf2d79"
+      "bytes": 226501,
+      "sha256": "b37f428488a9fa464bb5ad87c525755121c0d7a0bd26269edbd6b18b9186cc7c"
     },
     {
       "path": "data/entries/abbey.v1.json",
       "bytes": 19277,
       "sha256": "bafa0efa64425a40ec2e27774535f044d6c770ce642bbc0d3d7b4e5ce6a649a2"
+    },
+    {
+      "path": "data/entries/abdomen.v1.json",
+      "bytes": 27125,
+      "sha256": "1ddf5e39923fdd1375828ec7a4893c815652ce66a018f7a4b53bda81ee611e16"
     },
     {
       "path": "data/entries/aberrant.v1.json",
@@ -31,23 +36,23 @@
     },
     {
       "path": "docs/language-book-entry-schema-v1.md",
-      "bytes": 9533,
-      "sha256": "4a71fb2cbb29036c72450e3d0da53d915458dfa2a1c543d8f116c00187b42884"
+      "bytes": 10500,
+      "sha256": "5606885ce7174fc162944f397d08b03558c8d220cf103fb325b8495336bb008c"
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
       "bytes": 24026,
-      "sha256": "7ab9effff8396654fc08128c208538128ab15c3dd3c5a5d6f8bf07973486ad61"
+      "sha256": "bf688b8ad4e4751ce6fe09616f251468f75bf32ede27e0f1a18710c4a6839f80"
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 7748,
-      "sha256": "9c636907750e551005d78c0c28c9956caff6b006ba55ad1a52848afa3d8a742f"
+      "bytes": 10201,
+      "sha256": "44176450c2d7dfb1914ca9a2f8604e0178d2dc41c55c24a2ec173a5eb0ca219b"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
-      "bytes": 4116,
-      "sha256": "b406a7b477bfa86806ded10d877ff85571368e2468907037edaf2afcf3fcac05"
+      "bytes": 5918,
+      "sha256": "7c0feb4930a40dbc44f7160367aa7b94363011e03021c58dbbc7edb7a6043e78"
     },
     {
       "path": "tests/package-g1.test.cjs",
@@ -81,8 +86,8 @@
     },
     {
       "path": "js/semantic-mapper.js",
-      "bytes": 12461,
-      "sha256": "6db926d1bc10e773296b152c0a2e1ff6c83a81bd91a1dc9d0c26acc0f2d17756"
+      "bytes": 13563,
+      "sha256": "ff38a86721fc4fccd9cbc1e94d2aa0945fbf70f53ec93b88dc931452422757ec"
     },
     {
       "path": "js/search.js",
@@ -91,8 +96,8 @@
     },
     {
       "path": "semantic-mapper.html",
-      "bytes": 3983,
-      "sha256": "cea66c52bc9c274017be5a6fd47bb53733886345a5c80c1a7af403bf296fc5ff"
+      "bytes": 4173,
+      "sha256": "b9a71df22f611bb8114454c7b1dc04c0011c7b577497a6370197d3b4d33c3c73"
     },
     {
       "path": "dictionary.html",
@@ -111,8 +116,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4203,
-      "sha256": "86dae794c1e6b057c7ecff4c613fd249079d50ac805290265588dd4bb71e9a21"
+      "bytes": 4712,
+      "sha256": "c24f675ebb4df7b1063bc70df2c9b7adbb7e7a16ca52225b8799d58a2267fd5c"
     },
     {
       "path": "sitemap.xml",

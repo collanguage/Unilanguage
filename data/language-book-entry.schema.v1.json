@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.0.0" },
+    "dataset_version": { "const": "1.0.1" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
@@ -71,6 +71,37 @@
         },
         "phonetic_observation": { "type": "array" },
         "semantic_structure": { "type": "object", "required": ["concepts", "relation", "status"] },
+        "related_words": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["word", "language", "relationship_type", "family", "relation_to_entry", "status", "source_refs"],
+            "properties": {
+              "word": { "type": "string", "minLength": 1 },
+              "language": { "type": "string", "minLength": 1 },
+              "relationship_type": { "type": "string", "minLength": 1 },
+              "family": { "type": "string", "minLength": 1 },
+              "relation_to_entry": { "$ref": "#/$defs/localized" },
+              "status": { "type": "string", "minLength": 1 },
+              "source_refs": { "type": "array", "items": { "type": "string" } }
+            },
+            "additionalProperties": false
+          }
+        },
+        "semantic_associations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["association_id", "relation", "status", "is_etymological"],
+            "properties": {
+              "association_id": { "type": "string", "minLength": 1 },
+              "relation": { "type": "string", "minLength": 1 },
+              "status": { "type": "string", "minLength": 1 },
+              "is_etymological": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        },
         "hypotheses": { "type": "array" },
         "experiments": { "type": "array" },
         "literary_layer": { "type": "object", "required": ["status", "is_historical_evidence", "proposition", "essay_prose", "poem_lyrics", "translations", "archival_manuscript_media", "evidence_boundary"], "properties": { "is_historical_evidence": { "const": false } } },

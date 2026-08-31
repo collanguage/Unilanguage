@@ -22,6 +22,8 @@ Language Book is a **cross-language comparable semantic database**. It records m
 
 The v0.6 dataset and earlier package records remain in the repository as migration provenance. v1.0 copies each old entry into `legacy` so that no reviewed object is silently discarded.
 
+Current Dataset Expansion release: `1.0.1` (12 records; Schema remains `1.0.0`). Patch releases may add reviewed records and optional schema-compatible relation fields without changing the v1.0 canonical filename.
+
 ## Entry fields
 
 | Field | Meaning |
@@ -35,6 +37,8 @@ The v0.6 dataset and earlier package records remain in the repository as migrati
 | `evidence` | Four independent tracks: `Historical`, `Phonetic-Semantic`, `Cognitive`, `Speculative`; every track has its own `status` and `confidence`. |
 | `phonetic_observation` | Modern-form observations and explicit limitations. An observation is not a regular sound law. |
 | `semantic_structure` | Comparable conceptual units and their relation, such as `LOCATION → PRESENCE`. |
+| `related_words` | Optional typed word relations. `relationship_type` and `family` distinguish genuine historical derivatives/borrowings from speculative semantic associations. |
+| `semantic_associations` | Optional cognitive or literary concept links. `is_etymological` states explicitly whether a link is historical. |
 | `hypotheses` | Individually graded consonantal, root-consonant, vowel or other candidate rules. |
 | `experiments` | Plans or results linked to the hypotheses they test. No experiment is inferred from publication. |
 | `literary_layer` | Proposition, prose, poem/lyrics, translations and archival manuscript references. `is_historical_evidence` must be `false`. |
@@ -126,5 +130,7 @@ Edit the migration source or a future data-authoring source, regenerate v1.0, ru
 ## Dataset Expansion v1 workflow
 
 New reviewed records are authored one per file in `data/entries/*.v1.json`; `scripts/build-language-book-v1.mjs` sorts and merges them after the deterministic legacy migration. Each record must preserve the author's source/raw note, independently verify historical claims, use the standard lexical equivalent as `primary_mapping`, and keep phonetic observations, hypotheses and literature on their own status tracks. Search aliases belong in `search_terms`, including accented and unaccented forms when both are reasonable queries.
+
+When a record compares look-alike words from different histories, use `related_words` to state the relationship explicitly. A direct derivative can be labeled `Etymological derivative`; a shape, spelling or literary link must be labeled `Speculative semantic association` (or an equally explicit non-historical type). Similar spelling alone never creates an etymological family. The Mapper renders the two categories separately.
 
 Before adding a batch: compare stable IDs/slugs, leave unknown fields null or unclaimed, run the builder and validator, test English plus at least one non-English alias through `UnilanguageData.lookup`, run the full test suite and link checker, then regenerate the product manifest/checksums. A record may be Reviewed without being Published; a literary proposition may be Reviewed while its phonetic hypothesis remains Candidate or Unestablished.
