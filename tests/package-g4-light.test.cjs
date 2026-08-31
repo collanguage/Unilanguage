@@ -64,10 +64,16 @@ test("all six formal records and the word page are indexed", () => {
   assert.match(page, /Entry Status · 词条状态[\s\S]*Published · 已发表/);
   assert.match(page, /Mapping Status · 映射状态[\s\S]*Candidate · 候选/);
   assert.match(page, /Literary Status · 文学状态[\s\S]*Published · 已发表/);
+  assert.match(page, /Music of Heaven, Like Light/);
+  assert.match(page, /Chinese Original/);
+  assert.match(page, /English Literary Translation/);
+  assert.ok((page.match(/class="literary-pair/g) || []).length >= 20, "bilingual literary pairs missing");
   assert.equal(candidate.status, "Candidate");
   assert.equal(candidate.review_decision, "retain_without_promotion");
   assert.equal(literary.status, "Published");
   assert.equal(literary.author_attribution, "Jinkai Liu");
+  assert.deepEqual(literary.languages, ["zh-Hans", "en"]);
+  assert.equal(literary.original_language, "zh-Hans");
 });
 
 test("no LIGHT mapping, hypothesis or experiment object is promoted or AI-reviewed", () => {
