@@ -6,6 +6,19 @@
   "use strict";
 
   const DATASET_URL = "data/language-book.v1.0.json";
+  const BROWSE_LANGUAGES = [
+    { code: "en", label: "English｜英语" },
+    { code: "zh-Hans", label: "中文｜Chinese" },
+    { code: "fr", label: "Français｜法语" },
+  ];
+
+  // Schema v1.0 search_terms are strings without language metadata. Keep the
+  // small number of browseable aliases that are not already in languages here
+  // in the adapter layer instead of changing the core schema.
+  const SEARCH_TERM_LANGUAGE_HINTS = {
+    at: { presence: "en" },
+    sky: { 盖: "zh-Hans" },
+  };
 
   function normalize(value) {
     return String(value ?? "")
@@ -28,6 +41,44 @@
     ]
       .map(normalize)
       .filter(Boolean);
+  }
+
+  function splitRecordedForm(value) {
+    return String(value ?? "")
+      .split(/\s*[\/／]\s*/)
+      .map((form) => form.trim())
+      .filter(Boolean);
+  }
+
+  function languageForms(dataset) {
+    const groups = BROWSE_LANGUAGES.map((language) => ({ ...language, forms: [] }));
+    const groupMap = new Map(groups.map((group) => [group.code, group]));
+    const seen = new Map(groups.map((group) => [group.code, new Set()]));
+    const visible = dataset.entries.filter((entry) => entry.mapping_status !== "Rejected" && entry.classification_status !== "rejected");
+
+    function add(entry, code, term, role, source) {
+      const group = groupMap.get(code);
+      const key = normalize(term);
+      if (!group || !key || seen.get(code).has(key)) return;
+      seen.get(code).add(key);
+      group.forms.push({ term, recordId: entry.id, slug: entry.slug, role, source });
+    }
+
+    for (const entry of visible) {
+      for (const form of entry.languages || []) {
+        const parts = splitRecordedForm(form.word);
+        const searchable = new Set(searchableForms(entry));
+        const terms = parts.every((term) => searchable.has(normalize(term))) ? parts : [form.word];
+        for (const term of terms) add(entry, form.code, term, form.role, "languages");
+      }
+      const hints = SEARCH_TERM_LANGUAGE_HINTS[entry.slug] || {};
+      for (const term of entry.search_terms || []) {
+        const code = hints[normalize(term)];
+        if (code) add(entry, code, term, "query-alias", "search_terms");
+      }
+    }
+
+    return groups;
   }
 
   function lookup(dataset, query) {
@@ -65,6 +116,7 @@
     DATASET_URL,
     normalize,
     searchableForms,
+    languageForms,
     lookup,
     resolveSources,
     resolveExperiments,

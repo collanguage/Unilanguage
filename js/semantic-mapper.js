@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  const ui = { form: document.querySelector("#mapperForm"), input: document.querySelector("#mapperInput"), state: document.querySelector("#mapperState"), result: document.querySelector("#mapperResult"), version: document.querySelector("#datasetVersion") };
+  const ui = { form: document.querySelector("#mapperForm"), input: document.querySelector("#mapperInput"), state: document.querySelector("#mapperState"), result: document.querySelector("#mapperResult"), version: document.querySelector("#datasetVersion"), languageGroups: document.querySelector("#languageBrowseGroups") };
   let dataset;
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
   const localized = (value) => value ? `${escapeHtml(value.en)}<span lang="zh-Hans">${escapeHtml(value["zh-Hans"])}</span>` : "Unknown · 未知";
@@ -66,6 +66,12 @@
     ui.state.querySelectorAll("[data-query]").forEach((button) => button.addEventListener("click", () => runLookup(button.dataset.query)));
   }
 
+  function renderLanguageBrowse() {
+    const groups = UnilanguageData.languageForms(dataset);
+    ui.languageGroups.innerHTML = groups.map((group) => `<section class="language-group" aria-labelledby="language-${escapeHtml(group.code)}"><h3 id="language-${escapeHtml(group.code)}">${escapeHtml(group.label)}</h3><div class="language-form-list">${group.forms.map((form) => `<button type="button" data-language-form="${escapeHtml(form.term)}" title="${escapeHtml(form.role)} · ${escapeHtml(form.slug)}">${escapeHtml(form.term)}</button>`).join("")}</div></section>`).join("");
+    ui.languageGroups.querySelectorAll("[data-language-form]").forEach((button) => button.addEventListener("click", () => runLookup(button.dataset.languageForm)));
+  }
+
   function runLookup(raw) {
     const query = String(raw ?? ui.input.value).trim(); ui.input.value = query;
     if (!query) { ui.result.hidden = true; ui.state.innerHTML = '<div class="empty-state"><p>Enter a recorded form. · 请输入已记录形式。</p></div>'; return; }
@@ -79,7 +85,7 @@
       const published = dataset.entries.filter((entry) => entry.entry_status === "Published").length;
       const candidates = dataset.entries.filter((entry) => entry.mapping_status === "Candidate").length;
       ui.version.textContent = `Dataset v${dataset.dataset_version} · Entry Schema ${dataset.schema_version} · ${published} published entries / ${candidates} candidate mappings`;
-      document.querySelectorAll("[data-example]").forEach((button) => button.addEventListener("click", () => runLookup(button.dataset.example)));
+      renderLanguageBrowse();
       ui.form.addEventListener("submit", (event) => { event.preventDefault(); runLookup(); });
       const query = new URL(window.location.href).searchParams.get("q"); runLookup(query || "at");
     } catch (error) { ui.state.innerHTML = `<div class="empty-state error"><h2>Dataset unavailable · 数据暂不可用</h2><p>${escapeHtml(error.message)}</p></div>`; }

@@ -33,8 +33,12 @@
             <button type="submit">Map · 映射</button>
           </div>
           <p id="datasetVersion" class="small" aria-live="polite">Loading versioned dataset · 正在加载版本化数据</p>
-          <div class="example-row" aria-label="Example entries">
-            <span>Schema records · 统一词条：</span><button type="button" data-example="abdomen">abdomen</button><button type="button" data-example="肚子">肚子</button><button type="button" data-example="abdominal">abdominal</button><button type="button" data-example="aberrant">aberrant</button><button type="button" data-example="讹">讹</button><button type="button" data-example="abbey">abbey</button><button type="button" data-example="修道院">修道院</button><button type="button" data-example="sky">sky</button><button type="button" data-example="light">light</button><button type="button" data-example="at">at</button><button type="button" data-example="presence">presence</button><button type="button" data-example="advance">advance</button>
+          <div class="language-browse" aria-labelledby="languageBrowseTitle">
+            <div class="language-browse-heading">
+              <span id="languageBrowseTitle">Browse by Language｜按语言浏览</span>
+              <p>Different language forms may resolve to the same semantic record｜不同语言形式可映射到同一语义记录。</p>
+            </div>
+            <div id="languageBrowseGroups" class="language-groups" aria-live="polite"></div>
           </div>
         </form>
       </header>
@@ -43,7 +47,7 @@
       <noscript><section class="section"><h2>JavaScript is required · 需要 JavaScript</h2><p>The canonical dataset remains available at <a href="data/language-book.v1.0.json">language-book.v1.0.json</a>. · Canonical 数据仍可通过该 JSON 文件查看。</p></section></noscript>
     </main>
     <footer class="footer">Semantic Mapper v1.0 · Entry, mapping, evidence, hypothesis, experiment and literature remain independent.</footer>
-    <script src="js/language-book-data.js?v=1.0.0"></script>
-    <script src="js/semantic-mapper.js?v=1.0.1"></script>
+    <script src="js/language-book-data.js?v=1.0.2"></script>
+    <script src="js/semantic-mapper.js?v=1.0.2"></script>
   </body>
 </html>

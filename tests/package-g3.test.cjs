@@ -54,6 +54,7 @@ test("G.3 archive remains queryable after the canonical loader advances", () => 
   assert.equal(dataApi.DATASET_URL, "data/language-book.v1.0.json");
   assert.equal(dataApi.lookup(dataset, "advancement").entry.entry_id, advance.entry_id);
   assert.equal(dataApi.lookup(dataset, "往").entry.entry_id, advance.entry_id);
-  assert.match(fs.readFileSync(path.join(root, "semantic-mapper.html"), "utf8"), /data-example="advance"/);
+  const canonical = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
+  assert.ok(dataApi.languageForms(canonical).find((group) => group.code === "en").forms.some((form) => form.term === "advance"));
   assert.match(fs.readFileSync(path.join(root, "words/advance.html"), "utf8"), /Author Analysis vs Source-backed Etymology/);
 });

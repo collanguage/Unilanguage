@@ -57,7 +57,8 @@ test("all six formal records and the word page are indexed", () => {
   for (const file of files) assert.ok(fs.existsSync(path.join(root, file)), file);
   assert.equal(dataApi.DATASET_URL, "data/language-book.v1.0.json");
   assert.equal(dataApi.lookup(dataset, "籁").entry.entry_id, light.entry_id);
-  assert.match(fs.readFileSync(path.join(root, "semantic-mapper.html"), "utf8"), /data-example="light"/);
+  const canonical = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
+  assert.ok(dataApi.languageForms(canonical).find((group) => group.code === "en").forms.some((form) => form.term === "light"));
   const page = fs.readFileSync(path.join(root, "words/light.html"), "utf8");
   const candidate = JSON.parse(fs.readFileSync(path.join(root, "data/candidates/light-lai.v0.1.json"), "utf8"));
   const literary = JSON.parse(fs.readFileSync(path.join(root, "data/sources/literary/ru-guang-tian-lai.v0.1.json"), "utf8"));

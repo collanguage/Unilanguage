@@ -24,6 +24,35 @@ test("search_terms power English and Chinese lookup without page hardcoding", ()
   assert.equal(dataApi.lookup(dataset, "声音").entry.slug, "sound");
 });
 
+test("language browse is generated from unified record forms without changing record counts", () => {
+  const publishedBefore = dataset.entries.filter((entry) => entry.entry_status === "Published").length;
+  const candidatesBefore = dataset.entries.filter((entry) => entry.mapping_status === "Candidate").length;
+  const groups = new Map(dataApi.languageForms(dataset).map((group) => [group.code, group.forms]));
+  const terms = (code) => groups.get(code).map((form) => form.term);
+
+  for (const term of ["abdomen", "abdominal", "aberrant", "abbey", "sky", "light", "at", "presence", "advance"]) assert.ok(terms("en").includes(term), `missing English browse form ${term}`);
+  for (const term of ["肚", "肚子", "讹", "修道院", "在", "爱", "盖", "往"]) assert.ok(terms("zh-Hans").includes(term), `missing Chinese browse form ${term}`);
+  for (const term of ["abdomen", "abdominal", "abdominale", "aberrant", "aberrante", "abbaye", "abbé", "abbesse", "erreur"]) assert.ok(terms("fr").includes(term), `missing French browse form ${term}`);
+
+  for (const group of groups.values()) {
+    for (const form of group) assert.equal(dataApi.lookup(dataset, form.term).entry.id, form.recordId, `${form.term} did not resolve to its unified record`);
+  }
+  assert.equal(dataset.entries.filter((entry) => entry.entry_status === "Published").length, publishedBefore);
+  assert.equal(dataset.entries.filter((entry) => entry.mapping_status === "Candidate").length, candidatesBefore);
+});
+
+test("required mapper queries preserve unified record and independent status axes", () => {
+  const expected = { abdomen: "abdomen", abdominal: "abdomen", 肚子: "abdomen", abbey: "abbey", 修道院: "abbey", aberrant: "aberrant", 讹: "aberrant", at: "at", 在: "at", presence: "at" };
+  for (const [query, slug] of Object.entries(expected)) {
+    const entry = dataApi.lookup(dataset, query).entry;
+    assert.equal(entry.slug, slug, `lookup failed for ${query}`);
+    assert.ok(entry.entry_status);
+    assert.ok(entry.mapping_status);
+    assert.ok(entry.evidence);
+    assert.equal(entry.literary_layer.is_historical_evidence, false);
+  }
+});
+
 test("every entry exposes four evidence tracks and one primary mapping", () => {
   for (const entry of dataset.entries) {
     assert.deepEqual(Object.keys(entry.evidence), ["Historical", "Phonetic-Semantic", "Cognitive", "Speculative"]);
@@ -100,4 +129,13 @@ test("Mapper labels related-word etymology separately from speculative associati
   const mapper = fs.readFileSync(path.join(root, "js/semantic-mapper.js"), "utf8");
   assert.match(mapper, /Etymological relation · 词源关系/);
   assert.match(mapper, /Semantic\/speculative association · 语义／推测联想/);
+});
+
+test("Mapper presents dataset-driven language groups and the shared-record explanation", () => {
+  const html = fs.readFileSync(path.join(root, "semantic-mapper.html"), "utf8");
+  const mapper = fs.readFileSync(path.join(root, "js/semantic-mapper.js"), "utf8");
+  assert.match(html, /Browse by Language｜按语言浏览/);
+  assert.match(html, /Different language forms may resolve to the same semantic record｜不同语言形式可映射到同一语义记录/);
+  assert.doesNotMatch(html, /Schema records · 统一词条/);
+  assert.match(mapper, /UnilanguageData\.languageForms\(dataset\)/);
 });
