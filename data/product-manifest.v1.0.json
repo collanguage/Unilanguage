@@ -1,13 +1,13 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.0.0",
-  "dataset_version": "1.0.5",
-  "created_at": "2026-08-31",
+  "version": "1.1.0",
+  "dataset_version": "1.1.0",
+  "created_at": "2026-09-01",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
-  "entry_count": 13,
+  "entry_count": 23,
   "published_entry_count": 7,
-  "candidate_mapping_count": 7,
+  "candidate_mapping_count": 11,
   "files": [
     {
       "path": "data/language-book-entry.schema.v1.json",
@@ -16,13 +16,13 @@
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 265870,
-      "sha256": "4b6912d25134858f094e30942c0cd3f4f6384d5f8ce8c6c427f1c5a504a144a0"
+      "bytes": 438226,
+      "sha256": "65de65f6bc46a51feab4966172d810a4d720457c59e98eaa91d61cee427607b4"
     },
     {
       "path": "data/entries/abbey.v1.json",
-      "bytes": 19277,
-      "sha256": "bafa0efa64425a40ec2e27774535f044d6c770ce642bbc0d3d7b4e5ce6a649a2"
+      "bytes": 19266,
+      "sha256": "d08bfaaad617cfc387c6bce3e0054a0be687e02de63f1c72668b19cd28a5bb94"
     },
     {
       "path": "data/entries/abdomen.v1.json",
@@ -35,29 +35,99 @@
       "sha256": "8b61ab25e5f317e0124fad7ffffac77c81de04665adf8f443eff90a67d141bb4"
     },
     {
+      "path": "data/entries/convent.v1.json",
+      "bytes": 17696,
+      "sha256": "f351ef1fee05a0da3a88c615be3493d9714a02fee8b88eab930dc5131fbda0fd"
+    },
+    {
+      "path": "data/entries/figure.v1.json",
+      "bytes": 14567,
+      "sha256": "5113145888568e44573f76014ad62a80879dce4dba09b88383ce9568a2c60aca"
+    },
+    {
+      "path": "data/entries/fil.v1.json",
+      "bytes": 14951,
+      "sha256": "7cfd0d7e51fd4c25f93636f3139a89b89562b2c71c3597b6e3e522fda3ff9378"
+    },
+    {
+      "path": "data/entries/form.v1.json",
+      "bytes": 14449,
+      "sha256": "b1de36a8803aaa628df8613a0618060b47f1794f0ea69544a7d346c2f34f56b2"
+    },
+    {
+      "path": "data/entries/generate.v1.json",
+      "bytes": 15257,
+      "sha256": "f7694cc4b67b52e4a2958ac96a3122f3b221fb6bbc2f35f792a4a463f8e1d2fa"
+    },
+    {
+      "path": "data/entries/marchand.v1.json",
+      "bytes": 14675,
+      "sha256": "72e43edb716f6dbbc48ed07f3016e62bb641cb71ec145817758b8395693e6259"
+    },
+    {
+      "path": "data/entries/media.v1.json",
+      "bytes": 16379,
+      "sha256": "3128a757687d48a0ce180f7536ace5af4c5adf14b2c5891871d5527afdc753b0"
+    },
+    {
+      "path": "data/entries/montrer.v1.json",
+      "bytes": 14937,
+      "sha256": "7a6693fda0365373ef6f29ee671513d3007e6b7307b565ea4a4add32b0ba7d09"
+    },
+    {
       "path": "data/entries/namcha-barwa.v1.json",
       "bytes": 33978,
       "sha256": "6c6726809c0807a681a9a27445a0a184f4a506463abf5055a33d4b81441ebb08"
     },
     {
+      "path": "data/entries/press.v1.json",
+      "bytes": 16302,
+      "sha256": "2e2400e1600721cb322a357061805ef64eef53a7d481a7a58e994e2a3921eb8c"
+    },
+    {
+      "path": "data/entries/sign.v1.json",
+      "bytes": 16036,
+      "sha256": "100aeea0e7ca8805835e65585a82bdba18504961ef02dd738ff2ef53d816b82d"
+    },
+    {
+      "path": "data/batches/dataset-expansion-batch-001.v1.json",
+      "bytes": 8991,
+      "sha256": "2fcc7b7a0617be04dd0af1e65859edaa594da865c117fda5e6162278b335d378"
+    },
+    {
       "path": "docs/language-book-entry-schema-v1.md",
-      "bytes": 10933,
-      "sha256": "b0d7a8ca2cb65f4f8ecc9ce355379d1d71561cfdb76497c5186ea47016697a04"
+      "bytes": 10821,
+      "sha256": "8777467cb817d4842edb28d7707165862486e01db73e851048acc3b2ed9fd653"
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
       "bytes": 24098,
-      "sha256": "01dc5be5ef9e57011f0e9775187b0347e22a49a38a4c7d83ad295d59d1489a5d"
+      "sha256": "72831745cc5132ebb3e7db95d3e71ec6117f9268ee129ed3a084ea267c6c70bc"
+    },
+    {
+      "path": "docs/dataset-expansion-batch-001.md",
+      "bytes": 3019,
+      "sha256": "8a833156581668fb770d973318384853d3de9f4aa72bf167879c57737d021d6f"
+    },
+    {
+      "path": "scripts/build-dataset-expansion-batch-001.mjs",
+      "bytes": 37834,
+      "sha256": "42eec3dc117246943d9ce6680c4a989450395f4b5046f151741dca0baf9388f6"
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 14079,
-      "sha256": "14e896c4fce44b7a2b67358fdfe65a016422afae80e9a2530c9e020c6a60fdb1"
+      "bytes": 14285,
+      "sha256": "631fc27e7cf7aa42710e5341bf2e6d2bafb006fb7dee76ef5f0f222ed515cfc2"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
       "bytes": 12984,
       "sha256": "2a878647edd66983078ea788ec37ac28b5a8b1d89d57834853f850a595885730"
+    },
+    {
+      "path": "tests/dataset-expansion-batch-001.test.cjs",
+      "bytes": 3727,
+      "sha256": "fe26dd2d604949fb0f09e0a760ccd0e5b1ceca4029f9a2ac2fc6e26efc5f646e"
     },
     {
       "path": "tests/package-g1.test.cjs",
@@ -107,12 +177,12 @@
     {
       "path": "semantic-mapper.html",
       "bytes": 3834,
-      "sha256": "bd2055cec8797eb3bdbc5aae48fb3c6a7ce225c1099e38a7c634741db352e23c"
+      "sha256": "92616eac5362572f6c2f43ea1f0b1c34bc7910e73fda93c69ea8e927d79b1cc7"
     },
     {
       "path": "dictionary.html",
       "bytes": 3800,
-      "sha256": "4f4d2a55308d399361e988d05574a489296c50107695eab76cbab58a7dba5411"
+      "sha256": "504b476d29dff67bb771dd32e419a48a1c8e8ed99d4ea7cafd13d3d4d96fd902"
     },
     {
       "path": "search.html",
@@ -146,8 +216,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5304,
-      "sha256": "546d2b44b3a1967af6e4722845adb8e542fde086de623706f75179bd0f8fa478"
+      "bytes": 5186,
+      "sha256": "9640b63b5f6c84f7cba7458a9cb26013ca1e60d3491ce47824180d4345d93147"
     },
     {
       "path": "sitemap.xml",

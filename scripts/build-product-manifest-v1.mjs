@@ -11,8 +11,11 @@ const authoredEntryFiles = fs.readdirSync(path.join(root, "data", "entries"))
 const files = [
   "data/language-book-entry.schema.v1.json", "data/language-book.v1.0.json",
   ...authoredEntryFiles,
+  "data/batches/dataset-expansion-batch-001.v1.json",
   "docs/language-book-entry-schema-v1.md", "scripts/build-language-book-v1.mjs",
+  "docs/dataset-expansion-batch-001.md", "scripts/build-dataset-expansion-batch-001.mjs",
   "scripts/validate-language-book-v1.mjs", "tests/language-book-v1.test.cjs",
+  "tests/dataset-expansion-batch-001.test.cjs",
   "tests/package-g1.test.cjs", "tests/package-g3.test.cjs", "tests/package-g4-light.test.cjs",
   "tests/product-v0.1.test.cjs", "tests/product-v0.2.test.cjs",
   "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js", "js/literary-tabs.js",
@@ -30,7 +33,7 @@ const records = files.map((file) => {
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const manifest = {
   product: "Unilanguage Language Book + Semantic Mapper",
-  version: "1.0.0", dataset_version: dataset.dataset_version, created_at: "2026-08-31",
+  version: "1.1.0", dataset_version: dataset.dataset_version, created_at: "2026-09-01",
   canonical_dataset: "data/language-book.v1.0.json",
   canonical_schema: "data/language-book-entry.schema.v1.json",
   entry_count: dataset.entries.length,
@@ -40,4 +43,4 @@ const manifest = {
 };
 fs.writeFileSync(path.join(root, "data", "product-manifest.v1.0.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 fs.writeFileSync(path.join(root, "data", "product-checksums.v1.0.sha256"), `${records.map((record) => `${record.sha256}  ${record.path}`).join("\n")}\n`);
-console.log(`Product manifest v1.0.0 written · ${records.length} files`);
+console.log(`Product manifest v1.1.0 written · ${records.length} files`);

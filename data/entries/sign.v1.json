@@ -1,0 +1,429 @@
+{
+  "id": "LB-en-sign-cognition-017",
+  "slug": "sign",
+  "title": {
+    "en": "sign · Batch 001",
+    "zh-Hans": "sign · 数据扩展 Batch 001"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "sign",
+      "pronunciation": "/saɪn/",
+      "part_of_speech": "noun/verb · 名词／动词"
+    },
+    {
+      "role": "historically-related-or-compared-form",
+      "code": "fr",
+      "name": "French",
+      "word": "signe",
+      "pronunciation": "not recorded"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "符号／标记",
+      "pronunciation": "fúhào / biāojì"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-sign-primary",
+    "source": {
+      "language": "English",
+      "word": "sign",
+      "pronunciation": "/saɪn/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "符号／标记",
+      "pronunciation": "fúhào / biāojì"
+    },
+    "gloss": {
+      "en": "a mark, token or gesture that conveys meaning",
+      "zh-Hans": "传达意义的符号、标记或动作"
+    },
+    "meaning": {
+      "en": "a mark, token or gesture that conveys meaning. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+      "zh-Hans": "传达意义的符号、标记或动作。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "rationale": {
+      "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+      "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Candidate",
+  "mapping_level": "C",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Sign belongs to the Latin signum/signare ‘mark, token’ family. Cognitive/cognition belongs to Latin cognoscere/cognitio ‘know, knowledge’, with the gnosc-/gno- KNOW family. These are separate historical clusters.",
+        "zh-Hans": "sign 属拉丁语 signum／signare“标记、符号”词族；cognitive／cognition 属拉丁语 cognoscere／cognitio“认识、知识”及 gnosc-／gno- KNOW 词族。两者是不同的历史簇。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-SIGN-001",
+          "claim": {
+            "en": "Sign belongs to the Latin signum/signare ‘mark, token’ family. Cognitive/cognition belongs to Latin cognoscere/cognitio ‘know, knowledge’, with the gnosc-/gno- KNOW family. These are separate historical clusters.",
+            "zh-Hans": "sign 属拉丁语 signum／signare“标记、符号”词族；cognitive／cognition 属拉丁语 cognoscere／cognitio“认识、知识”及 gnosc-／gno- KNOW 词族。两者是不同的历史簇。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-SIGN",
+            "REF-CNRTL-COGNITION",
+            "REF-CNRTL-COGNITIF"
+          ]
+        },
+        {
+          "evidence_id": "HIST-SIGN-CORRECTION-002",
+          "claim": {
+            "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+            "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-JL-SIGN-RAW",
+            "REF-MW-SIGN",
+            "REF-CNRTL-COGNITION",
+            "REF-CNRTL-COGNITIF"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-SIGN",
+        "REF-CNRTL-COGNITION",
+        "REF-CNRTL-COGNITIF"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "The written sequences ign/ogn/gn are not interchangeable morphemes. In sign the g is silent in the modern base form, while cognitive has /gn/ distributed by its Latin morphology and modern pronunciation.",
+        "zh-Hans": "书写序列 ign／ogn／gn 不是可互换语素；现代 sign 的 g 不发音，而 cognitive 中相关字母受拉丁形态和现代读音制约。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-SIGN-001",
+          "claim": {
+            "en": "The written sequences ign/ogn/gn are not interchangeable morphemes. In sign the g is silent in the modern base form, while cognitive has /gn/ distributed by its Latin morphology and modern pronunciation.",
+            "zh-Hans": "书写序列 ign／ogn／gn 不是可互换语素；现代 sign 的 g 不发音，而 cognitive 中相关字母受拉丁形态和现代读音制约。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-JL-SIGN-RAW",
+            "REF-MW-SIGN",
+            "REF-CNRTL-COGNITION",
+            "REF-CNRTL-COGNITIF"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-JL-SIGN-RAW",
+        "REF-MW-SIGN",
+        "REF-CNRTL-COGNITION",
+        "REF-CNRTL-COGNITIF"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "A sign can cue recognition and knowledge, so SIGN/MARK → RECOGNIZE → KNOW is a legitimate semantic bridge, not an etymology.",
+        "zh-Hans": "符号可触发辨认与认知，因此 SIGN／MARK → RECOGNIZE → KNOW 是合理语义桥，而不是词源链。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-SIGN-001",
+          "claim": {
+            "en": "A sign can cue recognition and knowledge, so SIGN/MARK → RECOGNIZE → KNOW is a legitimate semantic bridge, not an etymology.",
+            "zh-Hans": "符号可触发辨认与认知，因此 SIGN／MARK → RECOGNIZE → KNOW 是合理语义桥，而不是词源链。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-JL-SIGN-RAW"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-JL-SIGN-RAW"
+      ]
+    },
+    "Speculative": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+        "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-SIGN-001",
+          "claim": {
+            "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+            "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+          },
+          "status": "Candidate",
+          "confidence": "High",
+          "source_refs": [
+            "REF-JL-SIGN-RAW",
+            "REF-MW-SIGN",
+            "REF-CNRTL-COGNITION",
+            "REF-CNRTL-COGNITIF"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-JL-SIGN-RAW",
+        "REF-MW-SIGN",
+        "REF-CNRTL-COGNITION",
+        "REF-CNRTL-COGNITIF"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-SIGN-001",
+      "claim": {
+        "en": "The written sequences ign/ogn/gn are not interchangeable morphemes. In sign the g is silent in the modern base form, while cognitive has /gn/ distributed by its Latin morphology and modern pronunciation.",
+        "zh-Hans": "书写序列 ign／ogn／gn 不是可互换语素；现代 sign 的 g 不发音，而 cognitive 中相关字母受拉丁形态和现代读音制约。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Modern spelling or sound resemblance is not a regular sound correspondence and does not prove cognacy.",
+        "zh-Hans": "现代拼写或声音近似不是规律音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "SIGN",
+      "MARK",
+      "KNOW",
+      "COGNITION",
+      "RECOGNITION"
+    ],
+    "relation": "SIGN → MARK → KNOW → COGNITION → RECOGNITION",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "signal / signature",
+      "language": "English/French",
+      "relationship_type": "Etymological derivatives",
+      "family": "Latin signum / signare",
+      "relation_to_entry": {
+        "en": "Documented historical relation within the stated family.",
+        "zh-Hans": "在所列词族内有文献支持的历史关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-SIGN",
+        "REF-CNRTL-COGNITION",
+        "REF-CNRTL-COGNITIF"
+      ]
+    },
+    {
+      "word": "cognition / cognitive",
+      "language": "English/French",
+      "relationship_type": "Separate KNOW cluster",
+      "family": "Latin cognitio / cognoscere",
+      "relation_to_entry": {
+        "en": "Documented historical relation within the stated family.",
+        "zh-Hans": "在所列词族内有文献支持的历史关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-SIGN",
+        "REF-CNRTL-COGNITION",
+        "REF-CNRTL-COGNITIF"
+      ]
+    },
+    {
+      "word": "recognize / reconnaître",
+      "language": "English/French",
+      "relationship_type": "KNOW cluster derivative",
+      "family": "Latin recognoscere",
+      "relation_to_entry": {
+        "en": "Documented historical relation within the stated family.",
+        "zh-Hans": "在所列词族内有文献支持的历史关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-SIGN",
+        "REF-CNRTL-COGNITION",
+        "REF-CNRTL-COGNITIF"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-SIGN-001",
+      "relation": "SIGN → MARK → KNOW → COGNITION → RECOGNITION",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-SIGN-001",
+      "type": "Original author phonetic-semantic / consonantal-skeleton hypothesis",
+      "claim": {
+        "en": "The author's comparison around ign，ogn，cognitive认知，sign; 辅音不变规则同样适用于词根的意义;  may support a mnemonic or semantic association without establishing common origin.",
+        "zh-Hans": "作者观察“ign，ogn，cognitive认知，sign。辅音不变规则同样适用于词根的意义。”可作为记忆或语义联想，但不建立共同来源。"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "sign",
+        "signe",
+        "signal",
+        "signature",
+        "cognitive"
+      ],
+      "counterexamples": [
+        "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test sound similarity and semantic fit separately with blinded ratings, explicit negative controls and historical-source review.",
+        "zh-Hans": "用盲法评分、明确负对照与独立词源核验分别检验声音相似度和语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-JL-SIGN-RAW",
+        "REF-MW-SIGN",
+        "REF-CNRTL-COGNITION",
+        "REF-CNRTL-COGNITIF"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-SIGN-001",
+      "statement": {
+        "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+        "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-JL-SIGN-RAW",
+        "REF-MW-SIGN",
+        "REF-CNRTL-COGNITION",
+        "REF-CNRTL-COGNITIF"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Not present",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "A sign can cue recognition and knowledge, so SIGN/MARK → RECOGNIZE → KNOW is a legitimate semantic bridge, not an etymology.",
+      "zh-Hans": "符号可触发辨认与认知，因此 SIGN／MARK → RECOGNIZE → KNOW 是合理语义桥，而不是词源链。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "This cognitive proposition may be developed literarily, but it is not historical evidence.",
+      "zh-Hans": "该认知命题可作文学展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-JL-SIGN-RAW",
+      "title": "Jinkai Liu: sign source/raw research note",
+      "type": "author research note",
+      "url": null,
+      "path": null,
+      "provenance": "author-provided in conversation; preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-SIGN",
+      "title": "Merriam-Webster Dictionary: sign",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/sign",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "REF-CNRTL-COGNITION",
+      "title": "CNRTL/TLFi: étymologie de cognition",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/cognition",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "REF-CNRTL-COGNITIF",
+      "title": "CNRTL/TLFi: étymologie de cognitif",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/cognitif",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Dataset Expansion Batch 001 / Schema v1.0",
+  "dates": {
+    "created": "2026-09-01",
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Batch disposition: Candidate. Priority score 89.6/100 is editorial triage, not a scientific measurement.",
+      "zh-Hans": "批次归类：Candidate。优先分 89.6/100 仅用于编辑分流，不是科学测量。"
+    },
+    {
+      "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+      "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+    }
+  ],
+  "search_terms": [
+    "sign",
+    "signe",
+    "signal",
+    "signature",
+    "cognitive",
+    "cognition",
+    "recognize",
+    "recognition",
+    "认知",
+    "认识",
+    "符号",
+    "标记",
+    "ign",
+    "ogn",
+    "gnoscere"
+  ],
+  "page": null,
+  "legacy": null,
+  "source": {
+    "type": "author-provided raw research note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Spelling and punctuation normalized only in evaluated fields; raw note retained verbatim here.",
+    "raw_note": "ign，ogn，cognitive认知，sign。辅音不变规则同样适用于词根的意义。"
+  },
+  "batch": {
+    "batch_id": "DATASET-EXPANSION-BATCH-001",
+    "ordinal": 4,
+    "disposition": "Candidate",
+    "priority_score": 89.6
+  }
+}

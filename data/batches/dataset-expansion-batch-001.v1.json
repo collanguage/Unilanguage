@@ -1,0 +1,266 @@
+{
+  "batch_id": "DATASET-EXPANSION-BATCH-001",
+  "batch_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "created_at": "2026-09-01",
+  "author": "Jinkai Liu",
+  "purpose": "Process ten high-priority author observations without conflating lexical mapping, historical relation, phonetic-semantic comparison, cognition, speculation or literature.",
+  "editorial_principle": "An entry may be published; a hypothesis must be graded; literature may explore freely; evidence must be evaluated independently.",
+  "scoring": {
+    "scale": "0-100",
+    "formula": "round(0.30*Verifiability + 0.25*SemanticClarity + 0.20*MappingValue + 0.15*LiteraryCognitiveValue + 0.10*Novelty, 1)",
+    "disclaimer": "Editorial triage only; not a scientific measurement."
+  },
+  "quality_gate": {
+    "reviewed": "Standard meaning and word class recorded; historical claims source-checked; four evidence tracks complete; counterevidence and raw note preserved; Mapper terms tested.",
+    "published": "Reviewed plus a dedicated editorial/publication decision and, where required, a page. Batch 001 makes no automatic publication decisions.",
+    "candidate": "Record is structurally complete but the cross-language mapping remains exploratory or primarily mnemonic."
+  },
+  "summary": {
+    "processed_records": 10,
+    "dispositions": {
+      "Reviewed": 6,
+      "Candidate": 4
+    },
+    "research_queue": 1,
+    "existing_record_checked": 1,
+    "historical_corrections": 8,
+    "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+  },
+  "records": [
+    {
+      "candidate_id": "B001-01",
+      "raw_note": "干 gan，gun、gin，gen，generate。generate ↔ 干 gan / 根 gen。辅音不变规则同样适用于词根的意义。",
+      "priority_components": {
+        "verifiability": 95,
+        "semantic_clarity": 92,
+        "mapping_value": 90,
+        "literary_cognitive_value": 80,
+        "novelty": 85
+      },
+      "priority_score": 90,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-generate-014"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": false,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-02",
+      "raw_note": "farm，form，构词形式。",
+      "priority_components": {
+        "verifiability": 95,
+        "semantic_clarity": 90,
+        "mapping_value": 86,
+        "literary_cognitive_value": 84,
+        "novelty": 82
+      },
+      "priority_score": 89,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-form-015"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-03",
+      "raw_note": "media，middle，mad。media / middle / 媒 / 中间。",
+      "priority_components": {
+        "verifiability": 92,
+        "semantic_clarity": 95,
+        "mapping_value": 92,
+        "literary_cognitive_value": 88,
+        "novelty": 78
+      },
+      "priority_score": 90.8,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-media-016"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-04",
+      "raw_note": "ign，ogn，cognitive认知，sign。辅音不变规则同样适用于词根的意义。",
+      "priority_components": {
+        "verifiability": 93,
+        "semantic_clarity": 87,
+        "mapping_value": 88,
+        "literary_cognitive_value": 90,
+        "novelty": 88
+      },
+      "priority_score": 89.6,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-sign-cognition-017"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-05",
+      "raw_note": "montrer显示，monitor监视器。",
+      "priority_components": {
+        "verifiability": 93,
+        "semantic_clarity": 90,
+        "mapping_value": 84,
+        "literary_cognitive_value": 75,
+        "novelty": 78
+      },
+      "priority_score": 86.3,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-fr-montrer-monitor-018"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-06",
+      "raw_note": "fil线，filiere行业，fille女孩。",
+      "priority_components": {
+        "verifiability": 96,
+        "semantic_clarity": 93,
+        "mapping_value": 88,
+        "literary_cognitive_value": 82,
+        "novelty": 80
+      },
+      "priority_score": 90,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-fr-fil-filiere-fille-019"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-07",
+      "raw_note": "figure数字，finger。",
+      "priority_components": {
+        "verifiability": 95,
+        "semantic_clarity": 88,
+        "mapping_value": 80,
+        "literary_cognitive_value": 78,
+        "novelty": 86
+      },
+      "priority_score": 86.8,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-figure-finger-020"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-08",
+      "raw_note": "marchand商人，march行走。",
+      "priority_components": {
+        "verifiability": 96,
+        "semantic_clarity": 92,
+        "mapping_value": 85,
+        "literary_cognitive_value": 82,
+        "novelty": 84
+      },
+      "priority_score": 89.5,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-fr-marchand-march-021"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-09",
+      "raw_note": "press压力，pression。exercée施加。peur怕……",
+      "priority_components": {
+        "verifiability": 98,
+        "semantic_clarity": 97,
+        "mapping_value": 90,
+        "literary_cognitive_value": 65,
+        "novelty": 50
+      },
+      "priority_score": 86.4,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-press-pression-022"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": false,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    },
+    {
+      "candidate_id": "B001-10",
+      "raw_note": "convent，convention。习俗从修道院而来？",
+      "priority_components": {
+        "verifiability": 94,
+        "semantic_clarity": 95,
+        "mapping_value": 90,
+        "literary_cognitive_value": 80,
+        "novelty": 80
+      },
+      "priority_score": 90,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-convent-convention-023"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search regression)"
+    }
+  ],
+  "deferred_queue": [
+    {
+      "candidate_id": "B001-Q01",
+      "raw_note": "wave / water ↔ 水 / w; w 形状与水语义假说。",
+      "priority_score": 66.5,
+      "processing_status": "deferred",
+      "final_record_ids": [],
+      "disposition": "Research Queue",
+      "reason": "Requires corpus/statistical controls for letter-shape and semantic-cluster claims."
+    }
+  ],
+  "existing_record_checks": [
+    {
+      "candidate_id": "B001-X01",
+      "raw_note": "advance ↔ 往 wang",
+      "processing_status": "checked",
+      "final_record_ids": [
+        "LB-en-advance-011"
+      ],
+      "disposition": "Existing Candidate",
+      "duplicate_created": false,
+      "note": "Existing calibration record retained; no duplicate authored entry."
+    }
+  ]
+}
