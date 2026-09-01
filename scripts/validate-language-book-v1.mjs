@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.0.4", "Schema must remain 1.0.0 and Dataset Expansion release must be 1.0.4");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.0.5", "Schema must remain 1.0.0 and Dataset Expansion release must be 1.0.5");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
 check(/one English word/i.test(dataset.editorial_policy.data_separation.en), "data separation policy missing");
@@ -108,6 +108,17 @@ check(namcha?.name_analysis?.wylie === "gnam lcags ’bar ba" && namcha?.name_an
 check(namcha?.name_analysis?.chinese_name_assessment?.type === "phonetic transcription plus geographic classifier", "Namcha Barwa Chinese transcription assessment missing");
 check(namcha?.name_analysis?.translation_assessments?.some((item) => item.chinese === "直刺蓝天的战矛／直刺天空的长矛" && item.literal_match === "weak"), "Namcha Barwa spear interpretation boundary missing");
 check(namcha?.name_analysis?.translation_assessments?.some((item) => item.chinese === "雷电如火燃烧" && item.grade === "closest semantic paraphrase"), "Namcha Barwa closest Chinese semantic paraphrase missing");
+const namchaPoem = namcha?.literary_layer?.poem_lyrics?.find((item) => item.work_id === "LB-NAMCHA-POEM-001");
+const namchaTranslations = namcha?.literary_layer?.translations || [];
+check(["zh-Hans", "en", "fr", "bo"].every((code) => typeof namchaPoem?.text?.[code] === "string"), "Namcha Barwa four-language poem text incomplete");
+check(namchaTranslations.find((item) => item.language_code === "zh-Hans")?.status === "Original Text", "Namcha Barwa Chinese original status missing");
+check(["en", "fr"].every((code) => namchaTranslations.find((item) => item.language_code === code)?.status === "Literary Translation"), "Namcha Barwa English/French literary translation status missing");
+check(namchaTranslations.find((item) => item.language_code === "bo")?.status === "Translation Draft" && /native Tibetan speaker/.test(namchaTranslations.find((item) => item.language_code === "bo")?.review_status || ""), "Namcha Barwa Tibetan draft review boundary missing");
+check(["zh-Hans", "en", "fr", "bo"].every((code) => namchaPoem.text[code].split("\n\n").length === 3), "Namcha Barwa translations must preserve the introduction and two-stanza structure");
+check(["zh-Hans", "en", "fr", "bo"].every((code) => {
+  const [, firstStanza, secondStanza] = namchaPoem.text[code].split("\n\n");
+  return firstStanza.split("\n").length === 10 && secondStanza.split("\n").length === 12;
+}), "Namcha Barwa translations must preserve the original 10-line / 12-line stanza structure");
 
 if (errors.length) {
   console.error(`Language Book v1.0 validation failed (${errors.length}):`);

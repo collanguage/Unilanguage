@@ -15,7 +15,7 @@ const files = [
   "scripts/validate-language-book-v1.mjs", "tests/language-book-v1.test.cjs",
   "tests/package-g1.test.cjs", "tests/package-g3.test.cjs", "tests/package-g4-light.test.cjs",
   "tests/product-v0.1.test.cjs", "tests/product-v0.2.test.cjs",
-  "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js",
+  "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js", "js/literary-tabs.js",
   "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html",
   "words/namcha-barwa.html", "css/namcha-barwa.css",
   "images/namcha-barwa-west-cherry933.jpg", "images/namcha-barwa-literary-landscape.png",

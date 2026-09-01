@@ -162,6 +162,32 @@ test("Namcha Barwa is a searchable named entity and literary entry, not a phonet
   assert.equal(entry.name_analysis.chinese_name_assessment.type, "phonetic transcription plus geographic classifier");
   assert.equal(entry.name_analysis.translation_assessments.find((item) => item.chinese === "雷电如火燃烧").grade, "closest semantic paraphrase");
   assert.equal(entry.name_analysis.translation_assessments.find((item) => item.chinese.includes("长矛")).literal_match, "weak");
+  const poem = entry.literary_layer.poem_lyrics.find((item) => item.work_id === "LB-NAMCHA-POEM-001");
+  assert.deepEqual(Object.keys(poem.text), ["zh-Hans", "en", "fr", "bo"]);
+  for (const code of ["zh-Hans", "en", "fr", "bo"]) {
+    const [introduction, firstStanza, secondStanza] = poem.text[code].split("\n\n");
+    assert.ok(introduction, `${code} introduction missing`);
+    assert.equal(firstStanza.split("\n").length, 10, `${code} first stanza lineation changed`);
+    assert.equal(secondStanza.split("\n").length, 12, `${code} second stanza lineation changed`);
+  }
+  assert.equal(entry.literary_layer.translations.find((item) => item.language_code === "zh-Hans").status, "Original Text");
+  assert.equal(entry.literary_layer.translations.find((item) => item.language_code === "en").status, "Literary Translation");
+  assert.equal(entry.literary_layer.translations.find((item) => item.language_code === "fr").status, "Literary Translation");
+  assert.equal(entry.literary_layer.translations.find((item) => item.language_code === "bo").status, "Translation Draft");
+  assert.match(entry.literary_layer.translations.find((item) => item.language_code === "bo").review_status, /native Tibetan speaker/);
+});
+
+test("Namcha Barwa page presents four accessible language tabs with honest translation statuses", () => {
+  const html = fs.readFileSync(path.join(root, "words", "namcha-barwa.html"), "utf8");
+  const tabs = fs.readFileSync(path.join(root, "js", "literary-tabs.js"), "utf8");
+  for (const label of ["中文", "English", "Français", "བོད་ཡིག"]) assert.match(html, new RegExp(label));
+  assert.match(html, /Original Text｜原作/);
+  assert.equal((html.match(/Literary Translation｜文学译本/g) || []).length, 2);
+  assert.match(html, /Translation Draft｜翻译初稿/);
+  assert.match(html, /尚待藏语母语者逐句审校/);
+  assert.equal((html.match(/role="tabpanel"/g) || []).length, 4);
+  assert.match(tabs, /ArrowLeft/);
+  assert.match(tabs, /aria-selected/);
 });
 
 test("Mapper exposes the named-entity label separately from ordinary mappings", () => {
