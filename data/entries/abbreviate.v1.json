@@ -1,0 +1,400 @@
+{
+  "id": "LB-en-abbreviate-035",
+  "slug": "abbreviate",
+  "title": {
+    "en": "abbreviate · Legacy Website Import",
+    "zh-Hans": "abbreviate · 旧站导入"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "abbreviate",
+      "pronunciation": "not recorded",
+      "part_of_speech": "verb · 动词"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "缩写／简略",
+      "pronunciation": "suōxiě / jiǎnlüè"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-abbreviate-primary",
+    "source": {
+      "language": "English",
+      "word": "abbreviate",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "缩写／简略",
+      "pronunciation": "suōxiě / jiǎnlüè"
+    },
+    "gloss": {
+      "en": "to shorten a word, phrase or text; to represent by a shorter form",
+      "zh-Hans": "缩短词、短语或文本；用较短形式表示"
+    },
+    "meaning": {
+      "en": "to shorten a word, phrase or text; to represent by a shorter form. The standard mapping is independent from the legacy sound hypothesis.",
+      "zh-Hans": "缩短词、短语或文本；用较短形式表示。标准词义 Mapping 与旧站声音假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Candidate",
+  "mapping_level": "C",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Abbreviate comes from Late Latin abbreviare ‘make shorter’, from Latin brevis ‘short’. Abbreviation is its genuine derivative, and abridge is a historical relative.",
+        "zh-Hans": "abbreviate 来自晚期拉丁语 abbreviare“使变短”，基于 brevis“短”；abbreviation 是真实派生词，abridge 是历史相关词。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-ABBREVIATE-001",
+          "claim": {
+            "en": "Abbreviate comes from Late Latin abbreviare ‘make shorter’, from Latin brevis ‘short’. Abbreviation is its genuine derivative, and abridge is a historical relative.",
+            "zh-Hans": "abbreviate 来自晚期拉丁语 abbreviare“使变短”，基于 brevis“短”；abbreviation 是真实派生词，abridge 是历史相关词。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ABBREVIATE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-ABBREVIATE"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "The brev segment and 瘪 biě have limited modern resemblance; no cross-language history is established.",
+        "zh-Hans": "brev 片段与“瘪”biě 有有限现代音近；未建立跨语言词史。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-ABBREVIATE-001",
+          "claim": {
+            "en": "The brev segment and 瘪 biě have limited modern resemblance; no cross-language history is established.",
+            "zh-Hans": "brev 片段与“瘪”biě 有有限现代音近；未建立跨语言词史。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABBREVIATE",
+        "REF-MW-ABBREVIATE",
+        "REF-LANGUAGESBOOK-ABBREVIATION"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+        "zh-Hans": "缩短 → 压缩 → “变瘪”，使“瘪”可作生动记忆联想。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-ABBREVIATE-001",
+          "claim": {
+            "en": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+            "zh-Hans": "缩短 → 压缩 → “变瘪”，使“瘪”可作生动记忆联想。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABBREVIATE"
+      ]
+    },
+    "Speculative": {
+      "status": "Unestablished",
+      "confidence": "High",
+      "summary": {
+        "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+        "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-ABBREVIATE-001",
+          "claim": {
+            "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+            "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+          },
+          "status": "Unestablished",
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABBREVIATE",
+        "REF-MW-ABBREVIATE",
+        "REF-LANGUAGESBOOK-ABBREVIATION"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-ABBREVIATE-001",
+      "claim": {
+        "en": "The brev segment and 瘪 biě have limited modern resemblance; no cross-language history is established.",
+        "zh-Hans": "brev 片段与“瘪”biě 有有限现代音近；未建立跨语言词史。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "ABBREVIATE",
+      "ABBREVIATION",
+      "ABBREV",
+      "BRIEF"
+    ],
+    "relation": "abbreviate → abbreviation → abbrev → brief",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "abbreviation",
+      "language": "English",
+      "relationship_type": "derivative",
+      "family": "Latin abbreviare",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABBREVIATE"
+      ]
+    },
+    {
+      "word": "abridge",
+      "language": "English",
+      "relationship_type": "historical relative",
+      "family": "Latin abbreviare/brevis",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABBREVIATE"
+      ]
+    },
+    {
+      "word": "brief/brevity",
+      "language": "English",
+      "relationship_type": "historical relatives",
+      "family": "Latin brevis",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABBREVIATE"
+      ]
+    },
+    {
+      "word": "瘪 biě",
+      "language": "Chinese",
+      "relationship_type": "phonetic-cognitive mnemonic",
+      "family": "independent Sinitic history",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABBREVIATE",
+        "REF-MW-ABBREVIATE",
+        "REF-LANGUAGESBOOK-ABBREVIATION"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-ABBREVIATE-001",
+      "relation": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LEGACY-ABBREVIATE-001",
+      "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+      "claim": {
+        "en": "Jinkai Liu’s original note is preserved verbatim: “abbreviate，简略。-brev 与瘪 bie 同音。abbreviation，节略。瘪 bie。”",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abbreviate，简略。-brev 与瘪 bie 同音。abbreviation，节略。瘪 bie。”"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "abbreviate",
+        "缩写／简略"
+      ],
+      "counterexamples": [
+        "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABBREVIATE",
+        "REF-MW-ABBREVIATE",
+        "REF-LANGUAGESBOOK-ABBREVIATION"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-ABBREVIATE-001",
+      "statement": {
+        "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+        "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABBREVIATE",
+        "REF-MW-ABBREVIATE",
+        "REF-LANGUAGESBOOK-ABBREVIATION"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Preserved from legacy note",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+      "zh-Hans": "缩短 → 压缩 → “变瘪”，使“瘪”可作生动记忆联想。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ABBREVIATE",
+      "title": "languagesbook.com legacy entry: abbreviate / abbreviation，简略／节略。瘪 bie",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/abbreviate%ef%bc%8c%e7%ae%80%e7%95%a5%e3%80%82%e7%98%aabie/",
+      "path": null,
+      "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-ABBREVIATE",
+      "title": "Merriam-Webster Dictionary: abbreviate",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/abbreviate",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ABBREVIATION",
+      "title": "languagesbook.com legacy entry: abbreviation，节略。瘪 bie",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/abbreviation/",
+      "path": null,
+      "provenance": "author-published legacy website; merged into abbreviate record during import 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Legacy Batch 001 disposition: Candidate; priority 90.5/100 is editorial triage only.",
+      "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 90.5/100 仅用于编辑分流。"
+    },
+    {
+      "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+      "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+    }
+  ],
+  "search_terms": [
+    "abbreviate",
+    "abbreviation",
+    "abbrev",
+    "brief",
+    "brevity",
+    "abridge",
+    "缩写",
+    "简略",
+    "节略",
+    "瘪",
+    "bie",
+    "shorten"
+  ],
+  "page": null,
+  "legacy": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/abbreviate%ef%bc%8c%e7%ae%80%e7%95%a5%e3%80%82%e7%98%aabie/",
+    "additional_source_urls": [
+      "https://languagesbook.com/glossary/abbreviation/"
+    ],
+    "source_page": 1,
+    "source_site": "languagesbook.com"
+  },
+  "source": {
+    "type": "author-published legacy website note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+    "raw_note": "abbreviate，简略。-brev 与瘪 bie 同音。abbreviation，节略。瘪 bie。"
+  },
+  "batch": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "ordinal": 12,
+    "disposition": "Candidate",
+    "priority_score": 90.5
+  }
+}

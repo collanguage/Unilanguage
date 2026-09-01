@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.1.0", "Schema must remain 1.0.0 and Dataset Expansion Batch 001 release must be 1.1.0");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.0", "Schema must remain 1.0.0 and Legacy Website Import Batch 001 release must be 1.2.0");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
 check(/one English word/i.test(dataset.editorial_policy.data_separation.en), "data separation policy missing");
@@ -63,6 +63,7 @@ check(slugs.has("abbey"), "Dataset Expansion v1 sample missing: abbey");
 check(slugs.has("abdomen"), "Dataset Expansion v1 sample missing: abdomen");
 check(slugs.has("namcha-barwa"), "Named Entity / Literary Entry missing: namcha-barwa");
 for (const slug of ["generate", "form", "media", "sign", "montrer", "fil", "figure", "marchand", "press", "convent"]) check(slugs.has(slug), `Dataset Expansion Batch 001 entry missing: ${slug}`);
+for (const slug of ["abeyance", "abound", "abridge", "acumen", "aliment", "a-indefinite-article", "above", "absolute", "aback", "abandon", "abash", "abbreviate", "abdicate", "abhor"]) check(slugs.has(slug), `Legacy Website Import Batch 001 entry missing: ${slug}`);
 const at = dataset.entries.find((entry) => entry.slug === "at");
 check(at?.entry_status === "Published" && at?.mapping_status === "Candidate" && at?.historical_relation_status === "Not claimed", "AT status axes changed");
 check(at?.primary_mapping.source.pronunciation === "/æt/" && /tsaɪ̯/.test(at?.primary_mapping.target.pronunciation), "AT pronunciation observation changed");

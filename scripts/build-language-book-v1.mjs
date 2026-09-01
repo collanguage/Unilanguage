@@ -244,11 +244,13 @@ const atEntry = {
   references: [
     { reference_id: "REF-AHD-AT", title: "American Heritage Dictionary: at", type: "dictionary", url: "https://www.ahdictionary.com/word/search.html?q=at", path: null, provenance: "external reference" },
     { reference_id: "REF-CUHK-CHAR", title: "CUHK Multi-function Chinese Character Database", type: "character database", url: "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/index.php", path: null, provenance: "external reference" },
+    { reference_id: "REF-LANGUAGESBOOK-AT", title: "languagesbook.com legacy entry: A，爱在，世界就在", type: "legacy author publication", url: "https://languagesbook.com/glossary/a-5/", path: null, provenance: "author-published legacy website; source merged without overwriting the published literary record" },
   ],
   author: "Jinkai Liu", version: "Literary Entry v1.0 / Schema v1.0", dates: { created: null, modified: migrationDate, published: migrationDate },
   editorial_notes: [localized("Publication, mapping, evidence/historical relation and literature are independent axes.", "词条发表、mapping、证据／历史关系与文学层是四条独立状态轴。")],
   search_terms: ["at", "在", "爱", "愛", "love", "presence", "location", "relation", "world", "世界", "爱在", "愛在", "love is presence", "第一次遇见你的时候", "一个美丽的向往，在那太空", "a beautiful yearning in space"],
   page: "words/at.html", legacy: null,
+  legacy_import: { batch_id: "LEGACY-WEBSITE-IMPORT-BATCH-001", source_url: "https://languagesbook.com/glossary/a-5/", action: "merged-source-deduplicated", raw_note: "A，爱在，世界就在。遨游蓝色星海。" },
 };
 entries.push(atEntry);
 
@@ -264,7 +266,7 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.1.0",
+  dataset_version: "1.2.0",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",

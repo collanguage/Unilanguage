@@ -1,0 +1,367 @@
+{
+  "id": "LB-en-abridge-026",
+  "slug": "abridge",
+  "title": {
+    "en": "abridge · Legacy Website Import",
+    "zh-Hans": "abridge · 旧站导入"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "abridge",
+      "pronunciation": "not recorded",
+      "part_of_speech": "verb · 动词"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "缩短／删节",
+      "pronunciation": "suōduǎn / shānjié"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-abridge-primary",
+    "source": {
+      "language": "English",
+      "word": "abridge",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "缩短／删节",
+      "pronunciation": "suōduǎn / shānjié"
+    },
+    "gloss": {
+      "en": "to shorten by omission while retaining the sense",
+      "zh-Hans": "通过删减而缩短，同时保留原意"
+    },
+    "meaning": {
+      "en": "to shorten by omission while retaining the sense. The standard mapping is independent from the legacy sound hypothesis.",
+      "zh-Hans": "通过删减而缩短，同时保留原意。标准词义 Mapping 与旧站声音假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Candidate",
+  "mapping_level": "C",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Abridge comes through Anglo-French abreger from Late Latin abbreviare, ultimately from Latin brevis ‘short’. It is historically related to abbreviate, not built from a + bridge.",
+        "zh-Hans": "abridge 经盎格鲁法语 abreger 来自晚期拉丁语 abbreviare，最终基于 brevis“短”；它与 abbreviate 有历史关系，而非 a + bridge。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-ABRIDGE-001",
+          "claim": {
+            "en": "Abridge comes through Anglo-French abreger from Late Latin abbreviare, ultimately from Latin brevis ‘short’. It is historically related to abbreviate, not built from a + bridge.",
+            "zh-Hans": "abridge 经盎格鲁法语 abreger 来自晚期拉丁语 abbreviare，最终基于 brevis“短”；它与 abbreviate 有历史关系，而非 a + bridge。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ABRIDGE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-ABRIDGE"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Segmenting abridge as a + bridge and comparing bridge with 臂 bì is a modern reanalysis.",
+        "zh-Hans": "把 abridge 切成 a + bridge 并把 bridge 与“臂”bì 比较，是现代再分析。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-ABRIDGE-001",
+          "claim": {
+            "en": "Segmenting abridge as a + bridge and comparing bridge with 臂 bì is a modern reanalysis.",
+            "zh-Hans": "把 abridge 切成 a + bridge 并把 bridge 与“臂”bì 比较，是现代再分析。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE",
+            "REF-MW-ABRIDGE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABRIDGE",
+        "REF-MW-ABRIDGE"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "A bridge can serve as a mnemonic for crossing a long text by a shorter route, but not as etymology.",
+        "zh-Hans": "“桥”可作为以较短路线跨越长文本的记忆意象，但不是词源。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-ABRIDGE-001",
+          "claim": {
+            "en": "A bridge can serve as a mnemonic for crossing a long text by a shorter route, but not as etymology.",
+            "zh-Hans": "“桥”可作为以较短路线跨越长文本的记忆意象，但不是词源。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABRIDGE"
+      ]
+    },
+    "Speculative": {
+      "status": "Unestablished",
+      "confidence": "High",
+      "summary": {
+        "en": "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+        "zh-Hans": "历史上的 SHORT 词族 brevis／abbreviare 否定了表面的 bridge／臂切分。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-ABRIDGE-001",
+          "claim": {
+            "en": "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+            "zh-Hans": "历史上的 SHORT 词族 brevis／abbreviare 否定了表面的 bridge／臂切分。"
+          },
+          "status": "Unestablished",
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE",
+            "REF-MW-ABRIDGE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABRIDGE",
+        "REF-MW-ABRIDGE"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-ABRIDGE-001",
+      "claim": {
+        "en": "Segmenting abridge as a + bridge and comparing bridge with 臂 bì is a modern reanalysis.",
+        "zh-Hans": "把 abridge 切成 a + bridge 并把 bridge 与“臂”bì 比较，是现代再分析。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "ABRIDGE",
+      "ABRIDGED",
+      "ABRIDGMENT",
+      "ABBREVIATE"
+    ],
+    "relation": "abridge → abridged → abridgment → abbreviate",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "abbreviate",
+      "language": "English",
+      "relationship_type": "historical relative",
+      "family": "Latin abbreviare/brevis",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABRIDGE"
+      ]
+    },
+    {
+      "word": "bridge",
+      "language": "English",
+      "relationship_type": "false segmentation",
+      "family": "Germanic bridge family",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABRIDGE",
+        "REF-MW-ABRIDGE"
+      ]
+    },
+    {
+      "word": "臂 bì",
+      "language": "Chinese",
+      "relationship_type": "surface phonetic candidate",
+      "family": "independent Sinitic history",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABRIDGE",
+        "REF-MW-ABRIDGE"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-ABRIDGE-001",
+      "relation": "A bridge can serve as a mnemonic for crossing a long text by a shorter route, but not as etymology.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LEGACY-ABRIDGE-001",
+      "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+      "claim": {
+        "en": "Jinkai Liu’s original note is preserved verbatim: “abridge，缩短。臂 bi。bridge 与臂同音。”",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abridge，缩短。臂 bi。bridge 与臂同音。”"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "abridge",
+        "缩短／删节"
+      ],
+      "counterexamples": [
+        "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABRIDGE",
+        "REF-MW-ABRIDGE"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-ABRIDGE-001",
+      "statement": {
+        "en": "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+        "zh-Hans": "历史上的 SHORT 词族 brevis／abbreviare 否定了表面的 bridge／臂切分。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABRIDGE",
+        "REF-MW-ABRIDGE"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Preserved from legacy note",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "A bridge can serve as a mnemonic for crossing a long text by a shorter route, but not as etymology.",
+      "zh-Hans": "“桥”可作为以较短路线跨越长文本的记忆意象，但不是词源。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ABRIDGE",
+      "title": "languagesbook.com legacy entry: abridge，缩短。臂 bi。bridge 与臂同音",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/a-bridge-%c9%99bri%ca%a4-v-%e5%9b%bdzhuei-zhui%e8%bf%bd%ef%bc%9b%e7%bc%a9%e7%9f%ad%e3%80%82/",
+      "path": null,
+      "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-ABRIDGE",
+      "title": "Merriam-Webster Dictionary: abridge",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/abridge",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Legacy Batch 001 disposition: Candidate; priority 87.9/100 is editorial triage only.",
+      "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 87.9/100 仅用于编辑分流。"
+    },
+    {
+      "en": "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+      "zh-Hans": "历史上的 SHORT 词族 brevis／abbreviare 否定了表面的 bridge／臂切分。"
+    }
+  ],
+  "search_terms": [
+    "abridge",
+    "abridged",
+    "abridgment",
+    "abbreviate",
+    "缩短",
+    "删节",
+    "臂",
+    "bridge",
+    "shorten"
+  ],
+  "page": null,
+  "legacy": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/a-bridge-%c9%99bri%ca%a4-v-%e5%9b%bdzhuei-zhui%e8%bf%bd%ef%bc%9b%e7%bc%a9%e7%9f%ad%e3%80%82/",
+    "additional_source_urls": [],
+    "source_page": 1,
+    "source_site": "languagesbook.com"
+  },
+  "source": {
+    "type": "author-published legacy website note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+    "raw_note": "abridge，缩短。臂 bi。bridge 与臂同音。"
+  },
+  "batch": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "ordinal": 3,
+    "disposition": "Candidate",
+    "priority_score": 87.9
+  }
+}

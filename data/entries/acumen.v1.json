@@ -1,0 +1,366 @@
+{
+  "id": "LB-en-acumen-027",
+  "slug": "acumen",
+  "title": {
+    "en": "acumen · Legacy Website Import",
+    "zh-Hans": "acumen · 旧站导入"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "acumen",
+      "pronunciation": "not recorded",
+      "part_of_speech": "noun · 名词"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "敏锐／洞察力",
+      "pronunciation": "mǐnruì / dòngchálì"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-acumen-primary",
+    "source": {
+      "language": "English",
+      "word": "acumen",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "敏锐／洞察力",
+      "pronunciation": "mǐnruì / dòngchálì"
+    },
+    "gloss": {
+      "en": "keenness and depth of perception, discernment or judgment",
+      "zh-Hans": "敏锐而深入的洞察、辨别或判断能力"
+    },
+    "meaning": {
+      "en": "keenness and depth of perception, discernment or judgment. The standard mapping is independent from the legacy sound hypothesis.",
+      "zh-Hans": "敏锐而深入的洞察、辨别或判断能力。标准词义 Mapping 与旧站声音假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Reviewed",
+  "mapping_level": "Unrated",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Acumen is Latin for ‘point, sharpness’, from acuere ‘to sharpen’. The letters cum do not form a morpheme meaning gather in this word.",
+        "zh-Hans": "acumen 来自拉丁语“尖端、敏锐”，源于 acuere“使锋利”；其中字母 cum 并不是表示“聚集”的语素。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-ACUMEN-001",
+          "claim": {
+            "en": "Acumen is Latin for ‘point, sharpness’, from acuere ‘to sharpen’. The letters cum do not form a morpheme meaning gather in this word.",
+            "zh-Hans": "acumen 来自拉丁语“尖端、敏锐”，源于 acuere“使锋利”；其中字母 cum 并不是表示“聚集”的语素。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ACUMEN"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-ACUMEN"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "cum and 聚 jù do not closely match in ordinary pronunciation and no historical relation is established.",
+        "zh-Hans": "cum 与“聚”jù 的通常读音并不紧密对应，也无已证历史关系。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-ACUMEN-001",
+          "claim": {
+            "en": "cum and 聚 jù do not closely match in ordinary pronunciation and no historical relation is established.",
+            "zh-Hans": "cum 与“聚”jù 的通常读音并不紧密对应，也无已证历史关系。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN",
+            "REF-MW-ACUMEN"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ACUMEN",
+        "REF-MW-ACUMEN"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "SHARP POINT → KEEN PERCEPTION is the documented semantic development; gathering clues is a separate mnemonic.",
+        "zh-Hans": "尖端／锋利 → 敏锐洞察是有文献的语义发展；“聚集线索”只是另一个记忆联想。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-ACUMEN-001",
+          "claim": {
+            "en": "SHARP POINT → KEEN PERCEPTION is the documented semantic development; gathering clues is a separate mnemonic.",
+            "zh-Hans": "尖端／锋利 → 敏锐洞察是有文献的语义发展；“聚集线索”只是另一个记忆联想。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ACUMEN"
+      ]
+    },
+    "Speculative": {
+      "status": "Unestablished",
+      "confidence": "High",
+      "summary": {
+        "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+        "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-ACUMEN-001",
+          "claim": {
+            "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+            "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+          },
+          "status": "Unestablished",
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN",
+            "REF-MW-ACUMEN"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ACUMEN",
+        "REF-MW-ACUMEN"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-ACUMEN-001",
+      "claim": {
+        "en": "cum and 聚 jù do not closely match in ordinary pronunciation and no historical relation is established.",
+        "zh-Hans": "cum 与“聚”jù 的通常读音并不紧密对应，也无已证历史关系。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "ACUMEN",
+      "ACUTE",
+      "ACUITY",
+      "敏锐"
+    ],
+    "relation": "acumen → acute → acuity → 敏锐",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "acute",
+      "language": "English",
+      "relationship_type": "historical relative",
+      "family": "Latin acuere/acutus",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ACUMEN"
+      ]
+    },
+    {
+      "word": "acuity",
+      "language": "English",
+      "relationship_type": "historical relative",
+      "family": "Latin acuere/acuitas",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ACUMEN"
+      ]
+    },
+    {
+      "word": "聚 jù",
+      "language": "Chinese",
+      "relationship_type": "speculative comparison",
+      "family": "independent Sinitic history",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ACUMEN",
+        "REF-MW-ACUMEN"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-ACUMEN-001",
+      "relation": "SHARP POINT → KEEN PERCEPTION is the documented semantic development; gathering clues is a separate mnemonic.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LEGACY-ACUMEN-001",
+      "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+      "claim": {
+        "en": "Jinkai Liu’s original note is preserved verbatim: “acumen，敏锐。聚 ju。cum- 与聚 ju 同音。”",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“acumen，敏锐。聚 ju。cum- 与聚 ju 同音。”"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "acumen",
+        "敏锐／洞察力"
+      ],
+      "counterexamples": [
+        "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ACUMEN",
+        "REF-MW-ACUMEN"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-ACUMEN-001",
+      "statement": {
+        "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+        "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ACUMEN",
+        "REF-MW-ACUMEN"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Preserved from legacy note",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "SHARP POINT → KEEN PERCEPTION is the documented semantic development; gathering clues is a separate mnemonic.",
+      "zh-Hans": "尖端／锋利 → 敏锐洞察是有文献的语义发展；“聚集线索”只是另一个记忆联想。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ACUMEN",
+      "title": "languagesbook.com legacy entry: acumen，敏锐。聚 ju。cum- 与聚 ju 同音",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/a-cum-en%ef%bc%8c%e6%95%8f%e9%94%90/",
+      "path": null,
+      "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-ACUMEN",
+      "title": "Merriam-Webster Dictionary: acumen",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/acumen",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Legacy Batch 001 disposition: Reviewed; priority 87.6/100 is editorial triage only.",
+      "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 87.6/100 仅用于编辑分流。"
+    },
+    {
+      "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+      "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+    }
+  ],
+  "search_terms": [
+    "acumen",
+    "acute",
+    "acuity",
+    "敏锐",
+    "洞察力",
+    "判断力",
+    "聚",
+    "cum",
+    "sharpness"
+  ],
+  "page": null,
+  "legacy": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/a-cum-en%ef%bc%8c%e6%95%8f%e9%94%90/",
+    "additional_source_urls": [],
+    "source_page": 1,
+    "source_site": "languagesbook.com"
+  },
+  "source": {
+    "type": "author-published legacy website note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+    "raw_note": "acumen，敏锐。聚 ju。cum- 与聚 ju 同音。"
+  },
+  "batch": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "ordinal": 4,
+    "disposition": "Reviewed",
+    "priority_score": 87.6
+  }
+}

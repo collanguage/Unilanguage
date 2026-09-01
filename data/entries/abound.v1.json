@@ -1,0 +1,368 @@
+{
+  "id": "LB-en-abound-025",
+  "slug": "abound",
+  "title": {
+    "en": "abound · Legacy Website Import",
+    "zh-Hans": "abound · 旧站导入"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "abound",
+      "pronunciation": "not recorded",
+      "part_of_speech": "verb · 动词"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "大量存在／繁盛",
+      "pronunciation": "dàliàng cúnzài / fánshèng"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-abound-primary",
+    "source": {
+      "language": "English",
+      "word": "abound",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "大量存在／繁盛",
+      "pronunciation": "dàliàng cúnzài / fánshèng"
+    },
+    "gloss": {
+      "en": "to be present in large numbers or amounts; to be rich or well supplied",
+      "zh-Hans": "大量存在、充满或富有"
+    },
+    "meaning": {
+      "en": "to be present in large numbers or amounts; to be rich or well supplied. The standard mapping is independent from the legacy sound hypothesis.",
+      "zh-Hans": "大量存在、充满或富有。标准词义 Mapping 与旧站声音假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Reviewed",
+  "mapping_level": "Unrated",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Abound comes through Anglo-French from Latin abundare ‘overflow’, built from ab- and undare ‘surge’ from unda ‘wave’; it is not derived from English bound.",
+        "zh-Hans": "abound 经盎格鲁法语来自拉丁语 abundare“溢出”，由 ab- 与 undare“涌动”（unda“波浪”）构成；不是由英语 bound 派生。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-ABOUND-001",
+          "claim": {
+            "en": "Abound comes through Anglo-French from Latin abundare ‘overflow’, built from ab- and undare ‘surge’ from unda ‘wave’; it is not derived from English bound.",
+            "zh-Hans": "abound 经盎格鲁法语来自拉丁语 abundare“溢出”，由 ab- 与 undare“涌动”（unda“波浪”）构成；不是由英语 bound 派生。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ABOUND"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-ABOUND"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "The resemblance of bound/bound-like spelling to 蹦 bèng is approximate and historically unsupported.",
+        "zh-Hans": "bound 一段与“蹦”bèng 的近似有限，且无历史支持。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-ABOUND-001",
+          "claim": {
+            "en": "The resemblance of bound/bound-like spelling to 蹦 bèng is approximate and historically unsupported.",
+            "zh-Hans": "bound 一段与“蹦”bèng 的近似有限，且无历史支持。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND",
+            "REF-MW-ABOUND"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABOUND",
+        "REF-MW-ABOUND"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "SURGE/OVERFLOW → ABUNDANCE → PROSPERITY supports the author’s image of an economy springing upward.",
+        "zh-Hans": "涌动／溢出 → 丰富 → 繁荣，可承载作者“经济蹦起”的意象。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-ABOUND-001",
+          "claim": {
+            "en": "SURGE/OVERFLOW → ABUNDANCE → PROSPERITY supports the author’s image of an economy springing upward.",
+            "zh-Hans": "涌动／溢出 → 丰富 → 繁荣，可承载作者“经济蹦起”的意象。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABOUND"
+      ]
+    },
+    "Speculative": {
+      "status": "Unestablished",
+      "confidence": "High",
+      "summary": {
+        "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+        "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-ABOUND-001",
+          "claim": {
+            "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+            "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+          },
+          "status": "Unestablished",
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND",
+            "REF-MW-ABOUND"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABOUND",
+        "REF-MW-ABOUND"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-ABOUND-001",
+      "claim": {
+        "en": "The resemblance of bound/bound-like spelling to 蹦 bèng is approximate and historically unsupported.",
+        "zh-Hans": "bound 一段与“蹦”bèng 的近似有限，且无历史支持。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "ABOUND",
+      "ABUNDANCE",
+      "ABUNDANT",
+      "繁荣"
+    ],
+    "relation": "abound → abundance → abundant → 繁荣",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "abundance",
+      "language": "English",
+      "relationship_type": "historical derivative",
+      "family": "Latin abundare/abundantia",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABOUND"
+      ]
+    },
+    {
+      "word": "bound",
+      "language": "English",
+      "relationship_type": "surface similarity",
+      "family": "separate Germanic/French histories",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABOUND",
+        "REF-MW-ABOUND"
+      ]
+    },
+    {
+      "word": "蹦 bèng",
+      "language": "Chinese",
+      "relationship_type": "literary mnemonic",
+      "family": "independent Sinitic history",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABOUND",
+        "REF-MW-ABOUND"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-ABOUND-001",
+      "relation": "SURGE/OVERFLOW → ABUNDANCE → PROSPERITY supports the author’s image of an economy springing upward.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LEGACY-ABOUND-001",
+      "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+      "claim": {
+        "en": "Jinkai Liu’s original note is preserved verbatim: “abound，繁荣。蹦 beng。经济蹦起即繁荣。”",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abound，繁荣。蹦 beng。经济蹦起即繁荣。”"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "abound",
+        "大量存在／繁盛"
+      ],
+      "counterexamples": [
+        "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABOUND",
+        "REF-MW-ABOUND"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-ABOUND-001",
+      "statement": {
+        "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+        "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABOUND",
+        "REF-MW-ABOUND"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Preserved from legacy note",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "SURGE/OVERFLOW → ABUNDANCE → PROSPERITY supports the author’s image of an economy springing upward.",
+      "zh-Hans": "涌动／溢出 → 丰富 → 繁荣，可承载作者“经济蹦起”的意象。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ABOUND",
+      "title": "languagesbook.com legacy entry: abound，繁荣。蹦 beng。经济蹦起即繁荣",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/a-bound%ef%bc%8c%e6%a3%92%ef%bc%9b%e7%b9%81%e8%8d%a3%e3%80%82/",
+      "path": null,
+      "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-ABOUND",
+      "title": "Merriam-Webster Dictionary: abound",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/abound",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Legacy Batch 001 disposition: Reviewed; priority 88.8/100 is editorial triage only.",
+      "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 88.8/100 仅用于编辑分流。"
+    },
+    {
+      "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+      "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+    }
+  ],
+  "search_terms": [
+    "abound",
+    "abundance",
+    "abundant",
+    "繁荣",
+    "繁盛",
+    "大量",
+    "充满",
+    "蹦",
+    "beng",
+    "overflow"
+  ],
+  "page": null,
+  "legacy": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/a-bound%ef%bc%8c%e6%a3%92%ef%bc%9b%e7%b9%81%e8%8d%a3%e3%80%82/",
+    "additional_source_urls": [],
+    "source_page": 1,
+    "source_site": "languagesbook.com"
+  },
+  "source": {
+    "type": "author-published legacy website note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+    "raw_note": "abound，繁荣。蹦 beng。经济蹦起即繁荣。"
+  },
+  "batch": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "ordinal": 2,
+    "disposition": "Reviewed",
+    "priority_score": 88.8
+  }
+}

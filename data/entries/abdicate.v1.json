@@ -1,0 +1,366 @@
+{
+  "id": "LB-en-abdicate-036",
+  "slug": "abdicate",
+  "title": {
+    "en": "abdicate · Legacy Website Import",
+    "zh-Hans": "abdicate · 旧站导入"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "abdicate",
+      "pronunciation": "not recorded",
+      "part_of_speech": "verb · 动词"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "退位／放弃职责",
+      "pronunciation": "tuìwèi / fàngqì zhízé"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-abdicate-primary",
+    "source": {
+      "language": "English",
+      "word": "abdicate",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "退位／放弃职责",
+      "pronunciation": "tuìwèi / fàngqì zhízé"
+    },
+    "gloss": {
+      "en": "to formally give up sovereign power, office or a serious responsibility",
+      "zh-Hans": "正式放弃君权、职位或重大职责"
+    },
+    "meaning": {
+      "en": "to formally give up sovereign power, office or a serious responsibility. The standard mapping is independent from the legacy sound hypothesis.",
+      "zh-Hans": "正式放弃君权、职位或重大职责。标准词义 Mapping 与旧站声音假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Candidate",
+  "mapping_level": "C",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Abdicate is from Latin abdicare ‘resign, renounce, withdraw’, with ab- ‘away’ and a form related to dicere ‘speak, state’. It is not built from a Chinese sound.",
+        "zh-Hans": "abdicate 来自拉丁语 abdicare“辞去、放弃、退出”，含 ab-“离开”及与 dicere“说、陈述”相关的形式；并非由汉语声音构成。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-ABDICATE-001",
+          "claim": {
+            "en": "Abdicate is from Latin abdicare ‘resign, renounce, withdraw’, with ab- ‘away’ and a form related to dicere ‘speak, state’. It is not built from a Chinese sound.",
+            "zh-Hans": "abdicate 来自拉丁语 abdicare“辞去、放弃、退出”，含 ab-“离开”及与 dicere“说、陈述”相关的形式；并非由汉语声音构成。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ABDICATE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-ABDICATE"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "The final -dicate and 啼 tí overlap only in a small sound fragment and do not establish morphology or cognacy.",
+        "zh-Hans": "词尾 -dicate 与“啼”tí 仅有很小声音片段重合，不能建立构词或同源关系。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-ABDICATE-001",
+          "claim": {
+            "en": "The final -dicate and 啼 tí overlap only in a small sound fragment and do not establish morphology or cognacy.",
+            "zh-Hans": "词尾 -dicate 与“啼”tí 仅有很小声音片段重合，不能建立构词或同源关系。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE",
+            "REF-MW-ABDICATE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABDICATE",
+        "REF-MW-ABDICATE"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "A ruler no longer making proclamations after renouncing office is a literary image that loosely echoes the historical SAY/DECLARE root.",
+        "zh-Hans": "统治者退位后不再发号施令，是一种文学意象，并可松散呼应历史上的 SAY／DECLARE 词根。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-ABDICATE-001",
+          "claim": {
+            "en": "A ruler no longer making proclamations after renouncing office is a literary image that loosely echoes the historical SAY/DECLARE root.",
+            "zh-Hans": "统治者退位后不再发号施令，是一种文学意象，并可松散呼应历史上的 SAY／DECLARE 词根。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABDICATE"
+      ]
+    },
+    "Speculative": {
+      "status": "Unestablished",
+      "confidence": "High",
+      "summary": {
+        "en": "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+        "zh-Hans": "旧站“不再啼叫”的解释属于文学；拉丁语放弃／宣布词史则有独立依据。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-ABDICATE-001",
+          "claim": {
+            "en": "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+            "zh-Hans": "旧站“不再啼叫”的解释属于文学；拉丁语放弃／宣布词史则有独立依据。"
+          },
+          "status": "Unestablished",
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE",
+            "REF-MW-ABDICATE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABDICATE",
+        "REF-MW-ABDICATE"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-ABDICATE-001",
+      "claim": {
+        "en": "The final -dicate and 啼 tí overlap only in a small sound fragment and do not establish morphology or cognacy.",
+        "zh-Hans": "词尾 -dicate 与“啼”tí 仅有很小声音片段重合，不能建立构词或同源关系。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "ABDICATE",
+      "ABDICATION",
+      "退位",
+      "让位"
+    ],
+    "relation": "abdicate → abdication → 退位 → 让位",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "abdication",
+      "language": "English",
+      "relationship_type": "derivative",
+      "family": "Latin abdicare",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABDICATE"
+      ]
+    },
+    {
+      "word": "dictate/diction",
+      "language": "English",
+      "relationship_type": "deeper historical relatives",
+      "family": "Latin dicere/dicare",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABDICATE"
+      ]
+    },
+    {
+      "word": "啼 tí",
+      "language": "Chinese",
+      "relationship_type": "literary phonetic candidate",
+      "family": "independent Sinitic history",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABDICATE",
+        "REF-MW-ABDICATE"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-ABDICATE-001",
+      "relation": "A ruler no longer making proclamations after renouncing office is a literary image that loosely echoes the historical SAY/DECLARE root.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LEGACY-ABDICATE-001",
+      "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+      "claim": {
+        "en": "Jinkai Liu’s original note is preserved verbatim: “abdicate，退位。啼 ti。退位即不再啼叫。”",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abdicate，退位。啼 ti。退位即不再啼叫。”"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "abdicate",
+        "退位／放弃职责"
+      ],
+      "counterexamples": [
+        "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABDICATE",
+        "REF-MW-ABDICATE"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-ABDICATE-001",
+      "statement": {
+        "en": "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+        "zh-Hans": "旧站“不再啼叫”的解释属于文学；拉丁语放弃／宣布词史则有独立依据。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABDICATE",
+        "REF-MW-ABDICATE"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Preserved from legacy note",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "A ruler no longer making proclamations after renouncing office is a literary image that loosely echoes the historical SAY/DECLARE root.",
+      "zh-Hans": "统治者退位后不再发号施令，是一种文学意象，并可松散呼应历史上的 SAY／DECLARE 词根。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ABDICATE",
+      "title": "languagesbook.com legacy entry: abdicate，退位。啼 ti。退位即不再啼叫",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/abdicate%ef%bc%8c%e9%80%80%e4%bd%8d/",
+      "path": null,
+      "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-ABDICATE",
+      "title": "Merriam-Webster Dictionary: abdicate",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/abdicate",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Legacy Batch 001 disposition: Candidate; priority 90.8/100 is editorial triage only.",
+      "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 90.8/100 仅用于编辑分流。"
+    },
+    {
+      "en": "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+      "zh-Hans": "旧站“不再啼叫”的解释属于文学；拉丁语放弃／宣布词史则有独立依据。"
+    }
+  ],
+  "search_terms": [
+    "abdicate",
+    "abdication",
+    "退位",
+    "让位",
+    "放弃职责",
+    "啼",
+    "ti",
+    "renounce",
+    "resign"
+  ],
+  "page": null,
+  "legacy": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/abdicate%ef%bc%8c%e9%80%80%e4%bd%8d/",
+    "additional_source_urls": [],
+    "source_page": 1,
+    "source_site": "languagesbook.com"
+  },
+  "source": {
+    "type": "author-published legacy website note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+    "raw_note": "abdicate，退位。啼 ti。退位即不再啼叫。"
+  },
+  "batch": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "ordinal": 13,
+    "disposition": "Candidate",
+    "priority_score": 90.8
+  }
+}

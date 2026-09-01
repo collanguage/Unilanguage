@@ -1,0 +1,352 @@
+{
+  "id": "LB-en-aback-032",
+  "slug": "aback",
+  "title": {
+    "en": "aback · Legacy Website Import",
+    "zh-Hans": "aback · 旧站导入"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "aback",
+      "pronunciation": "not recorded",
+      "part_of_speech": "adverb · 副词"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "向后／吃惊地",
+      "pronunciation": "xiànghòu / chījīng de"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-aback-primary",
+    "source": {
+      "language": "English",
+      "word": "aback",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "向后／吃惊地",
+      "pronunciation": "xiànghòu / chījīng de"
+    },
+    "gloss": {
+      "en": "backward; chiefly in the phrase taken aback, suddenly surprised",
+      "zh-Hans": "向后；现主要见于 taken aback，表示突然吃惊"
+    },
+    "meaning": {
+      "en": "backward; chiefly in the phrase taken aback, suddenly surprised. The standard mapping is independent from the legacy sound hypothesis.",
+      "zh-Hans": "向后；现主要见于 taken aback，表示突然吃惊。标准词义 Mapping 与旧站声音假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Candidate",
+  "mapping_level": "C",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Aback continues Middle English abak and Old English on bæc ‘on/at the back’. Its relation to English back is genuine.",
+        "zh-Hans": "aback 延续中古英语 abak 与古英语 on bæc“在背后／向后”；它与英语 back 的关系真实。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-ABACK-001",
+          "claim": {
+            "en": "Aback continues Middle English abak and Old English on bæc ‘on/at the back’. Its relation to English back is genuine.",
+            "zh-Hans": "aback 延续中古英语 abak 与古英语 on bæc“在背后／向后”；它与英语 back 的关系真实。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ABACK"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-ABACK"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "English back and Mandarin 背 bèi share a broad initial consonant and back-related meanings, but no historical link or regular sound law is established.",
+        "zh-Hans": "英语 back 与普通话“背”bèi 有宽泛起始辅音与后背义交集，但无已证历史联系或规律音变。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-ABACK-001",
+          "claim": {
+            "en": "English back and Mandarin 背 bèi share a broad initial consonant and back-related meanings, but no historical link or regular sound law is established.",
+            "zh-Hans": "英语 back 与普通话“背”bèi 有宽泛起始辅音与后背义交集，但无已证历史联系或规律音变。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK",
+            "REF-MW-ABACK"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABACK",
+        "REF-MW-ABACK"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
+        "zh-Hans": "向后 → 退缩 → 吃惊，有助理解现代习语 taken aback；“文明在背后”属于文学表达。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-ABACK-001",
+          "claim": {
+            "en": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
+            "zh-Hans": "向后 → 退缩 → 吃惊，有助理解现代习语 taken aback；“文明在背后”属于文学表达。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABACK"
+      ]
+    },
+    "Speculative": {
+      "status": "Unestablished",
+      "confidence": "High",
+      "summary": {
+        "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+        "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-ABACK-001",
+          "claim": {
+            "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+            "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+          },
+          "status": "Unestablished",
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK",
+            "REF-MW-ABACK"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABACK",
+        "REF-MW-ABACK"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-ABACK-001",
+      "claim": {
+        "en": "English back and Mandarin 背 bèi share a broad initial consonant and back-related meanings, but no historical link or regular sound law is established.",
+        "zh-Hans": "英语 back 与普通话“背”bèi 有宽泛起始辅音与后背义交集，但无已证历史联系或规律音变。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "ABACK",
+      "TAKEN ABACK",
+      "BACK",
+      "向后"
+    ],
+    "relation": "aback → taken aback → back → 向后",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "back",
+      "language": "English",
+      "relationship_type": "historical source family",
+      "family": "Old English bæc",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABACK"
+      ]
+    },
+    {
+      "word": "背 bèi",
+      "language": "Chinese",
+      "relationship_type": "phonetic-semantic candidate",
+      "family": "independent Sinitic history",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABACK",
+        "REF-MW-ABACK"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-ABACK-001",
+      "relation": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LEGACY-ABACK-001",
+      "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+      "claim": {
+        "en": "Jinkai Liu’s original note is preserved verbatim: “aback，背后。背 bei。back 与背 bei 同音。文明在背后。”",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“aback，背后。背 bei。back 与背 bei 同音。文明在背后。”"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "aback",
+        "向后／吃惊地"
+      ],
+      "counterexamples": [
+        "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABACK",
+        "REF-MW-ABACK"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-ABACK-001",
+      "statement": {
+        "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+        "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABACK",
+        "REF-MW-ABACK"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Preserved from legacy note",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
+      "zh-Hans": "向后 → 退缩 → 吃惊，有助理解现代习语 taken aback；“文明在背后”属于文学表达。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ABACK",
+      "title": "languagesbook.com legacy entry: aback，背。背 bei。back 与背 bei 同音",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/aback%ef%bc%8c%e8%83%8c%e5%90%8e%e3%80%82%e6%96%87%e6%98%8e%e5%9c%a8%e8%83%8c%e5%90%8e/",
+      "path": null,
+      "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-ABACK",
+      "title": "Merriam-Webster Dictionary: aback",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/aback",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Legacy Batch 001 disposition: Candidate; priority 88.3/100 is editorial triage only.",
+      "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 88.3/100 仅用于编辑分流。"
+    },
+    {
+      "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+      "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+    }
+  ],
+  "search_terms": [
+    "aback",
+    "taken aback",
+    "back",
+    "向后",
+    "吃惊",
+    "背",
+    "背后",
+    "背 bei",
+    "surprised"
+  ],
+  "page": null,
+  "legacy": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/aback%ef%bc%8c%e8%83%8c%e5%90%8e%e3%80%82%e6%96%87%e6%98%8e%e5%9c%a8%e8%83%8c%e5%90%8e/",
+    "additional_source_urls": [],
+    "source_page": 1,
+    "source_site": "languagesbook.com"
+  },
+  "source": {
+    "type": "author-published legacy website note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+    "raw_note": "aback，背后。背 bei。back 与背 bei 同音。文明在背后。"
+  },
+  "batch": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "ordinal": 9,
+    "disposition": "Candidate",
+    "priority_score": 88.3
+  }
+}

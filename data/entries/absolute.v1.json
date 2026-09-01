@@ -1,0 +1,366 @@
+{
+  "id": "LB-en-absolute-031",
+  "slug": "absolute",
+  "title": {
+    "en": "absolute · Legacy Website Import",
+    "zh-Hans": "absolute · 旧站导入"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "absolute",
+      "pronunciation": "not recorded",
+      "part_of_speech": "adjective/noun · 形容词／名词"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "绝对的／完全的",
+      "pronunciation": "juéduì de / wánquán de"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-absolute-primary",
+    "source": {
+      "language": "English",
+      "word": "absolute",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "绝对的／完全的",
+      "pronunciation": "juéduì de / wánquán de"
+    },
+    "gloss": {
+      "en": "free from qualification, restriction or relation; complete",
+      "zh-Hans": "不受条件、限制或关系约束的；完全的"
+    },
+    "meaning": {
+      "en": "free from qualification, restriction or relation; complete. The standard mapping is independent from the legacy sound hypothesis.",
+      "zh-Hans": "不受条件、限制或关系约束的；完全的。标准词义 Mapping 与旧站声音假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Reviewed",
+  "mapping_level": "Unrated",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Absolute comes from Latin absolutus, the past participle of absolvere ‘set free, complete’. Its sol-/solve relationship is historical; 炒 chǎo is not.",
+        "zh-Hans": "absolute 来自拉丁语 absolutus，是 absolvere“释放、完成”的过去分词；其与 sol-／solve 的关系有历史依据，与“炒”chǎo 则没有。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-ABSOLUTE-001",
+          "claim": {
+            "en": "Absolute comes from Latin absolutus, the past participle of absolvere ‘set free, complete’. Its sol-/solve relationship is historical; 炒 chǎo is not.",
+            "zh-Hans": "absolute 来自拉丁语 absolutus，是 absolvere“释放、完成”的过去分词；其与 sol-／solve 的关系有历史依据，与“炒”chǎo 则没有。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-ABSOLUTE"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+        "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-ABSOLUTE-001",
+          "claim": {
+            "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+            "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABSOLUTE",
+        "REF-MW-ABSOLUTE"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+        "zh-Hans": "解开／释放 → 不受限制 → 绝对，是有用的历史—语义链。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-ABSOLUTE-001",
+          "claim": {
+            "en": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+            "zh-Hans": "解开／释放 → 不受限制 → 绝对，是有用的历史—语义链。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABSOLUTE"
+      ]
+    },
+    "Speculative": {
+      "status": "Unestablished",
+      "confidence": "High",
+      "summary": {
+        "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+        "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-ABSOLUTE-001",
+          "claim": {
+            "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+            "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+          },
+          "status": "Unestablished",
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABSOLUTE",
+        "REF-MW-ABSOLUTE"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-ABSOLUTE-001",
+      "claim": {
+        "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+        "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "ABSOLUTE",
+      "ABSOLVE",
+      "SOLVE",
+      "绝对"
+    ],
+    "relation": "absolute → absolve → solve → 绝对",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "absolve",
+      "language": "English",
+      "relationship_type": "historical relative",
+      "family": "Latin absolvere",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABSOLUTE"
+      ]
+    },
+    {
+      "word": "solve",
+      "language": "English",
+      "relationship_type": "historical relative",
+      "family": "Latin solvere",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABSOLUTE"
+      ]
+    },
+    {
+      "word": "炒 chǎo",
+      "language": "Chinese",
+      "relationship_type": "literary mnemonic",
+      "family": "independent Sinitic history",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABSOLUTE",
+        "REF-MW-ABSOLUTE"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-ABSOLUTE-001",
+      "relation": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LEGACY-ABSOLUTE-001",
+      "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+      "claim": {
+        "en": "Jinkai Liu’s original note is preserved verbatim: “absolute，绝对。炒 chao。solve 解决即炒炒。”",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“absolute，绝对。炒 chao。solve 解决即炒炒。”"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "absolute",
+        "绝对的／完全的"
+      ],
+      "counterexamples": [
+        "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABSOLUTE",
+        "REF-MW-ABSOLUTE"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-ABSOLUTE-001",
+      "statement": {
+        "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+        "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABSOLUTE",
+        "REF-MW-ABSOLUTE"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Preserved from legacy note",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+      "zh-Hans": "解开／释放 → 不受限制 → 绝对，是有用的历史—语义链。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ABSOLUTE",
+      "title": "languagesbook.com legacy entry: absolute，绝对。炒 chao。solve 解决即炒炒",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/ab-sol-ute%ef%bc%8c%e7%bb%9d%e5%af%b9/",
+      "path": null,
+      "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-ABSOLUTE",
+      "title": "Merriam-Webster Dictionary: absolute",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/absolute",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Legacy Batch 001 disposition: Reviewed; priority 90.8/100 is editorial triage only.",
+      "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 90.8/100 仅用于编辑分流。"
+    },
+    {
+      "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+      "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+    }
+  ],
+  "search_terms": [
+    "absolute",
+    "absolve",
+    "solve",
+    "绝对",
+    "完全",
+    "无条件",
+    "炒",
+    "chao",
+    "unrestricted"
+  ],
+  "page": null,
+  "legacy": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/ab-sol-ute%ef%bc%8c%e7%bb%9d%e5%af%b9/",
+    "additional_source_urls": [],
+    "source_page": 1,
+    "source_site": "languagesbook.com"
+  },
+  "source": {
+    "type": "author-published legacy website note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+    "raw_note": "absolute，绝对。炒 chao。solve 解决即炒炒。"
+  },
+  "batch": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "ordinal": 8,
+    "disposition": "Reviewed",
+    "priority_score": 90.8
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+  "batch_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "created_at": "2026-09-01",
+  "author": "Jinkai Liu",
+  "source_scope": {
+    "site": "https://languagesbook.com/",
+    "glossary": "https://languagesbook.com/glossary-en/",
+    "glossary_total_items": 1548,
+    "glossary_total_pages": 78,
+    "batch_boundary": "English glossary page 1",
+    "source_pages_processed": 20
+  },
+  "purpose": "Import a fixed first-page slice of the legacy website into unified Schema v1.0 records and Semantic Mapper without promoting legacy resemblance claims to etymology.",
+  "editorial_principle": "An entry may be published; a hypothesis must be graded; literature may explore freely; evidence must be evaluated independently.",
+  "scoring": {
+    "scale": "0-100",
+    "formula": "round(0.30*Verifiability + 0.25*SemanticClarity + 0.20*MappingValue + 0.15*LiteraryCognitiveValue + 0.10*Novelty, 1)",
+    "disclaimer": "Editorial triage only; not a scientific measurement."
+  },
+  "quality_gate": {
+    "reviewed": "Standard meaning, part of speech, independently sourced history, four evidence tracks, counterevidence, raw legacy note and Mapper terms are complete.",
+    "published": "Requires a separate publication decision; this import publishes no new entry automatically.",
+    "candidate": "Unified record is complete while the legacy cross-language sound mapping remains exploratory."
+  },
+  "summary": {
+    "source_pages_processed": 20,
+    "new_records": 14,
+    "existing_records_merged": 4,
+    "research_queue": 1,
+    "merged_duplicate_source_pages": 1,
+    "dispositions": {
+      "Candidate": 8,
+      "Reviewed": 6
+    },
+    "published": 0,
+    "historical_corrections": 14,
+    "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+  },
+  "records": [
+    {
+      "candidate_id": "LWB001-01",
+      "source_url": "https://languagesbook.com/glossary/a-bey-ance%ef%bc%8c%e5%ba%9f%ef%bc%9b%e4%b8%ad%e6%ad%a2/",
+      "additional_source_urls": [],
+      "raw_note": "abeyance，暂缓。闭 bi。bey 与閉 bi 同音。",
+      "priority_components": {
+        "verifiability": 94,
+        "semantic_clarity": 92,
+        "mapping_value": 82,
+        "literary_cognitive_value": 74,
+        "novelty": 76
+      },
+      "priority_score": 86.3,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-abeyance-024"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-02",
+      "source_url": "https://languagesbook.com/glossary/a-bound%ef%bc%8c%e6%a3%92%ef%bc%9b%e7%b9%81%e8%8d%a3%e3%80%82/",
+      "additional_source_urls": [],
+      "raw_note": "abound，繁荣。蹦 beng。经济蹦起即繁荣。",
+      "priority_components": {
+        "verifiability": 96,
+        "semantic_clarity": 94,
+        "mapping_value": 88,
+        "literary_cognitive_value": 78,
+        "novelty": 72
+      },
+      "priority_score": 88.8,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-abound-025"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-03",
+      "source_url": "https://languagesbook.com/glossary/a-bridge-%c9%99bri%ca%a4-v-%e5%9b%bdzhuei-zhui%e8%bf%bd%ef%bc%9b%e7%bc%a9%e7%9f%ad%e3%80%82/",
+      "additional_source_urls": [],
+      "raw_note": "abridge，缩短。臂 bi。bridge 与臂同音。",
+      "priority_components": {
+        "verifiability": 97,
+        "semantic_clarity": 96,
+        "mapping_value": 86,
+        "literary_cognitive_value": 72,
+        "novelty": 68
+      },
+      "priority_score": 87.9,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-abridge-026"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-04",
+      "source_url": "https://languagesbook.com/glossary/a-cum-en%ef%bc%8c%e6%95%8f%e9%94%90/",
+      "additional_source_urls": [],
+      "raw_note": "acumen，敏锐。聚 ju。cum- 与聚 ju 同音。",
+      "priority_components": {
+        "verifiability": 97,
+        "semantic_clarity": 97,
+        "mapping_value": 84,
+        "literary_cognitive_value": 70,
+        "novelty": 70
+      },
+      "priority_score": 87.6,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-acumen-027"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-05",
+      "source_url": "https://languagesbook.com/glossary/a-lim-ent%ef%bc%8c%e7%b2%ae%ef%bc%9b%e9%a3%9f%e7%89%a9/",
+      "additional_source_urls": [],
+      "raw_note": "aliment，粮；食物。粮 liang。liment 与粮 liang 音同。",
+      "priority_components": {
+        "verifiability": 95,
+        "semantic_clarity": 96,
+        "mapping_value": 84,
+        "literary_cognitive_value": 76,
+        "novelty": 70
+      },
+      "priority_score": 87.7,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-aliment-028"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-06",
+      "source_url": "https://languagesbook.com/glossary/a%ef%bc%8c%e4%b8%80%e4%b8%aa%e3%80%82%e7%94%b2jia%e3%80%82%e7%b2%a4%e8%af%ad%e4%b8%80%e4%b8%ba%e7%94%b2%e4%b8%8e%e8%8b%b1%e8%aa%9e%e7%b1%bb%e4%bc%bc/",
+      "additional_source_urls": [],
+      "raw_note": "a，一个。甲 jia。粤语一为甲，与英语类似。",
+      "priority_components": {
+        "verifiability": 99,
+        "semantic_clarity": 99,
+        "mapping_value": 92,
+        "literary_cognitive_value": 72,
+        "novelty": 55
+      },
+      "priority_score": 89.2,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-a-article-029"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-07",
+      "source_url": "https://languagesbook.com/glossary/ab-ove%ef%bc%8c%e4%b8%8a%e9%9d%a2/",
+      "additional_source_urls": [],
+      "raw_note": "above，上面。上 over。",
+      "priority_components": {
+        "verifiability": 98,
+        "semantic_clarity": 98,
+        "mapping_value": 94,
+        "literary_cognitive_value": 70,
+        "novelty": 55
+      },
+      "priority_score": 88.7,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-above-030"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-08",
+      "source_url": "https://languagesbook.com/glossary/ab-sol-ute%ef%bc%8c%e7%bb%9d%e5%af%b9/",
+      "additional_source_urls": [],
+      "raw_note": "absolute，绝对。炒 chao。solve 解决即炒炒。",
+      "priority_components": {
+        "verifiability": 98,
+        "semantic_clarity": 98,
+        "mapping_value": 90,
+        "literary_cognitive_value": 78,
+        "novelty": 72
+      },
+      "priority_score": 90.8,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-absolute-031"
+      ],
+      "disposition": "Reviewed",
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-09",
+      "source_url": "https://languagesbook.com/glossary/aback%ef%bc%8c%e8%83%8c%e5%90%8e%e3%80%82%e6%96%87%e6%98%8e%e5%9c%a8%e8%83%8c%e5%90%8e/",
+      "additional_source_urls": [],
+      "raw_note": "aback，背后。背 bei。back 与背 bei 同音。文明在背后。",
+      "priority_components": {
+        "verifiability": 98,
+        "semantic_clarity": 94,
+        "mapping_value": 82,
+        "literary_cognitive_value": 80,
+        "novelty": 70
+      },
+      "priority_score": 88.3,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-aback-032"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-10",
+      "source_url": "https://languagesbook.com/glossary/abandon/",
+      "additional_source_urls": [],
+      "raw_note": "abandon，放弃。甭 beng。ban 与甭同音。",
+      "priority_components": {
+        "verifiability": 97,
+        "semantic_clarity": 98,
+        "mapping_value": 86,
+        "literary_cognitive_value": 82,
+        "novelty": 76
+      },
+      "priority_score": 90.7,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-abandon-033"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-11",
+      "source_url": "https://languagesbook.com/glossary/abash/",
+      "additional_source_urls": [],
+      "raw_note": "abash，惊讶。拍 pai。惊讶。拍下让人惊讶。",
+      "priority_components": {
+        "verifiability": 97,
+        "semantic_clarity": 96,
+        "mapping_value": 84,
+        "literary_cognitive_value": 82,
+        "novelty": 74
+      },
+      "priority_score": 89.6,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-abash-034"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-12",
+      "source_url": "https://languagesbook.com/glossary/abbreviate%ef%bc%8c%e7%ae%80%e7%95%a5%e3%80%82%e7%98%aabie/",
+      "additional_source_urls": [
+        "https://languagesbook.com/glossary/abbreviation/"
+      ],
+      "raw_note": "abbreviate，简略。-brev 与瘪 bie 同音。abbreviation，节略。瘪 bie。",
+      "priority_components": {
+        "verifiability": 99,
+        "semantic_clarity": 98,
+        "mapping_value": 92,
+        "literary_cognitive_value": 78,
+        "novelty": 62
+      },
+      "priority_score": 90.5,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-abbreviate-035"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-13",
+      "source_url": "https://languagesbook.com/glossary/abdicate%ef%bc%8c%e9%80%80%e4%bd%8d/",
+      "additional_source_urls": [],
+      "raw_note": "abdicate，退位。啼 ti。退位即不再啼叫。",
+      "priority_components": {
+        "verifiability": 99,
+        "semantic_clarity": 98,
+        "mapping_value": 88,
+        "literary_cognitive_value": 80,
+        "novelty": 70
+      },
+      "priority_score": 90.8,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-abdicate-036"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    },
+    {
+      "candidate_id": "LWB001-14",
+      "source_url": "https://languagesbook.com/glossary/abhor%ef%bc%8c%e6%86%8e%e6%81%b6/",
+      "additional_source_urls": [],
+      "raw_note": "abhor，憎恶。火 huo。憎恶即对某有火。",
+      "priority_components": {
+        "verifiability": 99,
+        "semantic_clarity": 98,
+        "mapping_value": 88,
+        "literary_cognitive_value": 84,
+        "novelty": 74
+      },
+      "priority_score": 91.8,
+      "processing_status": "complete",
+      "final_record_ids": [
+        "LB-en-abhor-037"
+      ],
+      "disposition": "Candidate",
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "historical_correction": true,
+      "validator_status": "pass (Schema v1.0 + Mapper/search + full repository suite)"
+    }
+  ],
+  "existing_record_merges": [
+    {
+      "candidate_id": "LWB001-X01",
+      "raw_note": "A，爱在，世界就在。遨游蓝色星海。",
+      "source_url": "https://languagesbook.com/glossary/a-5/",
+      "record_id": "LB-en-at-003",
+      "slug": "at",
+      "processing_status": "complete",
+      "disposition": "Existing record / source merged",
+      "duplicate_created": false
+    },
+    {
+      "candidate_id": "LWB001-X02",
+      "raw_note": "abbey，修道院。",
+      "source_url": "https://languagesbook.com/glossary/abbey/",
+      "record_id": "LB-en-abbey-010",
+      "slug": "abbey",
+      "processing_status": "complete",
+      "disposition": "Existing record / source merged",
+      "duplicate_created": false
+    },
+    {
+      "candidate_id": "LWB001-X03",
+      "raw_note": "abdomen，腹部。肚 du。domen 与肚发音同辅音。",
+      "source_url": "https://languagesbook.com/glossary/abdomen/",
+      "record_id": "LB-en-abdomen-012",
+      "slug": "abdomen",
+      "processing_status": "complete",
+      "disposition": "Existing record / source merged",
+      "duplicate_created": false
+    },
+    {
+      "candidate_id": "LWB001-X04",
+      "raw_note": "aberrant，错讹。讹 e。err 与讹同音。",
+      "source_url": "https://languagesbook.com/glossary/aberration-aberasj%c9%99n-n-%e8%8d%92%e8%b0%ac/",
+      "record_id": "LB-en-aberrant-011",
+      "slug": "aberrant",
+      "processing_status": "complete",
+      "disposition": "Existing record / source merged",
+      "duplicate_created": false
+    }
+  ],
+  "research_queue": [
+    {
+      "candidate_id": "LWB001-Q01",
+      "source_url": "https://languagesbook.com/glossary/%e6%9d%91%ef%bc%8c%e5%ad%98/",
+      "raw_note": "cun，存。",
+      "priority_score": 54.5,
+      "processing_status": "deferred",
+      "final_record_ids": [],
+      "disposition": "Research Queue",
+      "reason": "The legacy title does not identify a sufficiently clear English headword and sense for a unified lexical record."
+    }
+  ],
+  "source_reconciliation": {
+    "new_record_source_pages": 15,
+    "new_records": 14,
+    "note": "abbreviate and abbreviation are two legacy pages merged into one unified record",
+    "existing_source_pages": 4,
+    "research_queue_source_pages": 1,
+    "total": 20
+  }
+}

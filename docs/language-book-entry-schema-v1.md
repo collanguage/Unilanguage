@@ -22,7 +22,7 @@ Language Book is a **cross-language comparable semantic database**. It records m
 
 The v0.6 dataset and earlier package records remain in the repository as migration provenance. v1.0 copies each old entry into `legacy` so that no reviewed object is silently discarded.
 
-Current Dataset Expansion release: `1.1.0` (23 records; Schema remains `1.0.0`). Batch 001 adds ten schema-compatible authored records plus a lightweight batch manifest without changing the v1.0 canonical filename or core schema. Releases may add reviewed records and optional schema-compatible fields without conflating publication, mapping, historical evidence or literature. The Namcha Barwa record continues to demonstrate optional named-entity and multilingual literary fields; ordinary lexical records remain valid without them.
+Current Legacy Website Import release: `1.2.0` (37 records; Schema remains `1.0.0`). Legacy Batch 001 adds fourteen schema-compatible records, merges four old-site sources into existing records and defers one unclear item without changing the v1.0 canonical filename or core schema. Releases may add reviewed records and optional schema-compatible fields without conflating publication, mapping, historical evidence or literature. The Namcha Barwa record continues to demonstrate optional named-entity and multilingual literary fields; ordinary lexical records remain valid without them.
 
 ## Entry fields
 

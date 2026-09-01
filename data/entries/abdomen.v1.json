@@ -6,18 +6,68 @@
     "zh-Hans": "Abdomen · 腹部 · 肚子是我们的领地吗？"
   },
   "languages": [
-    { "role": "source", "code": "en", "name": "English", "word": "abdomen", "pronunciation": "/ˈæb.də.mən/" },
-    { "role": "etymological-derivative", "code": "en", "name": "English", "word": "abdominal", "pronunciation": "/æbˈdɒm.ɪ.nəl/ (UK), /æbˈdɑː.mə.nəl/ (US)" },
-    { "role": "historically-related-form", "code": "fr", "name": "French", "word": "abdomen", "pronunciation": "/ab.dɔ.mɛn/" },
-    { "role": "historically-related-derivative", "code": "fr", "name": "French", "word": "abdominal / abdominale", "pronunciation": "/ab.dɔ.mi.nal/" },
-    { "role": "standard-translation", "code": "zh-Hans", "name": "Chinese", "word": "腹部／腹", "pronunciation": "fùbù / fù" },
-    { "role": "target", "code": "zh-Hans", "name": "Chinese", "word": "肚子", "pronunciation": "dùzi /tu˥˩.tsɹ̩/" },
-    { "role": "phonetic-semantic-candidate", "code": "zh-Hans", "name": "Chinese", "word": "肚", "pronunciation": "dù /tu˥˩/" }
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "abdomen",
+      "pronunciation": "/ˈæb.də.mən/"
+    },
+    {
+      "role": "etymological-derivative",
+      "code": "en",
+      "name": "English",
+      "word": "abdominal",
+      "pronunciation": "/æbˈdɒm.ɪ.nəl/ (UK), /æbˈdɑː.mə.nəl/ (US)"
+    },
+    {
+      "role": "historically-related-form",
+      "code": "fr",
+      "name": "French",
+      "word": "abdomen",
+      "pronunciation": "/ab.dɔ.mɛn/"
+    },
+    {
+      "role": "historically-related-derivative",
+      "code": "fr",
+      "name": "French",
+      "word": "abdominal / abdominale",
+      "pronunciation": "/ab.dɔ.mi.nal/"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "腹部／腹",
+      "pronunciation": "fùbù / fù"
+    },
+    {
+      "role": "target",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "肚子",
+      "pronunciation": "dùzi /tu˥˩.tsɹ̩/"
+    },
+    {
+      "role": "phonetic-semantic-candidate",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "肚",
+      "pronunciation": "dù /tu˥˩/"
+    }
   ],
   "primary_mapping": {
     "mapping_id": "MAP-abdomen-primary-duzi",
-    "source": { "language": "English", "word": "abdomen", "pronunciation": "/ˈæb.də.mən/" },
-    "target": { "language": "Chinese", "word": "肚子", "pronunciation": "dùzi /tu˥˩.tsɹ̩/" },
+    "source": {
+      "language": "English",
+      "word": "abdomen",
+      "pronunciation": "/ˈæb.də.mən/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "肚子",
+      "pronunciation": "dùzi /tu˥˩.tsɹ̩/"
+    },
     "gloss": {
       "en": "The part of the body between the thorax and pelvis; belly",
       "zh-Hans": "胸部与骨盆之间的身体部位；腹部、肚子"
@@ -47,34 +97,70 @@
       "items": [
         {
           "evidence_id": "HIST-ABDOMEN-001",
-          "claim": { "en": "English abdomen was borrowed from Middle French and Latin; Latin abdōmen meant the belly or paunch and is of uncertain origin.", "zh-Hans": "英语 abdomen 借自中古法语与拉丁语；拉丁语 abdōmen 指腹部或大肚子，其来源不确定。" },
+          "claim": {
+            "en": "English abdomen was borrowed from Middle French and Latin; Latin abdōmen meant the belly or paunch and is of uncertain origin.",
+            "zh-Hans": "英语 abdomen 借自中古法语与拉丁语；拉丁语 abdōmen 指腹部或大肚子，其来源不确定。"
+          },
           "status": "Established",
           "confidence": "High",
-          "source_refs": ["REF-MW-ABDOMEN"]
+          "source_refs": [
+            "REF-MW-ABDOMEN"
+          ]
         },
         {
           "evidence_id": "HIST-FR-ABDOMEN-002",
-          "claim": { "en": "French abdomen is a learned sixteenth-century borrowing from Latin abdomen; French abdominal is derived from French abdomen with the adjectival suffix -al.", "zh-Hans": "法语 abdomen 是十六世纪从拉丁语 abdomen 借入的学术词；法语 abdominal 由法语 abdomen 加形容词后缀 -al 派生。" },
+          "claim": {
+            "en": "French abdomen is a learned sixteenth-century borrowing from Latin abdomen; French abdominal is derived from French abdomen with the adjectival suffix -al.",
+            "zh-Hans": "法语 abdomen 是十六世纪从拉丁语 abdomen 借入的学术词；法语 abdominal 由法语 abdomen 加形容词后缀 -al 派生。"
+          },
           "status": "Established",
           "confidence": "High",
-          "source_refs": ["REF-CNRTL-ABDOMEN", "REF-CNRTL-ABDOMINAL"]
+          "source_refs": [
+            "REF-CNRTL-ABDOMEN",
+            "REF-CNRTL-ABDOMINAL"
+          ]
         },
         {
           "evidence_id": "HIST-ABDOMEN-DEEP-003",
-          "claim": { "en": "A derivation from Latin abdere ‘hide, conceal’ has been proposed, but major dictionary treatment regards it as doubtful; no deeper decomposition is asserted here.", "zh-Hans": "有人提出它可能与拉丁语 abdere“隐藏”有关，但主要词典认为这一解释可疑；本记录不主张任何更深层构词切分。" },
+          "claim": {
+            "en": "A derivation from Latin abdere ‘hide, conceal’ has been proposed, but major dictionary treatment regards it as doubtful; no deeper decomposition is asserted here.",
+            "zh-Hans": "有人提出它可能与拉丁语 abdere“隐藏”有关，但主要词典认为这一解释可疑；本记录不主张任何更深层构词切分。"
+          },
           "status": "Under review",
           "confidence": "Low",
-          "source_refs": ["REF-MW-ABDOMEN", "REF-AHD-ABDOMEN"]
+          "source_refs": [
+            "REF-MW-ABDOMEN",
+            "REF-AHD-ABDOMEN"
+          ]
         },
         {
           "evidence_id": "HIST-DOM-FAMILIES-004",
-          "claim": { "en": "Domain, domestic, dominant and dominate belong to a house/master family through Latin domus, dominus, dominium and dominari. Architectural dome follows a Greek/late-Latin/Romance building-roof path. These histories do not derive from abdomen or from a belly sense.", "zh-Hans": "domain、domestic、dominant、dominate 经拉丁语 domus、dominus、dominium、dominari 属于“家屋／主人”词族。建筑义 dome 则走希腊语—晚期拉丁语—罗曼语的建筑／屋顶路径。这些词史都不源自 abdomen，也不源自“肚子”义。" },
+          "claim": {
+            "en": "Domain, domestic, dominant and dominate belong to a house/master family through Latin domus, dominus, dominium and dominari. Architectural dome follows a Greek/late-Latin/Romance building-roof path. These histories do not derive from abdomen or from a belly sense.",
+            "zh-Hans": "domain、domestic、dominant、dominate 经拉丁语 domus、dominus、dominium、dominari 属于“家屋／主人”词族。建筑义 dome 则走希腊语—晚期拉丁语—罗曼语的建筑／屋顶路径。这些词史都不源自 abdomen，也不源自“肚子”义。"
+          },
           "status": "Established",
           "confidence": "High",
-          "source_refs": ["REF-MW-DOMAIN", "REF-MW-DOMESTIC", "REF-MW-DOMINANT", "REF-MW-DOMINATE", "REF-CNRTL-DOME"]
+          "source_refs": [
+            "REF-MW-DOMAIN",
+            "REF-MW-DOMESTIC",
+            "REF-MW-DOMINANT",
+            "REF-MW-DOMINATE",
+            "REF-CNRTL-DOME"
+          ]
         }
       ],
-      "source_refs": ["REF-MW-ABDOMEN", "REF-CNRTL-ABDOMEN", "REF-CNRTL-ABDOMINAL", "REF-AHD-ABDOMEN", "REF-MW-DOMAIN", "REF-MW-DOMESTIC", "REF-MW-DOMINANT", "REF-MW-DOMINATE", "REF-CNRTL-DOME"]
+      "source_refs": [
+        "REF-MW-ABDOMEN",
+        "REF-CNRTL-ABDOMEN",
+        "REF-CNRTL-ABDOMINAL",
+        "REF-AHD-ABDOMEN",
+        "REF-MW-DOMAIN",
+        "REF-MW-DOMESTIC",
+        "REF-MW-DOMINANT",
+        "REF-MW-DOMINATE",
+        "REF-CNRTL-DOME"
+      ]
     },
     "Phonetic-Semantic": {
       "status": "Candidate",
@@ -86,13 +172,25 @@
       "items": [
         {
           "evidence_id": "PHONSEM-ABDOMEN-DU-001",
-          "claim": { "en": "The proposed domen/dom ↔ 肚 comparison reduces to a partial coronal-stop resemblance plus a strong semantic intersection; it is not the same consonant skeleton.", "zh-Hans": "所提 domen／dom ↔“肚”的比较可归结为局部冠音塞音近似加明确语义交点；二者并不是相同的辅音骨架。" },
+          "claim": {
+            "en": "The proposed domen/dom ↔ 肚 comparison reduces to a partial coronal-stop resemblance plus a strong semantic intersection; it is not the same consonant skeleton.",
+            "zh-Hans": "所提 domen／dom ↔“肚”的比较可归结为局部冠音塞音近似加明确语义交点；二者并不是相同的辅音骨架。"
+          },
           "status": "Candidate",
           "confidence": "Low",
-          "source_refs": ["REF-CAMBRIDGE-ABDOMEN", "REF-MOE-DUZI", "REF-UT-PINYIN-D"]
+          "source_refs": [
+            "REF-CAMBRIDGE-ABDOMEN",
+            "REF-MOE-DUZI",
+            "REF-UT-PINYIN-D"
+          ]
         }
       ],
-      "source_refs": ["REF-CAMBRIDGE-ABDOMEN", "REF-MOE-DUZI", "REF-UT-PINYIN-D", "REF-JL-ABDOMEN-RAW"]
+      "source_refs": [
+        "REF-CAMBRIDGE-ABDOMEN",
+        "REF-MOE-DUZI",
+        "REF-UT-PINYIN-D",
+        "REF-JL-ABDOMEN-RAW"
+      ]
     },
     "Cognitive": {
       "status": "Interpretive",
@@ -104,20 +202,32 @@
       "items": [
         {
           "evidence_id": "COG-ROUND-CONTAINER-001",
-          "claim": { "en": "A convex belly can be imagined through the shape of a dome and as a bodily container or personal domain.", "zh-Hans": "凸起的肚子可借圆顶形状来想象，也可被想象为身体容器或个人领域。" },
+          "claim": {
+            "en": "A convex belly can be imagined through the shape of a dome and as a bodily container or personal domain.",
+            "zh-Hans": "凸起的肚子可借圆顶形状来想象，也可被想象为身体容器或个人领域。"
+          },
           "status": "Interpretive",
           "confidence": "Low",
-          "source_refs": ["REF-JL-ABDOMEN-RAW"]
+          "source_refs": [
+            "REF-JL-ABDOMEN-RAW"
+          ]
         },
         {
           "evidence_id": "COG-HAND-CONTROL-002",
-          "claim": { "en": "Chinese expressions such as 手下 and the image 翻手为云，覆手为雨 associate hand imagery with subordination or control; this note is cultural-semantic, not etymological.", "zh-Hans": "“手下”以及“翻手为云，覆手为雨”的意象把“手”与从属或支配相联；此处只作文化语义札记，不作词源解释。" },
+          "claim": {
+            "en": "Chinese expressions such as 手下 and the image 翻手为云，覆手为雨 associate hand imagery with subordination or control; this note is cultural-semantic, not etymological.",
+            "zh-Hans": "“手下”以及“翻手为云，覆手为雨”的意象把“手”与从属或支配相联；此处只作文化语义札记，不作词源解释。"
+          },
           "status": "Interpretive",
           "confidence": "Low",
-          "source_refs": ["REF-JL-ABDOMEN-RAW"]
+          "source_refs": [
+            "REF-JL-ABDOMEN-RAW"
+          ]
         }
       ],
-      "source_refs": ["REF-JL-ABDOMEN-RAW"]
+      "source_refs": [
+        "REF-JL-ABDOMEN-RAW"
+      ]
     },
     "Speculative": {
       "status": "Candidate",
@@ -129,74 +239,266 @@
       "items": [
         {
           "evidence_id": "SPEC-AB-DOM-EN-001",
-          "claim": { "en": "Segmenting abdomen as ab.dom.en and treating dom as the productive root is unsupported by the attested Latin form and its uncertain deeper origin.", "zh-Hans": "把 abdomen 切分为 ab.dom.en 并把 dom 当作能产词根，得不到已见拉丁语形式及其不确定深层来源的支持。" },
+          "claim": {
+            "en": "Segmenting abdomen as ab.dom.en and treating dom as the productive root is unsupported by the attested Latin form and its uncertain deeper origin.",
+            "zh-Hans": "把 abdomen 切分为 ab.dom.en 并把 dom 当作能产词根，得不到已见拉丁语形式及其不确定深层来源的支持。"
+          },
           "status": "Rejected",
           "confidence": "High",
-          "source_refs": ["REF-MW-ABDOMEN", "REF-CNRTL-ABDOMEN", "REF-JL-ABDOMEN-RAW"]
+          "source_refs": [
+            "REF-MW-ABDOMEN",
+            "REF-CNRTL-ABDOMEN",
+            "REF-JL-ABDOMEN-RAW"
+          ]
         },
         {
           "evidence_id": "SPEC-DOME-BELLY-CONTROL-002",
-          "claim": { "en": "Dome ‘rounded roof’, belly roundness, domain and control may form a literary-cognitive association, but the chain is not the historical source of the words.", "zh-Hans": "dome“圆顶”、肚子的圆凸、domain 与 control 可构成文学—认知联想，但不是这些词的历史来源链。" },
+          "claim": {
+            "en": "Dome ‘rounded roof’, belly roundness, domain and control may form a literary-cognitive association, but the chain is not the historical source of the words.",
+            "zh-Hans": "dome“圆顶”、肚子的圆凸、domain 与 control 可构成文学—认知联想，但不是这些词的历史来源链。"
+          },
           "status": "Interpretive",
           "confidence": "Low",
-          "source_refs": ["REF-JL-ABDOMEN-RAW", "REF-CNRTL-DOME", "REF-MW-DOMAIN", "REF-MW-DOMINATE"]
+          "source_refs": [
+            "REF-JL-ABDOMEN-RAW",
+            "REF-CNRTL-DOME",
+            "REF-MW-DOMAIN",
+            "REF-MW-DOMINATE"
+          ]
         }
       ],
-      "source_refs": ["REF-JL-ABDOMEN-RAW", "REF-MW-ABDOMEN", "REF-CNRTL-DOME", "REF-MW-DOMAIN", "REF-MW-DOMINATE"]
+      "source_refs": [
+        "REF-JL-ABDOMEN-RAW",
+        "REF-MW-ABDOMEN",
+        "REF-CNRTL-DOME",
+        "REF-MW-DOMAIN",
+        "REF-MW-DOMINATE"
+      ]
     }
   },
   "phonetic_observation": [
     {
       "observation_id": "PHON-ABDOMEN-DU-001",
-      "claim": { "en": "English abdomen /ˈæb.də.mən/ contains /d/ at the onset of its second syllable; Mandarin 肚 dù /tu˥˩/ begins with the pinyin d sound, phonetically an unaspirated [t].", "zh-Hans": "英语 abdomen /ˈæb.də.mən/ 的第二音节以 /d/ 起首；普通话“肚”dù /tu˥˩/ 以拼音 d 所记的不送气 [t] 起首。" },
+      "claim": {
+        "en": "English abdomen /ˈæb.də.mən/ contains /d/ at the onset of its second syllable; Mandarin 肚 dù /tu˥˩/ begins with the pinyin d sound, phonetically an unaspirated [t].",
+        "zh-Hans": "英语 abdomen /ˈæb.də.mən/ 的第二音节以 /d/ 起首；普通话“肚”dù /tu˥˩/ 以拼音 d 所记的不送气 [t] 起首。"
+      },
       "status": "Candidate",
-      "limitations": { "en": "The stops share coronal place but differ in voicing and phonological system. /b m n/ and Mandarin tone are unmatched, so d-m or d-m-n cannot be claimed as a shared consonantal skeleton.", "zh-Hans": "两者塞音同属冠音部位，但清浊及音系不同；/b m n/ 与普通话声调均无对应，因此不能宣称共享 d-m 或 d-m-n 辅音骨架。" }
+      "limitations": {
+        "en": "The stops share coronal place but differ in voicing and phonological system. /b m n/ and Mandarin tone are unmatched, so d-m or d-m-n cannot be claimed as a shared consonantal skeleton.",
+        "zh-Hans": "两者塞音同属冠音部位，但清浊及音系不同；/b m n/ 与普通话声调均无对应，因此不能宣称共享 d-m 或 d-m-n 辅音骨架。"
+      }
     }
   ],
   "semantic_structure": {
-    "concepts": ["BODY", "ABDOMEN", "BELLY", "ROUND", "CONVEX", "CONTAINER", "DOMAIN", "CONTROL", "HAND"],
+    "concepts": [
+      "BODY",
+      "ABDOMEN",
+      "BELLY",
+      "ROUND",
+      "CONVEX",
+      "CONTAINER",
+      "DOMAIN",
+      "CONTROL",
+      "HAND"
+    ],
     "relation": "BODY/ABDOMEN/BELLY; speculative association: ROUND/CONVEX → BODY CONTAINER → DOMAIN → CONTROL; cross-cultural note: HAND → CONTROL",
     "status": "Interpretive"
   },
   "related_words": [
-    { "word": "abdominal", "language": "English", "relationship_type": "Etymological derivative", "family": "Latin abdōmen / stem abdōmin-", "relation_to_entry": { "en": "Direct derivative of abdomen; genuinely part of the same etymological family.", "zh-Hans": "abdomen 的直接派生词；确属同一历史词族。" }, "status": "Established", "source_refs": ["REF-MW-ABDOMINAL"] },
-    { "word": "abdomen / abdominal / abdominale", "language": "French", "relationship_type": "Historical borrowing and derivative", "family": "Latin abdomen / French abdomen", "relation_to_entry": { "en": "French abdomen is a learned Latin borrowing; abdominal/abdominale derives from it.", "zh-Hans": "法语 abdomen 是拉丁学术借词；abdominal／abdominale 由它派生。" }, "status": "Established", "source_refs": ["REF-CNRTL-ABDOMEN", "REF-CNRTL-ABDOMINAL"] },
-    { "word": "dome", "language": "English", "relationship_type": "Speculative semantic association", "family": "Greek dôma → Late Latin/Romance architectural path", "relation_to_entry": { "en": "Associated by rounded shape and spelling only; not derived from abdomen.", "zh-Hans": "仅因圆凸形状与拼写产生联想；并非由 abdomen 派生。" }, "status": "Interpretive", "source_refs": ["REF-CNRTL-DOME"] },
-    { "word": "domain", "language": "English", "relationship_type": "Speculative semantic association", "family": "Latin dominium ← dominus", "relation_to_entry": { "en": "Belongs to the ownership/master family; not to the abdomen family.", "zh-Hans": "属于所有权／主人词族，不属于 abdomen 词族。" }, "status": "Established", "source_refs": ["REF-MW-DOMAIN"] },
-    { "word": "domestic", "language": "English", "relationship_type": "Speculative semantic association", "family": "Latin domesticus ← domus", "relation_to_entry": { "en": "Belongs directly to the house/home family; not to the abdomen family.", "zh-Hans": "直接属于家屋／家庭词族，不属于 abdomen 词族。" }, "status": "Established", "source_refs": ["REF-MW-DOMESTIC"] },
-    { "word": "dominant", "language": "English", "relationship_type": "Speculative semantic association", "family": "Latin dominant- / dominari ← dominus", "relation_to_entry": { "en": "Belongs to the master/rule family; not to the abdomen family.", "zh-Hans": "属于主人／统治词族，不属于 abdomen 词族。" }, "status": "Established", "source_refs": ["REF-MW-DOMINANT"] },
-    { "word": "dominate", "language": "English", "relationship_type": "Speculative semantic association", "family": "Latin dominari ← dominus", "relation_to_entry": { "en": "Belongs to the master/rule family; not to the abdomen family.", "zh-Hans": "属于主人／统治词族，不属于 abdomen 词族。" }, "status": "Established", "source_refs": ["REF-MW-DOMINATE"] }
+    {
+      "word": "abdominal",
+      "language": "English",
+      "relationship_type": "Etymological derivative",
+      "family": "Latin abdōmen / stem abdōmin-",
+      "relation_to_entry": {
+        "en": "Direct derivative of abdomen; genuinely part of the same etymological family.",
+        "zh-Hans": "abdomen 的直接派生词；确属同一历史词族。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ABDOMINAL"
+      ]
+    },
+    {
+      "word": "abdomen / abdominal / abdominale",
+      "language": "French",
+      "relationship_type": "Historical borrowing and derivative",
+      "family": "Latin abdomen / French abdomen",
+      "relation_to_entry": {
+        "en": "French abdomen is a learned Latin borrowing; abdominal/abdominale derives from it.",
+        "zh-Hans": "法语 abdomen 是拉丁学术借词；abdominal／abdominale 由它派生。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-CNRTL-ABDOMEN",
+        "REF-CNRTL-ABDOMINAL"
+      ]
+    },
+    {
+      "word": "dome",
+      "language": "English",
+      "relationship_type": "Speculative semantic association",
+      "family": "Greek dôma → Late Latin/Romance architectural path",
+      "relation_to_entry": {
+        "en": "Associated by rounded shape and spelling only; not derived from abdomen.",
+        "zh-Hans": "仅因圆凸形状与拼写产生联想；并非由 abdomen 派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-CNRTL-DOME"
+      ]
+    },
+    {
+      "word": "domain",
+      "language": "English",
+      "relationship_type": "Speculative semantic association",
+      "family": "Latin dominium ← dominus",
+      "relation_to_entry": {
+        "en": "Belongs to the ownership/master family; not to the abdomen family.",
+        "zh-Hans": "属于所有权／主人词族，不属于 abdomen 词族。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-DOMAIN"
+      ]
+    },
+    {
+      "word": "domestic",
+      "language": "English",
+      "relationship_type": "Speculative semantic association",
+      "family": "Latin domesticus ← domus",
+      "relation_to_entry": {
+        "en": "Belongs directly to the house/home family; not to the abdomen family.",
+        "zh-Hans": "直接属于家屋／家庭词族，不属于 abdomen 词族。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-DOMESTIC"
+      ]
+    },
+    {
+      "word": "dominant",
+      "language": "English",
+      "relationship_type": "Speculative semantic association",
+      "family": "Latin dominant- / dominari ← dominus",
+      "relation_to_entry": {
+        "en": "Belongs to the master/rule family; not to the abdomen family.",
+        "zh-Hans": "属于主人／统治词族，不属于 abdomen 词族。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-DOMINANT"
+      ]
+    },
+    {
+      "word": "dominate",
+      "language": "English",
+      "relationship_type": "Speculative semantic association",
+      "family": "Latin dominari ← dominus",
+      "relation_to_entry": {
+        "en": "Belongs to the master/rule family; not to the abdomen family.",
+        "zh-Hans": "属于主人／统治词族，不属于 abdomen 词族。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-DOMINATE"
+      ]
+    }
   ],
   "semantic_associations": [
-    { "association_id": "ASSOC-ABDOMEN-DOME-001", "relation": "ROUND/CONVEX → BODY CONTAINER", "status": "Interpretive", "is_etymological": false },
-    { "association_id": "ASSOC-BELLY-DOMAIN-002", "relation": "BODY CONTAINER → PERSONAL DOMAIN", "status": "Interpretive", "is_etymological": false },
-    { "association_id": "ASSOC-DOMAIN-CONTROL-003", "relation": "DOMAIN → CONTROL", "status": "Interpretive", "is_etymological": false },
-    { "association_id": "ASSOC-HAND-CONTROL-004", "relation": "HAND → SUBORDINATION/CONTROL", "status": "Interpretive", "is_etymological": false }
+    {
+      "association_id": "ASSOC-ABDOMEN-DOME-001",
+      "relation": "ROUND/CONVEX → BODY CONTAINER",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "ASSOC-BELLY-DOMAIN-002",
+      "relation": "BODY CONTAINER → PERSONAL DOMAIN",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "ASSOC-DOMAIN-CONTROL-003",
+      "relation": "DOMAIN → CONTROL",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "ASSOC-HAND-CONTROL-004",
+      "relation": "HAND → SUBORDINATION/CONTROL",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
   ],
   "hypotheses": [
     {
       "hypothesis_id": "UNI-ABDOMEN-DU-001",
       "type": "Phonetic-semantic candidate",
-      "claim": { "en": "abdomen and 肚 dù may support a limited modern-form association through a coronal stop and the shared BODY/ABDOMEN/BELLY field.", "zh-Hans": "abdomen 与“肚”dù 可能通过冠音塞音及共享的 BODY／ABDOMEN／BELLY 语义场形成有限的现代词形联想。" },
+      "claim": {
+        "en": "abdomen and 肚 dù may support a limited modern-form association through a coronal stop and the shared BODY/ABDOMEN/BELLY field.",
+        "zh-Hans": "abdomen 与“肚”dù 可能通过冠音塞音及共享的 BODY／ABDOMEN／BELLY 语义场形成有限的现代词形联想。"
+      },
       "status": "Candidate",
       "confidence": "Low",
-      "supporting_cases": ["abdomen /ˈæb.də.mən/", "肚 dù /tu˥˩/", "BODY/ABDOMEN/BELLY"],
-      "counterexamples": ["English /d/ vs Mandarin unaspirated [t]", "Unmatched /b m n/", "Unmatched Mandarin tone", "No historical correspondence"],
-      "testability": { "en": "Test sound similarity and semantic fit separately with blinded ratings, unrelated body-part controls and matched non-body words.", "zh-Hans": "用盲法评分分别检验声音相似与语义适配，并设置无关身体部位词和匹配的非身体词作为对照。" },
+      "supporting_cases": [
+        "abdomen /ˈæb.də.mən/",
+        "肚 dù /tu˥˩/",
+        "BODY/ABDOMEN/BELLY"
+      ],
+      "counterexamples": [
+        "English /d/ vs Mandarin unaspirated [t]",
+        "Unmatched /b m n/",
+        "Unmatched Mandarin tone",
+        "No historical correspondence"
+      ],
+      "testability": {
+        "en": "Test sound similarity and semantic fit separately with blinded ratings, unrelated body-part controls and matched non-body words.",
+        "zh-Hans": "用盲法评分分别检验声音相似与语义适配，并设置无关身体部位词和匹配的非身体词作为对照。"
+      },
       "experiment_link": null,
-      "source_refs": ["REF-CAMBRIDGE-ABDOMEN", "REF-MOE-DUZI", "REF-UT-PINYIN-D", "REF-JL-ABDOMEN-RAW"]
+      "source_refs": [
+        "REF-CAMBRIDGE-ABDOMEN",
+        "REF-MOE-DUZI",
+        "REF-UT-PINYIN-D",
+        "REF-JL-ABDOMEN-RAW"
+      ]
     },
     {
       "hypothesis_id": "UNI-ABDOMEN-DOME-DOMAIN-002",
       "type": "Cognitive / speculative association",
-      "claim": { "en": "ROUND/CONVEX → BODY CONTAINER → DOMAIN → CONTROL may function as a literary-cognitive chain even though it is not a historical word-family derivation.", "zh-Hans": "ROUND／CONVEX → BODY CONTAINER → DOMAIN → CONTROL 可作为文学—认知链发挥作用，即使它不是历史词族派生链。" },
+      "claim": {
+        "en": "ROUND/CONVEX → BODY CONTAINER → DOMAIN → CONTROL may function as a literary-cognitive chain even though it is not a historical word-family derivation.",
+        "zh-Hans": "ROUND／CONVEX → BODY CONTAINER → DOMAIN → CONTROL 可作为文学—认知链发挥作用，即使它不是历史词族派生链。"
+      },
       "status": "Interpretive",
       "confidence": "Low",
-      "supporting_cases": ["rounded belly", "dome shape", "domain as controlled sphere", "author's literary question"],
-      "counterexamples": ["abdomen is not built from dome", "domain/domestic/dominant/dominate have independently documented histories", "shape metaphor is author-supplied"],
-      "testability": { "en": "Evaluate as a metaphor-elicitation or literary-reception pattern, not as etymology.", "zh-Hans": "应作为隐喻诱发或文学接受模式评价，而不是词源假说。" },
+      "supporting_cases": [
+        "rounded belly",
+        "dome shape",
+        "domain as controlled sphere",
+        "author's literary question"
+      ],
+      "counterexamples": [
+        "abdomen is not built from dome",
+        "domain/domestic/dominant/dominate have independently documented histories",
+        "shape metaphor is author-supplied"
+      ],
+      "testability": {
+        "en": "Evaluate as a metaphor-elicitation or literary-reception pattern, not as etymology.",
+        "zh-Hans": "应作为隐喻诱发或文学接受模式评价，而不是词源假说。"
+      },
       "experiment_link": null,
-      "source_refs": ["REF-JL-ABDOMEN-RAW", "REF-MW-ABDOMEN", "REF-CNRTL-DOME", "REF-MW-DOMAIN", "REF-MW-DOMESTIC", "REF-MW-DOMINANT", "REF-MW-DOMINATE"]
+      "source_refs": [
+        "REF-JL-ABDOMEN-RAW",
+        "REF-MW-ABDOMEN",
+        "REF-CNRTL-DOME",
+        "REF-MW-DOMAIN",
+        "REF-MW-DOMESTIC",
+        "REF-MW-DOMINANT",
+        "REF-MW-DOMINATE"
+      ]
     }
   ],
   "experiments": [],
@@ -210,7 +512,10 @@
     "essay_prose": [
       {
         "work_id": "LB-ABDOMEN-PROSE-001",
-        "title": { "en": "Is the Belly Our Domain?", "zh-Hans": "肚子是我们的领地吗？" },
+        "title": {
+          "en": "Is the Belly Our Domain?",
+          "zh-Hans": "肚子是我们的领地吗？"
+        },
         "text": {
           "en": "Is the belly our domain? When we were children, what did the dudou over our bellies look like? We seem to have forgotten to wonder. A child's face is bright with freshness. Girls, when nature gave you the moon's gentle radiance, it did not forget to let you walk with the moon. Boys, when nature gave you sunlit faces, it did not forget to let you rise and fall with the sun.",
           "zh-Hans": "肚子是我们的领地吗？当我们都是孩提时代，那在腹部上面的肚兜是啥模样？似乎都忘记想了。孩提时代的脸庞是水灵灵的。那女孩子们，大自然在给你们柔媚如月般的皎洁的时候，不忘记让你随着那月行走。那男孩子们，大自然在给你们阳光的面庞的时候，也没有忘记给你们随那太阳起落。"
@@ -219,7 +524,12 @@
       }
     ],
     "poem_lyrics": [],
-    "translations": [{ "language": "English", "status": "Lightly edited from the author's raw draft" }],
+    "translations": [
+      {
+        "language": "English",
+        "status": "Lightly edited from the author's raw draft"
+      }
+    ],
     "archival_manuscript_media": [],
     "evidence_boundary": {
       "en": "The domain question, dudou, childhood, moon and sun are literary images. They remain searchable and attributable to Jinkai Liu but are not lexical, historical or phonetic evidence.",
@@ -228,30 +538,192 @@
   },
   "media": [],
   "references": [
-    { "reference_id": "REF-JL-ABDOMEN-RAW", "title": "Jinkai Liu: abdomen source/raw research note", "type": "author research note", "url": null, "path": null, "provenance": "author-provided in conversation; raw English draft preserved below; claims independently classified" },
-    { "reference_id": "REF-MW-ABDOMEN", "title": "Merriam-Webster Dictionary: abdomen", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/abdomen", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
-    { "reference_id": "REF-MW-ABDOMINAL", "title": "Merriam-Webster Dictionary: abdominal", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/abdominal", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
-    { "reference_id": "REF-AHD-ABDOMEN", "title": "American Heritage Dictionary: abdomen", "type": "dictionary", "url": "https://www.ahdictionary.com/word/search.html?q=abdomen", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
-    { "reference_id": "REF-CAMBRIDGE-ABDOMEN", "title": "Cambridge Dictionary: abdomen pronunciation and definition", "type": "dictionary", "url": "https://dictionary.cambridge.org/pronunciation/english/abdomen", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
-    { "reference_id": "REF-CNRTL-ABDOMEN", "title": "CNRTL/TLFi: étymologie de abdomen", "type": "historical dictionary", "url": "https://www.cnrtl.fr/etymologie/abdomen", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" },
-    { "reference_id": "REF-CNRTL-ABDOMINAL", "title": "CNRTL/TLFi: abdominal", "type": "historical dictionary", "url": "https://www.cnrtl.fr/definition/abdominal", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" },
-    { "reference_id": "REF-LAROUSSE-ABDOMEN", "title": "Larousse: abdomen", "type": "dictionary", "url": "https://www.larousse.fr/dictionnaires/francais/abdomen/81", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
-    { "reference_id": "REF-MOE-DUZI", "title": "Taiwan Ministry of Education Concised Mandarin Dictionary: 肚子", "type": "official dictionary", "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9339", "path": null, "provenance": "official language reference; accessed 2026-08-30" },
-    { "reference_id": "REF-UT-PINYIN-D", "title": "University of Texas at Austin: Pitch Perfect Pinyin, d/t", "type": "university phonetics resource", "url": "https://laits.utexas.edu/ppp/learning.php?unit=2", "path": null, "provenance": "university teaching resource; accessed 2026-08-30" },
-    { "reference_id": "REF-CNRTL-DOME", "title": "CNRTL/TLFi: étymologie de dôme", "type": "historical dictionary", "url": "https://www.cnrtl.fr/etymologie/d%C3%B4me//1", "path": null, "provenance": "external lexicographic reference; accessed 2026-08-30" },
-    { "reference_id": "REF-MW-DOMAIN", "title": "Merriam-Webster Dictionary: domain", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/domain", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
-    { "reference_id": "REF-MW-DOMESTIC", "title": "Merriam-Webster Dictionary: domestic", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/domestic", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
-    { "reference_id": "REF-MW-DOMINANT", "title": "Merriam-Webster Dictionary: dominant", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/dominant", "path": null, "provenance": "external dictionary; accessed 2026-08-30" },
-    { "reference_id": "REF-MW-DOMINATE", "title": "Merriam-Webster Dictionary: dominate", "type": "dictionary", "url": "https://www.merriam-webster.com/dictionary/dominate", "path": null, "provenance": "external dictionary; accessed 2026-08-30" }
+    {
+      "reference_id": "REF-JL-ABDOMEN-RAW",
+      "title": "Jinkai Liu: abdomen source/raw research note",
+      "type": "author research note",
+      "url": null,
+      "path": null,
+      "provenance": "author-provided in conversation; raw English draft preserved below; claims independently classified"
+    },
+    {
+      "reference_id": "REF-MW-ABDOMEN",
+      "title": "Merriam-Webster Dictionary: abdomen",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/abdomen",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-MW-ABDOMINAL",
+      "title": "Merriam-Webster Dictionary: abdominal",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/abdominal",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-AHD-ABDOMEN",
+      "title": "American Heritage Dictionary: abdomen",
+      "type": "dictionary",
+      "url": "https://www.ahdictionary.com/word/search.html?q=abdomen",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-CAMBRIDGE-ABDOMEN",
+      "title": "Cambridge Dictionary: abdomen pronunciation and definition",
+      "type": "dictionary",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/abdomen",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-CNRTL-ABDOMEN",
+      "title": "CNRTL/TLFi: étymologie de abdomen",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/abdomen",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-CNRTL-ABDOMINAL",
+      "title": "CNRTL/TLFi: abdominal",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/definition/abdominal",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-LAROUSSE-ABDOMEN",
+      "title": "Larousse: abdomen",
+      "type": "dictionary",
+      "url": "https://www.larousse.fr/dictionnaires/francais/abdomen/81",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-MOE-DUZI",
+      "title": "Taiwan Ministry of Education Concised Mandarin Dictionary: 肚子",
+      "type": "official dictionary",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9339",
+      "path": null,
+      "provenance": "official language reference; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-UT-PINYIN-D",
+      "title": "University of Texas at Austin: Pitch Perfect Pinyin, d/t",
+      "type": "university phonetics resource",
+      "url": "https://laits.utexas.edu/ppp/learning.php?unit=2",
+      "path": null,
+      "provenance": "university teaching resource; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-CNRTL-DOME",
+      "title": "CNRTL/TLFi: étymologie de dôme",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/d%C3%B4me//1",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-MW-DOMAIN",
+      "title": "Merriam-Webster Dictionary: domain",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/domain",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-MW-DOMESTIC",
+      "title": "Merriam-Webster Dictionary: domestic",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/domestic",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-MW-DOMINANT",
+      "title": "Merriam-Webster Dictionary: dominant",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/dominant",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-MW-DOMINATE",
+      "title": "Merriam-Webster Dictionary: dominate",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/dominate",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-08-30"
+    },
+    {
+      "reference_id": "REF-LANGUAGESBOOK-ABDOMEN",
+      "title": "languagesbook.com legacy entry: abdomen",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/abdomen/",
+      "path": null,
+      "provenance": "author-published legacy website; source merged without overwriting the independently reviewed record"
+    }
   ],
   "author": "Jinkai Liu",
   "version": "Dataset Expansion v1 sample / Schema v1.0",
-  "dates": { "created": "2026-08-30", "modified": "2026-08-30", "published": null },
+  "dates": {
+    "created": "2026-08-30",
+    "modified": "2026-09-01",
+    "published": null
+  },
   "editorial_notes": [
-    { "en": "Standard translation and the experimental cross-language mapping are explicitly distinct: 腹部/腹 is formal, 肚子 is everyday, and isolated 肚 dù is the phonetic-semantic candidate.", "zh-Hans": "标准翻译与实验性跨语言 mapping 明确分开：“腹部／腹”为正式译法，“肚子”为日常对应，单字“肚”dù 才是语音—语义候选。" },
-    { "en": "The apparent dom spelling is not used to collapse abdomen, dome and the domus/dominus family into one root.", "zh-Hans": "不因表面共有 dom 拼写，就把 abdomen、dome 与 domus／dominus 词族合并为一个词根。" }
+    {
+      "en": "Standard translation and the experimental cross-language mapping are explicitly distinct: 腹部/腹 is formal, 肚子 is everyday, and isolated 肚 dù is the phonetic-semantic candidate.",
+      "zh-Hans": "标准翻译与实验性跨语言 mapping 明确分开：“腹部／腹”为正式译法，“肚子”为日常对应，单字“肚”dù 才是语音—语义候选。"
+    },
+    {
+      "en": "The apparent dom spelling is not used to collapse abdomen, dome and the domus/dominus family into one root.",
+      "zh-Hans": "不因表面共有 dom 拼写，就把 abdomen、dome 与 domus／dominus 词族合并为一个词根。"
+    }
   ],
-  "search_terms": ["abdomen", "abdomens", "abdominal", "abdominale", "abdɔmɛn", "belly", "ventre", "腹", "腹部", "肚", "肚子", "du", "dù", "dùzi", "dome", "domain", "domestic", "dominant", "dominate", "domus", "dominus", "round", "convex", "body container", "control", "hand", "手", "手下", "翻手为云覆手为雨", "肚兜", "BODY", "ABDOMEN", "BELLY", "ROUND", "CONVEX", "CONTAINER", "DOMAIN", "CONTROL"],
+  "search_terms": [
+    "abdomen",
+    "abdomens",
+    "abdominal",
+    "abdominale",
+    "abdɔmɛn",
+    "belly",
+    "ventre",
+    "腹",
+    "腹部",
+    "肚",
+    "肚子",
+    "du",
+    "dù",
+    "dùzi",
+    "dome",
+    "domain",
+    "domestic",
+    "dominant",
+    "dominate",
+    "domus",
+    "dominus",
+    "round",
+    "convex",
+    "body container",
+    "control",
+    "hand",
+    "手",
+    "手下",
+    "翻手为云覆手为雨",
+    "肚兜",
+    "BODY",
+    "ABDOMEN",
+    "BELLY",
+    "ROUND",
+    "CONVEX",
+    "CONTAINER",
+    "DOMAIN",
+    "CONTROL"
+  ],
   "page": null,
   "legacy": null,
   "source": {
@@ -260,5 +732,11 @@
     "status": "Preserved; claims independently classified above",
     "normalization": "Pronunciations and parts of speech normalized; standard Chinese translations distinguished from the experimental 肚 mapping; raw English retained verbatim.",
     "raw_note": "英语：abdomen ['æbdəmən] n. 腹 [<拉丁语]；ab.dom.en；abdominal [æb'dɔminəl] a. 腹；ab.dom.inal；domain n. 领地；dome n. 圆顶，肚子就是圆形的；domestic a. 领域内的；dominant a. 主导的；dominate v. 支配。法语：ab.dom.en [abdomen] n. 腹 [<拉丁语]；ab.domin.al,e [abdominal] n. 腹 [<拉丁语]；abdominal (masculine)，abdominale (feminine)。汉语：肚【du】n. 肚子。备注：以上这些词汇大概都是由 dome 圆顶的根词演化而来的。也可以与肚 du 子的意思对应得上。主导等等词汇我们一般用手的词汇构成，例如手下，翻手为云覆手为雨。也许英语法语词汇用与肚子有关的词汇表达统治主导的意思。中文原文：肚子是我们的领地吗？当我们都是孩提时代，那在腹部上面的肚兜是啥模样？似乎都忘记想了。孩提时代的脸庞是水灵灵的。那女孩子们，大自然在给你们柔媚如月般的皎洁的时候。不忘记让你随着那月行走。那男孩子们，大自然在给你们阳光的面庞的时候，也没有忘记给你们随那太阳起落。用户英文原稿：Is the belly our domain? When we were children, what did the bellyband look like? I seem to have forgotten it. The face of a child is watery. Girls, when nature gave you the softness of the moon, it did not forget to let you walk with the moon. Boys, when nature gave you the sunny face, it also did not forget to let you rise and fall with the sun."
+  },
+  "legacy_import": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/abdomen/",
+    "action": "merged-source-deduplicated",
+    "raw_note": "abdomen，腹部。肚 du。domen 与肚发音同辅音。"
   }
 }

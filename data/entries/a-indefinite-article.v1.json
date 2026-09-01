@@ -1,0 +1,366 @@
+{
+  "id": "LB-en-a-article-029",
+  "slug": "a-indefinite-article",
+  "title": {
+    "en": "a · Legacy Website Import",
+    "zh-Hans": "a · 旧站导入"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "a",
+      "pronunciation": "not recorded",
+      "part_of_speech": "indefinite article · 不定冠词"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "一个／一",
+      "pronunciation": "yí ge / yī"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-a-indefinite-article-primary",
+    "source": {
+      "language": "English",
+      "word": "a",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "一个／一",
+      "pronunciation": "yí ge / yī"
+    },
+    "gloss": {
+      "en": "the indefinite article used before a nonspecific singular count noun",
+      "zh-Hans": "用于非特指单数可数名词前的不定冠词"
+    },
+    "meaning": {
+      "en": "the indefinite article used before a nonspecific singular count noun. The standard mapping is independent from the legacy sound hypothesis.",
+      "zh-Hans": "用于非特指单数可数名词前的不定冠词。标准词义 Mapping 与旧站声音假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Reviewed",
+  "mapping_level": "Unrated",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "English a is the reduced form of an, historically from Old English ān ‘one’. This Germanic history does not establish a relation to Chinese 甲 or Cantonese forms.",
+        "zh-Hans": "英语 a 是 an 的弱化形式，历史上来自古英语 ān“一”；该日耳曼词史不建立它与汉字“甲”或粤语形式的关系。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-A-INDEFINITE-ARTICLE-001",
+          "claim": {
+            "en": "English a is the reduced form of an, historically from Old English ān ‘one’. This Germanic history does not establish a relation to Chinese 甲 or Cantonese forms.",
+            "zh-Hans": "英语 a 是 an 的弱化形式，历史上来自古英语 ān“一”；该日耳曼词史不建立它与汉字“甲”或粤语形式的关系。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-A"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-A"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "A comparison with 甲 gaa3 or a Cantonese numeral/classifier requires exact dialect forms and regular correspondences; the legacy note alone is insufficient.",
+        "zh-Hans": "与粤语“甲”gaa3 或数词／量词比较，需要精确方言形式与规律对应；旧注本身证据不足。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-A-INDEFINITE-ARTICLE-001",
+          "claim": {
+            "en": "A comparison with 甲 gaa3 or a Cantonese numeral/classifier requires exact dialect forms and regular correspondences; the legacy note alone is insufficient.",
+            "zh-Hans": "与粤语“甲”gaa3 或数词／量词比较，需要精确方言形式与规律对应；旧注本身证据不足。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+            "REF-MW-A"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+        "REF-MW-A"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "ONE → AN INDEFINITE SINGLE MEMBER explains the grammatical development from numeral to article.",
+        "zh-Hans": "ONE → 一个非特指单体，解释了数词向冠词的语法发展。"
+      },
+      "items": [
+        {
+          "evidence_id": "COG-A-INDEFINITE-ARTICLE-001",
+          "claim": {
+            "en": "ONE → AN INDEFINITE SINGLE MEMBER explains the grammatical development from numeral to article.",
+            "zh-Hans": "ONE → 一个非特指单体，解释了数词向冠词的语法发展。"
+          },
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE"
+      ]
+    },
+    "Speculative": {
+      "status": "Unestablished",
+      "confidence": "High",
+      "summary": {
+        "en": "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+        "zh-Hans": "本词法记录与已发表的文学记录 AT／在／爱分开；查询 a 指向此条，at 保持不变。"
+      },
+      "items": [
+        {
+          "evidence_id": "SPEC-A-INDEFINITE-ARTICLE-001",
+          "claim": {
+            "en": "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+            "zh-Hans": "本词法记录与已发表的文学记录 AT／在／爱分开；查询 a 指向此条，at 保持不变。"
+          },
+          "status": "Unestablished",
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+            "REF-MW-A"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+        "REF-MW-A"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-A-INDEFINITE-ARTICLE-001",
+      "claim": {
+        "en": "A comparison with 甲 gaa3 or a Cantonese numeral/classifier requires exact dialect forms and regular correspondences; the legacy note alone is insufficient.",
+        "zh-Hans": "与粤语“甲”gaa3 或数词／量词比较，需要精确方言形式与规律对应；旧注本身证据不足。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "A",
+      "AN",
+      "INDEFINITE ARTICLE",
+      "ARTICLE"
+    ],
+    "relation": "a → an → indefinite article → article",
+    "status": "Interpretive"
+  },
+  "related_words": [
+    {
+      "word": "an",
+      "language": "English",
+      "relationship_type": "historical allomorph",
+      "family": "Old English ān",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-A"
+      ]
+    },
+    {
+      "word": "one",
+      "language": "English",
+      "relationship_type": "historical family",
+      "family": "Old English ān",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-A"
+      ]
+    },
+    {
+      "word": "甲 gaa3",
+      "language": "Cantonese/Chinese",
+      "relationship_type": "author comparison requiring research",
+      "family": "independent Sinitic history",
+      "relation_to_entry": {
+        "en": "Author comparison or semantic association only; not historical derivation.",
+        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+      },
+      "status": "Interpretive",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+        "REF-MW-A"
+      ]
+    }
+  ],
+  "semantic_associations": [
+    {
+      "association_id": "ASSOC-A-INDEFINITE-ARTICLE-001",
+      "relation": "ONE → AN INDEFINITE SINGLE MEMBER explains the grammatical development from numeral to article.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LEGACY-A-INDEFINITE-ARTICLE-001",
+      "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+      "claim": {
+        "en": "Jinkai Liu’s original note is preserved verbatim: “a，一个。甲 jia。粤语一为甲，与英语类似。”",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“a，一个。甲 jia。粤语一为甲，与英语类似。”"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "a",
+        "一个／一"
+      ],
+      "counterexamples": [
+        "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+        "No regular cross-language sound correspondence has been demonstrated."
+      ],
+      "testability": {
+        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+        "REF-MW-A"
+      ]
+    }
+  ],
+  "counterevidence": [
+    {
+      "counterevidence_id": "COUNTER-A-INDEFINITE-ARTICLE-001",
+      "statement": {
+        "en": "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+        "zh-Hans": "本词法记录与已发表的文学记录 AT／在／爱分开；查询 a 指向此条，at 保持不变。"
+      },
+      "confidence": "High",
+      "source_refs": [
+        "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+        "REF-MW-A"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Preserved from legacy note",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "ONE → AN INDEFINITE SINGLE MEMBER explains the grammatical development from numeral to article.",
+      "zh-Hans": "ONE → 一个非特指单体，解释了数词向冠词的语法发展。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+      "title": "languagesbook.com legacy entry: a，甲 jia。粤语一为甲与英语类似",
+      "type": "legacy author publication",
+      "url": "https://languagesbook.com/glossary/a%ef%bc%8c%e4%b8%80%e4%b8%aa%e3%80%82%e7%94%b2jia%e3%80%82%e7%b2%a4%e8%af%ad%e4%b8%80%e4%b8%ba%e7%94%b2%e4%b8%8e%e8%8b%b1%e8%aa%9e%e7%b1%bb%e4%bc%bc/",
+      "path": null,
+      "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+    },
+    {
+      "reference_id": "REF-MW-A",
+      "title": "Merriam-Webster Dictionary: a",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/a",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-01"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-01",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Legacy Batch 001 disposition: Reviewed; priority 89.2/100 is editorial triage only.",
+      "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 89.2/100 仅用于编辑分流。"
+    },
+    {
+      "en": "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+      "zh-Hans": "本词法记录与已发表的文学记录 AT／在／爱分开；查询 a 指向此条，at 保持不变。"
+    }
+  ],
+  "search_terms": [
+    "a",
+    "an",
+    "indefinite article",
+    "article",
+    "一个",
+    "一",
+    "不定冠词",
+    "甲",
+    "one"
+  ],
+  "page": null,
+  "legacy": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "source_url": "https://languagesbook.com/glossary/a%ef%bc%8c%e4%b8%80%e4%b8%aa%e3%80%82%e7%94%b2jia%e3%80%82%e7%b2%a4%e8%af%ad%e4%b8%80%e4%b8%ba%e7%94%b2%e4%b8%8e%e8%8b%b1%e8%aa%9e%e7%b1%bb%e4%bc%bc/",
+    "additional_source_urls": [],
+    "source_page": 1,
+    "source_site": "languagesbook.com"
+  },
+  "source": {
+    "type": "author-published legacy website note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+    "raw_note": "a，一个。甲 jia。粤语一为甲，与英语类似。"
+  },
+  "batch": {
+    "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+    "ordinal": 6,
+    "disposition": "Reviewed",
+    "priority_score": 89.2
+  }
+}

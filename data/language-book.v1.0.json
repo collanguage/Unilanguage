@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.1.0",
+  "dataset_version": "1.2.0",
   "published_at": "2026-08-31",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -3854,6 +3854,14 @@
           "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/index.php",
           "path": null,
           "provenance": "external reference"
+        },
+        {
+          "reference_id": "REF-LANGUAGESBOOK-AT",
+          "title": "languagesbook.com legacy entry: A，爱在，世界就在",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-5/",
+          "path": null,
+          "provenance": "author-published legacy website; source merged without overwriting the published literary record"
         }
       ],
       "author": "Jinkai Liu",
@@ -3888,7 +3896,1466 @@
         "a beautiful yearning in space"
       ],
       "page": "words/at.html",
-      "legacy": null
+      "legacy": null,
+      "legacy_import": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/a-5/",
+        "action": "merged-source-deduplicated",
+        "raw_note": "A，爱在，世界就在。遨游蓝色星海。"
+      }
+    },
+    {
+      "id": "LB-en-a-article-029",
+      "slug": "a-indefinite-article",
+      "title": {
+        "en": "a · Legacy Website Import",
+        "zh-Hans": "a · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "a",
+          "pronunciation": "not recorded",
+          "part_of_speech": "indefinite article · 不定冠词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "一个／一",
+          "pronunciation": "yí ge / yī"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-a-indefinite-article-primary",
+        "source": {
+          "language": "English",
+          "word": "a",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "一个／一",
+          "pronunciation": "yí ge / yī"
+        },
+        "gloss": {
+          "en": "the indefinite article used before a nonspecific singular count noun",
+          "zh-Hans": "用于非特指单数可数名词前的不定冠词"
+        },
+        "meaning": {
+          "en": "the indefinite article used before a nonspecific singular count noun. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "用于非特指单数可数名词前的不定冠词。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "mapping_level": "Unrated",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "English a is the reduced form of an, historically from Old English ān ‘one’. This Germanic history does not establish a relation to Chinese 甲 or Cantonese forms.",
+            "zh-Hans": "英语 a 是 an 的弱化形式，历史上来自古英语 ān“一”；该日耳曼词史不建立它与汉字“甲”或粤语形式的关系。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-A-INDEFINITE-ARTICLE-001",
+              "claim": {
+                "en": "English a is the reduced form of an, historically from Old English ān ‘one’. This Germanic history does not establish a relation to Chinese 甲 or Cantonese forms.",
+                "zh-Hans": "英语 a 是 an 的弱化形式，历史上来自古英语 ān“一”；该日耳曼词史不建立它与汉字“甲”或粤语形式的关系。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-A"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-A"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "A comparison with 甲 gaa3 or a Cantonese numeral/classifier requires exact dialect forms and regular correspondences; the legacy note alone is insufficient.",
+            "zh-Hans": "与粤语“甲”gaa3 或数词／量词比较，需要精确方言形式与规律对应；旧注本身证据不足。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-A-INDEFINITE-ARTICLE-001",
+              "claim": {
+                "en": "A comparison with 甲 gaa3 or a Cantonese numeral/classifier requires exact dialect forms and regular correspondences; the legacy note alone is insufficient.",
+                "zh-Hans": "与粤语“甲”gaa3 或数词／量词比较，需要精确方言形式与规律对应；旧注本身证据不足。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+                "REF-MW-A"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+            "REF-MW-A"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "ONE → AN INDEFINITE SINGLE MEMBER explains the grammatical development from numeral to article.",
+            "zh-Hans": "ONE → 一个非特指单体，解释了数词向冠词的语法发展。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-A-INDEFINITE-ARTICLE-001",
+              "claim": {
+                "en": "ONE → AN INDEFINITE SINGLE MEMBER explains the grammatical development from numeral to article.",
+                "zh-Hans": "ONE → 一个非特指单体，解释了数词向冠词的语法发展。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+            "zh-Hans": "本词法记录与已发表的文学记录 AT／在／爱分开；查询 a 指向此条，at 保持不变。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-A-INDEFINITE-ARTICLE-001",
+              "claim": {
+                "en": "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+                "zh-Hans": "本词法记录与已发表的文学记录 AT／在／爱分开；查询 a 指向此条，at 保持不变。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+                "REF-MW-A"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+            "REF-MW-A"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-A-INDEFINITE-ARTICLE-001",
+          "claim": {
+            "en": "A comparison with 甲 gaa3 or a Cantonese numeral/classifier requires exact dialect forms and regular correspondences; the legacy note alone is insufficient.",
+            "zh-Hans": "与粤语“甲”gaa3 或数词／量词比较，需要精确方言形式与规律对应；旧注本身证据不足。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "A",
+          "AN",
+          "INDEFINITE ARTICLE",
+          "ARTICLE"
+        ],
+        "relation": "a → an → indefinite article → article",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "an",
+          "language": "English",
+          "relationship_type": "historical allomorph",
+          "family": "Old English ān",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-A"
+          ]
+        },
+        {
+          "word": "one",
+          "language": "English",
+          "relationship_type": "historical family",
+          "family": "Old English ān",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-A"
+          ]
+        },
+        {
+          "word": "甲 gaa3",
+          "language": "Cantonese/Chinese",
+          "relationship_type": "author comparison requiring research",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+            "REF-MW-A"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-A-INDEFINITE-ARTICLE-001",
+          "relation": "ONE → AN INDEFINITE SINGLE MEMBER explains the grammatical development from numeral to article.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-A-INDEFINITE-ARTICLE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “a，一个。甲 jia。粤语一为甲，与英语类似。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“a，一个。甲 jia。粤语一为甲，与英语类似。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "a",
+            "一个／一"
+          ],
+          "counterexamples": [
+            "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+            "REF-MW-A"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-A-INDEFINITE-ARTICLE-001",
+          "statement": {
+            "en": "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+            "zh-Hans": "本词法记录与已发表的文学记录 AT／在／爱分开；查询 a 指向此条，at 保持不变。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+            "REF-MW-A"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "ONE → AN INDEFINITE SINGLE MEMBER explains the grammatical development from numeral to article.",
+          "zh-Hans": "ONE → 一个非特指单体，解释了数词向冠词的语法发展。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-A-INDEFINITE-ARTICLE",
+          "title": "languagesbook.com legacy entry: a，甲 jia。粤语一为甲与英语类似",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a%ef%bc%8c%e4%b8%80%e4%b8%aa%e3%80%82%e7%94%b2jia%e3%80%82%e7%b2%a4%e8%af%ad%e4%b8%80%e4%b8%ba%e7%94%b2%e4%b8%8e%e8%8b%b1%e8%aa%9e%e7%b1%bb%e4%bc%bc/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-A",
+          "title": "Merriam-Webster Dictionary: a",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/a",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 89.2/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 89.2/100 仅用于编辑分流。"
+        },
+        {
+          "en": "This lexical record is distinct from the published literary AT/在/爱 record; query ‘a’ routes here while ‘at’ remains unchanged.",
+          "zh-Hans": "本词法记录与已发表的文学记录 AT／在／爱分开；查询 a 指向此条，at 保持不变。"
+        }
+      ],
+      "search_terms": [
+        "a",
+        "an",
+        "indefinite article",
+        "article",
+        "一个",
+        "一",
+        "不定冠词",
+        "甲",
+        "one"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/a%ef%bc%8c%e4%b8%80%e4%b8%aa%e3%80%82%e7%94%b2jia%e3%80%82%e7%b2%a4%e8%af%ad%e4%b8%80%e4%b8%ba%e7%94%b2%e4%b8%8e%e8%8b%b1%e8%aa%9e%e7%b1%bb%e4%bc%bc/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "a，一个。甲 jia。粤语一为甲，与英语类似。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 6,
+        "disposition": "Reviewed",
+        "priority_score": 89.2
+      }
+    },
+    {
+      "id": "LB-en-aback-032",
+      "slug": "aback",
+      "title": {
+        "en": "aback · Legacy Website Import",
+        "zh-Hans": "aback · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "aback",
+          "pronunciation": "not recorded",
+          "part_of_speech": "adverb · 副词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "向后／吃惊地",
+          "pronunciation": "xiànghòu / chījīng de"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-aback-primary",
+        "source": {
+          "language": "English",
+          "word": "aback",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "向后／吃惊地",
+          "pronunciation": "xiànghòu / chījīng de"
+        },
+        "gloss": {
+          "en": "backward; chiefly in the phrase taken aback, suddenly surprised",
+          "zh-Hans": "向后；现主要见于 taken aback，表示突然吃惊"
+        },
+        "meaning": {
+          "en": "backward; chiefly in the phrase taken aback, suddenly surprised. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "向后；现主要见于 taken aback，表示突然吃惊。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Aback continues Middle English abak and Old English on bæc ‘on/at the back’. Its relation to English back is genuine.",
+            "zh-Hans": "aback 延续中古英语 abak 与古英语 on bæc“在背后／向后”；它与英语 back 的关系真实。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABACK-001",
+              "claim": {
+                "en": "Aback continues Middle English abak and Old English on bæc ‘on/at the back’. Its relation to English back is genuine.",
+                "zh-Hans": "aback 延续中古英语 abak 与古英语 on bæc“在背后／向后”；它与英语 back 的关系真实。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABACK"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABACK"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "English back and Mandarin 背 bèi share a broad initial consonant and back-related meanings, but no historical link or regular sound law is established.",
+            "zh-Hans": "英语 back 与普通话“背”bèi 有宽泛起始辅音与后背义交集，但无已证历史联系或规律音变。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABACK-001",
+              "claim": {
+                "en": "English back and Mandarin 背 bèi share a broad initial consonant and back-related meanings, but no historical link or regular sound law is established.",
+                "zh-Hans": "英语 back 与普通话“背”bèi 有宽泛起始辅音与后背义交集，但无已证历史联系或规律音变。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABACK",
+                "REF-MW-ABACK"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK",
+            "REF-MW-ABACK"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
+            "zh-Hans": "向后 → 退缩 → 吃惊，有助理解现代习语 taken aback；“文明在背后”属于文学表达。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABACK-001",
+              "claim": {
+                "en": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
+                "zh-Hans": "向后 → 退缩 → 吃惊，有助理解现代习语 taken aback；“文明在背后”属于文学表达。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABACK"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+            "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABACK-001",
+              "claim": {
+                "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+                "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABACK",
+                "REF-MW-ABACK"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK",
+            "REF-MW-ABACK"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABACK-001",
+          "claim": {
+            "en": "English back and Mandarin 背 bèi share a broad initial consonant and back-related meanings, but no historical link or regular sound law is established.",
+            "zh-Hans": "英语 back 与普通话“背”bèi 有宽泛起始辅音与后背义交集，但无已证历史联系或规律音变。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABACK",
+          "TAKEN ABACK",
+          "BACK",
+          "向后"
+        ],
+        "relation": "aback → taken aback → back → 向后",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "back",
+          "language": "English",
+          "relationship_type": "historical source family",
+          "family": "Old English bæc",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABACK"
+          ]
+        },
+        {
+          "word": "背 bèi",
+          "language": "Chinese",
+          "relationship_type": "phonetic-semantic candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK",
+            "REF-MW-ABACK"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABACK-001",
+          "relation": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABACK-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “aback，背后。背 bei。back 与背 bei 同音。文明在背后。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“aback，背后。背 bei。back 与背 bei 同音。文明在背后。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "aback",
+            "向后／吃惊地"
+          ],
+          "counterexamples": [
+            "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK",
+            "REF-MW-ABACK"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABACK-001",
+          "statement": {
+            "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+            "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK",
+            "REF-MW-ABACK"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
+          "zh-Hans": "向后 → 退缩 → 吃惊，有助理解现代习语 taken aback；“文明在背后”属于文学表达。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABACK",
+          "title": "languagesbook.com legacy entry: aback，背。背 bei。back 与背 bei 同音",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/aback%ef%bc%8c%e8%83%8c%e5%90%8e%e3%80%82%e6%96%87%e6%98%8e%e5%9c%a8%e8%83%8c%e5%90%8e/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABACK",
+          "title": "Merriam-Webster Dictionary: aback",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/aback",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 88.3/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 88.3/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+          "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+        }
+      ],
+      "search_terms": [
+        "aback",
+        "taken aback",
+        "back",
+        "向后",
+        "吃惊",
+        "背",
+        "背后",
+        "背 bei",
+        "surprised"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/aback%ef%bc%8c%e8%83%8c%e5%90%8e%e3%80%82%e6%96%87%e6%98%8e%e5%9c%a8%e8%83%8c%e5%90%8e/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "aback，背后。背 bei。back 与背 bei 同音。文明在背后。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 9,
+        "disposition": "Candidate",
+        "priority_score": 88.3
+      }
+    },
+    {
+      "id": "LB-en-abandon-033",
+      "slug": "abandon",
+      "title": {
+        "en": "abandon · Legacy Website Import",
+        "zh-Hans": "abandon · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abandon",
+          "pronunciation": "not recorded",
+          "part_of_speech": "verb/noun · 动词／名词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "放弃／遗弃",
+          "pronunciation": "fàngqì / yíqì"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abandon-primary",
+        "source": {
+          "language": "English",
+          "word": "abandon",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "放弃／遗弃",
+          "pronunciation": "fàngqì / yíqì"
+        },
+        "gloss": {
+          "en": "to give up, leave completely or cease supporting",
+          "zh-Hans": "放弃、完全离开或停止支持"
+        },
+        "meaning": {
+          "en": "to give up, leave completely or cease supporting. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "放弃、完全离开或停止支持。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Abandon comes through Anglo-French abanduner from abandun and the phrase a bandun ‘in one’s power/at one’s disposal’. It is not historically ban + donner.",
+            "zh-Hans": "abandon 经盎格鲁法语 abanduner 来自 abandun 及短语 a bandun“受某人支配／任其处置”；历史上不是 ban + donner。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABANDON-001",
+              "claim": {
+                "en": "Abandon comes through Anglo-French abanduner from abandun and the phrase a bandun ‘in one’s power/at one’s disposal’. It is not historically ban + donner.",
+                "zh-Hans": "abandon 经盎格鲁法语 abanduner 来自 abandun 及短语 a bandun“受某人支配／任其处置”；历史上不是 ban + donner。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABANDON"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABANDON"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The segment ban and 甭 béng have a loose modern resemblance; their meanings and histories differ.",
+            "zh-Hans": "片段 ban 与“甭”béng 有松散现代音近，但意义和词史不同。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABANDON-001",
+              "claim": {
+                "en": "The segment ban and 甭 béng have a loose modern resemblance; their meanings and histories differ.",
+                "zh-Hans": "片段 ban 与“甭”béng 有松散现代音近，但意义和词史不同。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABANDON",
+                "REF-MW-ABANDON"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-MW-ABANDON"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
+            "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABANDON-001",
+              "claim": {
+                "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
+                "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABANDON"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABANDON"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "Modern English ban and French donner should not be retrofitted as the components of abandon.",
+            "zh-Hans": "不能用现代英语 ban 与法语 donner 反向拼装 abandon 的词史。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABANDON-001",
+              "claim": {
+                "en": "Modern English ban and French donner should not be retrofitted as the components of abandon.",
+                "zh-Hans": "不能用现代英语 ban 与法语 donner 反向拼装 abandon 的词史。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABANDON",
+                "REF-MW-ABANDON"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-MW-ABANDON"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABANDON-001",
+          "claim": {
+            "en": "The segment ban and 甭 béng have a loose modern resemblance; their meanings and histories differ.",
+            "zh-Hans": "片段 ban 与“甭”béng 有松散现代音近，但意义和词史不同。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABANDON",
+          "ABANDONMENT",
+          "放弃",
+          "遗弃"
+        ],
+        "relation": "abandon → abandonment → 放弃 → 遗弃",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abandonment",
+          "language": "English",
+          "relationship_type": "derivative",
+          "family": "abandon family",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABANDON"
+          ]
+        },
+        {
+          "word": "ban",
+          "language": "English",
+          "relationship_type": "false segmentation",
+          "family": "separate history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-MW-ABANDON"
+          ]
+        },
+        {
+          "word": "甭 béng",
+          "language": "Chinese",
+          "relationship_type": "phonetic-semantic mnemonic",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-MW-ABANDON"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABANDON-001",
+          "relation": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABANDON-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “abandon，放弃。甭 beng。ban 与甭同音。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abandon，放弃。甭 beng。ban 与甭同音。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abandon",
+            "放弃／遗弃"
+          ],
+          "counterexamples": [
+            "Modern English ban and French donner should not be retrofitted as the components of abandon.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-MW-ABANDON"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABANDON-001",
+          "statement": {
+            "en": "Modern English ban and French donner should not be retrofitted as the components of abandon.",
+            "zh-Hans": "不能用现代英语 ban 与法语 donner 反向拼装 abandon 的词史。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-MW-ABANDON"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
+          "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABANDON",
+          "title": "languagesbook.com legacy entry: abandon，放弃。甭 beng。ban 与甭同音",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abandon/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABANDON",
+          "title": "Merriam-Webster Dictionary: abandon",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abandon",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 90.7/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 90.7/100 仅用于编辑分流。"
+        },
+        {
+          "en": "Modern English ban and French donner should not be retrofitted as the components of abandon.",
+          "zh-Hans": "不能用现代英语 ban 与法语 donner 反向拼装 abandon 的词史。"
+        }
+      ],
+      "search_terms": [
+        "abandon",
+        "abandonment",
+        "放弃",
+        "遗弃",
+        "甭",
+        "beng",
+        "ban",
+        "give up",
+        "leave"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/abandon/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "abandon，放弃。甭 beng。ban 与甭同音。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 10,
+        "disposition": "Candidate",
+        "priority_score": 90.7
+      }
+    },
+    {
+      "id": "LB-en-abash-034",
+      "slug": "abash",
+      "title": {
+        "en": "abash · Legacy Website Import",
+        "zh-Hans": "abash · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abash",
+          "pronunciation": "not recorded",
+          "part_of_speech": "verb · 动词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "使窘迫／使局促",
+          "pronunciation": "shǐ jiǒngpò / shǐ júcù"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abash-primary",
+        "source": {
+          "language": "English",
+          "word": "abash",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "使窘迫／使局促",
+          "pronunciation": "shǐ jiǒngpò / shǐ júcù"
+        },
+        "gloss": {
+          "en": "to destroy the self-possession or confidence of; embarrass or disconcert",
+          "zh-Hans": "使失去镇定或自信；使窘迫、局促"
+        },
+        "meaning": {
+          "en": "to destroy the self-possession or confidence of; embarrass or disconcert. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "使失去镇定或自信；使窘迫、局促。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Abash comes through Middle English and Anglo-French forms meaning ‘gape, be amazed’. It is not historically a + bash or derived from 拍.",
+            "zh-Hans": "abash 经中古英语与盎格鲁法语形式而来，早期含“张口、惊愕”；历史上不是 a + bash，也不源自“拍”。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABASH-001",
+              "claim": {
+                "en": "Abash comes through Middle English and Anglo-French forms meaning ‘gape, be amazed’. It is not historically a + bash or derived from 拍.",
+                "zh-Hans": "abash 经中古英语与盎格鲁法语形式而来，早期含“张口、惊愕”；历史上不是 a + bash，也不源自“拍”。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABASH"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABASH"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Bash and 拍 pāi differ substantially in sound; the photograph scenario is an authored narrative association.",
+            "zh-Hans": "bash 与“拍”pāi 的读音差异明显；拍照场景是作者叙事联想。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABASH-001",
+              "claim": {
+                "en": "Bash and 拍 pāi differ substantially in sound; the photograph scenario is an authored narrative association.",
+                "zh-Hans": "bash 与“拍”pāi 的读音差异明显；拍照场景是作者叙事联想。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABASH",
+                "REF-MW-ABASH"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABASH",
+            "REF-MW-ABASH"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "A sudden photograph might embarrass or disconcert someone, which better matches modern abash than simple surprise.",
+            "zh-Hans": "突然拍照可能使人窘迫或局促，这比单纯“惊讶”更接近现代 abash。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABASH-001",
+              "claim": {
+                "en": "A sudden photograph might embarrass or disconcert someone, which better matches modern abash than simple surprise.",
+                "zh-Hans": "突然拍照可能使人窘迫或局促，这比单纯“惊讶”更接近现代 abash。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABASH"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABASH"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
+            "zh-Hans": "旧站汉译已校正：现代 abash 主要是使窘迫／局促，不只是惊讶。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABASH-001",
+              "claim": {
+                "en": "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
+                "zh-Hans": "旧站汉译已校正：现代 abash 主要是使窘迫／局促，不只是惊讶。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABASH",
+                "REF-MW-ABASH"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABASH",
+            "REF-MW-ABASH"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABASH-001",
+          "claim": {
+            "en": "Bash and 拍 pāi differ substantially in sound; the photograph scenario is an authored narrative association.",
+            "zh-Hans": "bash 与“拍”pāi 的读音差异明显；拍照场景是作者叙事联想。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABASH",
+          "ABASHED",
+          "EMBARRASS",
+          "DISCONCERT"
+        ],
+        "relation": "abash → abashed → embarrass → disconcert",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abashed",
+          "language": "English",
+          "relationship_type": "derivative",
+          "family": "abash family",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABASH"
+          ]
+        },
+        {
+          "word": "bash",
+          "language": "English",
+          "relationship_type": "false segmentation",
+          "family": "separate history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABASH",
+            "REF-MW-ABASH"
+          ]
+        },
+        {
+          "word": "拍 pāi",
+          "language": "Chinese",
+          "relationship_type": "narrative mnemonic",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABASH",
+            "REF-MW-ABASH"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABASH-001",
+          "relation": "A sudden photograph might embarrass or disconcert someone, which better matches modern abash than simple surprise.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABASH-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “abash，惊讶。拍 pai。惊讶。拍下让人惊讶。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abash，惊讶。拍 pai。惊讶。拍下让人惊讶。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abash",
+            "使窘迫／使局促"
+          ],
+          "counterexamples": [
+            "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABASH",
+            "REF-MW-ABASH"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABASH-001",
+          "statement": {
+            "en": "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
+            "zh-Hans": "旧站汉译已校正：现代 abash 主要是使窘迫／局促，不只是惊讶。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABASH",
+            "REF-MW-ABASH"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "A sudden photograph might embarrass or disconcert someone, which better matches modern abash than simple surprise.",
+          "zh-Hans": "突然拍照可能使人窘迫或局促，这比单纯“惊讶”更接近现代 abash。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABASH",
+          "title": "languagesbook.com legacy entry: abash，惊讶。拍 pai。拍下让人惊讶",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abash/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABASH",
+          "title": "Merriam-Webster Dictionary: abash",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abash",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 89.6/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 89.6/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
+          "zh-Hans": "旧站汉译已校正：现代 abash 主要是使窘迫／局促，不只是惊讶。"
+        }
+      ],
+      "search_terms": [
+        "abash",
+        "abashed",
+        "embarrass",
+        "disconcert",
+        "窘迫",
+        "局促",
+        "羞愧",
+        "拍",
+        "pai",
+        "惊讶"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/abash/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "abash，惊讶。拍 pai。惊讶。拍下让人惊讶。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 11,
+        "disposition": "Candidate",
+        "priority_score": 89.6
+      }
     },
     {
       "id": "LB-en-abbey-010",
@@ -4358,13 +5825,21 @@
           "url": "https://www.cnrtl.fr/etymologie/abbesse",
           "path": null,
           "provenance": "external lexicographic reference; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABBEY",
+          "title": "languagesbook.com legacy entry: abbey",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abbey/",
+          "path": null,
+          "provenance": "author-published legacy website; source merged without overwriting the independently reviewed record"
         }
       ],
       "author": "Jinkai Liu",
       "version": "Dataset Expansion v1 sample / Schema v1.0",
       "dates": {
         "created": "2026-08-30",
-        "modified": "2026-08-30",
+        "modified": "2026-09-01",
         "published": null
       },
       "editorial_notes": [
@@ -4415,6 +5890,778 @@
         "status": "Preserved; claims independently classified above",
         "normalization": "French spelling normalized to abbaye/abbé/abbesse and HTML entities decoded; the research ideas are not overwritten.",
         "raw_note": "英语：abbey ['æbi] n. 修道院。法语：abbaye n. 修道院；abbé n. 修道院院长；abbesse n. 女修道院院长。汉语候选：比 bi；笔 bi；以及文学候选‘蓓 bei／蓓蕾’。解释：这个词应该从犹太教的阿比而来。而比或许是用笔 bi 的意思。或者解释成蓓 bei、蓓蕾；这里用一个蓓蕾的蓓字对应，因为修道院是人的灵魂的修持，而生长出绚丽的玫瑰的蓓蕾的圣所。"
+      },
+      "legacy_import": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/abbey/",
+        "action": "merged-source-deduplicated",
+        "raw_note": "abbey，修道院。"
+      }
+    },
+    {
+      "id": "LB-en-abbreviate-035",
+      "slug": "abbreviate",
+      "title": {
+        "en": "abbreviate · Legacy Website Import",
+        "zh-Hans": "abbreviate · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abbreviate",
+          "pronunciation": "not recorded",
+          "part_of_speech": "verb · 动词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "缩写／简略",
+          "pronunciation": "suōxiě / jiǎnlüè"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abbreviate-primary",
+        "source": {
+          "language": "English",
+          "word": "abbreviate",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "缩写／简略",
+          "pronunciation": "suōxiě / jiǎnlüè"
+        },
+        "gloss": {
+          "en": "to shorten a word, phrase or text; to represent by a shorter form",
+          "zh-Hans": "缩短词、短语或文本；用较短形式表示"
+        },
+        "meaning": {
+          "en": "to shorten a word, phrase or text; to represent by a shorter form. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "缩短词、短语或文本；用较短形式表示。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Abbreviate comes from Late Latin abbreviare ‘make shorter’, from Latin brevis ‘short’. Abbreviation is its genuine derivative, and abridge is a historical relative.",
+            "zh-Hans": "abbreviate 来自晚期拉丁语 abbreviare“使变短”，基于 brevis“短”；abbreviation 是真实派生词，abridge 是历史相关词。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABBREVIATE-001",
+              "claim": {
+                "en": "Abbreviate comes from Late Latin abbreviare ‘make shorter’, from Latin brevis ‘short’. Abbreviation is its genuine derivative, and abridge is a historical relative.",
+                "zh-Hans": "abbreviate 来自晚期拉丁语 abbreviare“使变短”，基于 brevis“短”；abbreviation 是真实派生词，abridge 是历史相关词。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABBREVIATE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABBREVIATE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The brev segment and 瘪 biě have limited modern resemblance; no cross-language history is established.",
+            "zh-Hans": "brev 片段与“瘪”biě 有有限现代音近；未建立跨语言词史。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABBREVIATE-001",
+              "claim": {
+                "en": "The brev segment and 瘪 biě have limited modern resemblance; no cross-language history is established.",
+                "zh-Hans": "brev 片段与“瘪”biě 有有限现代音近；未建立跨语言词史。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABBREVIATE",
+                "REF-MW-ABBREVIATE",
+                "REF-LANGUAGESBOOK-ABBREVIATION"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+            "zh-Hans": "缩短 → 压缩 → “变瘪”，使“瘪”可作生动记忆联想。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABBREVIATE-001",
+              "claim": {
+                "en": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+                "zh-Hans": "缩短 → 压缩 → “变瘪”，使“瘪”可作生动记忆联想。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABBREVIATE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+            "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABBREVIATE-001",
+              "claim": {
+                "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+                "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABBREVIATE",
+                "REF-MW-ABBREVIATE",
+                "REF-LANGUAGESBOOK-ABBREVIATION"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABBREVIATE-001",
+          "claim": {
+            "en": "The brev segment and 瘪 biě have limited modern resemblance; no cross-language history is established.",
+            "zh-Hans": "brev 片段与“瘪”biě 有有限现代音近；未建立跨语言词史。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABBREVIATE",
+          "ABBREVIATION",
+          "ABBREV",
+          "BRIEF"
+        ],
+        "relation": "abbreviate → abbreviation → abbrev → brief",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abbreviation",
+          "language": "English",
+          "relationship_type": "derivative",
+          "family": "Latin abbreviare",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABBREVIATE"
+          ]
+        },
+        {
+          "word": "abridge",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin abbreviare/brevis",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABBREVIATE"
+          ]
+        },
+        {
+          "word": "brief/brevity",
+          "language": "English",
+          "relationship_type": "historical relatives",
+          "family": "Latin brevis",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABBREVIATE"
+          ]
+        },
+        {
+          "word": "瘪 biě",
+          "language": "Chinese",
+          "relationship_type": "phonetic-cognitive mnemonic",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABBREVIATE-001",
+          "relation": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABBREVIATE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “abbreviate，简略。-brev 与瘪 bie 同音。abbreviation，节略。瘪 bie。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abbreviate，简略。-brev 与瘪 bie 同音。abbreviation，节略。瘪 bie。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abbreviate",
+            "缩写／简略"
+          ],
+          "counterexamples": [
+            "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABBREVIATE-001",
+          "statement": {
+            "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+            "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+          "zh-Hans": "缩短 → 压缩 → “变瘪”，使“瘪”可作生动记忆联想。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABBREVIATE",
+          "title": "languagesbook.com legacy entry: abbreviate / abbreviation，简略／节略。瘪 bie",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abbreviate%ef%bc%8c%e7%ae%80%e7%95%a5%e3%80%82%e7%98%aabie/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABBREVIATE",
+          "title": "Merriam-Webster Dictionary: abbreviate",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abbreviate",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABBREVIATION",
+          "title": "languagesbook.com legacy entry: abbreviation，节略。瘪 bie",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abbreviation/",
+          "path": null,
+          "provenance": "author-published legacy website; merged into abbreviate record during import 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 90.5/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 90.5/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+          "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+        }
+      ],
+      "search_terms": [
+        "abbreviate",
+        "abbreviation",
+        "abbrev",
+        "brief",
+        "brevity",
+        "abridge",
+        "缩写",
+        "简略",
+        "节略",
+        "瘪",
+        "bie",
+        "shorten"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/abbreviate%ef%bc%8c%e7%ae%80%e7%95%a5%e3%80%82%e7%98%aabie/",
+        "additional_source_urls": [
+          "https://languagesbook.com/glossary/abbreviation/"
+        ],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "abbreviate，简略。-brev 与瘪 bie 同音。abbreviation，节略。瘪 bie。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 12,
+        "disposition": "Candidate",
+        "priority_score": 90.5
+      }
+    },
+    {
+      "id": "LB-en-abdicate-036",
+      "slug": "abdicate",
+      "title": {
+        "en": "abdicate · Legacy Website Import",
+        "zh-Hans": "abdicate · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abdicate",
+          "pronunciation": "not recorded",
+          "part_of_speech": "verb · 动词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "退位／放弃职责",
+          "pronunciation": "tuìwèi / fàngqì zhízé"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abdicate-primary",
+        "source": {
+          "language": "English",
+          "word": "abdicate",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "退位／放弃职责",
+          "pronunciation": "tuìwèi / fàngqì zhízé"
+        },
+        "gloss": {
+          "en": "to formally give up sovereign power, office or a serious responsibility",
+          "zh-Hans": "正式放弃君权、职位或重大职责"
+        },
+        "meaning": {
+          "en": "to formally give up sovereign power, office or a serious responsibility. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "正式放弃君权、职位或重大职责。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Abdicate is from Latin abdicare ‘resign, renounce, withdraw’, with ab- ‘away’ and a form related to dicere ‘speak, state’. It is not built from a Chinese sound.",
+            "zh-Hans": "abdicate 来自拉丁语 abdicare“辞去、放弃、退出”，含 ab-“离开”及与 dicere“说、陈述”相关的形式；并非由汉语声音构成。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABDICATE-001",
+              "claim": {
+                "en": "Abdicate is from Latin abdicare ‘resign, renounce, withdraw’, with ab- ‘away’ and a form related to dicere ‘speak, state’. It is not built from a Chinese sound.",
+                "zh-Hans": "abdicate 来自拉丁语 abdicare“辞去、放弃、退出”，含 ab-“离开”及与 dicere“说、陈述”相关的形式；并非由汉语声音构成。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABDICATE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABDICATE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The final -dicate and 啼 tí overlap only in a small sound fragment and do not establish morphology or cognacy.",
+            "zh-Hans": "词尾 -dicate 与“啼”tí 仅有很小声音片段重合，不能建立构词或同源关系。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABDICATE-001",
+              "claim": {
+                "en": "The final -dicate and 啼 tí overlap only in a small sound fragment and do not establish morphology or cognacy.",
+                "zh-Hans": "词尾 -dicate 与“啼”tí 仅有很小声音片段重合，不能建立构词或同源关系。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABDICATE",
+                "REF-MW-ABDICATE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE",
+            "REF-MW-ABDICATE"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "A ruler no longer making proclamations after renouncing office is a literary image that loosely echoes the historical SAY/DECLARE root.",
+            "zh-Hans": "统治者退位后不再发号施令，是一种文学意象，并可松散呼应历史上的 SAY／DECLARE 词根。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABDICATE-001",
+              "claim": {
+                "en": "A ruler no longer making proclamations after renouncing office is a literary image that loosely echoes the historical SAY/DECLARE root.",
+                "zh-Hans": "统治者退位后不再发号施令，是一种文学意象，并可松散呼应历史上的 SAY／DECLARE 词根。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABDICATE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+            "zh-Hans": "旧站“不再啼叫”的解释属于文学；拉丁语放弃／宣布词史则有独立依据。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABDICATE-001",
+              "claim": {
+                "en": "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+                "zh-Hans": "旧站“不再啼叫”的解释属于文学；拉丁语放弃／宣布词史则有独立依据。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABDICATE",
+                "REF-MW-ABDICATE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE",
+            "REF-MW-ABDICATE"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABDICATE-001",
+          "claim": {
+            "en": "The final -dicate and 啼 tí overlap only in a small sound fragment and do not establish morphology or cognacy.",
+            "zh-Hans": "词尾 -dicate 与“啼”tí 仅有很小声音片段重合，不能建立构词或同源关系。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABDICATE",
+          "ABDICATION",
+          "退位",
+          "让位"
+        ],
+        "relation": "abdicate → abdication → 退位 → 让位",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abdication",
+          "language": "English",
+          "relationship_type": "derivative",
+          "family": "Latin abdicare",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABDICATE"
+          ]
+        },
+        {
+          "word": "dictate/diction",
+          "language": "English",
+          "relationship_type": "deeper historical relatives",
+          "family": "Latin dicere/dicare",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABDICATE"
+          ]
+        },
+        {
+          "word": "啼 tí",
+          "language": "Chinese",
+          "relationship_type": "literary phonetic candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE",
+            "REF-MW-ABDICATE"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABDICATE-001",
+          "relation": "A ruler no longer making proclamations after renouncing office is a literary image that loosely echoes the historical SAY/DECLARE root.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABDICATE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “abdicate，退位。啼 ti。退位即不再啼叫。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abdicate，退位。啼 ti。退位即不再啼叫。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abdicate",
+            "退位／放弃职责"
+          ],
+          "counterexamples": [
+            "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE",
+            "REF-MW-ABDICATE"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABDICATE-001",
+          "statement": {
+            "en": "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+            "zh-Hans": "旧站“不再啼叫”的解释属于文学；拉丁语放弃／宣布词史则有独立依据。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABDICATE",
+            "REF-MW-ABDICATE"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "A ruler no longer making proclamations after renouncing office is a literary image that loosely echoes the historical SAY/DECLARE root.",
+          "zh-Hans": "统治者退位后不再发号施令，是一种文学意象，并可松散呼应历史上的 SAY／DECLARE 词根。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABDICATE",
+          "title": "languagesbook.com legacy entry: abdicate，退位。啼 ti。退位即不再啼叫",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abdicate%ef%bc%8c%e9%80%80%e4%bd%8d/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABDICATE",
+          "title": "Merriam-Webster Dictionary: abdicate",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abdicate",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 90.8/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 90.8/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The legacy ‘no longer cry’ explanation is literature, while the Latin renounce/declare history is independently established.",
+          "zh-Hans": "旧站“不再啼叫”的解释属于文学；拉丁语放弃／宣布词史则有独立依据。"
+        }
+      ],
+      "search_terms": [
+        "abdicate",
+        "abdication",
+        "退位",
+        "让位",
+        "放弃职责",
+        "啼",
+        "ti",
+        "renounce",
+        "resign"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/abdicate%ef%bc%8c%e9%80%80%e4%bd%8d/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "abdicate，退位。啼 ti。退位即不再啼叫。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 13,
+        "disposition": "Candidate",
+        "priority_score": 90.8
       }
     },
     {
@@ -5076,13 +7323,21 @@
           "url": "https://www.merriam-webster.com/dictionary/dominate",
           "path": null,
           "provenance": "external dictionary; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABDOMEN",
+          "title": "languagesbook.com legacy entry: abdomen",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abdomen/",
+          "path": null,
+          "provenance": "author-published legacy website; source merged without overwriting the independently reviewed record"
         }
       ],
       "author": "Jinkai Liu",
       "version": "Dataset Expansion v1 sample / Schema v1.0",
       "dates": {
         "created": "2026-08-30",
-        "modified": "2026-08-30",
+        "modified": "2026-09-01",
         "published": null
       },
       "editorial_notes": [
@@ -5143,6 +7398,12 @@
         "status": "Preserved; claims independently classified above",
         "normalization": "Pronunciations and parts of speech normalized; standard Chinese translations distinguished from the experimental 肚 mapping; raw English retained verbatim.",
         "raw_note": "英语：abdomen ['æbdəmən] n. 腹 [<拉丁语]；ab.dom.en；abdominal [æb'dɔminəl] a. 腹；ab.dom.inal；domain n. 领地；dome n. 圆顶，肚子就是圆形的；domestic a. 领域内的；dominant a. 主导的；dominate v. 支配。法语：ab.dom.en [abdomen] n. 腹 [<拉丁语]；ab.domin.al,e [abdominal] n. 腹 [<拉丁语]；abdominal (masculine)，abdominale (feminine)。汉语：肚【du】n. 肚子。备注：以上这些词汇大概都是由 dome 圆顶的根词演化而来的。也可以与肚 du 子的意思对应得上。主导等等词汇我们一般用手的词汇构成，例如手下，翻手为云覆手为雨。也许英语法语词汇用与肚子有关的词汇表达统治主导的意思。中文原文：肚子是我们的领地吗？当我们都是孩提时代，那在腹部上面的肚兜是啥模样？似乎都忘记想了。孩提时代的脸庞是水灵灵的。那女孩子们，大自然在给你们柔媚如月般的皎洁的时候。不忘记让你随着那月行走。那男孩子们，大自然在给你们阳光的面庞的时候，也没有忘记给你们随那太阳起落。用户英文原稿：Is the belly our domain? When we were children, what did the bellyband look like? I seem to have forgotten it. The face of a child is watery. Girls, when nature gave you the softness of the moon, it did not forget to let you walk with the moon. Boys, when nature gave you the sunny face, it also did not forget to let you rise and fall with the sun."
+      },
+      "legacy_import": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/abdomen/",
+        "action": "merged-source-deduplicated",
+        "raw_note": "abdomen，腹部。肚 du。domen 与肚发音同辅音。"
       }
     },
     {
@@ -5555,13 +7816,21 @@
           "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39395&la=0&powerMode=0",
           "path": null,
           "provenance": "Ministry of Education dictionary; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABERRANT",
+          "title": "languagesbook.com legacy entry: aberrant",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/aberration-aberasj%c9%99n-n-%e8%8d%92%e8%b0%ac/",
+          "path": null,
+          "provenance": "author-published legacy website; source merged without overwriting the independently reviewed record"
         }
       ],
       "author": "Jinkai Liu",
       "version": "Dataset Expansion v1 / Schema v1.0",
       "dates": {
         "created": "2026-08-30",
-        "modified": "2026-08-30",
+        "modified": "2026-09-01",
         "published": null
       },
       "editorial_notes": [
@@ -5635,6 +7904,2916 @@
         "status": "Preserved; claims independently classified above",
         "normalization": "Parts of speech, French accents and punctuation normalized in the reviewed fields; the original research claims and literary text remain quoted here.",
         "raw_note": "英语：aberrant n. 错误；a.b.err.ant；这里也许是 err 前面与元音 a 相连需要加一个辅音。err n. 错误。法语：aberrant a. 荒谬；a.b.err.ant；这个词从英语而来；aberrant (masculine)，aberrante (feminine)；erreur n. 错误。汉语：讹【e】n. 谣言，错误。备注：这里 aberrant，是 err 前面与元音 a 相连需要加一个辅音。诗文：错讹的时候，是一种如天鹅般美丽还是家鹅的讹音？不，那爱充满美艺。When it is aberrant, is it a kind of beautiful like a swan or a mispronunciation of a goose? No, that love is full of beauty and art."
+      },
+      "legacy_import": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/aberration-aberasj%c9%99n-n-%e8%8d%92%e8%b0%ac/",
+        "action": "merged-source-deduplicated",
+        "raw_note": "aberrant，错讹。讹 e。err 与讹同音。"
+      }
+    },
+    {
+      "id": "LB-en-abeyance-024",
+      "slug": "abeyance",
+      "title": {
+        "en": "abeyance · Legacy Website Import",
+        "zh-Hans": "abeyance · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abeyance",
+          "pronunciation": "not recorded",
+          "part_of_speech": "noun · 名词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "暂缓／中止状态",
+          "pronunciation": "zànhuǎn / zhōngzhǐ"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abeyance-primary",
+        "source": {
+          "language": "English",
+          "word": "abeyance",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "暂缓／中止状态",
+          "pronunciation": "zànhuǎn / zhōngzhǐ"
+        },
+        "gloss": {
+          "en": "temporary inactivity, suspension or non-use",
+          "zh-Hans": "暂时停止、搁置或不使用的状态"
+        },
+        "meaning": {
+          "en": "temporary inactivity, suspension or non-use. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "暂时停止、搁置或不使用的状态。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Abeyance entered through Anglo-French abeyaunce, from a verb meaning ‘gape, wait expectantly’; it is not formed from a negative a- plus bey.",
+            "zh-Hans": "abeyance 经盎格鲁法语 abeyaunce 进入英语，源自动词“张口、期待等候”；并非否定前缀 a- 加 bey。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABEYANCE-001",
+              "claim": {
+                "en": "Abeyance entered through Anglo-French abeyaunce, from a verb meaning ‘gape, wait expectantly’; it is not formed from a negative a- plus bey.",
+                "zh-Hans": "abeyance 经盎格鲁法语 abeyaunce 进入英语，源自动词“张口、期待等候”；并非否定前缀 a- 加 bey。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABEYANCE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABEYANCE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The author compares the written segment bey with 闭 bì. This is a modern surface resemblance, not a regular correspondence.",
+            "zh-Hans": "作者把书写片段 bey 与“闭”bì 比较；这是现代词形音近，不是规律对应。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABEYANCE-001",
+              "claim": {
+                "en": "The author compares the written segment bey with 闭 bì. This is a modern surface resemblance, not a regular correspondence.",
+                "zh-Hans": "作者把书写片段 bey 与“闭”bì 比较；这是现代词形音近，不是规律对应。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABEYANCE",
+                "REF-MW-ABEYANCE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABEYANCE",
+            "REF-MW-ABEYANCE"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "SUSPENSION can be remembered as an activity being ‘closed’ for a time.",
+            "zh-Hans": "可把 SUSPENSION 记作一项活动暂时“关闭”。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABEYANCE-001",
+              "claim": {
+                "en": "SUSPENSION can be remembered as an activity being ‘closed’ for a time.",
+                "zh-Hans": "可把 SUSPENSION 记作一项活动暂时“关闭”。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABEYANCE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABEYANCE"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "闭 is a mnemonic translation association, not the source of abeyance.",
+            "zh-Hans": "“闭”是记忆性语义联想，不是 abeyance 的来源。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABEYANCE-001",
+              "claim": {
+                "en": "闭 is a mnemonic translation association, not the source of abeyance.",
+                "zh-Hans": "“闭”是记忆性语义联想，不是 abeyance 的来源。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABEYANCE",
+                "REF-MW-ABEYANCE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABEYANCE",
+            "REF-MW-ABEYANCE"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABEYANCE-001",
+          "claim": {
+            "en": "The author compares the written segment bey with 闭 bì. This is a modern surface resemblance, not a regular correspondence.",
+            "zh-Hans": "作者把书写片段 bey 与“闭”bì 比较；这是现代词形音近，不是规律对应。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABEYANCE",
+          "ABEYANT",
+          "暂缓",
+          "中止"
+        ],
+        "relation": "abeyance → abeyant → 暂缓 → 中止",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abeyant",
+          "language": "English",
+          "relationship_type": "derivative",
+          "family": "abeyance family",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABEYANCE"
+          ]
+        },
+        {
+          "word": "闭 bì",
+          "language": "Chinese",
+          "relationship_type": "phonetic-semantic candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABEYANCE",
+            "REF-MW-ABEYANCE"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABEYANCE-001",
+          "relation": "SUSPENSION can be remembered as an activity being ‘closed’ for a time.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABEYANCE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “abeyance，暂缓。闭 bi。bey 与閉 bi 同音。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abeyance，暂缓。闭 bi。bey 与閉 bi 同音。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abeyance",
+            "暂缓／中止状态"
+          ],
+          "counterexamples": [
+            "闭 is a mnemonic translation association, not the source of abeyance.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABEYANCE",
+            "REF-MW-ABEYANCE"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABEYANCE-001",
+          "statement": {
+            "en": "闭 is a mnemonic translation association, not the source of abeyance.",
+            "zh-Hans": "“闭”是记忆性语义联想，不是 abeyance 的来源。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABEYANCE",
+            "REF-MW-ABEYANCE"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "SUSPENSION can be remembered as an activity being ‘closed’ for a time.",
+          "zh-Hans": "可把 SUSPENSION 记作一项活动暂时“关闭”。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABEYANCE",
+          "title": "languagesbook.com legacy entry: abeyance，暂缓。闭 bi。bey 与閉 bi 同音",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-bey-ance%ef%bc%8c%e5%ba%9f%ef%bc%9b%e4%b8%ad%e6%ad%a2/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABEYANCE",
+          "title": "Merriam-Webster Dictionary: abeyance",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abeyance",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 86.3/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 86.3/100 仅用于编辑分流。"
+        },
+        {
+          "en": "闭 is a mnemonic translation association, not the source of abeyance.",
+          "zh-Hans": "“闭”是记忆性语义联想，不是 abeyance 的来源。"
+        }
+      ],
+      "search_terms": [
+        "abeyance",
+        "abeyant",
+        "暂缓",
+        "中止",
+        "搁置",
+        "闭",
+        "閉",
+        "bey",
+        "suspension"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/a-bey-ance%ef%bc%8c%e5%ba%9f%ef%bc%9b%e4%b8%ad%e6%ad%a2/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "abeyance，暂缓。闭 bi。bey 与閉 bi 同音。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 1,
+        "disposition": "Candidate",
+        "priority_score": 86.3
+      }
+    },
+    {
+      "id": "LB-en-abhor-037",
+      "slug": "abhor",
+      "title": {
+        "en": "abhor · Legacy Website Import",
+        "zh-Hans": "abhor · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abhor",
+          "pronunciation": "not recorded",
+          "part_of_speech": "verb · 动词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "憎恶／厌恶",
+          "pronunciation": "zēngwù / yànwù"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abhor-primary",
+        "source": {
+          "language": "English",
+          "word": "abhor",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "憎恶／厌恶",
+          "pronunciation": "zēngwù / yànwù"
+        },
+        "gloss": {
+          "en": "to regard with extreme repugnance; to loathe",
+          "zh-Hans": "极度反感、憎恶或厌恶"
+        },
+        "meaning": {
+          "en": "to regard with extreme repugnance; to loathe. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "极度反感、憎恶或厌恶。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Abhor comes from Latin abhorrere, from ab- ‘away’ plus horrere ‘bristle, shiver, shudder’. It belongs with horror/horrible, not fire or horse.",
+            "zh-Hans": "abhor 来自拉丁语 abhorrere，由 ab-“离开”加 horrere“毛发竖起、战栗”构成；它与 horror／horrible 同族，不源于火或 horse。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABHOR-001",
+              "claim": {
+                "en": "Abhor comes from Latin abhorrere, from ab- ‘away’ plus horrere ‘bristle, shiver, shudder’. It belongs with horror/horrible, not fire or horse.",
+                "zh-Hans": "abhor 来自拉丁语 abhorrere，由 ab-“离开”加 horrere“毛发竖起、战栗”构成；它与 horror／horrible 同族，不源于火或 horse。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABHOR"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABHOR"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The hor segment and 火 huǒ are a loose modern resemblance; vowel, consonant and tone do not form a regular correspondence.",
+            "zh-Hans": "hor 片段与“火”huǒ 是松散现代音近；元音、辅音与声调不构成规律对应。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABHOR-001",
+              "claim": {
+                "en": "The hor segment and 火 huǒ are a loose modern resemblance; vowel, consonant and tone do not form a regular correspondence.",
+                "zh-Hans": "hor 片段与“火”huǒ 是松散现代音近；元音、辅音与声调不构成规律对应。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABHOR",
+                "REF-MW-ABHOR"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABHOR",
+            "REF-MW-ABHOR"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "AVERSION → SHUDDER is historically grounded; ‘having fire toward something’ is an authored emotional metaphor.",
+            "zh-Hans": "厌恶 → 战栗有历史依据；“对某物有火”是作者的情绪隐喻。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABHOR-001",
+              "claim": {
+                "en": "AVERSION → SHUDDER is historically grounded; ‘having fire toward something’ is an authored emotional metaphor.",
+                "zh-Hans": "厌恶 → 战栗有历史依据；“对某物有火”是作者的情绪隐喻。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABHOR"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABHOR"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
+            "zh-Hans": "不能只凭拼写或声音把 horizontal、horse 与“火”并入拉丁语 horrere 词族。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABHOR-001",
+              "claim": {
+                "en": "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
+                "zh-Hans": "不能只凭拼写或声音把 horizontal、horse 与“火”并入拉丁语 horrere 词族。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABHOR",
+                "REF-MW-ABHOR"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABHOR",
+            "REF-MW-ABHOR"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABHOR-001",
+          "claim": {
+            "en": "The hor segment and 火 huǒ are a loose modern resemblance; vowel, consonant and tone do not form a regular correspondence.",
+            "zh-Hans": "hor 片段与“火”huǒ 是松散现代音近；元音、辅音与声调不构成规律对应。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABHOR",
+          "ABHORRENCE",
+          "HORROR",
+          "HORRIBLE"
+        ],
+        "relation": "abhor → abhorrence → horror → horrible",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "horror/horrible",
+          "language": "English",
+          "relationship_type": "historical relatives",
+          "family": "Latin horrere",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABHOR"
+          ]
+        },
+        {
+          "word": "horse",
+          "language": "English",
+          "relationship_type": "surface similarity",
+          "family": "separate Germanic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABHOR",
+            "REF-MW-ABHOR"
+          ]
+        },
+        {
+          "word": "火 huǒ",
+          "language": "Chinese",
+          "relationship_type": "literary phonetic-semantic candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABHOR",
+            "REF-MW-ABHOR"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABHOR-001",
+          "relation": "AVERSION → SHUDDER is historically grounded; ‘having fire toward something’ is an authored emotional metaphor.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABHOR-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “abhor，憎恶。火 huo。憎恶即对某有火。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abhor，憎恶。火 huo。憎恶即对某有火。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abhor",
+            "憎恶／厌恶"
+          ],
+          "counterexamples": [
+            "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABHOR",
+            "REF-MW-ABHOR"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABHOR-001",
+          "statement": {
+            "en": "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
+            "zh-Hans": "不能只凭拼写或声音把 horizontal、horse 与“火”并入拉丁语 horrere 词族。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABHOR",
+            "REF-MW-ABHOR"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "AVERSION → SHUDDER is historically grounded; ‘having fire toward something’ is an authored emotional metaphor.",
+          "zh-Hans": "厌恶 → 战栗有历史依据；“对某物有火”是作者的情绪隐喻。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABHOR",
+          "title": "languagesbook.com legacy entry: abhor，憎恶。火 huo。憎恶即对某有火",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abhor%ef%bc%8c%e6%86%8e%e6%81%b6/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABHOR",
+          "title": "Merriam-Webster Dictionary: abhor",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abhor",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 91.8/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 91.8/100 仅用于编辑分流。"
+        },
+        {
+          "en": "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
+          "zh-Hans": "不能只凭拼写或声音把 horizontal、horse 与“火”并入拉丁语 horrere 词族。"
+        }
+      ],
+      "search_terms": [
+        "abhor",
+        "abhorrence",
+        "horror",
+        "horrible",
+        "憎恶",
+        "厌恶",
+        "火",
+        "huo",
+        "loathe",
+        "repugnance"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/abhor%ef%bc%8c%e6%86%8e%e6%81%b6/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "abhor，憎恶。火 huo。憎恶即对某有火。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 14,
+        "disposition": "Candidate",
+        "priority_score": 91.8
+      }
+    },
+    {
+      "id": "LB-en-abound-025",
+      "slug": "abound",
+      "title": {
+        "en": "abound · Legacy Website Import",
+        "zh-Hans": "abound · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abound",
+          "pronunciation": "not recorded",
+          "part_of_speech": "verb · 动词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "大量存在／繁盛",
+          "pronunciation": "dàliàng cúnzài / fánshèng"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abound-primary",
+        "source": {
+          "language": "English",
+          "word": "abound",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "大量存在／繁盛",
+          "pronunciation": "dàliàng cúnzài / fánshèng"
+        },
+        "gloss": {
+          "en": "to be present in large numbers or amounts; to be rich or well supplied",
+          "zh-Hans": "大量存在、充满或富有"
+        },
+        "meaning": {
+          "en": "to be present in large numbers or amounts; to be rich or well supplied. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "大量存在、充满或富有。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "mapping_level": "Unrated",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Abound comes through Anglo-French from Latin abundare ‘overflow’, built from ab- and undare ‘surge’ from unda ‘wave’; it is not derived from English bound.",
+            "zh-Hans": "abound 经盎格鲁法语来自拉丁语 abundare“溢出”，由 ab- 与 undare“涌动”（unda“波浪”）构成；不是由英语 bound 派生。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABOUND-001",
+              "claim": {
+                "en": "Abound comes through Anglo-French from Latin abundare ‘overflow’, built from ab- and undare ‘surge’ from unda ‘wave’; it is not derived from English bound.",
+                "zh-Hans": "abound 经盎格鲁法语来自拉丁语 abundare“溢出”，由 ab- 与 undare“涌动”（unda“波浪”）构成；不是由英语 bound 派生。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABOUND"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABOUND"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The resemblance of bound/bound-like spelling to 蹦 bèng is approximate and historically unsupported.",
+            "zh-Hans": "bound 一段与“蹦”bèng 的近似有限，且无历史支持。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABOUND-001",
+              "claim": {
+                "en": "The resemblance of bound/bound-like spelling to 蹦 bèng is approximate and historically unsupported.",
+                "zh-Hans": "bound 一段与“蹦”bèng 的近似有限，且无历史支持。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOUND",
+                "REF-MW-ABOUND"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND",
+            "REF-MW-ABOUND"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "SURGE/OVERFLOW → ABUNDANCE → PROSPERITY supports the author’s image of an economy springing upward.",
+            "zh-Hans": "涌动／溢出 → 丰富 → 繁荣，可承载作者“经济蹦起”的意象。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABOUND-001",
+              "claim": {
+                "en": "SURGE/OVERFLOW → ABUNDANCE → PROSPERITY supports the author’s image of an economy springing upward.",
+                "zh-Hans": "涌动／溢出 → 丰富 → 繁荣，可承载作者“经济蹦起”的意象。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOUND"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+            "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABOUND-001",
+              "claim": {
+                "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+                "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOUND",
+                "REF-MW-ABOUND"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND",
+            "REF-MW-ABOUND"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABOUND-001",
+          "claim": {
+            "en": "The resemblance of bound/bound-like spelling to 蹦 bèng is approximate and historically unsupported.",
+            "zh-Hans": "bound 一段与“蹦”bèng 的近似有限，且无历史支持。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABOUND",
+          "ABUNDANCE",
+          "ABUNDANT",
+          "繁荣"
+        ],
+        "relation": "abound → abundance → abundant → 繁荣",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abundance",
+          "language": "English",
+          "relationship_type": "historical derivative",
+          "family": "Latin abundare/abundantia",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABOUND"
+          ]
+        },
+        {
+          "word": "bound",
+          "language": "English",
+          "relationship_type": "surface similarity",
+          "family": "separate Germanic/French histories",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND",
+            "REF-MW-ABOUND"
+          ]
+        },
+        {
+          "word": "蹦 bèng",
+          "language": "Chinese",
+          "relationship_type": "literary mnemonic",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND",
+            "REF-MW-ABOUND"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABOUND-001",
+          "relation": "SURGE/OVERFLOW → ABUNDANCE → PROSPERITY supports the author’s image of an economy springing upward.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABOUND-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “abound，繁荣。蹦 beng。经济蹦起即繁荣。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abound，繁荣。蹦 beng。经济蹦起即繁荣。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abound",
+            "大量存在／繁盛"
+          ],
+          "counterexamples": [
+            "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND",
+            "REF-MW-ABOUND"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABOUND-001",
+          "statement": {
+            "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+            "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOUND",
+            "REF-MW-ABOUND"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "SURGE/OVERFLOW → ABUNDANCE → PROSPERITY supports the author’s image of an economy springing upward.",
+          "zh-Hans": "涌动／溢出 → 丰富 → 繁荣，可承载作者“经济蹦起”的意象。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABOUND",
+          "title": "languagesbook.com legacy entry: abound，繁荣。蹦 beng。经济蹦起即繁荣",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-bound%ef%bc%8c%e6%a3%92%ef%bc%9b%e7%b9%81%e8%8d%a3%e3%80%82/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABOUND",
+          "title": "Merriam-Webster Dictionary: abound",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abound",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 88.8/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 88.8/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+          "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+        }
+      ],
+      "search_terms": [
+        "abound",
+        "abundance",
+        "abundant",
+        "繁荣",
+        "繁盛",
+        "大量",
+        "充满",
+        "蹦",
+        "beng",
+        "overflow"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/a-bound%ef%bc%8c%e6%a3%92%ef%bc%9b%e7%b9%81%e8%8d%a3%e3%80%82/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "abound，繁荣。蹦 beng。经济蹦起即繁荣。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 2,
+        "disposition": "Reviewed",
+        "priority_score": 88.8
+      }
+    },
+    {
+      "id": "LB-en-above-030",
+      "slug": "above",
+      "title": {
+        "en": "above · Legacy Website Import",
+        "zh-Hans": "above · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "above",
+          "pronunciation": "not recorded",
+          "part_of_speech": "preposition/adverb/adjective · 介词／副词／形容词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "在……上方／高于",
+          "pronunciation": "zài…shàngfāng / gāoyú"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-above-primary",
+        "source": {
+          "language": "English",
+          "word": "above",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "在……上方／高于",
+          "pronunciation": "zài…shàngfāng / gāoyú"
+        },
+        "gloss": {
+          "en": "in or to a higher place or position than",
+          "zh-Hans": "位于或移向比参照物更高的位置"
+        },
+        "meaning": {
+          "en": "in or to a higher place or position than. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "位于或移向比参照物更高的位置。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "mapping_level": "Unrated",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Above is inherited from Old English abufan/onbufan, a Germanic formation. Over is a semantic and historically related Germanic comparison, but Chinese 上 is not a historical cognate.",
+            "zh-Hans": "above 继承自古英语 abufan／onbufan，属日耳曼构词；over 是语义上相关且有日耳曼词史联系的比较词，但汉语“上”并非历史同源。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABOVE-001",
+              "claim": {
+                "en": "Above is inherited from Old English abufan/onbufan, a Germanic formation. Over is a semantic and historically related Germanic comparison, but Chinese 上 is not a historical cognate.",
+                "zh-Hans": "above 继承自古英语 abufan／onbufan，属日耳曼构词；over 是语义上相关且有日耳曼词史联系的比较词，但汉语“上”并非历史同源。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABOVE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABOVE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "No English–Chinese phonetic claim is needed for the standard spatial mapping above ↔ 上方.",
+            "zh-Hans": "标准空间映射 above ↔ 上方不需要英汉语音主张。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABOVE-001",
+              "claim": {
+                "en": "No English–Chinese phonetic claim is needed for the standard spatial mapping above ↔ 上方.",
+                "zh-Hans": "标准空间映射 above ↔ 上方不需要英汉语音主张。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOVE",
+                "REF-MW-ABOVE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE",
+            "REF-MW-ABOVE"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "UP/HIGHER THAN is a stable spatial schema shared by above, over and 上方.",
+            "zh-Hans": "UP／HIGHER THAN 是 above、over 与“上方”共享的稳定空间图式。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABOVE-001",
+              "claim": {
+                "en": "UP/HIGHER THAN is a stable spatial schema shared by above, over and 上方.",
+                "zh-Hans": "UP／HIGHER THAN 是 above、over 与“上方”共享的稳定空间图式。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOVE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "Shared spatial meaning is not proof of shared historical origin.",
+            "zh-Hans": "共享空间意义不能证明共享历史来源。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABOVE-001",
+              "claim": {
+                "en": "Shared spatial meaning is not proof of shared historical origin.",
+                "zh-Hans": "共享空间意义不能证明共享历史来源。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOVE",
+                "REF-MW-ABOVE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE",
+            "REF-MW-ABOVE"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABOVE-001",
+          "claim": {
+            "en": "No English–Chinese phonetic claim is needed for the standard spatial mapping above ↔ 上方.",
+            "zh-Hans": "标准空间映射 above ↔ 上方不需要英汉语音主张。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABOVE",
+          "OVER",
+          "上",
+          "上面"
+        ],
+        "relation": "above → over → 上 → 上面",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "over",
+          "language": "English",
+          "relationship_type": "semantic/deeper Germanic relative",
+          "family": "Germanic spatial family",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABOVE"
+          ]
+        },
+        {
+          "word": "上方",
+          "language": "Chinese",
+          "relationship_type": "standard semantic mapping",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE",
+            "REF-MW-ABOVE"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABOVE-001",
+          "relation": "UP/HIGHER THAN is a stable spatial schema shared by above, over and 上方.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABOVE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “above，上面。上 over。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“above，上面。上 over。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "above",
+            "在……上方／高于"
+          ],
+          "counterexamples": [
+            "Shared spatial meaning is not proof of shared historical origin.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE",
+            "REF-MW-ABOVE"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABOVE-001",
+          "statement": {
+            "en": "Shared spatial meaning is not proof of shared historical origin.",
+            "zh-Hans": "共享空间意义不能证明共享历史来源。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE",
+            "REF-MW-ABOVE"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "UP/HIGHER THAN is a stable spatial schema shared by above, over and 上方.",
+          "zh-Hans": "UP／HIGHER THAN 是 above、over 与“上方”共享的稳定空间图式。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABOVE",
+          "title": "languagesbook.com legacy entry: above，上面。上 over",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/ab-ove%ef%bc%8c%e4%b8%8a%e9%9d%a2/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABOVE",
+          "title": "Merriam-Webster Dictionary: above",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/above",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 88.7/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 88.7/100 仅用于编辑分流。"
+        },
+        {
+          "en": "Shared spatial meaning is not proof of shared historical origin.",
+          "zh-Hans": "共享空间意义不能证明共享历史来源。"
+        }
+      ],
+      "search_terms": [
+        "above",
+        "over",
+        "上",
+        "上面",
+        "上方",
+        "高于",
+        "higher",
+        "up"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/ab-ove%ef%bc%8c%e4%b8%8a%e9%9d%a2/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "above，上面。上 over。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 7,
+        "disposition": "Reviewed",
+        "priority_score": 88.7
+      }
+    },
+    {
+      "id": "LB-en-abridge-026",
+      "slug": "abridge",
+      "title": {
+        "en": "abridge · Legacy Website Import",
+        "zh-Hans": "abridge · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abridge",
+          "pronunciation": "not recorded",
+          "part_of_speech": "verb · 动词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "缩短／删节",
+          "pronunciation": "suōduǎn / shānjié"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abridge-primary",
+        "source": {
+          "language": "English",
+          "word": "abridge",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "缩短／删节",
+          "pronunciation": "suōduǎn / shānjié"
+        },
+        "gloss": {
+          "en": "to shorten by omission while retaining the sense",
+          "zh-Hans": "通过删减而缩短，同时保留原意"
+        },
+        "meaning": {
+          "en": "to shorten by omission while retaining the sense. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "通过删减而缩短，同时保留原意。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Abridge comes through Anglo-French abreger from Late Latin abbreviare, ultimately from Latin brevis ‘short’. It is historically related to abbreviate, not built from a + bridge.",
+            "zh-Hans": "abridge 经盎格鲁法语 abreger 来自晚期拉丁语 abbreviare，最终基于 brevis“短”；它与 abbreviate 有历史关系，而非 a + bridge。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABRIDGE-001",
+              "claim": {
+                "en": "Abridge comes through Anglo-French abreger from Late Latin abbreviare, ultimately from Latin brevis ‘short’. It is historically related to abbreviate, not built from a + bridge.",
+                "zh-Hans": "abridge 经盎格鲁法语 abreger 来自晚期拉丁语 abbreviare，最终基于 brevis“短”；它与 abbreviate 有历史关系，而非 a + bridge。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABRIDGE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABRIDGE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Segmenting abridge as a + bridge and comparing bridge with 臂 bì is a modern reanalysis.",
+            "zh-Hans": "把 abridge 切成 a + bridge 并把 bridge 与“臂”bì 比较，是现代再分析。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABRIDGE-001",
+              "claim": {
+                "en": "Segmenting abridge as a + bridge and comparing bridge with 臂 bì is a modern reanalysis.",
+                "zh-Hans": "把 abridge 切成 a + bridge 并把 bridge 与“臂”bì 比较，是现代再分析。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABRIDGE",
+                "REF-MW-ABRIDGE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE",
+            "REF-MW-ABRIDGE"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "A bridge can serve as a mnemonic for crossing a long text by a shorter route, but not as etymology.",
+            "zh-Hans": "“桥”可作为以较短路线跨越长文本的记忆意象，但不是词源。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABRIDGE-001",
+              "claim": {
+                "en": "A bridge can serve as a mnemonic for crossing a long text by a shorter route, but not as etymology.",
+                "zh-Hans": "“桥”可作为以较短路线跨越长文本的记忆意象，但不是词源。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABRIDGE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+            "zh-Hans": "历史上的 SHORT 词族 brevis／abbreviare 否定了表面的 bridge／臂切分。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABRIDGE-001",
+              "claim": {
+                "en": "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+                "zh-Hans": "历史上的 SHORT 词族 brevis／abbreviare 否定了表面的 bridge／臂切分。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABRIDGE",
+                "REF-MW-ABRIDGE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE",
+            "REF-MW-ABRIDGE"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABRIDGE-001",
+          "claim": {
+            "en": "Segmenting abridge as a + bridge and comparing bridge with 臂 bì is a modern reanalysis.",
+            "zh-Hans": "把 abridge 切成 a + bridge 并把 bridge 与“臂”bì 比较，是现代再分析。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABRIDGE",
+          "ABRIDGED",
+          "ABRIDGMENT",
+          "ABBREVIATE"
+        ],
+        "relation": "abridge → abridged → abridgment → abbreviate",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abbreviate",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin abbreviare/brevis",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABRIDGE"
+          ]
+        },
+        {
+          "word": "bridge",
+          "language": "English",
+          "relationship_type": "false segmentation",
+          "family": "Germanic bridge family",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE",
+            "REF-MW-ABRIDGE"
+          ]
+        },
+        {
+          "word": "臂 bì",
+          "language": "Chinese",
+          "relationship_type": "surface phonetic candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE",
+            "REF-MW-ABRIDGE"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABRIDGE-001",
+          "relation": "A bridge can serve as a mnemonic for crossing a long text by a shorter route, but not as etymology.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABRIDGE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “abridge，缩短。臂 bi。bridge 与臂同音。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abridge，缩短。臂 bi。bridge 与臂同音。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abridge",
+            "缩短／删节"
+          ],
+          "counterexamples": [
+            "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE",
+            "REF-MW-ABRIDGE"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABRIDGE-001",
+          "statement": {
+            "en": "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+            "zh-Hans": "历史上的 SHORT 词族 brevis／abbreviare 否定了表面的 bridge／臂切分。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABRIDGE",
+            "REF-MW-ABRIDGE"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "A bridge can serve as a mnemonic for crossing a long text by a shorter route, but not as etymology.",
+          "zh-Hans": "“桥”可作为以较短路线跨越长文本的记忆意象，但不是词源。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABRIDGE",
+          "title": "languagesbook.com legacy entry: abridge，缩短。臂 bi。bridge 与臂同音",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-bridge-%c9%99bri%ca%a4-v-%e5%9b%bdzhuei-zhui%e8%bf%bd%ef%bc%9b%e7%bc%a9%e7%9f%ad%e3%80%82/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABRIDGE",
+          "title": "Merriam-Webster Dictionary: abridge",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abridge",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 87.9/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 87.9/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The historical SHORT family brevis/abbreviare outweighs the surface bridge/臂 segmentation.",
+          "zh-Hans": "历史上的 SHORT 词族 brevis／abbreviare 否定了表面的 bridge／臂切分。"
+        }
+      ],
+      "search_terms": [
+        "abridge",
+        "abridged",
+        "abridgment",
+        "abbreviate",
+        "缩短",
+        "删节",
+        "臂",
+        "bridge",
+        "shorten"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/a-bridge-%c9%99bri%ca%a4-v-%e5%9b%bdzhuei-zhui%e8%bf%bd%ef%bc%9b%e7%bc%a9%e7%9f%ad%e3%80%82/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "abridge，缩短。臂 bi。bridge 与臂同音。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 3,
+        "disposition": "Candidate",
+        "priority_score": 87.9
+      }
+    },
+    {
+      "id": "LB-en-absolute-031",
+      "slug": "absolute",
+      "title": {
+        "en": "absolute · Legacy Website Import",
+        "zh-Hans": "absolute · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "absolute",
+          "pronunciation": "not recorded",
+          "part_of_speech": "adjective/noun · 形容词／名词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "绝对的／完全的",
+          "pronunciation": "juéduì de / wánquán de"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-absolute-primary",
+        "source": {
+          "language": "English",
+          "word": "absolute",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "绝对的／完全的",
+          "pronunciation": "juéduì de / wánquán de"
+        },
+        "gloss": {
+          "en": "free from qualification, restriction or relation; complete",
+          "zh-Hans": "不受条件、限制或关系约束的；完全的"
+        },
+        "meaning": {
+          "en": "free from qualification, restriction or relation; complete. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "不受条件、限制或关系约束的；完全的。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "mapping_level": "Unrated",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Absolute comes from Latin absolutus, the past participle of absolvere ‘set free, complete’. Its sol-/solve relationship is historical; 炒 chǎo is not.",
+            "zh-Hans": "absolute 来自拉丁语 absolutus，是 absolvere“释放、完成”的过去分词；其与 sol-／solve 的关系有历史依据，与“炒”chǎo 则没有。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABSOLUTE-001",
+              "claim": {
+                "en": "Absolute comes from Latin absolutus, the past participle of absolvere ‘set free, complete’. Its sol-/solve relationship is historical; 炒 chǎo is not.",
+                "zh-Hans": "absolute 来自拉丁语 absolutus，是 absolvere“释放、完成”的过去分词；其与 sol-／solve 的关系有历史依据，与“炒”chǎo 则没有。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABSOLUTE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABSOLUTE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+            "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABSOLUTE-001",
+              "claim": {
+                "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+                "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABSOLUTE",
+                "REF-MW-ABSOLUTE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+            "zh-Hans": "解开／释放 → 不受限制 → 绝对，是有用的历史—语义链。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABSOLUTE-001",
+              "claim": {
+                "en": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+                "zh-Hans": "解开／释放 → 不受限制 → 绝对，是有用的历史—语义链。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABSOLUTE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+            "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABSOLUTE-001",
+              "claim": {
+                "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+                "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABSOLUTE",
+                "REF-MW-ABSOLUTE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABSOLUTE-001",
+          "claim": {
+            "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+            "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABSOLUTE",
+          "ABSOLVE",
+          "SOLVE",
+          "绝对"
+        ],
+        "relation": "absolute → absolve → solve → 绝对",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "absolve",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin absolvere",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABSOLUTE"
+          ]
+        },
+        {
+          "word": "solve",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin solvere",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABSOLUTE"
+          ]
+        },
+        {
+          "word": "炒 chǎo",
+          "language": "Chinese",
+          "relationship_type": "literary mnemonic",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABSOLUTE-001",
+          "relation": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABSOLUTE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “absolute，绝对。炒 chao。solve 解决即炒炒。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“absolute，绝对。炒 chao。solve 解决即炒炒。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "absolute",
+            "绝对的／完全的"
+          ],
+          "counterexamples": [
+            "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABSOLUTE-001",
+          "statement": {
+            "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+            "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+          "zh-Hans": "解开／释放 → 不受限制 → 绝对，是有用的历史—语义链。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABSOLUTE",
+          "title": "languagesbook.com legacy entry: absolute，绝对。炒 chao。solve 解决即炒炒",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/ab-sol-ute%ef%bc%8c%e7%bb%9d%e5%af%b9/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABSOLUTE",
+          "title": "Merriam-Webster Dictionary: absolute",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/absolute",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 90.8/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 90.8/100 仅用于编辑分流。"
+        },
+        {
+          "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+          "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+        }
+      ],
+      "search_terms": [
+        "absolute",
+        "absolve",
+        "solve",
+        "绝对",
+        "完全",
+        "无条件",
+        "炒",
+        "chao",
+        "unrestricted"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/ab-sol-ute%ef%bc%8c%e7%bb%9d%e5%af%b9/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "absolute，绝对。炒 chao。solve 解决即炒炒。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 8,
+        "disposition": "Reviewed",
+        "priority_score": 90.8
+      }
+    },
+    {
+      "id": "LB-en-acumen-027",
+      "slug": "acumen",
+      "title": {
+        "en": "acumen · Legacy Website Import",
+        "zh-Hans": "acumen · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "acumen",
+          "pronunciation": "not recorded",
+          "part_of_speech": "noun · 名词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "敏锐／洞察力",
+          "pronunciation": "mǐnruì / dòngchálì"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-acumen-primary",
+        "source": {
+          "language": "English",
+          "word": "acumen",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "敏锐／洞察力",
+          "pronunciation": "mǐnruì / dòngchálì"
+        },
+        "gloss": {
+          "en": "keenness and depth of perception, discernment or judgment",
+          "zh-Hans": "敏锐而深入的洞察、辨别或判断能力"
+        },
+        "meaning": {
+          "en": "keenness and depth of perception, discernment or judgment. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "敏锐而深入的洞察、辨别或判断能力。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "mapping_level": "Unrated",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Acumen is Latin for ‘point, sharpness’, from acuere ‘to sharpen’. The letters cum do not form a morpheme meaning gather in this word.",
+            "zh-Hans": "acumen 来自拉丁语“尖端、敏锐”，源于 acuere“使锋利”；其中字母 cum 并不是表示“聚集”的语素。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ACUMEN-001",
+              "claim": {
+                "en": "Acumen is Latin for ‘point, sharpness’, from acuere ‘to sharpen’. The letters cum do not form a morpheme meaning gather in this word.",
+                "zh-Hans": "acumen 来自拉丁语“尖端、敏锐”，源于 acuere“使锋利”；其中字母 cum 并不是表示“聚集”的语素。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ACUMEN"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ACUMEN"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "cum and 聚 jù do not closely match in ordinary pronunciation and no historical relation is established.",
+            "zh-Hans": "cum 与“聚”jù 的通常读音并不紧密对应，也无已证历史关系。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ACUMEN-001",
+              "claim": {
+                "en": "cum and 聚 jù do not closely match in ordinary pronunciation and no historical relation is established.",
+                "zh-Hans": "cum 与“聚”jù 的通常读音并不紧密对应，也无已证历史关系。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ACUMEN",
+                "REF-MW-ACUMEN"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN",
+            "REF-MW-ACUMEN"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "SHARP POINT → KEEN PERCEPTION is the documented semantic development; gathering clues is a separate mnemonic.",
+            "zh-Hans": "尖端／锋利 → 敏锐洞察是有文献的语义发展；“聚集线索”只是另一个记忆联想。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ACUMEN-001",
+              "claim": {
+                "en": "SHARP POINT → KEEN PERCEPTION is the documented semantic development; gathering clues is a separate mnemonic.",
+                "zh-Hans": "尖端／锋利 → 敏锐洞察是有文献的语义发展；“聚集线索”只是另一个记忆联想。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ACUMEN"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+            "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ACUMEN-001",
+              "claim": {
+                "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+                "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ACUMEN",
+                "REF-MW-ACUMEN"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN",
+            "REF-MW-ACUMEN"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ACUMEN-001",
+          "claim": {
+            "en": "cum and 聚 jù do not closely match in ordinary pronunciation and no historical relation is established.",
+            "zh-Hans": "cum 与“聚”jù 的通常读音并不紧密对应，也无已证历史关系。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ACUMEN",
+          "ACUTE",
+          "ACUITY",
+          "敏锐"
+        ],
+        "relation": "acumen → acute → acuity → 敏锐",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "acute",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin acuere/acutus",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ACUMEN"
+          ]
+        },
+        {
+          "word": "acuity",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin acuere/acuitas",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ACUMEN"
+          ]
+        },
+        {
+          "word": "聚 jù",
+          "language": "Chinese",
+          "relationship_type": "speculative comparison",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN",
+            "REF-MW-ACUMEN"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ACUMEN-001",
+          "relation": "SHARP POINT → KEEN PERCEPTION is the documented semantic development; gathering clues is a separate mnemonic.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ACUMEN-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “acumen，敏锐。聚 ju。cum- 与聚 ju 同音。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“acumen，敏锐。聚 ju。cum- 与聚 ju 同音。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "acumen",
+            "敏锐／洞察力"
+          ],
+          "counterexamples": [
+            "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN",
+            "REF-MW-ACUMEN"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ACUMEN-001",
+          "statement": {
+            "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+            "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ACUMEN",
+            "REF-MW-ACUMEN"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "SHARP POINT → KEEN PERCEPTION is the documented semantic development; gathering clues is a separate mnemonic.",
+          "zh-Hans": "尖端／锋利 → 敏锐洞察是有文献的语义发展；“聚集线索”只是另一个记忆联想。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ACUMEN",
+          "title": "languagesbook.com legacy entry: acumen，敏锐。聚 ju。cum- 与聚 ju 同音",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-cum-en%ef%bc%8c%e6%95%8f%e9%94%90/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ACUMEN",
+          "title": "Merriam-Webster Dictionary: acumen",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/acumen",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 87.6/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 87.6/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+          "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+        }
+      ],
+      "search_terms": [
+        "acumen",
+        "acute",
+        "acuity",
+        "敏锐",
+        "洞察力",
+        "判断力",
+        "聚",
+        "cum",
+        "sharpness"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/a-cum-en%ef%bc%8c%e6%95%8f%e9%94%90/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "acumen，敏锐。聚 ju。cum- 与聚 ju 同音。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 4,
+        "disposition": "Reviewed",
+        "priority_score": 87.6
+      }
+    },
+    {
+      "id": "LB-en-aliment-028",
+      "slug": "aliment",
+      "title": {
+        "en": "aliment · Legacy Website Import",
+        "zh-Hans": "aliment · 旧站导入"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "aliment",
+          "pronunciation": "not recorded",
+          "part_of_speech": "noun · 名词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "食物／营养",
+          "pronunciation": "shíwù / yíngyǎng"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-aliment-primary",
+        "source": {
+          "language": "English",
+          "word": "aliment",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "食物／营养",
+          "pronunciation": "shíwù / yíngyǎng"
+        },
+        "gloss": {
+          "en": "food or nourishment; something that sustains",
+          "zh-Hans": "食物、营养或维持生命之物"
+        },
+        "meaning": {
+          "en": "food or nourishment; something that sustains. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "食物、营养或维持生命之物。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Reviewed",
+      "mapping_level": "Unrated",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Aliment comes through French from Latin alimentum, from alere ‘to nourish’ plus -mentum. Its historical structure is not a + liment.",
+            "zh-Hans": "aliment 经法语来自拉丁语 alimentum，由 alere“滋养”加 -mentum 构成；其历史结构不是 a + liment。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ALIMENT-001",
+              "claim": {
+                "en": "Aliment comes through French from Latin alimentum, from alere ‘to nourish’ plus -mentum. Its historical structure is not a + liment.",
+                "zh-Hans": "aliment 经法语来自拉丁语 alimentum，由 alere“滋养”加 -mentum 构成；其历史结构不是 a + liment。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ALIMENT"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ALIMENT"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The middle of aliment and 粮 liáng share only a loose modern sound resemblance.",
+            "zh-Hans": "aliment 中部与“粮”liáng 只有松散的现代音近。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ALIMENT-001",
+              "claim": {
+                "en": "The middle of aliment and 粮 liáng share only a loose modern sound resemblance.",
+                "zh-Hans": "aliment 中部与“粮”liáng 只有松散的现代音近。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ALIMENT",
+                "REF-MW-ALIMENT"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ALIMENT",
+            "REF-MW-ALIMENT"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "FOOD → NOURISHMENT → SUSTENANCE gives a clear semantic mapping to 食物/粮食.",
+            "zh-Hans": "食物 → 营养 → 维持生命，为“食物／粮食”提供清楚语义映射。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ALIMENT-001",
+              "claim": {
+                "en": "FOOD → NOURISHMENT → SUSTENANCE gives a clear semantic mapping to 食物/粮食.",
+                "zh-Hans": "食物 → 营养 → 维持生命，为“食物／粮食”提供清楚语义映射。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ALIMENT"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ALIMENT"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "粮 is a strong semantic equivalent but not an established source or cognate of aliment.",
+            "zh-Hans": "“粮”是强语义对应，但不是 aliment 的已证来源或同源词。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ALIMENT-001",
+              "claim": {
+                "en": "粮 is a strong semantic equivalent but not an established source or cognate of aliment.",
+                "zh-Hans": "“粮”是强语义对应，但不是 aliment 的已证来源或同源词。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ALIMENT",
+                "REF-MW-ALIMENT"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ALIMENT",
+            "REF-MW-ALIMENT"
+          ]
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ALIMENT-001",
+          "claim": {
+            "en": "The middle of aliment and 粮 liáng share only a loose modern sound resemblance.",
+            "zh-Hans": "aliment 中部与“粮”liáng 只有松散的现代音近。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ALIMENT",
+          "ALIMENTARY",
+          "ALIMENTER",
+          "食物"
+        ],
+        "relation": "aliment → alimentary → alimenter → 食物",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "alimentary",
+          "language": "English",
+          "relationship_type": "derivative",
+          "family": "Latin alimentum",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ALIMENT"
+          ]
+        },
+        {
+          "word": "alimenter",
+          "language": "French",
+          "relationship_type": "historical family",
+          "family": "French/Latin aliment",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ALIMENT"
+          ]
+        },
+        {
+          "word": "粮 liáng",
+          "language": "Chinese",
+          "relationship_type": "semantic mapping with weak sound candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ALIMENT",
+            "REF-MW-ALIMENT"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ALIMENT-001",
+          "relation": "FOOD → NOURISHMENT → SUSTENANCE gives a clear semantic mapping to 食物/粮食.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ALIMENT-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “aliment，粮；食物。粮 liang。liment 与粮 liang 音同。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“aliment，粮；食物。粮 liang。liment 与粮 liang 音同。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "aliment",
+            "食物／营养"
+          ],
+          "counterexamples": [
+            "粮 is a strong semantic equivalent but not an established source or cognate of aliment.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ALIMENT",
+            "REF-MW-ALIMENT"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ALIMENT-001",
+          "statement": {
+            "en": "粮 is a strong semantic equivalent but not an established source or cognate of aliment.",
+            "zh-Hans": "“粮”是强语义对应，但不是 aliment 的已证来源或同源词。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ALIMENT",
+            "REF-MW-ALIMENT"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "FOOD → NOURISHMENT → SUSTENANCE gives a clear semantic mapping to 食物/粮食.",
+          "zh-Hans": "食物 → 营养 → 维持生命，为“食物／粮食”提供清楚语义映射。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ALIMENT",
+          "title": "languagesbook.com legacy entry: aliment，粮。粮 liang。liment 与粮 liang 音同",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-lim-ent%ef%bc%8c%e7%b2%ae%ef%bc%9b%e9%a3%9f%e7%89%a9/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ALIMENT",
+          "title": "Merriam-Webster Dictionary: aliment",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/aliment",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-01",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 87.7/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 87.7/100 仅用于编辑分流。"
+        },
+        {
+          "en": "粮 is a strong semantic equivalent but not an established source or cognate of aliment.",
+          "zh-Hans": "“粮”是强语义对应，但不是 aliment 的已证来源或同源词。"
+        }
+      ],
+      "search_terms": [
+        "aliment",
+        "alimentary",
+        "alimenter",
+        "食物",
+        "营养",
+        "粮",
+        "粮食",
+        "liang",
+        "nourishment"
+      ],
+      "page": null,
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/a-lim-ent%ef%bc%8c%e7%b2%ae%ef%bc%9b%e9%a3%9f%e7%89%a9/",
+        "additional_source_urls": [],
+        "source_page": 1,
+        "source_site": "languagesbook.com"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "raw_note": "aliment，粮；食物。粮 liang。liment 与粮 liang 音同。"
+      },
+      "batch": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "ordinal": 5,
+        "disposition": "Reviewed",
+        "priority_score": 87.7
       }
     },
     {

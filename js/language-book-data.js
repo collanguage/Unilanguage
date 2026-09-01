@@ -55,10 +55,20 @@
     const groupMap = new Map(groups.map((group) => [group.code, group]));
     const seen = new Map(groups.map((group) => [group.code, new Set()]));
     const visible = dataset.entries.filter((entry) => entry.mapping_status !== "Rejected" && entry.classification_status !== "rejected");
+    const primaryOwners = new Map();
+    for (const entry of visible) {
+      for (const value of [entry.primary_mapping?.source?.word, entry.primary_mapping?.target?.word, entry.slug]) {
+        for (const form of splitRecordedForm(value)) {
+          const key = normalize(form);
+          if (!primaryOwners.has(key)) primaryOwners.set(key, entry.id);
+        }
+      }
+    }
 
     function add(entry, code, term, role, source) {
       const group = groupMap.get(code);
       const key = normalize(term);
+      if (primaryOwners.has(key) && primaryOwners.get(key) !== entry.id) return;
       if (!group || !key || seen.get(code).has(key)) return;
       seen.get(code).add(key);
       group.forms.push({ term, recordId: entry.id, slug: entry.slug, role, source });
@@ -85,6 +95,9 @@
     const term = normalize(query);
     if (!term) return { kind: "empty", entry: null, suggestions: [] };
     const visible = dataset.entries.filter((entry) => entry.mapping_status !== "Rejected" && entry.classification_status !== "rejected");
+    const primary = visible.find((entry) => [entry.primary_mapping?.source?.word, entry.primary_mapping?.target?.word, entry.slug]
+      .flatMap(splitRecordedForm).map(normalize).includes(term));
+    if (primary) return { kind: "exact", entry: primary, suggestions: [] };
     const exact = visible.find((entry) => searchableForms(entry).includes(term));
     if (exact) return { kind: "exact", entry: exact, suggestions: [] };
 
