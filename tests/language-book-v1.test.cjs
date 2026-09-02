@@ -56,6 +56,11 @@ test("Chinese browse presents exactly one concise explanation per record", () =>
   assert.equal(preferred["namcha-barwa"], "南迦巴瓦");
 });
 
+test("Chinese browse lays out one explanation per row", () => {
+  const css = fs.readFileSync(path.join(root, "css", "semantic-mapper.css"), "utf8");
+  assert.match(css, /language-zh-Hans[^}]+display:grid[^}]+grid-template-columns:1fr/);
+});
+
 test("language browse follows A–Z for English/French and stroke collation for Chinese", () => {
   const groups = new Map(dataApi.languageForms(dataset).map((group) => [group.code, group]));
   for (const code of ["en", "fr"]) {
