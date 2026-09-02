@@ -56,9 +56,9 @@ test("Chinese browse presents exactly one concise explanation per record", () =>
   assert.equal(preferred["namcha-barwa"], "南迦巴瓦");
 });
 
-test("Chinese browse lays out one explanation per row", () => {
+test("English, Chinese and French browse forms each occupy one row", () => {
   const css = fs.readFileSync(path.join(root, "css", "semantic-mapper.css"), "utf8");
-  assert.match(css, /language-zh-Hans[^}]+display:grid[^}]+grid-template-columns:1fr/);
+  assert.match(css, /\.language-form-list\{display:grid;grid-template-columns:1fr;justify-items:start/);
 });
 
 test("language browse follows A–Z for English/French and stroke collation for Chinese", () => {
