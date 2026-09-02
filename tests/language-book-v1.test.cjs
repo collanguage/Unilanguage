@@ -130,6 +130,7 @@ test("Mapper renders optional root-level metadata without changing ordinary reco
   assert.match(mapper, /Root-Level Semantic Operations/);
   assert.match(mapper, /Translation ≠ Mapping/);
   assert.match(mapper, /Featured structural mapping · 特色结构映射/);
+  assert.match(mapper, /headline-translation/);
   assert.match(mapper, /root_level_mapping/);
   assert.equal(dataApi.lookup(dataset, "sky").entry.root_level_mapping, undefined);
 });
