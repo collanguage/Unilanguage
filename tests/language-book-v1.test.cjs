@@ -71,6 +71,43 @@ test("Sky and Light retain calibration boundaries", () => {
   assert.equal(light.literary_layer.is_historical_evidence, false);
 });
 
+test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
+  assert.equal(dataset.dataset_version, "1.2.1");
+  assert.equal(dataset.entries.length, 37);
+  for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
+    assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
+  }
+  const universe = dataApi.lookup(dataset, "universe").entry;
+  assert.equal(universe.primary_mapping.target.word, "宇宙");
+  assert.equal(universe.primary_mapping.mapping_type, "Standard lexical translation");
+  assert.equal(universe.root_level_mapping.version, "1.0");
+  assert.equal(universe.root_level_mapping.latin_decomposition.status, "Established");
+  assert.match(universe.root_level_mapping.latin_decomposition.chain, /UNI \(unus\).*VERS \(versus ← vertere\).*WHOLE/);
+  assert.equal(universe.root_level_mapping.traditional_chinese_construction.chain, "宇 + 宙 → SPACE + TIME → COSMOS");
+  assert.deepEqual(universe.root_level_mapping.whole_candidates, ["合", "全", "周"]);
+  assert.equal(universe.root_level_mapping.chinese_structural_candidates.find((item) => item.character === "斡").candidate_grade, "Strong semantic candidate");
+  assert.equal(universe.root_level_mapping.chinese_structural_candidates.find((item) => item.character === "窝／窩").candidate_grade, "Cognitive/Visual Candidate");
+  assert.equal(universe.root_level_mapping.chinese_structural_candidates.find((item) => item.character === "蜗／蝸").candidate_grade, "Cognitive/Visual Candidate");
+  assert.ok(universe.root_level_mapping.chinese_structural_candidates.every((item) => item.historical_relation === "Not claimed"));
+  assert.equal(universe.evidence.Historical.status, "Established");
+  assert.equal(universe.evidence["Phonetic-Semantic"].confidence, "Low");
+  assert.equal(universe.evidence.Cognitive.status, "Interpretive");
+  assert.equal(universe.hypotheses.find((item) => item.hypothesis_id === "HYP-COGNITIVE-TRACE-001").status, "Speculative/Testable");
+  assert.equal(universe.hypotheses.find((item) => item.hypothesis_id === "HYP-COSMIC-MOTION-ENCODING-001").status, "Untested");
+  const authorHypothesis = universe.hypotheses.find((item) => item.hypothesis_id === "HYP-UNIVERSE-SPIRAL-001");
+  assert.equal(authorHypothesis.status, "Speculative/Testable");
+  assert.ok(authorHypothesis.counterexamples.includes("Historical evidence: Unestablished"));
+  assert.ok(authorHypothesis.counterexamples.includes("Scientific claim: not established by etymology"));
+});
+
+test("Mapper renders optional root-level metadata without changing ordinary records", () => {
+  const mapper = fs.readFileSync(path.join(root, "js", "semantic-mapper.js"), "utf8");
+  assert.match(mapper, /Root-Level Semantic Operations/);
+  assert.match(mapper, /Translation ≠ Mapping/);
+  assert.match(mapper, /root_level_mapping/);
+  assert.equal(dataApi.lookup(dataset, "sky").entry.root_level_mapping, undefined);
+});
+
 test("Dataset Expansion v1 abbey sample separates lexical, historical, phonetic and literary claims", () => {
   for (const query of ["abbey", "abbaye", "abbé", "abbesse", "修道院", "bi", "bei", "蓓蕾"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "abbey", `lookup failed for ${query}`);

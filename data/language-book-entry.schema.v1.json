@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.0.5" },
+    "dataset_version": { "const": "1.2.1" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
@@ -87,6 +87,29 @@
         },
         "phonetic_observation": { "type": "array" },
         "semantic_structure": { "type": "object", "required": ["concepts", "relation", "status"] },
+        "root_level_mapping": {
+          "type": "object",
+          "required": ["version", "translation", "latin_decomposition", "semantic_primitives", "chinese_structural_candidates", "geometry_mapping", "traditional_chinese_construction", "whole_candidates", "evidence_boundary"],
+          "properties": {
+            "version": { "const": "1.0" },
+            "translation": { "type": "object", "required": ["source", "target", "status"] },
+            "latin_decomposition": { "type": "object", "required": ["status", "chain", "components", "modern_verse_note"] },
+            "semantic_primitives": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+            "chinese_structural_candidates": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["character", "reading", "roles", "evidence_status", "candidate_grade", "historical_relation", "note"]
+              }
+            },
+            "geometry_mapping": { "type": "object", "required": ["status", "chain", "boundary"] },
+            "traditional_chinese_construction": { "type": "object", "required": ["status", "chain", "boundary"] },
+            "whole_candidates": { "type": "array", "items": { "type": "string" } },
+            "evidence_boundary": { "$ref": "#/$defs/localized" }
+          },
+          "additionalProperties": false
+        },
         "related_words": {
           "type": "array",
           "items": {

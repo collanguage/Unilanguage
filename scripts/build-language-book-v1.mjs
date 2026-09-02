@@ -6,8 +6,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const legacy = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book.v0.6.json"), "utf8"));
 const out = path.join(root, "data", "language-book.v1.0.json");
 const authoredEntriesDirectory = path.join(root, "data", "entries");
-const migrationDate = "2026-08-30";
-const releaseDate = "2026-08-31";
+const migrationDate = "2026-09-02";
+const releaseDate = "2026-09-02";
 const localized = (en, zh) => ({ en, "zh-Hans": zh });
 const clean = (values) => [...new Set(values.filter((value) => value !== null && value !== undefined && String(value).trim()).map(String))];
 const sourceMap = new Map(legacy.sources.map((item) => [item.source_id, item]));
@@ -29,9 +29,9 @@ const custom = {
   universe: {
     title: localized("Universe · 宇宙", "Universe · 宇宙"),
     mappingStatus: "Supported", mappingLevel: "C", historical: "Not claimed",
-    semantic: ["SPACE", "TIME", "TOTALITY", "ONE", "TURN"],
+    semantic: ["ONE", "TURN", "WHOLE", "SPACE", "TIME", "COSMOS"],
     proposition: localized("The universe is a poem written by existence itself.", "宇宙是存在本身写下的一首诗。"),
-    note: localized("SPACE + TIME and ONE + TURN are compared as semantic structures; selected sound networks remain experimental.", "SPACE + TIME 与 ONE + TURN 作为语义结构比较；选定的声音网络仍属实验性。"),
+    note: localized("Standard translation (宇宙), Latin root-level structure, Chinese semantic candidates and cognitive hypotheses are independent objects. No cross-language cognacy or physical cosmology is inferred.", "标准翻译（宇宙）、拉丁词根级结构、汉语语义候选与认知假说是彼此独立的对象；不据此推断跨语言同源或宇宙物理结构。"),
   },
   man: {
     title: localized("Man · Human", "Man · 人 · 男"),
@@ -199,6 +199,129 @@ function migrateEntry(entry) {
 }
 
 const entries = legacy.entries.map(migrateEntry);
+
+function upgradeUniverse(entry) {
+  entry.primary_mapping = {
+    ...entry.primary_mapping,
+    mapping_type: "Standard lexical translation",
+    rationale: localized("Translation is kept as the lexical baseline. Language Book mapping begins with the independently evidenced semantic operations inside Latin universus and compares Chinese candidates without claiming cognacy.", "翻译仅作为词义底座；Language Book Mapping 从拉丁语 universus 内部有独立证据的语义操作出发，再比较汉语候选，不主张同源。"),
+  };
+  entry.evidence = {
+    Historical: {
+      status: "Established", confidence: "High",
+      summary: localized("Latin universus is historically analyzed as unus + versus (the participial form of vertere): one + turned, hence all together or whole. Chinese character histories are evaluated separately.", "拉丁语 universus 的标准历史分析为 unus + versus（vertere 的分词形式）：一＋转成，继而表示共同整体；汉字词史另行评估。"),
+      items: [
+        { evidence_id: "EVID-UNIVERSE-LATIN-001", claim: localized("universus: unus + versus / verto, ‘turned into one; combined into one whole.’", "universus：unus＋versus／verto，即“转成一个、合为整体”。"), status: "Established", confidence: "High", source_refs: ["REF-LEWIS-SHORT-UNIVERSUS", "REF-MW-UNIVERSE", "REF-CNRTL-UNIVERS"] },
+        { evidence_id: "EVID-UNIVERSE-ZHUAN-001", claim: localized("轉 is glossed as 運也 in Shuowen; later lexicographic material records motion and rotation senses.", "《说文》释“轉”为“運也”；后世字书记录移动、旋转义。"), status: "Established", confidence: "High", source_refs: ["REF-ZDIC-ZHUAN"] },
+        { evidence_id: "EVID-UNIVERSE-WO-001", claim: localized("斡 has an independently attested turn/rotate sense: ‘斡，轉也.’", "“斡”有独立可证的旋转义：“斡，轉也”。"), status: "Established", confidence: "High", source_refs: ["REF-CTEXT-WO", "REF-ZDIC-WO"] },
+        { evidence_id: "EVID-UNIVERSE-WO-002", claim: localized("渦 is attested as 回川 with the gloss 旋流, supporting eddy/whirlpool rather than a cross-language origin claim.", "“渦”见“回川”并注“旋流”，支持旋流／漩涡义，不支持跨语言同源。"), status: "Established", confidence: "High", source_refs: ["REF-CTEXT-WHIRLPOOL", "REF-ZDIC-WHIRLPOOL"] },
+        { evidence_id: "EVID-UNIVERSE-YUZHOU-001", claim: localized("Huainanzi distinguishes 宙 as past-to-present time and 宇 as the four directions plus above and below.", "《淮南子》以“宙”指古往今来的时间，以“宇”指四方上下的空间。"), status: "Established", confidence: "High", source_refs: ["REF-CTEXT-HUAINANZI", "REF-ZDIC-YUZHOU"] },
+      ],
+      source_refs: ["REF-LEWIS-SHORT-UNIVERSUS", "REF-MW-UNIVERSE", "REF-CNRTL-UNIVERS", "REF-ZDIC-ZHUAN", "REF-CTEXT-WO", "REF-ZDIC-WO", "REF-CTEXT-WHIRLPOOL", "REF-ZDIC-WHIRLPOOL", "REF-CTEXT-HUAINANZI", "REF-ZDIC-YUZHOU"],
+    },
+    "Phonetic-Semantic": {
+      status: "Candidate", confidence: "Low",
+      summary: localized("Modern Mandarin wò/wō forms are recorded as a testable sound–meaning cluster. Shared modern syllables do not establish common Chinese ancestry or relation to Latin VERS/VERT.", "现代普通话 wò／wō 形式作为可检验音义簇记录；现代音节相同既不证明汉字彼此同源，也不证明它们与拉丁 VERS／VERT 同源。"),
+      items: [
+        { evidence_id: "HYP-WO-ROTATION-CLUSTER", claim: localized("Modern 斡 wò, 涡 wō, 窝 wō and 蜗 wō may be compared around TURN / CURVE / ROTATION, with separate lexical evidence for every character.", "现代“斡 wò、涡 wō、窝 wō、蜗 wō”可围绕 TURN／CURVE／ROTATION 比较，但每个字须各用独立词义证据。"), status: "Untested", confidence: "Low", source_refs: ["REF-ZDIC-WO", "REF-ZDIC-WHIRLPOOL", "REF-ZDIC-NEST", "REF-ZDIC-SNAIL"] },
+      ],
+      source_refs: ["REF-ZDIC-WO", "REF-ZDIC-WHIRLPOOL", "REF-ZDIC-NEST", "REF-ZDIC-SNAIL"],
+    },
+    Cognitive: {
+      status: "Interpretive", confidence: "Medium",
+      summary: localized("The comparison models two independently evidenced constructions—ONE + TURNED → WHOLE and SPACE + TIME → COSMOS—then marks ROTATION → VORTEX / CURL / ENCLOSURE as a cognitive-geometric extension.", "比较并列两条独立有据的构词结构——ONE＋TURNED→WHOLE 与 SPACE＋TIME→COSMOS；ROTATION→VORTEX／CURL／ENCLOSURE 另标为认知—几何延伸。"),
+      items: [
+        { evidence_id: "MAP-UNIVERSE-GEOMETRY-001", claim: localized("Abstract → Motion → Geometry → Symbol: TURN → ROTATION → VORTEX / CURL / ENCLOSURE.", "抽象→动作→几何→符号：TURN→ROTATION→VORTEX／CURL／ENCLOSURE。"), status: "Interpretive", confidence: "Medium", source_refs: ["REF-ZDIC-WHIRLPOOL", "REF-ZDIC-NEST", "REF-ZDIC-SNAIL"] },
+      ],
+      source_refs: ["REF-ZDIC-WHIRLPOOL", "REF-ZDIC-NEST", "REF-ZDIC-SNAIL", "REF-ZDIC-ZHOU", "REF-ZDIC-HE", "REF-ZDIC-QUAN"],
+    },
+    Speculative: {
+      status: "Candidate", confidence: "Low",
+      summary: localized("Cognitive Trace, the author’s spiral-motion proposal, and Cosmic Motion Encoding are explicitly speculative/testable. Etymology does not establish a scientific model of the universe.", "语言认知痕迹、作者螺旋运动设想与宇宙运动编码均明确标为推测性／可检验；词源不能建立宇宙的科学模型。"),
+      items: [
+        { evidence_id: "HYP-COGNITIVE-TRACE-001", claim: localized("Language may preserve traces of how earlier human communities perceived, categorized, and modeled the world.", "语言可能保存早期人类群体感知、分类和构造世界模型的痕迹。"), status: "Speculative/Testable", confidence: "Low", source_refs: [] },
+        { evidence_id: "HYP-UNIVERSE-SPIRAL-001", claim: localized("Perhaps ancient people recognized rotational or spiral motion in the universe and preserved that cognition in structures such as universe.", "也许古人已经认识到宇宙具有旋转或螺旋式运动，并将这种认知保留在 universe 一类语言结构之中。"), status: "Speculative/Testable", confidence: "Low", source_refs: [] },
+        { evidence_id: "HYP-COSMIC-MOTION-ENCODING-001", claim: localized("Terms for cosmic totality may recruit ONE / TURN / CYCLE / ENCLOSE / SPACE / TIME more often than suitable controls across languages and cultures.", "跨语言／文化的宇宙整体词汇，是否比适当对照更频繁调用 ONE／TURN／CYCLE／ENCLOSE／SPACE／TIME。"), status: "Untested", confidence: "Low", source_refs: [] },
+      ],
+      source_refs: [],
+    },
+  };
+  entry.phonetic_observation = [{
+    observation_id: "PHON-WO-ROTATION-001",
+    claim: localized("Modern Mandarin: 斡 wò, 涡 wō, 窝 wō, 蜗 wō. Their nearby modern forms motivate a cluster test only.", "现代普通话：斡 wò、涡 wō、窝 wō、蜗 wō；相近的现代读音只用于提出聚类检验。"),
+    status: "Candidate",
+    limitations: localized("No historical sound correspondence, shared Chinese etymon or Latin–Chinese cognacy is claimed. Historical pronunciations are omitted here unless tied to a named reconstruction or lexicographic source.", "不主张规律历史音变、汉字共同语源或拉丁—汉语同源；未能逐项绑定具名重构或字书来源的历史音不写入。"),
+  }];
+  entry.semantic_structure = { concepts: ["ONE", "TURN", "WHOLE", "ROTATION", "VORTEX", "CURL", "ENCLOSURE", "SPACE", "TIME", "COSMOS"], relation: "ONE + TURNED → WHOLE | TURN → ROTATION → VORTEX / CURL / ENCLOSURE | SPACE + TIME → COSMOS", status: "Layered: Established + Interpretive" };
+  entry.root_level_mapping = {
+    version: "1.0",
+    translation: { source: "universe", target: "宇宙", status: "Standard lexical translation" },
+    latin_decomposition: {
+      status: "Established",
+      chain: "Latin universus → UNI (unus) + VERS (versus ← vertere) → ONE + TURNED → WHOLE",
+      components: [
+        { form: "UNI / unus", primitive: "ONE", status: "Established", source_refs: ["REF-MW-UNIVERSE", "REF-LEWIS-SHORT-UNUS"] },
+        { form: "VERS / versus ← vertere", primitive: "TURN / TURNED", status: "Established", source_refs: ["REF-MW-UNIVERSE", "REF-LEWIS-SHORT-VERTERE"] },
+        { form: "universus", primitive: "WHOLE / ENTIRE / ALL TOGETHER", status: "Established", source_refs: ["REF-LEWIS-SHORT-UNIVERSUS", "REF-CNRTL-UNIVERS"] },
+      ],
+      modern_verse_note: localized("Modern English verse ‘poetic line’ belongs to the wider historical TURN family through Latin versus ‘line/row’; it is not the operative modern meaning used to decompose universe.", "现代英语 verse“诗行”虽经拉丁 versus“行列”属于更广的 TURN 词族，但不是拆解 universe 时采用的现代核心义。"),
+    },
+    semantic_primitives: ["ONE", "TURN", "WHOLE", "ROTATION", "VORTEX", "CURL", "ENCLOSURE", "SPACE", "TIME", "COSMOS"],
+    chinese_structural_candidates: [
+      { character: "一", reading: "yī", roles: ["ONE"], evidence_status: "Supported lexical mapping", candidate_grade: "Direct structural candidate", historical_relation: "Not claimed", note: localized("Direct Chinese semantic equivalent for ONE.", "ONE 的直接汉语语义对应。") },
+      { character: "转／轉", reading: "zhuǎn / zhuàn", roles: ["TURN", "ROTATION"], evidence_status: "Established lexical meaning", candidate_grade: "Direct semantic candidate", historical_relation: "Not claimed", note: localized("Shuowen glosses 轉 as 運也; later records include motion and rotation.", "《说文》释“轉”为“運也”；后世记录移动与旋转义。") },
+      { character: "斡", reading: "wò", roles: ["TURN", "ROTATION"], evidence_status: "Established lexical meaning", candidate_grade: "Strong semantic candidate", historical_relation: "Not claimed", note: localized("Guangya/lexicographic record: 斡，轉也. No Latin relation follows.", "《广雅》等字书载“斡，轉也”；不能据此推出拉丁语关系。") },
+      { character: "涡／渦", reading: "wō", roles: ["VORTEX", "ROTATION"], evidence_status: "Established lexical meaning", candidate_grade: "Geometry candidate", historical_relation: "Not claimed", note: localized("A rotating current / eddy; historical lexicography records 回川 with the gloss 旋流.", "旋转水流／漩涡；字书有“回川”并注“旋流”。") },
+      { character: "窝／窩", reading: "wō", roles: ["CURL", "ENCLOSURE", "RECESS"], evidence_status: "Modern meaning + later lexicography", candidate_grade: "Cognitive/Visual Candidate", historical_relation: "Not claimed", note: localized("Nest, recess and ‘bend’ motivate enclosure/curve imagery; a historical ROTATION sense is not established.", "巢穴、凹陷与“弄弯”可引出包围／曲线意象；未确立历史 ROTATION 义。") },
+      { character: "蜗／蝸", reading: "wō", roles: ["SPIRAL-FORM", "CURL"], evidence_status: "Entity meaning + visual form", candidate_grade: "Cognitive/Visual Candidate", historical_relation: "Not claimed", note: localized("The word denotes a snail; spiral geometry comes from the shell’s form, not from a lexical meaning ‘rotate.’", "本字指蜗牛；螺旋几何来自壳的形态，不是“旋转”的词汇义。") },
+      { character: "周", reading: "zhōu", roles: ["AROUND", "CYCLE", "COMPLETE", "WHOLE"], evidence_status: "Established lexical meanings", candidate_grade: "Semantic result candidate", historical_relation: "Not claimed", note: localized("Around, cycle, complete/all; semantically useful but outside the modern WO sound cluster.", "具有环绕、循环、周全／全部等义；语义上有用，但不属于现代 WO 音簇。") },
+      { character: "合", reading: "hé", roles: ["JOIN", "WHOLE"], evidence_status: "Established lexical meaning", candidate_grade: "Whole/Totality candidate", historical_relation: "Not claimed", note: localized("Joining/closing models the result of bringing parts together, not TURN itself.", "聚合／闭合可表示诸部分成为整体的结果，并非 TURN 本身。") },
+      { character: "全", reading: "quán", roles: ["COMPLETE", "WHOLE"], evidence_status: "Established lexical meaning", candidate_grade: "Whole/Totality candidate", historical_relation: "Not claimed", note: localized("Complete/entire models the outcome WHOLE, not the turning operation.", "完整／全部对应结果 WHOLE，并非旋转操作。") },
+    ],
+    geometry_mapping: { status: "Interpretive", chain: "Abstract → Motion → Geometry → Symbol | TURN → ROTATION → VORTEX / CURL / ENCLOSURE", boundary: localized("This is a cognitive-geometric mapping, not the historical meaning of every form in the chain.", "这是认知—几何映射，不是链上每一形式的历史词义。") },
+    traditional_chinese_construction: { status: "Historically supported conceptual construction", chain: "宇 + 宙 → SPACE + TIME → COSMOS", boundary: localized("This Chinese construction is independent of the Latin decomposition.", "这条中文传统构词链独立于拉丁语拆解。") },
+    whole_candidates: ["合", "全", "周"],
+    evidence_boundary: localized("Translation is not Mapping; semantic resemblance is not cognacy; etymology cannot by itself establish the physical structure of the universe.", "Translation 不等于 Mapping；语义相似不等于同源；不能仅由词源推断宇宙物理结构。"),
+  };
+  entry.hypotheses = [
+    { hypothesis_id: "HYP-WO-ROTATION-CLUSTER", type: "Phonetic-semantic cluster", claim: localized("Modern wò/wō forms may show a testable concentration around TURN / CURVE / ROTATION.", "现代 wò／wō 形式可能在 TURN／CURVE／ROTATION 周围形成可检验聚集。"), status: "Untested", confidence: "Low", supporting_cases: ["斡 wò", "涡 wō", "窝 wō", "蜗 wō"], counterexamples: ["Modern homophony does not establish shared origin", "窝 is primarily enclosure/bending", "蜗 is primarily an animal name"], testability: localized("Build a pre-registered Mandarin lexical sample with frequency-matched syllable controls and independent semantic coding.", "建立预注册的普通话词汇样本，以频率匹配音节作对照，并进行独立语义编码。"), experiment_link: null, source_refs: ["REF-ZDIC-WO", "REF-ZDIC-WHIRLPOOL", "REF-ZDIC-NEST", "REF-ZDIC-SNAIL"] },
+    { hypothesis_id: "HYP-COGNITIVE-TRACE-001", type: "Cognitive trace hypothesis", claim: localized("Language may preserve traces of how earlier human communities perceived, categorized, and modeled the world.", "语言可能保存早期人类群体感知、分类和构造世界模型的痕迹。"), status: "Speculative/Testable", confidence: "Low", supporting_cases: ["Latin ONE + TURNED → WHOLE", "Chinese SPACE + TIME → COSMOS"], counterexamples: ["Lexicalization can be opaque to later speakers", "Parallel metaphors need not reflect the same historical cognition"], testability: localized("Compare independently coded historical lexical constructions across unrelated language families and time periods.", "跨无亲缘语系与历史时期，对历史构词结构进行独立编码比较。"), experiment_link: null, source_refs: ["REF-LEWIS-SHORT-UNIVERSUS", "REF-CTEXT-HUAINANZI"] },
+    { hypothesis_id: "HYP-UNIVERSE-SPIRAL-001", type: "Author hypothesis", claim: localized("Perhaps ancient people recognized rotational or spiral motion in the universe and preserved that cognition in structures such as universe.", "也许古人已经认识到宇宙具有旋转或螺旋式运动，并将这种认知保留在 universe 一类语言结构之中。"), status: "Speculative/Testable", confidence: "Low", supporting_cases: ["TURN is historically present in the Latin formation"], counterexamples: ["Historical evidence: Unestablished", "Scientific claim: not established by etymology", "TURN → spiral cosmos is an additional inference"], testability: localized("Require independent historical texts showing a cosmic rotation model linked to the lexical choice; etymology alone is insufficient.", "必须找到独立历史文本，显示宇宙旋转模型与该词汇选择有关；仅凭词源不足。"), experiment_link: null, source_refs: ["REF-LEWIS-SHORT-UNIVERSUS"] },
+    { hypothesis_id: "HYP-COSMIC-MOTION-ENCODING-001", type: "Cross-linguistic semantic-frequency hypothesis", claim: localized("Cosmic-totality expressions may recruit ONE / TURN / CYCLE / ENCLOSE / SPACE / TIME more often than matched non-cosmic concepts.", "表达宇宙整体的词语，可能比匹配的非宇宙概念更频繁调用 ONE／TURN／CYCLE／ENCLOSE／SPACE／TIME。"), status: "Untested", confidence: "Low", supporting_cases: ["universus", "宇宙"], counterexamples: ["Current examples are too few", "Borrowing and genealogical dependence must be controlled"], testability: localized("Pre-register languages, etymological sources, semantic coding, genealogical controls and a comparison baseline.", "预注册语言样本、词源来源、语义编码、谱系控制与比较基线。"), experiment_link: null, source_refs: ["REF-LEWIS-SHORT-UNIVERSUS", "REF-CTEXT-HUAINANZI"] },
+  ];
+  entry.references = [
+    { reference_id: "REF-LEWIS-SHORT-UNIVERSUS", title: "Lewis & Short Latin Dictionary: universus", type: "historical dictionary", url: "https://archli.com/dictionary/lewis-short-latin-dictionary/universus-179957", path: null, provenance: "Lewis & Short (1879) digital edition" },
+    { reference_id: "REF-LEWIS-SHORT-UNUS", title: "Lewis & Short Latin Dictionary: unus", type: "historical dictionary", url: "https://classics.andrewgadsden.com/lewisandshort/entry/n49871", path: null, provenance: "Lewis & Short (1879) digital edition" },
+    { reference_id: "REF-LEWIS-SHORT-VERTERE", title: "Lewis & Short Latin Dictionary: vertere / verto", type: "historical dictionary", url: "https://alatius.com/ls/index.php?l=vertere", path: null, provenance: "Lewis & Short digital edition" },
+    { reference_id: "REF-MW-UNIVERSE", title: "Merriam-Webster: universe — word history", type: "dictionary", url: "https://www.merriam-webster.com/dictionary/universe", path: null, provenance: "external dictionary reference" },
+    { reference_id: "REF-CNRTL-UNIVERS", title: "CNRTL: étymologie de univers", type: "etymological dictionary", url: "https://www.cnrtl.fr/etymologie/univers", path: null, provenance: "French national lexical resource" },
+    { reference_id: "REF-MW-VERSE", title: "Merriam-Webster: verse — word history", type: "dictionary", url: "https://www.merriam-webster.com/dictionary/verse", path: null, provenance: "external dictionary reference" },
+    { reference_id: "REF-CTEXT-HUAINANZI", title: "Chinese Text Project: Huainanzi, Qisu Xun", type: "primary-text database", url: "https://ctext.org/text.pl?if=gb&node=3206", path: null, provenance: "digitized classical text" },
+    { reference_id: "REF-ZDIC-YUZHOU", title: "漢典: 宇宙", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hans/%E5%AE%87%E5%AE%99", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "REF-ZDIC-ZHUAN", title: "漢典: 轉／转", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hans/%E8%BD%AC", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "REF-CTEXT-WO", title: "Chinese Text Project dictionary: 斡", type: "character/historical dictionary index", url: "https://ctext.org/dictionary.pl?char=%E6%96%A1&if=en", path: null, provenance: "indexed Shuowen, Guangyun, Kangxi and Hanyu references" },
+    { reference_id: "REF-ZDIC-WO", title: "漢典: 斡", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hant/%E6%96%A1", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "REF-CTEXT-WHIRLPOOL", title: "Chinese Text Project dictionary: 渦", type: "character/historical dictionary index", url: "https://ctext.org/dictionary.pl?char=%E6%B8%A6&if=en", path: null, provenance: "indexed classical and dictionary references" },
+    { reference_id: "REF-ZDIC-WHIRLPOOL", title: "漢典: 渦／涡", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hans/%E6%B6%A1", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "REF-ZDIC-NEST", title: "漢典: 窩／窝", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hans/%E7%AA%A9", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "REF-ZDIC-SNAIL", title: "漢典: 蝸／蜗", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hans/%E8%9C%97", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "REF-ZDIC-ZHOU", title: "漢典: 周", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hans/%E5%91%A8", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "REF-ZDIC-HE", title: "漢典: 合", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hans/%E5%90%88", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "REF-ZDIC-QUAN", title: "漢典: 全", type: "historical/modern dictionary compilation", url: "https://www.zdic.net/hans/%E5%85%A8", path: null, provenance: "external lexicographic reference" },
+    { reference_id: "SRC-LB-UNIVERSE", title: "Language Book · Universe", type: "language-book-page", url: null, path: "words/universe.html", provenance: "project editorial page" },
+    { reference_id: "SRC-PROTOCOL-MAPPING", title: "Protocol Book · Multidimensional Mapping Framework", type: "protocol-page", url: null, path: "protocol/protocol.mapping-framework.html", provenance: "project protocol" },
+  ];
+  entry.version = "Universe Root-Level Semantic Mapper v1.0 / Entry v2.0 / Schema v1.0";
+  entry.dates.modified = releaseDate;
+  entry.editorial_notes = [
+    localized("Language may preserve cognitive traces, but etymology alone cannot establish the physical structure of the universe.", "语言可以保存认知痕迹，但不能仅由词源反推出宇宙物理结构。"),
+    localized("No single Chinese character is selected as the unique primary structural mapping; candidates retain evidence-specific grades.", "不把任何单一汉字选作唯一主要结构映射；各候选保留各自证据等级。"),
+  ];
+  entry.search_terms = ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "轉", "斡", "涡", "渦", "窝", "窩", "蜗", "蝸", "周", "合", "全", "one", "whole", "rotation", "vortex", "curl", "enclosure", "space", "time", "cosmos"];
+  return entry;
+}
+
+upgradeUniverse(entries.find((entry) => entry.slug === "universe"));
 const atEntry = {
   id: "LB-en-at-003", slug: "at", title: localized("AT · 在 · 爱 | Love Is Presence", "AT · 在 · 爱｜爱在，世界就在"),
   languages: [
@@ -266,7 +389,7 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.2.0",
+  dataset_version: "1.2.1",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",
