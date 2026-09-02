@@ -7,10 +7,16 @@
 
   const DATASET_URL = "data/language-book.v1.0.json";
   const BROWSE_LANGUAGES = [
-    { code: "en", label: "English｜英语" },
-    { code: "zh-Hans", label: "中文｜Chinese" },
-    { code: "fr", label: "Français｜法语" },
+    { code: "en", label: "English｜英语", sortLabel: "A–Z" },
+    { code: "zh-Hans", label: "中文｜Chinese", sortLabel: "新华字典式笔画序" },
+    { code: "fr", label: "Français｜法语", sortLabel: "A–Z" },
   ];
+
+  const BROWSE_COLLATION = {
+    en: new Intl.Collator("en", { sensitivity: "base", numeric: true }),
+    "zh-Hans": new Intl.Collator("zh-Hans-u-co-stroke", { sensitivity: "base", numeric: true }),
+    fr: new Intl.Collator("fr", { sensitivity: "base", numeric: true }),
+  };
 
   // Schema v1.0 search_terms are strings without language metadata. Keep the
   // small number of browseable aliases that are not already in languages here
@@ -88,6 +94,10 @@
       }
     }
 
+    for (const group of groups) {
+      const collator = BROWSE_COLLATION[group.code];
+      group.forms.sort((left, right) => collator.compare(left.term, right.term));
+    }
     return groups;
   }
 

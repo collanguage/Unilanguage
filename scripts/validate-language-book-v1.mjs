@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.1", "Schema must remain 1.0.0 and Universe root-level release must be 1.2.1");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.2", "Schema must remain 1.0.0 and the sorted-browse release must be 1.2.2");
 check(dataset.entries.length === 37, "Universe upgrade must not change the 37-record entry count");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
@@ -77,6 +77,7 @@ check(light?.entry_status === "Published" && light?.mapping_status === "Candidat
 const universe = dataset.entries.find((entry) => entry.slug === "universe");
 check(universe?.primary_mapping.target.word === "宇宙" && universe?.primary_mapping.mapping_type === "Standard lexical translation", "Universe standard translation boundary changed");
 check(universe?.root_level_mapping?.version === "1.0", "Universe root-level mapper metadata missing");
+check(universe?.root_level_mapping?.featured_structural_mapping?.target === "斡" && universe.root_level_mapping.featured_structural_mapping.reading === "wò", "Universe featured structural mapping missing");
 check(universe?.root_level_mapping?.latin_decomposition?.chain === "Latin universus → UNI (unus) + VERS (versus ← vertere) → ONE + TURNED → WHOLE", "Universe Latin decomposition changed");
 check(universe?.root_level_mapping?.traditional_chinese_construction?.chain === "宇 + 宙 → SPACE + TIME → COSMOS", "Universe traditional Chinese construction changed");
 check(universe?.root_level_mapping?.chinese_structural_candidates?.length === 9, "Universe Chinese candidate evidence grades incomplete");

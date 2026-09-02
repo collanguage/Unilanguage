@@ -41,6 +41,20 @@ test("language browse is generated from unified record forms without changing re
   assert.equal(dataset.entries.filter((entry) => entry.mapping_status === "Candidate").length, candidatesBefore);
 });
 
+test("language browse follows A–Z for English/French and stroke collation for Chinese", () => {
+  const groups = new Map(dataApi.languageForms(dataset).map((group) => [group.code, group]));
+  for (const code of ["en", "fr"]) {
+    const terms = groups.get(code).forms.map((form) => form.term);
+    const expected = [...terms].sort(new Intl.Collator(code, { sensitivity: "base", numeric: true }).compare);
+    assert.deepEqual(terms, expected, `${code} browse forms are not alphabetized`);
+    assert.equal(groups.get(code).sortLabel, "A–Z");
+  }
+  const chinese = groups.get("zh-Hans").forms.map((form) => form.term);
+  const expectedChinese = [...chinese].sort(new Intl.Collator("zh-Hans-u-co-stroke", { sensitivity: "base", numeric: true }).compare);
+  assert.deepEqual(chinese, expectedChinese, "Chinese browse forms are not in stroke order");
+  assert.equal(groups.get("zh-Hans").sortLabel, "新华字典式笔画序");
+});
+
 test("required mapper queries preserve unified record and independent status axes", () => {
   const expected = { abdomen: "abdomen", abdominal: "abdomen", 肚子: "abdomen", abbey: "abbey", 修道院: "abbey", aberrant: "aberrant", 讹: "aberrant", at: "at", 在: "at", presence: "at" };
   for (const [query, slug] of Object.entries(expected)) {
@@ -72,7 +86,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.1");
+  assert.equal(dataset.dataset_version, "1.2.2");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -81,6 +95,17 @@ test("Universe is upgraded in place as the first root-level semantic-operation r
   assert.equal(universe.primary_mapping.target.word, "宇宙");
   assert.equal(universe.primary_mapping.mapping_type, "Standard lexical translation");
   assert.equal(universe.root_level_mapping.version, "1.0");
+  assert.deepEqual(universe.root_level_mapping.featured_structural_mapping, {
+    source: "universe",
+    target: "斡",
+    reading: "wò",
+    status: "Strong semantic candidate",
+    historical_relation: "Not claimed",
+    boundary: {
+      en: "Featured for the semantic operation TURN / ROTATION; it is not the standard translation and no Latin–Chinese cognacy is claimed.",
+      "zh-Hans": "用于突出 TURN／ROTATION 语义操作；它不是通用翻译，也不主张拉丁语与汉语同源。",
+    },
+  });
   assert.equal(universe.root_level_mapping.latin_decomposition.status, "Established");
   assert.match(universe.root_level_mapping.latin_decomposition.chain, /UNI \(unus\).*VERS \(versus ← vertere\).*WHOLE/);
   assert.equal(universe.root_level_mapping.traditional_chinese_construction.chain, "宇 + 宙 → SPACE + TIME → COSMOS");
@@ -104,6 +129,7 @@ test("Mapper renders optional root-level metadata without changing ordinary reco
   const mapper = fs.readFileSync(path.join(root, "js", "semantic-mapper.js"), "utf8");
   assert.match(mapper, /Root-Level Semantic Operations/);
   assert.match(mapper, /Translation ≠ Mapping/);
+  assert.match(mapper, /Featured structural mapping · 特色结构映射/);
   assert.match(mapper, /root_level_mapping/);
   assert.equal(dataApi.lookup(dataset, "sky").entry.root_level_mapping, undefined);
 });

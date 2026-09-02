@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.2.1" },
+    "dataset_version": { "const": "1.2.2" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
@@ -89,10 +89,23 @@
         "semantic_structure": { "type": "object", "required": ["concepts", "relation", "status"] },
         "root_level_mapping": {
           "type": "object",
-          "required": ["version", "translation", "latin_decomposition", "semantic_primitives", "chinese_structural_candidates", "geometry_mapping", "traditional_chinese_construction", "whole_candidates", "evidence_boundary"],
+          "required": ["version", "translation", "featured_structural_mapping", "latin_decomposition", "semantic_primitives", "chinese_structural_candidates", "geometry_mapping", "traditional_chinese_construction", "whole_candidates", "evidence_boundary"],
           "properties": {
             "version": { "const": "1.0" },
             "translation": { "type": "object", "required": ["source", "target", "status"] },
+            "featured_structural_mapping": {
+              "type": "object",
+              "required": ["source", "target", "reading", "status", "historical_relation", "boundary"],
+              "properties": {
+                "source": { "type": "string", "minLength": 1 },
+                "target": { "type": "string", "minLength": 1 },
+                "reading": { "type": "string", "minLength": 1 },
+                "status": { "type": "string", "minLength": 1 },
+                "historical_relation": { "type": "string", "minLength": 1 },
+                "boundary": { "$ref": "#/$defs/localized" }
+              },
+              "additionalProperties": false
+            },
             "latin_decomposition": { "type": "object", "required": ["status", "chain", "components", "modern_verse_note"] },
             "semantic_primitives": { "type": "array", "minItems": 3, "items": { "type": "string" } },
             "chinese_structural_candidates": {

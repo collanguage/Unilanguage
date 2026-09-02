@@ -57,6 +57,7 @@
 
   function renderEntry(entry) {
     const mapping = entry.primary_mapping;
+    const featured = entry.root_level_mapping?.featured_structural_mapping;
     const evidence = Object.entries(entry.evidence).map(([name, track]) => evidenceCard(name, track)).join("");
     const literature = entry.literary_layer;
     const isNamedEntity = entry.record_kind === "named_entity";
@@ -64,9 +65,12 @@
     const mappingLayerTitle = isNamedEntity ? "Named Entity Forms · 专名形式" : "Primary Mapping · 主要 Mapping";
     const mappingLayerDescription = isNamedEntity ? "Forms identify the same proper-named place; reported name meanings remain source-attributed evidence. · 不同形式指向同一专名地点；名称释义保留来源归属。" : "One source word → one primary Chinese mapping. Historical etymology is not embedded here. · 一个来源词 → 一个主要汉语 Mapping；历史词源不嵌入此对象。";
     const entityForms = isNamedEntity ? `<div class="mapping-facts">${entry.languages.map((form) => `<div><span class="label">${escapeHtml(form.name)} · ${escapeHtml(form.role)}</span><strong${form.code === "bo" ? ' lang="bo"' : ""}>${escapeHtml(form.word)}</strong><p>${escapeHtml(form.pronunciation)}</p></div>`).join("")}</div>` : "";
+    const headerMapping = featured
+      ? `<h2>${escapeHtml(featured.source)} ↔ <span lang="zh-Hans">${escapeHtml(featured.target)}</span> <small>${escapeHtml(featured.reading)}</small></h2><p class="featured-mapping-label">Featured structural mapping · 特色结构映射 <span>${escapeHtml(featured.status)} · Historical relation: ${escapeHtml(featured.historical_relation)}</span></p><p class="standard-translation"><span>Standard translation · 通用翻译</span><strong lang="zh-Hans">${escapeHtml(mapping.target.word)}</strong> <small>${escapeHtml(mapping.target.pronunciation)}</small></p>`
+      : `<h2>${escapeHtml(mapping.source.word)} ↔ ${escapeHtml(mapping.target.word)}</h2><p class="entry-language">${escapeHtml(mapping.source.language)} ${escapeHtml(mapping.source.pronunciation)} → ${escapeHtml(mapping.target.language)} ${escapeHtml(mapping.target.pronunciation)}</p>`;
     ui.state.innerHTML = ""; ui.result.hidden = false;
-    ui.result.innerHTML = `<header class="entry-header"><div><p class="mapper-kicker">${recordLabel} · Schema v1.0</p><h2>${escapeHtml(mapping.source.word)} ↔ ${escapeHtml(mapping.target.word)}</h2><p class="entry-language">${escapeHtml(mapping.source.language)} ${escapeHtml(mapping.source.pronunciation)} → ${escapeHtml(mapping.target.language)} ${escapeHtml(mapping.target.pronunciation)}</p></div><span class="record-badge status-${entry.entry_status.toLowerCase()}">${isNamedEntity ? "Named Entity<br>Literary Entry" : `${escapeHtml(entry.entry_status)}<br>Entry status only`}</span></header>
-      <div class="status-grid">${statusCard("Entry Status · 词条", entry.entry_status, entry.entry_status === "Published" ? "published" : "candidate")}${statusCard("Mapping Status · 映射", entry.mapping_status)}${statusCard("Mapping Level · 层级", entry.mapping_level)}${statusCard("Historical Relation · 历史关系", entry.historical_relation_status, "unestablished")}${statusCard("Literary Layer · 文学层", literature.status, literature.status === "Published" ? "published" : "planned")}</div>
+    ui.result.innerHTML = `<header class="entry-header"><div><p class="mapper-kicker">${recordLabel} · Schema v1.0</p>${headerMapping}</div><span class="record-badge status-${entry.entry_status.toLowerCase()}">${isNamedEntity ? "Named Entity<br>Literary Entry" : `${escapeHtml(entry.entry_status)}<br>Entry status only`}</span></header>
+      <div class="status-grid">${statusCard("Entry Status · 词条", entry.entry_status, entry.entry_status === "Published" ? "published" : "candidate")}${statusCard(featured ? "Translation Status · 翻译" : "Mapping Status · 映射", entry.mapping_status)}${statusCard("Mapping Level · 层级", entry.mapping_level)}${statusCard("Historical Relation · 历史关系", entry.historical_relation_status, "unestablished")}${statusCard("Literary Layer · 文学层", literature.status, literature.status === "Published" ? "published" : "planned")}</div>
       <section class="lexical-meaning"><h3>Mapping Summary · 映射摘要</h3><p>${localized(mapping.meaning)}</p><p><strong>${escapeHtml(mapping.mapping_type)}</strong> · ${localized(mapping.rationale)}</p></section>
       <p class="evidence-boundary"><strong>Editorial boundary · 编辑边界：</strong> An entry may be published; a hypothesis must be graded; literature may explore freely; evidence must be evaluated independently. · 词条可以发表，假说必须标级，文学可以自由展开，证据必须独立核验。</p>
       <div class="classification-stack">
@@ -92,7 +96,7 @@
 
   function renderLanguageBrowse() {
     const groups = UnilanguageData.languageForms(dataset);
-    ui.languageGroups.innerHTML = groups.map((group) => `<section class="language-group" aria-labelledby="language-${escapeHtml(group.code)}"><h3 id="language-${escapeHtml(group.code)}">${escapeHtml(group.label)}</h3><div class="language-form-list">${group.forms.map((form) => `<button type="button" data-language-form="${escapeHtml(form.term)}" title="${escapeHtml(form.role)} · ${escapeHtml(form.slug)}">${escapeHtml(form.term)}</button>`).join("")}</div></section>`).join("");
+    ui.languageGroups.innerHTML = groups.map((group) => `<section class="language-group" aria-labelledby="language-${escapeHtml(group.code)}"><h3 id="language-${escapeHtml(group.code)}"><span>${escapeHtml(group.label)}</span><small>${escapeHtml(group.sortLabel)}</small></h3><div class="language-form-list">${group.forms.map((form) => `<button type="button" data-language-form="${escapeHtml(form.term)}" title="${escapeHtml(form.role)} · ${escapeHtml(form.slug)}">${escapeHtml(form.term)}</button>`).join("")}</div></section>`).join("");
     ui.languageGroups.querySelectorAll("[data-language-form]").forEach((button) => button.addEventListener("click", () => runLookup(button.dataset.languageForm)));
   }
 

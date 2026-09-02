@@ -256,6 +256,11 @@ function upgradeUniverse(entry) {
   entry.root_level_mapping = {
     version: "1.0",
     translation: { source: "universe", target: "宇宙", status: "Standard lexical translation" },
+    featured_structural_mapping: {
+      source: "universe", target: "斡", reading: "wò",
+      status: "Strong semantic candidate", historical_relation: "Not claimed",
+      boundary: localized("Featured for the semantic operation TURN / ROTATION; it is not the standard translation and no Latin–Chinese cognacy is claimed.", "用于突出 TURN／ROTATION 语义操作；它不是通用翻译，也不主张拉丁语与汉语同源。"),
+    },
     latin_decomposition: {
       status: "Established",
       chain: "Latin universus → UNI (unus) + VERS (versus ← vertere) → ONE + TURNED → WHOLE",
@@ -389,7 +394,7 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.2.1",
+  dataset_version: "1.2.2",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",
