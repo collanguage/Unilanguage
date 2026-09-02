@@ -327,6 +327,24 @@ function upgradeUniverse(entry) {
 }
 
 upgradeUniverse(entries.find((entry) => entry.slug === "universe"));
+
+function upgradeSound(entry) {
+  const secondary = entry.legacy?.secondary_chinese_mappings?.find((item) => item.mapping_id === "MAP-sound-secondary-sheng");
+  entry.featured_mapping = {
+    source: "sound",
+    target: secondary?.chinese_form || "声",
+    reading: secondary?.pinyin || "shēng",
+    display_label: "Featured lexical mapping · 特色词义映射",
+    status: "Supported lexical equivalent",
+    historical_relation: "Not claimed",
+    boundary: localized("声 is a concise, source-backed Chinese lexical form. 声音 remains the standard modern dictionary translation; no shared historical origin is claimed.", "“声”是有来源记录的简洁汉语词义形式；“声音”仍是现代通用词典翻译，不主张共同历史来源。"),
+    source_refs: ["SRC-LB-SOUND"],
+  };
+  entry.version = "Sound Featured Mapping v1.0 / Schema v1.0";
+  entry.dates.modified = releaseDate;
+}
+
+upgradeSound(entries.find((entry) => entry.slug === "sound"));
 const atEntry = {
   id: "LB-en-at-003", slug: "at", title: localized("AT · 在 · 爱 | Love Is Presence", "AT · 在 · 爱｜爱在，世界就在"),
   languages: [
@@ -394,7 +412,7 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.2.2",
+  dataset_version: "1.2.3",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",

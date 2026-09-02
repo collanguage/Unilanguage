@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.2",
+  "dataset_version": "1.2.3",
   "published_at": "2026-09-02",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -1797,7 +1797,7 @@
         }
       ],
       "author": "Jinkai Liu",
-      "version": "source page current / dataset 0.2.0 / G.1 migration",
+      "version": "Sound Featured Mapping v1.0 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-02",
@@ -1938,6 +1938,21 @@
         ],
         "author": "Jinkai Liu｜劉金凱",
         "version": "source page current / dataset 0.2.0 / G.1 migration"
+      },
+      "featured_mapping": {
+        "source": "sound",
+        "target": "声",
+        "reading": "shēng",
+        "display_label": "Featured lexical mapping · 特色词义映射",
+        "status": "Supported lexical equivalent",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "声 is a concise, source-backed Chinese lexical form. 声音 remains the standard modern dictionary translation; no shared historical origin is claimed.",
+          "zh-Hans": "“声”是有来源记录的简洁汉语词义形式；“声音”仍是现代通用词典翻译，不主张共同历史来源。"
+        },
+        "source_refs": [
+          "SRC-LB-SOUND"
+        ]
       }
     },
     {

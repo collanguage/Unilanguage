@@ -24,6 +24,7 @@
   const SEARCH_TERM_LANGUAGE_HINTS = {
     at: { presence: "en" },
     sky: { 盖: "zh-Hans" },
+    sound: { 声: "zh-Hans" },
   };
 
   function normalize(value) {

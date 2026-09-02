@@ -86,7 +86,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.2");
+  assert.equal(dataset.dataset_version, "1.2.3");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -133,6 +133,18 @@ test("Mapper renders optional root-level metadata without changing ordinary reco
   assert.match(mapper, /headline-translation/);
   assert.match(mapper, /root_level_mapping/);
   assert.equal(dataApi.lookup(dataset, "sky").entry.root_level_mapping, undefined);
+});
+
+test("Sound shows 声 as the featured form while preserving 声音 as standard translation", () => {
+  const sound = dataApi.lookup(dataset, "sound").entry;
+  assert.equal(sound.featured_mapping.target, "声");
+  assert.equal(sound.featured_mapping.reading, "shēng");
+  assert.equal(sound.featured_mapping.status, "Supported lexical equivalent");
+  assert.equal(sound.featured_mapping.historical_relation, "Not claimed");
+  assert.equal(sound.primary_mapping.target.word, "声音");
+  assert.equal(sound.primary_mapping.target.pronunciation, "shēngyīn");
+  assert.ok(sound.featured_mapping.source_refs.includes("SRC-LB-SOUND"));
+  assert.ok(dataApi.languageForms(dataset).find((group) => group.code === "zh-Hans").forms.some((form) => form.term === "声" && form.recordId === sound.id));
 });
 
 test("Dataset Expansion v1 abbey sample separates lexical, historical, phonetic and literary claims", () => {
