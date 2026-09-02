@@ -31,7 +31,7 @@ test("language browse is generated from unified record forms without changing re
   const terms = (code) => groups.get(code).map((form) => form.term);
 
   for (const term of ["abdomen", "abdominal", "aberrant", "abbey", "sky", "light", "at", "presence", "advance"]) assert.ok(terms("en").includes(term), `missing English browse form ${term}`);
-  for (const term of ["肚", "肚子", "讹", "修道院", "在", "爱", "盖", "往"]) assert.ok(terms("zh-Hans").includes(term), `missing Chinese browse form ${term}`);
+  for (const term of ["肚子", "反常的", "修道院", "在", "盖", "斡", "声", "往", "南迦巴瓦"]) assert.ok(terms("zh-Hans").includes(term), `missing Chinese browse form ${term}`);
   for (const term of ["abdomen", "abdominal", "abdominale", "aberrant", "aberrante", "abbaye", "abbé", "abbesse", "erreur"]) assert.ok(terms("fr").includes(term), `missing French browse form ${term}`);
 
   for (const group of groups.values()) {
@@ -39,6 +39,21 @@ test("language browse is generated from unified record forms without changing re
   }
   assert.equal(dataset.entries.filter((entry) => entry.entry_status === "Published").length, publishedBefore);
   assert.equal(dataset.entries.filter((entry) => entry.mapping_status === "Candidate").length, candidatesBefore);
+});
+
+test("Chinese browse presents exactly one concise explanation per record", () => {
+  const chinese = dataApi.languageForms(dataset).find((group) => group.code === "zh-Hans").forms;
+  const visibleCount = dataset.entries.filter((entry) => entry.mapping_status !== "Rejected" && entry.classification_status !== "rejected").length;
+  assert.equal(chinese.length, visibleCount);
+  assert.equal(new Set(chinese.map((form) => form.recordId)).size, visibleCount);
+  for (const unwanted of ["暂缓／中止状态", "绝对的／完全的", "南迦巴瓦峰", "放弃职责", "肚", "向后／吃惊地", "反常的／偏离常规的", "大量存在／繁盛", "声音", "宇宙", "天空", "爱"]) {
+    assert.ok(!chinese.some((form) => form.term === unwanted), `redundant Chinese browse form remains: ${unwanted}`);
+  }
+  const preferred = Object.fromEntries(chinese.map((form) => [form.slug, form.term]));
+  assert.equal(preferred.aback, "吃惊地");
+  assert.equal(preferred.absolute, "绝对的");
+  assert.equal(preferred.abdomen, "肚子");
+  assert.equal(preferred["namcha-barwa"], "南迦巴瓦");
 });
 
 test("language browse follows A–Z for English/French and stroke collation for Chinese", () => {

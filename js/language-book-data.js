@@ -23,8 +23,18 @@
   // in the adapter layer instead of changing the core schema.
   const SEARCH_TERM_LANGUAGE_HINTS = {
     at: { presence: "en" },
-    sky: { 盖: "zh-Hans" },
-    sound: { 声: "zh-Hans" },
+  };
+
+  // The Chinese browse column is an index, not a thesaurus. Keep one concise
+  // display form per unified record while preserving every synonym as a search
+  // term and inside the record itself.
+  const PREFERRED_CHINESE_BROWSE_FORMS = {
+    sky: "盖", universe: "斡", human: "男", sound: "声", language: "朗", water: "哗", advance: "往", light: "籁", at: "在",
+    "a-indefinite-article": "一", aback: "吃惊地", abandon: "放弃", abash: "使窘迫", abbey: "修道院", abbreviate: "缩写",
+    abdicate: "退位", abdomen: "肚子", aberrant: "反常的", abeyance: "暂缓", abhor: "憎恶", abound: "大量存在",
+    above: "在……上方", abridge: "缩短", absolute: "绝对的", acumen: "洞察力", aliment: "食物", convent: "女修道院",
+    figure: "图形", fil: "线", form: "形式", generate: "产生", marchand: "商人", media: "媒体", montrer: "显示",
+    "namcha-barwa": "南迦巴瓦", press: "按压", sign: "符号",
   };
 
   function normalize(value) {
@@ -83,6 +93,7 @@
 
     for (const entry of visible) {
       for (const form of entry.languages || []) {
+        if (form.code === "zh-Hans") continue;
         const parts = splitRecordedForm(form.word);
         const searchable = new Set(searchableForms(entry));
         const terms = parts.every((term) => searchable.has(normalize(term))) ? parts : [form.word];
@@ -93,6 +104,8 @@
         const code = hints[normalize(term)];
         if (code) add(entry, code, term, "query-alias", "search_terms");
       }
+      const chineseTerm = PREFERRED_CHINESE_BROWSE_FORMS[entry.slug] || splitRecordedForm(entry.primary_mapping?.target?.word)[0];
+      if (chineseTerm) add(entry, "zh-Hans", chineseTerm, "preferred-index-form", "browse_adapter");
     }
 
     for (const group of groups) {
