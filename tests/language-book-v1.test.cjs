@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.9");
+  assert.equal(dataset.dataset_version, "1.2.10");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -225,16 +225,20 @@ test("Aback separates standard translation, historical structure, featured candi
   assert.match(page, /字母名称不能替代词内发音/);
 });
 
-test("Abash publishes the featured 拍 candidate, standard meaning and Collanguage prose on separate tracks", () => {
+test("Abash separates standard translation, experimental clusters, cognitive chain and project prose", () => {
   const abash = dataset.entries.find((entry) => entry.slug === "abash");
   assert.ok(abash);
   assert.equal(abash.entry_status, "Published");
   assert.equal(abash.primary_mapping.target.word, "使窘迫");
-  assert.equal(abash.featured_mapping.target, "拍");
-  assert.equal(abash.featured_mapping.reading, "pāi");
-  assert.match(abash.featured_mapping.status, /Low confidence/);
-  assert.equal(abash.featured_mapping.historical_relation, "Not claimed");
-  assert.match(abash.semantic_structure.relation, /a\.bash → bash ↔ 拍/);
+  assert.equal(abash.featured_mapping, undefined);
+  assert.equal(abash.chinese_internal_cluster.status, "Candidate");
+  assert.equal(abash.chinese_internal_cluster.confidence, "Low");
+  assert.equal(abash.chinese_internal_cluster.historical_relation, "Unestablished");
+  assert.equal(abash.chinese_internal_cluster.members.find((item) => item.character === "拍").modern_reading, "pāi");
+  assert.equal(abash.chinese_internal_cluster.members.find((item) => item.character === "怕").modern_reading, "pà");
+  assert.equal(abash.cognitive_chain.abstract, "IMPACT → STARTLE → FEAR / EMBARRASSMENT");
+  assert.equal(abash.cognitive_chain.status, "Cognitive / Experimental Mapping");
+  assert.match(abash.semantic_structure.relation, /Experimental: bash ↔ 拍/);
   assert.ok(abash.related_words.some((item) => item.word === "怕 pà" && item.status === "Interpretive"));
   assert.equal(abash.literary_layer.status, "Published");
   assert.match(abash.literary_layer.essay_prose[0].text["zh-Hant"], /通語 Collanguage.*葡萄園.*瑪娜花盛開/s);
@@ -244,10 +248,13 @@ test("Abash publishes the featured 拍 candidate, standard meaning and Collangua
   }
 
   const page = fs.readFileSync(path.join(root, "words", "abash.html"), "utf8");
-  assert.match(page, /<span>↔ 拍 <small>pāi<\/small><\/span><span>· 使窘迫<\/span>/);
+  assert.match(page, /<span>ABASH<\/span><span>· BASH<\/span><span>· 拍 <small>pāi<\/small><\/span><span>· 怕 <small>pà<\/small><\/span>/);
+  assert.match(page, /这里不是“abash＝拍”/);
+  assert.match(page, /IMPACT → STARTLE → FEAR \/ EMBARRASSMENT/);
   assert.match(page, /通向宇航时代的语言桥梁/);
+  assert.match(page, /文学可以连接原本不相干的事物；研究则负责判断这种连接是否具有可重复的结构/);
   assert.match(page, /我在我的葡萄園裡/);
-  assert.match(page, /历史上的 <em>abash<\/em> 不是 <em>a \+ bash<\/em>/);
+  assert.match(page, /历史上的 <em>abash<\/em> 不是现代 <em>a \+ bash<\/em>/);
 });
 
 test("Dictionary cards honor featured forms and keep standard translations visible", () => {

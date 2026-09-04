@@ -2,8 +2,8 @@
   "id": "LB-en-abash-034",
   "slug": "abash",
   "title": {
-    "en": "Abash · Pat · Bridge Between Languages",
-    "zh-Hans": "Abash · 拍 · 架起语言之间的桥梁"
+    "en": "Abash · Bash · 拍 · 怕",
+    "zh-Hans": "Abash · Bash · 拍 · 怕"
   },
   "languages": [
     {
@@ -43,19 +43,6 @@
       "pronunciation": "/bæʃ/"
     }
   ],
-  "featured_mapping": {
-    "source": "abash",
-    "target": "拍",
-    "reading": "pāi",
-    "display_label": "Featured sound–action candidate · 特色声音—动作候选",
-    "status": "Candidate · Low confidence",
-    "historical_relation": "Not claimed",
-    "boundary": {
-      "en": "拍 pāi is displayed first to preserve the author's ‘photograph → surprise/embarrassment’ association. The standard translation remains 使窘迫; abash is not historically a + bash.",
-      "zh-Hans": "先展示“拍”pāi，以保留作者“拍下→使人惊讶／窘迫”的联想；通用翻译仍是“使窘迫”，abash 在历史上并不是 a＋bash。"
-    },
-    "source_refs": ["REF-LANGUAGESBOOK-ABASH", "REF-MW-ABASH", "REF-MW-BASH"]
-  },
   "primary_mapping": {
     "mapping_id": "MAP-abash-primary",
     "source": {
@@ -105,25 +92,26 @@
           "confidence": "High",
           "source_refs": [
             "REF-MW-ABASH",
-            "REF-CNRTL-EBAHIR"
+            "REF-CNRTL-EBAHIR",
+            "REF-AHD-ABASH"
           ]
         }
       ],
-      "source_refs": ["REF-MW-ABASH", "REF-CNRTL-EBAHIR"]
+      "source_refs": ["REF-MW-ABASH", "REF-CNRTL-EBAHIR", "REF-AHD-ABASH"]
     },
     "Phonetic-Semantic": {
       "status": "Candidate",
       "confidence": "Low",
       "summary": {
-        "en": "Bash and 拍 pāi differ substantially in sound; the photograph scenario is an authored narrative association.",
-        "zh-Hans": "bash 与“拍”pāi 的读音差异明显；拍照场景是作者叙事联想。"
+        "en": "Bash ↔ 拍 pāi is a low-confidence phonetic-semantic candidate centered on IMPACT / HIT / STRIKE. Their sounds differ substantially, and no historical relation is claimed.",
+        "zh-Hans": "bash ↔ 拍 pāi 是以 IMPACT／HIT／STRIKE（冲击／击打）为核心的低可信度音义候选；两者读音差异明显，不主张历史关系。"
       },
       "items": [
         {
           "evidence_id": "PHONSEM-ABASH-001",
           "claim": {
-            "en": "Bash and 拍 pāi differ substantially in sound; the photograph scenario is an authored narrative association.",
-            "zh-Hans": "bash 与“拍”pāi 的读音差异明显；拍照场景是作者叙事联想。"
+            "en": "Bash ‘strike violently’ and 拍 ‘strike with the hand’ overlap in action semantics, but the resemblance is not a demonstrated sound correspondence.",
+            "zh-Hans": "bash 的“猛击”与“拍”的“以手击打”在动作语义上有重合，但这种近似不是已经证明的规律语音对应。"
           },
           "status": "Candidate",
           "confidence": "Low",
@@ -205,6 +193,42 @@
       }
     }
   ],
+  "chinese_internal_cluster": {
+    "label": "拍 pāi ↔ 怕 pà · Chinese internal candidate cluster",
+    "status": "Candidate",
+    "confidence": "Low",
+    "historical_relation": "Unestablished",
+    "members": [
+      {
+        "character": "拍",
+        "modern_reading": "pāi",
+        "meaning": "以手击打；拍摄",
+        "historical_note": "《说文》异体𢫦释为“拊也”，从手、百声；《广韵》普伯切，滂母、入声、陌韵。",
+        "source_refs": ["REF-CUHK-PAI", "REF-MOE-PAI"]
+      },
+      {
+        "character": "怕",
+        "modern_reading": "pà",
+        "meaning": "畏惧；害怕",
+        "historical_note": "从心、白声；早期另有“淡泊／无为”义。畏惧义见《玉篇》，《广韵·禡韵》载“怕，怕惧”。",
+        "source_refs": ["REF-CUHK-PA", "REF-MOE-PA"]
+      }
+    ],
+    "boundary": {
+      "en": "The two graphs share the phonetic element 白 in their traditional analyses, but their documented histories and meanings do not establish that one derives from the other.",
+      "zh-Hans": "传统字形分析中两字都含“白”声，但现有字义与音韵资料不能证明“拍”与“怕”彼此派生。"
+    }
+  },
+  "cognitive_chain": {
+    "abstract": "IMPACT → STARTLE → FEAR / EMBARRASSMENT",
+    "cross_language": "BASH → 拍 → 惊 → 怕",
+    "status": "Cognitive / Experimental Mapping",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "This is a proposed cognitive sequence, not an etymological chain.",
+      "zh-Hans": "这是待检验的认知序列，不是历史词源链。"
+    }
+  },
   "semantic_structure": {
     "concepts": [
       "ABASH",
@@ -214,7 +238,7 @@
       "PHOTOGRAPH",
       "SURPRISE / FEAR"
     ],
-    "relation": "Historical: Anglo-French esbahir → abash. Author mapping: a.bash → bash ↔ 拍 → photograph → surprise / embarrassment; 怕 is a separate emotion candidate.",
+    "relation": "Historical: Old French esbahir → Middle English abash. Experimental: bash ↔ 拍 (IMPACT / HIT / STRIKE). Cognitive: IMPACT → STARTLE → FEAR / EMBARRASSMENT.",
     "status": "Interpretive"
   },
   "related_words": [
@@ -331,8 +355,14 @@
     "status": "Published",
     "is_historical_evidence": false,
     "proposition": {
+      "en": "Literature may connect what appears unrelated; research asks whether the connection reveals a repeatable structure.",
+      "zh-Hans": "文学可以连接原本不相干的事物；研究则负责判断这种连接是否具有可重复的结构。"
+    },
+    "project_note": {
       "en": "Collanguage imagines a bridge through which English and French speech may be heard as musical Chinese in a future spacefaring age.",
-      "zh-Hans": "通语 Collanguage 想象一座语言桥梁：面向未来宇航时代，英语与法语可以转化成高低错落、如音乐般的汉语。"
+      "zh-Hans": "通语 Collanguage 想象一座语言桥梁：面向未来宇航时代，英语与法语可以转化成高低错落、如音乐般的汉语。",
+      "status": "Literary / Project Note",
+      "is_evidence": false
     },
     "essay_prose": [
       {
@@ -389,10 +419,50 @@
       "url": "https://www.cnrtl.fr/etymologie/%C3%A9bahir",
       "path": null,
       "provenance": "external historical reference for the French family behind Anglo-French forms; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-AHD-ABASH",
+      "title": "American Heritage Dictionary: abash",
+      "type": "dictionary",
+      "url": "https://ahdictionary.com/word/search.html?q=abash",
+      "path": null,
+      "provenance": "external definition and historical etymology; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-CUHK-PAI",
+      "title": "CUHK Multi-function Chinese Character Database: 拍",
+      "type": "historical character database",
+      "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%8B%8D",
+      "path": null,
+      "provenance": "character formation, Shuowen gloss and Guangyun phonological category; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-CUHK-PA",
+      "title": "CUHK Multi-function Chinese Character Database: 怕",
+      "type": "historical character database",
+      "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%80%95",
+      "path": null,
+      "provenance": "character formation and semantic history; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-MOE-PAI",
+      "title": "Taiwan Ministry of Education Dictionary of Chinese Character Variants: 拍",
+      "type": "government dictionary",
+      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=16996&la=0&powerMode=2",
+      "path": null,
+      "provenance": "modern readings, historical form and senses; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-MOE-PA",
+      "title": "Taiwan Ministry of Education Dictionary of Chinese Character Variants: 怕",
+      "type": "government dictionary",
+      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=-14804",
+      "path": null,
+      "provenance": "modern reading and historical form evidence; accessed 2026-09-04"
     }
   ],
   "author": "Jinkai Liu",
-  "version": "Abash Literary and Collanguage Revision v1.0 / Schema v1.0",
+  "version": "Abash Four-Track Research Revision v1.1 / Schema v1.0",
   "dates": {
     "created": null,
     "modified": "2026-09-04",
