@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.8",
+  "dataset_version": "1.2.9",
   "published_at": "2026-09-02",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -6109,8 +6109,8 @@
       "id": "LB-en-abash-034",
       "slug": "abash",
       "title": {
-        "en": "abash · Legacy Website Import",
-        "zh-Hans": "abash · 旧站导入"
+        "en": "Abash · Pat · Bridge Between Languages",
+        "zh-Hans": "Abash · 拍 · 架起语言之间的桥梁"
       },
       "languages": [
         {
@@ -6118,28 +6118,66 @@
           "code": "en",
           "name": "English",
           "word": "abash",
-          "pronunciation": "not recorded",
+          "pronunciation": "/əˈbæʃ/",
           "part_of_speech": "verb · 动词"
         },
         {
           "role": "standard-translation",
           "code": "zh-Hans",
           "name": "Chinese",
-          "word": "使窘迫／使局促",
-          "pronunciation": "shǐ jiǒngpò / shǐ júcù"
+          "word": "使窘迫",
+          "pronunciation": "shǐ jiǒngpò"
+        },
+        {
+          "role": "featured-phonetic-semantic-candidate",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "拍",
+          "pronunciation": "pāi"
+        },
+        {
+          "role": "cognitive-emotion-candidate",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "怕",
+          "pronunciation": "pà"
+        },
+        {
+          "role": "related-separate-word",
+          "code": "en",
+          "name": "English",
+          "word": "bash",
+          "pronunciation": "/bæʃ/"
         }
       ],
+      "featured_mapping": {
+        "source": "abash",
+        "target": "拍",
+        "reading": "pāi",
+        "display_label": "Featured sound–action candidate · 特色声音—动作候选",
+        "status": "Candidate · Low confidence",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "拍 pāi is displayed first to preserve the author's ‘photograph → surprise/embarrassment’ association. The standard translation remains 使窘迫; abash is not historically a + bash.",
+          "zh-Hans": "先展示“拍”pāi，以保留作者“拍下→使人惊讶／窘迫”的联想；通用翻译仍是“使窘迫”，abash 在历史上并不是 a＋bash。"
+        },
+        "source_refs": [
+          "REF-LANGUAGESBOOK-ABASH",
+          "REF-MW-ABASH",
+          "REF-MW-BASH"
+        ]
+      },
       "primary_mapping": {
         "mapping_id": "MAP-abash-primary",
         "source": {
           "language": "English",
           "word": "abash",
-          "pronunciation": "not recorded"
+          "pronunciation": "/əˈbæʃ/"
         },
         "target": {
           "language": "Chinese",
-          "word": "使窘迫／使局促",
-          "pronunciation": "shǐ jiǒngpò / shǐ júcù"
+          "word": "使窘迫",
+          "pronunciation": "shǐ jiǒngpò"
         },
         "gloss": {
           "en": "to destroy the self-possession or confidence of; embarrass or disconcert",
@@ -6155,7 +6193,7 @@
           "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
         }
       },
-      "entry_status": "Reviewed",
+      "entry_status": "Published",
       "mapping_status": "Candidate",
       "mapping_level": "C",
       "historical_relation_status": "Not claimed",
@@ -6177,12 +6215,14 @@
               "status": "Established",
               "confidence": "High",
               "source_refs": [
-                "REF-MW-ABASH"
+                "REF-MW-ABASH",
+                "REF-CNRTL-EBAHIR"
               ]
             }
           ],
           "source_refs": [
-            "REF-MW-ABASH"
+            "REF-MW-ABASH",
+            "REF-CNRTL-EBAHIR"
           ]
         },
         "Phonetic-Semantic": {
@@ -6203,13 +6243,13 @@
               "confidence": "Low",
               "source_refs": [
                 "REF-LANGUAGESBOOK-ABASH",
-                "REF-MW-ABASH"
+                "REF-MW-BASH"
               ]
             }
           ],
           "source_refs": [
             "REF-LANGUAGESBOOK-ABASH",
-            "REF-MW-ABASH"
+            "REF-MW-BASH"
           ]
         },
         "Cognitive": {
@@ -6282,11 +6322,13 @@
       "semantic_structure": {
         "concepts": [
           "ABASH",
-          "ABASHED",
           "EMBARRASS",
-          "DISCONCERT"
+          "DISCONCERT",
+          "STRIKE / HIT",
+          "PHOTOGRAPH",
+          "SURPRISE / FEAR"
         ],
-        "relation": "abash → abashed → embarrass → disconcert",
+        "relation": "Historical: Anglo-French esbahir → abash. Author mapping: a.bash → bash ↔ 拍 → photograph → surprise / embarrassment; 怕 is a separate emotion candidate.",
         "status": "Interpretive"
       },
       "related_words": [
@@ -6331,7 +6373,21 @@
           "status": "Interpretive",
           "source_refs": [
             "REF-LANGUAGESBOOK-ABASH",
-            "REF-MW-ABASH"
+            "REF-MW-BASH"
+          ]
+        },
+        {
+          "word": "怕 pà",
+          "language": "Chinese",
+          "relationship_type": "cognitive-emotion candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Fear or surprise may accompany embarrassment, but this is a conceptual association, not derivation.",
+            "zh-Hans": "害怕或惊讶可能伴随窘迫，但这里只是概念联想，不是派生关系。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABASH"
           ]
         }
       ],
@@ -6388,19 +6444,32 @@
       ],
       "experiments": [],
       "literary_layer": {
-        "status": "Preserved from legacy note",
+        "status": "Published",
         "is_historical_evidence": false,
         "proposition": {
-          "en": "A sudden photograph might embarrass or disconcert someone, which better matches modern abash than simple surprise.",
-          "zh-Hans": "突然拍照可能使人窘迫或局促，这比单纯“惊讶”更接近现代 abash。"
+          "en": "Collanguage imagines a bridge through which English and French speech may be heard as musical Chinese in a future spacefaring age.",
+          "zh-Hans": "通语 Collanguage 想象一座语言桥梁：面向未来宇航时代，英语与法语可以转化成高低错落、如音乐般的汉语。"
         },
-        "essay_prose": [],
+        "essay_prose": [
+          {
+            "title": {
+              "en": "A Bridge Toward the Spacefaring Age",
+              "zh-Hans": "通向宇航时代的语言桥梁"
+            },
+            "text": {
+              "zh-Hant": "架起語言之間的橋梁，讓我們面對未來的宇航時代。當你聽別人說出英語、法語的時候，由於有通語 Collanguage 所建立的規則與想像，你會自動把語句轉化成高低錯落、如音樂般的漢語，實現一種美好的交流。考慮文化因素，把漢語拼音用於跨語系的語言研究，這就是《語言書》Languagesbook 所探尋和追求的。它可以把兩件原本不相干的事情聯繫起來；在文學與想像中，這種聯繫不必先具備嚴格的歷史邏輯。我在我的葡萄園裡，瑪娜花盛開。",
+              "en": "By building bridges between languages, we prepare ourselves for the spacefaring age ahead. When you hear someone speaking English or French, the rules and imagination developed through Collanguage may let you transform the utterance into Chinese, rising and falling like music, and thus create a beautiful exchange. To bring Chinese pinyin into cross-language-family research while attending to culture: this is what Languagesbook seeks. It may connect two things that at first seem unrelated; in literature and imagination, such a connection need not begin with strict historical logic. In my vineyard, the Mana flowers are in bloom."
+            },
+            "status": "Published",
+            "page_anchor": "words/abash.html#literature"
+          }
+        ],
         "poem_lyrics": [],
         "translations": [],
         "archival_manuscript_media": [],
         "evidence_boundary": {
-          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
-          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+          "en": "The bridge, musical transformation and vineyard are the author's literary and methodological vision. They do not establish phonetic correspondence, cognacy or the historical segmentation a + bash.",
+          "zh-Hans": "语言桥梁、音乐式转化与葡萄园属于作者的文学及方法论愿景；它们不能证明规律语音对应、同源关系或 a＋bash 的历史切分。"
         }
       },
       "media": [],
@@ -6419,15 +6488,31 @@
           "type": "dictionary",
           "url": "https://www.merriam-webster.com/dictionary/abash",
           "path": null,
-          "provenance": "external lexicographic reference; accessed 2026-09-01"
+          "provenance": "external lexicographic reference; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-MW-BASH",
+          "title": "Merriam-Webster Dictionary: bash",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/bash",
+          "path": null,
+          "provenance": "external lexicographic reference for the separate word bash; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CNRTL-EBAHIR",
+          "title": "CNRTL: ébahir — étymologie",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/%C3%A9bahir",
+          "path": null,
+          "provenance": "external historical reference for the French family behind Anglo-French forms; accessed 2026-09-04"
         }
       ],
       "author": "Jinkai Liu",
-      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "version": "Abash Literary and Collanguage Revision v1.0 / Schema v1.0",
       "dates": {
         "created": null,
-        "modified": "2026-09-01",
-        "published": null
+        "modified": "2026-09-04",
+        "published": "2026-09-04"
       },
       "editorial_notes": [
         {
@@ -6449,9 +6534,20 @@
         "羞愧",
         "拍",
         "pai",
-        "惊讶"
+        "惊讶",
+        "a.bash",
+        "bash",
+        "怕",
+        "pāi",
+        "pà",
+        "打击",
+        "宇航时代",
+        "Collanguage",
+        "通语",
+        "玛娜花",
+        "葡萄园"
       ],
-      "page": null,
+      "page": "words/abash.html",
       "legacy": {
         "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
         "source_url": "https://languagesbook.com/glossary/abash/",
@@ -6463,8 +6559,8 @@
         "type": "author-published legacy website note",
         "author": "Jinkai Liu",
         "status": "Preserved; claims independently classified above",
-        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
-        "raw_note": "abash，惊讶。拍 pai。惊讶。拍下让人惊讶。"
+        "normalization": "Original lexical observation and newly supplied author narrative retained; punctuation and the apparent 圆／园 typo normalized only in the edited literary presentation.",
+        "raw_note": "abash，惊讶。拍 pai。惊讶。拍下让人惊讶。架起語言之间的桥梁，让我们面對未来宇航時代。當你聼别人説出英語法語的的時侯，由于有通語collanguage的所建立的规则舆想象，你會自动的把這語句轉成高低错落的音樂版的漢語，实现一种美好交流。考虑文化的因素，把漢語拼音用于跨語系的語言的研究，这就是語言書languagesbook所探寻追求的。可以把两个不搭界的的事情联系，不是非得具备逻辑。我在我的葡萄🍇圆，瑪娜花盛开。"
       },
       "batch": {
         "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
