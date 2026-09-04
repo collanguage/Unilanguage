@@ -200,6 +200,70 @@ function migrateEntry(entry) {
 
 const entries = legacy.entries.map(migrateEntry);
 
+function upgradeSky(entry) {
+  entry.languages = [
+    { role: "source", code: "en", name: "English", word: "sky", pronunciation: "/skaɪ/" },
+    { role: "standard-translation", code: "zh-Hans", name: "Chinese", word: "天空", pronunciation: "tiānkōng" },
+    { role: "featured-phonetic-semantic-candidate", code: "zh-Hans", name: "Chinese", word: "盖", pronunciation: "gài" },
+    { role: "historically-related-form", code: "fr", name: "French", word: "ciel", pronunciation: "/sjɛl/" },
+  ];
+  entry.featured_mapping = {
+    source: "sky", target: "盖", reading: "gài",
+    display_label: "Featured phonetic-semantic candidate · 特色音义候选",
+    status: "Candidate · Low confidence", historical_relation: "Unestablished",
+    boundary: localized("盖 is displayed first as the author's concise sound–meaning and cover-schema candidate. The standard translation remains 天空; modern resemblance does not establish cognacy.", "先展示“盖”gài，作为作者提出的简洁音义与覆盖图式候选；通用翻译仍是“天空”，现代读音近似不证明同源。"),
+    source_refs: ["REF-JL-SKY-RAW", "REF-MW-SKY", "REF-CUHK-TIAN", "REF-CTEXT-ZHOUBI"],
+  };
+  entry.evidence.Historical = {
+    status: "Established", confidence: "High",
+    summary: localized("English sky, French ciel and Chinese 天/盖 each have independently documented histories; none establishes an English–Chinese cognate relation.", "英语 sky、法语 ciel 与汉语“天／盖”各有独立可考的历史；这些材料不能建立英汉同源关系。"),
+    items: [
+      { evidence_id: "HIST-SKY-NORSE-001", claim: localized("Middle English sky continues Old Norse ský ‘cloud’; the English sense expanded to the visible upper region.", "中古英语 sky 承自古诺尔斯语 ský“云”，英语词义后来扩展至可见的上方空间。"), status: "Established", confidence: "High", source_refs: ["REF-MW-SKY"] },
+      { evidence_id: "HIST-CIEL-LATIN-002", claim: localized("French ciel continues Latin caelum, ‘celestial vault / heaven.’", "法语 ciel 承自拉丁语 caelum“天穹／天界”。"), status: "Established", confidence: "High", source_refs: ["REF-CNRTL-CIEL"] },
+      { evidence_id: "HIST-TIAN-FORM-003", claim: localized("Early forms of 天 emphasize a person's head or highest point; the graph subsequently denotes the sky.", "“天”的早期字形突出人首或最高处，后来用于表示天空。"), status: "Supported", confidence: "High", source_refs: ["REF-CUHK-TIAN"] },
+    ],
+    source_refs: ["REF-MW-SKY", "REF-CNRTL-CIEL", "REF-CUHK-TIAN"],
+  };
+  entry.literary_layer = {
+    ...entry.literary_layer,
+    status: "Published",
+    proposition: localized("The blue sky is the cover above us, changing through day and night, sun and moon, and the turning seasons.", "蓝天是覆盖我们的被盖，昼日夜月，四季变换。"),
+    essay_prose: [{ work_id: "LB-SKY-PROSE-001", title: localized("The Cover Above Us", "覆盖我们的蓝天"), page_anchor: "words/sky.html#literary", status: "Published" }],
+    translations: [{ language: "Chinese", status: "Author text, editorially revised" }, { language: "English", status: "Literary translation" }],
+  };
+  entry.hypotheses.push({
+    hypothesis_id: "UNI-SKY-YIJING-002", type: "Author structural-symbol hypothesis",
+    claim: localized("The sixty-four hexagrams may be studied as another kind of writing; the author proposes Qian as their originating structure.", "六十四卦图可以作为我们的另一种文字来研究；作者提出“所有卦象都是从乾卦而来”。"),
+    status: "Speculative/Testable", confidence: "Low", supporting_cases: ["乾 ☰ as the all-yang hexagram", "hexagrams as yin–yang line combinations"],
+    counterexamples: ["This is not presented as a settled historical or Yijing conclusion", "The combinatorial system also requires yin lines and includes Kun ☷ as a basic contrast"],
+    testability: localized("Define ‘originating structure’ and compare it with received-text, excavated-text and combinatorial accounts of the hexagram system.", "须先定义“从乾卦而来”的结构含义，再与传世文献、出土材料及卦象组合方式比较。"),
+    experiment_link: null, source_refs: ["REF-CTEXT-QIAN"],
+  });
+  entry.references = [
+    { reference_id: "REF-JL-SKY-RAW", title: "Jinkai Liu: Sky literary and research note", type: "author manuscript", url: null, path: null, provenance: "author-provided in conversation; claims independently classified" },
+    { reference_id: "REF-MW-SKY", title: "Merriam-Webster Dictionary: sky", type: "dictionary", url: "https://www.merriam-webster.com/dictionary/sky", path: null, provenance: "external dictionary; accessed 2026-09-04" },
+    { reference_id: "REF-CNRTL-CIEL", title: "CNRTL/TLFi: étymologie de ciel", type: "historical dictionary", url: "https://www.cnrtl.fr/etymologie/ciel", path: null, provenance: "French national lexical resource; accessed 2026-09-04" },
+    { reference_id: "REF-CUHK-TIAN", title: "CUHK Multi-function Chinese Character Database: 天", type: "palaeographic database", url: "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/oraclePiece.php?piece=%E5%A4%A9", path: null, provenance: "university character database; accessed 2026-09-04" },
+    { reference_id: "REF-CTEXT-QIAN", title: "Chinese Text Project: Book of Changes — Qian", type: "primary-text database", url: "https://ctext.org/book-of-changes/qian", path: null, provenance: "digitized classical text; accessed 2026-09-04" },
+    { reference_id: "REF-CTEXT-ZHOUBI", title: "Chinese Text Project: Zhoubi / Gaitian passages", type: "primary-text database", url: "https://ctext.org/dictionary.pl?char=%E5%91%A8%E9%AB%80&if=en", path: null, provenance: "digitized classical-text index; accessed 2026-09-04" },
+    { reference_id: "REF-WIKISOURCE-CHILE", title: "Wikisource: Song of Chile", type: "primary-text edition", url: "https://zh.wikisource.org/wiki/%E6%95%95%E5%8B%92%E6%AD%8C", path: null, provenance: "digital text edition; accessed 2026-09-04" },
+    { reference_id: "SRC-LB-SKY", title: "Language Book · Sky", type: "language-book-page", url: null, path: "words/sky.html", provenance: "project editorial page" },
+  ];
+  entry.source = {
+    type: "author-provided literary and research note", author: "Jinkai Liu", status: "Preserved; claims independently classified above",
+    normalization: "Traditional characters normalized where appropriate; pinyin and parts of speech normalized; English recast as a literary translation.",
+    raw_note: "英语：sky n. 天；汉语：盖【gai】n.。作者提出六十四卦图是另一种文字，并提出所有卦象由乾卦而来；附乾卦原文、天字字源说明、盖天说、《敕勒歌》及山海天空文学段落。",
+  };
+  entry.editorial_notes = [
+    localized("Translation (天空), featured candidate (盖 gài), independent histories, the ABOVE → COVER schema, Gaitian cosmology, Yijing hypothesis and literary writing remain separate.", "通用翻译（天空）、特色候选（盖 gài）、独立词史、ABOVE→COVER 图式、盖天说、易经假说与文学写作保持分离。"),
+  ];
+  entry.search_terms = clean([...entry.search_terms, "gài", "盖天", "盖天说", "乾", "乾卦", "坤", "坤卦", "周易", "六十四卦", "敕勒歌", "穹庐", "ciel"]);
+  entry.version = "Sky Literary and Cosmological Revision v1.6 / Schema v1.0";
+  entry.dates.modified = releaseDate;
+}
+
+upgradeSky(entries.find((entry) => entry.slug === "sky"));
+
 function upgradeUniverse(entry) {
   entry.primary_mapping = {
     ...entry.primary_mapping,
@@ -470,7 +534,7 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.2.5",
+  dataset_version: "1.2.6",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",

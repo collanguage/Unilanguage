@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.5");
+  assert.equal(dataset.dataset_version, "1.2.6");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -176,12 +176,30 @@ test("Sound shows 声 as the featured form while preserving 声音 as standard t
   assert.ok(dataApi.languageForms(dataset).find((group) => group.code === "zh-Hans").forms.some((form) => form.term === "声" && form.recordId === sound.id));
 
   const page = fs.readFileSync(path.join(root, "words", "sound.html"), "utf8");
-  assert.match(page, /class="sound-title"/);
+  assert.match(page, /class="[^"]*sound-title/);
   assert.match(page, /<span>↔ 声 <small>shēng<\/small><\/span><span>· 声音<\/span>/);
   const styles = fs.readFileSync(path.join(root, "css", "sky-case.css"), "utf8");
-  assert.match(styles, /\.sound-title span\{white-space:nowrap\}/);
+  assert.match(styles, /\.featured-title span\{white-space:nowrap\}/);
   assert.match(page, /Literary boundary/);
   assert.match(page, /那是凝固的音乐/);
+});
+
+test("Sky shows 盖 as a graded featured candidate while preserving 天空 as standard translation", () => {
+  const sky = dataset.entries.find((entry) => entry.slug === "sky");
+  assert.ok(sky);
+  assert.equal(sky.primary_mapping.target.word, "天空");
+  assert.equal(sky.featured_mapping.target, "盖");
+  assert.equal(sky.featured_mapping.reading, "gài");
+  assert.match(sky.featured_mapping.status, /Low confidence/);
+  assert.equal(sky.featured_mapping.historical_relation, "Unestablished");
+  assert.equal(sky.literary_layer.status, "Published");
+  assert.ok(sky.hypotheses.some((item) => item.hypothesis_id === "UNI-SKY-YIJING-002" && item.status === "Speculative/Testable"));
+  assert.ok(sky.references.some((item) => item.reference_id === "REF-CTEXT-QIAN"));
+
+  const page = fs.readFileSync(path.join(root, "words", "sky.html"), "utf8");
+  assert.match(page, /<span>↔ 盖 <small>gài<\/small><\/span><span>· 天空<\/span>/);
+  assert.match(page, /Author hypothesis · 作者原始假说/);
+  assert.match(page, /Speculative \/ Testable · 推测性／可检验/);
 });
 
 test("Dictionary cards honor featured forms and keep standard translations visible", () => {
