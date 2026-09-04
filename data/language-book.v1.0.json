@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.4",
+  "dataset_version": "1.2.5",
   "published_at": "2026-09-02",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -1678,14 +1678,42 @@
           "code": "en",
           "name": "English",
           "word": "sound",
-          "pronunciation": "unknown"
+          "pronunciation": "/saʊnd/"
         },
         {
-          "role": "target",
+          "role": "standard-translation",
           "code": "zh-Hans",
           "name": "Chinese",
           "word": "声音",
           "pronunciation": "shēngyīn"
+        },
+        {
+          "role": "featured-lexical-candidate",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "声",
+          "pronunciation": "shēng"
+        },
+        {
+          "role": "verb-equivalent",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "响",
+          "pronunciation": "xiǎng"
+        },
+        {
+          "role": "historically-related-form",
+          "code": "fr",
+          "name": "French",
+          "word": "son",
+          "pronunciation": "/sɔ̃/"
+        },
+        {
+          "role": "historically-related-verb",
+          "code": "fr",
+          "name": "French",
+          "word": "sonner",
+          "pronunciation": "/sɔ.ne/"
         }
       ],
       "primary_mapping": {
@@ -1693,7 +1721,7 @@
         "source": {
           "language": "English",
           "word": "sound",
-          "pronunciation": "unknown"
+          "pronunciation": "/saʊnd/"
         },
         "target": {
           "language": "Chinese",
@@ -1701,12 +1729,12 @@
           "pronunciation": "shēngyīn"
         },
         "gloss": {
-          "en": "Vibration that can be heard; in language, the audible medium of speech.",
-          "zh-Hans": "可被听见的振动；在语言中也是言语的可听媒介。"
+          "en": "Noun: an audible vibration; verb: to make or cause a sound.",
+          "zh-Hans": "名词：声音；动词：响起或使之发声。"
         },
         "meaning": {
-          "en": "Vibration that can be heard; in language, the audible medium of speech.",
-          "zh-Hans": "可被听见的振动；在语言中也是言语的可听媒介。"
+          "en": "声音 is the standard noun translation; 响 / 响起 expresses the intransitive verb in this record. 声 shēng is displayed as the concise featured lexical candidate.",
+          "zh-Hans": "“声音”是名词的通用翻译；本条以“响／响起”表达不及物动词；单字“声”shēng 作为简洁的特色词义候选展示。"
         },
         "mapping_type": "Lexical equivalent",
         "rationale": {
@@ -1720,24 +1748,71 @@
       "historical_relation_status": "Not claimed",
       "evidence": {
         "Historical": {
-          "status": "Not evaluated",
-          "confidence": "Unknown",
+          "status": "Established",
+          "confidence": "High",
           "summary": {
-            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
-            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+            "en": "The audible English sound comes through Middle English and Anglo-French from Latin sonus / sonare. French son and sonner continue the same Latin sound family. These histories are independent of Chinese 声 and 响.",
+            "zh-Hans": "英语表示听觉的 sound 经中古英语、盎格鲁法语追溯至拉丁语 sonus／sonare；法语 son、sonner 延续同一拉丁声音词族。这些词史独立于汉语“声”“响”。"
           },
-          "items": [],
-          "source_refs": []
+          "items": [
+            {
+              "evidence_id": "HIST-SOUND-LATIN-001",
+              "claim": {
+                "en": "Audible sound: Middle English soun ← Anglo-French son/sun ← Latin sonus, related to sonare ‘to sound.’",
+                "zh-Hans": "听觉义 sound：中古英语 soun ← 盎格鲁法语 son／sun ← 拉丁语 sonus，并与 sonare“发声”相关。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-SOUND"
+              ]
+            },
+            {
+              "evidence_id": "HIST-FR-SON-002",
+              "claim": {
+                "en": "French son derives from Latin sonus; French sonner derives from Latin sonare.",
+                "zh-Hans": "法语 son 源自拉丁语 sonus；sonner 源自拉丁语 sonare。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-CNRTL-SON",
+                "REF-CNRTL-SONNER"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-SOUND",
+            "REF-CNRTL-SON",
+            "REF-CNRTL-SONNER"
+          ]
         },
         "Phonetic-Semantic": {
-          "status": "Not evaluated",
-          "confidence": "Unknown",
+          "status": "Candidate",
+          "confidence": "Low",
           "summary": {
-            "en": "No separate phonetic-semantic observation is recorded.",
-            "zh-Hans": "未记录独立的语音—语义观察。"
+            "en": "sound /saʊnd/ and 声 shēng share meaning and begin with sibilant consonants, but English /s/ and Mandarin sh /ʂ/ are not identical, and the remaining sounds do not regularly correspond.",
+            "zh-Hans": "sound /saʊnd/ 与“声”shēng 共享声音义并都以擦音起首，但英语 /s/ 与普通话 sh /ʂ/ 并不相同，其余声音也没有建立规律对应。"
           },
-          "items": [],
-          "source_refs": []
+          "items": [
+            {
+              "evidence_id": "PHONSEM-SOUND-SHENG-001",
+              "claim": {
+                "en": "The proposed relation is a modern sound–meaning resemblance, not a historical cognacy claim.",
+                "zh-Hans": "所提关系是现代声音—意义近似，不是历史同源主张。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "SRC-LB-SOUND",
+                "REF-JL-SOUND-RAW"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LB-SOUND",
+            "REF-JL-SOUND-RAW"
+          ]
         },
         "Cognitive": {
           "status": "Interpretive",
@@ -1760,7 +1835,20 @@
           "source_refs": []
         }
       },
-      "phonetic_observation": [],
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-SOUND-SHENG-001",
+          "claim": {
+            "en": "sound /saʊnd/ ↔ 声 shēng: shared sound meaning and a broad initial-sibilant resemblance.",
+            "zh-Hans": "sound /saʊnd/ ↔“声”shēng：共享声音义，并有宽泛的起首擦音近似。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "English /s/ is alveolar; Mandarin sh is retroflex /ʂ/. No regular correspondence, shared rime or historical relation is established.",
+            "zh-Hans": "英语 /s/ 为齿龈音；普通话 sh 为卷舌音 /ʂ/。未建立规律对应、共享韵部或历史关系。"
+          }
+        }
+      ],
       "semantic_structure": {
         "concepts": [
           "VIBRATION",
@@ -1773,16 +1861,42 @@
       "hypotheses": [],
       "experiments": [],
       "literary_layer": {
-        "status": "Not present",
+        "status": "Published",
         "is_historical_evidence": false,
-        "proposition": null,
-        "essay_prose": [],
+        "proposition": {
+          "en": "Architecture is frozen music.",
+          "zh-Hans": "那是凝固的音乐。"
+        },
+        "essay_prose": [
+          {
+            "work_id": "LB-SOUND-PROSE-001",
+            "title": {
+              "en": "When the Violin Sounds",
+              "zh-Hans": "当小提琴声音响起"
+            },
+            "text": {
+              "en": "When the violin sounded, it was like a small stream flowing through the forest. As the violin's current rose, I was passing a majestic church. I saw its two round corner towers, its circular window, and tracery radiating like the sun. A saint extended his arms as though an angel were beckoning; behind him, a halo shone like another sun. Columns recalled an ancient Athenian temple. A gentleman in a top hat passed through the great doorway. The violin's rising and falling melody made me imagine a pair of immortal companions drifting down from the mountains of the Middle Ages. Was this music I had once known, or a composer's new work? Sunlight touched the church's marble wall and spread over it a pale layer of yellow. It was frozen music.",
+              "zh-Hans": "小提琴的声音响起时，仿佛森林里一条小小的溪水正在流动。琴声流淌的时候，我正路过一座雄伟的教堂。我看见教堂两座圆形角楼的顶，也看见那扇圆窗，以及像太阳般向四方放射的窗棂。一位圣人伸开双臂，仿佛天使正在招手；他身后的光环，又像一轮太阳。那些圆柱使人想起古老的雅典神庙。一位戴着礼帽的绅士从大门走过。小提琴起伏的旋律，使我想象一双仙侣从中世纪的山间漂流而来。那是我曾经熟悉的音乐，还是作曲家的新作呢？太阳照着教堂大理石的外墙，又为它涂上一层淡淡的黄色。那是凝固的音乐。"
+            },
+            "status": "Published",
+            "page_anchor": "words/sound.html#literature"
+          }
+        ],
         "poem_lyrics": [],
-        "translations": [],
+        "translations": [
+          {
+            "language": "Chinese",
+            "status": "Author text, editorially revised"
+          },
+          {
+            "language": "English",
+            "status": "Literary translation"
+          }
+        ],
         "archival_manuscript_media": [],
         "evidence_boundary": {
-          "en": "Literature may explore freely, but it is not historical evidence.",
-          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+          "en": "The violin, forest stream, church, sun, saint and frozen music are literary images. They are not historical or phonetic evidence.",
+          "zh-Hans": "小提琴、森林溪流、教堂、太阳、圣人与“凝固的音乐”均属文学意象，不构成历史或语音证据。"
         }
       },
       "media": [],
@@ -1794,10 +1908,42 @@
           "url": null,
           "path": "words/sound.html",
           "provenance": "unknown"
+        },
+        {
+          "reference_id": "REF-JL-SOUND-RAW",
+          "title": "Jinkai Liu: Sound literary manuscript and research note",
+          "type": "author manuscript",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; original note preserved below"
+        },
+        {
+          "reference_id": "REF-MW-SOUND",
+          "title": "Merriam-Webster Dictionary: sound",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/sound",
+          "path": null,
+          "provenance": "external dictionary; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CNRTL-SON",
+          "title": "CNRTL/TLFi: étymologie de son",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/son/substantif",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CNRTL-SONNER",
+          "title": "CNRTL/TLFi: étymologie de sonner",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/sonner",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-04"
         }
       ],
       "author": "Jinkai Liu",
-      "version": "Sound Featured Mapping v1.0 / Schema v1.0",
+      "version": "Sound Literary Revision v1.1 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-02",
@@ -1819,7 +1965,16 @@
         "shēngyīn",
         "VIBRATION",
         "HEARING",
-        "SPEECH"
+        "SPEECH",
+        "响起",
+        "xiǎng",
+        "sonner",
+        "violin",
+        "小提琴",
+        "church",
+        "教堂",
+        "frozen music",
+        "凝固的音乐"
       ],
       "page": "words/sound.html",
       "legacy": {
@@ -1953,6 +2108,13 @@
         "source_refs": [
           "SRC-LB-SOUND"
         ]
+      },
+      "source": {
+        "type": "author-provided literary and research note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Parts of speech and pinyin normalized; Chinese prose lightly edited; English recast as a literary translation.",
+        "raw_note": "英语：sound [sound] n/v. 声音，响起。汉语：声【sheng】n.；响【xiang】v.。备注：辅音近似。例文原稿以小提琴、森林溪水、雄伟教堂、圆形角楼、圆窗、太阳般四射的窗棂、圣人、雅典神庙圆柱、礼帽绅士、中世纪山间、阳光与‘凝固的音乐’构成文学场景。"
       }
     },
     {

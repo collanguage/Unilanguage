@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.4");
+  assert.equal(dataset.dataset_version, "1.2.5");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -163,8 +163,28 @@ test("Sound shows 声 as the featured form while preserving 声音 as standard t
   assert.equal(sound.featured_mapping.historical_relation, "Not claimed");
   assert.equal(sound.primary_mapping.target.word, "声音");
   assert.equal(sound.primary_mapping.target.pronunciation, "shēngyīn");
+  assert.match(sound.primary_mapping.meaning["zh-Hans"], /响／响起/);
+  assert.equal(sound.languages.find((item) => item.word === "响").pronunciation, "xiǎng");
+  assert.equal(sound.languages.find((item) => item.word === "sonner").code, "fr");
+  assert.equal(sound.evidence.Historical.status, "Established");
+  assert.equal(sound.evidence["Phonetic-Semantic"].confidence, "Low");
+  assert.equal(sound.literary_layer.status, "Published");
+  assert.equal(sound.literary_layer.is_historical_evidence, false);
+  assert.equal(sound.literary_layer.proposition["zh-Hans"], "那是凝固的音乐。");
+  assert.match(sound.literary_layer.essay_prose[0].text["zh-Hans"], /小提琴.*教堂.*凝固的音乐/s);
   assert.ok(sound.featured_mapping.source_refs.includes("SRC-LB-SOUND"));
   assert.ok(dataApi.languageForms(dataset).find((group) => group.code === "zh-Hans").forms.some((form) => form.term === "声" && form.recordId === sound.id));
+
+  const page = fs.readFileSync(path.join(root, "words", "sound.html"), "utf8");
+  assert.match(page, /sound ↔ 声 <small>shēng<\/small> · 声音/);
+  assert.match(page, /Literary boundary/);
+  assert.match(page, /那是凝固的音乐/);
+});
+
+test("Dictionary cards honor featured forms and keep standard translations visible", () => {
+  const search = fs.readFileSync(path.join(root, "js", "search.js"), "utf8");
+  assert.match(search, /entry\.featured_mapping \|\| entry\.root_level_mapping\?\.featured_structural_mapping/);
+  assert.match(search, /Standard translation · 通用翻译/);
 });
 
 test("Dataset Expansion v1 abbey sample separates lexical, historical, phonetic and literary claims", () => {
