@@ -56,6 +56,18 @@
       "pronunciation": "dù /tu˥˩/"
     }
   ],
+  "featured_mapping": {
+    "source": "abdomen",
+    "target": "肚",
+    "reading": "dù",
+    "display_label": "Featured phonetic-semantic candidate · 特色音义候选",
+    "status": "Candidate · Low confidence",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "肚 dù is shown first as a concise Chinese body-part candidate. The standard translation remains 腹部 / 肚子, and no common historical origin is claimed.",
+      "zh-Hans": "先展示单字“肚”dù，作为简洁的汉语身体词候选；通用翻译仍是“腹部／肚子”，不主张共同历史来源。"
+    }
+  },
   "primary_mapping": {
     "mapping_id": "MAP-abdomen-primary-duzi",
     "source": {
@@ -517,8 +529,8 @@
           "zh-Hans": "肚子是我们的领地吗？"
         },
         "text": {
-          "en": "Is the belly our domain? When we were children, what did the dudou over our bellies look like? We seem to have forgotten to wonder. A child's face is bright with freshness. Girls, when nature gave you the moon's gentle radiance, it did not forget to let you walk with the moon. Boys, when nature gave you sunlit faces, it did not forget to let you rise and fall with the sun.",
-          "zh-Hans": "肚子是我们的领地吗？当我们都是孩提时代，那在腹部上面的肚兜是啥模样？似乎都忘记想了。孩提时代的脸庞是水灵灵的。那女孩子们，大自然在给你们柔媚如月般的皎洁的时候，不忘记让你随着那月行走。那男孩子们，大自然在给你们阳光的面庞的时候，也没有忘记给你们随那太阳起落。"
+          "en": "Is the belly our domain? When we were children, what did the little dudou covering our bellies look like? We seem to have forgotten. In memory, a child's face is fresh and luminous, while the body still grows to nature's oldest rhythms. Girls, when nature gave you faces as gentle and radiant as moonlight, it also let life move with the waxing and waning moon. Boys, when nature gave you faces bright as sunlight, it also let life rise and fall with the sun. The abdomen may be imagined as an inner territory of the body, holding hunger, breath, growth, and our earliest memories.",
+          "zh-Hans": "肚子，是我们的领地吗？孩提时代，罩在腹部上的那方小小肚兜，究竟是什么模样？我们似乎早已忘了。记忆里的脸庞水灵清亮，身体还随着自然最古老的节律生长。女孩子们，大自然赠予你们月光般柔媚皎洁的面庞，也没有忘记让生命随着月亮的盈亏行走。男孩子们，大自然赠予你们阳光般明朗的面庞，也没有忘记让生命随着太阳的升落起伏。腹部像身体内部的一片领地，收藏着饥饿、呼吸、成长与最初的记忆。"
         },
         "status": "Reviewed"
       }
@@ -668,10 +680,10 @@
     }
   ],
   "author": "Jinkai Liu",
-  "version": "Dataset Expansion v1 sample / Schema v1.0",
+  "version": "Abdomen editorial page v1.0 / Schema v1.0",
   "dates": {
     "created": "2026-08-30",
-    "modified": "2026-09-01",
+    "modified": "2026-09-04",
     "published": null
   },
   "editorial_notes": [
@@ -724,7 +736,7 @@
     "DOMAIN",
     "CONTROL"
   ],
-  "page": null,
+  "page": "words/abdomen.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",

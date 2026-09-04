@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.3");
+  assert.equal(dataset.dataset_version, "1.2.4");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -208,6 +208,10 @@ test("abdomen keeps translation, sound candidate, word families and literary ass
   const abdomen = dataApi.lookup(dataset, "abdomen").entry;
   assert.equal(abdomen.entry_status, "Reviewed");
   assert.equal(abdomen.mapping_status, "Reviewed");
+  assert.equal(abdomen.featured_mapping.target, "肚");
+  assert.equal(abdomen.featured_mapping.reading, "dù");
+  assert.match(abdomen.featured_mapping.status, /Low confidence/);
+  assert.equal(abdomen.featured_mapping.historical_relation, "Not claimed");
   assert.equal(abdomen.primary_mapping.target.word, "肚子");
   assert.match(abdomen.primary_mapping.meaning["zh-Hans"], /腹部／腹/);
   assert.equal(abdomen.historical_relation_status, "Not claimed");
@@ -218,7 +222,15 @@ test("abdomen keeps translation, sound candidate, word families and literary ass
   assert.ok(abdomen.semantic_associations.every((item) => item.is_etymological === false));
   assert.equal(abdomen.literary_layer.proposition["zh-Hans"], "肚子是我们的领地吗？");
   assert.equal(abdomen.literary_layer.is_historical_evidence, false);
+  assert.match(abdomen.literary_layer.essay_prose[0].text["zh-Hans"], /饥饿、呼吸、成长与最初的记忆/);
+  assert.equal(abdomen.page, "words/abdomen.html");
   assert.match(abdomen.source.raw_note, /Is the belly our domain\?/);
+
+  const page = fs.readFileSync(path.join(root, abdomen.page), "utf8");
+  assert.match(page, /abdomen ↔ 肚 <small>dù<\/small> · 肚子/);
+  assert.match(page, /ab\.dom\.en ≠ verified morphology/);
+  assert.match(page, /文学—认知链/);
+  assert.match(page, /文学意象，不构成词义、词源或语音证据/);
 });
 
 test("Mapper labels related-word etymology separately from speculative association", () => {

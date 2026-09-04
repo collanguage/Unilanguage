@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.2.3" },
+    "dataset_version": { "const": "1.2.4" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
