@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.7", "Schema must remain 1.0.0 and the Sky author-text revision must be 1.2.7");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.8", "Schema must remain 1.0.0 and the Aback literary revision must be 1.2.8");
 check(dataset.entries.length === 37, "Universe upgrade must not change the 37-record entry count");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");

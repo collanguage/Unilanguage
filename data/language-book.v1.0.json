@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.7",
+  "dataset_version": "1.2.8",
   "published_at": "2026-09-02",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -5278,8 +5278,8 @@
       "id": "LB-en-aback-032",
       "slug": "aback",
       "title": {
-        "en": "aback · Legacy Website Import",
-        "zh-Hans": "aback · 旧站导入"
+        "en": "Aback · Back · Civilization Behind You",
+        "zh-Hans": "Aback · 背 · 文明在你背后"
       },
       "languages": [
         {
@@ -5287,36 +5287,74 @@
           "code": "en",
           "name": "English",
           "word": "aback",
-          "pronunciation": "not recorded",
+          "pronunciation": "/əˈbæk/",
           "part_of_speech": "adverb · 副词"
         },
         {
           "role": "standard-translation",
           "code": "zh-Hans",
           "name": "Chinese",
-          "word": "向后／吃惊地",
-          "pronunciation": "xiànghòu / chījīng de"
+          "word": "吃惊地",
+          "pronunciation": "chījīng de"
+        },
+        {
+          "role": "featured-phonetic-semantic-candidate",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "背",
+          "pronunciation": "bèi"
+        },
+        {
+          "role": "related-word",
+          "code": "en",
+          "name": "English",
+          "word": "back",
+          "pronunciation": "/bæk/"
+        },
+        {
+          "role": "translation-of-back",
+          "code": "fr",
+          "name": "French",
+          "word": "dos",
+          "pronunciation": "/do/"
         }
       ],
+      "featured_mapping": {
+        "source": "aback",
+        "target": "背",
+        "reading": "bèi",
+        "display_label": "Featured structural and sound–meaning candidate · 特色结构与音义候选",
+        "status": "Candidate · Low confidence",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "背 bèi is displayed first to make the author's a + back / back ↔ 背 comparison visible. The standard modern translation remains 吃惊地 in taken aback; no English–Chinese cognacy is claimed.",
+          "zh-Hans": "先展示“背”bèi，以突出作者的 a＋back／back↔背比较；现代 taken aback 的通用翻译仍是“吃惊地”，不主张英汉同源。"
+        },
+        "source_refs": [
+          "REF-LANGUAGESBOOK-ABACK",
+          "REF-MW-ABACK",
+          "REF-MW-BACK"
+        ]
+      },
       "primary_mapping": {
         "mapping_id": "MAP-aback-primary",
         "source": {
           "language": "English",
           "word": "aback",
-          "pronunciation": "not recorded"
+          "pronunciation": "/əˈbæk/"
         },
         "target": {
           "language": "Chinese",
-          "word": "向后／吃惊地",
-          "pronunciation": "xiànghòu / chījīng de"
+          "word": "吃惊地",
+          "pronunciation": "chījīng de"
         },
         "gloss": {
-          "en": "backward; chiefly in the phrase taken aback, suddenly surprised",
-          "zh-Hans": "向后；现主要见于 taken aback，表示突然吃惊"
+          "en": "chiefly in taken aback: suddenly surprised or startled",
+          "zh-Hans": "主要用于 taken aback：突然吃惊、猝不及防"
         },
         "meaning": {
-          "en": "backward; chiefly in the phrase taken aback, suddenly surprised. The standard mapping is independent from the legacy sound hypothesis.",
-          "zh-Hans": "向后；现主要见于 taken aback，表示突然吃惊。标准词义 Mapping 与旧站声音假说独立。"
+          "en": "The standard modern sense is ‘suddenly surprised,’ chiefly in taken aback. The older spatial structure a + back (‘at/on the back; backward’) and the back ↔ 背 candidate are displayed separately.",
+          "zh-Hans": "现代通用义主要是 taken aback 中的“突然吃惊”；较早的空间结构 a＋back（在背后／向后）以及 back↔背候选另行展示。"
         },
         "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
         "rationale": {
@@ -5324,7 +5362,7 @@
           "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
         }
       },
-      "entry_status": "Reviewed",
+      "entry_status": "Published",
       "mapping_status": "Candidate",
       "mapping_level": "C",
       "historical_relation_status": "Not claimed",
@@ -5351,7 +5389,9 @@
             }
           ],
           "source_refs": [
-            "REF-MW-ABACK"
+            "REF-MW-ABACK",
+            "REF-OALD-ABACK",
+            "REF-MW-BACK"
           ]
         },
         "Phonetic-Semantic": {
@@ -5451,11 +5491,13 @@
       "semantic_structure": {
         "concepts": [
           "ABACK",
+          "AT/ON THE BACK",
           "TAKEN ABACK",
           "BACK",
-          "向后"
+          "背后",
+          "SURPRISE"
         ],
-        "relation": "aback → taken aback → back → 向后",
+        "relation": "a + back → at/on the back → backward → taken aback → surprise | back ↔ 背 (candidate)",
         "status": "Interpretive"
       },
       "related_words": [
@@ -5524,6 +5566,31 @@
             "REF-LANGUAGESBOOK-ABACK",
             "REF-MW-ABACK"
           ]
+        },
+        {
+          "hypothesis_id": "UNI-ABACK-A-PREFIX-002",
+          "type": "Author morphological interpretation",
+          "claim": {
+            "en": "The author proposes treating a- as semantically empty in a.back for a present-day structural reading.",
+            "zh-Hans": "作者提出：在现代结构阅读 a.back 中，可以把 a- 看作不承载独立词义。"
+          },
+          "status": "Interpretive",
+          "confidence": "Low",
+          "supporting_cases": [
+            "Modern speakers may transparently recognize back inside aback"
+          ],
+          "counterexamples": [
+            "Historical dictionaries derive the element from Old English on, meaning at/on/toward"
+          ],
+          "testability": {
+            "en": "Keep the synchronic reading separate from the documented historical derivation and test how present-day speakers segment the word.",
+            "zh-Hans": "将现代共时切分与有文献的历史派生分开，并调查现代使用者如何切分该词。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABACK",
+            "REF-OALD-ABACK"
+          ]
         }
       ],
       "counterevidence": [
@@ -5542,19 +5609,42 @@
       ],
       "experiments": [],
       "literary_layer": {
-        "status": "Preserved from legacy note",
+        "status": "Published",
         "is_historical_evidence": false,
         "proposition": {
-          "en": "BACKWARD → RECOIL → SURPRISE helps explain the modern idiom taken aback; ‘civilization behind us’ is literary.",
-          "zh-Hans": "向后 → 退缩 → 吃惊，有助理解现代习语 taken aback；“文明在背后”属于文学表达。"
+          "en": "Civilization is behind you, and you are its bearer.",
+          "zh-Hans": "文明在你的背后，而你是文明的载体。"
         },
         "essay_prose": [],
-        "poem_lyrics": [],
-        "translations": [],
+        "poem_lyrics": [
+          {
+            "work_id": "LB-ABACK-POEM-001",
+            "title": {
+              "en": "Civilization Behind You",
+              "zh-Hans": "文明在你背后"
+            },
+            "text": {
+              "en": "People of the civilized world, who have moved from place to place from ancient times until today—you are the bearers of civilization; civilization stands behind you. Loving you has nothing to do with you. I want to do something for my people; that feeling is my own intention. Your arrival was, within the reach of my sight, something that ought to come. If you are the spark that kindled warmth across my earth, may we also say that the spark chose you as its bearer? I am a fruit nearing ripeness, bright and radiant beneath your sunlight.",
+              "zh-Hans": "那自古至今不断变换地方的，文明世界的人啊，你是文明的载体，文明在你的背后。爱你，与你无关；我想为我的人们做事，那种情感，是我自己的本意。你的来到，在我的眼界中，是你应该来临的。如果说你是我的火种，点燃了我的大地的温暖，那是否可以说，那火种以你为载体？我是那快要成熟的果啊，在你的阳光下，明媚灿烂。"
+            },
+            "status": "Published",
+            "page_anchor": "words/aback.html#literature"
+          }
+        ],
+        "translations": [
+          {
+            "language": "Chinese",
+            "status": "Author text, editorially revised"
+          },
+          {
+            "language": "English",
+            "status": "Literary translation"
+          }
+        ],
         "archival_manuscript_media": [],
         "evidence_boundary": {
-          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
-          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+          "en": "Civilization, the spark, earth, fruit and sunlight are literary images; they are not evidence for etymology or cognacy.",
+          "zh-Hans": "文明、火种、大地、果实与阳光属于文学意象，不构成词源或同源证据。"
         }
       },
       "media": [],
@@ -5574,14 +5664,30 @@
           "url": "https://www.merriam-webster.com/dictionary/aback",
           "path": null,
           "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-MW-BACK",
+          "title": "Merriam-Webster Dictionary: back",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/back",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-OALD-ABACK",
+          "title": "Oxford Advanced Learner's Dictionary: aback",
+          "type": "dictionary",
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/aback",
+          "path": null,
+          "provenance": "external dictionary and word-origin reference; accessed 2026-09-04"
         }
       ],
       "author": "Jinkai Liu",
-      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "version": "Aback Literary Revision v1.0 / Schema v1.0",
       "dates": {
         "created": null,
-        "modified": "2026-09-01",
-        "published": null
+        "modified": "2026-09-04",
+        "published": "2026-09-04"
       },
       "editorial_notes": [
         {
@@ -5602,9 +5708,15 @@
         "背",
         "背后",
         "背 bei",
-        "surprised"
+        "surprised",
+        "civilization",
+        "文明",
+        "文明在你背后",
+        "a.back",
+        "dos",
+        "bèi"
       ],
-      "page": null,
+      "page": "words/aback.html",
       "legacy": {
         "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
         "source_url": "https://languagesbook.com/glossary/aback%ef%bc%8c%e8%83%8c%e5%90%8e%e3%80%82%e6%96%87%e6%98%8e%e5%9c%a8%e8%83%8c%e5%90%8e/",
@@ -5616,8 +5728,8 @@
         "type": "author-published legacy website note",
         "author": "Jinkai Liu",
         "status": "Preserved; claims independently classified above",
-        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
-        "raw_note": "aback，背后。背 bei。back 与背 bei 同音。文明在背后。"
+        "normalization": "Original lexical proposal and poem retained; pinyin and parts of speech normalized; Chinese punctuation lightly edited; English recast as a literary translation.",
+        "raw_note": "英语：a- pref. 这里选择无意义这种说法；aback [ə'bæk] ad. 在背后；a.back；back [bæk] n. 背。法语：dos n. 背。汉语：背【bei】ad.。备注：作者以字母 a 的字母名称与“背”bèi 作读音联想。诗歌：《文明在你背后》，全文已收入文学层。"
       },
       "batch": {
         "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",

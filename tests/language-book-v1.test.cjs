@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.7");
+  assert.equal(dataset.dataset_version, "1.2.8");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -203,6 +203,26 @@ test("Sky shows 盖 as a graded featured candidate while preserving 天空 as st
   assert.match(page, /作者中文原文 · Author’s Chinese Text/);
   assert.match(page, /房屋似此起彼伏的舢板與郵輪/);
   assert.match(page, /人造卫星通常运行于地球外部空间/);
+});
+
+test("Aback separates standard translation, historical structure, featured candidate and literature", () => {
+  const aback = dataset.entries.find((entry) => entry.slug === "aback");
+  assert.ok(aback);
+  assert.equal(aback.entry_status, "Published");
+  assert.equal(aback.primary_mapping.target.word, "吃惊地");
+  assert.equal(aback.featured_mapping.target, "背");
+  assert.equal(aback.featured_mapping.reading, "bèi");
+  assert.match(aback.featured_mapping.status, /Low confidence/);
+  assert.match(aback.semantic_structure.relation, /a \+ back → at\/on the back/);
+  assert.ok(aback.hypotheses.some((item) => item.hypothesis_id === "UNI-ABACK-A-PREFIX-002"));
+  assert.equal(aback.literary_layer.status, "Published");
+  assert.ok(aback.literary_layer.poem_lyrics.some((item) => item.title["zh-Hans"] === "文明在你背后"));
+  assert.equal(aback.page, "words/aback.html");
+
+  const page = fs.readFileSync(path.join(root, "words", "aback.html"), "utf8");
+  assert.match(page, /<span>↔ 背 <small>bèi<\/small><\/span><span>· 吃惊地<\/span>/);
+  assert.match(page, /文明在你背后 · Civilization Behind You/);
+  assert.match(page, /字母名称不能替代词内发音/);
 });
 
 test("Dictionary cards honor featured forms and keep standard translations visible", () => {

@@ -23,7 +23,7 @@ const files = [
   "tests/product-v0.1.test.cjs", "tests/product-v0.2.test.cjs",
   "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js", "js/literary-tabs.js",
   "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html",
-  "words/sky.html", "words/abdomen.html", "words/sound.html", "words/universe.html", "css/sky-case.css",
+  "words/sky.html", "words/aback.html", "words/abdomen.html", "words/sound.html", "words/universe.html", "css/sky-case.css",
   "words/namcha-barwa.html", "css/namcha-barwa.css",
   "images/namcha-barwa-west-cherry933.jpg", "images/namcha-barwa-literary-landscape.png",
   "README.md", "sitemap.xml"
@@ -37,7 +37,7 @@ const records = files.map((file) => {
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const manifest = {
   product: "Unilanguage Language Book + Semantic Mapper",
-  version: "1.2.7", dataset_version: dataset.dataset_version, created_at: "2026-09-04",
+  version: "1.2.8", dataset_version: dataset.dataset_version, created_at: "2026-09-04",
   canonical_dataset: "data/language-book.v1.0.json",
   canonical_schema: "data/language-book-entry.schema.v1.json",
   entry_count: dataset.entries.length,
@@ -47,4 +47,4 @@ const manifest = {
 };
 fs.writeFileSync(path.join(root, "data", "product-manifest.v1.0.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 fs.writeFileSync(path.join(root, "data", "product-checksums.v1.0.sha256"), `${records.map((record) => `${record.sha256}  ${record.path}`).join("\n")}\n`);
-console.log(`Product manifest v1.2.7 written · ${records.length} files`);
+console.log(`Product manifest v1.2.8 written · ${records.length} files`);
