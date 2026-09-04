@@ -176,7 +176,10 @@ test("Sound shows 声 as the featured form while preserving 声音 as standard t
   assert.ok(dataApi.languageForms(dataset).find((group) => group.code === "zh-Hans").forms.some((form) => form.term === "声" && form.recordId === sound.id));
 
   const page = fs.readFileSync(path.join(root, "words", "sound.html"), "utf8");
-  assert.match(page, /sound ↔ 声 <small>shēng<\/small> · 声音/);
+  assert.match(page, /class="sound-title"/);
+  assert.match(page, /<span>↔ 声 <small>shēng<\/small><\/span><span>· 声音<\/span>/);
+  const styles = fs.readFileSync(path.join(root, "css", "sky-case.css"), "utf8");
+  assert.match(styles, /\.sound-title span\{white-space:nowrap\}/);
   assert.match(page, /Literary boundary/);
   assert.match(page, /那是凝固的音乐/);
 });

@@ -23,7 +23,7 @@ const files = [
   "tests/product-v0.1.test.cjs", "tests/product-v0.2.test.cjs",
   "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js", "js/literary-tabs.js",
   "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html",
-  "words/abdomen.html", "words/sound.html", "words/universe.html",
+  "words/abdomen.html", "words/sound.html", "words/universe.html", "css/sky-case.css",
   "words/namcha-barwa.html", "css/namcha-barwa.css",
   "images/namcha-barwa-west-cherry933.jpg", "images/namcha-barwa-literary-landscape.png",
   "README.md", "sitemap.xml"
