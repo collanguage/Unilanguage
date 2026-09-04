@@ -228,7 +228,13 @@ function upgradeSky(entry) {
     ...entry.literary_layer,
     status: "Published",
     proposition: localized("The blue sky is the cover above us, changing through day and night, sun and moon, and the turning seasons.", "蓝天是覆盖我们的被盖，昼日夜月，四季变换。"),
-    essay_prose: [{ work_id: "LB-SKY-PROSE-001", title: localized("The Cover Above Us", "覆盖我们的蓝天"), page_anchor: "words/sky.html#literary", status: "Published" }],
+    essay_prose: [{
+      work_id: "LB-SKY-PROSE-001", title: localized("The Cover Above Us", "覆盖我们的蓝天"), page_anchor: "words/sky.html#literary", status: "Published",
+      text: localized(
+        "Standing on a mountain and looking up at the sky, I watch the white clouds wandering overhead. At moments the earth itself seems to move, while the houses rise and fall like sampans and ocean liners. Across oceans and great rivers, wherever we are able to sail, we may never travel over every part of Mother Earth. Even in passing, however, we may glimpse her skin and the places where her bones lie exposed—the mountains, ridges and valleys. The blue sky is the cover above us, changing through day and night, sun and moon, and the turning seasons.",
+        "站在山上向天空仰望，覺得天上的白雲在遊走，偶爾也會覺得地在走，房屋似此起彼伏的舢板與郵輪。在海洋、大河，在我們能夠航行的地方，我們雖未遊走在這大地母親的每一處，哪怕只是走馬觀花，也可以看看地母的每處肌膚、每處骨骼外露之處——那是山脈與丘壑。那藍天是我們的被蓋，晝日夜月，四季變換。"
+      ),
+    }],
     translations: [{ language: "Chinese", status: "Author text, editorially revised" }, { language: "English", status: "Literary translation" }],
   };
   entry.hypotheses.push({
@@ -252,13 +258,13 @@ function upgradeSky(entry) {
   entry.source = {
     type: "author-provided literary and research note", author: "Jinkai Liu", status: "Preserved; claims independently classified above",
     normalization: "Traditional characters normalized where appropriate; pinyin and parts of speech normalized; English recast as a literary translation.",
-    raw_note: "英语：sky n. 天；汉语：盖【gai】n.。作者提出六十四卦图是另一种文字，并提出所有卦象由乾卦而来；附乾卦原文、天字字源说明、盖天说、《敕勒歌》及山海天空文学段落。",
+    raw_note: "英语：sky n. 天；汉语：盖【gai】n.。六十四卦图是我们的另一种文字。所有卦象都是从乾卦而来。附乾卦原文、坤卦标题、天字字源说明、盖天说、《敕勒歌》，以及站在山上仰望白云、房屋如舢板与邮轮、大地母亲的肌肤与骨骼、蓝天是被盖的文学段落。原稿另将卫星、电离层和平流层并置为所仰望的盖天结构；编辑版将古代模型、现代大气层与地球外部空间分开说明。",
   };
   entry.editorial_notes = [
     localized("Translation (天空), featured candidate (盖 gài), independent histories, the ABOVE → COVER schema, Gaitian cosmology, Yijing hypothesis and literary writing remain separate.", "通用翻译（天空）、特色候选（盖 gài）、独立词史、ABOVE→COVER 图式、盖天说、易经假说与文学写作保持分离。"),
   ];
   entry.search_terms = clean([...entry.search_terms, "gài", "盖天", "盖天说", "乾", "乾卦", "坤", "坤卦", "周易", "六十四卦", "敕勒歌", "穹庐", "ciel"]);
-  entry.version = "Sky Literary and Cosmological Revision v1.6 / Schema v1.0";
+  entry.version = "Sky Author-Text Literary and Cosmological Revision v1.7 / Schema v1.0";
   entry.dates.modified = releaseDate;
 }
 
@@ -534,7 +540,7 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.2.6",
+  dataset_version: "1.2.7",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",

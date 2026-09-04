@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.6");
+  assert.equal(dataset.dataset_version, "1.2.7");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -200,6 +200,9 @@ test("Sky shows 盖 as a graded featured candidate while preserving 天空 as st
   assert.match(page, /<span>↔ 盖 <small>gài<\/small><\/span><span>· 天空<\/span>/);
   assert.match(page, /Author hypothesis · 作者原始假说/);
   assert.match(page, /Speculative \/ Testable · 推测性／可检验/);
+  assert.match(page, /作者中文原文 · Author’s Chinese Text/);
+  assert.match(page, /房屋似此起彼伏的舢板與郵輪/);
+  assert.match(page, /人造卫星通常运行于地球外部空间/);
 });
 
 test("Dictionary cards honor featured forms and keep standard translations visible", () => {
