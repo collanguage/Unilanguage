@@ -2,24 +2,24 @@
   "id": "LB-en-abash-034",
   "slug": "abash",
   "title": {
-    "en": "Abash · Bash · 拍 · 怕",
-    "zh-Hans": "Abash · Bash · 拍 · 怕"
+    "en": "BASH ↔ 拍 pāi · Abash historical correction",
+    "zh-Hans": "BASH ↔ 拍 pāi · Abash 历史修正"
   },
   "languages": [
     {
       "role": "source",
       "code": "en",
       "name": "English",
-      "word": "abash",
-      "pronunciation": "/əˈbæʃ/",
+      "word": "bash",
+      "pronunciation": "/bæʃ/",
       "part_of_speech": "verb · 动词"
     },
     {
       "role": "standard-translation",
       "code": "zh-Hans",
       "name": "Chinese",
-      "word": "使窘迫",
-      "pronunciation": "shǐ jiǒngpò"
+      "word": "猛击",
+      "pronunciation": "měng jī"
     },
     {
       "role": "featured-phonetic-semantic-candidate",
@@ -36,37 +36,45 @@
       "pronunciation": "pà"
     },
     {
-      "role": "related-separate-word",
+      "role": "related-historical-correction",
       "code": "en",
       "name": "English",
-      "word": "bash",
-      "pronunciation": "/bæʃ/"
+      "word": "abash",
+      "pronunciation": "/əˈbæʃ/",
+      "part_of_speech": "verb · 动词"
+    },
+    {
+      "role": "related-standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "使窘迫",
+      "pronunciation": "shǐ jiǒngpò"
     }
   ],
   "primary_mapping": {
-    "mapping_id": "MAP-abash-primary",
+    "mapping_id": "MAP-bash-standard",
     "source": {
       "language": "English",
-      "word": "abash",
-      "pronunciation": "/əˈbæʃ/"
+      "word": "bash",
+      "pronunciation": "/bæʃ/"
     },
     "target": {
       "language": "Chinese",
-      "word": "使窘迫",
-      "pronunciation": "shǐ jiǒngpò"
+      "word": "猛击",
+      "pronunciation": "měng jī"
     },
     "gloss": {
-      "en": "to destroy the self-possession or confidence of; embarrass or disconcert",
-      "zh-Hans": "使失去镇定或自信；使窘迫、局促"
+      "en": "hit or strike violently; crash or smash, depending on context",
+      "zh-Hans": "猛击、狠打；依语境可译猛撞、砸"
     },
     "meaning": {
-      "en": "to destroy the self-possession or confidence of; embarrass or disconcert. The standard mapping is independent from the legacy sound hypothesis.",
-      "zh-Hans": "使失去镇定或自信；使窘迫、局促。标准词义 Mapping 与旧站声音假说独立。"
+      "en": "Standard translation: bash = 猛击 / 狠打 / 猛撞 / 砸. Language Book candidate: BASH → HIT / STRIKE / IMPACT ← 拍 pāi. Related abash means embarrass/disconcert; it is not this mapping.",
+      "zh-Hans": "标准翻译：bash＝猛击／狠打／猛撞／砸。Language Book 候选：BASH → HIT / STRIKE / IMPACT ← 拍 pāi。相关词 abash 意为使窘迫／局促不安，不是本映射。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "mapping_type": "Standard translation; separately graded Phonetic-Semantic Candidate bash ↔ 拍",
     "rationale": {
-      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
-      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+      "en": "The shared action domain supports comparison. Initial b ↔ p belongs to Jinkai Liu’s b-p-m-f consonant-group hypothesis, not an established sound change or cognacy claim. Candidate, level C, Low confidence; one example does not promote the rule.",
+      "zh-Hans": "共享动作域支持比较；词首 b ↔ p 链接 Jinkai Liu 的 b-p-m-f 辅音组假说，不是已证实音变或同源。维持 Candidate、C 级、Low confidence；不因单例提升规则等级。"
     }
   },
   "entry_status": "Published",
@@ -78,67 +86,102 @@
       "status": "Established",
       "confidence": "High",
       "summary": {
-        "en": "Abash comes through Middle English and Anglo-French forms meaning ‘gape, be amazed’. It is not historically a + bash or derived from 拍.",
-        "zh-Hans": "abash 经中古英语与盎格鲁法语形式而来，早期含“张口、惊愕”；历史上不是 a + bash，也不源自“拍”。"
+        "en": "Independent histories: Merriam-Webster traces abash through Middle English abaisshen and Anglo-French abahir/abaïr, associated with gaping or astonishment. Its modern meaning is embarrass/disconcert. The violent-hit verb bash has uncertain origin. Modern a- + bash “hit” is not an established derivation; no bash–拍 historical relation is claimed.",
+        "zh-Hans": "独立词史：Merriam-Webster 将 abash 追至中古英语 abaisshen、盎格鲁法语 abahir/abaïr，早期与张口惊愕有关；现代义为使窘迫／局促不安。猛击义 bash 的起源未定。现代 a- + bash“打”不是已确立派生；不主张 bash 与拍的历史关系。"
       },
       "items": [
         {
           "evidence_id": "HIST-ABASH-001",
           "claim": {
-            "en": "Abash comes through Middle English and Anglo-French forms meaning ‘gape, be amazed’. It is not historically a + bash or derived from 拍.",
-            "zh-Hans": "abash 经中古英语与盎格鲁法语形式而来，早期含“张口、惊愕”；历史上不是 a + bash，也不源自“拍”。"
+            "en": "Independent histories: Merriam-Webster traces abash through Middle English abaisshen and Anglo-French abahir/abaïr, associated with gaping or astonishment. Its modern meaning is embarrass/disconcert. The violent-hit verb bash has uncertain origin. Modern a- + bash “hit” is not an established derivation; no bash–拍 historical relation is claimed.",
+            "zh-Hans": "独立词史：Merriam-Webster 将 abash 追至中古英语 abaisshen、盎格鲁法语 abahir/abaïr，早期与张口惊愕有关；现代义为使窘迫／局促不安。猛击义 bash 的起源未定。现代 a- + bash“打”不是已确立派生；不主张 bash 与拍的历史关系。"
           },
           "status": "Established",
           "confidence": "High",
           "source_refs": [
             "REF-MW-ABASH",
-            "REF-CNRTL-EBAHIR",
-            "REF-AHD-ABASH"
+            "REF-MW-BASH"
+          ]
+        },
+        {
+          "evidence_id": "HIST-BASH-HOMOGRAPH-002",
+          "claim": {
+            "en": "Merriam-Webster documents obsolete bash “be abashed”, from Middle English basshen shortened from abasshen, behind bashful. This is not evidence that violent-hit bash developed into abash. Etymonline proposes Scandinavian or echoic possibilities for violent-hit bash and dates it to the 1640s; Merriam-Webster lists origin unknown and first use 1744. Preserve this source difference rather than claiming a settled date or total unrelatedness.",
+            "zh-Hans": "Merriam-Webster 记载已废用的 bash“感到窘迫”，其中古英语 basshen 缩自 abasshen，并见于 bashful 的来源；这不证明“猛击”义 bash 发展成 abash。Etymonline 对猛击义提出斯堪的纳维亚或拟声来源的可能，并记作 1640 年代；Merriam-Webster 列起源不明、首见 1744。保留来源差异，不宣称年代或所有同形词之间的关系已完全定论。"
+          },
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-MW-BASHFUL",
+            "REF-MW-BASH",
+            "REF-ETYMONLINE-BASH"
+          ]
+        },
+        {
+          "evidence_id": "HIST-CHINESE-PAI-PA",
+          "claim": {
+            "en": "CUHK analyzes 拍 with a hand component and a phonetic component, while its earliest sense is uncertain. 拍 has Guangyun 普伯切 (aspirated labial, entering tone, 陌 rhyme). 怕 has both 普駕切 (departing tone, 禡 rhyme) and 普伯切 (entering tone, 陌 rhyme). CUHK reports competing accounts of the fear and tranquil senses; none establishes derivation from 拍.",
+            "zh-Hans": "拍、怕的字源与历史读音已分别核验；怕有普駕、普伯两套反切，畏惧义与淡泊义的关系仍有不同分析。现代音近不建立派生。"
+          },
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-CUHK-PAI",
+            "REF-CUHK-PA"
           ]
         }
       ],
-      "source_refs": ["REF-MW-ABASH", "REF-CNRTL-EBAHIR", "REF-AHD-ABASH"]
+      "source_refs": [
+        "REF-MW-ABASH",
+        "REF-MW-BASH",
+        "REF-MW-BASHFUL",
+        "REF-ETYMONLINE-BASH",
+        "REF-CUHK-PAI",
+        "REF-CUHK-PA"
+      ]
     },
     "Phonetic-Semantic": {
       "status": "Candidate",
       "confidence": "Low",
       "summary": {
-        "en": "Bash ↔ 拍 pāi is a low-confidence phonetic-semantic candidate centered on IMPACT / HIT / STRIKE. Their sounds differ substantially, and no historical relation is claimed.",
-        "zh-Hans": "bash ↔ 拍 pāi 是以 IMPACT／HIT／STRIKE（冲击／击打）为核心的低可信度音义候选；两者读音差异明显，不主张历史关系。"
+        "en": "BASH → HIT / STRIKE / IMPACT ← 拍 pāi. Initial b ↔ p is a testable mapping within the author’s existing b-p-m-f consonant-group hypothesis. English /b/ and Mandarin p /pʰ/ differ in voicing and aspiration; the rhyme, final /ʃ/ and tone also differ. This is a modern phonetic-semantic candidate, not a historical sound law.",
+        "zh-Hans": "BASH → HIT / STRIKE / IMPACT ← 拍 pāi。词首 b ↔ p 是作者既有 b-p-m-f 辅音组假说中的待检验映射。英语 /b/ 与普通话 p /pʰ/ 在清浊及送气上不同，韵部、词末 /ʃ/ 和声调也不同；这是现代音义候选，不是历史音变规律。"
       },
       "items": [
         {
           "evidence_id": "PHONSEM-ABASH-001",
           "claim": {
-            "en": "Bash ‘strike violently’ and 拍 ‘strike with the hand’ overlap in action semantics, but the resemblance is not a demonstrated sound correspondence.",
-            "zh-Hans": "bash 的“猛击”与“拍”的“以手击打”在动作语义上有重合，但这种近似不是已经证明的规律语音对应。"
+            "en": "BASH → HIT / STRIKE / IMPACT ← 拍 pāi. Initial b ↔ p is a testable mapping within the author’s existing b-p-m-f consonant-group hypothesis. English /b/ and Mandarin p /pʰ/ differ in voicing and aspiration; the rhyme, final /ʃ/ and tone also differ. This is a modern phonetic-semantic candidate, not a historical sound law.",
+            "zh-Hans": "BASH → HIT / STRIKE / IMPACT ← 拍 pāi。词首 b ↔ p 是作者既有 b-p-m-f 辅音组假说中的待检验映射。英语 /b/ 与普通话 p /pʰ/ 在清浊及送气上不同，韵部、词末 /ʃ/ 和声调也不同；这是现代音义候选，不是历史音变规律。"
           },
           "status": "Candidate",
           "confidence": "Low",
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABASH",
-            "REF-MW-BASH"
+            "REF-MW-BASH",
+            "REF-CUHK-PAI",
+            "REF-AUTHOR-BPMF"
           ]
         }
       ],
       "source_refs": [
-        "REF-LANGUAGESBOOK-ABASH",
-        "REF-MW-BASH"
+        "REF-MW-BASH",
+        "REF-CUHK-PAI",
+        "REF-AUTHOR-BPMF"
       ]
     },
     "Cognitive": {
       "status": "Interpretive",
       "confidence": "Medium",
       "summary": {
-        "en": "A sudden photograph might embarrass or disconcert someone, which better matches modern abash than simple surprise.",
-        "zh-Hans": "突然拍照可能使人窘迫或局促，这比单纯“惊讶”更接近现代 abash。"
+        "en": "IMPACT → STARTLE → FEAR / EMBARRASSMENT is a Cognitive / Experimental chain. 拍 pāi ↔ 怕 pà is a separate Chinese internal candidate; neither the sound resemblance nor an imagined reaction establishes derivation. The photograph scenario is only an editorial illustration, not the author’s original claim.",
+        "zh-Hans": "IMPACT → STARTLE → FEAR / EMBARRASSMENT 是 Cognitive / Experimental 认知链。拍 pāi ↔ 怕 pà 是独立汉语内部候选；音近或设想的心理反应均不建立派生。此前拍照场景仅是编辑举例，不是作者原始主张。"
       },
       "items": [
         {
           "evidence_id": "COG-ABASH-001",
           "claim": {
-            "en": "A sudden photograph might embarrass or disconcert someone, which better matches modern abash than simple surprise.",
-            "zh-Hans": "突然拍照可能使人窘迫或局促，这比单纯“惊讶”更接近现代 abash。"
+            "en": "IMPACT → STARTLE → FEAR / EMBARRASSMENT is a Cognitive / Experimental chain. 拍 pāi ↔ 怕 pà is a separate Chinese internal candidate; neither the sound resemblance nor an imagined reaction establishes derivation. The photograph scenario is only an editorial illustration, not the author’s original claim.",
+            "zh-Hans": "IMPACT → STARTLE → FEAR / EMBARRASSMENT 是 Cognitive / Experimental 认知链。拍 pāi ↔ 怕 pà 是独立汉语内部候选；音近或设想的心理反应均不建立派生。此前拍照场景仅是编辑举例，不是作者原始主张。"
           },
           "status": "Interpretive",
           "confidence": "Medium",
@@ -155,15 +198,15 @@
       "status": "Unestablished",
       "confidence": "High",
       "summary": {
-        "en": "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
-        "zh-Hans": "旧站汉译已校正：现代 abash 主要是使窘迫／局促，不只是惊讶。"
+        "en": "Original Author Hypothesis / Legacy Raw Note: a.bash → bash打击 → 惊讶. Independent historical evaluation: unsupported / not established as derivation from a- + violent-hit bash. Preserved as a cognitive association, not standard meaning or historical evidence.",
+        "zh-Hans": "Original Author Hypothesis / Legacy Raw Note：a.bash → bash打击 → 惊讶。独立历史评价：不支持／未确立为 a- + 猛击义 bash 的派生；保留认知联想，不作为标准词义或历史证据。"
       },
       "items": [
         {
           "evidence_id": "SPEC-ABASH-001",
           "claim": {
-            "en": "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
-            "zh-Hans": "旧站汉译已校正：现代 abash 主要是使窘迫／局促，不只是惊讶。"
+            "en": "Original Author Hypothesis / Legacy Raw Note: a.bash → bash打击 → 惊讶. Independent historical evaluation: unsupported / not established as derivation from a- + violent-hit bash. Preserved as a cognitive association, not standard meaning or historical evidence.",
+            "zh-Hans": "Original Author Hypothesis / Legacy Raw Note：a.bash → bash打击 → 惊讶。独立历史评价：不支持／未确立为 a- + 猛击义 bash 的派生；保留认知联想，不作为标准词义或历史证据。"
           },
           "status": "Unestablished",
           "confidence": "High",
@@ -183,8 +226,8 @@
     {
       "observation_id": "PHON-ABASH-001",
       "claim": {
-        "en": "Bash and 拍 pāi differ substantially in sound; the photograph scenario is an authored narrative association.",
-        "zh-Hans": "bash 与“拍”pāi 的读音差异明显；拍照场景是作者叙事联想。"
+        "en": "BASH → HIT / STRIKE / IMPACT ← 拍 pāi. Initial b ↔ p is a testable mapping within the author’s existing b-p-m-f consonant-group hypothesis. English /b/ and Mandarin p /pʰ/ differ in voicing and aspiration; the rhyme, final /ʃ/ and tone also differ. This is a modern phonetic-semantic candidate, not a historical sound law.",
+        "zh-Hans": "BASH → HIT / STRIKE / IMPACT ← 拍 pāi。词首 b ↔ p 是作者既有 b-p-m-f 辅音组假说中的待检验映射。英语 /b/ 与普通话 p /pʰ/ 在清浊及送气上不同，韵部、词末 /ʃ/ 和声调也不同；这是现代音义候选，不是历史音变规律。"
       },
       "status": "Candidate",
       "limitations": {
@@ -203,15 +246,19 @@
         "character": "拍",
         "modern_reading": "pāi",
         "meaning": "以手击打；拍摄",
-        "historical_note": "《说文》异体𢫦释为“拊也”，从手、百声；《广韵》普伯切，滂母、入声、陌韵。",
-        "source_refs": ["REF-CUHK-PAI", "REF-MOE-PAI"]
+        "historical_note": "CUHK：金文从手、白声，但构形初义不明；《说文》异体𢫦为从手、百声。《广韵》普伯切，滂母、入声、陌韵。",
+        "source_refs": [
+          "REF-CUHK-PAI"
+        ]
       },
       {
         "character": "怕",
         "modern_reading": "pà",
         "meaning": "畏惧；害怕",
-        "historical_note": "从心、白声；早期另有“淡泊／无为”义。畏惧义见《玉篇》，《广韵·禡韵》载“怕，怕惧”。",
-        "source_refs": ["REF-CUHK-PA", "REF-MOE-PA"]
+        "historical_note": "CUHK：从心、白声；早期有淡泊／无为义。《广韵》并列普駕切（滂母、去声、禡韵）与普伯切（滂母、入声、陌韵）。畏惧义见《玉篇》。CUHK 保留两说：畏惧义与淡泊义属同形字，或畏惧用法与“怖”的口语音有关；不将两义直接串成已确立派生。",
+        "source_refs": [
+          "REF-CUHK-PA"
+        ]
       }
     ],
     "boundary": {
@@ -231,59 +278,47 @@
   },
   "semantic_structure": {
     "concepts": [
-      "ABASH",
-      "EMBARRASS",
-      "DISCONCERT",
-      "STRIKE / HIT",
-      "PHOTOGRAPH",
-      "SURPRISE / FEAR"
+      "BASH",
+      "HIT",
+      "STRIKE",
+      "IMPACT",
+      "STARTLE",
+      "FEAR",
+      "EMBARRASSMENT",
+      "ABASH"
     ],
-    "relation": "Historical: Old French esbahir → Middle English abash. Experimental: bash ↔ 拍 (IMPACT / HIT / STRIKE). Cognitive: IMPACT → STARTLE → FEAR / EMBARRASSMENT.",
+    "relation": "Experimental: bash ↔ 拍; BASH → HIT / STRIKE / IMPACT ← 拍. Cognitive: IMPACT → STARTLE → FEAR / EMBARRASSMENT. Abash: related standard meaning / historical correction only.",
     "status": "Interpretive"
   },
   "related_words": [
+    {
+      "word": "abash",
+      "language": "English",
+      "relationship_type": "related historical correction / standard meaning",
+      "family": "abash family; violent-hit bash origin uncertain",
+      "relation_to_entry": {
+        "en": "Related historical correction: abash means embarrass or disconcert (使窘迫、使羞愧、使局促不安). It is not the bash ↔ 拍 candidate and is not simply a- + bash “hit”. See the independent Historical track and the linked BASH case.",
+        "zh-Hans": "相关历史修正：abash 意为使窘迫、使羞愧、使局促不安；它不是 bash ↔ 拍 候选，也不能简单分析为 a- + bash“打”。参见独立历史轨与同一记录中的 BASH 案例。"
+      },
+      "status": "Supported",
+      "source_refs": [
+        "REF-MW-ABASH",
+        "REF-MW-BASH",
+        "REF-MW-BASHFUL"
+      ]
+    },
     {
       "word": "abashed",
       "language": "English",
       "relationship_type": "derivative",
       "family": "abash family",
       "relation_to_entry": {
-        "en": "Documented relation in the stated historical family.",
-        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+        "en": "Derivative of the related word abash, not of violent-hit bash.",
+        "zh-Hans": "相关词 abash 的派生形式，不是猛击义 bash 的派生。"
       },
       "status": "Established",
       "source_refs": [
         "REF-MW-ABASH"
-      ]
-    },
-    {
-      "word": "bash",
-      "language": "English",
-      "relationship_type": "false segmentation",
-      "family": "separate history",
-      "relation_to_entry": {
-        "en": "Author comparison or semantic association only; not historical derivation.",
-        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
-      },
-      "status": "Interpretive",
-      "source_refs": [
-        "REF-LANGUAGESBOOK-ABASH",
-        "REF-MW-ABASH"
-      ]
-    },
-    {
-      "word": "拍 pāi",
-      "language": "Chinese",
-      "relationship_type": "narrative mnemonic",
-      "family": "independent Sinitic history",
-      "relation_to_entry": {
-        "en": "Author comparison or semantic association only; not historical derivation.",
-        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
-      },
-      "status": "Interpretive",
-      "source_refs": [
-        "REF-LANGUAGESBOOK-ABASH",
-        "REF-MW-BASH"
       ]
     },
     {
@@ -296,13 +331,15 @@
         "zh-Hans": "害怕或惊讶可能伴随窘迫，但这里只是概念联想，不是派生关系。"
       },
       "status": "Interpretive",
-      "source_refs": ["REF-LANGUAGESBOOK-ABASH"]
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABASH"
+      ]
     }
   ],
   "semantic_associations": [
     {
       "association_id": "ASSOC-ABASH-001",
-      "relation": "A sudden photograph might embarrass or disconcert someone, which better matches modern abash than simple surprise.",
+      "relation": "IMPACT → STARTLE → FEAR / EMBARRASSMENT is a Cognitive / Experimental chain. 拍 pāi ↔ 怕 pà is a separate Chinese internal candidate; neither the sound resemblance nor an imagined reaction establishes derivation. The photograph scenario is only an editorial illustration, not the author’s original claim.",
       "status": "Interpretive",
       "is_etymological": false
     }
@@ -312,18 +349,18 @@
       "hypothesis_id": "UNI-LEGACY-ABASH-001",
       "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
       "claim": {
-        "en": "Jinkai Liu’s original note is preserved verbatim: “abash，惊讶。拍 pai。惊讶。拍下让人惊讶。”",
-        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abash，惊讶。拍 pai。惊讶。拍下让人惊讶。”"
+        "en": "Jinkai Liu’s original note is preserved verbatim: “abash，惊讶。拍 pai。惊讶。拍下让人惊讶。” Legacy segmentation: a.bash → bash打击 → 惊讶.",
+        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abash，惊讶。拍 pai。惊讶。拍下让人惊讶。” 旧笔记切分：a.bash → bash打击 → 惊讶。"
       },
-      "status": "Candidate",
+      "status": "Unestablished",
       "confidence": "Low",
       "supporting_cases": [
-        "abash",
-        "使窘迫／使局促"
+        "Author’s preserved cognitive association only; no historical derivation established"
       ],
       "counterexamples": [
         "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
-        "No regular cross-language sound correspondence has been demonstrated."
+        "No regular cross-language sound correspondence has been demonstrated.",
+        "Merriam-Webster documents obsolete bash “be abashed”, from Middle English basshen shortened from abasshen, behind bashful. This is not evidence that violent-hit bash developed into abash. Etymonline proposes Scandinavian or echoic possibilities for violent-hit bash and dates it to the 1640s; Merriam-Webster lists origin unknown and first use 1744. Preserve this source difference rather than claiming a settled date or total unrelatedness."
       ],
       "testability": {
         "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
@@ -333,6 +370,33 @@
       "source_refs": [
         "REF-LANGUAGESBOOK-ABASH",
         "REF-MW-ABASH"
+      ],
+      "historical_evaluation": "Unsupported / not established as derivation"
+    },
+    {
+      "hypothesis_id": "HYP-BPMF-CONSONANT-GROUP",
+      "type": "b-p-m-f consonant-group hypothesis / case link",
+      "claim": {
+        "en": "Jinkai Liu’s existing b-p-m-f grouping is applied here as initial b ↔ p in bash ↔ 拍. This case does not prove interchangeability across English and Chinese, and supplies no evidence yet for b ↔ m/f.",
+        "zh-Hans": "本例将 Jinkai Liu 既有 b-p-m-f 分组应用为 bash ↔ 拍 的词首 b ↔ p 候选；本例不能证明英汉辅音可互换，也尚未提供 b ↔ m/f 的证据。"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "supporting_cases": [
+        "bash ↔ 拍 — candidate positive case; not a validation set"
+      ],
+      "counterexamples": [
+        "No collected counterexample dataset yet; do not mistake this empty sample for absence of counterexamples.",
+        "Unmatched rhyme, /ʃ/ and tone; voicing/aspiration differ.",
+        "One selected positive example cannot demonstrate a rule."
+      ],
+      "testability": {
+        "en": "Pre-register b ↔ p/m/f comparisons, collect positive and negative examples without selecting for meaning, and compare blinded semantic correspondence rate with random and matched-control baselines. Report all cases, uncertainty and held-out results; avoid cherry-picking.",
+        "zh-Hans": "预注册 b ↔ p/m/f 比较；不按语义筛样，收集正例与反例；盲评 semantic correspondence rate，与随机及匹配控制基线比较。公布全部案例、不确定性和留出集结果，避免 cherry-picking。"
+      },
+      "experiment_link": "EXP-BPMF-SEMANTIC-CORRESPONDENCE-PLAN",
+      "source_refs": [
+        "REF-AUTHOR-BPMF"
       ]
     }
   ],
@@ -350,7 +414,24 @@
       ]
     }
   ],
-  "experiments": [],
+  "experiments": [
+    {
+      "experiment_id": "EXP-BPMF-SEMANTIC-CORRESPONDENCE-PLAN",
+      "title": {
+        "en": "Future b-p-m-f semantic correspondence experiment",
+        "zh-Hans": "未来 b-p-m-f 语义对应实验"
+      },
+      "status": "Planned / Not run",
+      "result": {
+        "en": "No results. Collect b ↔ p/m/f positives, negatives and random/matched controls, then compare semantic correspondence rate. A single bash ↔ 拍 case cannot establish the rule.",
+        "zh-Hans": "暂无结果。收集 b ↔ p/m/f 正例、反例与随机／匹配对照后比较语义对应率；bash ↔ 拍 单例不能证明规则。"
+      },
+      "path": "words/abash.html#bpmf-experiment",
+      "hypothesis_ids": [
+        "HYP-BPMF-CONSONANT-GROUP"
+      ]
+    }
+  ],
   "literary_layer": {
     "status": "Published",
     "is_historical_evidence": false,
@@ -402,7 +483,7 @@
       "type": "dictionary",
       "url": "https://www.merriam-webster.com/dictionary/abash",
       "path": null,
-      "provenance": "external lexicographic reference; accessed 2026-09-04"
+      "provenance": "external lexicographic reference; accessed 2026-09-04; independently rechecked 2026-09-05"
     },
     {
       "reference_id": "REF-MW-BASH",
@@ -410,7 +491,7 @@
       "type": "dictionary",
       "url": "https://www.merriam-webster.com/dictionary/bash",
       "path": null,
-      "provenance": "external lexicographic reference for the separate word bash; accessed 2026-09-04"
+      "provenance": "external lexicographic reference for the separate word bash; accessed 2026-09-04; independently rechecked 2026-09-05"
     },
     {
       "reference_id": "REF-CNRTL-EBAHIR",
@@ -434,7 +515,7 @@
       "type": "historical character database",
       "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%8B%8D",
       "path": null,
-      "provenance": "character formation, Shuowen gloss and Guangyun phonological category; accessed 2026-09-04"
+      "provenance": "character formation, Shuowen gloss and Guangyun phonological category; accessed 2026-09-04; independently rechecked 2026-09-05"
     },
     {
       "reference_id": "REF-CUHK-PA",
@@ -442,7 +523,7 @@
       "type": "historical character database",
       "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%80%95",
       "path": null,
-      "provenance": "character formation and semantic history; accessed 2026-09-04"
+      "provenance": "character formation and semantic history; accessed 2026-09-04; independently rechecked 2026-09-05"
     },
     {
       "reference_id": "REF-MOE-PAI",
@@ -459,13 +540,37 @@
       "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=-14804",
       "path": null,
       "provenance": "modern reading and historical form evidence; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-MW-BASHFUL",
+      "title": "Merriam-Webster: Does bashful mean full of bash?",
+      "type": "dictionary editorial word history",
+      "url": "https://www.merriam-webster.com/wordplay/does-bashful-mean-full-of-bash",
+      "path": null,
+      "provenance": "independently accessed 2026-09-05; obsolete bash shortened from abash, distinct from the violent-hit sense"
+    },
+    {
+      "reference_id": "REF-ETYMONLINE-BASH",
+      "title": "Online Etymology Dictionary: bash",
+      "type": "etymological dictionary",
+      "url": "https://www.etymonline.com/word/bash",
+      "path": null,
+      "provenance": "independently accessed 2026-09-05; tentative origins and dating differ from Merriam-Webster"
+    },
+    {
+      "reference_id": "REF-AUTHOR-BPMF",
+      "title": "Jinkai Liu: b-p-m-f grouping and 拿砖拍他",
+      "type": "Original Author Usage Observation / hypothesis",
+      "url": null,
+      "path": null,
+      "provenance": "user-supplied correction instruction 2026-09-05; not independent historical or Tianjin dialect verification"
     }
   ],
   "author": "Jinkai Liu",
-  "version": "Abash Four-Track Research Revision v1.1 / Schema v1.0",
+  "version": "ABASH/BASH Correction Package v1.2 / Schema v1.0",
   "dates": {
     "created": null,
-    "modified": "2026-09-04",
+    "modified": "2026-09-05",
     "published": "2026-09-04"
   },
   "editorial_notes": [
@@ -476,6 +581,10 @@
     {
       "en": "The legacy Chinese gloss is narrowed: modern abash means embarrass/disconcert, not merely surprise.",
       "zh-Hans": "旧站汉译已校正：现代 abash 主要是使窘迫／局促，不只是惊讶。"
+    },
+    {
+      "en": "Correction in place: stable abash ID, slug and page are retained; the case center is BASH ↔ 拍. Count remains unchanged. Level C and Candidate status are retained; literary/raw notes are preserved.",
+      "zh-Hans": "原地修正：保留 abash 的稳定 ID、slug 和页面，案例中心改为 BASH ↔ 拍；总数不变。维持 C 级与 Candidate，保留文学及原始笔记。"
     }
   ],
   "search_terms": [
@@ -499,7 +608,20 @@
     "Collanguage",
     "通语",
     "玛娜花",
-    "葡萄园"
+    "葡萄园",
+    "猛击",
+    "狠打",
+    "猛撞",
+    "砸",
+    "使窘迫",
+    "使羞愧",
+    "使局促不安",
+    "b-p-m-f",
+    "bpmf",
+    "HIT",
+    "STRIKE",
+    "IMPACT",
+    "拿砖拍他"
   ],
   "page": "words/abash.html",
   "legacy": {
@@ -521,5 +643,83 @@
     "ordinal": 11,
     "disposition": "Candidate",
     "priority_score": 89.6
-  }
+  },
+  "featured_mapping": {
+    "source": "bash",
+    "target": "拍",
+    "reading": "pāi",
+    "status": "Candidate · Low confidence · Level C",
+    "historical_relation": "Not claimed",
+    "display_label": "Phonetic-Semantic Candidate · b ↔ p within b-p-m-f",
+    "source_refs": [
+      "REF-MW-BASH",
+      "REF-CUHK-PAI"
+    ],
+    "boundary": {
+      "en": "Candidate / C / Low confidence. Initial b ↔ p is a hypothesis within b-p-m-f; no historical relation is claimed. Standard translation remains 猛击 / 狠打 / 猛撞 / 砸. See the linked hypothesis and planned experiment.",
+      "zh-Hans": "Candidate／C／Low confidence。词首 b ↔ p 属 b-p-m-f 假说，不主张历史关系。标准翻译仍为猛击／狠打／猛撞／砸；参见已链接假说及未来实验。"
+    }
+  },
+  "query_views": [
+    {
+      "terms": [
+        "abash",
+        "abashed",
+        "a.bash",
+        "窘迫",
+        "使窘迫",
+        "局促",
+        "羞愧",
+        "使羞愧",
+        "使局促不安",
+        "embarrass",
+        "disconcert"
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abash-primary",
+        "source": {
+          "language": "English",
+          "word": "abash",
+          "pronunciation": "/əˈbæʃ/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "使窘迫",
+          "pronunciation": "shǐ jiǒngpò"
+        },
+        "gloss": {
+          "en": "to destroy the self-possession or confidence of; embarrass or disconcert",
+          "zh-Hans": "使失去镇定或自信；使窘迫、局促"
+        },
+        "meaning": {
+          "en": "Related historical correction: abash means embarrass or disconcert (使窘迫、使羞愧、使局促不安). It is not the bash ↔ 拍 candidate and is not simply a- + bash “hit”. See the independent Historical track and the linked BASH case.",
+          "zh-Hans": "相关历史修正：abash 意为使窘迫、使羞愧、使局促不安；它不是 bash ↔ 拍 候选，也不能简单分析为 a- + bash“打”。参见独立历史轨与同一记录中的 BASH 案例。"
+        },
+        "mapping_type": "Related historical correction / Standard meaning — not a phonetic mapping",
+        "rationale": {
+          "en": "This view presents the standard meaning of the related word abash, not an abash = 拍 mapping.",
+          "zh-Hans": "此视图展示相关词 abash 的标准义，不建立 abash＝拍 映射。"
+        }
+      },
+      "featured_mapping": null
+    }
+  ],
+  "author_usage_observation": {
+    "label": "Original Author Usage Observation",
+    "author": "Jinkai Liu",
+    "date": "2026-09-05",
+    "text": "拿砖拍他",
+    "reported_context": "天津／北方口语；作者指出此处“拍”可以表达有力击打",
+    "verification_status": "Unverified as a Tianjin dialect fact",
+    "independent_evidence": {
+      "en": "CUHK supports the general hand-striking/beat senses of 拍. The targeted dialect search did not yield a reliable dictionary entry for this exact Tianjin usage; general lexical evidence does not verify the regional attribution.",
+      "zh-Hans": "CUHK 支持“拍”的一般手击／拍打义。针对性方言检索未获得可核验此天津用法的可靠词典条目；一般词义资料不核验地域归属。"
+    },
+    "source_refs": [
+      "REF-CUHK-PAI",
+      "REF-AUTHOR-BPMF"
+    ],
+    "is_historical_evidence": false
+  },
+  "legacy_segmentation_raw_note": "a.bash → bash打击 → 惊讶"
 }

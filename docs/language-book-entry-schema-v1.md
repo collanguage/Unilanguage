@@ -47,6 +47,9 @@ Current Legacy Website Import release: `1.2.0` (37 records; Schema remains `1.0.
 | `author`, `version`, `dates` | Editorial authorship and version history. The project author convention is `Jinkai Liu`. |
 | `editorial_notes` | Bilingual scope and evidence-boundary notes. |
 | `search_terms` | Canonical search aliases consumed by Search, Dictionary and Semantic Mapper. |
+| `query_views` | Optional related-word standard-meaning views. Each has exact `terms`, a validated `primary_mapping`, and `featured_mapping: null`. The adapter preserves ID, page, evidence and count, and never overwrites the canonical record. |
+
+Correction release `1.2.11` keeps 37 records and Schema `1.0.0`. The stable `abash` record now centers on BASH ↔ 拍. Following the existing featured-form convention, `primary_mapping` carries bash’s standard translation and `featured_mapping` carries the Candidate comparison with 拍. Queries for abash or 窘迫 display its related standard meaning and historical correction, using the same frozen Mapper renderer. Research level remains C; no rule is promoted. `HYP-BPMF-CONSONANT-GROUP` records the user’s existing grouping under a stable case-level identifier (no earlier dedicated b-p-m-f identifier was found in this checkout). Its linked experiment is planned, not run.
 
 ## Enumerations
 

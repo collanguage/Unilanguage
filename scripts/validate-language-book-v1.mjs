@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.10", "Schema must remain 1.0.0 and the Abash four-track revision must be 1.2.10");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.11", "Schema must remain 1.0.0 and the Abash four-track revision must be 1.2.11");
 check(dataset.entries.length === 37, "Universe upgrade must not change the 37-record entry count");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
@@ -49,6 +49,16 @@ for (const entry of dataset.entries) {
     check(hypothesis.hypothesis_id && hypothesis.claim && hypothesis.status && hypothesis.supporting_cases && hypothesis.counterexamples && hypothesis.testability && Object.hasOwn(hypothesis, "experiment_link"), `${entry.id}: incomplete hypothesis`);
   }
   const referenceIds = new Set((entry.references || []).map((item) => item.reference_id));
+  const viewTerms = new Set();
+  for (const view of entry.query_views || []) {
+    check(view.terms?.length && view.featured_mapping === null, `${entry.id}: query view must be an exact related-word meaning without a featured mapping`);
+    check(view.primary_mapping?.source?.word && view.primary_mapping?.target?.word && view.primary_mapping?.meaning?.en && view.primary_mapping?.meaning?.["zh-Hans"], `${entry.id}: incomplete query-view meaning`);
+    for (const term of view.terms || []) {
+      const key = term.trim().toLowerCase();
+      check(key && !viewTerms.has(key), `${entry.id}: empty or duplicate query-view term ${term}`);
+      viewTerms.add(key);
+    }
+  }
   for (const related of entry.related_words || []) {
     check(related.word && related.language && related.relationship_type && related.family && related.relation_to_entry?.en && related.relation_to_entry?.["zh-Hans"], `${entry.id}: incomplete related word`);
     for (const ref of related.source_refs || []) check(referenceIds.has(ref), `${entry.id}/${related.word}: broken related-word source ref ${ref}`);

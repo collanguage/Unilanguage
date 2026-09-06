@@ -28,7 +28,7 @@
     try {
       const dataset = await getDataset(), term = UnilanguageData.normalize(input.value);
       const entries = dataset.entries.filter((entry) => entry.mapping_status !== "Rejected" && (!term || UnilanguageData.searchableForms(entry).some((form) => form.includes(term))));
-      renderDictionary(entries); if (message) message.textContent = entries.length ? `${entries.length} schema record(s) · ${entries.length} 个统一数据词条` : "No entry found. · 未找到词条。";
+      renderDictionary(entries.map((entry) => UnilanguageData.queryView(entry, term))); if (message) message.textContent = entries.length ? `${entries.length} schema record(s) · ${entries.length} 个统一数据词条` : "No entry found. · 未找到词条。";
     } catch (error) { document.getElementById("dictionaryGrid").innerHTML = '<article class="card"><h2>Dataset unavailable · 数据暂不可用</h2></article>'; }
   }
   window.searchWord = searchWord; window.filterDictionary = filterDictionary;

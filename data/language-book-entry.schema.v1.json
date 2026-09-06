@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.2.10" },
+    "dataset_version": { "const": "1.2.11" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
@@ -86,6 +86,19 @@
           "additionalProperties": false
         },
         "phonetic_observation": { "type": "array" },
+        "query_views": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["terms", "primary_mapping", "featured_mapping"],
+            "properties": {
+              "terms": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+              "primary_mapping": { "$ref": "#/$defs/entry/properties/primary_mapping" },
+              "featured_mapping": { "type": "null" }
+            },
+            "additionalProperties": false
+          }
+        },
         "semantic_structure": { "type": "object", "required": ["concepts", "relation", "status"] },
         "root_level_mapping": {
           "type": "object",

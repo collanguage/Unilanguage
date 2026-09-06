@@ -7,7 +7,7 @@ const legacy = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book
 const out = path.join(root, "data", "language-book.v1.0.json");
 const authoredEntriesDirectory = path.join(root, "data", "entries");
 const migrationDate = "2026-09-02";
-const releaseDate = "2026-09-02";
+const releaseDate = "2026-09-05";
 const localized = (en, zh) => ({ en, "zh-Hans": zh });
 const clean = (values) => [...new Set(values.filter((value) => value !== null && value !== undefined && String(value).trim()).map(String))];
 const sourceMap = new Map(legacy.sources.map((item) => [item.source_id, item]));
@@ -265,7 +265,7 @@ function upgradeSky(entry) {
   ];
   entry.search_terms = clean([...entry.search_terms, "gài", "盖天", "盖天说", "乾", "乾卦", "坤", "坤卦", "周易", "六十四卦", "敕勒歌", "穹庐", "ciel"]);
   entry.version = "Sky Author-Text Literary and Cosmological Revision v1.7 / Schema v1.0";
-  entry.dates.modified = releaseDate;
+  entry.dates.modified = migrationDate;
 }
 
 upgradeSky(entries.find((entry) => entry.slug === "sky"));
@@ -387,7 +387,7 @@ function upgradeUniverse(entry) {
     { reference_id: "SRC-PROTOCOL-MAPPING", title: "Protocol Book · Multidimensional Mapping Framework", type: "protocol-page", url: null, path: "protocol/protocol.mapping-framework.html", provenance: "project protocol" },
   ];
   entry.version = "Universe Root-Level Semantic Mapper v1.0 / Entry v2.0 / Schema v1.0";
-  entry.dates.modified = releaseDate;
+  entry.dates.modified = migrationDate;
   entry.editorial_notes = [
     localized("Language may preserve cognitive traces, but etymology alone cannot establish the physical structure of the universe.", "语言可以保存认知痕迹，但不能仅由词源反推出宇宙物理结构。"),
     localized("No single Chinese character is selected as the unique primary structural mapping; candidates retain evidence-specific grades.", "不把任何单一汉字选作唯一主要结构映射；各候选保留各自证据等级。"),
@@ -469,7 +469,7 @@ function upgradeSound(entry) {
   };
   entry.search_terms = clean([...entry.search_terms, "响起", "xiǎng", "sonner", "violin", "小提琴", "church", "教堂", "frozen music", "凝固的音乐"]);
   entry.version = "Sound Literary Revision v1.1 / Schema v1.0";
-  entry.dates.modified = releaseDate;
+  entry.dates.modified = migrationDate;
 }
 
 upgradeSound(entries.find((entry) => entry.slug === "sound"));
@@ -540,7 +540,7 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.2.10",
+  dataset_version: "1.2.11",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",

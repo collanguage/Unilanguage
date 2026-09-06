@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.10");
+  assert.equal(dataset.dataset_version, "1.2.11");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -229,8 +229,9 @@ test("Abash separates standard translation, experimental clusters, cognitive cha
   const abash = dataset.entries.find((entry) => entry.slug === "abash");
   assert.ok(abash);
   assert.equal(abash.entry_status, "Published");
-  assert.equal(abash.primary_mapping.target.word, "使窘迫");
-  assert.equal(abash.featured_mapping, undefined);
+  assert.equal(abash.primary_mapping.source.word, "bash");
+  assert.equal(abash.primary_mapping.target.word, "猛击");
+  assert.equal(abash.featured_mapping.target, "拍");
   assert.equal(abash.chinese_internal_cluster.status, "Candidate");
   assert.equal(abash.chinese_internal_cluster.confidence, "Low");
   assert.equal(abash.chinese_internal_cluster.historical_relation, "Unestablished");
@@ -248,13 +249,50 @@ test("Abash separates standard translation, experimental clusters, cognitive cha
   }
 
   const page = fs.readFileSync(path.join(root, "words", "abash.html"), "utf8");
-  assert.match(page, /<span>ABASH<\/span><span>· BASH<\/span><span>· 拍 <small>pāi<\/small><\/span><span>· 怕 <small>pà<\/small><\/span>/);
+  assert.match(page, /<span>BASH<\/span><span>↔ 拍 <small>pāi<\/small><\/span>/);
   assert.match(page, /这里不是“abash＝拍”/);
   assert.match(page, /IMPACT → STARTLE → FEAR \/ EMBARRASSMENT/);
   assert.match(page, /通向宇航时代的语言桥梁/);
   assert.match(page, /文学可以连接原本不相干的事物；研究则负责判断这种连接是否具有可重复的结构/);
   assert.match(page, /我在我的葡萄園裡/);
-  assert.match(page, /历史上的 <em>abash<\/em> 不是现代 <em>a \+ bash<\/em>/);
+  assert.match(page, /不能简单分析为现代 <em>a- \+ bash “hit”<\/em>/);
+});
+
+test("BASH correction keeps query identity but separates standard meaning from the candidate", () => {
+  const canonical = dataset.entries.find((entry) => entry.slug === "abash");
+  const before = JSON.stringify(canonical);
+  for (const query of ["bash", "BASH", "拍", "猛击", "狠打", "猛撞", "砸", "bpmf"]) {
+    const entry = dataApi.lookup(dataset, query).entry;
+    assert.equal(entry.id, canonical.id);
+    assert.equal(entry.primary_mapping.source.word, "bash");
+    assert.equal(entry.featured_mapping.target, "拍");
+    assert.equal(entry.mapping_status, "Candidate");
+    assert.equal(entry.mapping_level, "C");
+    assert.equal(entry.historical_relation_status, "Not claimed");
+  }
+  for (const query of ["abash", " ABASH ", "abashed", "a.bash", "窘迫", "使窘迫", "embarrass", "disconcert"]) {
+    const entry = dataApi.lookup(dataset, query).entry;
+    assert.equal(entry.id, canonical.id);
+    assert.equal(entry.primary_mapping.source.word, "abash");
+    assert.equal(entry.primary_mapping.target.word, "使窘迫");
+    assert.equal(entry.featured_mapping, null);
+    assert.match(entry.primary_mapping.mapping_type, /Related historical correction/);
+    assert.equal(entry.page, "words/abash.html");
+  }
+  assert.equal(JSON.stringify(canonical), before, "query views must not mutate canonical evidence");
+  assert.equal(dataset.entries.length, 37);
+  assert.equal(dataset.entries.filter(e => e.primary_mapping.source.word === "bash").length, 1);
+  assert.equal(dataset.entries.filter(e => e.id === canonical.id).length, 1);
+  assert.equal(dataApi.queryView(canonical, "unrecorded").featured_mapping.target, "拍");
+  const hypothesis = canonical.hypotheses.find(h => h.hypothesis_id === "HYP-BPMF-CONSONANT-GROUP");
+  const plan = canonical.experiments.find(x => x.experiment_id === hypothesis.experiment_link);
+  assert.equal(plan.status, "Planned / Not run");
+  assert.match(hypothesis.testability.en, /positive and negative.*random and matched-control.*correspondence rate|positive and negative.*correspondence rate.*random and matched-control/);
+  assert.match(canonical.author_usage_observation.verification_status, /Unverified/);
+  assert.equal(canonical.author_usage_observation.label, "Original Author Usage Observation");
+  assert.match(canonical.chinese_internal_cluster.members[1].historical_note, /普駕.*普伯/);
+  assert.equal(canonical.literary_layer.is_historical_evidence, false);
+  assert.match(canonical.source.raw_note, /架起語言.*葡萄🍇圆/s);
 });
 
 test("Dictionary cards honor featured forms and keep standard translations visible", () => {

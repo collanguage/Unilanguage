@@ -30,7 +30,7 @@
   // term and inside the record itself.
   const PREFERRED_CHINESE_BROWSE_FORMS = {
     sky: "盖", universe: "斡", human: "男", sound: "声", language: "朗", water: "哗", advance: "往", light: "籁", at: "在",
-    "a-indefinite-article": "一", aback: "吃惊地", abandon: "放弃", abash: "使窘迫", abbey: "修道院", abbreviate: "缩写",
+    "a-indefinite-article": "一", aback: "吃惊地", abandon: "放弃", abash: "拍", abbey: "修道院", abbreviate: "缩写",
     abdicate: "退位", abdomen: "肚子", aberrant: "反常的", abeyance: "暂缓", abhor: "憎恶", abound: "大量存在",
     above: "在……上方", abridge: "缩短", absolute: "绝对的", acumen: "洞察力", aliment: "食物", convent: "女修道院",
     figure: "图形", fil: "线", form: "形式", generate: "产生", marchand: "商人", media: "媒体", montrer: "显示",
@@ -55,6 +55,7 @@
       entry.source_word,
       entry.normalized_form,
       ...(entry.aliases || []),
+      ...(entry.query_views || []).flatMap((view) => view.terms),
     ]
       .map(normalize)
       .filter(Boolean);
@@ -115,15 +116,23 @@
     return groups;
   }
 
+  // A related-word query can show its own standard meaning while retaining the
+  // same record identity, evidence and publication count. Never mutate the data.
+  function queryView(entry, query) {
+    const term = normalize(query);
+    const view = (entry.query_views || []).find((item) => item.terms.some((value) => normalize(value) === term));
+    return view ? { ...entry, primary_mapping: view.primary_mapping, featured_mapping: view.featured_mapping } : entry;
+  }
+
   function lookup(dataset, query) {
     const term = normalize(query);
     if (!term) return { kind: "empty", entry: null, suggestions: [] };
     const visible = dataset.entries.filter((entry) => entry.mapping_status !== "Rejected" && entry.classification_status !== "rejected");
     const primary = visible.find((entry) => [entry.primary_mapping?.source?.word, entry.primary_mapping?.target?.word, entry.slug]
       .flatMap(splitRecordedForm).map(normalize).includes(term));
-    if (primary) return { kind: "exact", entry: primary, suggestions: [] };
+    if (primary) return { kind: "exact", entry: queryView(primary, term), suggestions: [] };
     const exact = visible.find((entry) => searchableForms(entry).includes(term));
-    if (exact) return { kind: "exact", entry: exact, suggestions: [] };
+    if (exact) return { kind: "exact", entry: queryView(exact, term), suggestions: [] };
 
     const suggestions = visible
       .filter((entry) => searchableForms(entry).some((form) => form.startsWith(term)))
@@ -155,6 +164,7 @@
     searchableForms,
     languageForms,
     lookup,
+    queryView,
     resolveSources,
     resolveExperiments,
     loadDataset,
