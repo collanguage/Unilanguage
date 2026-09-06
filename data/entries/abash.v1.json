@@ -608,7 +608,7 @@
     }
   ],
   "author": "Jinkai Liu",
-  "version": "ABASH/BASH Active Association revision v1.3 / Schema v1.0",
+  "version": "ABASH / BASH Independent Status Revision v1.4 / Schema v1.0",
   "dates": {
     "created": null,
     "modified": "2026-09-05",
@@ -634,6 +634,10 @@
     {
       "en": "Cognitive / Creative method: literature may connect what appears unrelated; research asks whether the connection reveals a repeatable structure. Active Association is not an Evidence / Historical method.",
       "zh-Hans": "认知／创作方法：文学可以连接原本不相干的事物；研究则负责判断这种连接是否具有可重复的结构。主动联系不归 Evidence / Historical method。"
+    },
+    {
+      "en": "Translation Status ≠ Mapping Status ≠ Historical Relation ≠ Active Association Status. Supported describes the dictionary-backed standard meanings. Candidate / C / Low describes bash ↔ 拍 only, including when that related mapping is shown in the abash query view.",
+      "zh-Hans": "Translation Status ≠ Mapping Status ≠ Historical Relation ≠ Active Association Status。Supported 仅指词典支持的标准义；Candidate／C／Low 仅指 bash ↔ 拍，包括 abash 查询中显示的相关映射。"
     }
   ],
   "search_terms": [
@@ -725,7 +729,9 @@
         "使羞愧",
         "使局促不安",
         "embarrass",
-        "disconcert"
+        "disconcert",
+        "使难为情",
+        "使失措"
       ],
       "primary_mapping": {
         "mapping_id": "MAP-abash-primary",
@@ -741,11 +747,11 @@
         },
         "gloss": {
           "en": "to destroy the self-possession or confidence of; embarrass or disconcert",
-          "zh-Hans": "使失去镇定或自信；使窘迫、局促"
+          "zh-Hans": "使窘迫 · 使难为情 · 使失措"
         },
         "meaning": {
-          "en": "Active association: bash — Author-proposed / Cognitive-Pedagogical, NOT etymology. Related historical correction: abash means embarrass or disconcert (使窘迫、使羞愧、使局促不安). It is not the bash ↔ 拍 candidate and is not simply a- + bash “hit”. See the independent Historical track and the linked BASH case.",
-          "zh-Hans": "主动联系：bash — 作者提出／认知与教学用途，非词源。相关历史修正：abash 意为使窘迫、使羞愧、使局促不安；它不是 bash ↔ 拍 候选，也不能简单分析为 a- + bash“打”。参见独立历史轨与同一记录中的 BASH 案例。"
+          "en": "Standard translation: abash = 使窘迫 / 使难为情 / 使失措 (Supported; dictionary-backed meaning). Active association: bash — Author-proposed / Cognitive-Pedagogical, NOT etymology. Related historical correction: abash means embarrass or disconcert (使窘迫、使羞愧、使局促不安). It is not the bash ↔ 拍 candidate and is not simply a- + bash “hit”. See the independent Historical track and the linked BASH case.",
+          "zh-Hans": "标准翻译：abash＝使窘迫／使难为情／使失措（Supported；词典释义支持）。主动联系：bash — 作者提出／认知与教学用途，非词源。相关历史修正：abash 意为使窘迫、使羞愧、使局促不安；它不是 bash ↔ 拍 候选，也不能简单分析为 a- + bash“打”。参见独立历史轨与同一记录中的 BASH 案例。"
         },
         "mapping_type": "Related historical correction / Standard meaning — not a phonetic mapping",
         "rationale": {
@@ -753,7 +759,11 @@
           "zh-Hans": "ABASH ↔ BASH — 主动联系／认知桥梁。Jinkai Liu 提出；属于认知／教学／创作方法，不属于历史证据。学习者可把 BASH 想象为突然的物理冲击，把 ABASH 联系到被弄得失措／窘迫：PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT。这是记忆桥梁，不是 abash 的定义，也不是说窘迫必须由击打引起。abash 与猛击义 bash 的历史关系：未确立／本分析不作派生；不是 a- + bash(hit)。"
         }
       },
-      "featured_mapping": null
+      "featured_mapping": null,
+      "translation_status": "Supported",
+      "translation_source_refs": [
+        "REF-MW-ABASH"
+      ]
     }
   ],
   "author_usage_observation": {
@@ -773,5 +783,10 @@
     ],
     "is_historical_evidence": false
   },
-  "legacy_segmentation_raw_note": "a.bash → bash打击 → 惊讶"
+  "legacy_segmentation_raw_note": "a.bash → bash打击 → 惊讶",
+  "translation_status": "Supported",
+  "translation_source_refs": [
+    "REF-MW-BASH"
+  ],
+  "active_association_status": "Author-proposed / Cognitive association"
 }

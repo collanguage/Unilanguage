@@ -141,3 +141,5 @@ Before adding a batch: compare stable IDs/slugs, leave unknown fields null or un
 ### Active Association revision 1.2.12
 
 The existing `related_words` typed relationship, `semantic_associations` (`is_etymological: false`), Cognitive track and bilingual `editorial_notes` encode the Active Association Principle. Schema remains 1.0.0; count remains 37. No new entry, adapter metadata or frozen UI changes are needed. Query-specific `primary_mapping.meaning` labels distinguish “Active association: bash” from “Cross-language candidate: 拍”. Historical evidence and the obsolete bash homograph remain independent. Author: Jinkai Liu.
+
+ABASH/BASH status correction: optional `translation_status` and `translation_source_refs` apply to the standard meaning in each query view; `mapping_status` and `mapping_level` continue to grade only bash ↔ 拍. `active_association_status` is independent of `historical_relation_status`. Query views retain the same record ID and count. The renderer uses these optional fields only on this record; other records retain their existing presentation.

@@ -121,7 +121,7 @@
   function queryView(entry, query) {
     const term = normalize(query);
     const view = (entry.query_views || []).find((item) => item.terms.some((value) => normalize(value) === term));
-    return view ? { ...entry, primary_mapping: view.primary_mapping, featured_mapping: view.featured_mapping } : entry;
+    return view ? { ...entry, primary_mapping: view.primary_mapping, featured_mapping: view.featured_mapping, ...(view.translation_status ? { translation_status: view.translation_status, translation_source_refs: view.translation_source_refs } : {}) } : entry;
   }
 
   function lookup(dataset, query) {
