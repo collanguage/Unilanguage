@@ -137,3 +137,7 @@ New reviewed records are authored one per file in `data/entries/*.v1.json`; `scr
 When a record compares look-alike words from different histories, use `related_words` to state the relationship explicitly. A direct derivative can be labeled `Etymological derivative`; a shape, spelling or literary link must be labeled `Speculative semantic association` (or an equally explicit non-historical type). Similar spelling alone never creates an etymological family. The Mapper renders the two categories separately.
 
 Before adding a batch: compare stable IDs/slugs, leave unknown fields null or unclaimed, run the builder and validator, test English plus at least one non-English alias through `UnilanguageData.lookup`, run the full test suite and link checker, then regenerate the product manifest/checksums. A record may be Reviewed without being Published; a literary proposition may be Reviewed while its phonetic hypothesis remains Candidate or Unestablished.
+
+### Active Association revision 1.2.12
+
+The existing `related_words` typed relationship, `semantic_associations` (`is_etymological: false`), Cognitive track and bilingual `editorial_notes` encode the Active Association Principle. Schema remains 1.0.0; count remains 37. No new entry, adapter metadata or frozen UI changes are needed. Query-specific `primary_mapping.meaning` labels distinguish “Active association: bash” from “Cross-language candidate: 拍”. Historical evidence and the obsolete bash homograph remain independent. Author: Jinkai Liu.

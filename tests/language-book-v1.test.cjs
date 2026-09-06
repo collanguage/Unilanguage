@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.11");
+  assert.equal(dataset.dataset_version, "1.2.12");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -293,6 +293,28 @@ test("BASH correction keeps query identity but separates standard meaning from t
   assert.match(canonical.chinese_internal_cluster.members[1].historical_note, /普駕.*普伯/);
   assert.equal(canonical.literary_layer.is_historical_evidence, false);
   assert.match(canonical.source.raw_note, /架起語言.*葡萄🍇圆/s);
+});
+
+test("Active Association is readable independently of historical and cross-language relations", () => {
+  const entry = dataApi.lookup(dataset, "abash").entry;
+  const association = entry.semantic_associations.find(a => a.association_id === "ASSOC-ABASH-BASH-ACTIVE");
+  assert.equal(association.is_etymological, false);
+  assert.equal(association.status, "Author-proposed / Cognitive association");
+  assert.match(association.relation, /unestablished \/ not derived in this analysis/);
+  assert.match(entry.primary_mapping.meaning.en, /Active association: bash/);
+  const related = entry.related_words.find(r => r.word === "abash ↔ bash");
+  assert.match(related.relationship_type, /Cognitive-Pedagogical, NOT etymology/);
+  assert.equal(related.status, "Author-proposed / Cognitive association");
+  assert.ok(entry.editorial_notes.some(n => /Active Association Principle/.test(n.en)));
+  assert.ok(entry.evidence.Cognitive.items.some(i => i.evidence_id === "COG-ABASH-BASH-ACTIVE"));
+  assert.ok(!entry.evidence.Historical.items.some(i => i.evidence_id === "COG-ABASH-BASH-ACTIVE"));
+  assert.match(entry.evidence.Historical.summary.en, /not an established derivation/);
+  const bash = dataApi.lookup(dataset, "bash").entry;
+  assert.match(bash.primary_mapping.meaning.en, /Cross-language candidate: 拍/);
+  assert.equal(bash.featured_mapping.target, "拍");
+  assert.ok(bash.hypotheses.some(h => h.hypothesis_id === "HYP-BPMF-CONSONANT-GROUP"));
+  const page = fs.readFileSync(path.join(root, "words", "abash.html"), "utf8");
+  for (const label of ["English internal: abash ↔ bash", "Cross-language Candidate", "Historical Evidence", "Non-historical semantic path"]) assert.ok(page.includes(label));
 });
 
 test("Dictionary cards honor featured forms and keep standard translations visible", () => {

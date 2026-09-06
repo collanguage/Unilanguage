@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.11",
+  "dataset_version": "1.2.12",
   "published_at": "2026-09-05",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -6175,8 +6175,8 @@
           "zh-Hans": "猛击、狠打；依语境可译猛撞、砸"
         },
         "meaning": {
-          "en": "Standard translation: bash = 猛击 / 狠打 / 猛撞 / 砸. Language Book candidate: BASH → HIT / STRIKE / IMPACT ← 拍 pāi. Related abash means embarrass/disconcert; it is not this mapping.",
-          "zh-Hans": "标准翻译：bash＝猛击／狠打／猛撞／砸。Language Book 候选：BASH → HIT / STRIKE / IMPACT ← 拍 pāi。相关词 abash 意为使窘迫／局促不安，不是本映射。"
+          "en": "Cross-language candidate: 拍 pāi — b–p–m–f Consonant-Group Hypothesis / Phonetic-Semantic Candidate, NOT historical cognacy. Standard translation: bash = 猛击 / 狠打 / 猛撞 / 砸. Language Book candidate: BASH → HIT / STRIKE / IMPACT ← 拍 pāi. Related abash means embarrass/disconcert; it is not this mapping.",
+          "zh-Hans": "跨语言候选：拍 pāi — b–p–m–f 辅音组假说／音义候选，不主张历史同源。标准翻译：bash＝猛击／狠打／猛撞／砸。Language Book 候选：BASH → HIT / STRIKE / IMPACT ← 拍 pāi。相关词 abash 意为使窘迫／局促不安，不是本映射。"
         },
         "mapping_type": "Standard translation; separately graded Phonetic-Semantic Candidate bash ↔ 拍",
         "rationale": {
@@ -6280,8 +6280,8 @@
           "status": "Interpretive",
           "confidence": "Medium",
           "summary": {
-            "en": "IMPACT → STARTLE → FEAR / EMBARRASSMENT is a Cognitive / Experimental chain. 拍 pāi ↔ 怕 pà is a separate Chinese internal candidate; neither the sound resemblance nor an imagined reaction establishes derivation. The photograph scenario is only an editorial illustration, not the author’s original claim.",
-            "zh-Hans": "IMPACT → STARTLE → FEAR / EMBARRASSMENT 是 Cognitive / Experimental 认知链。拍 pāi ↔ 怕 pà 是独立汉语内部候选；音近或设想的心理反应均不建立派生。此前拍照场景仅是编辑举例，不是作者原始主张。"
+            "en": "ABASH ↔ BASH — Active Association / Cognitive Bridge. Author-proposed by Jinkai Liu; Cognitive / Pedagogical / Creative method, NOT historical evidence. A learner may imagine BASH as sudden physical impact and ABASH as being made embarrassed/disconcerted: PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT. This mnemonic is neither a definition of abash nor a claim that embarrassment requires a physical blow. Historical relation (abash / violent-hit bash): unestablished / not derived in this analysis; not a- + bash(hit). IMPACT → STARTLE → FEAR / EMBARRASSMENT is a Cognitive / Experimental chain. 拍 pāi ↔ 怕 pà is a separate Chinese internal candidate; neither the sound resemblance nor an imagined reaction establishes derivation. The photograph scenario is only an editorial illustration, not the author’s original claim.",
+            "zh-Hans": "ABASH ↔ BASH — 主动联系／认知桥梁。Jinkai Liu 提出；属于认知／教学／创作方法，不属于历史证据。学习者可把 BASH 想象为突然的物理冲击，把 ABASH 联系到被弄得失措／窘迫：PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT。这是记忆桥梁，不是 abash 的定义，也不是说窘迫必须由击打引起。abash 与猛击义 bash 的历史关系：未确立／本分析不作派生；不是 a- + bash(hit)。 IMPACT → STARTLE → FEAR / EMBARRASSMENT 是 Cognitive / Experimental 认知链。拍 pāi ↔ 怕 pà 是独立汉语内部候选；音近或设想的心理反应均不建立派生。此前拍照场景仅是编辑举例，不是作者原始主张。"
           },
           "items": [
             {
@@ -6295,10 +6295,23 @@
               "source_refs": [
                 "REF-LANGUAGESBOOK-ABASH"
               ]
+            },
+            {
+              "evidence_id": "COG-ABASH-BASH-ACTIVE",
+              "claim": {
+                "en": "ABASH ↔ BASH — Active Association / Cognitive Bridge. Author-proposed by Jinkai Liu; Cognitive / Pedagogical / Creative method, NOT historical evidence. A learner may imagine BASH as sudden physical impact and ABASH as being made embarrassed/disconcerted: PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT. This mnemonic is neither a definition of abash nor a claim that embarrassment requires a physical blow. Historical relation (abash / violent-hit bash): unestablished / not derived in this analysis; not a- + bash(hit).",
+                "zh-Hans": "ABASH ↔ BASH — 主动联系／认知桥梁。Jinkai Liu 提出；属于认知／教学／创作方法，不属于历史证据。学习者可把 BASH 想象为突然的物理冲击，把 ABASH 联系到被弄得失措／窘迫：PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT。这是记忆桥梁，不是 abash 的定义，也不是说窘迫必须由击打引起。abash 与猛击义 bash 的历史关系：未确立／本分析不作派生；不是 a- + bash(hit)。"
+              },
+              "status": "Interpretive",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-AUTHOR-ACTIVE-ASSOCIATION"
+              ]
             }
           ],
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABASH"
+            "REF-LANGUAGESBOOK-ABASH",
+            "REF-AUTHOR-ACTIVE-ASSOCIATION"
           ]
         },
         "Speculative": {
@@ -6394,7 +6407,7 @@
           "EMBARRASSMENT",
           "ABASH"
         ],
-        "relation": "Experimental: bash ↔ 拍; BASH → HIT / STRIKE / IMPACT ← 拍. Cognitive: IMPACT → STARTLE → FEAR / EMBARRASSMENT. Abash: related standard meaning / historical correction only.",
+        "relation": "Experimental: bash ↔ 拍; BASH → HIT / STRIKE / IMPACT ← 拍. Cognitive: IMPACT → STARTLE → FEAR / EMBARRASSMENT. English internal: ABASH ↔ BASH — Active Association / Cognitive-Pedagogical, NOT etymology. Cross-language: bash ↔ 拍 — b-p-m-f Phonetic-Semantic Candidate, NOT historical cognacy.",
         "status": "Interpretive"
       },
       "related_words": [
@@ -6441,6 +6454,20 @@
           "source_refs": [
             "REF-LANGUAGESBOOK-ABASH"
           ]
+        },
+        {
+          "word": "abash ↔ bash",
+          "language": "English",
+          "relationship_type": "Active Association Principle / Cognitive-Pedagogical, NOT etymology",
+          "family": "Deliberate cognitive bridge; no historical family asserted",
+          "relation_to_entry": {
+            "en": "ABASH ↔ BASH — Active Association / Cognitive Bridge. Author-proposed by Jinkai Liu; Cognitive / Pedagogical / Creative method, NOT historical evidence. A learner may imagine BASH as sudden physical impact and ABASH as being made embarrassed/disconcerted: PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT. This mnemonic is neither a definition of abash nor a claim that embarrassment requires a physical blow. Historical relation (abash / violent-hit bash): unestablished / not derived in this analysis; not a- + bash(hit).",
+            "zh-Hans": "ABASH ↔ BASH — 主动联系／认知桥梁。Jinkai Liu 提出；属于认知／教学／创作方法，不属于历史证据。学习者可把 BASH 想象为突然的物理冲击，把 ABASH 联系到被弄得失措／窘迫：PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT。这是记忆桥梁，不是 abash 的定义，也不是说窘迫必须由击打引起。abash 与猛击义 bash 的历史关系：未确立／本分析不作派生；不是 a- + bash(hit)。"
+          },
+          "status": "Author-proposed / Cognitive association",
+          "source_refs": [
+            "REF-AUTHOR-ACTIVE-ASSOCIATION"
+          ]
         }
       ],
       "semantic_associations": [
@@ -6448,6 +6475,12 @@
           "association_id": "ASSOC-ABASH-001",
           "relation": "IMPACT → STARTLE → FEAR / EMBARRASSMENT is a Cognitive / Experimental chain. 拍 pāi ↔ 怕 pà is a separate Chinese internal candidate; neither the sound resemblance nor an imagined reaction establishes derivation. The photograph scenario is only an editorial illustration, not the author’s original claim.",
           "status": "Interpretive",
+          "is_etymological": false
+        },
+        {
+          "association_id": "ASSOC-ABASH-BASH-ACTIVE",
+          "relation": "ABASH ↔ BASH — Active Association / Cognitive Bridge. Author-proposed by Jinkai Liu; Cognitive / Pedagogical / Creative method, NOT historical evidence. A learner may imagine BASH as sudden physical impact and ABASH as being made embarrassed/disconcerted: PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT. This mnemonic is neither a definition of abash nor a claim that embarrassment requires a physical blow. Historical relation (abash / violent-hit bash): unestablished / not derived in this analysis; not a- + bash(hit).",
+          "status": "Author-proposed / Cognitive association",
           "is_etymological": false
         }
       ],
@@ -6671,10 +6704,18 @@
           "url": null,
           "path": null,
           "provenance": "user-supplied correction instruction 2026-09-05; not independent historical or Tianjin dialect verification"
+        },
+        {
+          "reference_id": "REF-AUTHOR-ACTIVE-ASSOCIATION",
+          "title": "Jinkai Liu: Active Association Principle｜主动联系原则",
+          "type": "Author-proposed cognitive / creative method; not historical evidence",
+          "url": null,
+          "path": null,
+          "provenance": "User-supplied model correction, 2026-09-05; deliberately constructed mnemonic, not independent historical evidence"
         }
       ],
       "author": "Jinkai Liu",
-      "version": "ABASH/BASH Correction Package v1.2 / Schema v1.0",
+      "version": "ABASH/BASH Active Association revision v1.3 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-05",
@@ -6692,6 +6733,14 @@
         {
           "en": "Correction in place: stable abash ID, slug and page are retained; the case center is BASH ↔ 拍. Count remains unchanged. Level C and Candidate status are retained; literary/raw notes are preserved.",
           "zh-Hans": "原地修正：保留 abash 的稳定 ID、slug 和页面，案例中心改为 BASH ↔ 拍；总数不变。维持 C 级与 Candidate，保留文学及原始笔记。"
+        },
+        {
+          "en": "Active Association Principle｜主动联系原则: A learner or mapper may deliberately connect formally or semantically suggestive expressions as a cognitive bridge, while keeping that association separate from historical etymology.",
+          "zh-Hans": "主动联系原则：学习者或语义映射者可以主动连接在形式或语义上具有启发性的表达，作为认知与记忆桥梁，但这种主动联系必须与历史词源关系分开标注。"
+        },
+        {
+          "en": "Cognitive / Creative method: literature may connect what appears unrelated; research asks whether the connection reveals a repeatable structure. Active Association is not an Evidence / Historical method.",
+          "zh-Hans": "认知／创作方法：文学可以连接原本不相干的事物；研究则负责判断这种连接是否具有可重复的结构。主动联系不归 Evidence / Historical method。"
         }
       ],
       "search_terms": [
@@ -6728,7 +6777,10 @@
         "HIT",
         "STRIKE",
         "IMPACT",
-        "拿砖拍他"
+        "拿砖拍他",
+        "Active Association",
+        "主动联系",
+        "Cognitive Bridge"
       ],
       "page": "words/abash.html",
       "legacy": {
@@ -6799,13 +6851,13 @@
               "zh-Hans": "使失去镇定或自信；使窘迫、局促"
             },
             "meaning": {
-              "en": "Related historical correction: abash means embarrass or disconcert (使窘迫、使羞愧、使局促不安). It is not the bash ↔ 拍 candidate and is not simply a- + bash “hit”. See the independent Historical track and the linked BASH case.",
-              "zh-Hans": "相关历史修正：abash 意为使窘迫、使羞愧、使局促不安；它不是 bash ↔ 拍 候选，也不能简单分析为 a- + bash“打”。参见独立历史轨与同一记录中的 BASH 案例。"
+              "en": "Active association: bash — Author-proposed / Cognitive-Pedagogical, NOT etymology. Related historical correction: abash means embarrass or disconcert (使窘迫、使羞愧、使局促不安). It is not the bash ↔ 拍 candidate and is not simply a- + bash “hit”. See the independent Historical track and the linked BASH case.",
+              "zh-Hans": "主动联系：bash — 作者提出／认知与教学用途，非词源。相关历史修正：abash 意为使窘迫、使羞愧、使局促不安；它不是 bash ↔ 拍 候选，也不能简单分析为 a- + bash“打”。参见独立历史轨与同一记录中的 BASH 案例。"
             },
             "mapping_type": "Related historical correction / Standard meaning — not a phonetic mapping",
             "rationale": {
-              "en": "This view presents the standard meaning of the related word abash, not an abash = 拍 mapping.",
-              "zh-Hans": "此视图展示相关词 abash 的标准义，不建立 abash＝拍 映射。"
+              "en": "ABASH ↔ BASH — Active Association / Cognitive Bridge. Author-proposed by Jinkai Liu; Cognitive / Pedagogical / Creative method, NOT historical evidence. A learner may imagine BASH as sudden physical impact and ABASH as being made embarrassed/disconcerted: PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT. This mnemonic is neither a definition of abash nor a claim that embarrassment requires a physical blow. Historical relation (abash / violent-hit bash): unestablished / not derived in this analysis; not a- + bash(hit).",
+              "zh-Hans": "ABASH ↔ BASH — 主动联系／认知桥梁。Jinkai Liu 提出；属于认知／教学／创作方法，不属于历史证据。学习者可把 BASH 想象为突然的物理冲击，把 ABASH 联系到被弄得失措／窘迫：PHYSICAL IMPACT → PSYCHOLOGICAL DISCONCERT。这是记忆桥梁，不是 abash 的定义，也不是说窘迫必须由击打引起。abash 与猛击义 bash 的历史关系：未确立／本分析不作派生；不是 a- + bash(hit)。"
             }
           },
           "featured_mapping": null
