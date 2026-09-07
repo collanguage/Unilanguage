@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.14",
+  "dataset_version": "1.2.15",
   "published_at": "2026-09-07",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -5742,8 +5742,8 @@
       "id": "LB-en-abandon-033",
       "slug": "abandon",
       "title": {
-        "en": "abandon · Legacy Website Import",
-        "zh-Hans": "abandon · 旧站导入"
+        "en": "ABANDON · 放弃 · 放到一旁 → 旁",
+        "zh-Hans": "ABANDON · 放弃 · 放到一旁 → 旁"
       },
       "languages": [
         {
@@ -5751,15 +5751,29 @@
           "code": "en",
           "name": "English",
           "word": "abandon",
-          "pronunciation": "not recorded",
-          "part_of_speech": "verb/noun · 动词／名词"
+          "pronunciation": "/əˈbæn.dən/",
+          "part_of_speech": "verb · 动词"
         },
         {
           "role": "standard-translation",
           "code": "zh-Hans",
           "name": "Chinese",
-          "word": "放弃／遗弃",
-          "pronunciation": "fàngqì / yíqì"
+          "word": "放弃／抛弃／离弃／遗弃",
+          "pronunciation": "fàngqì / pāoqì / líqì / yíqì"
+        },
+        {
+          "role": "standard-equivalent",
+          "code": "fr",
+          "name": "French",
+          "word": "abandonner",
+          "pronunciation": "/a.bɑ̃.dɔ.ne/"
+        },
+        {
+          "role": "active-association",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "旁",
+          "pronunciation": "páng"
         }
       ],
       "primary_mapping": {
@@ -5767,29 +5781,29 @@
         "source": {
           "language": "English",
           "word": "abandon",
-          "pronunciation": "not recorded"
+          "pronunciation": "/əˈbæn.dən/"
         },
         "target": {
           "language": "Chinese",
-          "word": "放弃／遗弃",
-          "pronunciation": "fàngqì / yíqì"
+          "word": "放弃／抛弃／离弃／遗弃",
+          "pronunciation": "fàngqì / pāoqì / líqì / yíqì"
         },
         "gloss": {
-          "en": "to give up, leave completely or cease supporting",
-          "zh-Hans": "放弃、完全离开或停止支持"
+          "en": "give up; leave or withdraw support, depending on context",
+          "zh-Hans": "放弃／抛弃／离弃；依语境亦译遗弃"
         },
         "meaning": {
-          "en": "to give up, leave completely or cease supporting. The standard mapping is independent from the legacy sound hypothesis.",
-          "zh-Hans": "放弃、完全离开或停止支持。标准词义 Mapping 与旧站声音假说独立。"
+          "en": "Standard Translation: abandon → 放弃 / 抛弃 / 离弃 (Supported). Active Association: 放到一旁 → 旁 páng (Author-proposed; Historical Relation: Not claimed). Related ban ↔ 甭 and banal ↔ 般/一般 are separate Phonetic-Semantic Candidates; donner ↔ 捅 is weak. Rejected status belongs only to a + ban + donner as historical segmentation. See the related cards and full ABANDON page.",
+          "zh-Hans": "标准翻译：abandon → 放弃／抛弃／离弃（Supported）。主动联系：放到一旁 → 旁 páng（Author-proposed；Historical Relation: Not claimed）。相关 ban ↔ 甭 与 banal ↔ 般/一般 是独立音义候选；donner ↔ 捅 为弱联想。Rejected 仅适用于 a + ban + donner 历史拆词。见相关卡片与完整 ABANDON 页面。"
         },
-        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "mapping_type": "Supported standard translation; separate Active Association and related candidates",
         "rationale": {
-          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
-          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+          "en": "Translation Status = Supported; primary lexical Mapping Status = Supported; Active Association Status = Author-proposed; related candidate statuses are independently graded. Historical Relation = Not claimed concerns the cross-language associations, not the documented French-to-English borrowing.",
+          "zh-Hans": "Translation Status＝Supported；主要词义 Mapping Status＝Supported；Active Association Status＝Author-proposed；相关候选逐项分级。Historical Relation＝Not claimed 针对跨语言联想，不否定已记录的法语到英语借词史。"
         }
       },
-      "entry_status": "Reviewed",
-      "mapping_status": "Candidate",
+      "entry_status": "Published",
+      "mapping_status": "Supported",
       "mapping_level": "C",
       "historical_relation_status": "Not claimed",
       "evidence": {
@@ -5797,104 +5811,202 @@
           "status": "Established",
           "confidence": "High",
           "summary": {
-            "en": "Abandon comes through Anglo-French abanduner from abandun and the phrase a bandun ‘in one’s power/at one’s disposal’. It is not historically ban + donner.",
-            "zh-Hans": "abandon 经盎格鲁法语 abanduner 来自 abandun 及短语 a bandun“受某人支配／任其处置”；历史上不是 ban + donner。"
+            "en": "Middle English abandounen (English verb attested in the 14th century) was borrowed from Anglo-French abanduner, derived from abandun and a bandun, referring to power or disposal. Continental Old French à bandon likewise concerns disposal; abandonner is derived from abandon (CNRTL records releasing a rein around 1100 and leaving entirely from the 12th century). This supports the development toward relinquish/give up. It is not historically ban + donner. Bandon belongs to a Germanic command/jurisdiction background; this is not the author’s modern segmentation.",
+            "zh-Hans": "中古英语 abandounen（英语动词见于14世纪）借自盎格鲁法语 abanduner，后者由 abandun 及 a bandun 发展，涉及支配与处置。欧洲大陆古法语 à bandon 同样涉及任其处置；abandonner 派生自 abandon（CNRTL 记约1100年的松开缰绳义及12世纪起的完全离开义）。这支持向 relinquish/give up 的语义发展。历史上不是 ban + donner。bandon 具有日耳曼语命令／管辖词族背景，但不是作者提出的现代拆分。"
           },
           "items": [
             {
               "evidence_id": "HIST-ABANDON-001",
               "claim": {
-                "en": "Abandon comes through Anglo-French abanduner from abandun and the phrase a bandun ‘in one’s power/at one’s disposal’. It is not historically ban + donner.",
-                "zh-Hans": "abandon 经盎格鲁法语 abanduner 来自 abandun 及短语 a bandun“受某人支配／任其处置”；历史上不是 ban + donner。"
+                "en": "Middle English abandounen (English verb attested in the 14th century) was borrowed from Anglo-French abanduner, derived from abandun and a bandun, referring to power or disposal. Continental Old French à bandon likewise concerns disposal; abandonner is derived from abandon (CNRTL records releasing a rein around 1100 and leaving entirely from the 12th century). This supports the development toward relinquish/give up. It is not historically ban + donner. Bandon belongs to a Germanic command/jurisdiction background; this is not the author’s modern segmentation.",
+                "zh-Hans": "中古英语 abandounen（英语动词见于14世纪）借自盎格鲁法语 abanduner，后者由 abandun 及 a bandun 发展，涉及支配与处置。欧洲大陆古法语 à bandon 同样涉及任其处置；abandonner 派生自 abandon（CNRTL 记约1100年的松开缰绳义及12世纪起的完全离开义）。这支持向 relinquish/give up 的语义发展。历史上不是 ban + donner。bandon 具有日耳曼语命令／管辖词族背景，但不是作者提出的现代拆分。"
               },
               "status": "Established",
               "confidence": "High",
               "source_refs": [
-                "REF-MW-ABANDON"
+                "REF-MW-ABANDON",
+                "REF-CNRTL-ABANDON",
+                "REF-CNRTL-ABANDONNER"
+              ]
+            },
+            {
+              "evidence_id": "HIST-BAN-001",
+              "claim": {
+                "en": "English ban (verb) continues Old English bannan, a Germanic proclamation/command verb; Middle English prohibitive senses reflect Norse influence, with later French/Latin influence. The English noun partly derives from the verb and partly from Anglo-French. French ban /bɑ̃/ is a masculine noun of Old Low Franconian origin: public proclamation, feudal summons/jurisdiction, banns, and exclusion in expressions such as mettre au ban. It is not the ordinary French verb “to prohibit” (interdire); the old note’s French ban v. 禁止 is corrected. This distinction does not cancel the independently proposed English ban ↔ 甭 candidate.",
+                "zh-Hans": "英语动词 ban 承自古英语 bannan，属于日耳曼语宣告／命令词族；中古英语禁止等义受古诺斯语影响，后又受法语／拉丁语影响。英语名词部分来自动词，部分借自盎格鲁法语。法语 ban /bɑ̃/ 为阳性名词，源于古低地法兰克语，涉及公告、封建征召／管辖、婚姻公告及 mettre au ban 等排斥用语；它不是通常表示“禁止”的法语动词（interdire）。旧笔记“法语 ban v. 禁止”已纠正，这不取消独立的英语 ban ↔ 甭 候选。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-BAN",
+                "REF-ACADEMIE-BAN",
+                "REF-MOE-BENG",
+                "REF-ZDIC-BENG",
+                "REF-LANGUAGESBOOK-ABANDON",
+                "REF-AUTHOR-ABANDON-20260907"
+              ]
+            },
+            {
+              "evidence_id": "HIST-BANAL-001",
+              "claim": {
+                "en": "English banal is borrowed from French (Merriam-Webster: first known English use 1825). CNRTL traces French banal to feudal ban plus -al, with bannel attested in 1247 and the very common/unoriginal sense in 1798. Merriam-Webster describes a Medieval Latin bannalis route for Old French bannel. Both accounts connect seigneurial jurisdiction and shared-use facilities with the later commonplace sense. Neither derives it from Chinese. Ban and banal are separately evaluated observations, but their related European histories must be deduplicated in any family-based experiment.",
+                "zh-Hans": "英语 banal 借自法语（Merriam-Webster 记英语首见1825年）。CNRTL 将法语 banal 分析为封建法 ban 加 -al，记1247年 bannel 及1798年的极普通／无新意义；Merriam-Webster 则通过中古拉丁语 bannalis 解释古法语 bannel。两者均联系领主管辖、共同使用设施与后来的平常义，不从汉语倒推词史。ban 和 banal 的观察独立评价，但欧洲词史相关，实验按词源家族去重。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-CNRTL-BANAL",
+                "REF-MW-BANAL",
+                "REF-ZDIC-YIBAN",
+                "REF-LANGUAGESBOOK-ABANDON",
+                "REF-AUTHOR-ABANDON-20260907"
               ]
             }
           ],
           "source_refs": [
-            "REF-MW-ABANDON"
+            "REF-MW-ABANDON",
+            "REF-CNRTL-ABANDON",
+            "REF-CNRTL-ABANDONNER",
+            "REF-MW-BAN",
+            "REF-ACADEMIE-BAN",
+            "REF-MOE-BENG",
+            "REF-ZDIC-BENG",
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-AUTHOR-ABANDON-20260907",
+            "REF-CNRTL-BANAL",
+            "REF-MW-BANAL",
+            "REF-ZDIC-YIBAN"
           ]
         },
         "Phonetic-Semantic": {
           "status": "Candidate",
           "confidence": "Low",
           "summary": {
-            "en": "The segment ban and 甭 béng have a loose modern resemblance; their meanings and histories differ.",
-            "zh-Hans": "片段 ban 与“甭”béng 有松散现代音近，但意义和词史不同。"
+            "en": "Two related candidates are evaluated independently; neither maps abandon to 甭. Semantic strength is moderate, overall phonetic-semantic confidence Low.",
+            "zh-Hans": "两个相关候选独立评价；均不把 abandon 对应为甭。语义强度 moderate，整体音义置信度 Low。"
           },
           "items": [
             {
               "evidence_id": "PHONSEM-ABANDON-001",
               "claim": {
-                "en": "The segment ban and 甭 béng have a loose modern resemblance; their meanings and histories differ.",
-                "zh-Hans": "片段 ban 与“甭”béng 有松散现代音近，但意义和词史不同。"
+                "en": "English ban ↔ 甭 béng: Phonetic-Semantic Candidate; semantic strength moderate; overall confidence Low; Historical Relation: Not claimed. The overlap is contextual DON’T / DO NOT / PROHIBIT. English ban often means formal prohibition; 甭 commonly means no need/do not and need not prohibit. English /bæn/ and béng show an author-observed labial onset and loose rhyme resemblance, not homophony: Pinyin b is unaspirated /p/, English b is /b/, final /n/ versus /ŋ/, vowels and tone differ.",
+                "zh-Hans": "英语 ban ↔ 甭 béng：Phonetic-Semantic Candidate；语义强度 moderate，整体置信度 Low；Historical Relation: Not claimed。交点限于语境中的 DON’T / DO NOT / PROHIBIT。ban 常表正式禁止，“甭”常表不用／不必／不要，不总是禁止。/bæn/ 与 béng 的双唇起音及宽泛韵部近似仅为作者观察，并非同音：拼音 b 为不送气 /p/，英语 b 为 /b/，韵尾 /n/ 与 /ŋ/、元音和声调有别。"
               },
               "status": "Candidate",
               "confidence": "Low",
               "source_refs": [
+                "REF-MW-BAN",
+                "REF-ACADEMIE-BAN",
+                "REF-MOE-BENG",
+                "REF-ZDIC-BENG",
                 "REF-LANGUAGESBOOK-ABANDON",
-                "REF-MW-ABANDON"
+                "REF-AUTHOR-ABANDON-20260907"
+              ]
+            },
+            {
+              "evidence_id": "PHONSEM-BANAL-001",
+              "claim": {
+                "en": "banal ↔ 般 bān / 一般: Phonetic-Semantic Candidate; semantic strength moderate; overall confidence Low; Historical Relation: Not claimed. The semantic anchor is the word 一般 in its ordinary/common sense, not an assertion that isolated 般 always means ordinary. Modern banal often adds a negative sense of unoriginal or trite that 一般 need not carry. French /ba.nal/ permits a partial ban- versus bān comparison; English pronunciations vary. Unmatched /al/, vowels, voicing and Mandarin tone remain limitations.",
+                "zh-Hans": "banal ↔ 般 bān / 一般：Phonetic-Semantic Candidate；语义强度 moderate，整体置信度 Low；Historical Relation: Not claimed。语义依据是“一般”的普通／通常义，不主张单字“般”总有普通义。现代 banal 常含陈腐、无新意的贬义，“一般”未必如此。法语 /ba.nal/ 可与 bān 作局部 ban- 音近观察；英语有多种读法。未对应的 /al/、元音、清浊与汉语声调仍是限制。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-CNRTL-BANAL",
+                "REF-MW-BANAL",
+                "REF-ZDIC-YIBAN",
+                "REF-LANGUAGESBOOK-ABANDON",
+                "REF-AUTHOR-ABANDON-20260907"
               ]
             }
           ],
           "source_refs": [
+            "REF-MW-BAN",
+            "REF-ACADEMIE-BAN",
+            "REF-MOE-BENG",
+            "REF-ZDIC-BENG",
             "REF-LANGUAGESBOOK-ABANDON",
-            "REF-MW-ABANDON"
+            "REF-AUTHOR-ABANDON-20260907",
+            "REF-CNRTL-BANAL",
+            "REF-MW-BANAL",
+            "REF-ZDIC-YIBAN"
           ]
         },
         "Cognitive": {
           "status": "Interpretive",
           "confidence": "Medium",
           "summary": {
-            "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
-            "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+            "en": "Active Association: abandon ↔ 放到一旁 → 旁 páng. CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP is an author-proposed cognitive and memory bridge, not an attested chain of sound change or translation of 旁 as abandon. Historical Relation: Not claimed; Active Association Status: Author-proposed / Cognitive association.",
+            "zh-Hans": "Active Association：abandon ↔ 放到一旁 → 旁 páng。CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP 是作者提出的认知与记忆桥梁，不是已证历史音变链，也不把单字“旁”当作 abandon 的标准译词。Historical Relation: Not claimed；Active Association Status: Author-proposed / Cognitive association。"
           },
           "items": [
             {
               "evidence_id": "COG-ABANDON-001",
               "claim": {
-                "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
-                "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+                "en": "Active Association: abandon ↔ 放到一旁 → 旁 páng. CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP is an author-proposed cognitive and memory bridge, not an attested chain of sound change or translation of 旁 as abandon. Historical Relation: Not claimed; Active Association Status: Author-proposed / Cognitive association.",
+                "zh-Hans": "Active Association：abandon ↔ 放到一旁 → 旁 páng。CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP 是作者提出的认知与记忆桥梁，不是已证历史音变链，也不把单字“旁”当作 abandon 的标准译词。Historical Relation: Not claimed；Active Association Status: Author-proposed / Cognitive association。"
               },
               "status": "Interpretive",
               "confidence": "Medium",
               "source_refs": [
-                "REF-LANGUAGESBOOK-ABANDON"
-              ]
-            }
-          ],
-          "source_refs": [
-            "REF-LANGUAGESBOOK-ABANDON"
-          ]
-        },
-        "Speculative": {
-          "status": "Unestablished",
-          "confidence": "High",
-          "summary": {
-            "en": "Modern English ban and French donner should not be retrofitted as the components of abandon.",
-            "zh-Hans": "不能用现代英语 ban 与法语 donner 反向拼装 abandon 的词史。"
-          },
-          "items": [
-            {
-              "evidence_id": "SPEC-ABANDON-001",
-              "claim": {
-                "en": "Modern English ban and French donner should not be retrofitted as the components of abandon.",
-                "zh-Hans": "不能用现代英语 ban 与法语 donner 反向拼装 abandon 的词史。"
-              },
-              "status": "Unestablished",
-              "confidence": "High",
-              "source_refs": [
                 "REF-LANGUAGESBOOK-ABANDON",
-                "REF-MW-ABANDON"
+                "REF-AUTHOR-ABANDON-20260907"
+              ]
+            },
+            {
+              "evidence_id": "COG-DONNER-TONG-001",
+              "claim": {
+                "en": "donner ↔ 捅: Weak Active Association / Original Author Association, not a primary mapping. French donner means give and descends from Latin donare. The supplied “捅钱 = 给钱” and reading tōng remain Original Author Usage Observation; standard Mandarin dictionaries give 捅 tǒng (poke/pierce, reveal, provoke), not a verified stable give sense. The targeted dictionary/dialect search did not establish that sense; this is a bounded evidence gap, not proof that no speaker uses it. Historical Relation: Not claimed. Donner is not a historical component of abandon.",
+                "zh-Hans": "donner ↔ 捅：Weak Active Association / Original Author Association，不作主要映射。法语 donner 意为给，源自拉丁语 donare。用户的“捅钱＝给钱”及 tōng 读法保留为 Original Author Usage Observation；标准普通话词典记“捅”tǒng（戳刺、揭露、招惹），没有核验出稳定的给予义。此次词典／方言检索未能证实该义，不等于证明无人这样使用。Historical Relation: Not claimed。donner 不是 abandon 的历史构词部分。"
+              },
+              "status": "Interpretive",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-CNRTL-DONNER",
+                "REF-MOE-TONG",
+                "REF-LANGUAGESBOOK-ABANDON",
+                "REF-AUTHOR-ABANDON-20260907"
               ]
             }
           ],
           "source_refs": [
             "REF-LANGUAGESBOOK-ABANDON",
-            "REF-MW-ABANDON"
+            "REF-AUTHOR-ABANDON-20260907",
+            "REF-CNRTL-DONNER",
+            "REF-MOE-TONG"
+          ]
+        },
+        "Speculative": {
+          "status": "Rejected",
+          "confidence": "High",
+          "summary": {
+            "en": "Original Author Hypothesis: a.ban.don / a + ban + donner; ban = prohibit, donner = give, therefore prohibit giving = abandon. Independent evaluation: Rejected/Unsupported as historical segmentation. CNRTL regards a ban donner as improbable because that phrase is unattested; the cited doner a abandon examples are later (13th century). Preserve the observation without presenting it as etymology.",
+            "zh-Hans": "原始作者假说：a.ban.don / a + ban + donner；ban＝禁止，donner＝给，因此禁止给＝放弃。独立核验：Rejected/Unsupported as historical segmentation（作为历史拆分被否定／缺乏支持）。CNRTL 认为 a ban donner 分析不可信，因为该短语无见证；所引 doner a abandon 例子较晚（13世纪）。保留观察，不作为词源。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABANDON-001",
+              "claim": {
+                "en": "Original Author Hypothesis: a.ban.don / a + ban + donner; ban = prohibit, donner = give, therefore prohibit giving = abandon. Independent evaluation: Rejected/Unsupported as historical segmentation. CNRTL regards a ban donner as improbable because that phrase is unattested; the cited doner a abandon examples are later (13th century). Preserve the observation without presenting it as etymology.",
+                "zh-Hans": "原始作者假说：a.ban.don / a + ban + donner；ban＝禁止，donner＝给，因此禁止给＝放弃。独立核验：Rejected/Unsupported as historical segmentation（作为历史拆分被否定／缺乏支持）。CNRTL 认为 a ban donner 分析不可信，因为该短语无见证；所引 doner a abandon 例子较晚（13世纪）。保留观察，不作为词源。"
+              },
+              "status": "Rejected",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABANDON",
+                "REF-CNRTL-ABANDON",
+                "REF-CNRTL-ABANDONNER",
+                "REF-LANGUAGESBOOK-ABANDON",
+                "REF-AUTHOR-ABANDON-20260907"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABANDON",
+            "REF-CNRTL-ABANDON",
+            "REF-CNRTL-ABANDONNER",
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-AUTHOR-ABANDON-20260907"
           ]
         }
       },
@@ -5902,25 +6014,39 @@
         {
           "observation_id": "PHON-ABANDON-001",
           "claim": {
-            "en": "The segment ban and 甭 béng have a loose modern resemblance; their meanings and histories differ.",
-            "zh-Hans": "片段 ban 与“甭”béng 有松散现代音近，但意义和词史不同。"
+            "en": "English ban ↔ 甭 béng: Phonetic-Semantic Candidate; semantic strength moderate; overall confidence Low; Historical Relation: Not claimed. The overlap is contextual DON’T / DO NOT / PROHIBIT. English ban often means formal prohibition; 甭 commonly means no need/do not and need not prohibit. English /bæn/ and béng show an author-observed labial onset and loose rhyme resemblance, not homophony: Pinyin b is unaspirated /p/, English b is /b/, final /n/ versus /ŋ/, vowels and tone differ.",
+            "zh-Hans": "英语 ban ↔ 甭 béng：Phonetic-Semantic Candidate；语义强度 moderate，整体置信度 Low；Historical Relation: Not claimed。交点限于语境中的 DON’T / DO NOT / PROHIBIT。ban 常表正式禁止，“甭”常表不用／不必／不要，不总是禁止。/bæn/ 与 béng 的双唇起音及宽泛韵部近似仅为作者观察，并非同音：拼音 b 为不送气 /p/，英语 b 为 /b/，韵尾 /n/ 与 /ŋ/、元音和声调有别。"
           },
           "status": "Candidate",
           "limitations": {
-            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
-            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+            "en": "Renamed in scope from a segment of abandon to independent English ban. Modern resemblance is not regular sound change or cognacy.",
+            "zh-Hans": "范围由 abandon 的片段改为独立英语 ban；现代音近不是规律音变或同源。"
+          }
+        },
+        {
+          "observation_id": "PHON-BANAL-001",
+          "claim": {
+            "en": "banal ↔ 般 bān / 一般: Phonetic-Semantic Candidate; semantic strength moderate; overall confidence Low; Historical Relation: Not claimed. The semantic anchor is the word 一般 in its ordinary/common sense, not an assertion that isolated 般 always means ordinary. Modern banal often adds a negative sense of unoriginal or trite that 一般 need not carry. French /ba.nal/ permits a partial ban- versus bān comparison; English pronunciations vary. Unmatched /al/, vowels, voicing and Mandarin tone remain limitations.",
+            "zh-Hans": "banal ↔ 般 bān / 一般：Phonetic-Semantic Candidate；语义强度 moderate，整体置信度 Low；Historical Relation: Not claimed。语义依据是“一般”的普通／通常义，不主张单字“般”总有普通义。现代 banal 常含陈腐、无新意的贬义，“一般”未必如此。法语 /ba.nal/ 可与 bān 作局部 ban- 音近观察；英语有多种读法。未对应的 /al/、元音、清浊与汉语声调仍是限制。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "The phonetic comparison selects part of a longer word. Do not silently treat all English pronunciation variants as bān.",
+            "zh-Hans": "语音比较选取较长词的局部；不能把英语所有异读默认为 bān。"
           }
         }
       ],
       "semantic_structure": {
         "concepts": [
-          "ABANDON",
-          "ABANDONMENT",
-          "放弃",
-          "遗弃"
+          "CONTROL",
+          "DISPOSAL",
+          "RELEASE",
+          "PUT ASIDE",
+          "LEAVE",
+          "GIVE UP"
         ],
-        "relation": "abandon → abandonment → 放弃 → 遗弃",
-        "status": "Interpretive"
+        "relation": "CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP",
+        "status": "Interpretive / Active Association; not a historical chain"
       },
       "related_words": [
         {
@@ -5938,102 +6064,245 @@
           ]
         },
         {
-          "word": "ban",
-          "language": "English",
-          "relationship_type": "false segmentation",
-          "family": "separate history",
+          "word": "abandon ↔ 放到一旁 → 旁 páng",
+          "language": "English / Chinese",
+          "relationship_type": "Active Association Principle / Cognitive memory bridge",
+          "family": "No cross-language family claimed",
           "relation_to_entry": {
-            "en": "Author comparison or semantic association only; not historical derivation.",
-            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+            "en": "Active Association: abandon ↔ 放到一旁 → 旁 páng. CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP is an author-proposed cognitive and memory bridge, not an attested chain of sound change or translation of 旁 as abandon. Historical Relation: Not claimed; Active Association Status: Author-proposed / Cognitive association.",
+            "zh-Hans": "Active Association：abandon ↔ 放到一旁 → 旁 páng。CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP 是作者提出的认知与记忆桥梁，不是已证历史音变链，也不把单字“旁”当作 abandon 的标准译词。Historical Relation: Not claimed；Active Association Status: Author-proposed / Cognitive association。"
           },
-          "status": "Interpretive",
+          "status": "Author-proposed / Cognitive association",
           "source_refs": [
             "REF-LANGUAGESBOOK-ABANDON",
-            "REF-MW-ABANDON"
+            "REF-AUTHOR-ABANDON-20260907"
           ]
         },
         {
-          "word": "甭 béng",
-          "language": "Chinese",
-          "relationship_type": "phonetic-semantic mnemonic",
-          "family": "independent Sinitic history",
+          "word": "ban ↔ 甭 béng",
+          "language": "English / Chinese",
+          "relationship_type": "Phonetic-Semantic Candidate",
+          "family": "English ban family / independent Chinese 甭",
           "relation_to_entry": {
-            "en": "Author comparison or semantic association only; not historical derivation.",
-            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+            "en": "English ban ↔ 甭 béng: Phonetic-Semantic Candidate; semantic strength moderate; overall confidence Low; Historical Relation: Not claimed. The overlap is contextual DON’T / DO NOT / PROHIBIT. English ban often means formal prohibition; 甭 commonly means no need/do not and need not prohibit. English /bæn/ and béng show an author-observed labial onset and loose rhyme resemblance, not homophony: Pinyin b is unaspirated /p/, English b is /b/, final /n/ versus /ŋ/, vowels and tone differ.",
+            "zh-Hans": "英语 ban ↔ 甭 béng：Phonetic-Semantic Candidate；语义强度 moderate，整体置信度 Low；Historical Relation: Not claimed。交点限于语境中的 DON’T / DO NOT / PROHIBIT。ban 常表正式禁止，“甭”常表不用／不必／不要，不总是禁止。/bæn/ 与 béng 的双唇起音及宽泛韵部近似仅为作者观察，并非同音：拼音 b 为不送气 /p/，英语 b 为 /b/，韵尾 /n/ 与 /ŋ/、元音和声调有别。"
           },
-          "status": "Interpretive",
+          "status": "Candidate · semantic moderate · Low confidence · Historical Relation: Not claimed",
           "source_refs": [
+            "REF-MW-BAN",
+            "REF-ACADEMIE-BAN",
+            "REF-MOE-BENG",
+            "REF-ZDIC-BENG",
             "REF-LANGUAGESBOOK-ABANDON",
-            "REF-MW-ABANDON"
+            "REF-AUTHOR-ABANDON-20260907"
+          ]
+        },
+        {
+          "word": "French ban",
+          "language": "French",
+          "relationship_type": "Related lexical correction",
+          "family": "Old Low Franconian command / jurisdiction background",
+          "relation_to_entry": {
+            "en": "English ban (verb) continues Old English bannan, a Germanic proclamation/command verb; Middle English prohibitive senses reflect Norse influence, with later French/Latin influence. The English noun partly derives from the verb and partly from Anglo-French. French ban /bɑ̃/ is a masculine noun of Old Low Franconian origin: public proclamation, feudal summons/jurisdiction, banns, and exclusion in expressions such as mettre au ban. It is not the ordinary French verb “to prohibit” (interdire); the old note’s French ban v. 禁止 is corrected. This distinction does not cancel the independently proposed English ban ↔ 甭 candidate.",
+            "zh-Hans": "英语动词 ban 承自古英语 bannan，属于日耳曼语宣告／命令词族；中古英语禁止等义受古诺斯语影响，后又受法语／拉丁语影响。英语名词部分来自动词，部分借自盎格鲁法语。法语 ban /bɑ̃/ 为阳性名词，源于古低地法兰克语，涉及公告、封建征召／管辖、婚姻公告及 mettre au ban 等排斥用语；它不是通常表示“禁止”的法语动词（interdire）。旧笔记“法语 ban v. 禁止”已纠正，这不取消独立的英语 ban ↔ 甭 候选。"
+          },
+          "status": "Lexical history supported; not French verb 禁止",
+          "source_refs": [
+            "REF-MW-BAN",
+            "REF-ACADEMIE-BAN",
+            "REF-MOE-BENG",
+            "REF-ZDIC-BENG",
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-AUTHOR-ABANDON-20260907"
+          ]
+        },
+        {
+          "word": "banal ↔ 般 bān / 一般",
+          "language": "French / English / Chinese",
+          "relationship_type": "Phonetic-Semantic Candidate",
+          "family": "European feudal-ban family; no Chinese cognacy claimed",
+          "relation_to_entry": {
+            "en": "banal ↔ 般 bān / 一般: Phonetic-Semantic Candidate; semantic strength moderate; overall confidence Low; Historical Relation: Not claimed. The semantic anchor is the word 一般 in its ordinary/common sense, not an assertion that isolated 般 always means ordinary. Modern banal often adds a negative sense of unoriginal or trite that 一般 need not carry. French /ba.nal/ permits a partial ban- versus bān comparison; English pronunciations vary. Unmatched /al/, vowels, voicing and Mandarin tone remain limitations.",
+            "zh-Hans": "banal ↔ 般 bān / 一般：Phonetic-Semantic Candidate；语义强度 moderate，整体置信度 Low；Historical Relation: Not claimed。语义依据是“一般”的普通／通常义，不主张单字“般”总有普通义。现代 banal 常含陈腐、无新意的贬义，“一般”未必如此。法语 /ba.nal/ 可与 bān 作局部 ban- 音近观察；英语有多种读法。未对应的 /al/、元音、清浊与汉语声调仍是限制。"
+          },
+          "status": "Candidate · semantic moderate · Low confidence · Historical Relation: Not claimed",
+          "source_refs": [
+            "REF-CNRTL-BANAL",
+            "REF-MW-BANAL",
+            "REF-ZDIC-YIBAN",
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-AUTHOR-ABANDON-20260907"
+          ]
+        },
+        {
+          "word": "donner ↔ 捅 (author tōng; standard tǒng)",
+          "language": "French / Chinese",
+          "relationship_type": "Weak Active Association / Original Author Association",
+          "family": "Latin donare / no Chinese historical relation claimed",
+          "relation_to_entry": {
+            "en": "donner ↔ 捅: Weak Active Association / Original Author Association, not a primary mapping. French donner means give and descends from Latin donare. The supplied “捅钱 = 给钱” and reading tōng remain Original Author Usage Observation; standard Mandarin dictionaries give 捅 tǒng (poke/pierce, reveal, provoke), not a verified stable give sense. The targeted dictionary/dialect search did not establish that sense; this is a bounded evidence gap, not proof that no speaker uses it. Historical Relation: Not claimed. Donner is not a historical component of abandon.",
+            "zh-Hans": "donner ↔ 捅：Weak Active Association / Original Author Association，不作主要映射。法语 donner 意为给，源自拉丁语 donare。用户的“捅钱＝给钱”及 tōng 读法保留为 Original Author Usage Observation；标准普通话词典记“捅”tǒng（戳刺、揭露、招惹），没有核验出稳定的给予义。此次词典／方言检索未能证实该义，不等于证明无人这样使用。Historical Relation: Not claimed。donner 不是 abandon 的历史构词部分。"
+          },
+          "status": "Weak · Author-proposed · Historical Relation: Not claimed",
+          "source_refs": [
+            "REF-CNRTL-DONNER",
+            "REF-MOE-TONG",
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-AUTHOR-ABANDON-20260907"
+          ]
+        },
+        {
+          "word": "band / bande",
+          "language": "English / French",
+          "relationship_type": "Related lexical note",
+          "family": "Sense-specific histories; no automatic merger with abandon",
+          "relation_to_entry": {
+            "en": "Related lexical note only: English band “group” comes through Middle French bande and Old Occitan banda, associated with a Germanic sign/banner history; band “strip/binding” has a distinct history. French bande is a noun with strip and group senses, not simply the verb “bandage.” CNRTL notes uncertainty in the route of the group sense. Spelling alone does not merge band/bande with abandon. Possible deeper sign/command interactions mentioned by etymologists do not establish the author’s segmentation or independent experimental evidence.",
+            "zh-Hans": "仅作关联词汇笔记：英语 band“一群”经中古法语 bande、古奥克语 banda，与日耳曼语标志／旗帜背景有关；band“条带／束缚”有另一词史。法语 bande 是名词，含条带与群体等义，不能只写成动词“包扎”。CNRTL 保留群体义传播路线的不确定性。不能因拼写相似并入 abandon 词族；词源学者提到的更深层标志／命令关系，不证实作者拆词，也不自动形成独立实验数据。"
+          },
+          "status": "Lexical note only",
+          "source_refs": [
+            "REF-MW-BAND",
+            "REF-CNRTL-BANDE"
           ]
         }
       ],
       "semantic_associations": [
         {
           "association_id": "ASSOC-ABANDON-001",
-          "relation": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
-          "status": "Interpretive",
+          "relation": "abandon ↔ 放到一旁 → 旁 páng; CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP",
+          "status": "Author-proposed / Cognitive association",
+          "is_etymological": false
+        },
+        {
+          "association_id": "ASSOC-DONNER-TONG-001",
+          "relation": "donner ↔ 捅; 捅钱 = 给钱 is Original Author Usage Observation",
+          "status": "Weak / Original Author Association",
           "is_etymological": false
         }
       ],
       "hypotheses": [
         {
           "hypothesis_id": "UNI-LEGACY-ABANDON-001",
-          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "type": "Original Author Hypothesis / rejected historical segmentation",
           "claim": {
-            "en": "Jinkai Liu’s original note is preserved verbatim: “abandon，放弃。甭 beng。ban 与甭同音。”",
-            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abandon，放弃。甭 beng。ban 与甭同音。”"
+            "en": "Original Author Hypothesis: a.ban.don / a + ban + donner; ban = prohibit, donner = give, therefore prohibit giving = abandon. Independent evaluation: Rejected/Unsupported as historical segmentation. CNRTL regards a ban donner as improbable because that phrase is unattested; the cited doner a abandon examples are later (13th century). Preserve the observation without presenting it as etymology.",
+            "zh-Hans": "原始作者假说：a.ban.don / a + ban + donner；ban＝禁止，donner＝给，因此禁止给＝放弃。独立核验：Rejected/Unsupported as historical segmentation（作为历史拆分被否定／缺乏支持）。CNRTL 认为 a ban donner 分析不可信，因为该短语无见证；所引 doner a abandon 例子较晚（13世纪）。保留观察，不作为词源。"
+          },
+          "status": "Rejected",
+          "confidence": "High",
+          "supporting_cases": [],
+          "counterexamples": [
+            "CNRTL: unattested a ban donner; attested historical structure differs."
+          ],
+          "testability": {
+            "en": "Reopen the historical analysis only with earlier attested forms supporting the proposed segmentation; its rejection does not determine other candidate statuses.",
+            "zh-Hans": "仅在有更早见证形式支持该拆分时重开历史分析；它的否定不决定其他候选状态。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-MW-ABANDON",
+            "REF-CNRTL-ABANDON",
+            "REF-CNRTL-ABANDONNER",
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-AUTHOR-ABANDON-20260907"
+          ],
+          "historical_relation_status": "Rejected"
+        },
+        {
+          "hypothesis_id": "HYP-BAN-BENG-001",
+          "type": "Phonetic-Semantic Candidate",
+          "claim": {
+            "en": "English ban ↔ 甭 béng: Phonetic-Semantic Candidate; semantic strength moderate; overall confidence Low; Historical Relation: Not claimed. The overlap is contextual DON’T / DO NOT / PROHIBIT. English ban often means formal prohibition; 甭 commonly means no need/do not and need not prohibit. English /bæn/ and béng show an author-observed labial onset and loose rhyme resemblance, not homophony: Pinyin b is unaspirated /p/, English b is /b/, final /n/ versus /ŋ/, vowels and tone differ.",
+            "zh-Hans": "英语 ban ↔ 甭 béng：Phonetic-Semantic Candidate；语义强度 moderate，整体置信度 Low；Historical Relation: Not claimed。交点限于语境中的 DON’T / DO NOT / PROHIBIT。ban 常表正式禁止，“甭”常表不用／不必／不要，不总是禁止。/bæn/ 与 béng 的双唇起音及宽泛韵部近似仅为作者观察，并非同音：拼音 b 为不送气 /p/，英语 b 为 /b/，韵尾 /n/ 与 /ŋ/、元音和声调有别。"
           },
           "status": "Candidate",
           "confidence": "Low",
           "supporting_cases": [
-            "abandon",
-            "放弃／遗弃"
+            "Contextual DON’T / DO NOT / PROHIBIT"
           ],
           "counterexamples": [
-            "Modern English ban and French donner should not be retrofitted as the components of abandon.",
-            "No regular cross-language sound correspondence has been demonstrated."
+            "Different lexical/grammatical scope; /n/ vs /ŋ/; voicing/vowels/tone differ."
           ],
           "testability": {
-            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
-            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+            "en": "Evaluate semantics and phonetics independently with negative cases and randomized controls; deduplicate etymological families. Publication does not validate this relation.",
+            "zh-Hans": "分别核验语义和声音，保留反例与随机对照，按词源家族去重；词条发表不验证该关系。"
           },
           "experiment_link": null,
           "source_refs": [
+            "REF-MW-BAN",
+            "REF-ACADEMIE-BAN",
+            "REF-MOE-BENG",
+            "REF-ZDIC-BENG",
             "REF-LANGUAGESBOOK-ABANDON",
-            "REF-MW-ABANDON"
-          ]
+            "REF-AUTHOR-ABANDON-20260907"
+          ],
+          "historical_relation_status": "Not claimed",
+          "semantic_strength": "moderate"
+        },
+        {
+          "hypothesis_id": "HYP-BANAL-BAN-001",
+          "type": "Phonetic-Semantic Candidate",
+          "claim": {
+            "en": "banal ↔ 般 bān / 一般: Phonetic-Semantic Candidate; semantic strength moderate; overall confidence Low; Historical Relation: Not claimed. The semantic anchor is the word 一般 in its ordinary/common sense, not an assertion that isolated 般 always means ordinary. Modern banal often adds a negative sense of unoriginal or trite that 一般 need not carry. French /ba.nal/ permits a partial ban- versus bān comparison; English pronunciations vary. Unmatched /al/, vowels, voicing and Mandarin tone remain limitations.",
+            "zh-Hans": "banal ↔ 般 bān / 一般：Phonetic-Semantic Candidate；语义强度 moderate，整体置信度 Low；Historical Relation: Not claimed。语义依据是“一般”的普通／通常义，不主张单字“般”总有普通义。现代 banal 常含陈腐、无新意的贬义，“一般”未必如此。法语 /ba.nal/ 可与 bān 作局部 ban- 音近观察；英语有多种读法。未对应的 /al/、元音、清浊与汉语声调仍是限制。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "Ordinary/common sense of 一般"
+          ],
+          "counterexamples": [
+            "banal often means trite; isolated 般 is not equivalent; partial phonetic match only."
+          ],
+          "testability": {
+            "en": "Evaluate semantics and phonetics independently with negative cases and randomized controls; deduplicate etymological families. Publication does not validate this relation.",
+            "zh-Hans": "分别核验语义和声音，保留反例与随机对照，按词源家族去重；词条发表不验证该关系。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-CNRTL-BANAL",
+            "REF-MW-BANAL",
+            "REF-ZDIC-YIBAN",
+            "REF-LANGUAGESBOOK-ABANDON",
+            "REF-AUTHOR-ABANDON-20260907"
+          ],
+          "historical_relation_status": "Not claimed",
+          "semantic_strength": "moderate"
         }
       ],
       "counterevidence": [
         {
           "counterevidence_id": "COUNTER-ABANDON-001",
           "statement": {
-            "en": "Modern English ban and French donner should not be retrofitted as the components of abandon.",
-            "zh-Hans": "不能用现代英语 ban 与法语 donner 反向拼装 abandon 的词史。"
+            "en": "Original Author Hypothesis: a.ban.don / a + ban + donner; ban = prohibit, donner = give, therefore prohibit giving = abandon. Independent evaluation: Rejected/Unsupported as historical segmentation. CNRTL regards a ban donner as improbable because that phrase is unattested; the cited doner a abandon examples are later (13th century). Preserve the observation without presenting it as etymology.",
+            "zh-Hans": "原始作者假说：a.ban.don / a + ban + donner；ban＝禁止，donner＝给，因此禁止给＝放弃。独立核验：Rejected/Unsupported as historical segmentation（作为历史拆分被否定／缺乏支持）。CNRTL 认为 a ban donner 分析不可信，因为该短语无见证；所引 doner a abandon 例子较晚（13世纪）。保留观察，不作为词源。"
           },
           "confidence": "High",
           "source_refs": [
+            "REF-MW-ABANDON",
+            "REF-CNRTL-ABANDON",
+            "REF-CNRTL-ABANDONNER",
             "REF-LANGUAGESBOOK-ABANDON",
-            "REF-MW-ABANDON"
+            "REF-AUTHOR-ABANDON-20260907"
           ]
         }
       ],
       "experiments": [],
       "literary_layer": {
-        "status": "Preserved from legacy note",
+        "status": "Source material / Active Association",
         "is_historical_evidence": false,
         "proposition": {
-          "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
-          "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+          "en": "Active Association: abandon ↔ 放到一旁 → 旁 páng. CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP is an author-proposed cognitive and memory bridge, not an attested chain of sound change or translation of 旁 as abandon. Historical Relation: Not claimed; Active Association Status: Author-proposed / Cognitive association.",
+          "zh-Hans": "Active Association：abandon ↔ 放到一旁 → 旁 páng。CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP 是作者提出的认知与记忆桥梁，不是已证历史音变链，也不把单字“旁”当作 abandon 的标准译词。Historical Relation: Not claimed；Active Association Status: Author-proposed / Cognitive association。"
         },
         "essay_prose": [],
         "poem_lyrics": [],
         "translations": [],
         "archival_manuscript_media": [],
         "evidence_boundary": {
-          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
-          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+          "en": "The author’s put-aside image may be explored freely; it is neither historical nor experimental evidence. Earlier 甭/GIVE UP editorial mnemonic retained only in revision history.",
+          "zh-Hans": "作者“放到一旁”的意象可自由展开，不作历史或实验依据。早先“甭／GIVE UP”编辑记忆法仅在修订档案中保留。"
         }
       },
       "media": [],
@@ -6052,15 +6321,135 @@
           "type": "dictionary",
           "url": "https://www.merriam-webster.com/dictionary/abandon",
           "path": null,
-          "provenance": "external lexicographic reference; accessed 2026-09-01"
+          "provenance": "External lexicographic reference; rechecked 2026-09-07"
+        },
+        {
+          "reference_id": "REF-CNRTL-ABANDON",
+          "title": "CNRTL/TLFi: abandon, etymology and history",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/definition/abandon",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-CNRTL-ABANDONNER",
+          "title": "CNRTL/TLFi: abandonner, etymology",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/abandonner",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-CAMBRIDGE-ABANDON",
+          "title": "Cambridge English–Chinese Dictionary: abandon",
+          "type": "dictionary",
+          "url": "https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/abandon",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-MW-BAN",
+          "title": "Merriam-Webster: ban",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/ban",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-ACADEMIE-BAN",
+          "title": "Académie française, 9th edition: ban",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/definition/academie9/ban",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-MOE-BENG",
+          "title": "MOE Concised Mandarin Dictionary: 甭",
+          "type": "dictionary",
+          "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=1174&la=0&powerMode=0",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-ZDIC-BENG",
+          "title": "Hanzi dictionary: 甭, modern senses",
+          "type": "dictionary",
+          "url": "https://zdic.net/hans/甭",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-CNRTL-BANAL",
+          "title": "CNRTL/TLFi: banal, etymology",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/banal",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-MW-BANAL",
+          "title": "Merriam-Webster: banal",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/banal",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-ZDIC-YIBAN",
+          "title": "Hanzi dictionary: 一般",
+          "type": "dictionary",
+          "url": "https://zdic.net/hans/一般",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-CNRTL-DONNER",
+          "title": "CNRTL/TLFi: donner",
+          "type": "dictionary",
+          "url": "https://cnrtl.fr/definition/donner",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-MOE-TONG",
+          "title": "MOE Revised Mandarin Dictionary: 捅 tǒng",
+          "type": "dictionary",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2918&la=0&powerMode=0",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-MW-BAND",
+          "title": "Merriam-Webster: band, separate noun histories",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/band",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-CNRTL-BANDE",
+          "title": "CNRTL/TLFi: bande, group sense",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/bande//1",
+          "path": null,
+          "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
+        },
+        {
+          "reference_id": "REF-AUTHOR-ABANDON-20260907",
+          "title": "Jinkai Liu: ABANDON full original note and editorial instructions",
+          "type": "Original Author Hypothesis",
+          "url": null,
+          "path": "docs/abandon-semantic-network-v1.md",
+          "provenance": "Author-supplied conversation text, 2026-09-07; original historical claims independently evaluated."
         }
       ],
       "author": "Jinkai Liu",
-      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "version": "ABANDON Semantic Network v1.0 / Schema v1.0",
       "dates": {
         "created": null,
-        "modified": "2026-09-01",
-        "published": null
+        "modified": "2026-09-07",
+        "published": "2026-09-07"
       },
       "editorial_notes": [
         {
@@ -6070,6 +6459,18 @@
         {
           "en": "Modern English ban and French donner should not be retrofitted as the components of abandon.",
           "zh-Hans": "不能用现代英语 ban 与法语 donner 反向拼装 abandon 的词史。"
+        },
+        {
+          "en": "A rejected etymological segmentation does not automatically invalidate every phonetic, semantic, cognitive, or literary observation contained in the original note.",
+          "zh-Hans": "一个历史拆词假说被否定，并不意味着原始笔记中包含的声音、语义、认知或文学观察都随之失效。"
+        },
+        {
+          "en": "Translation Status ≠ Mapping Status ≠ Historical Relation ≠ Active Association Status. Primary Mapping Status Supported is scoped to the standard lexical translation; the association is Author-proposed and the two related candidates remain Candidate. Rejected is scoped to historical segmentation only.",
+          "zh-Hans": "Translation Status ≠ Mapping Status ≠ Historical Relation ≠ Active Association Status。主要 Mapping Status Supported 仅限标准词义对应；主动联系为 Author-proposed，两个相关候选仍为 Candidate。Rejected 仅限历史拆分。"
+        },
+        {
+          "en": "The old a- = absence and band = group mnemonic, donate and 动 remain raw-note observations without new records or experimental promotion. Ban/banal historical relatedness requires family deduplication; no controlled result is claimed.",
+          "zh-Hans": "旧 a-＝没有、band＝帮伙记忆法以及 donate、动保留为原始观察，不另建记录或提升实验等级。ban／banal 词史关联须作家族去重；不声称已有对照实验结果。"
         }
       ],
       "search_terms": [
@@ -6081,9 +6482,34 @@
         "beng",
         "ban",
         "give up",
-        "leave"
+        "leave",
+        "抛弃",
+        "离弃",
+        "旁",
+        "páng",
+        "pang",
+        "放到一旁",
+        "abandonner",
+        "banal",
+        "般",
+        "bān",
+        "一般",
+        "yiban",
+        "donner",
+        "捅",
+        "捅钱",
+        "tōng",
+        "tǒng",
+        "tong",
+        "béng",
+        "band",
+        "bande",
+        "a.ban.don",
+        "a + ban + donner",
+        "禁止给",
+        "relinquish"
       ],
-      "page": null,
+      "page": "words/abandon.html",
       "legacy": {
         "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
         "source_url": "https://languagesbook.com/glossary/abandon/",
@@ -6094,15 +6520,139 @@
       "source": {
         "type": "author-published legacy website note",
         "author": "Jinkai Liu",
-        "status": "Preserved; claims independently classified above",
-        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
-        "raw_note": "abandon，放弃。甭 beng。ban 与甭同音。"
+        "status": "Preserved Original Author Hypothesis; historical segmentation Rejected/Unsupported; local observations independently evaluated",
+        "normalization": "Earlier imported raw note retained at the start and in revision_history. Full author-supplied text appended; UI Search labels and HTML styling/entities normalized; erroneous segmentation, meanings and spellings are preserved as observations, not silently corrected.",
+        "raw_note": "abandon，放弃。甭 beng。ban 与甭同音。\n\n2026-09-07 作者补充全文（保留词义／拆分／拼写；仅去除界面 Search 与 HTML 格式）：\nabandon，放弃。甭beng。ban与甭同音\n英語\nabandon [ə'bændən] v. 放弃 [<法语]\na.ban.don\nabandonment [ə'bændənmənt] n. 抛弃 [<法语]\nban [bæn] v. 禁止 [<法语]\nbanal [banal] a. 一般的，平凡.般。可以对应般ban\nband n. 一帮，一伙\n法語\nabandonner [abandonner] v. 抛弃\na.ban.don.ner\nban v. 禁止。可以用甭beng这个字代表。\ndonner v. 送。用捅tong字对应，给谁的意思，捅钱。\n漢語\n甭【beng】v. 用法语ban禁止对应，英语ban禁止对应。\n旁【pang】n. 旁边的旁字变成使动的用法，放到一旁，抛弃。与法语ban禁止对应，英语ban禁止对应。这里给一个可能性而已。\n捅【tong】v. 给的意思。与法语donner给字对应，与英语donate给予对应。\n动【dong】v.\n备注：为什么这里分开ban而不是band，因为这个词从法语来，法语里面没有band这个词，是bande包扎。法语中有ban禁止，interdict禁止。法语donner，给的意思。合起来就是禁止给=放弃。如果仅仅从英语角度也可以有这样的解释：a- [a] pref. 没有的意思，用罢ba字对应。band [band] n. 帮伙。不过仅仅是记忆方便这样说，因为这个词从法语而来最后还是从法语角度介绍为好。现在考虑abadon这个词"
       },
       "batch": {
         "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
         "ordinal": 10,
         "disposition": "Candidate",
         "priority_score": 90.7
+      },
+      "translation_status": "Supported",
+      "translation_source_refs": [
+        "REF-CAMBRIDGE-ABANDON",
+        "REF-MW-ABANDON"
+      ],
+      "active_association_status": "Author-proposed / Cognitive association",
+      "featured_mapping": {
+        "source": "abandon",
+        "target": "旁",
+        "reading": "páng",
+        "status": "Author-proposed / Cognitive association · Level C",
+        "historical_relation": "Not claimed",
+        "display_label": "Active Association · 放到一旁 → 旁 · NOT etymology",
+        "source_refs": [
+          "REF-LANGUAGESBOOK-ABANDON",
+          "REF-AUTHOR-ABANDON-20260907"
+        ],
+        "boundary": {
+          "en": "Active Association: abandon ↔ 放到一旁 → 旁 páng. CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP is an author-proposed cognitive and memory bridge, not an attested chain of sound change or translation of 旁 as abandon. Historical Relation: Not claimed; Active Association Status: Author-proposed / Cognitive association.",
+          "zh-Hans": "Active Association：abandon ↔ 放到一旁 → 旁 páng。CONTROL / DISPOSAL → RELEASE → PUT ASIDE → LEAVE/GIVE UP 是作者提出的认知与记忆桥梁，不是已证历史音变链，也不把单字“旁”当作 abandon 的标准译词。Historical Relation: Not claimed；Active Association Status: Author-proposed / Cognitive association。"
+        }
+      },
+      "revision_history": [
+        {
+          "date": "2026-09-07",
+          "previous_version": "Legacy Website Import Batch 001 / Schema v1.0",
+          "previous_source": {
+            "type": "author-published legacy website note",
+            "author": "Jinkai Liu",
+            "status": "Preserved; claims independently classified above",
+            "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+            "raw_note": "abandon，放弃。甭 beng。ban 与甭同音。"
+          },
+          "previous_hypotheses": [
+            {
+              "hypothesis_id": "UNI-LEGACY-ABANDON-001",
+              "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+              "claim": {
+                "en": "Jinkai Liu’s original note is preserved verbatim: “abandon，放弃。甭 beng。ban 与甭同音。”",
+                "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abandon，放弃。甭 beng。ban 与甭同音。”"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "supporting_cases": [
+                "abandon",
+                "放弃／遗弃"
+              ],
+              "counterexamples": [
+                "Modern English ban and French donner should not be retrofitted as the components of abandon.",
+                "No regular cross-language sound correspondence has been demonstrated."
+              ],
+              "testability": {
+                "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+                "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+              },
+              "experiment_link": null,
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABANDON",
+                "REF-MW-ABANDON"
+              ]
+            }
+          ],
+          "previous_cognitive_evidence": {
+            "status": "Interpretive",
+            "confidence": "Medium",
+            "summary": {
+              "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
+              "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+            },
+            "items": [
+              {
+                "evidence_id": "COG-ABANDON-001",
+                "claim": {
+                  "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
+                  "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+                },
+                "status": "Interpretive",
+                "confidence": "Medium",
+                "source_refs": [
+                  "REF-LANGUAGESBOOK-ABANDON"
+                ]
+              }
+            ],
+            "source_refs": [
+              "REF-LANGUAGESBOOK-ABANDON"
+            ]
+          },
+          "previous_literary_layer": {
+            "status": "Preserved from legacy note",
+            "is_historical_evidence": false,
+            "proposition": {
+              "en": "‘甭／不要了’ can serve as a colloquial memory cue for GIVE UP, without becoming morphology.",
+              "zh-Hans": "“甭／不要了”可作 GIVE UP 的口语记忆提示，但不是构词分析。"
+            },
+            "essay_prose": [],
+            "poem_lyrics": [],
+            "translations": [],
+            "archival_manuscript_media": [],
+            "evidence_boundary": {
+              "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+              "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+            }
+          },
+          "reason": "Upgrade in place; replace abandon/甭 mnemonic with 旁 association; evaluate local candidates independently."
+        }
+      ],
+      "author_usage_observation": {
+        "author": "Jinkai Liu",
+        "raw_text": "捅钱=给钱",
+        "author_reading": "tōng",
+        "standard_reading": "tǒng",
+        "status": "Original Author Usage Observation / unverified give sense",
+        "independent_evaluation": {
+          "en": "donner ↔ 捅: Weak Active Association / Original Author Association, not a primary mapping. French donner means give and descends from Latin donare. The supplied “捅钱 = 给钱” and reading tōng remain Original Author Usage Observation; standard Mandarin dictionaries give 捅 tǒng (poke/pierce, reveal, provoke), not a verified stable give sense. The targeted dictionary/dialect search did not establish that sense; this is a bounded evidence gap, not proof that no speaker uses it. Historical Relation: Not claimed. Donner is not a historical component of abandon.",
+          "zh-Hans": "donner ↔ 捅：Weak Active Association / Original Author Association，不作主要映射。法语 donner 意为给，源自拉丁语 donare。用户的“捅钱＝给钱”及 tōng 读法保留为 Original Author Usage Observation；标准普通话词典记“捅”tǒng（戳刺、揭露、招惹），没有核验出稳定的给予义。此次词典／方言检索未能证实该义，不等于证明无人这样使用。Historical Relation: Not claimed。donner 不是 abandon 的历史构词部分。"
+        },
+        "source_refs": [
+          "REF-CNRTL-DONNER",
+          "REF-MOE-TONG",
+          "REF-LANGUAGESBOOK-ABANDON",
+          "REF-AUTHOR-ABANDON-20260907"
+        ],
+        "is_historical_evidence": false
       }
     },
     {
