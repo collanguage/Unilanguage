@@ -383,7 +383,7 @@ test("abdomen keeps translation, sound candidate, word families and literary ass
   assert.match(abdomen.source.raw_note, /Is the belly our domain\?/);
 
   const page = fs.readFileSync(path.join(root, abdomen.page), "utf8");
-  assert.match(page, /abdomen ↔ 肚 <small>dù<\/small> · 肚子/);
+  assert.match(page, /abdomen ↔ 肚 <small>dù<\/small> <span class="headline-translation">· 腹部<\/span>/);
   assert.match(page, /ab\.dom\.en ≠ verified morphology/);
   assert.match(page, /文学—认知链/);
   assert.match(page, /文学意象，不构成词义、词源或语音证据/);
