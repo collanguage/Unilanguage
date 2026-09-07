@@ -7,7 +7,7 @@ const legacy = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book
 const out = path.join(root, "data", "language-book.v1.0.json");
 const authoredEntriesDirectory = path.join(root, "data", "entries");
 const migrationDate = "2026-09-02";
-const releaseDate = "2026-09-05";
+const releaseDate = "2026-09-07";
 const localized = (en, zh) => ({ en, "zh-Hans": zh });
 const clean = (values) => [...new Set(values.filter((value) => value !== null && value !== undefined && String(value).trim()).map(String))];
 const sourceMap = new Map(legacy.sources.map((item) => [item.source_id, item]));
@@ -540,7 +540,7 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.2.13",
+  dataset_version: "1.2.14",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",

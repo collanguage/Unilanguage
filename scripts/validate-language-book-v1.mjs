@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.13", "Schema must remain 1.0.0 and the Abash four-track revision must be 1.2.13");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.14", "Schema must remain 1.0.0 and the Abash four-track revision must be 1.2.14");
 check(dataset.entries.length === 37, "Universe upgrade must not change the 37-record entry count");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
@@ -51,7 +51,13 @@ for (const entry of dataset.entries) {
   const referenceIds = new Set((entry.references || []).map((item) => item.reference_id));
   const viewTerms = new Set();
   for (const view of entry.query_views || []) {
-    check(view.terms?.length && view.featured_mapping === null, `${entry.id}: query view must be an exact related-word meaning without a featured mapping`);
+    check(view.terms?.length, `${entry.id}: query view must have exact terms`);
+    if (view.featured_mapping) {
+      const featured = view.featured_mapping;
+      check(featured.source === view.primary_mapping?.source?.word && featured.target && featured.reading && featured.status && featured.historical_relation && featured.boundary?.en && featured.boundary?.["zh-Hans"], `${entry.id}: incomplete or mismatched query candidate`);
+      check(featured.source_refs?.length, `${entry.id}: query candidate needs scoped references`);
+      for (const ref of featured.source_refs || []) check(referenceIds.has(ref), `${entry.id}: broken query candidate reference ${ref}`);
+    }
     check(view.primary_mapping?.source?.word && view.primary_mapping?.target?.word && view.primary_mapping?.meaning?.en && view.primary_mapping?.meaning?.["zh-Hans"], `${entry.id}: incomplete query-view meaning`);
     for (const term of view.terms || []) {
       const key = term.trim().toLowerCase();

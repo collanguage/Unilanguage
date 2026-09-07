@@ -143,3 +143,12 @@ Before adding a batch: compare stable IDs/slugs, leave unknown fields null or un
 The existing `related_words` typed relationship, `semantic_associations` (`is_etymological: false`), Cognitive track and bilingual `editorial_notes` encode the Active Association Principle. Schema remains 1.0.0; count remains 37. No new entry, adapter metadata or frozen UI changes are needed. Query-specific `primary_mapping.meaning` labels distinguish “Active association: bash” from “Cross-language candidate: 拍”. Historical evidence and the obsolete bash homograph remain independent. Author: Jinkai Liu.
 
 ABASH/BASH status correction: optional `translation_status` and `translation_source_refs` apply to the standard meaning in each query view; `mapping_status` and `mapping_level` continue to grade only bash ↔ 拍. `active_association_status` is independent of `historical_relation_status`. Query views retain the same record ID and count. The renderer uses these optional fields only on this record; other records retain their existing presentation.
+
+
+### ABASH / BASH separate candidates · release 1.2.14
+
+The existing 37 records and stable ABASH ID remain unchanged. A query view may now carry a schema-validated featured_mapping for its own source, while primary_mapping retains the Supported standard translation. ABASH/怕 resolves to abash ↔ 怕 pà (psychological, low-to-moderate semantic strength); BASH/拍 retains bash ↔ 拍 pāi. Both are Candidate / C / Low, Historical Relation Not claimed. The existing Active Association link is Cognitive / Pedagogical · NOT etymology.
+
+Translation Status ≠ Mapping Status ≠ Historical Relation ≠ Active Association Status ≠ Experiment Status.
+
+Etymological-family deduplication｜词源家族去重: the existing experiment plan holds two candidate_observations with distinct IDs and a family_independence gate. Pending verification means eligible_as_two_independent_observations=false. Shared spelling or an Active Association does not establish family identity or independence. Count one root family once; retain positives, negatives, random/matched controls and sensitivity analyses. The medial /b/ in abash must not be silently treated as word-initial /b/. No experiment has run and no evidence level is promoted. Original raw notes and literary content are preserved.

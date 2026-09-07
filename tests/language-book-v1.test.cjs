@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.13");
+  assert.equal(dataset.dataset_version, "1.2.14");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
@@ -239,8 +239,8 @@ test("Abash separates standard translation, experimental clusters, cognitive cha
   assert.equal(abash.chinese_internal_cluster.members.find((item) => item.character === "怕").modern_reading, "pà");
   assert.equal(abash.cognitive_chain.abstract, "IMPACT → STARTLE → FEAR / EMBARRASSMENT");
   assert.equal(abash.cognitive_chain.status, "Cognitive / Experimental Mapping");
-  assert.match(abash.semantic_structure.relation, /Experimental: bash ↔ 拍/);
-  assert.ok(abash.related_words.some((item) => item.word === "怕 pà" && item.status === "Interpretive"));
+  assert.match(abash.semantic_structure.relation, /BASH ↔ 拍 pāi — physical-action/);
+  assert.ok(abash.related_words.some((item) => item.word === "怕 pà" && item.status === "Candidate"));
   assert.equal(abash.literary_layer.status, "Published");
   assert.match(abash.literary_layer.essay_prose[0].text["zh-Hant"], /通語 Collanguage.*葡萄園.*瑪娜花盛開/s);
   assert.equal(abash.page, "words/abash.html");
@@ -275,8 +275,8 @@ test("BASH correction keeps query identity but separates standard meaning from t
     assert.equal(entry.id, canonical.id);
     assert.equal(entry.primary_mapping.source.word, "abash");
     assert.equal(entry.primary_mapping.target.word, "使窘迫");
-    assert.equal(entry.featured_mapping, null);
-    assert.match(entry.primary_mapping.mapping_type, /Related historical correction/);
+    assert.equal(entry.featured_mapping.target, "怕");
+    assert.match(entry.primary_mapping.mapping_type, /Phonetic-Semantic Candidate abash ↔ 怕/);
     assert.equal(entry.page, "words/abash.html");
   }
   assert.equal(JSON.stringify(canonical), before, "query views must not mutate canonical evidence");
@@ -308,13 +308,13 @@ test("Active Association is readable independently of historical and cross-langu
   assert.ok(entry.editorial_notes.some(n => /Active Association Principle/.test(n.en)));
   assert.ok(entry.evidence.Cognitive.items.some(i => i.evidence_id === "COG-ABASH-BASH-ACTIVE"));
   assert.ok(!entry.evidence.Historical.items.some(i => i.evidence_id === "COG-ABASH-BASH-ACTIVE"));
-  assert.match(entry.evidence.Historical.summary.en, /not an established derivation/);
+  assert.match(entry.evidence.Historical.summary.en, /Standard analyses do not support modern a-/);
   const bash = dataApi.lookup(dataset, "bash").entry;
   assert.match(bash.primary_mapping.meaning.en, /Cross-language candidate: 拍/);
   assert.equal(bash.featured_mapping.target, "拍");
   assert.ok(bash.hypotheses.some(h => h.hypothesis_id === "HYP-BPMF-CONSONANT-GROUP"));
   const page = fs.readFileSync(path.join(root, "words", "abash.html"), "utf8");
-  for (const label of ["English internal: abash ↔ bash", "Cross-language Candidate", "Historical Evidence", "Non-historical semantic path"]) assert.ok(page.includes(label));
+  for (const label of ["English internal: abash ↔ bash", "Cross-language Candidate", "Historical Evidence", "Separate candidate observations"]) assert.ok(page.includes(label));
 });
 
 test("Dictionary cards honor featured forms and keep standard translations visible", () => {
@@ -477,4 +477,25 @@ test("ABASH/BASH dictionary meanings have independent source-backed translation 
     assert.equal(dataApi.resolveSources(entry, entry.translation_source_refs).length, 1);
   }
   assert.equal(JSON.stringify(canonical), before);
+});
+
+test("ABASH 怕 candidate remains separate from BASH 拍 and experimental independence is gated", () => {
+  const a = dataApi.lookup(dataset, "怕").entry;
+  const b = dataApi.lookup(dataset, "拍").entry;
+  assert.equal(a.id, b.id);
+  assert.equal(a.primary_mapping.source.word, "abash");
+  assert.equal(a.primary_mapping.target.word, "使窘迫");
+  assert.equal(a.featured_mapping.target, "怕");
+  assert.match(a.featured_mapping.display_label, /low-to-moderate/);
+  assert.equal(b.featured_mapping.target, "拍");
+  assert.equal(a.translation_status, "Supported");
+  assert.equal(a.featured_mapping.historical_relation, "Not claimed");
+  const plan = a.experiments[0];
+  assert.equal(plan.family_independence.status, "Pending verification");
+  assert.equal(plan.family_independence.eligible_as_two_independent_observations, false);
+  assert.equal(new Set(plan.candidate_observations.map(o => o.observation_id)).size, 2);
+  assert.ok(plan.candidate_observations.every(o => o.hypothesis_id === "HYP-BPMF-CONSONANT-GROUP"));
+  assert.match(plan.result.en, /Count derivatives of one root once/);
+  assert.match(a.phonetic_observation.at(-1).claim.en, /not a word-initial b/);
+  assert.equal(a.legacy_segmentation_raw_note, "a.bash → bash打击 → 惊讶");
 });
