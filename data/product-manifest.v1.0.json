@@ -1,7 +1,7 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.16",
-  "dataset_version": "1.2.15",
+  "version": "1.2.17",
+  "dataset_version": "1.2.16",
   "created_at": "2026-09-07",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
@@ -11,13 +11,13 @@
   "files": [
     {
       "path": "data/language-book-entry.schema.v1.json",
-      "bytes": 11565,
-      "sha256": "fbb0687a99db28f40ec7326f19850b3b6bf75e39083e2e59f95c86f73b76f228"
+      "bytes": 15629,
+      "sha256": "86b91f7a9cb4627001ecfcf266bab81d6bd9ae8bdceaecfe36c8dffbd167ac2a"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 792956,
-      "sha256": "e3da4eabc9545af33d09e5e073f77d5d80972c77fa83b7283d90b497d5ce7758"
+      "bytes": 845541,
+      "sha256": "cccd25de3aab12bf87ab8c6400524d165f921bfd3a40ba4e1f54731edf3ef487"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -31,8 +31,8 @@
     },
     {
       "path": "data/entries/abandon.v1.json",
-      "bytes": 58678,
-      "sha256": "9419f2a93ccc793f53fe1c9083ba6035a8ca9f76c2d7e6f474b50afe48748c38"
+      "bytes": 108163,
+      "sha256": "8b358cae20ca0dc0f37f5647806c729a4c2453f3288fabcfe8ed35eb09a558b6"
     },
     {
       "path": "data/entries/abash.v1.json",
@@ -171,13 +171,13 @@
     },
     {
       "path": "docs/language-book-entry-schema-v1.md",
-      "bytes": 14105,
-      "sha256": "ab0cdffbaff33b1374709776552a62b0a672e167ba382681d7cb7225219b5831"
+      "bytes": 14700,
+      "sha256": "03251e473ce039b85f0f5b1f08f1f2a16973eadb19fe53d1069af10f2c1d8b47"
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
       "bytes": 66379,
-      "sha256": "b369feb67a15c6a612bccf3ad6c1bfd5a3cd0e49b83a86534943781115603171"
+      "sha256": "b8476a07917c9c3c8af21b655f0320db5f1060b0d58b25bc071c9c627c4b4021"
     },
     {
       "path": "docs/dataset-expansion-batch-001.md",
@@ -202,12 +202,12 @@
     {
       "path": "scripts/validate-language-book-v1.mjs",
       "bytes": 17845,
-      "sha256": "b4f0d5be4726ce154e9a391ab154fcbac58953d2d9087f874fa7b7472f009828"
+      "sha256": "0264394a0c1c80d67ea41cb82b9f4d411470fb9fa3f33c18bf385ea3616d96f5"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
       "bytes": 33467,
-      "sha256": "74215fd88328599dcf956da88ea593a5fca860400572ce81071be13c422f36dc"
+      "sha256": "7fe22aa0606abe15c3a9e472e9a49705098bb39d425378c0b61ebcc2a821a1cc"
     },
     {
       "path": "tests/dataset-expansion-batch-001.test.cjs",
@@ -286,18 +286,18 @@
     },
     {
       "path": "words/abandon.html",
-      "bytes": 24719,
-      "sha256": "41e47f0ca7df914a419e789c249e02fc4d74b2a45b5f193e61f457678c5f29d6"
+      "bytes": 43467,
+      "sha256": "57456391c12fd5b359dc475c30998a99c2f63aff5494393a28c387f692e456a0"
     },
     {
       "path": "docs/abandon-semantic-network-v1.md",
-      "bytes": 13797,
-      "sha256": "3efe0f2d8f179251f66dc48b90b096594697704d23ad730572e672469ed5f48b"
+      "bytes": 22460,
+      "sha256": "2ebd479ab4657b7fa4b43c1ec8b4766dd1053d34063a2cb3aa07f400753917ca"
     },
     {
       "path": "tests/abandon-semantic-network.test.cjs",
-      "bytes": 3748,
-      "sha256": "a67ba18098dd6cd6d235a60143d61445bed2d9e3bfa42e0a47fb4bf7ae466df5"
+      "bytes": 6915,
+      "sha256": "dc29c5bf051de441cc81d06ccfc47e84256000a1366ee201017fc16910a45179"
     },
     {
       "path": "words/sky.html",
@@ -356,8 +356,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6427,
-      "sha256": "b3ef35fb714385cad61d9a541a0f58f3cf7a71046647cb361e315903e4efbcb0"
+      "bytes": 6752,
+      "sha256": "164c25f3469c476c91f3afe1e20a5819444dc952aa9087fdbc26dadcf7a60d50"
     },
     {
       "path": "sitemap.xml",

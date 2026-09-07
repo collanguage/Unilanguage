@@ -1,3 +1,171 @@
+# ABANDON Dual Semantic Paths
+
+Author: Jinkai Liu. Existing record LB-en-abandon-033; 37 entries unchanged.
+
+## Dual-path upgrade v1.0 · Dataset 1.2.16
+
+BANDON → À BANDON → ABANDONNER → ABANDON
+
+POWER/CONTROL → DISPOSAL RELATION → TRANSFER/GIVE OVER → RELEASE/LET GO → GIVE UP
+
+Semantic-best: 权柄 → 任其处置 → 付 → 放 → 弃
+
+b-p-m-f constrained: 柄 bǐng → 办 bàn → 拨付 bō fù → 放 fàng → 抛 pāo / 罢 bà
+
+A structural comparison, not a Chinese etymological chain or cross-language cognacy. Historical Relation: Not claimed. Arrows order semantic relations, not five successive first-attestation dates. Modern Mandarin onsets are the declared constraint; b /p/, p /pʰ/, m /m/, f /f/ are a proposed class, not identical sounds. No reconstruction of Old Chinese or Old French pronunciation is claimed.
+
+这是结构比较，不是汉字间的派生链或英汉同源。Historical Relation: Not claimed。箭头排列语义关系，不代表五个依次出现的首见年代。约束明确采用现代普通话声母：b /p/、p /pʰ/、m /m/、f /f/ 是候选组，不是同音；未重构上古汉语或古法语发音。
+
+Can a historical semantic path be reconstructed across languages while preserving a proposed consonant class?
+
+在保持候选辅音组的条件下，能否跨语言重构一条历史语义路径？
+
+Retrospective editorial case, not a blinded or preregistered experiment: the proposed b-words were already visible. Baseline selection uses semantic criteria, but evaluator blindness is not claimed. These nodes belong to one historical case, not five or six independent observations. No controlled support estimate exists.
+
+### best-power · 权柄 quán bǐng
+
+Semantic fit: High; phonetic group fit: Not constrained.
+
+MOE 柄 sense 6: power; cites Han writer Ban Biao’s 王命论 with 权柄. The compound makes authority explicit.
+
+教育部“柄”名词第6义为权力，引汉代班彪《王命论》“权柄”用例；采用复词明确权力义。
+
+Semantic loss: Low: authority sense selected, not every use of power.
+
+[MOE Revised Mandarin Dictionary: 柄, power and control](https://dict.revised.moe.edu.tw/dictView.jsp?ID=538&la=0&powerMode=0)
+
+### best-disposal · 任其处置 rèn qí chǔ zhì
+
+Semantic fit: High; phonetic group fit: Not constrained.
+
+处置 means arrange/handle, with a 汉书·薛宣传 example. 任其 is an editorial relational paraphrase, not a quoted historical compound.
+
+处置有安排处理义，汉典引《汉书·薛宣传》；“任其”为编辑补足关系的释义，不冒充古籍中的固定复词。
+
+Semantic loss: Low with 任其; bare 处置 would omit the possessor/disposal relation.
+
+[Hanzi dictionary: 处置 — lexical senses and attributed textual examples](https://www.zdic.net/hans/处置)
+
+### best-transfer · 付 fù
+
+Semantic fit: High; phonetic group fit: Not constrained.
+
+付 means hand over/entrust; dictionary quotes 说文 and cites 出师表 for handing a matter to officials.
+
+付有交给／托付义；汉典列《说文》释义，并引《出师表》交付有司用例。
+
+Semantic loss: Low: handing over does not itself require permanent abandonment.
+
+[Hanzi dictionary: 付 — lexical senses and attributed textual examples](https://www.zdic.net/hans/付)
+
+### best-release · 放 fàng
+
+Semantic fit: High; phonetic group fit: Not constrained.
+
+Dictionary explicitly separates release from banishment and abandonment; cites 中山狼传 for releasing a turtle.
+
+汉典单列解除约束／释放义，并引《中山狼传》放龟用例；与放逐、舍弃等义分开。
+
+Semantic loss: Low for release; no Chinese chronological equivalence inferred.
+
+[Hanzi dictionary: 放 — lexical senses and attributed textual examples](https://www.zdic.net/hans/放)
+
+### best-give-up · 弃 qì
+
+Semantic fit: High; phonetic group fit: Not constrained.
+
+Discard/abandon is a dictionary sense, supported by attributed classical examples including 左传.
+
+汉典列舍弃／抛弃义及《左传》等古典用例。
+
+Semantic loss: Low within the verb sense; not all English noun uses.
+
+[Hanzi dictionary: 弃 — lexical senses and attributed textual examples](https://www.zdic.net/hans/弃)
+
+### bpmf-power · 柄 bǐng
+
+Semantic fit: High; phonetic group fit: High: b.
+
+Power is independently attested; 权柄 supplies disambiguating context.
+
+权力义有独立字典证据；权柄可补足消歧语境。
+
+Semantic loss: Low; bare 柄 also means handle.
+
+[MOE Revised Mandarin Dictionary: 柄, power and control](https://dict.revised.moe.edu.tw/dictView.jsp?ID=538&la=0&powerMode=0)
+
+### bpmf-disposal · 办 bàn
+
+Semantic fit: Low; phonetic group fit: High: b.
+
+Modern 办 means handle/manage. The historical 辦 gloss in 说文新附 is exert effort (致力); dictionary historical preparation/management examples do not establish the authority relation.
+
+现代办有处理／办理义；历史“辦”在《说文新附》释致力，古代筹备／办理用例不能直接证明任人处置的权力关系。
+
+Semantic loss: High: an action replaces being at another’s disposal; Medium only against generic HANDLE, Low against the frozen relation.
+
+[Hanzi dictionary: 办 — lexical senses and attributed textual examples](https://www.zdic.net/hans/办)
+
+### bpmf-transfer · 拨付 bō fù
+
+Semantic fit: Medium; phonetic group fit: High: b + f (compound).
+
+MOE defines 撥付 as issue/allocate and cites 水浒传 chapter 99 assigning officers and troops. Prefer the compound to ambiguous isolated 拨.
+
+教育部释撥付为发给，引《水浒传》第99回分派将佐军兵用例；采用复词，避免单字拨的拨动义。
+
+Semantic loss: Medium: administrative allocation is narrower than give over and may retain control. 付 fù is a stronger semantic alternative within the broader group, but not b-initial.
+
+[MOE Revised Mandarin Dictionary: 撥付, allocation and literary attestation](https://dict.revised.moe.edu.tw/dictView.jsp?ID=12718&la=0&powerMode=0)
+
+### bpmf-release · 放 fàng
+
+Semantic fit: High; phonetic group fit: High: f.
+
+Same independently sourced release sense as the baseline. Reuse of 放 is not new evidence.
+
+与基线路径相同的释放义；重复使用“放”不增加独立证据。
+
+Semantic loss: Low; reuse of a baseline node.
+
+[Hanzi dictionary: 放 — lexical senses and attributed textual examples](https://www.zdic.net/hans/放)
+
+### bpmf-discard · 抛 pāo
+
+Semantic fit: High; phonetic group fit: High: p.
+
+Dictionary records cast aside/abandon with a Yuan Zhen 琵琶歌 example. Chosen endpoint for discarding/leaving.
+
+汉典列丢弃／舍弃义，引元稹《琵琶歌》；作抛弃／离弃分支的优先终点。
+
+Semantic loss: Low for discard/leave; throwing sense is not automatically abandonment.
+
+[Hanzi dictionary: 抛 — lexical senses and attributed textual examples](https://www.zdic.net/hans/抛)
+
+### bpmf-cease · 罢 bà
+
+Semantic fit: Medium; phonetic group fit: High: b.
+
+Dictionary stop/cease sense cites 史记·魏公子列传. Retained as an alternative for giving up an activity.
+
+汉典停止义引《史记·魏公子列传》；保留作放弃活动的替代终点。
+
+Semantic loss: Medium: stopping may be temporary or completion; Low fit for deserting a person. This is an alternative endpoint, not a sixth historical stage.
+
+[Hanzi dictionary: 罢 — lexical senses and attributed textual examples](https://www.zdic.net/hans/罢)
+
+### Predeclared future workflow
+
+1. Freeze the source-language historical semantic path with dated evidence and stage boundaries. / 先冻结来源语言历史语义路径、时间见证与阶段边界。
+2. Construct the Chinese semantic-best path without using sound as a selection criterion. / 不以声音为选择标准，构造汉语语义优先路径。
+3. Apply the b-p-m-f constraint with declared modern Mandarin onset and compound rules. / 再施加 b-p-m-f 约束，声明普通话声母及复词规则。
+4. Record each node’s semantic loss and lower support where it is substantial. / 逐节点记录语义损失；损失明显则降低假说支持。
+5. In future, compare d-t-n-l and g-k-h controls under identical vocabulary, compound, scoring and search-budget rules; retain failures and deduplicate families. / 未来在相同词汇范围、复词、评分及检索预算规则下比较 d-t-n-l、g-k-h 控制组；保留失败例，按词源家族去重。
+
+Scores: baseline High; constrained Medium; hypothesis support Low / untested. Nodes are one case, not independent observations.
+
+## Preserved previous editorial record
+
 # ABANDON Semantic Network v1.0
 
 Author: Jinkai Liu. Reviewed and published under the user’s 2026-09-07 instruction.

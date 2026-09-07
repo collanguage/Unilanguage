@@ -152,3 +152,8 @@ The existing 37 records and stable ABASH ID remain unchanged. A query view may n
 Translation Status ≠ Mapping Status ≠ Historical Relation ≠ Active Association Status ≠ Experiment Status.
 
 Etymological-family deduplication｜词源家族去重: the existing experiment plan holds two candidate_observations with distinct IDs and a family_independence gate. Pending verification means eligible_as_two_independent_observations=false. Shared spelling or an Active Association does not establish family identity or independence. Count one root family once; retain positives, negatives, random/matched controls and sensitivity analyses. The medial /b/ in abash must not be silently treated as word-initial /b/. No experiment has run and no evidence level is promoted. Original raw notes and literary content are preserved.
+
+
+### ABANDON optional diachronic extension (dataset 1.2.16)
+
+`diachronic_semantic_mapping` stores stage boundaries, both paths and node-level semantic_fit, phonetic_group_fit, evidence_status, historical_independence, source_refs and semantic_loss. Scores are Experimental editorial judgments. The frozen adapter uses existing summary, evidence and hypothesis fields to display both paths; no new Published entries or global UI changes. The full word page presents historical stages → baseline → constrained candidates → scoring/controls → secondary candidates → original correction.

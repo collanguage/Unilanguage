@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.2.15" },
+    "dataset_version": { "const": "1.2.16" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
@@ -36,6 +36,136 @@
       "type": "object",
       "required": ["id", "slug", "title", "languages", "primary_mapping", "entry_status", "mapping_status", "mapping_level", "historical_relation_status", "evidence", "phonetic_observation", "semantic_structure", "hypotheses", "experiments", "literary_layer", "media", "references", "author", "version", "dates", "editorial_notes", "search_terms"],
       "properties": {
+        "diachronic_semantic_mapping": {
+          "type": "object",
+          "required": [
+            "version",
+            "status",
+            "historical_relation",
+            "historical_path",
+            "semantic_path",
+            "historical_stages",
+            "semantic_best_path",
+            "consonant_constrained_path",
+            "research_question",
+            "workflow",
+            "audit",
+            "scores",
+            "hypothesis_links"
+          ],
+          "properties": {
+            "status": {
+              "const": "Experimental/Testable"
+            },
+            "historical_relation": {
+              "const": "Not claimed"
+            },
+            "historical_stages": {
+              "type": "array",
+              "minItems": 4,
+              "maxItems": 4
+            },
+            "semantic_best_path": {
+              "type": "object",
+              "required": [
+                "display",
+                "nodes"
+              ],
+              "properties": {
+                "nodes": {
+                  "type": "array",
+                  "minItems": 5,
+                  "maxItems": 5,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "node_id",
+                      "source_stage_id",
+                      "form",
+                      "reading",
+                      "meaning",
+                      "semantic_fit",
+                      "phonetic_group_fit",
+                      "evidence_status",
+                      "historical_independence",
+                      "source_refs",
+                      "evidence_note",
+                      "semantic_loss"
+                    ],
+                    "properties": {
+                      "semantic_fit": {
+                        "enum": [
+                          "High",
+                          "Medium",
+                          "Low"
+                        ]
+                      },
+                      "source_refs": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_note": {
+                        "$ref": "#/$defs/localized"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "consonant_constrained_path": {
+              "type": "object",
+              "required": [
+                "display",
+                "nodes"
+              ],
+              "properties": {
+                "nodes": {
+                  "type": "array",
+                  "minItems": 5,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "node_id",
+                      "source_stage_id",
+                      "form",
+                      "reading",
+                      "meaning",
+                      "semantic_fit",
+                      "phonetic_group_fit",
+                      "evidence_status",
+                      "historical_independence",
+                      "source_refs",
+                      "evidence_note",
+                      "semantic_loss"
+                    ],
+                    "properties": {
+                      "semantic_fit": {
+                        "enum": [
+                          "High",
+                          "Medium",
+                          "Low"
+                        ]
+                      },
+                      "source_refs": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "evidence_note": {
+                        "$ref": "#/$defs/localized"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
         "id": { "type": "string", "minLength": 1 },
         "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
         "record_kind": { "enum": ["lexical_entry", "named_entity"] },
