@@ -165,3 +165,7 @@ Semantic Path 研究一个词的历史语义怎样发展。Consonant Group Mappi
 Dialect & Diachronic Chinese Evidence is a separate evidence track. Record dialect/location/date and transcription separately from Middle Chinese or Old Chinese reconstructions, with named sources and reconstruction systems. Modern dialects are not frozen copies of ancient Chinese. No dialect or reconstructed pronunciation is used to raise this candidate’s grade; these comparisons remain pending.
 
 Dialect & Diachronic Chinese Evidence｜汉语方言与历时音韵证据独立记录。方言须注明地点、年代与转写；中古音／上古音须注明来源与重构体系，不能混用。现代方言不是古汉语的冻结复制品。本候选未以方言或重构音提高等级，相关比较待核验。
+
+### Citation labels and metadata
+
+Follow [Citation / Lexicographic Source Policy](standards/evidence-and-references.md#citation--lexicographic-source-policy). Existing reference `title` contains the specific work name; `url` identifies access; `provenance` records known edition, institution, access date and any original-work/platform distinction. Preserve unknowns and stable reference IDs. Schema remains 1.0.0.

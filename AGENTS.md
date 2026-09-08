@@ -1024,6 +1024,8 @@ Do not include copyrighted text beyond appropriate quotation limits.
 
 Evidence must be traceable.
 
+Follow [Citation / Lexicographic Source Policy](docs/standards/evidence-and-references.md#citation--lexicographic-source-policy): 直接写具体书名，避免用“教育部”代替辞书名称。 Keep institution/edition/platform information in source metadata; evaluate sources by purpose and evidence quality, without regional ranking.
+
 Preferred evidence sources include:
 
 - authoritative dictionaries;

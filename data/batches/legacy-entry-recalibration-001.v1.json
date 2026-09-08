@@ -288,5 +288,15 @@
     "browser": "20 Mapper queries, Search and Dictionary root queries; 1440px desktop and 390px mobile; no page errors or mobile overflow",
     "regression": "Only ABBEY dataset record differs; Mapper/Search/core schema byte-preserved",
     "deployment": "Verify live bytes after push; see final task handoff"
+  },
+  "citation_editorial_audit": {
+    "date": "2026-09-07",
+    "policy": "docs/standards/evidence-and-references.md",
+    "scope": "Specific work labels and institution/original-work/access-platform provenance; ABBEY and ABANDON references audited",
+    "source_ids_unchanged": true,
+    "source_count_unchanged": true,
+    "evidence_grades_unchanged": true,
+    "schema_version_unchanged": true,
+    "validation": "98 tests; build; repository and Draft 2020-12 validators; HTML5/JS/links; 3 pages and 20 Mapper queries plus Search/Dictionary browser checks passed"
   }
 }
