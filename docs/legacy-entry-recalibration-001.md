@@ -87,3 +87,7 @@ Full machine-readable before/after, controls and queue: [manifest](../data/batch
 ## Validation
 
 98 tests passed (0 failures); repository validator and full Draft 2020-12 schema passed. HTML5 strict parse, all JavaScript syntax checks and local links passed. Browser regression: 20 Mapper queries plus Search/Dictionary 爸, desktop 1440px and mobile 390px, no browser errors or horizontal overflow. Only ABBEY differs among the 37 dataset records; frozen Mapper/Search/core schema files are byte-preserved. Source references support the historical family and scoped modern/historical dictionary observations; full phonological and controlled kinship research remains pending.
+
+## Heading alignment follow-up
+
+At the author’s request, the ABBEY Mapper/Dictionary heading now uses the established featured candidate pattern: abbey ↔ 爸 bà · 修道院. The immediately following label specifies Root-level phonetic-semantic candidate: ABBA ↔ 爸 (not whole-word equivalence). Standard translation remains Supported; root candidate remains Candidate / Low confidence / Not claimed. This reuses existing typography; the status renderer reads the independent translation status when available. The dedicated historical page retains its explicit ABBEY · 修道院 title.

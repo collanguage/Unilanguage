@@ -597,6 +597,10 @@
     {
       "en": "Legacy Recalibration 001: same ID and entry count. Root mapping Candidate; translation Supported; historical family path evidence-backed; literary 蓓 Published / Author-proposed; 比/笔 weak/speculative.",
       "zh-Hans": "旧词条校准001：保留ID和词条总数。词根映射 Candidate；翻译 Supported；词族历史路径有来源支持；蓓为 Published／Author-proposed 文学层；比／笔为 weak/speculative。"
+    },
+    {
+      "en": "Heading follows the established candidate + pinyin + standard-gloss format. The displayed 爸 candidate belongs to historical ABBA, not the whole-word translation of abbey.",
+      "zh-Hans": "标题统一为候选字＋拼音＋标准译义；爸属于历史 ABBA 词根候选，不是 abbey 整词译义。"
     }
   ],
   "search_terms": [
@@ -780,5 +784,22 @@
       "status": "Planned; not run",
       "design": "Preregister semantic selection independently of sound; blinded sound ratings; retain 父/爹/爷 regardless of group fit; compare kinship and non-kinship baselines, unrelated /ba,pa,ma/ items and shuffled meaning controls; count abbey/abbaye/abbé/abbot/abbess as one historical family; do not constrain Chinese-internal semantic paths."
     }
+  },
+  "featured_mapping": {
+    "source": "abbey",
+    "target": "爸",
+    "reading": "bà",
+    "display_label": "Root-level phonetic-semantic candidate · 词根音义候选：ABBA ↔ 爸（非整词等义）",
+    "status": "Candidate · Low confidence",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "Kinship control: recurrent early-child / baby-talk articulatory patterns are an alternative explanation for similar father/mother terms across languages. ABBA ↔ 爸 is a root-level Phonetic-Semantic Candidate, not abbey’s translation and not evidence of Aramaic–Chinese cognacy. Historical Relation: Not claimed. This control is not a demonstrated origin story for this particular pair.",
+      "zh-Hans": "亲属称谓控制：跨语言父母称谓常出现相似的早期儿童／婴儿语发音模式，构成替代解释。ABBA ↔ 爸是词根级音义候选，不是 abbey 的标准翻译，也不是阿拉姆语与汉语历史同源的证据。Historical Relation: Not claimed。控制因素不等于已证明此词对的具体起源。"
+    },
+    "source_refs": [
+      "REF-MW-ABBOT",
+      "REF-MOE-BA",
+      "REF-KINSHIP-CONTROL"
+    ]
   }
 }
