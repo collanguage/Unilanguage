@@ -172,3 +172,12 @@ donner v. 送。用捅tong字对应，给谁的意思，捅钱。
 ## Validation
 
 91 automated tests passed, including three new network tests. JSON Schema 2020-12 and the project validator passed; all JavaScript/module syntax checks and product links passed. Browser checks covered 14 ABANDON terms, Dictionary/Search routing, independent candidate states, active-association click-through, desktop/mobile page and Mapper with no overflow or runtime errors. Existing 14-query regression checks passed for ABASH/BASH, Universe, Sky, Light, AT, abbey, aberrant, abdomen and Namcha Barwa; the ABASH→BASH links remain functional. All 36 unrelated records and frozen Mapper/Search/Dictionary code/styles compare unchanged to baseline 1ddd063. Dataset v1.2.15; product manifest v1.2.16; 37 records, 10 Published entries. The legacy batch counts remain historical intake counts.
+
+
+## Display clarification · dataset 1.2.18
+
+Mapper featured_mapping now reads bandon ↔ 办 bàn; primary_mapping still carries abandon’s Supported standard translation. This is a root candidate inside the same entry, not a new record. The existing renderer is unchanged.
+
+The Revised Mandarin Chinese Dictionary, published by Taiwan’s Ministry of Education, lists 柄 sense 6 as power and cites Ban Biao’s 王命论 using 权柄. This supports the Chinese lexical meaning only. The cross-language comparison and High semantic-fit grade are editorial judgments, not the dictionary’s endorsement.
+
+来源为台湾教育部《重编国语辞典修订本》：“柄”名词第6义释为“权力”，并引班彪《王命论》的“权柄”用例。这仅支持汉语词义；跨语言比较及 High 语义适配评分是本项目的编辑判断，不是该词典对映射的认可。

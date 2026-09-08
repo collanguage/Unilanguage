@@ -23,9 +23,11 @@ test('ABANDON reuses its record and related terms resolve without new published 
 test('translation, association, candidate and rejected segmentation states remain independent',()=>{
   assert.equal(entry.translation_status,'Supported');
   assert.equal(entry.mapping_status,'Supported');
-  assert.equal(entry.featured_mapping.target,'放弃');
+  assert.equal(entry.featured_mapping.target,'办');
+  assert.equal(entry.featured_mapping.source,'bandon');
+  assert.equal(entry.primary_mapping.source.word,'abandon');
   assert.equal(entry.featured_mapping.historical_relation,'Not claimed');
-  assert.match(entry.featured_mapping.display_label,/Historical Semantic Path/);
+  assert.match(entry.featured_mapping.display_label,/root candidate/);
   assert.match(entry.primary_mapping.target.word,/放弃.*抛弃.*离弃/);
   assert.ok(!entry.primary_mapping.target.word.includes('甭'));
   assert.equal(entry.hypotheses.find(h=>h.hypothesis_id==='UNI-LEGACY-ABANDON-001').status,'Rejected');

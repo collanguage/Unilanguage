@@ -106,7 +106,7 @@ test("Sky and Light retain calibration boundaries", () => {
 });
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
-  assert.equal(dataset.dataset_version, "1.2.17");
+  assert.equal(dataset.dataset_version, "1.2.18");
   assert.equal(dataset.entries.length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.17",
+  "dataset_version": "1.2.18",
   "published_at": "2026-09-07",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -6097,13 +6097,11 @@
           "relationship_type": "Semantic support",
           "family": "No cross-language family claimed",
           "relation_to_entry": {
-            "en": "Semantic support for POWER/AUTHORITY, independently sourced in MOE. Semantic fit High; this does not support shared ancestry.",
-            "zh-Hans": "POWER/AUTHORITY 的语义支持；教育部有独立证据，语义适配 High，不支持同源。"
+            "en": "The Revised Mandarin Chinese Dictionary, published by Taiwan’s Ministry of Education, lists 柄 sense 6 as power and cites Ban Biao’s 王命论 using 权柄. This supports the Chinese lexical meaning only. The cross-language comparison and High semantic-fit grade are editorial judgments, not the dictionary’s endorsement.",
+            "zh-Hans": "来源为台湾教育部《重编国语辞典修订本》：“柄”名词第6义释为“权力”，并引班彪《王命论》的“权柄”用例。这仅支持汉语词义；跨语言比较及 High 语义适配评分是本项目的编辑判断，不是该词典对映射的认可。"
           },
           "status": "Secondary · High semantic fit · Historical Relation: Not claimed",
           "source_refs": [
-            "REF-CNRTL-ABANDON",
-            "REF-ZDIC-BAN-HANDLE",
             "REF-MOE-BING"
           ]
         },
@@ -6678,7 +6676,7 @@
         }
       ],
       "author": "Jinkai Liu",
-      "version": "ABANDON Meaning-First Cross-Language Mapping v1.0 / Schema v1.0",
+      "version": "ABANDON Meaning-First Mapping v1.1 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-07",
@@ -6806,16 +6804,16 @@
       ],
       "active_association_status": "Author-proposed / Cognitive association",
       "featured_mapping": {
-        "source": "abandon",
-        "target": "放弃",
-        "reading": "fàngqì",
-        "status": "Separate bandon ↔ 办 Phonetic-Semantic Candidate",
+        "source": "bandon",
+        "target": "办",
+        "reading": "bàn",
+        "status": "Phonetic-Semantic Candidate · Low confidence",
         "historical_relation": "Not claimed",
-        "display_label": "Historical Semantic Path · Meaning first, consonant second.｜先定语义，再验辅音。",
+        "display_label": "ABANDON root candidate｜词根候选 · b ↔ b · Meaning first, consonant second.",
         "source_refs": [
           "REF-CNRTL-ABANDON",
-          "REF-CNRTL-ABANDONNER",
-          "REF-MW-ABANDON"
+          "REF-ZDIC-BAN-HANDLE",
+          "REF-ZDIC-BAN-TRADITIONAL"
         ],
         "boundary": {
           "en": "Semantic Path studies how one word’s historical meanings develop. Consonant Group Mapping compares an English/French historical word or root with the pronunciation of a semantically selected Chinese candidate. These are independent analyses. The b-p-m-f, d-t-n-l, g-k-h and z-c-s groups predict cross-language sound correspondences, not membership of every Chinese word in one path.",
