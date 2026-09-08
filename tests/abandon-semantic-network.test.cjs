@@ -25,7 +25,7 @@ test('translation, association, candidate and rejected segmentation states remai
   assert.equal(entry.mapping_status,'Supported');
   assert.equal(entry.featured_mapping.target,'放弃');
   assert.equal(entry.featured_mapping.historical_relation,'Not claimed');
-  assert.match(entry.featured_mapping.display_label,/Diachronic Semantic Path/);
+  assert.match(entry.featured_mapping.display_label,/Historical Semantic Path/);
   assert.match(entry.primary_mapping.target.word,/放弃.*抛弃.*离弃/);
   assert.ok(!entry.primary_mapping.target.word.includes('甭'));
   assert.equal(entry.hypotheses.find(h=>h.hypothesis_id==='UNI-LEGACY-ABANDON-001').status,'Rejected');
@@ -61,49 +61,39 @@ test('author observations are preserved while scoped sources and corrections are
   assert.match(page,/Translation Status/);assert.match(page,/family deduplication/);
 });
 
-test('dual paths retain stage boundaries, complete lexical provenance and candid losses',()=>{
-  const d=entry.diachronic_semantic_mapping;
-  assert.equal(d.status,'Experimental/Testable');
-  assert.equal(d.historical_relation,'Not claimed');
-  assert.deepEqual(d.historical_stages.map(s=>s.form),['BANDON','À BANDON','ABANDONNER','ABANDON']);
-  assert.ok(!d.historical_stages[0].meaning.includes('RELEASE'));
-  assert.match(d.historical_stages[2].note.en,/1100.*12th century/);
-  assert.match(d.boundary.en,/not five successive/);
-  assert.equal(d.semantic_best_path.nodes.length,5);
-  const nodes=[...d.semantic_best_path.nodes,...d.consonant_constrained_path.nodes];
-  const stages=new Set(d.historical_stages.map(s=>s.stage_id));
-  assert.equal(new Set(nodes.map(n=>n.node_id)).size,nodes.length);
-  for(const n of nodes){
-    assert.ok(stages.has(n.source_stage_id),n.node_id);
-    assert.ok(['High','Medium','Low'].includes(n.semantic_fit));
-    for(const key of ['reading','phonetic_group_fit','evidence_status','historical_independence','semantic_loss','semantic_loss_zh'])assert.ok(n[key],`${n.node_id}: ${key}`);
-    assert.ok(n.source_refs.length>0);
-    assert.ok(n.evidence_note.en&&n.evidence_note['zh-Hans']);
-  }
-  assert.equal(nodes.find(n=>n.form==='办').semantic_fit,'Low');
-  assert.equal(nodes.find(n=>n.form==='拨付').semantic_fit,'Medium');
-  assert.equal(nodes.find(n=>n.form==='罢').semantic_fit,'Medium');
-  assert.equal(nodes.find(n=>n.form==='抛').semantic_fit,'High');
-  assert.match(d.audit.en,/not a blinded/);
-  assert.equal(d.scores.hypothesis_support,'Low / untested');
-  assert.equal(d.workflow.length,5);
-  assert.match(d.workflow[4].en,/d-t-n-l.*g-k-h/);
-  const exp=entry.experiments.find(x=>x.experiment_id==='EXP-ABANDON-DUAL-PATH-PLAN');
-  assert.equal(exp.status,'Planned / Not run');
-  for(const link of d.hypothesis_links)assert.ok(exp.tested_hypotheses.includes(link.hypothesis_id));
+test('meaning-first mapping separates historical development from cross-language pairs',()=>{
+  const h=entry.diachronic_semantic_mapping,c=entry.consonant_group_mapping;
+  assert.deepEqual(h.historical_stages.map(s=>s.form),['BANDON','À BANDON','ABANDONNER','ABANDON']);
+  assert.ok(!h.historical_stages[0].meaning.includes('RELEASE'));
+  assert.ok(!h.consonant_constrained_path&&!h.semantic_best_path);
+  assert.equal(c.workflow.length,7);
+  assert.deepEqual(c.predicted_groups,['b-p-m-f','d-t-n-l','g-k-h','z-c-s']);
+  const candidate=c.candidates[0];
+  assert.equal(candidate.source_unit,'bandon');
+  assert.equal(candidate.target,'办 / 辦');
+  assert.equal(candidate.status,'Phonetic-Semantic Candidate');
+  assert.equal(candidate.historical_relation,'Not claimed');
+  assert.equal(candidate.scores.semantic_fit_power_authority,'Low');
+  assert.equal(candidate.scores.semantic_fit_contextual_handling,'Medium');
+  assert.match(candidate.consonant_comparison.label,/b ↔ b/);
+  assert.match(candidate.consonant_comparison.note.en,/Pinyin b.*unaspirated/);
+  assert.match(c.independent_observations.en,/does not make them prove each other/);
+  assert.match(c.dialect_diachronic_chinese_evidence.note.en,/not frozen copies/);
+  assert.ok(!entry.experiments.some(x=>x.experiment_id==='EXP-ABANDON-DUAL-PATH-PLAN'));
+  assert.equal(entry.experiments.find(x=>x.experiment_id==='EXP-BANDON-BAN-CORRESPONDENCE-PLAN').status,'Planned / Not run');
+  assert.ok(!entry.evidence['Phonetic-Semantic'].items.some(x=>/^(best-|bpmf-)/.test(x.evidence_id)));
 });
 
-test('both paths are exposed through the frozen Mapper data contract and page order',()=>{
-  const d=entry.diachronic_semantic_mapping;
-  for(const path of [d.semantic_best_path,d.consonant_constrained_path]){
-    assert.ok(entry.primary_mapping.meaning.en.includes(path.display));
-    assert.ok(entry.semantic_structure.relation.includes(path.display));
-    for(const n of path.nodes)assert.ok(entry.evidence['Phonetic-Semantic'].items.some(i=>i.evidence_id===n.node_id));
-  }
-  for(const q of ['bandon','柄','权柄','办','拨','拨付','放','罢','抛','付','弃'])assert.equal(api.lookup(dataset,q).entry.id,entry.id,q);
+test('corrected record and page expose the candidate without a Chinese constraint path',()=>{
+  for(const q of ['bandon','办','辦','柄','权柄','ban','甭','banal','一般'])assert.equal(api.lookup(dataset,q).entry.id,entry.id,q);
   const page=fs.readFileSync(path.join(root,entry.page),'utf8');
   assert.match(page,/<h1>ABANDON · 放弃<\/h1>/);
-  const order=['historical-etymology','semantic-best-path','consonant-constrained-path','mapping-justification','related-candidates','rejected-segmentation'];
-  for(let i=1;i<order.length;i++)assert.ok(page.indexOf(`id="${order[i-1]}"`)<page.indexOf(`id="${order[i]}"`));
-  for(const phrase of ['Map the semantic development, not merely the modern translation.','Find the historically meaningful unit first; map to Chinese second.'])assert.ok(page.includes(phrase));
+  assert.ok(!page.includes('id="consonant-constrained-path"'));
+  assert.ok(!page.includes('id="semantic-best-path"'));
+  assert.ok(!entry.semantic_structure.relation.includes('柄'));
+  for(const id of ['historical-etymology','bandon-ban','method','mapping-justification','experiment','dialect-evidence'])assert.ok(page.includes(`id="${id}"`));
+  assert.match(page,/Meaning first, consonant second/);
+  assert.match(page,/b ↔ b/);
+  assert.ok(page.indexOf('id="historical-etymology"')<page.indexOf('id="bandon-ban"'));
+  assert.match(page,/abash ↔ 怕 pà/);assert.match(page,/bash ↔ 拍 pāi/);
 });

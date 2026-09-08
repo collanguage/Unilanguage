@@ -154,6 +154,14 @@ Translation Status ≠ Mapping Status ≠ Historical Relation ≠ Active Associa
 Etymological-family deduplication｜词源家族去重: the existing experiment plan holds two candidate_observations with distinct IDs and a family_independence gate. Pending verification means eligible_as_two_independent_observations=false. Shared spelling or an Active Association does not establish family identity or independence. Count one root family once; retain positives, negatives, random/matched controls and sensitivity analyses. The medial /b/ in abash must not be silently treated as word-initial /b/. No experiment has run and no evidence level is promoted. Original raw notes and literary content are preserved.
 
 
-### ABANDON optional diachronic extension (dataset 1.2.16)
+### ABANDON meaning-first correction (dataset 1.2.17)
 
-`diachronic_semantic_mapping` stores stage boundaries, both paths and node-level semantic_fit, phonetic_group_fit, evidence_status, historical_independence, source_refs and semantic_loss. Scores are Experimental editorial judgments. The frozen adapter uses existing summary, evidence and hypothesis fields to display both paths; no new Published entries or global UI changes. The full word page presents historical stages → baseline → constrained candidates → scoring/controls → secondary candidates → original correction.
+Semantic Path studies how one word’s historical meanings develop. Consonant Group Mapping compares an English/French historical word or root with the pronunciation of a semantically selected Chinese candidate. These are independent analyses. The b-p-m-f, d-t-n-l, g-k-h and z-c-s groups predict cross-language sound correspondences, not membership of every Chinese word in one path.
+
+Semantic Path 研究一个词的历史语义怎样发展。Consonant Group Mapping 比较英／法历史词或词根与按语义选出的汉语候选词读音。两者独立；b-p-m-f、d-t-n-l、g-k-h、z-c-s 等组预测跨语言声音对应，不要求汉语路径中的每个字属于同组。
+
+`diachronic_semantic_mapping` stores only historical stages and semantic development. `consonant_group_mapping` stores paired source/target units, meaning-first review, consonant comparison, independent scores, evidence and seven-step workflow. The schema rejects the removed Chinese path-constraint fields.
+
+Dialect & Diachronic Chinese Evidence is a separate evidence track. Record dialect/location/date and transcription separately from Middle Chinese or Old Chinese reconstructions, with named sources and reconstruction systems. Modern dialects are not frozen copies of ancient Chinese. No dialect or reconstructed pronunciation is used to raise this candidate’s grade; these comparisons remain pending.
+
+Dialect & Diachronic Chinese Evidence｜汉语方言与历时音韵证据独立记录。方言须注明地点、年代与转写；中古音／上古音须注明来源与重构体系，不能混用。现代方言不是古汉语的冻结复制品。本候选未以方言或重构音提高等级，相关比较待核验。

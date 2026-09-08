@@ -6,7 +6,7 @@
   "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
   "properties": {
     "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.2.16" },
+    "dataset_version": { "const": "1.2.17" },
     "product": { "$ref": "#/$defs/localized" },
     "author": { "const": "Jinkai Liu" },
     "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
@@ -39,127 +39,67 @@
         "diachronic_semantic_mapping": {
           "type": "object",
           "required": [
-            "version",
-            "status",
-            "historical_relation",
             "historical_path",
             "semantic_path",
             "historical_stages",
-            "semantic_best_path",
-            "consonant_constrained_path",
-            "research_question",
-            "workflow",
-            "audit",
-            "scores",
-            "hypothesis_links"
+            "boundary"
           ],
           "properties": {
-            "status": {
-              "const": "Experimental/Testable"
+            "historical_path": {
+              "type": "string"
             },
-            "historical_relation": {
-              "const": "Not claimed"
+            "semantic_path": {
+              "type": "string"
             },
             "historical_stages": {
               "type": "array",
               "minItems": 4,
               "maxItems": 4
             },
-            "semantic_best_path": {
-              "type": "object",
-              "required": [
-                "display",
-                "nodes"
-              ],
-              "properties": {
-                "nodes": {
-                  "type": "array",
-                  "minItems": 5,
-                  "maxItems": 5,
-                  "items": {
-                    "type": "object",
-                    "required": [
-                      "node_id",
-                      "source_stage_id",
-                      "form",
-                      "reading",
-                      "meaning",
-                      "semantic_fit",
-                      "phonetic_group_fit",
-                      "evidence_status",
-                      "historical_independence",
-                      "source_refs",
-                      "evidence_note",
-                      "semantic_loss"
-                    ],
-                    "properties": {
-                      "semantic_fit": {
-                        "enum": [
-                          "High",
-                          "Medium",
-                          "Low"
-                        ]
-                      },
-                      "source_refs": {
-                        "type": "array",
-                        "minItems": 1,
-                        "items": {
-                          "type": "string"
-                        }
-                      },
-                      "evidence_note": {
-                        "$ref": "#/$defs/localized"
-                      }
-                    }
-                  }
-                }
-              }
+            "semantic_best_path": false,
+            "consonant_constrained_path": false
+          }
+        },
+        "consonant_group_mapping": {
+          "type": "object",
+          "required": [
+            "principle",
+            "definitions",
+            "predicted_groups",
+            "workflow",
+            "candidates",
+            "dialect_diachronic_chinese_evidence",
+            "independent_observations"
+          ],
+          "properties": {
+            "workflow": {
+              "type": "array",
+              "minItems": 7,
+              "maxItems": 7
             },
-            "consonant_constrained_path": {
-              "type": "object",
-              "required": [
-                "display",
-                "nodes"
-              ],
-              "properties": {
-                "nodes": {
-                  "type": "array",
-                  "minItems": 5,
-                  "items": {
-                    "type": "object",
-                    "required": [
-                      "node_id",
-                      "source_stage_id",
-                      "form",
-                      "reading",
-                      "meaning",
-                      "semantic_fit",
-                      "phonetic_group_fit",
-                      "evidence_status",
-                      "historical_independence",
-                      "source_refs",
-                      "evidence_note",
-                      "semantic_loss"
-                    ],
-                    "properties": {
-                      "semantic_fit": {
-                        "enum": [
-                          "High",
-                          "Medium",
-                          "Low"
-                        ]
-                      },
-                      "source_refs": {
-                        "type": "array",
-                        "minItems": 1,
-                        "items": {
-                          "type": "string"
-                        }
-                      },
-                      "evidence_note": {
-                        "$ref": "#/$defs/localized"
-                      }
-                    }
+            "candidates": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": [
+                  "source_unit",
+                  "source_language",
+                  "target",
+                  "reading",
+                  "semantic_evaluation",
+                  "consonant_comparison",
+                  "status",
+                  "historical_relation",
+                  "scores",
+                  "source_refs"
+                ],
+                "properties": {
+                  "status": {
+                    "const": "Phonetic-Semantic Candidate"
+                  },
+                  "historical_relation": {
+                    "const": "Not claimed"
                   }
                 }
               }

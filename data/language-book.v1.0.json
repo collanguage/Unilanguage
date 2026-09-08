@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.16",
+  "dataset_version": "1.2.17",
   "published_at": "2026-09-07",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -5742,8 +5742,8 @@
       "id": "LB-en-abandon-033",
       "slug": "abandon",
       "title": {
-        "en": "ABANDON · 放弃 — A Diachronic Semantic Path",
-        "zh-Hans": "ABANDON · 放弃 — 历时语义路径"
+        "en": "ABANDON · 放弃 — Meaning first, consonant second",
+        "zh-Hans": "ABANDON · 放弃 — 先定语义，再验辅音"
       },
       "languages": [
         {
@@ -5793,8 +5793,8 @@
           "zh-Hans": "放弃／抛弃／离弃；依语境亦译遗弃"
         },
         "meaning": {
-          "en": "Historical Path: BANDON → À BANDON → ABANDONNER → ABANDON. Semantic-best Chinese Path: 权柄 → 任其处置 → 付 → 放 → 弃. b-p-m-f Candidate Path: 柄 bǐng → 办 bàn → 拨付 bō fù → 放 fàng → 抛 pāo / 罢 bà. Both are structural comparisons; Low untested hypothesis support, with substantial semantic loss at 办. Prior Active Association and related candidates remain secondary.",
-          "zh-Hans": "历史路径：BANDON → À BANDON → ABANDONNER → ABANDON。语义优先：权柄 → 任其处置 → 付 → 放 → 弃。b-p-m-f 候选：柄 bǐng → 办 bàn → 拨付 bō fù → 放 fàng → 抛 pāo / 罢 bà。两条均为结构比较；假说支持 Low／未测试，办节点有明显语义损失。原主动联系与相关候选保留为次级。"
+          "en": "Historical Semantic Path: BANDON → À BANDON → ABANDONNER → ABANDON. Independent cross-language candidate: bandon ↔ 办 bàn — Phonetic-Semantic Candidate; POWER/AUTHORITY semantic fit Low, contextual handling fit Medium. Meaning first, consonant second. Historical Relation: Not claimed. Active Association and related ban/banal candidates are retained.",
+          "zh-Hans": "历史语义路径：BANDON → À BANDON → ABANDONNER → ABANDON。独立跨语言候选：bandon ↔ 办 bàn，Phonetic-Semantic Candidate；权力本义适配 Low，处理语境适配 Medium。先定语义，再验辅音。Historical Relation: Not claimed。保留主动联系及 ban／banal 相关候选。"
         },
         "mapping_type": "Supported standard translation; separate Active Association and related candidates",
         "rationale": {
@@ -5882,8 +5882,8 @@
           "status": "Candidate",
           "confidence": "Low",
           "summary": {
-            "en": "Historical Path: BANDON → À BANDON → ABANDONNER → ABANDON. Semantic-best Chinese Path: 权柄 → 任其处置 → 付 → 放 → 弃. b-p-m-f Candidate Path: 柄 bǐng → 办 bàn → 拨付 bō fù → 放 fàng → 抛 pāo / 罢 bà. Both are structural comparisons; Low untested hypothesis support, with substantial semantic loss at 办. Prior Active Association and related candidates remain secondary.",
-            "zh-Hans": "历史路径：BANDON → À BANDON → ABANDONNER → ABANDON。语义优先：权柄 → 任其处置 → 付 → 放 → 弃。b-p-m-f 候选：柄 bǐng → 办 bàn → 拨付 bō fù → 放 fàng → 抛 pāo / 罢 bà。两条均为结构比较；假说支持 Low／未测试，办节点有明显语义损失。原主动联系与相关候选保留为次级。"
+            "en": "Historical Semantic Path: BANDON → À BANDON → ABANDONNER → ABANDON. Independent cross-language candidate: bandon ↔ 办 bàn — Phonetic-Semantic Candidate; POWER/AUTHORITY semantic fit Low, contextual handling fit Medium. Meaning first, consonant second. Historical Relation: Not claimed. Active Association and related ban/banal candidates are retained.",
+            "zh-Hans": "历史语义路径：BANDON → À BANDON → ABANDONNER → ABANDON。独立跨语言候选：bandon ↔ 办 bàn，Phonetic-Semantic Candidate；权力本义适配 Low，处理语境适配 Medium。先定语义，再验辅音。Historical Relation: Not claimed。保留主动联系及 ban／banal 相关候选。"
           },
           "items": [
             {
@@ -5920,136 +5920,32 @@
               ]
             },
             {
-              "evidence_id": "best-power",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "High",
-              "source_refs": [
-                "REF-MOE-BING"
-              ],
+              "evidence_id": "MAP-BANDON-BAN-SEMANTICS",
               "claim": {
-                "en": "权柄 — POWER / CONTROL. Semantic fit High; phonetic group fit Not constrained. MOE 柄 sense 6: power; cites Han writer Ban Biao’s 王命论 with 权柄. The compound makes authority explicit. Semantic loss: Low: authority sense selected, not every use of power.",
-                "zh-Hans": "权柄：POWER / CONTROL；语义适配 High；辅音组适配 Not constrained。教育部“柄”名词第6义为权力，引汉代班彪《王命论》“权柄”用例；采用复词明确权力义。 语义损失说明：低：限定权力义，不覆盖 power 的全部用法。"
-              }
-            },
-            {
-              "evidence_id": "best-disposal",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "High",
-              "source_refs": [
-                "REF-ZDIC-CHUZHI"
-              ],
-              "claim": {
-                "en": "任其处置 — DISPOSAL RELATION. Semantic fit High; phonetic group fit Not constrained. 处置 means arrange/handle, with a 汉书·薛宣传 example. 任其 is an editorial relational paraphrase, not a quoted historical compound. Semantic loss: Low with 任其; bare 处置 would omit the possessor/disposal relation.",
-                "zh-Hans": "任其处置：DISPOSAL RELATION；语义适配 High；辅音组适配 Not constrained。处置有安排处理义，汉典引《汉书·薛宣传》；“任其”为编辑补足关系的释义，不冒充古籍中的固定复词。 语义损失说明：低：任其补足处置关系；若仅写处置，会丢失支配者关系。"
-              }
-            },
-            {
-              "evidence_id": "best-transfer",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "High",
-              "source_refs": [
-                "REF-ZDIC-FU"
-              ],
-              "claim": {
-                "en": "付 — TRANSFER / GIVE OVER. Semantic fit High; phonetic group fit Not constrained. 付 means hand over/entrust; dictionary quotes 说文 and cites 出师表 for handing a matter to officials. Semantic loss: Low: handing over does not itself require permanent abandonment.",
-                "zh-Hans": "付：TRANSFER / GIVE OVER；语义适配 High；辅音组适配 Not constrained。付有交给／托付义；汉典列《说文》释义，并引《出师表》交付有司用例。 语义损失说明：低：交付本身不必永久放弃。"
-              }
-            },
-            {
-              "evidence_id": "best-release",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "High",
-              "source_refs": [
-                "REF-ZDIC-FANG"
-              ],
-              "claim": {
-                "en": "放 — RELEASE / LET GO. Semantic fit High; phonetic group fit Not constrained. Dictionary explicitly separates release from banishment and abandonment; cites 中山狼传 for releasing a turtle. Semantic loss: Low for release; no Chinese chronological equivalence inferred.",
-                "zh-Hans": "放：RELEASE / LET GO；语义适配 High；辅音组适配 Not constrained。汉典单列解除约束／释放义，并引《中山狼传》放龟用例；与放逐、舍弃等义分开。 语义损失说明：低：仅对释放义适配，不推断汉语的相同年代演变。"
-              }
-            },
-            {
-              "evidence_id": "best-give-up",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "High",
-              "source_refs": [
-                "REF-ZDIC-QI"
-              ],
-              "claim": {
-                "en": "弃 — GIVE UP / ABANDON. Semantic fit High; phonetic group fit Not constrained. Discard/abandon is a dictionary sense, supported by attributed classical examples including 左传. Semantic loss: Low within the verb sense; not all English noun uses.",
-                "zh-Hans": "弃：GIVE UP / ABANDON；语义适配 High；辅音组适配 Not constrained。汉典列舍弃／抛弃义及《左传》等古典用例。 语义损失说明：低：限定动词义，不覆盖英语名词用法。"
-              }
-            },
-            {
-              "evidence_id": "bpmf-power",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "High",
-              "source_refs": [
-                "REF-MOE-BING"
-              ],
-              "claim": {
-                "en": "柄 — POWER / AUTHORITY. Semantic fit High; phonetic group fit High: b. Power is independently attested; 权柄 supplies disambiguating context. Semantic loss: Low; bare 柄 also means handle.",
-                "zh-Hans": "柄：POWER / AUTHORITY；语义适配 High；辅音组适配 High: b。权力义有独立字典证据；权柄可补足消歧语境。 语义损失说明：低：选择权力义；裸字柄亦可指把手。"
-              }
-            },
-            {
-              "evidence_id": "bpmf-disposal",
-              "status": "Lexical sense supported; path alignment editorial",
+                "en": "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+                "zh-Hans": "bandon 的核心是 POWER/AUTHORITY；任其处置关系属于 à bandon。现代办／辦为处理、办理、筹备等；《说文新附》释辦为致力，不是权力。因此 bandon ↔ 办仅保留为支配／办理的有限联系：对权力本义语义适配 Low，只有在处理／处置语境比较时为 Medium，不是词根的精确译词。权柄是更合适的权力义支持，其声音不决定选择。"
+              },
+              "status": "Phonetic-Semantic Candidate",
               "confidence": "Low",
               "source_refs": [
-                "REF-ZDIC-BAN-HANDLE"
-              ],
-              "claim": {
-                "en": "办 — HANDLE / MANAGE. Semantic fit Low; phonetic group fit High: b. Modern 办 means handle/manage. The historical 辦 gloss in 说文新附 is exert effort (致力); dictionary historical preparation/management examples do not establish the authority relation. Semantic loss: High: an action replaces being at another’s disposal; Medium only against generic HANDLE, Low against the frozen relation.",
-                "zh-Hans": "办：HANDLE / MANAGE；语义适配 Low；辅音组适配 High: b。现代办有处理／办理义；历史“辦”在《说文新附》释致力，古代筹备／办理用例不能直接证明任人处置的权力关系。 语义损失说明：高：处理动作替代了任人处置的关系；若只评 HANDLE 可为中，但对冻结的关系义为低。"
-              }
+                "REF-CNRTL-ABANDON",
+                "REF-ZDIC-BAN-HANDLE",
+                "REF-ZDIC-BAN-TRADITIONAL"
+              ]
             },
             {
-              "evidence_id": "bpmf-transfer",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "Medium",
-              "source_refs": [
-                "REF-MOE-BOFU"
-              ],
+              "evidence_id": "MAP-BANDON-BAN-PHONETICS",
               "claim": {
-                "en": "拨付 — TRANSFER / ALLOCATE. Semantic fit Medium; phonetic group fit High: b + f (compound). MOE defines 撥付 as issue/allocate and cites 水浒传 chapter 99 assigning officers and troops. Prefer the compound to ambiguous isolated 拨. Semantic loss: Medium: administrative allocation is narrower than give over and may retain control. 付 fù is a stronger semantic alternative within the broader group, but not b-initial.",
-                "zh-Hans": "拨付：TRANSFER / ALLOCATE；语义适配 Medium；辅音组适配 High: b + f (compound)。教育部释撥付为发给，引《水浒传》第99回分派将佐军兵用例；采用复词，避免单字拨的拨动义。 语义损失说明：中：行政分配比交付更窄，且可能保留控制；付 fù 是同属广义组且语义更好的替代，但非 b 起音。"
-              }
-            },
-            {
-              "evidence_id": "bpmf-release",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "High",
+                "en": "b ↔ b → same consonant / within b-p-m-f group is the author’s comparison label. It compares the initial b of bandon with Pinyin b in bàn. Pinyin b represents unaspirated /p/; the label is not proof of identical phonetic realization, homophony, or a historical sound law. A source-specific historical French pronunciation and the remaining consonants, vowels and tone still need independent assessment. Group fit cannot upgrade weak semantics.",
+                "zh-Hans": "b ↔ b → same consonant / within b-p-m-f group 是作者的对应标签：比较 bandon 的词首 b 与 bàn 的拼音 b。拼音 b 表示不送气 /p/；此标签不证明实际音值完全相同、同音或历史音变规律。古法语具体时期的读音及其余辅音、元音、汉语声调仍须独立评估。落入预测组不能提升较弱的语义证据。"
+              },
+              "status": "Phonetic-Semantic Candidate",
+              "confidence": "Low",
               "source_refs": [
-                "REF-ZDIC-FANG"
-              ],
-              "claim": {
-                "en": "放 — RELEASE / LET GO. Semantic fit High; phonetic group fit High: f. Same independently sourced release sense as the baseline. Reuse of 放 is not new evidence. Semantic loss: Low; reuse of a baseline node.",
-                "zh-Hans": "放：RELEASE / LET GO；语义适配 High；辅音组适配 High: f。与基线路径相同的释放义；重复使用“放”不增加独立证据。 语义损失说明：低：与基线共享节点，不增加独立证据。"
-              }
-            },
-            {
-              "evidence_id": "bpmf-discard",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "High",
-              "source_refs": [
-                "REF-ZDIC-PAO"
-              ],
-              "claim": {
-                "en": "抛 — DISCARD / ABANDON. Semantic fit High; phonetic group fit High: p. Dictionary records cast aside/abandon with a Yuan Zhen 琵琶歌 example. Chosen endpoint for discarding/leaving. Semantic loss: Low for discard/leave; throwing sense is not automatically abandonment.",
-                "zh-Hans": "抛：DISCARD / ABANDON；语义适配 High；辅音组适配 High: p。汉典列丢弃／舍弃义，引元稹《琵琶歌》；作抛弃／离弃分支的优先终点。 语义损失说明：低：针对丢弃／离弃；抛掷不自动等于抛弃。"
-              }
-            },
-            {
-              "evidence_id": "bpmf-cease",
-              "status": "Lexical sense supported; path alignment editorial",
-              "confidence": "Medium",
-              "source_refs": [
-                "REF-ZDIC-BA"
-              ],
-              "claim": {
-                "en": "罢 — STOP / CEASE. Semantic fit Medium; phonetic group fit High: b. Dictionary stop/cease sense cites 史记·魏公子列传. Retained as an alternative for giving up an activity. Semantic loss: Medium: stopping may be temporary or completion; Low fit for deserting a person. This is an alternative endpoint, not a sixth historical stage.",
-                "zh-Hans": "罢：STOP / CEASE；语义适配 Medium；辅音组适配 High: b。汉典停止义引《史记·魏公子列传》；保留作放弃活动的替代终点。 语义损失说明：中：停止可能短暂或只是完成；针对遗弃某人适配低。此为替代终点，不是第六历史阶段。"
-              }
+                "REF-CNRTL-ABANDON",
+                "REF-ZDIC-BAN-HANDLE",
+                "REF-ZDIC-BAN-TRADITIONAL"
+              ]
             }
           ],
           "source_refs": [
@@ -6062,15 +5958,9 @@
             "REF-CNRTL-BANAL",
             "REF-MW-BANAL",
             "REF-ZDIC-YIBAN",
-            "REF-MOE-BING",
-            "REF-ZDIC-CHUZHI",
-            "REF-ZDIC-FU",
-            "REF-ZDIC-FANG",
-            "REF-ZDIC-QI",
+            "REF-CNRTL-ABANDON",
             "REF-ZDIC-BAN-HANDLE",
-            "REF-MOE-BOFU",
-            "REF-ZDIC-PAO",
-            "REF-ZDIC-BA"
+            "REF-ZDIC-BAN-TRADITIONAL"
           ]
         },
         "Cognitive": {
@@ -6175,18 +6065,30 @@
             "en": "The phonetic comparison selects part of a longer word. Do not silently treat all English pronunciation variants as bān.",
             "zh-Hans": "语音比较选取较长词的局部；不能把英语所有异读默认为 bān。"
           }
+        },
+        {
+          "observation_id": "PHON-BANDON-BAN-001",
+          "claim": {
+            "en": "b ↔ b → same consonant / within b-p-m-f group is the author’s comparison label. It compares the initial b of bandon with Pinyin b in bàn. Pinyin b represents unaspirated /p/; the label is not proof of identical phonetic realization, homophony, or a historical sound law. A source-specific historical French pronunciation and the remaining consonants, vowels and tone still need independent assessment. Group fit cannot upgrade weak semantics.",
+            "zh-Hans": "b ↔ b → same consonant / within b-p-m-f group 是作者的对应标签：比较 bandon 的词首 b 与 bàn 的拼音 b。拼音 b 表示不送气 /p/；此标签不证明实际音值完全相同、同音或历史音变规律。古法语具体时期的读音及其余辅音、元音、汉语声调仍须独立评估。落入预测组不能提升较弱的语义证据。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+            "zh-Hans": "bandon 的核心是 POWER/AUTHORITY；任其处置关系属于 à bandon。现代办／辦为处理、办理、筹备等；《说文新附》释辦为致力，不是权力。因此 bandon ↔ 办仅保留为支配／办理的有限联系：对权力本义语义适配 Low，只有在处理／处置语境比较时为 Medium，不是词根的精确译词。权柄是更合适的权力义支持，其声音不决定选择。"
+          }
         }
       ],
       "semantic_structure": {
         "concepts": [
-          "POWER/CONTROL",
-          "DISPOSAL RELATION",
-          "TRANSFER/GIVE OVER",
-          "RELEASE/LET GO",
+          "POWER/AUTHORITY",
+          "DISPOSAL",
+          "GIVE OVER",
+          "LET GO",
           "GIVE UP"
         ],
-        "relation": "POWER/CONTROL → DISPOSAL RELATION → TRANSFER/GIVE OVER → RELEASE/LET GO → GIVE UP | Semantic-best: 权柄 → 任其处置 → 付 → 放 → 弃 | b-p-m-f Candidate: 柄 bǐng → 办 bàn → 拨付 bō fù → 放 fàng → 抛 pāo / 罢 bà",
-        "status": "Experimental/Testable · structural mapping, not a Chinese historical chain"
+        "relation": "POWER / AUTHORITY → DISPOSAL → GIVE OVER → LET GO → GIVE UP",
+        "status": "Historical semantic abstraction; independent of consonant-group mapping"
       },
       "related_words": [
         {
@@ -6211,10 +6113,10 @@
           "relationship_type": "Root-level semantic candidate",
           "family": "No cross-language family claimed",
           "relation_to_entry": {
-            "en": "Root-level Candidate: modern partial sound resemblance plus handling/control association. Bandon means power; 办 means handle/manage. Semantic fit Low for POWER, not a translation or historical relation.",
-            "zh-Hans": "词根级 Candidate：现代局部音近及办理／支配联想。bandon 为权力，办为处理；针对 POWER 语义适配 Low，不是标准翻译或历史关系。"
+            "en": "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+            "zh-Hans": "bandon 的核心是 POWER/AUTHORITY；任其处置关系属于 à bandon。现代办／辦为处理、办理、筹备等；《说文新附》释辦为致力，不是权力。因此 bandon ↔ 办仅保留为支配／办理的有限联系：对权力本义语义适配 Low，只有在处理／处置语境比较时为 Medium，不是词根的精确译词。权柄是更合适的权力义支持，其声音不决定选择。"
           },
-          "status": "Secondary · Low semantic fit · Historical Relation: Not claimed",
+          "status": "Phonetic-Semantic Candidate · Low confidence · Historical Relation: Not claimed",
           "source_refs": [
             "REF-CNRTL-ABANDON",
             "REF-ZDIC-BAN-HANDLE",
@@ -6355,92 +6257,62 @@
       ],
       "hypotheses": [
         {
-          "hypothesis_id": "HYP-ABANDON-CONSONANTAL-SKELETON",
-          "type": "Consonantal Semantic Skeleton Hypothesis / case link",
-          "claim": {
-            "en": "Can a historical semantic path be reconstructed across languages while preserving a proposed consonant class?",
-            "zh-Hans": "在保持候选辅音组的条件下，能否跨语言重构一条历史语义路径？"
-          },
-          "status": "Experimental/Testable",
-          "confidence": "Low",
-          "supporting_cases": [
-            "ABANDON dual-path editorial case; not validated support"
-          ],
-          "counterexamples": [
-            "办 omits the disposal relation",
-            "拨付 narrows transfer to allocation",
-            "罢 does not generally mean desert",
-            "Modern onsets do not preserve the full bandon consonant skeleton",
-            "Known candidates prevent blind baseline selection"
-          ],
-          "testability": {
-            "en": "Freeze the source-language historical semantic path with dated evidence and stage boundaries. → Construct the Chinese semantic-best path without using sound as a selection criterion. → Apply the b-p-m-f constraint with declared modern Mandarin onset and compound rules. → Record each node’s semantic loss and lower support where it is substantial. → In future, compare d-t-n-l and g-k-h controls under identical vocabulary, compound, scoring and search-budget rules; retain failures and deduplicate families. Retrospective editorial case, not a blinded or preregistered experiment: the proposed b-words were already visible. Baseline selection uses semantic criteria, but evaluator blindness is not claimed. These nodes belong to one historical case, not five or six independent observations. No controlled support estimate exists.",
-            "zh-Hans": "先冻结来源语言历史语义路径、时间见证与阶段边界。 → 不以声音为选择标准，构造汉语语义优先路径。 → 再施加 b-p-m-f 约束，声明普通话声母及复词规则。 → 逐节点记录语义损失；损失明显则降低假说支持。 → 未来在相同词汇范围、复词、评分及检索预算规则下比较 d-t-n-l、g-k-h 控制组；保留失败例，按词源家族去重。 这是回顾性编辑案例，不是盲评或预注册实验：候选 b 字此前已可见。基线按语义标准选择，但不声称评估者盲态。各节点属于同一历史案例，不是五六个独立观察；尚无对照支持度估计。"
-          },
-          "experiment_link": "EXP-ABANDON-DUAL-PATH-PLAN",
-          "source_refs": [
-            "REF-CNRTL-ABANDON",
-            "REF-MW-ABANDON"
-          ],
-          "historical_relation_status": "Not claimed"
-        },
-        {
           "hypothesis_id": "HYP-BPMF-CONSONANT-GROUP",
-          "type": "b–p–m–f Consonant-Group Hypothesis / case link",
+          "type": "Cross-language consonant correspondence hypothesis / case link",
           "claim": {
-            "en": "Can a historical semantic path be reconstructed across languages while preserving a proposed consonant class?",
-            "zh-Hans": "在保持候选辅音组的条件下，能否跨语言重构一条历史语义路径？"
+            "en": "Semantic Path studies how one word’s historical meanings develop. Consonant Group Mapping compares an English/French historical word or root with the pronunciation of a semantically selected Chinese candidate. These are independent analyses. The b-p-m-f, d-t-n-l, g-k-h and z-c-s groups predict cross-language sound correspondences, not membership of every Chinese word in one path.",
+            "zh-Hans": "Semantic Path 研究一个词的历史语义怎样发展。Consonant Group Mapping 比较英／法历史词或词根与按语义选出的汉语候选词读音。两者独立；b-p-m-f、d-t-n-l、g-k-h、z-c-s 等组预测跨语言声音对应，不要求汉语路径中的每个字属于同组。"
           },
-          "status": "Experimental/Testable",
+          "status": "Candidate",
           "confidence": "Low",
           "supporting_cases": [
-            "ABANDON dual-path editorial case; not validated support"
+            "bandon ↔ 办: limited candidate, not validated support"
           ],
           "counterexamples": [
-            "办 omits the disposal relation",
-            "拨付 narrows transfer to allocation",
-            "罢 does not generally mean desert",
-            "Modern onsets do not preserve the full bandon consonant skeleton",
-            "Known candidates prevent blind baseline selection"
+            "POWER/AUTHORITY differs from handling",
+            "Pinyin b is /p/, not proof of identical phonetic realization",
+            "Remaining consonants, vowels and tone are unmatched",
+            "Known candidate selection is not a blinded evaluation"
           ],
           "testability": {
-            "en": "Freeze the source-language historical semantic path with dated evidence and stage boundaries. → Construct the Chinese semantic-best path without using sound as a selection criterion. → Apply the b-p-m-f constraint with declared modern Mandarin onset and compound rules. → Record each node’s semantic loss and lower support where it is substantial. → In future, compare d-t-n-l and g-k-h controls under identical vocabulary, compound, scoring and search-budget rules; retain failures and deduplicate families. Retrospective editorial case, not a blinded or preregistered experiment: the proposed b-words were already visible. Baseline selection uses semantic criteria, but evaluator blindness is not claimed. These nodes belong to one historical case, not five or six independent observations. No controlled support estimate exists.",
-            "zh-Hans": "先冻结来源语言历史语义路径、时间见证与阶段边界。 → 不以声音为选择标准，构造汉语语义优先路径。 → 再施加 b-p-m-f 约束，声明普通话声母及复词规则。 → 逐节点记录语义损失；损失明显则降低假说支持。 → 未来在相同词汇范围、复词、评分及检索预算规则下比较 d-t-n-l、g-k-h 控制组；保留失败例，按词源家族去重。 这是回顾性编辑案例，不是盲评或预注册实验：候选 b 字此前已可见。基线按语义标准选择，但不声称评估者盲态。各节点属于同一历史案例，不是五六个独立观察；尚无对照支持度估计。"
+            "en": "Identify the historical English/French word or root. Verify its historical semantic meaning and phrase boundaries. Select the best Chinese character/word by meaning independently of sound; retain alternatives. Only then compare the English/French consonant with the Chinese pronunciation. Check the predicted b-p-m-f / d-t-n-l / g-k-h / z-c-s correspondence without requiring a same-group Chinese chain. Score semantics, consonant-group fit, phonetic evidence and historical relation independently. Test later with large samples, counterexamples, matched/random controls and etymological-family deduplication; preregister segments, sources and exclusions. abash ↔ 怕 pà (medial b ↔ p) and bash ↔ 拍 pāi (initial b ↔ p) are two other separately identified Candidate observations. Sharing b-p-m-f does not make them prove each other or bandon ↔ 办. Statistical independence requires etymological-family review; count related derivatives once.",
+            "zh-Hans": "① 确定英／法历史词或词根。 ② 核验历史语义与短语边界。 ③ 先按语义独立选择最合适的汉字／词，保留替代候选。 ④ 再比较英／法辅音与汉语读音。 ⑤ 检查是否落入预测辅音组，不要求汉语路径全链同组。 ⑥ 独立评分：语义、辅音组适配、音值证据与历史关系。 ⑦ 将来以大样本、反例、匹配／随机控制及词源家族去重实验验证；预注册片段、来源与排除条件。 abash ↔ 怕 pà（词中 b ↔ p）与 bash ↔ 拍 pāi（词首 b ↔ p）是另外两个分别记录的 Candidate 观察。共享 b-p-m-f 不使它们互相证明，也不证明 bandon ↔ 办；统计独立性仍需词源家族核验，同源派生须去重。"
           },
-          "experiment_link": "EXP-ABANDON-DUAL-PATH-PLAN",
+          "experiment_link": "EXP-BANDON-BAN-CORRESPONDENCE-PLAN",
           "source_refs": [
             "REF-CNRTL-ABANDON",
-            "REF-MW-ABANDON"
+            "REF-ZDIC-BAN-HANDLE",
+            "REF-ZDIC-BAN-TRADITIONAL"
           ],
           "historical_relation_status": "Not claimed"
         },
         {
-          "hypothesis_id": "HYP-ABANDON-DIACHRONIC-PATH",
-          "type": "Diachronic Semantic Mapping / Semantic Path Mapping / Consonant-Constrained Mapping",
+          "hypothesis_id": "HYP-BANDON-BAN-001",
+          "type": "Phonetic-Semantic Candidate",
           "claim": {
-            "en": "Can a historical semantic path be reconstructed across languages while preserving a proposed consonant class?",
-            "zh-Hans": "在保持候选辅音组的条件下，能否跨语言重构一条历史语义路径？"
+            "en": "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+            "zh-Hans": "bandon 的核心是 POWER/AUTHORITY；任其处置关系属于 à bandon。现代办／辦为处理、办理、筹备等；《说文新附》释辦为致力，不是权力。因此 bandon ↔ 办仅保留为支配／办理的有限联系：对权力本义语义适配 Low，只有在处理／处置语境比较时为 Medium，不是词根的精确译词。权柄是更合适的权力义支持，其声音不决定选择。"
           },
-          "status": "Experimental/Testable",
+          "status": "Candidate",
           "confidence": "Low",
           "supporting_cases": [
-            "ABANDON dual-path editorial case; not validated support"
+            "bandon ↔ 办: limited candidate, not validated support"
           ],
           "counterexamples": [
-            "办 omits the disposal relation",
-            "拨付 narrows transfer to allocation",
-            "罢 does not generally mean desert",
-            "Modern onsets do not preserve the full bandon consonant skeleton",
-            "Known candidates prevent blind baseline selection"
+            "POWER/AUTHORITY differs from handling",
+            "Pinyin b is /p/, not proof of identical phonetic realization",
+            "Remaining consonants, vowels and tone are unmatched",
+            "Known candidate selection is not a blinded evaluation"
           ],
           "testability": {
-            "en": "Freeze the source-language historical semantic path with dated evidence and stage boundaries. → Construct the Chinese semantic-best path without using sound as a selection criterion. → Apply the b-p-m-f constraint with declared modern Mandarin onset and compound rules. → Record each node’s semantic loss and lower support where it is substantial. → In future, compare d-t-n-l and g-k-h controls under identical vocabulary, compound, scoring and search-budget rules; retain failures and deduplicate families. Retrospective editorial case, not a blinded or preregistered experiment: the proposed b-words were already visible. Baseline selection uses semantic criteria, but evaluator blindness is not claimed. These nodes belong to one historical case, not five or six independent observations. No controlled support estimate exists.",
-            "zh-Hans": "先冻结来源语言历史语义路径、时间见证与阶段边界。 → 不以声音为选择标准，构造汉语语义优先路径。 → 再施加 b-p-m-f 约束，声明普通话声母及复词规则。 → 逐节点记录语义损失；损失明显则降低假说支持。 → 未来在相同词汇范围、复词、评分及检索预算规则下比较 d-t-n-l、g-k-h 控制组；保留失败例，按词源家族去重。 这是回顾性编辑案例，不是盲评或预注册实验：候选 b 字此前已可见。基线按语义标准选择，但不声称评估者盲态。各节点属于同一历史案例，不是五六个独立观察；尚无对照支持度估计。"
+            "en": "Identify the historical English/French word or root. Verify its historical semantic meaning and phrase boundaries. Select the best Chinese character/word by meaning independently of sound; retain alternatives. Only then compare the English/French consonant with the Chinese pronunciation. Check the predicted b-p-m-f / d-t-n-l / g-k-h / z-c-s correspondence without requiring a same-group Chinese chain. Score semantics, consonant-group fit, phonetic evidence and historical relation independently. Test later with large samples, counterexamples, matched/random controls and etymological-family deduplication; preregister segments, sources and exclusions. abash ↔ 怕 pà (medial b ↔ p) and bash ↔ 拍 pāi (initial b ↔ p) are two other separately identified Candidate observations. Sharing b-p-m-f does not make them prove each other or bandon ↔ 办. Statistical independence requires etymological-family review; count related derivatives once.",
+            "zh-Hans": "① 确定英／法历史词或词根。 ② 核验历史语义与短语边界。 ③ 先按语义独立选择最合适的汉字／词，保留替代候选。 ④ 再比较英／法辅音与汉语读音。 ⑤ 检查是否落入预测辅音组，不要求汉语路径全链同组。 ⑥ 独立评分：语义、辅音组适配、音值证据与历史关系。 ⑦ 将来以大样本、反例、匹配／随机控制及词源家族去重实验验证；预注册片段、来源与排除条件。 abash ↔ 怕 pà（词中 b ↔ p）与 bash ↔ 拍 pāi（词首 b ↔ p）是另外两个分别记录的 Candidate 观察。共享 b-p-m-f 不使它们互相证明，也不证明 bandon ↔ 办；统计独立性仍需词源家族核验，同源派生须去重。"
           },
-          "experiment_link": "EXP-ABANDON-DUAL-PATH-PLAN",
+          "experiment_link": "EXP-BANDON-BAN-CORRESPONDENCE-PLAN",
           "source_refs": [
             "REF-CNRTL-ABANDON",
-            "REF-MW-ABANDON"
+            "REF-ZDIC-BAN-HANDLE",
+            "REF-ZDIC-BAN-TRADITIONAL"
           ],
           "historical_relation_status": "Not claimed"
         },
@@ -6552,20 +6424,19 @@
       ],
       "experiments": [
         {
-          "experiment_id": "EXP-ABANDON-DUAL-PATH-PLAN",
+          "experiment_id": "EXP-BANDON-BAN-CORRESPONDENCE-PLAN",
           "title": {
-            "en": "Can a historical semantic path be reconstructed across languages while preserving a proposed consonant class?",
-            "zh-Hans": "在保持候选辅音组的条件下，能否跨语言重构一条历史语义路径？"
+            "en": "Meaning-first cross-language consonant correspondence study",
+            "zh-Hans": "先定语义的跨语言辅音对应研究"
           },
           "status": "Planned / Not run",
           "tested_hypotheses": [
-            "HYP-ABANDON-DIACHRONIC-PATH",
-            "HYP-BPMF-CONSONANT-GROUP",
-            "HYP-ABANDON-CONSONANTAL-SKELETON"
+            "HYP-BANDON-BAN-001",
+            "HYP-BPMF-CONSONANT-GROUP"
           ],
           "result": {
-            "en": "Retrospective editorial case, not a blinded or preregistered experiment: the proposed b-words were already visible. Baseline selection uses semantic criteria, but evaluator blindness is not claimed. These nodes belong to one historical case, not five or six independent observations. No controlled support estimate exists.",
-            "zh-Hans": "这是回顾性编辑案例，不是盲评或预注册实验：候选 b 字此前已可见。基线按语义标准选择，但不声称评估者盲态。各节点属于同一历史案例，不是五六个独立观察；尚无对照支持度估计。"
+            "en": "No results. Large-sample positive/negative and control design pending; no mutual proof from shared group membership.",
+            "zh-Hans": "无结果。大样本正反例及控制设计待实施；共享辅音组不互相证明。"
           },
           "path": "words/abandon.html#experiment",
           "source_refs": []
@@ -6796,10 +6667,18 @@
           "url": "https://www.zdic.net/hans/弃",
           "path": null,
           "provenance": "Checked 2026-09-07. Scoped Chinese lexical evidence; historical examples are dictionary-attributed, not manuscript collation. No cross-language origin or sound law supported."
+        },
+        {
+          "reference_id": "REF-ZDIC-BAN-TRADITIONAL",
+          "title": "Hanzi dictionary: 辦 — modern senses and 说文新附 historical gloss",
+          "type": "dictionary",
+          "url": "https://www.zdic.net/hans/辦",
+          "path": null,
+          "provenance": "Checked 2026-09-07. Supports Chinese lexical senses; does not establish French-Chinese history or exact phonetic identity."
         }
       ],
       "author": "Jinkai Liu",
-      "version": "ABANDON Dual Semantic Paths v1.0 / Schema v1.0",
+      "version": "ABANDON Meaning-First Cross-Language Mapping v1.0 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-07",
@@ -6827,16 +6706,24 @@
           "zh-Hans": "旧 a-＝没有、band＝帮伙记忆法以及 donate、动保留为原始观察，不另建记录或提升实验等级。ban／banal 词史关联须作家族去重；不声称已有对照实验结果。"
         },
         {
-          "en": "A structural comparison, not a Chinese etymological chain or cross-language cognacy. Historical Relation: Not claimed. Arrows order semantic relations, not five successive first-attestation dates. Modern Mandarin onsets are the declared constraint; b /p/, p /pʰ/, m /m/, f /f/ are a proposed class, not identical sounds. No reconstruction of Old Chinese or Old French pronunciation is claimed.",
-          "zh-Hans": "这是结构比较，不是汉字间的派生链或英汉同源。Historical Relation: Not claimed。箭头排列语义关系，不代表五个依次出现的首见年代。约束明确采用现代普通话声母：b /p/、p /pʰ/、m /m/、f /f/ 是候选组，不是同音；未重构上古汉语或古法语发音。"
+          "en": "Meaning first, consonant second.",
+          "zh-Hans": "先定语义，再验辅音。"
         },
         {
-          "en": "Retrospective editorial case, not a blinded or preregistered experiment: the proposed b-words were already visible. Baseline selection uses semantic criteria, but evaluator blindness is not claimed. These nodes belong to one historical case, not five or six independent observations. No controlled support estimate exists.",
-          "zh-Hans": "这是回顾性编辑案例，不是盲评或预注册实验：候选 b 字此前已可见。基线按语义标准选择，但不声称评估者盲态。各节点属于同一历史案例，不是五六个独立观察；尚无对照支持度估计。"
+          "en": "Semantic Path studies how one word’s historical meanings develop. Consonant Group Mapping compares an English/French historical word or root with the pronunciation of a semantically selected Chinese candidate. These are independent analyses. The b-p-m-f, d-t-n-l, g-k-h and z-c-s groups predict cross-language sound correspondences, not membership of every Chinese word in one path.",
+          "zh-Hans": "Semantic Path 研究一个词的历史语义怎样发展。Consonant Group Mapping 比较英／法历史词或词根与按语义选出的汉语候选词读音。两者独立；b-p-m-f、d-t-n-l、g-k-h、z-c-s 等组预测跨语言声音对应，不要求汉语路径中的每个字属于同组。"
         },
         {
-          "en": "Map the semantic development, not merely the modern translation. Find the historically meaningful unit first; map to Chinese second.",
-          "zh-Hans": "映射语义发展，而不仅是现代译词。先找具有历史意义的单位，再映射到汉语。"
+          "en": "The earlier Chinese same-group path design was an implementation error and has been withdrawn. Its path scores and planned path-constraint experiment are superseded, not evidence against the author’s cross-language hypothesis. This is retrospective editorial review, not a blinded study; no experiment has run.",
+          "zh-Hans": "此前要求汉语全链同组的设计属于实现误解，已撤下；相应路径评分与路径约束实验计划作废，不构成对作者跨语言假说的反证。本次为回顾性编辑核验，不是盲评，未运行实验。"
+        },
+        {
+          "en": "Dialect & Diachronic Chinese Evidence is a separate evidence track. Record dialect/location/date and transcription separately from Middle Chinese or Old Chinese reconstructions, with named sources and reconstruction systems. Modern dialects are not frozen copies of ancient Chinese. No dialect or reconstructed pronunciation is used to raise this candidate’s grade; these comparisons remain pending.",
+          "zh-Hans": "Dialect & Diachronic Chinese Evidence｜汉语方言与历时音韵证据独立记录。方言须注明地点、年代与转写；中古音／上古音须注明来源与重构体系，不能混用。现代方言不是古汉语的冻结复制品。本候选未以方言或重构音提高等级，相关比较待核验。"
+        },
+        {
+          "en": "abash ↔ 怕 pà (medial b ↔ p) and bash ↔ 拍 pāi (initial b ↔ p) are two other separately identified Candidate observations. Sharing b-p-m-f does not make them prove each other or bandon ↔ 办. Statistical independence requires etymological-family review; count related derivatives once.",
+          "zh-Hans": "abash ↔ 怕 pà（词中 b ↔ p）与 bash ↔ 拍 pāi（词首 b ↔ p）是另外两个分别记录的 Candidate 观察。共享 b-p-m-f 不使它们互相证明，也不证明 bandon ↔ 办；统计独立性仍需词源家族核验，同源派生须去重。"
         }
       ],
       "search_terms": [
@@ -6881,26 +6768,15 @@
         "权柄",
         "辦",
         "办",
-        "拨",
-        "撥",
-        "拨付",
-        "撥付",
-        "放",
-        "罢",
-        "罷",
-        "抛",
-        "拋",
-        "付",
-        "弃",
-        "任其处置",
-        "bǐng",
         "bàn",
-        "bō",
-        "fàng",
-        "bà",
-        "pāo",
         "b-p-m-f",
-        "历时语义路径"
+        "历时语义路径",
+        "bandon ↔ 办",
+        "Meaning first, consonant second",
+        "先定语义，再验辅音",
+        "d-t-n-l",
+        "g-k-h",
+        "z-c-s"
       ],
       "page": "words/abandon.html",
       "legacy": {
@@ -6933,17 +6809,17 @@
         "source": "abandon",
         "target": "放弃",
         "reading": "fàngqì",
-        "status": "Experimental/Testable · path comparison",
+        "status": "Separate bandon ↔ 办 Phonetic-Semantic Candidate",
         "historical_relation": "Not claimed",
-        "display_label": "A Diachronic Semantic Path｜历时语义路径 · Semantic-best + b-p-m-f constrained",
+        "display_label": "Historical Semantic Path · Meaning first, consonant second.｜先定语义，再验辅音。",
         "source_refs": [
           "REF-CNRTL-ABANDON",
           "REF-CNRTL-ABANDONNER",
           "REF-MW-ABANDON"
         ],
         "boundary": {
-          "en": "A structural comparison, not a Chinese etymological chain or cross-language cognacy. Historical Relation: Not claimed. Arrows order semantic relations, not five successive first-attestation dates. Modern Mandarin onsets are the declared constraint; b /p/, p /pʰ/, m /m/, f /f/ are a proposed class, not identical sounds. No reconstruction of Old Chinese or Old French pronunciation is claimed.",
-          "zh-Hans": "这是结构比较，不是汉字间的派生链或英汉同源。Historical Relation: Not claimed。箭头排列语义关系，不代表五个依次出现的首见年代。约束明确采用现代普通话声母：b /p/、p /pʰ/、m /m/、f /f/ 是候选组，不是同音；未重构上古汉语或古法语发音。"
+          "en": "Semantic Path studies how one word’s historical meanings develop. Consonant Group Mapping compares an English/French historical word or root with the pronunciation of a semantically selected Chinese candidate. These are independent analyses. The b-p-m-f, d-t-n-l, g-k-h and z-c-s groups predict cross-language sound correspondences, not membership of every Chinese word in one path.",
+          "zh-Hans": "Semantic Path 研究一个词的历史语义怎样发展。Consonant Group Mapping 比较英／法历史词或词根与按语义选出的汉语候选词读音。两者独立；b-p-m-f、d-t-n-l、g-k-h、z-c-s 等组预测跨语言声音对应，不要求汉语路径中的每个字属于同组。"
         }
       },
       "revision_history": [
@@ -7061,6 +6937,13 @@
             "status": "Interpretive / Active Association; not a historical chain"
           },
           "reason": "Promote two explicitly graded semantic paths; retain prior associations and raw note."
+        },
+        {
+          "date": "2026-09-07",
+          "previous_version": "ABANDON Dual Semantic Paths v1.0 / Schema v1.0",
+          "supersedes_commit": "3f621306bef5af940cf8ea724d1010c1a1e66eb3",
+          "reason": "The earlier Chinese same-group path design was an implementation error and has been withdrawn. Its path scores and planned path-constraint experiment are superseded, not evidence against the author’s cross-language hypothesis. This is retrospective editorial review, not a blinded study; no experiment has run.",
+          "retained_source_note": true
         }
       ],
       "author_usage_observation": {
@@ -7082,11 +6965,10 @@
         "is_historical_evidence": false
       },
       "diachronic_semantic_mapping": {
-        "version": "1.0",
-        "status": "Experimental/Testable",
-        "historical_relation": "Not claimed",
+        "version": "2.0",
+        "status": "Historical semantic analysis; independent of consonant groups",
         "historical_path": "BANDON → À BANDON → ABANDONNER → ABANDON",
-        "semantic_path": "POWER/CONTROL → DISPOSAL RELATION → TRANSFER/GIVE OVER → RELEASE/LET GO → GIVE UP",
+        "semantic_path": "POWER / AUTHORITY → DISPOSAL → GIVE OVER → LET GO → GIVE UP",
         "historical_stages": [
           {
             "stage_id": "bandon",
@@ -7143,291 +7025,120 @@
             ]
           }
         ],
-        "semantic_best_path": {
-          "display": "权柄 → 任其处置 → 付 → 放 → 弃",
-          "selection": "Semantic criteria independent of sound; retrospective, not blind",
-          "nodes": [
-            {
-              "node_id": "best-power",
-              "source_stage_id": "bandon",
-              "form": "权柄",
-              "reading": "quán bǐng",
-              "meaning": "POWER / CONTROL",
-              "semantic_fit": "High",
-              "phonetic_group_fit": "Not constrained",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-MOE-BING"
-              ],
-              "evidence_note": {
-                "en": "MOE 柄 sense 6: power; cites Han writer Ban Biao’s 王命论 with 权柄. The compound makes authority explicit.",
-                "zh-Hans": "教育部“柄”名词第6义为权力，引汉代班彪《王命论》“权柄”用例；采用复词明确权力义。"
-              },
-              "semantic_loss": "Low: authority sense selected, not every use of power.",
-              "semantic_loss_zh": "低：限定权力义，不覆盖 power 的全部用法。"
-            },
-            {
-              "node_id": "best-disposal",
-              "source_stage_id": "a-bandon",
-              "form": "任其处置",
-              "reading": "rèn qí chǔ zhì",
-              "meaning": "DISPOSAL RELATION",
-              "semantic_fit": "High",
-              "phonetic_group_fit": "Not constrained",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-ZDIC-CHUZHI"
-              ],
-              "evidence_note": {
-                "en": "处置 means arrange/handle, with a 汉书·薛宣传 example. 任其 is an editorial relational paraphrase, not a quoted historical compound.",
-                "zh-Hans": "处置有安排处理义，汉典引《汉书·薛宣传》；“任其”为编辑补足关系的释义，不冒充古籍中的固定复词。"
-              },
-              "semantic_loss": "Low with 任其; bare 处置 would omit the possessor/disposal relation.",
-              "semantic_loss_zh": "低：任其补足处置关系；若仅写处置，会丢失支配者关系。"
-            },
-            {
-              "node_id": "best-transfer",
-              "source_stage_id": "abandonner",
-              "form": "付",
-              "reading": "fù",
-              "meaning": "TRANSFER / GIVE OVER",
-              "semantic_fit": "High",
-              "phonetic_group_fit": "Not constrained",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-ZDIC-FU"
-              ],
-              "evidence_note": {
-                "en": "付 means hand over/entrust; dictionary quotes 说文 and cites 出师表 for handing a matter to officials.",
-                "zh-Hans": "付有交给／托付义；汉典列《说文》释义，并引《出师表》交付有司用例。"
-              },
-              "semantic_loss": "Low: handing over does not itself require permanent abandonment.",
-              "semantic_loss_zh": "低：交付本身不必永久放弃。"
-            },
-            {
-              "node_id": "best-release",
-              "source_stage_id": "abandonner",
-              "form": "放",
-              "reading": "fàng",
-              "meaning": "RELEASE / LET GO",
-              "semantic_fit": "High",
-              "phonetic_group_fit": "Not constrained",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-ZDIC-FANG"
-              ],
-              "evidence_note": {
-                "en": "Dictionary explicitly separates release from banishment and abandonment; cites 中山狼传 for releasing a turtle.",
-                "zh-Hans": "汉典单列解除约束／释放义，并引《中山狼传》放龟用例；与放逐、舍弃等义分开。"
-              },
-              "semantic_loss": "Low for release; no Chinese chronological equivalence inferred.",
-              "semantic_loss_zh": "低：仅对释放义适配，不推断汉语的相同年代演变。"
-            },
-            {
-              "node_id": "best-give-up",
-              "source_stage_id": "english-abandon",
-              "form": "弃",
-              "reading": "qì",
-              "meaning": "GIVE UP / ABANDON",
-              "semantic_fit": "High",
-              "phonetic_group_fit": "Not constrained",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-ZDIC-QI"
-              ],
-              "evidence_note": {
-                "en": "Discard/abandon is a dictionary sense, supported by attributed classical examples including 左传.",
-                "zh-Hans": "汉典列舍弃／抛弃义及《左传》等古典用例。"
-              },
-              "semantic_loss": "Low within the verb sense; not all English noun uses.",
-              "semantic_loss_zh": "低：限定动词义，不覆盖英语名词用法。"
-            }
-          ]
-        },
-        "consonant_constrained_path": {
-          "display": "柄 bǐng → 办 bàn → 拨付 bō fù → 放 fàng → 抛 pāo / 罢 bà",
-          "constraint": "Modern Mandarin b/p/m/f onset; b preferred; compounds allowed and disclosed",
-          "nodes": [
-            {
-              "node_id": "bpmf-power",
-              "source_stage_id": "bandon",
-              "form": "柄",
-              "reading": "bǐng",
-              "meaning": "POWER / AUTHORITY",
-              "semantic_fit": "High",
-              "phonetic_group_fit": "High: b",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-MOE-BING"
-              ],
-              "evidence_note": {
-                "en": "Power is independently attested; 权柄 supplies disambiguating context.",
-                "zh-Hans": "权力义有独立字典证据；权柄可补足消歧语境。"
-              },
-              "semantic_loss": "Low; bare 柄 also means handle.",
-              "semantic_loss_zh": "低：选择权力义；裸字柄亦可指把手。"
-            },
-            {
-              "node_id": "bpmf-disposal",
-              "source_stage_id": "a-bandon",
-              "form": "办",
-              "reading": "bàn",
-              "meaning": "HANDLE / MANAGE",
-              "semantic_fit": "Low",
-              "phonetic_group_fit": "High: b",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-ZDIC-BAN-HANDLE"
-              ],
-              "evidence_note": {
-                "en": "Modern 办 means handle/manage. The historical 辦 gloss in 说文新附 is exert effort (致力); dictionary historical preparation/management examples do not establish the authority relation.",
-                "zh-Hans": "现代办有处理／办理义；历史“辦”在《说文新附》释致力，古代筹备／办理用例不能直接证明任人处置的权力关系。"
-              },
-              "semantic_loss": "High: an action replaces being at another’s disposal; Medium only against generic HANDLE, Low against the frozen relation.",
-              "semantic_loss_zh": "高：处理动作替代了任人处置的关系；若只评 HANDLE 可为中，但对冻结的关系义为低。"
-            },
-            {
-              "node_id": "bpmf-transfer",
-              "source_stage_id": "abandonner",
-              "form": "拨付",
-              "reading": "bō fù",
-              "meaning": "TRANSFER / ALLOCATE",
-              "semantic_fit": "Medium",
-              "phonetic_group_fit": "High: b + f (compound)",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-MOE-BOFU"
-              ],
-              "evidence_note": {
-                "en": "MOE defines 撥付 as issue/allocate and cites 水浒传 chapter 99 assigning officers and troops. Prefer the compound to ambiguous isolated 拨.",
-                "zh-Hans": "教育部释撥付为发给，引《水浒传》第99回分派将佐军兵用例；采用复词，避免单字拨的拨动义。"
-              },
-              "semantic_loss": "Medium: administrative allocation is narrower than give over and may retain control. 付 fù is a stronger semantic alternative within the broader group, but not b-initial.",
-              "semantic_loss_zh": "中：行政分配比交付更窄，且可能保留控制；付 fù 是同属广义组且语义更好的替代，但非 b 起音。"
-            },
-            {
-              "node_id": "bpmf-release",
-              "source_stage_id": "abandonner",
-              "form": "放",
-              "reading": "fàng",
-              "meaning": "RELEASE / LET GO",
-              "semantic_fit": "High",
-              "phonetic_group_fit": "High: f",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-ZDIC-FANG"
-              ],
-              "evidence_note": {
-                "en": "Same independently sourced release sense as the baseline. Reuse of 放 is not new evidence.",
-                "zh-Hans": "与基线路径相同的释放义；重复使用“放”不增加独立证据。"
-              },
-              "semantic_loss": "Low; reuse of a baseline node.",
-              "semantic_loss_zh": "低：与基线共享节点，不增加独立证据。"
-            },
-            {
-              "node_id": "bpmf-discard",
-              "source_stage_id": "english-abandon",
-              "form": "抛",
-              "reading": "pāo",
-              "meaning": "DISCARD / ABANDON",
-              "semantic_fit": "High",
-              "phonetic_group_fit": "High: p",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-ZDIC-PAO"
-              ],
-              "evidence_note": {
-                "en": "Dictionary records cast aside/abandon with a Yuan Zhen 琵琶歌 example. Chosen endpoint for discarding/leaving.",
-                "zh-Hans": "汉典列丢弃／舍弃义，引元稹《琵琶歌》；作抛弃／离弃分支的优先终点。"
-              },
-              "semantic_loss": "Low for discard/leave; throwing sense is not automatically abandonment.",
-              "semantic_loss_zh": "低：针对丢弃／离弃；抛掷不自动等于抛弃。"
-            },
-            {
-              "node_id": "bpmf-cease",
-              "source_stage_id": "english-abandon",
-              "form": "罢",
-              "reading": "bà",
-              "meaning": "STOP / CEASE",
-              "semantic_fit": "Medium",
-              "phonetic_group_fit": "High: b",
-              "evidence_status": "Lexical sense supported; path alignment editorial",
-              "historical_independence": "Chinese lexical evidence sourced separately; no cross-language historical relation claimed; not an independent experimental case",
-              "source_refs": [
-                "REF-ZDIC-BA"
-              ],
-              "evidence_note": {
-                "en": "Dictionary stop/cease sense cites 史记·魏公子列传. Retained as an alternative for giving up an activity.",
-                "zh-Hans": "汉典停止义引《史记·魏公子列传》；保留作放弃活动的替代终点。"
-              },
-              "semantic_loss": "Medium: stopping may be temporary or completion; Low fit for deserting a person. This is an alternative endpoint, not a sixth historical stage.",
-              "semantic_loss_zh": "中：停止可能短暂或只是完成；针对遗弃某人适配低。此为替代终点，不是第六历史阶段。"
-            }
-          ]
-        },
         "boundary": {
-          "en": "A structural comparison, not a Chinese etymological chain or cross-language cognacy. Historical Relation: Not claimed. Arrows order semantic relations, not five successive first-attestation dates. Modern Mandarin onsets are the declared constraint; b /p/, p /pʰ/, m /m/, f /f/ are a proposed class, not identical sounds. No reconstruction of Old Chinese or Old French pronunciation is claimed.",
-          "zh-Hans": "这是结构比较，不是汉字间的派生链或英汉同源。Historical Relation: Not claimed。箭头排列语义关系，不代表五个依次出现的首见年代。约束明确采用现代普通话声母：b /p/、p /pʰ/、m /m/、f /f/ 是候选组，不是同音；未重构上古汉语或古法语发音。"
+          "en": "Historical meanings and attested forms remain separated. The arrows summarize semantic development, not five strictly successive first-attestation dates. No Chinese same-group path is inferred.",
+          "zh-Hans": "历史词形与义项保留边界；箭头概括语义发展，不是五个严格递进的首见年代，不推导汉语同组路径。"
+        }
+      },
+      "consonant_group_mapping": {
+        "version": "1.0",
+        "principle": {
+          "en": "Meaning first, consonant second.",
+          "zh-Hans": "先定语义，再验辅音。"
         },
-        "research_question": {
-          "en": "Can a historical semantic path be reconstructed across languages while preserving a proposed consonant class?",
-          "zh-Hans": "在保持候选辅音组的条件下，能否跨语言重构一条历史语义路径？"
+        "definitions": {
+          "en": "Semantic Path studies how one word’s historical meanings develop. Consonant Group Mapping compares an English/French historical word or root with the pronunciation of a semantically selected Chinese candidate. These are independent analyses. The b-p-m-f, d-t-n-l, g-k-h and z-c-s groups predict cross-language sound correspondences, not membership of every Chinese word in one path.",
+          "zh-Hans": "Semantic Path 研究一个词的历史语义怎样发展。Consonant Group Mapping 比较英／法历史词或词根与按语义选出的汉语候选词读音。两者独立；b-p-m-f、d-t-n-l、g-k-h、z-c-s 等组预测跨语言声音对应，不要求汉语路径中的每个字属于同组。"
         },
+        "predicted_groups": [
+          "b-p-m-f",
+          "d-t-n-l",
+          "g-k-h",
+          "z-c-s"
+        ],
         "workflow": [
           {
-            "en": "Freeze the source-language historical semantic path with dated evidence and stage boundaries.",
-            "zh-Hans": "先冻结来源语言历史语义路径、时间见证与阶段边界。"
+            "en": "Identify the historical English/French word or root.",
+            "zh-Hans": "① 确定英／法历史词或词根。"
           },
           {
-            "en": "Construct the Chinese semantic-best path without using sound as a selection criterion.",
-            "zh-Hans": "不以声音为选择标准，构造汉语语义优先路径。"
+            "en": "Verify its historical semantic meaning and phrase boundaries.",
+            "zh-Hans": "② 核验历史语义与短语边界。"
           },
           {
-            "en": "Apply the b-p-m-f constraint with declared modern Mandarin onset and compound rules.",
-            "zh-Hans": "再施加 b-p-m-f 约束，声明普通话声母及复词规则。"
+            "en": "Select the best Chinese character/word by meaning independently of sound; retain alternatives.",
+            "zh-Hans": "③ 先按语义独立选择最合适的汉字／词，保留替代候选。"
           },
           {
-            "en": "Record each node’s semantic loss and lower support where it is substantial.",
-            "zh-Hans": "逐节点记录语义损失；损失明显则降低假说支持。"
+            "en": "Only then compare the English/French consonant with the Chinese pronunciation.",
+            "zh-Hans": "④ 再比较英／法辅音与汉语读音。"
           },
           {
-            "en": "In future, compare d-t-n-l and g-k-h controls under identical vocabulary, compound, scoring and search-budget rules; retain failures and deduplicate families.",
-            "zh-Hans": "未来在相同词汇范围、复词、评分及检索预算规则下比较 d-t-n-l、g-k-h 控制组；保留失败例，按词源家族去重。"
+            "en": "Check the predicted b-p-m-f / d-t-n-l / g-k-h / z-c-s correspondence without requiring a same-group Chinese chain.",
+            "zh-Hans": "⑤ 检查是否落入预测辅音组，不要求汉语路径全链同组。"
+          },
+          {
+            "en": "Score semantics, consonant-group fit, phonetic evidence and historical relation independently.",
+            "zh-Hans": "⑥ 独立评分：语义、辅音组适配、音值证据与历史关系。"
+          },
+          {
+            "en": "Test later with large samples, counterexamples, matched/random controls and etymological-family deduplication; preregister segments, sources and exclusions.",
+            "zh-Hans": "⑦ 将来以大样本、反例、匹配／随机控制及词源家族去重实验验证；预注册片段、来源与排除条件。"
           }
         ],
-        "audit": {
-          "en": "Retrospective editorial case, not a blinded or preregistered experiment: the proposed b-words were already visible. Baseline selection uses semantic criteria, but evaluator blindness is not claimed. These nodes belong to one historical case, not five or six independent observations. No controlled support estimate exists.",
-          "zh-Hans": "这是回顾性编辑案例，不是盲评或预注册实验：候选 b 字此前已可见。基线按语义标准选择，但不声称评估者盲态。各节点属于同一历史案例，不是五六个独立观察；尚无对照支持度估计。"
-        },
-        "scores": {
-          "scale": "Experimental editorial High/Medium/Low; not measured scientific scores",
-          "semantic_best": "High",
-          "consonant_constrained": "Medium",
-          "hypothesis_support": "Low / untested",
-          "decision": "Significant loss at 办; narrower 拨付 and 罢. Do not promote the consonant-group or skeleton hypothesis."
-        },
-        "hypothesis_links": [
+        "candidates": [
           {
-            "hypothesis_id": "HYP-BPMF-CONSONANT-GROUP",
-            "label": "b–p–m–f Consonant-Group Hypothesis",
-            "path": "words/abandon.html#bpmf-hypothesis"
-          },
-          {
-            "hypothesis_id": "HYP-ABANDON-CONSONANTAL-SKELETON",
-            "label": "Consonantal Semantic Skeleton Hypothesis",
-            "path": "words/abandon.html#skeleton-hypothesis"
+            "candidate_id": "MAP-BANDON-BAN-001",
+            "source_unit": "bandon",
+            "source_language": "Old French",
+            "target": "办 / 辦",
+            "reading": "bàn",
+            "status": "Phonetic-Semantic Candidate",
+            "historical_relation": "Not claimed",
+            "semantic_evaluation": {
+              "en": "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+              "zh-Hans": "bandon 的核心是 POWER/AUTHORITY；任其处置关系属于 à bandon。现代办／辦为处理、办理、筹备等；《说文新附》释辦为致力，不是权力。因此 bandon ↔ 办仅保留为支配／办理的有限联系：对权力本义语义适配 Low，只有在处理／处置语境比较时为 Medium，不是词根的精确译词。权柄是更合适的权力义支持，其声音不决定选择。"
+            },
+            "consonant_comparison": {
+              "source_segment": "initial b in bandon",
+              "target_segment": "Pinyin b in bàn",
+              "label": "b ↔ b → same consonant / within b-p-m-f group",
+              "predicted_group": "b-p-m-f",
+              "group_fit": "Within predicted group at comparison-label level",
+              "phonetic_evidence_status": "Historical source pronunciation pending; Pinyin b is /p/",
+              "note": {
+                "en": "b ↔ b → same consonant / within b-p-m-f group is the author’s comparison label. It compares the initial b of bandon with Pinyin b in bàn. Pinyin b represents unaspirated /p/; the label is not proof of identical phonetic realization, homophony, or a historical sound law. A source-specific historical French pronunciation and the remaining consonants, vowels and tone still need independent assessment. Group fit cannot upgrade weak semantics.",
+                "zh-Hans": "b ↔ b → same consonant / within b-p-m-f group 是作者的对应标签：比较 bandon 的词首 b 与 bàn 的拼音 b。拼音 b 表示不送气 /p/；此标签不证明实际音值完全相同、同音或历史音变规律。古法语具体时期的读音及其余辅音、元音、汉语声调仍须独立评估。落入预测组不能提升较弱的语义证据。"
+              }
+            },
+            "scores": {
+              "semantic_fit_power_authority": "Low",
+              "semantic_fit_contextual_handling": "Medium",
+              "consonant_group_fit": "Within predicted group",
+              "overall_confidence": "Low",
+              "scale": "Editorial categories, not measured scientific scores"
+            },
+            "source_refs": [
+              "REF-CNRTL-ABANDON",
+              "REF-ZDIC-BAN-HANDLE",
+              "REF-ZDIC-BAN-TRADITIONAL"
+            ],
+            "semantic_support": {
+              "form": "柄 / 权柄",
+              "role": "POWER/AUTHORITY Semantic Support",
+              "selection": "Meaning first, independent of onset",
+              "source_refs": [
+                "REF-MOE-BING"
+              ]
+            }
           }
-        ]
+        ],
+        "independent_observations": {
+          "en": "abash ↔ 怕 pà (medial b ↔ p) and bash ↔ 拍 pāi (initial b ↔ p) are two other separately identified Candidate observations. Sharing b-p-m-f does not make them prove each other or bandon ↔ 办. Statistical independence requires etymological-family review; count related derivatives once.",
+          "zh-Hans": "abash ↔ 怕 pà（词中 b ↔ p）与 bash ↔ 拍 pāi（词首 b ↔ p）是另外两个分别记录的 Candidate 观察。共享 b-p-m-f 不使它们互相证明，也不证明 bandon ↔ 办；统计独立性仍需词源家族核验，同源派生须去重。"
+        },
+        "dialect_diachronic_chinese_evidence": {
+          "status": "Separate evidence track / pending",
+          "note": {
+            "en": "Dialect & Diachronic Chinese Evidence is a separate evidence track. Record dialect/location/date and transcription separately from Middle Chinese or Old Chinese reconstructions, with named sources and reconstruction systems. Modern dialects are not frozen copies of ancient Chinese. No dialect or reconstructed pronunciation is used to raise this candidate’s grade; these comparisons remain pending.",
+            "zh-Hans": "Dialect & Diachronic Chinese Evidence｜汉语方言与历时音韵证据独立记录。方言须注明地点、年代与转写；中古音／上古音须注明来源与重构体系，不能混用。现代方言不是古汉语的冻结复制品。本候选未以方言或重构音提高等级，相关比较待核验。"
+          },
+          "items": []
+        },
+        "correction": {
+          "en": "The earlier Chinese same-group path design was an implementation error and has been withdrawn. Its path scores and planned path-constraint experiment are superseded, not evidence against the author’s cross-language hypothesis. This is retrospective editorial review, not a blinded study; no experiment has run.",
+          "zh-Hans": "此前要求汉语全链同组的设计属于实现误解，已撤下；相应路径评分与路径约束实验计划作废，不构成对作者跨语言假说的反证。本次为回顾性编辑核验，不是盲评，未运行实验。"
+        }
       }
     },
     {
