@@ -1024,7 +1024,7 @@ Do not include copyrighted text beyond appropriate quotation limits.
 
 Evidence must be traceable.
 
-Follow [Citation / Lexicographic Source Policy](docs/standards/evidence-and-references.md#citation--lexicographic-source-policy): 直接写具体书名，避免用“教育部”代替辞书名称。 List mainland dictionaries first within Chinese source lists as a presentation preference; do not add uncited sources for ordering. Keep institution/edition/platform information in source metadata; evaluate sources by purpose and evidence quality, without regional ranking.
+Follow [Chinese Evidence Source Policy v1.0](docs/standards/chinese-evidence-source-policy-v1.0.md) and the [Evidence & References Convention](docs/standards/evidence-and-references.md#citation--lexicographic-source-policy). Use the specific verified work or platform title, keep institution/edition/platform information in metadata, separate modern meaning, historical meaning, orthography, phonology, attestation and reconstruction, and mark inaccessible entries pending. Meaning first, consonant second. Never rename an unverified citation or add an uncited source for numerical balance.
 
 Preferred evidence sources include:
 

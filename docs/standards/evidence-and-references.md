@@ -1,4 +1,4 @@
-# Evidence & References Convention v1.2
+# Evidence & References Convention v1.3
 
 Applies to future Protocol/ULP, Language Book, Hypothesis and experiment pages.
 
@@ -18,13 +18,12 @@ The reusable HTML partial is `templates/evidence-and-references-template.html`. 
 
 ## Citation / Lexicographic Source Policy
 
-**直接写具体书名，避免用“教育部”代替辞书名称。** Applies to current and future website prose, Evidence cards, References labels, data references and research reports, including Legacy Entry Recalibration.
+**具体书名、具体版本、具体 claim。** Current Chinese evidence additionally follows [Chinese Evidence Source Policy v1.0](chinese-evidence-source-policy-v1.0.md).
 
-1. Display the actual work title: 《现代汉语词典》, 《新华字典》, 《汉语大字典》, 《汉语大词典》, 《说文解字》, 《广韵》, 《集韵》, 《重編國語辭典修訂本》, 《異體字字典》 or 《國語辭典簡編本》 as applicable. Do not substitute institutional shorthand such as “台湾教育部词典”, “大陆教育部词典”, “教育部词典” or “Ministry of Education dictionary”. These are examples, not a required source list; never add an unused source.
-2. Record **specific dictionary/original work + edition/source metadata**. Keep accurate responsible institutions, compilers, publishers, versions, URLs and access dates in source metadata/details; institutional discussion is valid when the institution itself is the subject. Do not invent missing metadata. Preserve stable reference IDs and URLs when only labels change.
-3. Select and cross-check sources by purpose, date, evidence type and scholarly quality. Modern normative dictionaries, large historical dictionaries, classical character dictionaries/rhyme books and other high-quality lexicons can provide complementary checks. For display, list mainland dictionaries first within Chinese source lists, followed by other dictionaries; keep specific book titles as labels. This is the author’s presentation preference, not an evidence-quality ranking. No regional label establishes a default evidence hierarchy.
-4. Distinguish the original work from the access/digitization platform. 汉典/Zdic is an aggregation platform, not 《说文解字》, 《广韵》 or 《集韵》. For a platform quotation, identify the original work/section and state the mediation and edition uncertainty. Distinguish a transcription from a directly checked edition. A modern platform definition may be cited under its actual platform name; do not assign it to an ancient work without evidence.
-5. Lexical senses, historical attestations and sound reconstructions support only their scoped claims. Verify Evidence and Historical Relation independently. A listed sense never automatically upgrades a cross-language mapping, consonant correspondence or historical relationship. Meaning first, consonant second.｜先定语义，再验辅音。
-6. During recalibration, audit both authoring sources and generated data/page/report labels. Use existing reference title, URL and provenance fields for work/platform/edition information; no Schema v1.0 upgrade is required. Unknown editions remain unspecified; an editorial audit date must not imply that a source was read again in full.
-
-展示顺序：中文辞书列表中，大陆辞书放在前面；正文和 References 仍直接显示具体书名。只排列实际引用的来源，不为排序补加未引用的书；不要把汉典平台或古籍原典自动当作某一地区的现代辞书版本。
+1. Reader-facing copy uses the actual work or platform title. Responsible institution, compiler, publisher, version, URL and access date belong in metadata. Missing editions or pages remain unspecified.
+2. The current project uses verified mainland-compiled dictionaries, mainland scholarly research, applicable national language standards and directly identified originals. A source is selected for the claim it can support, not because a regional label decides scholarly quality.
+3. Distinguish an original work from its access platform. 汉典 is a mainland digital lexicographic platform, not automatically a critical edition of 《说文解字》《广韵》 or 《集韵》. Platform transcriptions are labelled as mediated evidence.
+4. Modern meaning, historical meaning, orthography, phonology, attestation and reconstruction are separate claim types. One modern dictionary cannot alone establish an ancient meaning, historical sound or character origin.
+5. Lexical senses and sound reconstructions support only scoped claims. A listed sense never upgrades a cross-language mapping or historical relationship. Meaning first, consonant second.｜先定语义，再验辅音。
+6. If an authoritative print/database entry cannot be accessed and verified, record it as desired/pending. Never infer entry content, page numbers or quotations from a book’s reputation or metadata page.
+7. Superseded citation details are removed from current pages, data and reports. Git history is the technical trace; no current migration appendix reproduces removed titles or links.

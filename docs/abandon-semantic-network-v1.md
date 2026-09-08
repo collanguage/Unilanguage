@@ -159,13 +159,13 @@ donner v. 送。用捅tong字对应，给谁的意思，捅钱。
 - [Cambridge English–Chinese Dictionary: abandon](https://dictionary.cambridge.org/zhs/词典/英语-汉语-简体/abandon)
 - [Merriam-Webster: ban](https://www.merriam-webster.com/dictionary/ban)
 - [Académie française, 9th edition: ban](https://www.cnrtl.fr/definition/academie9/ban)
-- [《國語辭典簡編本》: 甭](https://dict.concised.moe.edu.tw/dictView.jsp?ID=1174&la=0&powerMode=0)
-- [Hanzi dictionary: 甭, modern senses](https://zdic.net/hans/甭)
+- [汉典：甭](https://www.zdic.net/hans/甭)
+- [汉典：甭](https://zdic.net/hans/甭)
 - [CNRTL/TLFi: banal, etymology](https://www.cnrtl.fr/etymologie/banal)
 - [Merriam-Webster: banal](https://www.merriam-webster.com/dictionary/banal)
-- [Hanzi dictionary: 一般](https://zdic.net/hans/一般)
+- [汉典：一般](https://zdic.net/hans/一般)
 - [CNRTL/TLFi: donner](https://cnrtl.fr/definition/donner)
-- [《重編國語辭典修訂本》: 捅 tǒng](https://dict.revised.moe.edu.tw/dictView.jsp?ID=2918&la=0&powerMode=0)
+- [汉典：捅 tǒng](https://www.zdic.net/hans/捅)
 - [Merriam-Webster: band, separate noun histories](https://www.merriam-webster.com/dictionary/band)
 - [CNRTL/TLFi: bande, group sense](https://www.cnrtl.fr/etymologie/bande//1)
 
@@ -178,9 +178,9 @@ donner v. 送。用捅tong字对应，给谁的意思，捅钱。
 
 Mapper featured_mapping now reads bandon ↔ 办 bàn; primary_mapping still carries abandon’s Supported standard translation. This is a root candidate inside the same entry, not a new record. The existing renderer is unchanged.
 
-《重編國語辭典修訂本》 lists 柄 sense 6 as power and cites Ban Biao’s 王命论 using 权柄. This supports the Chinese lexical meaning only. The cross-language comparison and High semantic-fit grade are editorial judgments, not the dictionary’s endorsement.
+The current 汉典 entry records a power/authority sense for 柄 and usage including 权柄. This supports the Chinese lexical meaning only. The platform is not treated as a critical edition of an ancient dictionary; the cross-language comparison and High semantic-fit grade remain editorial judgments.
 
-来源为《重編國語辭典修訂本》：“柄”名词第6义释为“权力”，并引班彪《王命论》的“权柄”用例。这仅支持汉语词义；跨语言比较及 High 语义适配评分是本项目的编辑判断，不是该词典对映射的认可。
+汉典现行条目记录“柄”的权力义及“权柄”等用法。这仅支持汉语词义；该平台不等同于古代辞书校勘本，跨语言比较及 High 语义适配仍是本项目的编辑判断。
 
 
 ## Whole-word and root mapping · dataset 1.2.19

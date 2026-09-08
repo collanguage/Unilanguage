@@ -170,14 +170,14 @@
           "confidence": "Low",
           "source_refs": [
             "REF-MW-ERR",
-            "REF-MOE-E",
+            "REF-ZDIC-E",
             "REF-JL-ABERRANT-RAW"
           ]
         }
       ],
       "source_refs": [
         "REF-MW-ERR",
-        "REF-MOE-E",
+        "REF-ZDIC-E",
         "REF-JL-ABERRANT-RAW"
       ]
     },
@@ -192,7 +192,7 @@
       "source_refs": [
         "REF-MW-ABERRANT",
         "REF-MW-ERR",
-        "REF-MOE-E"
+        "REF-ZDIC-E"
       ]
     },
     "Speculative": {
@@ -278,7 +278,7 @@
       "experiment_link": null,
       "source_refs": [
         "REF-MW-ERR",
-        "REF-MOE-E",
+        "REF-ZDIC-E",
         "REF-JL-ABERRANT-RAW"
       ]
     },
@@ -402,20 +402,20 @@
       "provenance": "external lexicographic reference; accessed 2026-08-30"
     },
     {
-      "reference_id": "REF-MOE-E",
-      "title": "《國語辭典簡編本》: 訛",
-      "type": "dictionary",
-      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=39395&la=0&powerMode=0",
-      "path": null,
-      "provenance": "《國語辭典簡編本》; responsible institution: Ministry of Education, R.O.C.; accessed 2026-08-30"
-    },
-    {
       "reference_id": "REF-LANGUAGESBOOK-ABERRANT",
       "title": "languagesbook.com legacy entry: aberrant",
       "type": "legacy author publication",
       "url": "https://languagesbook.com/glossary/aberration-aberasj%c9%99n-n-%e8%8d%92%e8%b0%ac/",
       "path": null,
       "provenance": "author-published legacy website; source merged without overwriting the independently reviewed record"
+    },
+    {
+      "reference_id": "REF-ZDIC-E",
+      "title": "汉典：讹",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/讹",
+      "path": null,
+      "provenance": "汉典现行条目；用于讹的错误、谬误及讹误相关现代义；不支持跨语言同源；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
     }
   ],
   "author": "Jinkai Liu",

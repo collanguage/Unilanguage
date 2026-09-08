@@ -131,4 +131,4 @@ Copyright © 2026 Unilanguage
 
 Legacy Recalibration 001 upgrades the existing ABBEY record without changing counts or Mapper UI. [Report, reusable template and next-record queue](docs/legacy-entry-recalibration-001.md).
 
-[Citation / Lexicographic Source Policy](docs/standards/evidence-and-references.md#citation--lexicographic-source-policy): 直接写具体书名，避免用“教育部”代替辞书名称。
+[Chinese Evidence Source Policy v1.0](docs/standards/chinese-evidence-source-policy-v1.0.md): 逐 claim 区分现代义、历史义、字形、音韵、书证与拟音；无法取得具体条目时标 pending，不伪造页码或内容。

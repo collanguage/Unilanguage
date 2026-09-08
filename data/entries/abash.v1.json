@@ -130,7 +130,9 @@
           "confidence": "Medium",
           "source_refs": [
             "REF-CUHK-PAI",
-            "REF-CUHK-PA"
+            "REF-CUHK-PA",
+            "REF-ZDIC-PAI",
+            "REF-ZDIC-PA"
           ]
         }
       ],
@@ -141,6 +143,8 @@
         "REF-ETYMONLINE-BASH",
         "REF-CUHK-PAI",
         "REF-CUHK-PA",
+        "REF-ZDIC-PAI",
+        "REF-ZDIC-PA",
         "REF-AHD-ABASH",
         "REF-ETYMONLINE-ABASH"
       ]
@@ -164,6 +168,7 @@
           "source_refs": [
             "REF-MW-BASH",
             "REF-CUHK-PAI",
+            "REF-ZDIC-PAI",
             "REF-AUTHOR-BPMF"
           ]
         },
@@ -178,6 +183,7 @@
           "source_refs": [
             "REF-MW-ABASH",
             "REF-CUHK-PA",
+            "REF-ZDIC-PA",
             "REF-AUTHOR-ABASH-PA"
           ]
         }
@@ -185,9 +191,11 @@
       "source_refs": [
         "REF-MW-BASH",
         "REF-CUHK-PAI",
+        "REF-ZDIC-PAI",
         "REF-AUTHOR-BPMF",
         "REF-MW-ABASH",
         "REF-CUHK-PA",
+        "REF-ZDIC-PA",
         "REF-AUTHOR-ABASH-PA"
       ]
     },
@@ -295,7 +303,8 @@
         "meaning": "以手击打；拍摄",
         "historical_note": "CUHK：金文从手、白声，但构形初义不明；《说文》异体𢫦为从手、百声。《广韵》普伯切，滂母、入声、陌韵。",
         "source_refs": [
-          "REF-CUHK-PAI"
+          "REF-CUHK-PAI",
+          "REF-ZDIC-PAI"
         ]
       },
       {
@@ -304,7 +313,8 @@
         "meaning": "畏惧；害怕",
         "historical_note": "CUHK：从心、白声；早期有淡泊／无为义。《广韵》并列普駕切（滂母、去声、禡韵）与普伯切（滂母、入声、陌韵）。畏惧义见《玉篇》。CUHK 保留两说：畏惧义与淡泊义属同形字，或畏惧用法与“怖”的口语音有关；不将两义直接串成已确立派生。",
         "source_refs": [
-          "REF-CUHK-PA"
+          "REF-CUHK-PA",
+          "REF-ZDIC-PA"
         ]
       }
     ],
@@ -381,6 +391,7 @@
       "source_refs": [
         "REF-MW-ABASH",
         "REF-CUHK-PA",
+        "REF-ZDIC-PA",
         "REF-AUTHOR-ABASH-PA"
       ]
     },
@@ -630,22 +641,6 @@
       "provenance": "character formation and semantic history; accessed 2026-09-04; independently rechecked 2026-09-05"
     },
     {
-      "reference_id": "REF-MOE-PAI",
-      "title": "《異體字字典》: 拍",
-      "type": "government dictionary",
-      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=16996&la=0&powerMode=2",
-      "path": null,
-      "provenance": "modern readings, historical form and senses; accessed 2026-09-04 Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title."
-    },
-    {
-      "reference_id": "REF-MOE-PA",
-      "title": "《異體字字典》: 怕",
-      "type": "government dictionary",
-      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=-14804",
-      "path": null,
-      "provenance": "modern reading and historical form evidence; accessed 2026-09-04 Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title."
-    },
-    {
       "reference_id": "REF-MW-BASHFUL",
       "title": "Merriam-Webster: Does bashful mean full of bash?",
       "type": "dictionary editorial word history",
@@ -692,6 +687,22 @@
       "url": null,
       "path": null,
       "provenance": "User instruction 2026-09-07; not historical evidence or experimental result"
+    },
+    {
+      "reference_id": "REF-ZDIC-PAI",
+      "title": "汉典：拍",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/拍",
+      "path": null,
+      "provenance": "汉典现行条目；用于拍的现代义，并将《说文解字》《广韵》等历史材料明确标为平台转录；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+    },
+    {
+      "reference_id": "REF-ZDIC-PA",
+      "title": "汉典：怕",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/怕",
+      "path": null,
+      "provenance": "汉典现行条目；用于怕的现代义及平台转录的普驾切、普伯切等音韵材料；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
     }
   ],
   "author": "Jinkai Liu",
@@ -804,7 +815,8 @@
     "display_label": "Phonetic-Semantic Candidate · b ↔ p within b-p-m-f",
     "source_refs": [
       "REF-MW-BASH",
-      "REF-CUHK-PAI"
+      "REF-CUHK-PAI",
+      "REF-ZDIC-PAI"
     ],
     "boundary": {
       "en": "Candidate / C / Low confidence. Initial b ↔ p is a hypothesis within b-p-m-f; no historical relation is claimed. Standard translation remains 猛击 / 狠打 / 猛撞 / 砸. See the linked hypothesis and planned experiment.",
@@ -868,6 +880,7 @@
         "source_refs": [
           "REF-MW-ABASH",
           "REF-CUHK-PA",
+          "REF-ZDIC-PA",
           "REF-AUTHOR-ABASH-PA"
         ],
         "boundary": {
@@ -894,6 +907,7 @@
     },
     "source_refs": [
       "REF-CUHK-PAI",
+      "REF-ZDIC-PAI",
       "REF-AUTHOR-BPMF"
     ],
     "is_historical_evidence": false

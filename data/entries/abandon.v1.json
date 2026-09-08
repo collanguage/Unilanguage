@@ -100,7 +100,6 @@
           "source_refs": [
             "REF-MW-BAN",
             "REF-ACADEMIE-BAN",
-            "REF-MOE-BENG",
             "REF-ZDIC-BENG",
             "REF-LANGUAGESBOOK-ABANDON",
             "REF-AUTHOR-ABANDON-20260907"
@@ -129,7 +128,6 @@
         "REF-CNRTL-ABANDONNER",
         "REF-MW-BAN",
         "REF-ACADEMIE-BAN",
-        "REF-MOE-BENG",
         "REF-ZDIC-BENG",
         "REF-LANGUAGESBOOK-ABANDON",
         "REF-AUTHOR-ABANDON-20260907",
@@ -185,7 +183,6 @@
           "source_refs": [
             "REF-MW-BAN",
             "REF-ACADEMIE-BAN",
-            "REF-MOE-BENG",
             "REF-ZDIC-BENG",
             "REF-LANGUAGESBOOK-ABANDON",
             "REF-AUTHOR-ABANDON-20260907"
@@ -239,7 +236,6 @@
       "source_refs": [
         "REF-MW-BAN",
         "REF-ACADEMIE-BAN",
-        "REF-MOE-BENG",
         "REF-ZDIC-BENG",
         "REF-LANGUAGESBOOK-ABANDON",
         "REF-AUTHOR-ABANDON-20260907",
@@ -285,7 +281,7 @@
           "confidence": "Low",
           "source_refs": [
             "REF-CNRTL-DONNER",
-            "REF-MOE-TONG",
+            "REF-ZDIC-TONG",
             "REF-LANGUAGESBOOK-ABANDON",
             "REF-AUTHOR-ABANDON-20260907"
           ]
@@ -295,7 +291,7 @@
         "REF-LANGUAGESBOOK-ABANDON",
         "REF-AUTHOR-ABANDON-20260907",
         "REF-CNRTL-DONNER",
-        "REF-MOE-TONG"
+        "REF-ZDIC-TONG"
       ]
     },
     "Speculative": {
@@ -400,12 +396,12 @@
       "relationship_type": "Semantic support",
       "family": "No cross-language family claimed",
       "relation_to_entry": {
-        "en": "《重編國語辭典修訂本》 lists 柄 sense 6 as power and cites Ban Biao’s 王命论 using 权柄. This supports the Chinese lexical meaning only. The cross-language comparison and High semantic-fit grade are editorial judgments, not the dictionary’s endorsement.",
-        "zh-Hans": "来源为《重編國語辭典修訂本》：“柄”名词第6义释为“权力”，并引班彪《王命论》的“权柄”用例。这仅支持汉语词义；跨语言比较及 High 语义适配评分是本项目的编辑判断，不是该词典对映射的认可。"
+        "en": "The current 汉典 entry records a power/authority sense for 柄 and usage including 权柄. This supports the Chinese lexical meaning only. The platform is not treated as a critical edition of an ancient dictionary; the cross-language comparison and High semantic-fit grade remain editorial judgments.",
+        "zh-Hans": "汉典现行条目记录“柄”的权力义及“权柄”等用法。这仅支持汉语词义；该平台不等同于古代辞书校勘本，跨语言比较及 High 语义适配仍是本项目的编辑判断。"
       },
       "status": "Secondary · High semantic fit · Historical Relation: Not claimed",
       "source_refs": [
-        "REF-MOE-BING"
+        "REF-ZDIC-BING"
       ]
     },
     {
@@ -421,7 +417,7 @@
       "source_refs": [
         "REF-CNRTL-ABANDON",
         "REF-ZDIC-BAN-HANDLE",
-        "REF-MOE-BING"
+        "REF-ZDIC-BING"
       ]
     },
     {
@@ -466,7 +462,6 @@
       "source_refs": [
         "REF-MW-BAN",
         "REF-ACADEMIE-BAN",
-        "REF-MOE-BENG",
         "REF-ZDIC-BENG",
         "REF-LANGUAGESBOOK-ABANDON",
         "REF-AUTHOR-ABANDON-20260907"
@@ -485,7 +480,6 @@
       "source_refs": [
         "REF-MW-BAN",
         "REF-ACADEMIE-BAN",
-        "REF-MOE-BENG",
         "REF-ZDIC-BENG",
         "REF-LANGUAGESBOOK-ABANDON",
         "REF-AUTHOR-ABANDON-20260907"
@@ -521,7 +515,7 @@
       "status": "Weak · Author-proposed · Historical Relation: Not claimed",
       "source_refs": [
         "REF-CNRTL-DONNER",
-        "REF-MOE-TONG",
+        "REF-ZDIC-TONG",
         "REF-LANGUAGESBOOK-ABANDON",
         "REF-AUTHOR-ABANDON-20260907"
       ]
@@ -695,7 +689,6 @@
       "source_refs": [
         "REF-MW-BAN",
         "REF-ACADEMIE-BAN",
-        "REF-MOE-BENG",
         "REF-ZDIC-BENG",
         "REF-LANGUAGESBOOK-ABANDON",
         "REF-AUTHOR-ABANDON-20260907"
@@ -846,22 +839,6 @@
       "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
     },
     {
-      "reference_id": "REF-MOE-BENG",
-      "title": "《國語辭典簡編本》: 甭",
-      "type": "dictionary",
-      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=1174&la=0&powerMode=0",
-      "path": null,
-      "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation. Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title."
-    },
-    {
-      "reference_id": "REF-ZDIC-BENG",
-      "title": "Hanzi dictionary: 甭, modern senses",
-      "type": "dictionary",
-      "url": "https://zdic.net/hans/甭",
-      "path": null,
-      "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation. Access/aggregation platform: 汉典 (Zdic). Original work and edition must be identified for each historical quotation; platform compilation is not an original dictionary edition."
-    },
-    {
       "reference_id": "REF-CNRTL-BANAL",
       "title": "CNRTL/TLFi: banal, etymology",
       "type": "dictionary",
@@ -879,7 +856,7 @@
     },
     {
       "reference_id": "REF-ZDIC-YIBAN",
-      "title": "Hanzi dictionary: 一般",
+      "title": "汉典：一般",
       "type": "dictionary",
       "url": "https://zdic.net/hans/一般",
       "path": null,
@@ -892,14 +869,6 @@
       "url": "https://cnrtl.fr/definition/donner",
       "path": null,
       "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation."
-    },
-    {
-      "reference_id": "REF-MOE-TONG",
-      "title": "《重編國語辭典修訂本》: 捅 tǒng",
-      "type": "dictionary",
-      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2918&la=0&powerMode=0",
-      "path": null,
-      "provenance": "External lexicographic source; checked 2026-09-07. Supports the scoped lexical/history claim, not the author’s cross-language relation. Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title."
     },
     {
       "reference_id": "REF-MW-BAND",
@@ -926,24 +895,8 @@
       "provenance": "Author-supplied conversation text, 2026-09-07; original historical claims independently evaluated."
     },
     {
-      "reference_id": "REF-MOE-BING",
-      "title": "《重編國語辭典修訂本》: 柄, power and control",
-      "type": "dictionary",
-      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=538&la=0&powerMode=0",
-      "path": null,
-      "provenance": "Checked 2026-09-07. Scoped Chinese lexical evidence; historical examples are dictionary-attributed, not manuscript collation. No cross-language origin or sound law supported. Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title."
-    },
-    {
-      "reference_id": "REF-MOE-BOFU",
-      "title": "《重編國語辭典修訂本》: 撥付, allocation and literary attestation",
-      "type": "dictionary",
-      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=12718&la=0&powerMode=0",
-      "path": null,
-      "provenance": "Checked 2026-09-07. Scoped Chinese lexical evidence; historical examples are dictionary-attributed, not manuscript collation. No cross-language origin or sound law supported. Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title."
-    },
-    {
       "reference_id": "REF-ZDIC-BAN-HANDLE",
-      "title": "Hanzi dictionary: 办 — lexical senses and attributed textual examples",
+      "title": "汉典：办",
       "type": "dictionary",
       "url": "https://www.zdic.net/hans/办",
       "path": null,
@@ -951,7 +904,7 @@
     },
     {
       "reference_id": "REF-ZDIC-FANG",
-      "title": "Hanzi dictionary: 放 — lexical senses and attributed textual examples",
+      "title": "汉典：放",
       "type": "dictionary",
       "url": "https://www.zdic.net/hans/放",
       "path": null,
@@ -959,7 +912,7 @@
     },
     {
       "reference_id": "REF-ZDIC-BA",
-      "title": "Hanzi dictionary: 罢 — lexical senses and attributed textual examples",
+      "title": "汉典：罢",
       "type": "dictionary",
       "url": "https://www.zdic.net/hans/罢",
       "path": null,
@@ -967,7 +920,7 @@
     },
     {
       "reference_id": "REF-ZDIC-PAO",
-      "title": "Hanzi dictionary: 抛 — lexical senses and attributed textual examples",
+      "title": "汉典：抛",
       "type": "dictionary",
       "url": "https://www.zdic.net/hans/抛",
       "path": null,
@@ -975,7 +928,7 @@
     },
     {
       "reference_id": "REF-ZDIC-CHUZHI",
-      "title": "Hanzi dictionary: 处置 — lexical senses and attributed textual examples",
+      "title": "汉典：处置",
       "type": "dictionary",
       "url": "https://www.zdic.net/hans/处置",
       "path": null,
@@ -983,7 +936,7 @@
     },
     {
       "reference_id": "REF-ZDIC-FU",
-      "title": "Hanzi dictionary: 付 — lexical senses and attributed textual examples",
+      "title": "汉典：付",
       "type": "dictionary",
       "url": "https://www.zdic.net/hans/付",
       "path": null,
@@ -991,7 +944,7 @@
     },
     {
       "reference_id": "REF-ZDIC-QI",
-      "title": "Hanzi dictionary: 弃 — lexical senses and attributed textual examples",
+      "title": "汉典：弃",
       "type": "dictionary",
       "url": "https://www.zdic.net/hans/弃",
       "path": null,
@@ -1004,6 +957,30 @@
       "url": "https://www.zdic.net/hans/辦",
       "path": null,
       "provenance": "Checked 2026-09-07. Supports Chinese lexical senses; does not establish French-Chinese history or exact phonetic identity. Access/aggregation platform: 汉典 (Zdic). Original work and edition must be identified for each historical quotation; platform compilation is not an original dictionary edition. Original work: 《说文解字》新附, 辦; accessed through the platform transcription, not a directly collated edition; edition unspecified."
+    },
+    {
+      "reference_id": "REF-ZDIC-BENG",
+      "title": "汉典：甭",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/甭",
+      "path": null,
+      "provenance": "汉典现行条目；用于甭的现代不用、不必等义；不把它扩大为所有正式禁止义；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+    },
+    {
+      "reference_id": "REF-ZDIC-TONG",
+      "title": "汉典：捅",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/捅",
+      "path": null,
+      "provenance": "汉典现行条目；用于普通话读音与戳刺、揭露、招惹等现代义；未核验出稳定的‘给’义；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+    },
+    {
+      "reference_id": "REF-ZDIC-BING",
+      "title": "汉典：柄",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/柄",
+      "path": null,
+      "provenance": "汉典现行条目；用于柄的现代权力义、权柄用法与平台所列历史材料；不支持跨语言关系；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
     }
   ],
   "author": "Jinkai Liu",
@@ -1290,7 +1267,7 @@
     },
     "source_refs": [
       "REF-CNRTL-DONNER",
-      "REF-MOE-TONG",
+      "REF-ZDIC-TONG",
       "REF-LANGUAGESBOOK-ABANDON",
       "REF-AUTHOR-ABANDON-20260907"
     ],
@@ -1450,7 +1427,7 @@
           "role": "POWER/AUTHORITY Semantic Support",
           "selection": "Meaning first, independent of onset",
           "source_refs": [
-            "REF-MOE-BING"
+            "REF-ZDIC-BING"
           ]
         },
         "mapping_scope": "root"

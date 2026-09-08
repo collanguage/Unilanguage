@@ -22,8 +22,10 @@ const files = [
   "tests/package-g1.test.cjs", "tests/package-g3.test.cjs", "tests/package-g4-light.test.cjs",
   "tests/product-v0.1.test.cjs", "tests/product-v0.2.test.cjs",
   "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js", "js/literary-tabs.js",
-  "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html",
+  "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html", "evidence-and-references.html",
   "words/abandon.html", "docs/abandon-semantic-network-v1.md", "tests/abandon-semantic-network.test.cjs",
+  "data/evidence/mainland-source-recalibration.v1.json", "docs/standards/chinese-evidence-source-policy-v1.0.md",
+  "docs/research/mainland-source-recalibration-v1.0.md", "tests/mainland-source-recalibration.test.cjs",
   "words/sky.html", "words/aback.html", "words/abash.html", "words/abdomen.html", "words/sound.html", "words/universe.html", "css/sky-case.css",
   "words/namcha-barwa.html", "css/namcha-barwa.css",
   "images/namcha-barwa-west-cherry933.jpg", "images/namcha-barwa-literary-landscape.png",
@@ -38,7 +40,7 @@ const records = files.map((file) => {
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const manifest = {
   product: "Unilanguage Language Book + Semantic Mapper",
-  version: "1.2.22", dataset_version: dataset.dataset_version, created_at: "2026-09-07",
+  version: "1.2.23", dataset_version: dataset.dataset_version, created_at: "2026-09-08",
   canonical_dataset: "data/language-book.v1.0.json",
   canonical_schema: "data/language-book-entry.schema.v1.json",
   entry_count: dataset.entries.length,
@@ -48,4 +50,4 @@ const manifest = {
 };
 fs.writeFileSync(path.join(root, "data", "product-manifest.v1.0.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 fs.writeFileSync(path.join(root, "data", "product-checksums.v1.0.sha256"), `${records.map((record) => `${record.sha256}  ${record.path}`).join("\n")}\n`);
-console.log(`Product manifest v1.2.22 written · ${records.length} files`);
+console.log(`Product manifest v1.2.23 written · ${records.length} files`);

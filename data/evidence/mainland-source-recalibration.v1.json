@@ -1,0 +1,232 @@
+{
+  "work_id": "MAINLAND-CHINESE-LEXICOGRAPHIC-HISTORICAL-RECALIBRATION-1.0",
+  "title": "Mainland Chinese Lexicographic & Historical Evidence Recalibration v1.0｜大陆中文辞书与历史语言证据校准",
+  "author": "Jinkai Liu",
+  "effective_date": "2026-09-08",
+  "principle": "Meaning first, consonant second｜先定语义，再验辅音",
+  "entry_count_before": 37,
+  "entry_count_after": 37,
+  "candidate_upgrade_count": 0,
+  "source_catalog": [
+    {
+      "source_id": "SRC-GF-2013",
+      "title": "《通用规范汉字表》",
+      "organization": "中华人民共和国教育部、国家语言文字工作委员会",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201306/t20130601_186002.html",
+      "accessed": "2026-09-08",
+      "scope": ["orthography"],
+      "disposition": "adopted"
+    },
+    {
+      "source_id": "SRC-GBT-16159-2012",
+      "title": "GB/T 16159-2012《汉语拼音正词法基本规则》",
+      "organization": "国家标准化管理委员会",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=5645BD8DB9D8D73053AD3A2397E15E74",
+      "accessed": "2026-09-08",
+      "scope": ["orthography", "phonology"],
+      "boundary": "用于拼音正词法，不替代语音学转写或历史拟音。",
+      "disposition": "adopted"
+    },
+    {
+      "source_id": "SRC-ZDIC",
+      "title": "汉典",
+      "url": "https://www.zdic.net/",
+      "accessed": "2026-09-08",
+      "scope": ["modern_meaning", "historical_meaning", "phonology", "attestation"],
+      "boundary": "大陆数字辞书平台；每个字符使用具体条目 URL。古籍内容仅按平台转录层级使用，不视为直接校勘本。",
+      "disposition": "adopted_scoped"
+    },
+    {
+      "source_id": "SRC-NOPSS-SW-KINSHIP",
+      "title": "《明清以来西南官话区地方志方言俗语集成》中期检查报告",
+      "organization": "全国哲学社会科学工作办公室",
+      "url": "https://www.nopss.gov.cn/n1/2019/1216/c418049-31508103.html",
+      "published": "2019-12-16",
+      "accessed": "2026-09-08",
+      "scope": ["historical_meaning", "attestation"],
+      "boundary": "支持地方志所见父称的地域与历史多样性，不证明全国首见年代。",
+      "disposition": "adopted"
+    },
+    {
+      "source_id": "SRC-XDHYCD-7",
+      "title": "《现代汉语词典》第7版",
+      "organization": "中国社会科学院语言研究所词典编辑室",
+      "publisher": "商务印书馆",
+      "url": "https://www.cp.com.cn/book/b11d8b3e-f.html",
+      "accessed": "2026-09-08",
+      "scope": ["modern_meaning", "phonology"],
+      "boundary": "已核验版本元数据，未取得本次目标字词的可引用条目内容。",
+      "disposition": "desired_pending"
+    },
+    {
+      "source_id": "SRC-XHZD-13",
+      "title": "《新华字典》第13版",
+      "publisher": "商务印书馆",
+      "url": "https://www.cp.com.cn/book/491f612a-1.html",
+      "accessed": "2026-09-08",
+      "scope": ["modern_meaning", "orthography", "phonology"],
+      "boundary": "已核验版本元数据，未取得本次目标字的可引用条目内容。",
+      "disposition": "desired_pending"
+    },
+    {
+      "source_id": "SRC-HYCD-DB",
+      "title": "《汉语大词典》数据库",
+      "publisher": "上海辞书出版社",
+      "url": "https://www.cishu.com.cn/DB_List.aspx",
+      "accessed": "2026-09-08",
+      "scope": ["historical_meaning", "attestation"],
+      "boundary": "已核验数据库说明；未获得条目级访问，不能据产品介绍补写释义或书证。",
+      "disposition": "desired_pending"
+    },
+    {
+      "source_id": "SRC-HYDZD-2",
+      "title": "《汉语大字典》第二版",
+      "scope": ["historical_meaning", "attestation", "phonology"],
+      "boundary": "本轮未取得权威条目与可核验页码；版本细节和目标条目均待核。",
+      "disposition": "desired_pending"
+    },
+    {
+      "source_id": "SRC-CIYUAN-3",
+      "title": "《辞源》第三版",
+      "publisher": "商务印书馆",
+      "url": "https://www.cp.com.cn/book/91a742eb-0.html",
+      "accessed": "2026-09-08",
+      "scope": ["historical_meaning", "attestation", "phonology"],
+      "boundary": "已核验版本元数据，未取得本次目标字词的条目内容。",
+      "disposition": "desired_pending"
+    },
+    {
+      "source_id": "SRC-ZHENGZHANG-METHOD",
+      "title": "郑张尚芳学术介绍与上古音研究体系说明",
+      "organization": "中国社会科学院语言研究所",
+      "url": "https://ling.cass.cn/xueren/xzjs/202110/t20211029_5370449.html",
+      "accessed": "2026-09-08",
+      "scope": ["reconstruction"],
+      "boundary": "仅用于体系与学者元数据；本轮未从该页取得目标字拟音。",
+      "disposition": "method_metadata_only"
+    },
+    {
+      "source_id": "SRC-BAXTER-SAGART-2014",
+      "title": "Baxter–Sagart Old Chinese reconstruction, 2014",
+      "url": "https://sites.lsa.umich.edu/ocbaxtersagart/",
+      "accessed": "2026-09-08",
+      "scope": ["reconstruction"],
+      "boundary": "可作国际体系比较；目标字具体拟音尚未逐项提取核验。",
+      "disposition": "desired_pending"
+    }
+  ],
+  "claims": [
+    {
+      "entry": "ABANDON",
+      "claim_id": "ABANDON-MODERN-放弃",
+      "claim_type": "modern_meaning",
+      "decision": "retained_and_cross_checked",
+      "sources": ["SRC-ZDIC"],
+      "detail": "放、弃、抛、罢、办／辦、甭、般相关现代义按具体汉典条目核验；纸本规范辞书条目仍 pending。"
+    },
+    {
+      "entry": "ABANDON",
+      "claim_id": "BANDON-办-柄",
+      "claim_type": "historical_meaning",
+      "decision": "narrowed",
+      "sources": ["SRC-ZDIC"],
+      "detail": "柄／权柄支持 POWER/AUTHORITY；办仅支持处理／办理。bandon↔办保持 Candidate、Low（权力本义）/ Medium（处理语境），Historical Relation Not claimed。"
+    },
+    {
+      "entry": "ABANDON",
+      "claim_id": "DONNER-捅",
+      "claim_type": "modern_meaning",
+      "decision": "pending_author_usage",
+      "sources": ["SRC-ZDIC"],
+      "detail": "现行普通话条目未核验出稳定‘给’义；保留为 Original Author Usage Observation，不作标准义。"
+    },
+    {
+      "entry": "ABASH/BASH",
+      "claim_id": "怕-拍-modern-history",
+      "claim_type": "historical_meaning",
+      "decision": "replaced_and_scoped",
+      "sources": ["SRC-ZDIC"],
+      "detail": "现代义与平台转录的反切、古籍材料分层；b↔p 只用于跨语言候选实验，两个 Candidate 均未升级。"
+    },
+    {
+      "entry": "ABASH/BASH",
+      "claim_id": "怕-拍-reconstruction",
+      "claim_type": "reconstruction",
+      "decision": "pending",
+      "sources": ["SRC-ZHENGZHANG-METHOD", "SRC-BAXTER-SAGART-2014"],
+      "detail": "未取得逐字、逐体系可核验拟音，故不写拟音值。"
+    },
+    {
+      "entry": "ABBEY",
+      "claim_id": "父称-爸父爹爷",
+      "claim_type": "attestation",
+      "decision": "replaced_and_narrowed",
+      "sources": ["SRC-ZDIC", "SRC-NOPSS-SW-KINSHIP"],
+      "detail": "支持称谓义和地域／历史多样性；全国首见年代与统一替代时间线不再主张。ABBA↔爸保持 Candidate、Low，保留 baby-talk articulatory confound。"
+    },
+    {
+      "entry": "ABBEY",
+      "claim_id": "父称-reconstruction",
+      "claim_type": "reconstruction",
+      "decision": "pending",
+      "sources": ["SRC-ZHENGZHANG-METHOD", "SRC-BAXTER-SAGART-2014"],
+      "detail": "父、爸、爹、爷的命名体系拟音尚未逐条核验。"
+    },
+    {
+      "entry": "UNIVERSE",
+      "claim_id": "斡涡窝蜗周转",
+      "claim_type": "historical_meaning",
+      "decision": "retained_scoped",
+      "sources": ["SRC-ZDIC"],
+      "detail": "保留现代义与平台中介的历史材料；wò/wō 声义簇仍为 Candidate，不主张共同词源或拉汉历史关系。"
+    },
+    {
+      "entry": "UNIVERSE",
+      "claim_id": "斡涡窝蜗-reconstruction",
+      "claim_type": "reconstruction",
+      "decision": "pending",
+      "sources": ["SRC-ZHENGZHANG-METHOD", "SRC-BAXTER-SAGART-2014"],
+      "detail": "不以现代读音替代中古／上古拟音。"
+    },
+    {
+      "entry": "ABDOMEN",
+      "claim_id": "肚腹",
+      "claim_type": "historical_meaning",
+      "decision": "replaced_and_cross_checked",
+      "sources": ["SRC-ZDIC"],
+      "detail": "肚与腹的现代人体部位义已核验；历史材料按平台中介标注。abdomen↔肚保持 Candidate、Low，Historical Relation Not claimed。"
+    },
+    {
+      "entry": "ABERRANT",
+      "claim_id": "讹",
+      "claim_type": "modern_meaning",
+      "decision": "replaced",
+      "sources": ["SRC-ZDIC"],
+      "detail": "仅支持讹的错误／谬误义，不支持英汉历史同源。"
+    },
+    {
+      "entry": "SKY/LIGHT/AT",
+      "claim_id": "targeted-audit",
+      "claim_type": "modern_meaning",
+      "decision": "retained_no_mechanical_addition",
+      "sources": ["SRC-ZDIC", "SRC-GF-2013", "SRC-GBT-16159-2012"],
+      "detail": "只在现有 claim 需要处使用大陆平台或规范；不为数量平衡堆叠来源，状态不变。"
+    },
+    {
+      "entry": "NAMCHA BARWA",
+      "claim_id": "mainland-official-sources",
+      "claim_type": "attestation",
+      "decision": "retained",
+      "sources": [],
+      "detail": "既有大陆政府与科学院来源保留；本轮无引用迁移。"
+    }
+  ],
+  "global_pending": [
+    "《现代汉语词典》第7版目标条目",
+    "《新华字典》第13版目标字条目",
+    "《汉语大字典》第二版目标字条目与页码",
+    "《汉语大词典》目标词条与书证",
+    "《辞源》第三版目标条目",
+    "郑张尚芳体系与 Baxter–Sagart 2014 对目标字的逐字拟音比较"
+  ]
+}

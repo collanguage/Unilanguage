@@ -77,10 +77,11 @@ Priority = 8×risk + 6×source readiness + 6×reuse impact; each 1–5 (max 100)
 - [CNRTL/TLFi: abbé](https://www.cnrtl.fr/etymologie/abb%C3%A9) — external lexicographic reference; accessed 2026-08-30; independently rechecked 2026-09-07
 - [Dictionnaire de l’Académie française, 9e édition: abbé](https://www.cnrtl.fr/definition/academie9/abb%C3%A9) — Académie française dictionary text via CNRTL; accessed 2026-08-30; independently rechecked 2026-09-07
 - [Etymonline: abbey / abbot](https://www.etymonline.com/word/abbey) — Independently checked 2026-09-07. abbeie/abaïe; Late Latin label; father/my father gloss.
-- [《異體字字典》: 爸](https://dict.variants.moe.edu.tw/dictView.jsp?ID=26692&q=1) — Independently checked 2026-09-07. Father sense and historical dictionary witnesses; no first-attestation date inferred.
+- [汉典：爸](https://www.zdic.net/hans/爸) — Used for the modern father sense; platform-mediated historical material is not treated as a directly collated edition or first-attestation proof.
 - [Hendery and McConvell: Mama and papa in Indigenous Australia](https://researchers.westernsydney.edu.au/en/publications/mama-and-papa-in-indigenous-australia/) — Independently checked 2026-09-07. Research abstract discusses recurrent infant-speech explanation and need for family-specific historical investigation.
-- [《重編國語辭典修訂本》: 爹](https://dict.revised.moe.edu.tw/dictView.jsp?ID=2163&q=1&word=%E7%88%B9) — Independently checked 2026-09-07. Father, elder and colloquial grandfather senses.
-- [Academia Sinica character database: 爺](https://chardb.iis.sinica.edu.tw/char/15990) — Independently checked 2026-09-07. Father, dialectal grandfather and honorific senses; not a universal chronological sequence.
+- [汉典：爹](https://www.zdic.net/hans/爹) — Used for differentiated address senses; no universal replacement timeline inferred.
+- [汉典：爷](https://www.zdic.net/hans/爷) — Used for differentiated father, grandfather and honorific senses.
+- [《明清以来西南官话区地方志方言俗语集成》中期检查报告](https://www.nopss.gov.cn/n1/2019/1216/c418049-31508103.html) — Local-gazetteer evidence for regional father-term variation; not national first-attestation proof.
 
 Full machine-readable before/after, controls and queue: [manifest](../data/batches/legacy-entry-recalibration-001.v1.json).
 
@@ -94,10 +95,6 @@ Full machine-readable before/after, controls and queue: [manifest](../data/batch
 
 At the author’s request, the ABBEY Mapper/Dictionary heading now uses the established featured candidate pattern: abbey ↔ 爸 bà · 修道院. The immediately following label specifies Root-level phonetic-semantic candidate: ABBA ↔ 爸 (not whole-word equivalence). Standard translation remains Supported; root candidate remains Candidate / Low confidence / Not claimed. This reuses existing typography; the status renderer reads the independent translation status when available. The dedicated historical page retains its explicit ABBEY · 修道院 title.
 
-## Citation editorial audit · 2026-09-07
+## Chinese evidence recalibration · 2026-09-08
 
-ABBEY references now display 《異體字字典》：爸 and 《重編國語辭典修訂本》：爹. The 《集韻》 witness is recorded as mediated through 《異體字字典》, not a direct edition collation. ABANDON and bandon ↔ 办 retain their existing sources and grades; 《说文解字》新附 and 汉典 access are distinguished. No sources or entries were added. Stable source IDs, original hypotheses and all evidence/status decisions remain unchanged.
-
-Citation audit validation: 98 existing tests passed; deterministic dataset build, repository and Draft 2020-12 validators, strict HTML5, JavaScript syntax and affected-page links passed. Browser checks covered 3 citation pages, mobile width, 20 Mapper queries and Search/Dictionary. Dataset remains 37 records / 10 Published; source IDs, URLs, counts and all evidence grades are unchanged; frozen Mapper/Search/schema files are preserved.
-
-Citation ordering follow-up: list mainland dictionaries first when Chinese sources are displayed together, using specific book titles. This changes presentation order only. ABBEY and ABANDON currently do not cite 《现代汉语词典》, 《新华字典》, 《汉语大字典》 or 《汉语大词典》 as standalone sources, so none is added for ordering. Existing Zdic access and mediated classical witnesses are not relabeled as mainland dictionary editions. Evidence grades and source counts remain unchanged.
+Current Chinese references follow [Chinese Evidence Source Policy v1.0](standards/chinese-evidence-source-policy-v1.0.md). The active ABBEY record now uses verified mainland digital lexicographic entries plus a mainland scholarly project report for regional father-term variation. Platform-mediated historical material remains explicitly distinct from a directly collated edition. No Candidate was upgraded and no entry was added. Superseded citation details are not retained in this report; repository history provides technical traceability.

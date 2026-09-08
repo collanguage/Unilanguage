@@ -69,9 +69,10 @@
     },
     "source_refs": [
       "REF-CAMBRIDGE-ABDOMEN",
-      "REF-MOE-DUZI",
+      "REF-ZDIC-DU",
       "REF-UT-PINYIN-D",
-      "REF-JL-ABDOMEN-RAW"
+      "REF-JL-ABDOMEN-RAW",
+      "REF-ZDIC-FU"
     ]
   },
   "primary_mapping": {
@@ -198,14 +199,14 @@
           "confidence": "Low",
           "source_refs": [
             "REF-CAMBRIDGE-ABDOMEN",
-            "REF-MOE-DUZI",
+            "REF-ZDIC-DU",
             "REF-UT-PINYIN-D"
           ]
         }
       ],
       "source_refs": [
         "REF-CAMBRIDGE-ABDOMEN",
-        "REF-MOE-DUZI",
+        "REF-ZDIC-DU",
         "REF-UT-PINYIN-D",
         "REF-JL-ABDOMEN-RAW"
       ]
@@ -478,7 +479,7 @@
       "experiment_link": null,
       "source_refs": [
         "REF-CAMBRIDGE-ABDOMEN",
-        "REF-MOE-DUZI",
+        "REF-ZDIC-DU",
         "REF-UT-PINYIN-D",
         "REF-JL-ABDOMEN-RAW"
       ]
@@ -621,14 +622,6 @@
       "provenance": "external dictionary; accessed 2026-08-30"
     },
     {
-      "reference_id": "REF-MOE-DUZI",
-      "title": "《國語辭典簡編本》: 肚子",
-      "type": "official dictionary",
-      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=9339",
-      "path": null,
-      "provenance": "official language reference; accessed 2026-08-30 Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title."
-    },
-    {
       "reference_id": "REF-UT-PINYIN-D",
       "title": "University of Texas at Austin: Pitch Perfect Pinyin, d/t",
       "type": "university phonetics resource",
@@ -683,6 +676,22 @@
       "url": "https://languagesbook.com/glossary/abdomen/",
       "path": null,
       "provenance": "author-published legacy website; source merged without overwriting the independently reviewed record"
+    },
+    {
+      "reference_id": "REF-ZDIC-DU",
+      "title": "汉典：肚",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/肚",
+      "path": null,
+      "provenance": "汉典现行条目；用于肚的现代腹部义，以及平台转录的《广韵》《集韵》材料；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+    },
+    {
+      "reference_id": "REF-ZDIC-FU",
+      "title": "汉典：腹",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/腹",
+      "path": null,
+      "provenance": "汉典现行条目；用于腹的现代人体部位义及平台所列历史材料；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
     }
   ],
   "author": "Jinkai Liu",

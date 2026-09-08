@@ -199,7 +199,7 @@
           "confidence": "Low",
           "source_refs": [
             "REF-MW-ABBOT",
-            "REF-MOE-BA",
+            "REF-ZDIC-BA",
             "REF-KINSHIP-CONTROL"
           ]
         },
@@ -233,7 +233,7 @@
         "REF-CAMBRIDGE-ABBEY",
         "REF-JL-ABBEY-RAW",
         "REF-MW-ABBOT",
-        "REF-MOE-BA",
+        "REF-ZDIC-BA",
         "REF-KINSHIP-CONTROL"
       ]
     },
@@ -538,30 +538,6 @@
       "provenance": "Independently checked 2026-09-07. abbeie/abaïe; Late Latin label; father/my father gloss."
     },
     {
-      "reference_id": "REF-MOE-BA",
-      "title": "《異體字字典》: 爸",
-      "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26692&q=1",
-      "path": null,
-      "type": "research reference",
-      "provenance": "Independently checked 2026-09-07. Father sense and historical dictionary witnesses; no first-attestation date inferred. Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title. Cited historical witness: 《集韻》 via 《異體字字典》; not a direct edition collation."
-    },
-    {
-      "reference_id": "REF-MOE-DIE",
-      "title": "《重編國語辭典修訂本》: 爹",
-      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2163&q=1&word=%E7%88%B9",
-      "path": null,
-      "type": "research reference",
-      "provenance": "Independently checked 2026-09-07. Father, elder and colloquial grandfather senses. Responsible institution: Ministry of Education, R.O.C.; institution metadata is not the source title."
-    },
-    {
-      "reference_id": "REF-SINICA-YE",
-      "title": "Academia Sinica character database: 爺",
-      "url": "https://chardb.iis.sinica.edu.tw/char/15990",
-      "path": null,
-      "type": "research reference",
-      "provenance": "Independently checked 2026-09-07. Father, dialectal grandfather and honorific senses; not a universal chronological sequence."
-    },
-    {
       "reference_id": "REF-KINSHIP-CONTROL",
       "title": "Hendery and McConvell: Mama and papa in Indigenous Australia",
       "url": "https://researchers.westernsydney.edu.au/en/publications/mama-and-papa-in-indigenous-australia/",
@@ -576,6 +552,38 @@
       "path": null,
       "type": "research reference",
       "provenance": "Independently checked 2026-09-07. Bibliographic pointer for future full-text control review; not claimed read in full."
+    },
+    {
+      "reference_id": "REF-ZDIC-BA",
+      "title": "汉典：爸",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/爸",
+      "path": null,
+      "provenance": "汉典现行条目；用于爸的现代父称义；平台历史转录不作为首见年代证明；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+    },
+    {
+      "reference_id": "REF-ZDIC-DIE",
+      "title": "汉典：爹",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/爹",
+      "path": null,
+      "provenance": "汉典现行条目；用于爹的父称及其他称呼义；不推导全国统一替代时间线；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+    },
+    {
+      "reference_id": "REF-ZDIC-YE",
+      "title": "汉典：爷",
+      "type": "mainland digital lexicographic platform",
+      "url": "https://www.zdic.net/hans/爷",
+      "path": null,
+      "provenance": "汉典现行条目；用于爷的父亲、祖父与尊称等分层义；不推导全国统一替代时间线；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+    },
+    {
+      "reference_id": "REF-NOPSS-SW-KINSHIP",
+      "title": "《明清以来西南官话区地方志方言俗语集成》中期检查报告",
+      "type": "mainland scholarly project report",
+      "url": "https://www.nopss.gov.cn/n1/2019/1216/c418049-31508103.html",
+      "path": null,
+      "provenance": "全国哲学社会科学工作办公室，2019-12-16；accessed 2026-09-08. 报告引地方志父称材料，用于证明区域与历史变异存在；不用于确定各称谓全国首见年代。"
     }
   ],
   "author": "Jinkai Liu",
@@ -753,7 +761,7 @@
       },
       "source_refs": [
         "REF-MW-ABBOT",
-        "REF-MOE-BA",
+        "REF-ZDIC-BA",
         "REF-KINSHIP-CONTROL"
       ]
     },
@@ -763,15 +771,16 @@
       "zh-Hans": "该词族最终经希腊语和拉丁语追溯至阿拉姆语 abba，形成法语和英语分支。abbey 是英语机构词，不是“犹太语 abbey”或“犹太人称牧师 abbey”。"
     },
     "kinship_research_note": {
-      "status": "Scoped dictionary evidence; historical dating and reconstructions in Research Queue",
+      "status": "Scoped mainland platform and scholarly evidence; earliest dating and named reconstructions remain pending",
       "note": {
-        "en": "父 / 爸 / 爹 / 爷 have different roles by period, dialect and register. 爸 has historical dictionary witnesses; do not infer a recent foreign borrowing or a first attestation from the modern form. 爹 includes father and other address senses; 爷 includes father, grandfather and honorific senses, not one universal replacement timeline. Modern dialects are not frozen copies of ancient Chinese.",
-        "zh-Hans": "父／爸／爹／爷在时期、方言与语体中的角色不同。爸有历史字书见证；不能据现代形式断言近代外来或首见年代。爹有父亲及其他称呼义；爷有父亲、祖父、尊称等义，不能概括成全国统一的替代时间线。现代方言不是古汉语冻结复制品。"
+        "en": "父 / 爸 / 爹 / 爷 vary by period, region, dialect and register. Current mainland platform entries document their differentiated senses, while an official research-project report reproduces local-gazetteer evidence of 爹 / 爷 / 爸 as regional father terms. This supports diversity, not a universal replacement timeline or an earliest national attestation. Modern dialects are living diachronic evidence windows, not frozen copies of ancient Chinese.",
+        "zh-Hans": "父／爸／爹／爷随时期、地域、方言与语体而异。大陆现行数字辞书条目记录其分层义项，国家社科基金项目报告所引地方志材料还显示爹／爷／爸作为地域父称并存。这支持多样性，不证明全国统一替代时间线或全国最早书证。现代方言是活态历时证据窗口，不是古汉语的冻结复制品。"
       },
       "source_refs": [
-        "REF-MOE-BA",
-        "REF-MOE-DIE",
-        "REF-SINICA-YE"
+        "REF-ZDIC-BA",
+        "REF-ZDIC-DIE",
+        "REF-ZDIC-YE",
+        "REF-NOPSS-SW-KINSHIP"
       ],
       "research_queue": [
         "父 and 母/妈/娘: source-by-source historical/register comparison",
@@ -798,7 +807,7 @@
     },
     "source_refs": [
       "REF-MW-ABBOT",
-      "REF-MOE-BA",
+      "REF-ZDIC-BA",
       "REF-KINSHIP-CONTROL"
     ]
   }
