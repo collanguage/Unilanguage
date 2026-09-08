@@ -38,7 +38,7 @@ const records = files.map((file) => {
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const manifest = {
   product: "Unilanguage Language Book + Semantic Mapper",
-  version: "1.2.19", dataset_version: dataset.dataset_version, created_at: "2026-09-07",
+  version: "1.2.20", dataset_version: dataset.dataset_version, created_at: "2026-09-07",
   canonical_dataset: "data/language-book.v1.0.json",
   canonical_schema: "data/language-book-entry.schema.v1.json",
   entry_count: dataset.entries.length,
@@ -48,4 +48,4 @@ const manifest = {
 };
 fs.writeFileSync(path.join(root, "data", "product-manifest.v1.0.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 fs.writeFileSync(path.join(root, "data", "product-checksums.v1.0.sha256"), `${records.map((record) => `${record.sha256}  ${record.path}`).join("\n")}\n`);
-console.log(`Product manifest v1.2.19 written · ${records.length} files`);
+console.log(`Product manifest v1.2.20 written · ${records.length} files`);
