@@ -181,3 +181,18 @@ Mapper featured_mapping now reads bandon ↔ 办 bàn; primary_mapping still car
 The Revised Mandarin Chinese Dictionary, published by Taiwan’s Ministry of Education, lists 柄 sense 6 as power and cites Ban Biao’s 王命论 using 权柄. This supports the Chinese lexical meaning only. The cross-language comparison and High semantic-fit grade are editorial judgments, not the dictionary’s endorsement.
 
 来源为台湾教育部《重编国语辞典修订本》：“柄”名词第6义释为“权力”，并引班彪《王命论》的“权柄”用例。这仅支持汉语词义；跨语言比较及 High 语义适配评分是本项目的编辑判断，不是该词典对映射的认可。
+
+
+## Whole-word and root mapping · dataset 1.2.19
+
+Hero: abandon ↔ 放 fàng. Standard Translation: 放弃 / 抛弃 / 离弃 / 遗弃. Root Mapping Candidate: bandon ↔ 办 bàn. Both remain Candidate / Low confidence / Historical Relation: Not claimed.
+
+Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.
+
+整词映射：abandon ↔ 放 fàng。先按 LET GO／RELEASE 选择“放”，再比较声音。CNRTL 记法语词史中约1100年的松开缰绳义；汉语“放”另有独立的释放义证据。这是限定语义的历时联系，不表示单字“放”可翻译 abandon 的所有现代用法。
+
+Compare the /b/ after initial /ə/ in English abandon with Mandarin f /f/ in fàng: b ↔ f falls within the proposed b-p-m-f group. This is a medial-to-initial segment comparison, not whole-word homophony; voicing, place/manner, remaining segments and tone differ. Group membership does not prove a sound law or historical relation.
+
+比较英语 abandon 起始 /ə/ 后的 /b/ 与普通话 fàng 的 f /f/：b ↔ f 落入候选 b-p-m-f 组。这是词中到词首的片段比较，不是整词同音；清浊、发音部位／方式、其余音段及声调存在差异。同组不证明音变规律或历史关系。
+
+Meaning first, consonant second. These two observations are not independent etymological cases.

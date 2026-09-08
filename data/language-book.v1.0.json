@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "1.2.18",
+  "dataset_version": "1.2.19",
   "published_at": "2026-09-07",
   "product": {
     "en": "Language Book: a cross-language comparable semantic database",
@@ -5793,8 +5793,8 @@
           "zh-Hans": "放弃／抛弃／离弃；依语境亦译遗弃"
         },
         "meaning": {
-          "en": "Historical Semantic Path: BANDON → À BANDON → ABANDONNER → ABANDON. Independent cross-language candidate: bandon ↔ 办 bàn — Phonetic-Semantic Candidate; POWER/AUTHORITY semantic fit Low, contextual handling fit Medium. Meaning first, consonant second. Historical Relation: Not claimed. Active Association and related ban/banal candidates are retained.",
-          "zh-Hans": "历史语义路径：BANDON → À BANDON → ABANDONNER → ABANDON。独立跨语言候选：bandon ↔ 办 bàn，Phonetic-Semantic Candidate；权力本义适配 Low，处理语境适配 Medium。先定语义，再验辅音。Historical Relation: Not claimed。保留主动联系及 ban／banal 相关候选。"
+          "en": "Whole-word mapping: abandon ↔ 放 fàng, selected by LET GO/RELEASE semantics, then compared as b ↔ f. Root mapping: bandon ↔ 办 bàn, independently evaluated. Both are Phonetic-Semantic Candidates with Historical Relation: Not claimed. Standard Translation: 放弃 / 抛弃 / 离弃 / 遗弃 (Supported). Active Association and related candidates remain secondary.",
+          "zh-Hans": "整词映射 abandon ↔ 放 fàng：先依据 LET GO／RELEASE，再比较 b ↔ f。词根映射 bandon ↔ 办 bàn 独立评估。两者均为 Phonetic-Semantic Candidate，Historical Relation: Not claimed。标准翻译为放弃／抛弃／离弃／遗弃（Supported）；主动联系及相关候选保留为次级。"
         },
         "mapping_type": "Supported standard translation; separate Active Association and related candidates",
         "rationale": {
@@ -5882,10 +5882,38 @@
           "status": "Candidate",
           "confidence": "Low",
           "summary": {
-            "en": "Historical Semantic Path: BANDON → À BANDON → ABANDONNER → ABANDON. Independent cross-language candidate: bandon ↔ 办 bàn — Phonetic-Semantic Candidate; POWER/AUTHORITY semantic fit Low, contextual handling fit Medium. Meaning first, consonant second. Historical Relation: Not claimed. Active Association and related ban/banal candidates are retained.",
-            "zh-Hans": "历史语义路径：BANDON → À BANDON → ABANDONNER → ABANDON。独立跨语言候选：bandon ↔ 办 bàn，Phonetic-Semantic Candidate；权力本义适配 Low，处理语境适配 Medium。先定语义，再验辅音。Historical Relation: Not claimed。保留主动联系及 ban／banal 相关候选。"
+            "en": "Whole-word mapping: abandon ↔ 放 fàng, selected by LET GO/RELEASE semantics, then compared as b ↔ f. Root mapping: bandon ↔ 办 bàn, independently evaluated. Both are Phonetic-Semantic Candidates with Historical Relation: Not claimed. Standard Translation: 放弃 / 抛弃 / 离弃 / 遗弃 (Supported). Active Association and related candidates remain secondary.",
+            "zh-Hans": "整词映射 abandon ↔ 放 fàng：先依据 LET GO／RELEASE，再比较 b ↔ f。词根映射 bandon ↔ 办 bàn 独立评估。两者均为 Phonetic-Semantic Candidate，Historical Relation: Not claimed。标准翻译为放弃／抛弃／离弃／遗弃（Supported）；主动联系及相关候选保留为次级。"
           },
           "items": [
+            {
+              "evidence_id": "MAP-ABANDON-FANG-PHONETICS",
+              "claim": {
+                "en": "Compare the /b/ after initial /ə/ in English abandon with Mandarin f /f/ in fàng: b ↔ f falls within the proposed b-p-m-f group. This is a medial-to-initial segment comparison, not whole-word homophony; voicing, place/manner, remaining segments and tone differ. Group membership does not prove a sound law or historical relation.",
+                "zh-Hans": "比较英语 abandon 起始 /ə/ 后的 /b/ 与普通话 fàng 的 f /f/：b ↔ f 落入候选 b-p-m-f 组。这是词中到词首的片段比较，不是整词同音；清浊、发音部位／方式、其余音段及声调存在差异。同组不证明音变规律或历史关系。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-CNRTL-ABANDONNER",
+                "REF-ZDIC-FANG",
+                "REF-MW-ABANDON"
+              ]
+            },
+            {
+              "evidence_id": "MAP-ABANDON-FANG-SEMANTICS",
+              "claim": {
+                "en": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+                "zh-Hans": "整词映射：abandon ↔ 放 fàng。先按 LET GO／RELEASE 选择“放”，再比较声音。CNRTL 记法语词史中约1100年的松开缰绳义；汉语“放”另有独立的释放义证据。这是限定语义的历时联系，不表示单字“放”可翻译 abandon 的所有现代用法。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-CNRTL-ABANDONNER",
+                "REF-ZDIC-FANG",
+                "REF-MW-ABANDON"
+              ]
+            },
             {
               "evidence_id": "PHONSEM-ABANDON-001",
               "claim": {
@@ -5960,7 +5988,10 @@
             "REF-ZDIC-YIBAN",
             "REF-CNRTL-ABANDON",
             "REF-ZDIC-BAN-HANDLE",
-            "REF-ZDIC-BAN-TRADITIONAL"
+            "REF-ZDIC-BAN-TRADITIONAL",
+            "REF-CNRTL-ABANDONNER",
+            "REF-ZDIC-FANG",
+            "REF-MW-ABANDON"
           ]
         },
         "Cognitive": {
@@ -6042,6 +6073,18 @@
         }
       },
       "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABANDON-FANG-001",
+          "claim": {
+            "en": "Compare the /b/ after initial /ə/ in English abandon with Mandarin f /f/ in fàng: b ↔ f falls within the proposed b-p-m-f group. This is a medial-to-initial segment comparison, not whole-word homophony; voicing, place/manner, remaining segments and tone differ. Group membership does not prove a sound law or historical relation.",
+            "zh-Hans": "比较英语 abandon 起始 /ə/ 后的 /b/ 与普通话 fàng 的 f /f/：b ↔ f 落入候选 b-p-m-f 组。这是词中到词首的片段比较，不是整词同音；清浊、发音部位／方式、其余音段及声调存在差异。同组不证明音变规律或历史关系。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+            "zh-Hans": "整词映射：abandon ↔ 放 fàng。先按 LET GO／RELEASE 选择“放”，再比较声音。CNRTL 记法语词史中约1100年的松开缰绳义；汉语“放”另有独立的释放义证据。这是限定语义的历时联系，不表示单字“放”可翻译 abandon 的所有现代用法。"
+          }
+        },
         {
           "observation_id": "PHON-ABANDON-001",
           "claim": {
@@ -6254,6 +6297,34 @@
         }
       ],
       "hypotheses": [
+        {
+          "hypothesis_id": "HYP-ABANDON-FANG-001",
+          "type": "Whole-word Phonetic-Semantic Candidate",
+          "claim": {
+            "en": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+            "zh-Hans": "整词映射：abandon ↔ 放 fàng。先按 LET GO／RELEASE 选择“放”，再比较声音。CNRTL 记法语词史中约1100年的松开缰绳义；汉语“放”另有独立的释放义证据。这是限定语义的历时联系，不表示单字“放”可翻译 abandon 的所有现代用法。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "historical_relation_status": "Not claimed",
+          "supporting_cases": [
+            "Scoped LET GO/RELEASE semantic bridge; not experimental confirmation"
+          ],
+          "counterexamples": [
+            "放 alone does not cover all modern abandon senses",
+            "Medial /b/ versus initial /f/; unmatched remaining segments and tone"
+          ],
+          "testability": {
+            "en": "Meaning first, consonant second. Predeclare the compared positions and meanings, collect positive/negative cases and matched controls, and deduplicate etymological families. Whole-word and root observations within this entry are not independent historical cases.",
+            "zh-Hans": "先定语义，再验辅音。预先声明比较位置与词义，收集正反例和匹配控制，按词源家族去重。本词条的整词与词根观察不是独立历史案例。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-CNRTL-ABANDONNER",
+            "REF-ZDIC-FANG",
+            "REF-MW-ABANDON"
+          ]
+        },
         {
           "hypothesis_id": "HYP-BPMF-CONSONANT-GROUP",
           "type": "Cross-language consonant correspondence hypothesis / case link",
@@ -6676,7 +6747,7 @@
         }
       ],
       "author": "Jinkai Liu",
-      "version": "ABANDON Meaning-First Mapping v1.1 / Schema v1.0",
+      "version": "ABANDON Whole-Word and Root Mapping v1.0 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-07",
@@ -6774,7 +6845,10 @@
         "先定语义，再验辅音",
         "d-t-n-l",
         "g-k-h",
-        "z-c-s"
+        "z-c-s",
+        "放",
+        "fàng",
+        "abandon ↔ 放"
       ],
       "page": "words/abandon.html",
       "legacy": {
@@ -6804,20 +6878,20 @@
       ],
       "active_association_status": "Author-proposed / Cognitive association",
       "featured_mapping": {
-        "source": "bandon",
-        "target": "办",
-        "reading": "bàn",
+        "source": "abandon",
+        "target": "放",
+        "reading": "fàng",
         "status": "Phonetic-Semantic Candidate · Low confidence",
         "historical_relation": "Not claimed",
-        "display_label": "ABANDON root candidate｜词根候选 · b ↔ b · Meaning first, consonant second.",
+        "display_label": "Whole-word mapping · 整词映射 · LET GO / RELEASE → 放 · b ↔ f Candidate",
         "source_refs": [
-          "REF-CNRTL-ABANDON",
-          "REF-ZDIC-BAN-HANDLE",
-          "REF-ZDIC-BAN-TRADITIONAL"
+          "REF-CNRTL-ABANDONNER",
+          "REF-ZDIC-FANG",
+          "REF-MW-ABANDON"
         ],
         "boundary": {
-          "en": "Semantic Path studies how one word’s historical meanings develop. Consonant Group Mapping compares an English/French historical word or root with the pronunciation of a semantically selected Chinese candidate. These are independent analyses. The b-p-m-f, d-t-n-l, g-k-h and z-c-s groups predict cross-language sound correspondences, not membership of every Chinese word in one path.",
-          "zh-Hans": "Semantic Path 研究一个词的历史语义怎样发展。Consonant Group Mapping 比较英／法历史词或词根与按语义选出的汉语候选词读音。两者独立；b-p-m-f、d-t-n-l、g-k-h、z-c-s 等组预测跨语言声音对应，不要求汉语路径中的每个字属于同组。"
+          "en": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+          "zh-Hans": "整词映射：abandon ↔ 放 fàng。先按 LET GO／RELEASE 选择“放”，再比较声音。CNRTL 记法语词史中约1100年的松开缰绳义；汉语“放”另有独立的释放义证据。这是限定语义的历时联系，不表示单字“放”可翻译 abandon 的所有现代用法。"
         }
       },
       "revision_history": [
@@ -7118,7 +7192,46 @@
               "source_refs": [
                 "REF-MOE-BING"
               ]
-            }
+            },
+            "mapping_scope": "root"
+          },
+          {
+            "candidate_id": "MAP-ABANDON-FANG-001",
+            "mapping_scope": "whole-word",
+            "source_unit": "abandon",
+            "source_language": "English; French historical semantic evidence",
+            "target": "放",
+            "reading": "fàng",
+            "status": "Phonetic-Semantic Candidate",
+            "historical_relation": "Not claimed",
+            "semantic_evaluation": {
+              "en": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+              "zh-Hans": "整词映射：abandon ↔ 放 fàng。先按 LET GO／RELEASE 选择“放”，再比较声音。CNRTL 记法语词史中约1100年的松开缰绳义；汉语“放”另有独立的释放义证据。这是限定语义的历时联系，不表示单字“放”可翻译 abandon 的所有现代用法。"
+            },
+            "consonant_comparison": {
+              "source_segment": "medial /b/ after /ə/ in abandon",
+              "target_segment": "initial f /f/ in fàng",
+              "label": "b ↔ f · b-p-m-f Candidate group",
+              "predicted_group": "b-p-m-f",
+              "group_fit": "Within proposed group; not a sound law",
+              "phonetic_evidence_status": "Modern pronunciation comparison; no historical sound correspondence established",
+              "note": {
+                "en": "Compare the /b/ after initial /ə/ in English abandon with Mandarin f /f/ in fàng: b ↔ f falls within the proposed b-p-m-f group. This is a medial-to-initial segment comparison, not whole-word homophony; voicing, place/manner, remaining segments and tone differ. Group membership does not prove a sound law or historical relation.",
+                "zh-Hans": "比较英语 abandon 起始 /ə/ 后的 /b/ 与普通话 fàng 的 f /f/：b ↔ f 落入候选 b-p-m-f 组。这是词中到词首的片段比较，不是整词同音；清浊、发音部位／方式、其余音段及声调存在差异。同组不证明音变规律或历史关系。"
+              }
+            },
+            "scores": {
+              "semantic_fit_let_go_release": "High",
+              "semantic_fit_all_modern_abandon_senses": "Limited / context-dependent",
+              "consonant_group_fit": "Within proposed group",
+              "overall_confidence": "Low",
+              "scale": "Editorial categories; no experimental measurement"
+            },
+            "source_refs": [
+              "REF-CNRTL-ABANDONNER",
+              "REF-ZDIC-FANG",
+              "REF-MW-ABANDON"
+            ]
           }
         ],
         "independent_observations": {

@@ -23,11 +23,11 @@ test('ABANDON reuses its record and related terms resolve without new published 
 test('translation, association, candidate and rejected segmentation states remain independent',()=>{
   assert.equal(entry.translation_status,'Supported');
   assert.equal(entry.mapping_status,'Supported');
-  assert.equal(entry.featured_mapping.target,'办');
-  assert.equal(entry.featured_mapping.source,'bandon');
+  assert.equal(entry.featured_mapping.target,'放');
+  assert.equal(entry.featured_mapping.source,'abandon');
   assert.equal(entry.primary_mapping.source.word,'abandon');
   assert.equal(entry.featured_mapping.historical_relation,'Not claimed');
-  assert.match(entry.featured_mapping.display_label,/root candidate/);
+  assert.match(entry.featured_mapping.display_label,/Whole-word mapping/);
   assert.match(entry.primary_mapping.target.word,/放弃.*抛弃.*离弃/);
   assert.ok(!entry.primary_mapping.target.word.includes('甭'));
   assert.equal(entry.hypotheses.find(h=>h.hypothesis_id==='UNI-LEGACY-ABANDON-001').status,'Rejected');
@@ -69,6 +69,15 @@ test('meaning-first mapping separates historical development from cross-language
   assert.ok(!h.historical_stages[0].meaning.includes('RELEASE'));
   assert.ok(!h.consonant_constrained_path&&!h.semantic_best_path);
   assert.equal(c.workflow.length,7);
+  const whole=c.candidates.find(x=>x.mapping_scope==='whole-word');
+  assert.equal(whole.source_unit,'abandon');
+  assert.equal(whole.target,'放');
+  assert.equal(whole.reading,'fàng');
+  assert.equal(whole.historical_relation,'Not claimed');
+  assert.match(whole.semantic_evaluation.en,/LET GO.*RELEASE before comparing sound/);
+  assert.match(whole.consonant_comparison.label,/b ↔ f/);
+  assert.match(whole.consonant_comparison.source_segment,/medial/);
+  assert.equal(c.candidates.find(x=>x.mapping_scope==='root').target,'办 / 辦');
   assert.deepEqual(c.predicted_groups,['b-p-m-f','d-t-n-l','g-k-h','z-c-s']);
   const candidate=c.candidates[0];
   assert.equal(candidate.source_unit,'bandon');
@@ -89,7 +98,7 @@ test('meaning-first mapping separates historical development from cross-language
 test('corrected record and page expose the candidate without a Chinese constraint path',()=>{
   for(const q of ['bandon','办','辦','柄','权柄','ban','甭','banal','一般'])assert.equal(api.lookup(dataset,q).entry.id,entry.id,q);
   const page=fs.readFileSync(path.join(root,entry.page),'utf8');
-  assert.match(page,/<h1>ABANDON · 放弃<\/h1>/);
+  assert.match(page,/<h1>abandon ↔ 放 <small>fàng<\/small><\/h1>/);
   assert.ok(!page.includes('id="consonant-constrained-path"'));
   assert.ok(!page.includes('id="semantic-best-path"'));
   assert.ok(!entry.semantic_structure.relation.includes('柄'));
