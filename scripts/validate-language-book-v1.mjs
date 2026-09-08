@@ -104,11 +104,11 @@ check(universe?.hypotheses?.find((item) => item.hypothesis_id === "HYP-UNIVERSE-
 check(universe?.hypotheses?.find((item) => item.hypothesis_id === "HYP-UNIVERSE-SPIRAL-001")?.counterexamples?.some((item) => /Scientific claim/.test(item)), "Universe scientific-claim boundary missing");
 for (const term of ["universus", "uni", "vers", "vert", "turn", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) check(universe?.search_terms?.includes(term), `Universe search term missing: ${term}`);
 const abbey = dataset.entries.find((entry) => entry.slug === "abbey");
-check(abbey?.entry_status === "Reviewed" && abbey?.mapping_status === "Reviewed" && abbey?.mapping_level === "Unrated", "Abbey editorial/mapping classification changed");
+check(abbey?.entry_status === "Reviewed" && abbey?.mapping_status === "Candidate" && abbey?.mapping_level === "Unrated" && abbey?.translation_status === "Supported", "Abbey translation and root candidate must be independently classified");
 check(abbey?.primary_mapping.target.word === "修道院", "Abbey primary mapping must remain the standard Chinese equivalent");
 check(abbey?.historical_relation_status === "Not claimed" && abbey?.evidence?.Historical?.status === "Established", "Abbey historical word history must remain separate from cross-language historical relation");
 check(abbey?.evidence?.["Phonetic-Semantic"]?.confidence === "Low", "Abbey modern-form resemblance must remain low confidence");
-check(abbey?.literary_layer?.status === "Reviewed" && abbey?.literary_layer?.is_historical_evidence === false, "Abbey literary boundary changed");
+check(abbey?.literary_layer?.status === "Published" && abbey?.literary_layer?.is_historical_evidence === false, "Abbey published literature must remain non-etymological");
 check(/蓓蕾/.test(abbey?.source?.raw_note || ""), "Abbey author source/raw note missing");
 const aberrant = dataset.entries.find((entry) => entry.slug === "aberrant");
 check(aberrant?.entry_status === "Reviewed" && aberrant?.mapping_status === "Reviewed", "Aberrant lexical mapping classification changed");

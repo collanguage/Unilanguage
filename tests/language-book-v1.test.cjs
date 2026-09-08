@@ -329,13 +329,13 @@ test("Dataset Expansion v1 abbey sample separates lexical, historical, phonetic 
   }
   const abbey = dataApi.lookup(dataset, "abbey").entry;
   assert.equal(abbey.entry_status, "Reviewed");
-  assert.equal(abbey.mapping_status, "Reviewed");
+  assert.equal(abbey.mapping_status, "Candidate");
   assert.equal(abbey.mapping_level, "Unrated");
   assert.equal(abbey.primary_mapping.target.word, "修道院");
   assert.equal(abbey.historical_relation_status, "Not claimed");
   assert.equal(abbey.evidence.Historical.status, "Established");
   assert.equal(abbey.evidence["Phonetic-Semantic"].confidence, "Low");
-  assert.equal(abbey.literary_layer.status, "Reviewed");
+  assert.equal(abbey.literary_layer.status, "Published");
   assert.equal(abbey.literary_layer.is_historical_evidence, false);
   assert.match(abbey.source.raw_note, /蓓蕾/);
 });

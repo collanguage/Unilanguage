@@ -8163,8 +8163,8 @@
       "id": "LB-en-abbey-010",
       "slug": "abbey",
       "title": {
-        "en": "Abbey · Monastery · Bud",
-        "zh-Hans": "Abbey · 修道院 · 蓓蕾"
+        "en": "ABBEY · Monastery · A Diachronic Root Path",
+        "zh-Hans": "ABBEY · 修道院 · 历时词根路径"
       },
       "languages": [
         {
@@ -8222,6 +8222,20 @@
           "name": "Chinese",
           "word": "蓓／蓓蕾",
           "pronunciation": "bèi /peɪ̯˥˩/ · bèilěi"
+        },
+        {
+          "role": "root-level-candidate",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "爸",
+          "pronunciation": "bà /pa˥˩/"
+        },
+        {
+          "role": "historical-root",
+          "code": "arc",
+          "name": "Aramaic",
+          "word": "abba",
+          "pronunciation": "Transliteration; historical phonetic detail pending"
         }
       ],
       "primary_mapping": {
@@ -8241,17 +8255,17 @@
           "zh-Hans": "由男修道院院长或女修道院院长主持的修道院，也可指其建筑或教堂"
         },
         "meaning": {
-          "en": "The primary Chinese lexical equivalent is 修道院. 比, 笔 and 蓓 are not standard translations.",
-          "zh-Hans": "主要汉语词义对应是“修道院”；“比”“笔”“蓓”都不是标准翻译。"
+          "en": "Standard Translation: abbey → 修道院 / 修院 · Supported. Root Mapping Candidate: ABBA ↔ 爸 bà (FATHER). Kinship control: early-child speech resemblance; historical Aramaic–Chinese relation Not claimed.",
+          "zh-Hans": "标准翻译：abbey → 修道院／修院 · Supported。词根候选：ABBA ↔ 爸 bà（父亲）。亲属称谓控制：早期儿童发音相似；阿拉姆语与汉语历史关系 Not claimed。"
         },
-        "mapping_type": "Reviewed lexical equivalent",
+        "mapping_type": "Standard Translation · Supported; root candidate separately graded",
         "rationale": {
-          "en": "Authoritative English and French dictionaries define the word as a monastic institution. The Chinese target records that ordinary lexical meaning; sound and literary candidates remain separate observations.",
-          "zh-Hans": "权威英语、法语词典均把该词定义为修道制度中的机构。汉语目标记录普通词义对应；声音候选与文学候选另轨保存。"
+          "en": "The institution meaning and the FATHER root candidate are independently classified. Meaning first, consonant second. The abbey translation does not change to 爸.",
+          "zh-Hans": "机构词义与 FATHER 词根候选分别分级。Meaning first, consonant second.｜先定语义，再验辅音。abbey 的译词不改为爸。"
         }
       },
       "entry_status": "Reviewed",
-      "mapping_status": "Reviewed",
+      "mapping_status": "Candidate",
       "mapping_level": "Unrated",
       "historical_relation_status": "Not claimed",
       "evidence": {
@@ -8302,6 +8316,20 @@
                 "REF-AF-ABBESSE",
                 "REF-CNRTL-ABBESSE"
               ]
+            },
+            {
+              "evidence_id": "HIST-ABBATIA-OFFICE-004",
+              "claim": {
+                "en": "CNRTL distinguishes abbatia as office/dignity of an abbot from the monastery sense. The requested Late Latin label and Merriam-Webster’s Medieval Latin label are retained with source attribution.",
+                "zh-Hans": "CNRTL 区分 abbatia 的院长职务／尊位义与修道院义；晚期拉丁语和 Merriam-Webster 的中世纪拉丁语标签分别归属来源。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-CNRTL-ABBAYE",
+                "REF-MW-ABBEY",
+                "REF-ETYMONLINE-ABBEY"
+              ]
             }
           ],
           "source_refs": [
@@ -8318,10 +8346,24 @@
           "status": "Candidate",
           "confidence": "Low",
           "summary": {
-            "en": "Modern abbey /ˈæbi/ has a surface-final resemblance to Mandarin bǐ /pi/; French abbaye /a.be.i/ and abbé /a.be/ can also sound loosely similar to bi/bei. These are non-systematic modern-form resemblances. 比 and 笔 lack the required lexical meaning; 蓓 gains relevance only through a literary metaphor.",
-            "zh-Hans": "现代英语 abbey /ˈæbi/ 的词尾与普通话 bǐ /pi/ 有表面近似；法语 abbaye /a.be.i/、abbé /a.be/ 与 bi／bei 也可能产生宽泛听感近似。这些都不是系统音变。“比”“笔”缺少所需词义，“蓓”只通过文学隐喻获得关联。"
+            "en": "Kinship control: recurrent early-child / baby-talk articulatory patterns are an alternative explanation for similar father/mother terms across languages. ABBA ↔ 爸 is a root-level Phonetic-Semantic Candidate, not abbey’s translation and not evidence of Aramaic–Chinese cognacy. Historical Relation: Not claimed. This control is not a demonstrated origin story for this particular pair.",
+            "zh-Hans": "亲属称谓控制：跨语言父母称谓常出现相似的早期儿童／婴儿语发音模式，构成替代解释。ABBA ↔ 爸是词根级音义候选，不是 abbey 的标准翻译，也不是阿拉姆语与汉语历史同源的证据。Historical Relation: Not claimed。控制因素不等于已证明此词对的具体起源。"
           },
           "items": [
+            {
+              "evidence_id": "PHONSEM-ABBA-BA-001",
+              "claim": {
+                "en": "Select 爸 for FATHER before inspecting sound; retain 父 / 爹 / 爷 as semantic alternatives even outside the proposed group.",
+                "zh-Hans": "先按 FATHER 选择爸，再检查声音；父／爹／爷作为语义备选保留，不因不符合辅音组而排除。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-MW-ABBOT",
+                "REF-MOE-BA",
+                "REF-KINSHIP-CONTROL"
+              ]
+            },
             {
               "evidence_id": "PHONSEM-ABBEY-BI-001",
               "claim": {
@@ -8350,7 +8392,10 @@
           ],
           "source_refs": [
             "REF-CAMBRIDGE-ABBEY",
-            "REF-JL-ABBEY-RAW"
+            "REF-JL-ABBEY-RAW",
+            "REF-MW-ABBOT",
+            "REF-MOE-BA",
+            "REF-KINSHIP-CONTROL"
           ]
         },
         "Cognitive": {
@@ -8539,7 +8584,7 @@
       ],
       "experiments": [],
       "literary_layer": {
-        "status": "Reviewed",
+        "status": "Published",
         "is_historical_evidence": false,
         "proposition": {
           "en": "An abbey is a place where the soul is cultivated like a bud opening toward a rose.",
@@ -8552,7 +8597,8 @@
         "evidence_boundary": {
           "en": "The bud, rose and spiritual-growth image is authored literature. It is searchable and preserved, but it is not lexical translation, historical etymology or independent semantic evidence.",
           "zh-Hans": "蓓蕾、玫瑰与灵魂成长的意象属于作者文学创作。它可检索、被保留，但不是词义翻译、历史词源或独立语义证据。"
-        }
+        },
+        "authorship_status": "Author-proposed"
       },
       "media": [],
       "references": [
@@ -8570,7 +8616,7 @@
           "type": "dictionary",
           "url": "https://www.merriam-webster.com/dictionary/abbey",
           "path": null,
-          "provenance": "external dictionary; accessed 2026-08-30"
+          "provenance": "external dictionary; accessed 2026-08-30; independently rechecked 2026-09-07"
         },
         {
           "reference_id": "REF-CAMBRIDGE-ABBEY",
@@ -8586,7 +8632,7 @@
           "type": "historical dictionary",
           "url": "https://www.cnrtl.fr/etymologie/abbaye",
           "path": null,
-          "provenance": "external lexicographic reference; accessed 2026-08-30"
+          "provenance": "external lexicographic reference; accessed 2026-08-30; independently rechecked 2026-09-07"
         },
         {
           "reference_id": "REF-AF-ABBAYE",
@@ -8602,15 +8648,15 @@
           "type": "dictionary",
           "url": "https://www.cnrtl.fr/definition/academie9/abb%C3%A9",
           "path": null,
-          "provenance": "Académie française dictionary text via CNRTL; accessed 2026-08-30"
+          "provenance": "Académie française dictionary text via CNRTL; accessed 2026-08-30; independently rechecked 2026-09-07"
         },
         {
           "reference_id": "REF-CNRTL-ABBE",
           "title": "CNRTL/TLFi: abbé",
           "type": "historical dictionary",
-          "url": "https://www.cnrtl.fr/definition/abbe",
+          "url": "https://www.cnrtl.fr/etymologie/abb%C3%A9",
           "path": null,
-          "provenance": "external lexicographic reference; accessed 2026-08-30"
+          "provenance": "external lexicographic reference; accessed 2026-08-30; independently rechecked 2026-09-07"
         },
         {
           "reference_id": "REF-AF-ABBESSE",
@@ -8635,13 +8681,69 @@
           "url": "https://languagesbook.com/glossary/abbey/",
           "path": null,
           "provenance": "author-published legacy website; source merged without overwriting the independently reviewed record"
+        },
+        {
+          "reference_id": "REF-MW-ABBOT",
+          "title": "Merriam-Webster: abbot",
+          "url": "https://www.merriam-webster.com/dictionary/abbot",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Late Greek abbâs and Aramaic abbā father; English abbot via Old English, not French abbé."
+        },
+        {
+          "reference_id": "REF-ETYMONLINE-ABBEY",
+          "title": "Etymonline: abbey / abbot",
+          "url": "https://www.etymonline.com/word/abbey",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. abbeie/abaïe; Late Latin label; father/my father gloss."
+        },
+        {
+          "reference_id": "REF-MOE-BA",
+          "title": "MOE Dictionary of Chinese Character Variants: 爸",
+          "url": "https://dict.variants.moe.edu.tw/dictView.jsp?ID=26692&q=1",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Father sense and historical dictionary witnesses; no first-attestation date inferred."
+        },
+        {
+          "reference_id": "REF-MOE-DIE",
+          "title": "MOE Revised Mandarin Dictionary: 爹",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=2163&q=1&word=%E7%88%B9",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Father, elder and colloquial grandfather senses."
+        },
+        {
+          "reference_id": "REF-SINICA-YE",
+          "title": "Academia Sinica character database: 爺",
+          "url": "https://chardb.iis.sinica.edu.tw/char/15990",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Father, dialectal grandfather and honorific senses; not a universal chronological sequence."
+        },
+        {
+          "reference_id": "REF-KINSHIP-CONTROL",
+          "title": "Hendery and McConvell: Mama and papa in Indigenous Australia",
+          "url": "https://researchers.westernsydney.edu.au/en/publications/mama-and-papa-in-indigenous-australia/",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Research abstract discusses recurrent infant-speech explanation and need for family-specific historical investigation."
+        },
+        {
+          "reference_id": "REF-JAKOBSON-CONTROL",
+          "title": "Roman Jakobson: Why Mama and Papa?",
+          "url": "https://www.degruyterbrill.com/document/doi/10.1515/9783110889598-002/html",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Bibliographic pointer for future full-text control review; not claimed read in full."
         }
       ],
       "author": "Jinkai Liu",
-      "version": "Dataset Expansion v1 sample / Schema v1.0",
+      "version": "Legacy Entry Recalibration 001 / Schema v1.0",
       "dates": {
         "created": "2026-08-30",
-        "modified": "2026-09-01",
+        "modified": "2026-09-07",
         "published": null
       },
       "editorial_notes": [
@@ -8652,6 +8754,10 @@
         {
           "en": "The primary mapping is the ordinary lexical equivalent 修道院; mapping level is Unrated because A–D grading is not being used to manufacture a cross-language sound claim.",
           "zh-Hans": "主要 Mapping 是普通词义对应“修道院”；Mapping Level 记为 Unrated，避免用 A–D 等级制造跨语言声音主张。"
+        },
+        {
+          "en": "Legacy Recalibration 001: same ID and entry count. Root mapping Candidate; translation Supported; historical family path evidence-backed; literary 蓓 Published / Author-proposed; 比/笔 weak/speculative.",
+          "zh-Hans": "旧词条校准001：保留ID和词条总数。词根映射 Candidate；翻译 Supported；词族历史路径有来源支持；蓓为 Published／Author-proposed 文学层；比／笔为 weak/speculative。"
         }
       ],
       "search_terms": [
@@ -8682,9 +8788,16 @@
         "spiritual cultivation",
         "rosebud",
         "RELIGIOUS INSTITUTION",
-        "MONASTIC COMMUNITY"
+        "MONASTIC COMMUNITY",
+        "爸",
+        "爸爸",
+        "bà",
+        "修院",
+        "abbeie",
+        "abaïe",
+        "abbatia"
       ],
-      "page": null,
+      "page": "words/abbey.html",
       "legacy": null,
       "source": {
         "type": "author-provided raw research note",
@@ -8698,6 +8811,136 @@
         "source_url": "https://languagesbook.com/glossary/abbey/",
         "action": "merged-source-deduplicated",
         "raw_note": "abbey，修道院。"
+      },
+      "translation_status": "Supported",
+      "query_views": [
+        {
+          "terms": [
+            "爸",
+            "爸爸",
+            "bà",
+            "abba"
+          ],
+          "featured_mapping": null,
+          "primary_mapping": {
+            "mapping_id": "MAP-ABBA-BA-001",
+            "source": {
+              "language": "Aramaic historical root · Root Mapping Candidate",
+              "word": "ABBA",
+              "pronunciation": "abba (transliteration)"
+            },
+            "target": {
+              "language": "Chinese root candidate",
+              "word": "爸",
+              "pronunciation": "bà /pa˥˩/"
+            },
+            "gloss": {
+              "en": "FATHER root candidate; abbey translates as 修道院 / 修院",
+              "zh-Hans": "父亲义的词根候选；abbey 标准翻译为修道院／修院"
+            },
+            "meaning": {
+              "en": "Kinship control: recurrent early-child / baby-talk articulatory patterns are an alternative explanation for similar father/mother terms across languages. ABBA ↔ 爸 is a root-level Phonetic-Semantic Candidate, not abbey’s translation and not evidence of Aramaic–Chinese cognacy. Historical Relation: Not claimed. This control is not a demonstrated origin story for this particular pair.",
+              "zh-Hans": "亲属称谓控制：跨语言父母称谓常出现相似的早期儿童／婴儿语发音模式，构成替代解释。ABBA ↔ 爸是词根级音义候选，不是 abbey 的标准翻译，也不是阿拉姆语与汉语历史同源的证据。Historical Relation: Not claimed。控制因素不等于已证明此词对的具体起源。"
+            },
+            "mapping_type": "Root-level Phonetic-Semantic Candidate · Kinship control required",
+            "rationale": {
+              "en": "Select 爸 for FATHER before inspecting sound; retain 父 / 爹 / 爷 as semantic alternatives even outside the proposed group.",
+              "zh-Hans": "先按 FATHER 选择爸，再检查声音；父／爹／爷作为语义备选保留，不因不符合辅音组而排除。"
+            }
+          }
+        }
+      ],
+      "recalibration": {
+        "id": "LEGACY-RECALIBRATION-001",
+        "principle": "Meaning first, consonant second.｜先定语义，再验辅音。",
+        "historical_path": "English abbey ← Anglo-French / Old French abbeie / abaïe (also abeie / abbaye) ← Late / Medieval ecclesiastical Latin abbatia ← Latin abbas ← Greek abbas ← Aramaic abba “father / my father”",
+        "semantic_path": "ABBA (FATHER) → ABBAS / ABBOT / ABBÉ (SPIRITUAL FATHER / MONASTIC SUPERIOR) → ABBATIA / ABBAYE / ABBEY (office/institution → monastery)",
+        "historical_path_status": "Evidence-backed",
+        "path_source_refs": [
+          "REF-MW-ABBEY",
+          "REF-MW-ABBOT",
+          "REF-CNRTL-ABBAYE",
+          "REF-CNRTL-ABBE",
+          "REF-AF-ABBE",
+          "REF-ETYMONLINE-ABBEY"
+        ],
+        "path_boundary": {
+          "en": "This is a family/semantic summary, not a linear borrowing chain through every slash-separated form. French abbé and English abbot are parallel descendants of the title family. CNRTL distinguishes abbatia as abbatial office/dignity and as monastery. Merriam-Webster labels abbatia Medieval Latin; Etymonline calls it Late Latin. Father is the shared dictionary gloss; my father is Etymonline’s gloss, not a claim that every occurrence has possessive morphology.",
+          "zh-Hans": "这是词族／语义概括，不是所有斜线词形之间依次借入。法语 abbé 与英语 abbot 是称谓词族的分支。CNRTL 区分 abbatia 的院长职务／尊位义与修道院义。Merriam-Webster 标中世纪拉丁语，Etymonline 标晚期拉丁语。father 是共同释义；my father 按 Etymonline 归属，不断言每一用例都具有所有格形态。"
+        },
+        "workflow": [
+          "Historical word/root",
+          "Historical semantic meaning/path",
+          "Independently select Chinese semantic candidate",
+          "Compare source-language consonant with Chinese pronunciation",
+          "Only then check proposed consonant group",
+          "Independent scoring and evidence boundary",
+          "Future experiment/control"
+        ],
+        "root_candidate": {
+          "candidate_id": "MAP-ABBA-BA-001",
+          "mapping_scope": "root",
+          "source_unit": "ABBA",
+          "source_language": "Aramaic",
+          "target": "爸",
+          "reading": "bà",
+          "status": "Phonetic-Semantic Candidate",
+          "historical_relation": "Not claimed",
+          "semantic_selection": {
+            "en": "Select 爸 for FATHER before inspecting sound; retain 父 / 爹 / 爷 as semantic alternatives even outside the proposed group.",
+            "zh-Hans": "先按 FATHER 选择爸，再检查声音；父／爹／爷作为语义备选保留，不因不符合辅音组而排除。"
+          },
+          "consonant_comparison": {
+            "label": "b ↔ b / b-p-m-f candidate group",
+            "source": "b in transliterated abba; historical pronunciation requires period-specific evidence",
+            "target": "Pinyin b in bà represents unaspirated /p/",
+            "boundary": "Comparison labels are not identical IPA values. Gemination, vowels, syllable structure and tone require independent evaluation; no sound law established."
+          },
+          "scores": {
+            "semantic_fit_father": "High",
+            "surface_sound_resemblance": "Salient but partial",
+            "consonant_group_fit": "Within proposed group at label level",
+            "historical_cross_language_relation": "Not claimed",
+            "overall_confidence": "Low",
+            "scale": "Editorial categories, not experimental measurements"
+          },
+          "control": {
+            "en": "Kinship control: recurrent early-child / baby-talk articulatory patterns are an alternative explanation for similar father/mother terms across languages. ABBA ↔ 爸 is a root-level Phonetic-Semantic Candidate, not abbey’s translation and not evidence of Aramaic–Chinese cognacy. Historical Relation: Not claimed. This control is not a demonstrated origin story for this particular pair.",
+            "zh-Hans": "亲属称谓控制：跨语言父母称谓常出现相似的早期儿童／婴儿语发音模式，构成替代解释。ABBA ↔ 爸是词根级音义候选，不是 abbey 的标准翻译，也不是阿拉姆语与汉语历史同源的证据。Historical Relation: Not claimed。控制因素不等于已证明此词对的具体起源。"
+          },
+          "source_refs": [
+            "REF-MW-ABBOT",
+            "REF-MOE-BA",
+            "REF-KINSHIP-CONTROL"
+          ]
+        },
+        "original_author_hypothesis": "这个词应该从犹太教的阿比而来",
+        "independent_correction": {
+          "en": "The family ultimately traces to Aramaic abba via Greek and Latin, with French and English branches. Abbey is an English institution word, not a Jewish-language name or a Jewish title for a pastor.",
+          "zh-Hans": "该词族最终经希腊语和拉丁语追溯至阿拉姆语 abba，形成法语和英语分支。abbey 是英语机构词，不是“犹太语 abbey”或“犹太人称牧师 abbey”。"
+        },
+        "kinship_research_note": {
+          "status": "Scoped dictionary evidence; historical dating and reconstructions in Research Queue",
+          "note": {
+            "en": "父 / 爸 / 爹 / 爷 have different roles by period, dialect and register. 爸 has historical dictionary witnesses; do not infer a recent foreign borrowing or a first attestation from the modern form. 爹 includes father and other address senses; 爷 includes father, grandfather and honorific senses, not one universal replacement timeline. Modern dialects are not frozen copies of ancient Chinese.",
+            "zh-Hans": "父／爸／爹／爷在时期、方言与语体中的角色不同。爸有历史字书见证；不能据现代形式断言近代外来或首见年代。爹有父亲及其他称呼义；爷有父亲、祖父、尊称等义，不能概括成全国统一的替代时间线。现代方言不是古汉语冻结复制品。"
+          },
+          "source_refs": [
+            "REF-MOE-BA",
+            "REF-MOE-DIE",
+            "REF-SINICA-YE"
+          ],
+          "research_queue": [
+            "父 and 母/妈/娘: source-by-source historical/register comparison",
+            "Earliest dated witnesses for each term; distinguish source composition from surviving edition",
+            "Old/Middle Chinese reconstructions with named systems; dialect location/date/transcription",
+            "Aramaic period-specific phonology and family-deduplicated non-kinship controls"
+          ]
+        },
+        "future_experiment": {
+          "status": "Planned; not run",
+          "design": "Preregister semantic selection independently of sound; blinded sound ratings; retain 父/爹/爷 regardless of group fit; compare kinship and non-kinship baselines, unrelated /ba,pa,ma/ items and shuffled meaning controls; count abbey/abbaye/abbé/abbot/abbess as one historical family; do not constrain Chinese-internal semantic paths."
+        }
       }
     },
     {

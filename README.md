@@ -128,3 +128,5 @@ We welcome contributions in:
 ---
 
 Copyright © 2026 Unilanguage
+
+Legacy Recalibration 001 upgrades the existing ABBEY record without changing counts or Mapper UI. [Report, reusable template and next-record queue](docs/legacy-entry-recalibration-001.md).
