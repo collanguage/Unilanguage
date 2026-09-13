@@ -1,23 +1,23 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.23",
-  "dataset_version": "1.2.19",
-  "created_at": "2026-09-08",
+  "version": "1.2.24",
+  "dataset_version": "1.2.20",
+  "created_at": "2026-09-13",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
-  "entry_count": 37,
+  "entry_count": 38,
   "published_entry_count": 10,
-  "candidate_mapping_count": 19,
+  "candidate_mapping_count": 20,
   "files": [
     {
       "path": "data/language-book-entry.schema.v1.json",
       "bytes": 13554,
-      "sha256": "b26d9b4d5ef642ea36704f425c50a2581167055cd9ea3be61f2785d9336d55ad"
+      "sha256": "3161d8294f52e3b597bed50817bbe2437604334e0f48080149b05d68370794cc"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 861507,
-      "sha256": "21a2b2833e1977d6b3a1b4e017b016c06c2687e59bb2322c9eb9534c7898df2b"
+      "bytes": 890017,
+      "sha256": "dae1d4dc3aaeae84dfe9f6f6fc2d5cbb0e19d5238f27cd56ad8c2b1821efc1f2"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -150,6 +150,11 @@
       "sha256": "6c6726809c0807a681a9a27445a0a184f4a506463abf5055a33d4b81441ebb08"
     },
     {
+      "path": "data/entries/new.v1.json",
+      "bytes": 26273,
+      "sha256": "19974a21f4d7a25368e137cc750f6b2e0024b3a60dae474842df7d8ffd9d8b80"
+    },
+    {
       "path": "data/entries/press.v1.json",
       "bytes": 16302,
       "sha256": "2e2400e1600721cb322a357061805ef64eef53a7d481a7a58e994e2a3921eb8c"
@@ -177,7 +182,7 @@
     {
       "path": "scripts/build-language-book-v1.mjs",
       "bytes": 67391,
-      "sha256": "cc7b6be90dbbf1469d5a314ebccf06252781ba8579e67e3ebbd6e79ac7c8a5b9"
+      "sha256": "7d0336c465cda545c029ec8abe09d95ec34cb222f1661803f0537cbe612924c0"
     },
     {
       "path": "docs/dataset-expansion-batch-001.md",
@@ -201,13 +206,13 @@
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 17939,
-      "sha256": "2685d160bdaaa1fcfcdee264be2e9c7313c6d15e82961376046ab851749d2136"
+      "bytes": 17931,
+      "sha256": "847b97947d852a50c30fa837dfec305eaaa96de7c1d959612271bffb97f7a55a"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
-      "bytes": 33469,
-      "sha256": "b31d30b1484676d3649ee141a91237a59ca9c80e8e6c65f5332adb5af7eeda6b"
+      "bytes": 33549,
+      "sha256": "83e881df160100c480d329b3ee886e6a63111893b27fc5825948163707c7326d"
     },
     {
       "path": "tests/dataset-expansion-batch-001.test.cjs",
@@ -216,8 +221,8 @@
     },
     {
       "path": "tests/legacy-website-import-batch-001.test.cjs",
-      "bytes": 2977,
-      "sha256": "7907d33dc919a47f678317f821ebc285bedfcd61e9fa20c9502bb03a65989959"
+      "bytes": 3017,
+      "sha256": "b9a3ed23862bcab43d4af2348b90a876939e06f6c9685ae12e739019906320e1"
     },
     {
       "path": "tests/package-g1.test.cjs",
@@ -290,6 +295,36 @@
       "sha256": "ff00433d502ef9475eed210b957536590c5e9a72b4dfc5eae041f2b8396b0ea4"
     },
     {
+      "path": "words/new.html",
+      "bytes": 15992,
+      "sha256": "a53d2071a2687f68400a843865387970e197b0731b7601a98478a3002a489c58"
+    },
+    {
+      "path": "docs/research/new-niu-source-audit-v1.md",
+      "bytes": 6349,
+      "sha256": "450d38dd10bc28247d93a9550318a20db8b24fdfe986405221edc739e732958b"
+    },
+    {
+      "path": "tests/new-niu.test.cjs",
+      "bytes": 4398,
+      "sha256": "677b592116e408f5d8a12425ca63a78f1d84107391621dc5488e9a11161bf5da"
+    },
+    {
+      "path": "english.html",
+      "bytes": 2220,
+      "sha256": "378a606a8281e843430c17ab09989dd0b3cc86a6a8b29365f9d411773b10a958"
+    },
+    {
+      "path": "chinese.html",
+      "bytes": 2168,
+      "sha256": "480be1ba73b008219e296486cf5e7fea4623ba11c7f51fe4899bb2b078fbbd29"
+    },
+    {
+      "path": "french.html",
+      "bytes": 2262,
+      "sha256": "4deb86f341b5849fc42fc47d68dee190aa4459a82e27d8fc1662b5d5d1cde7fc"
+    },
+    {
       "path": "words/abandon.html",
       "bytes": 35702,
       "sha256": "3b90ff722ebb7ba093cc613aa66498839ca1e630f2a388315b9a25ab89543c16"
@@ -301,8 +336,8 @@
     },
     {
       "path": "tests/abandon-semantic-network.test.cjs",
-      "bytes": 6944,
-      "sha256": "f08e02c9b18d4355944a655df83ef3f0b8a0e9eabcdc7231bf557ac5be170141"
+      "bytes": 6984,
+      "sha256": "1538799fb6538ab998b5422113d3287ab977d89181b11fd6c308f625deb4d389"
     },
     {
       "path": "data/evidence/mainland-source-recalibration.v1.json",
@@ -321,8 +356,8 @@
     },
     {
       "path": "tests/mainland-source-recalibration.test.cjs",
-      "bytes": 5215,
-      "sha256": "73b1bdfcd60b997571cf6ba8ca39a573ef6c26a7caaed9db7ff20de0d364da26"
+      "bytes": 5255,
+      "sha256": "b5cfa0280b147055671c9207605fc8c38db2b2b619e01ccfd32509d46bc8d59f"
     },
     {
       "path": "words/sky.html",
@@ -381,13 +416,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6865,
-      "sha256": "45479161d22ec1d24601370f3226c0b9bdc086aa589bb7b1552fdc81c62d601a"
+      "bytes": 7090,
+      "sha256": "9611ae1d265d159192a4f6d106f89b26a9535a9ac94497975bae7cf3a362f0b7"
     },
     {
       "path": "sitemap.xml",
-      "bytes": 3884,
-      "sha256": "7022e6bc78343b00eef1111b162a65fed1172431b3dc9e9738c215b2cf917d79"
+      "bytes": 3972,
+      "sha256": "4f2dcf309f4f25218f3a88f54fe3feb23b0c5f8d996df386fa03b9b3424d45e2"
     }
   ]
 }

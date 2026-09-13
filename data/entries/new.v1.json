@@ -1,0 +1,559 @@
+{
+  "id": "LB-en-new-038",
+  "slug": "new",
+  "title": {
+    "en": "NEW → 牛 niú | A cultural-temporal candidate",
+    "zh-Hans": "NEW → 牛 niú｜文化—时间候选"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "new",
+      "pronunciation": "UK /njuː/; US /nuː/ (Cambridge)"
+    },
+    {
+      "role": "target",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "牛",
+      "pronunciation": "niú (汉典); normative print entry pending"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "新的",
+      "pronunciation": ""
+    },
+    {
+      "role": "comparison",
+      "code": "fr",
+      "name": "French",
+      "word": "nouveau",
+      "pronunciation": "Not transcribed; outside this sound comparison"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-new-primary-niu",
+    "source": {
+      "language": "English",
+      "word": "new",
+      "pronunciation": "UK /njuː/; US /nuː/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "牛",
+      "pronunciation": "niú"
+    },
+    "gloss": {
+      "en": "new: recently made or begun; standard Chinese translation 新的",
+      "zh-Hans": "新的（标准翻译）；牛为文化候选，不是译词"
+    },
+    "meaning": {
+      "en": "new means 新的; 牛 means cattle/ox/cow according to context. Direct lexical-semantic equivalence: No / unsupported. The proposed bridge is cultural and indirect.",
+      "zh-Hans": "new 的常规译义是新的；牛的基本词义属 cattle／ox／cow 类，依语境区分。直接词义等同：No／unsupported。这里的意义桥梁是间接文化联想。"
+    },
+    "mapping_type": "Phonetic + Cultural-Temporal Candidate",
+    "rationale": {
+      "en": "Original Author Cultural-Temporal Mapping Hypothesis: 牛 → 丑牛 → unfolding nocturnal cycle → renewal/new. “子不代表新” is the author’s mapping choice, not a dictionary definition or a denial of 子-related day boundaries.",
+      "zh-Hans": "作者原创文化—时间映射假说：牛 → 丑牛 → 夜间周期展开 → renewal／new。“子不代表新”是作者本条的映射选择，不是辞书义，也不否认日界与子时的关系。"
+    }
+  },
+  "entry_status": "Draft",
+  "mapping_status": "Candidate",
+  "mapping_level": "D",
+  "historical_relation_status": "Not claimed",
+  "direct_lexical_semantic_equivalence": false,
+  "semantic_relation": "Indirect / cultural, not lexical equivalence",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "English new continues Middle English newe/new/nywe and Old English nīowe/nīewe/nēowe. Merriam-Webster traces these through Germanic *neuja- to Indo-European *neu̯i̯o-, derived from *neu̯o-. French nouveau continues Latin novellus, a derivative of novus. The Latin base and English word belong to an independently documented Indo-European family; neither is derived from Chinese 牛.",
+        "zh-Hans": "英语 new 承接中古英语 newe／new／nywe 和古英语 nīowe／nīewe／nēowe；Merriam-Webster 上溯至日耳曼语拟构 *neuja- 及印欧语拟构 *neu̯i̯o-、*neu̯o-。法语 nouveau 来自拉丁语 novellus，后者由 novus 派生。拉丁语基础词与英语词的印欧词族关系有独立辞书依据；二者均不据此与牛建立历史关系。"
+      },
+      "items": [
+        {
+          "evidence_id": "NEW-HIST-EN",
+          "claim": {
+            "en": "English new has an independent Germanic / Indo-European history.",
+            "zh-Hans": "英语 new 有独立的日耳曼语／印欧语历史。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "NEW-MW"
+          ]
+        },
+        {
+          "evidence_id": "NEW-HIST-FR",
+          "claim": {
+            "en": "French nouveau derives from Latin novellus, from novus; a Latin derivative, not a borrowing from English new.",
+            "zh-Hans": "法语 nouveau 源于拉丁语 novellus，后者由 novus 派生；不是借自英语 new。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "NEW-FR",
+            "NEW-MW"
+          ]
+        }
+      ],
+      "source_refs": [
+        "NEW-MW",
+        "NEW-FR"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Surface similarity: moderate for UK /njuː/, limited-to-moderate for US /nuː/; qualitative editorial assessment, not a measured distance. Both share /n/. UK /j/ resembles the Mandarin medial; US lacks it. English /uː/ differs from the Mandarin iou rime and its vowel movement. Mandarin rising lexical tone has no lexical-tone counterpart in English.",
+        "zh-Hans": "表面音近：UK /njuː/ 评为中等，US /nuː/ 评为有限至中等；这是定性编辑评估，不是测量分数。共同点是 /n/；英式 /j/ 与普通话介音近似，美式参考读音没有该音。英语 /uː/ 与普通话 iou 韵母及其元音运动不同；普通话阳平也没有英语词汇声调对应。"
+      },
+      "items": [
+        {
+          "evidence_id": "NEW-PHON-001",
+          "claim": {
+            "en": "Surface similarity: moderate for UK /njuː/, limited-to-moderate for US /nuː/; qualitative editorial assessment, not a measured distance. Both share /n/. UK /j/ resembles the Mandarin medial; US lacks it. English /uː/ differs from the Mandarin iou rime and its vowel movement. Mandarin rising lexical tone has no lexical-tone counterpart in English.",
+            "zh-Hans": "表面音近：UK /njuː/ 评为中等，US /nuː/ 评为有限至中等；这是定性编辑评估，不是测量分数。共同点是 /n/；英式 /j/ 与普通话介音近似，美式参考读音没有该音。英语 /uː/ 与普通话 iou 韵母及其元音运动不同；普通话阳平也没有英语词汇声调对应。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "NEW-CAM",
+            "NEW-ZD",
+            "NEW-PINYIN"
+          ]
+        },
+        {
+          "evidence_id": "NEW-SEM-001",
+          "claim": {
+            "en": "new means 新的; 牛 means cattle/ox/cow according to context. Direct lexical-semantic equivalence: No / unsupported. The proposed bridge is cultural and indirect.",
+            "zh-Hans": "new 的常规译义是新的；牛的基本词义属 cattle／ox／cow 类，依语境区分。直接词义等同：No／unsupported。这里的意义桥梁是间接文化联想。"
+          },
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "NEW-MW",
+            "NEW-ZD"
+          ]
+        }
+      ],
+      "source_refs": [
+        "NEW-CAM",
+        "NEW-ZD",
+        "NEW-PINYIN",
+        "NEW-MW"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Low",
+      "summary": {
+        "en": "Original Author Cultural-Temporal Mapping Hypothesis: 牛 → 丑牛 → unfolding nocturnal cycle → renewal/new. “子不代表新” is the author’s mapping choice, not a dictionary definition or a denial of 子-related day boundaries.",
+        "zh-Hans": "作者原创文化—时间映射假说：牛 → 丑牛 → 夜间周期展开 → renewal／new。“子不代表新”是作者本条的映射选择，不是辞书义，也不否认日界与子时的关系。"
+      },
+      "items": [
+        {
+          "evidence_id": "NEW-CULT-FACT",
+          "claim": {
+            "en": "Documented context: 子–鼠 and 丑–牛; conventionally 子 23:00–01:00 and 丑 01:00–03:00. A mediated Bintuilu passage distinguishes the earlier and later parts of 子 across days and disputes treating the start of 子 as an automatic date change. This is evidence of a historical discussion, not a universal chronology.",
+            "zh-Hans": "已核验的文化背景：子—鼠、丑—牛；通行换算子时 23:00–01:00、丑时 01:00–03:00。《宾退录》平台转录区分子时前后部分的日期归属，并辨析是否一入子时就换日；这说明存在历史辨析，不能据此宣布历代统一制度。"
+          },
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "NEW-ZODIAC",
+            "NEW-HOURS",
+            "NEW-DAY"
+          ]
+        },
+        {
+          "evidence_id": "NEW-CULT-HYP",
+          "claim": {
+            "en": "Original Author Cultural-Temporal Mapping Hypothesis: 牛 → 丑牛 → unfolding nocturnal cycle → renewal/new. “子不代表新” is the author’s mapping choice, not a dictionary definition or a denial of 子-related day boundaries.",
+            "zh-Hans": "作者原创文化—时间映射假说：牛 → 丑牛 → 夜间周期展开 → renewal／new。“子不代表新”是作者本条的映射选择，不是辞书义，也不否认日界与子时的关系。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "NEW-AUTHOR"
+          ]
+        }
+      ],
+      "source_refs": [
+        "NEW-ZODIAC",
+        "NEW-HOURS",
+        "NEW-DAY",
+        "NEW-AUTHOR"
+      ]
+    },
+    "Speculative": {
+      "status": "Not evaluated",
+      "confidence": "Unknown",
+      "summary": {
+        "en": "No independent experiment has been run. Nibiru / Anunnaki are excluded from formal evidence and retained only in the archived author note.",
+        "zh-Hans": "尚无独立实验；Nibiru／Anunnaki 不进入正式证据，仅在作者原始笔记留档。"
+      },
+      "items": [],
+      "source_refs": []
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "NEW-PHON-SURFACE",
+      "claim": {
+        "en": "Surface similarity: moderate for UK /njuː/, limited-to-moderate for US /nuː/; qualitative editorial assessment, not a measured distance. Both share /n/. UK /j/ resembles the Mandarin medial; US lacks it. English /uː/ differs from the Mandarin iou rime and its vowel movement. Mandarin rising lexical tone has no lexical-tone counterpart in English.",
+        "zh-Hans": "表面音近：UK /njuː/ 评为中等，US /nuː/ 评为有限至中等；这是定性编辑评估，不是测量分数。共同点是 /n/；英式 /j/ 与普通话介音近似，美式参考读音没有该音。英语 /uː/ 与普通话 iou 韵母及其元音运动不同；普通话阳平也没有英语词汇声调对应。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "No acoustic recordings, listener study or calibrated numeric distance; historical pronunciation is not reconstructed from current spelling.",
+        "zh-Hans": "未采集录音、运行听辨实验或测定数值距离；不由现代拼写倒推历史读音。"
+      },
+      "segments": {
+        "onset": "English /n/ and Mandarin n: shared nasal onset",
+        "glide": "UK /j/ ~ Mandarin i medial; absent in Cambridge US /nuː/",
+        "nucleus": "English /uː/ versus Mandarin iou; descriptive [njoʊ̯˧˥] here normalizes 汉典 niou˧˥, not a narrow measured IPA transcription",
+        "coda": "No consonantal coda; Mandarin has a closing vocalic movement",
+        "tone": "Mandarin 阳平, conventionally 35; English has intonation but no corresponding lexical tone"
+      },
+      "rating": {
+        "UK": "Moderate",
+        "US": "Limited-to-moderate",
+        "method": "Qualitative feature comparison; unvalidated"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "NEW",
+      "CATTLE",
+      "ZODIAC",
+      "NIGHT",
+      "RENEWAL"
+    ],
+    "relation": "牛 → 丑牛 → 夜间周期展开 → renewal/new",
+    "status": "Interpretive"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-NEW-NIU-001",
+      "type": "Original Author Cultural-Temporal Mapping Hypothesis",
+      "claim": {
+        "en": "Original Author Cultural-Temporal Mapping Hypothesis: 牛 → 丑牛 → unfolding nocturnal cycle → renewal/new. “子不代表新” is the author’s mapping choice, not a dictionary definition or a denial of 子-related day boundaries.",
+        "zh-Hans": "作者原创文化—时间映射假说：牛 → 丑牛 → 夜间周期展开 → renewal／new。“子不代表新”是作者本条的映射选择，不是辞书义，也不否认日界与子时的关系。"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "mapping_level": "D",
+      "supporting_cases": [
+        "One authored pair: new → 牛; documented cultural context only"
+      ],
+      "counterexamples": [
+        "牛 has no supported standard NEW sense in the consulted lexical entry; print normative entry verification remains pending.",
+        "Independent English etymology; modern resemblance may be accidental.",
+        "Yod-dropping / accent selection changes the comparison.",
+        "Mandarin iou rime and rising tone are unmatched; spelling is not sound.",
+        "The zodiac-to-renewal bridge is authored; cultural facts do not prove cognacy.",
+        "Selecting one attractive pair invites selection bias; English new and French nouveau are not independent etymological replications."
+      ],
+      "testability": {
+        "en": "Pre-register auditory judgments for both English accents and Mandarin; compare matched random pairs, new→新 semantic control, culture-informed versus uninformed listeners, and culturally unrelated sound matches. Test memory benefit separately from sound distance. Deduplicate etymological families; no single-case generalization.",
+        "zh-Hans": "预注册两种英语参考口音与普通话的听辨；设置匹配随机词对、new→新语义对照、知晓／不知晓文化背景的听者，以及无文化联系的音近对照。记忆收益与音系距离分别测试，词源家族去重；不从单例归纳规律。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "NEW-AUTHOR"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Draft",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "Build bridges between languages, toward an age of spaceflight.",
+      "zh-Hans": "架起语言之间的桥梁，面向未来的宇航时代。"
+    },
+    "essay_prose": [
+      {
+        "work_id": "NEW-LIT-001",
+        "title": {
+          "en": "In My Vineyard",
+          "zh-Hans": "在我的葡萄园"
+        },
+        "text": {
+          "en": "Build bridges between languages, toward a future age of spaceflight. When English or French reaches the ear, I imagine Collanguage turning the phrase into Chinese music, its notes rising and falling. Language Book explores this hope through language and culture. In my vineyard, manna flowers bloom.",
+          "zh-Hans": "架起语言之间的桥梁，让我们面向未来的宇航时代。当英语或法语传来，我想象借助 Collanguage 的规则与想象，把语句转成高低错落、如音乐般的汉语，走向美好的交流。考虑文化的因素，以汉语拼音探索跨语系的语言，是 Language Book 的追寻。在我的葡萄园，玛娜花盛开。"
+        },
+        "page_anchor": "words/new.html#literature"
+      }
+    ],
+    "poem_lyrics": [],
+    "translations": [
+      {
+        "language": "English",
+        "status": "Editorial literary translation"
+      }
+    ],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "A literary aspiration, not a claim that automatic translation or a language law has been validated. The speculative names in the original note are not evidence for etymology or historical relation.",
+      "zh-Hans": "文学愿景不意味着自动翻译能力或语言规律已获验证；原始笔记的推想不构成词源或历史关系证据。"
+    }
+  },
+  "cultural_associations": [
+    {
+      "claim": {
+        "en": "A mediated Ming text narrates Shennong / Yandi with an ox head and human body.",
+        "zh-Hans": "明代文献的平台转录有炎帝神农人身牛首叙述。"
+      },
+      "status": "Supported within transcription; edition pending",
+      "source_refs": [
+        "NEW-SHENNONG"
+      ],
+      "is_etymological": false,
+      "boundary": "Narrative tradition only; no linguistic relation to NEW"
+    }
+  ],
+  "media": [],
+  "references": [
+    {
+      "reference_id": "NEW-MW",
+      "title": "Merriam-Webster Dictionary: new",
+      "type": "historical dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/new",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; Dictionary word history; reconstructed forms are models, not recordings.",
+      "access_date": "2026-09-13",
+      "scope": [
+        "historical_etymology"
+      ],
+      "locator": "Word History / Etymology",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-FR",
+      "title": "CNRTL / TLFi: nouveau, nouvel, -elle",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/nouvel",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; Indexed dictionary entry text retrieved; direct page body was unavailable. Latin novellus derives from novus.",
+      "access_date": "2026-09-13",
+      "scope": [
+        "historical_etymology"
+      ],
+      "locator": "Étymologie et Histoire",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-CAM",
+      "title": "Cambridge Dictionary: new pronunciation",
+      "type": "pronunciation dictionary",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/new",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; UK and US dictionary reference pronunciations, not every speaker or accent.",
+      "access_date": "2026-09-13",
+      "scope": [
+        "phonology"
+      ],
+      "locator": "UK /njuː/; US /nuː/",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-ZD",
+      "title": "汉典：牛",
+      "type": "mainland digital dictionary",
+      "url": "https://zdic.net/hans/牛",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; 大陆数字辞书平台；仅使用拼音、基本／详细解释及音标栏，不使用其国语辞典栏，不冒充纸本规范辞书。",
+      "access_date": "2026-09-13",
+      "scope": [
+        "modern_meaning",
+        "phonology"
+      ],
+      "locator": "牛 niú；基本／详细解释；音标 niou˧˥",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-PINYIN",
+      "title": "《汉语拼音方案》",
+      "type": "national language scheme via mainland university",
+      "url": "https://yywz.ecnu.edu.cn/1f/56/c30556a335702/page.htm",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; 华东师范大学语言文字工作委员会网页转录；韵母表后规则（5）明确 iou → iu 和 niu（牛）。它支持拼写规则，不单独证明牛的声调。",
+      "access_date": "2026-09-13",
+      "scope": [
+        "orthography"
+      ],
+      "locator": "三、韵母表，规则（5）",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-ZODIAC",
+      "title": "首都博物馆：老北京传统节令风情展",
+      "type": "museum exhibition",
+      "url": "https://www.museum.bj.cn/zlxx/content/2010-12/06/content_21729.htm",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; 博物馆展览说明与生肖图注支持子鼠、丑牛配对；不证明牛有新的词义。",
+      "access_date": "2026-09-13",
+      "scope": [
+        "cultural_attestation"
+      ],
+      "locator": "干支生肖；子鼠、丑牛图注",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-HOURS",
+      "title": "唐诗宋词里的十二时辰",
+      "type": "mainland cultural reference",
+      "url": "https://www.ccdi.gov.cn/lswhn/wenhua/wenyuan/201907/t20190719_27179.html",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; 中央纪委国家监委网站文化文章，2019-07-22；仅用于通行时段换算及子时列首，不据此断言所有时代的日界。",
+      "access_date": "2026-09-13",
+      "scope": [
+        "cultural_attestation"
+      ],
+      "locator": "子时（23点–01点）、丑时（01点–03点）",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-DAY",
+      "title": "《宾退录》：子时分日辨析（识典古籍转录）",
+      "type": "mediated classical text",
+      "url": "https://www.shidianguji.com/mid-page/7620933486225244169",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; [宋]赵与时撰；大陆数字古籍平台中介，转录有明显讹字，底本与校勘版本未确认。只概述子初／子正分日辨析，不复录损坏句文，不推广成全时代制度。",
+      "access_date": "2026-09-13",
+      "scope": [
+        "attestation"
+      ],
+      "locator": "“历家以冬至为一岁之首”段；纸本校勘 pending",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-SHENNONG",
+      "title": "《图像本草蒙筌》（识典古籍转录）",
+      "type": "mediated classical text",
+      "url": "https://www.shidianguji.com/mid-page/7557480168089042982",
+      "path": null,
+      "provenance": "Accessed 2026-09-13; [明]陈嘉谟汇编；可见炎帝神农“人身牛首”叙述，底本版本与图像未核定。仅证明该转录含此叙事，不是人物生理事实或 NEW 的词源证据。",
+      "access_date": "2026-09-13",
+      "scope": [
+        "cultural_attestation"
+      ],
+      "locator": "炎帝神农氏段",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-AUTHOR",
+      "title": "Jinkai Liu：NEW → 牛原始笔记",
+      "type": "author manuscript",
+      "url": null,
+      "path": null,
+      "provenance": "Accessed 2026-09-13; User-provided manuscript in this task; not independent linguistic evidence.",
+      "access_date": "2026-09-13",
+      "scope": [
+        "author_hypothesis",
+        "literature"
+      ],
+      "locator": null,
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "NEW-RUBRIC",
+      "title": "Unilanguage Mapping Framework",
+      "type": "project standard",
+      "url": null,
+      "path": "protocol/protocol.mapping-framework.html",
+      "provenance": "Accessed 2026-09-13; Repository rubric: D covers symbolic/created relations; C covers experimental patterns.",
+      "access_date": "2026-09-13",
+      "scope": [
+        "project_rubric"
+      ],
+      "locator": null,
+      "verification_status": "Verified within stated boundary"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "NEW Cultural-Temporal Candidate v1.0 / Schema v1.0",
+  "dates": {
+    "created": "2026-09-13",
+    "modified": "2026-09-13",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "Schema has no Candidate entry lifecycle: Draft is used; Mapping remains Candidate. Public availability does not certify review.",
+      "zh-Hans": "现行 schema 无 Candidate 词条生命周期，故 entry_status 用 Draft，mapping_status 用 Candidate；页面公开不代表审核通过。"
+    },
+    {
+      "en": "D / Low confidence: this is a created symbolic bridge under the current Mapping Framework. The template also assigns D to created relations. A future benchmark plan does not upgrade it to C.",
+      "zh-Hans": "D／低置信度：按现行 Mapping Framework 属于创造的符号桥梁；模板也将创造关系列为 D。未来实验计划不自动将其升为 C。"
+    }
+  ],
+  "search_terms": [
+    "new",
+    "牛",
+    "niú",
+    "niu",
+    "新的",
+    "nouveau",
+    "nouvel",
+    "nouvelle",
+    "丑牛",
+    "renewal"
+  ],
+  "page": "words/new.html",
+  "legacy": null,
+  "source": {
+    "type": "author manuscript",
+    "author": "Jinkai Liu",
+    "status": "Preserved with explicit recalibration",
+    "normalization": "Simplified Chinese reader prose; niu → niú; Language Book / Unilanguage / Collanguage naming.",
+    "raw_note": "New，新的。牛 niu。丑牛时辰为一天新的开始。English new adj. 新的；French nouveau adj. 新的；Chinese 牛 n.。子鼠丑牛。子不代表新，牛时辰是新的开始。另提及 Nibiru/Anunnaki 与神农氏人身牛头。原始推想仅留档：Not evidence for etymology or historical relation。"
+  },
+  "source_audit_pending": [
+    {
+      "claim": "牛现代规范音义",
+      "desired_sources": [
+        "现代汉语词典：牛",
+        "新华字典：牛"
+      ],
+      "status": "pending",
+      "reason": "未取得具体条目；汉典与拼音方案仅在各自范围内支持"
+    },
+    {
+      "claim": "牛历史字义与古音",
+      "desired_sources": [
+        "汉语大词典",
+        "汉语大字典",
+        "大陆整理本说文解字／广韵"
+      ],
+      "status": "pending",
+      "reason": "不引用未见条目，不在本条拟构古汉语音"
+    },
+    {
+      "claim": "子初／子正日界及神农叙述的底本",
+      "desired_sources": [
+        "宾退录校勘本",
+        "图像本草蒙筌明确底本"
+      ],
+      "status": "pending",
+      "reason": "平台转录有版本／OCR限制；历代通史与具体图像未核验"
+    },
+    {
+      "claim": "English new historical phonetic stages",
+      "desired_sources": [
+        "Period- and dialect-specific historical phonology reference"
+      ],
+      "status": "pending",
+      "reason": "Historical spellings and etymology verified, but exact Old/Middle English IPA and dated sound-change sequence not verified; modern /njuː/ not projected backward"
+    }
+  ]
+}
