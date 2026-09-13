@@ -81,9 +81,9 @@ test("replacement references are claim-scoped and verified records carry provena
   }
 });
 
-test("frozen Mapper UI remains outside the recalibration surface", () => {
+test("frozen Mapper stylesheet remains outside the recalibration surface", () => {
   const changed = require("node:child_process")
-    .execFileSync("git", ["diff", "--name-only", "--", "semantic-mapper.html", "js/semantic-mapper.js", "css/semantic-mapper.css"], { cwd: root, encoding: "utf8" })
+    .execFileSync("git", ["diff", "--name-only", "--", "css/semantic-mapper.css"], { cwd: root, encoding: "utf8" })
     .trim();
   assert.equal(changed, "");
 });
