@@ -9,6 +9,7 @@ const authoredEntryFiles = fs.readdirSync(path.join(root, "data", "entries"))
   .sort()
   .map((name) => `data/entries/${name}`);
 const files = [
+  "_redirects",
   "data/language-book-entry.schema.v1.json", "data/language-book.v1.0.json",
   ...authoredEntryFiles,
   "data/batches/dataset-expansion-batch-001.v1.json",

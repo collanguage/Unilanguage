@@ -69,6 +69,7 @@ test('NEW pronunciation and source audit retain accent differences and pending b
 });
 
 test('NEW follows master section order and integrates static entry points', () => {
+  assert.equal(fs.readFileSync(path.join(root, '_redirects'), 'utf8').trim(), '/new /words/new.html 301');
   const ids = ['literature', 'basic-meaning', 'multilingual', 'etymology', 'mapping', 'justification', 'protocol-references', 'translation-protocol', 'examples', 'community'];
   const positions = ids.map(id => page.indexOf(`id="${id}"`));
   assert.ok(positions.every((p,i) => p >= 0 && (!i || p > positions[i-1])));
