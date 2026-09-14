@@ -194,6 +194,16 @@ abhorrance → abhorrence；abhorrant → abhorrent。ab- 不是由本词即可�
 
 ## Pending 与实验边界
 
+## Focused dialect update｜方言观察更新（2026-09-13）
+
+作者 Jinkai Liu 补充第一手用例：“我对某某有火／对某人有火”，报告义为对某人有意见、不满、反感、厌恶。该记录标为 `Author-attested Dialect Usage`；地区未由作者在与本用法直接相关的资料中指明，故 `Region: Pending identification`。
+
+本轮按 Mainland-first 检索大陆方言词典、地方志、学术论文及语言研究机构资料。检索式覆盖“有火”“对某人有火”“火气”“有意见”“怨气”“不满”“反感”及其组合。没有取得可核验的具体方言条目来独立证明该构式及其地域分布，因此 `Independent dialect evidence: Pending`。检索结果中的泛网页、论坛、小说和未能定位具体词目的材料未作为方言证据。
+
+现有独立辞书材料只证明相邻的普通词汇范围：火气、发火、怒火可表示生气、怒气、易动怒等，即 `ANGER`，并可在具体语境靠近 `DISPLEASURE`。它们不能独立把“对某人有火”证明到 `RESENTMENT`、`AVERSION` 或 `DETESTATION`。这项范围限制不否定作者观察；它只区分作者报告义和已独立核验义。
+
+火的新位置是 `Dialectal / Affective Semantic Candidate`，仍为 D / Low。它不是现代标准词汇对应，不是 primary mapping，不是 horrēre 的历史阶段 mapping，也不是历史词源证据。`Historical Relation: Not claimed`，原文学句继续链接到这一作者观察层。
+
 《现代汉语词典》《新华字典》火／火气／发火／怒火具体条目：未取得可核验具体版本条目，不引用页码或以出版社介绍替代。
 
 《汉语大字典》《汉语大词典》及大陆整理原典中的火义历时顺序：未取得可靠具体条目；本条不拟构古音、不虚构首见年代。

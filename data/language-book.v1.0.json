@@ -11408,7 +11408,7 @@
           "pronunciation": "hài [xaɪ˥˩]"
         },
         {
-          "role": "secondary-literary",
+          "role": "dialectal-affective-candidate",
           "code": "zh-Hans",
           "name": "Chinese",
           "word": "火",
@@ -11506,8 +11506,8 @@
           "status": "Interpretive",
           "confidence": "Low",
           "summary": {
-            "en": "The Latin reaction-to-aversion pathway supports stage comparison with 骇. The separate fire-to-anger path remains a secondary affective association with unequal endpoints.",
-            "zh-Hans": "拉丁身体反应至厌恶的路径支持与骇作阶段比较；火到愤怒的路径另属次级情绪联想，终点不同。"
+            "en": "The Latin reaction-to-aversion pathway supports stage comparison with 骇. The separate 火 candidate now includes author-attested dialect usage, while independent lexical evidence remains limited to anger/displeasure and the endpoints remain unequal.",
+            "zh-Hans": "拉丁身体反应至厌恶的路径支持与骇作阶段比较；火候选现包含作者方言用例，独立词汇证据仍限于愤怒／不满，终点不等同。"
           },
           "items": [
             {
@@ -11805,7 +11805,7 @@
       "semantic_associations": [
         {
           "association_id": "ASSOC-ABHOR-001",
-          "relation": "Secondary Affective / Literary Association: BRISTLE/SHUDDER/RECOIL → HORROR/AVERSION → DETEST || FIRE/HEAT → ANGER/INTENSE AFFECT",
+          "relation": "Dialectal / Affective Semantic Candidate: author-attested 对某人有火 || independently supported FIRE/HEAT → ANGER/DISPLEASURE",
           "status": "Interpretive",
           "is_etymological": false
         }
@@ -11813,7 +11813,7 @@
       "hypotheses": [
         {
           "hypothesis_id": "UNI-LEGACY-ABHOR-001",
-          "type": "Secondary Affective / Literary Association",
+          "type": "Dialectal / Affective Semantic Candidate",
           "claim": {
             "en": "A modern -hor / 火 sound association may help readers form an indirect negative-affect bridge.",
             "zh-Hans": "现代 -hor／火 的声音联想能否帮助读者形成间接负面情绪桥梁，仍待检验。"
@@ -11902,12 +11902,12 @@
         "translations": [],
         "archival_manuscript_media": [],
         "evidence_boundary": {
-          "en": "An author’s literary intuition, not a dictionary definition, historical etymology or experimental result.",
-          "zh-Hans": "作者文学直觉，不是辞书释义、历史词源或实验结果。"
+          "en": "The literary intuition is linked to the author-attested dialect usage recorded separately. It is not independent dialect evidence, a standard dictionary definition, historical etymology or an experimental result.",
+          "zh-Hans": "文学直觉与另行记录的作者方言用例相连；它不是独立方言证据、规范辞书释义、历史词源或实验结果。"
         },
         "label": "Author's Intuition / Literary Layer",
         "is_independent_evidence": false,
-        "association_label": "Secondary Affective / Literary Association"
+        "association_label": "Dialectal / Affective Semantic Candidate"
       },
       "media": [],
       "references": [
@@ -12201,7 +12201,7 @@
         }
       ],
       "author": "Jinkai Liu",
-      "version": "ABHOR Legacy Recalibration v1.1 / Schema v1.0",
+      "version": "ABHOR Legacy Recalibration v1.2 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-13",
@@ -12241,6 +12241,13 @@
         "horrid",
         "abhorrer",
         "火气",
+        "有火",
+        "对某人有火",
+        "我对某某有火",
+        "方言",
+        "不满",
+        "反感",
+        "怨气",
         "发火",
         "怒火",
         "恶",
@@ -12267,7 +12274,7 @@
         "type": "author-published legacy website note",
         "author": "Jinkai Liu",
         "status": "Preserved; claims independently classified above",
-        "normalization": "旧站 raw_note 原样保留；normalized_author_observation 使用用户本次规范表述。旧拼写仅在校勘档案出现。",
+        "normalization": "旧站 raw_note 原样保留；normalized_author_observation 使用用户本次规范表述，并将新增方言自述与独立证据状态分开。旧拼写仅在校勘档案出现。",
         "raw_note": "abhor，憎恶。火 huo。憎恶即对某有火。"
       },
       "batch": {
@@ -12373,6 +12380,11 @@
           "claim": "《汉语大字典》《汉语大词典》《辞源》及大陆整理原典中骇的古义、首见书证",
           "status": "pending",
           "reason": "未取得具体条目；汉典转录的马受惊等古义不作为已独立校勘的历史证据，不拟构汉语古音。"
+        },
+        {
+          "claim": "“我对某某有火／对某人有火”作为具体大陆方言表达的地域分布与独立释义",
+          "status": "pending",
+          "reason": "截至2026-09-13，未在已检索的大陆方言词典、地方志、学术论文或语言研究机构资料中取得可核验的具体条目；保留作者用例，Region 不推断。普通词典对火气／发火／怒火的材料只支持 ANGER／DISPLEASURE 范围，不能独立证明 AVERSION／DETESTATION。"
         }
       ],
       "mapping_assessment": {
@@ -12415,7 +12427,7 @@
         "template_note": "A/B/C/D 按关系类型独立判定；数值无统一升级阈值，不是历史概率。软件回归不是语言实验。"
       },
       "original_author_observation": {
-        "normalized_author_observation": "abhor，憎恶。火 huǒ。憎恶即对某人有火。",
+        "normalized_author_observation": "abhor，憎恶。火 huǒ。憎恶即对某人有火。作者补充方言用例：我对某某有火／对某人有火，表示对某人有意见、不满、反感、厌恶。",
         "original_additional_notes": "abhorrance; abhorrant; hori.zon.tal / zone; horse → 马 → 午 → 火; French abhorrer / horrible / horizontal(e); ab-，a-在h前面变成ab-。"
       },
       "diachronic_semantic_mapping": {
@@ -12572,19 +12584,67 @@
           }
         ]
       },
+      "dialectal_affective_semantic_candidate": {
+        "candidate_id": "DIALECT-ABHOR-HUO-001",
+        "source": "abhor",
+        "target": "火",
+        "reading": "huǒ",
+        "label": "Dialectal / Affective Semantic Candidate",
+        "status": "Candidate",
+        "confidence": "Low",
+        "is_primary_mapping": false,
+        "is_modern_standard_lexical_equivalent": false,
+        "historical_relation_status": "Not claimed",
+        "author_attested_usage": {
+          "status": "Author-attested Dialect Usage",
+          "author": "Jinkai Liu",
+          "region": "Pending identification",
+          "forms": [
+            "我对某某有火",
+            "对某人有火"
+          ],
+          "reported_meaning": "对某人有意见、不满、反感、厌恶",
+          "source_refs": [
+            "ABHOR-AUTHOR"
+          ]
+        },
+        "independent_dialect_evidence": {
+          "status": "Pending",
+          "region": "Pending identification",
+          "verified_meaning_scope": [],
+          "search_scope": "Mainland-first search of dialect dictionaries, local gazetteers, academic papers and language-research institution materials.",
+          "result": "No reliable independently verifiable dialect entry located in this update for 有火／对某人有火 with the reported construction and meaning.",
+          "source_refs": []
+        },
+        "semantic_strength_boundary": {
+          "author_reported": [
+            "DISPLEASURE",
+            "RESENTMENT",
+            "AVERSION",
+            "DETESTATION"
+          ],
+          "independently_supported_for_the_construction": [],
+          "related_standard_lexical_evidence": [
+            "ANGER",
+            "DISPLEASURE"
+          ],
+          "note": "Standard lexical evidence for 火气／发火／怒火 supports anger, irascibility or displeasure; it does not independently verify that the dialect construction reaches aversion or detestation. Pending is not rejection."
+        },
+        "boundary": "Author observation retained; independent dialect evidence pending. 火 is neither the modern standard lexical equivalent of abhor nor historical-etymological evidence. Historical Relation: Not claimed."
+      },
       "secondary_affective_literary_associations": [
         {
           "association_id": "ASSOC-ABHOR-HUO",
           "source": "abhor",
           "target": "火",
           "reading": "huǒ",
-          "label": "Secondary Affective / Literary Association",
-          "relation": "憎恶 → 强烈负面情绪 → 心中有火／有火",
-          "status": "Interpretive",
+          "label": "Dialectal / Affective Semantic Candidate",
+          "relation": "作者方言用例：对某人有火 → 有意见／不满／反感／厌恶；独立资料目前只支持相关火表达的愤怒／不满范围",
+          "status": "Candidate",
           "confidence": "Low",
           "historical_relation_status": "Not claimed",
           "is_etymological": false,
-          "boundary": "ANGER/HEAT imagery ≠ AVERSION. Not etymological evidence.",
+          "boundary": "Author-attested usage and independent evidence are separate. ANGER/DISPLEASURE ≠ AVERSION/DETESTATION. Independent dialect evidence: Pending. Not etymological evidence.",
           "mapping_assessment": {
             "rubric": "Mapping Score v0.2 weights (words/man.html#mapping-score); qualitative A/B/C/D (protocol/protocol.mapping-framework.html#evaluation)",
             "method": "Provisional editorial assessment, unvalidated; no automatic numerical cutoff or historical points.",

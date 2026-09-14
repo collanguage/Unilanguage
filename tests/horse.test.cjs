@@ -9,12 +9,12 @@ const data=require('../data/language-book.v1.0.json');
 const api=require('../js/language-book-data.js');
 const page=fs.readFileSync(path.join(root,'words/horse.html'),'utf8');
 const baseline='443b57199ecdb6c1c86c777cc09cc8b83ddcc0c2';
-test('HORSE adds one record from the raw candidate without altering the prior 39 records or frozen UI',()=>{
+test('HORSE remains additive while the focused ABHOR record may advance independently',()=>{
  const before=JSON.parse(cp.execFileSync('git',['show',baseline+':data/language-book.v1.0.json'],{cwd:root,maxBuffer:12*1024*1024}));
  assert.equal(data.entries.length,40);
- assert.deepEqual(data.entries.filter(x=>x.slug!=='horse'),before.entries);
+ assert.deepEqual(data.entries.filter(x=>!['horse','abhor'].includes(x.slug)),before.entries.filter(x=>x.slug!=='abhor'));
  assert.deepEqual(data.entries.find(x=>x.slug==='horse'),e);
- for(const f of ['words/abhor.html','words/horizon.html','data/entries/horizon.v1.json','js/semantic-mapper.js','js/language-book-data.js'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),f);
+ for(const f of ['words/horizon.html','data/entries/horizon.v1.json','js/semantic-mapper.js','js/language-book-data.js'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),f);
  assert.equal(e.provenance.baseline_horse_entry_count,0);
 });
 test('HORSE translation is 马 while the cultural mapping has independent Candidate status',()=>{

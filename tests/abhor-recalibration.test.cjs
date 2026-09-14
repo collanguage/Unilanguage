@@ -37,7 +37,8 @@ test('ABHOR selected modern sense is independent of publication and the old hypo
   assert.equal(entry.mapping_assessment.dimensions[0].score, 2);
   const secondary = entry.secondary_affective_literary_associations[0];
   assert.equal(secondary.target, '火');
-  assert.equal(secondary.label, 'Secondary Affective / Literary Association');
+  assert.equal(secondary.label, 'Dialectal / Affective Semantic Candidate');
+  assert.equal(secondary.status, 'Candidate');
   assert.equal(secondary.mapping_assessment.level, 'D');
   assert.equal(secondary.mapping_assessment.total, 29);
   assert.equal(secondary.is_etymological, false);
@@ -80,6 +81,31 @@ test('Author intuition is preserved separately from evidence and cognitive endpo
     }
   }
   visit(entry);
+});
+
+test('火 is an author-attested dialect candidate with independent evidence kept separate', () => {
+  const d = entry.dialectal_affective_semantic_candidate;
+  assert.equal(d.target, '火');
+  assert.equal(d.label, 'Dialectal / Affective Semantic Candidate');
+  assert.equal(d.status, 'Candidate');
+  assert.equal(d.is_primary_mapping, false);
+  assert.equal(d.is_modern_standard_lexical_equivalent, false);
+  assert.equal(d.historical_relation_status, 'Not claimed');
+  assert.equal(d.author_attested_usage.status, 'Author-attested Dialect Usage');
+  assert.equal(d.author_attested_usage.author, 'Jinkai Liu');
+  assert.equal(d.author_attested_usage.region, 'Pending identification');
+  assert.deepEqual(d.author_attested_usage.forms, ['我对某某有火', '对某人有火']);
+  assert.match(d.author_attested_usage.reported_meaning, /不满.*反感.*厌恶/);
+  assert.equal(d.independent_dialect_evidence.status, 'Pending');
+  assert.equal(d.independent_dialect_evidence.region, 'Pending identification');
+  assert.deepEqual(d.independent_dialect_evidence.verified_meaning_scope, []);
+  assert.deepEqual(d.semantic_strength_boundary.independently_supported_for_the_construction, []);
+  assert.deepEqual(d.semantic_strength_boundary.related_standard_lexical_evidence, ['ANGER', 'DISPLEASURE']);
+  assert.match(d.semantic_strength_boundary.note, /does not independently verify.*aversion or detestation/);
+  assert.match(page, /Author-attested Dialect Usage/);
+  assert.match(page, /Independent dialect evidence: Pending/);
+  assert.match(page, /Region: Pending identification/);
+  assert.match(page, /ANGER \/ RESENTMENT \/ DISPLEASURE \/ AVERSION \/ DETESTATION/);
 });
 
 test('Phonetic assessment includes the unmatched features and both major reference accents', () => {
