@@ -12,7 +12,7 @@ const ids = new Set();
 const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
-check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.21", "Schema must remain 1.0.0 and the ABHOR featured release must be 1.2.21");
+check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.22", "Schema must remain 1.0.0 and the ABDICATE recalibration release must be 1.2.22");
 check(dataset.entries.length === 40, "HORSE adds exactly one record to the 39-record baseline");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");

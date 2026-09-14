@@ -1,13 +1,13 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.28",
-  "dataset_version": "1.2.21",
-  "created_at": "2026-09-13",
+  "version": "1.2.29",
+  "dataset_version": "1.2.22",
+  "created_at": "2026-09-14",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
   "entry_count": 40,
-  "published_entry_count": 13,
-  "candidate_mapping_count": 22,
+  "published_entry_count": 14,
+  "candidate_mapping_count": 21,
   "files": [
     {
       "path": "_redirects",
@@ -22,12 +22,12 @@
     {
       "path": "data/language-book-entry.schema.v1.json",
       "bytes": 15421,
-      "sha256": "d1ce8289571d1148f09bda47a22b7ce4dbca1fd1185bc95cac8561236b9b5acf"
+      "sha256": "22931e14a2891f79cb927f36133db831ca825a279ca247b732deb23a022e8027"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 1010942,
-      "sha256": "2cdc58efcd1545a56bc5b2b954a70920e191d5ebbf870ef47cd6e74195baa3e6"
+      "bytes": 1050194,
+      "sha256": "2e6e7408edefc2f34cb67499c16bc02178645553900564eee581e9bda8f148ca"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -61,8 +61,8 @@
     },
     {
       "path": "data/entries/abdicate.v1.json",
-      "bytes": 13709,
-      "sha256": "514c1d7fa20a97848a664d16676d219bb0c695b97456e037fcb8a65ed2e98ae0"
+      "bytes": 49413,
+      "sha256": "f35f806e5a42b25bb83630fc5207a97eccf046e5f3ed99f7b436fc2a08b9702b"
     },
     {
       "path": "data/entries/abdomen.v1.json",
@@ -202,7 +202,7 @@
     {
       "path": "scripts/build-language-book-v1.mjs",
       "bytes": 68230,
-      "sha256": "27e5606a257f0e744729f1760b2c28b89c2e5e3450718e499d2d27fe8a4db896"
+      "sha256": "fab5cbc493b766a225fb482134390ee1b23aa165732df4866356c5e0d586808b"
     },
     {
       "path": "docs/dataset-expansion-batch-001.md",
@@ -226,13 +226,13 @@
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 19269,
-      "sha256": "9cfd261dfc22b74d0f8f0f63278865448fb9542e2244fd6e9454cb70ad6fe0d8"
+      "bytes": 19277,
+      "sha256": "1770fc13982f3cd6c3b9d7d7ce80a6d3bacd583030c3d94e68838817f562c2cb"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
       "bytes": 33607,
-      "sha256": "4598fdd4e0b07fc15f465fba7ae3e797c3a68299d27ab0c045d85e00d83b8475"
+      "sha256": "18d1a2c0268444f88776af0a0def27c176bb8157ae313ce40d7e082e89f02b87"
     },
     {
       "path": "tests/dataset-expansion-batch-001.test.cjs",
@@ -281,8 +281,8 @@
     },
     {
       "path": "js/search.js",
-      "bytes": 6125,
-      "sha256": "356e66a84831c1e07a2ce75497f166476c00d3e9c148044e8004abfa07214c8a"
+      "bytes": 6255,
+      "sha256": "7c8db2390f9cf41a918ab3bba1fa07c740252a8b01aaba5bb1839f570ee5277c"
     },
     {
       "path": "js/literary-tabs.js",
@@ -297,12 +297,12 @@
     {
       "path": "dictionary.html",
       "bytes": 3802,
-      "sha256": "527cb08a09b2c1b397a8861a8e600a3883df83d243f0406a24edabae8f59b7ec"
+      "sha256": "27c796b59aa7cb1a8bb7940a20af6f5769356ed4c6608004a02e60662815d779"
     },
     {
       "path": "search.html",
       "bytes": 3929,
-      "sha256": "a368007eb4653c3d15f6124c54ed75ac27cbab9b073fb7a3f8df87bdc6480589"
+      "sha256": "e206075aa832abcc3a9a490c07e79af4e9d63253a45c88928da09ec98cbf180b"
     },
     {
       "path": "data-foundation.html",
@@ -313,6 +313,21 @@
       "path": "evidence-and-references.html",
       "bytes": 8146,
       "sha256": "ff00433d502ef9475eed210b957536590c5e9a72b4dfc5eae041f2b8396b0ea4"
+    },
+    {
+      "path": "words/abdicate.html",
+      "bytes": 16517,
+      "sha256": "d01e388324d90a0e64f2a94abb6110a5004534e24d2e4b4df219401b2dc73d0d"
+    },
+    {
+      "path": "docs/research/abdicate-source-audit-v1.md",
+      "bytes": 6147,
+      "sha256": "f9d9705c029847da8a1192f501d25d8a27d29eb86f661bb1b212dbca0cf6d54c"
+    },
+    {
+      "path": "tests/abdicate-recalibration.test.cjs",
+      "bytes": 5851,
+      "sha256": "c3dfcf67bd0c487a61ac3d1d4dd36c3961b6656b368bd284116adf9f40562f26"
     },
     {
       "path": "words/horse.html",
@@ -326,8 +341,8 @@
     },
     {
       "path": "tests/horse.test.cjs",
-      "bytes": 5567,
-      "sha256": "5758e4335f155edf9cb8387258ace9aecccc5a4ec7f8d499d81fc04869f606f7"
+      "bytes": 5600,
+      "sha256": "d3d3e2a0c228ec54808960ae2eb2b228ed5f5429c7b72b5d500a256ba9d0051f"
     },
     {
       "path": "words/horizon.html",
@@ -361,8 +376,8 @@
     },
     {
       "path": "tests/abhor-recalibration.test.cjs",
-      "bytes": 12510,
-      "sha256": "1cdfe472feaf40aceb0968310325a2241181b9019a77c90dd4d5dfe895047c16"
+      "bytes": 12585,
+      "sha256": "536f41176a4e984a7997cd201c90d44e1dcd03c6471d0c5a64144eb099ac0d0a"
     },
     {
       "path": "words/new.html",
@@ -486,13 +501,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 8075,
-      "sha256": "3c576cc13efbafc47c784860b1cf5368a47fdbd13ff082b3fbb4fe1e302e8bb2"
+      "bytes": 8325,
+      "sha256": "5ba1b1317bdfff9568486533f59945cc95b661e58e68b263b6c63356c2e43660"
     },
     {
       "path": "sitemap.xml",
-      "bytes": 4243,
-      "sha256": "c52bda0d5807ec743d9a46859ebee23e28cff95a642459922dc75e8b67baf3d9"
+      "bytes": 4335,
+      "sha256": "cae4a9ab4c3b2225c2c1bde8e48640cd029390bc2b4d86f05ede7228e0fad92a"
     }
   ]
 }

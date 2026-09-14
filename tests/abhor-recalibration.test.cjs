@@ -15,7 +15,7 @@ test('ABHOR recalibrates one existing ID without changing the other 37 records',
   assert.equal(data.entries.filter(e => e.slug === 'abhor').length, 1);
   assert.equal(entry.id, 'LB-en-abhor-037');
   assert.deepEqual(data.entries.find(e => e.slug === 'abhor'), entry);
-  assert.deepEqual(data.entries.filter(e => !['abhor','horizon','horse'].includes(e.slug)), before.entries.filter(e => e.slug !== 'abhor'));
+  assert.deepEqual(data.entries.filter(e => !['abhor','horizon','horse','abdicate'].includes(e.slug)), before.entries.filter(e => !['abhor','abdicate'].includes(e.slug)));
   assert.equal(entry.source.raw_note, before.entries.find(e => e.slug === 'abhor').source.raw_note);
 });
 
@@ -183,7 +183,7 @@ test('Historical unit mapping preserves sense, phonetic and historical boundarie
 
 test('Focused revision preserves every unrelated record from the latest base', () => {
  const before = JSON.parse(cp.execFileSync('git', ['show','92154ed5d7ab511df6e70dd69fc2ec38f9e59efa:data/language-book.v1.0.json'], {cwd:root,maxBuffer:10*1024*1024}));
- assert.deepEqual(data.entries.filter(e=>e.slug!=='abhor'), before.entries.filter(e=>e.slug!=='abhor'));
+ assert.deepEqual(data.entries.filter(e=>!['abhor','abdicate'].includes(e.slug)), before.entries.filter(e=>!['abhor','abdicate'].includes(e.slug)));
  assert.equal(data.entries.length,40);
  assert.equal(entry.diachronic_semantic_mapping.historical_stages.at(-1).modern_semantic_mapping_ref,entry.modern_standard_semantic_mapping.mapping_id);
 });

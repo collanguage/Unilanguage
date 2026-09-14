@@ -9,7 +9,7 @@ const entry=data.entries.find(e=>e.slug==='abbey');
 test('ABBEY recalibrates one identity without changing publication counts',()=>{
  assert.equal(entry.id,'LB-en-abbey-010');
  assert.equal(data.entries.filter(e=>!['new','horizon','horse'].includes(e.slug)).length,manifest.entry_count_before);
- assert.equal(data.entries.filter(e=>e.entry_status==='Published'&&!['horizon','abhor','horse'].includes(e.slug)).length,manifest.published_entry_count_before);
+ assert.equal(data.entries.filter(e=>e.entry_status==='Published'&&!['horizon','abhor','horse','abdicate'].includes(e.slug)).length,manifest.published_entry_count_before);
  assert.equal(data.entries.filter(e=>e.slug==='abbey').length,1);
  for(const q of ['abbey','abbaye','abbé','abbot','abbess','abba','修道院','爸','蓓','蓓蕾'])assert.equal(api.lookup(data,q).entry.id,entry.id,q);
 });
