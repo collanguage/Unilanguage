@@ -2,8 +2,8 @@
   "id": "LB-en-abdicate-036",
   "slug": "abdicate",
   "title": {
-    "en": "ABDICATE → 退 tuì · 退位",
-    "zh-Hans": "ABDICATE → 退 tuì · 退位"
+    "en": "ABDICATE ↔ 啼 tí",
+    "zh-Hans": "ABDICATE ↔ 啼 tí"
   },
   "languages": [
     {
@@ -15,7 +15,7 @@
       "part_of_speech": "verb · 动词"
     },
     {
-      "role": "target",
+      "role": "modern-semantic",
       "code": "zh-Hans",
       "name": "Chinese",
       "word": "退",
@@ -34,6 +34,13 @@
       "name": "French",
       "word": "abdiquer",
       "pronunciation": "/abdike/"
+    },
+    {
+      "role": "featured",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "啼",
+      "pronunciation": "tí [tʰi˧˥]"
     }
   ],
   "primary_mapping": {
@@ -45,26 +52,26 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "退",
-      "pronunciation": "tuì"
+      "word": "啼",
+      "pronunciation": "tí [tʰi˧˥]"
     },
     "gloss": {
-      "en": "renounce office → 退; standard translation 退位",
-      "zh-Hans": "辞去职位 → 退；标准翻译：退位"
+      "en": "Historical DICĀRE / DIC- ↔ 啼 tí; standard translation 退位",
+      "zh-Hans": "历史 DICĀRE / DIC- ↔ 啼 tí；标准翻译：退位"
     },
     "meaning": {
-      "en": "Renounce a throne or high office; relinquish power; in extended use, abandon responsibility. 退 is a selected leaving-office semantic head, not an equivalent of every sense; use 退位 or 放弃职责 in translation.",
-      "zh-Hans": "退位；放弃王位、职位或权力；引申为放弃职责。“退”取离开、辞去义，作为现代语义标题；不是所有义项的逐字译词，职责语境用“放弃职责”。"
+      "en": "ABDICATE features 啼 tí through historical DICĀRE / DIC-, not whole-word lexical equivalence. DECLARE / PROCLAIM ↔ vocalization / crying is a weak semantic bridge: crying is not declaring. Standard Translation: 退位; Modern Semantic Mapping: ABDICATE → 退 tuì (Supported/A/Medium). Direct lexical-semantic equivalence: No.",
+      "zh-Hans": "ABDICATE 以历史 DICĀRE / DIC- ↔ 啼 tí 为特色候选，不是整词词义等价。DECLARE / PROCLAIM ↔ 发声 / 啼叫仅为弱桥梁：啼叫不等于宣布。Standard Translation：退位；Modern Semantic Mapping：ABDICATE → 退 tuì（Supported/A/Medium）。Direct lexical-semantic equivalence: No。"
     },
-    "mapping_type": "Modern Standard Semantic Mapping",
+    "mapping_type": "Featured Historical-unit Phonetic-Semantic Candidate",
     "rationale": {
-      "en": "Meaning-first, selected leaving-office sense. Present-day Mapping ≠ Diachronic Mapping. 退 is not an English historical root.",
-      "zh-Hans": "Meaning first：选定离职义。Present-day Mapping ≠ Diachronic Mapping。退不是英语历史词根。"
+      "en": "Standard Translation ≠ Featured Mapping ≠ Diachronic/Historical-unit Mapping. Featured selection changes prominence, not the historical-unit candidate grade; d↔t is only a cross-language d-t-n-l hypothesis.",
+      "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Diachronic/Historical-unit Mapping。选择特色项只改变展示重点，不升级历史单位候选；d↔t仅属跨语言d-t-n-l假说。"
     }
   },
   "entry_status": "Published",
-  "mapping_status": "Supported",
-  "mapping_level": "A",
+  "mapping_status": "Candidate",
+  "mapping_level": "D",
   "historical_relation_status": "Not claimed",
   "evidence": {
     "Historical": {
@@ -441,7 +448,7 @@
       "en": "A ruler commands while in office; after stepping down, the ruler falls silent. A literary image, not an etymology.",
       "zh-Hans": "在位者发号施令；退位者不再发声。文学意象，不是标准词源。"
     },
-    "label": "Author’s Intuition / Semantic Reconstruction / Literary Layer"
+    "label": "Author's Semantic Reconstruction / Intuition / Literary Layer"
   },
   "media": [],
   "references": [
@@ -640,7 +647,7 @@
     }
   ],
   "author": "Jinkai Liu",
-  "version": "ABDICATE legacy recalibration v1.0 / Schema v1.0",
+  "version": "ABDICATE featured historical-unit presentation v1.1 / Schema v1.0",
   "dates": {
     "created": null,
     "modified": "2026-09-14",
@@ -658,6 +665,10 @@
     {
       "en": "Recalibrated the existing ID; raw author note preserved. Modern headline Supported/A; historical-unit candidate D/Low; secondary 谛 rejected by meaning first.",
       "zh-Hans": "原ID校准，保留作者原笔记。现代标题 Supported/A；历史单位候选 D/Low；谛按 meaning-first 不升级。"
+    },
+    {
+      "en": "Featured changed to 啼 without changing the independent modern 退 assessment or historical-unit Candidate/D/Low grade.",
+      "zh-Hans": "Featured改为啼，不改变独立现代退的评价，也不升级历史单位Candidate/D/Low。"
     }
   ],
   "search_terms": [
@@ -713,10 +724,10 @@
     "disposition": "Candidate",
     "priority_score": 90.8
   },
-  "confidence": "Medium",
+  "confidence": "Low",
   "standard_translation": {
     "source": "abdicate",
-    "target": "退位；放弃王位／职位／权力；放弃职责",
+    "target": "退位",
     "terms": [
       "退位",
       "放弃王位",
@@ -729,7 +740,8 @@
     "source_refs": [
       "REF-MW-ABDICATE",
       "ABD-OALD"
-    ]
+    ],
+    "scope_note": "Headline standard translation for the throne sense; extended senses retain the listed terms 放弃王位／职位／权力／职责, chosen by context."
   },
   "translation_status": "Supported",
   "translation_source_refs": [
@@ -738,18 +750,20 @@
   ],
   "featured_mapping": {
     "source": "abdicate",
-    "target": "退",
-    "reading": "tuì",
-    "display_label": "Modern Semantic Mapping · A / Medium · selected sense",
-    "status": "Supported",
+    "target": "啼",
+    "reading": "tí",
+    "display_label": "Featured Historical-unit Phonetic-Semantic Candidate｜特色历史单位音义候选 · D / Low",
+    "status": "Candidate",
     "historical_relation": "Not claimed",
     "boundary": {
-      "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
-      "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
+      "en": "Featured under the modern entry ABDICATE, but the compared historical unit is DICĀRE / DIC-. 啼 is not the standard translation. Modern ABDICATE → 退 remains Supported/A. Historical Relation: Not claimed.",
+      "zh-Hans": "以现代词 ABDICATE 为词条标题，实际比较单位为历史 DICĀRE / DIC-。啼不是标准翻译；现代 ABDICATE → 退保持 Supported/A。Historical Relation: Not claimed。"
     },
     "source_refs": [
-      "REF-MW-ABDICATE",
-      "ABD-ZD-TUI"
+      "ABD-AHD",
+      "ABD-ZD-TI",
+      "ABD-DCC",
+      "ABD-PINYIN"
     ]
   },
   "mapping_assessment": {
@@ -759,39 +773,39 @@
       {
         "name": "Phonetic Relation",
         "weight": 30,
-        "score": 2,
-        "reason": "整词与单音节声音弱；无规则对应。"
+        "score": 7,
+        "reason": "d↔t 只支持局部近似，7/30；非同音。"
       },
       {
         "name": "Semantic Relation",
         "weight": 30,
-        "score": 25,
-        "reason": "退取离开、辞职义，与选定 office sense 对应；不涵盖所有责任语境。"
+        "score": 7,
+        "reason": "啼≠declare，仅共享宽泛发声。"
       },
       {
         "name": "Structural / Cognitive Relation",
         "weight": 20,
-        "score": 11,
-        "reason": "退出职位的概念一致，非历史证据。"
+        "score": 8,
+        "reason": "失去权力与失去发言权的桥梁属文学。"
       },
       {
         "name": "Contextual Validity",
         "weight": 20,
-        "score": 15,
-        "reason": "退位适合王位语境；不能把单字退任意代入所有句子。"
+        "score": 3,
+        "reason": "不支持直接翻译；尚无盲法实验。"
       }
     ],
-    "total": 53,
+    "total": 25,
     "maximum": 100,
-    "level": "A",
-    "confidence": "Medium",
+    "level": "D",
+    "confidence": "Low",
     "rationale": {
       "en": "Qualitative relation type is independent of the numerical total. No cognacy or experiment result is inferred.",
       "zh-Hans": "定性关系类别独立于总分；不推断同源或实验结果。"
     }
   },
   "modern_standard_semantic_mapping": {
-    "mapping_id": "MAP-abdicate-primary",
+    "mapping_id": "MAP-abdicate-modern-tui",
     "source": {
       "language": "English",
       "word": "abdicate",
@@ -1208,7 +1222,7 @@
       "character": "退",
       "reading": "tuì",
       "status": "Supported within digital-source scope",
-      "modern_scope": "离开、辞去；辞去官职义支持标题。",
+      "modern_scope": "离开、辞去；辞去官职义支持现代语义映射。",
       "historical_scope": "只采用平台所列义项；未声称早期字形或最早书证已直接校勘。",
       "claim_types": [
         "modern_meaning",
@@ -1249,5 +1263,56 @@
         "ABD-ZD-DI"
       ]
     }
-  ]
+  ],
+  "direct_lexical_semantic_equivalence": false,
+  "featured_mapping_assessment": {
+    "source": "abdicate",
+    "target": "啼",
+    "reading": "tí",
+    "compared_unit": "DICĀRE / DIC-",
+    "status": "Candidate",
+    "mapping_level": "D",
+    "confidence": "Low",
+    "historical_relation_status": "Not claimed",
+    "direct_lexical_semantic_equivalence": false,
+    "historical_unit_mapping_ref": "MAP-dicare-ti",
+    "mapping_assessment": {
+      "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
+      "method": "Unvalidated editorial feature assessment; no statistical probability or historical points.",
+      "dimensions": [
+        {
+          "name": "Phonetic Relation",
+          "weight": 30,
+          "score": 7,
+          "reason": "d↔t 只支持局部近似，7/30；非同音。"
+        },
+        {
+          "name": "Semantic Relation",
+          "weight": 30,
+          "score": 7,
+          "reason": "啼≠declare，仅共享宽泛发声。"
+        },
+        {
+          "name": "Structural / Cognitive Relation",
+          "weight": 20,
+          "score": 8,
+          "reason": "失去权力与失去发言权的桥梁属文学。"
+        },
+        {
+          "name": "Contextual Validity",
+          "weight": 20,
+          "score": 3,
+          "reason": "不支持直接翻译；尚无盲法实验。"
+        }
+      ],
+      "total": 25,
+      "maximum": 100,
+      "level": "D",
+      "confidence": "Low",
+      "rationale": {
+        "en": "Qualitative relation type is independent of the numerical total. No cognacy or experiment result is inferred.",
+        "zh-Hans": "定性关系类别独立于总分；不推断同源或实验结果。"
+      }
+    }
+  }
 }

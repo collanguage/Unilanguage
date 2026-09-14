@@ -77,3 +77,11 @@ di-cā-re 与英语 abdicate 各三音节，对 tí 一音节。
 保留用户 dic-/diqu- 抽取，不整体删除观察。diquer 不作为现代独立词汇证据；French diqu- 经 Latin abdicāre 解释为历史 dic- 材料的形式反映，-que 不是据此可立的一般法语后缀。
 
 ab- = AWAY/OFF/FROM，不等于现代汉语“放弃”；abdicāre 整词有 renounce/relinquish 义；退是现代 ABDICATE 整词映射。declare away 只作解释性助记，不是拉丁逐词翻译，不制造双重否定。文学层为 Author’s Intuition / Semantic Reconstruction。
+
+## Featured presentation v1.1 — 2026-09-14
+
+Final largest heading: **ABDICATE ↔ 啼 tí**. Featured Historical-unit Phonetic-Semantic Candidate｜特色历史单位音义候选. The compared unit remains historical DICĀRE / DIC-, not whole modern abdicate.
+
+Standard Translation: 退位 (extended senses retain context-specific alternatives). Modern Semantic Mapping: ABDICATE → 退 tuì remains Supported/A/Medium. Featured and historical-unit 啼 remain Candidate/D/Low, 25/100, phonetic 7/30, direct lexical-semantic equivalence No. Historical Relation: Not claimed.
+
+Standard Translation ≠ Featured Mapping ≠ Diachronic/Historical-unit Mapping. Featured changes prominence only; semantic mismatch, counterevidence, pending Mainland print sources, ab-/dicāre/abdicāre layers, French historical diqu- boundary and the author's literary intuition are retained.

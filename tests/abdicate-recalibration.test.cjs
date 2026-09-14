@@ -8,7 +8,7 @@ const e = require('../data/entries/abdicate.v1.json');
 const data = require('../data/language-book.v1.0.json');
 const api = require('../js/language-book-data.js');
 const page = fs.readFileSync(path.join(root, 'words/abdicate.html'), 'utf8');
-const baseline = '46909994dd75e5d5e9501da3b7525c820f796f77';
+const baseline = '6fe36930ff4395adc4b7cf71dab43109efff158b';
 
 test('ABDICATE recalibrates one existing ID and preserves every other record and raw note', () => {
   const before = JSON.parse(cp.execFileSync('git', ['show', baseline + ':data/language-book.v1.0.json'], {cwd: root, maxBuffer: 15*1024*1024}));
@@ -24,10 +24,10 @@ test('ABDICATE recalibrates one existing ID and preserves every other record and
 });
 
 test('Modern whole-word meaning, historical morpheme and dicāre candidate stay independent', () => {
-  assert.equal(e.primary_mapping.target.word, '退');
-  assert.equal(e.featured_mapping.target, '退');
+  assert.equal(e.primary_mapping.target.word, '啼');
+  assert.equal(e.featured_mapping.target, '啼');
   assert.ok(e.standard_translation.terms.includes('退位'));
-  assert.equal(e.mapping_status, 'Supported');
+  assert.equal(e.mapping_status, 'Candidate');
   assert.equal(e.modern_standard_semantic_mapping.mapping_level, 'A');
   const m = e.diachronic_semantic_mapping.mappings[0];
   assert.equal(m.source.word, 'dicāre');
@@ -88,7 +88,24 @@ test('Dictionary, search and Mapper aliases route to the same current record and
     const found=api.lookup(data,term).entry;
     assert.equal(found?.id,e.id,term); assert.equal(found.page,'words/abdicate.html');
   }
-  assert.match(page,/<h1>ABDICATE → 退 tuì · 退位<\/h1>/);
+  assert.match(page,/<h1>ABDICATE ↔ 啼 tí<\/h1>/);
   assert.match(page,/DICĀRE ↔ 啼 tí/);
   for (const id of ['literature','basic-meaning','multilingual','etymology','mapping','justification','protocol','utp','examples','community','references']) assert.ok(page.includes('id="'+id+'"'));
+});
+
+test('Featured selection changes prominence without upgrading the historical-unit candidate or downgrading modern meaning', () => {
+ const before=JSON.parse(cp.execFileSync('git',['show',baseline+':data/entries/abdicate.v1.json'],{cwd:root}));
+ assert.deepEqual(e.diachronic_semantic_mapping,before.diachronic_semantic_mapping);
+ const modern={...e.modern_standard_semantic_mapping,mapping_id:before.modern_standard_semantic_mapping.mapping_id};
+ assert.deepEqual(modern,before.modern_standard_semantic_mapping);
+ assert.equal(e.standard_translation.target,'退位');
+ assert.equal(e.modern_standard_semantic_mapping.target.word,'退');
+ assert.equal(e.modern_standard_semantic_mapping.status,'Supported');
+ assert.equal(e.mapping_level,'D'); assert.equal(e.confidence,'Low');
+ assert.equal(e.direct_lexical_semantic_equivalence,false);
+ assert.equal(e.featured_mapping_assessment.compared_unit,'DICĀRE / DIC-');
+ assert.match(page,/Standard Translation ≠ Featured Mapping ≠ Diachronic\/Historical-unit Mapping/);
+ assert.match(page,/Featured Historical-unit Phonetic-Semantic Candidate｜特色历史单位音义候选/);
+ assert.match(page,/啼叫不等于 declare\/proclaim/);
+ assert.match(page,/ab- → AWAY\/OFF\/FROM；dicāre → DECLARE\/PROCLAIM；abdicāre → RENOUNCE\/RELINQUISH/);
 });

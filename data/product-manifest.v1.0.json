@@ -1,13 +1,13 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.29",
-  "dataset_version": "1.2.22",
+  "version": "1.2.30",
+  "dataset_version": "1.2.23",
   "created_at": "2026-09-14",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
   "entry_count": 40,
   "published_entry_count": 14,
-  "candidate_mapping_count": 21,
+  "candidate_mapping_count": 22,
   "files": [
     {
       "path": "_redirects",
@@ -22,12 +22,12 @@
     {
       "path": "data/language-book-entry.schema.v1.json",
       "bytes": 15421,
-      "sha256": "22931e14a2891f79cb927f36133db831ca825a279ca247b732deb23a022e8027"
+      "sha256": "48c4f37dd5b5b2a682eb357a6278c3c8cb47cc5fff3dfc578873093292909932"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 1050194,
-      "sha256": "2e6e7408edefc2f34cb67499c16bc02178645553900564eee581e9bda8f148ca"
+      "bytes": 1053329,
+      "sha256": "32cbf86a0f1263d951ae5decb97b8c036bc5fc214a5bede9d994c023fd89730a"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -61,8 +61,8 @@
     },
     {
       "path": "data/entries/abdicate.v1.json",
-      "bytes": 49413,
-      "sha256": "f35f806e5a42b25bb83630fc5207a97eccf046e5f3ed99f7b436fc2a08b9702b"
+      "bytes": 52288,
+      "sha256": "799eafc7844747fedfd22ac53827491b5a6be200ec38de7fd4e97051f5867bb4"
     },
     {
       "path": "data/entries/abdomen.v1.json",
@@ -202,7 +202,7 @@
     {
       "path": "scripts/build-language-book-v1.mjs",
       "bytes": 68230,
-      "sha256": "fab5cbc493b766a225fb482134390ee1b23aa165732df4866356c5e0d586808b"
+      "sha256": "6a8f559a0d734e0f83d117df9a24ce5e86ed6d3f4e3e2cb3063efd37cc9f1037"
     },
     {
       "path": "docs/dataset-expansion-batch-001.md",
@@ -227,12 +227,12 @@
     {
       "path": "scripts/validate-language-book-v1.mjs",
       "bytes": 19277,
-      "sha256": "1770fc13982f3cd6c3b9d7d7ce80a6d3bacd583030c3d94e68838817f562c2cb"
+      "sha256": "20cf30d71dddaf28401ec8704e7f476357a42d0ca9c83814ff6bc2e071b08a54"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
       "bytes": 33607,
-      "sha256": "18d1a2c0268444f88776af0a0def27c176bb8157ae313ce40d7e082e89f02b87"
+      "sha256": "2a6b8018f09b838c8a3742c6b1ee38fabe84d766ce4beaf9b1f693fdd661c022"
     },
     {
       "path": "tests/dataset-expansion-batch-001.test.cjs",
@@ -316,18 +316,18 @@
     },
     {
       "path": "words/abdicate.html",
-      "bytes": 16517,
-      "sha256": "d01e388324d90a0e64f2a94abb6110a5004534e24d2e4b4df219401b2dc73d0d"
+      "bytes": 17428,
+      "sha256": "473b482314ffa2f936a73a54f10d027fda6d792458d96bcd5b8609e75d94962c"
     },
     {
       "path": "docs/research/abdicate-source-audit-v1.md",
-      "bytes": 6147,
-      "sha256": "f9d9705c029847da8a1192f501d25d8a27d29eb86f661bb1b212dbca0cf6d54c"
+      "bytes": 7023,
+      "sha256": "d7912a35046ae0bc350302d5f2656c06513636c9350d63f5662073f76adbdcd2"
     },
     {
       "path": "tests/abdicate-recalibration.test.cjs",
-      "bytes": 5851,
-      "sha256": "c3dfcf67bd0c487a61ac3d1d4dd36c3961b6656b368bd284116adf9f40562f26"
+      "bytes": 7146,
+      "sha256": "f4104912257f2ab173eedcc3a2284b88c627bb199235711f0e26841bba9b05c0"
     },
     {
       "path": "words/horse.html",
@@ -501,8 +501,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8325,
-      "sha256": "5ba1b1317bdfff9568486533f59945cc95b661e58e68b263b6c63356c2e43660"
+      "bytes": 8577,
+      "sha256": "cf8c649318521516d2ea8d6618e0762d0cf138e78803e4c93029f5f8535c838c"
     },
     {
       "path": "sitemap.xml",
