@@ -2,8 +2,8 @@
   "id": "LB-en-abhor-037",
   "slug": "abhor",
   "title": {
-    "en": "ABHOR → 恶 wù · HORRĒRE → 骇 hài",
-    "zh-Hans": "ABHOR → 恶 wù · HORRĒRE → 骇 hài"
+    "en": "ABHOR ↔ 火 huǒ · 憎恶 / 厌恶",
+    "zh-Hans": "ABHOR ↔ 火 huǒ · 憎恶 / 厌恶"
   },
   "languages": [
     {
@@ -15,7 +15,7 @@
       "part_of_speech": "verb · 动词"
     },
     {
-      "role": "target",
+      "role": "modern-standard-semantic-mapping",
       "code": "zh-Hans",
       "name": "Chinese",
       "word": "恶",
@@ -45,7 +45,7 @@
       "pronunciation": "hài [xaɪ˥˩]"
     },
     {
-      "role": "dialectal-affective-candidate",
+      "role": "target",
       "code": "zh-Hans",
       "name": "Chinese",
       "word": "火",
@@ -61,26 +61,26 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "恶",
-      "pronunciation": "wù [u˥˩]"
+      "word": "火",
+      "pronunciation": "huǒ [xwo˨˩˦]"
     },
     "gloss": {
-      "en": "detest / loathe → 恶 wù; standard translation 憎恶／厌恶",
-      "zh-Hans": "憎恶／厌恶 → 恶 wù（动词）"
+      "en": "Featured candidate: -hor ↔ 火 huǒ; standard translation 憎恶 / 厌恶",
+      "zh-Hans": "特色候选：-hor ↔ 火 huǒ；标准翻译 憎恶 / 厌恶"
     },
     "meaning": {
-      "en": "Abhor means detest / loathe / regard with intense aversion. 恶 wù is the verb meaning dislike or detest; standard Chinese translation: 憎恶／厌恶. Direct lexical-semantic equivalence: Yes, for this selected sense, not every use of the polyphonic character.",
-      "zh-Hans": "abhor 表示憎恶／厌恶；单字映射为动词“恶 wù”（讨厌、憎恶义）。Direct lexical-semantic equivalence: Yes，仅限所选义项；不混用 è／ě／wū，不声称单字可在所有现代句子中替代双音词。"
+      "en": "Featured Phonetic-Semantic / Dialectal-Affective Candidate. Author-attested negative attitude and an indirect FIRE/HEAT → strong negative affect bridge. Direct lexical-semantic equivalence: No. Independent evidence pending. Standard Translation: 憎恶 / 厌恶. Modern Standard Semantic Mapping: ABHOR → 恶 wù (Supported / A). Diachronic Semantic Mapping: HORRĒRE → 骇 hài (Candidate / C). Historical Relation: Not claimed.",
+      "zh-Hans": "Featured Phonetic-Semantic / Dialectal-Affective Candidate。作者方言观察报告不满、反感、厌恶，结合 FIRE/HEAT → 强烈负面情绪的间接认知桥梁。Direct lexical-semantic equivalence: No。Independent evidence pending。 Standard Translation：憎恶 / 厌恶。现代标准语义：ABHOR → 恶 wù（Supported / A）。历时映射：HORRĒRE → 骇 hài（Candidate / C）。Historical Relation: Not claimed。"
     },
-    "mapping_type": "Modern Semantic Mapping",
+    "mapping_type": "Featured Phonetic-Semantic / Dialectal-Affective Candidate",
     "rationale": {
-      "en": "Meaning-first lexical comparison for the aversion sense. Weak sound resemblance is scored independently; semantic equivalence is not etymological evidence.",
-      "zh-Hans": "先按厌恶义匹配；声音相似弱，独立评分。语义对应不构成词源证据。"
+      "en": "Selected per entry for limited stressed -hor/huǒ resemblance and author-attested dialectal affect, not standard lexical equivalence or historical cognacy. ANGER ≠ AVERSION/DETESTATION.",
+      "zh-Hans": "按本词选择：重读 -hor 与 huǒ 的有限音近、作者方言情绪用例及认知桥梁；不是标准词汇等值或历史同源。ANGER ≠ AVERSION/DETESTATION。"
     }
   },
   "entry_status": "Published",
-  "mapping_status": "Supported",
-  "mapping_level": "A",
+  "mapping_status": "Candidate",
+  "mapping_level": "D",
   "historical_relation_status": "Not claimed",
   "evidence": {
     "Historical": {
@@ -116,8 +116,8 @@
       "status": "Candidate",
       "confidence": "Low",
       "summary": {
-        "en": "Modern abhor versus 恶 wù: weak whole-word resemblance, not homophony.",
-        "zh-Hans": "现代 abhor 对恶 wù：整词音近弱，不是同音。"
+        "en": "Compare only modern English -hor /hɔː(r)/ with Mandarin 火 [xwo˨˩˦]. Limited resemblance, not homophony or a demonstrated correspondence.",
+        "zh-Hans": "仅比较现代英语 -hor /hɔː(r)/ 与普通话火 [xwo˨˩˦]：有限音近，不是同音，也不是已经证实的规律对应。"
       },
       "items": [
         {
@@ -132,11 +132,26 @@
             "ABHOR-OALD",
             "ABHOR-ZD-WU"
           ]
+        },
+        {
+          "evidence_id": "PHONSEM-ABHOR-HUO",
+          "claim": {
+            "en": "Compare only modern English -hor /hɔː(r)/ with Mandarin 火 [xwo˨˩˦]. Limited resemblance, not homophony or a demonstrated correspondence.",
+            "zh-Hans": "仅比较现代英语 -hor /hɔː(r)/ 与普通话火 [xwo˨˩˦]：有限音近，不是同音，也不是已经证实的规律对应。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "ABHOR-OALD",
+            "ABHOR-ZD-HUO",
+            "ABHOR-FR"
+          ]
         }
       ],
       "source_refs": [
         "ABHOR-OALD",
-        "ABHOR-ZD-WU"
+        "ABHOR-ZD-HUO",
+        "ABHOR-FR"
       ]
     },
     "Cognitive": {
@@ -225,7 +240,7 @@
   "phonetic_observation": [
     {
       "observation_id": "PHON-ABHOR-WU",
-      "scope": "primary_mapping",
+      "scope": "modern_standard_semantic_mapping",
       "claim": {
         "en": "Modern abhor versus 恶 wù: weak whole-word resemblance, not homophony.",
         "zh-Hans": "现代 abhor 对恶 wù：整词音近弱，不是同音。"
@@ -310,7 +325,8 @@
         "US": "Limited; additional rhotic mismatch",
         "method": "Provisional unvalidated editorial feature comparison; not acoustic measurements or blinded ratings",
         "score": 10,
-        "maximum": 30
+        "maximum": 30,
+        "confidence": "Low"
       },
       "secondary_french": {
         "en": "French /abɔʁe/: the letters h and rr do not supply English /h/ plus /r/; /ɔʁ/ versus /xwo/ is a weaker secondary comparison. No extra independent cognacy evidence.",
@@ -321,7 +337,7 @@
         "ABHOR-ZD-HUO",
         "ABHOR-FR"
       ],
-      "scope": "secondary_affective_literary_association"
+      "scope": "primary_mapping"
     }
   ],
   "semantic_structure": {
@@ -838,7 +854,7 @@
     }
   ],
   "author": "Jinkai Liu",
-  "version": "ABHOR Legacy Recalibration v1.2 / Schema v1.0",
+  "version": "ABHOR Featured Recalibration v1.3 / Schema v1.0",
   "dates": {
     "created": null,
     "modified": "2026-09-13",
@@ -846,12 +862,12 @@
   },
   "editorial_notes": [
     {
-      "en": "Present-day Mapping ≠ Diachronic Mapping. One primary modern mapping; historical-unit comparisons have separate fields, assessments and historical-relation boundaries.",
-      "zh-Hans": "现代词义映射 ≠ 历时语义映射。一个主要现代 Mapping；历史单位比较使用独立字段、评分及历史关系边界。"
+      "en": "Standard Translation ≠ Featured Mapping ≠ Diachronic Mapping. Modern standard semantics is recorded separately; each object has independent evidence and confidence.",
+      "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历时映射。现代标准语义单独记录，各对象独立标注证据与置信度。"
     },
     {
-      "en": "Stable ID, 39-record dataset and Published entry status retained. Primary A is a fresh selected-sense assessment, not promotion of the old 火 hypothesis (D/Low).",
-      "zh-Hans": "保留 ID、39条数据集及 Published 状态。主映射 A 是新对象的所选义项评价，不是升级旧火假说（D/Low）。"
+      "en": "Stable ID, 40-record dataset and Published entry status retained. Featured 火 remains Candidate / D / Low; Supported / A belongs only to modern 恶 wù.",
+      "zh-Hans": "保留 ID、40条数据集及 Published 状态。Featured 火保持 Candidate / D / Low；Supported / A 只属于现代恶 wù。"
     },
     {
       "en": "A — Direct grades only the documented selected lexical sense, consistent with the framework’s Direct category. Semantic confidence High within digital-source scope; overall confidence Medium because sound correspondence is weak and print-entry audit remains pending. No cognacy or experimental promotion.",
@@ -860,6 +876,10 @@
     {
       "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
       "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
+    },
+    {
+      "en": "Featured Mapping is selected per entry and may differ from Standard Translation; selection must state whether its strength is phonetic, semantic, cognitive, dialectal, or cultural.",
+      "zh-Hans": "Featured Mapping 按每个词具体选择，可以不同于标准翻译；须注明优势属于语音、语义、认知、方言或文化，并分别标明证据类型和置信度。"
     }
   ],
   "search_terms": [
@@ -920,7 +940,7 @@
     "disposition": "Candidate",
     "priority_score": 91.8
   },
-  "direct_lexical_semantic_equivalence": true,
+  "direct_lexical_semantic_equivalence": false,
   "cognitive_paths": {
     "english_latin": {
       "evidence_id": "COG-ABHOR-EN",
@@ -964,7 +984,7 @@
     "design": "Separate phonetic and semantic judgments; hide author note and spelling from auditory raters; British non-rhotic and American rhotic strata; randomize matched syllable/frequency controls; horizontal and horse as etymological negative controls only, not matched statistical controls; deduplicate HORR family; preregister outcomes, sample size and analysis before collection.",
     "falsification": "No held-out advantage over matched random pairs, or disappearance after controlling generic negative valence; no upgrade from software tests.",
     "results": null,
-    "scope": "Separate sound hypotheses; primary lexical equivalence does not depend on this experiment"
+    "scope": "Separate sound hypotheses; supported standard translation and modern lexical equivalence do not depend on this experiment"
   },
   "legacy_corrections": [
     {
@@ -987,9 +1007,9 @@
   "future_candidates": [
     {
       "candidate": "horse → 马 → 午 → 火",
-      "status": "Future candidate",
+      "status": "Separate published entry",
       "is_evidence_for_abhor": false,
-      "reason": "现有 data/entries 无成熟 horse candidate。本任务不扩展；午马／五行配属须另用大陆可靠资料逐项核验，禁止反向证明 hor-=火。"
+      "reason": "HORSE 已独立成条，马 → 午 → 火为单独文化分类候选；不属于 HORR 词族，也不能反向证明 hor-=火。"
     }
   ],
   "source_audit_pending": [
@@ -1031,37 +1051,37 @@
       {
         "name": "Phonetic Relation",
         "weight": 30,
-        "score": 2,
-        "reason": "整词 /əbˈhɔː(r)/ 对 /u/，辅音、元音及音节结构不匹配；仅有宽泛圆唇性，声音弱。"
+        "score": 10,
+        "reason": "局部清擦音与圆唇后元音近似，多个特征不匹配；不是整词同音。"
       },
       {
         "name": "Semantic Relation",
         "weight": 30,
-        "score": 29,
-        "reason": "所选动词义直接对应憎恶／厌恶，不能外推到恶的其他读音义项。"
+        "score": 6,
+        "reason": "共享宽泛负面情绪，愤怒与憎恶终点不同。"
       },
       {
         "name": "Structural / Cognitive Relation",
         "weight": 20,
-        "score": 12,
-        "reason": "两者可表达主体对对象的厌恶态度；未建立跨语言音义规律。"
+        "score": 10,
+        "reason": "两侧具身路径可独立支持，但其相互映射仍属解释。"
       },
       {
         "name": "Contextual Validity",
         "weight": 20,
-        "score": 17,
-        "reason": "现代译句通常使用憎恶／厌恶；单字恶较书面，不能任意逐字替换。"
+        "score": 3,
+        "reason": "可作记忆／文学桥梁，普通译句不可直接互换；无盲评结果。"
       }
     ],
-    "total": 60,
+    "total": 29,
     "maximum": 100,
-    "level": "A",
-    "confidence": "Medium",
+    "level": "D",
+    "confidence": "Low",
     "rationale": {
-      "en": "A — Direct grades only the documented selected lexical sense, consistent with the framework’s Direct category. Semantic confidence High within digital-source scope; overall confidence Medium because sound correspondence is weak and print-entry audit remains pending. No cognacy or experimental promotion.",
-      "zh-Hans": "A—Direct 仅评价有辞书支持的所选词义直接对应，不代表声音强。数字来源范围内语义置信度 High；声音弱、纸本条目待核，综合置信度 Medium。不升级同源或实验结论。"
+      "en": "A lacks direct correspondence; B lacks convergent mapping evidence; C is not established merely by a proposed test. Conventional within-language paths are supported, but their cross-language connection remains broad and exploratory, hence D.",
+      "zh-Hans": "A 缺少直接对应，B 缺少汇合的映射证据；不能仅凭拟订测试就定 C。各语言内部常规路径有依据，但跨语言连接仍宽泛、探索性，故暂定 D。"
     },
-    "template_note": "A/B/C/D 按关系类型独立判定；数值无统一升级阈值，不是历史概率。软件回归不是语言实验。"
+    "template_note": "模板将 C 称为语义／认知映射，协议称为待控制检验模式；认知标签本身不自动赋予 C。29/100 不是历史概率，也无已验证误差范围。"
   },
   "original_author_observation": {
     "normalized_author_observation": "abhor，憎恶。火 huǒ。憎恶即对某人有火。作者补充方言用例：我对某某有火／对某人有火，表示对某人有意见、不满、反感、厌恶。",
@@ -1096,10 +1116,10 @@
         "form": "ABHOR",
         "language": "English",
         "meaning": "DETEST / LOATHE",
-        "primary_mapping_ref": "MAP-abhor-primary",
         "source_refs": [
           "REF-MW-ABHOR"
-        ]
+        ],
+        "modern_semantic_mapping_ref": "MAP-abhor-modern-wu"
       }
     ],
     "boundary": {
@@ -1229,7 +1249,7 @@
     "label": "Dialectal / Affective Semantic Candidate",
     "status": "Candidate",
     "confidence": "Low",
-    "is_primary_mapping": false,
+    "is_primary_mapping": true,
     "is_modern_standard_lexical_equivalent": false,
     "historical_relation_status": "Not claimed",
     "author_attested_usage": {
@@ -1267,7 +1287,8 @@
       ],
       "note": "Standard lexical evidence for 火气／发火／怒火 supports anger, irascibility or displeasure; it does not independently verify that the dialect construction reaches aversion or detestation. Pending is not rejection."
     },
-    "boundary": "Author observation retained; independent dialect evidence pending. 火 is neither the modern standard lexical equivalent of abhor nor historical-etymological evidence. Historical Relation: Not claimed."
+    "boundary": "Author observation retained; independent dialect evidence pending. 火 is neither the modern standard lexical equivalent of abhor nor historical-etymological evidence. Historical Relation: Not claimed.",
+    "featured_mapping_ref": "MAP-abhor-primary"
   },
   "secondary_affective_literary_associations": [
     {
@@ -1321,7 +1342,133 @@
         },
         "template_note": "模板将 C 称为语义／认知映射，协议称为待控制检验模式；认知标签本身不自动赋予 C。29/100 不是历史概率，也无已验证误差范围。"
       },
-      "phonetic_observation_ref": "PHON-ABHOR-001"
+      "phonetic_observation_ref": "PHON-ABHOR-001",
+      "scope": "retained_affective_literary_context",
+      "featured_mapping_ref": "MAP-abhor-primary"
     }
-  ]
+  ],
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-abhor-modern-wu",
+    "source": {
+      "language": "English",
+      "word": "abhor",
+      "pronunciation": "UK /əbˈhɔː(r)/; US /əbˈhɔːr/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "恶",
+      "pronunciation": "wù [u˥˩]"
+    },
+    "gloss": {
+      "en": "detest / loathe → 恶 wù; standard translation 憎恶／厌恶",
+      "zh-Hans": "憎恶／厌恶 → 恶 wù（动词）"
+    },
+    "meaning": {
+      "en": "Abhor means detest / loathe / regard with intense aversion. 恶 wù is the verb meaning dislike or detest; standard Chinese translation: 憎恶／厌恶. Direct lexical-semantic equivalence: Yes, for this selected sense, not every use of the polyphonic character.",
+      "zh-Hans": "abhor 表示憎恶／厌恶；单字映射为动词“恶 wù”（讨厌、憎恶义）。Direct lexical-semantic equivalence: Yes，仅限所选义项；不混用 è／ě／wū，不声称单字可在所有现代句子中替代双音词。"
+    },
+    "mapping_type": "Modern Standard Semantic Mapping",
+    "rationale": {
+      "en": "Meaning-first lexical comparison for the aversion sense. Weak sound resemblance is scored independently; semantic equivalence is not etymological evidence.",
+      "zh-Hans": "先按厌恶义匹配；声音相似弱，独立评分。语义对应不构成词源证据。"
+    },
+    "status": "Supported",
+    "mapping_level": "A",
+    "confidence": "Medium",
+    "semantic_confidence": "High",
+    "historical_relation_status": "Not claimed",
+    "direct_lexical_semantic_equivalence": true,
+    "mapping_assessment": {
+      "rubric": "Mapping Score v0.2 weights (words/man.html#mapping-score); qualitative A/B/C/D (protocol/protocol.mapping-framework.html#evaluation)",
+      "method": "Provisional editorial assessment, unvalidated; no automatic numerical cutoff or historical points.",
+      "dimensions": [
+        {
+          "name": "Phonetic Relation",
+          "weight": 30,
+          "score": 2,
+          "reason": "整词 /əbˈhɔː(r)/ 对 /u/，辅音、元音及音节结构不匹配；仅有宽泛圆唇性，声音弱。"
+        },
+        {
+          "name": "Semantic Relation",
+          "weight": 30,
+          "score": 29,
+          "reason": "所选动词义直接对应憎恶／厌恶，不能外推到恶的其他读音义项。"
+        },
+        {
+          "name": "Structural / Cognitive Relation",
+          "weight": 20,
+          "score": 12,
+          "reason": "两者可表达主体对对象的厌恶态度；未建立跨语言音义规律。"
+        },
+        {
+          "name": "Contextual Validity",
+          "weight": 20,
+          "score": 17,
+          "reason": "现代译句通常使用憎恶／厌恶；单字恶较书面，不能任意逐字替换。"
+        }
+      ],
+      "total": 60,
+      "maximum": 100,
+      "level": "A",
+      "confidence": "Medium",
+      "rationale": {
+        "en": "A — Direct grades only the documented selected lexical sense, consistent with the framework’s Direct category. Semantic confidence High within digital-source scope; overall confidence Medium because sound correspondence is weak and print-entry audit remains pending. No cognacy or experimental promotion.",
+        "zh-Hans": "A—Direct 仅评价有辞书支持的所选词义直接对应，不代表声音强。数字来源范围内语义置信度 High；声音弱、纸本条目待核，综合置信度 Medium。不升级同源或实验结论。"
+      },
+      "template_note": "A/B/C/D 按关系类型独立判定；数值无统一升级阈值，不是历史概率。软件回归不是语言实验。"
+    }
+  },
+  "featured_mapping": {
+    "source": "abhor",
+    "target": "火",
+    "reading": "huǒ",
+    "status": "Candidate",
+    "display_label": "Featured Phonetic-Semantic / Dialectal-Affective Candidate · Low confidence · Level D",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "Featured Phonetic-Semantic / Dialectal-Affective Candidate. Author-attested negative attitude and an indirect FIRE/HEAT → strong negative affect bridge. Direct lexical-semantic equivalence: No. Independent evidence pending. Standard Translation: 憎恶 / 厌恶. Modern Standard Semantic Mapping: ABHOR → 恶 wù (Supported / A). Diachronic Semantic Mapping: HORRĒRE → 骇 hài (Candidate / C). Historical Relation: Not claimed.",
+      "zh-Hans": "Featured Phonetic-Semantic / Dialectal-Affective Candidate。作者方言观察报告不满、反感、厌恶，结合 FIRE/HEAT → 强烈负面情绪的间接认知桥梁。Direct lexical-semantic equivalence: No。Independent evidence pending。 Standard Translation：憎恶 / 厌恶。现代标准语义：ABHOR → 恶 wù（Supported / A）。历时映射：HORRĒRE → 骇 hài（Candidate / C）。Historical Relation: Not claimed。"
+    },
+    "source_refs": [
+      "ABHOR-OALD",
+      "ABHOR-ZD-HUO",
+      "ABHOR-AUTHOR"
+    ]
+  },
+  "standard_translation": {
+    "source": "abhor",
+    "target": "憎恶 / 厌恶",
+    "terms": [
+      "憎恶",
+      "厌恶"
+    ],
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "REF-MW-ABHOR",
+      "ABHOR-ZD-WU"
+    ]
+  },
+  "featured_mapping_assessment": {
+    "source": "abhor",
+    "target": "火",
+    "reading": "huǒ",
+    "label": "Featured Unilanguage Mapping Candidate",
+    "type": "Featured Phonetic-Semantic / Dialectal-Affective Candidate",
+    "status": "Candidate",
+    "confidence": "Low",
+    "mapping_level": "D",
+    "historical_relation_status": "Not claimed",
+    "mapping_ref": "MAP-abhor-primary",
+    "strengths": [
+      "phonetic",
+      "cognitive",
+      "dialectal"
+    ],
+    "phonetic_confidence": "Low",
+    "semantic_confidence": "Low",
+    "dialectal_confidence": "Low",
+    "cognitive_confidence": "Low",
+    "independent_evidence_status": "Pending"
+  }
 }

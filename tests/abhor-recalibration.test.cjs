@@ -19,33 +19,39 @@ test('ABHOR recalibrates one existing ID without changing the other 37 records',
   assert.equal(entry.source.raw_note, before.entries.find(e => e.slug === 'abhor').source.raw_note);
 });
 
-test('ABHOR selected modern sense is independent of publication and the old hypothesis', () => {
+test('Featured, standard translation and modern semantics retain separate assessments', () => {
   assert.equal(entry.entry_status, 'Published');
-  assert.equal(entry.mapping_status, 'Supported');
-  assert.equal(entry.mapping_level, 'A');
+  assert.equal(entry.primary_mapping.target.word, '火');
+  assert.match(entry.primary_mapping.target.pronunciation, /^huǒ /);
+  assert.equal(entry.featured_mapping.target, '火');
+  assert.equal(entry.mapping_status, 'Candidate');
+  assert.equal(entry.mapping_level, 'D');
   assert.equal(entry.historical_relation_status, 'Not claimed');
-  assert.equal(entry.direct_lexical_semantic_equivalence, true);
-  assert.equal(entry.primary_mapping.target.word, '恶');
-  assert.match(entry.primary_mapping.target.pronunciation, /^wù /);
-  assert.equal(entry.primary_mapping.mapping_type, 'Modern Semantic Mapping');
-  assert.match(entry.primary_mapping.meaning.en, /Direct lexical-semantic equivalence: Yes/);
-  assert.match(entry.primary_mapping.meaning['zh-Hans'], /动词/);
-  assert.match(entry.primary_mapping.meaning['zh-Hans'], /不混用 è／ě／wū/);
-  assert.ok(entry.languages.some(l => l.role === 'standard-translation' && l.word === '憎恶／厌恶'));
-  assert.equal(entry.mapping_assessment.total, entry.mapping_assessment.dimensions.reduce((n,d) => n+d.score, 0));
-  assert.equal(entry.mapping_assessment.total, 60);
-  assert.equal(entry.mapping_assessment.dimensions[0].score, 2);
-  const secondary = entry.secondary_affective_literary_associations[0];
-  assert.equal(secondary.target, '火');
-  assert.equal(secondary.label, 'Dialectal / Affective Semantic Candidate');
-  assert.equal(secondary.status, 'Candidate');
-  assert.equal(secondary.mapping_assessment.level, 'D');
-  assert.equal(secondary.mapping_assessment.total, 29);
-  assert.equal(secondary.is_etymological, false);
-  assert.match(secondary.boundary, /Not etymological evidence/);
+  assert.equal(entry.direct_lexical_semantic_equivalence, false);
+  assert.match(entry.primary_mapping.meaning.en, /Direct lexical-semantic equivalence: No/);
+  assert.deepEqual(entry.standard_translation.terms, ['憎恶','厌恶']);
+  assert.equal(entry.standard_translation.target, '憎恶 / 厌恶');
+  assert.equal(entry.standard_translation.status, 'Supported');
+  const m = entry.modern_standard_semantic_mapping;
+  assert.equal(m.target.word, '恶');
+  assert.match(m.target.pronunciation, /^wù /);
+  assert.equal(m.mapping_type, 'Modern Standard Semantic Mapping');
+  assert.equal(m.status, 'Supported');
+  assert.equal(m.mapping_level, 'A');
+  assert.equal(m.direct_lexical_semantic_equivalence, true);
+  assert.match(m.meaning['zh-Hans'], /不混用 è／ě／wū/);
+  assert.equal(m.mapping_assessment.total, 60);
+  assert.equal(m.mapping_assessment.dimensions[0].score, 2);
+  assert.equal(entry.mapping_assessment.total, 29);
+  assert.equal(entry.mapping_assessment.dimensions[0].score, 10);
+  assert.equal(entry.mapping_assessment.total, entry.mapping_assessment.dimensions.reduce((n,d) => n+d.score,0));
+  assert.equal(entry.secondary_affective_literary_associations[0].is_etymological, false);
   assert.deepEqual(entry.experiments, []);
   assert.equal(entry.experiment_plan.completed, false);
   assert.equal(entry.experiment_plan.results, null);
+  assert.match(page, /Featured Unilanguage Mapping Candidate: ABHOR ↔ 火 huǒ/);
+  assert.match(page, /Standard Translation: 憎恶 \/ 厌恶/);
+  assert.match(page, /Standard Translation ≠ Featured Mapping ≠ Diachronic Mapping/);
 });
 
 test('HORR relatives and surface controls have distinct historical families', () => {
@@ -88,7 +94,7 @@ test('火 is an author-attested dialect candidate with independent evidence kept
   assert.equal(d.target, '火');
   assert.equal(d.label, 'Dialectal / Affective Semantic Candidate');
   assert.equal(d.status, 'Candidate');
-  assert.equal(d.is_primary_mapping, false);
+  assert.equal(d.is_primary_mapping, true);
   assert.equal(d.is_modern_standard_lexical_equivalent, false);
   assert.equal(d.historical_relation_status, 'Not claimed');
   assert.equal(d.author_attested_usage.status, 'Author-attested Dialect Usage');
@@ -110,11 +116,11 @@ test('火 is an author-attested dialect candidate with independent evidence kept
 
 test('Phonetic assessment includes the unmatched features and both major reference accents', () => {
   const primary = entry.phonetic_observation[0];
-  assert.equal(primary.scope, 'primary_mapping');
+  assert.equal(primary.scope, 'modern_standard_semantic_mapping');
   assert.equal(primary.rating.score, 2);
   assert.match(primary.segments.syllables.en, /Two English syllables/);
   const phon = entry.phonetic_observation[1];
-  assert.equal(phon.scope, 'secondary_affective_literary_association');
+  assert.equal(phon.scope, 'primary_mapping');
   for (const k of ['onset','glide','vowel','rhoticity','coda','tone','whole_word']) assert.ok(phon.segments[k]);
   assert.match(phon.rating.method, /unvalidated/);
   assert.match(phon.rating.US, /rhotic/);
@@ -127,11 +133,11 @@ test('ABHOR is reachable through search, dictionary forms and the unchanged Mapp
     const result = api.lookup(data, term);
     assert.equal(result.kind, 'exact', term);
     assert.equal(result.entry.id, entry.id, term);
-    assert.equal(api.queryView(result.entry, term).mapping_status, 'Supported');
-    assert.equal(result.entry.primary_mapping.target.word, '恶');
+    assert.equal(api.queryView(result.entry, term).mapping_status, 'Candidate');
+    assert.equal(result.entry.primary_mapping.target.word, '火');
     assert.equal(result.entry.diachronic_semantic_mapping.mappings[0].target.word, '骇');
   }
-  for (const [code,term] of [['en','abhor'],['zh-Hans','恶'],['fr','abhorrer']]) {
+  for (const [code,term] of [['en','abhor'],['zh-Hans','火'],['fr','abhorrer']]) {
     assert.ok(api.languageForms(data).find(g => g.code === code).forms.some(f => f.term === term && f.recordId === entry.id));
   }
   const ids = ['literature','basic-meaning','multilingual','etymology','mapping','justification','protocol-references','translation-protocol','examples','community'];
@@ -162,10 +168,10 @@ test('Historical unit mapping preserves sense, phonetic and historical boundarie
   assert.match(d.semantic_path, /HORRĒRE.*BRISTLE.*骇.*RECOIL.*ABHOR.*恶/);
   assert.notEqual(m.mapping_id, entry.primary_mapping.mapping_id);
   assert.ok(d.historical_stages.every(s => s.target !== '火'));
-  assert.match(page, /Modern Semantic Mapping/);
+  assert.match(page, /Modern Standard Semantic Mapping/);
   assert.match(page, /Diachronic Semantic Mapping/);
   assert.match(page, /Present-day Mapping ≠ Diachronic Mapping/);
-  assert.match(data.editorial_policy.present_day_vs_diachronic.en, /One primary modern mapping/);
+  assert.match(data.editorial_policy.featured_mapping_selection.en, /Featured Mapping is selected per entry and may differ from Standard Translation/);
   for (const rid of ['ABHOR-ZD-WU','ABHOR-ZD-HAI']) {
     const ref = entry.references.find(r => r.reference_id === rid);
     assert.ok(ref.claim_scope.includes('modern_meaning'));
@@ -173,4 +179,22 @@ test('Historical unit mapping preserves sense, phonetic and historical boundarie
   }
   assert.ok(entry.source_audit_pending.some(p => /恶 wù／骇 hài/.test(p.claim)));
   assert.ok(entry.source_audit_pending.some(p => /骇的古义/.test(p.claim)));
+});
+
+test('Focused revision preserves every unrelated record from the latest base', () => {
+ const before = JSON.parse(cp.execFileSync('git', ['show','92154ed5d7ab511df6e70dd69fc2ec38f9e59efa:data/language-book.v1.0.json'], {cwd:root,maxBuffer:10*1024*1024}));
+ assert.deepEqual(data.entries.filter(e=>e.slug!=='abhor'), before.entries.filter(e=>e.slug!=='abhor'));
+ assert.equal(data.entries.length,40);
+ assert.equal(entry.diachronic_semantic_mapping.historical_stages.at(-1).modern_semantic_mapping_ref,entry.modern_standard_semantic_mapping.mapping_id);
+});
+
+test('Frozen Mapper layout and browse adapter only gain the focused translation/form changes', () => {
+ const baseline='92154ed5d7ab511df6e70dd69fc2ec38f9e59efa';
+ const get=f=>cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n');
+ const current=f=>fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n');
+ assert.equal(current('js/language-book-data.js'), get('js/language-book-data.js').replace('abhor: "恶"','abhor: "火"'));
+ assert.equal(current('js/semantic-mapper.js'), get('js/semantic-mapper.js')
+  .replace('const standardGloss = entry.slug === "abdomen" ? "腹部" : mapping.target.word;', 'const standardGloss = entry.standard_translation?.target || (entry.slug === "abdomen" ? "腹部" : mapping.target.word);')
+  .replace('escapeHtml(entry.slug === "abdomen" ? standardTranslations : mapping.target.word)','escapeHtml(entry.standard_translation?.target || (entry.slug === "abdomen" ? standardTranslations : mapping.target.word))')
+  .replace('entry.slug === "abdomen" ? "" : `<small>', '(entry.standard_translation || entry.slug === "abdomen") ? "" : `<small>'));
 });

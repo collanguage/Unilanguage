@@ -1,19 +1,19 @@
-# ABHOR → 恶 wù / HORRĒRE → 骇 hài · Legacy Recalibration v1.1
+# ABHOR ↔ 火 huǒ · Featured Recalibration v1.3
 
 Author: Jinkai Liu
 核验日期：2026-09-13
 
-保留 ID `LB-en-abhor-037`、39条数据集、词条 Published 状态。**Present-day Mapping ≠ Diachronic Mapping｜现代词义映射 ≠ 历时语义映射。**
+保留 ID `LB-en-abhor-037`、40条数据集、词条 Published 状态。**Present-day Mapping ≠ Diachronic Mapping｜现代词义映射 ≠ 历时语义映射。**
 
 | 对象 | Status / Level / confidence | 语音 | 语义 | 结构／认知 | 语境 | 总分 |
 |---|---|---:|---:|---:|---:|---:|
 | 现代 abhor → 恶 wù（动词） | Supported / A—Direct / Medium | 2/30 | 29/30 | 12/20 | 17/20 | 60/100 |
 | 历史 horrēre → 骇 hài | Candidate / C—Experimental / Medium | 5/30 | 18/30 | 13/20 | 7/20 | 43/100 |
-| 次级火 huǒ 情绪／文学联想 | Interpretive / D / Low | 10/30 | 6/30 | 10/20 | 3/20 | 29/100 |
+| Featured 火 huǒ 方言／情绪候选 | Candidate / D / Low | 10/30 | 6/30 | 10/20 | 3/20 | 29/100 |
 
 分数为现行 Mapping Score v0.2 的暂定编辑判断，不是声学测量、盲评结果或历史概率。A 只按框架 Direct 类评价有资料支持的所选词义，不代表音近；综合 confidence Medium，所选语义在数字来源范围内 High。历时 C 对应可检验的部分阶段比较，不因拉丁词源已知就升级汉语 mapping。
 
-两层跨语言 **Historical Relation: Not claimed**。词义对应不等于共同词源；没有声称实验完成。
+三层跨语言 **Historical Relation: Not claimed**。词义对应不等于共同词源；没有声称实验完成。
 
 ## 核验与证据边界
 
@@ -30,15 +30,15 @@ Author: Jinkai Liu
 
 ## 火的保留位置与数据结构
 
-火退出 primary mapping 及历史语义候选，保留在 `secondary_affective_literary_associations`、标明 scope 的次级 phonetic observation、旧 hypothesis 和 `literary_layer`。作者“憎恶即对某人有火”及 raw note 原样保留；不进入 Evidence。ANGER/HEAT imagery ≠ AVERSION；Not etymological evidence。旧评估29/100只属于火，不继承新现代映射的 A。
+火作为 Featured primary mapping Candidate；不是标准译词或历时映射。原情绪／文学对象以引用保留，正式音系比较归属 primary_mapping。作者“憎恶即对某人有火”及 raw note 原样保留；不进入 Evidence。ANGER/HEAT imagery ≠ AVERSION；Not etymological evidence。旧评估29/100只属于火，不继承新现代映射的 A。
 
-复用 `diachronic_semantic_mapping`；历史阶段从固定四段放宽为至少一段，新增可选 `mappings`，每项独立 source/target、义项、status/level/confidence、历史关系及评分。兼容原 ABANDON，不修改其 record。主 mapping assessment 只评价 abhor→恶。Search / Dictionary / Mapper 沿用现有适配器，以恶为主要现代显示，历史及文学别名指向同一记录；历史层在页面明确分列。
+复用 `diachronic_semantic_mapping`；历史阶段从固定四段放宽为至少一段，新增可选 `mappings`，每项独立 source/target、义项、status/level/confidence、历史关系及评分。兼容原 ABANDON，不修改其 record。主 mapping assessment 只评价 Featured abhor↔火（D / Low）；modern_standard_semantic_mapping 保留恶 wù 的 A / Supported 及独立评分。Search / Dictionary / Mapper 展示火候选，标准翻译及现代语义在 gloss/meaning 中区分，所有别名指向同一记录；冻结 UI 不变。
 
 HORR family 仍为 horror / horrible / horrid / abhorrent / abhorrence。horizontal 属 Greek horizon family；horse 属 Germanic hors / hros，均不并入 HORR。不改写 HORIZON、HORSE、NEW 或 ABANDON。
 
 ## 沿用的来源审计与次级火分析
 
-以下 v1.0 段落仅保留为火的次级分析，原 D 分级不适用于当前现代主映射。原有来源沿用上一轮审计；本轮新核验来源与范围列于上文。
+以下分析沿用火的 D / Low 评价，该评价现属于 Featured 候选，不能与恶的 A 混用。原有来源沿用上一轮审计；本轮新核验来源与范围列于上文。
 
 ## 声音与认知
 
@@ -202,7 +202,7 @@ abhorrance → abhorrence；abhorrant → abhorrent。ab- 不是由本词即可�
 
 现有独立辞书材料只证明相邻的普通词汇范围：火气、发火、怒火可表示生气、怒气、易动怒等，即 `ANGER`，并可在具体语境靠近 `DISPLEASURE`。它们不能独立把“对某人有火”证明到 `RESENTMENT`、`AVERSION` 或 `DETESTATION`。这项范围限制不否定作者观察；它只区分作者报告义和已独立核验义。
 
-火的新位置是 `Dialectal / Affective Semantic Candidate`，仍为 D / Low。它不是现代标准词汇对应，不是 primary mapping，不是 horrēre 的历史阶段 mapping，也不是历史词源证据。`Historical Relation: Not claimed`，原文学句继续链接到这一作者观察层。
+火的新位置是 `Dialectal / Affective Semantic Candidate`，仍为 D / Low。它不是现代标准词汇对应，是 Featured primary mapping candidate，不是 horrēre 的历史阶段 mapping，也不是历史词源证据。`Historical Relation: Not claimed`，原文学句继续链接到这一作者观察层。
 
 《现代汉语词典》《新华字典》火／火气／发火／怒火具体条目：未取得可核验具体版本条目，不引用页码或以出版社介绍替代。
 
@@ -215,3 +215,13 @@ Separate phonetic and semantic judgments; hide author note and spelling from aud
 No held-out advantage over matched random pairs, or disappearance after controlling generic negative valence; no upgrade from software tests.
 
 软件回归与发布证据见本次交付报告；本文件不宣称尚未运行的检查已通过。
+
+## v1.3 focused update
+
+Featured Mapping is selected per entry and may differ from Standard Translation; selection must state whether its strength is phonetic, semantic, cognitive, dialectal, or cultural.
+
+Standard Translation: 憎恶 / 厌恶。Featured: 火 huǒ。Modern Standard Semantic Mapping: 恶 wù。Diachronic Semantic Mapping: HORRĒRE → 骇 hài。Historical Relation: Not claimed。
+
+火的 phonetic / semantic / dialectal confidence 均 Low；认知桥梁为间接解释。重读 hor 的 onset /h/ 与 /x/、vowel /ɔː/ 与 /o/、美音 rhoticity、普通话 /w/ glide 和第三声均独立记录，非同音。
+
+本轮定向复查“对某人有火 方言”“有火 方言 厌恶”未取得可验证该构式及地域的独立大陆词典／地方志／学术条目；不据普通媒体、无关同形用例或词典怒气义升级。Independent evidence pending；Region: Pending identification。恶／骇沿用并复核汉典 scoped evidence；纸本与古义首见仍 pending。

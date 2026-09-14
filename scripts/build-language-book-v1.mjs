@@ -540,14 +540,15 @@ entries.push(...authoredEntries);
 
 const dataset = {
   schema_version: "1.0.0",
-  dataset_version: "1.2.20",
+  dataset_version: "1.2.21",
   published_at: releaseDate,
   product: localized("Language Book: a cross-language comparable semantic database", "Language Book：跨语言可比较语义数据库"),
   author: "Jinkai Liu",
   editorial_policy: {
     publication_boundary: localized("An entry may be published; a hypothesis must be graded; literature may explore freely; evidence must be evaluated independently.", "词条可以发表，假说必须标级，文学可以自由展开，证据必须独立核验。"),
     data_separation: localized("One English word → one primary Chinese mapping → separate historical etymology → separate sound-semantic hypothesis → separate experimental validation.", "一个英语词 → 一个主要汉语 Mapping → 独立历史词源 → 独立声音假说 → 独立实验验证。"),
-    present_day_vs_diachronic: localized("Present-day Mapping ≠ Diachronic Mapping. One primary modern mapping; historical-unit comparisons have separate fields, assessments and historical-relation boundaries.", "现代词义映射 ≠ 历时语义映射。一个主要现代 Mapping；历史单位比较使用独立字段、评分及历史关系边界。"),
+    present_day_vs_diachronic: localized("Present-day Mapping ≠ Diachronic Mapping. Modern standard semantic mapping is separate from the featured candidate; historical-unit comparisons have separate fields, assessments and historical-relation boundaries.", "现代词义映射 ≠ 历时语义映射。现代标准语义映射与特色候选分开；历史单位比较使用独立字段、评分及历史关系边界。"),
+    featured_mapping_selection: localized("Featured Mapping is selected per entry and may differ from Standard Translation; selection must state whether its strength is phonetic, semantic, cognitive, dialectal, or cultural.", "Featured Mapping 按每个词具体选择，可以不同于标准翻译；须注明优势属于语音、语义、认知、方言或文化，并分别标明证据类型和置信度。"),
     non_cognacy_position: localized("The database compares languages; it is not evidence that all languages share one historical origin.", "本数据库用于跨语言比较，不是“所有语言历史同源”的证明。"),
   },
   status_enums: {

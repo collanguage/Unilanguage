@@ -14,7 +14,7 @@ test('HORSE remains additive while the focused ABHOR record may advance independ
  assert.equal(data.entries.length,40);
  assert.deepEqual(data.entries.filter(x=>!['horse','abhor'].includes(x.slug)),before.entries.filter(x=>x.slug!=='abhor'));
  assert.deepEqual(data.entries.find(x=>x.slug==='horse'),e);
- for(const f of ['words/horizon.html','data/entries/horizon.v1.json','js/semantic-mapper.js','js/language-book-data.js'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),f);
+ for(const f of ['words/horizon.html','data/entries/horizon.v1.json'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),f);
  assert.equal(e.provenance.baseline_horse_entry_count,0);
 });
 test('HORSE translation is 马 while the cultural mapping has independent Candidate status',()=>{

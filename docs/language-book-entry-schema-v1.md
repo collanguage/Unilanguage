@@ -175,3 +175,11 @@ Dialect & Diachronic Chinese Evidence｜汉语方言与历时音韵证据独立�
 ### Citation labels and metadata
 
 Follow [Citation / Lexicographic Source Policy](standards/evidence-and-references.md#citation--lexicographic-source-policy). Existing reference `title` contains the specific work name; `url` identifies access; `provenance` records known edition, institution, access date and any original-work/platform distinction. Preserve unknowns and stable reference IDs. Schema remains 1.0.0.
+
+## Featured mapping selection
+
+Author: Jinkai Liu
+
+Featured Mapping is selected per entry and may differ from Standard Translation; selection must state whether its strength is phonetic, semantic, cognitive, dialectal, or cultural.
+
+Standard Translation ≠ Featured Mapping ≠ Diachronic Mapping. For ABHOR, `primary_mapping` and entry-level mapping status/assessment describe featured 火. The optional `modern_standard_semantic_mapping` retains 恶 wù with its own status, sense and assessment; `standard_translation` records 憎恶 / 厌恶. `diachronic_semantic_mapping` remains independent. These additive fields are compatible with Schema v1.0. Author-attested usage and independent dialect evidence must be separate; a featured choice does not upgrade either confidence or historical relation.
