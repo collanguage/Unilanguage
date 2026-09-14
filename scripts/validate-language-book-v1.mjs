@@ -13,7 +13,7 @@ const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
 check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.20", "Schema must remain 1.0.0 and the NEW candidate release must be 1.2.20");
-check(dataset.entries.length === 38, "NEW adds exactly one record to the 37-record baseline");
+check(dataset.entries.length === 39, "HORIZON adds exactly one record to the 38-record baseline");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
 check(/one English word/i.test(dataset.editorial_policy.data_separation.en), "data separation policy missing");

@@ -8,7 +8,7 @@ const api=require('../js/language-book-data.js');
 const entry=dataset.entries.find(e=>e.slug==='abandon');
 
 test('ABANDON reuses its record and related terms resolve without new published entries',()=>{
-  assert.equal(dataset.entries.filter((entry) => entry.slug !== "new").length,37);
+  assert.equal(dataset.entries.filter((entry) => !["new", "horizon"].includes(entry.slug)).length,37);
   assert.equal(entry.id,'LB-en-abandon-033');
   assert.equal(entry.entry_status,'Published');
   for(const term of ['abandon','放弃','抛弃','离弃','旁','放到一旁','ban','甭','banal','一般','般','donner','捅','band','bande']){

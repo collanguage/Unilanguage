@@ -24,6 +24,7 @@ const files = [
   "tests/product-v0.1.test.cjs", "tests/product-v0.2.test.cjs",
   "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js", "js/literary-tabs.js",
   "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html", "evidence-and-references.html",
+  "words/horizon.html", "images/horizon-winter-literary.png", "docs/research/horizon-source-audit-v1.md", "tests/horizon.test.cjs",
   "words/new.html", "docs/research/new-niu-source-audit-v1.md", "tests/new-niu.test.cjs",
   "english.html", "chinese.html", "french.html",
   "words/abandon.html", "docs/abandon-semantic-network-v1.md", "tests/abandon-semantic-network.test.cjs",

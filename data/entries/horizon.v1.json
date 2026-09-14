@@ -1,0 +1,659 @@
+{
+  "id": "LB-en-horizon-039",
+  "slug": "horizon",
+  "title": {
+    "en": "horizon ↔ 火 huǒ · Horizon",
+    "zh-Hans": "horizon ↔ 火 huǒ · 地平线"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "horizon",
+      "pronunciation": "UK /həˈraɪ.zən/; US /həˈraɪ.zən/ (Cambridge)"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "地平线",
+      "pronunciation": "dì píng xiàn"
+    },
+    {
+      "role": "candidate",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "火",
+      "pronunciation": "huǒ"
+    },
+    {
+      "role": "comparison",
+      "code": "fr",
+      "name": "French",
+      "word": "horizon",
+      "pronunciation": "Not transcribed; outside this comparison"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-horizon-primary",
+    "source": {
+      "language": "English",
+      "word": "horizon",
+      "pronunciation": "UK /həˈraɪ.zən/; US /həˈraɪ.zən/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "地平线",
+      "pronunciation": "dì píng xiàn"
+    },
+    "gloss": {
+      "en": "horizon; standard translation 地平线",
+      "zh-Hans": "地平线（标准翻译）；火是独立候选"
+    },
+    "meaning": {
+      "en": "Horizon is the apparent meeting of earth or sea and sky; standard translation 地平线. 火 means fire, not horizon. Direct lexical equivalence: No.",
+      "zh-Hans": "horizon 指视野中天地或海天看似相接的界线；标准翻译是地平线。火的基本义是燃烧的火，不是地平线。直接词义等同：No。"
+    },
+    "mapping_type": "Standard lexical translation; separate featured Cultural / Visual / Phonetic Candidate",
+    "rationale": {
+      "en": "Author-proposed HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火. The sun also appears above the horizon; horizon does not mean fire. A visual/cultural association, not a lexical definition or solar-physics claim.",
+      "zh-Hans": "作者提出：HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火。太阳也出现在地平线上方，horizon 的词义不是火。这是视觉与文化联想，不是词义定义，也不是太阳物理学主张。"
+    }
+  },
+  "entry_status": "Published",
+  "mapping_status": "Candidate",
+  "mapping_level": "D",
+  "historical_relation_status": "Not claimed",
+  "direct_lexical_semantic_equivalence": false,
+  "semantic_relation": "Indirect / cultural / visual, not lexical equivalence",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "Greek horos (boundary) → horizein (to limit) → horizōn (kuklos), a limiting circle → Latin horizōn → Old French → Middle English orizon → English horizon (American Heritage). The Académie independently records French orizonte in the thirteenth century and borrowing through Latin from Greek. These are dictionary histories, not reconstructed recordings.",
+        "zh-Hans": "据 American Heritage：希腊语 horos（边界）→ horizein（界定）→ horizōn (kuklos)（界定的圆周）→ 拉丁语 horizōn → 古法语 → 中古英语 orizon → 英语 horizon。法兰西学院辞典独立记载法语十三世纪 orizonte 及经拉丁语借自希腊语的路径。此处是辞书词史，不是历史录音或古音拟构。"
+      },
+      "items": [
+        {
+          "evidence_id": "HZ-HIST-001",
+          "claim": {
+            "en": "Greek horos (boundary) → horizein (to limit) → horizōn (kuklos), a limiting circle → Latin horizōn → Old French → Middle English orizon → English horizon (American Heritage). The Académie independently records French orizonte in the thirteenth century and borrowing through Latin from Greek. These are dictionary histories, not reconstructed recordings.",
+            "zh-Hans": "据 American Heritage：希腊语 horos（边界）→ horizein（界定）→ horizōn (kuklos)（界定的圆周）→ 拉丁语 horizōn → 古法语 → 中古英语 orizon → 英语 horizon。法兰西学院辞典独立记载法语十三世纪 orizonte 及经拉丁语借自希腊语的路径。此处是辞书词史，不是历史录音或古音拟构。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "HZ-AHD",
+            "HZ-FR"
+          ]
+        }
+      ],
+      "source_refs": [
+        "HZ-AHD",
+        "HZ-FR"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Weak surface resemblance in both Cambridge UK and US /həˈraɪ.zən/. The author-selected hor-/hori- spans /həɹ-/ or /həˈɹaɪ-/; it is not a /hɔː/ syllable. Mandarin huǒ is descriptively [xwɔ˨˩˦]. Shared voiceless friction is limited support: onset place, vowels, glide, rhotic and tone differ. Qualitative assessment, not a measured similarity score.",
+        "zh-Hans": "Cambridge 英美参考读音均为 /həˈraɪ.zən/，表面音近评为弱。作者关注的 hor-/hori- 对应跨音节片段 /həɹ-/ 或 /həˈɹaɪ-/，不是 /hɔː/ 音节。普通话 huǒ 可描述性宽写为 [xwɔ˨˩˦]。有限近似是清擦音起首；发音部位、元音、介音、r 音与声调均有差异。这是定性评估，不是测量分数。"
+      },
+      "items": [
+        {
+          "evidence_id": "HZ-PHON-001",
+          "claim": {
+            "en": "Weak surface resemblance in both Cambridge UK and US /həˈraɪ.zən/. The author-selected hor-/hori- spans /həɹ-/ or /həˈɹaɪ-/; it is not a /hɔː/ syllable. Mandarin huǒ is descriptively [xwɔ˨˩˦]. Shared voiceless friction is limited support: onset place, vowels, glide, rhotic and tone differ. Qualitative assessment, not a measured similarity score.",
+            "zh-Hans": "Cambridge 英美参考读音均为 /həˈraɪ.zən/，表面音近评为弱。作者关注的 hor-/hori- 对应跨音节片段 /həɹ-/ 或 /həˈɹaɪ-/，不是 /hɔː/ 音节。普通话 huǒ 可描述性宽写为 [xwɔ˨˩˦]。有限近似是清擦音起首；发音部位、元音、介音、r 音与声调均有差异。这是定性评估，不是测量分数。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "HZ-CAM",
+            "HZ-ZD-FIRE",
+            "HZ-AHD",
+            "HZ-ZD-HORIZON"
+          ]
+        },
+        {
+          "evidence_id": "HZ-SEM-001",
+          "claim": {
+            "en": "Horizon is the apparent meeting of earth or sea and sky; standard translation 地平线. 火 means fire, not horizon. Direct lexical equivalence: No.",
+            "zh-Hans": "horizon 指视野中天地或海天看似相接的界线；标准翻译是地平线。火的基本义是燃烧的火，不是地平线。直接词义等同：No。"
+          },
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "HZ-AHD",
+            "HZ-ZD-HORIZON",
+            "HZ-ZD-FIRE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "HZ-CAM",
+        "HZ-ZD-FIRE",
+        "HZ-AHD",
+        "HZ-ZD-HORIZON"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Low",
+      "summary": {
+        "en": "Author-proposed HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火. The sun also appears above the horizon; horizon does not mean fire. A visual/cultural association, not a lexical definition or solar-physics claim.",
+        "zh-Hans": "作者提出：HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火。太阳也出现在地平线上方，horizon 的词义不是火。这是视觉与文化联想，不是词义定义，也不是太阳物理学主张。"
+      },
+      "items": [
+        {
+          "evidence_id": "HZ-COG-001",
+          "claim": {
+            "en": "Author-proposed HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火. The sun also appears above the horizon; horizon does not mean fire. A visual/cultural association, not a lexical definition or solar-physics claim.",
+            "zh-Hans": "作者提出：HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火。太阳也出现在地平线上方，horizon 的词义不是火。这是视觉与文化联想，不是词义定义，也不是太阳物理学主张。"
+          },
+          "status": "Interpretive",
+          "confidence": "Low",
+          "source_refs": [
+            "HZ-AUTHOR",
+            "HZ-ZD-SUNRISE"
+          ]
+        },
+        {
+          "evidence_id": "HZ-CONTEXT-001",
+          "claim": {
+            "en": "Sunrise involves the sun appearing at the horizon; this context does not imply horizon equals fire.",
+            "zh-Hans": "日出涉及太阳初现地平线；这项背景不意味着地平线等于火。"
+          },
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "HZ-ZD-SUNRISE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "HZ-AUTHOR",
+        "HZ-ZD-SUNRISE"
+      ]
+    },
+    "Speculative": {
+      "status": "Not evaluated",
+      "confidence": "Unknown",
+      "summary": {
+        "en": "No independent experiment has been run.",
+        "zh-Hans": "尚未运行独立实验。"
+      },
+      "items": [],
+      "source_refs": []
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "HZ-PHON-SURFACE",
+      "claim": {
+        "en": "Weak surface resemblance in both Cambridge UK and US /həˈraɪ.zən/. The author-selected hor-/hori- spans /həɹ-/ or /həˈɹaɪ-/; it is not a /hɔː/ syllable. Mandarin huǒ is descriptively [xwɔ˨˩˦]. Shared voiceless friction is limited support: onset place, vowels, glide, rhotic and tone differ. Qualitative assessment, not a measured similarity score.",
+        "zh-Hans": "Cambridge 英美参考读音均为 /həˈraɪ.zən/，表面音近评为弱。作者关注的 hor-/hori- 对应跨音节片段 /həɹ-/ 或 /həˈɹaɪ-/，不是 /hɔː/ 音节。普通话 huǒ 可描述性宽写为 [xwɔ˨˩˦]。有限近似是清擦音起首；发音部位、元音、介音、r 音与声调均有差异。这是定性评估，不是测量分数。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Selected substring, not historical segmentation. Broad Mandarin IPA is an editorial description; no acoustic or listening test.",
+        "zh-Hans": "所选字符串不是历史词素；普通话宽式 IPA 是编辑描述，未做声学或听辨实验。"
+      },
+      "segments": {
+        "onset": "English /h/ glottal vs Mandarin /x/ velar: voiceless friction, different place",
+        "vowel": "English unstressed /ə/ plus stressed /aɪ/ vs Mandarin rounded /ɔ/; no vowel identity",
+        "rhoticity": "Prevocalic /ɹ/ is pronounced in both UK and US horizon, including non-rhotic UK accents; Mandarin 火 has none",
+        "glide": "Mandarin /w/ medial has no counterpart in the selected English fragment",
+        "tone": "Mandarin third tone; citation 214, context-dependent realization; no English lexical-tone equivalent"
+      },
+      "rating": {
+        "UK": "Weak",
+        "US": "Weak",
+        "method": "Qualitative feature comparison; unvalidated; no numeric distance claimed"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "BOUNDARY",
+      "HORIZON",
+      "SUNRISE",
+      "SUNSET",
+      "LIGHT",
+      "FIRE"
+    ],
+    "relation": "HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火",
+    "status": "Interpretive"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-HORIZON-HUO-001",
+      "type": "Cultural / Visual / Phonetic Candidate",
+      "claim": {
+        "en": "Author-proposed HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火. The sun also appears above the horizon; horizon does not mean fire. A visual/cultural association, not a lexical definition or solar-physics claim.",
+        "zh-Hans": "作者提出：HORIZON → SUNRISE / SUNSET / LIGHT → FIRE/SUN imagery → 火。太阳也出现在地平线上方，horizon 的词义不是火。这是视觉与文化联想，不是词义定义，也不是太阳物理学主张。"
+      },
+      "status": "Candidate",
+      "confidence": "Low",
+      "mapping_level": "D",
+      "historical_relation": "Not claimed",
+      "direct_lexical_semantic_equivalence": false,
+      "supporting_cases": [
+        "One author-proposed visual pair; no independent mapping replication"
+      ],
+      "counterexamples": [
+        "horizon ≠ fire：地平线与火没有直接词义等同。",
+        "Greek historical etymology independent：希腊语边界词史独立于火及拉丁语 horrēre。",
+        "hor + zone false segmentation risk：表面拆分不能冒充历史词素；horizon 甚至不含完整的 zone 字符串。",
+        "Sunrise imagery is cultural/visual association：太阳也在地平线上方；地平线并不必有太阳或火。",
+        "Sound resemblance may be chance：选取片段、按拼写联想与挑选案例会造成偏差。",
+        "ABHOR/HORIZON 历史词族分离；不能从两个作者映射推出 English hor- = 火。"
+      ],
+      "testability": {
+        "en": "Pre-register UK/US recordings and Mandarin tokens; compare matched random pairs, horizon→地平线 semantic controls, sound-only versus image-prompted listeners, and ABHOR as a distinct-family control. Measure phonetic ratings and memory benefit separately. Deduplicate real etymological families; no single-case generalization.",
+        "zh-Hans": "预注册英美录音与普通话材料；比较匹配随机词对、horizon→地平线语义对照、仅听声音与图片提示条件，另以 ABHOR 作不同词族对照。音近评分与记忆收益分别检验；真实词源家族去重，不从单例归纳规律。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "HZ-AUTHOR"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Published",
+    "is_historical_evidence": false,
+    "author": "Jinkai Liu",
+    "proposition": {
+      "en": "Look toward the distant horizon.",
+      "zh-Hans": "看远方的地平线。"
+    },
+    "essay_prose": [
+      {
+        "work_id": "HORIZON-LIT-001",
+        "title": {
+          "en": "Looking toward the distant horizon",
+          "zh-Hans": "看远方的地平线"
+        },
+        "author": "Jinkai Liu",
+        "text": {
+          "en": "Winter colours are in fashion. A few simple colours feel bright, light and quietly beautiful. Looking far away on the first day of spring, I imagine flowers emerging and waiting to bloom. The distance to the horizon is not so far after all.",
+          "zh-Hans": "冬天的颜色，正是现在的流行色。简单的几种颜色搭配在一起，显得明亮、轻快、靓丽而静洁。\n\n目光投向极远处。花朵正在悄悄顶出泥土。立春日，沿着地平线走一趟，看看远方的地平线。那里已经有鲜花等待盛开。\n\n到地平线的距离，其实并不远。"
+        },
+        "page_anchor": "words/horizon.html#literature"
+      }
+    ],
+    "poem_lyrics": [],
+    "translations": [
+      {
+        "language": "English",
+        "status": "Editorial summary; Chinese is the authoritative literary text"
+      }
+    ],
+    "archival_manuscript_media": [
+      "MEDIA-HORIZON-WINTER-001"
+    ],
+    "evidence_boundary": {
+      "en": "Literature and the user-provided photograph are creative context, not historical or experimental evidence. The closing sentence is poetic, not a measurable distance claim.",
+      "zh-Hans": "文学与用户提供的照片是创作语境，不是词源或实验依据；结尾是文学表达，不是可测距离断言。"
+    }
+  },
+  "media": [
+    {
+      "media_id": "MEDIA-HORIZON-WINTER-001",
+      "type": "archival image",
+      "path": "images/horizon-winter-literary.png",
+      "url": null,
+      "title": {
+        "en": "Winter riverbank",
+        "zh-Hans": "冬日河岸"
+      },
+      "alt": {
+        "en": "Snowy riverbank, bare trees, sunlight on the water, a distant bridge and people beside the path.",
+        "zh-Hans": "积雪河岸、落叶树木、河面日光、远桥与路旁的人。"
+      },
+      "caption": {
+        "en": "User-provided winter photograph for this literary layer.",
+        "zh-Hans": "用户提供的冬日照片，用于本词条文学层。"
+      },
+      "content_status": "Literary context; not historical evidence",
+      "source": "User-provided photograph",
+      "license": "User explicitly authorized use in this entry; no broader license asserted",
+      "provenance": "Original PNG recovered from the referenced conversation attachment; copied without image conversion or edits.",
+      "sha256": "2df146394413e5f2379c453420c0ed90525cdd446267e483582bd8168f3075ea"
+    }
+  ],
+  "references": [
+    {
+      "reference_id": "HZ-AHD",
+      "title": "American Heritage Dictionary, Fifth Edition: horizon",
+      "type": "dictionary",
+      "url": "https://www.ahdictionary.com/word/search.html?q=horizon",
+      "path": null,
+      "scope": [
+        "historical_etymology",
+        "modern_meaning"
+      ],
+      "locator": "Headword and etymology",
+      "provenance": "Direct entry retrieved; paraphrased historical path, no fabricated dates.",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-FR",
+      "title": "Dictionnaire de l’Académie française, 9e édition: horizon",
+      "type": "dictionary",
+      "url": "https://www.dictionnaire-academie.fr/article/A9H0932",
+      "path": null,
+      "scope": [
+        "historical_etymology"
+      ],
+      "locator": "Étymologie",
+      "provenance": "Direct entry: thirteenth-century orizonte; Greek via Latin. Independent French record.",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-CAM",
+      "title": "Cambridge Dictionary: horizon pronunciation",
+      "type": "dictionary",
+      "url": "https://dictionary.cambridge.org/pronunciation/english/horizon",
+      "path": null,
+      "scope": [
+        "phonology"
+      ],
+      "locator": "UK / US IPA",
+      "provenance": "Search-indexed dictionary text retrieved; direct fetch returned 403. Both accents /həˈraɪ.zən/; no audio measurement.",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-ZD-HORIZON",
+      "title": "汉典：地平线",
+      "type": "dictionary",
+      "url": "https://www.zdic.net/hans/地平线",
+      "path": null,
+      "scope": [
+        "modern_meaning",
+        "standard_translation"
+      ],
+      "locator": "词语解释（非国语辞典栏）",
+      "provenance": "大陆数字辞书平台；直接取得拼音、horizon 对译及天地相接释义。不是《现代汉语词典》纸本条目。",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-ZD-FIRE",
+      "title": "汉典：火",
+      "type": "dictionary",
+      "url": "https://zdic.net/hant/火",
+      "path": null,
+      "scope": [
+        "modern_meaning",
+        "phonology"
+      ],
+      "locator": "拼音、基本解释、详细解释",
+      "provenance": "大陆数字辞书平台的繁体显示页；huǒ、火／燃烧义。读者概述转简体。不使用国语辞典栏或未经校勘的古籍书证。描述性 IPA 为编辑特征转写，不是平台原文或国家规范音标。",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-ZD-SUNRISE",
+      "title": "汉典：日出",
+      "type": "dictionary",
+      "url": "https://zdic.net/hans/日出",
+      "path": null,
+      "scope": [
+        "modern_meaning"
+      ],
+      "locator": "词语解释（非国语辞典栏）",
+      "provenance": "直接条目支持太阳初升出地平线；不证明作者火映射。",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-ABHOR",
+      "title": "Merriam-Webster Dictionary: abhor",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/abhor",
+      "path": null,
+      "scope": [
+        "historical_etymology"
+      ],
+      "locator": "Word History / Did you know",
+      "provenance": "Direct entry independently supports abhorrēre, ab- and horrēre; not Greek horos.",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-AUTHOR",
+      "title": "Jinkai Liu：《看远方的地平线》及原始声音笔记",
+      "type": "author or project source",
+      "url": null,
+      "path": null,
+      "scope": [
+        "author_hypothesis",
+        "literature"
+      ],
+      "locator": "User manuscript",
+      "provenance": "用户本次明确提供的文字与照片；仅作者出处，不是独立语言学证据。",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-RUBRIC",
+      "title": "Unilanguage Mapping Framework",
+      "type": "author or project source",
+      "url": null,
+      "path": "protocol/protocol.mapping-framework.html",
+      "scope": [
+        "project_rubric"
+      ],
+      "locator": "Mapping Level A / B / C / D",
+      "provenance": "Repository read: D speculative/creative; no numeric phonetic rubric supplied.",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-DIST-FR",
+      "title": "Dictionnaire de l’Académie française, 9e édition: distance",
+      "type": "dictionary",
+      "url": "https://www.dictionnaire-academie.fr/article/A9D2787",
+      "path": null,
+      "scope": [
+        "historical_etymology"
+      ],
+      "locator": "Étymologie",
+      "provenance": "Search-indexed entry: Latin distantia. Independent French history, not evidence for the author’s -tance ↔ 趟 observation.",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-DIST-EN",
+      "title": "Online Etymology Dictionary: distance",
+      "type": "historical dictionary",
+      "url": "https://www.etymonline.com/word/distance",
+      "path": null,
+      "scope": [
+        "historical_etymology"
+      ],
+      "locator": "distance (n.)",
+      "provenance": "Direct entry retrieved: Middle English distaunce from Old French destance; later senses directly from Latin distantia, from distare. Kept separate from HORIZON history.",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "HORIZON Literary Candidate v1.0 / Schema v1.0",
+  "dates": {
+    "created": "2026-09-13",
+    "modified": "2026-09-13",
+    "published": "2026-09-13"
+  },
+  "editorial_notes": [
+    {
+      "en": "Public lexical entry; publication does not review or promote its Candidate mapping.",
+      "zh-Hans": "正式公开词条；发表不意味着候选映射已获审核或升级。"
+    },
+    {
+      "en": "D / Low confidence: an intentionally created symbolic and visual bridge under the current A/B/C/D framework. No direct lexical correspondence, converging independent mapping evidence or demonstrated cross-case pattern. A future test plan alone does not promote the pair to C.",
+      "zh-Hans": "D／低置信度：按现行 A/B/C/D 框架属于有意创造的符号与视觉桥梁。没有直接词义对应、汇聚的独立映射证据或已展示的跨案例模式；未来实验计划不自动升为 C。"
+    }
+  ],
+  "search_terms": [
+    "horizon",
+    "地平线",
+    "火",
+    "huǒ",
+    "huo",
+    "看远方的地平线",
+    "sunrise",
+    "sunset"
+  ],
+  "page": "words/horizon.html",
+  "legacy": null,
+  "source": {
+    "type": "author manuscript",
+    "author": "Jinkai Liu",
+    "status": "Preserved with explicit recalibration",
+    "normalization": "Reader-facing simplified Chinese; light editing; photo unchanged.",
+    "raw_note": "horizon，地平线。《看远方的地平线》。地平线也是火，太阳升起来的地方，hor-，zone，只是一个合成词。distance／French distance：-tance 对应一趟的趟 tang，这趟不远。冬天颜色、明亮轻快、靓丽静洁；立春日看远方地平线；花朵悄悄顶出；到地平线的距离不远。亮靓 liang，儿化音 liar；英语 clearly。"
+  },
+  "source_audit_pending": [
+    {
+      "claim": "地平线、火、日出现代规范辞书条目",
+      "desired_sources": [
+        "现代汉语词典",
+        "新华字典（火）"
+      ],
+      "status": "pending",
+      "reason": "未取得具体纸本条目；汉典平台只支持可见条目范围，不冒充国家规范。"
+    },
+    {
+      "claim": "火古义、古音与历史对应",
+      "desired_sources": [
+        "汉语大词典",
+        "汉语大字典",
+        "大陆整理原典"
+      ],
+      "status": "pending",
+      "reason": "本条不拟构古汉语音，不使用未见页码或书证。"
+    },
+    {
+      "claim": "distance／趟的独立音系比较与趟的大陆规范条目",
+      "status": "pending",
+      "reason": "英法词史已分别核验；声音、量词语义与路径假说留待独立研究。"
+    }
+  ],
+  "featured_mapping": {
+    "source": "horizon",
+    "target": "火",
+    "reading": "huǒ",
+    "display_label": "Cultural / Visual / Phonetic Candidate",
+    "status": "Candidate",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "Horizon is the apparent meeting of earth or sea and sky; standard translation 地平线. 火 means fire, not horizon. Direct lexical equivalence: No.",
+      "zh-Hans": "horizon 指视野中天地或海天看似相接的界线；标准翻译是地平线。火的基本义是燃烧的火，不是地平线。直接词义等同：No。"
+    },
+    "source_refs": [
+      "HZ-AUTHOR"
+    ]
+  },
+  "standard_translation_evidence": {
+    "status": "Supported",
+    "translation": "地平线",
+    "source_refs": [
+      "HZ-ZD-HORIZON"
+    ],
+    "boundary": "Mainland digital platform entry; normative print verification pending"
+  },
+  "cross_entry_control": {
+    "entry": "abhor",
+    "historical_families_distinct": true,
+    "claim": {
+      "en": "ABHOR: Latin abhorrēre, ab- + horrēre (bristle/shudder) → recoil/aversion. HORIZON: Greek horos/horizein → boundary/limiting circle. Distinct historical families; mapping both to 火 does not imply English hor- = 火. Surface sound cluster may support a hypothesis but does not establish shared etymology.",
+      "zh-Hans": "ABHOR：拉丁语 abhorrēre，ab- + horrēre（毛发竖起／战栗）→ 退缩／厌恶。HORIZON：希腊语 horos／horizein → 边界／界定圆周。两条历史词族分离；都映射到火，也不能推出 English hor- = 火。表面声音聚类可以支持提出假说，却不能确立共同词源。"
+    },
+    "source_refs": [
+      "HZ-AHD",
+      "HZ-ABHOR"
+    ],
+    "page": "semantic-mapper.html?q=abhor"
+  },
+  "surface_segmentation_observation": {
+    "label": "Original Author Surface Segmentation Observation",
+    "text": "hor-，zone，只是一个合成词",
+    "status": "Not etymology",
+    "is_etymological": false,
+    "calibration": "hor + zone is not supported historical morphology; even the modern string is not an exact hor+zone concatenation."
+  },
+  "future_candidates": [
+    {
+      "source": "English distance / French distance",
+      "target": "趟 tàng",
+      "status": "Future Candidate",
+      "semantic_schema": "PATH / EXTENT / TRAVEL EVENT",
+      "phonetic_cognitive_observation": "-tance ↔ 趟: author-selected fragment, not standard morpheme equivalence",
+      "historical_relation": "Not claimed",
+      "english_etymology": {
+        "status": "Supported",
+        "path": "Middle English distaunce ← Old French destance; later senses directly from Latin distantia ← distans / distare (dis- + stare)",
+        "source_refs": [
+          "HZ-DIST-EN"
+        ]
+      },
+      "french_etymology": {
+        "status": "Supported within indexed entry",
+        "path": "Latin distantia → French distance",
+        "source_refs": [
+          "HZ-DIST-FR"
+        ]
+      },
+      "boundary": "No full distance entry created; requires independent English/French phonology, history and mainland 趟 entry audit."
+    }
+  ],
+  "related_words": [
+    {
+      "word": "abhor",
+      "language": "English",
+      "relationship_type": "Counterexample / Methodological Control",
+      "family": "Latin horrēre; distinct from Greek horos/horizein",
+      "relation_to_entry": {
+        "en": "ABHOR: Latin abhorrēre, ab- + horrēre (bristle/shudder) → recoil/aversion. HORIZON: Greek horos/horizein → boundary/limiting circle. Distinct historical families; mapping both to 火 does not imply English hor- = 火. Surface sound cluster may support a hypothesis but does not establish shared etymology.",
+        "zh-Hans": "ABHOR：拉丁语 abhorrēre，ab- + horrēre（毛发竖起／战栗）→ 退缩／厌恶。HORIZON：希腊语 horos／horizein → 边界／界定圆周。两条历史词族分离；都映射到火，也不能推出 English hor- = 火。表面声音聚类可以支持提出假说，却不能确立共同词源。"
+      },
+      "status": "Independent historical families",
+      "source_refs": [
+        "HZ-AHD",
+        "HZ-ABHOR"
+      ]
+    },
+    {
+      "word": "distance",
+      "language": "English / French",
+      "relationship_type": "Related Candidate / Future Entry",
+      "family": "Independent research pending",
+      "relation_to_entry": {
+        "en": "distance ↔ 趟 tàng: PATH / EXTENT / TRAVEL EVENT. Selected -tance is not a Chinese-equivalent historical morpheme.",
+        "zh-Hans": "distance ↔ 趟 tàng：PATH / EXTENT / TRAVEL EVENT。选取的 -tance 不是与汉字等同的历史词素。"
+      },
+      "status": "Future Candidate",
+      "source_refs": [
+        "HZ-AUTHOR",
+        "HZ-DIST-FR"
+      ]
+    }
+  ],
+  "raw_observations": [
+    {
+      "text": "亮／靓 liàng、儿化音 liar、clearly",
+      "status": "Literary / Raw Observation only",
+      "is_evidence": false,
+      "note": "未经验证，不建立正式历史或音系 claim；不得把 liar 当作 liàng 的规范儿化转写。"
+    }
+  ]
+}
