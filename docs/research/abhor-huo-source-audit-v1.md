@@ -1,21 +1,44 @@
-# ABHOR → 火 huǒ · Legacy Recalibration v1.0
+# ABHOR → 恶 wù / HORRĒRE → 骇 hài · Legacy Recalibration v1.1
 
 Author: Jinkai Liu
-日期：2026-09-13
+核验日期：2026-09-13
 
-保留 LB-en-abhor-037；Published / Candidate / D / Low；Historical Relation: Not claimed；Direct lexical equivalence: No。
+保留 ID `LB-en-abhor-037`、39条数据集、词条 Published 状态。**Present-day Mapping ≠ Diachronic Mapping｜现代词义映射 ≠ 历时语义映射。**
 
-## 结论与分级
+| 对象 | Status / Level / confidence | 语音 | 语义 | 结构／认知 | 语境 | 总分 |
+|---|---|---:|---:|---:|---:|---:|
+| 现代 abhor → 恶 wù（动词） | Supported / A—Direct / Medium | 2/30 | 29/30 | 12/20 | 17/20 | 60/100 |
+| 历史 horrēre → 骇 hài | Candidate / C—Experimental / Medium | 5/30 | 18/30 | 13/20 | 7/20 | 43/100 |
+| 次级火 huǒ 情绪／文学联想 | Interpretive / D / Low | 10/30 | 6/30 | 10/20 | 3/20 | 29/100 |
 
-中古英语 abhorren 借自拉丁语 abhorrēre：ab- 表离开／自，horrēre 表毛发竖起、战栗、颤抖；退缩、排斥与憎恶相联系。法语 abhorrer 独立记录为拉丁借词。
+分数为现行 Mapping Score v0.2 的暂定编辑判断，不是声学测量、盲评结果或历史概率。A 只按框架 Direct 类评价有资料支持的所选词义，不代表音近；综合 confidence Medium，所选语义在数字来源范围内 High。历时 C 对应可检验的部分阶段比较，不因拉丁词源已知就升级汉语 mapping。
 
-abhor 的标准译义是憎恶／厌恶；火的基本义是实体火，并有常规发怒用法。Direct lexical-semantic equivalence: No。ANGER ≠ AVERSION/DETESTATION；本条只提出间接情绪／认知桥梁。
+两层跨语言 **Historical Relation: Not claimed**。词义对应不等于共同词源；没有声称实验完成。
 
-A 缺少直接对应，B 缺少汇合的映射证据；不能仅凭拟订测试就定 C。各语言内部常规路径有依据，但跨语言连接仍宽泛、探索性，故暂定 D。
+## 核验与证据边界
 
-模板将 C 称为语义／认知映射，协议称为待控制检验模式；认知标签本身不自动赋予 C。29/100 不是历史概率，也无已验证误差范围。
+优先查找大陆规范辞书具体条目；本轮未取得《现代汉语词典》《新华字典》的可核验版本条目，故明确 pending，不以出版社介绍或无版本“在线新华字典”代替。
 
-四维暂定分数：语音10/30，语义6/30，结构／认知10/20，语境3/20，总分29/100。不是测量或同源概率。
+- [汉典：恶](https://www.zdic.net/hans/恶)，基本解释 wù、详细解释 wù 动词第1义及拼音：支持所选“讨厌／憎恶”义和 wù。è／ě／wū 对应其他读音义项，不混用。参考宽式 [u˥˩]（零声母，可有语音性 [w] 起始；平台记 [wu˥˧]，调值不是唯一实现）。这只是大陆数字平台 scoped evidence，不是纸本核验。
+- [汉典：骇](https://www.zdic.net/hans/骇)，基本解释第1义、详细解释第3义及拼音：支持 hài 与惊惧／惊骇。以该现代义比较早期受惊反应；不把骇逐字等同于毛发竖起／战栗的全部义项。平台转录的马受惊古义、古籍书证未独立校勘；《汉语大字典》《汉语大词典》《辞源》及大陆整理原典的具体条目仍 pending。
+- [Merriam-Webster：abhor](https://www.merriam-webster.com/dictionary/abhor)，Word History / Did you know：本轮复核拉丁 abhorrēre、ab- 与 horrēre 的构词及 bristle / tremble / shudder、recoil 语义。不是“应该经法语”的推断。
+- [Allen & Greenough / DCC §8](https://dcc.dickinson.edu/grammar/latin/vowel-and-consonant-pronunciation) 与 [§7](https://dcc.dickinson.edu/grammar/latin/syllables)：近似古典 Roman reference；据规则推导 hor-rē-re 三音节。h [h] 对普通话 h [x] 只有限相似；o–ē–e 对 ai，rr/r、元音长短及三音节对一音节均不同。未拟构汉语古音，未将现代英语 -hor 音值倒投拉丁语。
+
+`HORRĒRE — BRISTLE / SHUDDER / TREMBLE ↔ 骇 → RECOIL / AVERSION → ABHOR — DETEST / LOATHE ↔ 恶`
+
+这是 semantic-stage comparison，是概括图式，不是三个严格递进的首见年代，也不是汉语骇演变为恶的主张。
+
+## 火的保留位置与数据结构
+
+火退出 primary mapping 及历史语义候选，保留在 `secondary_affective_literary_associations`、标明 scope 的次级 phonetic observation、旧 hypothesis 和 `literary_layer`。作者“憎恶即对某人有火”及 raw note 原样保留；不进入 Evidence。ANGER/HEAT imagery ≠ AVERSION；Not etymological evidence。旧评估29/100只属于火，不继承新现代映射的 A。
+
+复用 `diachronic_semantic_mapping`；历史阶段从固定四段放宽为至少一段，新增可选 `mappings`，每项独立 source/target、义项、status/level/confidence、历史关系及评分。兼容原 ABANDON，不修改其 record。主 mapping assessment 只评价 abhor→恶。Search / Dictionary / Mapper 沿用现有适配器，以恶为主要现代显示，历史及文学别名指向同一记录；历史层在页面明确分列。
+
+HORR family 仍为 horror / horrible / horrid / abhorrent / abhorrence。horizontal 属 Greek horizon family；horse 属 Germanic hors / hros，均不并入 HORR。不改写 HORIZON、HORSE、NEW 或 ABANDON。
+
+## 沿用的来源审计与次级火分析
+
+以下 v1.0 段落仅保留为火的次级分析，原 D 分级不适用于当前现代主映射。原有来源沿用上一轮审计；本轮新核验来源与范围列于上文。
 
 ## 声音与认知
 

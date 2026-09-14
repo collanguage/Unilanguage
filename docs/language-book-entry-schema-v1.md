@@ -24,6 +24,12 @@ The v0.6 dataset and earlier package records remain in the repository as migrati
 
 Current Legacy Website Import release: `1.2.0` (37 records; Schema remains `1.0.0`). Legacy Batch 001 adds fourteen schema-compatible records, merges four old-site sources into existing records and defers one unclear item without changing the v1.0 canonical filename or core schema. Releases may add reviewed records and optional schema-compatible fields without conflating publication, mapping, historical evidence or literature. The Namcha Barwa record continues to demonstrate optional named-entity and multilingual literary fields; ordinary lexical records remain valid without them.
 
+## Present-day versus diachronic mapping
+
+**Present-day Mapping ≠ Diachronic Mapping｜现代词义映射 ≠ 历时语义映射。** Keep one main modern mapping in `primary_mapping`. Reuse `diachronic_semantic_mapping.historical_stages` for history and its optional `mappings` array for comparisons of historical units: each has its own source, target, selected senses, status, level, confidence, phonetic assessment and historical-relation boundary. A stage is not an additional primary mapping. The entry-level mapping status, level and assessment apply only to the modern primary mapping.
+
+The additive `mappings` field is optional; stages now accept one or more elements instead of requiring exactly four. Existing ABANDON records remain valid and unchanged. ABHOR compares modern `abhor → 恶 wù` separately from `horrēre → 骇 hài`; its `火 huǒ` association remains secondary literature. Dictionary/Mapper summaries show the canonical modern target; historical search aliases lead to that record and its explicitly separated page sections. No rating implies shared etymology, and semantic confidence never increases the phonetic score.
+
 ## Entry fields
 
 | Field | Meaning |

@@ -14,6 +14,78 @@
     "entries": { "type": "array", "minItems": 3, "items": { "$ref": "#/$defs/entry" } }
   },
   "$defs": {
+    "diachronicMapping": {
+      "type": "object",
+      "required": [
+        "mapping_id",
+        "source",
+        "target",
+        "source_semantics",
+        "target_sense",
+        "status",
+        "mapping_level",
+        "confidence",
+        "historical_relation_status",
+        "phonetic_observation",
+        "mapping_assessment",
+        "boundary",
+        "source_refs"
+      ],
+      "properties": {
+        "mapping_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "$ref": "#/$defs/entry/properties/primary_mapping/properties/source"
+        },
+        "target": {
+          "$ref": "#/$defs/entry/properties/primary_mapping/properties/target"
+        },
+        "source_semantics": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_sense": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "$ref": "#/$defs/entry/properties/mapping_status"
+        },
+        "mapping_level": {
+          "$ref": "#/$defs/entry/properties/mapping_level"
+        },
+        "confidence": {
+          "enum": [
+            "High",
+            "Medium",
+            "Low",
+            "Unknown"
+          ]
+        },
+        "historical_relation_status": {
+          "$ref": "#/$defs/entry/properties/historical_relation_status"
+        },
+        "phonetic_observation": {
+          "type": "object"
+        },
+        "mapping_assessment": {
+          "type": "object"
+        },
+        "boundary": {
+          "$ref": "#/$defs/localized"
+        },
+        "source_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
     "localized": {
       "type": "object",
       "required": ["en", "zh-Hans"],
@@ -53,9 +125,9 @@
             },
             "historical_stages": {
               "type": "array",
-              "minItems": 4,
-              "maxItems": 4
+              "minItems": 1
             },
+            "mappings": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/diachronicMapping" } },
             "semantic_best_path": false,
             "consonant_constrained_path": false
           }

@@ -49,6 +49,21 @@ for (const entry of dataset.entries) {
     check(hypothesis.hypothesis_id && hypothesis.claim && hypothesis.status && hypothesis.supporting_cases && hypothesis.counterexamples && hypothesis.testability && Object.hasOwn(hypothesis, "experiment_link"), `${entry.id}: incomplete hypothesis`);
   }
   const referenceIds = new Set((entry.references || []).map((item) => item.reference_id));
+  if (entry.diachronic_semantic_mapping) {
+    const diachronic = entry.diachronic_semantic_mapping;
+    check(diachronic.historical_path && diachronic.semantic_path && diachronic.boundary, `${entry.id}: incomplete diachronic path`);
+    check(diachronic.historical_stages?.length >= 1, `${entry.id}: historical stages required`);
+    for (const mapping of diachronic.mappings || []) {
+      check(mapping.mapping_id && mapping.mapping_id !== entry.primary_mapping.mapping_id, `${entry.id}: diachronic mapping needs a separate ID`);
+      check(mapping.source?.word && mapping.target?.word && mapping.target?.pronunciation && mapping.source_semantics && mapping.target_sense && mapping.boundary, `${entry.id}: incomplete diachronic comparison`);
+      allowed('mapping_status', mapping.status, mapping.mapping_id);
+      allowed('mapping_level', mapping.mapping_level, mapping.mapping_id);
+      allowed('confidence', mapping.confidence, mapping.mapping_id);
+      allowed('historical_relation_status', mapping.historical_relation_status, mapping.mapping_id);
+      check(mapping.phonetic_observation && mapping.mapping_assessment, `${entry.id}: independent diachronic assessments required`);
+      for (const ref of mapping.source_refs || []) check(referenceIds.has(ref), `${entry.id}: broken diachronic reference ${ref}`);
+    }
+  }
   const viewTerms = new Set();
   for (const view of entry.query_views || []) {
     check(view.terms?.length, `${entry.id}: query view must have exact terms`);

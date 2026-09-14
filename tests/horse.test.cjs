@@ -8,7 +8,7 @@ const e=require('../data/entries/horse.v1.json');
 const data=require('../data/language-book.v1.0.json');
 const api=require('../js/language-book-data.js');
 const page=fs.readFileSync(path.join(root,'words/horse.html'),'utf8');
-const baseline='680344cba996d799c5586fe3681c0810d6083256';
+const baseline='443b57199ecdb6c1c86c777cc09cc8b83ddcc0c2';
 test('HORSE adds one record from the raw candidate without altering the prior 39 records or frozen UI',()=>{
  const before=JSON.parse(cp.execFileSync('git',['show',baseline+':data/language-book.v1.0.json'],{cwd:root,maxBuffer:12*1024*1024}));
  assert.equal(data.entries.length,40);
