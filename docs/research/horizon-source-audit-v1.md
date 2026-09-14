@@ -20,7 +20,7 @@ ABHOR：拉丁语 abhorrēre，ab- + horrēre（毛发竖起／战栗）→ 退�
 - **HZ-ZD-SUNRISE — 汉典：日出**: 直接条目支持太阳初升出地平线；不证明作者火映射。 https://zdic.net/hans/日出
 - **HZ-ABHOR — Merriam-Webster Dictionary: abhor**: Direct entry independently supports abhorrēre, ab- and horrēre; not Greek horos. https://www.merriam-webster.com/dictionary/abhor
 - **HZ-AUTHOR — Jinkai Liu：《看远方的地平线》及原始声音笔记**: 用户本次明确提供的文字与照片；仅作者出处，不是独立语言学证据。 User-provided source
-- **HZ-RUBRIC — Unilanguage Mapping Framework**: Repository read: D speculative/creative; no numeric phonetic rubric supplied. protocol/protocol.mapping-framework.html
+- **HZ-RUBRIC — Unilanguage Mapping Framework**: Repository read: D speculative/creative; A/B/C/D assigned independently from numeric scores; no verified automatic cutoff. protocol/protocol.mapping-framework.html
 - **HZ-DIST-FR — Dictionnaire de l’Académie française, 9e édition: distance**: Search-indexed entry: Latin distantia. Independent French history, not evidence for the author’s -tance ↔ 趟 observation. https://www.dictionnaire-academie.fr/article/A9D2787
 - **HZ-DIST-EN — Online Etymology Dictionary: distance**: Direct entry retrieved: Middle English distaunce from Old French destance; later senses directly from Latin distantia, from distare. Kept separate from HORIZON history. https://www.etymonline.com/word/distance
 
@@ -41,3 +41,7 @@ distance→趟 remains Future Candidate; no full entry. 亮/靓、liar、clearly
 ## Concurrent main integration
 
 Integrated ABHOR commit 0bf65e837b78468dbddfac77873418c2041d8154 by normal merge, preserving its record and page. Both entries remain Candidate / D with distinct historical families. Generated dataset and manifests rebuilt from both authoring records; old baseline tests exclude newly added HORIZON only.
+
+## Mapping Score v0.2
+
+Repository source: words/man.html#mapping-score (weights 30/30/20/20). Provisional editorial assessment: phonetic 5/30 (both UK and US weak), semantic 4/30, structural/cognitive 8/20, contextual 3/20; total 20/100. No measured phonetic distance, historical probability or automatic grade threshold is implied. D remains independently assigned to the creative visual bridge.

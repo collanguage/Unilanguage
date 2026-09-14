@@ -212,7 +212,12 @@
       "rating": {
         "UK": "Weak",
         "US": "Weak",
-        "method": "Qualitative feature comparison; unvalidated; no numeric distance claimed"
+        "method": "Qualitative feature comparison; unvalidated; no numeric distance claimed",
+        "editorial_score": {
+          "score": 5,
+          "maximum": 30,
+          "scope": "Both UK and US reference forms; editorial judgment only"
+        }
       }
     }
   ],
@@ -453,7 +458,7 @@
         "project_rubric"
       ],
       "locator": "Mapping Level A / B / C / D",
-      "provenance": "Repository read: D speculative/creative; no numeric phonetic rubric supplied.",
+      "provenance": "Repository read: D speculative/creative; A/B/C/D assigned independently from numeric scores, with no verified automatic cutoff.",
       "access_date": "2026-09-13",
       "verification_status": "Verified within stated boundary"
     },
@@ -482,6 +487,20 @@
       ],
       "locator": "distance (n.)",
       "provenance": "Direct entry retrieved: Middle English distaunce from Old French destance; later senses directly from Latin distantia, from distare. Kept separate from HORIZON history.",
+      "access_date": "2026-09-13",
+      "verification_status": "Verified within stated boundary"
+    },
+    {
+      "reference_id": "HZ-SCORE",
+      "title": "Unilanguage Mapping Score v0.2: MAN case",
+      "type": "project rubric",
+      "url": null,
+      "path": "words/man.html",
+      "scope": [
+        "project_rubric"
+      ],
+      "locator": "mapping-score",
+      "provenance": "Repository weighting 30 phonetic / 30 semantic / 20 structural-cognitive / 20 contextual. Applied as provisional editorial judgment, not measured distance.",
       "access_date": "2026-09-13",
       "verification_status": "Verified within stated boundary"
     }
@@ -655,5 +674,43 @@
       "is_evidence": false,
       "note": "未经验证，不建立正式历史或音系 claim；不得把 liar 当作 liàng 的规范儿化转写。"
     }
-  ]
+  ],
+  "mapping_assessment": {
+    "rubric": "Mapping Score v0.2 weights: words/man.html#mapping-score; A/B/C/D: protocol/protocol.mapping-framework.html",
+    "method": "Provisional editorial assessment, unvalidated; not measured sound distance or cognacy probability; no numeric level cutoff established.",
+    "dimensions": [
+      {
+        "name": "Phonetic Relation",
+        "weight": 30,
+        "score": 5,
+        "reason": "仅清擦音起首有有限近似；/ə、aɪ/ 与 /wɔ/ 不同，且 r、介音、声调与音节结构不匹配。英美均弱。"
+      },
+      {
+        "name": "Semantic Relation",
+        "weight": 30,
+        "score": 4,
+        "reason": "地平线与火没有直接词义等同，联系需要日出／日落／光的中介。"
+      },
+      {
+        "name": "Structural / Cognitive Relation",
+        "weight": 20,
+        "score": 8,
+        "reason": "日出与地平线的空间背景可核验；延伸到火是作者视觉桥梁，不是已重复验证的模式。"
+      },
+      {
+        "name": "Contextual Validity",
+        "weight": 20,
+        "score": 3,
+        "reason": "可供文学与记忆研究；普通译句不可替换，尚无盲评结果。"
+      }
+    ],
+    "total": 20,
+    "maximum": 100,
+    "level": "D",
+    "confidence": "Low",
+    "source_refs": [
+      "HZ-SCORE",
+      "HZ-RUBRIC"
+    ]
+  }
 }

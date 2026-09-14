@@ -17,6 +17,8 @@ test('HORIZON is unique and translation remains separate from the creative Candi
  assert.equal(e.featured_mapping.target,'火');
  assert.equal(e.mapping_status,'Candidate');
  assert.equal(e.mapping_level,'D');
+ assert.equal(e.mapping_assessment.dimensions[0].score,5);
+ assert.equal(e.mapping_assessment.total,e.mapping_assessment.dimensions.reduce((n,x)=>n+x.score,0));
  assert.equal(e.historical_relation_status,'Not claimed');
  assert.equal(e.featured_mapping.historical_relation,'Not claimed');
  assert.equal(e.direct_lexical_semantic_equivalence,false);
