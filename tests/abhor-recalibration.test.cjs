@@ -11,11 +11,11 @@ const page = fs.readFileSync(path.join(root, 'words/abhor.html'), 'utf8');
 
 test('ABHOR recalibrates one existing ID without changing the other 37 records', () => {
   const before = JSON.parse(cp.execFileSync('git', ['show', 'f0bbff3a8ec0adeef387f87ef5694352f4081e3a:data/language-book.v1.0.json'], {cwd:root, maxBuffer:10*1024*1024}));
-  assert.equal(data.entries.filter(e => e.slug !== 'horizon').length, 38);
+  assert.equal(data.entries.filter(e => !['horizon','horse'].includes(e.slug)).length, 38);
   assert.equal(data.entries.filter(e => e.slug === 'abhor').length, 1);
   assert.equal(entry.id, 'LB-en-abhor-037');
   assert.deepEqual(data.entries.find(e => e.slug === 'abhor'), entry);
-  assert.deepEqual(data.entries.filter(e => !['abhor','horizon'].includes(e.slug)), before.entries.filter(e => e.slug !== 'abhor'));
+  assert.deepEqual(data.entries.filter(e => !['abhor','horizon','horse'].includes(e.slug)), before.entries.filter(e => e.slug !== 'abhor'));
   assert.equal(entry.source.raw_note, before.entries.find(e => e.slug === 'abhor').source.raw_note);
 });
 

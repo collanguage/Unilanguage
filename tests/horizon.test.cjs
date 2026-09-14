@@ -9,7 +9,7 @@ const e = require('../data/entries/horizon.v1.json');
 const api = require('../js/language-book-data.js');
 const page = fs.readFileSync(path.join(root,'words/horizon.html'),'utf8');
 test('HORIZON is unique and translation remains separate from the creative Candidate', () => {
- assert.equal(data.entries.length,39);
+ assert.equal(data.entries.filter(x=>x.slug!=='horse').length,39);
  assert.equal(data.entries.filter(x=>x.slug==='horizon').length,1);
  assert.deepEqual(data.entries.find(x=>x.slug==='horizon'),e);
  assert.equal(e.entry_status,'Published');
