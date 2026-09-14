@@ -16,6 +16,10 @@
       "en": "One English word → one primary Chinese mapping → separate historical etymology → separate sound-semantic hypothesis → separate experimental validation.",
       "zh-Hans": "一个英语词 → 一个主要汉语 Mapping → 独立历史词源 → 独立声音假说 → 独立实验验证。"
     },
+    "present_day_vs_diachronic": {
+      "en": "Present-day Mapping ≠ Diachronic Mapping. One primary modern mapping; historical-unit comparisons have separate fields, assessments and historical-relation boundaries.",
+      "zh-Hans": "现代词义映射 ≠ 历时语义映射。一个主要现代 Mapping；历史单位比较使用独立字段、评分及历史关系边界。"
+    },
     "non_cognacy_position": {
       "en": "The database compares languages; it is not evidence that all languages share one historical origin.",
       "zh-Hans": "本数据库用于跨语言比较，不是“所有语言历史同源”的证明。"
@@ -11361,8 +11365,8 @@
       "id": "LB-en-abhor-037",
       "slug": "abhor",
       "title": {
-        "en": "ABHOR → 火 huǒ · Legacy Recalibration",
-        "zh-Hans": "ABHOR → 火 huǒ · 旧词条校准"
+        "en": "ABHOR → 恶 wù · HORRĒRE → 骇 hài",
+        "zh-Hans": "ABHOR → 恶 wù · HORRĒRE → 骇 hài"
       },
       "languages": [
         {
@@ -11377,8 +11381,9 @@
           "role": "target",
           "code": "zh-Hans",
           "name": "Chinese",
-          "word": "火",
-          "pronunciation": "huǒ [xwo˨˩˦]"
+          "word": "恶",
+          "pronunciation": "wù [u˥˩]",
+          "part_of_speech": "verb · 动词（讨厌／憎恶义）"
         },
         {
           "role": "standard-translation",
@@ -11394,6 +11399,20 @@
           "word": "abhorrer",
           "pronunciation": "/abɔʁe/",
           "part_of_speech": "verbe transitif"
+        },
+        {
+          "role": "diachronic-comparison",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "骇",
+          "pronunciation": "hài [xaɪ˥˩]"
+        },
+        {
+          "role": "secondary-literary",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "火",
+          "pronunciation": "huǒ [xwo˨˩˦]"
         }
       ],
       "primary_mapping": {
@@ -11405,26 +11424,26 @@
         },
         "target": {
           "language": "Chinese",
-          "word": "火",
-          "pronunciation": "huǒ [xwo˨˩˦]"
+          "word": "恶",
+          "pronunciation": "wù [u˥˩]"
         },
         "gloss": {
-          "en": "detest / loathe; standard translation 憎恶／厌恶; 火 is a candidate",
-          "zh-Hans": "憎恶／厌恶为标准翻译；火为候选"
+          "en": "detest / loathe → 恶 wù; standard translation 憎恶／厌恶",
+          "zh-Hans": "憎恶／厌恶 → 恶 wù（动词）"
         },
         "meaning": {
-          "en": "Abhor means detest or loathe; 火 means fire and has conventional anger uses. Direct lexical-semantic equivalence: No. ANGER ≠ AVERSION/DETESTATION; this is an indirect affective/cognitive bridge.",
-          "zh-Hans": "abhor 的标准译义是憎恶／厌恶；火的基本义是实体火，并有常规发怒用法。Direct lexical-semantic equivalence: No。ANGER ≠ AVERSION/DETESTATION；本条只提出间接情绪／认知桥梁。"
+          "en": "Abhor means detest / loathe / regard with intense aversion. 恶 wù is the verb meaning dislike or detest; standard Chinese translation: 憎恶／厌恶. Direct lexical-semantic equivalence: Yes, for this selected sense, not every use of the polyphonic character.",
+          "zh-Hans": "abhor 表示憎恶／厌恶；单字映射为动词“恶 wù”（讨厌、憎恶义）。Direct lexical-semantic equivalence: Yes，仅限所选义项；不混用 è／ě／wū，不声称单字可在所有现代句子中替代双音词。"
         },
-        "mapping_type": "Phonetic-Affective / Cognitive Candidate",
+        "mapping_type": "Modern Semantic Mapping",
         "rationale": {
-          "en": "Meaning first, consonant second: only a broad negative-affect overlap is supported; neither translation equivalence nor common descent is claimed.",
-          "zh-Hans": "Meaning first, consonant second：只支持宽泛负面情绪交集，不主张词义等同或共同来源。"
+          "en": "Meaning-first lexical comparison for the aversion sense. Weak sound resemblance is scored independently; semantic equivalence is not etymological evidence.",
+          "zh-Hans": "先按厌恶义匹配；声音相似弱，独立评分。语义对应不构成词源证据。"
         }
       },
       "entry_status": "Published",
-      "mapping_status": "Candidate",
-      "mapping_level": "D",
+      "mapping_status": "Supported",
+      "mapping_level": "A",
       "historical_relation_status": "Not claimed",
       "evidence": {
         "Historical": {
@@ -11460,35 +11479,35 @@
           "status": "Candidate",
           "confidence": "Low",
           "summary": {
-            "en": "Compare only modern English -hor /hɔː(r)/ with Mandarin 火 [xwo˨˩˦]. Limited resemblance, not homophony or a demonstrated correspondence.",
-            "zh-Hans": "仅比较现代英语 -hor /hɔː(r)/ 与普通话火 [xwo˨˩˦]：有限音近，不是同音，也不是已经证实的规律对应。"
+            "en": "Modern abhor versus 恶 wù: weak whole-word resemblance, not homophony.",
+            "zh-Hans": "现代 abhor 对恶 wù：整词音近弱，不是同音。"
           },
           "items": [
             {
-              "evidence_id": "PHONSEM-ABHOR-001",
+              "evidence_id": "PHONSEM-ABHOR-WU",
               "claim": {
-                "en": "Compare only modern English -hor /hɔː(r)/ with Mandarin 火 [xwo˨˩˦]. Limited resemblance, not homophony or a demonstrated correspondence.",
-                "zh-Hans": "仅比较现代英语 -hor /hɔː(r)/ 与普通话火 [xwo˨˩˦]：有限音近，不是同音，也不是已经证实的规律对应。"
+                "en": "Modern abhor versus 恶 wù: weak whole-word resemblance, not homophony.",
+                "zh-Hans": "现代 abhor 对恶 wù：整词音近弱，不是同音。"
               },
               "status": "Candidate",
               "confidence": "Low",
               "source_refs": [
                 "ABHOR-OALD",
-                "ABHOR-ZD-HUO"
+                "ABHOR-ZD-WU"
               ]
             }
           ],
           "source_refs": [
             "ABHOR-OALD",
-            "ABHOR-ZD-HUO"
+            "ABHOR-ZD-WU"
           ]
         },
         "Cognitive": {
           "status": "Interpretive",
           "confidence": "Low",
           "summary": {
-            "en": "Two independent paths share a partial embodied/intense-negative-affect structure, with different endpoints: aversion/detest versus anger.",
-            "zh-Hans": "两条独立路径部分共享具身／强烈负面情绪结构；终点分别为厌恶／憎恶与愤怒，并不相同。"
+            "en": "The Latin reaction-to-aversion pathway supports stage comparison with 骇. The separate fire-to-anger path remains a secondary affective association with unequal endpoints.",
+            "zh-Hans": "拉丁身体反应至厌恶的路径支持与骇作阶段比较；火到愤怒的路径另属次级情绪联想，终点不同。"
           },
           "items": [
             {
@@ -11531,6 +11550,19 @@
                 "ABHOR-ZD-HUO",
                 "ABHOR-ZD-NUHUO"
               ]
+            },
+            {
+              "evidence_id": "COG-HORRERE-HAI",
+              "claim": {
+                "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
+                "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-MW-ABHOR",
+                "ABHOR-ZD-HAI"
+              ]
             }
           ],
           "source_refs": [
@@ -11538,7 +11570,8 @@
             "ABHOR-ZD-HUO",
             "ABHOR-ZD-HUOQI",
             "ABHOR-ZD-FAHUO",
-            "ABHOR-ZD-NUHUO"
+            "ABHOR-ZD-NUHUO",
+            "ABHOR-ZD-HAI"
           ]
         },
         "Speculative": {
@@ -11553,6 +11586,47 @@
         }
       },
       "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABHOR-WU",
+          "scope": "primary_mapping",
+          "claim": {
+            "en": "Modern abhor versus 恶 wù: weak whole-word resemblance, not homophony.",
+            "zh-Hans": "现代 abhor 对恶 wù：整词音近弱，不是同音。"
+          },
+          "status": "Candidate",
+          "segments": {
+            "onset": {
+              "en": "English begins /əb-/ with /b/ before stressed /h/; Mandarin wù has zero consonantal initial, with possible phonetic [w] onset. Pinyin w is not English /h/.",
+              "zh-Hans": "英语以 /əb-/ 起始，重读音节前有 /h/；普通话 wù 为零声母，可带语音性 [w] 起始。拼音 w 不对应 /h/。"
+            },
+            "vowel": {
+              "en": "English /ə, ɔː/ versus Mandarin /u/: different height and quality; broad rounding alone is weak.",
+              "zh-Hans": "英语 /ə, ɔː/ 对普通话 /u/，高度、音质不同，宽泛圆唇性不足以构成强对应。"
+            },
+            "syllables": {
+              "en": "Two English syllables versus one Mandarin syllable; /b/ and /h/ lack matches.",
+              "zh-Hans": "英语两音节对普通话一音节；/b/、/h/ 无对应。"
+            },
+            "rhoticity": {
+              "en": "US /r/ adds a mismatch; reference non-rhotic UK isolation lacks final r.",
+              "zh-Hans": "美音 /r/ 增加差异；参考非卷舌英音单念无词尾 r。"
+            },
+            "tone": {
+              "en": "Mandarin fourth tone has no English lexical-tone equivalent.",
+              "zh-Hans": "普通话去声没有英语词汇声调对应。"
+            }
+          },
+          "rating": {
+            "score": 2,
+            "maximum": 30,
+            "confidence": "Low",
+            "method": "Provisional unvalidated editorial feature comparison; not acoustic measurements or blinded ratings"
+          },
+          "source_refs": [
+            "ABHOR-OALD",
+            "ABHOR-ZD-WU"
+          ]
+        },
         {
           "observation_id": "PHON-ABHOR-001",
           "claim": {
@@ -11597,7 +11671,9 @@
           "rating": {
             "UK": "Limited",
             "US": "Limited; additional rhotic mismatch",
-            "method": "Provisional unvalidated editorial feature comparison; not acoustic measurements or blinded ratings"
+            "method": "Provisional unvalidated editorial feature comparison; not acoustic measurements or blinded ratings",
+            "score": 10,
+            "maximum": 30
           },
           "secondary_french": {
             "en": "French /abɔʁe/: the letters h and rr do not supply English /h/ plus /r/; /ɔʁ/ versus /xwo/ is a weaker secondary comparison. No extra independent cognacy evidence.",
@@ -11607,21 +11683,21 @@
             "ABHOR-OALD",
             "ABHOR-ZD-HUO",
             "ABHOR-FR"
-          ]
+          ],
+          "scope": "secondary_affective_literary_association"
         }
       ],
       "semantic_structure": {
         "concepts": [
           "BRISTLE",
           "SHUDDER",
+          "TREMBLE",
+          "FRIGHT",
           "RECOIL",
           "AVERSION",
-          "DETEST",
-          "FIRE",
-          "HEAT",
-          "ANGER"
+          "DETEST"
         ],
-        "relation": "BRISTLE/SHUDDER/RECOIL → HORROR/AVERSION → DETEST || FIRE/HEAT → ANGER/INTENSE AFFECT",
+        "relation": "HORRĒRE — BRISTLE / SHUDDER / TREMBLE ↔ 骇 → RECOIL / AVERSION → ABHOR — DETEST / LOATHE ↔ 恶",
         "status": "Interpretive"
       },
       "related_words": [
@@ -11729,7 +11805,7 @@
       "semantic_associations": [
         {
           "association_id": "ASSOC-ABHOR-001",
-          "relation": "BRISTLE/SHUDDER/RECOIL → HORROR/AVERSION → DETEST || FIRE/HEAT → ANGER/INTENSE AFFECT",
+          "relation": "Secondary Affective / Literary Association: BRISTLE/SHUDDER/RECOIL → HORROR/AVERSION → DETEST || FIRE/HEAT → ANGER/INTENSE AFFECT",
           "status": "Interpretive",
           "is_etymological": false
         }
@@ -11737,7 +11813,7 @@
       "hypotheses": [
         {
           "hypothesis_id": "UNI-LEGACY-ABHOR-001",
-          "type": "Phonetic-Affective / Cognitive Candidate",
+          "type": "Secondary Affective / Literary Association",
           "claim": {
             "en": "A modern -hor / 火 sound association may help readers form an indirect negative-affect bridge.",
             "zh-Hans": "现代 -hor／火 的声音联想能否帮助读者形成间接负面情绪桥梁，仍待检验。"
@@ -11761,7 +11837,8 @@
           "source_refs": [
             "ABHOR-OALD",
             "ABHOR-ZD-HUO"
-          ]
+          ],
+          "scope": "secondary_affective_literary_association"
         }
       ],
       "counterevidence": [
@@ -11829,7 +11906,8 @@
           "zh-Hans": "作者文学直觉，不是辞书释义、历史词源或实验结果。"
         },
         "label": "Author's Intuition / Literary Layer",
-        "is_independent_evidence": false
+        "is_independent_evidence": false,
+        "association_label": "Secondary Affective / Literary Association"
       },
       "media": [],
       "references": [
@@ -12066,10 +12144,64 @@
           "locator": "protocol/protocol.mapping-framework.html#evaluation; words/man.html#mapping-score",
           "accessed": "2026-09-13",
           "provenance": "四维权重30/30/20/20；A/B/C/D按关系类型与强度判断，未核得统一数值阈值。"
+        },
+        {
+          "reference_id": "ABHOR-ZD-WU",
+          "title": "汉典：恶",
+          "type": "dictionary",
+          "url": "https://www.zdic.net/hans/恶",
+          "path": null,
+          "claim_scope": [
+            "modern_meaning",
+            "phonology"
+          ],
+          "locator": "基本解释 wù；详细解释 wù 动词第1义；拼音",
+          "accessed": "2026-09-13",
+          "provenance": "大陆数字辞书平台；仅核验 wù 讨厌／憎恶义与读音，不使用 è／ě／wū 义项；宽式 [u˥˩]，平台亦记 [wu˥˧]，语音实现可变。不把平台当《现代汉语词典》或《新华字典》的具体版本。"
+        },
+        {
+          "reference_id": "ABHOR-ZD-HAI",
+          "title": "汉典：骇",
+          "type": "dictionary",
+          "url": "https://www.zdic.net/hans/骇",
+          "path": null,
+          "claim_scope": [
+            "modern_meaning",
+            "phonology"
+          ],
+          "locator": "基本解释第1义；详细解释第3义；拼音",
+          "accessed": "2026-09-13",
+          "provenance": "大陆数字辞书平台；支持 hài 惊惧／惊骇及普通话参考读音；不使用未独立校勘的古籍转录来证明古义首见。"
+        },
+        {
+          "reference_id": "ABHOR-DCC-PRON",
+          "title": "Allen & Greenough: Vowel and Consonant Pronunciation",
+          "type": "grammar",
+          "url": "https://dcc.dickinson.edu/grammar/latin/vowel-and-consonant-pronunciation",
+          "path": null,
+          "claim_scope": [
+            "phonology"
+          ],
+          "locator": "§8; Meagan Ayer ed., DCC 2014",
+          "accessed": "2026-09-13",
+          "provenance": "近似古典拉丁语的 Roman reference；用于 h 与元音长短比较，不是录音或各时代统一音值。"
+        },
+        {
+          "reference_id": "ABHOR-DCC-SYLL",
+          "title": "Allen & Greenough: Syllables",
+          "type": "grammar",
+          "url": "https://dcc.dickinson.edu/grammar/latin/syllables",
+          "path": null,
+          "claim_scope": [
+            "phonology"
+          ],
+          "locator": "§7; Meagan Ayer ed., DCC 2014",
+          "accessed": "2026-09-13",
+          "provenance": "按元音及双辅音分音节规则推得 hor-rē-re；属于注明体系的编辑推导。"
         }
       ],
       "author": "Jinkai Liu",
-      "version": "ABHOR Legacy Recalibration v1.0 / Schema v1.0",
+      "version": "ABHOR Legacy Recalibration v1.1 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-13",
@@ -12077,12 +12209,20 @@
       },
       "editorial_notes": [
         {
-          "en": "Legacy recalibration in place; stable ID and 38-record count. Publication does not promote the Candidate.",
-          "zh-Hans": "原地校准；保留 ID 及38条总数。词条发表不升级 Candidate。"
+          "en": "Present-day Mapping ≠ Diachronic Mapping. One primary modern mapping; historical-unit comparisons have separate fields, assessments and historical-relation boundaries.",
+          "zh-Hans": "现代词义映射 ≠ 历时语义映射。一个主要现代 Mapping；历史单位比较使用独立字段、评分及历史关系边界。"
         },
         {
-          "en": "A lacks direct correspondence; B lacks convergent mapping evidence; C is not established merely by a proposed test. Conventional within-language paths are supported, but their cross-language connection remains broad and exploratory, hence D.",
-          "zh-Hans": "A 缺少直接对应，B 缺少汇合的映射证据；不能仅凭拟订测试就定 C。各语言内部常规路径有依据，但跨语言连接仍宽泛、探索性，故暂定 D。"
+          "en": "Stable ID, 39-record dataset and Published entry status retained. Primary A is a fresh selected-sense assessment, not promotion of the old 火 hypothesis (D/Low).",
+          "zh-Hans": "保留 ID、39条数据集及 Published 状态。主映射 A 是新对象的所选义项评价，不是升级旧火假说（D/Low）。"
+        },
+        {
+          "en": "A — Direct grades only the documented selected lexical sense, consistent with the framework’s Direct category. Semantic confidence High within digital-source scope; overall confidence Medium because sound correspondence is weak and print-entry audit remains pending. No cognacy or experimental promotion.",
+          "zh-Hans": "A—Direct 仅评价有辞书支持的所选词义直接对应，不代表声音强。数字来源范围内语义置信度 High；声音弱、纸本条目待核，综合置信度 Medium。不升级同源或实验结论。"
+        },
+        {
+          "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
+          "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
         }
       ],
       "search_terms": [
@@ -12102,7 +12242,18 @@
         "abhorrer",
         "火气",
         "发火",
-        "怒火"
+        "怒火",
+        "恶",
+        "wù",
+        "wu",
+        "骇",
+        "hài",
+        "hai",
+        "horrēre",
+        "horrere",
+        "bristle",
+        "shudder",
+        "tremble"
       ],
       "page": "words/abhor.html",
       "legacy": {
@@ -12125,7 +12276,7 @@
         "disposition": "Candidate",
         "priority_score": 91.8
       },
-      "direct_lexical_semantic_equivalence": false,
+      "direct_lexical_semantic_equivalence": true,
       "cognitive_paths": {
         "english_latin": {
           "evidence_id": "COG-ABHOR-EN",
@@ -12160,14 +12311,16 @@
         },
         "shared_structure": "partial embodied/intense-negative-affect structure",
         "endpoints_equal": false,
-        "is_historical_relation": false
+        "is_historical_relation": false,
+        "scope": "secondary_affective_literary_association"
       },
       "experiment_plan": {
         "status": "Planned-Not tested",
         "completed": false,
         "design": "Separate phonetic and semantic judgments; hide author note and spelling from auditory raters; British non-rhotic and American rhotic strata; randomize matched syllable/frequency controls; horizontal and horse as etymological negative controls only, not matched statistical controls; deduplicate HORR family; preregister outcomes, sample size and analysis before collection.",
         "falsification": "No held-out advantage over matched random pairs, or disappearance after controlling generic negative valence; no upgrade from software tests.",
-        "results": null
+        "results": null,
+        "scope": "Separate sound hypotheses; primary lexical equivalence does not depend on this experiment"
       },
       "legacy_corrections": [
         {
@@ -12210,6 +12363,16 @@
           "claim": "独立心理语言实验及语料统计",
           "status": "pending",
           "reason": "仅有计划，无受试者结果；软件测试不验证语言假说。"
+        },
+        {
+          "claim": "《现代汉语词典》《新华字典》恶 wù／骇 hài 的具体版本条目",
+          "status": "pending",
+          "reason": "本次未取得可核验条目；汉典仅作大陆数字平台 scoped evidence，不冒充纸本核验。"
+        },
+        {
+          "claim": "《汉语大字典》《汉语大词典》《辞源》及大陆整理原典中骇的古义、首见书证",
+          "status": "pending",
+          "reason": "未取得具体条目；汉典转录的马受惊等古义不作为已独立校勘的历史证据，不拟构汉语古音。"
         }
       ],
       "mapping_assessment": {
@@ -12219,42 +12382,251 @@
           {
             "name": "Phonetic Relation",
             "weight": 30,
-            "score": 10,
-            "reason": "局部清擦音与圆唇后元音近似，多个特征不匹配；不是整词同音。"
+            "score": 2,
+            "reason": "整词 /əbˈhɔː(r)/ 对 /u/，辅音、元音及音节结构不匹配；仅有宽泛圆唇性，声音弱。"
           },
           {
             "name": "Semantic Relation",
             "weight": 30,
-            "score": 6,
-            "reason": "共享宽泛负面情绪，愤怒与憎恶终点不同。"
+            "score": 29,
+            "reason": "所选动词义直接对应憎恶／厌恶，不能外推到恶的其他读音义项。"
           },
           {
             "name": "Structural / Cognitive Relation",
             "weight": 20,
-            "score": 10,
-            "reason": "两侧具身路径可独立支持，但其相互映射仍属解释。"
+            "score": 12,
+            "reason": "两者可表达主体对对象的厌恶态度；未建立跨语言音义规律。"
           },
           {
             "name": "Contextual Validity",
             "weight": 20,
-            "score": 3,
-            "reason": "可作记忆／文学桥梁，普通译句不可直接互换；无盲评结果。"
+            "score": 17,
+            "reason": "现代译句通常使用憎恶／厌恶；单字恶较书面，不能任意逐字替换。"
           }
         ],
-        "total": 29,
+        "total": 60,
         "maximum": 100,
-        "level": "D",
-        "confidence": "Low",
+        "level": "A",
+        "confidence": "Medium",
         "rationale": {
-          "en": "A lacks direct correspondence; B lacks convergent mapping evidence; C is not established merely by a proposed test. Conventional within-language paths are supported, but their cross-language connection remains broad and exploratory, hence D.",
-          "zh-Hans": "A 缺少直接对应，B 缺少汇合的映射证据；不能仅凭拟订测试就定 C。各语言内部常规路径有依据，但跨语言连接仍宽泛、探索性，故暂定 D。"
+          "en": "A — Direct grades only the documented selected lexical sense, consistent with the framework’s Direct category. Semantic confidence High within digital-source scope; overall confidence Medium because sound correspondence is weak and print-entry audit remains pending. No cognacy or experimental promotion.",
+          "zh-Hans": "A—Direct 仅评价有辞书支持的所选词义直接对应，不代表声音强。数字来源范围内语义置信度 High；声音弱、纸本条目待核，综合置信度 Medium。不升级同源或实验结论。"
         },
-        "template_note": "模板将 C 称为语义／认知映射，协议称为待控制检验模式；认知标签本身不自动赋予 C。29/100 不是历史概率，也无已验证误差范围。"
+        "template_note": "A/B/C/D 按关系类型独立判定；数值无统一升级阈值，不是历史概率。软件回归不是语言实验。"
       },
       "original_author_observation": {
         "normalized_author_observation": "abhor，憎恶。火 huǒ。憎恶即对某人有火。",
         "original_additional_notes": "abhorrance; abhorrant; hori.zon.tal / zone; horse → 马 → 午 → 火; French abhorrer / horrible / horizontal(e); ab-，a-在h前面变成ab-。"
-      }
+      },
+      "diachronic_semantic_mapping": {
+        "version": "1.0",
+        "status": "Historical semantic analysis; cross-language comparison remains Candidate",
+        "historical_path": "Latin horrēre → Latin abhorrēre → Middle English abhorren → English abhor",
+        "semantic_path": "HORRĒRE — BRISTLE / SHUDDER / TREMBLE ↔ 骇 → RECOIL / AVERSION → ABHOR — DETEST / LOATHE ↔ 恶",
+        "historical_stages": [
+          {
+            "stage_id": "horrere",
+            "form": "HORRĒRE",
+            "language": "Latin",
+            "meaning": "BRISTLE / SHUDDER / TREMBLE",
+            "source_refs": [
+              "REF-MW-ABHOR"
+            ]
+          },
+          {
+            "stage_id": "abhorrere",
+            "form": "ABHORRĒRE",
+            "language": "Latin",
+            "meaning": "RECOIL / AVERSION",
+            "source_refs": [
+              "REF-MW-ABHOR"
+            ]
+          },
+          {
+            "stage_id": "abhor",
+            "form": "ABHOR",
+            "language": "English",
+            "meaning": "DETEST / LOATHE",
+            "primary_mapping_ref": "MAP-abhor-primary",
+            "source_refs": [
+              "REF-MW-ABHOR"
+            ]
+          }
+        ],
+        "boundary": {
+          "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
+          "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
+        },
+        "mappings": [
+          {
+            "mapping_id": "MAP-horrere-hai",
+            "source": {
+              "language": "Latin",
+              "word": "horrēre",
+              "pronunciation": "Roman reference: h [h]; hor-rē-re (three syllables); ē long"
+            },
+            "target": {
+              "language": "Chinese",
+              "word": "骇",
+              "pronunciation": "hài [xaɪ˥˩]"
+            },
+            "source_semantics": "BRISTLE / SHUDDER / TREMBLE",
+            "target_sense": "惊惧／惊骇／受惊；非现代 abhor 直接译义",
+            "status": "Candidate",
+            "mapping_level": "C",
+            "confidence": "Medium",
+            "historical_relation_status": "Not claimed",
+            "phonetic_observation": {
+              "observation_id": "PHON-HORRERE-HAI",
+              "scope": "diachronic_semantic_mapping",
+              "status": "Candidate",
+              "claim": {
+                "en": "Latin horrēre versus modern Mandarin 骇 hài: limited initial similarity; not homophony.",
+                "zh-Hans": "拉丁 horrēre 对现代普通话骇 hài：只有有限起始音近似，不是同音。"
+              },
+              "reference_system": "Allen & Greenough, Roman pronunciation (DCC §§7–8); approximate classical reference, not a recording or a claim about every Latin period. No reconstructed Chinese reading.",
+              "segments": {
+                "onset": {
+                  "en": "Reference Latin h [h] versus Mandarin h [x]: different articulation; shared breath/frication does not establish a regular correspondence.",
+                  "zh-Hans": "参考拉丁 h [h] 对普通话 h [x]，发音部位不同；气流／摩擦性质相近不证明规律对应。"
+                },
+                "vowel": {
+                  "en": "Latin o–ē–e versus Mandarin ai: vowel sequence, length distinction and diphthong structure differ.",
+                  "zh-Hans": "拉丁 o–ē–e 对普通话 ai；元音序列、长短及复元音结构不同。"
+                },
+                "consonants": {
+                  "en": "Latin doubled rr and later r have no counterpart in hài; shared spelling h cannot erase them.",
+                  "zh-Hans": "拉丁双写 rr 及后续 r 在 hài 中无对应；不能因同写 h 而忽略。"
+                },
+                "syllables": {
+                  "en": "Applying the reference syllabification gives hor-rē-re, three syllables, against one Mandarin syllable.",
+                  "zh-Hans": "按参考分音节规则为 hor-rē-re，三音节对普通话一音节。"
+                },
+                "tone": {
+                  "en": "Mandarin fourth tone is not a match for Latin vowel length or stress.",
+                  "zh-Hans": "普通话去声不等于拉丁元音长度或重音。"
+                }
+              },
+              "rating": {
+                "score": 5,
+                "maximum": 30,
+                "confidence": "Low",
+                "method": "Provisional unvalidated editorial feature comparison; reference-system inference, not a measured historical pronunciation"
+              },
+              "source_refs": [
+                "REF-MW-ABHOR",
+                "ABHOR-DCC-PRON",
+                "ABHOR-DCC-SYLL",
+                "ABHOR-ZD-HAI"
+              ]
+            },
+            "mapping_assessment": {
+              "rubric": "Mapping Score v0.2 weights (words/man.html#mapping-score); qualitative A/B/C/D (protocol/protocol.mapping-framework.html#evaluation)",
+              "method": "Provisional editorial assessment, unvalidated; no automatic numerical cutoff or historical points.",
+              "dimensions": [
+                {
+                  "name": "Phonetic Relation",
+                  "weight": 30,
+                  "score": 5,
+                  "reason": "h [h] 对 h [x] 仅有限起始近似；元音、rr/r、三音节对一音节及声调均不同。"
+                },
+                {
+                  "name": "Semantic Relation",
+                  "weight": 30,
+                  "score": 18,
+                  "reason": "受惊／惊惧与身体反应阶段部分重叠；骇不直接等于竖毛、战栗的每个义项。"
+                },
+                {
+                  "name": "Structural / Cognitive Relation",
+                  "weight": 20,
+                  "score": 13,
+                  "reason": "身体反应与惊惧的概念关系可理解，但属于阶段比较，不是共同历史。"
+                },
+                {
+                  "name": "Contextual Validity",
+                  "weight": 20,
+                  "score": 7,
+                  "reason": "可用于历史语义说明；不能把骇用作现代 abhor 直接翻译；历史汉语书证待核。"
+                }
+              ],
+              "total": 43,
+              "maximum": 100,
+              "level": "C",
+              "confidence": "Medium",
+              "rationale": {
+                "en": "C — Experimental: a testable partial semantic-stage comparison with unresolved lexical and historical-Chinese boundaries. Latin etymology is established independently; the Chinese comparison remains Candidate.",
+                "zh-Hans": "C—Experimental：可检验的部分语义阶段比较，汉语古义与字面对应仍有限。拉丁词源独立成立；汉语比较保持 Candidate。"
+              },
+              "template_note": "A/B/C/D 按关系类型独立判定；数值无统一升级阈值，不是历史概率。软件回归不是语言实验。"
+            },
+            "boundary": {
+              "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
+              "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
+            },
+            "source_refs": [
+              "REF-MW-ABHOR",
+              "ABHOR-ZD-HAI",
+              "ABHOR-DCC-PRON",
+              "ABHOR-DCC-SYLL"
+            ]
+          }
+        ]
+      },
+      "secondary_affective_literary_associations": [
+        {
+          "association_id": "ASSOC-ABHOR-HUO",
+          "source": "abhor",
+          "target": "火",
+          "reading": "huǒ",
+          "label": "Secondary Affective / Literary Association",
+          "relation": "憎恶 → 强烈负面情绪 → 心中有火／有火",
+          "status": "Interpretive",
+          "confidence": "Low",
+          "historical_relation_status": "Not claimed",
+          "is_etymological": false,
+          "boundary": "ANGER/HEAT imagery ≠ AVERSION. Not etymological evidence.",
+          "mapping_assessment": {
+            "rubric": "Mapping Score v0.2 weights (words/man.html#mapping-score); qualitative A/B/C/D (protocol/protocol.mapping-framework.html#evaluation)",
+            "method": "Provisional editorial assessment, unvalidated; no automatic numerical cutoff or historical points.",
+            "dimensions": [
+              {
+                "name": "Phonetic Relation",
+                "weight": 30,
+                "score": 10,
+                "reason": "局部清擦音与圆唇后元音近似，多个特征不匹配；不是整词同音。"
+              },
+              {
+                "name": "Semantic Relation",
+                "weight": 30,
+                "score": 6,
+                "reason": "共享宽泛负面情绪，愤怒与憎恶终点不同。"
+              },
+              {
+                "name": "Structural / Cognitive Relation",
+                "weight": 20,
+                "score": 10,
+                "reason": "两侧具身路径可独立支持，但其相互映射仍属解释。"
+              },
+              {
+                "name": "Contextual Validity",
+                "weight": 20,
+                "score": 3,
+                "reason": "可作记忆／文学桥梁，普通译句不可直接互换；无盲评结果。"
+              }
+            ],
+            "total": 29,
+            "maximum": 100,
+            "level": "D",
+            "confidence": "Low",
+            "rationale": {
+              "en": "A lacks direct correspondence; B lacks convergent mapping evidence; C is not established merely by a proposed test. Conventional within-language paths are supported, but their cross-language connection remains broad and exploratory, hence D.",
+              "zh-Hans": "A 缺少直接对应，B 缺少汇合的映射证据；不能仅凭拟订测试就定 C。各语言内部常规路径有依据，但跨语言连接仍宽泛、探索性，故暂定 D。"
+            },
+            "template_note": "模板将 C 称为语义／认知映射，协议称为待控制检验模式；认知标签本身不自动赋予 C。29/100 不是历史概率，也无已验证误差范围。"
+          },
+          "phonetic_observation_ref": "PHON-ABHOR-001"
+        }
+      ]
     },
     {
       "id": "LB-en-abound-025",
