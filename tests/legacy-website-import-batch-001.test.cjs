@@ -44,7 +44,7 @@ test("deduplication and historical corrections remain explicit", () => {
   assert.equal(api.lookup(dataset, "abbey").entry?.legacy_import?.action, "merged-source-deduplicated");
   assert.match(api.lookup(dataset, "abridge").entry.evidence.Historical.summary.en, /abbreviare/);
   assert.match(api.lookup(dataset, "abandon").entry.evidence.Historical.summary.en, /not historically ban \+ donner/);
-  assert.match(api.lookup(dataset, "abhor").entry.evidence.Historical.summary.en, /horrere/);
+  assert.match(api.lookup(dataset, "abhor").entry.evidence.Historical.summary.en, /horr[eē]re/);
 });
 
 test("prior calibration entries still resolve", () => {

@@ -11361,8 +11361,8 @@
       "id": "LB-en-abhor-037",
       "slug": "abhor",
       "title": {
-        "en": "abhor · Legacy Website Import",
-        "zh-Hans": "abhor · 旧站导入"
+        "en": "ABHOR → 火 huǒ · Legacy Recalibration",
+        "zh-Hans": "ABHOR → 火 huǒ · 旧词条校准"
       },
       "languages": [
         {
@@ -11370,8 +11370,15 @@
           "code": "en",
           "name": "English",
           "word": "abhor",
-          "pronunciation": "not recorded",
+          "pronunciation": "UK /əbˈhɔː(r)/; US /əbˈhɔːr/",
           "part_of_speech": "verb · 动词"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "火",
+          "pronunciation": "huǒ [xwo˨˩˦]"
         },
         {
           "role": "standard-translation",
@@ -11379,6 +11386,14 @@
           "name": "Chinese",
           "word": "憎恶／厌恶",
           "pronunciation": "zēngwù / yànwù"
+        },
+        {
+          "role": "comparison",
+          "code": "fr",
+          "name": "French",
+          "word": "abhorrer",
+          "pronunciation": "/abɔʁe/",
+          "part_of_speech": "verbe transitif"
         }
       ],
       "primary_mapping": {
@@ -11386,170 +11401,238 @@
         "source": {
           "language": "English",
           "word": "abhor",
-          "pronunciation": "not recorded"
+          "pronunciation": "UK /əbˈhɔː(r)/; US /əbˈhɔːr/"
         },
         "target": {
           "language": "Chinese",
-          "word": "憎恶／厌恶",
-          "pronunciation": "zēngwù / yànwù"
+          "word": "火",
+          "pronunciation": "huǒ [xwo˨˩˦]"
         },
         "gloss": {
-          "en": "to regard with extreme repugnance; to loathe",
-          "zh-Hans": "极度反感、憎恶或厌恶"
+          "en": "detest / loathe; standard translation 憎恶／厌恶; 火 is a candidate",
+          "zh-Hans": "憎恶／厌恶为标准翻译；火为候选"
         },
         "meaning": {
-          "en": "to regard with extreme repugnance; to loathe. The standard mapping is independent from the legacy sound hypothesis.",
-          "zh-Hans": "极度反感、憎恶或厌恶。标准词义 Mapping 与旧站声音假说独立。"
+          "en": "Abhor means detest or loathe; 火 means fire and has conventional anger uses. Direct lexical-semantic equivalence: No. ANGER ≠ AVERSION/DETESTATION; this is an indirect affective/cognitive bridge.",
+          "zh-Hans": "abhor 的标准译义是憎恶／厌恶；火的基本义是实体火，并有常规发怒用法。Direct lexical-semantic equivalence: No。ANGER ≠ AVERSION/DETESTATION；本条只提出间接情绪／认知桥梁。"
         },
-        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "mapping_type": "Phonetic-Affective / Cognitive Candidate",
         "rationale": {
-          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
-          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+          "en": "Meaning first, consonant second: only a broad negative-affect overlap is supported; neither translation equivalence nor common descent is claimed.",
+          "zh-Hans": "Meaning first, consonant second：只支持宽泛负面情绪交集，不主张词义等同或共同来源。"
         }
       },
-      "entry_status": "Reviewed",
+      "entry_status": "Published",
       "mapping_status": "Candidate",
-      "mapping_level": "C",
+      "mapping_level": "D",
       "historical_relation_status": "Not claimed",
       "evidence": {
         "Historical": {
           "status": "Established",
           "confidence": "High",
           "summary": {
-            "en": "Abhor comes from Latin abhorrere, from ab- ‘away’ plus horrere ‘bristle, shiver, shudder’. It belongs with horror/horrible, not fire or horse.",
-            "zh-Hans": "abhor 来自拉丁语 abhorrere，由 ab-“离开”加 horrere“毛发竖起、战栗”构成；它与 horror／horrible 同族，不源于火或 horse。"
+            "en": "Middle English abhorren borrowed Latin abhorrēre: ab- (away/from) + horrēre (bristle, shudder, tremble). Recoil and repugnance motivate aversion/detest. French abhorrer is independently a Latin borrowing.",
+            "zh-Hans": "中古英语 abhorren 借自拉丁语 abhorrēre：ab- 表离开／自，horrēre 表毛发竖起、战栗、颤抖；退缩、排斥与憎恶相联系。法语 abhorrer 独立记录为拉丁借词。"
           },
           "items": [
             {
               "evidence_id": "HIST-ABHOR-001",
               "claim": {
-                "en": "Abhor comes from Latin abhorrere, from ab- ‘away’ plus horrere ‘bristle, shiver, shudder’. It belongs with horror/horrible, not fire or horse.",
-                "zh-Hans": "abhor 来自拉丁语 abhorrere，由 ab-“离开”加 horrere“毛发竖起、战栗”构成；它与 horror／horrible 同族，不源于火或 horse。"
+                "en": "Middle English abhorren borrowed Latin abhorrēre: ab- (away/from) + horrēre (bristle, shudder, tremble). Recoil and repugnance motivate aversion/detest. French abhorrer is independently a Latin borrowing.",
+                "zh-Hans": "中古英语 abhorren 借自拉丁语 abhorrēre：ab- 表离开／自，horrēre 表毛发竖起、战栗、颤抖；退缩、排斥与憎恶相联系。法语 abhorrer 独立记录为拉丁借词。"
               },
               "status": "Established",
               "confidence": "High",
               "source_refs": [
-                "REF-MW-ABHOR"
+                "REF-MW-ABHOR",
+                "ABHOR-OALD",
+                "ABHOR-FR"
               ]
             }
           ],
           "source_refs": [
-            "REF-MW-ABHOR"
+            "REF-MW-ABHOR",
+            "ABHOR-OALD",
+            "ABHOR-FR"
           ]
         },
         "Phonetic-Semantic": {
           "status": "Candidate",
           "confidence": "Low",
           "summary": {
-            "en": "The hor segment and 火 huǒ are a loose modern resemblance; vowel, consonant and tone do not form a regular correspondence.",
-            "zh-Hans": "hor 片段与“火”huǒ 是松散现代音近；元音、辅音与声调不构成规律对应。"
+            "en": "Compare only modern English -hor /hɔː(r)/ with Mandarin 火 [xwo˨˩˦]. Limited resemblance, not homophony or a demonstrated correspondence.",
+            "zh-Hans": "仅比较现代英语 -hor /hɔː(r)/ 与普通话火 [xwo˨˩˦]：有限音近，不是同音，也不是已经证实的规律对应。"
           },
           "items": [
             {
               "evidence_id": "PHONSEM-ABHOR-001",
               "claim": {
-                "en": "The hor segment and 火 huǒ are a loose modern resemblance; vowel, consonant and tone do not form a regular correspondence.",
-                "zh-Hans": "hor 片段与“火”huǒ 是松散现代音近；元音、辅音与声调不构成规律对应。"
+                "en": "Compare only modern English -hor /hɔː(r)/ with Mandarin 火 [xwo˨˩˦]. Limited resemblance, not homophony or a demonstrated correspondence.",
+                "zh-Hans": "仅比较现代英语 -hor /hɔː(r)/ 与普通话火 [xwo˨˩˦]：有限音近，不是同音，也不是已经证实的规律对应。"
               },
               "status": "Candidate",
               "confidence": "Low",
               "source_refs": [
-                "REF-LANGUAGESBOOK-ABHOR",
-                "REF-MW-ABHOR"
+                "ABHOR-OALD",
+                "ABHOR-ZD-HUO"
               ]
             }
           ],
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABHOR",
-            "REF-MW-ABHOR"
+            "ABHOR-OALD",
+            "ABHOR-ZD-HUO"
           ]
         },
         "Cognitive": {
           "status": "Interpretive",
-          "confidence": "Medium",
+          "confidence": "Low",
           "summary": {
-            "en": "AVERSION → SHUDDER is historically grounded; ‘having fire toward something’ is an authored emotional metaphor.",
-            "zh-Hans": "厌恶 → 战栗有历史依据；“对某物有火”是作者的情绪隐喻。"
+            "en": "Two independent paths share a partial embodied/intense-negative-affect structure, with different endpoints: aversion/detest versus anger.",
+            "zh-Hans": "两条独立路径部分共享具身／强烈负面情绪结构；终点分别为厌恶／憎恶与愤怒，并不相同。"
           },
           "items": [
             {
-              "evidence_id": "COG-ABHOR-001",
+              "evidence_id": "COG-ABHOR-EN",
               "claim": {
-                "en": "AVERSION → SHUDDER is historically grounded; ‘having fire toward something’ is an authored emotional metaphor.",
-                "zh-Hans": "厌恶 → 战栗有历史依据；“对某物有火”是作者的情绪隐喻。"
+                "en": "Physical bristling/shudder/recoil → horror/aversion → detest: a lexicographically motivated conceptual summary, not a dated linear chain.",
+                "zh-Hans": "身体竖毛／战栗／退缩 → 恐惧／厌恶 → 憎恶：据辞书整理的概念路径，不是逐年代的线性词史。"
               },
-              "status": "Interpretive",
+              "status": "Supported",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABHOR"
+              ]
+            },
+            {
+              "evidence_id": "COG-ABHOR-ZH",
+              "claim": {
+                "en": "Physical fire/heat → anger; broader intense affect is interpretive. Modern lexical senses do not by themselves establish historical order.",
+                "zh-Hans": "实体火／热 → 愤怒；推广至强烈情绪属于解释。现代义项共存本身不能证明历时先后。"
+              },
+              "status": "Supported",
               "confidence": "Medium",
               "source_refs": [
-                "REF-LANGUAGESBOOK-ABHOR"
+                "ABHOR-ZD-HUO",
+                "ABHOR-ZD-HUOQI",
+                "ABHOR-ZD-FAHUO",
+                "ABHOR-ZD-NUHUO"
+              ]
+            },
+            {
+              "evidence_id": "COG-ABHOR-BRIDGE",
+              "claim": {
+                "en": "Two independent paths share a partial embodied/intense-negative-affect structure, with different endpoints: aversion/detest versus anger.",
+                "zh-Hans": "两条独立路径部分共享具身／强烈负面情绪结构；终点分别为厌恶／憎恶与愤怒，并不相同。"
+              },
+              "status": "Interpretive",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-MW-ABHOR",
+                "ABHOR-ZD-HUO",
+                "ABHOR-ZD-NUHUO"
               ]
             }
           ],
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABHOR"
+            "REF-MW-ABHOR",
+            "ABHOR-ZD-HUO",
+            "ABHOR-ZD-HUOQI",
+            "ABHOR-ZD-FAHUO",
+            "ABHOR-ZD-NUHUO"
           ]
         },
         "Speculative": {
           "status": "Unestablished",
-          "confidence": "High",
+          "confidence": "Low",
           "summary": {
-            "en": "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
-            "zh-Hans": "不能只凭拼写或声音把 horizontal、horse 与“火”并入拉丁语 horrere 词族。"
+            "en": "No above-chance phonetic-affective association or historical relation has been demonstrated.",
+            "zh-Hans": "尚未证明超出偶然的音义关联或历史关系。"
           },
-          "items": [
-            {
-              "evidence_id": "SPEC-ABHOR-001",
-              "claim": {
-                "en": "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
-                "zh-Hans": "不能只凭拼写或声音把 horizontal、horse 与“火”并入拉丁语 horrere 词族。"
-              },
-              "status": "Unestablished",
-              "confidence": "High",
-              "source_refs": [
-                "REF-LANGUAGESBOOK-ABHOR",
-                "REF-MW-ABHOR"
-              ]
-            }
-          ],
-          "source_refs": [
-            "REF-LANGUAGESBOOK-ABHOR",
-            "REF-MW-ABHOR"
-          ]
+          "items": [],
+          "source_refs": []
         }
       },
       "phonetic_observation": [
         {
           "observation_id": "PHON-ABHOR-001",
           "claim": {
-            "en": "The hor segment and 火 huǒ are a loose modern resemblance; vowel, consonant and tone do not form a regular correspondence.",
-            "zh-Hans": "hor 片段与“火”huǒ 是松散现代音近；元音、辅音与声调不构成规律对应。"
+            "en": "Compare only modern English -hor /hɔː(r)/ with Mandarin 火 [xwo˨˩˦]. Limited resemblance, not homophony or a demonstrated correspondence.",
+            "zh-Hans": "仅比较现代英语 -hor /hɔː(r)/ 与普通话火 [xwo˨˩˦]：有限音近，不是同音，也不是已经证实的规律对应。"
           },
           "status": "Candidate",
+          "segments": {
+            "onset": {
+              "en": "English /h/ is glottal; Mandarin /x/ is velar. Both are voiceless fricative-like sounds, not identical places of articulation.",
+              "zh-Hans": "英语 /h/ 为声门音，普通话 /x/ 为软腭擦音；同有清擦音性质，但发音部位不相同。"
+            },
+            "glide": {
+              "en": "Mandarin has /w/ (often transcribed as nonsyllabic u); English target has no corresponding glide.",
+              "zh-Hans": "普通话有 /w/ 介音（亦以非音节 u 转写）；英语目标段无对应介音。"
+            },
+            "vowel": {
+              "en": "English /ɔː/ versus Mandarin /o/ after /w/: a broad rounded back-vowel resemblance; quality, duration and movement differ.",
+              "zh-Hans": "英语 /ɔː/ 与普通话 /w/ 后的 /o/ 仅有宽泛圆唇后元音近似；音质、时长与运动不同。"
+            },
+            "rhoticity": {
+              "en": "Reference non-rhotic British speech lacks final r in isolation; linking r can occur before a vowel. Reference US speech retains /r/, commonly [ɹ].",
+              "zh-Hans": "参考非卷舌英音单念无词尾 r，后接元音可出现连接 r；参考美音保留 /r/，常实现为 [ɹ]。"
+            },
+            "coda": {
+              "en": "British isolated target has no coda; US target has rhoticity/final r. Mandarin 火 has no consonantal coda.",
+              "zh-Hans": "英音单念目标段无韵尾；美音有 r／卷舌性；普通话火无辅音韵尾。"
+            },
+            "tone": {
+              "en": "Mandarin third tone, citation 214, has no English lexical-tone match; connected-speech realization varies.",
+              "zh-Hans": "普通话上声单念常记214，英语无相应词汇声调；连读实际调值会变化。"
+            },
+            "whole_word": {
+              "en": "English /əb-/ is excluded from the selected target; whole-word resemblance is weaker. Modern -hor must not be projected onto Latin horrēre.",
+              "zh-Hans": "所选片段排除了英语 /əb-/，整词相似更弱；不能把现代 -hor 的音值倒投为拉丁 horrēre 的读音。"
+            }
+          },
           "limitations": {
-            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
-            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
-          }
+            "en": "Abhor means detest or loathe; 火 means fire and has conventional anger uses. Direct lexical-semantic equivalence: No. ANGER ≠ AVERSION/DETESTATION; this is an indirect affective/cognitive bridge.",
+            "zh-Hans": "abhor 的标准译义是憎恶／厌恶；火的基本义是实体火，并有常规发怒用法。Direct lexical-semantic equivalence: No。ANGER ≠ AVERSION/DETESTATION；本条只提出间接情绪／认知桥梁。"
+          },
+          "rating": {
+            "UK": "Limited",
+            "US": "Limited; additional rhotic mismatch",
+            "method": "Provisional unvalidated editorial feature comparison; not acoustic measurements or blinded ratings"
+          },
+          "secondary_french": {
+            "en": "French /abɔʁe/: the letters h and rr do not supply English /h/ plus /r/; /ɔʁ/ versus /xwo/ is a weaker secondary comparison. No extra independent cognacy evidence.",
+            "zh-Hans": "法语 /abɔʁe/：书写 h 不发 /h/，rr 不等于英语 /h/ 加 /r/；/ɔʁ/ 对 /xwo/ 是更弱的次级比较，不增加独立同源证据。"
+          },
+          "source_refs": [
+            "ABHOR-OALD",
+            "ABHOR-ZD-HUO",
+            "ABHOR-FR"
+          ]
         }
       ],
       "semantic_structure": {
         "concepts": [
-          "ABHOR",
-          "ABHORRENCE",
-          "HORROR",
-          "HORRIBLE"
+          "BRISTLE",
+          "SHUDDER",
+          "RECOIL",
+          "AVERSION",
+          "DETEST",
+          "FIRE",
+          "HEAT",
+          "ANGER"
         ],
-        "relation": "abhor → abhorrence → horror → horrible",
+        "relation": "BRISTLE/SHUDDER/RECOIL → HORROR/AVERSION → DETEST || FIRE/HEAT → ANGER/INTENSE AFFECT",
         "status": "Interpretive"
       },
       "related_words": [
         {
-          "word": "horror/horrible",
+          "word": "horror",
           "language": "English",
-          "relationship_type": "historical relatives",
-          "family": "Latin horrere",
+          "relationship_type": "historical relative",
+          "family": "Latin horrēre",
           "relation_to_entry": {
-            "en": "Documented relation in the stated historical family.",
-            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+            "en": "Latin horror ← horrēre",
+            "zh-Hans": "Latin horror ← horrēre；历史词族关联，不是独立跨语言样本。"
           },
           "status": "Established",
           "source_refs": [
@@ -11557,40 +11640,96 @@
           ]
         },
         {
-          "word": "horse",
+          "word": "horrible",
           "language": "English",
-          "relationship_type": "surface similarity",
-          "family": "separate Germanic history",
+          "relationship_type": "historical relative",
+          "family": "Latin horrēre",
           "relation_to_entry": {
-            "en": "Author comparison or semantic association only; not historical derivation.",
-            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+            "en": "Anglo-French ← Latin horribilis ← horrēre",
+            "zh-Hans": "Anglo-French ← Latin horribilis ← horrēre；历史词族关联，不是独立跨语言样本。"
           },
-          "status": "Interpretive",
+          "status": "Established",
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABHOR",
-            "REF-MW-ABHOR"
+            "ABHOR-MW-HORRIBLE"
           ]
         },
         {
-          "word": "火 huǒ",
-          "language": "Chinese",
-          "relationship_type": "literary phonetic-semantic candidate",
-          "family": "independent Sinitic history",
+          "word": "horrid",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin horrēre",
           "relation_to_entry": {
-            "en": "Author comparison or semantic association only; not historical derivation.",
-            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+            "en": "Latin horridus ← horrēre",
+            "zh-Hans": "Latin horridus ← horrēre；历史词族关联，不是独立跨语言样本。"
           },
-          "status": "Interpretive",
+          "status": "Established",
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABHOR",
-            "REF-MW-ABHOR"
+            "ABHOR-MW-HORRID"
+          ]
+        },
+        {
+          "word": "abhorrent",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin horrēre",
+          "relation_to_entry": {
+            "en": "Latin abhorrent-/abhorrens, participle of abhorrēre",
+            "zh-Hans": "Latin abhorrent-/abhorrens, participle of abhorrēre；历史词族关联，不是独立跨语言样本。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "ABHOR-MW-ABHORRENT"
+          ]
+        },
+        {
+          "word": "abhorrence",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin horrēre",
+          "relation_to_entry": {
+            "en": "English abhor noun family; standard spelling",
+            "zh-Hans": "English abhor noun family; standard spelling；历史词族关联，不是独立跨语言样本。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "ABHOR-MW-ABHORRENCE"
+          ]
+        },
+        {
+          "word": "horizontal",
+          "language": "English",
+          "relationship_type": "surface-form contrast / negative control",
+          "family": "Greek horizon family",
+          "relation_to_entry": {
+            "en": "Independent etymology; surface-form negative control, not a HORR relative.",
+            "zh-Hans": "水平的；horizont- + -al，词干经拉丁语追溯希腊语 horizōn／horizein（划界）与 horos（界限）。hori.zon.tal／zone 不是历史构词分析。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "ABHOR-MW-HORIZONTAL",
+            "ABHOR-MW-HORIZON",
+            "ABHOR-FR-HORIZONTAL"
+          ]
+        },
+        {
+          "word": "horse",
+          "language": "English",
+          "relationship_type": "surface-form contrast / negative control",
+          "family": "Germanic hors / hros",
+          "relation_to_entry": {
+            "en": "Independent etymology; surface-form negative control, not a HORR relative.",
+            "zh-Hans": "中古英语 hors ← 古英语；与古高地德语 hros 相联系。不是 hor + se，也不属于 HORR 词族。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "ABHOR-MW-HORSE"
           ]
         }
       ],
       "semantic_associations": [
         {
           "association_id": "ASSOC-ABHOR-001",
-          "relation": "AVERSION → SHUDDER is historically grounded; ‘having fire toward something’ is an authored emotional metaphor.",
+          "relation": "BRISTLE/SHUDDER/RECOIL → HORROR/AVERSION → DETEST || FIRE/HEAT → ANGER/INTENSE AFFECT",
           "status": "Interpretive",
           "is_etymological": false
         }
@@ -11598,29 +11737,30 @@
       "hypotheses": [
         {
           "hypothesis_id": "UNI-LEGACY-ABHOR-001",
-          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "type": "Phonetic-Affective / Cognitive Candidate",
           "claim": {
-            "en": "Jinkai Liu’s original note is preserved verbatim: “abhor，憎恶。火 huo。憎恶即对某有火。”",
-            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“abhor，憎恶。火 huo。憎恶即对某有火。”"
+            "en": "A modern -hor / 火 sound association may help readers form an indirect negative-affect bridge.",
+            "zh-Hans": "现代 -hor／火 的声音联想能否帮助读者形成间接负面情绪桥梁，仍待检验。"
           },
           "status": "Candidate",
           "confidence": "Low",
           "supporting_cases": [
-            "abhor",
-            "憎恶／厌恶"
+            "abhor → 火"
           ],
           "counterexamples": [
-            "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
-            "No regular cross-language sound correspondence has been demonstrated."
+            "ANGER ≠ AVERSION/DETESTATION; one can detest calmly or be angry without detesting.",
+            "Modern phonological differences remain: onset, glide, vowel, rhoticity, tone and extra /əb-/.",
+            "Chance resemblance and post-hoc segment selection are uncontrolled.",
+            "Independent etymologies and family dependence prevent spelling-based cognacy or sample inflation."
           ],
           "testability": {
-            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
-            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+            "en": "Blind sound-only similarity and separate meaning-only ratings, then matched random pairs and family-deduplicated held-out tests.",
+            "zh-Hans": "分别进行只听声音的盲评与只看释义的盲评，再用匹配随机配对与词族去重的留出样本检验。"
           },
           "experiment_link": null,
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABHOR",
-            "REF-MW-ABHOR"
+            "ABHOR-OALD",
+            "ABHOR-ZD-HUO"
           ]
         }
       ],
@@ -11628,35 +11768,284 @@
         {
           "counterevidence_id": "COUNTER-ABHOR-001",
           "statement": {
-            "en": "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
-            "zh-Hans": "不能只凭拼写或声音把 horizontal、horse 与“火”并入拉丁语 horrere 词族。"
+            "en": "ANGER ≠ AVERSION/DETESTATION; one can detest calmly or be angry without detesting.",
+            "zh-Hans": "ANGER ≠ AVERSION/DETESTATION：人可以冷静地憎恶，也可以发怒却不憎恶。"
           },
           "confidence": "High",
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABHOR",
-            "REF-MW-ABHOR"
+            "REF-MW-ABHOR",
+            "ABHOR-ZD-NUHUO"
+          ]
+        },
+        {
+          "counterevidence_id": "COUNTER-ABHOR-002",
+          "statement": {
+            "en": "Modern phonological differences remain: onset, glide, vowel, rhoticity, tone and extra /əb-/.",
+            "zh-Hans": "现代音系存在声母、介音、元音、r、声调及额外 /əb-/ 等差异。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "ABHOR-OALD",
+            "ABHOR-ZD-HUO"
+          ]
+        },
+        {
+          "counterevidence_id": "COUNTER-ABHOR-003",
+          "statement": {
+            "en": "Chance resemblance and post-hoc segment selection are uncontrolled.",
+            "zh-Hans": "偶然音近及事后选取片段尚未控制。"
+          },
+          "confidence": "High",
+          "source_refs": []
+        },
+        {
+          "counterevidence_id": "COUNTER-ABHOR-004",
+          "statement": {
+            "en": "Independent etymologies and family dependence prevent spelling-based cognacy or sample inflation.",
+            "zh-Hans": "各词独立词源与词族内依赖，禁止据拼写认同源或把同族派生词重复计算为独立样本。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ABHOR",
+            "ABHOR-MW-HORSE",
+            "ABHOR-MW-HORIZON"
           ]
         }
       ],
       "experiments": [],
       "literary_layer": {
-        "status": "Preserved from legacy note",
+        "status": "Published",
         "is_historical_evidence": false,
         "proposition": {
-          "en": "AVERSION → SHUDDER is historically grounded; ‘having fire toward something’ is an authored emotional metaphor.",
-          "zh-Hans": "厌恶 → 战栗有历史依据；“对某物有火”是作者的情绪隐喻。"
+          "en": "To abhor someone is to have fire toward them.",
+          "zh-Hans": "憎恶即对某人有火"
         },
         "essay_prose": [],
         "poem_lyrics": [],
         "translations": [],
         "archival_manuscript_media": [],
         "evidence_boundary": {
-          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
-          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
-        }
+          "en": "An author’s literary intuition, not a dictionary definition, historical etymology or experimental result.",
+          "zh-Hans": "作者文学直觉，不是辞书释义、历史词源或实验结果。"
+        },
+        "label": "Author's Intuition / Literary Layer",
+        "is_independent_evidence": false
       },
       "media": [],
       "references": [
+        {
+          "reference_id": "REF-MW-ABHOR",
+          "title": "Merriam-Webster: abhor",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abhor",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology",
+            "modern_meaning"
+          ],
+          "locator": "Word History; Did you know?",
+          "accessed": "2026-09-13",
+          "provenance": "已核验条目正文。支持中古英语借自拉丁语，不列法语中介。"
+        },
+        {
+          "reference_id": "ABHOR-OALD",
+          "title": "Oxford Advanced Learner’s Dictionary: abhor",
+          "type": "dictionary",
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abhor",
+          "path": null,
+          "claim_scope": [
+            "phonology",
+            "historical_etymology"
+          ],
+          "locator": "British /əbˈhɔː(r)/; American /əbˈhɔːr/; Word Origin",
+          "accessed": "2026-09-13",
+          "provenance": "已核验参考口音及拉丁来源；不是对所有英语口音的穷尽描述。"
+        },
+        {
+          "reference_id": "ABHOR-FR",
+          "title": "CNRTL / TLFi: abhorrer",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/definition/abhorrer",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology",
+            "phonology"
+          ],
+          "locator": "Étymologie; Prononc. et orth.",
+          "accessed": "2026-09-13",
+          "provenance": "检索所得完整条目文字核验；标为拉丁借词；[abɔʀe] 在本条宽式记作 /abɔʁe/，不把书写 h 读成 /h/。"
+        },
+        {
+          "reference_id": "ABHOR-MW-HORRIBLE",
+          "title": "Merriam-Webster: horrible",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/horrible",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology"
+          ],
+          "locator": "Word History / headword",
+          "accessed": "2026-09-13",
+          "provenance": "已核验具体条目；只用于该词的词史或规范词形。"
+        },
+        {
+          "reference_id": "ABHOR-MW-HORRID",
+          "title": "Merriam-Webster: horrid",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/horrid",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology"
+          ],
+          "locator": "Word History / headword",
+          "accessed": "2026-09-13",
+          "provenance": "已核验具体条目；只用于该词的词史或规范词形。"
+        },
+        {
+          "reference_id": "ABHOR-MW-ABHORRENT",
+          "title": "Merriam-Webster: abhorrent",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abhorrent",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology"
+          ],
+          "locator": "Word History / headword",
+          "accessed": "2026-09-13",
+          "provenance": "已核验具体条目；只用于该词的词史或规范词形。"
+        },
+        {
+          "reference_id": "ABHOR-MW-ABHORRENCE",
+          "title": "Merriam-Webster: abhorrence",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abhorrence",
+          "path": null,
+          "claim_scope": [
+            "modern_meaning"
+          ],
+          "locator": "Word History / headword",
+          "accessed": "2026-09-13",
+          "provenance": "已核验具体条目；只用于该词的词史或规范词形。"
+        },
+        {
+          "reference_id": "ABHOR-MW-HORIZONTAL",
+          "title": "Merriam-Webster: horizontal",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/horizontal",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology"
+          ],
+          "locator": "Word History / headword",
+          "accessed": "2026-09-13",
+          "provenance": "已核验具体条目；只用于该词的词史或规范词形。"
+        },
+        {
+          "reference_id": "ABHOR-MW-HORIZON",
+          "title": "Merriam-Webster: horizon",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/horizon",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology"
+          ],
+          "locator": "Word History / headword",
+          "accessed": "2026-09-13",
+          "provenance": "已核验具体条目；只用于该词的词史或规范词形。"
+        },
+        {
+          "reference_id": "ABHOR-MW-HORSE",
+          "title": "Merriam-Webster: horse",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/horse",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology"
+          ],
+          "locator": "Word History / headword",
+          "accessed": "2026-09-13",
+          "provenance": "已核验具体条目；只用于该词的词史或规范词形。"
+        },
+        {
+          "reference_id": "ABHOR-FR-HORIZONTAL",
+          "title": "CNRTL / TLFi: horizontal",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/definition/horizontale",
+          "path": null,
+          "claim_scope": [
+            "historical_etymology"
+          ],
+          "locator": "Étymologie et Histoire",
+          "accessed": "2026-09-13",
+          "provenance": "独立核验法语形容词；不属于 horrēre 词族。"
+        },
+        {
+          "reference_id": "ABHOR-ZD-HUO",
+          "title": "汉典：火",
+          "type": "dictionary",
+          "url": "https://zdic.net/hans/火",
+          "path": null,
+          "claim_scope": [
+            "modern_meaning",
+            "phonology"
+          ],
+          "locator": "基本解释第1、4义；详细解释名词第6义、动词第3义；音标栏",
+          "accessed": "2026-09-13",
+          "provenance": "大陆数字辞书平台；本次仅使用基本／详细解释及现代音标 xuo˨˩˦，用 [w] 表示介音。非纸本辞书；不使用国语辞典栏及未校勘古籍。"
+        },
+        {
+          "reference_id": "ABHOR-ZD-HUOQI",
+          "title": "汉典：火氣",
+          "type": "dictionary",
+          "url": "https://zdic.net/hans/火氣",
+          "path": null,
+          "claim_scope": [
+            "modern_meaning"
+          ],
+          "locator": "词语解释第2、3义",
+          "accessed": "2026-09-13",
+          "provenance": "大陆数字辞书平台；核验遇事易动怒及脾气义；正文以简体释述。仅用词语解释，排除国语辞典／网络解释；平台繁体显示不改变来源属性。"
+        },
+        {
+          "reference_id": "ABHOR-ZD-FAHUO",
+          "title": "汉典：發火",
+          "type": "dictionary",
+          "url": "https://www.zdic.net/hant/發火",
+          "path": null,
+          "claim_scope": [
+            "modern_meaning"
+          ],
+          "locator": "词语解释第1、3义",
+          "accessed": "2026-09-13",
+          "provenance": "大陆数字辞书平台；核验燃烧及发脾气义；正文以简体释述。仅用词语解释，排除国语辞典／网络解释；平台繁体显示不改变来源属性。"
+        },
+        {
+          "reference_id": "ABHOR-ZD-NUHUO",
+          "title": "汉典：怒火",
+          "type": "dictionary",
+          "url": "https://zdic.net/hant/怒火",
+          "path": null,
+          "claim_scope": [
+            "modern_meaning"
+          ],
+          "locator": "词语解释第1义",
+          "accessed": "2026-09-13",
+          "provenance": "大陆数字辞书平台；核验强烈愤怒义；正文以简体释述。仅用词语解释，排除国语辞典／网络解释；平台繁体显示不改变来源属性。"
+        },
+        {
+          "reference_id": "ABHOR-AUTHOR",
+          "title": "Jinkai Liu：ABHOR 原始笔记及本次规范表述",
+          "type": "project record",
+          "url": null,
+          "path": null,
+          "claim_scope": [
+            "author_observation",
+            "literature"
+          ],
+          "locator": "用户本次任务原句",
+          "accessed": "2026-09-13",
+          "provenance": "作者资料，不是独立语言证据；旧站原始文字另存 source.raw_note。"
+        },
         {
           "reference_id": "REF-LANGUAGESBOOK-ABHOR",
           "title": "languagesbook.com legacy entry: abhor，憎恶。火 huo。憎恶即对某有火",
@@ -11666,29 +12055,34 @@
           "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
         },
         {
-          "reference_id": "REF-MW-ABHOR",
-          "title": "Merriam-Webster Dictionary: abhor",
-          "type": "dictionary",
-          "url": "https://www.merriam-webster.com/dictionary/abhor",
+          "reference_id": "ABHOR-RUBRIC",
+          "title": "Unilanguage Mapping Framework / Mapping Score v0.2",
+          "type": "project record",
+          "url": null,
           "path": null,
-          "provenance": "external lexicographic reference; accessed 2026-09-01"
+          "claim_scope": [
+            "project_rubric"
+          ],
+          "locator": "protocol/protocol.mapping-framework.html#evaluation; words/man.html#mapping-score",
+          "accessed": "2026-09-13",
+          "provenance": "四维权重30/30/20/20；A/B/C/D按关系类型与强度判断，未核得统一数值阈值。"
         }
       ],
       "author": "Jinkai Liu",
-      "version": "Legacy Website Import Batch 001 / Schema v1.0",
+      "version": "ABHOR Legacy Recalibration v1.0 / Schema v1.0",
       "dates": {
         "created": null,
-        "modified": "2026-09-01",
-        "published": null
+        "modified": "2026-09-13",
+        "published": "2026-09-13"
       },
       "editorial_notes": [
         {
-          "en": "Legacy Batch 001 disposition: Candidate; priority 91.8/100 is editorial triage only.",
-          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 91.8/100 仅用于编辑分流。"
+          "en": "Legacy recalibration in place; stable ID and 38-record count. Publication does not promote the Candidate.",
+          "zh-Hans": "原地校准；保留 ID 及38条总数。词条发表不升级 Candidate。"
         },
         {
-          "en": "Horizontal, horse and 火 must not be merged into the Latin horrere family on spelling or sound alone.",
-          "zh-Hans": "不能只凭拼写或声音把 horizontal、horse 与“火”并入拉丁语 horrere 词族。"
+          "en": "A lacks direct correspondence; B lacks convergent mapping evidence; C is not established merely by a proposed test. Conventional within-language paths are supported, but their cross-language connection remains broad and exploratory, hence D.",
+          "zh-Hans": "A 缺少直接对应，B 缺少汇合的映射证据；不能仅凭拟订测试就定 C。各语言内部常规路径有依据，但跨语言连接仍宽泛、探索性，故暂定 D。"
         }
       ],
       "search_terms": [
@@ -11701,9 +12095,16 @@
         "火",
         "huo",
         "loathe",
-        "repugnance"
+        "repugnance",
+        "huǒ",
+        "abhorrent",
+        "horrid",
+        "abhorrer",
+        "火气",
+        "发火",
+        "怒火"
       ],
-      "page": null,
+      "page": "words/abhor.html",
       "legacy": {
         "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
         "source_url": "https://languagesbook.com/glossary/abhor%ef%bc%8c%e6%86%8e%e6%81%b6/",
@@ -11715,7 +12116,7 @@
         "type": "author-published legacy website note",
         "author": "Jinkai Liu",
         "status": "Preserved; claims independently classified above",
-        "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
+        "normalization": "旧站 raw_note 原样保留；normalized_author_observation 使用用户本次规范表述。旧拼写仅在校勘档案出现。",
         "raw_note": "abhor，憎恶。火 huo。憎恶即对某有火。"
       },
       "batch": {
@@ -11723,6 +12124,136 @@
         "ordinal": 14,
         "disposition": "Candidate",
         "priority_score": 91.8
+      },
+      "direct_lexical_semantic_equivalence": false,
+      "cognitive_paths": {
+        "english_latin": {
+          "evidence_id": "COG-ABHOR-EN",
+          "claim": {
+            "en": "Physical bristling/shudder/recoil → horror/aversion → detest: a lexicographically motivated conceptual summary, not a dated linear chain.",
+            "zh-Hans": "身体竖毛／战栗／退缩 → 恐惧／厌恶 → 憎恶：据辞书整理的概念路径，不是逐年代的线性词史。"
+          },
+          "status": "Supported",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-ABHOR"
+          ]
+        },
+        "chinese": {
+          "evidence_id": "COG-ABHOR-ZH",
+          "claim": {
+            "en": "Physical fire/heat → anger; broader intense affect is interpretive. Modern lexical senses do not by themselves establish historical order.",
+            "zh-Hans": "实体火／热 → 愤怒；推广至强烈情绪属于解释。现代义项共存本身不能证明历时先后。"
+          },
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "ABHOR-ZD-HUO",
+            "ABHOR-ZD-HUOQI",
+            "ABHOR-ZD-FAHUO",
+            "ABHOR-ZD-NUHUO"
+          ]
+        },
+        "comparison": {
+          "en": "Two independent paths share a partial embodied/intense-negative-affect structure, with different endpoints: aversion/detest versus anger.",
+          "zh-Hans": "两条独立路径部分共享具身／强烈负面情绪结构；终点分别为厌恶／憎恶与愤怒，并不相同。"
+        },
+        "shared_structure": "partial embodied/intense-negative-affect structure",
+        "endpoints_equal": false,
+        "is_historical_relation": false
+      },
+      "experiment_plan": {
+        "status": "Planned-Not tested",
+        "completed": false,
+        "design": "Separate phonetic and semantic judgments; hide author note and spelling from auditory raters; British non-rhotic and American rhotic strata; randomize matched syllable/frequency controls; horizontal and horse as etymological negative controls only, not matched statistical controls; deduplicate HORR family; preregister outcomes, sample size and analysis before collection.",
+        "falsification": "No held-out advantage over matched random pairs, or disappearance after controlling generic negative valence; no upgrade from software tests.",
+        "results": null
+      },
+      "legacy_corrections": [
+        {
+          "original": "abhorrance",
+          "corrected": "abhorrence"
+        },
+        {
+          "original": "abhorrant",
+          "corrected": "abhorrent"
+        },
+        {
+          "original": "a-在h前面变成ab-",
+          "corrected": "本词按拉丁 ab- + horrēre 分析；不能由该词建立此普遍拼写／音变规则。"
+        },
+        {
+          "original": "hori.zon.tal / zone",
+          "corrected": "horizont- + -al；Greek horizōn / horizein / horos，非 zone 构词。"
+        }
+      ],
+      "future_candidates": [
+        {
+          "candidate": "horse → 马 → 午 → 火",
+          "status": "Future candidate",
+          "is_evidence_for_abhor": false,
+          "reason": "现有 data/entries 无成熟 horse candidate。本任务不扩展；午马／五行配属须另用大陆可靠资料逐项核验，禁止反向证明 hor-=火。"
+        }
+      ],
+      "source_audit_pending": [
+        {
+          "claim": "《现代汉语词典》《新华字典》火／火气／发火／怒火具体条目",
+          "status": "pending",
+          "reason": "未取得可核验具体版本条目，不引用页码或以出版社介绍替代。"
+        },
+        {
+          "claim": "《汉语大字典》《汉语大词典》及大陆整理原典中的火义历时顺序",
+          "status": "pending",
+          "reason": "未取得可靠具体条目；本条不拟构古音、不虚构首见年代。"
+        },
+        {
+          "claim": "独立心理语言实验及语料统计",
+          "status": "pending",
+          "reason": "仅有计划，无受试者结果；软件测试不验证语言假说。"
+        }
+      ],
+      "mapping_assessment": {
+        "rubric": "Mapping Score v0.2 weights (words/man.html#mapping-score); qualitative A/B/C/D (protocol/protocol.mapping-framework.html#evaluation)",
+        "method": "Provisional editorial assessment, unvalidated; no automatic numerical cutoff or historical points.",
+        "dimensions": [
+          {
+            "name": "Phonetic Relation",
+            "weight": 30,
+            "score": 10,
+            "reason": "局部清擦音与圆唇后元音近似，多个特征不匹配；不是整词同音。"
+          },
+          {
+            "name": "Semantic Relation",
+            "weight": 30,
+            "score": 6,
+            "reason": "共享宽泛负面情绪，愤怒与憎恶终点不同。"
+          },
+          {
+            "name": "Structural / Cognitive Relation",
+            "weight": 20,
+            "score": 10,
+            "reason": "两侧具身路径可独立支持，但其相互映射仍属解释。"
+          },
+          {
+            "name": "Contextual Validity",
+            "weight": 20,
+            "score": 3,
+            "reason": "可作记忆／文学桥梁，普通译句不可直接互换；无盲评结果。"
+          }
+        ],
+        "total": 29,
+        "maximum": 100,
+        "level": "D",
+        "confidence": "Low",
+        "rationale": {
+          "en": "A lacks direct correspondence; B lacks convergent mapping evidence; C is not established merely by a proposed test. Conventional within-language paths are supported, but their cross-language connection remains broad and exploratory, hence D.",
+          "zh-Hans": "A 缺少直接对应，B 缺少汇合的映射证据；不能仅凭拟订测试就定 C。各语言内部常规路径有依据，但跨语言连接仍宽泛、探索性，故暂定 D。"
+        },
+        "template_note": "模板将 C 称为语义／认知映射，协议称为待控制检验模式；认知标签本身不自动赋予 C。29/100 不是历史概率，也无已验证误差范围。"
+      },
+      "original_author_observation": {
+        "normalized_author_observation": "abhor，憎恶。火 huǒ。憎恶即对某人有火。",
+        "original_additional_notes": "abhorrance; abhorrant; hori.zon.tal / zone; horse → 马 → 午 → 火; French abhorrer / horrible / horizontal(e); ab-，a-在h前面变成ab-。"
       }
     },
     {
@@ -16623,7 +17154,7 @@
           "HZ-AHD",
           "HZ-ABHOR"
         ],
-        "page": "semantic-mapper.html?q=abhor"
+        "page": "words/abhor.html"
       },
       "surface_segmentation_observation": {
         "label": "Original Author Surface Segmentation Observation",

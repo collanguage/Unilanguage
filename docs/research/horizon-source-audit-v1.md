@@ -37,3 +37,7 @@ Original PNG, unchanged. SHA-256: `2df146394413e5f2379c453420c0ed90525cdd446267e
 ## Related observations
 
 distance→趟 remains Future Candidate; no full entry. 亮/靓、liar、clearly remain raw observations outside Evidence. Literature does not count toward historical or experimental support.
+
+## Concurrent main integration
+
+Integrated ABHOR commit 0bf65e837b78468dbddfac77873418c2041d8154 by normal merge, preserving its record and page. Both entries remain Candidate / D with distinct historical families. Generated dataset and manifests rebuilt from both authoring records; old baseline tests exclude newly added HORIZON only.

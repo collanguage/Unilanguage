@@ -25,6 +25,7 @@ const files = [
   "js/language-book-data.js", "js/semantic-mapper.js", "js/search.js", "js/literary-tabs.js",
   "semantic-mapper.html", "dictionary.html", "search.html", "data-foundation.html", "evidence-and-references.html",
   "words/horizon.html", "images/horizon-winter-literary.png", "docs/research/horizon-source-audit-v1.md", "tests/horizon.test.cjs",
+  "words/abhor.html", "docs/research/abhor-huo-source-audit-v1.md", "tests/abhor-recalibration.test.cjs",
   "words/new.html", "docs/research/new-niu-source-audit-v1.md", "tests/new-niu.test.cjs",
   "english.html", "chinese.html", "french.html",
   "words/abandon.html", "docs/abandon-semantic-network-v1.md", "tests/abandon-semantic-network.test.cjs",
@@ -44,7 +45,7 @@ const records = files.map((file) => {
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const manifest = {
   product: "Unilanguage Language Book + Semantic Mapper",
-  version: "1.2.24", dataset_version: dataset.dataset_version, created_at: "2026-09-13",
+  version: "1.2.25", dataset_version: dataset.dataset_version, created_at: "2026-09-13",
   canonical_dataset: "data/language-book.v1.0.json",
   canonical_schema: "data/language-book-entry.schema.v1.json",
   entry_count: dataset.entries.length,
@@ -54,4 +55,4 @@ const manifest = {
 };
 fs.writeFileSync(path.join(root, "data", "product-manifest.v1.0.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 fs.writeFileSync(path.join(root, "data", "product-checksums.v1.0.sha256"), `${records.map((record) => `${record.sha256}  ${record.path}`).join("\n")}\n`);
-console.log(`Product manifest v1.2.24 written · ${records.length} files`);
+console.log(`Product manifest v1.2.25 written · ${records.length} files`);
