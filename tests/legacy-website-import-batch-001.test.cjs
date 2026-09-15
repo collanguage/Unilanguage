@@ -13,7 +13,7 @@ test("legacy batch reconciles all 20 source pages without manufacturing records"
   assert.equal(manifest.summary.existing_records_merged, 4);
   assert.equal(manifest.summary.research_queue, 1);
   assert.equal(manifest.source_reconciliation.total, 20);
-  assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse", "abbreviation"].includes(entry.slug)).length, 37);
+  assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse", "abbreviation","abdominal"].includes(entry.slug)).length, 37);
 });
 
 test("every new legacy record preserves raw authorship and four-track evaluation", () => {

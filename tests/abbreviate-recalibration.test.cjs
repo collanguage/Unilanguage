@@ -14,10 +14,10 @@ const before = JSON.parse(cp.execFileSync('git',['show',baseline+':data/language
 
 test('ABBREVIATE preserves its identity, source, literature and every unrelated record',()=>{
  assert.equal(e.id,'LB-en-abbreviate-035');
- assert.equal(data.entries.length,before.entries.length+1);
+ assert.equal(data.entries.length,before.entries.length+2);
  assert.equal(data.entries.filter(x=>x.slug==='abbreviate').length,1);
  assert.deepEqual(data.entries.find(x=>x.id===e.id),e);
- assert.deepEqual(data.entries.filter(x=>x.id!==e.id&&x.slug!=='abbreviation'),before.entries.filter(x=>x.id!==e.id&&x.slug!=='abbreviation'));
+ assert.deepEqual(data.entries.filter(x=>x.id!==e.id&&!['abbreviation','abdominal','abdomen'].includes(x.slug)),before.entries.filter(x=>x.id!==e.id&&!['abbreviation','abdominal','abdomen'].includes(x.slug)));
  const old=before.entries.find(x=>x.id===e.id);
  assert.deepEqual(e.source,old.source);
  assert.deepEqual(e.literary_layer,old.literary_layer);

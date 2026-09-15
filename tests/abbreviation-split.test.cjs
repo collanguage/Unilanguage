@@ -9,7 +9,7 @@ const api=require('../js/language-book-data.js');
 const v=require('../data/entries/abbreviate.v1.json');
 const n=require('../data/entries/abbreviation.v1.json');
 test('Verb and noun have distinct IDs, source words, pages and exact lookup routes',()=>{
- assert.equal(data.entries.length,41);
+ assert.equal(data.entries.length,42);
  assert.equal(n.id,'LB-en-abbreviation-041');assert.notEqual(v.id,n.id);
  for(const q of ['abbreviation','abbreviations','abréviation','缩写形式','缩写词'])assert.equal(api.lookup(data,q).entry.id,n.id,q);
  for(const q of ['abbreviate','abréger'])assert.equal(api.lookup(data,q).entry.id,v.id,q);
@@ -39,7 +39,7 @@ test('English and French browse buttons belong to the matching independent entry
 test('The split preserves every unrelated record and frozen Mapper UI',()=>{
  const base='63185d7eb2aa9bf5ea3d6e9d6d419efa6750d707';
  const before=JSON.parse(cp.execFileSync('git',['show',base+':data/language-book.v1.0.json'],{cwd:root,maxBuffer:20*1024*1024}));
- const others=x=>!['abbreviate','abbreviation'].includes(x.slug);
+ const others=x=>!['abbreviate','abbreviation','abdomen','abdominal'].includes(x.slug);
  assert.deepEqual(data.entries.filter(others),before.entries.filter(others));
  for(const f of ['js/semantic-mapper.js','semantic-mapper.html'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',base+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'));
 });

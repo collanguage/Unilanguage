@@ -12246,14 +12246,8 @@
           "code": "en",
           "name": "English",
           "word": "abdomen",
-          "pronunciation": "/ˈæb.də.mən/"
-        },
-        {
-          "role": "etymological-derivative",
-          "code": "en",
-          "name": "English",
-          "word": "abdominal",
-          "pronunciation": "/æbˈdɒm.ɪ.nəl/ (UK), /æbˈdɑː.mə.nəl/ (US)"
+          "pronunciation": "/ˈæb.də.mən/",
+          "part_of_speech": "noun · 名词"
         },
         {
           "role": "historically-related-form",
@@ -12261,13 +12255,6 @@
           "name": "French",
           "word": "abdomen",
           "pronunciation": "/ab.dɔ.mɛn/"
-        },
-        {
-          "role": "historically-related-derivative",
-          "code": "fr",
-          "name": "French",
-          "word": "abdominal / abdominale",
-          "pronunciation": "/ab.dɔ.mi.nal/"
         },
         {
           "role": "standard-translation",
@@ -12933,7 +12920,7 @@
       "version": "Abdomen editorial page v1.0 / Schema v1.0",
       "dates": {
         "created": "2026-08-30",
-        "modified": "2026-09-04",
+        "modified": "2026-09-15",
         "published": null
       },
       "editorial_notes": [
@@ -12944,13 +12931,15 @@
         {
           "en": "The apparent dom spelling is not used to collapse abdomen, dome and the domus/dominus family into one root.",
           "zh-Hans": "不因表面共有 dom 拼写，就把 abdomen、dome 与 domus／dominus 词族合并为一个词根。"
+        },
+        {
+          "en": "Abdominal now has its own adjective entry; noun literature and research remain here.",
+          "zh-Hans": "abdominal 现有独立形容词词条；名词文学与研究保留于本条。"
         }
       ],
       "search_terms": [
         "abdomen",
         "abdomens",
-        "abdominal",
-        "abdominale",
         "abdɔmɛn",
         "belly",
         "ventre",
@@ -13000,7 +12989,439 @@
         "source_url": "https://languagesbook.com/glossary/abdomen/",
         "action": "merged-source-deduplicated",
         "raw_note": "abdomen，腹部。肚 du。domen 与肚发音同辅音。"
-      }
+      },
+      "word_family_links": [
+        {
+          "word": "abdominal",
+          "entry_id": "LB-en-abdominal-042",
+          "page": "words/abdominal.html",
+          "part_of_speech": "adjective"
+        }
+      ],
+      "etymological_family_id": "LATIN-ABDOMEN"
+    },
+    {
+      "id": "LB-en-abdominal-042",
+      "slug": "abdominal",
+      "title": {
+        "en": "abdominal ↔ 肚 dù · 腹部的",
+        "zh-Hans": "abdominal · 形容词 · 腹部的"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abdominal",
+          "pronunciation": "/æbˈdɒm.ɪ.nəl/ (UK), /æbˈdɑː.mə.nəl/ (US)",
+          "part_of_speech": "adjective · 形容词"
+        },
+        {
+          "role": "historically-related-derivative",
+          "code": "fr",
+          "name": "French",
+          "word": "abdominal / abdominale",
+          "pronunciation": "/ab.dɔ.mi.nal/",
+          "part_of_speech": "adjectif"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "腹部的",
+          "pronunciation": "fùbù de"
+        },
+        {
+          "role": "phonetic-semantic-candidate",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "肚",
+          "pronunciation": "dù /tu˥˩/"
+        }
+      ],
+      "featured_mapping": {
+        "source": "abdominal",
+        "target": "肚",
+        "reading": "dù",
+        "display_label": "Featured phonetic-semantic candidate · 特色音义候选",
+        "status": "Candidate · Low confidence",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "肚 dù is a body-part candidate carried through the abdomen family, not the standard adjective translation. Abdominal means relating to the abdomen: 腹部的. Shared family evidence is counted once; historical relation with Chinese is not claimed.",
+          "zh-Hans": "“肚”dù 是经 abdomen 词族延伸的身体部位候选，不是形容词的标准译法。abdominal 表示“腹部的”。同词族证据去重计一次；不主张与汉语有历史关系。"
+        },
+        "source_refs": [
+          "REF-CAMBRIDGE-ABDOMINAL",
+          "REF-DICTCOM-ABDOMINAL",
+          "REF-ZDIC-DU"
+        ]
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-abdominal-primary",
+        "source": {
+          "language": "English",
+          "word": "abdominal",
+          "pronunciation": "/æbˈdɒm.ɪ.nəl/ (UK), /æbˈdɑː.mə.nəl/ (US)"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "腹部的",
+          "pronunciation": "fùbù de"
+        },
+        "gloss": {
+          "en": "Relating to the abdomen; adjective.",
+          "zh-Hans": "腹部的；与腹部有关的（形容词）。"
+        },
+        "meaning": {
+          "en": "Abdominal is an adjective modifying a noun, as in abdominal muscles. Abdomen is the separate body-part noun. 肚 is only a family-based candidate, not an adjective equivalent.",
+          "zh-Hans": "abdominal 是修饰名词的形容词，如 abdominal muscles（腹肌）；abdomen 才是身体部位名词。“肚”仅为词族候选，不是形容词对应。"
+        },
+        "mapping_type": "Standard adjective translation with separate family-based candidate",
+        "rationale": {
+          "en": "肚 dù is a body-part candidate carried through the abdomen family, not the standard adjective translation. Abdominal means relating to the abdomen: 腹部的. Shared family evidence is counted once; historical relation with Chinese is not claimed.",
+          "zh-Hans": "“肚”dù 是经 abdomen 词族延伸的身体部位候选，不是形容词的标准译法。abdominal 表示“腹部的”。同词族证据去重计一次；不主张与汉语有历史关系。"
+        }
+      },
+      "entry_status": "Reviewed",
+      "mapping_status": "Candidate",
+      "mapping_level": "Unrated",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "English abdominal uses the Latin stem abdōmin- of abdōmen with -al. French abdominal is derived from abdomen with -al; abdominale is the feminine form. The deeper origin of abdomen remains uncertain. This does not establish a relationship to Chinese 肚.",
+            "zh-Hans": "英语 abdominal 由拉丁语 abdōmen 的词干 abdōmin- 加 -al 构成。法语 abdominal 由 abdomen 加 -al 派生，abdominale 为阴性形式。abdomen 的更深来源仍不确定；上述词史不能证明与汉语“肚”有关。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABDOMINAL-001",
+              "claim": {
+                "en": "English abdominal uses the Latin stem abdōmin- of abdōmen with -al. French abdominal is derived from abdomen with -al; abdominale is the feminine form. The deeper origin of abdomen remains uncertain. This does not establish a relationship to Chinese 肚.",
+                "zh-Hans": "英语 abdominal 由拉丁语 abdōmen 的词干 abdōmin- 加 -al 构成。法语 abdominal 由 abdomen 加 -al 派生，abdominale 为阴性形式。abdomen 的更深来源仍不确定；上述词史不能证明与汉语“肚”有关。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-DICTCOM-ABDOMINAL",
+                "REF-CNRTL-ABDOMINAL",
+                "REF-MW-ABDOMEN"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-DICTCOM-ABDOMINAL",
+            "REF-CNRTL-ABDOMINAL",
+            "REF-MW-ABDOMEN"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Abdominal has four syllables and stress on /dɒm/ (UK) or /dɑː/ (US). 肚 dù is one syllable [tu˥˩]. English /d/ and Mandarin [t] share a coronal stop articulation but differ in voicing; /ɒ/ or /ɑː/ is not /u/, and /b m n l/, extra syllables and Mandarin tone have no full counterparts. Similarity is partial, not homophony.",
+            "zh-Hans": "abdominal 为四音节，重音在 /dɒm/（英）或 /dɑː/（美）；肚 dù 为单音节 [tu˥˩]。英语 /d/ 与普通话 [t] 同为冠音塞音，但清浊不同；/ɒ/ 或 /ɑː/ 不等于 /u/；/b m n l/、额外音节与普通话声调均无完整对应。只属局部相似，不是同音。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABDOMINAL-DU-001",
+              "claim": {
+                "en": "Abdominal has four syllables and stress on /dɒm/ (UK) or /dɑː/ (US). 肚 dù is one syllable [tu˥˩]. English /d/ and Mandarin [t] share a coronal stop articulation but differ in voicing; /ɒ/ or /ɑː/ is not /u/, and /b m n l/, extra syllables and Mandarin tone have no full counterparts. Similarity is partial, not homophony.",
+                "zh-Hans": "abdominal 为四音节，重音在 /dɒm/（英）或 /dɑː/（美）；肚 dù 为单音节 [tu˥˩]。英语 /d/ 与普通话 [t] 同为冠音塞音，但清浊不同；/ɒ/ 或 /ɑː/ 不等于 /u/；/b m n l/、额外音节与普通话声调均无完整对应。只属局部相似，不是同音。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-CAMBRIDGE-ABDOMINAL",
+                "REF-ZDIC-DU",
+                "REF-UT-PINYIN-D"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-CAMBRIDGE-ABDOMINAL",
+            "REF-ZDIC-DU",
+            "REF-UT-PINYIN-D"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Low",
+          "summary": {
+            "en": "BODY PART → RELATING TO BODY PART distinguishes abdomen (noun) from abdominal (adjective). The body-container imagery belongs to the linked abdomen literary record and supplies no new independent evidence.",
+            "zh-Hans": "BODY PART → RELATING TO BODY PART 区分 abdomen（部位名词）与 abdominal（关系形容词）。身体容器意象属于关联的 abdomen 文学条目，不构成新的独立证据。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABDOMINAL-001",
+              "claim": {
+                "en": "BODY PART → RELATING TO BODY PART distinguishes abdomen (noun) from abdominal (adjective). The body-container imagery belongs to the linked abdomen literary record and supplies no new independent evidence.",
+                "zh-Hans": "BODY PART → RELATING TO BODY PART 区分 abdomen（部位名词）与 abdominal（关系形容词）。身体容器意象属于关联的 abdomen 文学条目，不构成新的独立证据。"
+              },
+              "status": "Interpretive",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-CAMBRIDGE-ABDOMINAL",
+                "REF-JL-ABDOMEN-RAW"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-CAMBRIDGE-ABDOMINAL",
+            "REF-JL-ABDOMEN-RAW"
+          ]
+        },
+        "Speculative": {
+          "status": "Not claimed",
+          "confidence": "Low",
+          "summary": {
+            "en": "肚 dù is a body-part candidate carried through the abdomen family, not the standard adjective translation. Abdominal means relating to the abdomen: 腹部的. Shared family evidence is counted once; historical relation with Chinese is not claimed.",
+            "zh-Hans": "“肚”dù 是经 abdomen 词族延伸的身体部位候选，不是形容词的标准译法。abdominal 表示“腹部的”。同词族证据去重计一次；不主张与汉语有历史关系。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABDOMINAL-001",
+              "claim": {
+                "en": "肚 dù is a body-part candidate carried through the abdomen family, not the standard adjective translation. Abdominal means relating to the abdomen: 腹部的. Shared family evidence is counted once; historical relation with Chinese is not claimed.",
+                "zh-Hans": "“肚”dù 是经 abdomen 词族延伸的身体部位候选，不是形容词的标准译法。abdominal 表示“腹部的”。同词族证据去重计一次；不主张与汉语有历史关系。"
+              },
+              "status": "Not claimed",
+              "confidence": "Low",
+              "source_refs": []
+            }
+          ],
+          "source_refs": []
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABDOMINAL-DU-001",
+          "claim": {
+            "en": "Abdominal has four syllables and stress on /dɒm/ (UK) or /dɑː/ (US). 肚 dù is one syllable [tu˥˩]. English /d/ and Mandarin [t] share a coronal stop articulation but differ in voicing; /ɒ/ or /ɑː/ is not /u/, and /b m n l/, extra syllables and Mandarin tone have no full counterparts. Similarity is partial, not homophony.",
+            "zh-Hans": "abdominal 为四音节，重音在 /dɒm/（英）或 /dɑː/（美）；肚 dù 为单音节 [tu˥˩]。英语 /d/ 与普通话 [t] 同为冠音塞音，但清浊不同；/ɒ/ 或 /ɑː/ 不等于 /u/；/b m n l/、额外音节与普通话声调均无完整对应。只属局部相似，不是同音。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "肚 dù is a body-part candidate carried through the abdomen family, not the standard adjective translation. Abdominal means relating to the abdomen: 腹部的. Shared family evidence is counted once; historical relation with Chinese is not claimed.",
+            "zh-Hans": "“肚”dù 是经 abdomen 词族延伸的身体部位候选，不是形容词的标准译法。abdominal 表示“腹部的”。同词族证据去重计一次；不主张与汉语有历史关系。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "BODY",
+          "ABDOMEN",
+          "RELATING TO"
+        ],
+        "relation": "BODY PART → RELATING TO BODY PART",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abdomen",
+          "language": "English",
+          "relationship_type": "Etymological base",
+          "family": "Latin abdōmen / stem abdōmin-",
+          "relation_to_entry": {
+            "en": "English abdominal uses the Latin stem abdōmin- of abdōmen with -al. French abdominal is derived from abdomen with -al; abdominale is the feminine form. The deeper origin of abdomen remains uncertain. This does not establish a relationship to Chinese 肚.",
+            "zh-Hans": "英语 abdominal 由拉丁语 abdōmen 的词干 abdōmin- 加 -al 构成。法语 abdominal 由 abdomen 加 -al 派生，abdominale 为阴性形式。abdomen 的更深来源仍不确定；上述词史不能证明与汉语“肚”有关。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-DICTCOM-ABDOMINAL",
+            "REF-CNRTL-ABDOMINAL"
+          ]
+        }
+      ],
+      "semantic_associations": [],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-ABDOMINAL-DU-001",
+          "type": "Family-based phonetic-semantic candidate",
+          "claim": {
+            "en": "肚 dù is a body-part candidate carried through the abdomen family, not the standard adjective translation. Abdominal means relating to the abdomen: 腹部的. Shared family evidence is counted once; historical relation with Chinese is not claimed.",
+            "zh-Hans": "“肚”dù 是经 abdomen 词族延伸的身体部位候选，不是形容词的标准译法。abdominal 表示“腹部的”。同词族证据去重计一次；不主张与汉语有历史关系。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "abdominal /æbˈdɒm.ɪ.nəl/",
+            "肚 dù /tu˥˩/",
+            "BODY/ABDOMEN family"
+          ],
+          "counterexamples": [
+            "Adjective versus body-part noun",
+            "Different vowels, syllable counts and prosody",
+            "Unmatched /b m n l/",
+            "No historical correspondence"
+          ],
+          "testability": {
+            "en": "Rate grammatical fit and sound similarity separately; deduplicate abdomen and abdominal as one family. No experiment has been run.",
+            "zh-Hans": "分别盲评语法适配与声音相似；abdomen 与 abdominal 按同词族去重。尚未进行实验。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-CAMBRIDGE-ABDOMINAL",
+            "REF-ZDIC-DU"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Related literature in abdomen entry",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "Related literature: Is the belly our domain?",
+          "zh-Hans": "关联文学：肚子是我们的领地吗？"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The domain question, dudou, childhood, moon and sun are literary images. They remain searchable and attributable to Jinkai Liu but are not lexical, historical or phonetic evidence.",
+          "zh-Hans": "领地之问、肚兜、孩童、月亮与太阳均属文学意象。它们可检索并归于 Jinkai Liu，但不构成词义、历史或语音证据。"
+        },
+        "summary": {
+          "en": "See abdomen for Jinkai Liu’s preserved literary question about the belly and domain.",
+          "zh-Hans": "Jinkai Liu 关于肚子与领地的原始文学内容见 abdomen 词条。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-JL-ABDOMEN-RAW",
+          "title": "Jinkai Liu: abdomen source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; raw English draft preserved below; claims independently classified"
+        },
+        {
+          "reference_id": "REF-MW-ABDOMEN",
+          "title": "Merriam-Webster Dictionary: abdomen",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abdomen",
+          "path": null,
+          "provenance": "external dictionary; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-CNRTL-ABDOMINAL",
+          "title": "CNRTL/TLFi: abdominal",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/definition/abdominal",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-UT-PINYIN-D",
+          "title": "University of Texas at Austin: Pitch Perfect Pinyin, d/t",
+          "type": "university phonetics resource",
+          "url": "https://laits.utexas.edu/ppp/learning.php?unit=2",
+          "path": null,
+          "provenance": "university teaching resource; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-ZDIC-DU",
+          "title": "汉典：肚",
+          "type": "mainland digital lexicographic platform",
+          "url": "https://www.zdic.net/hans/肚",
+          "path": null,
+          "provenance": "汉典现行条目；用于肚的现代腹部义，以及平台转录的《广韵》《集韵》材料；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+        },
+        {
+          "reference_id": "REF-CAMBRIDGE-ABDOMINAL",
+          "title": "Cambridge Dictionary: abdominal",
+          "type": "dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english/abdominal",
+          "path": null,
+          "provenance": "Specific entry checked 2026-09-15: adjective meaning and UK/US IPA; bilingual Chinese gloss visible in entry search result."
+        },
+        {
+          "reference_id": "REF-DICTCOM-ABDOMINAL",
+          "title": "Dictionary.com Unabridged: abdominal",
+          "type": "dictionary",
+          "url": "https://www.dictionary.com/browse/abdominal",
+          "path": null,
+          "provenance": "Specific entry checked 2026-09-15: Latin stem plus -al, adjective and secondary plural noun usage."
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "Abdominal independent adjective v1.0 / Schema v1.0",
+      "dates": {
+        "created": "2026-09-15",
+        "modified": "2026-09-15",
+        "published": null
+      },
+      "editorial_notes": [
+        {
+          "en": "肚 dù is a body-part candidate carried through the abdomen family, not the standard adjective translation. Abdominal means relating to the abdomen: 腹部的. Shared family evidence is counted once; historical relation with Chinese is not claimed.",
+          "zh-Hans": "“肚”dù 是经 abdomen 词族延伸的身体部位候选，不是形容词的标准译法。abdominal 表示“腹部的”。同词族证据去重计一次；不主张与汉语有历史关系。"
+        },
+        {
+          "en": "Split at the author’s request on 2026-09-15. Candidate / Low / Unrated is not upgraded through noun evidence. Common plural noun abdominals (abdominal muscles) is a secondary usage, not the main adjective meaning.",
+          "zh-Hans": "2026-09-15 按作者要求拆分。候选维持 Low／Unrated，不因名词证据自动升级。常见复数名词 abdominals（腹肌）另作次要用法，不混入主形容词义。"
+        }
+      ],
+      "search_terms": [
+        "abdominal",
+        "abdominale",
+        "abdominaux",
+        "abdominales",
+        "腹部的"
+      ],
+      "page": "words/abdominal.html",
+      "legacy": null,
+      "source": {
+        "type": "author-provided raw research note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Pronunciations and parts of speech normalized; standard Chinese translations distinguished from the experimental 肚 mapping; raw English retained verbatim. Independent adjective entry split from LB-en-abdomen-012 on 2026-09-15; the shared raw note is provenance, not new evidence.",
+        "raw_note": "英语：abdomen ['æbdəmən] n. 腹 [<拉丁语]；ab.dom.en；abdominal [æb'dɔminəl] a. 腹；ab.dom.inal；domain n. 领地；dome n. 圆顶，肚子就是圆形的；domestic a. 领域内的；dominant a. 主导的；dominate v. 支配。法语：ab.dom.en [abdomen] n. 腹 [<拉丁语]；ab.domin.al,e [abdominal] n. 腹 [<拉丁语]；abdominal (masculine)，abdominale (feminine)。汉语：肚【du】n. 肚子。备注：以上这些词汇大概都是由 dome 圆顶的根词演化而来的。也可以与肚 du 子的意思对应得上。主导等等词汇我们一般用手的词汇构成，例如手下，翻手为云覆手为雨。也许英语法语词汇用与肚子有关的词汇表达统治主导的意思。中文原文：肚子是我们的领地吗？当我们都是孩提时代，那在腹部上面的肚兜是啥模样？似乎都忘记想了。孩提时代的脸庞是水灵灵的。那女孩子们，大自然在给你们柔媚如月般的皎洁的时候。不忘记让你随着那月行走。那男孩子们，大自然在给你们阳光的面庞的时候，也没有忘记给你们随那太阳起落。用户英文原稿：Is the belly our domain? When we were children, what did the bellyband look like? I seem to have forgotten it. The face of a child is watery. Girls, when nature gave you the softness of the moon, it did not forget to let you walk with the moon. Boys, when nature gave you the sunny face, it also did not forget to let you rise and fall with the sun."
+      },
+      "legacy_import": null,
+      "standard_translation": {
+        "target": "腹部的",
+        "terms": [
+          "腹部的"
+        ],
+        "part_of_speech": "adjective",
+        "source_refs": [
+          "REF-CAMBRIDGE-ABDOMINAL"
+        ]
+      },
+      "word_family_links": [
+        {
+          "word": "abdomen",
+          "entry_id": "LB-en-abdomen-012",
+          "page": "words/abdomen.html",
+          "part_of_speech": "noun"
+        }
+      ],
+      "etymological_family_id": "LATIN-ABDOMEN",
+      "split_from_entry_id": "LB-en-abdomen-012",
+      "source_audit_pending": [
+        {
+          "title": "现代汉语词典",
+          "status": "pending",
+          "claims": [
+            "肚 modern_meaning",
+            "肚 phonology"
+          ],
+          "reason": "Specific print edition and entry not directly obtained; the existing Mainland digital platform evidence is retained without invented page numbers."
+        },
+        {
+          "title": "新华字典",
+          "status": "pending",
+          "claims": [
+            "肚 modern_meaning",
+            "肚 phonology"
+          ],
+          "reason": "Specific print edition and entry not directly obtained; the existing Mainland digital platform evidence is retained without invented page numbers."
+        }
+      ],
+      "translation_status": "Supported"
     },
     {
       "id": "LB-en-aberrant-011",

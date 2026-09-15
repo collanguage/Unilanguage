@@ -76,7 +76,7 @@ test("language browse follows A–Z for English/French and stroke collation for 
 });
 
 test("required mapper queries preserve unified record and independent status axes", () => {
-  const expected = { abdomen: "abdomen", abdominal: "abdomen", 肚子: "abdomen", abbey: "abbey", 修道院: "abbey", aberrant: "aberrant", 讹: "aberrant", at: "at", 在: "at", presence: "at" };
+  const expected = { abdomen: "abdomen", abdominal: "abdominal", 肚子: "abdomen", abbey: "abbey", 修道院: "abbey", aberrant: "aberrant", 讹: "aberrant", at: "at", 在: "at", presence: "at" };
   for (const [query, slug] of Object.entries(expected)) {
     const entry = dataApi.lookup(dataset, query).entry;
     assert.equal(entry.slug, slug, `lookup failed for ${query}`);
@@ -107,7 +107,7 @@ test("Sky and Light retain calibration boundaries", () => {
 
 test("Universe is upgraded in place as the first root-level semantic-operation record", () => {
   assert.equal(dataset.dataset_version, "1.2.23");
-  assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse", "abbreviation"].includes(entry.slug)).length, 37);
+  assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse", "abbreviation","abdominal"].includes(entry.slug)).length, 37);
   for (const query of ["universe", "universus", "uni", "vers", "vert", "turn", "宇宙", "宇", "宙", "转", "斡", "涡", "窝", "蜗", "周", "合", "全"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "universe", `Universe lookup failed for ${query}`);
   }
@@ -280,7 +280,7 @@ test("BASH correction keeps query identity but separates standard meaning from t
     assert.equal(entry.page, "words/abash.html");
   }
   assert.equal(JSON.stringify(canonical), before, "query views must not mutate canonical evidence");
-  assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse", "abbreviation"].includes(entry.slug)).length, 37);
+  assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse", "abbreviation","abdominal"].includes(entry.slug)).length, 37);
   assert.equal(dataset.entries.filter(e => e.primary_mapping.source.word === "bash").length, 1);
   assert.equal(dataset.entries.filter(e => e.id === canonical.id).length, 1);
   assert.equal(dataApi.queryView(canonical, "unrecorded").featured_mapping.target, "拍");
@@ -358,7 +358,7 @@ test("Dataset Expansion v1 aberrant sample keeps morphology, word class and err 
 });
 
 test("abdomen keeps translation, sound candidate, word families and literary association separate", () => {
-  for (const query of ["abdomen", "肚", "肚子", "腹", "腹部", "belly", "ventre", "abdominal", "dome", "domain", "domestic", "dominant", "dominate"]) {
+  for (const query of ["abdomen", "肚", "肚子", "腹", "腹部", "belly", "ventre", "dome", "domain", "domestic", "dominant", "dominate"]) {
     assert.equal(dataApi.lookup(dataset, query).entry.slug, "abdomen", `lookup failed for ${query}`);
   }
   const abdomen = dataApi.lookup(dataset, "abdomen").entry;

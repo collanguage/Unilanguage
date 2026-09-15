@@ -11,14 +11,8 @@
       "code": "en",
       "name": "English",
       "word": "abdomen",
-      "pronunciation": "/ˈæb.də.mən/"
-    },
-    {
-      "role": "etymological-derivative",
-      "code": "en",
-      "name": "English",
-      "word": "abdominal",
-      "pronunciation": "/æbˈdɒm.ɪ.nəl/ (UK), /æbˈdɑː.mə.nəl/ (US)"
+      "pronunciation": "/ˈæb.də.mən/",
+      "part_of_speech": "noun · 名词"
     },
     {
       "role": "historically-related-form",
@@ -26,13 +20,6 @@
       "name": "French",
       "word": "abdomen",
       "pronunciation": "/ab.dɔ.mɛn/"
-    },
-    {
-      "role": "historically-related-derivative",
-      "code": "fr",
-      "name": "French",
-      "word": "abdominal / abdominale",
-      "pronunciation": "/ab.dɔ.mi.nal/"
     },
     {
       "role": "standard-translation",
@@ -698,7 +685,7 @@
   "version": "Abdomen editorial page v1.0 / Schema v1.0",
   "dates": {
     "created": "2026-08-30",
-    "modified": "2026-09-04",
+    "modified": "2026-09-15",
     "published": null
   },
   "editorial_notes": [
@@ -709,13 +696,15 @@
     {
       "en": "The apparent dom spelling is not used to collapse abdomen, dome and the domus/dominus family into one root.",
       "zh-Hans": "不因表面共有 dom 拼写，就把 abdomen、dome 与 domus／dominus 词族合并为一个词根。"
+    },
+    {
+      "en": "Abdominal now has its own adjective entry; noun literature and research remain here.",
+      "zh-Hans": "abdominal 现有独立形容词词条；名词文学与研究保留于本条。"
     }
   ],
   "search_terms": [
     "abdomen",
     "abdomens",
-    "abdominal",
-    "abdominale",
     "abdɔmɛn",
     "belly",
     "ventre",
@@ -765,5 +754,14 @@
     "source_url": "https://languagesbook.com/glossary/abdomen/",
     "action": "merged-source-deduplicated",
     "raw_note": "abdomen，腹部。肚 du。domen 与肚发音同辅音。"
-  }
+  },
+  "word_family_links": [
+    {
+      "word": "abdominal",
+      "entry_id": "LB-en-abdominal-042",
+      "page": "words/abdominal.html",
+      "part_of_speech": "adjective"
+    }
+  ],
+  "etymological_family_id": "LATIN-ABDOMEN"
 }
