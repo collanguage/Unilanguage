@@ -1,12 +1,12 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.30",
+  "version": "1.2.31",
   "dataset_version": "1.2.23",
-  "created_at": "2026-09-14",
+  "created_at": "2026-09-15",
   "canonical_dataset": "data/language-book.v1.0.json",
   "canonical_schema": "data/language-book-entry.schema.v1.json",
   "entry_count": 40,
-  "published_entry_count": 14,
+  "published_entry_count": 15,
   "candidate_mapping_count": 22,
   "files": [
     {
@@ -26,8 +26,8 @@
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 1053329,
-      "sha256": "32cbf86a0f1263d951ae5decb97b8c036bc5fc214a5bede9d994c023fd89730a"
+      "bytes": 1089036,
+      "sha256": "b425fd5d008cac84b390bc836718dde7f71cabdf5388d65b878aa42727bffbf3"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -56,8 +56,8 @@
     },
     {
       "path": "data/entries/abbreviate.v1.json",
-      "bytes": 14329,
-      "sha256": "d56361b6059ba70259519e70646bee64cf2cdd8055d5d0ae40e5ebaf1dcaabda"
+      "bytes": 47560,
+      "sha256": "46b1e88d62b054b4c94cfc78272f10541799f080790ec0e3dffce585454fb58a"
     },
     {
       "path": "data/entries/abdicate.v1.json",
@@ -281,8 +281,8 @@
     },
     {
       "path": "js/search.js",
-      "bytes": 6255,
-      "sha256": "7c8db2390f9cf41a918ab3bba1fa07c740252a8b01aaba5bb1839f570ee5277c"
+      "bytes": 6343,
+      "sha256": "45a7bcfc75ac54d391cb9488df2871d4fa22c33e3949fd1c83bec4103302c4d4"
     },
     {
       "path": "js/literary-tabs.js",
@@ -297,12 +297,12 @@
     {
       "path": "dictionary.html",
       "bytes": 3802,
-      "sha256": "27c796b59aa7cb1a8bb7940a20af6f5769356ed4c6608004a02e60662815d779"
+      "sha256": "63c8abd5daa933462581e34c2a50ec566d048abece515d2d0d3ebaa392a92057"
     },
     {
       "path": "search.html",
       "bytes": 3929,
-      "sha256": "e206075aa832abcc3a9a490c07e79af4e9d63253a45c88928da09ec98cbf180b"
+      "sha256": "03bd1bf6e53f74d7786a142ed344501023844d73513baa5fce33ae85d705a666"
     },
     {
       "path": "data-foundation.html",
@@ -313,6 +313,21 @@
       "path": "evidence-and-references.html",
       "bytes": 8146,
       "sha256": "ff00433d502ef9475eed210b957536590c5e9a72b4dfc5eae041f2b8396b0ea4"
+    },
+    {
+      "path": "words/abbreviate.html",
+      "bytes": 16472,
+      "sha256": "c59cbd80610f12c4f488cd9ff63f72ed15b27074263b768196354fa86ae68ab8"
+    },
+    {
+      "path": "docs/research/abbreviate-source-audit-v1.md",
+      "bytes": 7207,
+      "sha256": "6f4a16a920b993b958c79f78aaae5b9224a7b5cbd8949df8b61e9c6f2a8aea0f"
+    },
+    {
+      "path": "tests/abbreviate-recalibration.test.cjs",
+      "bytes": 6815,
+      "sha256": "d0a5779b8abeae07085b566fd8c946ab5ab663e58b52ec3622173923524b1ead"
     },
     {
       "path": "words/abdicate.html",
@@ -326,8 +341,8 @@
     },
     {
       "path": "tests/abdicate-recalibration.test.cjs",
-      "bytes": 7146,
-      "sha256": "f4104912257f2ab173eedcc3a2284b88c627bb199235711f0e26841bba9b05c0"
+      "bytes": 7190,
+      "sha256": "56d82d4aad6eefb40387eb4a949a9e09e35dd88dca81fd66b5fc633495ce7818"
     },
     {
       "path": "words/horse.html",
@@ -341,8 +356,8 @@
     },
     {
       "path": "tests/horse.test.cjs",
-      "bytes": 5600,
-      "sha256": "d3d3e2a0c228ec54808960ae2eb2b228ed5f5429c7b72b5d500a256ba9d0051f"
+      "bytes": 5626,
+      "sha256": "326c5d4b64cf40a7fb1d352e44bf3d64ee30cf168be181ad706cc5c528439d4f"
     },
     {
       "path": "words/horizon.html",
@@ -376,8 +391,8 @@
     },
     {
       "path": "tests/abhor-recalibration.test.cjs",
-      "bytes": 12585,
-      "sha256": "536f41176a4e984a7997cd201c90d44e1dcd03c6471d0c5a64144eb099ac0d0a"
+      "bytes": 12637,
+      "sha256": "a730fd5b1dffa47471e08c28cfca4226029635777b48be747ea59be34336e40a"
     },
     {
       "path": "words/new.html",
@@ -506,8 +521,8 @@
     },
     {
       "path": "sitemap.xml",
-      "bytes": 4335,
-      "sha256": "cae4a9ab4c3b2225c2c1bde8e48640cd029390bc2b4d86f05ede7228e0fad92a"
+      "bytes": 4429,
+      "sha256": "3f6a036f4faf1af9e9075868c8864386be8acc3d5f18e4303ccbcf5ef334eaae"
     }
   ]
 }

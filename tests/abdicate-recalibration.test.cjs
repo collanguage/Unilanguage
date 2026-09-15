@@ -16,7 +16,7 @@ test('ABDICATE recalibrates one existing ID and preserves every other record and
   assert.equal(data.entries.filter(x => x.slug === 'abdicate').length, 1);
   assert.equal(e.id, 'LB-en-abdicate-036');
   assert.deepEqual(data.entries.find(x => x.slug === 'abdicate'), e);
-  assert.deepEqual(data.entries.filter(x => x.slug !== 'abdicate'), before.entries.filter(x => x.slug !== 'abdicate'));
+  assert.deepEqual(data.entries.filter(x => !['abdicate','abbreviate'].includes(x.slug)), before.entries.filter(x => !['abdicate','abbreviate'].includes(x.slug)));
   assert.deepEqual(e.source, before.entries.find(x => x.slug === 'abdicate').source);
   for (const f of ['js/semantic-mapper.js','semantic-mapper.html','js/language-book-data.js']) {
     assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'), cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'));
