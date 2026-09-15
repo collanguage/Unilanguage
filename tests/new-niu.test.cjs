@@ -9,7 +9,7 @@ const api = require('../js/language-book-data.js');
 const page = fs.readFileSync(path.join(root, 'words/new.html'), 'utf8');
 
 test('NEW adds exactly one unreviewed candidate and preserves independent status axes', () => {
-  assert.equal(data.entries.filter(e => !['horizon','horse'].includes(e.slug)).length, 38);
+  assert.equal(data.entries.filter(e => !['horizon','horse','abbreviation'].includes(e.slug)).length, 38);
   assert.equal(data.entries.filter(e => e.slug === 'new').length, 1);
   assert.deepEqual(data.entries.find(e => e.slug === 'new'), entry);
   assert.equal(entry.entry_status, 'Draft');

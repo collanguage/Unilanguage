@@ -13,7 +13,7 @@ test("legacy batch reconciles all 20 source pages without manufacturing records"
   assert.equal(manifest.summary.existing_records_merged, 4);
   assert.equal(manifest.summary.research_queue, 1);
   assert.equal(manifest.source_reconciliation.total, 20);
-  assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse"].includes(entry.slug)).length, 37);
+  assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse", "abbreviation"].includes(entry.slug)).length, 37);
 });
 
 test("every new legacy record preserves raw authorship and four-track evaluation", () => {
@@ -33,7 +33,7 @@ test("legacy Mapper terms route to unified records", () => {
   const expected = {
     a:"a-indefinite-article", abeyance:"abeyance", 闭:"abeyance", abound:"abound", 蹦:"abound",
     abridge:"abridge", acumen:"acumen", aliment:"aliment", 粮:"aliment", above:"above", absolute:"absolute",
-    aback:"aback", abandon:"abandon", abash:"abash", abbreviate:"abbreviate", abbreviation:"abbreviate",
+    aback:"aback", abandon:"abandon", abash:"abash", abbreviate:"abbreviate", abbreviation:"abbreviation",
     abdicate:"abdicate", abhor:"abhor"
   };
   for (const [query, slug] of Object.entries(expected)) assert.equal(api.lookup(dataset, query).entry?.slug, slug, query);

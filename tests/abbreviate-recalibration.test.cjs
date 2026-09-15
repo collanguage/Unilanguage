@@ -14,15 +14,15 @@ const before = JSON.parse(cp.execFileSync('git',['show',baseline+':data/language
 
 test('ABBREVIATE preserves its identity, source, literature and every unrelated record',()=>{
  assert.equal(e.id,'LB-en-abbreviate-035');
- assert.equal(data.entries.length,before.entries.length);
+ assert.equal(data.entries.length,before.entries.length+1);
  assert.equal(data.entries.filter(x=>x.slug==='abbreviate').length,1);
  assert.deepEqual(data.entries.find(x=>x.id===e.id),e);
- assert.deepEqual(data.entries.filter(x=>x.id!==e.id),before.entries.filter(x=>x.id!==e.id));
+ assert.deepEqual(data.entries.filter(x=>x.id!==e.id&&x.slug!=='abbreviation'),before.entries.filter(x=>x.id!==e.id&&x.slug!=='abbreviation'));
  const old=before.entries.find(x=>x.id===e.id);
  assert.deepEqual(e.source,old.source);
  assert.deepEqual(e.literary_layer,old.literary_layer);
- assert.equal(data.entries.filter(x=>x.entry_status==='Published').length,before.entries.filter(x=>x.entry_status==='Published').length+1);
- for(const file of ['js/semantic-mapper.js','semantic-mapper.html','js/language-book-data.js',...['abdicate','abhor','horizon','horse','new','abandon'].map(x=>'words/'+x+'.html')]){
+ assert.equal(data.entries.filter(x=>x.entry_status==='Published').length,before.entries.filter(x=>x.entry_status==='Published').length+2);
+ for(const file of ['js/semantic-mapper.js','semantic-mapper.html',...['abdicate','abhor','horizon','horse','new','abandon'].map(x=>'words/'+x+'.html')]){
   assert.equal(fs.readFileSync(path.join(root,file),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+file],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),file);
  }
 });
@@ -37,9 +37,9 @@ test('Featured 瘪 and standard verb senses remain separate across page and data
  assert.match(page,/<h1>ABBREVIATE ↔ 瘪 biě · 缩写／简略<\/h1>/);
  assert.match(page,/瘪不是“缩写”的标准汉语动词/);
  const noun=e.related_words.find(x=>x.word==='abbreviation');
- assert.equal(e.languages.find(x=>x.word==='abbreviation').part_of_speech,'noun');
+ assert.equal(require('../data/entries/abbreviation.v1.json').languages[0].part_of_speech,'noun · 名词');
  assert.match(noun.relationship_type,/historical noun/);
- assert.match(noun.relation_to_entry.en,/Anglo-French/);
+ assert.match(require('../data/entries/abbreviation.v1.json').evidence.Historical.summary.en,/Anglo-French/);
 });
 test('Root comparison uses actual segments, and cognition never becomes lexical evidence',()=>{
  const d=e.diachronic_semantic_mapping.mappings[0];
@@ -69,7 +69,7 @@ test('蹩 is rejected by meaning; French and historical forms stay correctly sco
  assert.equal(alt.label,'Alternative / Rejected-by-meaning-first');
  assert.match(alt.reason,/missing semantic bridge/);
  assert.equal(e.languages.find(x=>x.code==='fr').word,'abréger');
- assert.equal(e.languages.find(x=>x.word==='abréviation').part_of_speech,'nom féminin');
+ assert.equal(require('../data/entries/abbreviation.v1.json').languages.find(x=>x.word==='abréviation').part_of_speech,'nom féminin');
  assert.match(e.evidence.Historical.summary.en,/abbreviātus/);
  assert.match(e.evidence.Historical.summary.en,/Latin abbreviatio/);
  assert.match(e.legacy_calibration.corrections.join(' '),/historical Anglo-French abreviation remains correct/);
@@ -80,7 +80,7 @@ test('蹩 is rejected by meaning; French and historical forms stay correctly sco
  visit(e);
 });
 test('Aliases resolve to the single recalibrated entry and public word page',()=>{
- for(const q of ['abbreviate','abbreviation','瘪','biě','brev-','brevi-','brevis','abréger','abréviation','蹩']){
+ for(const q of ['abbreviate','瘪','biě','brev-','brevi-','brevis','abréger','蹩']){
   const found=api.lookup(data,q).entry;assert.equal(found?.id,e.id,q);assert.equal(found.page,'words/abbreviate.html');
  }
  for(const id of ['literature','basic-meaning','multilingual','etymology','mapping','justification','protocol','utp','examples','community','references'])assert.ok(page.includes('id="'+id+'"'));

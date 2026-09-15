@@ -11,8 +11,8 @@ const page=fs.readFileSync(path.join(root,'words/horse.html'),'utf8');
 const baseline='443b57199ecdb6c1c86c777cc09cc8b83ddcc0c2';
 test('HORSE remains additive while the focused ABHOR record may advance independently',()=>{
  const before=JSON.parse(cp.execFileSync('git',['show',baseline+':data/language-book.v1.0.json'],{cwd:root,maxBuffer:12*1024*1024}));
- assert.equal(data.entries.length,40);
- assert.deepEqual(data.entries.filter(x=>!['horse','abhor','abdicate','abbreviate'].includes(x.slug)),before.entries.filter(x=>!['abhor','abdicate','abbreviate'].includes(x.slug)));
+ assert.equal(data.entries.length,41);
+ assert.deepEqual(data.entries.filter(x=>!['horse','abhor','abdicate','abbreviate','abbreviation'].includes(x.slug)),before.entries.filter(x=>!['abhor','abdicate','abbreviate','abbreviation'].includes(x.slug)));
  assert.deepEqual(data.entries.find(x=>x.slug==='horse'),e);
  for(const f of ['words/horizon.html','data/entries/horizon.v1.json'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),f);
  assert.equal(e.provenance.baseline_horse_entry_count,0);
@@ -73,6 +73,6 @@ test('HORSE resolves in dictionary/search/Mapper and all page and manifest refer
   if(href.startsWith('#'))assert.ok(page.includes(`id="${href.slice(1)}"`),href);
   else if(!/^https?:/.test(href))assert.ok(fs.existsSync(path.resolve(root,'words',href.split(/[?#]/)[0])),href);
  }
- const m=require('../data/product-manifest.v1.0.json');assert.equal(m.entry_count,40);
+ const m=require('../data/product-manifest.v1.0.json');assert.equal(m.entry_count,41);
  for(const f of ['words/horse.html','data/entries/horse.v1.json','docs/research/horse-source-audit-v1.md','tests/horse.test.cjs'])assert.ok(m.files.some(x=>x.path===f),f);
 });

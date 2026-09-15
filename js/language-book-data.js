@@ -30,7 +30,7 @@
   // term and inside the record itself.
   const PREFERRED_CHINESE_BROWSE_FORMS = {
     sky: "盖", universe: "斡", human: "男", sound: "声", language: "朗", water: "哗", advance: "往", light: "籁", at: "在",
-    "a-indefinite-article": "一", aback: "吃惊地", abandon: "放弃", abash: "拍", abbey: "修道院", abbreviate: "缩写",
+    "a-indefinite-article": "一", aback: "吃惊地", abandon: "放弃", abash: "拍", abbey: "修道院", abbreviate: "缩写", abbreviation: "缩写形式",
     abdicate: "退位", abdomen: "肚子", aberrant: "反常的", abeyance: "暂缓", abhor: "火", abound: "大量存在",
     above: "在……上方", abridge: "缩短", absolute: "绝对的", acumen: "洞察力", aliment: "食物", convent: "女修道院",
     figure: "图形", fil: "线", form: "形式", generate: "产生", marchand: "商人", media: "媒体", montrer: "显示",

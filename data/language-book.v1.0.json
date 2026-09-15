@@ -9011,22 +9011,6 @@
           "word": "abréger",
           "pronunciation": "/abʁeʒe/",
           "part_of_speech": "verbe transitif"
-        },
-        {
-          "role": "related-family",
-          "code": "en",
-          "name": "English",
-          "word": "abbreviation",
-          "part_of_speech": "noun",
-          "pronunciation": "/əˌbriː.viˈeɪ.ʃən/"
-        },
-        {
-          "role": "related-family",
-          "code": "fr",
-          "name": "French",
-          "word": "abréviation",
-          "part_of_speech": "nom féminin",
-          "pronunciation": "not recorded"
         }
       ],
       "primary_mapping": {
@@ -9237,8 +9221,8 @@
           "relationship_type": "historical noun relative",
           "family": "Latin abbreviare",
           "relation_to_entry": {
-            "en": "A shortened form, or the act/result of shortening; borrowed via Anglo-French abreviation from Latin abbreviātiō, not only a modern English derivation.",
-            "zh-Hans": "名词：缩写形式或缩略行为／结果；经盎格鲁法语 abreviation 借自拉丁 abbreviātiō，不能仅解释为现代英语内部派生。"
+            "en": "Separate noun entry: abbreviation (缩写形式；缩略行为／结果). Same Latin SHORT family; not an extra independent mapping case.",
+            "zh-Hans": "独立名词词条：abbreviation（缩写形式；缩略行为／结果）。同属拉丁 SHORT 词族，不重复计为独立映射样本。"
           },
           "status": "Established",
           "source_refs": [
@@ -9498,7 +9482,7 @@
         }
       ],
       "author": "Jinkai Liu",
-      "version": "ABBREVIATE focused legacy recalibration v1.0 / Schema v1.0",
+      "version": "ABBREVIATE / ABBREVIATION separate lexical entries v1.1 / Schema v1.0",
       "dates": {
         "created": null,
         "modified": "2026-09-15",
@@ -9524,18 +9508,20 @@
         {
           "en": "Specific Mainland print entries remain pending. 汉典 is cited only as the consulted digital platform; no early Chinese chronology, reconstruction or cross-language ancestry is inferred.",
           "zh-Hans": "大陆纸本具体条目仍 pending；汉典只按实际访问平台引用。不推断早期汉语年代、拟音或跨语言祖源。"
+        },
+        {
+          "en": "The author requested separate verb and noun entries on 2026-09-15. abbreviation and French abréviation now resolve to the noun entry. Shared root evidence remains one etymological family.",
+          "zh-Hans": "作者于2026-09-15要求动词与名词分立；abbreviation 与法语 abréviation 现在进入独立名词词条。同一词根证据仍只计一个历史词族。"
         }
       ],
       "search_terms": [
         "abbreviate",
-        "abbreviation",
         "abbrev",
         "brief",
         "brevity",
         "abridge",
         "缩写",
         "简略",
-        "节略",
         "瘪",
         "bie",
         "shorten",
@@ -9554,7 +9540,6 @@
         "abbreviare",
         "abréger",
         "abrégé",
-        "abréviation",
         "compress",
         "reduce"
       ],
@@ -9989,7 +9974,946 @@
           ],
           "reason": "Specific edition and entry not directly obtained; no quotation or page asserted."
         }
-      ]
+      ],
+      "word_family_links": [
+        {
+          "word": "abbreviation",
+          "entry_id": "LB-en-abbreviation-041",
+          "page": "words/abbreviation.html",
+          "part_of_speech": "noun"
+        }
+      ],
+      "etymological_family_id": "LATIN-BREVIS-SHORT"
+    },
+    {
+      "id": "LB-en-abbreviation-041",
+      "slug": "abbreviation",
+      "title": {
+        "en": "ABBREVIATION ↔ 瘪 biě · 缩写形式／缩略",
+        "zh-Hans": "ABBREVIATION ↔ 瘪 biě · 缩写形式／缩略"
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "abbreviation",
+          "pronunciation": "/əˌbriː.viˈeɪ.ʃən/",
+          "part_of_speech": "noun · 名词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "缩写形式／缩略",
+          "pronunciation": "suōxiě xíngshì / suōlüè",
+          "part_of_speech": "noun: shortened form; act/result of shortening"
+        },
+        {
+          "role": "featured",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "瘪",
+          "pronunciation": "biě [piɛ˨˩˦]",
+          "part_of_speech": "adjectival state in the selected sense"
+        },
+        {
+          "role": "comparison",
+          "code": "fr",
+          "name": "French",
+          "word": "abréviation",
+          "pronunciation": "not recorded",
+          "part_of_speech": "nom féminin"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-abbreviation-primary",
+        "source": {
+          "language": "English",
+          "word": "abbreviation",
+          "pronunciation": "/əˌbriː.viˈeɪ.ʃən/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "瘪",
+          "pronunciation": "biě [piɛ˨˩˦]"
+        },
+        "gloss": {
+          "en": "A shortened form; the act or result of shortening. Featured 瘪 is a cognitive candidate, not the translation.",
+          "zh-Hans": "缩写形式；缩略行为或结果。特色“瘪”为认知候选，不是标准翻译。"
+        },
+        "meaning": {
+          "en": "Noun abbreviation: a shorter written form, or the act/result of shortening. A reduced linguistic form ↔ reduced physical fullness (瘪) is a cognitive candidate. The verb abbreviate has its own entry.",
+          "zh-Hans": "名词 abbreviation：缩写形式，或缩略行为／结果。较短语言形式 ↔ 不饱满形态（瘪）为认知候选；动词 abbreviate 另有独立词条。"
+        },
+        "mapping_type": "Featured Cognitive / Transformation Mapping Candidate",
+        "rationale": {
+          "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+          "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+        }
+      },
+      "entry_status": "Published",
+      "mapping_status": "Candidate",
+      "mapping_level": "D",
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "English abbreviation continues Middle English abbreviacioun, borrowed via Anglo-French abreviation from Late Latin abbreviātiō, from abbreviāre plus the action-noun suffix -tiō. Modern French abréviation is also a Latin noun borrowing. This is the same brevis SHORT family as abbreviate, not another independent Chinese-mapping case.",
+            "zh-Hans": "英语 abbreviation 经中古英语 abbreviacioun、盎格鲁法语 abreviation 借自晚期拉丁 abbreviātiō，属 abbreviāre 加动作名词后缀 -tiō 的词族。现代法语 abréviation 亦为拉丁名词借入；与 abbreviate 同属 brevis“短”词族，不另计独立汉语映射样本。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABBREVIATION-001",
+              "claim": {
+                "en": "English abbreviation continues Middle English abbreviacioun, borrowed via Anglo-French abreviation from Late Latin abbreviātiō, from abbreviāre plus the action-noun suffix -tiō. Modern French abréviation is also a Latin noun borrowing. This is the same brevis SHORT family as abbreviate, not another independent Chinese-mapping case.",
+                "zh-Hans": "英语 abbreviation 经中古英语 abbreviacioun、盎格鲁法语 abreviation 借自晚期拉丁 abbreviātiō，属 abbreviāre 加动作名词后缀 -tiō 的词族。现代法语 abréviation 亦为拉丁名词借入；与 abbreviate 同属 brevis“短”词族，不另计独立汉语映射样本。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "ABBR-MW-N",
+                "ABBR-FR-N"
+              ]
+            }
+          ],
+          "source_refs": [
+            "ABBR-MW-N",
+            "ABBR-FR-N",
+            "REF-MW-ABBREVIATE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "brev-/brevi- ↔ 瘪 biě has limited surface phonetic similarity. Latin reference [brɛw-]/[brɛwɪ-], modern English /briːv/ across the syllable boundary in /əˈbriː.vi.eɪt/, and Mandarin [piɛ˨˩˦] are different forms and layers.",
+            "zh-Hans": "brev-/brevi- ↔ 瘪 biě 只有有限表面音近。拉丁参考 [brɛw-]／[brɛwɪ-]、现代英语 /əˈbriː.vi.eɪt/ 内跨音节边界的 /briːv/ 与普通话 [piɛ˨˩˦] 是不同形式、不同层次。"
+          },
+          "items": [
+            {
+              "evidence_id": "ABBR-PHONETIC-SEMANTIC-001",
+              "claim": {
+                "en": "brev-/brevi- ↔ 瘪 biě has limited surface phonetic similarity. Latin reference [brɛw-]/[brɛwɪ-], modern English /briːv/ across the syllable boundary in /əˈbriː.vi.eɪt/, and Mandarin [piɛ˨˩˦] are different forms and layers.",
+                "zh-Hans": "brev-/brevi- ↔ 瘪 biě 只有有限表面音近。拉丁参考 [brɛw-]／[brɛwɪ-]、现代英语 /əˈbriː.vi.eɪt/ 内跨音节边界的 /briːv/ 与普通话 [piɛ˨˩˦] 是不同形式、不同层次。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "ABBR-CAM",
+                "ABBR-ZD-BIE3",
+                "ABBR-DCC"
+              ]
+            }
+          ],
+          "source_refs": [
+            "ABBR-CAM",
+            "ABBR-ZD-BIE3",
+            "ABBR-DCC"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "SHORT → REDUCE → COMPRESS: the noun names a reduced linguistic form or the act/result of shortening; 瘪 supplies an interpretive physical-state analogy, not a lexical equivalent.",
+            "zh-Hans": "SHORT → REDUCE → COMPRESS：名词指缩短后的语言形式或缩略行为／结果；瘪提供具体形态的解释性类比，不是词义等价。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABBREVIATION-001",
+              "claim": {
+                "en": "SHORT → REDUCE → COMPRESS: the noun names a reduced linguistic form or the act/result of shortening; 瘪 supplies an interpretive physical-state analogy, not a lexical equivalent.",
+                "zh-Hans": "SHORT → REDUCE → COMPRESS：名词指缩短后的语言形式或缩略行为／结果；瘪提供具体形态的解释性类比，不是词义等价。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-MW-ABBREVIATE",
+                "ABBR-ZD-BIE3"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABBREVIATE",
+            "ABBR-ZD-BIE3"
+          ]
+        },
+        "Speculative": {
+          "status": "Not claimed",
+          "confidence": "Low",
+          "summary": {
+            "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+            "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+          },
+          "items": [
+            {
+              "evidence_id": "ABBR-SPECULATIVE-001",
+              "claim": {
+                "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+                "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+              },
+              "status": "Not claimed",
+              "confidence": "Low",
+              "source_refs": []
+            }
+          ],
+          "source_refs": []
+        }
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABBREVIATION-001",
+          "claim": {
+            "en": "brev-/brevi- ↔ 瘪 biě has limited surface phonetic similarity. Latin reference [brɛw-]/[brɛwɪ-], modern English /briːv/ across the syllable boundary in /əˈbriː.vi.eɪt/, and Mandarin [piɛ˨˩˦] are different forms and layers.",
+            "zh-Hans": "brev-/brevi- ↔ 瘪 biě 只有有限表面音近。拉丁参考 [brɛw-]／[brɛwɪ-]、现代英语 /əˈbriː.vi.eɪt/ 内跨音节边界的 /briːv/ 与普通话 [piɛ˨˩˦] 是不同形式、不同层次。"
+          },
+          "status": "Candidate",
+          "scope": "Historical-unit Latin brev-/brevi- compared with modern Mandarin; modern English reflex listed separately",
+          "reference_system": "Approximate Roman reference from Allen & Greenough §8; broad IPA editorial inference. No uniform Late Latin realization or ancient Chinese reconstruction asserted.",
+          "segments": {
+            "consonants": {
+              "en": "Latin /b/ and English /b/ are voiced bilabial stops; Mandarin pinyin b is voiceless unaspirated [p]. Latin r and consonantal v [w], and English /r,v/, have no counterparts in biě. A b-p-m-f group hit is only a cross-language hypothesis.",
+              "zh-Hans": "拉丁和英语 /b/ 为浊双唇塞音，拼音 b 为清不送气 [p]。拉丁 r、辅音 v [w] 及英语 /r,v/ 在 biě 中无对应；b-p-m-f 同组命中仅属跨语言假说。"
+            },
+            "vowel": {
+              "en": "Latin short e, represented here as [ɛ], partly resembles Mandarin [iɛ]; English stressed /iː/ is not [iɛ]. Latin brevi- also contains short i.",
+              "zh-Hans": "拉丁短 e（此处宽式记 [ɛ]）与普通话 [iɛ] 局部接近；英语重读 /iː/ 并非 [iɛ]；拉丁 brevi- 另含短 i。"
+            },
+            "syllables": {
+              "en": "brev- is an extracted stem fragment, not a complete word or independently stressed syllable; brevi- includes a following vowel. brevis has two syllables and abbreviate four; biě has one. The English spelling brev spans /briː.v/, not a single /brɛv/ syllable.",
+              "zh-Hans": "brev- 为抽取词干片段，不是完整词或独立重读音节；brevi- 多一个元音。brevis 为两音节，abbreviate 为四音节，abbreviation 为五音节，biě 为一音节。英语拼写 brev 跨 /briː.v/ 边界，不能按字母读成一个 /brɛv/ 音节。"
+            },
+            "stress": {
+              "en": "English abbreviate stresses /briː/; abbreviation shifts primary stress to /eɪ/. Extracted Latin stems have no independent word stress; stress of the host word must not be assigned to a root fragment.",
+              "zh-Hans": "abbreviate 主重音在 /briː/；abbreviation 主重音移至 /eɪ/。抽取的拉丁词干没有独立词重音，不能把整词重音强加给片段。"
+            },
+            "tone": {
+              "en": "Mandarin biě has third tone (citation [214]); bié has second tone [35]. English stress and Latin vowel quantity do not match Mandarin lexical tone. Citation contours do not describe all connected-speech realizations.",
+              "zh-Hans": "biě 为上声，单字调 [214]；bié 为阳平 [35]。英语重音、拉丁元音长短都不对应普通话词汇声调；单字调不代表所有连读实现。"
+            }
+          },
+          "rating": {
+            "score": 8,
+            "maximum": 30,
+            "confidence": "Low",
+            "method": "Unvalidated editorial rubric: bilabial stop place/manner 4/10; partial vowel resemblance 3/8; remaining consonants 0/5; extracted unit shape 1/4; prosody 0/3. Not an acoustic measurement, cognacy probability or whole-word score."
+          },
+          "limitations": {
+            "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+            "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+          },
+          "source_refs": [
+            "ABBR-DCC",
+            "ABBR-ZD-BIE3",
+            "ABBR-ZD-BIE2",
+            "ABBR-CAM",
+            "ABBR-MW-N"
+          ]
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "SHORT",
+          "REDUCE",
+          "COMPRESS",
+          "FULLNESS"
+        ],
+        "relation": "SHORT → REDUCE → COMPRESS",
+        "status": "Interpretive"
+      },
+      "related_words": [
+        {
+          "word": "abbreviate",
+          "language": "English",
+          "relationship_type": "historical verb relative",
+          "family": "Latin abbreviāre / brevis",
+          "relation_to_entry": {
+            "en": "Separate verb entry: to shorten. Shared Latin family, not a second independent mapping sample.",
+            "zh-Hans": "独立动词词条：缩写／使简略／缩短。同一拉丁词族，不另算独立映射样本。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABBREVIATE"
+          ]
+        },
+        {
+          "word": "abréviation",
+          "language": "French",
+          "relationship_type": "historical noun borrowing",
+          "family": "Latin abbreviāre / brevis",
+          "relation_to_entry": {
+            "en": "Latin noun borrowing within the Latin SHORT family; not an independent Chinese-mapping sample.",
+            "zh-Hans": "法语阴性名词：缩写、缩略形式；借自拉丁 abbreviatio，不是从现代 abréger 表面机械拆出的形式。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "ABBR-FR-N"
+          ]
+        },
+        {
+          "word": "瘪 biě",
+          "language": "Chinese",
+          "relationship_type": "featured cognitive / phonetic candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard Chinese verb for abbreviate. The sound comparison concerns brev-/brevi-, not the whole English word. Historical Relation: Not claimed.",
+            "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是“缩写”的标准汉语动词；声音比较针对 brev-/brevi-，不是整个英语词。Historical Relation: Not claimed。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "ABBR-ZD-BIE3",
+            "REF-MW-ABBREVIATE"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABBREVIATE-001",
+          "relation": "SHORT → REDUCE → COMPRESS maps abstract language shortening to a concrete loss of fullness. FULL/LONG → REDUCE → COMPRESSED/SHORT is an interpretive schema, not a dictionary definition or an established historical development.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-ABBREVIATION-BREV-BIE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "The original shared legacy note motivates comparing brev-/brevi- with 瘪. In this noun entry the analogy concerns a shortened form or shortening result, not direct translation.",
+            "zh-Hans": "共享旧笔记引出 brev-/brevi- 与瘪的比较。本名词词条的类比针对缩短形式或缩略结果，不是直接翻译。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "brev-/brevi-",
+            "瘪 biě",
+            "SHORT → REDUCE → COMPRESS"
+          ],
+          "counterexamples": [
+            "No whole-word homophony; /r,w/ or /r,v/ and tone are unmatched.",
+            "瘪 is not the standard translation of abbreviation.",
+            "One Latin etymological family is one comparison, not multiple independent cases."
+          ],
+          "testability": {
+            "en": "Blind semantic ratings first; then auditory ratings with matched random syllables and 蹩 as a meaning-first negative control. Deduplicate the entire Latin SHORT family. No experiment has been run.",
+            "zh-Hans": "先盲评语义，再用匹配随机音节评声音；蹩作 meaning-first 负对照；整个拉丁 SHORT 词族去重计一次。尚未进行实验。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-ABBREVIATE-001",
+          "statement": {
+            "en": "The real morpheme is the Latin SHORT family brev-/brevis; 瘪 is not its origin.",
+            "zh-Hans": "真实语素属于拉丁语 SHORT 词族 brev-／brevis；“瘪”不是其来源。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABBREVIATE",
+            "REF-MW-ABBREVIATE",
+            "REF-LANGUAGESBOOK-ABBREVIATION"
+          ]
+        }
+      ],
+      "experiments": [],
+      "literary_layer": {
+        "status": "Preserved from legacy note",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "SHORTEN → COMPRESS → ‘DEFLATE’ gives 瘪 a vivid mnemonic role.",
+          "zh-Hans": "缩短 → 压缩 → “变瘪”，使“瘪”可作生动记忆联想。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
+          "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+        }
+      },
+      "media": [],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABBREVIATE",
+          "title": "languagesbook.com legacy entry: abbreviate / abbreviation，简略／节略。瘪 bie",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abbreviate%ef%bc%8c%e7%ae%80%e7%95%a5%e3%80%82%e7%98%aabie/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABBREVIATE",
+          "title": "Merriam-Webster Dictionary: abbreviate",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abbreviate",
+          "path": null,
+          "provenance": "Merriam-Webster specific entry rechecked 2026-09-15; verb and Latin history"
+        },
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABBREVIATION",
+          "title": "languagesbook.com legacy entry: abbreviation，节略。瘪 bie",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abbreviation/",
+          "path": null,
+          "provenance": "author-published legacy website; merged into abbreviate record during import 2026-09-01"
+        },
+        {
+          "reference_id": "ABBR-CAM",
+          "title": "Cambridge English–Chinese (Simplified) Dictionary: abbreviate",
+          "type": "dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/abbreviate",
+          "path": null,
+          "provenance": "English verb, IPA and bilingual gloss; not a Mainland monolingual authority",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABBR-MW-N",
+          "title": "Merriam-Webster Dictionary: abbreviation",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abbreviation",
+          "path": null,
+          "provenance": "Noun senses and Anglo-French / Late Latin borrowing path",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABBR-FR-V",
+          "title": "Dictionnaire de l’Académie française, 9e édition: abréger",
+          "type": "dictionary",
+          "url": "https://www.dictionnaire-academie.fr/article/A9A0133",
+          "path": null,
+          "provenance": "French verb and Late Latin abbreviare / brevis",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABBR-FR-N",
+          "title": "Dictionnaire de l’Académie française, 9e édition: abréviation",
+          "type": "dictionary",
+          "url": "https://www.dictionnaire-academie.fr/article/A9A0138",
+          "path": null,
+          "provenance": "French feminine noun; borrowed from Late Latin abbreviatio",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABBR-TLFI-N",
+          "title": "TLFi via CNRTL: abréviation",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/abr%C3%A9viation",
+          "path": null,
+          "provenance": "Christian Latin abbreviatio; noun borrowing independent of modern visual segmentation",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABBR-ZD-BIE3",
+          "title": "汉典：瘪",
+          "type": "dictionary",
+          "url": "https://zdic.net/hans/瘪",
+          "path": null,
+          "provenance": "大陆数字辞书平台；仅基本解释、详细解释及普通话音标栏；不冒充纸本辞书",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABBR-ZD-BIE2",
+          "title": "汉典：蹩",
+          "type": "dictionary",
+          "url": "https://zdic.net/hans/蹩",
+          "path": null,
+          "provenance": "大陆数字辞书平台；仅基本解释、详细解释及普通话音标栏；不引用嵌入的其他辞书栏目",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABBR-DCC",
+          "title": "Allen & Greenough: Vowel and Consonant Pronunciation",
+          "type": "grammar",
+          "url": "https://dcc.dickinson.edu/grammar/latin/vowel-and-consonant-pronunciation",
+          "path": null,
+          "provenance": "§8, Meagan Ayer ed., DCC 2014; approximate classical Roman reference, not Late Latin audio",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABBR-FR-PP",
+          "title": "Dictionnaire de l’Académie française, 9e édition: abrégé",
+          "type": "dictionary",
+          "url": "https://www.dictionnaire-academie.fr/article/A9A0131",
+          "path": null,
+          "provenance": "Related nominal and past-participle form; exact entry checked 2026-09-15",
+          "accessed": "2026-09-15"
+        }
+      ],
+      "author": "Jinkai Liu",
+      "version": "ABBREVIATE / ABBREVIATION separate lexical entries v1.1 / Schema v1.0",
+      "dates": {
+        "created": null,
+        "modified": "2026-09-15",
+        "published": "2026-09-15"
+      },
+      "editorial_notes": [
+        {
+          "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+          "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+        },
+        {
+          "en": "Noun split from the former merged record by author request. Candidate grade and Latin family evidence are shared, not counted twice.",
+          "zh-Hans": "按作者要求从原合并记录分立名词；候选评级与拉丁词族证据共享，不重复计数。"
+        }
+      ],
+      "search_terms": [
+        "abbreviation",
+        "abbreviations",
+        "abréviation",
+        "abréviations",
+        "缩写形式",
+        "缩写词",
+        "缩略",
+        "缩略行为",
+        "缩略结果"
+      ],
+      "page": "words/abbreviation.html",
+      "legacy": {
+        "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
+        "source_url": "https://languagesbook.com/glossary/abbreviate%ef%bc%8c%e7%ae%80%e7%95%a5%e3%80%82%e7%98%aabie/",
+        "additional_source_urls": [
+          "https://languagesbook.com/glossary/abbreviation/"
+        ],
+        "source_page": 1,
+        "source_site": "languagesbook.com",
+        "split_from_entry_id": "LB-en-abbreviate-035",
+        "split_date": "2026-09-15"
+      },
+      "source": {
+        "type": "author-published legacy website note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Shared legacy note retained as provenance; independently split noun entry at author request on 2026-09-15.",
+        "raw_note": "abbreviate，简略。-brev 与瘪 bie 同音。abbreviation，节略。瘪 bie。"
+      },
+      "confidence": "Low",
+      "direct_lexical_semantic_equivalence": false,
+      "standard_translation": {
+        "source": "abbreviation",
+        "target": "缩写形式／缩略",
+        "terms": [
+          "缩写形式",
+          "缩写词",
+          "缩略",
+          "缩略行为",
+          "缩略结果"
+        ],
+        "status": "Supported",
+        "is_featured_mapping": false,
+        "source_refs": [
+          "ABBR-MW-N"
+        ],
+        "scope_note": "Noun: a shortened written form; the act or result of shortening. Not the transitive verb abbreviate."
+      },
+      "translation_status": "Supported",
+      "translation_source_refs": [
+        "ABBR-MW-N"
+      ],
+      "featured_mapping": {
+        "source": "ABBREVIATION",
+        "target": "瘪",
+        "reading": "biě",
+        "display_label": "Featured Cognitive / Transformation Mapping Candidate｜特色认知／转换映射候选 · D / Low",
+        "status": "Candidate",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+          "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+        },
+        "source_refs": [
+          "REF-MW-ABBREVIATE",
+          "ABBR-ZD-BIE3"
+        ]
+      },
+      "mapping_assessment": {
+        "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
+        "method": "Unvalidated editorial feature assessment; no historical points or statistical probability.",
+        "dimensions": [
+          {
+            "name": "Phonetic Relation",
+            "weight": 30,
+            "score": 8,
+            "reason": "brev-/brevi- 单位仅局部音近；非整词评分"
+          },
+          {
+            "name": "Semantic Relation",
+            "weight": 30,
+            "score": 10,
+            "reason": "共享缩减抽象；SHORT 与不饱满并非同义"
+          },
+          {
+            "name": "Structural / Cognitive Relation",
+            "weight": 20,
+            "score": 13,
+            "reason": "抽象语言操作与具体几何缩减可解释；仍属人为桥梁"
+          },
+          {
+            "name": "Contextual Validity",
+            "weight": 20,
+            "score": 4,
+            "reason": "不能直接替换译句；无盲法验证"
+          }
+        ],
+        "total": 35,
+        "maximum": 100,
+        "level": "D",
+        "confidence": "Low",
+        "rationale": {
+          "en": "D (Speculative / Creative), Weak: an intentional cross-domain bridge with weak lexical fit and unvalidated sound comparison. C is not retained merely because the legacy record used it. Cognitive plausibility is Medium, overall confidence Low.",
+          "zh-Hans": "D（推测／创造）、Weak：人为跨域桥梁、词义适配较弱、音系未经验证。不因旧记录为 C 而保留；认知可解释性 Medium，整体 Low。"
+        }
+      },
+      "featured_mapping_assessment": {
+        "compared_unit": "brev-/brevi- ↔ 瘪 biě",
+        "whole_word_homophony": false,
+        "mapping_assessment": {
+          "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
+          "method": "Unvalidated editorial feature assessment; no historical points or statistical probability.",
+          "dimensions": [
+            {
+              "name": "Phonetic Relation",
+              "weight": 30,
+              "score": 8,
+              "reason": "brev-/brevi- 单位仅局部音近；非整词评分"
+            },
+            {
+              "name": "Semantic Relation",
+              "weight": 30,
+              "score": 10,
+              "reason": "共享缩减抽象；SHORT 与不饱满并非同义"
+            },
+            {
+              "name": "Structural / Cognitive Relation",
+              "weight": 20,
+              "score": 13,
+              "reason": "抽象语言操作与具体几何缩减可解释；仍属人为桥梁"
+            },
+            {
+              "name": "Contextual Validity",
+              "weight": 20,
+              "score": 4,
+              "reason": "不能直接替换译句；无盲法验证"
+            }
+          ],
+          "total": 35,
+          "maximum": 100,
+          "level": "D",
+          "confidence": "Low",
+          "rationale": {
+            "en": "D (Speculative / Creative), Weak: an intentional cross-domain bridge with weak lexical fit and unvalidated sound comparison. C is not retained merely because the legacy record used it. Cognitive plausibility is Medium, overall confidence Low.",
+            "zh-Hans": "D（推测／创造）、Weak：人为跨域桥梁、词义适配较弱、音系未经验证。不因旧记录为 C 而保留；认知可解释性 Medium，整体 Low。"
+          }
+        }
+      },
+      "transformation_mapping": {
+        "type": "Transformation Mapping",
+        "source": "Reduced linguistic form / act or result of shortening (abbreviation)",
+        "target": "Concrete/Geometric reduction (瘪)",
+        "operations": [
+          "COMPRESS",
+          "REDUCE"
+        ],
+        "path": "FULL/LONG → REDUCE → COMPRESSED/SHORT",
+        "status": "Candidate",
+        "confidence": "Medium",
+        "lexical_mismatch": "瘪不是“缩写形式／缩略”的标准汉语名词；几何不饱满也不必然表示长度缩短。",
+        "invariant_candidate": "less extent/fullness relative to a fuller or longer baseline",
+        "boundary": {
+          "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+          "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+        }
+      },
+      "diachronic_semantic_mapping": {
+        "historical_path": "brevis → abbreviāre → abbreviātiō → Anglo-French abreviation → Middle English abbreviacioun → abbreviation",
+        "semantic_path": "SHORT → MAKE SHORTER; comparison to 瘪 is a separate cognitive candidate",
+        "historical_stages": [
+          {
+            "form": "abbreviāre",
+            "meaning": "shorten",
+            "source_refs": [
+              "ABBR-MW-N"
+            ]
+          },
+          {
+            "form": "abbreviātiō",
+            "meaning": "action noun of shortening",
+            "source_refs": [
+              "ABBR-MW-N"
+            ]
+          },
+          {
+            "form": "abreviation",
+            "meaning": "Anglo-French noun",
+            "source_refs": [
+              "ABBR-MW-N"
+            ]
+          },
+          {
+            "form": "abbreviation",
+            "meaning": "English noun: shortened form; act/result of shortening",
+            "source_refs": [
+              "ABBR-MW-N"
+            ]
+          }
+        ],
+        "boundary": {
+          "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+          "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+        },
+        "mappings": [
+          {
+            "mapping_id": "MAP-abbreviation-brev-bie",
+            "source": {
+              "language": "Latin historical unit",
+              "word": "brev-/brevi-",
+              "pronunciation": "[brɛw-] / [brɛwɪ-] (approximate Roman reference)"
+            },
+            "target": {
+              "language": "Modern Mandarin",
+              "word": "瘪",
+              "pronunciation": "biě [piɛ˨˩˦]"
+            },
+            "source_semantics": "SHORT; shortening in the derived abbreviāre family",
+            "target_sense": "不饱满、凹下；皱缩状态",
+            "status": "Candidate",
+            "mapping_level": "D",
+            "confidence": "Low",
+            "historical_relation_status": "Not claimed",
+            "phonetic_observation": {
+              "observation_id": "PHON-ABBREVIATE-001",
+              "claim": {
+                "en": "brev-/brevi- ↔ 瘪 biě has limited surface phonetic similarity. Latin reference [brɛw-]/[brɛwɪ-], modern English /briːv/ across the syllable boundary in /əˈbriː.vi.eɪt/, and Mandarin [piɛ˨˩˦] are different forms and layers.",
+                "zh-Hans": "brev-/brevi- ↔ 瘪 biě 只有有限表面音近。拉丁参考 [brɛw-]／[brɛwɪ-]、现代英语 /əˈbriː.vi.eɪt/ 内跨音节边界的 /briːv/ 与普通话 [piɛ˨˩˦] 是不同形式、不同层次。"
+              },
+              "status": "Candidate",
+              "scope": "Historical-unit Latin brev-/brevi- compared with modern Mandarin; modern English reflex listed separately",
+              "reference_system": "Approximate Roman reference from Allen & Greenough §8; broad IPA editorial inference. No uniform Late Latin realization or ancient Chinese reconstruction asserted.",
+              "segments": {
+                "consonants": {
+                  "en": "Latin /b/ and English /b/ are voiced bilabial stops; Mandarin pinyin b is voiceless unaspirated [p]. Latin r and consonantal v [w], and English /r,v/, have no counterparts in biě. A b-p-m-f group hit is only a cross-language hypothesis.",
+                  "zh-Hans": "拉丁和英语 /b/ 为浊双唇塞音，拼音 b 为清不送气 [p]。拉丁 r、辅音 v [w] 及英语 /r,v/ 在 biě 中无对应；b-p-m-f 同组命中仅属跨语言假说。"
+                },
+                "vowel": {
+                  "en": "Latin short e, represented here as [ɛ], partly resembles Mandarin [iɛ]; English stressed /iː/ is not [iɛ]. Latin brevi- also contains short i.",
+                  "zh-Hans": "拉丁短 e（此处宽式记 [ɛ]）与普通话 [iɛ] 局部接近；英语重读 /iː/ 并非 [iɛ]；拉丁 brevi- 另含短 i。"
+                },
+                "syllables": {
+                  "en": "brev- is an extracted stem fragment, not a complete word or independently stressed syllable; brevi- includes a following vowel. brevis has two syllables and abbreviate four; biě has one. The English spelling brev spans /briː.v/, not a single /brɛv/ syllable.",
+                  "zh-Hans": "brev- 为抽取词干片段，不是完整词或独立重读音节；brevi- 多一个元音。brevis 为两音节，abbreviate 为四音节，abbreviation 为五音节，biě 为一音节。英语拼写 brev 跨 /briː.v/ 边界，不能按字母读成一个 /brɛv/ 音节。"
+                },
+                "stress": {
+                  "en": "English abbreviate stresses /briː/; abbreviation shifts primary stress to /eɪ/. Extracted Latin stems have no independent word stress; stress of the host word must not be assigned to a root fragment.",
+                  "zh-Hans": "abbreviate 主重音在 /briː/；abbreviation 主重音移至 /eɪ/。抽取的拉丁词干没有独立词重音，不能把整词重音强加给片段。"
+                },
+                "tone": {
+                  "en": "Mandarin biě has third tone (citation [214]); bié has second tone [35]. English stress and Latin vowel quantity do not match Mandarin lexical tone. Citation contours do not describe all connected-speech realizations.",
+                  "zh-Hans": "biě 为上声，单字调 [214]；bié 为阳平 [35]。英语重音、拉丁元音长短都不对应普通话词汇声调；单字调不代表所有连读实现。"
+                }
+              },
+              "rating": {
+                "score": 8,
+                "maximum": 30,
+                "confidence": "Low",
+                "method": "Unvalidated editorial rubric: bilabial stop place/manner 4/10; partial vowel resemblance 3/8; remaining consonants 0/5; extracted unit shape 1/4; prosody 0/3. Not an acoustic measurement, cognacy probability or whole-word score."
+              },
+              "limitations": {
+                "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard Chinese verb for abbreviate. The sound comparison concerns brev-/brevi-, not the whole English word. Historical Relation: Not claimed.",
+                "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是“缩写”的标准汉语动词；声音比较针对 brev-/brevi-，不是整个英语词。Historical Relation: Not claimed。"
+              },
+              "source_refs": [
+                "ABBR-DCC",
+                "ABBR-ZD-BIE3",
+                "ABBR-ZD-BIE2",
+                "ABBR-CAM",
+                "ABBR-MW-N"
+              ]
+            },
+            "mapping_assessment": {
+              "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
+              "method": "Unvalidated editorial feature assessment; no historical points or statistical probability.",
+              "dimensions": [
+                {
+                  "name": "Phonetic Relation",
+                  "weight": 30,
+                  "score": 8,
+                  "reason": "brev-/brevi- 单位仅局部音近；非整词评分"
+                },
+                {
+                  "name": "Semantic Relation",
+                  "weight": 30,
+                  "score": 10,
+                  "reason": "共享缩减抽象；SHORT 与不饱满并非同义"
+                },
+                {
+                  "name": "Structural / Cognitive Relation",
+                  "weight": 20,
+                  "score": 13,
+                  "reason": "抽象语言操作与具体几何缩减可解释；仍属人为桥梁"
+                },
+                {
+                  "name": "Contextual Validity",
+                  "weight": 20,
+                  "score": 4,
+                  "reason": "不能直接替换译句；无盲法验证"
+                }
+              ],
+              "total": 35,
+              "maximum": 100,
+              "level": "D",
+              "confidence": "Low",
+              "rationale": {
+                "en": "D (Speculative / Creative), Weak: an intentional cross-domain bridge with weak lexical fit and unvalidated sound comparison. C is not retained merely because the legacy record used it. Cognitive plausibility is Medium, overall confidence Low.",
+                "zh-Hans": "D（推测／创造）、Weak：人为跨域桥梁、词义适配较弱、音系未经验证。不因旧记录为 C 而保留；认知可解释性 Medium，整体 Low。"
+              }
+            },
+            "boundary": {
+              "en": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping. 瘪 is not the standard translation of the noun abbreviation. Only brev-/brevi- is compared phonetically; no whole-word homophony or historical relation is claimed.",
+              "zh-Hans": "Standard Translation ≠ Featured Mapping ≠ Historical-unit Mapping。瘪不是名词 abbreviation 的标准翻译；声音只比较 brev-/brevi-，不主张整词同音或历史关系。"
+            },
+            "source_refs": [
+              "REF-MW-ABBREVIATE",
+              "ABBR-ZD-BIE3",
+              "ABBR-DCC"
+            ]
+          }
+        ]
+      },
+      "secondary_candidates": [
+        {
+          "source": "brev-/brevi-",
+          "target": "蹩",
+          "reading": "bié [piɛ˧˥]",
+          "label": "Alternative / Rejected-by-meaning-first",
+          "status": "Rejected",
+          "role": "raw observation",
+          "mapping_level": "D",
+          "confidence": "Low",
+          "historical_relation_status": "Not claimed",
+          "modern_senses": "跛、扭伤脚腕；平台详细解释另列躲闪走动、克制忍住。",
+          "reason": "No verified abbreviation/compression sense. Restraint is not textual shortening; similar segments do not supply the missing semantic bridge. bié and biě differ in tone.",
+          "source_refs": [
+            "ABBR-ZD-BIE2"
+          ]
+        }
+      ],
+      "legacy_calibration": {
+        "raw_supplement": "abrege / a.breger / abreviation; 蹩【bie】a. 缩略",
+        "provenance": "User-supplied continuation, 2026-09-15; supplemental raw observation, not verified dictionary evidence",
+        "corrections": [
+          "Modern English abbreviation has double b; historical Anglo-French abreviation remains correct in its historical context.",
+          "Modern French: abréger (verb), abrégé (past participle/adjective; also noun summary), abréviation (feminine noun). Accentless/dotted legacy forms are not current headwords.",
+          "ab.brev.iate and a.breger are legacy segmentation, not evidence of historical morpheme boundaries.",
+          "Legacy 同音 is preserved as an author claim only; assessment is limited surface phonetic similarity."
+        ]
+      },
+      "chinese_evidence": [
+        {
+          "claim_type": "modern_meaning",
+          "form": "瘪",
+          "claim": "Selected state: not full, sunken/shrivelled; flat in tire usage. No abbreviation sense.",
+          "status": "Supported",
+          "source_refs": [
+            "ABBR-ZD-BIE3"
+          ],
+          "scope": "Mainland digital platform specific entry; print-edition authority pending"
+        },
+        {
+          "claim_type": "phonology",
+          "form": "瘪",
+          "claim": "biě [piɛ˨˩˦] in the selected sense; biē belongs to other uses.",
+          "status": "Supported",
+          "source_refs": [
+            "ABBR-ZD-BIE3"
+          ],
+          "scope": "Mainland digital platform specific entry; print-edition authority pending"
+        },
+        {
+          "claim_type": "modern_meaning",
+          "form": "蹩",
+          "claim": "Limp/sprain; no verified shortening/compression sense.",
+          "status": "Supported",
+          "source_refs": [
+            "ABBR-ZD-BIE2"
+          ],
+          "scope": "Mainland digital platform specific entry; print-edition authority pending"
+        },
+        {
+          "claim_type": "phonology",
+          "form": "蹩",
+          "claim": "bié [piɛ˧˥], second tone.",
+          "status": "Supported",
+          "source_refs": [
+            "ABBR-ZD-BIE2"
+          ],
+          "scope": "Mainland digital platform specific entry; print-edition authority pending"
+        }
+      ],
+      "source_audit_pending": [
+        {
+          "title": "现代汉语词典",
+          "status": "pending",
+          "claims": [
+            "瘪 / 蹩 modern_meaning",
+            "瘪 / 蹩 phonology"
+          ],
+          "reason": "Specific edition and entry not directly obtained; no quotation or page asserted."
+        },
+        {
+          "title": "新华字典",
+          "status": "pending",
+          "claims": [
+            "瘪 / 蹩 modern_meaning",
+            "瘪 / 蹩 phonology"
+          ],
+          "reason": "Specific edition and entry not directly obtained; no quotation or page asserted."
+        },
+        {
+          "title": "汉语大词典",
+          "status": "pending",
+          "claims": [
+            "historical_meaning",
+            "attestation"
+          ],
+          "reason": "Specific edition and entry not directly obtained; no quotation or page asserted."
+        },
+        {
+          "title": "汉语大字典",
+          "status": "pending",
+          "claims": [
+            "historical_meaning",
+            "attestation"
+          ],
+          "reason": "Specific edition and entry not directly obtained; no quotation or page asserted."
+        },
+        {
+          "title": "辞源",
+          "status": "pending",
+          "claims": [
+            "historical_meaning",
+            "attestation"
+          ],
+          "reason": "Specific edition and entry not directly obtained; no quotation or page asserted."
+        }
+      ],
+      "word_family_links": [
+        {
+          "word": "abbreviate",
+          "entry_id": "LB-en-abbreviate-035",
+          "page": "words/abbreviate.html",
+          "part_of_speech": "verb"
+        }
+      ],
+      "etymological_family_id": "LATIN-BREVIS-SHORT"
     },
     {
       "id": "LB-en-abdicate-036",

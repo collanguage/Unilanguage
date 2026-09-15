@@ -11,11 +11,11 @@ const page = fs.readFileSync(path.join(root, 'words/abhor.html'), 'utf8');
 
 test('ABHOR recalibrates one existing ID without changing the other 37 records', () => {
   const before = JSON.parse(cp.execFileSync('git', ['show', 'f0bbff3a8ec0adeef387f87ef5694352f4081e3a:data/language-book.v1.0.json'], {cwd:root, maxBuffer:10*1024*1024}));
-  assert.equal(data.entries.filter(e => !['horizon','horse'].includes(e.slug)).length, 38);
+  assert.equal(data.entries.filter(e => !['horizon','horse','abbreviation'].includes(e.slug)).length, 38);
   assert.equal(data.entries.filter(e => e.slug === 'abhor').length, 1);
   assert.equal(entry.id, 'LB-en-abhor-037');
   assert.deepEqual(data.entries.find(e => e.slug === 'abhor'), entry);
-  assert.deepEqual(data.entries.filter(e => !['abhor','horizon','horse','abdicate','abbreviate'].includes(e.slug)), before.entries.filter(e => !['abhor','abdicate','abbreviate'].includes(e.slug)));
+  assert.deepEqual(data.entries.filter(e => !['abhor','horizon','horse','abdicate','abbreviate','abbreviation'].includes(e.slug)), before.entries.filter(e => !['abhor','abdicate','abbreviate','abbreviation'].includes(e.slug)));
   assert.equal(entry.source.raw_note, before.entries.find(e => e.slug === 'abhor').source.raw_note);
 });
 
@@ -183,8 +183,8 @@ test('Historical unit mapping preserves sense, phonetic and historical boundarie
 
 test('Focused revision preserves every unrelated record from the latest base', () => {
  const before = JSON.parse(cp.execFileSync('git', ['show','92154ed5d7ab511df6e70dd69fc2ec38f9e59efa:data/language-book.v1.0.json'], {cwd:root,maxBuffer:10*1024*1024}));
- assert.deepEqual(data.entries.filter(e=>!['abhor','abdicate','abbreviate'].includes(e.slug)), before.entries.filter(e=>!['abhor','abdicate','abbreviate'].includes(e.slug)));
- assert.equal(data.entries.length,40);
+ assert.deepEqual(data.entries.filter(e=>!['abhor','abdicate','abbreviate','abbreviation'].includes(e.slug)), before.entries.filter(e=>!['abhor','abdicate','abbreviate','abbreviation'].includes(e.slug)));
+ assert.equal(data.entries.length,41);
  assert.equal(entry.diachronic_semantic_mapping.historical_stages.at(-1).modern_semantic_mapping_ref,entry.modern_standard_semantic_mapping.mapping_id);
 });
 
@@ -192,7 +192,7 @@ test('Frozen Mapper layout and browse adapter only gain the focused translation/
  const baseline='92154ed5d7ab511df6e70dd69fc2ec38f9e59efa';
  const get=f=>cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n');
  const current=f=>fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n');
- assert.equal(current('js/language-book-data.js'), get('js/language-book-data.js').replace('abhor: "恶"','abhor: "火"'));
+ assert.equal(current('js/language-book-data.js'), get('js/language-book-data.js').replace('abhor: "恶"','abhor: "火"').replace('abbreviate: "缩写",', 'abbreviate: "缩写", abbreviation: "缩写形式",'));
  assert.equal(current('js/semantic-mapper.js'), get('js/semantic-mapper.js')
   .replace('const standardGloss = entry.slug === "abdomen" ? "腹部" : mapping.target.word;', 'const standardGloss = entry.standard_translation?.target || (entry.slug === "abdomen" ? "腹部" : mapping.target.word);')
   .replace('escapeHtml(entry.slug === "abdomen" ? standardTranslations : mapping.target.word)','escapeHtml(entry.standard_translation?.target || (entry.slug === "abdomen" ? standardTranslations : mapping.target.word))')

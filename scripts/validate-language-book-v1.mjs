@@ -13,7 +13,7 @@ const slugs = new Set();
 
 check(schema.$defs?.entry, "JSON Schema lacks the entry definition");
 check(dataset.schema_version === "1.0.0" && dataset.dataset_version === "1.2.23", "Schema must remain 1.0.0 and the ABDICATE recalibration release must be 1.2.23");
-check(dataset.entries.length === 40, "HORSE adds exactly one record to the 39-record baseline");
+check(dataset.entries.length === 41, "ABBREVIATION noun split adds exactly one record to the 40-record baseline");
 check(dataset.author === "Jinkai Liu", "dataset author must be Jinkai Liu");
 check(/entry may be published/i.test(dataset.editorial_policy.publication_boundary.en), "publication boundary policy missing");
 check(/one English word/i.test(dataset.editorial_policy.data_separation.en), "data separation policy missing");
