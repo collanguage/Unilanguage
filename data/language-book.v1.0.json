@@ -17,8 +17,8 @@
       "zh-Hans": "一个英语词 → 一个主要汉语 Mapping → 独立历史词源 → 独立声音假说 → 独立实验验证。"
     },
     "present_day_vs_diachronic": {
-      "en": "Present-day Mapping ≠ Diachronic Mapping. Modern standard semantic mapping is separate from the featured candidate; historical-unit comparisons have separate fields, assessments and historical-relation boundaries.",
-      "zh-Hans": "现代词义映射 ≠ 历时语义映射。现代标准语义映射与特色候选分开；历史单位比较使用独立字段、评分及历史关系边界。"
+      "en": "Present-day Mapping ≠ Diachronic Mapping. Modern standard semantic mapping is separate from the featured candidate; historical-unit comparisons have separate fields, assessments and historical-relation boundaries. Diachronic Stage Mapping Principle: modern forms, historical forms/roots and earlier semantic stages may receive separate Chinese mappings when form, meaning or semantic operation changes materially; not one character per language. Each stage records its own evidence, status and confidence. Mapping pending is valid; Chinese Historical Relation stays Not claimed.",
+      "zh-Hans": "现代词义映射 ≠ 历时语义映射。现代标准语义映射与特色候选分开；历史单位比较使用独立字段、评分及历史关系边界。历时阶段映射原则：现代形式、历史形式／词根及早期语义阶段，仅在形式、意义或语义操作发生实质变化时分别映射；不机械要求每语言一汉字。每阶段单列证据、状态、置信度；允许 Mapping pending，汉语历史关系仍为 Not claimed。"
     },
     "featured_mapping_selection": {
       "en": "Featured Mapping is selected per entry and may differ from Standard Translation; selection must state whether its strength is phonetic, semantic, cognitive, dialectal, or cultural.",
@@ -13427,8 +13427,8 @@
       "id": "LB-en-aberrant-011",
       "slug": "aberrant",
       "title": {
-        "en": "Aberrant · Err · Error",
-        "zh-Hans": "Aberrant · 错讹 · 反常"
+        "en": "ABERRANT ↔ 讹 é · 反常的／偏离常规的",
+        "zh-Hans": "ABERRANT ↔ 讹 é · 反常的／偏离常规的"
       },
       "languages": [
         {
@@ -13436,31 +13436,35 @@
           "code": "en",
           "name": "English",
           "word": "aberrant",
-          "pronunciation": "/əˈberənt/; also /ˈæbərənt/"
+          "pronunciation": "/əˈberənt/; also /ˈæbərənt/",
+          "part_of_speech": "adjective · 形容词"
         },
         {
           "role": "historically-related-root-family",
           "code": "en",
           "name": "English",
           "word": "err",
-          "pronunciation": "/er/ or /ɜːr/"
+          "pronunciation": "BrE non-rhotic /ɜː/ (linking /r/); AmE /er/, also /ɝ/; accent-dependent",
+          "part_of_speech": "verb · 动词"
         },
         {
           "role": "historically-related-form",
           "code": "fr",
           "name": "French",
           "word": "aberrant / aberrante",
-          "pronunciation": "/a.bɛ.ʁɑ̃/ · /a.bɛ.ʁɑ̃t/"
+          "pronunciation": "/a.bɛ.ʁɑ̃/ · /a.bɛ.ʁɑ̃t/",
+          "part_of_speech": "adjectif; masculin / féminin"
         },
         {
           "role": "historically-related-root-family",
           "code": "fr",
           "name": "French",
           "word": "erreur",
-          "pronunciation": "/ɛ.ʁœʁ/"
+          "pronunciation": "/ɛ.ʁœʁ/ (broad modern reference; TLFi [εʀœ:ʀ])",
+          "part_of_speech": "nom féminin"
         },
         {
-          "role": "target",
+          "role": "standard-translation",
           "code": "zh-Hans",
           "name": "Chinese",
           "word": "反常的／偏离常规的",
@@ -13472,6 +13476,29 @@
           "name": "Chinese",
           "word": "讹",
           "pronunciation": "é /ɤ˧˥/"
+        },
+        {
+          "role": "historically-related-root-family",
+          "code": "en",
+          "name": "English",
+          "word": "error",
+          "pronunciation": "BrE /ˈerə(r)/; AmE /ˈerər/",
+          "part_of_speech": "noun · 名词"
+        },
+        {
+          "role": "historical-form",
+          "code": "la",
+          "name": "Latin",
+          "word": "errāre",
+          "pronunciation": "[ɛrˈraː.rɛ] approximate Classical reference; not recorded ancient speech",
+          "part_of_speech": "present active infinitive"
+        },
+        {
+          "role": "modern-semantic-mapping",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "偏",
+          "pronunciation": "piān"
         }
       ],
       "primary_mapping": {
@@ -13491,18 +13518,18 @@
           "zh-Hans": "偏离公认标准、正常路径或通常类型的；反常的、异常的"
         },
         "meaning": {
-          "en": "Aberrant is primarily an adjective, not the ordinary noun for an error. Chinese 讹 is a semantic neighbour and sound candidate, not the primary translation.",
-          "zh-Hans": "aberrant 主要是形容词，并非普通名词“错误”。汉语“讹”是语义邻近项和声音候选，不是主要翻译。"
+          "en": "Standard adjective meaning: departing from the usual or normal type. Featured err ↔ 讹 é belongs to the related ERROR stage; modern semantic mapping → 偏; earlier Latin WANDER/STRAY mapping pending.",
+          "zh-Hans": "标准形容词义：反常的／偏离常规的。特色 err ↔ 讹 é 属于词族的 ERROR 阶段；现代语义映射 → 偏；早期拉丁 WANDER／STRAY 阶段待定。"
         },
         "mapping_type": "Reviewed lexical equivalent",
         "rationale": {
-          "en": "Dictionary meaning and part of speech support 反常的／偏离常规的. The separate err ↔ 讹 comparison remains a candidate hypothesis.",
-          "zh-Hans": "词典义与词性支持“反常的／偏离常规的”；err ↔ 讹的比较另列为候选假说。"
+          "en": "The standard adjective translation describes deviation from a norm. The featured err ↔ 讹 comparison is limited to the related ERROR stage, with separate evidence and confidence.",
+          "zh-Hans": "标准形容词翻译描述偏离常态；特色 err ↔ 讹 比较限定在相关 ERROR 阶段，证据与置信度独立。"
         }
       },
       "entry_status": "Reviewed",
-      "mapping_status": "Reviewed",
-      "mapping_level": "Unrated",
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
       "historical_relation_status": "Not claimed",
       "evidence": {
         "Historical": {
@@ -13581,43 +13608,47 @@
           "status": "Candidate",
           "confidence": "Low",
           "summary": {
-            "en": "English err and Mandarin 讹 é occupy a related error/deviation semantic field and may sound loosely similar. Their actual pronunciations are not identical: English has an r-coloured or vowel-plus-/r/ form depending on accent, while Mandarin é /ɤ˧˥/ is non-rhotic and bears lexical tone. No regular correspondence or common origin is claimed.",
-            "zh-Hans": "英语 err 与普通话“讹”é 同处错误／偏离语义场，也可能产生宽泛音近感。但实际发音并不相同：英语依口音具有卷舌色彩或元音加 /r/，普通话 é /ɤ˧˥/ 不卷舌且带词汇声调。这里不主张规律音变或共同来源。"
+            "en": "Featured ERR / ERROR ↔ 讹 é: error semantics overlap, but err is a verb; 讹 is selected in error/corruption uses. BrE non-rhotic /ɜː/, rhotic /er, ɝ/ and Mandarin /ɤ˧˥/ differ. Modern stage → 偏; Latin wander/stray stage mapping pending.",
+            "zh-Hans": "特色 ERR / ERROR ↔ 讹 é：错误义有交集，但 err 为动词，讹取差错／讹误用法。非 rhotic 英式 /ɜː/、rhotic /er, ɝ/ 与普通话 /ɤ˧˥/ 不同。现代阶段 → 偏；拉丁游走／迷途阶段 Mapping pending。"
           },
           "items": [
             {
               "evidence_id": "PHONSEM-ERR-E-001",
               "claim": {
-                "en": "err ↔ 讹 é is a modern-form phonetic-semantic candidate: both can concern mistake/error, but sound overlap is partial and accent-dependent.",
-                "zh-Hans": "err ↔ 讹 é 是现代词形的语音—语义候选：两者都可涉及错误，但声音重合仅属部分且受英语口音影响。"
+                "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+                "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
               },
               "status": "Candidate",
               "confidence": "Low",
               "source_refs": [
+                "ABER-OALD-ERR",
+                "ABER-OALD-ERROR",
                 "REF-MW-ERR",
-                "REF-ZDIC-E",
-                "REF-JL-ABERRANT-RAW"
+                "REF-CNRTL-ERREUR",
+                "REF-ZDIC-E"
               ]
             }
           ],
           "source_refs": [
+            "ABER-OALD-ERR",
+            "ABER-OALD-ERROR",
             "REF-MW-ERR",
-            "REF-ZDIC-E",
-            "REF-JL-ABERRANT-RAW"
+            "REF-CNRTL-ERREUR",
+            "REF-ZDIC-E"
           ]
         },
         "Cognitive": {
           "status": "Interpretive",
           "confidence": "Medium",
           "summary": {
-            "en": "The historically attested motion image ‘wander away’ supports a cognitive path DEPARTURE → DEVIATION → ERROR/ABNORMALITY. This explains a shared semantic neighbourhood, not a Chinese–European etymological relation.",
-            "zh-Hans": "历史可证的运动意象“游荡离开”支持 DEPARTURE → DEVIATION → ERROR／ABNORMALITY 的认知路径。这解释共享语义邻域，不证明汉语与欧洲语言的词源关系。"
+            "en": "Modern ABERRANT → 偏 is a semantic abstraction. Latin WANDER / STRAY and figurative ERROR coexist in the recorded family: the path is a semantic organization, not a dated sequence in which each sense replaced the previous one.",
+            "zh-Hans": "现代 ABERRANT → 偏 是语义概括。拉丁词族已有游走／偏离及比喻错误义并存；此路径为语义组织，不是每义依次取代前义的精确年代链。"
           },
           "items": [],
           "source_refs": [
             "REF-MW-ABERRANT",
             "REF-MW-ERR",
-            "REF-ZDIC-E"
+            "ABER-ZD-PIAN"
           ]
         },
         "Speculative": {
@@ -13654,14 +13685,50 @@
         {
           "observation_id": "PHON-ERR-E-001",
           "claim": {
-            "en": "English err /er, ɜːr/ and Mandarin 讹 é /ɤ˧˥/ share an onsetless vowel-centred impression for some listeners and overlap semantically around error.",
-            "zh-Hans": "英语 err /er, ɜːr/ 与普通话“讹”é /ɤ˧˥/ 对部分听者有以元音为中心的近似听感，语义又都涉及错误。"
+            "en": "err ↔ 讹 is an accent-dependent partial resemblance, not homophony.",
+            "zh-Hans": "err ↔ 讹 为受口音影响的部分音近，不是同音。"
           },
           "status": "Candidate",
+          "scope": "Modern English sound comparison within a historically identified family; no Latin–Old Chinese sound equation",
+          "segments": {
+            "onset": {
+              "en": "Both are phonologically vowel-initial. Absence of an onset is common and not positive evidence of a consonant correspondence.",
+              "zh-Hans": "均可分析为零声母／元音起首；无声母很常见，不是辅音规律对应的正证。"
+            },
+            "vowel": {
+              "en": "BrE /ɜː/ is a long central vowel; AmE /er/ has a front vowel and /r/, or /ɝ/ has rhotic colouring. Mandarin /ɤ/ is back and unrounded; spelling e does not equate these vowels.",
+              "zh-Hans": "英式 /ɜː/ 为长央元音；美式 /er/ 为前元音加 /r/，另有卷舌 /ɝ/。普通话 /ɤ/ 为后不圆唇元音；字母 e 相似不等于元音相同。"
+            },
+            "rhoticity": {
+              "en": "Non-rhotic BrE err has no final /r/ before a pause, but may link /r/ before a vowel; rhotic accents retain /r/ or r-colouring. Mandarin é has neither.",
+              "zh-Hans": "非 rhotic 英式 err 在停顿前无词尾 /r/，元音前可连读 /r/；rhotic 口音保留 /r/ 或卷舌色彩；普通话 é 均无。"
+            },
+            "syllables": {
+              "en": "err and é are monosyllabic. error is two syllables /ˈerə(r), ˈerər/; erreur /ɛ.ʁœʁ/ is two syllables with uvular rhotics and a rounded /œ/. Neither is a homophone of é; whole aberrant has three syllables.",
+              "zh-Hans": "err、é 均单音节；error /ˈerə(r), ˈerər/ 为两音节；erreur /ɛ.ʁœʁ/ 为两音节，含小舌音及圆唇 /œ/。两者均非 é 的同音词；完整 aberrant 为三音节。"
+            },
+            "tone": {
+              "en": "Mandarin é has lexical rising tone /ɤ˧˥/; English stress and French phrase prosody do not match Mandarin tone.",
+              "zh-Hans": "普通话 é 带阳平 /ɤ˧˥/；英语重音、法语短语韵律不对应普通话词汇声调。"
+            }
+          },
+          "rating": {
+            "score": 10,
+            "maximum": 30,
+            "confidence": "Low",
+            "method": "Editorial components: onset absence 1/10; vowel resemblance 4/8; rhotic/coda fit across accents 2/5; one-syllable shape 3/4; tone/prosody 0/3. No acoustic data. The whole error/erreur words receive no transferred err score."
+          },
           "limitations": {
-            "en": "English rhoticity, vowel quality and Mandarin lexical tone differ; ‘same sound’ overstates the comparison.",
-            "zh-Hans": "英语卷舌性、元音音质与普通话词汇声调均不同；称为“同音”会夸大比较。"
-          }
+            "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+            "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+          },
+          "source_refs": [
+            "ABER-OALD-ERR",
+            "ABER-OALD-ERROR",
+            "REF-MW-ERR",
+            "REF-CNRTL-ERREUR",
+            "REF-ZDIC-E"
+          ]
         }
       ],
       "semantic_structure": {
@@ -13686,15 +13753,16 @@
           "status": "Candidate",
           "confidence": "Low",
           "supporting_cases": [
-            "err /er, ɜːr/: make a mistake; stray",
-            "讹 é /ɤ˧˥/: erroneous, incorrect",
-            "shared ERROR/DEVIATION field"
+            "err: verb, make a mistake; earlier stray",
+            "讹 é: selected error/corruption uses",
+            "one LATIN-ERRARE family, not independent English/French samples"
           ],
           "counterexamples": [
-            "non-identical vowel quality",
-            "English rhoticity absent in Mandarin",
-            "Mandarin lexical tone unmatched",
-            "no demonstrated historical chain"
+            "vowel quality differs",
+            "non-rhotic and rhotic English vary",
+            "Mandarin tone unmatched",
+            "verb versus nominal/compound usage",
+            "no demonstrated cross-language historical chain"
           ],
           "testability": {
             "en": "Test blinded sound-similarity and semantic-relatedness separately, with unrelated onsetless-vowel controls and multiple English accents.",
@@ -13742,23 +13810,24 @@
         "status": "Reviewed",
         "is_historical_evidence": false,
         "proposition": {
-          "en": "When it is aberrant, is it beautiful like a swan, or a mis-sounded cry of a domestic goose? No—that love is full of beauty and art.",
-          "zh-Hans": "错讹的时候，是一种如天鹅般的美，还是家鹅的一声讹音？不——那爱里，仍充满美与艺。"
+          "en": "In a moment of error, is it beauty like a swan’s, or a goose’s mistaken call? No, that love is full of beauty and art.",
+          "zh-Hans": "错讹的时候，是一种如天鹅般美丽还是家鹅的讹音？不，那爱充满美艺。"
         },
         "essay_prose": [],
         "poem_lyrics": [],
         "translations": [
           {
             "language": "English",
-            "status": "Reviewed",
-            "text": "When it is aberrant, is it beautiful like a swan, or a mis-sounded cry of a domestic goose? No—that love is full of beauty and art."
+            "status": "Literary translation; lightly revised 2026-09-15",
+            "text": "In a moment of error, is it beauty like a swan’s, or a goose’s mistaken call? No, that love is full of beauty and art."
           }
         ],
         "archival_manuscript_media": [],
         "evidence_boundary": {
           "en": "The swan/domestic-goose, mis-sound, love, beauty and art wordplay is literature. It does not support the historical morphology or the err ↔ 讹 hypothesis.",
           "zh-Hans": "天鹅／家鹅、讹音、爱、美与艺的文字游戏属于文学，不为历史形态或 err ↔ 讹假说提供证据。"
-        }
+        },
+        "author": "Jinkai Liu"
       },
       "media": [],
       "references": [
@@ -13776,7 +13845,8 @@
           "type": "dictionary",
           "url": "https://www.merriam-webster.com/dictionary/aberrant",
           "path": null,
-          "provenance": "external dictionary; accessed 2026-08-30"
+          "provenance": "external dictionary; accessed 2026-08-30",
+          "accessed": "2026-09-15"
         },
         {
           "reference_id": "REF-OALD-ABERRANT",
@@ -13784,7 +13854,8 @@
           "type": "dictionary",
           "url": "https://www.oxfordlearnersdictionaries.com/definition/english/aberrant",
           "path": null,
-          "provenance": "external dictionary; accessed 2026-08-30"
+          "provenance": "external dictionary; accessed 2026-08-30",
+          "accessed": "2026-09-15"
         },
         {
           "reference_id": "REF-MW-ERR",
@@ -13792,7 +13863,8 @@
           "type": "dictionary",
           "url": "https://www.merriam-webster.com/dictionary/err",
           "path": null,
-          "provenance": "external dictionary; accessed 2026-08-30"
+          "provenance": "external dictionary; accessed 2026-08-30",
+          "accessed": "2026-09-15"
         },
         {
           "reference_id": "REF-AF-ABERRANT",
@@ -13808,7 +13880,8 @@
           "type": "historical dictionary",
           "url": "https://www.cnrtl.fr/etymologie/aberrant",
           "path": null,
-          "provenance": "external lexicographic reference; accessed 2026-08-30"
+          "provenance": "external lexicographic reference; accessed 2026-08-30",
+          "accessed": "2026-09-15"
         },
         {
           "reference_id": "REF-CNRTL-ABERRER",
@@ -13816,15 +13889,17 @@
           "type": "historical dictionary",
           "url": "https://www.cnrtl.fr/etymologie/aberrer",
           "path": null,
-          "provenance": "external lexicographic reference; accessed 2026-08-30"
+          "provenance": "external lexicographic reference; accessed 2026-08-30",
+          "accessed": "2026-09-15"
         },
         {
           "reference_id": "REF-CNRTL-ERREUR",
           "title": "CNRTL/TLFi: erreur",
           "type": "historical dictionary",
-          "url": "https://www.cnrtl.fr/definition/erreur",
+          "url": "https://www.cnrtl.fr/definition/erreurs",
           "path": null,
-          "provenance": "external lexicographic reference; accessed 2026-08-30"
+          "provenance": "TLFi erreur entry via plural lookup; cached lexical text checked; current endpoint intermittently redirects to empty portal",
+          "accessed": "2026-09-15"
         },
         {
           "reference_id": "REF-LANGUAGESBOOK-ABERRANT",
@@ -13840,24 +13915,83 @@
           "type": "mainland digital lexicographic platform",
           "url": "https://www.zdic.net/hans/讹",
           "path": null,
-          "provenance": "汉典现行条目；用于讹的错误、谬误及讹误相关现代义；不支持跨语言同源；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+          "provenance": "汉典现行条目；用于讹的错误、谬误及讹误相关现代义；不支持跨语言同源；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABER-OALD-ERR",
+          "title": "Oxford Advanced Learner’s Dictionary: err",
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/err",
+          "type": "lexicographic or grammatical source",
+          "path": null,
+          "provenance": "British /ɜː(r)/ and American /er/; verb and history",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABER-OALD-ERROR",
+          "title": "Oxford Advanced Learner’s Dictionary: error",
+          "url": "https://www.oxfordlearnersdictionaries.com/definition/english/error",
+          "type": "lexicographic or grammatical source",
+          "path": null,
+          "provenance": "Noun; British and American IPA",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABER-DCC",
+          "title": "Allen & Greenough: Vowel and Consonant Pronunciation",
+          "url": "https://dcc.dickinson.edu/grammar/latin/vowel-and-consonant-pronunciation",
+          "type": "lexicographic or grammatical source",
+          "path": null,
+          "provenance": "DCC §8, approximate Roman pronunciation; IPA here is editorial inference",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABER-ZD-PIAN",
+          "title": "汉典：偏",
+          "url": "https://zdic.net/hans/偏",
+          "type": "lexicographic or grammatical source",
+          "path": null,
+          "provenance": "大陆数字辞书平台；限基本／详细解释、拼音；不使用嵌入其他辞书栏目或古籍引文",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABER-ZD-YOU",
+          "title": "汉典：游",
+          "url": "https://zdic.net/hans/游",
+          "type": "lexicographic or grammatical source",
+          "path": null,
+          "provenance": "大陆数字辞书平台；限基本／详细解释、拼音；不使用嵌入其他辞书栏目或古籍引文",
+          "accessed": "2026-09-15"
+        },
+        {
+          "reference_id": "ABER-ZD-MI",
+          "title": "汉典：迷",
+          "url": "https://zdic.net/hans/迷",
+          "type": "lexicographic or grammatical source",
+          "path": null,
+          "provenance": "大陆数字辞书平台；限基本／详细解释、拼音；不使用嵌入其他辞书栏目或古籍引文",
+          "accessed": "2026-09-15"
         }
       ],
       "author": "Jinkai Liu",
-      "version": "Dataset Expansion v1 / Schema v1.0",
+      "version": "ABERRANT Diachronic Stage Recalibration v1.0 / Schema v1.0",
       "dates": {
         "created": "2026-08-30",
-        "modified": "2026-09-01",
+        "modified": "2026-09-15",
         "published": null
       },
       "editorial_notes": [
         {
-          "en": "Aberrant and err remain distinct: aberrant is chiefly an adjective; err is a verb. They are connected through the Latin errare family.",
-          "zh-Hans": "aberrant 与 err 保持区分：aberrant 主要是形容词，err 是动词；两者通过拉丁语 errare 词族相连。"
+          "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+          "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
         },
         {
-          "en": "The ordinary lexical mapping is reviewed; the err ↔ 讹 sound-meaning observation remains Candidate. Publication or literary review does not prove that candidate.",
-          "zh-Hans": "普通词义对应已核验；err ↔ 讹的声音—意义观察仍为 Candidate。词条发表或文学审核都不证明该候选成立。"
+          "en": "C — Experimental (testable, not experimentally validated); Phonetic-Semantic Candidate; Weak overall confidence. Scoped error semantics justify investigation; limited sound resemblance remains untested. Level follows relationship type, not a numerical threshold.",
+          "zh-Hans": "C—Experimental（待实验验证）；语音语义候选；整体置信度 Low／Weak。限定错误义支持研究，部分音近未经实验；等级按关系性质判断，不由分数机械换算。"
+        },
+        {
+          "en": "The primary lexical field remains the standard adjective translation; Featured Mapping is separately selected. Latin, French and English evidence belongs to one family, not independent support for Chinese cognacy.",
+          "zh-Hans": "primary lexical 字段保留标准形容词翻译；Featured Mapping 独立选择。拉丁、法语、英语为同一词族，不计为汉语同源的多个独立支持样本。"
         }
       ],
       "search_terms": [
@@ -13911,9 +14045,16 @@
         "讹音",
         "訛音",
         "美艺",
-        "美藝"
+        "美藝",
+        "errāre",
+        "errare",
+        "aberrāre",
+        "aberrare",
+        "偏",
+        "piān",
+        "Diachronic Stage Mapping"
       ],
-      "page": null,
+      "page": "words/aberrant.html",
       "legacy": null,
       "source": {
         "type": "author-provided raw research note",
@@ -13927,7 +14068,461 @@
         "source_url": "https://languagesbook.com/glossary/aberration-aberasj%c9%99n-n-%e8%8d%92%e8%b0%ac/",
         "action": "merged-source-deduplicated",
         "raw_note": "aberrant，错讹。讹 e。err 与讹同音。"
-      }
+      },
+      "confidence": "Low",
+      "translation_status": "Supported",
+      "direct_lexical_semantic_equivalence": false,
+      "etymological_family_id": "LATIN-ERRARE",
+      "standard_translation": {
+        "source": "aberrant",
+        "target": "反常的／偏离常规的",
+        "terms": [
+          "反常的",
+          "偏离常规的",
+          "异常的"
+        ],
+        "part_of_speech": "adjective",
+        "status": "Supported",
+        "is_featured_mapping": false,
+        "source_refs": [
+          "REF-MW-ABERRANT",
+          "REF-OALD-ABERRANT"
+        ]
+      },
+      "translation_source_refs": [
+        "REF-MW-ABERRANT",
+        "REF-OALD-ABERRANT"
+      ],
+      "featured_mapping": {
+        "source": "ABERRANT",
+        "target": "讹",
+        "reading": "é",
+        "display_label": "Featured Historical-unit Phonetic-Semantic Candidate · basis: ERR / ERROR ↔ 讹（错误义；非整词翻译） · C / Low",
+        "status": "Candidate",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+          "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+        },
+        "source_refs": [
+          "REF-MW-ERR",
+          "ABER-OALD-ERR",
+          "ABER-OALD-ERROR",
+          "REF-ZDIC-E"
+        ]
+      },
+      "mapping_assessment": {
+        "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
+        "method": "Unvalidated editorial assessment, not acoustic measurement or probability; scoped to err ↔ 讹 in the ERROR stage, not whole-word aberrant.",
+        "dimensions": [
+          {
+            "name": "Phonetic Relation",
+            "weight": 30,
+            "score": 10,
+            "reason": "零声母和单音节有部分相似；元音、rhoticity、声调不同"
+          },
+          {
+            "name": "Semantic Relation",
+            "weight": 30,
+            "score": 22,
+            "reason": "错误／讹误语义有交集；err 动作与讹的名词／语素用法不完全等价"
+          },
+          {
+            "name": "Structural / Cognitive Relation",
+            "weight": 20,
+            "score": 13,
+            "reason": "偏离路径与偏离正确性可解释；非独立历史证据"
+          },
+          {
+            "name": "Contextual Validity",
+            "weight": 20,
+            "score": 8,
+            "reason": "文字讹误语境较合适；不能替换所有 error，更不能替换 aberrant；无盲测"
+          }
+        ],
+        "total": 53,
+        "maximum": 100,
+        "level": "C",
+        "confidence": "Low",
+        "rationale": {
+          "en": "C — Experimental (testable, not experimentally validated); Phonetic-Semantic Candidate; Weak overall confidence. Scoped error semantics justify investigation; limited sound resemblance remains untested. Level follows relationship type, not a numerical threshold.",
+          "zh-Hans": "C—Experimental（待实验验证）；语音语义候选；整体置信度 Low／Weak。限定错误义支持研究，部分音近未经实验；等级按关系性质判断，不由分数机械换算。"
+        }
+      },
+      "featured_mapping_assessment": {
+        "compared_unit": "modern err ↔ 讹 é; ERROR stage",
+        "whole_word_homophony": false,
+        "mapping_assessment": {
+          "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
+          "method": "Unvalidated editorial assessment, not acoustic measurement or probability; scoped to err ↔ 讹 in the ERROR stage, not whole-word aberrant.",
+          "dimensions": [
+            {
+              "name": "Phonetic Relation",
+              "weight": 30,
+              "score": 10,
+              "reason": "零声母和单音节有部分相似；元音、rhoticity、声调不同"
+            },
+            {
+              "name": "Semantic Relation",
+              "weight": 30,
+              "score": 22,
+              "reason": "错误／讹误语义有交集；err 动作与讹的名词／语素用法不完全等价"
+            },
+            {
+              "name": "Structural / Cognitive Relation",
+              "weight": 20,
+              "score": 13,
+              "reason": "偏离路径与偏离正确性可解释；非独立历史证据"
+            },
+            {
+              "name": "Contextual Validity",
+              "weight": 20,
+              "score": 8,
+              "reason": "文字讹误语境较合适；不能替换所有 error，更不能替换 aberrant；无盲测"
+            }
+          ],
+          "total": 53,
+          "maximum": 100,
+          "level": "C",
+          "confidence": "Low",
+          "rationale": {
+            "en": "C — Experimental (testable, not experimentally validated); Phonetic-Semantic Candidate; Weak overall confidence. Scoped error semantics justify investigation; limited sound resemblance remains untested. Level follows relationship type, not a numerical threshold.",
+            "zh-Hans": "C—Experimental（待实验验证）；语音语义候选；整体置信度 Low／Weak。限定错误义支持研究，部分音近未经实验；等级按关系性质判断，不由分数机械换算。"
+          }
+        },
+        "basis": "ERR / ERROR semantic stage; modern err pronunciation",
+        "mapping_id": "MAP-ERR-E-STAGE"
+      },
+      "modern_semantic_mapping": {
+        "mapping_id": "MAP-ABERRANT-MODERN-PIAN",
+        "source": "ABERRANT",
+        "target": "偏",
+        "reading": "piān",
+        "mapping_type": "Semantic / Cognitive",
+        "status": "Candidate",
+        "mapping_level": "Unrated",
+        "confidence": "Medium",
+        "historical_relation_status": "Not claimed",
+        "source_refs": [
+          "REF-OALD-ABERRANT",
+          "ABER-ZD-PIAN"
+        ],
+        "meaning": {
+          "en": "Deviation from a normal course → 偏 (departing from a centre/course). A semantic abstraction, not a complete adjective translation; no phonetic claim.",
+          "zh-Hans": "偏离正常路径 → 偏（偏斜／偏离）；为语义概括，不是完整形容词译法，不主张音近。"
+        }
+      },
+      "diachronic_semantic_mapping": {
+        "historical_path": "English aberrant ← Latin aberrant- / aberrāns (present participle of aberrāre = ab- + errāre). French aberrant ← adjectivized participle of aberrer ← Latin aberrāre. English err ← Middle English erren ← Anglo-French and Latin errāre; error / erreur share the Latin error family. These are branches, not English → French → Latin in a single borrowing chain.",
+        "semantic_path": "WANDER / STRAY → DEVIATE FROM A PATH → ERROR / DEPARTURE FROM A NORM (semantic organization; meanings coexist, no dated replacement sequence claimed)",
+        "historical_stages": [
+          {
+            "stage_id": "LATIN-WANDER",
+            "form": "errāre",
+            "language": "Latin",
+            "meaning": "wander / roam / stray; also figurative error in Latin",
+            "evidence_status": "Established",
+            "status": "Mapping pending",
+            "confidence": "Unknown",
+            "target": null,
+            "historical_relation_status": "Not claimed",
+            "source_refs": [
+              "REF-MW-ERR",
+              "ABER-DCC"
+            ],
+            "phonetic_reference": "[ɛrˈraː.rɛ], approximate Classical reference inferred from spelling, vowel quantity and DCC pronunciation; /rr/ geminate rhotic, three syllables, no Mandarin lexical tone; not ancient audio.",
+            "candidate_review": [
+              {
+                "target": "游",
+                "reading": "yóu",
+                "status": "Semantic-only option; phonetic-semantic mapping pending",
+                "reason": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+                "source_refs": [
+                  "ABER-ZD-YOU"
+                ]
+              },
+              {
+                "target": "迷",
+                "reading": "mí",
+                "status": "Semantic-only option; phonetic-semantic mapping pending",
+                "reason": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+                "source_refs": [
+                  "ABER-ZD-MI"
+                ]
+              }
+            ],
+            "boundary": "Modern Mandarin candidates only; not ancient Chinese reconstructions. No forced character selection."
+          },
+          {
+            "stage_id": "ERROR",
+            "form": "ERR / ERROR; French erreur as secondary comparison",
+            "meaning": "mistake / corruption of correctness",
+            "evidence_status": "Supported",
+            "status": "Candidate",
+            "confidence": "Low",
+            "mapping_id": "MAP-ERR-E-STAGE",
+            "target": "讹",
+            "historical_relation_status": "Not claimed",
+            "source_refs": [
+              "ABER-OALD-ERR",
+              "ABER-OALD-ERROR",
+              "REF-MW-ERR",
+              "REF-CNRTL-ERREUR",
+              "REF-ZDIC-E"
+            ]
+          },
+          {
+            "stage_id": "MODERN-ABERRANT",
+            "form": "ABERRANT",
+            "meaning": "departing from normal / usual",
+            "evidence_status": "Supported",
+            "status": "Candidate",
+            "confidence": "Medium",
+            "mapping_id": "MAP-ABERRANT-MODERN-PIAN",
+            "target": "偏",
+            "historical_relation_status": "Not claimed",
+            "source_refs": [
+              "REF-OALD-ABERRANT",
+              "ABER-ZD-PIAN"
+            ]
+          }
+        ],
+        "mappings": [
+          {
+            "mapping_id": "MAP-ERR-E-STAGE",
+            "source": {
+              "language": "English, Latin-derived family",
+              "word": "ERR / ERROR",
+              "pronunciation": "err: BrE /ɜː(r)/; AmE /er, ɝ/; error: /ˈerə(r), ˈerər/"
+            },
+            "target": {
+              "language": "Modern Mandarin",
+              "word": "讹",
+              "pronunciation": "é /ɤ˧˥/"
+            },
+            "source_semantics": "make a mistake / error; not all WANDER senses",
+            "target_sense": "差错、文字／记载讹误；非全部谣言、讹诈或古义",
+            "status": "Candidate",
+            "mapping_level": "C",
+            "confidence": "Low",
+            "historical_relation_status": "Not claimed",
+            "phonetic_observation": {
+              "observation_id": "PHON-ERR-E-001",
+              "claim": {
+                "en": "err ↔ 讹 is an accent-dependent partial resemblance, not homophony.",
+                "zh-Hans": "err ↔ 讹 为受口音影响的部分音近，不是同音。"
+              },
+              "status": "Candidate",
+              "scope": "Modern English sound comparison within a historically identified family; no Latin–Old Chinese sound equation",
+              "segments": {
+                "onset": {
+                  "en": "Both are phonologically vowel-initial. Absence of an onset is common and not positive evidence of a consonant correspondence.",
+                  "zh-Hans": "均可分析为零声母／元音起首；无声母很常见，不是辅音规律对应的正证。"
+                },
+                "vowel": {
+                  "en": "BrE /ɜː/ is a long central vowel; AmE /er/ has a front vowel and /r/, or /ɝ/ has rhotic colouring. Mandarin /ɤ/ is back and unrounded; spelling e does not equate these vowels.",
+                  "zh-Hans": "英式 /ɜː/ 为长央元音；美式 /er/ 为前元音加 /r/，另有卷舌 /ɝ/。普通话 /ɤ/ 为后不圆唇元音；字母 e 相似不等于元音相同。"
+                },
+                "rhoticity": {
+                  "en": "Non-rhotic BrE err has no final /r/ before a pause, but may link /r/ before a vowel; rhotic accents retain /r/ or r-colouring. Mandarin é has neither.",
+                  "zh-Hans": "非 rhotic 英式 err 在停顿前无词尾 /r/，元音前可连读 /r/；rhotic 口音保留 /r/ 或卷舌色彩；普通话 é 均无。"
+                },
+                "syllables": {
+                  "en": "err and é are monosyllabic. error is two syllables /ˈerə(r), ˈerər/; erreur /ɛ.ʁœʁ/ is two syllables with uvular rhotics and a rounded /œ/. Neither is a homophone of é; whole aberrant has three syllables.",
+                  "zh-Hans": "err、é 均单音节；error /ˈerə(r), ˈerər/ 为两音节；erreur /ɛ.ʁœʁ/ 为两音节，含小舌音及圆唇 /œ/。两者均非 é 的同音词；完整 aberrant 为三音节。"
+                },
+                "tone": {
+                  "en": "Mandarin é has lexical rising tone /ɤ˧˥/; English stress and French phrase prosody do not match Mandarin tone.",
+                  "zh-Hans": "普通话 é 带阳平 /ɤ˧˥/；英语重音、法语短语韵律不对应普通话词汇声调。"
+                }
+              },
+              "rating": {
+                "score": 10,
+                "maximum": 30,
+                "confidence": "Low",
+                "method": "Editorial components: onset absence 1/10; vowel resemblance 4/8; rhotic/coda fit across accents 2/5; one-syllable shape 3/4; tone/prosody 0/3. No acoustic data. The whole error/erreur words receive no transferred err score."
+              },
+              "limitations": {
+                "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+                "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+              },
+              "source_refs": [
+                "ABER-OALD-ERR",
+                "ABER-OALD-ERROR",
+                "REF-MW-ERR",
+                "REF-CNRTL-ERREUR",
+                "REF-ZDIC-E"
+              ]
+            },
+            "mapping_assessment": {
+              "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
+              "method": "Unvalidated editorial assessment, not acoustic measurement or probability; scoped to err ↔ 讹 in the ERROR stage, not whole-word aberrant.",
+              "dimensions": [
+                {
+                  "name": "Phonetic Relation",
+                  "weight": 30,
+                  "score": 10,
+                  "reason": "零声母和单音节有部分相似；元音、rhoticity、声调不同"
+                },
+                {
+                  "name": "Semantic Relation",
+                  "weight": 30,
+                  "score": 22,
+                  "reason": "错误／讹误语义有交集；err 动作与讹的名词／语素用法不完全等价"
+                },
+                {
+                  "name": "Structural / Cognitive Relation",
+                  "weight": 20,
+                  "score": 13,
+                  "reason": "偏离路径与偏离正确性可解释；非独立历史证据"
+                },
+                {
+                  "name": "Contextual Validity",
+                  "weight": 20,
+                  "score": 8,
+                  "reason": "文字讹误语境较合适；不能替换所有 error，更不能替换 aberrant；无盲测"
+                }
+              ],
+              "total": 53,
+              "maximum": 100,
+              "level": "C",
+              "confidence": "Low",
+              "rationale": {
+                "en": "C — Experimental (testable, not experimentally validated); Phonetic-Semantic Candidate; Weak overall confidence. Scoped error semantics justify investigation; limited sound resemblance remains untested. Level follows relationship type, not a numerical threshold.",
+                "zh-Hans": "C—Experimental（待实验验证）；语音语义候选；整体置信度 Low／Weak。限定错误义支持研究，部分音近未经实验；等级按关系性质判断，不由分数机械换算。"
+              }
+            },
+            "boundary": {
+              "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+              "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+            },
+            "source_refs": [
+              "ABER-OALD-ERR",
+              "ABER-OALD-ERROR",
+              "REF-MW-ERR",
+              "REF-CNRTL-ERREUR",
+              "REF-ZDIC-E"
+            ]
+          }
+        ],
+        "boundary": {
+          "en": "Diachronic Stage Mapping Principle: map separately only where form, meaning or semantic operation changes materially, not one character per language. Each stage has its own evidence, status and confidence. Chinese historical relation remains Not claimed.",
+          "zh-Hans": "历时阶段映射原则：仅在形式、意义或语义操作有实质变化时分阶段映射，不是每经过一种语言就配一个汉字；每阶段独立 evidence/status/confidence。汉语跨语言 Historical Relation 仍为 Not claimed。"
+        }
+      },
+      "legacy_calibration": {
+        "raw_hypotheses": [
+          "err 与讹同音",
+          "a.b.err.ant: b added between vowels",
+          "French aberrant from English"
+        ],
+        "corrections": [
+          "Not homophones: compare actual accent-specific IPA.",
+          "Latin ab- + errāre: b belongs to ab-, away/from; not English intervocalic insertion.",
+          "French aberrant is the adjectivized present participle of aberrer, borrowed from Latin aberrāre; English borrowing is not supported.",
+          "aberrant mainly adjective, err verb, error noun. MW also records a noun aberrant (one that is aberrant), not the ordinary noun error."
+        ],
+        "status": "Raw hypotheses preserved; historical insertion and English-to-French origin rejected"
+      },
+      "chinese_evidence": [
+        {
+          "claim_type": "modern_meaning",
+          "form": "讹",
+          "claim": "差错；讹误特别用于文字、记载差错。讹传为错误传说／传递，讹音为不正确的音；谣言是另一义，不等同所有 error。讹诈不可译为 err。",
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-ZDIC-E"
+          ],
+          "scope": "Mainland digital platform basic/detailed explanation and pronunciation only; no print-edition or ancient attestation claim"
+        },
+        {
+          "claim_type": "phonology",
+          "form": "讹",
+          "claim": "é /ɤ˧˥/; zero onset, back unrounded vowel, second tone.",
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "REF-ZDIC-E"
+          ],
+          "scope": "Mainland digital platform basic/detailed explanation and pronunciation only; no print-edition or ancient attestation claim"
+        },
+        {
+          "claim_type": "modern_meaning",
+          "form": "偏",
+          "claim": "Selected 偏斜／偏离 sense; semantic abstraction for deviation from a norm, not every sense of 偏.",
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "ABER-ZD-PIAN"
+          ],
+          "scope": "Mainland digital platform basic/detailed explanation and pronunciation only; no print-edition or ancient attestation claim"
+        },
+        {
+          "claim_type": "modern_meaning",
+          "form": "游",
+          "claim": "流动、不固定／游走 supports semantic option for wander.",
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "ABER-ZD-YOU"
+          ],
+          "scope": "Mainland digital platform basic/detailed explanation and pronunciation only; no print-edition or ancient attestation claim"
+        },
+        {
+          "claim_type": "modern_meaning",
+          "form": "迷",
+          "claim": "迷路／分辨不清 supports semantic option for stray, not all wandering.",
+          "status": "Supported",
+          "confidence": "Medium",
+          "source_refs": [
+            "ABER-ZD-MI"
+          ],
+          "scope": "Mainland digital platform basic/detailed explanation and pronunciation only; no print-edition or ancient attestation claim"
+        }
+      ],
+      "source_audit_pending": [
+        {
+          "title": "现代汉语词典",
+          "status": "pending",
+          "claims": [
+            "讹 modern meaning / phonology"
+          ],
+          "reason": "Specific edition and entry not obtained; no page, quotation or earliest sense asserted."
+        },
+        {
+          "title": "新华字典",
+          "status": "pending",
+          "claims": [
+            "讹 modern meaning / phonology"
+          ],
+          "reason": "Specific edition and entry not obtained; no page, quotation or earliest sense asserted."
+        },
+        {
+          "title": "汉语大字典",
+          "status": "pending",
+          "claims": [
+            "讹 historical meaning / attestation"
+          ],
+          "reason": "Specific edition and entry not obtained; no page, quotation or earliest sense asserted."
+        },
+        {
+          "title": "汉语大词典",
+          "status": "pending",
+          "claims": [
+            "讹 historical meaning / attestation"
+          ],
+          "reason": "Specific edition and entry not obtained; no page, quotation or earliest sense asserted."
+        },
+        {
+          "title": "辞源",
+          "status": "pending",
+          "claims": [
+            "讹 historical meaning / attestation"
+          ],
+          "reason": "Specific edition and entry not obtained; no page, quotation or earliest sense asserted."
+        }
+      ]
     },
     {
       "id": "LB-en-abeyance-024",

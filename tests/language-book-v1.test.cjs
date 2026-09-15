@@ -346,7 +346,7 @@ test("Dataset Expansion v1 aberrant sample keeps morphology, word class and err 
   }
   const aberrant = dataApi.lookup(dataset, "aberrant").entry;
   assert.equal(aberrant.entry_status, "Reviewed");
-  assert.equal(aberrant.mapping_status, "Reviewed");
+  assert.equal(aberrant.mapping_status, "Candidate");
   assert.equal(aberrant.primary_mapping.target.word, "反常的／偏离常规的");
   assert.equal(aberrant.historical_relation_status, "Not claimed");
   assert.equal(aberrant.evidence.Historical.status, "Established");

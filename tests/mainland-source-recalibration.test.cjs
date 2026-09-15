@@ -54,7 +54,7 @@ test("priority records retain count and status boundaries", () => {
     abash: ["Published", "Candidate", "Not claimed"],
     abbey: ["Reviewed", "Candidate", "Not claimed"],
     abdomen: ["Reviewed", "Reviewed", "Not claimed"],
-    aberrant: ["Reviewed", "Reviewed", "Not claimed"],
+    aberrant: ["Reviewed", "Candidate", "Not claimed"],
     "namcha-barwa": ["Published", "Reviewed", "Not claimed"],
   };
   for (const [slug, values] of Object.entries(expected)) {

@@ -126,7 +126,7 @@ check(abbey?.evidence?.["Phonetic-Semantic"]?.confidence === "Low", "Abbey moder
 check(abbey?.literary_layer?.status === "Published" && abbey?.literary_layer?.is_historical_evidence === false, "Abbey published literature must remain non-etymological");
 check(/蓓蕾/.test(abbey?.source?.raw_note || ""), "Abbey author source/raw note missing");
 const aberrant = dataset.entries.find((entry) => entry.slug === "aberrant");
-check(aberrant?.entry_status === "Reviewed" && aberrant?.mapping_status === "Reviewed", "Aberrant lexical mapping classification changed");
+check(aberrant?.entry_status === "Reviewed" && aberrant?.mapping_status === "Candidate", "Aberrant featured candidate classification changed");
 check(aberrant?.primary_mapping?.target?.word === "反常的／偏离常规的", "Aberrant primary mapping must remain adjectival and ordinary");
 check(aberrant?.historical_relation_status === "Not claimed" && aberrant?.evidence?.Historical?.status === "Established", "Aberrant historical family must remain separate from cross-language relation");
 check(aberrant?.evidence?.["Phonetic-Semantic"]?.status === "Candidate", "err ↔ 讹 must remain Candidate");

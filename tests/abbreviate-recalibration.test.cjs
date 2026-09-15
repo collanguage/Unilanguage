@@ -17,7 +17,7 @@ test('ABBREVIATE preserves its identity, source, literature and every unrelated 
  assert.equal(data.entries.length,before.entries.length+2);
  assert.equal(data.entries.filter(x=>x.slug==='abbreviate').length,1);
  assert.deepEqual(data.entries.find(x=>x.id===e.id),e);
- assert.deepEqual(data.entries.filter(x=>x.id!==e.id&&!['abbreviation','abdominal','abdomen'].includes(x.slug)),before.entries.filter(x=>x.id!==e.id&&!['abbreviation','abdominal','abdomen'].includes(x.slug)));
+ assert.deepEqual(data.entries.filter(x=>x.id!==e.id&&!['aberrant','abbreviation','abdominal','abdomen'].includes(x.slug)),before.entries.filter(x=>x.id!==e.id&&!['aberrant','abbreviation','abdominal','abdomen'].includes(x.slug)));
  const old=before.entries.find(x=>x.id===e.id);
  assert.deepEqual(e.source,old.source);
  assert.deepEqual(e.literary_layer,old.literary_layer);
