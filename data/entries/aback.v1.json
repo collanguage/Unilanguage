@@ -2,8 +2,8 @@
   "id": "LB-en-aback-032",
   "slug": "aback",
   "title": {
-    "en": "Aback · Back · Civilization Behind You",
-    "zh-Hans": "Aback · 背 · 文明在你背后"
+    "en": "ABACK · 吃了一惊／感到惊愕",
+    "zh-Hans": "ABACK · 吃了一惊／感到惊愕"
   },
   "languages": [
     {
@@ -22,7 +22,7 @@
       "pronunciation": "chījīng de"
     },
     {
-      "role": "featured-phonetic-semantic-candidate",
+      "role": "historical-spatial-candidate",
       "code": "zh-Hans",
       "name": "Chinese",
       "word": "背",
@@ -43,19 +43,6 @@
       "pronunciation": "/do/"
     }
   ],
-  "featured_mapping": {
-    "source": "aback",
-    "target": "背",
-    "reading": "bèi",
-    "display_label": "Featured structural and sound–meaning candidate · 特色结构与音义候选",
-    "status": "Candidate · Low confidence",
-    "historical_relation": "Not claimed",
-    "boundary": {
-      "en": "背 bèi is displayed first to make the author's a + back / back ↔ 背 comparison visible. The standard modern translation remains 吃惊地 in taken aback; no English–Chinese cognacy is claimed.",
-      "zh-Hans": "先展示“背”bèi，以突出作者的 a＋back／back↔背比较；现代 taken aback 的通用翻译仍是“吃惊地”，不主张英汉同源。"
-    },
-    "source_refs": ["REF-LANGUAGESBOOK-ABACK", "REF-MW-ABACK", "REF-MW-BACK"]
-  },
   "primary_mapping": {
     "mapping_id": "MAP-aback-primary",
     "source": {
@@ -65,18 +52,18 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "吃惊地",
-      "pronunciation": "chījīng de"
+      "word": "吃了一惊／感到惊愕",
+      "pronunciation": "chī le yī jīng / gǎndào jīngè"
     },
     "gloss": {
       "en": "chiefly in taken aback: suddenly surprised or startled",
       "zh-Hans": "主要用于 taken aback：突然吃惊、猝不及防"
     },
     "meaning": {
-      "en": "The standard modern sense is ‘suddenly surprised,’ chiefly in taken aback. The older spatial structure a + back (‘at/on the back; backward’) and the back ↔ 背 candidate are displayed separately.",
-      "zh-Hans": "现代通用义主要是 taken aback 中的“突然吃惊”；较早的空间结构 a＋back（在背后／向后）以及 back↔背候选另行展示。"
+      "en": "Chiefly in taken aback: suddenly surprised or startled. The historical spatial comparison with 背 is separate.",
+      "zh-Hans": "主要用于 taken aback：突然吃惊／感到惊愕。历史空间层与背的比较另列。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected or Pending",
     "rationale": {
       "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
       "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
@@ -296,14 +283,21 @@
       },
       "status": "Interpretive",
       "confidence": "Low",
-      "supporting_cases": ["Modern speakers may transparently recognize back inside aback"],
-      "counterexamples": ["Historical dictionaries derive the element from Old English on, meaning at/on/toward"],
+      "supporting_cases": [
+        "Modern speakers may transparently recognize back inside aback"
+      ],
+      "counterexamples": [
+        "Historical dictionaries derive the element from Old English on, meaning at/on/toward"
+      ],
       "testability": {
         "en": "Keep the synchronic reading separate from the documented historical derivation and test how present-day speakers segment the word.",
         "zh-Hans": "将现代共时切分与有文献的历史派生分开，并调查现代使用者如何切分该词。"
       },
       "experiment_link": null,
-      "source_refs": ["REF-LANGUAGESBOOK-ABACK", "REF-OALD-ABACK"]
+      "source_refs": [
+        "REF-LANGUAGESBOOK-ABACK",
+        "REF-OALD-ABACK"
+      ]
     }
   ],
   "counterevidence": [
@@ -345,8 +339,14 @@
       }
     ],
     "translations": [
-      { "language": "Chinese", "status": "Author text, editorially revised" },
-      { "language": "English", "status": "Literary translation" }
+      {
+        "language": "Chinese",
+        "status": "Author text, editorially revised"
+      },
+      {
+        "language": "English",
+        "status": "Literary translation"
+      }
     ],
     "archival_manuscript_media": [],
     "evidence_boundary": {
@@ -387,6 +387,142 @@
       "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/aback",
       "path": null,
       "provenance": "external dictionary and word-origin reference; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "PF-ABACK-01",
+      "title": "Merriam-Webster: aback",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.merriam-webster.com/dictionary/aback",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-02",
+      "title": "Oxford Learner’s Dictionaries: aback",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-03",
+      "title": "Etymonline: aback",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.etymonline.com/word/aback",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-04",
+      "title": "汉典：背",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/背",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-05",
+      "title": "识典古籍《汉语大词典》摘要：背",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.shidianguji.com/character/背",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-06",
+      "title": "汉典：退",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/退",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-07",
+      "title": "汉典：却",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/却",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-08",
+      "title": "汉典：反",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/反",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-09",
+      "title": "汉典：返",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/返",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-10",
+      "title": "汉典：北",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/北",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-11",
+      "title": "汉典：怕",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/怕",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-12",
+      "title": "人民日报海外版：蒙与懵（2019-03-02）",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://paper.people.com.cn/rmrbhwb/page/2019-03/02/05/rmrbhwb2019030205.pdf",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-13",
+      "title": "汉典：蒙",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/蒙",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-14",
+      "title": "汉典：懵",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.zdic.net/hans/懵",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-15",
+      "title": "汉典：愕",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/愕",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-16",
+      "title": "汉典：白",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/白",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-ABACK-17",
+      "title": "汉典：百",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/百",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
     }
   ],
   "author": "Jinkai Liu",
@@ -404,6 +540,10 @@
     {
       "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
       "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+    },
+    {
+      "en": "Featured Mapping is optional. Pending is a valid research result, not a migration failure. Entry, publication, Featured and evidence statuses are independent.",
+      "zh-Hans": "Featured可空；Pending是有效研究结果。词条审核、发布、Featured选择、证据状态相互独立。"
     }
   ],
   "search_terms": [
@@ -421,7 +561,8 @@
     "文明在你背后",
     "a.back",
     "dos",
-    "bèi"
+    "bèi",
+    "吃了一惊／感到惊愕"
   ],
   "page": "words/aback.html",
   "legacy": {
@@ -443,5 +584,2625 @@
     "ordinal": 9,
     "disposition": "Candidate",
     "priority_score": 88.3
+  },
+  "standard_translation": {
+    "source": "taken aback",
+    "target": "吃了一惊／感到惊愕",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "PF-ABACK-01",
+      "PF-ABACK-02",
+      "PF-ABACK-03"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-aback-primary",
+    "source": {
+      "language": "English",
+      "word": "aback",
+      "pronunciation": "/əˈbæk/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "吃了一惊／感到惊愕",
+      "pronunciation": "chī le yī jīng / gǎndào jīngè"
+    },
+    "gloss": {
+      "en": "chiefly in taken aback: suddenly surprised or startled",
+      "zh-Hans": "主要用于 taken aback：突然吃惊、猝不及防"
+    },
+    "meaning": {
+      "en": "Chiefly in taken aback: suddenly surprised or startled. The historical spatial comparison with 背 is separate.",
+      "zh-Hans": "主要用于 taken aback：突然吃惊／感到惊愕。历史空间层与背的比较另列。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected or Pending",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "A1",
+        "form": "on bæc / aback",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old / Middle English",
+          "code": null
+        },
+        "period": {
+          "label": "OE c.450–1100 → ME c.1100–1500; dictionary first-attestation boundaries differ",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-ABACK-01",
+            "PF-ABACK-02",
+            "PF-ABACK-03"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "behind / backward",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "PF-ABACK-01",
+          "PF-ABACK-02",
+          "PF-ABACK-03"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "bæc is a BACK component, not a modern surprise meaning; historical sound not frozen. Modern back /bæk/ comparison remains in Discovery archive."
+      },
+      {
+        "stage_id": "A2",
+        "form": "aback / taken aback",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "English nautical usage",
+          "code": null
+        },
+        "period": {
+          "label": "Nautical construction recorded 1754 in the consulted dictionary, not absolute earliest",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-ABACK-01",
+            "PF-ABACK-02",
+            "PF-ABACK-03"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "wind on the forward face of the sails; progress arrested",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "A1",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_extension",
+              "description": "Directional use in a sailing context; not necessarily the boat reversing course.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "PF-ABACK-01",
+              "PF-ABACK-02",
+              "PF-ABACK-03"
+            ]
+          }
+        ],
+        "source_refs": [
+          "PF-ABACK-01",
+          "PF-ABACK-02",
+          "PF-ABACK-03"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      },
+      {
+        "stage_id": "A3",
+        "form": "taken aback",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Figurative construction recorded 1792; modern reference",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-ABACK-01",
+            "PF-ABACK-02",
+            "PF-ABACK-03"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "surprised / startled; momentarily disconcerted",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-A3",
+            "value": "/əˈbæk/ (aback component in taken aback)",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "PF-ABACK-01",
+              "PF-ABACK-02",
+              "PF-ABACK-03"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "A2",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "metaphor",
+              "description": "Sailing setback to psychological surprise; no strict antonym reversal.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "PF-ABACK-01",
+              "PF-ABACK-02",
+              "PF-ABACK-03"
+            ]
+          }
+        ],
+        "source_refs": [
+          "PF-ABACK-01",
+          "PF-ABACK-02",
+          "PF-ABACK-03"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-A1",
+        "stage_ref": "A1",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "behind / backward",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "behind / backward"
+            ],
+            "consonant_hypotheses": [
+              "b-p-m-f"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "PF-A01",
+            "family_key": "aback-BACK",
+            "target": {
+              "form": "背",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "人体后背；物体后面",
+                "pos": null,
+                "constraints": [
+                  "不取 bēi 背负义；不把字母 a 的名称当 aback 发音；OC另见专项"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A01",
+                  "value": "bèi",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-04",
+                    "PF-ABACK-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-04",
+                "PF-ABACK-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-PF-A01",
+              "source_span": "on bæc / aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "b baseline；不是同音",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 对 back 名词；partial 对 aback 方向副词；对 A3 mismatch",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-04",
+                "PF-ABACK-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical-stage pronunciation not frozen: not_evaluated. Modern-reference analysis retained separately in Discovery archive: weak：/bæk/ 对 [pei˥˩]；b/[p]清浊不同，æ/ei不同，-k缺失；整词还多ə-",
+              "features": {
+                "onset": "See bounded segment analysis: weak：/bæk/ 对 [pei˥˩]；b/[p]清浊不同，æ/ei不同，-k缺失；整词还多ə-",
+                "vowel": "See bounded segment analysis: weak：/bæk/ 对 [pei˥˩]；b/[p]清浊不同，æ/ei不同，-k缺失；整词还多ə-",
+                "coda_other_consonants": "See bounded segment analysis: weak：/bæk/ 对 [pei˥˩]；b/[p]清浊不同，æ/ei不同，-k缺失；整词还多ə-",
+                "syllables": "See bounded segment analysis: weak：/bæk/ 对 [pei˥˩]；b/[p]清浊不同，æ/ei不同，-k缺失；整词还多ə-",
+                "prosody": "See bounded segment analysis: weak：/bæk/ 对 [pei˥˩]；b/[p]清浊不同，æ/ei不同，-k缺失；整词还多ə-"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-04",
+                "PF-ABACK-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-04",
+                  "PF-ABACK-05"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-04",
+                  "PF-ABACK-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不取 bēi 背负义；不把字母 a 的名称当 aback 发音；OC另见专项",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "不取 bēi 背负义；不把字母 a 的名称当 aback 发音；OC另见专项; Featured Mapping: Pending。背仅比较历史空间／back成分；蒙仅为突发失措子义候选。Pending是有效研究结果，不是页面错误。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A02",
+            "family_key": "aback-BACK",
+            "target": {
+              "form": "背后",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "后方／后面，背的方位构式",
+                "pos": null,
+                "constraints": [
+                  "不等于突然吃惊；不是新的独立音义成功"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A02",
+                  "value": "bèi hòu",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-PF-A02",
+              "source_span": "on bæc / aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "b baseline，同背家族",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 位置；运动需向背后等构式",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical-stage pronunciation not frozen: not_evaluated. Modern-reference analysis retained separately in Discovery archive: weak：两音节对aback两音节不构成逐音节对应；hòu无相应音段",
+              "features": {
+                "onset": "See bounded segment analysis: weak：两音节对aback两音节不构成逐音节对应；hòu无相应音段",
+                "vowel": "See bounded segment analysis: weak：两音节对aback两音节不构成逐音节对应；hòu无相应音段",
+                "coda_other_consonants": "See bounded segment analysis: weak：两音节对aback两音节不构成逐音节对应；hòu无相应音段",
+                "syllables": "See bounded segment analysis: weak：两音节对aback两音节不构成逐音节对应；hòu无相应音段",
+                "prosody": "See bounded segment analysis: weak：两音节对aback两音节不构成逐音节对应；hòu无相应音段"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-04"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不等于突然吃惊；不是新的独立音义成功",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "不等于突然吃惊；不是新的独立音义成功; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A03",
+            "family_key": "aback-A03",
+            "target": {
+              "form": "退",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代；古义版本Pending",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "向后移动",
+                "pos": null,
+                "constraints": [
+                  "不是所有aback情境都真的移动；现代taken aback不必后退"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A03",
+                  "value": "tuì",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-PF-A03",
+              "source_span": "on bæc / aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外；t不能因d-t-n-l而与b自动对应",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 对向后运动；对帆状态仅partial",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical-stage pronunciation not frozen: not_evaluated. Modern-reference analysis retained separately in Discovery archive: mismatch：/bæk/ 与 [tʰwei] 声韵均异",
+              "features": {
+                "onset": "See bounded segment analysis: mismatch：/bæk/ 与 [tʰwei] 声韵均异",
+                "vowel": "See bounded segment analysis: mismatch：/bæk/ 与 [tʰwei] 声韵均异",
+                "coda_other_consonants": "See bounded segment analysis: mismatch：/bæk/ 与 [tʰwei] 声韵均异",
+                "syllables": "See bounded segment analysis: mismatch：/bæk/ 与 [tʰwei] 声韵均异",
+                "prosody": "See bounded segment analysis: mismatch：/bæk/ 与 [tʰwei] 声韵均异"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-06"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不是所有aback情境都真的移动；现代taken aback不必后退",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "不是所有aback情境都真的移动；现代taken aback不必后退; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A04",
+            "family_key": "aback-A04",
+            "target": {
+              "form": "却",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代；退却义历史层首证Pending",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "退、却步、退却",
+                "pos": null,
+                "constraints": [
+                  "区分退却动词与现代转折副词却；不证明英语惊讶义来自汉语"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A04",
+                  "value": "què",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-PF-A04",
+              "source_span": "on bæc / aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外；q不临时塞入g-k-h；末尾-k不能改作声母命中",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 对退却；A2 partial",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical-stage pronunciation not frozen: not_evaluated. Modern-reference analysis retained separately in Discovery archive: mismatch：现代 [tɕʰɥe] 对 /bæk/；古音未评分",
+              "features": {
+                "onset": "See bounded segment analysis: mismatch：现代 [tɕʰɥe] 对 /bæk/；古音未评分",
+                "vowel": "See bounded segment analysis: mismatch：现代 [tɕʰɥe] 对 /bæk/；古音未评分",
+                "coda_other_consonants": "See bounded segment analysis: mismatch：现代 [tɕʰɥe] 对 /bæk/；古音未评分",
+                "syllables": "See bounded segment analysis: mismatch：现代 [tɕʰɥe] 对 /bæk/；古音未评分",
+                "prosody": "See bounded segment analysis: mismatch：现代 [tɕʰɥe] 对 /bæk/；古音未评分"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-07"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "区分退却动词与现代转折副词却；不证明英语惊讶义来自汉语",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "区分退却动词与现代转折副词却；不证明英语惊讶义来自汉语; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A05",
+            "family_key": "aback-A05",
+            "target": {
+              "form": "反 / 返",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代；古文返回义的具体版本Pending",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "反：翻转、相反；返：回归原处；古反可表返",
+                "pos": null,
+                "constraints": [
+                  "反、返不是所有义项可互换；返航不是taken aback的航海义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A05",
+                  "value": "fǎn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-08",
+                    "PF-ABACK-09"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-08",
+                "PF-ABACK-09"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-PF-A05",
+              "source_span": "on bæc / aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "b-p-m-f 扩展 f",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：反向有用；回归原点不是aback必含义",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-08",
+                "PF-ABACK-09"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical-stage pronunciation not frozen: not_evaluated. Modern-reference analysis retained separately in Discovery archive: weak：f/b 发音方式不同，an/æk韵尾不同，无ə-；古音not_evaluated",
+              "features": {
+                "onset": "See bounded segment analysis: weak：f/b 发音方式不同，an/æk韵尾不同，无ə-；古音not_evaluated",
+                "vowel": "See bounded segment analysis: weak：f/b 发音方式不同，an/æk韵尾不同，无ə-；古音not_evaluated",
+                "coda_other_consonants": "See bounded segment analysis: weak：f/b 发音方式不同，an/æk韵尾不同，无ə-；古音not_evaluated",
+                "syllables": "See bounded segment analysis: weak：f/b 发音方式不同，an/æk韵尾不同，无ə-；古音not_evaluated",
+                "prosody": "See bounded segment analysis: weak：f/b 发音方式不同，an/æk韵尾不同，无ə-；古音not_evaluated"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-08",
+                "PF-ABACK-09"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-08",
+                  "PF-ABACK-09"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-08",
+                  "PF-ABACK-09"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "反、返不是所有义项可互换；返航不是taken aback的航海义",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "反、返不是所有义项可互换；返航不是taken aback的航海义; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A06",
+            "family_key": "aback-A06",
+            "target": {
+              "form": "北",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "先秦传世书证经在线转引；读音为现代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "败逃、败北",
+                "pos": null,
+                "constraints": [
+                  "北方义mismatch；bèi违背义另条不混；不能把转身、北方、败逃混为一义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A06",
+                  "value": "běi",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-10"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-10"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-PF-A06",
+              "source_span": "on bæc / aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "b baseline",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：退逃附加战败限制",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-10"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical-stage pronunciation not frozen: not_evaluated. Modern-reference analysis retained separately in Discovery archive: weak 现代[pei]；不把OC north行借给败逃义加分",
+              "features": {
+                "onset": "See bounded segment analysis: weak 现代[pei]；不把OC north行借给败逃义加分",
+                "vowel": "See bounded segment analysis: weak 现代[pei]；不把OC north行借给败逃义加分",
+                "coda_other_consonants": "See bounded segment analysis: weak 现代[pei]；不把OC north行借给败逃义加分",
+                "syllables": "See bounded segment analysis: weak 现代[pei]；不把OC north行借给败逃义加分",
+                "prosody": "See bounded segment analysis: weak 现代[pei]；不把OC north行借给败逃义加分"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-10"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-10"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-10"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "北方义mismatch；bèi违背义另条不混；不能把转身、北方、败逃混为一义",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "北方义mismatch；bèi违背义另条不混；不能把转身、北方、败逃混为一义; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A11",
+            "family_key": "aback-A11",
+            "target": {
+              "form": "白",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "白色，限此义",
+                "pos": null,
+                "constraints": [
+                  "不能用吓得脸白这种后果补成惊讶义；颜色不是back"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A11",
+                  "value": "bái",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-16"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-16"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-PF-A11",
+              "source_span": "on bæc / aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "b 声音控制",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-16"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical-stage pronunciation not frozen: not_evaluated. Modern-reference analysis retained separately in Discovery archive: weak：同为唇塞起首的局部近似；ai≠æ，无-k；不优于背的声音",
+              "features": {
+                "onset": "See bounded segment analysis: weak：同为唇塞起首的局部近似；ai≠æ，无-k；不优于背的声音",
+                "vowel": "See bounded segment analysis: weak：同为唇塞起首的局部近似；ai≠æ，无-k；不优于背的声音",
+                "coda_other_consonants": "See bounded segment analysis: weak：同为唇塞起首的局部近似；ai≠æ，无-k；不优于背的声音",
+                "syllables": "See bounded segment analysis: weak：同为唇塞起首的局部近似；ai≠æ，无-k；不优于背的声音",
+                "prosody": "See bounded segment analysis: weak：同为唇塞起首的局部近似；ai≠æ，无-k；不优于背的声音"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-16"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-16"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-16"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不能用吓得脸白这种后果补成惊讶义；颜色不是back",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "不能用吓得脸白这种后果补成惊讶义；颜色不是back; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A12",
+            "family_key": "aback-A12",
+            "target": {
+              "form": "百",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "一百，数词",
+                "pos": null,
+                "constraints": [
+                  "数字义无关；声母命中不能使其入选"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A12",
+                  "value": "bǎi",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-17"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-17"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-PF-A12",
+              "source_span": "on bæc / aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "b 声音控制",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-17"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical-stage pronunciation not frozen: not_evaluated. Modern-reference analysis retained separately in Discovery archive: weak：与背/白类似局部声近；现代无-k；本轮不挑古音凑似",
+              "features": {
+                "onset": "See bounded segment analysis: weak：与背/白类似局部声近；现代无-k；本轮不挑古音凑似",
+                "vowel": "See bounded segment analysis: weak：与背/白类似局部声近；现代无-k；本轮不挑古音凑似",
+                "coda_other_consonants": "See bounded segment analysis: weak：与背/白类似局部声近；现代无-k；本轮不挑古音凑似",
+                "syllables": "See bounded segment analysis: weak：与背/白类似局部声近；现代无-k；本轮不挑古音凑似",
+                "prosody": "See bounded segment analysis: weak：与背/白类似局部声近；现代无-k；本轮不挑古音凑似"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-17"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-17"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-17"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "数字义无关；声母命中不能使其入选",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "数字义无关；声母命中不能使其入选; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-A2",
+        "stage_ref": "A2",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "wind on the forward face of the sails; progress arrested",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "pending",
+          "scope": {
+            "lexical_layers": [],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "wind on the forward face of the sails; progress arrested"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Exact Chinese nautical terminology Pending; no forced character. Approved bounded Discovery completed."
+        },
+        "candidates": [],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-A3",
+        "stage_ref": "A3",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "surprised / startled; momentarily disconcerted",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "surprised / startled; momentarily disconcerted"
+            ],
+            "consonant_hypotheses": [
+              "b-p-m-f"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "PF-A07",
+            "family_key": "aback-A07",
+            "target": {
+              "form": "怕",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "恐惧",
+                "pos": null,
+                "constraints": [
+                  "被意外善意惊到可taken aback但不怕；不作为通用惊讶映射"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A07",
+                  "value": "pà",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-11"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-11"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A3",
+              "source_pronunciation_ref": "PR-A3",
+              "target_pronunciation_ref": "ZH-PF-A07",
+              "source_span": "taken aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "b-p-m-f 扩展 p",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：惊讶可伴恐惧但不蕴含恐惧",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-11"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：pʰ/b有送气清浊差，a/æ近似有限，缺-k和ə-",
+              "features": {
+                "onset": "See bounded segment analysis: weak：pʰ/b有送气清浊差，a/æ近似有限，缺-k和ə-",
+                "vowel": "See bounded segment analysis: weak：pʰ/b有送气清浊差，a/æ近似有限，缺-k和ə-",
+                "coda_other_consonants": "See bounded segment analysis: weak：pʰ/b有送气清浊差，a/æ近似有限，缺-k和ə-",
+                "syllables": "See bounded segment analysis: weak：pʰ/b有送气清浊差，a/æ近似有限，缺-k和ə-",
+                "prosody": "See bounded segment analysis: weak：pʰ/b有送气清浊差，a/æ近似有限，缺-k和ə-"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-11"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-11"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-11"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "被意外善意惊到可taken aback但不怕；不作为通用惊讶映射",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "被意外善意惊到可taken aback但不怕；不作为通用惊讶映射; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A08",
+            "family_key": "aback-A08",
+            "target": {
+              "form": "蒙（了）",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代口语；2019大陆语言专栏明确讨论",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "突然糊涂、惶惑、一时反应不过来",
+                "pos": null,
+                "constraints": [
+                  "排除méng覆盖、měng蒙古与欺骗/瞎猜；不推成永久无知或必定昏迷"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A08",
+                  "value": "mēng (le)",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-12",
+                    "PF-ABACK-13"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-12",
+                "PF-ABACK-13"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A3",
+              "source_pronunciation_ref": "PR-A3",
+              "target_pronunciation_ref": "ZH-PF-A08",
+              "source_span": "taken aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "b-p-m-f 扩展 m",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：适合被突发消息弄蒙；强于单纯怕但非所有surprise",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-12",
+                "PF-ABACK-13"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：m与b不同方式，eng/æk不同韵尾；了为构式不参与配音",
+              "features": {
+                "onset": "See bounded segment analysis: weak：m与b不同方式，eng/æk不同韵尾；了为构式不参与配音",
+                "vowel": "See bounded segment analysis: weak：m与b不同方式，eng/æk不同韵尾；了为构式不参与配音",
+                "coda_other_consonants": "See bounded segment analysis: weak：m与b不同方式，eng/æk不同韵尾；了为构式不参与配音",
+                "syllables": "See bounded segment analysis: weak：m与b不同方式，eng/æk不同韵尾；了为构式不参与配音",
+                "prosody": "See bounded segment analysis: weak：m与b不同方式，eng/æk不同韵尾；了为构式不参与配音"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-12",
+                "PF-ABACK-13"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-12",
+                  "PF-ABACK-13"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-12",
+                  "PF-ABACK-13"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "排除méng覆盖、měng蒙古与欺骗/瞎猜；不推成永久无知或必定昏迷",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "排除méng覆盖、měng蒙古与欺骗/瞎猜；不推成永久无知或必定昏迷; Featured Mapping: Pending。背仅比较历史空间／back成分；蒙仅为突发失措子义候选。Pending是有效研究结果，不是页面错误。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A09",
+            "family_key": "aback-A09",
+            "target": {
+              "form": "懵",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "糊涂、不明事理；懵懂",
+                "pos": null,
+                "constraints": [
+                  "本轮采用杜永道对蒙了/懵懂的区分；不以网络混写升级；非断言所有当代用法非法"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A09",
+                  "value": "měng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-14",
+                    "PF-ABACK-12"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-14",
+                "PF-ABACK-12"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A3",
+              "source_pronunciation_ref": "PR-A3",
+              "target_pronunciation_ref": "ZH-PF-A09",
+              "source_span": "taken aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "b-p-m-f 扩展 m",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial到mismatch：状态无知不等于突发惊讶",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-14",
+                "PF-ABACK-12"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak，与蒙声韵相近但声调/字义不能互借",
+              "features": {
+                "onset": "See bounded segment analysis: weak，与蒙声韵相近但声调/字义不能互借",
+                "vowel": "See bounded segment analysis: weak，与蒙声韵相近但声调/字义不能互借",
+                "coda_other_consonants": "See bounded segment analysis: weak，与蒙声韵相近但声调/字义不能互借",
+                "syllables": "See bounded segment analysis: weak，与蒙声韵相近但声调/字义不能互借",
+                "prosody": "See bounded segment analysis: weak，与蒙声韵相近但声调/字义不能互借"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-14",
+                "PF-ABACK-12"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-14",
+                  "PF-ABACK-12"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-14",
+                  "PF-ABACK-12"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "本轮采用杜永道对蒙了/懵懂的区分；不以网络混写升级；非断言所有当代用法非法",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "本轮采用杜永道对蒙了/懵懂的区分；不以网络混写升级；非断言所有当代用法非法; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-A10",
+            "family_key": "aback-A10",
+            "target": {
+              "form": "愕（然）",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代；汉书等书证经在线转引",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "惊讶、惊愕",
+                "pos": null,
+                "constraints": [
+                  "语体较书面；古字形含咢不证明与back同源"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-A10",
+                  "value": "è (rán)",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-ABACK-15"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-ABACK-15"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A3",
+              "source_pronunciation_ref": "PR-A3",
+              "target_pronunciation_ref": "ZH-PF-A10",
+              "source_span": "taken aback",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外语义控制",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 限于突发惊愕",
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-15"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch：零声母/ɤ/与/bæk/不同；不能把è配ə而丢掉back",
+              "features": {
+                "onset": "See bounded segment analysis: mismatch：零声母/ɤ/与/bæk/不同；不能把è配ə而丢掉back",
+                "vowel": "See bounded segment analysis: mismatch：零声母/ɤ/与/bæk/不同；不能把è配ə而丢掉back",
+                "coda_other_consonants": "See bounded segment analysis: mismatch：零声母/ɤ/与/bæk/不同；不能把è配ə而丢掉back",
+                "syllables": "See bounded segment analysis: mismatch：零声母/ɤ/与/bæk/不同；不能把è配ə而丢掉back",
+                "prosody": "See bounded segment analysis: mismatch：零声母/ɤ/与/bæk/不同；不能把è配ə而丢掉back"
+              },
+              "source_refs": [
+                "PF-ABACK-01",
+                "PF-ABACK-02",
+                "PF-ABACK-03",
+                "PF-ABACK-15"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-ABACK-15"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-ABACK-15"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "语体较书面；古字形含咢不证明与back同源",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "语体较书面；古字形含咢不证明与back同源; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-A1",
+          "candidate_ref": "PF-A01"
+        },
+        {
+          "stage_mapping_ref": "SM-A3",
+          "candidate_ref": "PF-A08"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "Featured Mapping: Pending。背仅比较历史空间／back成分；蒙仅为突发失措子义候选。Pending是有效研究结果，不是页面错误。"
+    },
+    "historical_path": "OE on bæc → ME aback → nautical taken aback → figurative taken aback. bæc is a component, not another whole-word stage.",
+    "semantic_path": "OE on bæc → ME aback → nautical taken aback → figurative taken aback. bæc is a component, not another whole-word stage.",
+    "boundary": {
+      "en": "Featured Mapping: Pending。背仅比较历史空间／back成分；蒙仅为突发失措子义候选。Pending是有效研究结果，不是页面错误。",
+      "zh-Hans": "Featured Mapping: Pending。背仅比较历史空间／back成分；蒙仅为突发失措子义候选。Pending是有效研究结果，不是页面错误。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "TC-DISCOVERY-1-2026-09-20",
+    "candidates": [
+      {
+        "entry": "ABACK",
+        "candidate_id": "A01",
+        "chinese_form": "背",
+        "reading": "bèi",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "A0 component / A1 spatial",
+        "documented_meaning": "人体后背；物体后面",
+        "semantic_fit": "direct 对 back 名词；partial 对 aback 方向副词；对 A3 mismatch",
+        "phonetic_fit": "weak：/bæk/ 对 [pei˥˩]；b/[p]清浊不同，æ/ei不同，-k缺失；整词还多ə-",
+        "consonant_group_relation": "b baseline；不是同音",
+        "counterevidence": "不取 bēi 背负义；不把字母 a 的名称当 aback 发音；OC另见专项",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "高",
+        "decision": "shortlist",
+        "retrieval_route": "legacy",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/背",
+            "https://www.shidianguji.com/character/背"
+          ],
+          "mainland_named_dictionary": "识典古籍标名《汉语大词典》条目摘要：mediated; original edition, page and complete citations Pending"
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A02",
+        "chinese_form": "背后",
+        "reading": "bèi hòu",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "A1",
+        "documented_meaning": "后方／后面，背的方位构式",
+        "semantic_fit": "direct 位置；运动需向背后等构式",
+        "phonetic_fit": "weak：两音节对aback两音节不构成逐音节对应；hòu无相应音段",
+        "consonant_group_relation": "b baseline，同背家族",
+        "counterevidence": "不等于突然吃惊；不是新的独立音义成功",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "semantic_control",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/背"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A03",
+        "chinese_form": "退",
+        "reading": "tuì",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin / historical sense",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代；古义版本Pending",
+        "target_source_stage": "A1 movement",
+        "documented_meaning": "向后移动",
+        "semantic_fit": "direct 对向后运动；对帆状态仅partial",
+        "phonetic_fit": "mismatch：/bæk/ 与 [tʰwei] 声韵均异",
+        "consonant_group_relation": "组外；t不能因d-t-n-l而与b自动对应",
+        "counterevidence": "不是所有aback情境都真的移动；现代taken aback不必后退",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "semantic_control",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/退"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A04",
+        "chinese_form": "却",
+        "reading": "què",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin / historical sense",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代；退却义历史层首证Pending",
+        "target_source_stage": "A1 movement / A2 explanatory control",
+        "documented_meaning": "退、却步、退却",
+        "semantic_fit": "direct 对退却；A2 partial",
+        "phonetic_fit": "mismatch：现代 [tɕʰɥe] 对 /bæk/；古音未评分",
+        "consonant_group_relation": "组外；q不临时塞入g-k-h；末尾-k不能改作声母命中",
+        "counterevidence": "区分退却动词与现代转折副词却；不证明英语惊讶义来自汉语",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "高",
+        "decision": "shortlist",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/却"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A05",
+        "chinese_form": "反 / 返",
+        "reading": "fǎn",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin / historical sense",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代；古文返回义的具体版本Pending",
+        "target_source_stage": "A1 reversal / A2 contrast",
+        "documented_meaning": "反：翻转、相反；返：回归原处；古反可表返",
+        "semantic_fit": "partial：反向有用；回归原点不是aback必含义",
+        "phonetic_fit": "weak：f/b 发音方式不同，an/æk韵尾不同，无ə-；古音not_evaluated",
+        "consonant_group_relation": "b-p-m-f 扩展 f",
+        "counterevidence": "反、返不是所有义项可互换；返航不是taken aback的航海义",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "reserved",
+        "retrieval_route": "expansion",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/反",
+            "https://zdic.net/hans/返"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A06",
+        "chinese_form": "北",
+        "reading": "běi",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "先秦传世书证经在线转引；读音为现代",
+        "target_source_stage": "A1 movement",
+        "documented_meaning": "败逃、败北",
+        "semantic_fit": "partial：退逃附加战败限制",
+        "phonetic_fit": "weak 现代[pei]；不把OC north行借给败逃义加分",
+        "consonant_group_relation": "b baseline",
+        "counterevidence": "北方义mismatch；bèi违背义另条不混；不能把转身、北方、败逃混为一义",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "reserved",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/北"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A07",
+        "chinese_form": "怕",
+        "reading": "pà",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "A3 surprise",
+        "documented_meaning": "恐惧",
+        "semantic_fit": "partial：惊讶可伴恐惧但不蕴含恐惧",
+        "phonetic_fit": "weak：pʰ/b有送气清浊差，a/æ近似有限，缺-k和ə-",
+        "consonant_group_relation": "b-p-m-f 扩展 p",
+        "counterevidence": "被意外善意惊到可taken aback但不怕；不作为通用惊讶映射",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "低",
+        "decision": "rejected",
+        "retrieval_route": "expansion",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/怕"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A08",
+        "chinese_form": "蒙（了）",
+        "reading": "mēng (le)",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin colloquial",
+        "approximate_period": "现代口语；2019大陆语言专栏明确讨论",
+        "target_source_stage": "A3",
+        "documented_meaning": "突然糊涂、惶惑、一时反应不过来",
+        "semantic_fit": "partial：适合被突发消息弄蒙；强于单纯怕但非所有surprise",
+        "phonetic_fit": "weak：m与b不同方式，eng/æk不同韵尾；了为构式不参与配音",
+        "consonant_group_relation": "b-p-m-f 扩展 m",
+        "counterevidence": "排除méng覆盖、měng蒙古与欺骗/瞎猜；不推成永久无知或必定昏迷",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "高",
+        "decision": "shortlist",
+        "retrieval_route": "expansion",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://paper.people.com.cn/rmrbhwb/page/2019-03/02/05/rmrbhwb2019030205.pdf",
+            "https://zdic.net/hans/蒙"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A09",
+        "chinese_form": "懵",
+        "reading": "měng",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "A3 attempted",
+        "documented_meaning": "糊涂、不明事理；懵懂",
+        "semantic_fit": "partial到mismatch：状态无知不等于突发惊讶",
+        "phonetic_fit": "weak，与蒙声韵相近但声调/字义不能互借",
+        "consonant_group_relation": "b-p-m-f 扩展 m",
+        "counterevidence": "本轮采用杜永道对蒙了/懵懂的区分；不以网络混写升级；非断言所有当代用法非法",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "低",
+        "decision": "rejected",
+        "retrieval_route": "expansion",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://www.zdic.net/hans/懵",
+            "https://paper.people.com.cn/rmrbhwb/page/2019-03/02/05/rmrbhwb2019030205.pdf"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A10",
+        "chinese_form": "愕（然）",
+        "reading": "è (rán)",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin / historical sense",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代；汉书等书证经在线转引",
+        "target_source_stage": "A3",
+        "documented_meaning": "惊讶、惊愕",
+        "semantic_fit": "direct 限于突发惊愕",
+        "phonetic_fit": "mismatch：零声母/ɤ/与/bæk/不同；不能把è配ə而丢掉back",
+        "consonant_group_relation": "组外语义控制",
+        "counterevidence": "语体较书面；古字形含咢不证明与back同源",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "高",
+        "decision": "semantic_control",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/愕"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A11",
+        "chinese_form": "白",
+        "reading": "bái",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "A1/A3 negative control",
+        "documented_meaning": "白色，限此义",
+        "semantic_fit": "mismatch",
+        "phonetic_fit": "weak：同为唇塞起首的局部近似；ai≠æ，无-k；不优于背的声音",
+        "consonant_group_relation": "b 声音控制",
+        "counterevidence": "不能用吓得脸白这种后果补成惊讶义；颜色不是back",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "控制",
+        "decision": "sound_control",
+        "retrieval_route": "control",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/白"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "ABACK",
+        "candidate_id": "A12",
+        "chinese_form": "百",
+        "reading": "bǎi",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "A1/A3 negative control",
+        "documented_meaning": "一百，数词",
+        "semantic_fit": "mismatch",
+        "phonetic_fit": "weak：与背/白类似局部声近；现代无-k；本轮不挑古音凑似",
+        "consonant_group_relation": "b 声音控制",
+        "counterevidence": "数字义无关；声母命中不能使其入选",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "控制",
+        "decision": "sound_control",
+        "retrieval_route": "control",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/百"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/aback",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+          "https://www.etymonline.com/word/aback"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      }
+    ],
+    "metrics_scope": "Original 39-row run: 10 expansions, 6 restricted retained, 4 rejected, 1 shortlist addition, no new strong phonetic-semantic winner. Not a precision/recall measurement.",
+    "rule": "Consonant-group expansion is candidate generation, not an evidence score.",
+    "freeze": "Featured Mapping: Pending。背仅比较历史空间／back成分；蒙仅为突发失措子义候选。Pending是有效研究结果，不是页面错误。"
+  },
+  "legacy_migration": {
+    "version": "pending-final-0.1",
+    "baseline_commit": "be8bc2dcb1d3f517ba41bbaa2dacc8574335565b",
+    "scope": "Read-only exact pre-migration archive; old Featured claims are superseded, not current research grades.",
+    "previous_fields": {
+      "title": {
+        "en": "Aback · Back · Civilization Behind You",
+        "zh-Hans": "Aback · 背 · 文明在你背后"
+      },
+      "featured_mapping": {
+        "source": "aback",
+        "target": "背",
+        "reading": "bèi",
+        "display_label": "Featured structural and sound–meaning candidate · 特色结构与音义候选",
+        "status": "Candidate · Low confidence",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "背 bèi is displayed first to make the author's a + back / back ↔ 背 comparison visible. The standard modern translation remains 吃惊地 in taken aback; no English–Chinese cognacy is claimed.",
+          "zh-Hans": "先展示“背”bèi，以突出作者的 a＋back／back↔背比较；现代 taken aback 的通用翻译仍是“吃惊地”，不主张英汉同源。"
+        },
+        "source_refs": [
+          "REF-LANGUAGESBOOK-ABACK",
+          "REF-MW-ABACK",
+          "REF-MW-BACK"
+        ]
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-aback-primary",
+        "source": {
+          "language": "English",
+          "word": "aback",
+          "pronunciation": "/əˈbæk/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "吃惊地",
+          "pronunciation": "chījīng de"
+        },
+        "gloss": {
+          "en": "chiefly in taken aback: suddenly surprised or startled",
+          "zh-Hans": "主要用于 taken aback：突然吃惊、猝不及防"
+        },
+        "meaning": {
+          "en": "The standard modern sense is ‘suddenly surprised,’ chiefly in taken aback. The older spatial structure a + back (‘at/on the back; backward’) and the back ↔ 背 candidate are displayed separately.",
+          "zh-Hans": "现代通用义主要是 taken aback 中的“突然吃惊”；较早的空间结构 a＋back（在背后／向后）以及 back↔背候选另行展示。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABACK",
+          "title": "languagesbook.com legacy entry: aback，背。背 bei。back 与背 bei 同音",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/aback%ef%bc%8c%e8%83%8c%e5%90%8e%e3%80%82%e6%96%87%e6%98%8e%e5%9c%a8%e8%83%8c%e5%90%8e/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABACK",
+          "title": "Merriam-Webster Dictionary: aback",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/aback",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-MW-BACK",
+          "title": "Merriam-Webster Dictionary: back",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/back",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-OALD-ABACK",
+          "title": "Oxford Advanced Learner's Dictionary: aback",
+          "type": "dictionary",
+          "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/aback",
+          "path": null,
+          "provenance": "external dictionary and word-origin reference; accessed 2026-09-04"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Candidate; priority 88.3/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Candidate；优先分 88.3/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The English internal history is established; the English–Chinese resemblance remains a candidate only.",
+          "zh-Hans": "英语内部词史已建立；英汉近似仍只属候选。"
+        }
+      ],
+      "search_terms": [
+        "aback",
+        "taken aback",
+        "back",
+        "向后",
+        "吃惊",
+        "背",
+        "背后",
+        "背 bei",
+        "surprised",
+        "civilization",
+        "文明",
+        "文明在你背后",
+        "a.back",
+        "dos",
+        "bèi"
+      ],
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "aback",
+          "pronunciation": "/əˈbæk/",
+          "part_of_speech": "adverb · 副词"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "吃惊地",
+          "pronunciation": "chījīng de"
+        },
+        {
+          "role": "featured-phonetic-semantic-candidate",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "背",
+          "pronunciation": "bèi"
+        },
+        {
+          "role": "related-word",
+          "code": "en",
+          "name": "English",
+          "word": "back",
+          "pronunciation": "/bæk/"
+        },
+        {
+          "role": "translation-of-back",
+          "code": "fr",
+          "name": "French",
+          "word": "dos",
+          "pronunciation": "/do/"
+        }
+      ]
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery"
+    ]
   }
 }

@@ -112,7 +112,7 @@ check(universe?.primary_mapping.target.word === "宇宙" && universe?.primary_ma
 check(universe?.root_level_mapping?.version === "1.0", "Universe root-level mapper metadata missing");
 check(universe?.root_level_mapping?.featured_structural_mapping?.target === "斡" && universe.root_level_mapping.featured_structural_mapping.reading === "wò", "Universe featured structural mapping missing");
 const sound = dataset.entries.find((entry) => entry.slug === "sound");
-check(sound?.featured_mapping?.target === "声" && sound.featured_mapping.reading === "shēng", "Sound featured lexical mapping missing");
+check(!sound?.featured_mapping && sound?.featured_mapping_status === "Pending" && sound?.primary_mapping?.target?.word === "声音", "Sound must preserve standard semantics with Featured Pending");
 check(sound?.primary_mapping?.target?.word === "声音", "Sound standard translation must remain 声音");
 check(universe?.root_level_mapping?.latin_decomposition?.chain === "Latin universus → UNI (unus) + VERS (versus ← vertere) → ONE + TURNED → WHOLE", "Universe Latin decomposition changed");
 check(universe?.root_level_mapping?.traditional_chinese_construction?.chain === "宇 + 宙 → SPACE + TIME → COSMOS", "Universe traditional Chinese construction changed");

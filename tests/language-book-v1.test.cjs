@@ -6,7 +6,7 @@ const root = path.resolve(__dirname, "..");
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const {legacyEntry}=require("./legacy-research-view.cjs");
 // Historical research contract; active Batch 2 behavior has its own regression suite.
-dataset.entries=dataset.entries.map(e=>e.legacy_migration?.version==="batch-2-0.1"?legacyEntry(e):e);
+dataset.entries=dataset.entries.map(e=>["batch-2-0.1","pending-final-0.1"].includes(e.legacy_migration?.version)?legacyEntry(e):e);
 const dataApi = require(path.join(root, "js/language-book-data.js"));
 
 test("v1 keeps publication, mapping, history and literature independent", () => {
@@ -158,7 +158,7 @@ test("Mapper renders optional root-level metadata without changing ordinary reco
   assert.equal(dataApi.lookup(dataset, "sky").entry.root_level_mapping, undefined);
 });
 
-test("Sound shows 声 as the featured form while preserving 声音 as standard translation", () => {
+test("Archived pre-Freeze Sound shows 声 as the featured form while preserving 声音 as standard translation", () => {
   const sound = dataApi.lookup(dataset, "sound").entry;
   assert.equal(sound.featured_mapping.target, "声");
   assert.equal(sound.featured_mapping.reading, "shēng");

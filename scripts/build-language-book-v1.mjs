@@ -542,7 +542,7 @@ for (const entry of authoredEntries) {
   const index = entries.findIndex(existing => existing.id === entry.id);
   if (index < 0) entries.push(entry);
   else {
-    if (!['LB-en-universe-001', 'LB-en-man-001'].includes(entry.id)) throw new Error(`Unapproved core override: ${entry.id}`);
+    if (!['LB-en-universe-001', 'LB-en-man-001', 'LB-en-sound-001'].includes(entry.id)) throw new Error(`Unapproved core override: ${entry.id}`);
     entries[index] = entry;
   }
 }

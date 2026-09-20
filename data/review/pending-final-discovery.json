@@ -1,0 +1,1581 @@
+{
+  "run_id": "TC-DISCOVERY-1-2026-09-20",
+  "freeze_version": "discovery-0.1",
+  "protocol": "Candidate Discovery Protocol v0.2",
+  "model": "Diachronic Cross-Language Mapping Model v0.1",
+  "baseline_commit": "be8bc2dcb1d3f517ba41bbaa2dacc8574335565b",
+  "mode": "Discovery only; no repository writes",
+  "scope": [
+    "ABACK",
+    "SOUND",
+    "MEDIA"
+  ],
+  "candidate_count": 39,
+  "all_historical_relations": "Not claimed",
+  "counting_boundary": "39 scoped expression/sense rows including deliberate controls. 背/背后 and 媒/媒介 are family duplicates; 反/返 already share one audit row. 37 family groups, not 39 independent successes.",
+  "metrics": {
+    "expansion_rows": 10,
+    "expansion_retained_restricted": 6,
+    "expansion_rejected": 4,
+    "expansion_shortlist_additions": 1,
+    "new_strong_phonetic_semantic_shortlist_from_expansion": 0,
+    "deliberate_sound_controls": 7,
+    "new_priority_research_leads_relative_to_three_records": [
+      "却",
+      "蒙（了）",
+      "嗓",
+      "介",
+      "保山",
+      "伐柯"
+    ],
+    "blind_equal_budget_experiment": false,
+    "global_recall": null
+  },
+  "candidates": [
+    {
+      "entry": "ABACK",
+      "candidate_id": "A01",
+      "chinese_form": "背",
+      "reading": "bèi",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "A0 component / A1 spatial",
+      "documented_meaning": "人体后背；物体后面",
+      "semantic_fit": "direct 对 back 名词；partial 对 aback 方向副词；对 A3 mismatch",
+      "phonetic_fit": "weak：/bæk/ 对 [pei˥˩]；b/[p]清浊不同，æ/ei不同，-k缺失；整词还多ə-",
+      "consonant_group_relation": "b baseline；不是同音",
+      "counterevidence": "不取 bēi 背负义；不把字母 a 的名称当 aback 发音；OC另见专项",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "shortlist",
+      "retrieval_route": "legacy",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/背",
+          "https://www.shidianguji.com/character/背"
+        ],
+        "mainland_named_dictionary": "识典古籍标名《汉语大词典》条目摘要：mediated; original edition, page and complete citations Pending"
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A02",
+      "chinese_form": "背后",
+      "reading": "bèi hòu",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "A1",
+      "documented_meaning": "后方／后面，背的方位构式",
+      "semantic_fit": "direct 位置；运动需向背后等构式",
+      "phonetic_fit": "weak：两音节对aback两音节不构成逐音节对应；hòu无相应音段",
+      "consonant_group_relation": "b baseline，同背家族",
+      "counterevidence": "不等于突然吃惊；不是新的独立音义成功",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/背"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A03",
+      "chinese_form": "退",
+      "reading": "tuì",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin / historical sense",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代；古义版本Pending",
+      "target_source_stage": "A1 movement",
+      "documented_meaning": "向后移动",
+      "semantic_fit": "direct 对向后运动；对帆状态仅partial",
+      "phonetic_fit": "mismatch：/bæk/ 与 [tʰwei] 声韵均异",
+      "consonant_group_relation": "组外；t不能因d-t-n-l而与b自动对应",
+      "counterevidence": "不是所有aback情境都真的移动；现代taken aback不必后退",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/退"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A04",
+      "chinese_form": "却",
+      "reading": "què",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin / historical sense",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代；退却义历史层首证Pending",
+      "target_source_stage": "A1 movement / A2 explanatory control",
+      "documented_meaning": "退、却步、退却",
+      "semantic_fit": "direct 对退却；A2 partial",
+      "phonetic_fit": "mismatch：现代 [tɕʰɥe] 对 /bæk/；古音未评分",
+      "consonant_group_relation": "组外；q不临时塞入g-k-h；末尾-k不能改作声母命中",
+      "counterevidence": "区分退却动词与现代转折副词却；不证明英语惊讶义来自汉语",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "shortlist",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/却"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A05",
+      "chinese_form": "反 / 返",
+      "reading": "fǎn",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin / historical sense",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代；古文返回义的具体版本Pending",
+      "target_source_stage": "A1 reversal / A2 contrast",
+      "documented_meaning": "反：翻转、相反；返：回归原处；古反可表返",
+      "semantic_fit": "partial：反向有用；回归原点不是aback必含义",
+      "phonetic_fit": "weak：f/b 发音方式不同，an/æk韵尾不同，无ə-；古音not_evaluated",
+      "consonant_group_relation": "b-p-m-f 扩展 f",
+      "counterevidence": "反、返不是所有义项可互换；返航不是taken aback的航海义",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "reserved",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/反",
+          "https://zdic.net/hans/返"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A06",
+      "chinese_form": "北",
+      "reading": "běi",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "先秦传世书证经在线转引；读音为现代",
+      "target_source_stage": "A1 movement",
+      "documented_meaning": "败逃、败北",
+      "semantic_fit": "partial：退逃附加战败限制",
+      "phonetic_fit": "weak 现代[pei]；不把OC north行借给败逃义加分",
+      "consonant_group_relation": "b baseline",
+      "counterevidence": "北方义mismatch；bèi违背义另条不混；不能把转身、北方、败逃混为一义",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "reserved",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/北"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A07",
+      "chinese_form": "怕",
+      "reading": "pà",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "A3 surprise",
+      "documented_meaning": "恐惧",
+      "semantic_fit": "partial：惊讶可伴恐惧但不蕴含恐惧",
+      "phonetic_fit": "weak：pʰ/b有送气清浊差，a/æ近似有限，缺-k和ə-",
+      "consonant_group_relation": "b-p-m-f 扩展 p",
+      "counterevidence": "被意外善意惊到可taken aback但不怕；不作为通用惊讶映射",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "低",
+      "decision": "rejected",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/怕"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A08",
+      "chinese_form": "蒙（了）",
+      "reading": "mēng (le)",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin colloquial",
+      "approximate_period": "现代口语；2019大陆语言专栏明确讨论",
+      "target_source_stage": "A3",
+      "documented_meaning": "突然糊涂、惶惑、一时反应不过来",
+      "semantic_fit": "partial：适合被突发消息弄蒙；强于单纯怕但非所有surprise",
+      "phonetic_fit": "weak：m与b不同方式，eng/æk不同韵尾；了为构式不参与配音",
+      "consonant_group_relation": "b-p-m-f 扩展 m",
+      "counterevidence": "排除méng覆盖、měng蒙古与欺骗/瞎猜；不推成永久无知或必定昏迷",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "shortlist",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://paper.people.com.cn/rmrbhwb/page/2019-03/02/05/rmrbhwb2019030205.pdf",
+          "https://zdic.net/hans/蒙"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A09",
+      "chinese_form": "懵",
+      "reading": "měng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "A3 attempted",
+      "documented_meaning": "糊涂、不明事理；懵懂",
+      "semantic_fit": "partial到mismatch：状态无知不等于突发惊讶",
+      "phonetic_fit": "weak，与蒙声韵相近但声调/字义不能互借",
+      "consonant_group_relation": "b-p-m-f 扩展 m",
+      "counterevidence": "本轮采用杜永道对蒙了/懵懂的区分；不以网络混写升级；非断言所有当代用法非法",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "低",
+      "decision": "rejected",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://www.zdic.net/hans/懵",
+          "https://paper.people.com.cn/rmrbhwb/page/2019-03/02/05/rmrbhwb2019030205.pdf"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A10",
+      "chinese_form": "愕（然）",
+      "reading": "è (rán)",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin / historical sense",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代；汉书等书证经在线转引",
+      "target_source_stage": "A3",
+      "documented_meaning": "惊讶、惊愕",
+      "semantic_fit": "direct 限于突发惊愕",
+      "phonetic_fit": "mismatch：零声母/ɤ/与/bæk/不同；不能把è配ə而丢掉back",
+      "consonant_group_relation": "组外语义控制",
+      "counterevidence": "语体较书面；古字形含咢不证明与back同源",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/愕"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A11",
+      "chinese_form": "白",
+      "reading": "bái",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "A1/A3 negative control",
+      "documented_meaning": "白色，限此义",
+      "semantic_fit": "mismatch",
+      "phonetic_fit": "weak：同为唇塞起首的局部近似；ai≠æ，无-k；不优于背的声音",
+      "consonant_group_relation": "b 声音控制",
+      "counterevidence": "不能用吓得脸白这种后果补成惊讶义；颜色不是back",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "sound_control",
+      "retrieval_route": "control",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/白"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "ABACK",
+      "candidate_id": "A12",
+      "chinese_form": "百",
+      "reading": "bǎi",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "A1/A3 negative control",
+      "documented_meaning": "一百，数词",
+      "semantic_fit": "mismatch",
+      "phonetic_fit": "weak：与背/白类似局部声近；现代无-k；本轮不挑古音凑似",
+      "consonant_group_relation": "b 声音控制",
+      "counterevidence": "数字义无关；声母命中不能使其入选",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "sound_control",
+      "retrieval_route": "control",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/百"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/aback",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/aback",
+        "https://www.etymonline.com/word/aback"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S01",
+      "chinese_form": "声",
+      "reading": "shēng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 auditory noun",
+      "documented_meaning": "能引起听觉的声音；声响",
+      "semantic_fit": "direct",
+      "phonetic_fit": "weak：/s/≠[ʂ]；/aʊ/≠[ɤ/ə]，/nd/≠ŋ；整词一音节但韵不合",
+      "consonant_group_relation": "sh不属于冻结的z-c-s；仅独立宽泛咝音观察",
+      "counterevidence": "Supported只可指译义；不能继承为音近或同源等级；OC专项*[l̥]eŋ不支持不变s起首",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "shortlist",
+      "retrieval_route": "legacy",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/声",
+          "https://www.shidianguji.com/character/聲"
+        ],
+        "mainland_named_dictionary": "识典古籍标名《汉语大词典》条目摘要：mediated; original edition, page and complete citations Pending"
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S02",
+      "chinese_form": "响",
+      "reading": "xiǎng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 auditory verb",
+      "documented_meaning": "发出声音、响起；亦有声响名词义",
+      "semantic_fit": "direct 对不及物发声；使动需使…响",
+      "phonetic_fit": "weak：/s/对[ɕ]，iaŋ与aʊnd差异明显",
+      "consonant_group_relation": "组外；x不自动纳入z-c-s",
+      "counterevidence": "声音大义是另一sense；动词不能直接替代所有名词sound",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "shortlist",
+      "retrieval_route": "legacy",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/响"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S03",
+      "chinese_form": "音",
+      "reading": "yīn",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A1/S-A3",
+      "documented_meaning": "声音、音响；特定语境有音乐/音调限制",
+      "semantic_fit": "direct 在声音义；部分古代乐论有声/音区分",
+      "phonetic_fit": "mismatch：现代无s起首，in≠aʊnd；Latin历史音未冻结",
+      "consonant_group_relation": "组外语义控制",
+      "counterevidence": "古音/古义不能直接从现代声音合成词推出；不把一切声限定成音乐",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/音"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S04",
+      "chinese_form": "鸣",
+      "reading": "míng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 auditory verb",
+      "documented_meaning": "鸟兽叫；器物发声",
+      "semantic_fit": "partial：适合钟鸣/鸟鸣，不包所有声音",
+      "phonetic_fit": "mismatch：m、iŋ与saʊnd不同",
+      "consonant_group_relation": "组外语义控制；不从s临时跳到m组",
+      "counterevidence": "附加声源与语体限制；不能将每次声音译成鸣",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/鸣"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S05",
+      "chinese_form": "嗓",
+      "reading": "sǎng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 restricted voice",
+      "documented_meaning": "嗓音、人声；另义为喉咙",
+      "semantic_fit": "partial：voice子域，不是一般auditory phenomenon",
+      "phonetic_fit": "partial 局部：s相同，a类元音与鼻音尾近似；a≠aʊ，ŋ≠nd，无-d，声调不同",
+      "consonant_group_relation": "s baseline",
+      "counterevidence": "必须选嗓音义；器官喉咙≠声音；水声/钟声不可通用；不是sonus的已证根对应",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "shortlist",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/嗓"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S06",
+      "chinese_form": "噪",
+      "reading": "zào",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 noise subtype",
+      "documented_meaning": "喧嚷、嘈杂声",
+      "semantic_fit": "partial：附加杂乱/高声限制",
+      "phonetic_fit": "partial 局部：ao接近aʊ；[ts]≠s，缺-nd，声调不同",
+      "consonant_group_relation": "z-c-s 扩展 z",
+      "counterevidence": "noise不是中性sound全义；仅留子类对照",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "reserved",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/噪"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S07",
+      "chinese_form": "诵",
+      "reading": "sòng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 verb attempted",
+      "documented_meaning": "有抑扬地念、诵读",
+      "semantic_fit": "partial：发声的一种行为",
+      "phonetic_fit": "weak：s相同；uŋ与aʊnd不同；法语son的拼写不当历史IPA",
+      "consonant_group_relation": "s baseline",
+      "counterevidence": "言语内容与诵读方式过窄；不因法语son近拼写升为通用sound",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "低",
+      "decision": "rejected",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/诵"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S08",
+      "chinese_form": "嘶",
+      "reading": "sī",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 vocal subtype",
+      "documented_meaning": "马叫、声音沙哑",
+      "semantic_fit": "partial：受声源/音质约束",
+      "phonetic_fit": "weak：s相同，i舌尖元音与aʊnd不同；缺鼻塞尾",
+      "consonant_group_relation": "s baseline",
+      "counterevidence": "嘶不代表所有声；仅可单列声象子类型，不能证明sound本词拟声",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "reserved",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/嘶"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S09",
+      "chinese_form": "飒",
+      "reading": "sà",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 wind-sound subtype",
+      "documented_meaning": "形容风声",
+      "semantic_fit": "partial：风声子类",
+      "phonetic_fit": "weak：s相同，a对aʊ只是局部，缺-nd",
+      "consonant_group_relation": "s baseline",
+      "counterevidence": "拟声词属性属于飒而非自动属于英语sound；不因含sound义同源",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "reserved",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/飒"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S10",
+      "chinese_form": "啧",
+      "reading": "zé",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 mouth-sound subtype",
+      "documented_meaning": "啧啧类舌口声，亦有争辩等义",
+      "semantic_fit": "partial：特定声响",
+      "phonetic_fit": "weak：[ts]≠s，ɤ≠aʊ，缺-nd",
+      "consonant_group_relation": "z-c-s 扩展 z",
+      "counterevidence": "固定啧啧构式/语用限制；不泛化作声音总称",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "reserved",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/啧"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S11",
+      "chinese_form": "桑",
+      "reading": "sāng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 negative control",
+      "documented_meaning": "桑树",
+      "semantic_fit": "mismatch",
+      "phonetic_fit": "partial 局部：与嗓音段接近，s+a+ŋ；仍缺双元音与-d",
+      "consonant_group_relation": "s 声音控制",
+      "counterevidence": "桑不因与嗓同音段或作声旁而有voice义",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "sound_control",
+      "retrieval_route": "control",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/桑"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S12",
+      "chinese_form": "耸",
+      "reading": "sǒng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-A3 negative control",
+      "documented_meaning": "高起；本轮控制sense取此",
+      "semantic_fit": "mismatch",
+      "phonetic_fit": "weak：s+鼻尾近似有限；uŋ≠aʊnd",
+      "consonant_group_relation": "s 声音控制",
+      "counterevidence": "耸人听闻不等于声音；古耳聋义更不等于声音现象",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "sound_control",
+      "retrieval_route": "control",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/耸"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S13",
+      "chinese_form": "健",
+      "reading": "jiàn",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-H healthy branch",
+      "documented_meaning": "强健、健康",
+      "semantic_fit": "direct 对healthy子义；auditory mismatch",
+      "phonetic_fit": "mismatch：tɕian≠saʊnd",
+      "consonant_group_relation": "组外义项边界控制",
+      "counterevidence": "不能把这个sound与声合成一条链；不覆盖sound argument所有用法",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/健"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S14",
+      "chinese_form": "探",
+      "reading": "tàn",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-P probe branch",
+      "documented_meaning": "探察、探测",
+      "semantic_fit": "direct 对probe；测水深要探深/测深等构式",
+      "phonetic_fit": "weak：tʰ≠s，an和aʊnd仅鼻音偶合",
+      "consonant_group_relation": "组外义项边界控制",
+      "counterevidence": "探测并不必借声音；现代声呐技术不证明两词源相同",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/探"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "SOUND",
+      "candidate_id": "S15",
+      "chinese_form": "测",
+      "reading": "cè",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "S-P depth branch",
+      "documented_meaning": "测量；推测",
+      "semantic_fit": "direct 对measure动作；水深对象需补出",
+      "phonetic_fit": "mismatch：[tsʰɤ]与saʊnd不近",
+      "consonant_group_relation": "z-c-s命中特征仅适用于probe表面音；不计auditory扩展收益",
+      "counterevidence": "measure/probe的同形不许给声音义加分",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/测"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/sound",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+        "https://www.cnrtl.fr/etymologie/son/substantif",
+        "https://www.etymonline.com/word/sound"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M01",
+      "chinese_form": "媒",
+      "reading": "méi",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M2 intermediary / M3 communication component",
+      "documented_meaning": "使双方发生关系的人或事物；婚姻介绍人是限定义",
+      "semantic_fit": "direct 对intermediary；M1几何middle仅indirect",
+      "phonetic_fit": "weak 整词：media /ˈmiːdiə/对[mei˧˥]；m同，iː≠ei，-diə未对应；拉丁音not_evaluated",
+      "consonant_group_relation": "m baseline",
+      "counterevidence": "不能从媒人倒推出媒本义是几何中间；不是拉丁med-同源词",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "shortlist",
+      "retrieval_route": "legacy",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/媒",
+          "https://www.shidianguji.com/character/媒"
+        ],
+        "mainland_named_dictionary": "识典古籍标名《汉语大词典》条目摘要：mediated; original edition, page and complete citations Pending"
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M02",
+      "chinese_form": "媒介",
+      "reading": "méi jiè",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M2 / M3",
+      "documented_meaning": "促使双方关联的人或事物；按语境作传播媒介",
+      "semantic_fit": "direct 对medium；mass media通常用媒体更自然",
+      "phonetic_fit": "weak：m局部相同，余下音节不匹配；不可截成me＝媒的历史根",
+      "consonant_group_relation": "m baseline；与媒同家族不重复计成功",
+      "counterevidence": "media复数/集合用法及培养基、介质等另义不能统译媒人",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/媒介",
+          "https://zdic.net/hans/媒体"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M03",
+      "chinese_form": "中",
+      "reading": "zhōng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M1 medius / medium",
+      "documented_meaning": "中间；两端之间的中等状态",
+      "semantic_fit": "direct 对middle/intermediate",
+      "phonetic_fit": "mismatch 现代对media；拉丁历史音not_evaluated",
+      "consonant_group_relation": "组外语义控制",
+      "counterevidence": "zhòng中目标义排除；中不是现代新闻媒体译词",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "semantic_control",
+      "retrieval_route": "legacy",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/中"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M04",
+      "chinese_form": "间",
+      "reading": "jiān",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M1 between",
+      "documented_meaning": "中间、两事物或时段相接处",
+      "semantic_fit": "direct 对between/interval",
+      "phonetic_fit": "mismatch；拉丁历史音not_evaluated",
+      "consonant_group_relation": "组外语义控制",
+      "counterevidence": "不混jiàn间隔离间义；方位关系≠中介施事",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "semantic_control",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/间"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M05",
+      "chinese_form": "介",
+      "reading": "jiè",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M1 between / M2 bridge",
+      "documented_meaning": "处于两者之间；媒介构式的介",
+      "semantic_fit": "direct 在介于…之间；中介角色需构式",
+      "phonetic_fit": "mismatch 对media；不因中间义强补声音",
+      "consonant_group_relation": "组外语义候选",
+      "counterevidence": "甲胄、耿介等义全部排除；不要把介于、中介每个义项机械视为同一历史阶段",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "高",
+      "decision": "shortlist",
+      "retrieval_route": "semantic",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/介",
+          "https://zdic.net/hans/媒介",
+          "https://www.shidianguji.com/character/介"
+        ],
+        "mainland_named_dictionary": "识典古籍标名《汉语大词典》条目摘要：mediated; original edition, page and complete citations Pending",
+        "historical_sense_supplement": "《汉语大词典》摘要列居间、传宾主之言的人、送信或传消息的人；各义首证与年代 Pending，不串成必经义变链。"
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M06",
+      "chinese_form": "保山",
+      "reading": "bǎo shān",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin / traditional expression",
+      "approximate_period": "旧式称谓见当代词典；明确历史版本/年代Pending",
+      "target_source_stage": "M2 restricted human intermediary",
+      "documented_meaning": "担保人；媒人，取后一义",
+      "semantic_fit": "partial：婚姻中介子域",
+      "phonetic_fit": "mismatch 整词；b[p]对m仅同唇，余下全异",
+      "consonant_group_relation": "b-p-m-f 扩展 b",
+      "counterevidence": "非云南地名；不删山只宣称单字保普遍等于media；历史首证未直核",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "reserved",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/保山",
+          "https://zdic.net/hans/保"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M07",
+      "chinese_form": "伐柯",
+      "reading": "fá kē",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Literary / historical expression + modern reading",
+      "approximate_period": "先秦诗题为典故背景；做媒引申的首证/版本Pending",
+      "target_source_stage": "M2 restricted matchmaking",
+      "documented_meaning": "做媒的典故性表达",
+      "semantic_fit": "partial：限婚姻中介行为",
+      "phonetic_fit": "mismatch：f对m、a-ke对iː-diə均异",
+      "consonant_group_relation": "b-p-m-f 扩展 f",
+      "counterevidence": "不是伐单字的通用middle义；不得拿文学典故当词根对应；大陆读fá，不用台湾栏fā",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "中",
+      "decision": "reserved",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/伐柯"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M08",
+      "chinese_form": "凭",
+      "reading": "píng",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M2 attempted",
+      "documented_meaning": "凭借、依靠、依据",
+      "semantic_fit": "indirect：依靠某工具不是工具本身或中介",
+      "phonetic_fit": "mismatch：pʰiŋ与miːdiə不同",
+      "consonant_group_relation": "b-p-m-f 扩展 p",
+      "counterevidence": "关系词与中介实体错配；不能因为by means of就当medium名词",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "低",
+      "decision": "rejected",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/凭"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M09",
+      "chinese_form": "米",
+      "reading": "mǐ",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M1/M2/M3 negative control",
+      "documented_meaning": "米粒；本轮取谷物义",
+      "semantic_fit": "mismatch",
+      "phonetic_fit": "weak 整词、局部m+i较像media起首；缺diə，声调不同",
+      "consonant_group_relation": "m 声音控制",
+      "counterevidence": "声音局部可比媒更近但语义无关；拒绝因字形中点等补故事",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "sound_control",
+      "retrieval_route": "control",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/米"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M10",
+      "chinese_form": "美",
+      "reading": "měi",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M1/M2/M3 negative control",
+      "documented_meaning": "美好、美丽",
+      "semantic_fit": "mismatch",
+      "phonetic_fit": "weak，与媒同音段而不同声调，整词media仍不同",
+      "consonant_group_relation": "m 声音控制",
+      "counterevidence": "不能以媒体展示美好之物补成词义关系",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "sound_control",
+      "retrieval_route": "control",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/美"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M11",
+      "chinese_form": "谜",
+      "reading": "mí",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M1/M2/M3 negative control",
+      "documented_meaning": "谜语、难解事物",
+      "semantic_fit": "mismatch",
+      "phonetic_fit": "weak 整词；m+i局部较近media；缺-diə",
+      "consonant_group_relation": "m 声音控制",
+      "counterevidence": "只取mí名词；谜儿等读法另议；中介不是谜",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "控制",
+      "decision": "sound_control",
+      "retrieval_route": "control",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/谜"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    },
+    {
+      "entry": "MEDIA",
+      "candidate_id": "M12",
+      "chinese_form": "半",
+      "reading": "bàn",
+      "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+      "target_source_stage": "M1 attempted",
+      "documented_meaning": "二分之一、不全",
+      "semantic_fit": "partial：half量与middle位置/等级不同",
+      "phonetic_fit": "mismatch：p-an与miːdiə不同",
+      "consonant_group_relation": "b-p-m-f 扩展 b",
+      "counterevidence": "halfway可在中点，但不能将半的一切用法改成中间",
+      "historical_relation": "Not claimed",
+      "discovery_priority": "低",
+      "decision": "rejected",
+      "retrieval_route": "expansion",
+      "evidence": {
+        "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+        "chinese_pronunciation": "direct online pinyin / named language commentary",
+        "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+        "source_urls": [
+          "https://zdic.net/hans/半"
+        ]
+      },
+      "source_stage_evidence_urls": [
+        "https://www.merriam-webster.com/dictionary/medium",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/media",
+        "https://www.etymonline.com/word/media",
+        "https://www.merriam-webster.com/dictionary/mid",
+        "https://www.merriam-webster.com/dictionary/mad"
+      ],
+      "confidence": {
+        "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+        "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+        "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+      }
+    }
+  ],
+  "historical_phonetic_supplement": {
+    "system": "Baxter–Sagart 2014-09-20; MC is system transcription, not IPA; OC is reconstruction",
+    "url": "https://sites.lsa.umich.edu/ocbaxtersagart/wp-content/uploads/sites/1415/2025/03/BaxterSagartOCbyMandarinMC2014-09-20.pdf",
+    "comparison_status": "not_evaluated: corresponding historical European sound systems not frozen; modern fit is unchanged",
+    "mainland_policy": "Non-Mainland phonetic supplement, not a substitute for Mainland lexicographic evidence",
+    "rows": [
+      {
+        "form": "背",
+        "sense": "the back",
+        "MC": "pwojH",
+        "OC": "*pˤək-s",
+        "PDF_page": 6
+      },
+      {
+        "form": "背",
+        "sense": "turn the back on",
+        "MC": "bwojH",
+        "OC": "*m-pˤək-s",
+        "PDF_page": 6
+      },
+      {
+        "form": "聲",
+        "sense": "sound (n.)",
+        "MC": "syeng",
+        "OC": "*[l̥]eŋ",
+        "PDF_page": 101
+      },
+      {
+        "form": "媒",
+        "sense": "match-maker, go-between",
+        "MC": "mwoj",
+        "OC": "*C.mˤə",
+        "PDF_page": 76
+      }
+    ]
+  },
+  "stage_map_reference": "Tier-C-Discovery-Batch-1-report.md, sections 2–4",
+  "editorial_status": {
+    "ABACK": "Ready for Editorial Freeze",
+    "SOUND": "Ready for Editorial Freeze",
+    "MEDIA": "Ready for Editorial Freeze"
+  },
+  "repository_verification": {
+    "HEAD_unchanged": true,
+    "working_tree_clean": true,
+    "commit": "be8bc2dcb1d3f517ba41bbaa2dacc8574335565b",
+    "repository_mutations": false
+  }
+}

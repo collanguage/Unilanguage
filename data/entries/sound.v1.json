@@ -1,0 +1,3965 @@
+{
+  "id": "LB-en-sound-001",
+  "slug": "sound",
+  "title": {
+    "en": "SOUND · 声音",
+    "zh-Hans": "SOUND · 声音"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "sound",
+      "pronunciation": "/saʊnd/"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "声音",
+      "pronunciation": "shēngyīn"
+    },
+    {
+      "role": "standard-semantic-comparison",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "声",
+      "pronunciation": "shēng"
+    },
+    {
+      "role": "verb-equivalent",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "响",
+      "pronunciation": "xiǎng"
+    },
+    {
+      "role": "historically-related-form",
+      "code": "fr",
+      "name": "French",
+      "word": "son",
+      "pronunciation": "/sɔ̃/"
+    },
+    {
+      "role": "historically-related-verb",
+      "code": "fr",
+      "name": "French",
+      "word": "sonner",
+      "pronunciation": "/sɔ.ne/"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-sound-primary-shengyin",
+    "source": {
+      "language": "English",
+      "word": "sound",
+      "pronunciation": "/saʊnd/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "声音",
+      "pronunciation": "shēngyīn"
+    },
+    "gloss": {
+      "en": "Noun: an audible vibration; verb: to make or cause a sound.",
+      "zh-Hans": "名词：声音；动词：响起或使之发声。"
+    },
+    "meaning": {
+      "en": "Auditory noun: sound; intransitive verb: make a sound. 声 is a semantic comparison, not a Featured selection.",
+      "zh-Hans": "听觉名词：声音；不及物动词：响／响起、发出声音。声为语义映射；Featured保持Pending。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected or Pending",
+    "rationale": {
+      "en": "This is primarily a lexical and protocol record; no cross-language origin claim is made.",
+      "zh-Hans": "本条主要是词义与协议记录；不主张跨语言共同来源。"
+    }
+  },
+  "entry_status": "Published",
+  "mapping_status": "Supported",
+  "mapping_level": "A",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "The audible English sound comes through Middle English and Anglo-French from Latin sonus / sonare. French son and sonner continue the same Latin sound family. These histories are independent of Chinese 声 and 响.",
+        "zh-Hans": "英语表示听觉的 sound 经中古英语、盎格鲁法语追溯至拉丁语 sonus／sonare；法语 son、sonner 延续同一拉丁声音词族。这些词史独立于汉语“声”“响”。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-SOUND-LATIN-001",
+          "claim": {
+            "en": "Audible sound: Middle English soun ← Anglo-French son/sun ← Latin sonus, related to sonare ‘to sound.’",
+            "zh-Hans": "听觉义 sound：中古英语 soun ← 盎格鲁法语 son／sun ← 拉丁语 sonus，并与 sonare“发声”相关。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-SOUND"
+          ]
+        },
+        {
+          "evidence_id": "HIST-FR-SON-002",
+          "claim": {
+            "en": "French son derives from Latin sonus; French sonner derives from Latin sonare.",
+            "zh-Hans": "法语 son 源自拉丁语 sonus；sonner 源自拉丁语 sonare。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-CNRTL-SON",
+            "REF-CNRTL-SONNER"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-SOUND",
+        "REF-CNRTL-SON",
+        "REF-CNRTL-SONNER"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "sound /saʊnd/ and 声 shēng share meaning and begin with sibilant consonants, but English /s/ and Mandarin sh /ʂ/ are not identical, and the remaining sounds do not regularly correspond.",
+        "zh-Hans": "sound /saʊnd/ 与“声”shēng 共享声音义并都以擦音起首，但英语 /s/ 与普通话 sh /ʂ/ 并不相同，其余声音也没有建立规律对应。"
+      },
+      "items": [
+        {
+          "evidence_id": "PHONSEM-SOUND-SHENG-001",
+          "claim": {
+            "en": "The proposed relation is a modern sound–meaning resemblance, not a historical cognacy claim.",
+            "zh-Hans": "所提关系是现代声音—意义近似，不是历史同源主张。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "source_refs": [
+            "SRC-LB-SOUND",
+            "REF-JL-SOUND-RAW"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LB-SOUND",
+        "REF-JL-SOUND-RAW"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "Recorded semantic structure: VIBRATION → HEARING → SPEECH.",
+        "zh-Hans": "已记录语义结构：VIBRATION → HEARING → SPEECH。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Speculative": {
+      "status": "Not claimed",
+      "confidence": "Unknown",
+      "summary": {
+        "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+        "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+      },
+      "items": [],
+      "source_refs": []
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-SOUND-SHENG-001",
+      "claim": {
+        "en": "sound /saʊnd/ ↔ 声 shēng: shared sound meaning and a broad initial-sibilant resemblance.",
+        "zh-Hans": "sound /saʊnd/ ↔“声”shēng：共享声音义，并有宽泛的起首擦音近似。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "English /s/ is alveolar; Mandarin sh is retroflex /ʂ/. No regular correspondence, shared rime or historical relation is established.",
+        "zh-Hans": "英语 /s/ 为齿龈音；普通话 sh 为卷舌音 /ʂ/。未建立规律对应、共享韵部或历史关系。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "VIBRATION",
+      "HEARING",
+      "SPEECH"
+    ],
+    "relation": "VIBRATION → HEARING → SPEECH",
+    "status": "Interpretive"
+  },
+  "hypotheses": [],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Published",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "Architecture is frozen music.",
+      "zh-Hans": "那是凝固的音乐。"
+    },
+    "essay_prose": [
+      {
+        "work_id": "LB-SOUND-PROSE-001",
+        "title": {
+          "en": "When the Violin Sounds",
+          "zh-Hans": "当小提琴声音响起"
+        },
+        "text": {
+          "en": "When the violin sounded, it was like a small stream flowing through the forest. As the violin's current rose, I was passing a majestic church. I saw its two round corner towers, its circular window, and tracery radiating like the sun. A saint extended his arms as though an angel were beckoning; behind him, a halo shone like another sun. Columns recalled an ancient Athenian temple. A gentleman in a top hat passed through the great doorway. The violin's rising and falling melody made me imagine a pair of immortal companions drifting down from the mountains of the Middle Ages. Was this music I had once known, or a composer's new work? Sunlight touched the church's marble wall and spread over it a pale layer of yellow. It was frozen music.",
+          "zh-Hans": "小提琴的声音响起时，仿佛森林里一条小小的溪水正在流动。琴声流淌的时候，我正路过一座雄伟的教堂。我看见教堂两座圆形角楼的顶，也看见那扇圆窗，以及像太阳般向四方放射的窗棂。一位圣人伸开双臂，仿佛天使正在招手；他身后的光环，又像一轮太阳。那些圆柱使人想起古老的雅典神庙。一位戴着礼帽的绅士从大门走过。小提琴起伏的旋律，使我想象一双仙侣从中世纪的山间漂流而来。那是我曾经熟悉的音乐，还是作曲家的新作呢？太阳照着教堂大理石的外墙，又为它涂上一层淡淡的黄色。那是凝固的音乐。"
+        },
+        "status": "Published",
+        "page_anchor": "words/sound.html#literature"
+      }
+    ],
+    "poem_lyrics": [],
+    "translations": [
+      {
+        "language": "Chinese",
+        "status": "Author text, editorially revised"
+      },
+      {
+        "language": "English",
+        "status": "Literary translation"
+      }
+    ],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "The violin, forest stream, church, sun, saint and frozen music are literary images. They are not historical or phonetic evidence.",
+      "zh-Hans": "小提琴、森林溪流、教堂、太阳、圣人与“凝固的音乐”均属文学意象，不构成历史或语音证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "SRC-LB-SOUND",
+      "title": "Language Book · Sound",
+      "type": "language-book-page",
+      "url": null,
+      "path": "words/sound.html",
+      "provenance": "unknown"
+    },
+    {
+      "reference_id": "REF-JL-SOUND-RAW",
+      "title": "Jinkai Liu: Sound literary manuscript and research note",
+      "type": "author manuscript",
+      "url": null,
+      "path": null,
+      "provenance": "author-provided in conversation; original note preserved below"
+    },
+    {
+      "reference_id": "REF-MW-SOUND",
+      "title": "Merriam-Webster Dictionary: sound",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/sound",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-CNRTL-SON",
+      "title": "CNRTL/TLFi: étymologie de son",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/son/substantif",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-CNRTL-SONNER",
+      "title": "CNRTL/TLFi: étymologie de sonner",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/sonner",
+      "path": null,
+      "provenance": "external lexicographic reference; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "PF-SOUND-01",
+      "title": "Merriam-Webster: sound",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.merriam-webster.com/dictionary/sound",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-02",
+      "title": "Oxford Learner’s Dictionaries: sound_1",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-03",
+      "title": "CNRTL: son",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.cnrtl.fr/etymologie/son/substantif",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-04",
+      "title": "Etymonline: sound",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.etymonline.com/word/sound",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-05",
+      "title": "汉典：声",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/声",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-06",
+      "title": "识典古籍《汉语大词典》摘要：聲",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://www.shidianguji.com/character/聲",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-07",
+      "title": "汉典：响",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/响",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-08",
+      "title": "汉典：音",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/音",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-09",
+      "title": "汉典：鸣",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/鸣",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-10",
+      "title": "汉典：嗓",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/嗓",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-11",
+      "title": "汉典：噪",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/噪",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-12",
+      "title": "汉典：诵",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/诵",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-13",
+      "title": "汉典：嘶",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/嘶",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-14",
+      "title": "汉典：飒",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/飒",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-15",
+      "title": "汉典：啧",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/啧",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-16",
+      "title": "汉典：桑",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/桑",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-17",
+      "title": "汉典：耸",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/耸",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-18",
+      "title": "汉典：健",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/健",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-19",
+      "title": "汉典：探",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/探",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    },
+    {
+      "reference_id": "PF-SOUND-20",
+      "title": "汉典：测",
+      "type": "Discovery-verified scoped online source",
+      "url": "https://zdic.net/hans/测",
+      "path": null,
+      "provenance": "Inherited from approved Discovery 2026-09-20; no fresh source verification; print editions Pending"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Sound Literary Revision v1.1 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-02",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "This is primarily a lexical and protocol record; no cross-language origin claim is made.",
+      "zh-Hans": "本条主要是词义与协议记录；不主张跨语言共同来源。"
+    },
+    {
+      "en": "Featured Mapping is optional. Pending is a valid research result, not a migration failure. Entry, publication, Featured and evidence statuses are independent.",
+      "zh-Hans": "Featured可空；Pending是有效研究结果。词条审核、发布、Featured选择、证据状态相互独立。"
+    }
+  ],
+  "search_terms": [
+    "sound",
+    "voice",
+    "声音",
+    "声",
+    "响",
+    "son",
+    "shēngyīn",
+    "VIBRATION",
+    "HEARING",
+    "SPEECH",
+    "响起",
+    "xiǎng",
+    "sonner",
+    "violin",
+    "小提琴",
+    "church",
+    "教堂",
+    "frozen music",
+    "凝固的音乐"
+  ],
+  "page": "words/sound.html",
+  "legacy": {
+    "entry_id": "LB-en-sound-001",
+    "source_word": "sound",
+    "language": "English",
+    "normalized_form": "sound",
+    "pronunciation": null,
+    "phonetic_form": null,
+    "lexical_meaning": {
+      "en": "Vibration that can be heard; in language, the audible medium of speech.",
+      "zh-Hans": "可被听见的振动；在语言中也是言语的可听媒介。"
+    },
+    "aliases": [
+      "voice",
+      "声音",
+      "声",
+      "响",
+      "son"
+    ],
+    "classification_status": "published",
+    "primary_chinese_mapping": {
+      "mapping_id": "MAP-sound-primary-shengyin",
+      "chinese_form": "声音",
+      "pinyin": "shēngyīn",
+      "role": "primary",
+      "mapping_basis": "lexical-equivalent",
+      "status": "published",
+      "identity": "source-backed-lexical-mapping",
+      "source_verification": {
+        "status": "source-backed",
+        "source_refs": [
+          "SRC-LB-SOUND"
+        ],
+        "notes": {
+          "en": "Ordinary Chinese lexical equivalent.",
+          "zh-Hans": "普通汉语词汇对应。"
+        }
+      },
+      "ai_review": {
+        "status": "not-reviewed",
+        "reviewer": null,
+        "reviewed_at": null,
+        "rationale": {
+          "en": "No G.1 object-level AI review has been completed.",
+          "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+        }
+      }
+    },
+    "secondary_chinese_mappings": [
+      {
+        "mapping_id": "MAP-sound-secondary-sheng",
+        "chinese_form": "声",
+        "pinyin": "shēng",
+        "role": "secondary",
+        "mapping_basis": "lexical-equivalent",
+        "status": "published",
+        "identity": "source-backed-lexical-mapping",
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-LB-SOUND"
+          ],
+          "notes": {
+            "en": "Secondary Chinese form retained from v0.2.",
+            "zh-Hans": "保留自 v0.2 的次要汉语形式。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "mapping_rationales": [],
+    "historical_etymologies": [],
+    "sound_symbol_hypothesis_refs": [],
+    "other_author_notes": [
+      {
+        "note_id": "NOTE-sound-french",
+        "identity": "author-note",
+        "status": "classified",
+        "text": {
+          "en": "French lexical counterpart retained from v0.2: son.",
+          "zh-Hans": "保留 v0.2 中的法语词汇对应：son。"
+        },
+        "source_verification": {
+          "status": "not-applicable",
+          "source_refs": [
+            "SRC-LB-SOUND"
+          ],
+          "notes": {
+            "en": "Preserved during migration without forcing an evidential interpretation.",
+            "zh-Hans": "迁移时原样保留，不强行赋予证据解释。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "experimental_validation_refs": [],
+    "source_provenance": [
+      "SRC-LB-SOUND"
+    ],
+    "author": "Jinkai Liu｜劉金凱",
+    "version": "source page current / dataset 0.2.0 / G.1 migration"
+  },
+  "source": {
+    "type": "author-provided literary and research note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Parts of speech and pinyin normalized; Chinese prose lightly edited; English recast as a literary translation.",
+    "raw_note": "英语：sound [sound] n/v. 声音，响起。汉语：声【sheng】n.；响【xiang】v.。备注：辅音近似。例文原稿以小提琴、森林溪水、雄伟教堂、圆形角楼、圆窗、太阳般四射的窗棂、圣人、雅典神庙圆柱、礼帽绅士、中世纪山间、阳光与‘凝固的音乐’构成文学场景。"
+  },
+  "lexical_identities": [
+    {
+      "identity_id": "SOUND-1",
+      "scope": "Auditory; active Language Book focus",
+      "stage_refs": [
+        "S-A1",
+        "S-A2",
+        "S-A3"
+      ],
+      "historical_relation_to_auditory": "self"
+    },
+    {
+      "identity_id": "SOUND-2",
+      "scope": "Healthy / solid; independent lineage",
+      "stage_refs": [
+        "S-H"
+      ],
+      "historical_relation_to_auditory": "Not the auditory lineage"
+    },
+    {
+      "identity_id": "SOUND-3",
+      "scope": "Depth probing; earlier origin uncertain",
+      "stage_refs": [
+        "S-P"
+      ],
+      "historical_relation_to_auditory": "Not established as auditory lineage"
+    },
+    {
+      "identity_id": "SOUND-W",
+      "scope": "Waterway; Research control",
+      "stage_refs": [
+        "S-W"
+      ],
+      "historical_relation_to_auditory": "Not the auditory lineage"
+    }
+  ],
+  "standard_translation": {
+    "source": "sound",
+    "target": "声音",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "PF-SOUND-01",
+      "PF-SOUND-02",
+      "PF-SOUND-03",
+      "PF-SOUND-04"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-sound-primary-shengyin",
+    "source": {
+      "language": "English",
+      "word": "sound",
+      "pronunciation": "/saʊnd/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "声音",
+      "pronunciation": "shēngyīn"
+    },
+    "gloss": {
+      "en": "Noun: an audible vibration; verb: to make or cause a sound.",
+      "zh-Hans": "名词：声音；动词：响起或使之发声。"
+    },
+    "meaning": {
+      "en": "Auditory noun: sound; intransitive verb: make a sound. 声 is a semantic comparison, not a Featured selection.",
+      "zh-Hans": "听觉名词：声音；不及物动词：响／响起、发出声音。声为语义映射；Featured保持Pending。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected or Pending",
+    "rationale": {
+      "en": "This is primarily a lexical and protocol record; no cross-language origin claim is made.",
+      "zh-Hans": "本条主要是词义与协议记录；不主张跨语言共同来源。"
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "S-A1",
+        "form": "sonus / sonāre",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Classical Latin layer, c.1st century BCE–2nd century CE as reference, not first attestation",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-SOUND-01",
+            "PF-SOUND-02",
+            "PF-SOUND-03",
+            "PF-SOUND-04"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "sound (noun) / make sound (verb)",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "PF-SOUND-01",
+          "PF-SOUND-02",
+          "PF-SOUND-03",
+          "PF-SOUND-04"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Retained to explain semantic development; no Chinese search selected."
+      },
+      {
+        "stage_id": "S-A2",
+        "form": "son / soun; sounen",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Anglo-French / Middle English",
+          "code": null
+        },
+        "period": {
+          "label": "Medieval layer; English noun attested 13th century",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-SOUND-01",
+            "PF-SOUND-02",
+            "PF-SOUND-03",
+            "PF-SOUND-04"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "auditory noun and verb family",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "S-A1",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "Noun sonus and related verb sonāre remain distinct; AF noun/verb forms feed ME soun/sounen.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "PF-SOUND-01",
+              "PF-SOUND-02",
+              "PF-SOUND-03",
+              "PF-SOUND-04"
+            ]
+          }
+        ],
+        "source_refs": [
+          "PF-SOUND-01",
+          "PF-SOUND-02",
+          "PF-SOUND-03",
+          "PF-SOUND-04"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Retained to explain semantic development; no Chinese search selected."
+      },
+      {
+        "stage_id": "S-A3",
+        "form": "sound",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Modern English; final -d develops in late ME–16th century",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-SOUND-01",
+            "PF-SOUND-02",
+            "PF-SOUND-03",
+            "PF-SOUND-04"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "auditory phenomenon / make sound",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-S-A3",
+            "value": "/saʊnd/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "PF-SOUND-01",
+              "PF-SOUND-02",
+              "PF-SOUND-03",
+              "PF-SOUND-04"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "S-A2",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_continuation",
+              "description": "Auditory family continuation; noun and verb separately compared.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "PF-SOUND-01",
+              "PF-SOUND-02",
+              "PF-SOUND-03",
+              "PF-SOUND-04"
+            ]
+          }
+        ],
+        "source_refs": [
+          "PF-SOUND-01",
+          "PF-SOUND-02",
+          "PF-SOUND-03",
+          "PF-SOUND-04"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      },
+      {
+        "stage_id": "S-H",
+        "form": "gesund → sound",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old / Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Independent Old English gesund lineage to modern English",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-SOUND-01",
+            "PF-SOUND-02",
+            "PF-SOUND-03",
+            "PF-SOUND-04"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "healthy / intact / solid",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-S-H",
+            "value": "/saʊnd/ (modern endpoint only)",
+            "notation": "source_notation",
+            "phonological_layer": "Old / Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Old / Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "PF-SOUND-01",
+              "PF-SOUND-02",
+              "PF-SOUND-03",
+              "PF-SOUND-04"
+            ]
+          }
+        ],
+        "relations": [],
+        "source_refs": [
+          "PF-SOUND-01",
+          "PF-SOUND-02",
+          "PF-SOUND-03",
+          "PF-SOUND-04"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      },
+      {
+        "stage_id": "S-P",
+        "form": "sonde / sonder → sound",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "French / English",
+          "code": null
+        },
+        "period": {
+          "label": "English 14th–15th-century evidence; earlier French origin unresolved",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-SOUND-01",
+            "PF-SOUND-02",
+            "PF-SOUND-03",
+            "PF-SOUND-04"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "probe / measure depth",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-S-P",
+            "value": "/saʊnd/ (modern endpoint only)",
+            "notation": "source_notation",
+            "phonological_layer": "French / English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "French / English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "PF-SOUND-01",
+              "PF-SOUND-02",
+              "PF-SOUND-03",
+              "PF-SOUND-04"
+            ]
+          }
+        ],
+        "relations": [],
+        "source_refs": [
+          "PF-SOUND-01",
+          "PF-SOUND-02",
+          "PF-SOUND-03",
+          "PF-SOUND-04"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      },
+      {
+        "stage_id": "S-W",
+        "form": "sund",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old English / Old Norse",
+          "code": null
+        },
+        "period": {
+          "label": "Medieval water-family control, separate from auditory family",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "PF-SOUND-01",
+            "PF-SOUND-02",
+            "PF-SOUND-03",
+            "PF-SOUND-04"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "waterway / strait",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "PF-SOUND-01",
+          "PF-SOUND-02",
+          "PF-SOUND-03",
+          "PF-SOUND-04"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Retained to explain semantic development; no Chinese search selected."
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-S-A3",
+        "stage_ref": "S-A3",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "auditory phenomenon / make sound",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "auditory phenomenon / make sound"
+            ],
+            "consonant_hypotheses": [
+              "z-c-s"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "PF-S01",
+            "family_key": "sound-S01",
+            "target": {
+              "form": "声",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "能引起听觉的声音；声响",
+                "pos": null,
+                "constraints": [
+                  "Supported只可指译义；不能继承为音近或同源等级；OC专项*[l̥]eŋ不支持不变s起首"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S01",
+                  "value": "shēng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-05",
+                    "PF-SOUND-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-05",
+                "PF-SOUND-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S01",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "sh不属于冻结的z-c-s；仅独立宽泛咝音观察",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-05",
+                "PF-SOUND-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：/s/≠[ʂ]；/aʊ/≠[ɤ/ə]，/nd/≠ŋ；整词一音节但韵不合",
+              "features": {
+                "onset": "See bounded segment analysis: weak：/s/≠[ʂ]；/aʊ/≠[ɤ/ə]，/nd/≠ŋ；整词一音节但韵不合",
+                "vowel": "See bounded segment analysis: weak：/s/≠[ʂ]；/aʊ/≠[ɤ/ə]，/nd/≠ŋ；整词一音节但韵不合",
+                "coda_other_consonants": "See bounded segment analysis: weak：/s/≠[ʂ]；/aʊ/≠[ɤ/ə]，/nd/≠ŋ；整词一音节但韵不合",
+                "syllables": "See bounded segment analysis: weak：/s/≠[ʂ]；/aʊ/≠[ɤ/ə]，/nd/≠ŋ；整词一音节但韵不合",
+                "prosody": "See bounded segment analysis: weak：/s/≠[ʂ]；/aʊ/≠[ɤ/ə]，/nd/≠ŋ；整词一音节但韵不合"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-05",
+                "PF-SOUND-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-05",
+                  "PF-SOUND-06"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-05",
+                  "PF-SOUND-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Supported只可指译义；不能继承为音近或同源等级；OC专项*[l̥]eŋ不支持不变s起首",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Supported只可指译义；不能继承为音近或同源等级；OC专项*[l̥]eŋ不支持不变s起首; Featured Mapping: Pending。声是标准／语义Mapping；响／发声解释动词。嗓只留人声子域Research。历史根对应与拟声解释Pending；健康、测深不得并入听觉历史链。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S02",
+            "family_key": "sound-S02",
+            "target": {
+              "form": "响",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "发出声音、响起；亦有声响名词义",
+                "pos": null,
+                "constraints": [
+                  "声音大义是另一sense；动词不能直接替代所有名词sound"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S02",
+                  "value": "xiǎng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S02",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外；x不自动纳入z-c-s",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 对不及物发声；使动需使…响",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：/s/对[ɕ]，iaŋ与aʊnd差异明显",
+              "features": {
+                "onset": "See bounded segment analysis: weak：/s/对[ɕ]，iaŋ与aʊnd差异明显",
+                "vowel": "See bounded segment analysis: weak：/s/对[ɕ]，iaŋ与aʊnd差异明显",
+                "coda_other_consonants": "See bounded segment analysis: weak：/s/对[ɕ]，iaŋ与aʊnd差异明显",
+                "syllables": "See bounded segment analysis: weak：/s/对[ɕ]，iaŋ与aʊnd差异明显",
+                "prosody": "See bounded segment analysis: weak：/s/对[ɕ]，iaŋ与aʊnd差异明显"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-07"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "声音大义是另一sense；动词不能直接替代所有名词sound",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "声音大义是另一sense；动词不能直接替代所有名词sound; Featured Mapping: Pending。声是标准／语义Mapping；响／发声解释动词。嗓只留人声子域Research。历史根对应与拟声解释Pending；健康、测深不得并入听觉历史链。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S03",
+            "family_key": "sound-S03",
+            "target": {
+              "form": "音",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "声音、音响；特定语境有音乐/音调限制",
+                "pos": null,
+                "constraints": [
+                  "古音/古义不能直接从现代声音合成词推出；不把一切声限定成音乐"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S03",
+                  "value": "yīn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S03",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外语义控制",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 在声音义；部分古代乐论有声/音区分",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch：现代无s起首，in≠aʊnd；Latin历史音未冻结",
+              "features": {
+                "onset": "See bounded segment analysis: mismatch：现代无s起首，in≠aʊnd；Latin历史音未冻结",
+                "vowel": "See bounded segment analysis: mismatch：现代无s起首，in≠aʊnd；Latin历史音未冻结",
+                "coda_other_consonants": "See bounded segment analysis: mismatch：现代无s起首，in≠aʊnd；Latin历史音未冻结",
+                "syllables": "See bounded segment analysis: mismatch：现代无s起首，in≠aʊnd；Latin历史音未冻结",
+                "prosody": "See bounded segment analysis: mismatch：现代无s起首，in≠aʊnd；Latin历史音未冻结"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-08"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "古音/古义不能直接从现代声音合成词推出；不把一切声限定成音乐",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "古音/古义不能直接从现代声音合成词推出；不把一切声限定成音乐; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S04",
+            "family_key": "sound-S04",
+            "target": {
+              "form": "鸣",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "鸟兽叫；器物发声",
+                "pos": null,
+                "constraints": [
+                  "附加声源与语体限制；不能将每次声音译成鸣"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S04",
+                  "value": "míng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-09"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-09"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S04",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外语义控制；不从s临时跳到m组",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：适合钟鸣/鸟鸣，不包所有声音",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-09"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch：m、iŋ与saʊnd不同",
+              "features": {
+                "onset": "See bounded segment analysis: mismatch：m、iŋ与saʊnd不同",
+                "vowel": "See bounded segment analysis: mismatch：m、iŋ与saʊnd不同",
+                "coda_other_consonants": "See bounded segment analysis: mismatch：m、iŋ与saʊnd不同",
+                "syllables": "See bounded segment analysis: mismatch：m、iŋ与saʊnd不同",
+                "prosody": "See bounded segment analysis: mismatch：m、iŋ与saʊnd不同"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-09"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-09"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-09"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "附加声源与语体限制；不能将每次声音译成鸣",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "附加声源与语体限制；不能将每次声音译成鸣; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S05",
+            "family_key": "sound-S05",
+            "target": {
+              "form": "嗓",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "嗓音、人声；另义为喉咙",
+                "pos": null,
+                "constraints": [
+                  "必须选嗓音义；器官喉咙≠声音；水声/钟声不可通用；不是sonus的已证根对应"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S05",
+                  "value": "sǎng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-10"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-10"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S05",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "s baseline",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：voice子域，不是一般auditory phenomenon",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-10"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial 局部：s相同，a类元音与鼻音尾近似；a≠aʊ，ŋ≠nd，无-d，声调不同",
+              "features": {
+                "onset": "See bounded segment analysis: partial 局部：s相同，a类元音与鼻音尾近似；a≠aʊ，ŋ≠nd，无-d，声调不同",
+                "vowel": "See bounded segment analysis: partial 局部：s相同，a类元音与鼻音尾近似；a≠aʊ，ŋ≠nd，无-d，声调不同",
+                "coda_other_consonants": "See bounded segment analysis: partial 局部：s相同，a类元音与鼻音尾近似；a≠aʊ，ŋ≠nd，无-d，声调不同",
+                "syllables": "See bounded segment analysis: partial 局部：s相同，a类元音与鼻音尾近似；a≠aʊ，ŋ≠nd，无-d，声调不同",
+                "prosody": "See bounded segment analysis: partial 局部：s相同，a类元音与鼻音尾近似；a≠aʊ，ŋ≠nd，无-d，声调不同"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-10"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-10"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-10"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "必须选嗓音义；器官喉咙≠声音；水声/钟声不可通用；不是sonus的已证根对应",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "必须选嗓音义；器官喉咙≠声音；水声/钟声不可通用；不是sonus的已证根对应; Not selected for Featured; restricted human-voice Research candidate.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S06",
+            "family_key": "sound-S06",
+            "target": {
+              "form": "噪",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "喧嚷、嘈杂声",
+                "pos": null,
+                "constraints": [
+                  "noise不是中性sound全义；仅留子类对照"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S06",
+                  "value": "zào",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-11"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-11"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S06",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "z-c-s",
+                "hit": true,
+                "position": "z-c-s 扩展 z",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：附加杂乱/高声限制",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-11"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial 局部：ao接近aʊ；[ts]≠s，缺-nd，声调不同",
+              "features": {
+                "onset": "See bounded segment analysis: partial 局部：ao接近aʊ；[ts]≠s，缺-nd，声调不同",
+                "vowel": "See bounded segment analysis: partial 局部：ao接近aʊ；[ts]≠s，缺-nd，声调不同",
+                "coda_other_consonants": "See bounded segment analysis: partial 局部：ao接近aʊ；[ts]≠s，缺-nd，声调不同",
+                "syllables": "See bounded segment analysis: partial 局部：ao接近aʊ；[ts]≠s，缺-nd，声调不同",
+                "prosody": "See bounded segment analysis: partial 局部：ao接近aʊ；[ts]≠s，缺-nd，声调不同"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-11"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-11"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-11"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "noise不是中性sound全义；仅留子类对照",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "noise不是中性sound全义；仅留子类对照; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S07",
+            "family_key": "sound-S07",
+            "target": {
+              "form": "诵",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "有抑扬地念、诵读",
+                "pos": null,
+                "constraints": [
+                  "言语内容与诵读方式过窄；不因法语son近拼写升为通用sound"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S07",
+                  "value": "sòng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-12"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-12"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S07",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "s baseline",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：发声的一种行为",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-12"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：s相同；uŋ与aʊnd不同；法语son的拼写不当历史IPA",
+              "features": {
+                "onset": "See bounded segment analysis: weak：s相同；uŋ与aʊnd不同；法语son的拼写不当历史IPA",
+                "vowel": "See bounded segment analysis: weak：s相同；uŋ与aʊnd不同；法语son的拼写不当历史IPA",
+                "coda_other_consonants": "See bounded segment analysis: weak：s相同；uŋ与aʊnd不同；法语son的拼写不当历史IPA",
+                "syllables": "See bounded segment analysis: weak：s相同；uŋ与aʊnd不同；法语son的拼写不当历史IPA",
+                "prosody": "See bounded segment analysis: weak：s相同；uŋ与aʊnd不同；法语son的拼写不当历史IPA"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-12"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-12"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-12"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "言语内容与诵读方式过窄；不因法语son近拼写升为通用sound",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "言语内容与诵读方式过窄；不因法语son近拼写升为通用sound; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S08",
+            "family_key": "sound-S08",
+            "target": {
+              "form": "嘶",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "马叫、声音沙哑",
+                "pos": null,
+                "constraints": [
+                  "嘶不代表所有声；仅可单列声象子类型，不能证明sound本词拟声"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S08",
+                  "value": "sī",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-13"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-13"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S08",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "s baseline",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：受声源/音质约束",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-13"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：s相同，i舌尖元音与aʊnd不同；缺鼻塞尾",
+              "features": {
+                "onset": "See bounded segment analysis: weak：s相同，i舌尖元音与aʊnd不同；缺鼻塞尾",
+                "vowel": "See bounded segment analysis: weak：s相同，i舌尖元音与aʊnd不同；缺鼻塞尾",
+                "coda_other_consonants": "See bounded segment analysis: weak：s相同，i舌尖元音与aʊnd不同；缺鼻塞尾",
+                "syllables": "See bounded segment analysis: weak：s相同，i舌尖元音与aʊnd不同；缺鼻塞尾",
+                "prosody": "See bounded segment analysis: weak：s相同，i舌尖元音与aʊnd不同；缺鼻塞尾"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-13"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-13"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-13"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "嘶不代表所有声；仅可单列声象子类型，不能证明sound本词拟声",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "嘶不代表所有声；仅可单列声象子类型，不能证明sound本词拟声; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S09",
+            "family_key": "sound-S09",
+            "target": {
+              "form": "飒",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "形容风声",
+                "pos": null,
+                "constraints": [
+                  "拟声词属性属于飒而非自动属于英语sound；不因含sound义同源"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S09",
+                  "value": "sà",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-14"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-14"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S09",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "s baseline",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：风声子类",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-14"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：s相同，a对aʊ只是局部，缺-nd",
+              "features": {
+                "onset": "See bounded segment analysis: weak：s相同，a对aʊ只是局部，缺-nd",
+                "vowel": "See bounded segment analysis: weak：s相同，a对aʊ只是局部，缺-nd",
+                "coda_other_consonants": "See bounded segment analysis: weak：s相同，a对aʊ只是局部，缺-nd",
+                "syllables": "See bounded segment analysis: weak：s相同，a对aʊ只是局部，缺-nd",
+                "prosody": "See bounded segment analysis: weak：s相同，a对aʊ只是局部，缺-nd"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-14"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-14"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-14"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "拟声词属性属于飒而非自动属于英语sound；不因含sound义同源",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "拟声词属性属于飒而非自动属于英语sound；不因含sound义同源; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S10",
+            "family_key": "sound-S10",
+            "target": {
+              "form": "啧",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "啧啧类舌口声，亦有争辩等义",
+                "pos": null,
+                "constraints": [
+                  "固定啧啧构式/语用限制；不泛化作声音总称"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S10",
+                  "value": "zé",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-15"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-15"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S10",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "z-c-s",
+                "hit": true,
+                "position": "z-c-s 扩展 z",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial：特定声响",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-15"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：[ts]≠s，ɤ≠aʊ，缺-nd",
+              "features": {
+                "onset": "See bounded segment analysis: weak：[ts]≠s，ɤ≠aʊ，缺-nd",
+                "vowel": "See bounded segment analysis: weak：[ts]≠s，ɤ≠aʊ，缺-nd",
+                "coda_other_consonants": "See bounded segment analysis: weak：[ts]≠s，ɤ≠aʊ，缺-nd",
+                "syllables": "See bounded segment analysis: weak：[ts]≠s，ɤ≠aʊ，缺-nd",
+                "prosody": "See bounded segment analysis: weak：[ts]≠s，ɤ≠aʊ，缺-nd"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-15"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-15"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-15"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "固定啧啧构式/语用限制；不泛化作声音总称",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "固定啧啧构式/语用限制；不泛化作声音总称; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S11",
+            "family_key": "sound-S11",
+            "target": {
+              "form": "桑",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "桑树",
+                "pos": null,
+                "constraints": [
+                  "桑不因与嗓同音段或作声旁而有voice义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S11",
+                  "value": "sāng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-16"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-16"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S11",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "s 声音控制",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-16"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "partial 局部：与嗓音段接近，s+a+ŋ；仍缺双元音与-d",
+              "features": {
+                "onset": "See bounded segment analysis: partial 局部：与嗓音段接近，s+a+ŋ；仍缺双元音与-d",
+                "vowel": "See bounded segment analysis: partial 局部：与嗓音段接近，s+a+ŋ；仍缺双元音与-d",
+                "coda_other_consonants": "See bounded segment analysis: partial 局部：与嗓音段接近，s+a+ŋ；仍缺双元音与-d",
+                "syllables": "See bounded segment analysis: partial 局部：与嗓音段接近，s+a+ŋ；仍缺双元音与-d",
+                "prosody": "See bounded segment analysis: partial 局部：与嗓音段接近，s+a+ŋ；仍缺双元音与-d"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-16"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-16"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-16"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "桑不因与嗓同音段或作声旁而有voice义",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "桑不因与嗓同音段或作声旁而有voice义; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S12",
+            "family_key": "sound-S12",
+            "target": {
+              "form": "耸",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "高起；本轮控制sense取此",
+                "pos": null,
+                "constraints": [
+                  "耸人听闻不等于声音；古耳聋义更不等于声音现象"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S12",
+                  "value": "sǒng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-17"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-17"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-A3",
+              "source_pronunciation_ref": "PR-S-A3",
+              "target_pronunciation_ref": "ZH-PF-S12",
+              "source_span": "sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "s 声音控制",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-17"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：s+鼻尾近似有限；uŋ≠aʊnd",
+              "features": {
+                "onset": "See bounded segment analysis: weak：s+鼻尾近似有限；uŋ≠aʊnd",
+                "vowel": "See bounded segment analysis: weak：s+鼻尾近似有限；uŋ≠aʊnd",
+                "coda_other_consonants": "See bounded segment analysis: weak：s+鼻尾近似有限；uŋ≠aʊnd",
+                "syllables": "See bounded segment analysis: weak：s+鼻尾近似有限；uŋ≠aʊnd",
+                "prosody": "See bounded segment analysis: weak：s+鼻尾近似有限；uŋ≠aʊnd"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-17"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-17"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-17"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "耸人听闻不等于声音；古耳聋义更不等于声音现象",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "耸人听闻不等于声音；古耳聋义更不等于声音现象; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-S-H",
+        "stage_ref": "S-H",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "healthy / intact / solid",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "pending",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "healthy / intact / solid"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Controls/restricted Research recorded; no general stage candidate selected. No further discovery required for migration; Featured optional."
+        },
+        "candidates": [
+          {
+            "candidate_id": "PF-S13",
+            "family_key": "sound-S13",
+            "target": {
+              "form": "健",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "强健、健康",
+                "pos": null,
+                "constraints": [
+                  "不能把这个sound与声合成一条链；不覆盖sound argument所有用法"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S13",
+                  "value": "jiàn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-18"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-18"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-H",
+              "source_pronunciation_ref": "PR-S-H",
+              "target_pronunciation_ref": "ZH-PF-S13",
+              "source_span": "gesund → sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外义项边界控制",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 对healthy子义；auditory mismatch",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-18"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch：tɕian≠saʊnd",
+              "features": {
+                "onset": "See bounded segment analysis: mismatch：tɕian≠saʊnd",
+                "vowel": "See bounded segment analysis: mismatch：tɕian≠saʊnd",
+                "coda_other_consonants": "See bounded segment analysis: mismatch：tɕian≠saʊnd",
+                "syllables": "See bounded segment analysis: mismatch：tɕian≠saʊnd",
+                "prosody": "See bounded segment analysis: mismatch：tɕian≠saʊnd"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-18"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-18"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-18"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不能把这个sound与声合成一条链；不覆盖sound argument所有用法",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "不能把这个sound与声合成一条链；不覆盖sound argument所有用法; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-S-P",
+        "stage_ref": "S-P",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "probe / measure depth",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "pending",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "probe / measure depth"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Controls/restricted Research recorded; no general stage candidate selected. No further discovery required for migration; Featured optional."
+        },
+        "candidates": [
+          {
+            "candidate_id": "PF-S14",
+            "family_key": "sound-S14",
+            "target": {
+              "form": "探",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "探察、探测",
+                "pos": null,
+                "constraints": [
+                  "探测并不必借声音；现代声呐技术不证明两词源相同"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S14",
+                  "value": "tàn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-19"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-19"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-P",
+              "source_pronunciation_ref": "PR-S-P",
+              "target_pronunciation_ref": "ZH-PF-S14",
+              "source_span": "sonde / sonder → sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外义项边界控制",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 对probe；测水深要探深/测深等构式",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-19"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "weak：tʰ≠s，an和aʊnd仅鼻音偶合",
+              "features": {
+                "onset": "See bounded segment analysis: weak：tʰ≠s，an和aʊnd仅鼻音偶合",
+                "vowel": "See bounded segment analysis: weak：tʰ≠s，an和aʊnd仅鼻音偶合",
+                "coda_other_consonants": "See bounded segment analysis: weak：tʰ≠s，an和aʊnd仅鼻音偶合",
+                "syllables": "See bounded segment analysis: weak：tʰ≠s，an和aʊnd仅鼻音偶合",
+                "prosody": "See bounded segment analysis: weak：tʰ≠s，an和aʊnd仅鼻音偶合"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-19"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-19"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-19"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "探测并不必借声音；现代声呐技术不证明两词源相同",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "探测并不必借声音；现代声呐技术不证明两词源相同; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          },
+          {
+            "candidate_id": "PF-S15",
+            "family_key": "sound-S15",
+            "target": {
+              "form": "测",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话；本轮2026参考，不声称初见年代",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "测量；推测",
+                "pos": null,
+                "constraints": [
+                  "measure/probe的同形不许给声音义加分"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-PF-S15",
+                  "value": "cè",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "PF-SOUND-20"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "PF-SOUND-20"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S-P",
+              "source_pronunciation_ref": "PR-S-P",
+              "target_pronunciation_ref": "ZH-PF-S15",
+              "source_span": "sonde / sonder → sound",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "z-c-s命中特征仅适用于probe表面音；不计auditory扩展收益",
+                "version": "Candidate Discovery Protocol v0.2; generation feature only, no score bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "direct 对measure动作；水深对象需补出",
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-20"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "mismatch：[tsʰɤ]与saʊnd不近",
+              "features": {
+                "onset": "See bounded segment analysis: mismatch：[tsʰɤ]与saʊnd不近",
+                "vowel": "See bounded segment analysis: mismatch：[tsʰɤ]与saʊnd不近",
+                "coda_other_consonants": "See bounded segment analysis: mismatch：[tsʰɤ]与saʊnd不近",
+                "syllables": "See bounded segment analysis: mismatch：[tsʰɤ]与saʊnd不近",
+                "prosody": "See bounded segment analysis: mismatch：[tsʰɤ]与saʊnd不近"
+              },
+              "source_refs": [
+                "PF-SOUND-01",
+                "PF-SOUND-02",
+                "PF-SOUND-03",
+                "PF-SOUND-04",
+                "PF-SOUND-20"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "PF-SOUND-20"
+                ],
+                "locator": null,
+                "note": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated; Mainland-first scope retained, not a direct print audit."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "PF-SOUND-20"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: specific editions/entries not obtained; no page invented"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "measure/probe的同形不许给声音义加分",
+              "Historical Relation Not claimed; Chinese layer/period is independent from source chronology."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "measure/probe的同形不许给声音义加分; Research/control only; see exact Discovery scope.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Pending-compatible Final Decision Freeze; no new Discovery or evidence promotion."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-S-A3",
+          "candidate_ref": "PF-S01"
+        },
+        {
+          "stage_mapping_ref": "SM-S-A3",
+          "candidate_ref": "PF-S02"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "Featured Mapping: Pending。声是标准／语义Mapping；响／发声解释动词。嗓只留人声子域Research。历史根对应与拟声解释Pending；健康、测深不得并入听觉历史链。"
+    },
+    "historical_path": "Auditory: Latin sonus / sonāre family → AF/ME forms → sound. Independent identities: healthy sound ← OE gesund; depth-probing sound ← French sonder. No ancestry edges between these homographs.",
+    "semantic_path": "Auditory: Latin sonus / sonāre family → AF/ME forms → sound. Independent identities: healthy sound ← OE gesund; depth-probing sound ← French sonder. No ancestry edges between these homographs.",
+    "boundary": {
+      "en": "Featured Mapping: Pending。声是标准／语义Mapping；响／发声解释动词。嗓只留人声子域Research。历史根对应与拟声解释Pending；健康、测深不得并入听觉历史链。",
+      "zh-Hans": "Featured Mapping: Pending。声是标准／语义Mapping；响／发声解释动词。嗓只留人声子域Research。历史根对应与拟声解释Pending；健康、测深不得并入听觉历史链。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "TC-DISCOVERY-1-2026-09-20",
+    "candidates": [
+      {
+        "entry": "SOUND",
+        "candidate_id": "S01",
+        "chinese_form": "声",
+        "reading": "shēng",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 auditory noun",
+        "documented_meaning": "能引起听觉的声音；声响",
+        "semantic_fit": "direct",
+        "phonetic_fit": "weak：/s/≠[ʂ]；/aʊ/≠[ɤ/ə]，/nd/≠ŋ；整词一音节但韵不合",
+        "consonant_group_relation": "sh不属于冻结的z-c-s；仅独立宽泛咝音观察",
+        "counterevidence": "Supported只可指译义；不能继承为音近或同源等级；OC专项*[l̥]eŋ不支持不变s起首",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "高",
+        "decision": "shortlist",
+        "retrieval_route": "legacy",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/声",
+            "https://www.shidianguji.com/character/聲"
+          ],
+          "mainland_named_dictionary": "识典古籍标名《汉语大词典》条目摘要：mediated; original edition, page and complete citations Pending"
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S02",
+        "chinese_form": "响",
+        "reading": "xiǎng",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 auditory verb",
+        "documented_meaning": "发出声音、响起；亦有声响名词义",
+        "semantic_fit": "direct 对不及物发声；使动需使…响",
+        "phonetic_fit": "weak：/s/对[ɕ]，iaŋ与aʊnd差异明显",
+        "consonant_group_relation": "组外；x不自动纳入z-c-s",
+        "counterevidence": "声音大义是另一sense；动词不能直接替代所有名词sound",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "高",
+        "decision": "shortlist",
+        "retrieval_route": "legacy",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/响"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S03",
+        "chinese_form": "音",
+        "reading": "yīn",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A1/S-A3",
+        "documented_meaning": "声音、音响；特定语境有音乐/音调限制",
+        "semantic_fit": "direct 在声音义；部分古代乐论有声/音区分",
+        "phonetic_fit": "mismatch：现代无s起首，in≠aʊnd；Latin历史音未冻结",
+        "consonant_group_relation": "组外语义控制",
+        "counterevidence": "古音/古义不能直接从现代声音合成词推出；不把一切声限定成音乐",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "semantic_control",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/音"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S04",
+        "chinese_form": "鸣",
+        "reading": "míng",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 auditory verb",
+        "documented_meaning": "鸟兽叫；器物发声",
+        "semantic_fit": "partial：适合钟鸣/鸟鸣，不包所有声音",
+        "phonetic_fit": "mismatch：m、iŋ与saʊnd不同",
+        "consonant_group_relation": "组外语义控制；不从s临时跳到m组",
+        "counterevidence": "附加声源与语体限制；不能将每次声音译成鸣",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "semantic_control",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/鸣"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S05",
+        "chinese_form": "嗓",
+        "reading": "sǎng",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 restricted voice",
+        "documented_meaning": "嗓音、人声；另义为喉咙",
+        "semantic_fit": "partial：voice子域，不是一般auditory phenomenon",
+        "phonetic_fit": "partial 局部：s相同，a类元音与鼻音尾近似；a≠aʊ，ŋ≠nd，无-d，声调不同",
+        "consonant_group_relation": "s baseline",
+        "counterevidence": "必须选嗓音义；器官喉咙≠声音；水声/钟声不可通用；不是sonus的已证根对应",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "高",
+        "decision": "shortlist",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/嗓"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S06",
+        "chinese_form": "噪",
+        "reading": "zào",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 noise subtype",
+        "documented_meaning": "喧嚷、嘈杂声",
+        "semantic_fit": "partial：附加杂乱/高声限制",
+        "phonetic_fit": "partial 局部：ao接近aʊ；[ts]≠s，缺-nd，声调不同",
+        "consonant_group_relation": "z-c-s 扩展 z",
+        "counterevidence": "noise不是中性sound全义；仅留子类对照",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "reserved",
+        "retrieval_route": "expansion",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/噪"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S07",
+        "chinese_form": "诵",
+        "reading": "sòng",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 verb attempted",
+        "documented_meaning": "有抑扬地念、诵读",
+        "semantic_fit": "partial：发声的一种行为",
+        "phonetic_fit": "weak：s相同；uŋ与aʊnd不同；法语son的拼写不当历史IPA",
+        "consonant_group_relation": "s baseline",
+        "counterevidence": "言语内容与诵读方式过窄；不因法语son近拼写升为通用sound",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "低",
+        "decision": "rejected",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/诵"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S08",
+        "chinese_form": "嘶",
+        "reading": "sī",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 vocal subtype",
+        "documented_meaning": "马叫、声音沙哑",
+        "semantic_fit": "partial：受声源/音质约束",
+        "phonetic_fit": "weak：s相同，i舌尖元音与aʊnd不同；缺鼻塞尾",
+        "consonant_group_relation": "s baseline",
+        "counterevidence": "嘶不代表所有声；仅可单列声象子类型，不能证明sound本词拟声",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "reserved",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/嘶"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S09",
+        "chinese_form": "飒",
+        "reading": "sà",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 wind-sound subtype",
+        "documented_meaning": "形容风声",
+        "semantic_fit": "partial：风声子类",
+        "phonetic_fit": "weak：s相同，a对aʊ只是局部，缺-nd",
+        "consonant_group_relation": "s baseline",
+        "counterevidence": "拟声词属性属于飒而非自动属于英语sound；不因含sound义同源",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "reserved",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/飒"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S10",
+        "chinese_form": "啧",
+        "reading": "zé",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 mouth-sound subtype",
+        "documented_meaning": "啧啧类舌口声，亦有争辩等义",
+        "semantic_fit": "partial：特定声响",
+        "phonetic_fit": "weak：[ts]≠s，ɤ≠aʊ，缺-nd",
+        "consonant_group_relation": "z-c-s 扩展 z",
+        "counterevidence": "固定啧啧构式/语用限制；不泛化作声音总称",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "中",
+        "decision": "reserved",
+        "retrieval_route": "expansion",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/啧"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S11",
+        "chinese_form": "桑",
+        "reading": "sāng",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 negative control",
+        "documented_meaning": "桑树",
+        "semantic_fit": "mismatch",
+        "phonetic_fit": "partial 局部：与嗓音段接近，s+a+ŋ；仍缺双元音与-d",
+        "consonant_group_relation": "s 声音控制",
+        "counterevidence": "桑不因与嗓同音段或作声旁而有voice义",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "控制",
+        "decision": "sound_control",
+        "retrieval_route": "control",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/桑"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S12",
+        "chinese_form": "耸",
+        "reading": "sǒng",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-A3 negative control",
+        "documented_meaning": "高起；本轮控制sense取此",
+        "semantic_fit": "mismatch",
+        "phonetic_fit": "weak：s+鼻尾近似有限；uŋ≠aʊnd",
+        "consonant_group_relation": "s 声音控制",
+        "counterevidence": "耸人听闻不等于声音；古耳聋义更不等于声音现象",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "控制",
+        "decision": "sound_control",
+        "retrieval_route": "control",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/耸"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S13",
+        "chinese_form": "健",
+        "reading": "jiàn",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-H healthy branch",
+        "documented_meaning": "强健、健康",
+        "semantic_fit": "direct 对healthy子义；auditory mismatch",
+        "phonetic_fit": "mismatch：tɕian≠saʊnd",
+        "consonant_group_relation": "组外义项边界控制",
+        "counterevidence": "不能把这个sound与声合成一条链；不覆盖sound argument所有用法",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "控制",
+        "decision": "semantic_control",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/健"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S14",
+        "chinese_form": "探",
+        "reading": "tàn",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-P probe branch",
+        "documented_meaning": "探察、探测",
+        "semantic_fit": "direct 对probe；测水深要探深/测深等构式",
+        "phonetic_fit": "weak：tʰ≠s，an和aʊnd仅鼻音偶合",
+        "consonant_group_relation": "组外义项边界控制",
+        "counterevidence": "探测并不必借声音；现代声呐技术不证明两词源相同",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "控制",
+        "decision": "semantic_control",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/探"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      },
+      {
+        "entry": "SOUND",
+        "candidate_id": "S15",
+        "chinese_form": "测",
+        "reading": "cè",
+        "ipa_status": "Pinyin is the lexical reading; phonetic segment analysis below is broad analyst transcription, not a dialect recording.",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话；本轮2026参考，不声称初见年代",
+        "target_source_stage": "S-P depth branch",
+        "documented_meaning": "测量；推测",
+        "semantic_fit": "direct 对measure动作；水深对象需补出",
+        "phonetic_fit": "mismatch：[tsʰɤ]与saʊnd不近",
+        "consonant_group_relation": "z-c-s命中特征仅适用于probe表面音；不计auditory扩展收益",
+        "counterevidence": "measure/probe的同形不许给声音义加分",
+        "historical_relation": "Not claimed",
+        "discovery_priority": "控制",
+        "decision": "semantic_control",
+        "retrieval_route": "semantic",
+        "evidence": {
+          "chinese_sense": "direct online lexicographic entry within listed basic/detailed section; ancient quotations mediated unless explicitly stated",
+          "chinese_pronunciation": "direct online pinyin / named language commentary",
+          "mainland_print_entries": "Pending: specific editions/entries not obtained; no page invented",
+          "source_urls": [
+            "https://zdic.net/hans/测"
+          ]
+        },
+        "source_stage_evidence_urls": [
+          "https://www.merriam-webster.com/dictionary/sound",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/sound_1",
+          "https://www.cnrtl.fr/etymologie/son/substantif",
+          "https://www.etymonline.com/word/sound"
+        ],
+        "confidence": {
+          "modern_sense": "High within the cited sense; historical first attestation remains Pending",
+          "phonetic_fit": "Medium: analyst judgment on modern reference forms",
+          "cross_language_historical_relation": "Not claimed; no independent evidence presented"
+        }
+      }
+    ],
+    "metrics_scope": "Original 39-row run: 10 expansions, 6 restricted retained, 4 rejected, 1 shortlist addition, no new strong phonetic-semantic winner. Not a precision/recall measurement.",
+    "rule": "Consonant-group expansion is candidate generation, not an evidence score.",
+    "freeze": "Featured Mapping: Pending。声是标准／语义Mapping；响／发声解释动词。嗓只留人声子域Research。历史根对应与拟声解释Pending；健康、测深不得并入听觉历史链。"
+  },
+  "legacy_migration": {
+    "version": "pending-final-0.1",
+    "baseline_commit": "be8bc2dcb1d3f517ba41bbaa2dacc8574335565b",
+    "scope": "Read-only exact pre-migration archive; old Featured claims are superseded, not current research grades.",
+    "previous_fields": {
+      "title": {
+        "en": "Sound · 声音",
+        "zh-Hans": "Sound · 声音"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-sound-primary-shengyin",
+        "source": {
+          "language": "English",
+          "word": "sound",
+          "pronunciation": "/saʊnd/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "声音",
+          "pronunciation": "shēngyīn"
+        },
+        "gloss": {
+          "en": "Noun: an audible vibration; verb: to make or cause a sound.",
+          "zh-Hans": "名词：声音；动词：响起或使之发声。"
+        },
+        "meaning": {
+          "en": "声音 is the standard noun translation; 响 / 响起 expresses the intransitive verb in this record. 声 shēng is displayed as the concise featured lexical candidate.",
+          "zh-Hans": "“声音”是名词的通用翻译；本条以“响／响起”表达不及物动词；单字“声”shēng 作为简洁的特色词义候选展示。"
+        },
+        "mapping_type": "Lexical equivalent",
+        "rationale": {
+          "en": "This is primarily a lexical and protocol record; no cross-language origin claim is made.",
+          "zh-Hans": "本条主要是词义与协议记录；不主张跨语言共同来源。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "SRC-LB-SOUND",
+          "title": "Language Book · Sound",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/sound.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "REF-JL-SOUND-RAW",
+          "title": "Jinkai Liu: Sound literary manuscript and research note",
+          "type": "author manuscript",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; original note preserved below"
+        },
+        {
+          "reference_id": "REF-MW-SOUND",
+          "title": "Merriam-Webster Dictionary: sound",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/sound",
+          "path": null,
+          "provenance": "external dictionary; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CNRTL-SON",
+          "title": "CNRTL/TLFi: étymologie de son",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/son/substantif",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CNRTL-SONNER",
+          "title": "CNRTL/TLFi: étymologie de sonner",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/sonner",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-04"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "This is primarily a lexical and protocol record; no cross-language origin claim is made.",
+          "zh-Hans": "本条主要是词义与协议记录；不主张跨语言共同来源。"
+        }
+      ],
+      "featured_mapping": {
+        "source": "sound",
+        "target": "声",
+        "reading": "shēng",
+        "display_label": "Featured lexical mapping · 特色词义映射",
+        "status": "Supported lexical equivalent",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "声 is a concise, source-backed Chinese lexical form. 声音 remains the standard modern dictionary translation; no shared historical origin is claimed.",
+          "zh-Hans": "“声”是有来源记录的简洁汉语词义形式；“声音”仍是现代通用词典翻译，不主张共同历史来源。"
+        },
+        "source_refs": [
+          "SRC-LB-SOUND"
+        ]
+      },
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "sound",
+          "pronunciation": "/saʊnd/"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "声音",
+          "pronunciation": "shēngyīn"
+        },
+        {
+          "role": "featured-lexical-candidate",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "声",
+          "pronunciation": "shēng"
+        },
+        {
+          "role": "verb-equivalent",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "响",
+          "pronunciation": "xiǎng"
+        },
+        {
+          "role": "historically-related-form",
+          "code": "fr",
+          "name": "French",
+          "word": "son",
+          "pronunciation": "/sɔ̃/"
+        },
+        {
+          "role": "historically-related-verb",
+          "code": "fr",
+          "name": "French",
+          "word": "sonner",
+          "pronunciation": "/sɔ.ne/"
+        }
+      ]
+    },
+    "previously_absent_fields": [
+      "lexical_identities",
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery"
+    ]
+  }
+}
