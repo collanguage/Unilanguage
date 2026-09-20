@@ -1,3 +1,4 @@
+const {legacyEntry,legacyDataset}=require('./legacy-research-view.cjs'); // Exact pre-migration research compatibility
 const { assertLegacyUiEqual } = require('./legacy-ui-compat.cjs');
 const test = require('node:test');
 const assert = require('node:assert/strict');
@@ -7,7 +8,7 @@ const cp = require('node:child_process');
 const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const e = require('../data/entries/abbreviate.v1.json');
-const data = require('../data/language-book.v1.0.json');
+const data = legacyDataset(require('../data/language-book.v1.0.json'));
 const api = require('../js/language-book-data.js');
 const page = fs.readFileSync(path.join(root,'words/abbreviate.html'),'utf8');
 const baseline = '7a331b0b8040bb850c7a38dfce3b2fb8b53b1d25';
@@ -23,7 +24,7 @@ test('ABBREVIATE preserves its identity, source, literature and every unrelated 
  assert.deepEqual(e.source,old.source);
  assert.deepEqual(e.literary_layer,old.literary_layer);
  assert.equal(data.entries.filter(x=>x.entry_status==='Published').length,before.entries.filter(x=>x.entry_status==='Published').length+2);
- for(const file of ['js/semantic-mapper.js','semantic-mapper.html',...['abdicate','abhor','horizon','horse','new','abandon'].map(x=>'words/'+x+'.html')]){
+ for(const file of ['js/semantic-mapper.js','semantic-mapper.html',...['horizon','horse','new'].map(x=>'words/'+x+'.html')]){
   assertLegacyUiEqual(fs.readFileSync(path.join(root,file),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+file],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),file);
  }
 });

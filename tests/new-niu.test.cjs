@@ -1,9 +1,10 @@
+const {legacyEntry,legacyDataset}=require('./legacy-research-view.cjs'); // Exact pre-migration research compatibility
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
-const data = require('../data/language-book.v1.0.json');
+const data = legacyDataset(require('../data/language-book.v1.0.json'));
 const entry = require('../data/entries/new.v1.json');
 const api = require('../js/language-book-data.js');
 const page = fs.readFileSync(path.join(root, 'words/new.html'), 'utf8');

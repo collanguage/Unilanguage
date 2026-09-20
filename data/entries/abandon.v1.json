@@ -1129,7 +1129,8 @@
     "boundary": {
       "en": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
       "zh-Hans": "整词映射：abandon ↔ 放 fàng。先按 LET GO／RELEASE 选择“放”，再比较声音。CNRTL 记法语词史中约1100年的松开缰绳义；汉语“放”另有独立的释放义证据。这是限定语义的历时联系，不表示单字“放”可翻译 abandon 的所有现代用法。"
-    }
+    },
+    "candidate_ref": "MAP-ABANDON-FANG-001"
   },
   "revision_history": [
     {
@@ -1274,66 +1275,701 @@
     "is_historical_evidence": false
   },
   "diachronic_semantic_mapping": {
-    "version": "2.0",
-    "status": "Historical semantic analysis; independent of consonant groups",
-    "historical_path": "BANDON → À BANDON → ABANDONNER → ABANDON",
-    "semantic_path": "POWER / AUTHORITY → DISPOSAL → GIVE OVER → LET GO → GIVE UP",
+    "model_version": "0.1",
     "historical_stages": [
       {
         "stage_id": "bandon",
         "form": "BANDON",
-        "language": "Old French",
-        "meaning": "POWER / AUTHORITY / CONTROL",
-        "note": {
-          "en": "CNRTL identifies bandon as power/authority. Do not assign RELEASE to this root.",
-          "zh-Hans": "CNRTL 将 bandon 释为权力／支配；不能把 RELEASE 赋给此词根。"
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old French",
+          "code": null
         },
+        "period": {
+          "label": "Old French; exact attestation interval not assigned",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "REF-CNRTL-ABANDON"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "POWER / AUTHORITY / CONTROL",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
         "source_refs": [
           "REF-CNRTL-ABANDON"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "CNRTL identifies bandon as power/authority. Do not assign RELEASE to this root."
       },
       {
         "stage_id": "a-bandon",
         "form": "À BANDON",
-        "language": "Old French phrase",
-        "meaning": "at someone’s power/disposal — DISPOSAL RELATION",
-        "note": {
-          "en": "The phrase places something at another’s disposal; this is a relation of authority, not simply the act of handling it. Old French a bandon and Anglo-French a bandun are source forms; À is a normalized display.",
-          "zh-Hans": "短语表示将某物置于他人支配／任其处置的关系，不只是处理动作。古法语 a bandon、盎格鲁法语 a bandun 为来源形式；À 为规范化展示。"
+        "variants": [
+          "a bandon",
+          "a bandun"
+        ],
+        "unit_kind": "phrase",
+        "language": {
+          "name": "Old French phrase",
+          "code": null
         },
+        "period": {
+          "label": "Old French phrase; exact interval not assigned",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "REF-CNRTL-ABANDON",
+            "REF-MW-ABANDON"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "at someone’s power/disposal — DISPOSAL RELATION",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "bandon",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "Phrase encodes disposal under another’s authority.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "REF-CNRTL-ABANDON",
+              "REF-MW-ABANDON"
+            ]
+          }
+        ],
         "source_refs": [
           "REF-CNRTL-ABANDON",
           "REF-MW-ABANDON"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "The phrase places something at another’s disposal; this is a relation of authority, not simply the act of handling it. Old French a bandon and Anglo-French a bandun are source forms; À is a normalized display."
       },
       {
         "stage_id": "abandonner",
         "form": "ABANDONNER",
-        "language": "Old French → French",
-        "meaning": "GIVE OVER / leave to another’s disposal; RELEASE / LET GO; LEAVE",
-        "note": {
-          "en": "The display abbreviates a family including the noun abandon/abandun. CNRTL derives the verb from abandon and records release of a rein around 1100 and leaving entirely from the 12th century. These overlapping senses prevent treating TRANSFER then RELEASE as a proven chronological ladder.",
-          "zh-Hans": "展示缩略了包含名词 abandon/abandun 的词族。CNRTL 将动词分析为由 abandon 派生，记约1100年的松开缰绳义及12世纪起的完全离开义；义项重叠，不能把 TRANSFER 再 RELEASE 当成已证年代阶梯。"
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old French → French",
+          "code": null
         },
+        "period": {
+          "label": "Release of a rein c.1100; leaving from 12th century; overlapping senses",
+          "start_year": null,
+          "end_year": null,
+          "basis": "attestation",
+          "source_refs": [
+            "REF-CNRTL-ABANDONNER",
+            "REF-CNRTL-ABANDON"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "GIVE OVER / leave to another’s disposal; RELEASE / LET GO; LEAVE",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "a-bandon",
+            "relation_type": "related_family",
+            "semantic_operation": {
+              "type": "related_family",
+              "description": "Abbreviated family through noun abandon/abandun; not a direct dated sense ladder.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "REF-CNRTL-ABANDONNER",
+              "REF-CNRTL-ABANDON"
+            ]
+          }
+        ],
         "source_refs": [
           "REF-CNRTL-ABANDONNER",
           "REF-CNRTL-ABANDON"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "The display abbreviates a family including the noun abandon/abandun. CNRTL derives the verb from abandon and records release of a rein around 1100 and leaving entirely from the 12th century. These overlapping senses prevent treating TRANSFER then RELEASE as a proven chronological ladder."
       },
       {
         "stage_id": "english-abandon",
         "form": "ABANDON",
-        "language": "Middle English → English verb",
-        "meaning": "GIVE UP / LEAVE / DESERT",
-        "note": {
-          "en": "Middle English abandounen, attested in the 14th century, was borrowed through Anglo-French abanduner. Modern meanings include relinquishing an interest and withdrawing support. The later English noun is separate.",
-          "zh-Hans": "中古英语 abandounen 见于14世纪，经盎格鲁法语 abanduner 借入。现代义含放弃权益、离开与撤去支持；后来的英语名词另论。"
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Middle English → English verb",
+          "code": null
         },
+        "period": {
+          "label": "Middle English attested 14th century; modern senses compared",
+          "start_year": null,
+          "end_year": null,
+          "basis": "attestation",
+          "source_refs": [
+            "REF-MW-ABANDON"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "GIVE UP / LEAVE / DESERT",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-ABANDON",
+            "value": "medial /b/ after initial /ə/; remaining whole-word segments not fully transcribed in this observation",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "REF-CNRTL-ABANDONNER",
+              "REF-ZDIC-FANG",
+              "REF-MW-ABANDON"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "abandonner",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "Through Anglo-French abanduner; intermediates summarized, not omitted evidence.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "REF-MW-ABANDON"
+            ]
+          }
+        ],
         "source_refs": [
           "REF-MW-ABANDON"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Middle English abandounen, attested in the 14th century, was borrowed through Anglo-French abanduner. Modern meanings include relinquishing an interest and withdrawing support. The later English noun is separate."
       }
     ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-bandon",
+        "stage_ref": "bandon",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "POWER / AUTHORITY / CONTROL",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "POWER / AUTHORITY / CONTROL"
+            ],
+            "consonant_hypotheses": [
+              "b-p-m-f"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "MAP-BANDON-BAN-001",
+            "family_key": "legacy-abandon",
+            "target": {
+              "form": "办 / 辦",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "handle/manage/prepare; not POWER/AUTHORITY",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-MAP-BANDON-BAN-001",
+                  "value": "bàn",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "REF-CNRTL-ABANDON",
+                    "REF-ZDIC-BAN-HANDLE",
+                    "REF-ZDIC-BAN-TRADITIONAL"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "REF-CNRTL-ABANDON",
+                "REF-ZDIC-BAN-HANDLE",
+                "REF-ZDIC-BAN-TRADITIONAL"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "bandon",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-MAP-BANDON-BAN-001",
+              "source_span": "BANDON",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "Selected source segment; not whole-word homophony",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "indirect",
+              "confidence": "Low",
+              "rationale": "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+              "source_refs": [
+                "REF-CNRTL-ABANDON",
+                "REF-ZDIC-BAN-HANDLE",
+                "REF-ZDIC-BAN-TRADITIONAL"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "REF-CNRTL-ABANDON",
+                "REF-ZDIC-BAN-HANDLE",
+                "REF-ZDIC-BAN-TRADITIONAL"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "REF-CNRTL-ABANDON",
+                  "REF-ZDIC-BAN-HANDLE",
+                  "REF-ZDIC-BAN-TRADITIONAL"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "REF-CNRTL-ABANDON",
+                  "REF-ZDIC-BAN-HANDLE",
+                  "REF-ZDIC-BAN-TRADITIONAL"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "办是处理／办理，和 bandon 的权力义仅间接相关；古法语声音仍 Pending。同组标签不能补强语义。",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          },
+          {
+            "candidate_id": "CONTROL-BANDON-BING",
+            "family_key": "legacy-abandon",
+            "target": {
+              "form": "柄 / 权柄",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "power / authority",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-CONTROL-BANDON-BING",
+                  "value": "bǐng",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "REF-ZDIC-BING"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "REF-ZDIC-BING"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "bandon",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-CONTROL-BANDON-BING",
+              "source_span": "BANDON",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "Meaning-first semantic support independent of initial b; historical French sound Pending.",
+              "source_refs": [
+                "REF-ZDIC-BING"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "REF-ZDIC-BING"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "REF-ZDIC-BING"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "REF-ZDIC-BING"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Meaning-first semantic support independent of initial b; historical French sound Pending.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Meaning-first semantic support independent of initial b; historical French sound Pending.",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "review": {
+          "status": "proposed",
+          "reviewer": null,
+          "date": "2026-09-19",
+          "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-english-abandon",
+        "stage_ref": "english-abandon",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "GIVE UP / LEAVE / DESERT",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "GIVE UP / LEAVE / DESERT"
+            ],
+            "consonant_hypotheses": [
+              "b-p-m-f"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "MAP-ABANDON-FANG-001",
+            "family_key": "legacy-abandon",
+            "target": {
+              "form": "放",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "let go / release",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-MAP-ABANDON-FANG-001",
+                  "value": "fàng",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "REF-CNRTL-ABANDONNER",
+                    "REF-ZDIC-FANG",
+                    "REF-MW-ABANDON"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "REF-CNRTL-ABANDONNER",
+                "REF-ZDIC-FANG",
+                "REF-MW-ABANDON"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "english-abandon",
+              "source_pronunciation_ref": "PR-ABANDON",
+              "target_pronunciation_ref": "ZH-MAP-ABANDON-FANG-001",
+              "source_span": "abandon; sound test restricted to medial /b/",
+              "scope": "syllable",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "Selected source segment; not whole-word homophony",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+              "source_refs": [
+                "REF-CNRTL-ABANDONNER",
+                "REF-ZDIC-FANG",
+                "REF-MW-ABANDON"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Compare the /b/ after initial /ə/ in English abandon with Mandarin f /f/ in fàng: b ↔ f falls within the proposed b-p-m-f group. This is a medial-to-initial segment comparison, not whole-word homophony; voicing, place/manner, remaining segments and tone differ. Group membership does not prove a sound law or historical relation.",
+              "features": {
+                "onset": "English medial /b/ vs Mandarin initial /f/: voicing and manner/place differ.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "REF-CNRTL-ABANDONNER",
+                "REF-ZDIC-FANG",
+                "REF-MW-ABANDON"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "REF-CNRTL-ABANDONNER",
+                  "REF-ZDIC-FANG",
+                  "REF-MW-ABANDON"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "REF-CNRTL-ABANDONNER",
+                  "REF-ZDIC-FANG",
+                  "REF-MW-ABANDON"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "review": {
+          "status": "proposed",
+          "reviewer": null,
+          "date": "2026-09-19",
+          "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "MAP-ABANDON-FANG-001",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-bandon",
+          "candidate_ref": "MAP-BANDON-BAN-001"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "沿用整词 LET GO / RELEASE → 放的编辑选择（Low）。声音只比较 abandon 词中 /b/ 与 fàng 起音；不是整词同音，也不涵盖全部现代义。历史 bandon 的权力义另列。"
+    },
+    "historical_path": "BANDON → À BANDON → ABANDONNER → ABANDON",
+    "semantic_path": "POWER / AUTHORITY → DISPOSAL → GIVE OVER → LET GO → GIVE UP",
     "boundary": {
       "en": "Historical meanings and attested forms remain separated. The arrows summarize semantic development, not five strictly successive first-attestation dates. No Chinese same-group path is inferred.",
       "zh-Hans": "历史词形与义项保留边界；箭头概括语义发展，不是五个严格递进的首见年代，不推导汉语同组路径。"
@@ -1486,6 +2122,77 @@
     "correction": {
       "en": "The earlier Chinese same-group path design was an implementation error and has been withdrawn. Its path scores and planned path-constraint experiment are superseded, not evidence against the author’s cross-language hypothesis. This is retrospective editorial review, not a blinded study; no experiment has run.",
       "zh-Hans": "此前要求汉语全链同组的设计属于实现误解，已撤下；相应路径评分与路径约束实验计划作废，不构成对作者跨语言假说的反证。本次为回顾性编辑核验，不是盲评，未运行实验。"
+    }
+  },
+  "legacy_migration": {
+    "version": "0.1",
+    "baseline_commit": "5ed87f6b6d2aa99523368bd26aa4c7d43b8deb3b",
+    "scope": "Read-only Research archive of the pre-migration stage shape. Original assessments and author material elsewhere in this record are unchanged. Not a second active model.",
+    "previous_diachronic_semantic_mapping": {
+      "version": "2.0",
+      "status": "Historical semantic analysis; independent of consonant groups",
+      "historical_path": "BANDON → À BANDON → ABANDONNER → ABANDON",
+      "semantic_path": "POWER / AUTHORITY → DISPOSAL → GIVE OVER → LET GO → GIVE UP",
+      "historical_stages": [
+        {
+          "stage_id": "bandon",
+          "form": "BANDON",
+          "language": "Old French",
+          "meaning": "POWER / AUTHORITY / CONTROL",
+          "note": {
+            "en": "CNRTL identifies bandon as power/authority. Do not assign RELEASE to this root.",
+            "zh-Hans": "CNRTL 将 bandon 释为权力／支配；不能把 RELEASE 赋给此词根。"
+          },
+          "source_refs": [
+            "REF-CNRTL-ABANDON"
+          ]
+        },
+        {
+          "stage_id": "a-bandon",
+          "form": "À BANDON",
+          "language": "Old French phrase",
+          "meaning": "at someone’s power/disposal — DISPOSAL RELATION",
+          "note": {
+            "en": "The phrase places something at another’s disposal; this is a relation of authority, not simply the act of handling it. Old French a bandon and Anglo-French a bandun are source forms; À is a normalized display.",
+            "zh-Hans": "短语表示将某物置于他人支配／任其处置的关系，不只是处理动作。古法语 a bandon、盎格鲁法语 a bandun 为来源形式；À 为规范化展示。"
+          },
+          "source_refs": [
+            "REF-CNRTL-ABANDON",
+            "REF-MW-ABANDON"
+          ]
+        },
+        {
+          "stage_id": "abandonner",
+          "form": "ABANDONNER",
+          "language": "Old French → French",
+          "meaning": "GIVE OVER / leave to another’s disposal; RELEASE / LET GO; LEAVE",
+          "note": {
+            "en": "The display abbreviates a family including the noun abandon/abandun. CNRTL derives the verb from abandon and records release of a rein around 1100 and leaving entirely from the 12th century. These overlapping senses prevent treating TRANSFER then RELEASE as a proven chronological ladder.",
+            "zh-Hans": "展示缩略了包含名词 abandon/abandun 的词族。CNRTL 将动词分析为由 abandon 派生，记约1100年的松开缰绳义及12世纪起的完全离开义；义项重叠，不能把 TRANSFER 再 RELEASE 当成已证年代阶梯。"
+          },
+          "source_refs": [
+            "REF-CNRTL-ABANDONNER",
+            "REF-CNRTL-ABANDON"
+          ]
+        },
+        {
+          "stage_id": "english-abandon",
+          "form": "ABANDON",
+          "language": "Middle English → English verb",
+          "meaning": "GIVE UP / LEAVE / DESERT",
+          "note": {
+            "en": "Middle English abandounen, attested in the 14th century, was borrowed through Anglo-French abanduner. Modern meanings include relinquishing an interest and withdrawing support. The later English noun is separate.",
+            "zh-Hans": "中古英语 abandounen 见于14世纪，经盎格鲁法语 abanduner 借入。现代义含放弃权益、离开与撤去支持；后来的英语名词另论。"
+          },
+          "source_refs": [
+            "REF-MW-ABANDON"
+          ]
+        }
+      ],
+      "boundary": {
+        "en": "Historical meanings and attested forms remain separated. The arrows summarize semantic development, not five strictly successive first-attestation dates. No Chinese same-group path is inferred.",
+        "zh-Hans": "历史词形与义项保留边界；箭头概括语义发展，不是五个严格递进的首见年代，不推导汉语同组路径。"
+      }
     }
   }
 }

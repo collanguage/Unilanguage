@@ -1,3 +1,4 @@
+const {legacyEntry,legacyDataset}=require('./legacy-research-view.cjs'); // Exact pre-migration research compatibility
 const { assertLegacyUiEqual } = require('./legacy-ui-compat.cjs');
 const test = require('node:test');
 const assert = require('node:assert/strict');
@@ -5,8 +6,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const cp = require('node:child_process');
 const root = path.resolve(__dirname, '..');
-const e = require('../data/entries/abdicate.v1.json');
-const data = require('../data/language-book.v1.0.json');
+const e = legacyEntry(require('../data/entries/abdicate.v1.json'));
+const data = legacyDataset(require('../data/language-book.v1.0.json'));
 const api = require('../js/language-book-data.js');
 const page = fs.readFileSync(path.join(root, 'words/abdicate.html'), 'utf8');
 const baseline = '6fe36930ff4395adc4b7cf71dab43109efff158b';
@@ -89,7 +90,7 @@ test('Dictionary, search and Mapper aliases route to the same current record and
     const found=api.lookup(data,term).entry;
     assert.equal(found?.id,e.id,term); assert.equal(found.page,'words/abdicate.html');
   }
-  assert.match(page,/<h1>ABDICATE ↔ 啼 tí<\/h1>/);
+  assert.match(page,/<h1>ABDICATE<\/h1>/);
   assert.match(page,/DICĀRE ↔ 啼 tí/);
   for (const id of ['literature','basic-meaning','multilingual','etymology','mapping','justification','protocol','utp','examples','community','references']) assert.ok(page.includes('id="'+id+'"'));
 });

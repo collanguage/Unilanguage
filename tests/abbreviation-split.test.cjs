@@ -1,3 +1,4 @@
+const {legacyEntry,legacyDataset}=require('./legacy-research-view.cjs'); // Exact pre-migration research compatibility
 const { assertLegacyUiEqual } = require('./legacy-ui-compat.cjs');
 const test=require('node:test');
 const assert=require('node:assert/strict');
@@ -5,7 +6,7 @@ const fs=require('node:fs');
 const cp=require('node:child_process');
 const path=require('node:path');
 const root=path.resolve(__dirname,'..');
-const data=require('../data/language-book.v1.0.json');
+const data=legacyDataset(require('../data/language-book.v1.0.json'));
 const api=require('../js/language-book-data.js');
 const v=require('../data/entries/abbreviate.v1.json');
 const n=require('../data/entries/abbreviation.v1.json');

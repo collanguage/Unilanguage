@@ -1,5 +1,6 @@
+const {legacyEntry,legacyDataset}=require('./legacy-research-view.cjs'); // Exact pre-migration research compatibility
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),cp=require('node:child_process');
-const e=require('../data/entries/abeyance.v1.json'),d=require('../data/language-book.v1.0.json'),api=require('../js/language-book-data.js');
+const e=require('../data/entries/abeyance.v1.json'),d=legacyDataset(require('../data/language-book.v1.0.json')),api=require('../js/language-book-data.js');
 const page=fs.readFileSync('words/abeyance.html','utf8');
 test('ABEYANCE updates one existing record and preserves unrelated entries and Mapper UI',()=>{
  const get=f=>cp.execFileSync('git',['show','5cae56daf73cf36fba628d37f3660709178e2e75:'+f],{encoding:'utf8',maxBuffer:20*1024*1024}).replace(/\r\n/g,'\n');

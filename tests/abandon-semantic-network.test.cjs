@@ -1,9 +1,10 @@
+const {legacyEntry,legacyDataset}=require('./legacy-research-view.cjs'); // Exact pre-migration research compatibility
 const test=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
 const root=path.resolve(__dirname,'..');
-const dataset=require('../data/language-book.v1.0.json');
+const dataset=legacyDataset(require('../data/language-book.v1.0.json'));
 const api=require('../js/language-book-data.js');
 const entry=dataset.entries.find(e=>e.slug==='abandon');
 
@@ -98,7 +99,7 @@ test('meaning-first mapping separates historical development from cross-language
 test('corrected record and page expose the candidate without a Chinese constraint path',()=>{
   for(const q of ['bandon','办','辦','柄','权柄','ban','甭','banal','一般'])assert.equal(api.lookup(dataset,q).entry.id,entry.id,q);
   const page=fs.readFileSync(path.join(root,entry.page),'utf8');
-  assert.match(page,/<h1>abandon ↔ 放 <small>fàng<\/small><\/h1>/);
+  assert.match(page,/<h1>ABANDON<\/h1>/);
   assert.ok(!page.includes('id="consonant-constrained-path"'));
   assert.ok(!page.includes('id="semantic-best-path"'));
   assert.ok(!entry.semantic_structure.relation.includes('柄'));

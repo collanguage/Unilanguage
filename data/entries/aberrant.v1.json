@@ -684,7 +684,8 @@
       "ABER-OALD-ERR",
       "ABER-OALD-ERROR",
       "REF-ZDIC-E"
-    ]
+    ],
+    "candidate_ref": "MAP-ERR-E-STAGE"
   },
   "mapping_assessment": {
     "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
@@ -788,198 +789,841 @@
     }
   },
   "diachronic_semantic_mapping": {
-    "historical_path": "English aberrant ← Latin aberrant- / aberrāns (present participle of aberrāre = ab- + errāre). French aberrant ← adjectivized participle of aberrer ← Latin aberrāre. English err ← Middle English erren ← Anglo-French and Latin errāre; error / erreur share the Latin error family. These are branches, not English → French → Latin in a single borrowing chain.",
-    "semantic_path": "WANDER / STRAY → DEVIATE FROM A PATH → ERROR / DEPARTURE FROM A NORM (semantic organization; meanings coexist, no dated replacement sequence claimed)",
+    "model_version": "0.1",
     "historical_stages": [
       {
         "stage_id": "LATIN-WANDER",
         "form": "errāre",
-        "language": "Latin",
-        "meaning": "wander / roam / stray; also figurative error in Latin",
-        "evidence_status": "Established",
-        "status": "Mapping pending",
-        "confidence": "Unknown",
-        "target": null,
-        "historical_relation_status": "Not claimed",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Latin; narrower dates not recorded in existing research",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "REF-MW-ERR",
+            "ABER-DCC"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "wander / roam / stray; also figurative error in Latin",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-ERRARE",
+            "value": "[ɛrˈraː.rɛ], approximate Classical reference inferred from spelling, vowel quantity and DCC pronunciation; /rr/ geminate rhotic, three syllables, no Mandarin lexical tone; not ancient audio.",
+            "notation": "source_notation",
+            "phonological_layer": "Latin Roman reference",
+            "period": {
+              "label": "Approximate Roman reference; not all Latin periods",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "ABER-DCC"
+              ]
+            },
+            "variety": "Latin Roman reference",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "editorial_inference",
+            "source_refs": [
+              "ABER-DCC"
+            ]
+          }
+        ],
+        "relations": [],
         "source_refs": [
           "REF-MW-ERR",
           "ABER-DCC"
         ],
-        "phonetic_reference": "[ɛrˈraː.rɛ], approximate Classical reference inferred from spelling, vowel quantity and DCC pronunciation; /rr/ geminate rhotic, three syllables, no Mandarin lexical tone; not ancient audio.",
-        "candidate_review": [
-          {
-            "target": "游",
-            "reading": "yóu",
-            "status": "Semantic-only option; phonetic-semantic mapping pending",
-            "reason": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
-            "source_refs": [
-              "ABER-ZD-YOU"
-            ]
-          },
-          {
-            "target": "迷",
-            "reading": "mí",
-            "status": "Semantic-only option; phonetic-semantic mapping pending",
-            "reason": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
-            "source_refs": [
-              "ABER-ZD-MI"
-            ]
-          }
-        ],
-        "boundary": "Modern Mandarin candidates only; not ancient Chinese reconstructions. No forced character selection."
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Modern Mandarin candidates only; not ancient Chinese reconstructions. No forced character selection."
       },
       {
         "stage_id": "ERROR",
-        "form": "ERR / ERROR; French erreur as secondary comparison",
-        "meaning": "mistake / corruption of correctness",
-        "evidence_status": "Supported",
-        "status": "Candidate",
-        "confidence": "Low",
-        "mapping_id": "MAP-ERR-E-STAGE",
-        "target": "讹",
-        "historical_relation_status": "Not claimed",
+        "form": "err",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Modern reference; exact documentation date not inferred",
+          "start_year": null,
+          "end_year": null,
+          "basis": "modern_reference",
+          "source_refs": []
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "make a mistake / error; not all WANDER senses",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-ERR",
+            "value": "BrE /ɜː(r)/; AmE /er, ɝ/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "ABER-OALD-ERR",
+              "REF-MW-ERR"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "LATIN-WANDER",
+            "relation_type": "related_family",
+            "semantic_operation": {
+              "type": "related_family",
+              "description": "English err via Middle English/Anglo-French and Latin errāre; selected modern branch, not an ancestor of aberrant.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "ABER-OALD-ERR",
+              "ABER-OALD-ERROR",
+              "REF-MW-ERR",
+              "REF-CNRTL-ERREUR",
+              "REF-ZDIC-E"
+            ]
+          }
+        ],
         "source_refs": [
           "ABER-OALD-ERR",
           "ABER-OALD-ERROR",
           "REF-MW-ERR",
           "REF-CNRTL-ERREUR",
           "REF-ZDIC-E"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Family comparison branch; error and French erreur are related comparanda, not aliases sharing err pronunciation."
       },
       {
         "stage_id": "MODERN-ABERRANT",
-        "form": "ABERRANT",
-        "meaning": "departing from normal / usual",
-        "evidence_status": "Supported",
-        "status": "Candidate",
-        "confidence": "Medium",
-        "mapping_id": "MAP-ABERRANT-MODERN-PIAN",
-        "target": "偏",
-        "historical_relation_status": "Not claimed",
+        "form": "aberrant",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Modern reference; exact documentation date not inferred",
+          "start_year": null,
+          "end_year": null,
+          "basis": "modern_reference",
+          "source_refs": []
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "departing from normal / usual",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "LATIN-WANDER",
+            "relation_type": "related_family",
+            "semantic_operation": {
+              "type": "related_family",
+              "description": "Latin ab- + errāre → aberrāre → aberrant-/aberrāns; intermediate morphology retained in Research. English err is a sibling comparison, not a required stage.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "REF-MW-ABERRANT",
+              "REF-MW-ERR"
+            ]
+          }
+        ],
         "source_refs": [
           "REF-OALD-ABERRANT",
           "ABER-ZD-PIAN"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Independent aberrāre/aberrant- branch; no edge from English err/error."
       }
     ],
     "mappings": [
       {
-        "mapping_id": "MAP-ERR-E-STAGE",
-        "source": {
-          "language": "English, Latin-derived family",
-          "word": "ERR / ERROR",
-          "pronunciation": "err: BrE /ɜː(r)/; AmE /er, ɝ/; error: /ˈerə(r), ˈerər/"
-        },
-        "target": {
-          "language": "Modern Mandarin",
-          "word": "讹",
-          "pronunciation": "é /ɤ˧˥/"
-        },
-        "source_semantics": "make a mistake / error; not all WANDER senses",
-        "target_sense": "差错、文字／记载讹误；非全部谣言、讹诈或古义",
-        "status": "Candidate",
-        "mapping_level": "C",
-        "confidence": "Low",
-        "historical_relation_status": "Not claimed",
-        "phonetic_observation": {
-          "observation_id": "PHON-ERR-E-001",
-          "claim": {
-            "en": "err ↔ 讹 is an accent-dependent partial resemblance, not homophony.",
-            "zh-Hans": "err ↔ 讹 为受口音影响的部分音近，不是同音。"
-          },
-          "status": "Candidate",
-          "scope": "Modern English sound comparison within a historically identified family; no Latin–Old Chinese sound equation",
-          "segments": {
-            "onset": {
-              "en": "Both are phonologically vowel-initial. Absence of an onset is common and not positive evidence of a consonant correspondence.",
-              "zh-Hans": "均可分析为零声母／元音起首；无声母很常见，不是辅音规律对应的正证。"
-            },
-            "vowel": {
-              "en": "BrE /ɜː/ is a long central vowel; AmE /er/ has a front vowel and /r/, or /ɝ/ has rhotic colouring. Mandarin /ɤ/ is back and unrounded; spelling e does not equate these vowels.",
-              "zh-Hans": "英式 /ɜː/ 为长央元音；美式 /er/ 为前元音加 /r/，另有卷舌 /ɝ/。普通话 /ɤ/ 为后不圆唇元音；字母 e 相似不等于元音相同。"
-            },
-            "rhoticity": {
-              "en": "Non-rhotic BrE err has no final /r/ before a pause, but may link /r/ before a vowel; rhotic accents retain /r/ or r-colouring. Mandarin é has neither.",
-              "zh-Hans": "非 rhotic 英式 err 在停顿前无词尾 /r/，元音前可连读 /r/；rhotic 口音保留 /r/ 或卷舌色彩；普通话 é 均无。"
-            },
-            "syllables": {
-              "en": "err and é are monosyllabic. error is two syllables /ˈerə(r), ˈerər/; erreur /ɛ.ʁœʁ/ is two syllables with uvular rhotics and a rounded /œ/. Neither is a homophone of é; whole aberrant has three syllables.",
-              "zh-Hans": "err、é 均单音节；error /ˈerə(r), ˈerər/ 为两音节；erreur /ɛ.ʁœʁ/ 为两音节，含小舌音及圆唇 /œ/。两者均非 é 的同音词；完整 aberrant 为三音节。"
-            },
-            "tone": {
-              "en": "Mandarin é has lexical rising tone /ɤ˧˥/; English stress and French phrase prosody do not match Mandarin tone.",
-              "zh-Hans": "普通话 é 带阳平 /ɤ˧˥/；英语重音、法语短语韵律不对应普通话词汇声调。"
-            }
-          },
-          "rating": {
-            "score": 10,
-            "maximum": 30,
-            "confidence": "Low",
-            "method": "Editorial components: onset absence 1/10; vowel resemblance 4/8; rhotic/coda fit across accents 2/5; one-syllable shape 3/4; tone/prosody 0/3. No acoustic data. The whole error/erreur words receive no transferred err score."
-          },
-          "limitations": {
-            "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
-            "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
-          },
-          "source_refs": [
-            "ABER-OALD-ERR",
-            "ABER-OALD-ERROR",
-            "REF-MW-ERR",
-            "REF-CNRTL-ERREUR",
-            "REF-ZDIC-E"
-          ]
-        },
-        "mapping_assessment": {
-          "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
-          "method": "Unvalidated editorial assessment, not acoustic measurement or probability; scoped to err ↔ 讹 in the ERROR stage, not whole-word aberrant.",
-          "dimensions": [
-            {
-              "name": "Phonetic Relation",
-              "weight": 30,
-              "score": 10,
-              "reason": "零声母和单音节有部分相似；元音、rhoticity、声调不同"
-            },
-            {
-              "name": "Semantic Relation",
-              "weight": 30,
-              "score": 22,
-              "reason": "错误／讹误语义有交集；err 动作与讹的名词／语素用法不完全等价"
-            },
-            {
-              "name": "Structural / Cognitive Relation",
-              "weight": 20,
-              "score": 13,
-              "reason": "偏离路径与偏离正确性可解释；非独立历史证据"
-            },
-            {
-              "name": "Contextual Validity",
-              "weight": 20,
-              "score": 8,
-              "reason": "文字讹误语境较合适；不能替换所有 error，更不能替换 aberrant；无盲测"
-            }
+        "stage_mapping_id": "SM-LATIN-WANDER",
+        "stage_ref": "LATIN-WANDER",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "wander / roam / stray; also figurative error in Latin",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
           ],
-          "total": 53,
-          "maximum": 100,
-          "level": "C",
-          "confidence": "Low",
-          "rationale": {
-            "en": "C — Experimental (testable, not experimentally validated); Phonetic-Semantic Candidate; Weak overall confidence. Scoped error semantics justify investigation; limited sound resemblance remains untested. Level follows relationship type, not a numerical threshold.",
-            "zh-Hans": "C—Experimental（待实验验证）；语音语义候选；整体置信度 Low／Weak。限定错误义支持研究，部分音近未经实验；等级按关系性质判断，不由分数机械换算。"
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "pending",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "wander / roam / stray; also figurative error in Latin"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "现有游／迷仅作语义对照；没有选定音义候选。保留 Pending，不强行配字。"
+        },
+        "candidates": [
+          {
+            "candidate_id": "CONTROL-ERRARE-YOU",
+            "family_key": "legacy-aberrant",
+            "target": {
+              "form": "游",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "游走 / roam",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-CONTROL-ERRARE-YOU",
+                  "value": "yóu",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "ABER-ZD-YOU"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "ABER-ZD-YOU"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "LATIN-WANDER",
+              "source_pronunciation_ref": "PR-ERRARE",
+              "target_pronunciation_ref": "ZH-CONTROL-ERRARE-YOU",
+              "source_span": "errāre",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+              "source_refs": [
+                "ABER-ZD-YOU"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Existing feature comparison retained; no acoustic measurement.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "ABER-ZD-YOU"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "ABER-ZD-YOU"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "ABER-ZD-YOU"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          },
+          {
+            "candidate_id": "CONTROL-ERRARE-MI",
+            "family_key": "legacy-aberrant",
+            "target": {
+              "form": "迷",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "迷路 / lose the way",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-CONTROL-ERRARE-MI",
+                  "value": "mí",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "ABER-ZD-MI"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "ABER-ZD-MI"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "LATIN-WANDER",
+              "source_pronunciation_ref": "PR-ERRARE",
+              "target_pronunciation_ref": "ZH-CONTROL-ERRARE-MI",
+              "source_span": "errāre",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+              "source_refs": [
+                "ABER-ZD-MI"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Existing feature comparison retained; no acoustic measurement.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "ABER-ZD-MI"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "ABER-ZD-MI"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "ABER-ZD-MI"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
           }
+        ],
+        "review": {
+          "status": "proposed",
+          "reviewer": null,
+          "date": "2026-09-19",
+          "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-ERROR",
+        "stage_ref": "ERROR",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "make a mistake / error; not all WANDER senses",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
         },
-        "boundary": {
-          "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
-          "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "make a mistake / error; not all WANDER senses"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
         },
-        "source_refs": [
-          "ABER-OALD-ERR",
-          "ABER-OALD-ERROR",
-          "REF-MW-ERR",
-          "REF-CNRTL-ERREUR",
-          "REF-ZDIC-E"
-        ]
+        "candidates": [
+          {
+            "candidate_id": "MAP-ERR-E-STAGE",
+            "family_key": "legacy-aberrant",
+            "target": {
+              "form": "讹",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "差错、文字／记载讹误；非全部谣言、讹诈或古义",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-MAP-ERR-E-STAGE",
+                  "value": "é /ɤ˧˥/",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "ABER-OALD-ERR",
+                    "ABER-OALD-ERROR",
+                    "REF-MW-ERR",
+                    "REF-CNRTL-ERREUR",
+                    "REF-ZDIC-E"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "ABER-OALD-ERR",
+                "ABER-OALD-ERROR",
+                "REF-MW-ERR",
+                "REF-CNRTL-ERREUR",
+                "REF-ZDIC-E"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "ERROR",
+              "source_pronunciation_ref": "PR-ERR",
+              "target_pronunciation_ref": "ZH-MAP-ERR-E-STAGE",
+              "source_span": "err",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+              "source_refs": [
+                "ABER-OALD-ERR",
+                "ABER-OALD-ERROR",
+                "REF-MW-ERR",
+                "REF-CNRTL-ERREUR",
+                "REF-ZDIC-E"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "err ↔ 讹 is an accent-dependent partial resemblance, not homophony.",
+              "features": {
+                "onset": "Both are phonologically vowel-initial. Absence of an onset is common and not positive evidence of a consonant correspondence.",
+                "vowel": "BrE /ɜː/ is a long central vowel; AmE /er/ has a front vowel and /r/, or /ɝ/ has rhotic colouring. Mandarin /ɤ/ is back and unrounded; spelling e does not equate these vowels.",
+                "coda_other_consonants": "Non-rhotic BrE err has no final /r/ before a pause, but may link /r/ before a vowel; rhotic accents retain /r/ or r-colouring. Mandarin é has neither.",
+                "syllables": "err and é are monosyllabic. error is two syllables /ˈerə(r), ˈerər/; erreur /ɛ.ʁœʁ/ is two syllables with uvular rhotics and a rounded /œ/. Neither is a homophone of é; whole aberrant has three syllables.",
+                "prosody": "Mandarin é has lexical rising tone /ɤ˧˥/; English stress and French phrase prosody do not match Mandarin tone."
+              },
+              "source_refs": [
+                "ABER-OALD-ERR",
+                "ABER-OALD-ERROR",
+                "REF-MW-ERR",
+                "REF-CNRTL-ERREUR",
+                "REF-ZDIC-E"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "ABER-OALD-ERR",
+                  "ABER-OALD-ERROR",
+                  "REF-MW-ERR",
+                  "REF-CNRTL-ERREUR",
+                  "REF-ZDIC-E"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "ABER-OALD-ERR",
+                  "ABER-OALD-ERROR",
+                  "REF-MW-ERR",
+                  "REF-CNRTL-ERREUR",
+                  "REF-ZDIC-E"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "review": {
+          "status": "proposed",
+          "reviewer": null,
+          "date": "2026-09-19",
+          "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-MODERN-ABERRANT",
+        "stage_ref": "MODERN-ABERRANT",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "departing from normal / usual",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "departing from normal / usual"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "MAP-ABERRANT-MODERN-PIAN",
+            "family_key": "legacy-aberrant",
+            "target": {
+              "form": "偏",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "departing from normal / usual",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-MAP-ABERRANT-MODERN-PIAN",
+                  "value": "piān",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "REF-OALD-ABERRANT",
+                    "ABER-ZD-PIAN"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "REF-OALD-ABERRANT",
+                "ABER-ZD-PIAN"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MODERN-ABERRANT",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-MAP-ABERRANT-MODERN-PIAN",
+              "source_span": "aberrant",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "偏取偏离常规义；不是所有反常语境的逐字译词。Existing Modern Semantic Mapping; source sound not graded in this migration.",
+              "source_refs": [
+                "REF-OALD-ABERRANT",
+                "ABER-ZD-PIAN"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "REF-OALD-ABERRANT",
+                "ABER-ZD-PIAN"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "REF-OALD-ABERRANT",
+                  "ABER-ZD-PIAN"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "REF-OALD-ABERRANT",
+                  "ABER-ZD-PIAN"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "偏取偏离常规义；不是所有反常语境的逐字译词。Existing Modern Semantic Mapping; source sound not graded in this migration.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "偏取偏离常规义，作为现代语义候选；不代替所有反常语境。",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "review": {
+          "status": "proposed",
+          "reviewer": null,
+          "date": "2026-09-19",
+          "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+        }
       }
     ],
+    "display_selection": {
+      "featured_candidate_ref": "MAP-ERR-E-STAGE",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-LATIN-WANDER",
+          "candidate_ref": null
+        },
+        {
+          "stage_mapping_ref": "SM-MODERN-ABERRANT",
+          "candidate_ref": "MAP-ABERRANT-MODERN-PIAN"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "沿用词族 ERR / ERROR 的错误义 → 讹（C / Low），声音只检验现代英语 err。它是词族比较分支，不是 aberrant 必经祖先；讹不是整个形容词的标准翻译。"
+    },
+    "historical_path": "English aberrant ← Latin aberrant- / aberrāns (present participle of aberrāre = ab- + errāre). French aberrant ← adjectivized participle of aberrer ← Latin aberrāre. English err ← Middle English erren ← Anglo-French and Latin errāre; error / erreur share the Latin error family. These are branches, not English → French → Latin in a single borrowing chain.",
+    "semantic_path": "WANDER / STRAY → DEVIATE FROM A PATH → ERROR / DEPARTURE FROM A NORM (semantic organization; meanings coexist, no dated replacement sequence claimed)",
     "boundary": {
       "en": "Diachronic Stage Mapping Principle: map separately only where form, meaning or semantic operation changes materially, not one character per language. Each stage has its own evidence, status and confidence. Chinese historical relation remains Not claimed.",
       "zh-Hans": "历时阶段映射原则：仅在形式、意义或语义操作有实质变化时分阶段映射，不是每经过一种语言就配一个汉字；每阶段独立 evidence/status/confidence。汉语跨语言 Historical Relation 仍为 Not claimed。"
@@ -1097,5 +1741,208 @@
       ],
       "reason": "Specific edition and entry not obtained; no page, quotation or earliest sense asserted."
     }
-  ]
+  ],
+  "legacy_migration": {
+    "version": "0.1",
+    "baseline_commit": "5ed87f6b6d2aa99523368bd26aa4c7d43b8deb3b",
+    "scope": "Read-only Research archive of the pre-migration stage shape. Original assessments and author material elsewhere in this record are unchanged. Not a second active model.",
+    "previous_diachronic_semantic_mapping": {
+      "historical_path": "English aberrant ← Latin aberrant- / aberrāns (present participle of aberrāre = ab- + errāre). French aberrant ← adjectivized participle of aberrer ← Latin aberrāre. English err ← Middle English erren ← Anglo-French and Latin errāre; error / erreur share the Latin error family. These are branches, not English → French → Latin in a single borrowing chain.",
+      "semantic_path": "WANDER / STRAY → DEVIATE FROM A PATH → ERROR / DEPARTURE FROM A NORM (semantic organization; meanings coexist, no dated replacement sequence claimed)",
+      "historical_stages": [
+        {
+          "stage_id": "LATIN-WANDER",
+          "form": "errāre",
+          "language": "Latin",
+          "meaning": "wander / roam / stray; also figurative error in Latin",
+          "evidence_status": "Established",
+          "status": "Mapping pending",
+          "confidence": "Unknown",
+          "target": null,
+          "historical_relation_status": "Not claimed",
+          "source_refs": [
+            "REF-MW-ERR",
+            "ABER-DCC"
+          ],
+          "phonetic_reference": "[ɛrˈraː.rɛ], approximate Classical reference inferred from spelling, vowel quantity and DCC pronunciation; /rr/ geminate rhotic, three syllables, no Mandarin lexical tone; not ancient audio.",
+          "candidate_review": [
+            {
+              "target": "游",
+              "reading": "yóu",
+              "status": "Semantic-only option; phonetic-semantic mapping pending",
+              "reason": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+              "source_refs": [
+                "ABER-ZD-YOU"
+              ]
+            },
+            {
+              "target": "迷",
+              "reading": "mí",
+              "status": "Semantic-only option; phonetic-semantic mapping pending",
+              "reason": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+              "source_refs": [
+                "ABER-ZD-MI"
+              ]
+            }
+          ],
+          "boundary": "Modern Mandarin candidates only; not ancient Chinese reconstructions. No forced character selection."
+        },
+        {
+          "stage_id": "ERROR",
+          "form": "ERR / ERROR; French erreur as secondary comparison",
+          "meaning": "mistake / corruption of correctness",
+          "evidence_status": "Supported",
+          "status": "Candidate",
+          "confidence": "Low",
+          "mapping_id": "MAP-ERR-E-STAGE",
+          "target": "讹",
+          "historical_relation_status": "Not claimed",
+          "source_refs": [
+            "ABER-OALD-ERR",
+            "ABER-OALD-ERROR",
+            "REF-MW-ERR",
+            "REF-CNRTL-ERREUR",
+            "REF-ZDIC-E"
+          ]
+        },
+        {
+          "stage_id": "MODERN-ABERRANT",
+          "form": "ABERRANT",
+          "meaning": "departing from normal / usual",
+          "evidence_status": "Supported",
+          "status": "Candidate",
+          "confidence": "Medium",
+          "mapping_id": "MAP-ABERRANT-MODERN-PIAN",
+          "target": "偏",
+          "historical_relation_status": "Not claimed",
+          "source_refs": [
+            "REF-OALD-ABERRANT",
+            "ABER-ZD-PIAN"
+          ]
+        }
+      ],
+      "mappings": [
+        {
+          "mapping_id": "MAP-ERR-E-STAGE",
+          "source": {
+            "language": "English, Latin-derived family",
+            "word": "ERR / ERROR",
+            "pronunciation": "err: BrE /ɜː(r)/; AmE /er, ɝ/; error: /ˈerə(r), ˈerər/"
+          },
+          "target": {
+            "language": "Modern Mandarin",
+            "word": "讹",
+            "pronunciation": "é /ɤ˧˥/"
+          },
+          "source_semantics": "make a mistake / error; not all WANDER senses",
+          "target_sense": "差错、文字／记载讹误；非全部谣言、讹诈或古义",
+          "status": "Candidate",
+          "mapping_level": "C",
+          "confidence": "Low",
+          "historical_relation_status": "Not claimed",
+          "phonetic_observation": {
+            "observation_id": "PHON-ERR-E-001",
+            "claim": {
+              "en": "err ↔ 讹 is an accent-dependent partial resemblance, not homophony.",
+              "zh-Hans": "err ↔ 讹 为受口音影响的部分音近，不是同音。"
+            },
+            "status": "Candidate",
+            "scope": "Modern English sound comparison within a historically identified family; no Latin–Old Chinese sound equation",
+            "segments": {
+              "onset": {
+                "en": "Both are phonologically vowel-initial. Absence of an onset is common and not positive evidence of a consonant correspondence.",
+                "zh-Hans": "均可分析为零声母／元音起首；无声母很常见，不是辅音规律对应的正证。"
+              },
+              "vowel": {
+                "en": "BrE /ɜː/ is a long central vowel; AmE /er/ has a front vowel and /r/, or /ɝ/ has rhotic colouring. Mandarin /ɤ/ is back and unrounded; spelling e does not equate these vowels.",
+                "zh-Hans": "英式 /ɜː/ 为长央元音；美式 /er/ 为前元音加 /r/，另有卷舌 /ɝ/。普通话 /ɤ/ 为后不圆唇元音；字母 e 相似不等于元音相同。"
+              },
+              "rhoticity": {
+                "en": "Non-rhotic BrE err has no final /r/ before a pause, but may link /r/ before a vowel; rhotic accents retain /r/ or r-colouring. Mandarin é has neither.",
+                "zh-Hans": "非 rhotic 英式 err 在停顿前无词尾 /r/，元音前可连读 /r/；rhotic 口音保留 /r/ 或卷舌色彩；普通话 é 均无。"
+              },
+              "syllables": {
+                "en": "err and é are monosyllabic. error is two syllables /ˈerə(r), ˈerər/; erreur /ɛ.ʁœʁ/ is two syllables with uvular rhotics and a rounded /œ/. Neither is a homophone of é; whole aberrant has three syllables.",
+                "zh-Hans": "err、é 均单音节；error /ˈerə(r), ˈerər/ 为两音节；erreur /ɛ.ʁœʁ/ 为两音节，含小舌音及圆唇 /œ/。两者均非 é 的同音词；完整 aberrant 为三音节。"
+              },
+              "tone": {
+                "en": "Mandarin é has lexical rising tone /ɤ˧˥/; English stress and French phrase prosody do not match Mandarin tone.",
+                "zh-Hans": "普通话 é 带阳平 /ɤ˧˥/；英语重音、法语短语韵律不对应普通话词汇声调。"
+              }
+            },
+            "rating": {
+              "score": 10,
+              "maximum": 30,
+              "confidence": "Low",
+              "method": "Editorial components: onset absence 1/10; vowel resemblance 4/8; rhotic/coda fit across accents 2/5; one-syllable shape 3/4; tone/prosody 0/3. No acoustic data. The whole error/erreur words receive no transferred err score."
+            },
+            "limitations": {
+              "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+              "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+            },
+            "source_refs": [
+              "ABER-OALD-ERR",
+              "ABER-OALD-ERROR",
+              "REF-MW-ERR",
+              "REF-CNRTL-ERREUR",
+              "REF-ZDIC-E"
+            ]
+          },
+          "mapping_assessment": {
+            "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
+            "method": "Unvalidated editorial assessment, not acoustic measurement or probability; scoped to err ↔ 讹 in the ERROR stage, not whole-word aberrant.",
+            "dimensions": [
+              {
+                "name": "Phonetic Relation",
+                "weight": 30,
+                "score": 10,
+                "reason": "零声母和单音节有部分相似；元音、rhoticity、声调不同"
+              },
+              {
+                "name": "Semantic Relation",
+                "weight": 30,
+                "score": 22,
+                "reason": "错误／讹误语义有交集；err 动作与讹的名词／语素用法不完全等价"
+              },
+              {
+                "name": "Structural / Cognitive Relation",
+                "weight": 20,
+                "score": 13,
+                "reason": "偏离路径与偏离正确性可解释；非独立历史证据"
+              },
+              {
+                "name": "Contextual Validity",
+                "weight": 20,
+                "score": 8,
+                "reason": "文字讹误语境较合适；不能替换所有 error，更不能替换 aberrant；无盲测"
+              }
+            ],
+            "total": 53,
+            "maximum": 100,
+            "level": "C",
+            "confidence": "Low",
+            "rationale": {
+              "en": "C — Experimental (testable, not experimentally validated); Phonetic-Semantic Candidate; Weak overall confidence. Scoped error semantics justify investigation; limited sound resemblance remains untested. Level follows relationship type, not a numerical threshold.",
+              "zh-Hans": "C—Experimental（待实验验证）；语音语义候选；整体置信度 Low／Weak。限定错误义支持研究，部分音近未经实验；等级按关系性质判断，不由分数机械换算。"
+            }
+          },
+          "boundary": {
+            "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+            "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+          },
+          "source_refs": [
+            "ABER-OALD-ERR",
+            "ABER-OALD-ERROR",
+            "REF-MW-ERR",
+            "REF-CNRTL-ERREUR",
+            "REF-ZDIC-E"
+          ]
+        }
+      ],
+      "boundary": {
+        "en": "Diachronic Stage Mapping Principle: map separately only where form, meaning or semantic operation changes materially, not one character per language. Each stage has its own evidence, status and confidence. Chinese historical relation remains Not claimed.",
+        "zh-Hans": "历时阶段映射原则：仅在形式、意义或语义操作有实质变化时分阶段映射，不是每经过一种语言就配一个汉字；每阶段独立 evidence/status/confidence。汉语跨语言 Historical Relation 仍为 Not claimed。"
+      }
+    }
+  }
 }

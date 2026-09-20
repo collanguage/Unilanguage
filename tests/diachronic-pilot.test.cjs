@@ -1,8 +1,9 @@
+const {legacyEntry,legacyDataset}=require('./legacy-research-view.cjs'); // Exact pre-migration research compatibility
 const test=require('node:test'), assert=require('node:assert/strict'), fs=require('node:fs'), cp=require('node:child_process');
-const pilot=require('../js/diachronic-mapping.js'), e=require('../data/entries/abeyance.v1.json'), data=require('../data/language-book.v1.0.json');
+const pilot=require('../js/diachronic-mapping.js'), e=require('../data/entries/abeyance.v1.json'), data=legacyDataset(require('../data/language-book.v1.0.json'));
 const api=require('../js/language-book-data.js');
 const clone=()=>structuredClone(e);
-test('only ABEYANCE migrates; all other entry objects and author literature preserved',()=>{
+test('ABEYANCE original pilot and historical research compatibility remain preserved',()=>{
  const before=JSON.parse(cp.execFileSync('git',['show','a95c8379277d8d98b6add555f82ea1b29b2727d7:data/language-book.v1.0.json'],{encoding:'utf8',maxBuffer:30e6}));
  assert.deepEqual(data.entries.filter(x=>x.slug!=='abeyance'),before.entries.filter(x=>x.slug!=='abeyance'));
  const old=before.entries.find(x=>x.slug==='abeyance');

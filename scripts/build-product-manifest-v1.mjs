@@ -9,6 +9,7 @@ const authoredEntryFiles = fs.readdirSync(path.join(root, "data", "entries"))
   .sort()
   .map((name) => `data/entries/${name}`);
 const files = [
+  "scripts/build-legacy-migration-pilot.mjs", "tests/legacy-migration.test.cjs", "tests/legacy-research-view.cjs", "docs/research/legacy-migration-pilot-v0.1.md",
   "js/diachronic-mapping.js", "scripts/build-abeyance-pilot.mjs", "tests/diachronic-pilot.test.cjs", "tests/legacy-ui-compat.cjs",
   "docs/research/abeyance-pilot-v0.1.md", "docs/research/abeyance-discovery-v1.0.md",
   "_redirects", "index.html",
@@ -52,7 +53,7 @@ const records = files.map((file) => {
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const manifest = {
   product: "Unilanguage Language Book + Semantic Mapper",
-  version: "1.2.36", dataset_version: dataset.dataset_version, created_at: "2026-09-19",
+  version: "1.2.37", dataset_version: dataset.dataset_version, created_at: "2026-09-19",
   canonical_dataset: "data/language-book.v1.0.json",
   canonical_schema: "data/language-book-entry.schema.v1.json",
   entry_count: dataset.entries.length,
@@ -62,4 +63,4 @@ const manifest = {
 };
 fs.writeFileSync(path.join(root, "data", "product-manifest.v1.0.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 fs.writeFileSync(path.join(root, "data", "product-checksums.v1.0.sha256"), `${records.map((record) => `${record.sha256}  ${record.path}`).join("\n")}\n`);
-console.log(`Product manifest v1.2.36 written · ${records.length} files`);
+console.log(`Product manifest v1.2.37 written · ${records.length} files`);

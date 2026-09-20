@@ -16,6 +16,11 @@
     const c = featured(e);
     return `${e.primary_mapping.source.word.toUpperCase()} · ${e.standard_translation?.target || e.primary_mapping.target.word} · ${c ? `Featured: ${c.target.form}` : 'Featured Mapping: Pending'}`;
   }
+  function renderFeatured(e) {
+    if (!featured(e)) return '';
+    const f = e.featured_mapping;
+    return `<p class="featured-mapping-label">${esc(f.display_label)} · ${esc(f.status)}</p><p class="featured-boundary">${esc(e.legacy_migration ? e.diachronic_semantic_mapping.display_selection.reason : f.boundary['zh-Hans'])}</p>`;
+  }
   function renderCards(e, researchUrl) {
     if (!isPilot(e)) return '';
     const d = e.diachronic_semantic_mapping;
@@ -73,7 +78,11 @@
     const display = d.display_selection;
     check(display.stage_cards.length <= 3, 'at most three reader-facing stage cards');
     check(display.featured_candidate_ref === null || candidateIds.has(display.featured_candidate_ref), 'unresolved featured candidate');
-    if (display.featured_candidate_ref !== null) check(all.find(c => c.candidate_id === display.featured_candidate_ref)?.decision !== 'rejected', 'rejected candidate cannot be featured');
+    if (display.featured_candidate_ref !== null) {
+      const c = all.find(c => c.candidate_id === display.featured_candidate_ref);
+      check(c?.role === 'candidate' && c?.decision !== 'rejected', 'control or rejected candidate cannot be featured');
+      check(e.featured_mapping?.candidate_ref === display.featured_candidate_ref && e.featured_mapping?.target === c?.target.form, 'Featured display must resolve to the same editorial candidate');
+    }
     for (const card of display.stage_cards) {
       const m = maps.find(x => x.stage_mapping_id === card.stage_mapping_ref);
       check(!!m, 'unresolved display mapping');
@@ -82,5 +91,5 @@
     if (display.featured_candidate_ref === null) check(!e.featured_mapping, 'Pending Featured must not retain an active legacy Featured');
     return errors;
   }
-  return { isPilot, featured, headline, renderCards, validate, statusLabel };
+  return { isPilot, featured, headline, renderFeatured, renderCards, validate, statusLabel };
 });

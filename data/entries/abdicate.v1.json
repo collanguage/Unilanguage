@@ -764,7 +764,8 @@
       "ABD-ZD-TI",
       "ABD-DCC",
       "ABD-PINYIN"
-    ]
+    ],
+    "candidate_ref": "MAP-dicare-ti"
   },
   "mapping_assessment": {
     "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
@@ -878,157 +879,567 @@
     }
   },
   "diachronic_semantic_mapping": {
-    "historical_path": "Latin ab- + dicāre → abdicāre → abdicātus → English abdicate",
-    "semantic_path": "proclaim / declare + separation → renounce / disown → relinquish office or responsibility; not a literal no-longer-cry derivation",
+    "model_version": "0.1",
     "historical_stages": [
       {
+        "stage_id": "dicare",
         "form": "dicāre",
-        "meaning": "proclaim / declare",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Latin; narrower dates not recorded in existing research",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "ABD-AHD"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "proclaim / declare",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-dicare",
+            "value": "di-cā-re; short i, long ā; Roman reference d [d], c [k]",
+            "notation": "source_notation",
+            "phonological_layer": "Latin Roman reference",
+            "period": {
+              "label": "Approximate Roman reference; not all Latin periods",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "ABD-DCC",
+                "ABD-DCC-SYLL",
+                "ABD-ZD-TI",
+                "ABD-PINYIN",
+                "ABD-OALD"
+              ]
+            },
+            "variety": "Latin Roman reference",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "editorial_inference",
+            "source_refs": [
+              "ABD-DCC",
+              "ABD-DCC-SYLL",
+              "ABD-ZD-TI",
+              "ABD-PINYIN",
+              "ABD-OALD"
+            ]
+          }
+        ],
+        "relations": [],
         "source_refs": [
           "ABD-AHD"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
       },
       {
+        "stage_id": "abdicare",
         "form": "abdicāre",
-        "meaning": "disclaim / renounce / disown",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Latin; narrower dates not recorded in existing research",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "REF-MW-ABDICATE",
+            "ABD-AHD"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "disclaim / renounce / disown",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "dicare",
+            "relation_type": "morphological_component",
+            "semantic_operation": {
+              "type": "morphological_component",
+              "description": "ab- plus historical verbal component; no literal Chinese compositional derivation.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "REF-MW-ABDICATE",
+              "ABD-AHD"
+            ]
+          }
+        ],
         "source_refs": [
           "REF-MW-ABDICATE",
           "ABD-AHD"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Retained to explain semantic development; no Chinese search selected."
       },
       {
+        "stage_id": "abdicate",
         "form": "abdicate",
-        "meaning": "renounce office; relinquish responsibility",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "English",
+          "code": null
+        },
+        "period": {
+          "label": "Modern reference; exact documentation date not inferred",
+          "start_year": null,
+          "end_year": null,
+          "basis": "modern_reference",
+          "source_refs": []
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "renounce office; relinquish responsibility",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-abdicate",
+            "value": "/ˈæbdɪkeɪt/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "ABD-OALD"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "abdicare",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "Historical derivation summarized; intermediate English form / Latin participle remains in Research.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "REF-MW-ABDICATE"
+            ]
+          }
+        ],
         "source_refs": [
           "REF-MW-ABDICATE"
-        ]
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
       }
     ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-dicare",
+        "stage_ref": "dicare",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "proclaim / declare",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "proclaim / declare"
+            ],
+            "consonant_hypotheses": [
+              "d-t-n-l"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "MAP-dicare-ti",
+            "family_key": "legacy-abdicate",
+            "target": {
+              "form": "啼",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "哭、出声地哭；鸟兽鸣叫。不是一般说／宣布。",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-MAP-dicare-ti",
+                  "value": "tí [tʰi˧˥]",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "ABD-AHD",
+                    "REF-MW-ABDICATE",
+                    "ABD-ZD-TI",
+                    "ABD-DCC",
+                    "ABD-PINYIN"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "ABD-AHD",
+                "REF-MW-ABDICATE",
+                "ABD-ZD-TI",
+                "ABD-DCC",
+                "ABD-PINYIN"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "dicare",
+              "source_pronunciation_ref": "PR-dicare",
+              "target_pronunciation_ref": "ZH-MAP-dicare-ti",
+              "source_span": "dicāre",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "d-t-n-l",
+                "hit": true,
+                "position": "Selected source segment; not whole-word homophony",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "indirect",
+              "confidence": "Low",
+              "rationale": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
+              "source_refs": [
+                "ABD-AHD",
+                "REF-MW-ABDICATE",
+                "ABD-ZD-TI",
+                "ABD-DCC",
+                "ABD-PINYIN"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "DICĀRE ↔ 啼 tí: limited coronal-stop and front-vowel resemblance; a broad vocalization bridge, not DECLARE equivalence. Candidate / D / Low.",
+              "features": {
+                "onset": "Reference Latin d [d], and English /d/ in -dicate, versus Mandarin t [tʰ]: broadly coronal stops, differing in voicing and aspiration. English /d/ is medial after /b/, not the word onset.",
+                "vowel": "Latin short i differs from Mandarin /i/; dicāre also contains long ā and e. English /ɪ/ and /eɪ/ cannot be reduced to tí.",
+                "coda_other_consonants": "Latin c [k] and r, and English /k,t/ plus initial /æb/, are unmatched in 啼.",
+                "syllables": "di-cā-re and English abdicate each have three syllables, versus one in tí.",
+                "prosody": "Mandarin tí has rising second tone; Latin vowel quantity/stress and English stress are not lexical-tone matches."
+              },
+              "source_refs": [
+                "ABD-DCC",
+                "ABD-DCC-SYLL",
+                "ABD-ZD-TI",
+                "ABD-PINYIN",
+                "ABD-OALD"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "ABD-AHD",
+                  "REF-MW-ABDICATE",
+                  "ABD-ZD-TI",
+                  "ABD-DCC",
+                  "ABD-PINYIN"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "ABD-AHD",
+                  "REF-MW-ABDICATE",
+                  "ABD-ZD-TI",
+                  "ABD-DCC",
+                  "ABD-PINYIN"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "啼是哭叫／鸣叫，不等于宣布；保留 D / Low，d↔t 仅局部音近。",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "review": {
+          "status": "proposed",
+          "reviewer": null,
+          "date": "2026-09-19",
+          "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-abdicate",
+        "stage_ref": "abdicate",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "renounce office; relinquish responsibility",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "renounce office; relinquish responsibility"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "MAP-abdicate-modern-tui",
+            "family_key": "legacy-abdicate",
+            "target": {
+              "form": "退",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "renounce office → 退; standard translation 退位",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-MAP-abdicate-modern-tui",
+                  "value": "tuì",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "ABD-OALD",
+                    "ABD-ZD-TUI"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "ABD-OALD",
+                "ABD-ZD-TUI"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "abdicate",
+              "source_pronunciation_ref": "PR-abdicate",
+              "target_pronunciation_ref": "ZH-MAP-abdicate-modern-tui",
+              "source_span": "abdicate",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "High",
+              "rationale": "Renounce a throne or high office; relinquish power; in extended use, abandon responsibility. 退 is a selected leaving-office semantic head, not an equivalent of every sense; use 退位 or 放弃职责 in translation.",
+              "source_refs": [
+                "ABD-OALD",
+                "ABD-ZD-TUI"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Existing feature comparison retained; no acoustic measurement.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "ABD-OALD",
+                "ABD-ZD-TUI"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "ABD-OALD",
+                  "ABD-ZD-TUI"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "ABD-OALD",
+                  "ABD-ZD-TUI"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Renounce a throne or high office; relinquish power; in extended use, abandon responsibility. 退 is a selected leaving-office semantic head, not an equivalent of every sense; use 退位 or 放弃职责 in translation.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "退取离职义；标准翻译为退位，职责语境用放弃职责。不能逐字替换所有用法。",
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "review": {
+          "status": "proposed",
+          "reviewer": null,
+          "date": "2026-09-19",
+          "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "MAP-dicare-ti",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-dicare",
+          "candidate_ref": "MAP-dicare-ti"
+        },
+        {
+          "stage_mapping_ref": "SM-abdicate",
+          "candidate_ref": "MAP-abdicate-modern-tui"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "沿用 historical-unit dic-/dicāre → 啼（D / Low）。啼为哭叫／鸣叫，只构成宽泛发声联系，不等于 DECLARE，也不是整个 abdicate 的译词。现代退位义独立保留。"
+    },
+    "historical_path": "Latin ab- + dicāre → abdicāre → abdicātus → English abdicate",
+    "semantic_path": "proclaim / declare + separation → renounce / disown → relinquish office or responsibility; not a literal no-longer-cry derivation",
     "boundary": {
       "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
       "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
-    },
-    "mappings": [
-      {
-        "mapping_id": "MAP-dicare-ti",
-        "source": {
-          "language": "Latin",
-          "word": "dicāre",
-          "pronunciation": "di-cā-re; short i, long ā; Roman reference d [d], c [k]"
-        },
-        "target": {
-          "language": "Chinese",
-          "word": "啼",
-          "pronunciation": "tí [tʰi˧˥]"
-        },
-        "source_semantics": "DECLARE / PROCLAIM; UTTER only as a broad vocal-production abstraction",
-        "target_sense": "哭、出声地哭；鸟兽鸣叫。不是一般说／宣布。",
-        "status": "Candidate",
-        "mapping_level": "D",
-        "confidence": "Low",
-        "historical_relation_status": "Not claimed",
-        "phonetic_observation": {
-          "observation_id": "PHON-ABDICATE-001",
-          "claim": {
-            "en": "DICĀRE ↔ 啼 tí: limited coronal-stop and front-vowel resemblance; a broad vocalization bridge, not DECLARE equivalence. Candidate / D / Low.",
-            "zh-Hans": "DICĀRE ↔ 啼 tí：有限舌冠塞音与前元音近似，只有宽泛发声桥梁，不等于 DECLARE。Candidate / D / Low。"
-          },
-          "status": "Candidate",
-          "scope": "historical-unit dicāre compared with modern Mandarin, not ancient Chinese reconstruction",
-          "reference_system": "Allen & Greenough Roman reference (§§7–8), approximate classical pronunciation; broad IPA is editorial inference, not a recording.",
-          "segments": {
-            "onset": {
-              "en": "Reference Latin d [d], and English /d/ in -dicate, versus Mandarin t [tʰ]: broadly coronal stops, differing in voicing and aspiration. English /d/ is medial after /b/, not the word onset.",
-              "zh-Hans": "参考拉丁 d [d]、英语 -dicate 中 /d/ 对普通话 t [tʰ]：同属宽泛舌冠塞音，清浊与送气不同；英语 /d/ 在 /b/ 后，非整词词首。"
-            },
-            "vowel": {
-              "en": "Latin short i differs from Mandarin /i/; dicāre also contains long ā and e. English /ɪ/ and /eɪ/ cannot be reduced to tí.",
-              "zh-Hans": "拉丁短 i 不等同普通话 /i/；dicāre 另有长 ā 与 e；英语 /ɪ/、/eɪ/ 不能缩成 tí。"
-            },
-            "consonants": {
-              "en": "Latin c [k] and r, and English /k,t/ plus initial /æb/, are unmatched in 啼.",
-              "zh-Hans": "拉丁 c [k]、r，以及英语 /k,t/ 和词首 /æb/ 在啼中无对应。"
-            },
-            "syllables": {
-              "en": "di-cā-re and English abdicate each have three syllables, versus one in tí.",
-              "zh-Hans": "di-cā-re 与英语 abdicate 各三音节，对 tí 一音节。"
-            },
-            "tone": {
-              "en": "Mandarin tí has rising second tone; Latin vowel quantity/stress and English stress are not lexical-tone matches.",
-              "zh-Hans": "普通话 tí 为阳平升调；拉丁长短、重音及英语重音不等于汉语声调。"
-            }
-          },
-          "consonant_group": {
-            "group": "d-t-n-l",
-            "pair": "d↔t",
-            "status": "cross-language consonant-group hypothesis",
-            "boundary": "Not arbitrary interchange within Chinese; group hit is not historical proof."
-          },
-          "rating": {
-            "score": 7,
-            "maximum": 30,
-            "confidence": "Low",
-            "method": "Unvalidated editorial rubric: coronal stop place/manner 4/10; limited front-vowel similarity 3/8; unmatched consonants 0/5; syllable structure 0/4; prosody 0/3. No empirical accuracy implied."
-          },
-          "source_refs": [
-            "ABD-DCC",
-            "ABD-DCC-SYLL",
-            "ABD-ZD-TI",
-            "ABD-PINYIN",
-            "ABD-OALD"
-          ]
-        },
-        "mapping_assessment": {
-          "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
-          "method": "Unvalidated editorial feature assessment; no statistical probability or historical points.",
-          "dimensions": [
-            {
-              "name": "Phonetic Relation",
-              "weight": 30,
-              "score": 7,
-              "reason": "d↔t 只支持局部近似，7/30；非同音。"
-            },
-            {
-              "name": "Semantic Relation",
-              "weight": 30,
-              "score": 7,
-              "reason": "啼≠declare，仅共享宽泛发声。"
-            },
-            {
-              "name": "Structural / Cognitive Relation",
-              "weight": 20,
-              "score": 8,
-              "reason": "失去权力与失去发言权的桥梁属文学。"
-            },
-            {
-              "name": "Contextual Validity",
-              "weight": 20,
-              "score": 3,
-              "reason": "不支持直接翻译；尚无盲法实验。"
-            }
-          ],
-          "total": 25,
-          "maximum": 100,
-          "level": "D",
-          "confidence": "Low",
-          "rationale": {
-            "en": "Qualitative relation type is independent of the numerical total. No cognacy or experiment result is inferred.",
-            "zh-Hans": "定性关系类别独立于总分；不推断同源或实验结果。"
-          }
-        },
-        "boundary": {
-          "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
-          "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
-        },
-        "source_refs": [
-          "ABD-AHD",
-          "REF-MW-ABDICATE",
-          "ABD-ZD-TI",
-          "ABD-DCC",
-          "ABD-PINYIN"
-        ]
-      }
-    ]
+    }
   },
   "secondary_candidates": [
     {
@@ -1313,6 +1724,164 @@
         "en": "Qualitative relation type is independent of the numerical total. No cognacy or experiment result is inferred.",
         "zh-Hans": "定性关系类别独立于总分；不推断同源或实验结果。"
       }
+    }
+  },
+  "legacy_migration": {
+    "version": "0.1",
+    "baseline_commit": "5ed87f6b6d2aa99523368bd26aa4c7d43b8deb3b",
+    "scope": "Read-only Research archive of the pre-migration stage shape. Original assessments and author material elsewhere in this record are unchanged. Not a second active model.",
+    "previous_diachronic_semantic_mapping": {
+      "historical_path": "Latin ab- + dicāre → abdicāre → abdicātus → English abdicate",
+      "semantic_path": "proclaim / declare + separation → renounce / disown → relinquish office or responsibility; not a literal no-longer-cry derivation",
+      "historical_stages": [
+        {
+          "form": "dicāre",
+          "meaning": "proclaim / declare",
+          "source_refs": [
+            "ABD-AHD"
+          ]
+        },
+        {
+          "form": "abdicāre",
+          "meaning": "disclaim / renounce / disown",
+          "source_refs": [
+            "REF-MW-ABDICATE",
+            "ABD-AHD"
+          ]
+        },
+        {
+          "form": "abdicate",
+          "meaning": "renounce office; relinquish responsibility",
+          "source_refs": [
+            "REF-MW-ABDICATE"
+          ]
+        }
+      ],
+      "boundary": {
+        "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
+        "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
+      },
+      "mappings": [
+        {
+          "mapping_id": "MAP-dicare-ti",
+          "source": {
+            "language": "Latin",
+            "word": "dicāre",
+            "pronunciation": "di-cā-re; short i, long ā; Roman reference d [d], c [k]"
+          },
+          "target": {
+            "language": "Chinese",
+            "word": "啼",
+            "pronunciation": "tí [tʰi˧˥]"
+          },
+          "source_semantics": "DECLARE / PROCLAIM; UTTER only as a broad vocal-production abstraction",
+          "target_sense": "哭、出声地哭；鸟兽鸣叫。不是一般说／宣布。",
+          "status": "Candidate",
+          "mapping_level": "D",
+          "confidence": "Low",
+          "historical_relation_status": "Not claimed",
+          "phonetic_observation": {
+            "observation_id": "PHON-ABDICATE-001",
+            "claim": {
+              "en": "DICĀRE ↔ 啼 tí: limited coronal-stop and front-vowel resemblance; a broad vocalization bridge, not DECLARE equivalence. Candidate / D / Low.",
+              "zh-Hans": "DICĀRE ↔ 啼 tí：有限舌冠塞音与前元音近似，只有宽泛发声桥梁，不等于 DECLARE。Candidate / D / Low。"
+            },
+            "status": "Candidate",
+            "scope": "historical-unit dicāre compared with modern Mandarin, not ancient Chinese reconstruction",
+            "reference_system": "Allen & Greenough Roman reference (§§7–8), approximate classical pronunciation; broad IPA is editorial inference, not a recording.",
+            "segments": {
+              "onset": {
+                "en": "Reference Latin d [d], and English /d/ in -dicate, versus Mandarin t [tʰ]: broadly coronal stops, differing in voicing and aspiration. English /d/ is medial after /b/, not the word onset.",
+                "zh-Hans": "参考拉丁 d [d]、英语 -dicate 中 /d/ 对普通话 t [tʰ]：同属宽泛舌冠塞音，清浊与送气不同；英语 /d/ 在 /b/ 后，非整词词首。"
+              },
+              "vowel": {
+                "en": "Latin short i differs from Mandarin /i/; dicāre also contains long ā and e. English /ɪ/ and /eɪ/ cannot be reduced to tí.",
+                "zh-Hans": "拉丁短 i 不等同普通话 /i/；dicāre 另有长 ā 与 e；英语 /ɪ/、/eɪ/ 不能缩成 tí。"
+              },
+              "consonants": {
+                "en": "Latin c [k] and r, and English /k,t/ plus initial /æb/, are unmatched in 啼.",
+                "zh-Hans": "拉丁 c [k]、r，以及英语 /k,t/ 和词首 /æb/ 在啼中无对应。"
+              },
+              "syllables": {
+                "en": "di-cā-re and English abdicate each have three syllables, versus one in tí.",
+                "zh-Hans": "di-cā-re 与英语 abdicate 各三音节，对 tí 一音节。"
+              },
+              "tone": {
+                "en": "Mandarin tí has rising second tone; Latin vowel quantity/stress and English stress are not lexical-tone matches.",
+                "zh-Hans": "普通话 tí 为阳平升调；拉丁长短、重音及英语重音不等于汉语声调。"
+              }
+            },
+            "consonant_group": {
+              "group": "d-t-n-l",
+              "pair": "d↔t",
+              "status": "cross-language consonant-group hypothesis",
+              "boundary": "Not arbitrary interchange within Chinese; group hit is not historical proof."
+            },
+            "rating": {
+              "score": 7,
+              "maximum": 30,
+              "confidence": "Low",
+              "method": "Unvalidated editorial rubric: coronal stop place/manner 4/10; limited front-vowel similarity 3/8; unmatched consonants 0/5; syllable structure 0/4; prosody 0/3. No empirical accuracy implied."
+            },
+            "source_refs": [
+              "ABD-DCC",
+              "ABD-DCC-SYLL",
+              "ABD-ZD-TI",
+              "ABD-PINYIN",
+              "ABD-OALD"
+            ]
+          },
+          "mapping_assessment": {
+            "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
+            "method": "Unvalidated editorial feature assessment; no statistical probability or historical points.",
+            "dimensions": [
+              {
+                "name": "Phonetic Relation",
+                "weight": 30,
+                "score": 7,
+                "reason": "d↔t 只支持局部近似，7/30；非同音。"
+              },
+              {
+                "name": "Semantic Relation",
+                "weight": 30,
+                "score": 7,
+                "reason": "啼≠declare，仅共享宽泛发声。"
+              },
+              {
+                "name": "Structural / Cognitive Relation",
+                "weight": 20,
+                "score": 8,
+                "reason": "失去权力与失去发言权的桥梁属文学。"
+              },
+              {
+                "name": "Contextual Validity",
+                "weight": 20,
+                "score": 3,
+                "reason": "不支持直接翻译；尚无盲法实验。"
+              }
+            ],
+            "total": 25,
+            "maximum": 100,
+            "level": "D",
+            "confidence": "Low",
+            "rationale": {
+              "en": "Qualitative relation type is independent of the numerical total. No cognacy or experiment result is inferred.",
+              "zh-Hans": "定性关系类别独立于总分；不推断同源或实验结果。"
+            }
+          },
+          "boundary": {
+            "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
+            "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
+          },
+          "source_refs": [
+            "ABD-AHD",
+            "REF-MW-ABDICATE",
+            "ABD-ZD-TI",
+            "ABD-DCC",
+            "ABD-PINYIN"
+          ]
+        }
+      ]
     }
   }
 }

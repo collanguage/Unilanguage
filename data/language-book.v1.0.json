@@ -6877,7 +6877,8 @@
         "boundary": {
           "en": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
           "zh-Hans": "整词映射：abandon ↔ 放 fàng。先按 LET GO／RELEASE 选择“放”，再比较声音。CNRTL 记法语词史中约1100年的松开缰绳义；汉语“放”另有独立的释放义证据。这是限定语义的历时联系，不表示单字“放”可翻译 abandon 的所有现代用法。"
-        }
+        },
+        "candidate_ref": "MAP-ABANDON-FANG-001"
       },
       "revision_history": [
         {
@@ -7022,66 +7023,701 @@
         "is_historical_evidence": false
       },
       "diachronic_semantic_mapping": {
-        "version": "2.0",
-        "status": "Historical semantic analysis; independent of consonant groups",
-        "historical_path": "BANDON → À BANDON → ABANDONNER → ABANDON",
-        "semantic_path": "POWER / AUTHORITY → DISPOSAL → GIVE OVER → LET GO → GIVE UP",
+        "model_version": "0.1",
         "historical_stages": [
           {
             "stage_id": "bandon",
             "form": "BANDON",
-            "language": "Old French",
-            "meaning": "POWER / AUTHORITY / CONTROL",
-            "note": {
-              "en": "CNRTL identifies bandon as power/authority. Do not assign RELEASE to this root.",
-              "zh-Hans": "CNRTL 将 bandon 释为权力／支配；不能把 RELEASE 赋给此词根。"
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Old French",
+              "code": null
             },
+            "period": {
+              "label": "Old French; exact attestation interval not assigned",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "REF-CNRTL-ABANDON"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "POWER / AUTHORITY / CONTROL",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [],
+            "relations": [],
             "source_refs": [
               "REF-CNRTL-ABANDON"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "CNRTL identifies bandon as power/authority. Do not assign RELEASE to this root."
           },
           {
             "stage_id": "a-bandon",
             "form": "À BANDON",
-            "language": "Old French phrase",
-            "meaning": "at someone’s power/disposal — DISPOSAL RELATION",
-            "note": {
-              "en": "The phrase places something at another’s disposal; this is a relation of authority, not simply the act of handling it. Old French a bandon and Anglo-French a bandun are source forms; À is a normalized display.",
-              "zh-Hans": "短语表示将某物置于他人支配／任其处置的关系，不只是处理动作。古法语 a bandon、盎格鲁法语 a bandun 为来源形式；À 为规范化展示。"
+            "variants": [
+              "a bandon",
+              "a bandun"
+            ],
+            "unit_kind": "phrase",
+            "language": {
+              "name": "Old French phrase",
+              "code": null
             },
+            "period": {
+              "label": "Old French phrase; exact interval not assigned",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "REF-CNRTL-ABANDON",
+                "REF-MW-ABANDON"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "at someone’s power/disposal — DISPOSAL RELATION",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [],
+            "relations": [
+              {
+                "from_stage_ref": "bandon",
+                "relation_type": "derivation",
+                "semantic_operation": {
+                  "type": "derivation",
+                  "description": "Phrase encodes disposal under another’s authority.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "REF-CNRTL-ABANDON",
+                  "REF-MW-ABANDON"
+                ]
+              }
+            ],
             "source_refs": [
               "REF-CNRTL-ABANDON",
               "REF-MW-ABANDON"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "not_selected",
+            "selection_note": "The phrase places something at another’s disposal; this is a relation of authority, not simply the act of handling it. Old French a bandon and Anglo-French a bandun are source forms; À is a normalized display."
           },
           {
             "stage_id": "abandonner",
             "form": "ABANDONNER",
-            "language": "Old French → French",
-            "meaning": "GIVE OVER / leave to another’s disposal; RELEASE / LET GO; LEAVE",
-            "note": {
-              "en": "The display abbreviates a family including the noun abandon/abandun. CNRTL derives the verb from abandon and records release of a rein around 1100 and leaving entirely from the 12th century. These overlapping senses prevent treating TRANSFER then RELEASE as a proven chronological ladder.",
-              "zh-Hans": "展示缩略了包含名词 abandon/abandun 的词族。CNRTL 将动词分析为由 abandon 派生，记约1100年的松开缰绳义及12世纪起的完全离开义；义项重叠，不能把 TRANSFER 再 RELEASE 当成已证年代阶梯。"
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Old French → French",
+              "code": null
             },
+            "period": {
+              "label": "Release of a rein c.1100; leaving from 12th century; overlapping senses",
+              "start_year": null,
+              "end_year": null,
+              "basis": "attestation",
+              "source_refs": [
+                "REF-CNRTL-ABANDONNER",
+                "REF-CNRTL-ABANDON"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "GIVE OVER / leave to another’s disposal; RELEASE / LET GO; LEAVE",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [],
+            "relations": [
+              {
+                "from_stage_ref": "a-bandon",
+                "relation_type": "related_family",
+                "semantic_operation": {
+                  "type": "related_family",
+                  "description": "Abbreviated family through noun abandon/abandun; not a direct dated sense ladder.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "REF-CNRTL-ABANDONNER",
+                  "REF-CNRTL-ABANDON"
+                ]
+              }
+            ],
             "source_refs": [
               "REF-CNRTL-ABANDONNER",
               "REF-CNRTL-ABANDON"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "not_selected",
+            "selection_note": "The display abbreviates a family including the noun abandon/abandun. CNRTL derives the verb from abandon and records release of a rein around 1100 and leaving entirely from the 12th century. These overlapping senses prevent treating TRANSFER then RELEASE as a proven chronological ladder."
           },
           {
             "stage_id": "english-abandon",
             "form": "ABANDON",
-            "language": "Middle English → English verb",
-            "meaning": "GIVE UP / LEAVE / DESERT",
-            "note": {
-              "en": "Middle English abandounen, attested in the 14th century, was borrowed through Anglo-French abanduner. Modern meanings include relinquishing an interest and withdrawing support. The later English noun is separate.",
-              "zh-Hans": "中古英语 abandounen 见于14世纪，经盎格鲁法语 abanduner 借入。现代义含放弃权益、离开与撤去支持；后来的英语名词另论。"
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Middle English → English verb",
+              "code": null
             },
+            "period": {
+              "label": "Middle English attested 14th century; modern senses compared",
+              "start_year": null,
+              "end_year": null,
+              "basis": "attestation",
+              "source_refs": [
+                "REF-MW-ABANDON"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "GIVE UP / LEAVE / DESERT",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "PR-ABANDON",
+                "value": "medial /b/ after initial /ə/; remaining whole-word segments not fully transcribed in this observation",
+                "notation": "source_notation",
+                "phonological_layer": "Modern English",
+                "period": {
+                  "label": "Modern reference; exact documentation date not inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": []
+                },
+                "variety": "Modern English",
+                "system": "Existing entry transcription; see original scoped assessment",
+                "status": "documented",
+                "source_refs": [
+                  "REF-CNRTL-ABANDONNER",
+                  "REF-ZDIC-FANG",
+                  "REF-MW-ABANDON"
+                ]
+              }
+            ],
+            "relations": [
+              {
+                "from_stage_ref": "abandonner",
+                "relation_type": "borrowing",
+                "semantic_operation": {
+                  "type": "borrowing",
+                  "description": "Through Anglo-French abanduner; intermediates summarized, not omitted evidence.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "REF-MW-ABANDON"
+                ]
+              }
+            ],
             "source_refs": [
               "REF-MW-ABANDON"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "Middle English abandounen, attested in the 14th century, was borrowed through Anglo-French abanduner. Modern meanings include relinquishing an interest and withdrawing support. The later English noun is separate."
           }
         ],
+        "mappings": [
+          {
+            "stage_mapping_id": "SM-bandon",
+            "stage_ref": "bandon",
+            "selection_reasons": [
+              "explanatory_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "POWER / AUTHORITY / CONTROL",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "POWER / AUTHORITY / CONTROL"
+                ],
+                "consonant_hypotheses": [
+                  "b-p-m-f"
+                ],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+            },
+            "candidates": [
+              {
+                "candidate_id": "MAP-BANDON-BAN-001",
+                "family_key": "legacy-abandon",
+                "target": {
+                  "form": "办 / 辦",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "handle/manage/prepare; not POWER/AUTHORITY",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-MAP-BANDON-BAN-001",
+                      "value": "bàn",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "REF-CNRTL-ABANDON",
+                        "REF-ZDIC-BAN-HANDLE",
+                        "REF-ZDIC-BAN-TRADITIONAL"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "REF-CNRTL-ABANDON",
+                    "REF-ZDIC-BAN-HANDLE",
+                    "REF-ZDIC-BAN-TRADITIONAL"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "bandon",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "ZH-MAP-BANDON-BAN-001",
+                  "source_span": "BANDON",
+                  "scope": "whole_form",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Selected source segment; not whole-word homophony",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "indirect",
+                  "confidence": "Low",
+                  "rationale": "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+                  "source_refs": [
+                    "REF-CNRTL-ABANDON",
+                    "REF-ZDIC-BAN-HANDLE",
+                    "REF-ZDIC-BAN-TRADITIONAL"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Unknown",
+                  "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+                  "features": {
+                    "onset": "Not separately evaluated in existing research; no new rating.",
+                    "vowel": "Not separately evaluated in existing research; no new rating.",
+                    "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                    "syllables": "Not separately evaluated in existing research; no new rating.",
+                    "prosody": "Not separately evaluated in existing research; no new rating."
+                  },
+                  "source_refs": [
+                    "REF-CNRTL-ABANDON",
+                    "REF-ZDIC-BAN-HANDLE",
+                    "REF-ZDIC-BAN-TRADITIONAL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "REF-CNRTL-ABANDON",
+                      "REF-ZDIC-BAN-HANDLE",
+                      "REF-ZDIC-BAN-TRADITIONAL"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "REF-CNRTL-ABANDON",
+                      "REF-ZDIC-BAN-HANDLE",
+                      "REF-ZDIC-BAN-TRADITIONAL"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Bandon means POWER/AUTHORITY; disposal belongs to the relational phrase à bandon. Modern 办/辦 means handle/manage, prepare or deal with. 说文新附 glosses 辦 as exert effort (致力), not authority. Thus bandon ↔ 办 is a limited control/handling association: Low semantic fit for POWER/AUTHORITY, Medium only for a contextual handling/disposal comparison. It is not an exact root translation. 权柄 is the stronger meaning-first support for authority regardless of its sound.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "办是处理／办理，和 bandon 的权力义仅间接相关；古法语声音仍 Pending。同组标签不能补强语义。",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              },
+              {
+                "candidate_id": "CONTROL-BANDON-BING",
+                "family_key": "legacy-abandon",
+                "target": {
+                  "form": "柄 / 权柄",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "power / authority",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-CONTROL-BANDON-BING",
+                      "value": "bǐng",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "REF-ZDIC-BING"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "REF-ZDIC-BING"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "bandon",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "ZH-CONTROL-BANDON-BING",
+                  "source_span": "BANDON",
+                  "scope": "whole_form",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "meaning_control",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "direct",
+                  "confidence": "High",
+                  "rationale": "Meaning-first semantic support independent of initial b; historical French sound Pending.",
+                  "source_refs": [
+                    "REF-ZDIC-BING"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Unknown",
+                  "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+                  "features": {
+                    "onset": "Not separately evaluated in existing research; no new rating.",
+                    "vowel": "Not separately evaluated in existing research; no new rating.",
+                    "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                    "syllables": "Not separately evaluated in existing research; no new rating.",
+                    "prosody": "Not separately evaluated in existing research; no new rating."
+                  },
+                  "source_refs": [
+                    "REF-ZDIC-BING"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "REF-ZDIC-BING"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "REF-ZDIC-BING"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Meaning-first semantic support independent of initial b; historical French sound Pending.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "none",
+                "decision_reason": "Meaning-first semantic support independent of initial b; historical French sound Pending.",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          },
+          {
+            "stage_mapping_id": "SM-english-abandon",
+            "stage_ref": "english-abandon",
+            "selection_reasons": [
+              "explanatory_value",
+              "phonetic_form_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "GIVE UP / LEAVE / DESERT",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "GIVE UP / LEAVE / DESERT"
+                ],
+                "consonant_hypotheses": [
+                  "b-p-m-f"
+                ],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+            },
+            "candidates": [
+              {
+                "candidate_id": "MAP-ABANDON-FANG-001",
+                "family_key": "legacy-abandon",
+                "target": {
+                  "form": "放",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "let go / release",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-MAP-ABANDON-FANG-001",
+                      "value": "fàng",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "REF-CNRTL-ABANDONNER",
+                        "REF-ZDIC-FANG",
+                        "REF-MW-ABANDON"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "REF-CNRTL-ABANDONNER",
+                    "REF-ZDIC-FANG",
+                    "REF-MW-ABANDON"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "english-abandon",
+                  "source_pronunciation_ref": "PR-ABANDON",
+                  "target_pronunciation_ref": "ZH-MAP-ABANDON-FANG-001",
+                  "source_span": "abandon; sound test restricted to medial /b/",
+                  "scope": "syllable",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Selected source segment; not whole-word homophony",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Low",
+                  "rationale": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+                  "source_refs": [
+                    "REF-CNRTL-ABANDONNER",
+                    "REF-ZDIC-FANG",
+                    "REF-MW-ABANDON"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "weak",
+                  "confidence": "Low",
+                  "rationale": "Compare the /b/ after initial /ə/ in English abandon with Mandarin f /f/ in fàng: b ↔ f falls within the proposed b-p-m-f group. This is a medial-to-initial segment comparison, not whole-word homophony; voicing, place/manner, remaining segments and tone differ. Group membership does not prove a sound law or historical relation.",
+                  "features": {
+                    "onset": "English medial /b/ vs Mandarin initial /f/: voicing and manner/place differ.",
+                    "vowel": "Not separately evaluated in existing research; no new rating.",
+                    "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                    "syllables": "Not separately evaluated in existing research; no new rating.",
+                    "prosody": "Not separately evaluated in existing research; no new rating."
+                  },
+                  "source_refs": [
+                    "REF-CNRTL-ABANDONNER",
+                    "REF-ZDIC-FANG",
+                    "REF-MW-ABANDON"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "REF-CNRTL-ABANDONNER",
+                      "REF-ZDIC-FANG",
+                      "REF-MW-ABANDON"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "REF-CNRTL-ABANDONNER",
+                      "REF-ZDIC-FANG",
+                      "REF-MW-ABANDON"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "Whole-word mapping: abandon ↔ 放 fàng. Select 放 for LET GO / RELEASE before comparing sound. CNRTL records release of a rein around 1100 in the French history, and Chinese 放 has an independently documented release sense. This is a scoped historical-semantic bridge, not a claim that 放 alone translates every modern use of abandon.",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "display_selection": {
+          "featured_candidate_ref": "MAP-ABANDON-FANG-001",
+          "stage_cards": [
+            {
+              "stage_mapping_ref": "SM-bandon",
+              "candidate_ref": "MAP-BANDON-BAN-001"
+            }
+          ],
+          "review_status": "approved",
+          "reviewer": "Jinkai Liu",
+          "reason": "沿用整词 LET GO / RELEASE → 放的编辑选择（Low）。声音只比较 abandon 词中 /b/ 与 fàng 起音；不是整词同音，也不涵盖全部现代义。历史 bandon 的权力义另列。"
+        },
+        "historical_path": "BANDON → À BANDON → ABANDONNER → ABANDON",
+        "semantic_path": "POWER / AUTHORITY → DISPOSAL → GIVE OVER → LET GO → GIVE UP",
         "boundary": {
           "en": "Historical meanings and attested forms remain separated. The arrows summarize semantic development, not five strictly successive first-attestation dates. No Chinese same-group path is inferred.",
           "zh-Hans": "历史词形与义项保留边界；箭头概括语义发展，不是五个严格递进的首见年代，不推导汉语同组路径。"
@@ -7234,6 +7870,77 @@
         "correction": {
           "en": "The earlier Chinese same-group path design was an implementation error and has been withdrawn. Its path scores and planned path-constraint experiment are superseded, not evidence against the author’s cross-language hypothesis. This is retrospective editorial review, not a blinded study; no experiment has run.",
           "zh-Hans": "此前要求汉语全链同组的设计属于实现误解，已撤下；相应路径评分与路径约束实验计划作废，不构成对作者跨语言假说的反证。本次为回顾性编辑核验，不是盲评，未运行实验。"
+        }
+      },
+      "legacy_migration": {
+        "version": "0.1",
+        "baseline_commit": "5ed87f6b6d2aa99523368bd26aa4c7d43b8deb3b",
+        "scope": "Read-only Research archive of the pre-migration stage shape. Original assessments and author material elsewhere in this record are unchanged. Not a second active model.",
+        "previous_diachronic_semantic_mapping": {
+          "version": "2.0",
+          "status": "Historical semantic analysis; independent of consonant groups",
+          "historical_path": "BANDON → À BANDON → ABANDONNER → ABANDON",
+          "semantic_path": "POWER / AUTHORITY → DISPOSAL → GIVE OVER → LET GO → GIVE UP",
+          "historical_stages": [
+            {
+              "stage_id": "bandon",
+              "form": "BANDON",
+              "language": "Old French",
+              "meaning": "POWER / AUTHORITY / CONTROL",
+              "note": {
+                "en": "CNRTL identifies bandon as power/authority. Do not assign RELEASE to this root.",
+                "zh-Hans": "CNRTL 将 bandon 释为权力／支配；不能把 RELEASE 赋给此词根。"
+              },
+              "source_refs": [
+                "REF-CNRTL-ABANDON"
+              ]
+            },
+            {
+              "stage_id": "a-bandon",
+              "form": "À BANDON",
+              "language": "Old French phrase",
+              "meaning": "at someone’s power/disposal — DISPOSAL RELATION",
+              "note": {
+                "en": "The phrase places something at another’s disposal; this is a relation of authority, not simply the act of handling it. Old French a bandon and Anglo-French a bandun are source forms; À is a normalized display.",
+                "zh-Hans": "短语表示将某物置于他人支配／任其处置的关系，不只是处理动作。古法语 a bandon、盎格鲁法语 a bandun 为来源形式；À 为规范化展示。"
+              },
+              "source_refs": [
+                "REF-CNRTL-ABANDON",
+                "REF-MW-ABANDON"
+              ]
+            },
+            {
+              "stage_id": "abandonner",
+              "form": "ABANDONNER",
+              "language": "Old French → French",
+              "meaning": "GIVE OVER / leave to another’s disposal; RELEASE / LET GO; LEAVE",
+              "note": {
+                "en": "The display abbreviates a family including the noun abandon/abandun. CNRTL derives the verb from abandon and records release of a rein around 1100 and leaving entirely from the 12th century. These overlapping senses prevent treating TRANSFER then RELEASE as a proven chronological ladder.",
+                "zh-Hans": "展示缩略了包含名词 abandon/abandun 的词族。CNRTL 将动词分析为由 abandon 派生，记约1100年的松开缰绳义及12世纪起的完全离开义；义项重叠，不能把 TRANSFER 再 RELEASE 当成已证年代阶梯。"
+              },
+              "source_refs": [
+                "REF-CNRTL-ABANDONNER",
+                "REF-CNRTL-ABANDON"
+              ]
+            },
+            {
+              "stage_id": "english-abandon",
+              "form": "ABANDON",
+              "language": "Middle English → English verb",
+              "meaning": "GIVE UP / LEAVE / DESERT",
+              "note": {
+                "en": "Middle English abandounen, attested in the 14th century, was borrowed through Anglo-French abanduner. Modern meanings include relinquishing an interest and withdrawing support. The later English noun is separate.",
+                "zh-Hans": "中古英语 abandounen 见于14世纪，经盎格鲁法语 abanduner 借入。现代义含放弃权益、离开与撤去支持；后来的英语名词另论。"
+              },
+              "source_refs": [
+                "REF-MW-ABANDON"
+              ]
+            }
+          ],
+          "boundary": {
+            "en": "Historical meanings and attested forms remain separated. The arrows summarize semantic development, not five strictly successive first-attestation dates. No Chinese same-group path is inferred.",
+            "zh-Hans": "历史词形与义项保留边界；箭头概括语义发展，不是五个严格递进的首见年代，不推导汉语同组路径。"
+          }
         }
       }
     },
@@ -11681,7 +12388,8 @@
           "ABD-ZD-TI",
           "ABD-DCC",
           "ABD-PINYIN"
-        ]
+        ],
+        "candidate_ref": "MAP-dicare-ti"
       },
       "mapping_assessment": {
         "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
@@ -11795,157 +12503,567 @@
         }
       },
       "diachronic_semantic_mapping": {
-        "historical_path": "Latin ab- + dicāre → abdicāre → abdicātus → English abdicate",
-        "semantic_path": "proclaim / declare + separation → renounce / disown → relinquish office or responsibility; not a literal no-longer-cry derivation",
+        "model_version": "0.1",
         "historical_stages": [
           {
+            "stage_id": "dicare",
             "form": "dicāre",
-            "meaning": "proclaim / declare",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Latin",
+              "code": null
+            },
+            "period": {
+              "label": "Latin; narrower dates not recorded in existing research",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "ABD-AHD"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "proclaim / declare",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "PR-dicare",
+                "value": "di-cā-re; short i, long ā; Roman reference d [d], c [k]",
+                "notation": "source_notation",
+                "phonological_layer": "Latin Roman reference",
+                "period": {
+                  "label": "Approximate Roman reference; not all Latin periods",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "language_period",
+                  "source_refs": [
+                    "ABD-DCC",
+                    "ABD-DCC-SYLL",
+                    "ABD-ZD-TI",
+                    "ABD-PINYIN",
+                    "ABD-OALD"
+                  ]
+                },
+                "variety": "Latin Roman reference",
+                "system": "Existing entry transcription; see original scoped assessment",
+                "status": "editorial_inference",
+                "source_refs": [
+                  "ABD-DCC",
+                  "ABD-DCC-SYLL",
+                  "ABD-ZD-TI",
+                  "ABD-PINYIN",
+                  "ABD-OALD"
+                ]
+              }
+            ],
+            "relations": [],
             "source_refs": [
               "ABD-AHD"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "Existing comparison has research value; no new candidate search."
           },
           {
+            "stage_id": "abdicare",
             "form": "abdicāre",
-            "meaning": "disclaim / renounce / disown",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Latin",
+              "code": null
+            },
+            "period": {
+              "label": "Latin; narrower dates not recorded in existing research",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "REF-MW-ABDICATE",
+                "ABD-AHD"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "disclaim / renounce / disown",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [],
+            "relations": [
+              {
+                "from_stage_ref": "dicare",
+                "relation_type": "morphological_component",
+                "semantic_operation": {
+                  "type": "morphological_component",
+                  "description": "ab- plus historical verbal component; no literal Chinese compositional derivation.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "REF-MW-ABDICATE",
+                  "ABD-AHD"
+                ]
+              }
+            ],
             "source_refs": [
               "REF-MW-ABDICATE",
               "ABD-AHD"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "not_selected",
+            "selection_note": "Retained to explain semantic development; no Chinese search selected."
           },
           {
+            "stage_id": "abdicate",
             "form": "abdicate",
-            "meaning": "renounce office; relinquish responsibility",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "English",
+              "code": null
+            },
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "renounce office; relinquish responsibility",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "PR-abdicate",
+                "value": "/ˈæbdɪkeɪt/",
+                "notation": "source_notation",
+                "phonological_layer": "Modern English",
+                "period": {
+                  "label": "Modern reference; exact documentation date not inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": []
+                },
+                "variety": "Modern English",
+                "system": "Existing entry transcription; see original scoped assessment",
+                "status": "documented",
+                "source_refs": [
+                  "ABD-OALD"
+                ]
+              }
+            ],
+            "relations": [
+              {
+                "from_stage_ref": "abdicare",
+                "relation_type": "borrowing",
+                "semantic_operation": {
+                  "type": "borrowing",
+                  "description": "Historical derivation summarized; intermediate English form / Latin participle remains in Research.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "REF-MW-ABDICATE"
+                ]
+              }
+            ],
             "source_refs": [
               "REF-MW-ABDICATE"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "Existing comparison has research value; no new candidate search."
           }
         ],
+        "mappings": [
+          {
+            "stage_mapping_id": "SM-dicare",
+            "stage_ref": "dicare",
+            "selection_reasons": [
+              "explanatory_value",
+              "phonetic_form_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "proclaim / declare",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "proclaim / declare"
+                ],
+                "consonant_hypotheses": [
+                  "d-t-n-l"
+                ],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+            },
+            "candidates": [
+              {
+                "candidate_id": "MAP-dicare-ti",
+                "family_key": "legacy-abdicate",
+                "target": {
+                  "form": "啼",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "哭、出声地哭；鸟兽鸣叫。不是一般说／宣布。",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-MAP-dicare-ti",
+                      "value": "tí [tʰi˧˥]",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABD-AHD",
+                        "REF-MW-ABDICATE",
+                        "ABD-ZD-TI",
+                        "ABD-DCC",
+                        "ABD-PINYIN"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABD-AHD",
+                    "REF-MW-ABDICATE",
+                    "ABD-ZD-TI",
+                    "ABD-DCC",
+                    "ABD-PINYIN"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "dicare",
+                  "source_pronunciation_ref": "PR-dicare",
+                  "target_pronunciation_ref": "ZH-MAP-dicare-ti",
+                  "source_span": "dicāre",
+                  "scope": "whole_form",
+                  "hypothesis": {
+                    "group": "d-t-n-l",
+                    "hit": true,
+                    "position": "Selected source segment; not whole-word homophony",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "indirect",
+                  "confidence": "Low",
+                  "rationale": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
+                  "source_refs": [
+                    "ABD-AHD",
+                    "REF-MW-ABDICATE",
+                    "ABD-ZD-TI",
+                    "ABD-DCC",
+                    "ABD-PINYIN"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "weak",
+                  "confidence": "Low",
+                  "rationale": "DICĀRE ↔ 啼 tí: limited coronal-stop and front-vowel resemblance; a broad vocalization bridge, not DECLARE equivalence. Candidate / D / Low.",
+                  "features": {
+                    "onset": "Reference Latin d [d], and English /d/ in -dicate, versus Mandarin t [tʰ]: broadly coronal stops, differing in voicing and aspiration. English /d/ is medial after /b/, not the word onset.",
+                    "vowel": "Latin short i differs from Mandarin /i/; dicāre also contains long ā and e. English /ɪ/ and /eɪ/ cannot be reduced to tí.",
+                    "coda_other_consonants": "Latin c [k] and r, and English /k,t/ plus initial /æb/, are unmatched in 啼.",
+                    "syllables": "di-cā-re and English abdicate each have three syllables, versus one in tí.",
+                    "prosody": "Mandarin tí has rising second tone; Latin vowel quantity/stress and English stress are not lexical-tone matches."
+                  },
+                  "source_refs": [
+                    "ABD-DCC",
+                    "ABD-DCC-SYLL",
+                    "ABD-ZD-TI",
+                    "ABD-PINYIN",
+                    "ABD-OALD"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABD-AHD",
+                      "REF-MW-ABDICATE",
+                      "ABD-ZD-TI",
+                      "ABD-DCC",
+                      "ABD-PINYIN"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "ABD-AHD",
+                      "REF-MW-ABDICATE",
+                      "ABD-ZD-TI",
+                      "ABD-DCC",
+                      "ABD-PINYIN"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "啼是哭叫／鸣叫，不等于宣布；保留 D / Low，d↔t 仅局部音近。",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          },
+          {
+            "stage_mapping_id": "SM-abdicate",
+            "stage_ref": "abdicate",
+            "selection_reasons": [
+              "explanatory_value",
+              "phonetic_form_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "renounce office; relinquish responsibility",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "renounce office; relinquish responsibility"
+                ],
+                "consonant_hypotheses": [],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+            },
+            "candidates": [
+              {
+                "candidate_id": "MAP-abdicate-modern-tui",
+                "family_key": "legacy-abdicate",
+                "target": {
+                  "form": "退",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "renounce office → 退; standard translation 退位",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-MAP-abdicate-modern-tui",
+                      "value": "tuì",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABD-OALD",
+                        "ABD-ZD-TUI"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABD-OALD",
+                    "ABD-ZD-TUI"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "abdicate",
+                  "source_pronunciation_ref": "PR-abdicate",
+                  "target_pronunciation_ref": "ZH-MAP-abdicate-modern-tui",
+                  "source_span": "abdicate",
+                  "scope": "whole_form",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "High",
+                  "rationale": "Renounce a throne or high office; relinquish power; in extended use, abandon responsibility. 退 is a selected leaving-office semantic head, not an equivalent of every sense; use 退位 or 放弃职责 in translation.",
+                  "source_refs": [
+                    "ABD-OALD",
+                    "ABD-ZD-TUI"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "weak",
+                  "confidence": "Low",
+                  "rationale": "Existing feature comparison retained; no acoustic measurement.",
+                  "features": {
+                    "onset": "Not separately evaluated in existing research; no new rating.",
+                    "vowel": "Not separately evaluated in existing research; no new rating.",
+                    "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                    "syllables": "Not separately evaluated in existing research; no new rating.",
+                    "prosody": "Not separately evaluated in existing research; no new rating."
+                  },
+                  "source_refs": [
+                    "ABD-OALD",
+                    "ABD-ZD-TUI"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABD-OALD",
+                      "ABD-ZD-TUI"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "ABD-OALD",
+                      "ABD-ZD-TUI"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Renounce a throne or high office; relinquish power; in extended use, abandon responsibility. 退 is a selected leaving-office semantic head, not an equivalent of every sense; use 退位 or 放弃职责 in translation.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "退取离职义；标准翻译为退位，职责语境用放弃职责。不能逐字替换所有用法。",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "display_selection": {
+          "featured_candidate_ref": "MAP-dicare-ti",
+          "stage_cards": [
+            {
+              "stage_mapping_ref": "SM-dicare",
+              "candidate_ref": "MAP-dicare-ti"
+            },
+            {
+              "stage_mapping_ref": "SM-abdicate",
+              "candidate_ref": "MAP-abdicate-modern-tui"
+            }
+          ],
+          "review_status": "approved",
+          "reviewer": "Jinkai Liu",
+          "reason": "沿用 historical-unit dic-/dicāre → 啼（D / Low）。啼为哭叫／鸣叫，只构成宽泛发声联系，不等于 DECLARE，也不是整个 abdicate 的译词。现代退位义独立保留。"
+        },
+        "historical_path": "Latin ab- + dicāre → abdicāre → abdicātus → English abdicate",
+        "semantic_path": "proclaim / declare + separation → renounce / disown → relinquish office or responsibility; not a literal no-longer-cry derivation",
         "boundary": {
           "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
           "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
-        },
-        "mappings": [
-          {
-            "mapping_id": "MAP-dicare-ti",
-            "source": {
-              "language": "Latin",
-              "word": "dicāre",
-              "pronunciation": "di-cā-re; short i, long ā; Roman reference d [d], c [k]"
-            },
-            "target": {
-              "language": "Chinese",
-              "word": "啼",
-              "pronunciation": "tí [tʰi˧˥]"
-            },
-            "source_semantics": "DECLARE / PROCLAIM; UTTER only as a broad vocal-production abstraction",
-            "target_sense": "哭、出声地哭；鸟兽鸣叫。不是一般说／宣布。",
-            "status": "Candidate",
-            "mapping_level": "D",
-            "confidence": "Low",
-            "historical_relation_status": "Not claimed",
-            "phonetic_observation": {
-              "observation_id": "PHON-ABDICATE-001",
-              "claim": {
-                "en": "DICĀRE ↔ 啼 tí: limited coronal-stop and front-vowel resemblance; a broad vocalization bridge, not DECLARE equivalence. Candidate / D / Low.",
-                "zh-Hans": "DICĀRE ↔ 啼 tí：有限舌冠塞音与前元音近似，只有宽泛发声桥梁，不等于 DECLARE。Candidate / D / Low。"
-              },
-              "status": "Candidate",
-              "scope": "historical-unit dicāre compared with modern Mandarin, not ancient Chinese reconstruction",
-              "reference_system": "Allen & Greenough Roman reference (§§7–8), approximate classical pronunciation; broad IPA is editorial inference, not a recording.",
-              "segments": {
-                "onset": {
-                  "en": "Reference Latin d [d], and English /d/ in -dicate, versus Mandarin t [tʰ]: broadly coronal stops, differing in voicing and aspiration. English /d/ is medial after /b/, not the word onset.",
-                  "zh-Hans": "参考拉丁 d [d]、英语 -dicate 中 /d/ 对普通话 t [tʰ]：同属宽泛舌冠塞音，清浊与送气不同；英语 /d/ 在 /b/ 后，非整词词首。"
-                },
-                "vowel": {
-                  "en": "Latin short i differs from Mandarin /i/; dicāre also contains long ā and e. English /ɪ/ and /eɪ/ cannot be reduced to tí.",
-                  "zh-Hans": "拉丁短 i 不等同普通话 /i/；dicāre 另有长 ā 与 e；英语 /ɪ/、/eɪ/ 不能缩成 tí。"
-                },
-                "consonants": {
-                  "en": "Latin c [k] and r, and English /k,t/ plus initial /æb/, are unmatched in 啼.",
-                  "zh-Hans": "拉丁 c [k]、r，以及英语 /k,t/ 和词首 /æb/ 在啼中无对应。"
-                },
-                "syllables": {
-                  "en": "di-cā-re and English abdicate each have three syllables, versus one in tí.",
-                  "zh-Hans": "di-cā-re 与英语 abdicate 各三音节，对 tí 一音节。"
-                },
-                "tone": {
-                  "en": "Mandarin tí has rising second tone; Latin vowel quantity/stress and English stress are not lexical-tone matches.",
-                  "zh-Hans": "普通话 tí 为阳平升调；拉丁长短、重音及英语重音不等于汉语声调。"
-                }
-              },
-              "consonant_group": {
-                "group": "d-t-n-l",
-                "pair": "d↔t",
-                "status": "cross-language consonant-group hypothesis",
-                "boundary": "Not arbitrary interchange within Chinese; group hit is not historical proof."
-              },
-              "rating": {
-                "score": 7,
-                "maximum": 30,
-                "confidence": "Low",
-                "method": "Unvalidated editorial rubric: coronal stop place/manner 4/10; limited front-vowel similarity 3/8; unmatched consonants 0/5; syllable structure 0/4; prosody 0/3. No empirical accuracy implied."
-              },
-              "source_refs": [
-                "ABD-DCC",
-                "ABD-DCC-SYLL",
-                "ABD-ZD-TI",
-                "ABD-PINYIN",
-                "ABD-OALD"
-              ]
-            },
-            "mapping_assessment": {
-              "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
-              "method": "Unvalidated editorial feature assessment; no statistical probability or historical points.",
-              "dimensions": [
-                {
-                  "name": "Phonetic Relation",
-                  "weight": 30,
-                  "score": 7,
-                  "reason": "d↔t 只支持局部近似，7/30；非同音。"
-                },
-                {
-                  "name": "Semantic Relation",
-                  "weight": 30,
-                  "score": 7,
-                  "reason": "啼≠declare，仅共享宽泛发声。"
-                },
-                {
-                  "name": "Structural / Cognitive Relation",
-                  "weight": 20,
-                  "score": 8,
-                  "reason": "失去权力与失去发言权的桥梁属文学。"
-                },
-                {
-                  "name": "Contextual Validity",
-                  "weight": 20,
-                  "score": 3,
-                  "reason": "不支持直接翻译；尚无盲法实验。"
-                }
-              ],
-              "total": 25,
-              "maximum": 100,
-              "level": "D",
-              "confidence": "Low",
-              "rationale": {
-                "en": "Qualitative relation type is independent of the numerical total. No cognacy or experiment result is inferred.",
-                "zh-Hans": "定性关系类别独立于总分；不推断同源或实验结果。"
-              }
-            },
-            "boundary": {
-              "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
-              "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
-            },
-            "source_refs": [
-              "ABD-AHD",
-              "REF-MW-ABDICATE",
-              "ABD-ZD-TI",
-              "ABD-DCC",
-              "ABD-PINYIN"
-            ]
-          }
-        ]
+        }
       },
       "secondary_candidates": [
         {
@@ -12230,6 +13348,164 @@
             "en": "Qualitative relation type is independent of the numerical total. No cognacy or experiment result is inferred.",
             "zh-Hans": "定性关系类别独立于总分；不推断同源或实验结果。"
           }
+        }
+      },
+      "legacy_migration": {
+        "version": "0.1",
+        "baseline_commit": "5ed87f6b6d2aa99523368bd26aa4c7d43b8deb3b",
+        "scope": "Read-only Research archive of the pre-migration stage shape. Original assessments and author material elsewhere in this record are unchanged. Not a second active model.",
+        "previous_diachronic_semantic_mapping": {
+          "historical_path": "Latin ab- + dicāre → abdicāre → abdicātus → English abdicate",
+          "semantic_path": "proclaim / declare + separation → renounce / disown → relinquish office or responsibility; not a literal no-longer-cry derivation",
+          "historical_stages": [
+            {
+              "form": "dicāre",
+              "meaning": "proclaim / declare",
+              "source_refs": [
+                "ABD-AHD"
+              ]
+            },
+            {
+              "form": "abdicāre",
+              "meaning": "disclaim / renounce / disown",
+              "source_refs": [
+                "REF-MW-ABDICATE",
+                "ABD-AHD"
+              ]
+            },
+            {
+              "form": "abdicate",
+              "meaning": "renounce office; relinquish responsibility",
+              "source_refs": [
+                "REF-MW-ABDICATE"
+              ]
+            }
+          ],
+          "boundary": {
+            "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
+            "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
+          },
+          "mappings": [
+            {
+              "mapping_id": "MAP-dicare-ti",
+              "source": {
+                "language": "Latin",
+                "word": "dicāre",
+                "pronunciation": "di-cā-re; short i, long ā; Roman reference d [d], c [k]"
+              },
+              "target": {
+                "language": "Chinese",
+                "word": "啼",
+                "pronunciation": "tí [tʰi˧˥]"
+              },
+              "source_semantics": "DECLARE / PROCLAIM; UTTER only as a broad vocal-production abstraction",
+              "target_sense": "哭、出声地哭；鸟兽鸣叫。不是一般说／宣布。",
+              "status": "Candidate",
+              "mapping_level": "D",
+              "confidence": "Low",
+              "historical_relation_status": "Not claimed",
+              "phonetic_observation": {
+                "observation_id": "PHON-ABDICATE-001",
+                "claim": {
+                  "en": "DICĀRE ↔ 啼 tí: limited coronal-stop and front-vowel resemblance; a broad vocalization bridge, not DECLARE equivalence. Candidate / D / Low.",
+                  "zh-Hans": "DICĀRE ↔ 啼 tí：有限舌冠塞音与前元音近似，只有宽泛发声桥梁，不等于 DECLARE。Candidate / D / Low。"
+                },
+                "status": "Candidate",
+                "scope": "historical-unit dicāre compared with modern Mandarin, not ancient Chinese reconstruction",
+                "reference_system": "Allen & Greenough Roman reference (§§7–8), approximate classical pronunciation; broad IPA is editorial inference, not a recording.",
+                "segments": {
+                  "onset": {
+                    "en": "Reference Latin d [d], and English /d/ in -dicate, versus Mandarin t [tʰ]: broadly coronal stops, differing in voicing and aspiration. English /d/ is medial after /b/, not the word onset.",
+                    "zh-Hans": "参考拉丁 d [d]、英语 -dicate 中 /d/ 对普通话 t [tʰ]：同属宽泛舌冠塞音，清浊与送气不同；英语 /d/ 在 /b/ 后，非整词词首。"
+                  },
+                  "vowel": {
+                    "en": "Latin short i differs from Mandarin /i/; dicāre also contains long ā and e. English /ɪ/ and /eɪ/ cannot be reduced to tí.",
+                    "zh-Hans": "拉丁短 i 不等同普通话 /i/；dicāre 另有长 ā 与 e；英语 /ɪ/、/eɪ/ 不能缩成 tí。"
+                  },
+                  "consonants": {
+                    "en": "Latin c [k] and r, and English /k,t/ plus initial /æb/, are unmatched in 啼.",
+                    "zh-Hans": "拉丁 c [k]、r，以及英语 /k,t/ 和词首 /æb/ 在啼中无对应。"
+                  },
+                  "syllables": {
+                    "en": "di-cā-re and English abdicate each have three syllables, versus one in tí.",
+                    "zh-Hans": "di-cā-re 与英语 abdicate 各三音节，对 tí 一音节。"
+                  },
+                  "tone": {
+                    "en": "Mandarin tí has rising second tone; Latin vowel quantity/stress and English stress are not lexical-tone matches.",
+                    "zh-Hans": "普通话 tí 为阳平升调；拉丁长短、重音及英语重音不等于汉语声调。"
+                  }
+                },
+                "consonant_group": {
+                  "group": "d-t-n-l",
+                  "pair": "d↔t",
+                  "status": "cross-language consonant-group hypothesis",
+                  "boundary": "Not arbitrary interchange within Chinese; group hit is not historical proof."
+                },
+                "rating": {
+                  "score": 7,
+                  "maximum": 30,
+                  "confidence": "Low",
+                  "method": "Unvalidated editorial rubric: coronal stop place/manner 4/10; limited front-vowel similarity 3/8; unmatched consonants 0/5; syllable structure 0/4; prosody 0/3. No empirical accuracy implied."
+                },
+                "source_refs": [
+                  "ABD-DCC",
+                  "ABD-DCC-SYLL",
+                  "ABD-ZD-TI",
+                  "ABD-PINYIN",
+                  "ABD-OALD"
+                ]
+              },
+              "mapping_assessment": {
+                "rubric": "Mapping Score v0.2; qualitative A/B/C/D from protocol/protocol.mapping-framework.html#evaluation",
+                "method": "Unvalidated editorial feature assessment; no statistical probability or historical points.",
+                "dimensions": [
+                  {
+                    "name": "Phonetic Relation",
+                    "weight": 30,
+                    "score": 7,
+                    "reason": "d↔t 只支持局部近似，7/30；非同音。"
+                  },
+                  {
+                    "name": "Semantic Relation",
+                    "weight": 30,
+                    "score": 7,
+                    "reason": "啼≠declare，仅共享宽泛发声。"
+                  },
+                  {
+                    "name": "Structural / Cognitive Relation",
+                    "weight": 20,
+                    "score": 8,
+                    "reason": "失去权力与失去发言权的桥梁属文学。"
+                  },
+                  {
+                    "name": "Contextual Validity",
+                    "weight": 20,
+                    "score": 3,
+                    "reason": "不支持直接翻译；尚无盲法实验。"
+                  }
+                ],
+                "total": 25,
+                "maximum": 100,
+                "level": "D",
+                "confidence": "Low",
+                "rationale": {
+                  "en": "Qualitative relation type is independent of the numerical total. No cognacy or experiment result is inferred.",
+                  "zh-Hans": "定性关系类别独立于总分；不推断同源或实验结果。"
+                }
+              },
+              "boundary": {
+                "en": "Selected modern meaning, not historical descent. DICĀRE ↔ 啼 is a separate weak historical-unit candidate; 啼 is not the standard translation of abdicate.",
+                "zh-Hans": "仅选定现代语义，不主张历史传承。DICĀRE ↔ 啼是独立弱历史单位候选；啼不是 abdicate 的标准翻译。"
+              },
+              "source_refs": [
+                "ABD-AHD",
+                "REF-MW-ABDICATE",
+                "ABD-ZD-TI",
+                "ABD-DCC",
+                "ABD-PINYIN"
+              ]
+            }
+          ]
         }
       }
     },
@@ -14109,7 +15385,8 @@
           "ABER-OALD-ERR",
           "ABER-OALD-ERROR",
           "REF-ZDIC-E"
-        ]
+        ],
+        "candidate_ref": "MAP-ERR-E-STAGE"
       },
       "mapping_assessment": {
         "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
@@ -14213,198 +15490,841 @@
         }
       },
       "diachronic_semantic_mapping": {
-        "historical_path": "English aberrant ← Latin aberrant- / aberrāns (present participle of aberrāre = ab- + errāre). French aberrant ← adjectivized participle of aberrer ← Latin aberrāre. English err ← Middle English erren ← Anglo-French and Latin errāre; error / erreur share the Latin error family. These are branches, not English → French → Latin in a single borrowing chain.",
-        "semantic_path": "WANDER / STRAY → DEVIATE FROM A PATH → ERROR / DEPARTURE FROM A NORM (semantic organization; meanings coexist, no dated replacement sequence claimed)",
+        "model_version": "0.1",
         "historical_stages": [
           {
             "stage_id": "LATIN-WANDER",
             "form": "errāre",
-            "language": "Latin",
-            "meaning": "wander / roam / stray; also figurative error in Latin",
-            "evidence_status": "Established",
-            "status": "Mapping pending",
-            "confidence": "Unknown",
-            "target": null,
-            "historical_relation_status": "Not claimed",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Latin",
+              "code": null
+            },
+            "period": {
+              "label": "Latin; narrower dates not recorded in existing research",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "REF-MW-ERR",
+                "ABER-DCC"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "wander / roam / stray; also figurative error in Latin",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "PR-ERRARE",
+                "value": "[ɛrˈraː.rɛ], approximate Classical reference inferred from spelling, vowel quantity and DCC pronunciation; /rr/ geminate rhotic, three syllables, no Mandarin lexical tone; not ancient audio.",
+                "notation": "source_notation",
+                "phonological_layer": "Latin Roman reference",
+                "period": {
+                  "label": "Approximate Roman reference; not all Latin periods",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "language_period",
+                  "source_refs": [
+                    "ABER-DCC"
+                  ]
+                },
+                "variety": "Latin Roman reference",
+                "system": "Existing entry transcription; see original scoped assessment",
+                "status": "editorial_inference",
+                "source_refs": [
+                  "ABER-DCC"
+                ]
+              }
+            ],
+            "relations": [],
             "source_refs": [
               "REF-MW-ERR",
               "ABER-DCC"
             ],
-            "phonetic_reference": "[ɛrˈraː.rɛ], approximate Classical reference inferred from spelling, vowel quantity and DCC pronunciation; /rr/ geminate rhotic, three syllables, no Mandarin lexical tone; not ancient audio.",
-            "candidate_review": [
-              {
-                "target": "游",
-                "reading": "yóu",
-                "status": "Semantic-only option; phonetic-semantic mapping pending",
-                "reason": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
-                "source_refs": [
-                  "ABER-ZD-YOU"
-                ]
-              },
-              {
-                "target": "迷",
-                "reading": "mí",
-                "status": "Semantic-only option; phonetic-semantic mapping pending",
-                "reason": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
-                "source_refs": [
-                  "ABER-ZD-MI"
-                ]
-              }
-            ],
-            "boundary": "Modern Mandarin candidates only; not ancient Chinese reconstructions. No forced character selection."
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "Modern Mandarin candidates only; not ancient Chinese reconstructions. No forced character selection."
           },
           {
             "stage_id": "ERROR",
-            "form": "ERR / ERROR; French erreur as secondary comparison",
-            "meaning": "mistake / corruption of correctness",
-            "evidence_status": "Supported",
-            "status": "Candidate",
-            "confidence": "Low",
-            "mapping_id": "MAP-ERR-E-STAGE",
-            "target": "讹",
-            "historical_relation_status": "Not claimed",
+            "form": "err",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Modern English",
+              "code": null
+            },
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "make a mistake / error; not all WANDER senses",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "PR-ERR",
+                "value": "BrE /ɜː(r)/; AmE /er, ɝ/",
+                "notation": "source_notation",
+                "phonological_layer": "Modern English",
+                "period": {
+                  "label": "Modern reference; exact documentation date not inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": []
+                },
+                "variety": "Modern English",
+                "system": "Existing entry transcription; see original scoped assessment",
+                "status": "documented",
+                "source_refs": [
+                  "ABER-OALD-ERR",
+                  "REF-MW-ERR"
+                ]
+              }
+            ],
+            "relations": [
+              {
+                "from_stage_ref": "LATIN-WANDER",
+                "relation_type": "related_family",
+                "semantic_operation": {
+                  "type": "related_family",
+                  "description": "English err via Middle English/Anglo-French and Latin errāre; selected modern branch, not an ancestor of aberrant.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "ABER-OALD-ERR",
+                  "ABER-OALD-ERROR",
+                  "REF-MW-ERR",
+                  "REF-CNRTL-ERREUR",
+                  "REF-ZDIC-E"
+                ]
+              }
+            ],
             "source_refs": [
               "ABER-OALD-ERR",
               "ABER-OALD-ERROR",
               "REF-MW-ERR",
               "REF-CNRTL-ERREUR",
               "REF-ZDIC-E"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "Family comparison branch; error and French erreur are related comparanda, not aliases sharing err pronunciation."
           },
           {
             "stage_id": "MODERN-ABERRANT",
-            "form": "ABERRANT",
-            "meaning": "departing from normal / usual",
-            "evidence_status": "Supported",
-            "status": "Candidate",
-            "confidence": "Medium",
-            "mapping_id": "MAP-ABERRANT-MODERN-PIAN",
-            "target": "偏",
-            "historical_relation_status": "Not claimed",
+            "form": "aberrant",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Modern English",
+              "code": null
+            },
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "departing from normal / usual",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [],
+            "relations": [
+              {
+                "from_stage_ref": "LATIN-WANDER",
+                "relation_type": "related_family",
+                "semantic_operation": {
+                  "type": "related_family",
+                  "description": "Latin ab- + errāre → aberrāre → aberrant-/aberrāns; intermediate morphology retained in Research. English err is a sibling comparison, not a required stage.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "REF-MW-ABERRANT",
+                  "REF-MW-ERR"
+                ]
+              }
+            ],
             "source_refs": [
               "REF-OALD-ABERRANT",
               "ABER-ZD-PIAN"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "Independent aberrāre/aberrant- branch; no edge from English err/error."
           }
         ],
         "mappings": [
           {
-            "mapping_id": "MAP-ERR-E-STAGE",
-            "source": {
-              "language": "English, Latin-derived family",
-              "word": "ERR / ERROR",
-              "pronunciation": "err: BrE /ɜː(r)/; AmE /er, ɝ/; error: /ˈerə(r), ˈerər/"
-            },
-            "target": {
-              "language": "Modern Mandarin",
-              "word": "讹",
-              "pronunciation": "é /ɤ˧˥/"
-            },
-            "source_semantics": "make a mistake / error; not all WANDER senses",
-            "target_sense": "差错、文字／记载讹误；非全部谣言、讹诈或古义",
-            "status": "Candidate",
-            "mapping_level": "C",
-            "confidence": "Low",
-            "historical_relation_status": "Not claimed",
-            "phonetic_observation": {
-              "observation_id": "PHON-ERR-E-001",
-              "claim": {
-                "en": "err ↔ 讹 is an accent-dependent partial resemblance, not homophony.",
-                "zh-Hans": "err ↔ 讹 为受口音影响的部分音近，不是同音。"
-              },
-              "status": "Candidate",
-              "scope": "Modern English sound comparison within a historically identified family; no Latin–Old Chinese sound equation",
-              "segments": {
-                "onset": {
-                  "en": "Both are phonologically vowel-initial. Absence of an onset is common and not positive evidence of a consonant correspondence.",
-                  "zh-Hans": "均可分析为零声母／元音起首；无声母很常见，不是辅音规律对应的正证。"
-                },
-                "vowel": {
-                  "en": "BrE /ɜː/ is a long central vowel; AmE /er/ has a front vowel and /r/, or /ɝ/ has rhotic colouring. Mandarin /ɤ/ is back and unrounded; spelling e does not equate these vowels.",
-                  "zh-Hans": "英式 /ɜː/ 为长央元音；美式 /er/ 为前元音加 /r/，另有卷舌 /ɝ/。普通话 /ɤ/ 为后不圆唇元音；字母 e 相似不等于元音相同。"
-                },
-                "rhoticity": {
-                  "en": "Non-rhotic BrE err has no final /r/ before a pause, but may link /r/ before a vowel; rhotic accents retain /r/ or r-colouring. Mandarin é has neither.",
-                  "zh-Hans": "非 rhotic 英式 err 在停顿前无词尾 /r/，元音前可连读 /r/；rhotic 口音保留 /r/ 或卷舌色彩；普通话 é 均无。"
-                },
-                "syllables": {
-                  "en": "err and é are monosyllabic. error is two syllables /ˈerə(r), ˈerər/; erreur /ɛ.ʁœʁ/ is two syllables with uvular rhotics and a rounded /œ/. Neither is a homophone of é; whole aberrant has three syllables.",
-                  "zh-Hans": "err、é 均单音节；error /ˈerə(r), ˈerər/ 为两音节；erreur /ɛ.ʁœʁ/ 为两音节，含小舌音及圆唇 /œ/。两者均非 é 的同音词；完整 aberrant 为三音节。"
-                },
-                "tone": {
-                  "en": "Mandarin é has lexical rising tone /ɤ˧˥/; English stress and French phrase prosody do not match Mandarin tone.",
-                  "zh-Hans": "普通话 é 带阳平 /ɤ˧˥/；英语重音、法语短语韵律不对应普通话词汇声调。"
-                }
-              },
-              "rating": {
-                "score": 10,
-                "maximum": 30,
-                "confidence": "Low",
-                "method": "Editorial components: onset absence 1/10; vowel resemblance 4/8; rhotic/coda fit across accents 2/5; one-syllable shape 3/4; tone/prosody 0/3. No acoustic data. The whole error/erreur words receive no transferred err score."
-              },
-              "limitations": {
-                "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
-                "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
-              },
-              "source_refs": [
-                "ABER-OALD-ERR",
-                "ABER-OALD-ERROR",
-                "REF-MW-ERR",
-                "REF-CNRTL-ERREUR",
-                "REF-ZDIC-E"
-              ]
-            },
-            "mapping_assessment": {
-              "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
-              "method": "Unvalidated editorial assessment, not acoustic measurement or probability; scoped to err ↔ 讹 in the ERROR stage, not whole-word aberrant.",
-              "dimensions": [
-                {
-                  "name": "Phonetic Relation",
-                  "weight": 30,
-                  "score": 10,
-                  "reason": "零声母和单音节有部分相似；元音、rhoticity、声调不同"
-                },
-                {
-                  "name": "Semantic Relation",
-                  "weight": 30,
-                  "score": 22,
-                  "reason": "错误／讹误语义有交集；err 动作与讹的名词／语素用法不完全等价"
-                },
-                {
-                  "name": "Structural / Cognitive Relation",
-                  "weight": 20,
-                  "score": 13,
-                  "reason": "偏离路径与偏离正确性可解释；非独立历史证据"
-                },
-                {
-                  "name": "Contextual Validity",
-                  "weight": 20,
-                  "score": 8,
-                  "reason": "文字讹误语境较合适；不能替换所有 error，更不能替换 aberrant；无盲测"
-                }
+            "stage_mapping_id": "SM-LATIN-WANDER",
+            "stage_ref": "LATIN-WANDER",
+            "selection_reasons": [
+              "explanatory_value",
+              "phonetic_form_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "wander / roam / stray; also figurative error in Latin",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
               ],
-              "total": 53,
-              "maximum": 100,
-              "level": "C",
-              "confidence": "Low",
-              "rationale": {
-                "en": "C — Experimental (testable, not experimentally validated); Phonetic-Semantic Candidate; Weak overall confidence. Scoped error semantics justify investigation; limited sound resemblance remains untested. Level follows relationship type, not a numerical threshold.",
-                "zh-Hans": "C—Experimental（待实验验证）；语音语义候选；整体置信度 Low／Weak。限定错误义支持研究，部分音近未经实验；等级按关系性质判断，不由分数机械换算。"
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "pending",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "wander / roam / stray; also figurative error in Latin"
+                ],
+                "consonant_hypotheses": [],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "现有游／迷仅作语义对照；没有选定音义候选。保留 Pending，不强行配字。"
+            },
+            "candidates": [
+              {
+                "candidate_id": "CONTROL-ERRARE-YOU",
+                "family_key": "legacy-aberrant",
+                "target": {
+                  "form": "游",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "游走 / roam",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-CONTROL-ERRARE-YOU",
+                      "value": "yóu",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABER-ZD-YOU"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABER-ZD-YOU"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "LATIN-WANDER",
+                  "source_pronunciation_ref": "PR-ERRARE",
+                  "target_pronunciation_ref": "ZH-CONTROL-ERRARE-YOU",
+                  "source_span": "errāre",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "meaning_control",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+                  "source_refs": [
+                    "ABER-ZD-YOU"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "weak",
+                  "confidence": "Low",
+                  "rationale": "Existing feature comparison retained; no acoustic measurement.",
+                  "features": {
+                    "onset": "Not separately evaluated in existing research; no new rating.",
+                    "vowel": "Not separately evaluated in existing research; no new rating.",
+                    "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                    "syllables": "Not separately evaluated in existing research; no new rating.",
+                    "prosody": "Not separately evaluated in existing research; no new rating."
+                  },
+                  "source_refs": [
+                    "ABER-ZD-YOU"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABER-ZD-YOU"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "ABER-ZD-YOU"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "none",
+                "decision_reason": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              },
+              {
+                "candidate_id": "CONTROL-ERRARE-MI",
+                "family_key": "legacy-aberrant",
+                "target": {
+                  "form": "迷",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "迷路 / lose the way",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-CONTROL-ERRARE-MI",
+                      "value": "mí",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABER-ZD-MI"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABER-ZD-MI"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "LATIN-WANDER",
+                  "source_pronunciation_ref": "PR-ERRARE",
+                  "target_pronunciation_ref": "ZH-CONTROL-ERRARE-MI",
+                  "source_span": "errāre",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "meaning_control",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+                  "source_refs": [
+                    "ABER-ZD-MI"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "weak",
+                  "confidence": "Low",
+                  "rationale": "Existing feature comparison retained; no acoustic measurement.",
+                  "features": {
+                    "onset": "Not separately evaluated in existing research; no new rating.",
+                    "vowel": "Not separately evaluated in existing research; no new rating.",
+                    "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                    "syllables": "Not separately evaluated in existing research; no new rating.",
+                    "prosody": "Not separately evaluated in existing research; no new rating."
+                  },
+                  "source_refs": [
+                    "ABER-ZD-MI"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABER-ZD-MI"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "ABER-ZD-MI"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "none",
+                "decision_reason": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
               }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          },
+          {
+            "stage_mapping_id": "SM-ERROR",
+            "stage_ref": "ERROR",
+            "selection_reasons": [
+              "explanatory_value",
+              "phonetic_form_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "make a mistake / error; not all WANDER senses",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
+              ],
+              "status": "editor_reviewed"
             },
-            "boundary": {
-              "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
-              "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "make a mistake / error; not all WANDER senses"
+                ],
+                "consonant_hypotheses": [],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
             },
-            "source_refs": [
-              "ABER-OALD-ERR",
-              "ABER-OALD-ERROR",
-              "REF-MW-ERR",
-              "REF-CNRTL-ERREUR",
-              "REF-ZDIC-E"
-            ]
+            "candidates": [
+              {
+                "candidate_id": "MAP-ERR-E-STAGE",
+                "family_key": "legacy-aberrant",
+                "target": {
+                  "form": "讹",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "差错、文字／记载讹误；非全部谣言、讹诈或古义",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-MAP-ERR-E-STAGE",
+                      "value": "é /ɤ˧˥/",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABER-OALD-ERR",
+                        "ABER-OALD-ERROR",
+                        "REF-MW-ERR",
+                        "REF-CNRTL-ERREUR",
+                        "REF-ZDIC-E"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABER-OALD-ERR",
+                    "ABER-OALD-ERROR",
+                    "REF-MW-ERR",
+                    "REF-CNRTL-ERREUR",
+                    "REF-ZDIC-E"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ERROR",
+                  "source_pronunciation_ref": "PR-ERR",
+                  "target_pronunciation_ref": "ZH-MAP-ERR-E-STAGE",
+                  "source_span": "err",
+                  "scope": "whole_form",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Low",
+                  "rationale": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+                  "source_refs": [
+                    "ABER-OALD-ERR",
+                    "ABER-OALD-ERROR",
+                    "REF-MW-ERR",
+                    "REF-CNRTL-ERREUR",
+                    "REF-ZDIC-E"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "partial",
+                  "confidence": "Low",
+                  "rationale": "err ↔ 讹 is an accent-dependent partial resemblance, not homophony.",
+                  "features": {
+                    "onset": "Both are phonologically vowel-initial. Absence of an onset is common and not positive evidence of a consonant correspondence.",
+                    "vowel": "BrE /ɜː/ is a long central vowel; AmE /er/ has a front vowel and /r/, or /ɝ/ has rhotic colouring. Mandarin /ɤ/ is back and unrounded; spelling e does not equate these vowels.",
+                    "coda_other_consonants": "Non-rhotic BrE err has no final /r/ before a pause, but may link /r/ before a vowel; rhotic accents retain /r/ or r-colouring. Mandarin é has neither.",
+                    "syllables": "err and é are monosyllabic. error is two syllables /ˈerə(r), ˈerər/; erreur /ɛ.ʁœʁ/ is two syllables with uvular rhotics and a rounded /œ/. Neither is a homophone of é; whole aberrant has three syllables.",
+                    "prosody": "Mandarin é has lexical rising tone /ɤ˧˥/; English stress and French phrase prosody do not match Mandarin tone."
+                  },
+                  "source_refs": [
+                    "ABER-OALD-ERR",
+                    "ABER-OALD-ERROR",
+                    "REF-MW-ERR",
+                    "REF-CNRTL-ERREUR",
+                    "REF-ZDIC-E"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABER-OALD-ERR",
+                      "ABER-OALD-ERROR",
+                      "REF-MW-ERR",
+                      "REF-CNRTL-ERREUR",
+                      "REF-ZDIC-E"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "ABER-OALD-ERR",
+                      "ABER-OALD-ERROR",
+                      "REF-MW-ERR",
+                      "REF-CNRTL-ERREUR",
+                      "REF-ZDIC-E"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          },
+          {
+            "stage_mapping_id": "SM-MODERN-ABERRANT",
+            "stage_ref": "MODERN-ABERRANT",
+            "selection_reasons": [
+              "explanatory_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "departing from normal / usual",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "departing from normal / usual"
+                ],
+                "consonant_hypotheses": [],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+            },
+            "candidates": [
+              {
+                "candidate_id": "MAP-ABERRANT-MODERN-PIAN",
+                "family_key": "legacy-aberrant",
+                "target": {
+                  "form": "偏",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "departing from normal / usual",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-MAP-ABERRANT-MODERN-PIAN",
+                      "value": "piān",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "REF-OALD-ABERRANT",
+                        "ABER-ZD-PIAN"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "REF-OALD-ABERRANT",
+                    "ABER-ZD-PIAN"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "MODERN-ABERRANT",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "ZH-MAP-ABERRANT-MODERN-PIAN",
+                  "source_span": "aberrant",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "偏取偏离常规义；不是所有反常语境的逐字译词。Existing Modern Semantic Mapping; source sound not graded in this migration.",
+                  "source_refs": [
+                    "REF-OALD-ABERRANT",
+                    "ABER-ZD-PIAN"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Unknown",
+                  "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+                  "features": {
+                    "onset": "Not separately evaluated in existing research; no new rating.",
+                    "vowel": "Not separately evaluated in existing research; no new rating.",
+                    "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                    "syllables": "Not separately evaluated in existing research; no new rating.",
+                    "prosody": "Not separately evaluated in existing research; no new rating."
+                  },
+                  "source_refs": [
+                    "REF-OALD-ABERRANT",
+                    "ABER-ZD-PIAN"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "REF-OALD-ABERRANT",
+                      "ABER-ZD-PIAN"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "REF-OALD-ABERRANT",
+                      "ABER-ZD-PIAN"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "偏取偏离常规义；不是所有反常语境的逐字译词。Existing Modern Semantic Mapping; source sound not graded in this migration.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "偏取偏离常规义，作为现代语义候选；不代替所有反常语境。",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
           }
         ],
+        "display_selection": {
+          "featured_candidate_ref": "MAP-ERR-E-STAGE",
+          "stage_cards": [
+            {
+              "stage_mapping_ref": "SM-LATIN-WANDER",
+              "candidate_ref": null
+            },
+            {
+              "stage_mapping_ref": "SM-MODERN-ABERRANT",
+              "candidate_ref": "MAP-ABERRANT-MODERN-PIAN"
+            }
+          ],
+          "review_status": "approved",
+          "reviewer": "Jinkai Liu",
+          "reason": "沿用词族 ERR / ERROR 的错误义 → 讹（C / Low），声音只检验现代英语 err。它是词族比较分支，不是 aberrant 必经祖先；讹不是整个形容词的标准翻译。"
+        },
+        "historical_path": "English aberrant ← Latin aberrant- / aberrāns (present participle of aberrāre = ab- + errāre). French aberrant ← adjectivized participle of aberrer ← Latin aberrāre. English err ← Middle English erren ← Anglo-French and Latin errāre; error / erreur share the Latin error family. These are branches, not English → French → Latin in a single borrowing chain.",
+        "semantic_path": "WANDER / STRAY → DEVIATE FROM A PATH → ERROR / DEPARTURE FROM A NORM (semantic organization; meanings coexist, no dated replacement sequence claimed)",
         "boundary": {
           "en": "Diachronic Stage Mapping Principle: map separately only where form, meaning or semantic operation changes materially, not one character per language. Each stage has its own evidence, status and confidence. Chinese historical relation remains Not claimed.",
           "zh-Hans": "历时阶段映射原则：仅在形式、意义或语义操作有实质变化时分阶段映射，不是每经过一种语言就配一个汉字；每阶段独立 evidence/status/confidence。汉语跨语言 Historical Relation 仍为 Not claimed。"
@@ -14522,7 +16442,210 @@
           ],
           "reason": "Specific edition and entry not obtained; no page, quotation or earliest sense asserted."
         }
-      ]
+      ],
+      "legacy_migration": {
+        "version": "0.1",
+        "baseline_commit": "5ed87f6b6d2aa99523368bd26aa4c7d43b8deb3b",
+        "scope": "Read-only Research archive of the pre-migration stage shape. Original assessments and author material elsewhere in this record are unchanged. Not a second active model.",
+        "previous_diachronic_semantic_mapping": {
+          "historical_path": "English aberrant ← Latin aberrant- / aberrāns (present participle of aberrāre = ab- + errāre). French aberrant ← adjectivized participle of aberrer ← Latin aberrāre. English err ← Middle English erren ← Anglo-French and Latin errāre; error / erreur share the Latin error family. These are branches, not English → French → Latin in a single borrowing chain.",
+          "semantic_path": "WANDER / STRAY → DEVIATE FROM A PATH → ERROR / DEPARTURE FROM A NORM (semantic organization; meanings coexist, no dated replacement sequence claimed)",
+          "historical_stages": [
+            {
+              "stage_id": "LATIN-WANDER",
+              "form": "errāre",
+              "language": "Latin",
+              "meaning": "wander / roam / stray; also figurative error in Latin",
+              "evidence_status": "Established",
+              "status": "Mapping pending",
+              "confidence": "Unknown",
+              "target": null,
+              "historical_relation_status": "Not claimed",
+              "source_refs": [
+                "REF-MW-ERR",
+                "ABER-DCC"
+              ],
+              "phonetic_reference": "[ɛrˈraː.rɛ], approximate Classical reference inferred from spelling, vowel quantity and DCC pronunciation; /rr/ geminate rhotic, three syllables, no Mandarin lexical tone; not ancient audio.",
+              "candidate_review": [
+                {
+                  "target": "游",
+                  "reading": "yóu",
+                  "status": "Semantic-only option; phonetic-semantic mapping pending",
+                  "reason": "流动／游走 suits wandering, but /iou/ has no Latin geminate-r match; roaming need not be error.",
+                  "source_refs": [
+                    "ABER-ZD-YOU"
+                  ]
+                },
+                {
+                  "target": "迷",
+                  "reading": "mí",
+                  "status": "Semantic-only option; phonetic-semantic mapping pending",
+                  "reason": "迷路／辨别不清 suits losing the way, not every roaming sense; initial /m/ and /i/ do not match Latin onsetless /ɛr-/.",
+                  "source_refs": [
+                    "ABER-ZD-MI"
+                  ]
+                }
+              ],
+              "boundary": "Modern Mandarin candidates only; not ancient Chinese reconstructions. No forced character selection."
+            },
+            {
+              "stage_id": "ERROR",
+              "form": "ERR / ERROR; French erreur as secondary comparison",
+              "meaning": "mistake / corruption of correctness",
+              "evidence_status": "Supported",
+              "status": "Candidate",
+              "confidence": "Low",
+              "mapping_id": "MAP-ERR-E-STAGE",
+              "target": "讹",
+              "historical_relation_status": "Not claimed",
+              "source_refs": [
+                "ABER-OALD-ERR",
+                "ABER-OALD-ERROR",
+                "REF-MW-ERR",
+                "REF-CNRTL-ERREUR",
+                "REF-ZDIC-E"
+              ]
+            },
+            {
+              "stage_id": "MODERN-ABERRANT",
+              "form": "ABERRANT",
+              "meaning": "departing from normal / usual",
+              "evidence_status": "Supported",
+              "status": "Candidate",
+              "confidence": "Medium",
+              "mapping_id": "MAP-ABERRANT-MODERN-PIAN",
+              "target": "偏",
+              "historical_relation_status": "Not claimed",
+              "source_refs": [
+                "REF-OALD-ABERRANT",
+                "ABER-ZD-PIAN"
+              ]
+            }
+          ],
+          "mappings": [
+            {
+              "mapping_id": "MAP-ERR-E-STAGE",
+              "source": {
+                "language": "English, Latin-derived family",
+                "word": "ERR / ERROR",
+                "pronunciation": "err: BrE /ɜː(r)/; AmE /er, ɝ/; error: /ˈerə(r), ˈerər/"
+              },
+              "target": {
+                "language": "Modern Mandarin",
+                "word": "讹",
+                "pronunciation": "é /ɤ˧˥/"
+              },
+              "source_semantics": "make a mistake / error; not all WANDER senses",
+              "target_sense": "差错、文字／记载讹误；非全部谣言、讹诈或古义",
+              "status": "Candidate",
+              "mapping_level": "C",
+              "confidence": "Low",
+              "historical_relation_status": "Not claimed",
+              "phonetic_observation": {
+                "observation_id": "PHON-ERR-E-001",
+                "claim": {
+                  "en": "err ↔ 讹 is an accent-dependent partial resemblance, not homophony.",
+                  "zh-Hans": "err ↔ 讹 为受口音影响的部分音近，不是同音。"
+                },
+                "status": "Candidate",
+                "scope": "Modern English sound comparison within a historically identified family; no Latin–Old Chinese sound equation",
+                "segments": {
+                  "onset": {
+                    "en": "Both are phonologically vowel-initial. Absence of an onset is common and not positive evidence of a consonant correspondence.",
+                    "zh-Hans": "均可分析为零声母／元音起首；无声母很常见，不是辅音规律对应的正证。"
+                  },
+                  "vowel": {
+                    "en": "BrE /ɜː/ is a long central vowel; AmE /er/ has a front vowel and /r/, or /ɝ/ has rhotic colouring. Mandarin /ɤ/ is back and unrounded; spelling e does not equate these vowels.",
+                    "zh-Hans": "英式 /ɜː/ 为长央元音；美式 /er/ 为前元音加 /r/，另有卷舌 /ɝ/。普通话 /ɤ/ 为后不圆唇元音；字母 e 相似不等于元音相同。"
+                  },
+                  "rhoticity": {
+                    "en": "Non-rhotic BrE err has no final /r/ before a pause, but may link /r/ before a vowel; rhotic accents retain /r/ or r-colouring. Mandarin é has neither.",
+                    "zh-Hans": "非 rhotic 英式 err 在停顿前无词尾 /r/，元音前可连读 /r/；rhotic 口音保留 /r/ 或卷舌色彩；普通话 é 均无。"
+                  },
+                  "syllables": {
+                    "en": "err and é are monosyllabic. error is two syllables /ˈerə(r), ˈerər/; erreur /ɛ.ʁœʁ/ is two syllables with uvular rhotics and a rounded /œ/. Neither is a homophone of é; whole aberrant has three syllables.",
+                    "zh-Hans": "err、é 均单音节；error /ˈerə(r), ˈerər/ 为两音节；erreur /ɛ.ʁœʁ/ 为两音节，含小舌音及圆唇 /œ/。两者均非 é 的同音词；完整 aberrant 为三音节。"
+                  },
+                  "tone": {
+                    "en": "Mandarin é has lexical rising tone /ɤ˧˥/; English stress and French phrase prosody do not match Mandarin tone.",
+                    "zh-Hans": "普通话 é 带阳平 /ɤ˧˥/；英语重音、法语短语韵律不对应普通话词汇声调。"
+                  }
+                },
+                "rating": {
+                  "score": 10,
+                  "maximum": 30,
+                  "confidence": "Low",
+                  "method": "Editorial components: onset absence 1/10; vowel resemblance 4/8; rhotic/coda fit across accents 2/5; one-syllable shape 3/4; tone/prosody 0/3. No acoustic data. The whole error/erreur words receive no transferred err score."
+                },
+                "limitations": {
+                  "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+                  "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+                },
+                "source_refs": [
+                  "ABER-OALD-ERR",
+                  "ABER-OALD-ERROR",
+                  "REF-MW-ERR",
+                  "REF-CNRTL-ERREUR",
+                  "REF-ZDIC-E"
+                ]
+              },
+              "mapping_assessment": {
+                "rubric": "Mapping Score v0.2; qualitative A/B/C/D at protocol/protocol.mapping-framework.html#evaluation",
+                "method": "Unvalidated editorial assessment, not acoustic measurement or probability; scoped to err ↔ 讹 in the ERROR stage, not whole-word aberrant.",
+                "dimensions": [
+                  {
+                    "name": "Phonetic Relation",
+                    "weight": 30,
+                    "score": 10,
+                    "reason": "零声母和单音节有部分相似；元音、rhoticity、声调不同"
+                  },
+                  {
+                    "name": "Semantic Relation",
+                    "weight": 30,
+                    "score": 22,
+                    "reason": "错误／讹误语义有交集；err 动作与讹的名词／语素用法不完全等价"
+                  },
+                  {
+                    "name": "Structural / Cognitive Relation",
+                    "weight": 20,
+                    "score": 13,
+                    "reason": "偏离路径与偏离正确性可解释；非独立历史证据"
+                  },
+                  {
+                    "name": "Contextual Validity",
+                    "weight": 20,
+                    "score": 8,
+                    "reason": "文字讹误语境较合适；不能替换所有 error，更不能替换 aberrant；无盲测"
+                  }
+                ],
+                "total": 53,
+                "maximum": 100,
+                "level": "C",
+                "confidence": "Low",
+                "rationale": {
+                  "en": "C — Experimental (testable, not experimentally validated); Phonetic-Semantic Candidate; Weak overall confidence. Scoped error semantics justify investigation; limited sound resemblance remains untested. Level follows relationship type, not a numerical threshold.",
+                  "zh-Hans": "C—Experimental（待实验验证）；语音语义候选；整体置信度 Low／Weak。限定错误义支持研究，部分音近未经实验；等级按关系性质判断，不由分数机械换算。"
+                }
+              },
+              "boundary": {
+                "en": "Featured 讹 é compares the ERR / ERROR family error sense, using modern English err for the sound test. It is not a translation of the whole adjective aberrant or a reconstruction of Latin pronunciation. Historical Relation: Not claimed.",
+                "zh-Hans": "特色讹 é 对应 ERR / ERROR 词族的错误义阶段，声音检验采用现代英语 err。它不是整个形容词 aberrant 的标准翻译，也不是拉丁古音重构。Historical Relation: Not claimed。"
+              },
+              "source_refs": [
+                "ABER-OALD-ERR",
+                "ABER-OALD-ERROR",
+                "REF-MW-ERR",
+                "REF-CNRTL-ERREUR",
+                "REF-ZDIC-E"
+              ]
+            }
+          ],
+          "boundary": {
+            "en": "Diachronic Stage Mapping Principle: map separately only where form, meaning or semantic operation changes materially, not one character per language. Each stage has its own evidence, status and confidence. Chinese historical relation remains Not claimed.",
+            "zh-Hans": "历时阶段映射原则：仅在形式、意义或语义操作有实质变化时分阶段映射，不是每经过一种语言就配一个汉字；每阶段独立 evidence/status/confidence。汉语跨语言 Historical Relation 仍为 Not claimed。"
+          }
+        }
+      }
     },
     {
       "id": "LB-en-abeyance-024",
@@ -18773,158 +20896,687 @@
         "original_additional_notes": "abhorrance; abhorrant; hori.zon.tal / zone; horse → 马 → 午 → 火; French abhorrer / horrible / horizontal(e); ab-，a-在h前面变成ab-。"
       },
       "diachronic_semantic_mapping": {
-        "version": "1.0",
-        "status": "Historical semantic analysis; cross-language comparison remains Candidate",
-        "historical_path": "Latin horrēre → Latin abhorrēre → Middle English abhorren → English abhor",
-        "semantic_path": "HORRĒRE — BRISTLE / SHUDDER / TREMBLE ↔ 骇 → RECOIL / AVERSION → ABHOR — DETEST / LOATHE ↔ 恶",
+        "model_version": "0.1",
         "historical_stages": [
           {
             "stage_id": "horrere",
             "form": "HORRĒRE",
-            "language": "Latin",
-            "meaning": "BRISTLE / SHUDDER / TREMBLE",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Latin",
+              "code": null
+            },
+            "period": {
+              "label": "Latin; narrower dates not recorded in existing research",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "REF-MW-ABHOR"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "BRISTLE / SHUDDER / TREMBLE",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "PR-horrere",
+                "value": "Roman reference: h [h]; hor-rē-re (three syllables); ē long",
+                "notation": "source_notation",
+                "phonological_layer": "Latin Roman reference",
+                "period": {
+                  "label": "Approximate Roman reference; not all Latin periods",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "language_period",
+                  "source_refs": [
+                    "REF-MW-ABHOR",
+                    "ABHOR-DCC-PRON",
+                    "ABHOR-DCC-SYLL",
+                    "ABHOR-ZD-HAI"
+                  ]
+                },
+                "variety": "Latin Roman reference",
+                "system": "Existing entry transcription; see original scoped assessment",
+                "status": "editorial_inference",
+                "source_refs": [
+                  "REF-MW-ABHOR",
+                  "ABHOR-DCC-PRON",
+                  "ABHOR-DCC-SYLL",
+                  "ABHOR-ZD-HAI"
+                ]
+              }
+            ],
+            "relations": [],
             "source_refs": [
               "REF-MW-ABHOR"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "Existing comparison has research value; no new candidate search."
           },
           {
             "stage_id": "abhorrere",
             "form": "ABHORRĒRE",
-            "language": "Latin",
-            "meaning": "RECOIL / AVERSION",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "Latin",
+              "code": null
+            },
+            "period": {
+              "label": "Latin; narrower dates not recorded in existing research",
+              "start_year": null,
+              "end_year": null,
+              "basis": "language_period",
+              "source_refs": [
+                "REF-MW-ABHOR"
+              ]
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "RECOIL / AVERSION",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [],
+            "relations": [
+              {
+                "from_stage_ref": "horrere",
+                "relation_type": "morphological_component",
+                "semantic_operation": {
+                  "type": "morphological_component",
+                  "description": "ab- plus historical verbal component; no literal Chinese compositional derivation.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "REF-MW-ABHOR"
+                ]
+              }
+            ],
             "source_refs": [
               "REF-MW-ABHOR"
-            ]
+            ],
+            "evidence_status": "mediated",
+            "mapping_selection": "not_selected",
+            "selection_note": "Retained to explain semantic development; no Chinese search selected."
           },
           {
             "stage_id": "abhor",
             "form": "ABHOR",
-            "language": "English",
-            "meaning": "DETEST / LOATHE",
+            "variants": [],
+            "unit_kind": "lemma",
+            "language": {
+              "name": "English",
+              "code": null
+            },
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "attestation_status": "attested",
+            "meaning": {
+              "gloss": "DETEST / LOATHE",
+              "pos": null,
+              "constraints": []
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "PR-abhor",
+                "value": "UK /əbˈhɔː(r)/; US /əbˈhɔːr/",
+                "notation": "source_notation",
+                "phonological_layer": "Modern English",
+                "period": {
+                  "label": "Modern reference; exact documentation date not inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": []
+                },
+                "variety": "Modern English",
+                "system": "Existing entry transcription; see original scoped assessment",
+                "status": "documented",
+                "source_refs": [
+                  "ABHOR-OALD"
+                ]
+              }
+            ],
+            "relations": [
+              {
+                "from_stage_ref": "abhorrere",
+                "relation_type": "borrowing",
+                "semantic_operation": {
+                  "type": "borrowing",
+                  "description": "Historical derivation summarized; intermediate English form / Latin participle remains in Research.",
+                  "status": "supported"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "REF-MW-ABHOR"
+                ]
+              }
+            ],
             "source_refs": [
               "REF-MW-ABHOR"
             ],
-            "modern_semantic_mapping_ref": "MAP-abhor-modern-wu"
+            "evidence_status": "mediated",
+            "mapping_selection": "selected",
+            "selection_note": "Existing comparison has research value; no new candidate search."
           }
         ],
+        "mappings": [
+          {
+            "stage_mapping_id": "SM-horrere",
+            "stage_ref": "horrere",
+            "selection_reasons": [
+              "explanatory_value",
+              "phonetic_form_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "BRISTLE / SHUDDER / TREMBLE",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "BRISTLE / SHUDDER / TREMBLE"
+                ],
+                "consonant_hypotheses": [],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+            },
+            "candidates": [
+              {
+                "candidate_id": "MAP-horrere-hai",
+                "family_key": "legacy-abhor",
+                "target": {
+                  "form": "骇",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "惊惧／惊骇／受惊；非现代 abhor 直接译义",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-MAP-horrere-hai",
+                      "value": "hài [xaɪ˥˩]",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "REF-MW-ABHOR",
+                        "ABHOR-ZD-HAI",
+                        "ABHOR-DCC-PRON",
+                        "ABHOR-DCC-SYLL"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "REF-MW-ABHOR",
+                    "ABHOR-ZD-HAI",
+                    "ABHOR-DCC-PRON",
+                    "ABHOR-DCC-SYLL"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "horrere",
+                  "source_pronunciation_ref": "PR-horrere",
+                  "target_pronunciation_ref": "ZH-MAP-horrere-hai",
+                  "source_span": "HORRĒRE",
+                  "scope": "whole_form",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
+                  "source_refs": [
+                    "REF-MW-ABHOR",
+                    "ABHOR-ZD-HAI",
+                    "ABHOR-DCC-PRON",
+                    "ABHOR-DCC-SYLL"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "weak",
+                  "confidence": "Low",
+                  "rationale": "Latin horrēre versus modern Mandarin 骇 hài: limited initial similarity; not homophony.",
+                  "features": {
+                    "onset": "Reference Latin h [h] versus Mandarin h [x]: different articulation; shared breath/frication does not establish a regular correspondence.",
+                    "vowel": "Latin o–ē–e versus Mandarin ai: vowel sequence, length distinction and diphthong structure differ.",
+                    "coda_other_consonants": "Latin doubled rr and later r have no counterpart in hài; shared spelling h cannot erase them.",
+                    "syllables": "Applying the reference syllabification gives hor-rē-re, three syllables, against one Mandarin syllable.",
+                    "prosody": "Mandarin fourth tone is not a match for Latin vowel length or stress."
+                  },
+                  "source_refs": [
+                    "REF-MW-ABHOR",
+                    "ABHOR-DCC-PRON",
+                    "ABHOR-DCC-SYLL",
+                    "ABHOR-ZD-HAI"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "REF-MW-ABHOR",
+                      "ABHOR-ZD-HAI",
+                      "ABHOR-DCC-PRON",
+                      "ABHOR-DCC-SYLL"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "REF-MW-ABHOR",
+                      "ABHOR-ZD-HAI",
+                      "ABHOR-DCC-PRON",
+                      "ABHOR-DCC-SYLL"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "骇以惊惧／受惊比较早期身体反应，不能覆盖竖毛、战栗的所有义项；保留 C / Medium，声音弱。",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          },
+          {
+            "stage_mapping_id": "SM-abhor",
+            "stage_ref": "abhor",
+            "selection_reasons": [
+              "explanatory_value",
+              "phonetic_form_value"
+            ],
+            "freeze": {
+              "version": "0.1",
+              "meaning_note": "DETEST / LOATHE",
+              "excluded_senses": [
+                "No transfer of a different stage’s meaning or pronunciation"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin",
+                  "Dialect"
+                ],
+                "phonological_layers": [
+                  "Existing documented reference pronunciations only"
+                ],
+                "semantic_seeds": [
+                  "DETEST / LOATHE"
+                ],
+                "consonant_hypotheses": [],
+                "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+              },
+              "run_refs": [],
+              "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+            },
+            "candidates": [
+              {
+                "candidate_id": "MAP-abhor-modern-wu",
+                "family_key": "legacy-abhor",
+                "target": {
+                  "form": "恶",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; historical attestations remain in Research",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "detest / loathe → 恶 wù; standard translation 憎恶／厌恶",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-MAP-abhor-modern-wu",
+                      "value": "wù [u˥˩]",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABHOR-OALD",
+                        "ABHOR-ZD-WU"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABHOR-OALD",
+                    "ABHOR-ZD-WU"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "abhor",
+                  "source_pronunciation_ref": "PR-abhor",
+                  "target_pronunciation_ref": "ZH-MAP-abhor-modern-wu",
+                  "source_span": "ABHOR",
+                  "scope": "whole_form",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "direct",
+                  "confidence": "High",
+                  "rationale": "Abhor means detest / loathe / regard with intense aversion. 恶 wù is the verb meaning dislike or detest; standard Chinese translation: 憎恶／厌恶. Direct lexical-semantic equivalence: Yes, for this selected sense, not every use of the polyphonic character.",
+                  "source_refs": [
+                    "ABHOR-OALD",
+                    "ABHOR-ZD-WU"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "weak",
+                  "confidence": "Low",
+                  "rationale": "Modern abhor versus 恶 wù: weak whole-word resemblance, not homophony.",
+                  "features": {
+                    "onset": "English begins /əb-/ with /b/ before stressed /h/; Mandarin wù has zero consonantal initial, with possible phonetic [w] onset. Pinyin w is not English /h/.",
+                    "vowel": "English /ə, ɔː/ versus Mandarin /u/: different height and quality; broad rounding alone is weak.",
+                    "coda_other_consonants": "US /r/ adds a mismatch; reference non-rhotic UK isolation lacks final r.",
+                    "syllables": "Two English syllables versus one Mandarin syllable; /b/ and /h/ lack matches.",
+                    "prosody": "Mandarin fourth tone has no English lexical-tone equivalent."
+                  },
+                  "source_refs": [
+                    "ABHOR-OALD",
+                    "ABHOR-ZD-WU"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABHOR-OALD",
+                      "ABHOR-ZD-WU"
+                    ],
+                    "locator": null,
+                    "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "ABHOR-OALD",
+                      "ABHOR-ZD-WU"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Abhor means detest / loathe / regard with intense aversion. 恶 wù is the verb meaning dislike or detest; standard Chinese translation: 憎恶／厌恶. Direct lexical-semantic equivalence: Yes, for this selected sense, not every use of the polyphonic character.",
+                  "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "恶取 wù 的厌恶义，现代语义直接；声音弱。标准翻译采用憎恶／厌恶。",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              },
+              {
+                "candidate_id": "DIALECT-ABHOR-HUO-001",
+                "family_key": "legacy-abhor",
+                "target": {
+                  "form": "火",
+                  "lexical_layer": "Dialect",
+                  "language_variety": "Author-reported dialect; locality Pending",
+                  "period": {
+                    "label": "Author usage date/region Pending",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "meaning": {
+                    "gloss": "Author-reported 有火: displeasure / resentment / aversion; independent dialect evidence Pending",
+                    "pos": null,
+                    "constraints": []
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "ZH-DIALECT-ABHOR-HUO-001",
+                      "value": "huǒ [xwo˨˩˦]",
+                      "notation": "source_notation",
+                      "phonological_layer": "Modern Mandarin (not dialect audio)",
+                      "period": {
+                        "label": "Modern reference; exact documentation date not inferred",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": []
+                      },
+                      "variety": "Modern Mandarin (not dialect audio)",
+                      "system": "Existing entry transcription; see original scoped assessment",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABHOR-AUTHOR",
+                        "ABHOR-ZD-HUO",
+                        "ABHOR-OALD"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABHOR-AUTHOR",
+                    "ABHOR-ZD-HUO",
+                    "ABHOR-OALD"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "abhor",
+                  "source_pronunciation_ref": "PR-abhor",
+                  "target_pronunciation_ref": "ZH-DIALECT-ABHOR-HUO-001",
+                  "source_span": "modern -hor /hɔː(r)/; excludes /əb-/",
+                  "scope": "syllable",
+                  "hypothesis": {
+                    "group": null,
+                    "hit": false,
+                    "position": "No consonant-group claim",
+                    "version": "legacy hypothesis; not validated"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "indirect",
+                  "confidence": "Low",
+                  "rationale": "Featured Phonetic-Semantic / Dialectal-Affective Candidate. Author-attested negative attitude and an indirect FIRE/HEAT → strong negative affect bridge. Direct lexical-semantic equivalence: No. Independent evidence pending. Standard Translation: 憎恶 / 厌恶. Modern Standard Semantic Mapping: ABHOR → 恶 wù (Supported / A). Diachronic Semantic Mapping: HORRĒRE → 骇 hài (Candidate / C). Historical Relation: Not claimed.",
+                  "source_refs": [
+                    "ABHOR-AUTHOR",
+                    "ABHOR-ZD-HUO",
+                    "ABHOR-OALD"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "partial",
+                  "confidence": "Low",
+                  "rationale": "Compare only modern English -hor /hɔː(r)/ with Mandarin 火 [xwo˨˩˦]. Limited resemblance, not homophony or a demonstrated correspondence.",
+                  "features": {
+                    "onset": "English /h/ is glottal; Mandarin /x/ is velar. Both are voiceless fricative-like sounds, not identical places of articulation.",
+                    "vowel": "English /ɔː/ versus Mandarin /o/ after /w/: a broad rounded back-vowel resemblance; quality, duration and movement differ. Mandarin has /w/ (often transcribed as nonsyllabic u); English target has no corresponding glide.",
+                    "coda_other_consonants": "Reference non-rhotic British speech lacks final r in isolation; linking r can occur before a vowel. Reference US speech retains /r/, commonly [ɹ].",
+                    "syllables": "Not separately evaluated in existing research; no new rating.",
+                    "prosody": "Mandarin third tone, citation 214, has no English lexical-tone match; connected-speech realization varies."
+                  },
+                  "source_refs": [
+                    "ABHOR-OALD",
+                    "ABHOR-ZD-HUO",
+                    "ABHOR-FR"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "pending",
+                    "source_refs": [
+                      "ABHOR-AUTHOR",
+                      "ABHOR-ZD-HUO",
+                      "ABHOR-OALD"
+                    ],
+                    "locator": null,
+                    "note": "Author-reported construction; independent dialect entry and locality Pending. Standard anger uses do not prove aversion/detestation."
+                  },
+                  {
+                    "claim_scope": "comparison_inference",
+                    "status": "lead",
+                    "source_refs": [
+                      "ABHOR-AUTHOR",
+                      "ABHOR-ZD-HUO",
+                      "ABHOR-OALD"
+                    ],
+                    "locator": null,
+                    "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No independent cross-language historical evidence introduced."
+                },
+                "confounds": [
+                  "Featured Phonetic-Semantic / Dialectal-Affective Candidate. Author-attested negative attitude and an indirect FIRE/HEAT → strong negative affect bridge. Direct lexical-semantic equivalence: No. Independent evidence pending. Standard Translation: 憎恶 / 厌恶. Modern Standard Semantic Mapping: ABHOR → 恶 wù (Supported / A). Diachronic Semantic Mapping: HORRĒRE → 骇 hài (Candidate / C). Historical Relation: Not claimed.",
+                  "Abhor means detest or loathe; 火 means fire and has conventional anger uses. Direct lexical-semantic equivalence: No. ANGER ≠ AVERSION/DETESTATION; this is an indirect affective/cognitive bridge."
+                ],
+                "discovery_priority": "medium",
+                "decision_reason": "Featured Phonetic-Semantic / Dialectal-Affective Candidate. Author-attested negative attitude and an indirect FIRE/HEAT → strong negative affect bridge. Direct lexical-semantic equivalence: No. Independent evidence pending. Standard Translation: 憎恶 / 厌恶. Modern Standard Semantic Mapping: ABHOR → 恶 wù (Supported / A). Diachronic Semantic Mapping: HORRĒRE → 骇 hài (Candidate / C). Historical Relation: Not claimed.",
+                "review": {
+                  "status": "proposed",
+                  "reviewer": null,
+                  "date": "2026-09-19",
+                  "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+                }
+              }
+            ],
+            "review": {
+              "status": "proposed",
+              "reviewer": null,
+              "date": "2026-09-19",
+              "note": "Migration of previously reviewed research; no new linguistic verification or evidence promotion. Existing assessments retained in Research."
+            }
+          }
+        ],
+        "display_selection": {
+          "featured_candidate_ref": "DIALECT-ABHOR-HUO-001",
+          "stage_cards": [
+            {
+              "stage_mapping_ref": "SM-horrere",
+              "candidate_ref": "MAP-horrere-hai"
+            },
+            {
+              "stage_mapping_ref": "SM-abhor",
+              "candidate_ref": "MAP-abhor-modern-wu"
+            }
+          ],
+          "review_status": "approved",
+          "reviewer": "Jinkai Liu",
+          "reason": "沿用火的情绪／方言候选（D / Low），不是现代标准译词。作者报告与独立方言证据分开；独立证据、地域仍 Pending。声音仅比较现代 -hor 与普通话 huǒ，不代表方言实录。"
+        },
+        "historical_path": "Latin horrēre → Latin abhorrēre → Middle English abhorren → English abhor",
+        "semantic_path": "HORRĒRE — BRISTLE / SHUDDER / TREMBLE ↔ 骇 → RECOIL / AVERSION → ABHOR — DETEST / LOATHE ↔ 恶",
         "boundary": {
           "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
           "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
-        },
-        "mappings": [
-          {
-            "mapping_id": "MAP-horrere-hai",
-            "source": {
-              "language": "Latin",
-              "word": "horrēre",
-              "pronunciation": "Roman reference: h [h]; hor-rē-re (three syllables); ē long"
-            },
-            "target": {
-              "language": "Chinese",
-              "word": "骇",
-              "pronunciation": "hài [xaɪ˥˩]"
-            },
-            "source_semantics": "BRISTLE / SHUDDER / TREMBLE",
-            "target_sense": "惊惧／惊骇／受惊；非现代 abhor 直接译义",
-            "status": "Candidate",
-            "mapping_level": "C",
-            "confidence": "Medium",
-            "historical_relation_status": "Not claimed",
-            "phonetic_observation": {
-              "observation_id": "PHON-HORRERE-HAI",
-              "scope": "diachronic_semantic_mapping",
-              "status": "Candidate",
-              "claim": {
-                "en": "Latin horrēre versus modern Mandarin 骇 hài: limited initial similarity; not homophony.",
-                "zh-Hans": "拉丁 horrēre 对现代普通话骇 hài：只有有限起始音近似，不是同音。"
-              },
-              "reference_system": "Allen & Greenough, Roman pronunciation (DCC §§7–8); approximate classical reference, not a recording or a claim about every Latin period. No reconstructed Chinese reading.",
-              "segments": {
-                "onset": {
-                  "en": "Reference Latin h [h] versus Mandarin h [x]: different articulation; shared breath/frication does not establish a regular correspondence.",
-                  "zh-Hans": "参考拉丁 h [h] 对普通话 h [x]，发音部位不同；气流／摩擦性质相近不证明规律对应。"
-                },
-                "vowel": {
-                  "en": "Latin o–ē–e versus Mandarin ai: vowel sequence, length distinction and diphthong structure differ.",
-                  "zh-Hans": "拉丁 o–ē–e 对普通话 ai；元音序列、长短及复元音结构不同。"
-                },
-                "consonants": {
-                  "en": "Latin doubled rr and later r have no counterpart in hài; shared spelling h cannot erase them.",
-                  "zh-Hans": "拉丁双写 rr 及后续 r 在 hài 中无对应；不能因同写 h 而忽略。"
-                },
-                "syllables": {
-                  "en": "Applying the reference syllabification gives hor-rē-re, three syllables, against one Mandarin syllable.",
-                  "zh-Hans": "按参考分音节规则为 hor-rē-re，三音节对普通话一音节。"
-                },
-                "tone": {
-                  "en": "Mandarin fourth tone is not a match for Latin vowel length or stress.",
-                  "zh-Hans": "普通话去声不等于拉丁元音长度或重音。"
-                }
-              },
-              "rating": {
-                "score": 5,
-                "maximum": 30,
-                "confidence": "Low",
-                "method": "Provisional unvalidated editorial feature comparison; reference-system inference, not a measured historical pronunciation"
-              },
-              "source_refs": [
-                "REF-MW-ABHOR",
-                "ABHOR-DCC-PRON",
-                "ABHOR-DCC-SYLL",
-                "ABHOR-ZD-HAI"
-              ]
-            },
-            "mapping_assessment": {
-              "rubric": "Mapping Score v0.2 weights (words/man.html#mapping-score); qualitative A/B/C/D (protocol/protocol.mapping-framework.html#evaluation)",
-              "method": "Provisional editorial assessment, unvalidated; no automatic numerical cutoff or historical points.",
-              "dimensions": [
-                {
-                  "name": "Phonetic Relation",
-                  "weight": 30,
-                  "score": 5,
-                  "reason": "h [h] 对 h [x] 仅有限起始近似；元音、rr/r、三音节对一音节及声调均不同。"
-                },
-                {
-                  "name": "Semantic Relation",
-                  "weight": 30,
-                  "score": 18,
-                  "reason": "受惊／惊惧与身体反应阶段部分重叠；骇不直接等于竖毛、战栗的每个义项。"
-                },
-                {
-                  "name": "Structural / Cognitive Relation",
-                  "weight": 20,
-                  "score": 13,
-                  "reason": "身体反应与惊惧的概念关系可理解，但属于阶段比较，不是共同历史。"
-                },
-                {
-                  "name": "Contextual Validity",
-                  "weight": 20,
-                  "score": 7,
-                  "reason": "可用于历史语义说明；不能把骇用作现代 abhor 直接翻译；历史汉语书证待核。"
-                }
-              ],
-              "total": 43,
-              "maximum": 100,
-              "level": "C",
-              "confidence": "Medium",
-              "rationale": {
-                "en": "C — Experimental: a testable partial semantic-stage comparison with unresolved lexical and historical-Chinese boundaries. Latin etymology is established independently; the Chinese comparison remains Candidate.",
-                "zh-Hans": "C—Experimental：可检验的部分语义阶段比较，汉语古义与字面对应仍有限。拉丁词源独立成立；汉语比较保持 Candidate。"
-              },
-              "template_note": "A/B/C/D 按关系类型独立判定；数值无统一升级阈值，不是历史概率。软件回归不是语言实验。"
-            },
-            "boundary": {
-              "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
-              "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
-            },
-            "source_refs": [
-              "REF-MW-ABHOR",
-              "ABHOR-ZD-HAI",
-              "ABHOR-DCC-PRON",
-              "ABHOR-DCC-SYLL"
-            ]
-          }
-        ]
+        }
       },
       "dialectal_affective_semantic_candidate": {
         "candidate_id": "DIALECT-ABHOR-HUO-001",
@@ -19118,7 +21770,8 @@
           "ABHOR-OALD",
           "ABHOR-ZD-HUO",
           "ABHOR-AUTHOR"
-        ]
+        ],
+        "candidate_ref": "DIALECT-ABHOR-HUO-001"
       },
       "standard_translation": {
         "source": "abhor",
@@ -19155,6 +21808,165 @@
         "dialectal_confidence": "Low",
         "cognitive_confidence": "Low",
         "independent_evidence_status": "Pending"
+      },
+      "legacy_migration": {
+        "version": "0.1",
+        "baseline_commit": "5ed87f6b6d2aa99523368bd26aa4c7d43b8deb3b",
+        "scope": "Read-only Research archive of the pre-migration stage shape. Original assessments and author material elsewhere in this record are unchanged. Not a second active model.",
+        "previous_diachronic_semantic_mapping": {
+          "version": "1.0",
+          "status": "Historical semantic analysis; cross-language comparison remains Candidate",
+          "historical_path": "Latin horrēre → Latin abhorrēre → Middle English abhorren → English abhor",
+          "semantic_path": "HORRĒRE — BRISTLE / SHUDDER / TREMBLE ↔ 骇 → RECOIL / AVERSION → ABHOR — DETEST / LOATHE ↔ 恶",
+          "historical_stages": [
+            {
+              "stage_id": "horrere",
+              "form": "HORRĒRE",
+              "language": "Latin",
+              "meaning": "BRISTLE / SHUDDER / TREMBLE",
+              "source_refs": [
+                "REF-MW-ABHOR"
+              ]
+            },
+            {
+              "stage_id": "abhorrere",
+              "form": "ABHORRĒRE",
+              "language": "Latin",
+              "meaning": "RECOIL / AVERSION",
+              "source_refs": [
+                "REF-MW-ABHOR"
+              ]
+            },
+            {
+              "stage_id": "abhor",
+              "form": "ABHOR",
+              "language": "English",
+              "meaning": "DETEST / LOATHE",
+              "source_refs": [
+                "REF-MW-ABHOR"
+              ],
+              "modern_semantic_mapping_ref": "MAP-abhor-modern-wu"
+            }
+          ],
+          "boundary": {
+            "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
+            "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
+          },
+          "mappings": [
+            {
+              "mapping_id": "MAP-horrere-hai",
+              "source": {
+                "language": "Latin",
+                "word": "horrēre",
+                "pronunciation": "Roman reference: h [h]; hor-rē-re (three syllables); ē long"
+              },
+              "target": {
+                "language": "Chinese",
+                "word": "骇",
+                "pronunciation": "hài [xaɪ˥˩]"
+              },
+              "source_semantics": "BRISTLE / SHUDDER / TREMBLE",
+              "target_sense": "惊惧／惊骇／受惊；非现代 abhor 直接译义",
+              "status": "Candidate",
+              "mapping_level": "C",
+              "confidence": "Medium",
+              "historical_relation_status": "Not claimed",
+              "phonetic_observation": {
+                "observation_id": "PHON-HORRERE-HAI",
+                "scope": "diachronic_semantic_mapping",
+                "status": "Candidate",
+                "claim": {
+                  "en": "Latin horrēre versus modern Mandarin 骇 hài: limited initial similarity; not homophony.",
+                  "zh-Hans": "拉丁 horrēre 对现代普通话骇 hài：只有有限起始音近似，不是同音。"
+                },
+                "reference_system": "Allen & Greenough, Roman pronunciation (DCC §§7–8); approximate classical reference, not a recording or a claim about every Latin period. No reconstructed Chinese reading.",
+                "segments": {
+                  "onset": {
+                    "en": "Reference Latin h [h] versus Mandarin h [x]: different articulation; shared breath/frication does not establish a regular correspondence.",
+                    "zh-Hans": "参考拉丁 h [h] 对普通话 h [x]，发音部位不同；气流／摩擦性质相近不证明规律对应。"
+                  },
+                  "vowel": {
+                    "en": "Latin o–ē–e versus Mandarin ai: vowel sequence, length distinction and diphthong structure differ.",
+                    "zh-Hans": "拉丁 o–ē–e 对普通话 ai；元音序列、长短及复元音结构不同。"
+                  },
+                  "consonants": {
+                    "en": "Latin doubled rr and later r have no counterpart in hài; shared spelling h cannot erase them.",
+                    "zh-Hans": "拉丁双写 rr 及后续 r 在 hài 中无对应；不能因同写 h 而忽略。"
+                  },
+                  "syllables": {
+                    "en": "Applying the reference syllabification gives hor-rē-re, three syllables, against one Mandarin syllable.",
+                    "zh-Hans": "按参考分音节规则为 hor-rē-re，三音节对普通话一音节。"
+                  },
+                  "tone": {
+                    "en": "Mandarin fourth tone is not a match for Latin vowel length or stress.",
+                    "zh-Hans": "普通话去声不等于拉丁元音长度或重音。"
+                  }
+                },
+                "rating": {
+                  "score": 5,
+                  "maximum": 30,
+                  "confidence": "Low",
+                  "method": "Provisional unvalidated editorial feature comparison; reference-system inference, not a measured historical pronunciation"
+                },
+                "source_refs": [
+                  "REF-MW-ABHOR",
+                  "ABHOR-DCC-PRON",
+                  "ABHOR-DCC-SYLL",
+                  "ABHOR-ZD-HAI"
+                ]
+              },
+              "mapping_assessment": {
+                "rubric": "Mapping Score v0.2 weights (words/man.html#mapping-score); qualitative A/B/C/D (protocol/protocol.mapping-framework.html#evaluation)",
+                "method": "Provisional editorial assessment, unvalidated; no automatic numerical cutoff or historical points.",
+                "dimensions": [
+                  {
+                    "name": "Phonetic Relation",
+                    "weight": 30,
+                    "score": 5,
+                    "reason": "h [h] 对 h [x] 仅有限起始近似；元音、rr/r、三音节对一音节及声调均不同。"
+                  },
+                  {
+                    "name": "Semantic Relation",
+                    "weight": 30,
+                    "score": 18,
+                    "reason": "受惊／惊惧与身体反应阶段部分重叠；骇不直接等于竖毛、战栗的每个义项。"
+                  },
+                  {
+                    "name": "Structural / Cognitive Relation",
+                    "weight": 20,
+                    "score": 13,
+                    "reason": "身体反应与惊惧的概念关系可理解，但属于阶段比较，不是共同历史。"
+                  },
+                  {
+                    "name": "Contextual Validity",
+                    "weight": 20,
+                    "score": 7,
+                    "reason": "可用于历史语义说明；不能把骇用作现代 abhor 直接翻译；历史汉语书证待核。"
+                  }
+                ],
+                "total": 43,
+                "maximum": 100,
+                "level": "C",
+                "confidence": "Medium",
+                "rationale": {
+                  "en": "C — Experimental: a testable partial semantic-stage comparison with unresolved lexical and historical-Chinese boundaries. Latin etymology is established independently; the Chinese comparison remains Candidate.",
+                  "zh-Hans": "C—Experimental：可检验的部分语义阶段比较，汉语古义与字面对应仍有限。拉丁词源独立成立；汉语比较保持 Candidate。"
+                },
+                "template_note": "A/B/C/D 按关系类型独立判定；数值无统一升级阈值，不是历史概率。软件回归不是语言实验。"
+              },
+              "boundary": {
+                "en": "Semantic-stage comparison, not cross-language common descent or a dated linear chronology. 骇 compares fright/startle with the embodied reaction stage; it is not a literal equivalent of every BRISTLE/SHUDDER/TREMBLE sense or a direct modern translation of abhor. Modern Mandarin readings are not ancient Chinese reconstructions.",
+                "zh-Hans": "这是 semantic-stage comparison，不是跨语言共同词源或逐年代的线性词史。骇以惊惧／受惊义比较早期身体反应阶段，不等同于 BRISTLE/SHUDDER/TREMBLE 的每个字面义，也不是现代 abhor 的直接译词。普通话读音不是古汉语拟音。"
+              },
+              "source_refs": [
+                "REF-MW-ABHOR",
+                "ABHOR-ZD-HAI",
+                "ABHOR-DCC-PRON",
+                "ABHOR-DCC-SYLL"
+              ]
+            }
+          ]
+        }
       }
     },
     {
