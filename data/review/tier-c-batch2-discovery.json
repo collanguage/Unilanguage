@@ -1,0 +1,1116 @@
+{
+  "run_id": "tier-c-discovery-batch-2-2026-09-20",
+  "protocol": "Candidate Discovery Protocol v0.2",
+  "scope": "Discovery only; repository unchanged",
+  "baseline_commit": "e6109656fc350375a9719941f720294afb1db2b2",
+  "historical_relation_default": "Not claimed",
+  "featured": {
+    "ABRIDGE": "Pending",
+    "ALIMENT": "Pending",
+    "ACUMEN": "Pending",
+    "ABOUND": "Pending"
+  },
+  "status": {
+    "ABRIDGE": "Ready for Editorial Freeze",
+    "ALIMENT": "Ready for Editorial Freeze",
+    "ACUMEN": "Ready for Editorial Freeze",
+    "ABOUND": "Ready for Editorial Freeze"
+  },
+  "standard_translation": {
+    "ABRIDGE": "缩短；删节（文本）；限制（范围/权利语境）",
+    "ALIMENT": "食物／营养物（名词，旧式）；滋养／供养（动词）",
+    "ACUMEN": "敏锐的判断力／洞察力",
+    "ABOUND": "大量存在；富有／充满（in/with 构式）"
+  },
+  "shortlists": {
+    "ABRIDGE": [
+      "约 yuē",
+      "省 shěng",
+      "瘪 biě（仅认知/局部声音研究）"
+    ],
+    "ALIMENT": [
+      "养 yǎng（动词/AL1）",
+      "饵 ěr（古食物义）",
+      "粮 liáng（限食粮/给养）"
+    ],
+    "ACUMEN": [
+      "锐 ruì",
+      "颖 yǐng",
+      "快 kuài（有限候选）"
+    ],
+    "ABOUND": [
+      "溢 yì（历史涌溢）",
+      "丰 fēng（充裕）",
+      "满 mǎn（限满/充足）"
+    ]
+  },
+  "stage_columns": [
+    "id",
+    "source_form",
+    "source_language",
+    "approximate_period",
+    "meaning_freeze",
+    "semantic_operation",
+    "relation_type",
+    "chinese_mapping_status"
+  ],
+  "historical_stages": {
+    "ABRIDGE": [
+      [
+        "AR1",
+        "brevis",
+        "Latin",
+        "古典拉丁语；具体首见未核",
+        "SHORT，形容词",
+        "词族构词基础，不是独立的英语时代",
+        "root-basis",
+        "Not selected"
+      ],
+      [
+        "AR2",
+        "breviāre → abbreviāre",
+        "Latin / Late Latin",
+        "拉丁语至晚期拉丁语；约公元前1世纪—公元6世纪为宽泛语层，非首见日期",
+        "使变短、减缩",
+        "形容词到使成动词；ad- 构词",
+        "derivation",
+        "约、省；瘪为有限认知比较；薄 bó 为减损比较"
+      ],
+      [
+        "AR3",
+        "abreger；abregier（另一词典记形）→ abreggen/abriggen",
+        "Anglo-French / Old French label; Middle English",
+        "中世纪；英语首见14世纪",
+        "减缩；早期英语亦有剥夺义",
+        "借入/承继；不强制两种法语拼形构成先后链",
+        "borrowing",
+        "Not selected"
+      ],
+      [
+        "AR4",
+        "abridge",
+        "Modern English",
+        "现代；从中世纪承继",
+        "删节而保留核心；缩短时间/范围；限制",
+        "现代多义分支，不伪造其精确先后",
+        "continuation + sense differentiation",
+        "约、省；删为控制"
+      ]
+    ],
+    "ALIMENT": [
+      [
+        "AL1",
+        "alere",
+        "Latin",
+        "古典拉丁语；首见未核",
+        "NOURISH/SUPPORT",
+        "基础动词",
+        "root-basis",
+        "养 yǎng"
+      ],
+      [
+        "AL2",
+        "alimentum",
+        "Latin",
+        "古典拉丁语；首见未核",
+        "FOOD/SUSTENANCE",
+        "alere 词族 + -mentum 的名词派生",
+        "derivation",
+        "饵古义；粮、廪为限定义比较"
+      ],
+      [
+        "AL3",
+        "aliment → aliment (noun)",
+        "Middle French + English",
+        "中古法语；英语名词15世纪起",
+        "营养物/食物；英语可比喻精神滋养",
+        "英语同时有法语及拉丁语借入依据，不能只画单一路线",
+        "borrowing: Latin and Middle French",
+        "饵、粮；食为控制"
+      ],
+      [
+        "ALV",
+        "alimentāre → alimenter → aliment (verb)",
+        "Late Latin → Middle French → English",
+        "晚期拉丁语至中古法语；英语动词15世纪起",
+        "供给营养、维持",
+        "alimentum 的另一派生/借入分支，不是英语名词之后才出现",
+        "derivation + borrowing branch",
+        "养；廪的给粮义仅限制度语境"
+      ]
+    ],
+    "ACUMEN": [
+      [
+        "AC0",
+        "acuere / acū-",
+        "Latin",
+        "古典拉丁语；首见未核",
+        "SHARPEN",
+        "动词干；acū- 与 -men 构成名词",
+        "morphological-basis",
+        "Not selected"
+      ],
+      [
+        "AC1",
+        "acūmen",
+        "Latin",
+        "古典拉丁语；物理义与比喻义的精确先后未核",
+        "尖端、锐利之物",
+        "acū- + -men",
+        "derivation",
+        "锐、颖；快为有限比较"
+      ],
+      [
+        "AC2",
+        "acūmen",
+        "Latin",
+        "古典拉丁语，已含心智义",
+        "敏锐的心智",
+        "同一拉丁形式的比喻义，AC1/AC2 是 sense nodes",
+        "figurative sense; chronology not frozen",
+        "锐、颖、快；慧保留"
+      ],
+      [
+        "AC3",
+        "acumen",
+        "English",
+        "1579年左右起，至现代",
+        "洞察/审断能力",
+        "直接借入拉丁语；不是英语先物理后心智",
+        "borrowing",
+        "锐、快等；Featured Pending"
+      ]
+    ],
+    "ABOUND": [
+      [
+        "AO1",
+        "unda / undāre",
+        "Latin",
+        "古典拉丁语；首见未核",
+        "浪／波动、涌流",
+        "名词与派生动词，作为解释来源压缩一行",
+        "morphological-basis",
+        "溢只比较涌流/溢出操作，不说溢=浪"
+      ],
+      [
+        "AO2",
+        "abundāre",
+        "Latin",
+        "古典拉丁语；首见未核",
+        "OVERFLOW；充足、富有",
+        "ab- + undāre；物理与抽象义均已存在",
+        "derivation + figurative senses",
+        "溢；丰、满；沛有限"
+      ],
+      [
+        "AO3",
+        "abunder → abounden",
+        "Anglo-French → Middle English",
+        "中世纪；英语14世纪起",
+        "涌溢与丰富等义承继",
+        "借入；不是现代英语才首次出现大量义",
+        "borrowing",
+        "Not selected"
+      ],
+      [
+        "AO4",
+        "abound",
+        "Modern English",
+        "现代",
+        "大量存在；abound in/with 充满/富有",
+        "现代构式/义项冻结",
+        "continuation",
+        "丰；满、沛有限；多为控制"
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "id": "ABRIDGE-01",
+      "entry": "ABRIDGE",
+      "chinese_form": "约／約",
+      "reading": "yuē",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AR2/AR4",
+      "documented_meaning": "简要、简省、减少",
+      "semantic_fit": "强：简约/省减；保留主旨仍须具体语境",
+      "phonetic_fit": "弱：yuē 与 abridge 无稳定音段对应",
+      "lexicographic_evidence": {
+        "status": "mediated-HDC",
+        "url": "https://www.shidianguji.com/character/約",
+        "locator": "汉语大词典义项摘要",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "不采用 yāo 称量或约定义；概括不一定删去原文",
+      "historical_relation": "Not claimed",
+      "decision": "retain",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABRIDGE-02",
+      "entry": "ABRIDGE",
+      "chinese_form": "省",
+      "reading": "shěng",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AR2/AR4",
+      "documented_meaning": "减少、精简、省去",
+      "semantic_fit": "强：省减/省略；不单独保证忠实原意",
+      "phonetic_fit": "弱：sh 与 /br/ 不同，韵尾也不合",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/省",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "排除 xǐng 反省；省略有时损失意义",
+      "historical_relation": "Not claimed",
+      "decision": "retain",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABRIDGE-03",
+      "entry": "ABRIDGE",
+      "chinese_form": "瘪／癟",
+      "reading": "biě",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AR1/AR2",
+      "documented_meaning": "不饱满、凹陷、皱缩",
+      "semantic_fit": "有限：体积/形态缩减是认知桥，不是文本删节义",
+      "phonetic_fit": "有限局部：b=[p] 对现代 abridge 的 /b/；缺 /r/，/iɛ/ 不同于 /ɪ/，无 /dʒ/；Latin brev- 历史音未评分",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/瘪",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b baseline；不是扩展新增",
+      "counterevidence": "不能复制 ABBREVIATE 的评分；瘪不必由压缩造成；不能反推古音",
+      "historical_relation": "Not claimed",
+      "decision": "retain-limited",
+      "discovery_priority": 2,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABRIDGE-04",
+      "entry": "ABRIDGE",
+      "chinese_form": "薄",
+      "reading": "bó",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AR2/AR4",
+      "documented_meaning": "减轻、减损（如赋敛）",
+      "semantic_fit": "中：REDUCE 匹配；文本缩写非该义默认对象",
+      "phonetic_fit": "弱：只部分唇音接近；元音、/r/、尾音不合",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/薄",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b baseline",
+      "counterevidence": "冻结 bó 减损，非 báo 厚薄或 bò 薄荷；不得用薄书外观证明删节",
+      "historical_relation": "Not claimed",
+      "decision": "retain-limited",
+      "discovery_priority": 2,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABRIDGE-05",
+      "entry": "ABRIDGE",
+      "chinese_form": "删",
+      "reading": "shān",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AR4",
+      "documented_meaning": "删除、删去",
+      "semantic_fit": "强语义控制：删节操作；删本身不保证保留主旨",
+      "phonetic_fit": "弱：与 /əbrɪdʒ/ 不相近",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/删",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "单独删除可能破坏原义",
+      "historical_relation": "Not claimed",
+      "decision": "control",
+      "discovery_priority": 0,
+      "role": "semantic-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABRIDGE-06",
+      "entry": "ABRIDGE",
+      "chinese_form": "臂",
+      "reading": "bì",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AR4",
+      "documented_meaning": "手臂",
+      "semantic_fit": "不匹配 SHORTEN",
+      "phonetic_fit": "局部弱：/p/、高元音不足以对应 /brɪdʒ/ 全段",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/臂",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b baseline",
+      "counterevidence": "旧 bridge→臂 拆分不是 abridge 词史；bridge 不能进入该链",
+      "historical_relation": "Not claimed",
+      "decision": "reject",
+      "discovery_priority": 0,
+      "role": "legacy-negative-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABRIDGE-07",
+      "entry": "ABRIDGE",
+      "chinese_form": "笔",
+      "reading": "bǐ",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AR4",
+      "documented_meaning": "书写工具",
+      "semantic_fit": "不匹配：工具不是缩短操作",
+      "phonetic_fit": "局部相似程度不逊于臂，但声调不同、仍缺 /r,dʒ/",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/笔",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b baseline",
+      "counterevidence": "写作相关只是题材联想；检验只靠 b+i 的误配",
+      "historical_relation": "Not claimed",
+      "decision": "control",
+      "discovery_priority": 0,
+      "role": "sound-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ALIMENT-01",
+      "entry": "ALIMENT",
+      "chinese_form": "粮／糧",
+      "reading": "liáng",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AL2/AL3",
+      "documented_meaning": "谷物食粮；行旅或军用给养",
+      "semantic_fit": "中：FOOD/PROVISIONS 子域；不覆盖所有营养物",
+      "phonetic_fit": "弱局部：现代 aliment 内部 /l/ 可比，粮韵母与末 /ŋ/ 不同；整词三音节不能叫同音",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/粮",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "l baseline：词内位置，不是 liment 词根",
+      "counterevidence": "奶、蛋也可为 aliment；“粮”不能替代所有 nourishing substance",
+      "historical_relation": "Not claimed",
+      "decision": "downgrade",
+      "discovery_priority": 2,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ALIMENT-02",
+      "entry": "ALIMENT",
+      "chinese_form": "廪／廩",
+      "reading": "lǐn",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AL2/ALV",
+      "documented_meaning": "粮食；官府发粮、俸米",
+      "semantic_fit": "中：给养具体制度义；不是所有食物/滋养",
+      "phonetic_fit": "弱局部：词内 /l/ 可比，/n/ 与 aliment 中 /m/ 不同；不能删余音",
+      "lexicographic_evidence": {
+        "status": "mediated-HDC",
+        "url": "https://www.shidianguji.com/character/廩",
+        "locator": "汉语大词典义项摘要",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "l baseline；内部辅音",
+      "counterevidence": "粮仓义排除；方言 lam5/lim3 只有聚合读音线索，未绑定给养义",
+      "historical_relation": "Not claimed",
+      "decision": "retain-limited",
+      "discovery_priority": 2,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ALIMENT-03",
+      "entry": "ALIMENT",
+      "chinese_form": "饵／餌",
+      "reading": "ěr",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AL2/AL3",
+      "documented_meaning": "古义糕食；亦泛指食物",
+      "semantic_fit": "强于只理解现代诱饵，但须标古义",
+      "phonetic_fit": "弱：无 aliment 的 /l,m,n,t/；不提出古音近似",
+      "lexicographic_evidence": {
+        "status": "mediated-HDC",
+        "url": "https://www.shidianguji.com/character/餌",
+        "locator": "汉语大词典义项摘要",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "排除把现代 bait 直接等同一般营养；广义食物的原书证待核",
+      "historical_relation": "Not claimed",
+      "decision": "retain",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ALIMENT-04",
+      "entry": "ALIMENT",
+      "chinese_form": "养／養",
+      "reading": "yǎng",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AL1/ALV",
+      "documented_meaning": "提供生活所需、滋养",
+      "semantic_fit": "强：NOURISH/SUSTAIN 动词；不是名词 FOOD",
+      "phonetic_fit": "弱：无 /l/，韵尾不同；不作 whole-word 同音",
+      "lexicographic_evidence": {
+        "status": "mediated-HDC",
+        "url": "https://www.shidianguji.com/character/養",
+        "locator": "汉语大词典义项摘要",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "noun/verb 不可混用；不用 yàng 历史另一读音拼接",
+      "historical_relation": "Not claimed",
+      "decision": "retain",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ALIMENT-05",
+      "entry": "ALIMENT",
+      "chinese_form": "糯",
+      "reading": "nuò",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AL2/AL3",
+      "documented_meaning": "糯性谷物（糯米等）",
+      "semantic_fit": "低：食物下位种类，不是给养一般义",
+      "phonetic_fit": "弱：/n/ 与词内 /l/ 不同；韵母和全词结构不合",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/糯",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "d-t-n-l 扩展探针：内部 /l/→n",
+      "counterevidence": "物类过窄；命中分组不能弥补语义落差",
+      "historical_relation": "Not claimed",
+      "decision": "reject",
+      "discovery_priority": 0,
+      "role": "candidate",
+      "expansion_probe": true,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ALIMENT-06",
+      "entry": "ALIMENT",
+      "chinese_form": "食",
+      "reading": "shí",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AL2/AL3",
+      "documented_meaning": "食物",
+      "semantic_fit": "强：FOOD 的语义控制",
+      "phonetic_fit": "弱：无实际全词声音匹配",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/食",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "固定名词 shí；不挪用 sì 饲养读音",
+      "historical_relation": "Not claimed",
+      "decision": "control",
+      "discovery_priority": 0,
+      "role": "semantic-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ALIMENT-07",
+      "entry": "ALIMENT",
+      "chinese_form": "量",
+      "reading": "liáng",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AL2/AL3",
+      "documented_meaning": "测量",
+      "semantic_fit": "无关",
+      "phonetic_fit": "与粮普通话同音，仍与 aliment 只有局部 /l/ 联系",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/量",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "l baseline",
+      "counterevidence": "同音不能决定语义；不采用 liàng 数量义",
+      "historical_relation": "Not claimed",
+      "decision": "control",
+      "discovery_priority": 0,
+      "role": "sound-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ACUMEN-01",
+      "entry": "ACUMEN",
+      "chinese_form": "锐／銳",
+      "reading": "ruì",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AC1/AC2/AC3",
+      "documented_meaning": "锋利；敏锐、精明",
+      "semantic_fit": "强：物理锋利及心智敏锐的结构对应",
+      "phonetic_fit": "弱：ruì 不对应 /ækjəmən/ 或 /əkjuːmən/",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/锐",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "义项并存不等于双方同一路径或同年代演变",
+      "historical_relation": "Not claimed",
+      "decision": "retain",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ACUMEN-02",
+      "entry": "ACUMEN",
+      "chinese_form": "颖／穎",
+      "reading": "yǐng",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AC1/AC2",
+      "documented_meaning": "尖端；才智出众",
+      "semantic_fit": "强：尖端→才智的比喻结构；聪颖不全等于实际判断力",
+      "phonetic_fit": "弱：无 /k/，韵母韵尾不同",
+      "lexicographic_evidence": {
+        "status": "mediated-HDC",
+        "url": "https://www.shidianguji.com/character/穎",
+        "locator": "汉语大词典义项摘要",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "中文演变顺序及首见书证尚未冻结；不能把现代音充古音",
+      "historical_relation": "Not claimed",
+      "decision": "retain",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ACUMEN-03",
+      "entry": "ACUMEN",
+      "chinese_form": "慧",
+      "reading": "huì",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AC2/AC3",
+      "documented_meaning": "聪明、有才智",
+      "semantic_fit": "中强：智力相近；不专指审断力",
+      "phonetic_fit": "弱：h 常实现 [x]，与 /k/ 发音方式不同；元音及尾部不合",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/慧",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "g-k-h 扩展探针：现代词内 /k/→h",
+      "counterevidence": "不是规则音变；不以组命中增加评分",
+      "historical_relation": "Not claimed",
+      "decision": "retain-limited",
+      "discovery_priority": 2,
+      "role": "candidate",
+      "expansion_probe": true,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ACUMEN-04",
+      "entry": "ACUMEN",
+      "chinese_form": "快",
+      "reading": "kuài",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AC1/AC2/AC3",
+      "documented_meaning": "刀刃锋利；反应灵敏",
+      "semantic_fit": "中强：两义对应值得比较；速度快不保证判断准确",
+      "phonetic_fit": "有限局部：k=[kʰ] 与英语 /k/ 有软腭塞音共同点；/uaɪ/≠/juː/，缺 /mən/；重音变体也不能消除差异",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/快",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "k baseline；不计扩展新增",
+      "counterevidence": "不是 acu- 的历史音译；不可把 pleasure/FAST 全部映成 acumen",
+      "historical_relation": "Not claimed",
+      "decision": "retain-limited",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ACUMEN-05",
+      "entry": "ACUMEN",
+      "chinese_form": "尖",
+      "reading": "jiān",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AC1",
+      "documented_meaning": "尖端、锐利的形状",
+      "semantic_fit": "强：物理尖锐控制；不自动指心智敏锐",
+      "phonetic_fit": "弱：j=[tɕ] 与 /k/ 不同；尾部不合",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/尖",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "不把拼音 j 私自归 g-k-h",
+      "counterevidence": "人物尖刻不是 acumen 义",
+      "historical_relation": "Not claimed",
+      "decision": "control",
+      "discovery_priority": 0,
+      "role": "semantic-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ACUMEN-06",
+      "entry": "ACUMEN",
+      "chinese_form": "聚",
+      "reading": "jù",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AC3",
+      "documented_meaning": "聚集",
+      "semantic_fit": "不匹配心智敏锐",
+      "phonetic_fit": "局部弱：j=[tɕ] 与 /k/ 不同，ü=[y]≠/juː/；后续 /mən/ 缺失",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/聚",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "旧 cum 切分不成立",
+      "counterevidence": "acū- + -men 不等于 a/cum/en；集中注意力只是另加的认知桥",
+      "historical_relation": "Not claimed",
+      "decision": "reject",
+      "discovery_priority": 0,
+      "role": "legacy-negative-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ACUMEN-07",
+      "entry": "ACUMEN",
+      "chinese_form": "酷",
+      "reading": "kù",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AC3",
+      "documented_meaning": "残酷、严酷",
+      "semantic_fit": "无关",
+      "phonetic_fit": "局部 /k,u/ 相似却语义错配；仍缺全词其他音节",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/酷",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "k baseline",
+      "counterevidence": "不换成网络 cool 义营造聪明联想",
+      "historical_relation": "Not claimed",
+      "decision": "control",
+      "discovery_priority": 0,
+      "role": "sound-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABOUND-01",
+      "entry": "ABOUND",
+      "chinese_form": "溢",
+      "reading": "yì",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AO1/AO2",
+      "documented_meaning": "液体满而流出；充满、超出",
+      "semantic_fit": "强：OVERFLOW；不能替代全部现代大量存在义",
+      "phonetic_fit": "弱：无 /b/，无 /aʊnd/ 音段对应",
+      "lexicographic_evidence": {
+        "status": "mediated-HDC",
+        "url": "https://www.shidianguji.com/character/溢",
+        "locator": "汉语大词典义项摘要",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "有数量多但没有容器溢出的情境",
+      "historical_relation": "Not claimed",
+      "decision": "retain",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABOUND-02",
+      "entry": "ABOUND",
+      "chinese_form": "丰／豐",
+      "reading": "fēng",
+      "chinese_layer": "Historical character sense + modern reading",
+      "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+      "target_source_stage": "AO2/AO4",
+      "documented_meaning": "数量丰富、充裕",
+      "semantic_fit": "强：PLENTY；词性/构式须另配，通常非不及物动词",
+      "phonetic_fit": "弱：f=[f]≠/b/；/əŋ/≠/aʊnd/，只属候选组",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/丰",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b-p-m-f 扩展探针：现代词内 /b/→f",
+      "counterevidence": "不把简体丰的字形当豐义历史证明；丰富不必是经济繁荣",
+      "historical_relation": "Not claimed",
+      "decision": "retain",
+      "discovery_priority": 1,
+      "role": "candidate",
+      "expansion_probe": true,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABOUND-03",
+      "entry": "ABOUND",
+      "chinese_form": "满／滿",
+      "reading": "mǎn",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AO2/AO4",
+      "documented_meaning": "充满、达到容量",
+      "semantic_fit": "中：full；容器满与数量多并非处处互换",
+      "phonetic_fit": "弱局部：唇音/鼻音、末 /n/ 有局部特征；/m/≠/b/，无 /d/，元音不同",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/满",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b-p-m-f 扩展探针：现代词内 /b/→m",
+      "counterevidence": "大量分散存在不等于填满容器",
+      "historical_relation": "Not claimed",
+      "decision": "retain-limited",
+      "discovery_priority": 2,
+      "role": "candidate",
+      "expansion_probe": true,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABOUND-04",
+      "entry": "ABOUND",
+      "chinese_form": "沛",
+      "reading": "pèi",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AO2/AO4",
+      "documented_meaning": "充盛（如充沛）；水势盛的用法待原条深核",
+      "semantic_fit": "中：充足/盛多；不等于所有 abound 构式",
+      "phonetic_fit": "弱：p=[pʰ] 与 /b/ 送气/清浊不同；/eɪ/≠/aʊ/，无 /nd/",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/沛",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b-p-m-f 扩展探针：现代词内 /b/→p",
+      "counterevidence": "复合词充沛的适用范围不能无限扩大；水→抽象路径保持 Pending",
+      "historical_relation": "Not claimed",
+      "decision": "retain-limited",
+      "discovery_priority": 2,
+      "role": "candidate",
+      "expansion_probe": true,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABOUND-05",
+      "entry": "ABOUND",
+      "chinese_form": "多",
+      "reading": "duō",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AO4",
+      "documented_meaning": "数量大",
+      "semantic_fit": "强：大量存在的语义控制",
+      "phonetic_fit": "弱：声母元音及韵尾不合",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/多",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "组外",
+      "counterevidence": "只表示多，不能独自覆盖 be well supplied with 的构式",
+      "historical_relation": "Not claimed",
+      "decision": "control",
+      "discovery_priority": 0,
+      "role": "semantic-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABOUND-06",
+      "entry": "ABOUND",
+      "chinese_form": "蹦",
+      "reading": "bèng",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AO4",
+      "documented_meaning": "跳跃",
+      "semantic_fit": "不匹配：繁荣只是旧作者联想",
+      "phonetic_fit": "局部弱：b=[p] 对 /b/；/əŋ/≠/aʊnd/，声调非英语重音",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/蹦",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b baseline",
+      "counterevidence": "经济跳起不是 Latin overflow 证据；可存文学观察，不作映射依据",
+      "historical_relation": "Not claimed",
+      "decision": "reject",
+      "discovery_priority": 0,
+      "role": "legacy-negative-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    },
+    {
+      "id": "ABOUND-07",
+      "entry": "ABOUND",
+      "chinese_form": "邦",
+      "reading": "bāng",
+      "chinese_layer": "Modern Mandarin",
+      "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+      "target_source_stage": "AO4",
+      "documented_meaning": "国家、邦国",
+      "semantic_fit": "无关",
+      "phonetic_fit": "局部唇塞音和低元音不足；/ɑŋ/≠/aʊnd/",
+      "lexicographic_evidence": {
+        "status": "online-entry",
+        "url": "https://zdic.net/hans/邦",
+        "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+        "paper_original": "Pending"
+      },
+      "consonant_group_relation": "b baseline",
+      "counterevidence": "组内音近义远控制；无历史语义桥",
+      "historical_relation": "Not claimed",
+      "decision": "control",
+      "discovery_priority": 0,
+      "role": "sound-control",
+      "expansion_probe": false,
+      "confidence": {
+        "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+        "phonetic": "limited: 仅声明的现代音层",
+        "cross_language_history": "not claimed"
+      },
+      "historical_phonetics": "not_evaluated"
+    }
+  ],
+  "measurement_limits": "No randomized/budget-matched baseline; candidate-generation provenance is not a causal precision estimate.",
+  "stage_sources": {
+    "ABRIDGE": [
+      "https://www.merriam-webster.com/dictionary/abridge",
+      "https://www.merriam-webster.com/dictionary/abbreviate",
+      "https://www.oxfordlearnersdictionaries.com/definition/english/abridge"
+    ],
+    "ALIMENT": [
+      "https://www.merriam-webster.com/dictionary/aliment"
+    ],
+    "ACUMEN": [
+      "https://www.merriam-webster.com/dictionary/acumen"
+    ],
+    "ABOUND": [
+      "https://www.merriam-webster.com/dictionary/abound"
+    ]
+  },
+  "source_access_date": "2026-09-20",
+  "provenance_note": "现代读音比较与历史语义对齐分别记录；不是历史声音对应证明。扩展标签是复查标签，不是随机实验的检索归因。"
+}

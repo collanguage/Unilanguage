@@ -5,10 +5,10 @@ const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffe
 const es=slugs.map(s=>require('../data/entries/'+s+'.v1.json')),data=require('../data/language-book.v1.0.json');
 test('Batch 1 scope: all other entries/pages, schema and Mapper UI remain byte-identical',()=>{
  const before=JSON.parse(get('data/language-book.v1.0.json'));
- const b2=['universe','human','abbey','abash','horizon','horse','media','aback','sound'];
+ const b2=['universe','human','abbey','abash','horizon','horse','media','aback','sound','abridge','aliment','acumen','abound'];
  assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)).map(e=>b2.includes(e.slug)?legacyEntry(e):e),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const dir of ['data/entries','words'])for(const file of fs.readdirSync(dir)){
-  if([...slugs,'universe','man','abbey','abash','horizon','horse','media','aback','sound'].some(s=>file===s+'.html'||file===s+'.v1.json'))continue;
+  if([...slugs,'universe','man','abbey','abash','horizon','horse','media','aback','sound','abridge','aliment','acumen','abound'].some(s=>file===s+'.html'||file===s+'.v1.json'))continue;
   const p=dir+'/'+file;if(fs.statSync(p).isFile())assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
  }
  for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);

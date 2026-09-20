@@ -2,8 +2,8 @@
   "id": "LB-en-abound-025",
   "slug": "abound",
   "title": {
-    "en": "abound · Legacy Website Import",
-    "zh-Hans": "abound · 旧站导入"
+    "en": "ABOUND · 大量存在；富有／充满（in/with 构式）",
+    "zh-Hans": "ABOUND · 大量存在；富有／充满（in/with 构式）"
   },
   "languages": [
     {
@@ -31,7 +31,7 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "大量存在／繁盛",
+      "word": "大量存在／富有／充满",
       "pronunciation": "dàliàng cúnzài / fánshèng"
     },
     "gloss": {
@@ -39,10 +39,10 @@
       "zh-Hans": "大量存在、充满或富有"
     },
     "meaning": {
-      "en": "to be present in large numbers or amounts; to be rich or well supplied. The standard mapping is independent from the legacy sound hypothesis.",
-      "zh-Hans": "大量存在、充满或富有。标准词义 Mapping 与旧站声音假说独立。"
+      "en": "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。",
+      "zh-Hans": "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected",
     "rationale": {
       "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
       "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
@@ -313,6 +313,78 @@
       "url": "https://www.merriam-webster.com/dictionary/abound",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-01",
+      "title": "Merriam-Webster · abound",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.merriam-webster.com/dictionary/abound",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-02",
+      "title": "识典古籍《汉语大词典》义项摘要 · 溢",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.shidianguji.com/character/溢",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-03",
+      "title": "汉典 · 丰",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/丰",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-04",
+      "title": "汉典 · 满",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/满",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-05",
+      "title": "汉典 · 沛",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/沛",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-06",
+      "title": "汉典 · 多",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/多",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-07",
+      "title": "汉典 · 蹦",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/蹦",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-08",
+      "title": "汉典 · 邦",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/邦",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ABOUND-SRC-09",
+      "title": "Oxford Learner’s Dictionaries · abound",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/abound",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
     }
   ],
   "author": "Jinkai Liu",
@@ -330,6 +402,10 @@
     {
       "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
       "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+    },
+    {
+      "en": "Semantic research value ≠ phonetic match. Featured is optional; independent from evidence. Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。",
+      "zh-Hans": "Semantic research value ≠ phonetic match. Featured is optional; independent from evidence. Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
     }
   ],
   "search_terms": [
@@ -342,9 +418,15 @@
     "充满",
     "蹦",
     "beng",
-    "overflow"
+    "overflow",
+    "大量存在；富有／充满（in/with 构式）",
+    "溢",
+    "丰",
+    "满",
+    "沛",
+    "大量存在"
   ],
-  "page": null,
+  "page": "words/abound.html",
   "legacy": {
     "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
     "source_url": "https://languagesbook.com/glossary/a-bound%ef%bc%8c%e6%a3%92%ef%bc%9b%e7%b9%81%e8%8d%a3%e3%80%82/",
@@ -364,5 +446,1571 @@
     "ordinal": 2,
     "disposition": "Reviewed",
     "priority_score": 88.8
+  },
+  "standard_translation": {
+    "source": "abound",
+    "target": "大量存在；富有／充满（in/with 构式）",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "TC2-ABOUND-SRC-01"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-abound-primary",
+    "source": {
+      "language": "English",
+      "word": "abound",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "大量存在／富有／充满",
+      "pronunciation": "dàliàng cúnzài / fánshèng"
+    },
+    "gloss": {
+      "en": "to be present in large numbers or amounts; to be rich or well supplied",
+      "zh-Hans": "大量存在、充满或富有"
+    },
+    "meaning": {
+      "en": "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。",
+      "zh-Hans": "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "AO1",
+        "form": "unda / undāre",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语；首见未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ABOUND-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "浪／波动、涌流",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "TC2-ABOUND-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "名词与派生动词，作为解释来源压缩一行; Chinese Mapping: 溢只比较涌流/溢出操作，不说溢=浪"
+      },
+      {
+        "stage_id": "AO2",
+        "form": "abundāre",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语；首见未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ABOUND-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "OVERFLOW；充足、富有",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "AO1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "ab- + undāre；物理与抽象义均已存在; Chinese Mapping: 溢；丰、满；沛有限",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ABOUND-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ABOUND-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "ab- + undāre；物理与抽象义均已存在; Chinese Mapping: 溢；丰、满；沛有限"
+      },
+      {
+        "stage_id": "AO3",
+        "form": "abunder → abounden",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Anglo-French → Middle English",
+          "code": null
+        },
+        "period": {
+          "label": "中世纪；英语14世纪起",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ABOUND-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "涌溢与丰富等义承继",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "AO2",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "借入；不是现代英语才首次出现大量义; Chinese Mapping: Not selected",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ABOUND-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ABOUND-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "借入；不是现代英语才首次出现大量义; Chinese Mapping: Not selected"
+      },
+      {
+        "stage_id": "AO4",
+        "form": "abound",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "现代",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ABOUND-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "大量存在；abound in/with 充满/富有",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-AO4",
+            "value": "/əˈbaʊnd/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "TC2-ABOUND-SRC-09"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "AO3",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_continuation",
+              "description": "现代构式/义项冻结; Chinese Mapping: 丰；满、沛有限；多为控制",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ABOUND-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ABOUND-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "现代构式/义项冻结; Chinese Mapping: 丰；满、沛有限；多为控制"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-AO2",
+        "stage_ref": "AO2",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "OVERFLOW；充足、富有",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Historical character sense"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "OVERFLOW；充足、富有"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC2-ABOUND-01",
+            "family_key": "legacy-abound",
+            "target": {
+              "form": "溢",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "液体满而流出；充满、超出",
+                "pos": null,
+                "constraints": [
+                  "有数量多但没有容器溢出的情境"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ABOUND-01",
+                  "value": "yì",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ABOUND-SRC-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ABOUND-SRC-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AO2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC2-ABOUND-01",
+              "source_span": "abundāre",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强：OVERFLOW；不能替代全部现代大量存在义",
+              "source_refs": [
+                "TC2-ABOUND-SRC-01",
+                "TC2-ABOUND-SRC-02"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not frozen; not_evaluated. Modern reference only: 弱：无 /b/，无 /aʊnd/ 音段对应",
+              "features": {
+                "onset": "弱：无 /b/，无 /aʊnd/ 音段对应; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：无 /b/，无 /aʊnd/ 音段对应; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：无 /b/，无 /aʊnd/ 音段对应; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：无 /b/，无 /aʊnd/ 音段对应; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：无 /b/，无 /aʊnd/ 音段对应; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ABOUND-SRC-02"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-02"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; mediated-HDC; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-02"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "有数量多但没有容器溢出的情境",
+              "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "有数量多但没有容器溢出的情境; 强：OVERFLOW；不能替代全部现代大量存在义",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-AO4",
+        "stage_ref": "AO4",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "大量存在；abound in/with 充满/富有",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Historical character sense",
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "大量存在；abound in/with 充满/富有"
+            ],
+            "consonant_hypotheses": [
+              "b-p-m-f"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC2-ABOUND-02",
+            "family_key": "legacy-abound",
+            "target": {
+              "form": "丰",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "数量丰富、充裕",
+                "pos": null,
+                "constraints": [
+                  "不把简体丰的字形当豐义历史证明；丰富不必是经济繁荣"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ABOUND-02",
+                  "value": "fēng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ABOUND-SRC-03"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ABOUND-SRC-03"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AO4",
+              "source_pronunciation_ref": "PR-AO4",
+              "target_pronunciation_ref": "ZH-TC2-ABOUND-02",
+              "source_span": "abound",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "b-p-m-f 扩展探针：现代词内 /b/→f",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强：PLENTY；词性/构式须另配，通常非不及物动词",
+              "source_refs": [
+                "TC2-ABOUND-SRC-01",
+                "TC2-ABOUND-SRC-03"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱：f=[f]≠/b/；/əŋ/≠/aʊnd/，只属候选组",
+              "features": {
+                "onset": "弱：f=[f]≠/b/；/əŋ/≠/aʊnd/，只属候选组; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：f=[f]≠/b/；/əŋ/≠/aʊnd/，只属候选组; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：f=[f]≠/b/；/əŋ/≠/aʊnd/，只属候选组; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：f=[f]≠/b/；/əŋ/≠/aʊnd/，只属候选组; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：f=[f]≠/b/；/əŋ/≠/aʊnd/，只属候选组; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ABOUND-SRC-03"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-03"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-03"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不把简体丰的字形当豐义历史证明；丰富不必是经济繁荣",
+              "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "不把简体丰的字形当豐义历史证明；丰富不必是经济繁荣; 强：PLENTY；词性/构式须另配，通常非不及物动词",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ABOUND-03",
+            "family_key": "legacy-abound",
+            "target": {
+              "form": "满",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "充满、达到容量",
+                "pos": null,
+                "constraints": [
+                  "大量分散存在不等于填满容器"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ABOUND-03",
+                  "value": "mǎn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ABOUND-SRC-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ABOUND-SRC-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AO4",
+              "source_pronunciation_ref": "PR-AO4",
+              "target_pronunciation_ref": "ZH-TC2-ABOUND-03",
+              "source_span": "abound",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "b-p-m-f 扩展探针：现代词内 /b/→m",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "中：full；容器满与数量多并非处处互换",
+              "source_refs": [
+                "TC2-ABOUND-SRC-01",
+                "TC2-ABOUND-SRC-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱局部：唇音/鼻音、末 /n/ 有局部特征；/m/≠/b/，无 /d/，元音不同",
+              "features": {
+                "onset": "弱局部：唇音/鼻音、末 /n/ 有局部特征；/m/≠/b/，无 /d/，元音不同; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱局部：唇音/鼻音、末 /n/ 有局部特征；/m/≠/b/，无 /d/，元音不同; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱局部：唇音/鼻音、末 /n/ 有局部特征；/m/≠/b/，无 /d/，元音不同; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱局部：唇音/鼻音、末 /n/ 有局部特征；/m/≠/b/，无 /d/，元音不同; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱局部：唇音/鼻音、末 /n/ 有局部特征；/m/≠/b/，无 /d/，元音不同; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ABOUND-SRC-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-04"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "大量分散存在不等于填满容器",
+              "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "大量分散存在不等于填满容器; 中：full；容器满与数量多并非处处互换",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ABOUND-04",
+            "family_key": "legacy-abound",
+            "target": {
+              "form": "沛",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "充盛（如充沛）；水势盛的用法待原条深核",
+                "pos": null,
+                "constraints": [
+                  "复合词充沛的适用范围不能无限扩大；水→抽象路径保持 Pending"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ABOUND-04",
+                  "value": "pèi",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ABOUND-SRC-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ABOUND-SRC-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AO4",
+              "source_pronunciation_ref": "PR-AO4",
+              "target_pronunciation_ref": "ZH-TC2-ABOUND-04",
+              "source_span": "abound",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "b-p-m-f 扩展探针：现代词内 /b/→p",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "中：充足/盛多；不等于所有 abound 构式",
+              "source_refs": [
+                "TC2-ABOUND-SRC-01",
+                "TC2-ABOUND-SRC-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱：p=[pʰ] 与 /b/ 送气/清浊不同；/eɪ/≠/aʊ/，无 /nd/",
+              "features": {
+                "onset": "弱：p=[pʰ] 与 /b/ 送气/清浊不同；/eɪ/≠/aʊ/，无 /nd/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：p=[pʰ] 与 /b/ 送气/清浊不同；/eɪ/≠/aʊ/，无 /nd/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：p=[pʰ] 与 /b/ 送气/清浊不同；/eɪ/≠/aʊ/，无 /nd/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：p=[pʰ] 与 /b/ 送气/清浊不同；/eɪ/≠/aʊ/，无 /nd/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：p=[pʰ] 与 /b/ 送气/清浊不同；/eɪ/≠/aʊ/，无 /nd/; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ABOUND-SRC-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-05"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "复合词充沛的适用范围不能无限扩大；水→抽象路径保持 Pending",
+              "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "复合词充沛的适用范围不能无限扩大；水→抽象路径保持 Pending; 中：充足/盛多；不等于所有 abound 构式",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ABOUND-05",
+            "family_key": "legacy-abound",
+            "target": {
+              "form": "多",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "数量大",
+                "pos": null,
+                "constraints": [
+                  "只表示多，不能独自覆盖 be well supplied with 的构式"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ABOUND-05",
+                  "value": "duō",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ABOUND-SRC-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ABOUND-SRC-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AO4",
+              "source_pronunciation_ref": "PR-AO4",
+              "target_pronunciation_ref": "ZH-TC2-ABOUND-05",
+              "source_span": "abound",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强：大量存在的语义控制",
+              "source_refs": [
+                "TC2-ABOUND-SRC-01",
+                "TC2-ABOUND-SRC-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱：声母元音及韵尾不合",
+              "features": {
+                "onset": "弱：声母元音及韵尾不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：声母元音及韵尾不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：声母元音及韵尾不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：声母元音及韵尾不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：声母元音及韵尾不合; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ABOUND-SRC-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-06"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "只表示多，不能独自覆盖 be well supplied with 的构式",
+              "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "只表示多，不能独自覆盖 be well supplied with 的构式; 强：大量存在的语义控制",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ABOUND-06",
+            "family_key": "legacy-abound",
+            "target": {
+              "form": "蹦",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "跳跃",
+                "pos": null,
+                "constraints": [
+                  "经济跳起不是 Latin overflow 证据；可存文学观察，不作映射依据"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ABOUND-06",
+                  "value": "bèng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ABOUND-SRC-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ABOUND-SRC-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AO4",
+              "source_pronunciation_ref": "PR-AO4",
+              "target_pronunciation_ref": "ZH-TC2-ABOUND-06",
+              "source_span": "abound",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "b baseline",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "不匹配：繁荣只是旧作者联想",
+              "source_refs": [
+                "TC2-ABOUND-SRC-01",
+                "TC2-ABOUND-SRC-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 局部弱：b=[p] 对 /b/；/əŋ/≠/aʊnd/，声调非英语重音",
+              "features": {
+                "onset": "局部弱：b=[p] 对 /b/；/əŋ/≠/aʊnd/，声调非英语重音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "局部弱：b=[p] 对 /b/；/əŋ/≠/aʊnd/，声调非英语重音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "局部弱：b=[p] 对 /b/；/əŋ/≠/aʊnd/，声调非英语重音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "局部弱：b=[p] 对 /b/；/əŋ/≠/aʊnd/，声调非英语重音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "局部弱：b=[p] 对 /b/；/əŋ/≠/aʊnd/，声调非英语重音; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ABOUND-SRC-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-07"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "经济跳起不是 Latin overflow 证据；可存文学观察，不作映射依据",
+              "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "经济跳起不是 Latin overflow 证据；可存文学观察，不作映射依据; 不匹配：繁荣只是旧作者联想",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ABOUND-07",
+            "family_key": "legacy-abound",
+            "target": {
+              "form": "邦",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "国家、邦国",
+                "pos": null,
+                "constraints": [
+                  "组内音近义远控制；无历史语义桥"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ABOUND-07",
+                  "value": "bāng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ABOUND-SRC-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ABOUND-SRC-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AO4",
+              "source_pronunciation_ref": "PR-AO4",
+              "target_pronunciation_ref": "ZH-TC2-ABOUND-07",
+              "source_span": "abound",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "b baseline",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "无关",
+              "source_refs": [
+                "TC2-ABOUND-SRC-01",
+                "TC2-ABOUND-SRC-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 局部唇塞音和低元音不足；/ɑŋ/≠/aʊnd/",
+              "features": {
+                "onset": "局部唇塞音和低元音不足；/ɑŋ/≠/aʊnd/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "局部唇塞音和低元音不足；/ɑŋ/≠/aʊnd/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "局部唇塞音和低元音不足；/ɑŋ/≠/aʊnd/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "局部唇塞音和低元音不足；/ɑŋ/≠/aʊnd/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "局部唇塞音和低元音不足；/ɑŋ/≠/aʊnd/; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ABOUND-SRC-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-08"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ABOUND-SRC-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "组内音近义远控制；无历史语义桥",
+              "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "组内音近义远控制；无历史语义桥; 无关",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-AO2",
+          "candidate_ref": "TC2-ABOUND-01"
+        },
+        {
+          "stage_mapping_ref": "SM-AO4",
+          "candidate_ref": "TC2-ABOUND-02"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+    },
+    "historical_path": "unda / undāre [AO1]; abundāre [AO2]; abunder → abounden [AO3]; abound [AO4]",
+    "semantic_path": "Related meaning nodes, not mechanically chronological: 浪／波动、涌流; OVERFLOW；充足、富有; 涌溢与丰富等义承继; 大量存在；abound in/with 充满/富有",
+    "boundary": {
+      "en": "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。",
+      "zh-Hans": "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "tier-c-discovery-batch-2-2026-09-20",
+    "candidates": [
+      {
+        "id": "ABOUND-01",
+        "entry": "ABOUND",
+        "chinese_form": "溢",
+        "reading": "yì",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AO1/AO2",
+        "documented_meaning": "液体满而流出；充满、超出",
+        "semantic_fit": "强：OVERFLOW；不能替代全部现代大量存在义",
+        "phonetic_fit": "弱：无 /b/，无 /aʊnd/ 音段对应",
+        "lexicographic_evidence": {
+          "status": "mediated-HDC",
+          "url": "https://www.shidianguji.com/character/溢",
+          "locator": "汉语大词典义项摘要",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "组外",
+        "counterevidence": "有数量多但没有容器溢出的情境",
+        "historical_relation": "Not claimed",
+        "decision": "retain",
+        "discovery_priority": 1,
+        "role": "candidate",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ABOUND-02",
+        "entry": "ABOUND",
+        "chinese_form": "丰／豐",
+        "reading": "fēng",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AO2/AO4",
+        "documented_meaning": "数量丰富、充裕",
+        "semantic_fit": "强：PLENTY；词性/构式须另配，通常非不及物动词",
+        "phonetic_fit": "弱：f=[f]≠/b/；/əŋ/≠/aʊnd/，只属候选组",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/丰",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "b-p-m-f 扩展探针：现代词内 /b/→f",
+        "counterevidence": "不把简体丰的字形当豐义历史证明；丰富不必是经济繁荣",
+        "historical_relation": "Not claimed",
+        "decision": "retain",
+        "discovery_priority": 1,
+        "role": "candidate",
+        "expansion_probe": true,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ABOUND-03",
+        "entry": "ABOUND",
+        "chinese_form": "满／滿",
+        "reading": "mǎn",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AO2/AO4",
+        "documented_meaning": "充满、达到容量",
+        "semantic_fit": "中：full；容器满与数量多并非处处互换",
+        "phonetic_fit": "弱局部：唇音/鼻音、末 /n/ 有局部特征；/m/≠/b/，无 /d/，元音不同",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/满",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "b-p-m-f 扩展探针：现代词内 /b/→m",
+        "counterevidence": "大量分散存在不等于填满容器",
+        "historical_relation": "Not claimed",
+        "decision": "retain-limited",
+        "discovery_priority": 2,
+        "role": "candidate",
+        "expansion_probe": true,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ABOUND-04",
+        "entry": "ABOUND",
+        "chinese_form": "沛",
+        "reading": "pèi",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AO2/AO4",
+        "documented_meaning": "充盛（如充沛）；水势盛的用法待原条深核",
+        "semantic_fit": "中：充足/盛多；不等于所有 abound 构式",
+        "phonetic_fit": "弱：p=[pʰ] 与 /b/ 送气/清浊不同；/eɪ/≠/aʊ/，无 /nd/",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/沛",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "b-p-m-f 扩展探针：现代词内 /b/→p",
+        "counterevidence": "复合词充沛的适用范围不能无限扩大；水→抽象路径保持 Pending",
+        "historical_relation": "Not claimed",
+        "decision": "retain-limited",
+        "discovery_priority": 2,
+        "role": "candidate",
+        "expansion_probe": true,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ABOUND-05",
+        "entry": "ABOUND",
+        "chinese_form": "多",
+        "reading": "duō",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AO4",
+        "documented_meaning": "数量大",
+        "semantic_fit": "强：大量存在的语义控制",
+        "phonetic_fit": "弱：声母元音及韵尾不合",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/多",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "组外",
+        "counterevidence": "只表示多，不能独自覆盖 be well supplied with 的构式",
+        "historical_relation": "Not claimed",
+        "decision": "control",
+        "discovery_priority": 0,
+        "role": "semantic-control",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ABOUND-06",
+        "entry": "ABOUND",
+        "chinese_form": "蹦",
+        "reading": "bèng",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AO4",
+        "documented_meaning": "跳跃",
+        "semantic_fit": "不匹配：繁荣只是旧作者联想",
+        "phonetic_fit": "局部弱：b=[p] 对 /b/；/əŋ/≠/aʊnd/，声调非英语重音",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/蹦",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "b baseline",
+        "counterevidence": "经济跳起不是 Latin overflow 证据；可存文学观察，不作映射依据",
+        "historical_relation": "Not claimed",
+        "decision": "reject",
+        "discovery_priority": 0,
+        "role": "legacy-negative-control",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ABOUND-07",
+        "entry": "ABOUND",
+        "chinese_form": "邦",
+        "reading": "bāng",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AO4",
+        "documented_meaning": "国家、邦国",
+        "semantic_fit": "无关",
+        "phonetic_fit": "局部唇塞音和低元音不足；/ɑŋ/≠/aʊnd/",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/邦",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "b baseline",
+        "counterevidence": "组内音近义远控制；无历史语义桥",
+        "historical_relation": "Not claimed",
+        "decision": "control",
+        "discovery_priority": 0,
+        "role": "sound-control",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      }
+    ],
+    "freeze": "Featured Mapping: Pending。溢 yì对应abundāre的overflow义，丰 fēng对应abundance/plenty及现代大量义。满 mǎn仅留适用构式Research；溢→丰不是中文历史派生链，蹦不是词源依据。",
+    "note": "Original 28-row Discovery preserved; active roles in mappings reflect approved Editorial Freeze. No new candidates."
+  },
+  "legacy_migration": {
+    "version": "tier-c-batch2-0.1",
+    "baseline_commit": "e6109656fc350375a9719941f720294afb1db2b2",
+    "scope": "Exact original record archive; superseded claims remain Research, not current Featured evidence.",
+    "previous_fields": {
+      "title": {
+        "en": "abound · Legacy Website Import",
+        "zh-Hans": "abound · 旧站导入"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-abound-primary",
+        "source": {
+          "language": "English",
+          "word": "abound",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "大量存在／繁盛",
+          "pronunciation": "dàliàng cúnzài / fánshèng"
+        },
+        "gloss": {
+          "en": "to be present in large numbers or amounts; to be rich or well supplied",
+          "zh-Hans": "大量存在、充满或富有"
+        },
+        "meaning": {
+          "en": "to be present in large numbers or amounts; to be rich or well supplied. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "大量存在、充满或富有。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABOUND",
+          "title": "languagesbook.com legacy entry: abound，繁荣。蹦 beng。经济蹦起即繁荣",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-bound%ef%bc%8c%e6%a3%92%ef%bc%9b%e7%b9%81%e8%8d%a3%e3%80%82/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABOUND",
+          "title": "Merriam-Webster Dictionary: abound",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abound",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 88.8/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 88.8/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The standard meaning is abundance, not specifically economic prosperity; 蹦 is literary/cognitive.",
+          "zh-Hans": "标准义是大量存在，并不限于经济繁荣；“蹦”属于文学／认知联想。"
+        }
+      ],
+      "search_terms": [
+        "abound",
+        "abundance",
+        "abundant",
+        "繁荣",
+        "繁盛",
+        "大量",
+        "充满",
+        "蹦",
+        "beng",
+        "overflow"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery"
+    ]
   }
 }

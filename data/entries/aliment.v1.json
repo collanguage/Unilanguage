@@ -2,8 +2,8 @@
   "id": "LB-en-aliment-028",
   "slug": "aliment",
   "title": {
-    "en": "aliment · Legacy Website Import",
-    "zh-Hans": "aliment · 旧站导入"
+    "en": "ALIMENT · 食物／营养物（名词，旧式）；滋养／供养（动词）",
+    "zh-Hans": "ALIMENT · 食物／营养物（名词，旧式）；滋养／供养（动词）"
   },
   "languages": [
     {
@@ -31,7 +31,7 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "食物／营养",
+      "word": "食物／营养物",
       "pronunciation": "shíwù / yíngyǎng"
     },
     "gloss": {
@@ -39,10 +39,10 @@
       "zh-Hans": "食物、营养或维持生命之物"
     },
     "meaning": {
-      "en": "food or nourishment; something that sustains. The standard mapping is independent from the legacy sound hypothesis.",
-      "zh-Hans": "食物、营养或维持生命之物。标准词义 Mapping 与旧站声音假说独立。"
+      "en": "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。",
+      "zh-Hans": "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected",
     "rationale": {
       "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
       "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
@@ -312,6 +312,70 @@
       "url": "https://www.merriam-webster.com/dictionary/aliment",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "TC2-ALIMENT-SRC-01",
+      "title": "Merriam-Webster · aliment",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.merriam-webster.com/dictionary/aliment",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ALIMENT-SRC-02",
+      "title": "汉典 · 粮",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/粮",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ALIMENT-SRC-03",
+      "title": "识典古籍《汉语大词典》义项摘要 · 廩",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.shidianguji.com/character/廩",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ALIMENT-SRC-04",
+      "title": "识典古籍《汉语大词典》义项摘要 · 餌",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.shidianguji.com/character/餌",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ALIMENT-SRC-05",
+      "title": "识典古籍《汉语大词典》义项摘要 · 養",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.shidianguji.com/character/養",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ALIMENT-SRC-06",
+      "title": "汉典 · 糯",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/糯",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ALIMENT-SRC-07",
+      "title": "汉典 · 食",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/食",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ALIMENT-SRC-08",
+      "title": "汉典 · 量",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/量",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
     }
   ],
   "author": "Jinkai Liu",
@@ -329,6 +393,10 @@
     {
       "en": "粮 is a strong semantic equivalent but not an established source or cognate of aliment.",
       "zh-Hans": "“粮”是强语义对应，但不是 aliment 的已证来源或同源词。"
+    },
+    {
+      "en": "Semantic research value ≠ phonetic match. Featured is optional; independent from evidence. Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。",
+      "zh-Hans": "Semantic research value ≠ phonetic match. Featured is optional; independent from evidence. Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
     }
   ],
   "search_terms": [
@@ -340,9 +408,13 @@
     "粮",
     "粮食",
     "liang",
-    "nourishment"
+    "nourishment",
+    "食物／营养物（名词，旧式）；滋养／供养（动词）",
+    "廪",
+    "饵",
+    "养"
   ],
-  "page": null,
+  "page": "words/aliment.html",
   "legacy": {
     "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
     "source_url": "https://languagesbook.com/glossary/a-lim-ent%ef%bc%8c%e7%b2%ae%ef%bc%9b%e9%a3%9f%e7%89%a9/",
@@ -362,5 +434,1632 @@
     "ordinal": 5,
     "disposition": "Reviewed",
     "priority_score": 87.7
+  },
+  "standard_translation": {
+    "source": "aliment",
+    "target": "食物／营养物（名词，旧式）；滋养／供养（动词）",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "TC2-ALIMENT-SRC-01"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-aliment-primary",
+    "source": {
+      "language": "English",
+      "word": "aliment",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "食物／营养物",
+      "pronunciation": "shíwù / yíngyǎng"
+    },
+    "gloss": {
+      "en": "food or nourishment; something that sustains",
+      "zh-Hans": "食物、营养或维持生命之物"
+    },
+    "meaning": {
+      "en": "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。",
+      "zh-Hans": "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "AL1",
+        "form": "alere",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语；首见未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ALIMENT-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "NOURISH/SUPPORT",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "TC2-ALIMENT-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "基础动词; Chinese Mapping: 养 yǎng"
+      },
+      {
+        "stage_id": "AL2",
+        "form": "alimentum",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语；首见未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ALIMENT-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "FOOD/SUSTENANCE",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "AL1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "alere 词族 + -mentum 的名词派生; Chinese Mapping: 饵古义；粮、廪为限定义比较",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ALIMENT-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ALIMENT-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "alere 词族 + -mentum 的名词派生; Chinese Mapping: 饵古义；粮、廪为限定义比较"
+      },
+      {
+        "stage_id": "AL3",
+        "form": "aliment → aliment (noun)",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Middle French + English",
+          "code": null
+        },
+        "period": {
+          "label": "中古法语；英语名词15世纪起",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ALIMENT-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "营养物/食物；英语可比喻精神滋养",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-AL3",
+            "value": "ˈa-lə-mənt (Merriam-Webster source notation, noun)",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "TC2-ALIMENT-SRC-01"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "AL2",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "英语同时有法语及拉丁语借入依据，不能只画单一路线; Chinese Mapping: 饵、粮；食为控制",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ALIMENT-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ALIMENT-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "英语同时有法语及拉丁语借入依据，不能只画单一路线; Chinese Mapping: 饵、粮；食为控制"
+      },
+      {
+        "stage_id": "ALV",
+        "form": "alimentāre → alimenter → aliment (verb)",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Late Latin → Middle French → English",
+          "code": null
+        },
+        "period": {
+          "label": "晚期拉丁语至中古法语；英语动词15世纪起",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ALIMENT-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "供给营养、维持",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-ALV",
+            "value": "ˈa-lə-ˌment (Merriam-Webster source notation, English verb)",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "TC2-ALIMENT-SRC-01"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "AL2",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "alimentum 的另一派生/借入分支，不是英语名词之后才出现; Chinese Mapping: 养；廪的给粮义仅限制度语境; English endpoint pronunciation only, not Latin/French reconstruction.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ALIMENT-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ALIMENT-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "alimentum 的另一派生/借入分支，不是英语名词之后才出现; Chinese Mapping: 养；廪的给粮义仅限制度语境; English endpoint pronunciation only, not Latin/French reconstruction."
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-AL2",
+        "stage_ref": "AL2",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "FOOD/SUSTENANCE",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Historical character sense"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "FOOD/SUSTENANCE"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC2-ALIMENT-02",
+            "family_key": "legacy-aliment",
+            "target": {
+              "form": "廪",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "粮食；官府发粮、俸米",
+                "pos": null,
+                "constraints": [
+                  "粮仓义排除；方言 lam5/lim3 只有聚合读音线索，未绑定给养义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ALIMENT-02",
+                  "value": "lǐn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ALIMENT-SRC-03"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ALIMENT-SRC-03"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AL2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC2-ALIMENT-02",
+              "source_span": "alimentum",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "l baseline；内部辅音",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "中：给养具体制度义；不是所有食物/滋养",
+              "source_refs": [
+                "TC2-ALIMENT-SRC-01",
+                "TC2-ALIMENT-SRC-03"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not frozen; not_evaluated. Modern reference only: 弱局部：词内 /l/ 可比，/n/ 与 aliment 中 /m/ 不同；不能删余音",
+              "features": {
+                "onset": "弱局部：词内 /l/ 可比，/n/ 与 aliment 中 /m/ 不同；不能删余音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱局部：词内 /l/ 可比，/n/ 与 aliment 中 /m/ 不同；不能删余音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱局部：词内 /l/ 可比，/n/ 与 aliment 中 /m/ 不同；不能删余音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱局部：词内 /l/ 可比，/n/ 与 aliment 中 /m/ 不同；不能删余音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱局部：词内 /l/ 可比，/n/ 与 aliment 中 /m/ 不同；不能删余音; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ALIMENT-SRC-03"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-03"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; mediated-HDC; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-03"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "粮仓义排除；方言 lam5/lim3 只有聚合读音线索，未绑定给养义",
+              "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "粮仓义排除；方言 lam5/lim3 只有聚合读音线索，未绑定给养义; 中：给养具体制度义；不是所有食物/滋养",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ALIMENT-03",
+            "family_key": "legacy-aliment",
+            "target": {
+              "form": "饵",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "古义糕食；亦泛指食物",
+                "pos": null,
+                "constraints": [
+                  "排除把现代 bait 直接等同一般营养；广义食物的原书证待核"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ALIMENT-03",
+                  "value": "ěr",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ALIMENT-SRC-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ALIMENT-SRC-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AL2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC2-ALIMENT-03",
+              "source_span": "alimentum",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强于只理解现代诱饵，但须标古义",
+              "source_refs": [
+                "TC2-ALIMENT-SRC-01",
+                "TC2-ALIMENT-SRC-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not frozen; not_evaluated. Modern reference only: 弱：无 aliment 的 /l,m,n,t/；不提出古音近似",
+              "features": {
+                "onset": "弱：无 aliment 的 /l,m,n,t/；不提出古音近似; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：无 aliment 的 /l,m,n,t/；不提出古音近似; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：无 aliment 的 /l,m,n,t/；不提出古音近似; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：无 aliment 的 /l,m,n,t/；不提出古音近似; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：无 aliment 的 /l,m,n,t/；不提出古音近似; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ALIMENT-SRC-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-04"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; mediated-HDC; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "排除把现代 bait 直接等同一般营养；广义食物的原书证待核",
+              "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "排除把现代 bait 直接等同一般营养；广义食物的原书证待核; 强于只理解现代诱饵，但须标古义",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-AL3",
+        "stage_ref": "AL3",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "营养物/食物；英语可比喻精神滋养",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "pending",
+          "scope": {
+            "lexical_layers": [
+              "Historical character sense",
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "营养物/食物；英语可比喻精神滋养"
+            ],
+            "consonant_hypotheses": [
+              "d-t-n-l"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC2-ALIMENT-01",
+            "family_key": "legacy-aliment",
+            "target": {
+              "form": "粮",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "谷物食粮；行旅或军用给养",
+                "pos": null,
+                "constraints": [
+                  "奶、蛋也可为 aliment；“粮”不能替代所有 nourishing substance"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ALIMENT-01",
+                  "value": "liáng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ALIMENT-SRC-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ALIMENT-SRC-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AL3",
+              "source_pronunciation_ref": "PR-AL3",
+              "target_pronunciation_ref": "ZH-TC2-ALIMENT-01",
+              "source_span": "aliment → aliment (noun)",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "l baseline：词内位置，不是 liment 词根",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "中：FOOD/PROVISIONS 子域；不覆盖所有营养物",
+              "source_refs": [
+                "TC2-ALIMENT-SRC-01",
+                "TC2-ALIMENT-SRC-02"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱局部：现代 aliment 内部 /l/ 可比，粮韵母与末 /ŋ/ 不同；整词三音节不能叫同音",
+              "features": {
+                "onset": "弱局部：现代 aliment 内部 /l/ 可比，粮韵母与末 /ŋ/ 不同；整词三音节不能叫同音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱局部：现代 aliment 内部 /l/ 可比，粮韵母与末 /ŋ/ 不同；整词三音节不能叫同音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱局部：现代 aliment 内部 /l/ 可比，粮韵母与末 /ŋ/ 不同；整词三音节不能叫同音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱局部：现代 aliment 内部 /l/ 可比，粮韵母与末 /ŋ/ 不同；整词三音节不能叫同音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱局部：现代 aliment 内部 /l/ 可比，粮韵母与末 /ŋ/ 不同；整词三音节不能叫同音; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ALIMENT-SRC-02"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-02"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-02"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "奶、蛋也可为 aliment；“粮”不能替代所有 nourishing substance",
+              "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "奶、蛋也可为 aliment；“粮”不能替代所有 nourishing substance; 中：FOOD/PROVISIONS 子域；不覆盖所有营养物",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ALIMENT-05",
+            "family_key": "legacy-aliment",
+            "target": {
+              "form": "糯",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "糯性谷物（糯米等）",
+                "pos": null,
+                "constraints": [
+                  "物类过窄；命中分组不能弥补语义落差"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ALIMENT-05",
+                  "value": "nuò",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ALIMENT-SRC-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ALIMENT-SRC-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AL3",
+              "source_pronunciation_ref": "PR-AL3",
+              "target_pronunciation_ref": "ZH-TC2-ALIMENT-05",
+              "source_span": "aliment → aliment (noun)",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "d-t-n-l",
+                "hit": true,
+                "position": "d-t-n-l 扩展探针：内部 /l/→n",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "低：食物下位种类，不是给养一般义",
+              "source_refs": [
+                "TC2-ALIMENT-SRC-01",
+                "TC2-ALIMENT-SRC-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱：/n/ 与词内 /l/ 不同；韵母和全词结构不合",
+              "features": {
+                "onset": "弱：/n/ 与词内 /l/ 不同；韵母和全词结构不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：/n/ 与词内 /l/ 不同；韵母和全词结构不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：/n/ 与词内 /l/ 不同；韵母和全词结构不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：/n/ 与词内 /l/ 不同；韵母和全词结构不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：/n/ 与词内 /l/ 不同；韵母和全词结构不合; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ALIMENT-SRC-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-06"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "物类过窄；命中分组不能弥补语义落差",
+              "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "物类过窄；命中分组不能弥补语义落差; 低：食物下位种类，不是给养一般义",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ALIMENT-06",
+            "family_key": "legacy-aliment",
+            "target": {
+              "form": "食",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "食物",
+                "pos": null,
+                "constraints": [
+                  "固定名词 shí；不挪用 sì 饲养读音"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ALIMENT-06",
+                  "value": "shí",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ALIMENT-SRC-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ALIMENT-SRC-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AL3",
+              "source_pronunciation_ref": "PR-AL3",
+              "target_pronunciation_ref": "ZH-TC2-ALIMENT-06",
+              "source_span": "aliment → aliment (noun)",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强：FOOD 的语义控制",
+              "source_refs": [
+                "TC2-ALIMENT-SRC-01",
+                "TC2-ALIMENT-SRC-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱：无实际全词声音匹配",
+              "features": {
+                "onset": "弱：无实际全词声音匹配; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：无实际全词声音匹配; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：无实际全词声音匹配; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：无实际全词声音匹配; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：无实际全词声音匹配; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ALIMENT-SRC-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-07"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "固定名词 shí；不挪用 sì 饲养读音",
+              "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "固定名词 shí；不挪用 sì 饲养读音; 强：FOOD 的语义控制",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ALIMENT-07",
+            "family_key": "legacy-aliment",
+            "target": {
+              "form": "量",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "测量",
+                "pos": null,
+                "constraints": [
+                  "同音不能决定语义；不采用 liàng 数量义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ALIMENT-07",
+                  "value": "liáng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ALIMENT-SRC-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ALIMENT-SRC-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AL3",
+              "source_pronunciation_ref": "PR-AL3",
+              "target_pronunciation_ref": "ZH-TC2-ALIMENT-07",
+              "source_span": "aliment → aliment (noun)",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "l baseline",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "无关",
+              "source_refs": [
+                "TC2-ALIMENT-SRC-01",
+                "TC2-ALIMENT-SRC-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 与粮普通话同音，仍与 aliment 只有局部 /l/ 联系",
+              "features": {
+                "onset": "与粮普通话同音，仍与 aliment 只有局部 /l/ 联系; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "与粮普通话同音，仍与 aliment 只有局部 /l/ 联系; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "与粮普通话同音，仍与 aliment 只有局部 /l/ 联系; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "与粮普通话同音，仍与 aliment 只有局部 /l/ 联系; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "与粮普通话同音，仍与 aliment 只有局部 /l/ 联系; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ALIMENT-SRC-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-08"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "同音不能决定语义；不采用 liàng 数量义",
+              "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "同音不能决定语义；不采用 liàng 数量义; 无关",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-ALV",
+        "stage_ref": "ALV",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "供给营养、维持",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Historical character sense"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "供给营养、维持"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC2-ALIMENT-04",
+            "family_key": "legacy-aliment",
+            "target": {
+              "form": "养",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "提供生活所需、滋养",
+                "pos": null,
+                "constraints": [
+                  "noun/verb 不可混用；不用 yàng 历史另一读音拼接"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ALIMENT-04",
+                  "value": "yǎng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ALIMENT-SRC-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ALIMENT-SRC-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "ALV",
+              "source_pronunciation_ref": "PR-ALV",
+              "target_pronunciation_ref": "ZH-TC2-ALIMENT-04",
+              "source_span": "alimentāre → alimenter → aliment (verb)",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强：NOURISH/SUSTAIN 动词；不是名词 FOOD",
+              "source_refs": [
+                "TC2-ALIMENT-SRC-01",
+                "TC2-ALIMENT-SRC-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱：无 /l/，韵尾不同；不作 whole-word 同音",
+              "features": {
+                "onset": "弱：无 /l/，韵尾不同；不作 whole-word 同音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：无 /l/，韵尾不同；不作 whole-word 同音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：无 /l/，韵尾不同；不作 whole-word 同音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：无 /l/，韵尾不同；不作 whole-word 同音; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：无 /l/，韵尾不同；不作 whole-word 同音; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ALIMENT-SRC-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-05"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; mediated-HDC; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ALIMENT-SRC-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "noun/verb 不可混用；不用 yàng 历史另一读音拼接",
+              "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "noun/verb 不可混用；不用 yàng 历史另一读音拼接; 强：NOURISH/SUSTAIN 动词；不是名词 FOOD",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-ALV",
+          "candidate_ref": "TC2-ALIMENT-04"
+        },
+        {
+          "stage_mapping_ref": "SM-AL2",
+          "candidate_ref": "TC2-ALIMENT-03"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+    },
+    "historical_path": "alere [AL1]; alimentum [AL2]; aliment → aliment (noun) [AL3]; alimentāre → alimenter → aliment (verb) [ALV]",
+    "semantic_path": "Related meaning nodes, not mechanically chronological: NOURISH/SUPPORT; FOOD/SUSTENANCE; 营养物/食物；英语可比喻精神滋养; 供给营养、维持",
+    "boundary": {
+      "en": "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。",
+      "zh-Hans": "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "tier-c-discovery-batch-2-2026-09-20",
+    "candidates": [
+      {
+        "id": "ALIMENT-01",
+        "entry": "ALIMENT",
+        "chinese_form": "粮／糧",
+        "reading": "liáng",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AL2/AL3",
+        "documented_meaning": "谷物食粮；行旅或军用给养",
+        "semantic_fit": "中：FOOD/PROVISIONS 子域；不覆盖所有营养物",
+        "phonetic_fit": "弱局部：现代 aliment 内部 /l/ 可比，粮韵母与末 /ŋ/ 不同；整词三音节不能叫同音",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/粮",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "l baseline：词内位置，不是 liment 词根",
+        "counterevidence": "奶、蛋也可为 aliment；“粮”不能替代所有 nourishing substance",
+        "historical_relation": "Not claimed",
+        "decision": "downgrade",
+        "discovery_priority": 2,
+        "role": "candidate",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ALIMENT-02",
+        "entry": "ALIMENT",
+        "chinese_form": "廪／廩",
+        "reading": "lǐn",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AL2/ALV",
+        "documented_meaning": "粮食；官府发粮、俸米",
+        "semantic_fit": "中：给养具体制度义；不是所有食物/滋养",
+        "phonetic_fit": "弱局部：词内 /l/ 可比，/n/ 与 aliment 中 /m/ 不同；不能删余音",
+        "lexicographic_evidence": {
+          "status": "mediated-HDC",
+          "url": "https://www.shidianguji.com/character/廩",
+          "locator": "汉语大词典义项摘要",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "l baseline；内部辅音",
+        "counterevidence": "粮仓义排除；方言 lam5/lim3 只有聚合读音线索，未绑定给养义",
+        "historical_relation": "Not claimed",
+        "decision": "retain-limited",
+        "discovery_priority": 2,
+        "role": "candidate",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ALIMENT-03",
+        "entry": "ALIMENT",
+        "chinese_form": "饵／餌",
+        "reading": "ěr",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AL2/AL3",
+        "documented_meaning": "古义糕食；亦泛指食物",
+        "semantic_fit": "强于只理解现代诱饵，但须标古义",
+        "phonetic_fit": "弱：无 aliment 的 /l,m,n,t/；不提出古音近似",
+        "lexicographic_evidence": {
+          "status": "mediated-HDC",
+          "url": "https://www.shidianguji.com/character/餌",
+          "locator": "汉语大词典义项摘要",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "组外",
+        "counterevidence": "排除把现代 bait 直接等同一般营养；广义食物的原书证待核",
+        "historical_relation": "Not claimed",
+        "decision": "retain",
+        "discovery_priority": 1,
+        "role": "candidate",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ALIMENT-04",
+        "entry": "ALIMENT",
+        "chinese_form": "养／養",
+        "reading": "yǎng",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AL1/ALV",
+        "documented_meaning": "提供生活所需、滋养",
+        "semantic_fit": "强：NOURISH/SUSTAIN 动词；不是名词 FOOD",
+        "phonetic_fit": "弱：无 /l/，韵尾不同；不作 whole-word 同音",
+        "lexicographic_evidence": {
+          "status": "mediated-HDC",
+          "url": "https://www.shidianguji.com/character/養",
+          "locator": "汉语大词典义项摘要",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "组外",
+        "counterevidence": "noun/verb 不可混用；不用 yàng 历史另一读音拼接",
+        "historical_relation": "Not claimed",
+        "decision": "retain",
+        "discovery_priority": 1,
+        "role": "candidate",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ALIMENT-05",
+        "entry": "ALIMENT",
+        "chinese_form": "糯",
+        "reading": "nuò",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AL2/AL3",
+        "documented_meaning": "糯性谷物（糯米等）",
+        "semantic_fit": "低：食物下位种类，不是给养一般义",
+        "phonetic_fit": "弱：/n/ 与词内 /l/ 不同；韵母和全词结构不合",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/糯",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "d-t-n-l 扩展探针：内部 /l/→n",
+        "counterevidence": "物类过窄；命中分组不能弥补语义落差",
+        "historical_relation": "Not claimed",
+        "decision": "reject",
+        "discovery_priority": 0,
+        "role": "candidate",
+        "expansion_probe": true,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ALIMENT-06",
+        "entry": "ALIMENT",
+        "chinese_form": "食",
+        "reading": "shí",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AL2/AL3",
+        "documented_meaning": "食物",
+        "semantic_fit": "强：FOOD 的语义控制",
+        "phonetic_fit": "弱：无实际全词声音匹配",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/食",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "组外",
+        "counterevidence": "固定名词 shí；不挪用 sì 饲养读音",
+        "historical_relation": "Not claimed",
+        "decision": "control",
+        "discovery_priority": 0,
+        "role": "semantic-control",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ALIMENT-07",
+        "entry": "ALIMENT",
+        "chinese_form": "量",
+        "reading": "liáng",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AL2/AL3",
+        "documented_meaning": "测量",
+        "semantic_fit": "无关",
+        "phonetic_fit": "与粮普通话同音，仍与 aliment 只有局部 /l/ 联系",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/量",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "l baseline",
+        "counterevidence": "同音不能决定语义；不采用 liàng 数量义",
+        "historical_relation": "Not claimed",
+        "decision": "control",
+        "discovery_priority": 0,
+        "role": "sound-control",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      }
+    ],
+    "freeze": "Featured Mapping: Pending。养 yǎng对应NOURISH动词，饵 ěr仅比较古食物义，粮 liáng限食粮/部分给养；名词食物与动词滋养分支独立。liment不是词根，粮与全词并不同音。",
+    "note": "Original 28-row Discovery preserved; active roles in mappings reflect approved Editorial Freeze. No new candidates."
+  },
+  "legacy_migration": {
+    "version": "tier-c-batch2-0.1",
+    "baseline_commit": "e6109656fc350375a9719941f720294afb1db2b2",
+    "scope": "Exact original record archive; superseded claims remain Research, not current Featured evidence.",
+    "previous_fields": {
+      "title": {
+        "en": "aliment · Legacy Website Import",
+        "zh-Hans": "aliment · 旧站导入"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-aliment-primary",
+        "source": {
+          "language": "English",
+          "word": "aliment",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "食物／营养",
+          "pronunciation": "shíwù / yíngyǎng"
+        },
+        "gloss": {
+          "en": "food or nourishment; something that sustains",
+          "zh-Hans": "食物、营养或维持生命之物"
+        },
+        "meaning": {
+          "en": "food or nourishment; something that sustains. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "食物、营养或维持生命之物。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ALIMENT",
+          "title": "languagesbook.com legacy entry: aliment，粮。粮 liang。liment 与粮 liang 音同",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-lim-ent%ef%bc%8c%e7%b2%ae%ef%bc%9b%e9%a3%9f%e7%89%a9/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ALIMENT",
+          "title": "Merriam-Webster Dictionary: aliment",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/aliment",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 87.7/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 87.7/100 仅用于编辑分流。"
+        },
+        {
+          "en": "粮 is a strong semantic equivalent but not an established source or cognate of aliment.",
+          "zh-Hans": "“粮”是强语义对应，但不是 aliment 的已证来源或同源词。"
+        }
+      ],
+      "search_terms": [
+        "aliment",
+        "alimentary",
+        "alimenter",
+        "食物",
+        "营养",
+        "粮",
+        "粮食",
+        "liang",
+        "nourishment"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery"
+    ]
   }
 }

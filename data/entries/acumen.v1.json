@@ -2,8 +2,8 @@
   "id": "LB-en-acumen-027",
   "slug": "acumen",
   "title": {
-    "en": "acumen · Legacy Website Import",
-    "zh-Hans": "acumen · 旧站导入"
+    "en": "ACUMEN · 敏锐的判断力／洞察力",
+    "zh-Hans": "ACUMEN · 敏锐的判断力／洞察力"
   },
   "languages": [
     {
@@ -31,7 +31,7 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "敏锐／洞察力",
+      "word": "洞察力／敏锐的判断力",
       "pronunciation": "mǐnruì / dòngchálì"
     },
     "gloss": {
@@ -39,10 +39,10 @@
       "zh-Hans": "敏锐而深入的洞察、辨别或判断能力"
     },
     "meaning": {
-      "en": "keenness and depth of perception, discernment or judgment. The standard mapping is independent from the legacy sound hypothesis.",
-      "zh-Hans": "敏锐而深入的洞察、辨别或判断能力。标准词义 Mapping 与旧站声音假说独立。"
+      "en": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+      "zh-Hans": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected",
     "rationale": {
       "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
       "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
@@ -312,6 +312,78 @@
       "url": "https://www.merriam-webster.com/dictionary/acumen",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-01",
+      "title": "Merriam-Webster · acumen",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.merriam-webster.com/dictionary/acumen",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-02",
+      "title": "汉典 · 锐",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/锐",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-03",
+      "title": "识典古籍《汉语大词典》义项摘要 · 穎",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.shidianguji.com/character/穎",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-04",
+      "title": "汉典 · 慧",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/慧",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-05",
+      "title": "汉典 · 快",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/快",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-06",
+      "title": "汉典 · 尖",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/尖",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-07",
+      "title": "汉典 · 聚",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/聚",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-08",
+      "title": "汉典 · 酷",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://zdic.net/hans/酷",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
+    },
+    {
+      "reference_id": "TC2-ACUMEN-SRC-09",
+      "title": "Oxford Learner’s Dictionaries · acumen",
+      "type": "Scoped source inherited from approved Discovery / Editorial Freeze",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/acumen",
+      "path": null,
+      "provenance": "2026-09-20 approved research; Chinese print edition/page Pending; digital transcription is mediated evidence."
     }
   ],
   "author": "Jinkai Liu",
@@ -329,6 +401,10 @@
     {
       "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
       "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+    },
+    {
+      "en": "Semantic research value ≠ phonetic match. Featured is optional; independent from evidence. 锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+      "zh-Hans": "Semantic research value ≠ phonetic match. Featured is optional; independent from evidence. 锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
     }
   ],
   "search_terms": [
@@ -340,9 +416,14 @@
     "判断力",
     "聚",
     "cum",
-    "sharpness"
+    "sharpness",
+    "敏锐的判断力／洞察力",
+    "锐",
+    "颖",
+    "慧",
+    "快"
   ],
-  "page": null,
+  "page": "words/acumen.html",
   "legacy": {
     "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
     "source_url": "https://languagesbook.com/glossary/a-cum-en%ef%bc%8c%e6%95%8f%e9%94%90/",
@@ -362,5 +443,1886 @@
     "ordinal": 4,
     "disposition": "Reviewed",
     "priority_score": 87.6
+  },
+  "standard_translation": {
+    "source": "acumen",
+    "target": "敏锐的判断力／洞察力",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "TC2-ACUMEN-SRC-01"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-acumen-primary",
+    "source": {
+      "language": "English",
+      "word": "acumen",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "洞察力／敏锐的判断力",
+      "pronunciation": "mǐnruì / dòngchálì"
+    },
+    "gloss": {
+      "en": "keenness and depth of perception, discernment or judgment",
+      "zh-Hans": "敏锐而深入的洞察、辨别或判断能力"
+    },
+    "meaning": {
+      "en": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+      "zh-Hans": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured independently selected",
+    "rationale": {
+      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "AC0",
+        "form": "acuere / acū-",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语；首见未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ACUMEN-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "SHARPEN",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "TC2-ACUMEN-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "动词干；acū- 与 -men 构成名词; Chinese Mapping: Not selected"
+      },
+      {
+        "stage_id": "AC1",
+        "form": "acūmen",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语；物理义与比喻义的精确先后未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ACUMEN-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "尖端、锐利之物",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "AC0",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "acū- + -men; Chinese Mapping: 锐、颖；快为有限比较",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ACUMEN-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ACUMEN-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "acū- + -men; Chinese Mapping: 锐、颖；快为有限比较"
+      },
+      {
+        "stage_id": "AC2",
+        "form": "acūmen",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语，已含心智义",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ACUMEN-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "敏锐的心智",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "AC1",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_continuation",
+              "description": "Related physical and mental senses of the same Latin form; not a dated chronology. 精确先后与转义机制未冻结。",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ACUMEN-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ACUMEN-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "同一拉丁形式的比喻义，AC1/AC2 是 sense nodes; Chinese Mapping: 锐、颖、快；慧保留"
+      },
+      {
+        "stage_id": "AC3",
+        "form": "acumen",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "English",
+          "code": null
+        },
+        "period": {
+          "label": "1579年左右起，至现代",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC2-ACUMEN-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "洞察/审断能力",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-AC3",
+            "value": "/ˈækjəmən/; /əˈkjuːmən/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "TC2-ACUMEN-SRC-09"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "AC2",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "直接借入拉丁语；不是英语先物理后心智; Chinese Mapping: 锐、快等；Featured Pending",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC2-ACUMEN-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC2-ACUMEN-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "直接借入拉丁语；不是英语先物理后心智; Chinese Mapping: 锐、快等；Featured Pending"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-AC1",
+        "stage_ref": "AC1",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "尖端、锐利之物",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Historical character sense",
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "尖端、锐利之物"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC2-ACUMEN-02",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "颖",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "尖端；才智出众",
+                "pos": null,
+                "constraints": [
+                  "中文演变顺序及首见书证尚未冻结；不能把现代音充古音"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-02",
+                  "value": "yǐng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-03"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-03"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-02",
+              "source_span": "acūmen",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强：尖端→才智的比喻结构；聪颖不全等于实际判断力",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-01",
+                "TC2-ACUMEN-SRC-03"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not frozen; not_evaluated. Modern reference only: 弱：无 /k/，韵母韵尾不同",
+              "features": {
+                "onset": "弱：无 /k/，韵母韵尾不同; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：无 /k/，韵母韵尾不同; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：无 /k/，韵母韵尾不同; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：无 /k/，韵母韵尾不同; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：无 /k/，韵母韵尾不同; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-03"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-03"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; mediated-HDC; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-03"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "中文演变顺序及首见书证尚未冻结；不能把现代音充古音",
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "中文演变顺序及首见书证尚未冻结；不能把现代音充古音; 强：尖端→才智的比喻结构；聪颖不全等于实际判断力",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ACUMEN-05",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "尖",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "尖端、锐利的形状",
+                "pos": null,
+                "constraints": [
+                  "人物尖刻不是 acumen 义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-05",
+                  "value": "jiān",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-05",
+              "source_span": "acūmen",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "不把拼音 j 私自归 g-k-h",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强：物理尖锐控制；不自动指心智敏锐",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-01",
+                "TC2-ACUMEN-SRC-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not frozen; not_evaluated. Modern reference only: 弱：j=[tɕ] 与 /k/ 不同；尾部不合",
+              "features": {
+                "onset": "弱：j=[tɕ] 与 /k/ 不同；尾部不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：j=[tɕ] 与 /k/ 不同；尾部不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：j=[tɕ] 与 /k/ 不同；尾部不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：j=[tɕ] 与 /k/ 不同；尾部不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：j=[tɕ] 与 /k/ 不同；尾部不合; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-06"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "人物尖刻不是 acumen 义",
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "人物尖刻不是 acumen 义; 强：物理尖锐控制；不自动指心智敏锐",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ACUMEN-RUI-AC1",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "锐",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "锋利（物理）",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-RUI-AC1",
+                  "value": "ruì",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-RUI-AC1",
+              "source_span": "acūmen",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Modern English acumen vs ruì: Low; different onset, vowels and syllable count. Historical pronunciation not_evaluated.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-02"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-02"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Chinese dated trajectory / original print entry Pending."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-AC2",
+        "stage_ref": "AC2",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "敏锐的心智",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Historical character sense"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "敏锐的心智"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC2-ACUMEN-01",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "锐",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "古汉语义项；首见年代未冻结；读音为现代普通话",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "锋利；敏锐、精明",
+                "pos": null,
+                "constraints": [
+                  "义项并存不等于双方同一路径或同年代演变"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-01",
+                  "value": "ruì",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-01",
+              "source_span": "Latin acūmen: physical and mental senses (AC1/AC2); structural comparison only",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "组外",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "强：物理锋利及心智敏锐的结构对应",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-01",
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not frozen; not_evaluated. Modern reference only: 弱：ruì 不对应 /ækjəmən/ 或 /əkjuːmən/",
+              "features": {
+                "onset": "弱：ruì 不对应 /ækjəmən/ 或 /əkjuːmən/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：ruì 不对应 /ækjəmən/ 或 /əkjuːmən/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：ruì 不对应 /ækjəmən/ 或 /əkjuːmən/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：ruì 不对应 /ækjəmən/ 或 /əkjuːmən/; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：ruì 不对应 /ækjəmən/ 或 /əkjuːmən/; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-02"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-02"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "义项并存不等于双方同一路径或同年代演变",
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-AC3",
+        "stage_ref": "AC3",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "洞察/审断能力",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "洞察/审断能力"
+            ],
+            "consonant_hypotheses": [
+              "g-k-h"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC2-ACUMEN-03",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "慧",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "聪明、有才智",
+                "pos": null,
+                "constraints": [
+                  "不是规则音变；不以组命中增加评分"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-03",
+                  "value": "huì",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC3",
+              "source_pronunciation_ref": "PR-AC3",
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-03",
+              "source_span": "acumen",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "g-k-h",
+                "hit": true,
+                "position": "g-k-h 扩展探针：现代词内 /k/→h",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "中强：智力相近；不专指审断力",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-01",
+                "TC2-ACUMEN-SRC-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 弱：h 常实现 [x]，与 /k/ 发音方式不同；元音及尾部不合",
+              "features": {
+                "onset": "弱：h 常实现 [x]，与 /k/ 发音方式不同；元音及尾部不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "弱：h 常实现 [x]，与 /k/ 发音方式不同；元音及尾部不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "弱：h 常实现 [x]，与 /k/ 发音方式不同；元音及尾部不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "弱：h 常实现 [x]，与 /k/ 发音方式不同；元音及尾部不合; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "弱：h 常实现 [x]，与 /k/ 发音方式不同；元音及尾部不合; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-04"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不是规则音变；不以组命中增加评分",
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "不是规则音变；不以组命中增加评分; 中强：智力相近；不专指审断力",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ACUMEN-04",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "快",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "刀刃锋利；反应灵敏",
+                "pos": null,
+                "constraints": [
+                  "不是 acu- 的历史音译；不可把 pleasure/FAST 全部映成 acumen"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-04",
+                  "value": "kuài",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC3",
+              "source_pronunciation_ref": "PR-AC3",
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-04",
+              "source_span": "acumen",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "k baseline；不计扩展新增",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "中强：两义对应值得比较；速度快不保证判断准确",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-01",
+                "TC2-ACUMEN-SRC-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 有限局部：k=[kʰ] 与英语 /k/ 有软腭塞音共同点；/uaɪ/≠/juː/，缺 /mən/；重音变体也不能消除差异",
+              "features": {
+                "onset": "有限局部：k=[kʰ] 与英语 /k/ 有软腭塞音共同点；/uaɪ/≠/juː/，缺 /mən/；重音变体也不能消除差异; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "有限局部：k=[kʰ] 与英语 /k/ 有软腭塞音共同点；/uaɪ/≠/juː/，缺 /mən/；重音变体也不能消除差异; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "有限局部：k=[kʰ] 与英语 /k/ 有软腭塞音共同点；/uaɪ/≠/juː/，缺 /mən/；重音变体也不能消除差异; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "有限局部：k=[kʰ] 与英语 /k/ 有软腭塞音共同点；/uaɪ/≠/juː/，缺 /mən/；重音变体也不能消除差异; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "有限局部：k=[kʰ] 与英语 /k/ 有软腭塞音共同点；/uaɪ/≠/juː/，缺 /mən/；重音变体也不能消除差异; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-05"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不是 acu- 的历史音译；不可把 pleasure/FAST 全部映成 acumen",
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Downgraded to Research-only coexisting senses; historical sharp→mental trajectory Pending; not selected for Featured.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ACUMEN-06",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "聚",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "聚集",
+                "pos": null,
+                "constraints": [
+                  "acū- + -men 不等于 a/cum/en；集中注意力只是另加的认知桥"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-06",
+                  "value": "jù",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC3",
+              "source_pronunciation_ref": "PR-AC3",
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-06",
+              "source_span": "acumen",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "旧 cum 切分不成立",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "不匹配心智敏锐",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-01",
+                "TC2-ACUMEN-SRC-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 局部弱：j=[tɕ] 与 /k/ 不同，ü=[y]≠/juː/；后续 /mən/ 缺失",
+              "features": {
+                "onset": "局部弱：j=[tɕ] 与 /k/ 不同，ü=[y]≠/juː/；后续 /mən/ 缺失; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "局部弱：j=[tɕ] 与 /k/ 不同，ü=[y]≠/juː/；后续 /mən/ 缺失; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "局部弱：j=[tɕ] 与 /k/ 不同，ü=[y]≠/juː/；后续 /mən/ 缺失; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "局部弱：j=[tɕ] 与 /k/ 不同，ü=[y]≠/juː/；后续 /mən/ 缺失; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "局部弱：j=[tɕ] 与 /k/ 不同，ü=[y]≠/juː/；后续 /mən/ 缺失; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-07"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "acū- + -men 不等于 a/cum/en；集中注意力只是另加的认知桥",
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "acū- + -men 不等于 a/cum/en；集中注意力只是另加的认知桥; 不匹配心智敏锐",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ACUMEN-07",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "酷",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代普通话（本轮2026年检索），不倒推古音",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "残酷、严酷",
+                "pos": null,
+                "constraints": [
+                  "不换成网络 cool 义营造聪明联想"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-07",
+                  "value": "kù",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC3",
+              "source_pronunciation_ref": "PR-AC3",
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-07",
+              "source_span": "acumen",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "k baseline",
+                "version": "Protocol v0.2: generation only; no scoring bonus"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "无关",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-01",
+                "TC2-ACUMEN-SRC-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low / weak, modern reference only: 局部 /k,u/ 相似却语义错配；仍缺全词其他音节",
+              "features": {
+                "onset": "局部 /k,u/ 相似却语义错配；仍缺全词其他音节; historical phonetics not_evaluated; modern tone is not English stress.",
+                "vowel": "局部 /k,u/ 相似却语义错配；仍缺全词其他音节; historical phonetics not_evaluated; modern tone is not English stress.",
+                "coda_other_consonants": "局部 /k,u/ 相似却语义错配；仍缺全词其他音节; historical phonetics not_evaluated; modern tone is not English stress.",
+                "syllables": "局部 /k,u/ 相似却语义错配；仍缺全词其他音节; historical phonetics not_evaluated; modern tone is not English stress.",
+                "prosody": "局部 /k,u/ 相似却语义错配；仍缺全词其他音节; historical phonetics not_evaluated; modern tone is not English stress."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-08"
+                ],
+                "locator": null,
+                "note": "Approved concrete online sense; online-entry; print original Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print original, edition/page and earliest attestation not obtained."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不换成网络 cool 义营造聪明联想",
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "不换成网络 cool 义营造聪明联想; 无关",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          },
+          {
+            "candidate_id": "TC2-ACUMEN-RUI-AC3",
+            "family_key": "legacy-acumen",
+            "target": {
+              "form": "锐",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "敏锐/精明（心智）",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC2-ACUMEN-RUI-AC3",
+                  "value": "ruì",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC2-ACUMEN-SRC-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "AC3",
+              "source_pronunciation_ref": "PR-AC3",
+              "target_pronunciation_ref": "ZH-TC2-ACUMEN-RUI-AC3",
+              "source_span": "acumen",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+              "source_refs": [
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Modern English acumen vs ruì: Low; different onset, vowels and syllable count. Historical pronunciation not_evaluated.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "TC2-ACUMEN-SRC-02"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-02"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC2-ACUMEN-SRC-02"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Chinese dated trajectory / original print entry Pending."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 2 Editorial Freeze; no new Discovery."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "TC2-ACUMEN-01",
+      "stage_cards": [],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+    },
+    "historical_path": "acuere / acū- [AC0]; acūmen [AC1]; acūmen [AC2]; acumen [AC3]",
+    "semantic_path": "Related meaning nodes, not mechanically chronological: SHARPEN; 尖端、锐利之物; 敏锐的心智; 洞察/审断能力",
+    "boundary": {
+      "en": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+      "zh-Hans": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+    }
+  },
+  "featured_mapping": {
+    "source": "Latin acūmen physical/mental senses (AC1/AC2)",
+    "target": "锐",
+    "reading": "ruì",
+    "candidate_ref": "TC2-ACUMEN-01",
+    "display_label": "Structural-Semantic Candidate",
+    "status": "Candidate · Phonetic Fit = Low (modern reference); historical sound not_evaluated",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+      "zh-Hans": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。"
+    },
+    "source_refs": [
+      "TC2-ACUMEN-SRC-01"
+    ]
+  },
+  "structural_semantic_mapping": {
+    "source_stage_refs": [
+      "AC1",
+      "AC2"
+    ],
+    "chinese_candidate_ref": "TC2-ACUMEN-01",
+    "fit": "High",
+    "phonetic_fit": "Low",
+    "phonetic_scope": "Modern acumen compared independently with ruì; see TC2-ACUMEN-RUI-AC3. Historical sound not_evaluated.",
+    "claim": "Attested senses are structurally parallel; exact Chinese chronological trajectory Pending.",
+    "historical_relation": "Not claimed"
+  },
+  "featured_mapping_status": "Candidate",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "tier-c-discovery-batch-2-2026-09-20",
+    "candidates": [
+      {
+        "id": "ACUMEN-01",
+        "entry": "ACUMEN",
+        "chinese_form": "锐／銳",
+        "reading": "ruì",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AC1/AC2/AC3",
+        "documented_meaning": "锋利；敏锐、精明",
+        "semantic_fit": "强：物理锋利及心智敏锐的结构对应",
+        "phonetic_fit": "弱：ruì 不对应 /ækjəmən/ 或 /əkjuːmən/",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/锐",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "组外",
+        "counterevidence": "义项并存不等于双方同一路径或同年代演变",
+        "historical_relation": "Not claimed",
+        "decision": "retain",
+        "discovery_priority": 1,
+        "role": "candidate",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ACUMEN-02",
+        "entry": "ACUMEN",
+        "chinese_form": "颖／穎",
+        "reading": "yǐng",
+        "chinese_layer": "Historical character sense + modern reading",
+        "approximate_period": "古汉语义项；首见年代未冻结；读音为现代普通话",
+        "target_source_stage": "AC1/AC2",
+        "documented_meaning": "尖端；才智出众",
+        "semantic_fit": "强：尖端→才智的比喻结构；聪颖不全等于实际判断力",
+        "phonetic_fit": "弱：无 /k/，韵母韵尾不同",
+        "lexicographic_evidence": {
+          "status": "mediated-HDC",
+          "url": "https://www.shidianguji.com/character/穎",
+          "locator": "汉语大词典义项摘要",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "组外",
+        "counterevidence": "中文演变顺序及首见书证尚未冻结；不能把现代音充古音",
+        "historical_relation": "Not claimed",
+        "decision": "retain",
+        "discovery_priority": 1,
+        "role": "candidate",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ACUMEN-03",
+        "entry": "ACUMEN",
+        "chinese_form": "慧",
+        "reading": "huì",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AC2/AC3",
+        "documented_meaning": "聪明、有才智",
+        "semantic_fit": "中强：智力相近；不专指审断力",
+        "phonetic_fit": "弱：h 常实现 [x]，与 /k/ 发音方式不同；元音及尾部不合",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/慧",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "g-k-h 扩展探针：现代词内 /k/→h",
+        "counterevidence": "不是规则音变；不以组命中增加评分",
+        "historical_relation": "Not claimed",
+        "decision": "retain-limited",
+        "discovery_priority": 2,
+        "role": "candidate",
+        "expansion_probe": true,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ACUMEN-04",
+        "entry": "ACUMEN",
+        "chinese_form": "快",
+        "reading": "kuài",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AC1/AC2/AC3",
+        "documented_meaning": "刀刃锋利；反应灵敏",
+        "semantic_fit": "中强：两义对应值得比较；速度快不保证判断准确",
+        "phonetic_fit": "有限局部：k=[kʰ] 与英语 /k/ 有软腭塞音共同点；/uaɪ/≠/juː/，缺 /mən/；重音变体也不能消除差异",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/快",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "k baseline；不计扩展新增",
+        "counterevidence": "不是 acu- 的历史音译；不可把 pleasure/FAST 全部映成 acumen",
+        "historical_relation": "Not claimed",
+        "decision": "retain-limited",
+        "discovery_priority": 1,
+        "role": "candidate",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ACUMEN-05",
+        "entry": "ACUMEN",
+        "chinese_form": "尖",
+        "reading": "jiān",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AC1",
+        "documented_meaning": "尖端、锐利的形状",
+        "semantic_fit": "强：物理尖锐控制；不自动指心智敏锐",
+        "phonetic_fit": "弱：j=[tɕ] 与 /k/ 不同；尾部不合",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/尖",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "不把拼音 j 私自归 g-k-h",
+        "counterevidence": "人物尖刻不是 acumen 义",
+        "historical_relation": "Not claimed",
+        "decision": "control",
+        "discovery_priority": 0,
+        "role": "semantic-control",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ACUMEN-06",
+        "entry": "ACUMEN",
+        "chinese_form": "聚",
+        "reading": "jù",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AC3",
+        "documented_meaning": "聚集",
+        "semantic_fit": "不匹配心智敏锐",
+        "phonetic_fit": "局部弱：j=[tɕ] 与 /k/ 不同，ü=[y]≠/juː/；后续 /mən/ 缺失",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/聚",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "旧 cum 切分不成立",
+        "counterevidence": "acū- + -men 不等于 a/cum/en；集中注意力只是另加的认知桥",
+        "historical_relation": "Not claimed",
+        "decision": "reject",
+        "discovery_priority": 0,
+        "role": "legacy-negative-control",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      },
+      {
+        "id": "ACUMEN-07",
+        "entry": "ACUMEN",
+        "chinese_form": "酷",
+        "reading": "kù",
+        "chinese_layer": "Modern Mandarin",
+        "approximate_period": "现代普通话（本轮2026年检索），不倒推古音",
+        "target_source_stage": "AC3",
+        "documented_meaning": "残酷、严酷",
+        "semantic_fit": "无关",
+        "phonetic_fit": "局部 /k,u/ 相似却语义错配；仍缺全词其他音节",
+        "lexicographic_evidence": {
+          "status": "online-entry",
+          "url": "https://zdic.net/hans/酷",
+          "locator": "基本解释／详细解释；不用國語辭典段充当大陆辞书",
+          "paper_original": "Pending"
+        },
+        "consonant_group_relation": "k baseline",
+        "counterevidence": "不换成网络 cool 义营造聪明联想",
+        "historical_relation": "Not claimed",
+        "decision": "control",
+        "discovery_priority": 0,
+        "role": "sound-control",
+        "expansion_probe": false,
+        "confidence": {
+          "meaning": "moderate: 在线条目支持；原条/最早书证未核",
+          "phonetic": "limited: 仅声明的现代音层",
+          "cross_language_history": "not claimed"
+        },
+        "historical_phonetics": "not_evaluated"
+      }
+    ],
+    "freeze": "锐 ruì是Structural-Semantic Candidate：Latin acūmen兼有物理尖锐与心智敏锐义，锐也用于锋利与精明/敏锐。Phonetic Fit = Low（现代参照）；历史音not_evaluated。中文演变顺序仍Pending，不主张相同词义史或历史同源。",
+    "note": "Original 28-row Discovery preserved; active roles in mappings reflect approved Editorial Freeze. No new candidates."
+  },
+  "legacy_migration": {
+    "version": "tier-c-batch2-0.1",
+    "baseline_commit": "e6109656fc350375a9719941f720294afb1db2b2",
+    "scope": "Exact original record archive; superseded claims remain Research, not current Featured evidence.",
+    "previous_fields": {
+      "title": {
+        "en": "acumen · Legacy Website Import",
+        "zh-Hans": "acumen · 旧站导入"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-acumen-primary",
+        "source": {
+          "language": "English",
+          "word": "acumen",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "敏锐／洞察力",
+          "pronunciation": "mǐnruì / dòngchálì"
+        },
+        "gloss": {
+          "en": "keenness and depth of perception, discernment or judgment",
+          "zh-Hans": "敏锐而深入的洞察、辨别或判断能力"
+        },
+        "meaning": {
+          "en": "keenness and depth of perception, discernment or judgment. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "敏锐而深入的洞察、辨别或判断能力。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ACUMEN",
+          "title": "languagesbook.com legacy entry: acumen，敏锐。聚 ju。cum- 与聚 ju 同音",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-cum-en%ef%bc%8c%e6%95%8f%e9%94%90/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ACUMEN",
+          "title": "Merriam-Webster Dictionary: acumen",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/acumen",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 87.6/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 87.6/100 仅用于编辑分流。"
+        },
+        {
+          "en": "The proposed a/cum/en segmentation is not the word’s historical morphology.",
+          "zh-Hans": "所提 a／cum／en 切分不是该词的历史形态结构。"
+        }
+      ],
+      "search_terms": [
+        "acumen",
+        "acute",
+        "acuity",
+        "敏锐",
+        "洞察力",
+        "判断力",
+        "聚",
+        "cum",
+        "sharpness"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping",
+      "structural_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery"
+    ]
   }
 }
