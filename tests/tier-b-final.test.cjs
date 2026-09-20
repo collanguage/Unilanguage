@@ -5,9 +5,9 @@ const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffe
 const data=require('../data/language-book.v1.0.json'),before=JSON.parse(get('data/language-book.v1.0.json'));
 const es=slugs.map(s=>data.entries.find(e=>e.slug===s));
 test('Final batch changes exactly two records and preserves other pages, schema and UI',()=>{
- assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)).map(e=>["media","aback","sound","abridge","aliment","acumen","abound"].includes(e.slug)?legacyEntry(e):e),before.entries.filter(e=>!slugs.includes(e.slug)));
+ assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)).map(e=>["media","aback","sound","abridge","aliment","acumen","abound","sky","language","advance","generate","absolute"].includes(e.slug)?legacyEntry(e):e),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const dir of ['data/entries','words'])for(const file of fs.readdirSync(dir)){
-  if([...slugs,"media","aback","sound","abridge","aliment","acumen","abound"].some(s=>file===s+'.html'||file===s+'.v1.json'))continue;
+  if([...slugs,"media","aback","sound","abridge","aliment","acumen","abound","sky","language","advance","generate","absolute"].some(s=>file===s+'.html'||file===s+'.v1.json'))continue;
   const p=dir+'/'+file;if(fs.statSync(p).isFile())assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
  }
  for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);

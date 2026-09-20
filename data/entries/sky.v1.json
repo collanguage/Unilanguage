@@ -1,0 +1,2590 @@
+{
+  "id": "LB-en-sky-001",
+  "slug": "sky",
+  "title": {
+    "en": "SKY · 天空",
+    "zh-Hans": "SKY · 天空"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "sky",
+      "pronunciation": "/skaɪ/"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "天空",
+      "pronunciation": "tiānkōng"
+    },
+    {
+      "role": "featured-phonetic-semantic-candidate",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "盖",
+      "pronunciation": "gài"
+    },
+    {
+      "role": "historically-related-form",
+      "code": "fr",
+      "name": "French",
+      "word": "ciel",
+      "pronunciation": "/sjɛl/"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-sky-modern-standard",
+    "source": {
+      "language": "English",
+      "word": "sky",
+      "pronunciation": "/skaɪ/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "天空",
+      "pronunciation": "tiānkōng"
+    },
+    "gloss": {
+      "en": "The visible region above the earth.",
+      "zh-Hans": "从地面向上看见的广大空间。"
+    },
+    "meaning": {
+      "en": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。",
+      "zh-Hans": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping",
+    "rationale": {
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
+    }
+  },
+  "entry_status": "Published",
+  "mapping_status": "Candidate",
+  "mapping_level": "B",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Established",
+      "confidence": "High",
+      "summary": {
+        "en": "English sky, French ciel and Chinese 天/盖 each have independently documented histories; none establishes an English–Chinese cognate relation.",
+        "zh-Hans": "英语 sky、法语 ciel 与汉语“天／盖”各有独立可考的历史；这些材料不能建立英汉同源关系。"
+      },
+      "items": [
+        {
+          "evidence_id": "HIST-SKY-NORSE-001",
+          "claim": {
+            "en": "Middle English sky continues Old Norse ský ‘cloud’; the English sense expanded to the visible upper region.",
+            "zh-Hans": "中古英语 sky 承自古诺尔斯语 ský“云”，英语词义后来扩展至可见的上方空间。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-MW-SKY"
+          ]
+        },
+        {
+          "evidence_id": "HIST-CIEL-LATIN-002",
+          "claim": {
+            "en": "French ciel continues Latin caelum, ‘celestial vault / heaven.’",
+            "zh-Hans": "法语 ciel 承自拉丁语 caelum“天穹／天界”。"
+          },
+          "status": "Established",
+          "confidence": "High",
+          "source_refs": [
+            "REF-CNRTL-CIEL"
+          ]
+        },
+        {
+          "evidence_id": "HIST-TIAN-FORM-003",
+          "claim": {
+            "en": "Early forms of 天 emphasize a person's head or highest point; the graph subsequently denotes the sky.",
+            "zh-Hans": "“天”的早期字形突出人首或最高处，后来用于表示天空。"
+          },
+          "status": "Supported",
+          "confidence": "High",
+          "source_refs": [
+            "REF-CUHK-TIAN"
+          ]
+        }
+      ],
+      "source_refs": [
+        "REF-MW-SKY",
+        "REF-CNRTL-CIEL",
+        "REF-CUHK-TIAN"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ is a candidate velar and rhyme resemblance associated with the cognitive schema ABOVE → COVER.",
+        "zh-Hans": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ 是候选软腭音与韵部近似观察，并与 ABOVE → COVER 认知图式相连。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "Recorded semantic structure: ABOVE → COVER.",
+        "zh-Hans": "已记录语义结构：ABOVE → COVER。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Speculative": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+        "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+      },
+      "items": [
+        {
+          "evidence_id": "UNI-SKY-COVER-001",
+          "claim": {
+            "en": "sky ↔ 盖 as a phonetic-semantic and cognitive candidate",
+            "zh-Hans": "sky ↔ 盖：语音—语义与认知候选映射"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-LB-SKY",
+            "SRC-PROTOCOL-MAPPING"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LB-SKY",
+        "SRC-PROTOCOL-MAPPING"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-sky-001",
+      "claim": {
+        "en": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ is a candidate velar and rhyme resemblance associated with the cognitive schema ABOVE → COVER.",
+        "zh-Hans": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ 是候选软腭音与韵部近似观察，并与 ABOVE → COVER 认知图式相连。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Modern-form resemblance is not a regular sound correspondence or proof of cognacy.",
+        "zh-Hans": "现代词形近似不是规律音变，也不证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "ABOVE",
+      "COVER"
+    ],
+    "relation": "ABOVE → COVER",
+    "status": "Candidate / scoped comparison; legacy observations in Research"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-SKY-COVER-001",
+      "type": "sound-semantic",
+      "claim": {
+        "en": "sky ↔ 盖 as a phonetic-semantic and cognitive candidate",
+        "zh-Hans": "sky ↔ 盖：语音—语义与认知候选映射"
+      },
+      "status": "Untested",
+      "confidence": "low",
+      "supporting_cases": [
+        "SRC-LB-SKY",
+        "SRC-PROTOCOL-MAPPING"
+      ],
+      "counterexamples": [],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "SRC-LB-SKY",
+        "SRC-PROTOCOL-MAPPING"
+      ]
+    },
+    {
+      "hypothesis_id": "UNI-SKY-YIJING-002",
+      "type": "Author structural-symbol hypothesis",
+      "claim": {
+        "en": "The sixty-four hexagrams may be studied as another kind of writing; the author proposes Qian as their originating structure.",
+        "zh-Hans": "六十四卦图可以作为我们的另一种文字来研究；作者提出“所有卦象都是从乾卦而来”。"
+      },
+      "status": "Speculative/Testable",
+      "confidence": "Low",
+      "supporting_cases": [
+        "乾 ☰ as the all-yang hexagram",
+        "hexagrams as yin–yang line combinations"
+      ],
+      "counterexamples": [
+        "This is not presented as a settled historical or Yijing conclusion",
+        "The combinatorial system also requires yin lines and includes Kun ☷ as a basic contrast"
+      ],
+      "testability": {
+        "en": "Define ‘originating structure’ and compare it with received-text, excavated-text and combinatorial accounts of the hexagram system.",
+        "zh-Hans": "须先定义“从乾卦而来”的结构含义，再与传世文献、出土材料及卦象组合方式比较。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "REF-CTEXT-QIAN"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Published",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "The blue sky is the cover above us, changing through day and night, sun and moon, and the turning seasons.",
+      "zh-Hans": "蓝天是覆盖我们的被盖，昼日夜月，四季变换。"
+    },
+    "essay_prose": [
+      {
+        "work_id": "LB-SKY-PROSE-001",
+        "title": {
+          "en": "The Cover Above Us",
+          "zh-Hans": "覆盖我们的蓝天"
+        },
+        "page_anchor": "words/sky.html#literary",
+        "status": "Published",
+        "text": {
+          "en": "Standing on a mountain and looking up at the sky, I watch the white clouds wandering overhead. At moments the earth itself seems to move, while the houses rise and fall like sampans and ocean liners. Across oceans and great rivers, wherever we are able to sail, we may never travel over every part of Mother Earth. Even in passing, however, we may glimpse her skin and the places where her bones lie exposed—the mountains, ridges and valleys. The blue sky is the cover above us, changing through day and night, sun and moon, and the turning seasons.",
+          "zh-Hans": "站在山上向天空仰望，覺得天上的白雲在遊走，偶爾也會覺得地在走，房屋似此起彼伏的舢板與郵輪。在海洋、大河，在我們能夠航行的地方，我們雖未遊走在這大地母親的每一處，哪怕只是走馬觀花，也可以看看地母的每處肌膚、每處骨骼外露之處——那是山脈與丘壑。那藍天是我們的被蓋，晝日夜月，四季變換。"
+        }
+      }
+    ],
+    "poem_lyrics": [],
+    "translations": [
+      {
+        "language": "Chinese",
+        "status": "Author text, editorially revised"
+      },
+      {
+        "language": "English",
+        "status": "Literary translation"
+      }
+    ],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "Literature may explore freely, but it is not historical evidence.",
+      "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "REF-JL-SKY-RAW",
+      "title": "Jinkai Liu: Sky literary and research note",
+      "type": "author manuscript",
+      "url": null,
+      "path": null,
+      "provenance": "author-provided in conversation; claims independently classified"
+    },
+    {
+      "reference_id": "REF-MW-SKY",
+      "title": "Merriam-Webster Dictionary: sky",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/sky",
+      "path": null,
+      "provenance": "external dictionary; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-CNRTL-CIEL",
+      "title": "CNRTL/TLFi: étymologie de ciel",
+      "type": "historical dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/ciel",
+      "path": null,
+      "provenance": "French national lexical resource; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-CUHK-TIAN",
+      "title": "CUHK Multi-function Chinese Character Database: 天",
+      "type": "palaeographic database",
+      "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/oraclePiece.php?piece=%E5%A4%A9",
+      "path": null,
+      "provenance": "university character database; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-CTEXT-QIAN",
+      "title": "Chinese Text Project: Book of Changes — Qian",
+      "type": "primary-text database",
+      "url": "https://ctext.org/book-of-changes/qian",
+      "path": null,
+      "provenance": "digitized classical text; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-CTEXT-ZHOUBI",
+      "title": "Chinese Text Project: Zhoubi / Gaitian passages",
+      "type": "primary-text database",
+      "url": "https://ctext.org/dictionary.pl?char=%E5%91%A8%E9%AB%80&if=en",
+      "path": null,
+      "provenance": "digitized classical-text index; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "REF-WIKISOURCE-CHILE",
+      "title": "Wikisource: Song of Chile",
+      "type": "primary-text edition",
+      "url": "https://zh.wikisource.org/wiki/%E6%95%95%E5%8B%92%E6%AD%8C",
+      "path": null,
+      "provenance": "digital text edition; accessed 2026-09-04"
+    },
+    {
+      "reference_id": "SRC-LB-SKY",
+      "title": "Language Book · Sky",
+      "type": "language-book-page",
+      "url": null,
+      "path": "words/sky.html",
+      "provenance": "project editorial page"
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-01",
+      "title": "Approved Freeze source · indoeurop.html",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.ahdictionary.com/word/indoeurop.html",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-02",
+      "title": "Approved Freeze source · sky",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.merriam-webster.com/dictionary/sky",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-03",
+      "title": "Approved Freeze source · search.html?q=sky",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.ahdictionary.com/word/search.html?q=sky",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-04",
+      "title": "Approved Freeze source · 盖",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/盖",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-05",
+      "title": "Approved Freeze source · 天",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/天",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-06",
+      "title": "Approved Freeze source · 云",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/云",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-07",
+      "title": "Approved Freeze source · 空",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/空",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-08",
+      "title": "Approved Freeze source · 覆",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/覆",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-09",
+      "title": "Approved Freeze source · 钙",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/钙",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-10",
+      "title": "Approved Freeze source · 开",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/开",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-SKY-SRC-11",
+      "title": "Approved Freeze source · 天空",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/天空",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "Sky Author-Text Literary and Cosmological Revision v1.7 / Schema v1.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-02",
+    "published": "2026-08-07"
+  },
+  "editorial_notes": [
+    {
+      "en": "Translation (天空), featured candidate (盖 gài), independent histories, the ABOVE → COVER schema, Gaitian cosmology, Yijing hypothesis and literary writing remain separate.",
+      "zh-Hans": "通用翻译（天空）、特色候选（盖 gài）、独立词史、ABOVE→COVER 图式、盖天说、易经假说与文学写作保持分离。"
+    },
+    {
+      "en": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. 盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。",
+      "zh-Hans": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. 盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+    }
+  ],
+  "search_terms": [
+    "sky",
+    "skies",
+    "heaven",
+    "天空",
+    "天",
+    "昊",
+    "ciel",
+    "盖",
+    "tiānkōng",
+    "ABOVE",
+    "COVER",
+    "gài",
+    "盖天",
+    "盖天说",
+    "乾",
+    "乾卦",
+    "坤",
+    "坤卦",
+    "周易",
+    "六十四卦",
+    "敕勒歌",
+    "穹庐",
+    "云"
+  ],
+  "page": "words/sky.html",
+  "legacy": {
+    "entry_id": "LB-en-sky-001",
+    "source_word": "sky",
+    "language": "English",
+    "normalized_form": "sky",
+    "pronunciation": "/skaɪ/",
+    "phonetic_form": "skaɪ",
+    "lexical_meaning": {
+      "en": "The visible region above the earth.",
+      "zh-Hans": "从地面向上看见的广大空间。"
+    },
+    "aliases": [
+      "skies",
+      "heaven",
+      "天空",
+      "天",
+      "昊",
+      "ciel",
+      "盖"
+    ],
+    "classification_status": "published",
+    "primary_chinese_mapping": {
+      "mapping_id": "MAP-sky-primary-tiankong",
+      "chinese_form": "天空",
+      "pinyin": "tiānkōng",
+      "role": "primary",
+      "mapping_basis": "lexical-equivalent",
+      "status": "published",
+      "identity": "source-backed-lexical-mapping",
+      "source_verification": {
+        "status": "source-backed",
+        "source_refs": [
+          "SRC-LB-SKY"
+        ],
+        "notes": {
+          "en": "Ordinary Chinese lexical equivalent; no common-origin claim.",
+          "zh-Hans": "普通汉语词汇对应；不主张共同词源。"
+        }
+      },
+      "ai_review": {
+        "status": "not-reviewed",
+        "reviewer": null,
+        "reviewed_at": null,
+        "rationale": {
+          "en": "No G.1 object-level AI review has been completed.",
+          "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+        }
+      }
+    },
+    "secondary_chinese_mappings": [
+      {
+        "mapping_id": "MAP-sky-secondary-tian",
+        "chinese_form": "天",
+        "pinyin": "tiān",
+        "role": "secondary",
+        "mapping_basis": "lexical-equivalent",
+        "status": "published",
+        "identity": "source-backed-lexical-mapping",
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-LB-SKY"
+          ],
+          "notes": {
+            "en": "Secondary lexical equivalent retained from v0.2.",
+            "zh-Hans": "保留自 v0.2 的次要词汇对应。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "mapping_rationales": [],
+    "historical_etymologies": [],
+    "sound_symbol_hypothesis_refs": [
+      "UNI-SKY-COVER-001"
+    ],
+    "other_author_notes": [
+      {
+        "note_id": "NOTE-sky-french",
+        "identity": "author-note",
+        "status": "classified",
+        "text": {
+          "en": "French lexical counterpart retained from v0.2: ciel.",
+          "zh-Hans": "保留 v0.2 中的法语词汇对应：ciel。"
+        },
+        "source_verification": {
+          "status": "not-applicable",
+          "source_refs": [
+            "SRC-LB-SKY"
+          ],
+          "notes": {
+            "en": "Preserved during migration without forcing an evidential interpretation.",
+            "zh-Hans": "迁移时原样保留，不强行赋予证据解释。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "experimental_validation_refs": [],
+    "source_provenance": [
+      "SRC-LB-SKY",
+      "SRC-PROTOCOL-MAPPING"
+    ],
+    "author": "Jinkai Liu｜劉金凱",
+    "version": "1.5 / dataset 0.1.0 / G.1 migration"
+  },
+  "featured_mapping": {
+    "source": "modern sky (whole word)",
+    "target": "盖",
+    "reading": "gài",
+    "candidate_ref": "TC3-SKY-01",
+    "display_label": "Limited Cognitive / Phonetic-Semantic Candidate",
+    "status": "Candidate · Medium partial sound",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。",
+      "zh-Hans": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+    },
+    "source_refs": [
+      "TC3-SKY-SRC-01",
+      "TC3-SKY-SRC-02",
+      "TC3-SKY-SRC-03",
+      "TC3-SKY-SRC-02",
+      "TC3-SKY-SRC-04"
+    ]
+  },
+  "source": {
+    "type": "author-provided literary and research note",
+    "author": "Jinkai Liu",
+    "status": "Preserved; claims independently classified above",
+    "normalization": "Traditional characters normalized where appropriate; pinyin and parts of speech normalized; English recast as a literary translation.",
+    "raw_note": "英语：sky n. 天；汉语：盖【gai】n.。六十四卦图是我们的另一种文字。所有卦象都是从乾卦而来。附乾卦原文、坤卦标题、天字字源说明、盖天说、《敕勒歌》，以及站在山上仰望白云、房屋如舢板与邮轮、大地母亲的肌肤与骨骼、蓝天是被盖的文学段落。原稿另将卫星、电离层和平流层并置为所仰望的盖天结构；编辑版将古代模型、现代大气层与地球外部空间分开说明。"
+  },
+  "standard_translation": {
+    "source": "sky",
+    "target": "天空",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "TC3-SKY-SRC-01",
+      "TC3-SKY-SRC-02",
+      "TC3-SKY-SRC-03",
+      "TC3-SKY-SRC-02",
+      "TC3-SKY-SRC-04"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-sky-modern-standard",
+    "source": {
+      "language": "English",
+      "word": "sky",
+      "pronunciation": "/skaɪ/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "天空",
+      "pronunciation": "tiānkōng"
+    },
+    "gloss": {
+      "en": "The visible region above the earth.",
+      "zh-Hans": "从地面向上看见的广大空间。"
+    },
+    "meaning": {
+      "en": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。",
+      "zh-Hans": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping",
+    "rationale": {
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "S1",
+        "form": "ský",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old Norse",
+          "code": null
+        },
+        "period": {
+          "label": "中古北欧语时期，约9–14世纪语言层；非所引词的首见年",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-SKY-SRC-02"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "CLOUD",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "TC3-SKY-SRC-02"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "借入 Middle English；OE scēo 只记相关词，不作借入中间站"
+      },
+      {
+        "stage_id": "S2",
+        "form": "ski (AHD); sky (normalized)",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Middle English",
+          "code": null
+        },
+        "period": {
+          "label": "约13世纪起所核英语记录",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-SKY-SRC-03"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "CLOUD / SKY",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "S1",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "词义扩展；不能凭摘要确定两个 ME 义的精确先后",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-SKY-SRC-03"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-SKY-SRC-03"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "词义扩展；不能凭摘要确定两个 ME 义的精确先后"
+      },
+      {
+        "stage_id": "S3",
+        "form": "sky",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "约1500年至今的现代层",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-SKY-SRC-02"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "上方天空空间",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-S3",
+            "value": "/skaɪ/",
+            "notation": "IPA",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "REF-MW-SKY"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "S2",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_continuation",
+              "description": "保留现代空间义；不纳入晚近动词",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-SKY-SRC-02"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-SKY-SRC-02"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "保留现代空间义；不纳入晚近动词"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-S1",
+        "stage_ref": "S1",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "CLOUD",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "CLOUD"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-SKY-03",
+            "family_key": "legacy-sky",
+            "target": {
+              "form": "云",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代 cloud 义；雲古义在线转引《说文》（东汉），原版待核",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "雲：天空中的云团",
+                "pos": null,
+                "constraints": [
+                  "云不是天空全体；排除云=说；不用现代 sky 音替代 ský 音"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-SKY-03",
+                  "value": "yún",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-SKY-SRC-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-SKY-SRC-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-SKY-03",
+              "source_span": "ský",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for CLOUD; Low for all modern SKY",
+              "source_refs": [
+                "TC3-SKY-SRC-02",
+                "TC3-SKY-SRC-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：现代 yún 与 sky 不近；Norse 全音值未评分",
+              "features": {
+                "onset": "Low：现代 yún 与 sky 不近；Norse 全音值未评分",
+                "vowel": "Low：现代 yún 与 sky 不近；Norse 全音值未评分",
+                "coda_other_consonants": "Low：现代 yún 与 sky 不近；Norse 全音值未评分",
+                "syllables": "Low：现代 yún 与 sky 不近；Norse 全音值未评分",
+                "prosody": "Low：现代 yún 与 sky 不近；Norse 全音值未评分"
+              },
+              "source_refs": [
+                "TC3-SKY-SRC-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-SKY-SRC-06"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-SKY-SRC-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "云不是天空全体；排除云=说；不用现代 sky 音替代 ský 音",
+              "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-S3",
+        "stage_ref": "S3",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "上方天空空间",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "上方天空空间"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-SKY-01",
+            "family_key": "legacy-sky",
+            "target": {
+              "form": "盖",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "名词覆盖物；动词由上而下遮蔽",
+                "pos": null,
+                "constraints": [
+                  "无云的天空仍是 sky；钙同音而无此义。现代 /aɪ/ 不可倒灌到 Norse ský"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-SKY-01",
+                  "value": "gài",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-SKY-SRC-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-SKY-SRC-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S3",
+              "source_pronunciation_ref": "PR-S3",
+              "target_pronunciation_ref": "ZH-TC3-SKY-01",
+              "source_span": "modern sky /skaɪ/; ABOVE-COVER cognitive comparison",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "g-k-h：只命中 /sk/ 的内部 /k/，非完整声母",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "indirect",
+              "confidence": "Medium",
+              "rationale": "Modern SKY: literal Low / cognitive Medium. ABOVE-COVER inference only; reconstructed COVER evidence is separately archived, not used to improve this modern score.",
+              "source_refs": [
+                "TC3-SKY-SRC-02",
+                "TC3-SKY-SRC-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "Medium partial：/skaɪ/ 与 gài [kai] 的 /k/、双元音近；多出 /s/，声调不同；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+              "features": {
+                "onset": "Medium partial：/skaɪ/ 与 gài [kai] 的 /k/、双元音近；多出 /s/，声调不同；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+                "vowel": "Medium partial：/skaɪ/ 与 gài [kai] 的 /k/、双元音近；多出 /s/，声调不同；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+                "coda_other_consonants": "Medium partial：/skaɪ/ 与 gài [kai] 的 /k/、双元音近；多出 /s/，声调不同；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+                "syllables": "Medium partial：/skaɪ/ 与 gài [kai] 的 /k/、双元音近；多出 /s/，声调不同；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+                "prosody": "Medium partial：/skaɪ/ 与 gài [kai] 的 /k/、双元音近；多出 /s/，声调不同；S0历史音匹配Not evaluated，不挪用现代 /aɪ/"
+              },
+              "source_refs": [
+                "TC3-SKY-SRC-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-SKY-SRC-04"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-SKY-SRC-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "无云的天空仍是 sky；钙同音而无此义。现代 /aɪ/ 不可倒灌到 Norse ský",
+              "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-SKY-02",
+            "family_key": "legacy-sky",
+            "target": {
+              "form": "天",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "天空；只取自然空间义",
+                "pos": null,
+                "constraints": [
+                  "排除天帝、命运、一天等义；不能用天的其他义填满 sky 历史"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-SKY-02",
+                  "value": "tiān",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-SKY-SRC-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-SKY-SRC-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S3",
+              "source_pronunciation_ref": "PR-S3",
+              "target_pronunciation_ref": "ZH-TC3-SKY-02",
+              "source_span": "sky",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High",
+              "source_refs": [
+                "TC3-SKY-SRC-02",
+                "TC3-SKY-SRC-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：/tʰ/、/jɛn/ 与 /sk/、/aɪ/ 不配",
+              "features": {
+                "onset": "Low：/tʰ/、/jɛn/ 与 /sk/、/aɪ/ 不配",
+                "vowel": "Low：/tʰ/、/jɛn/ 与 /sk/、/aɪ/ 不配",
+                "coda_other_consonants": "Low：/tʰ/、/jɛn/ 与 /sk/、/aɪ/ 不配",
+                "syllables": "Low：/tʰ/、/jɛn/ 与 /sk/、/aɪ/ 不配",
+                "prosody": "Low：/tʰ/、/jɛn/ 与 /sk/、/aɪ/ 不配"
+              },
+              "source_refs": [
+                "TC3-SKY-SRC-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-SKY-SRC-05"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-SKY-SRC-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "排除天帝、命运、一天等义；不能用天的其他义填满 sky 历史",
+              "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-SKY-04",
+            "family_key": "legacy-sky",
+            "target": {
+              "form": "空",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "离地高处／空中；不是 kòng 空缺",
+                "pos": null,
+                "constraints": [
+                  "不能把 empty 当 sky；只命中一个辅音并不超过盖的声音价值"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-SKY-04",
+                  "value": "kōng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-SKY-SRC-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-SKY-SRC-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S3",
+              "source_pronunciation_ref": "PR-S3",
+              "target_pronunciation_ref": "ZH-TC3-SKY-04",
+              "source_span": "sky",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "g-k-h expansion",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "Medium–High in 天空/空中; 单字范围较宽",
+              "source_refs": [
+                "TC3-SKY-SRC-02",
+                "TC3-SKY-SRC-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：/kʰ/ 同属软腭但送气、韵母 /ʊŋ/ 与 /aɪ/ 不同",
+              "features": {
+                "onset": "Low：/kʰ/ 同属软腭但送气、韵母 /ʊŋ/ 与 /aɪ/ 不同",
+                "vowel": "Low：/kʰ/ 同属软腭但送气、韵母 /ʊŋ/ 与 /aɪ/ 不同",
+                "coda_other_consonants": "Low：/kʰ/ 同属软腭但送气、韵母 /ʊŋ/ 与 /aɪ/ 不同",
+                "syllables": "Low：/kʰ/ 同属软腭但送气、韵母 /ʊŋ/ 与 /aɪ/ 不同",
+                "prosody": "Low：/kʰ/ 同属软腭但送气、韵母 /ʊŋ/ 与 /aɪ/ 不同"
+              },
+              "source_refs": [
+                "TC3-SKY-SRC-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-SKY-SRC-07"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-SKY-SRC-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不能把 empty 当 sky；只命中一个辅音并不超过盖的声音价值",
+              "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。 Retain limited",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-SKY-05",
+            "family_key": "legacy-sky",
+            "target": {
+              "form": "覆",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "遮盖",
+                "pos": null,
+                "constraints": [
+                  "SC 是研究解释，不是 Norse 新增历史阶段；排除倾覆义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-SKY-05",
+                  "value": "fù",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-SKY-SRC-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-SKY-SRC-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S3",
+              "source_pronunciation_ref": "PR-S3",
+              "target_pronunciation_ref": "ZH-TC3-SKY-05",
+              "source_span": "sky",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for reconstructed COVER meaning; Low lexical modern SKY/CLOUD; Medium cognitive",
+              "source_refs": [
+                "TC3-SKY-SRC-02",
+                "TC3-SKY-SRC-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：/f,u/ 与 /sk,aɪ/ 不配；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+              "features": {
+                "onset": "Low：/f,u/ 与 /sk,aɪ/ 不配；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+                "vowel": "Low：/f,u/ 与 /sk,aɪ/ 不配；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+                "coda_other_consonants": "Low：/f,u/ 与 /sk,aɪ/ 不配；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+                "syllables": "Low：/f,u/ 与 /sk,aɪ/ 不配；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+                "prosody": "Low：/f,u/ 与 /sk,aɪ/ 不配；S0历史音匹配Not evaluated，不挪用现代 /aɪ/"
+              },
+              "source_refs": [
+                "TC3-SKY-SRC-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-SKY-SRC-08"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-SKY-SRC-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "SC 是研究解释，不是 Norse 新增历史阶段；排除倾覆义",
+              "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。 Retain limited",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-SKY-06",
+            "family_key": "legacy-sky",
+            "target": {
+              "form": "钙",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "金属元素钙",
+                "pos": null,
+                "constraints": [
+                  "同等声音不带来天空语义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-SKY-06",
+                  "value": "gài",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-SKY-SRC-09"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-SKY-SRC-09"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S3",
+              "source_pronunciation_ref": "PR-S3",
+              "target_pronunciation_ref": "ZH-TC3-SKY-06",
+              "source_span": "sky",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "same selected /k/ feature",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None",
+              "source_refs": [
+                "TC3-SKY-SRC-02",
+                "TC3-SKY-SRC-09"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Medium partial：与盖同音，故同等接近 sky 的局部",
+              "features": {
+                "onset": "Medium partial：与盖同音，故同等接近 sky 的局部",
+                "vowel": "Medium partial：与盖同音，故同等接近 sky 的局部",
+                "coda_other_consonants": "Medium partial：与盖同音，故同等接近 sky 的局部",
+                "syllables": "Medium partial：与盖同音，故同等接近 sky 的局部",
+                "prosody": "Medium partial：与盖同音，故同等接近 sky 的局部"
+              },
+              "source_refs": [
+                "TC3-SKY-SRC-09"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-SKY-SRC-09"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-SKY-SRC-09"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "同等声音不带来天空语义",
+              "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-SKY-07",
+            "family_key": "legacy-sky",
+            "target": {
+              "form": "开",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "打开、开启",
+                "pos": null,
+                "constraints": [
+                  "开不是 sky/cloud；开放与覆盖也不能随意互换"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-SKY-07",
+                  "value": "kāi",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-SKY-SRC-10"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-SKY-SRC-10"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S3",
+              "source_pronunciation_ref": "PR-S3",
+              "target_pronunciation_ref": "ZH-TC3-SKY-07",
+              "source_span": "sky",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "g-k-h expansion",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "Low：天空可开阔不等于开",
+              "source_refs": [
+                "TC3-SKY-SRC-02",
+                "TC3-SKY-SRC-10"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Medium partial rhyme; 送气及 /s/ 缺失仍不同",
+              "features": {
+                "onset": "Medium partial rhyme; 送气及 /s/ 缺失仍不同",
+                "vowel": "Medium partial rhyme; 送气及 /s/ 缺失仍不同",
+                "coda_other_consonants": "Medium partial rhyme; 送气及 /s/ 缺失仍不同",
+                "syllables": "Medium partial rhyme; 送气及 /s/ 缺失仍不同",
+                "prosody": "Medium partial rhyme; 送气及 /s/ 缺失仍不同"
+              },
+              "source_refs": [
+                "TC3-SKY-SRC-10"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-SKY-SRC-10"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-SKY-SRC-10"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "开不是 sky/cloud；开放与覆盖也不能随意互换",
+              "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-SKY-08",
+            "family_key": "legacy-sky",
+            "target": {
+              "form": "天空",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "地面上方的广大空间",
+                "pos": null,
+                "constraints": [
+                  "与天、空共享语素，不算两个独立成功"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-SKY-08",
+                  "value": "tiānkōng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-SKY-SRC-11"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-SKY-SRC-11"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "S3",
+              "source_pronunciation_ref": "PR-S3",
+              "target_pronunciation_ref": "ZH-TC3-SKY-08",
+              "source_span": "sky",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High",
+              "source_refs": [
+                "TC3-SKY-SRC-02",
+                "TC3-SKY-SRC-11"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：双音节且辅音韵母均不同",
+              "features": {
+                "onset": "Low：双音节且辅音韵母均不同",
+                "vowel": "Low：双音节且辅音韵母均不同",
+                "coda_other_consonants": "Low：双音节且辅音韵母均不同",
+                "syllables": "Low：双音节且辅音韵母均不同",
+                "prosody": "Low：双音节且辅音韵母均不同"
+              },
+              "source_refs": [
+                "TC3-SKY-SRC-11"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-SKY-SRC-11"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-SKY-SRC-11"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "与天、空共享语素，不算两个独立成功",
+              "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。 Semantic control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "TC3-SKY-01",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-S1",
+          "candidate_ref": "TC3-SKY-03"
+        },
+        {
+          "stage_mapping_ref": "SM-S3",
+          "candidate_ref": "TC3-SKY-02"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+    },
+    "historical_path": "ský [S1]; ski (AHD); sky (normalized) [S2]; sky [S3]",
+    "semantic_path": "Related meaning groups, not a strict dated sequence: CLOUD; CLOUD / SKY; 上方天空空间",
+    "boundary": {
+      "en": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。",
+      "zh-Hans": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。"
+    }
+  },
+  "featured_mapping_status": "Candidate",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "tier-c-discovery-batch-3-2026-09-20",
+    "candidates": [
+      {
+        "id": "SKY-01",
+        "entry": "SKY",
+        "chinese_form": "盖",
+        "reading": "gài",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "S0 + S3/SC",
+        "comparison_unit": "PIE COVER sense (historical semantic comparison) and modern sky sound (separate comparison; do not combine scores)",
+        "documented_meaning": "名词覆盖物；动词由上而下遮蔽",
+        "semantic_fit": "High for reconstructed COVER meaning; Low lexical modern SKY/CLOUD; Medium cognitive",
+        "phonetic_fit": "Medium partial：/skaɪ/ 与 gài [kai] 的 /k/、双元音近；多出 /s/，声调不同；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+        "structural_cognitive_fit": "Medium：上方覆盖图式",
+        "consonant_group_relation": "g-k-h：只命中 /sk/ 的内部 /k/，非完整声母",
+        "counterevidence": "无云的天空仍是 sky；钙同音而无此义。现代 /aɪ/ 不可倒灌到 Norse ský",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "legacy calibration",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/盖",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "additional_source_history": "https://www.ahdictionary.com/word/indoeurop.html",
+        "source_stage_metadata": [
+          {
+            "id": "S0",
+            "form": "*(s)keu- → *skeu-jam",
+            "language": "reconstructed PIE → Germanic",
+            "period": "史前重构，非有日期的文献见证",
+            "meaning": "COVER/CONCEAL → CLOUD",
+            "relation": "AHD明确列此派生链；保存其重构体系，不假装各学派写法一致",
+            "mapping": "盖、覆仅对COVER；Germanic cloud 对云",
+            "source": "https://www.ahdictionary.com/word/indoeurop.html"
+          },
+          {
+            "id": "S3",
+            "form": "sky",
+            "language": "Modern English",
+            "period": "约1500年至今的现代层",
+            "meaning": "上方天空空间",
+            "relation": "保留现代空间义；不纳入晚近动词",
+            "mapping": "天；盖在 SC，另对 S0 COVER",
+            "source": "https://www.merriam-webster.com/dictionary/sky"
+          },
+          {
+            "id": "SC",
+            "form": "ABOVE-COVER",
+            "language": "research interpretation",
+            "period": "本轮解释，非历史语言阶段",
+            "meaning": "上方覆盖图式",
+            "relation": "不是见证词形或重构词根",
+            "mapping": "盖、覆",
+            "source": "https://www.zdic.net/hans/盖"
+          }
+        ]
+      },
+      {
+        "id": "SKY-02",
+        "entry": "SKY",
+        "chinese_form": "天",
+        "reading": "tiān",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "S3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "天空；只取自然空间义",
+        "semantic_fit": "High",
+        "phonetic_fit": "Low：/tʰ/、/jɛn/ 与 /sk/、/aɪ/ 不配",
+        "structural_cognitive_fit": "Low：直接语义对应",
+        "consonant_group_relation": "none",
+        "counterevidence": "排除天帝、命运、一天等义；不能用天的其他义填满 sky 历史",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/天",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "S3",
+            "form": "sky",
+            "language": "Modern English",
+            "period": "约1500年至今的现代层",
+            "meaning": "上方天空空间",
+            "relation": "保留现代空间义；不纳入晚近动词",
+            "mapping": "天；盖在 SC，另对 S0 COVER",
+            "source": "https://www.merriam-webster.com/dictionary/sky"
+          }
+        ]
+      },
+      {
+        "id": "SKY-03",
+        "entry": "SKY",
+        "chinese_form": "云",
+        "reading": "yún",
+        "chinese_layer": "Modern Mandarin + historical character sense",
+        "chinese_period": "现代 cloud 义；雲古义在线转引《说文》（东汉），原版待核",
+        "target_stage": "S1/S2",
+        "comparison_unit": "Old Norse ský / Middle English cloud sense",
+        "documented_meaning": "雲：天空中的云团",
+        "semantic_fit": "High for CLOUD; Low for all modern SKY",
+        "phonetic_fit": "Low：现代 yún 与 sky 不近；Norse 全音值未评分",
+        "structural_cognitive_fit": "Medium：核对两阶段而不合并",
+        "consonant_group_relation": "none",
+        "counterevidence": "云不是天空全体；排除云=说；不用现代 sky 音替代 ský 音",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/云",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "S1",
+            "form": "ský",
+            "language": "Old Norse",
+            "period": "中古北欧语时期，约9–14世纪语言层；非所引词的首见年",
+            "meaning": "CLOUD",
+            "relation": "借入 Middle English；OE scēo 只记相关词，不作借入中间站",
+            "mapping": "云",
+            "source": "https://www.merriam-webster.com/dictionary/sky"
+          },
+          {
+            "id": "S2",
+            "form": "ski (AHD); sky (normalized)",
+            "language": "Middle English",
+            "period": "约13世纪起所核英语记录",
+            "meaning": "CLOUD / SKY",
+            "relation": "词义扩展；不能凭摘要确定两个 ME 义的精确先后",
+            "mapping": "云；其余不另配字",
+            "source": "https://www.ahdictionary.com/word/search.html?q=sky"
+          }
+        ]
+      },
+      {
+        "id": "SKY-04",
+        "entry": "SKY",
+        "chinese_form": "空",
+        "reading": "kōng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "S3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "离地高处／空中；不是 kòng 空缺",
+        "semantic_fit": "Medium–High in 天空/空中; 单字范围较宽",
+        "phonetic_fit": "Low：/kʰ/ 同属软腭但送气、韵母 /ʊŋ/ 与 /aɪ/ 不同",
+        "structural_cognitive_fit": "Low",
+        "consonant_group_relation": "g-k-h expansion",
+        "counterevidence": "不能把 empty 当 sky；只命中一个辅音并不超过盖的声音价值",
+        "decision": "Retain limited",
+        "discovery_priority": "Medium",
+        "origin": "group expansion",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/空",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "S3",
+            "form": "sky",
+            "language": "Modern English",
+            "period": "约1500年至今的现代层",
+            "meaning": "上方天空空间",
+            "relation": "保留现代空间义；不纳入晚近动词",
+            "mapping": "天；盖在 SC，另对 S0 COVER",
+            "source": "https://www.merriam-webster.com/dictionary/sky"
+          }
+        ]
+      },
+      {
+        "id": "SKY-05",
+        "entry": "SKY",
+        "chinese_form": "覆",
+        "reading": "fù",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "S0/SC",
+        "comparison_unit": "PIE COVER sense (historical semantic comparison) and modern sky sound (separate comparison; do not combine scores)",
+        "documented_meaning": "遮盖",
+        "semantic_fit": "High for reconstructed COVER meaning; Low lexical modern SKY/CLOUD; Medium cognitive",
+        "phonetic_fit": "Low：/f,u/ 与 /sk,aɪ/ 不配；S0历史音匹配Not evaluated，不挪用现代 /aɪ/",
+        "structural_cognitive_fit": "Medium：提供盖的语义对照",
+        "consonant_group_relation": "none",
+        "counterevidence": "SC 是研究解释，不是 Norse 新增历史阶段；排除倾覆义",
+        "decision": "Retain limited",
+        "discovery_priority": "Medium",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/覆",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "additional_source_history": "https://www.ahdictionary.com/word/indoeurop.html",
+        "source_stage_metadata": [
+          {
+            "id": "S0",
+            "form": "*(s)keu- → *skeu-jam",
+            "language": "reconstructed PIE → Germanic",
+            "period": "史前重构，非有日期的文献见证",
+            "meaning": "COVER/CONCEAL → CLOUD",
+            "relation": "AHD明确列此派生链；保存其重构体系，不假装各学派写法一致",
+            "mapping": "盖、覆仅对COVER；Germanic cloud 对云",
+            "source": "https://www.ahdictionary.com/word/indoeurop.html"
+          },
+          {
+            "id": "SC",
+            "form": "ABOVE-COVER",
+            "language": "research interpretation",
+            "period": "本轮解释，非历史语言阶段",
+            "meaning": "上方覆盖图式",
+            "relation": "不是见证词形或重构词根",
+            "mapping": "盖、覆",
+            "source": "https://www.zdic.net/hans/盖"
+          }
+        ]
+      },
+      {
+        "id": "SKY-06",
+        "entry": "SKY",
+        "chinese_form": "钙",
+        "reading": "gài",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "S3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "金属元素钙",
+        "semantic_fit": "None",
+        "phonetic_fit": "Medium partial：与盖同音，故同等接近 sky 的局部",
+        "structural_cognitive_fit": "None",
+        "consonant_group_relation": "same selected /k/ feature",
+        "counterevidence": "同等声音不带来天空语义",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/钙",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "S3",
+            "form": "sky",
+            "language": "Modern English",
+            "period": "约1500年至今的现代层",
+            "meaning": "上方天空空间",
+            "relation": "保留现代空间义；不纳入晚近动词",
+            "mapping": "天；盖在 SC，另对 S0 COVER",
+            "source": "https://www.merriam-webster.com/dictionary/sky"
+          }
+        ]
+      },
+      {
+        "id": "SKY-07",
+        "entry": "SKY",
+        "chinese_form": "开",
+        "reading": "kāi",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "S3/SC",
+        "comparison_unit": "whole word",
+        "documented_meaning": "打开、开启",
+        "semantic_fit": "Low：天空可开阔不等于开",
+        "phonetic_fit": "Medium partial rhyme; 送气及 /s/ 缺失仍不同",
+        "structural_cognitive_fit": "Low",
+        "consonant_group_relation": "g-k-h expansion",
+        "counterevidence": "开不是 sky/cloud；开放与覆盖也不能随意互换",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "group expansion control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/开",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "S3",
+            "form": "sky",
+            "language": "Modern English",
+            "period": "约1500年至今的现代层",
+            "meaning": "上方天空空间",
+            "relation": "保留现代空间义；不纳入晚近动词",
+            "mapping": "天；盖在 SC，另对 S0 COVER",
+            "source": "https://www.merriam-webster.com/dictionary/sky"
+          },
+          {
+            "id": "SC",
+            "form": "ABOVE-COVER",
+            "language": "research interpretation",
+            "period": "本轮解释，非历史语言阶段",
+            "meaning": "上方覆盖图式",
+            "relation": "不是见证词形或重构词根",
+            "mapping": "盖、覆",
+            "source": "https://www.zdic.net/hans/盖"
+          }
+        ]
+      },
+      {
+        "id": "SKY-08",
+        "entry": "SKY",
+        "chinese_form": "天空",
+        "reading": "tiānkōng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "S3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "地面上方的广大空间",
+        "semantic_fit": "High",
+        "phonetic_fit": "Low：双音节且辅音韵母均不同",
+        "structural_cognitive_fit": "None needed",
+        "consonant_group_relation": "none",
+        "counterevidence": "与天、空共享语素，不算两个独立成功",
+        "decision": "Semantic control",
+        "discovery_priority": "Medium",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/天空",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "S3",
+            "form": "sky",
+            "language": "Modern English",
+            "period": "约1500年至今的现代层",
+            "meaning": "上方天空空间",
+            "relation": "保留现代空间义；不纳入晚近动词",
+            "mapping": "天；盖在 SC，另对 S0 COVER",
+            "source": "https://www.merriam-webster.com/dictionary/sky"
+          }
+        ]
+      }
+    ],
+    "freeze": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。",
+    "note": "Exact original 39-record pool; active selections follow approved Freeze, not original Discovery winners.",
+    "deep_source_metadata": [
+      [
+        "S0",
+        "*(s)keu- → *skeu-jam",
+        "reconstructed PIE → Germanic",
+        "史前重构，非有日期的文献见证",
+        "COVER/CONCEAL → CLOUD",
+        "AHD明确列此派生链；保存其重构体系，不假装各学派写法一致",
+        "盖、覆仅对COVER；Germanic cloud 对云",
+        "https://www.ahdictionary.com/word/indoeurop.html"
+      ]
+    ],
+    "independent_comparisons": [
+      {
+        "source": "Reconstructed COVER",
+        "target": "盖 gài / 覆 fù",
+        "semantic_fit": "Direct for COVER only",
+        "phonetic_fit": "not_evaluated",
+        "historical_relation": "Not claimed",
+        "boundary": "No transfer of modern sky sound or score to reconstructed source",
+        "source_refs": [
+          "TC3-SKY-SRC-01"
+        ]
+      }
+    ]
+  },
+  "research_provenance": {
+    "status": "Calibration archive, not active evidence",
+    "reason": "盖 gài保留为有限Cognitive / Phonetic-Semantic Candidate：现代sky的字面语义匹配Low、认知Medium，声音Medium partial。重构COVER深源只作独立Research语义比较，不与现代声音合成共同词源证据。",
+    "old_observations": {
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-sky-001",
+          "claim": {
+            "en": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ is a candidate velar and rhyme resemblance associated with the cognitive schema ABOVE → COVER.",
+            "zh-Hans": "sky /skaɪ/ ↔ 盖 gài /kaɪ˥˩/ 是候选软腭音与韵部近似观察，并与 ABOVE → COVER 认知图式相连。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Modern-form resemblance is not a regular sound correspondence or proof of cognacy.",
+            "zh-Hans": "现代词形近似不是规律音变，也不证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABOVE",
+          "COVER"
+        ],
+        "relation": "ABOVE → COVER",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-SKY-COVER-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "sky ↔ 盖 as a phonetic-semantic and cognitive candidate",
+            "zh-Hans": "sky ↔ 盖：语音—语义与认知候选映射"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-LB-SKY",
+            "SRC-PROTOCOL-MAPPING"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-LB-SKY",
+            "SRC-PROTOCOL-MAPPING"
+          ]
+        },
+        {
+          "hypothesis_id": "UNI-SKY-YIJING-002",
+          "type": "Author structural-symbol hypothesis",
+          "claim": {
+            "en": "The sixty-four hexagrams may be studied as another kind of writing; the author proposes Qian as their originating structure.",
+            "zh-Hans": "六十四卦图可以作为我们的另一种文字来研究；作者提出“所有卦象都是从乾卦而来”。"
+          },
+          "status": "Speculative/Testable",
+          "confidence": "Low",
+          "supporting_cases": [
+            "乾 ☰ as the all-yang hexagram",
+            "hexagrams as yin–yang line combinations"
+          ],
+          "counterexamples": [
+            "This is not presented as a settled historical or Yijing conclusion",
+            "The combinatorial system also requires yin lines and includes Kun ☷ as a basic contrast"
+          ],
+          "testability": {
+            "en": "Define ‘originating structure’ and compare it with received-text, excavated-text and combinatorial accounts of the hexagram system.",
+            "zh-Hans": "须先定义“从乾卦而来”的结构含义，再与传世文献、出土材料及卦象组合方式比较。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-CTEXT-QIAN"
+          ]
+        }
+      ]
+    }
+  },
+  "legacy_migration": {
+    "version": "tier-c-batch3-0.1",
+    "baseline_commit": "16e144fd83c1fe048b3abd84196a0529fe04df3b",
+    "scope": "Exact original record archive. Calibrated hypotheses remain Research, not active Featured or etymological evidence.",
+    "previous_fields": {
+      "title": {
+        "en": "Sky · Cover",
+        "zh-Hans": "Sky · 天空 · 盖"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-sky-primary-tiankong",
+        "source": {
+          "language": "English",
+          "word": "sky",
+          "pronunciation": "/skaɪ/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "天空",
+          "pronunciation": "tiānkōng"
+        },
+        "gloss": {
+          "en": "The visible region above the earth.",
+          "zh-Hans": "从地面向上看见的广大空间。"
+        },
+        "meaning": {
+          "en": "The visible region above the earth.",
+          "zh-Hans": "从地面向上看见的广大空间。"
+        },
+        "mapping_type": "Lexical equivalent",
+        "rationale": {
+          "en": "Calibration case: ordinary lexical equivalence (sky → 天空), the sky ↔ 盖 candidate, independent word histories, the ABOVE → COVER schema and literary interpretation remain separate.",
+          "zh-Hans": "Mapping 校准案例：普通词义对应（sky → 天空）、sky ↔ 盖候选、各自词史、ABOVE → COVER 图式与文学解释保持分离。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "REF-JL-SKY-RAW",
+          "title": "Jinkai Liu: Sky literary and research note",
+          "type": "author manuscript",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; claims independently classified"
+        },
+        {
+          "reference_id": "REF-MW-SKY",
+          "title": "Merriam-Webster Dictionary: sky",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/sky",
+          "path": null,
+          "provenance": "external dictionary; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CNRTL-CIEL",
+          "title": "CNRTL/TLFi: étymologie de ciel",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/ciel",
+          "path": null,
+          "provenance": "French national lexical resource; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CUHK-TIAN",
+          "title": "CUHK Multi-function Chinese Character Database: 天",
+          "type": "palaeographic database",
+          "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/oraclePiece.php?piece=%E5%A4%A9",
+          "path": null,
+          "provenance": "university character database; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CTEXT-QIAN",
+          "title": "Chinese Text Project: Book of Changes — Qian",
+          "type": "primary-text database",
+          "url": "https://ctext.org/book-of-changes/qian",
+          "path": null,
+          "provenance": "digitized classical text; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-CTEXT-ZHOUBI",
+          "title": "Chinese Text Project: Zhoubi / Gaitian passages",
+          "type": "primary-text database",
+          "url": "https://ctext.org/dictionary.pl?char=%E5%91%A8%E9%AB%80&if=en",
+          "path": null,
+          "provenance": "digitized classical-text index; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "REF-WIKISOURCE-CHILE",
+          "title": "Wikisource: Song of Chile",
+          "type": "primary-text edition",
+          "url": "https://zh.wikisource.org/wiki/%E6%95%95%E5%8B%92%E6%AD%8C",
+          "path": null,
+          "provenance": "digital text edition; accessed 2026-09-04"
+        },
+        {
+          "reference_id": "SRC-LB-SKY",
+          "title": "Language Book · Sky",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/sky.html",
+          "provenance": "project editorial page"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Translation (天空), featured candidate (盖 gài), independent histories, the ABOVE → COVER schema, Gaitian cosmology, Yijing hypothesis and literary writing remain separate.",
+          "zh-Hans": "通用翻译（天空）、特色候选（盖 gài）、独立词史、ABOVE→COVER 图式、盖天说、易经假说与文学写作保持分离。"
+        }
+      ],
+      "search_terms": [
+        "sky",
+        "skies",
+        "heaven",
+        "天空",
+        "天",
+        "昊",
+        "ciel",
+        "盖",
+        "tiānkōng",
+        "ABOVE",
+        "COVER",
+        "gài",
+        "盖天",
+        "盖天说",
+        "乾",
+        "乾卦",
+        "坤",
+        "坤卦",
+        "周易",
+        "六十四卦",
+        "敕勒歌",
+        "穹庐"
+      ],
+      "featured_mapping": {
+        "source": "sky",
+        "target": "盖",
+        "reading": "gài",
+        "display_label": "Featured phonetic-semantic candidate · 特色音义候选",
+        "status": "Candidate · Low confidence",
+        "historical_relation": "Unestablished",
+        "boundary": {
+          "en": "盖 is displayed first as the author's concise sound–meaning and cover-schema candidate. The standard translation remains 天空; modern resemblance does not establish cognacy.",
+          "zh-Hans": "先展示“盖”gài，作为作者提出的简洁音义与覆盖图式候选；通用翻译仍是“天空”，现代读音近似不证明同源。"
+        },
+        "source_refs": [
+          "REF-JL-SKY-RAW",
+          "REF-MW-SKY",
+          "REF-CUHK-TIAN",
+          "REF-CTEXT-ZHOUBI"
+        ]
+      },
+      "historical_relation_status": "Unestablished",
+      "semantic_structure": {
+        "concepts": [
+          "ABOVE",
+          "COVER"
+        ],
+        "relation": "ABOVE → COVER",
+        "status": "Interpretive"
+      }
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery",
+      "research_provenance"
+    ]
+  }
+}

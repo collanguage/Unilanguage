@@ -1,0 +1,2522 @@
+{
+  "id": "LB-en-language-001",
+  "slug": "language",
+  "title": {
+    "en": "LANGUAGE · 语言",
+    "zh-Hans": "LANGUAGE · 语言"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "language",
+      "pronunciation": "/ˈlæŋɡwɪdʒ/"
+    },
+    {
+      "role": "target",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "朗",
+      "pronunciation": "lǎng"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-language-modern-standard",
+    "source": {
+      "language": "English",
+      "word": "language",
+      "pronunciation": "/ˈlæŋɡwɪdʒ/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "语言",
+      "pronunciation": "yǔyán"
+    },
+    "gloss": {
+      "en": "A structured system used to communicate and interpret meaning.",
+      "zh-Hans": "用于交流和解释意义的结构化系统。"
+    },
+    "meaning": {
+      "en": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。",
+      "zh-Hans": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping",
+    "rationale": {
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Candidate",
+  "mapping_level": "B",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Supported",
+      "confidence": "Medium",
+      "summary": {
+        "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+        "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+      },
+      "items": [
+        {
+          "evidence_id": "ETY-language-001",
+          "claim": {
+            "en": "Historical dictionaries trace English language through Middle English and Old French langage, from langue, ultimately Latin lingua (‘tongue; language’).",
+            "zh-Hans": "历史词典将英语 language 追溯为：中古英语 langage／language，经古法语 langage、langue，最终来自拉丁语 lingua（“舌；语言”）。"
+          },
+          "status": "Supported",
+          "confidence": "High",
+          "chain": [
+            "English language",
+            "Middle English langage / language",
+            "Old French langage",
+            "Old French langue",
+            "Latin lingua"
+          ],
+          "source_refs": [
+            "SRC-AHD-LANGUAGE",
+            "SRC-MED-LANGAGE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-AHD-LANGUAGE",
+        "SRC-MED-LANGAGE"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Unknown",
+      "summary": {
+        "en": "No separate phonetic-semantic observation is recorded.",
+        "zh-Hans": "未记录独立的语音—语义观察。"
+      },
+      "items": [
+        {
+          "evidence_id": "RAT-language-lang",
+          "claim": {
+            "en": "The author associates language with 朗读 and 朗朗上口: language is cognitively linked with being voiced or read aloud.",
+            "zh-Hans": "作者把 language 与“朗读／朗朗上口”联系：语言在认知上与发声、朗读相关。"
+          },
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "source_refs": [
+            "SRC-LB-LANGUAGE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LB-LANGUAGE"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "Recorded semantic structure: VOICE → MEANING → COMMUNICATION.",
+        "zh-Hans": "已记录语义结构：VOICE → MEANING → COMMUNICATION。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Speculative": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+        "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+      },
+      "items": [
+        {
+          "evidence_id": "UNI-L-GLYPH-HISTORY-001",
+          "claim": {
+            "en": "Research the proposed path from early alphabetic signs in an Egyptian contact setting through Semitic lamed and Greek lambda to Latin L. The proposed pictorial source of lamed, often linked with an ox-goad or crook, remains a historical reconstruction—not a semantic law.",
+            "zh-Hans": "研究在埃及接触环境中的早期字母符号，经闪米特 lamed、希腊 lambda 到拉丁 L 的提议路径。lamed 的图画来源常与赶牛杖或弯杖联系，但仍属于历史重建，不是语义法则。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-YALE-WADI-EL-HOL",
+            "SRC-ANTIQUITY-EARLY-ALPHABET",
+            "SRC-COLLESS-ALPHABET-L"
+          ]
+        },
+        {
+          "evidence_id": "UNI-L-INHERENT-SEMANTIC-001",
+          "claim": {
+            "en": "Research whether modern L or /l/ has a repeatable semantic association across words. Historical glyph evidence is context for a separate object and does not establish this hypothesis.",
+            "zh-Hans": "研究现代字母 L 或 /l/ 音在多个词汇中是否存在可重复的语义关联。历史字形资料属于另一个对象的背景，不能证明本假说。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-LB-LANGUAGE",
+            "SRC-COLLESS-ALPHABET-L"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-YALE-WADI-EL-HOL",
+        "SRC-ANTIQUITY-EARLY-ALPHABET",
+        "SRC-COLLESS-ALPHABET-L",
+        "SRC-LB-LANGUAGE"
+      ]
+    }
+  },
+  "phonetic_observation": [],
+  "semantic_structure": {
+    "concepts": [
+      "VOICE",
+      "MEANING",
+      "COMMUNICATION"
+    ],
+    "relation": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。",
+    "status": "Candidate / scoped comparison; legacy observations in Research"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-L-GLYPH-HISTORY-001",
+      "type": "letter-symbol-history",
+      "claim": {
+        "en": "Research archive / superseded observation: Research the proposed path from early alphabetic signs in an Egyptian contact setting through Semitic lamed and Greek lambda to Latin L. The proposed pictorial source of lamed, often linked with an ox-goad or crook, remains a historical reconstruction—not a semantic law.",
+        "zh-Hans": "Research archive / superseded observation: 研究在埃及接触环境中的早期字母符号，经闪米特 lamed、希腊 lambda 到拉丁 L 的提议路径。lamed 的图画来源常与赶牛杖或弯杖联系，但仍属于历史重建，不是语义法则。"
+      },
+      "status": "Untested",
+      "confidence": "low",
+      "supporting_cases": [
+        "SRC-YALE-WADI-EL-HOL",
+        "SRC-ANTIQUITY-EARLY-ALPHABET",
+        "SRC-COLLESS-ALPHABET-L"
+      ],
+      "counterexamples": [],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "SRC-YALE-WADI-EL-HOL",
+        "SRC-ANTIQUITY-EARLY-ALPHABET",
+        "SRC-COLLESS-ALPHABET-L"
+      ]
+    },
+    {
+      "hypothesis_id": "UNI-L-INHERENT-SEMANTIC-001",
+      "type": "sound-semantic",
+      "claim": {
+        "en": "Research archive / superseded observation: Research whether modern L or /l/ has a repeatable semantic association across words. Historical glyph evidence is context for a separate object and does not establish this hypothesis.",
+        "zh-Hans": "Research archive / superseded observation: 研究现代字母 L 或 /l/ 音在多个词汇中是否存在可重复的语义关联。历史字形资料属于另一个对象的背景，不能证明本假说。"
+      },
+      "status": "Untested",
+      "confidence": "low",
+      "supporting_cases": [
+        "SRC-COLLESS-ALPHABET-L"
+      ],
+      "counterexamples": [],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "SRC-LB-LANGUAGE",
+        "SRC-COLLESS-ALPHABET-L"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Not present",
+    "is_historical_evidence": false,
+    "proposition": null,
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "Literature may explore freely, but it is not historical evidence.",
+      "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "SRC-LB-LANGUAGE",
+      "title": "Language Book · Language",
+      "type": "language-book-page",
+      "url": null,
+      "path": "words/language.html",
+      "provenance": "unknown"
+    },
+    {
+      "reference_id": "SRC-AHD-LANGUAGE",
+      "title": "American Heritage Dictionary · language",
+      "type": "authoritative-dictionary",
+      "url": "https://www.ahdictionary.com/word/search.html?q=language",
+      "path": "docs/product/package-g2-source-verification-v0.1.md",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-MED-LANGAGE",
+      "title": "Middle English Dictionary · langage",
+      "type": "authoritative-dictionary",
+      "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED24625",
+      "path": "docs/product/package-g2-source-verification-v0.1.md",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-YALE-WADI-EL-HOL",
+      "title": "Darnell et al. · Two Early Alphabetic Inscriptions from Wadi el-Hol",
+      "type": "primary-historical-source",
+      "url": "https://nelc.yale.edu/publications/two-early-alphabetic-inscriptions-wadi-el-hol-new-evidence-origin-alphabet-western",
+      "path": "docs/product/package-g2-source-verification-v0.1.md",
+      "provenance": "primary-publication"
+    },
+    {
+      "reference_id": "SRC-ANTIQUITY-EARLY-ALPHABET",
+      "title": "Höflmayer et al. · Early alphabetic writing at Tel Lachish",
+      "type": "scholarly-source",
+      "url": "https://www.cambridge.org/core/journals/antiquity/article/early-alphabetic-writing-in-the-ancient-near-east-the-missing-link-from-tel-lachish/C73F769B7CF3A7E4E2607958A096B7D8",
+      "path": "docs/product/package-g2-source-verification-v0.1.md",
+      "provenance": "scholarly-publication"
+    },
+    {
+      "reference_id": "SRC-COLLESS-ALPHABET-L",
+      "title": "Colless · The Origin of the Alphabet: An Examination of the Goldwasser Hypothesis",
+      "type": "scholarly-source",
+      "url": "https://repositorio.uca.edu.ar/bitstream/123456789/6787/4/origin-alphabet-goldwasser-hypothesis.pdf",
+      "path": "docs/product/package-g2-source-verification-v0.1.md",
+      "provenance": "scholarly-publication"
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-01",
+      "title": "Approved Freeze source · language",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.merriam-webster.com/dictionary/language",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-02",
+      "title": "Approved Freeze source · 舌",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/舌",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-03",
+      "title": "Approved Freeze source · 言",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/言",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-04",
+      "title": "Approved Freeze source · 语",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/语",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-05",
+      "title": "Approved Freeze source · 文",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/文",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-06",
+      "title": "Approved Freeze source · 朗",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/朗",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-07",
+      "title": "Approved Freeze source · 狼",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/狼",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-08",
+      "title": "Approved Freeze source · 农",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/农",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-09",
+      "title": "Approved Freeze source · 语言",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/语言",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-LANGUAGE-SRC-10",
+      "title": "Approved Freeze source · 舌",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.shidianguji.com/character/舌",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "source page current / dataset 0.2.0 / G.1 migration / G.2 source verification",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-02",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "The language → 朗 mapping is an author proposal. English historical etymology remains a separate track.",
+      "zh-Hans": "language → 朗 是作者提案；英语历史词源保持独立轨道。"
+    },
+    {
+      "en": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. 舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。",
+      "zh-Hans": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. 舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+    }
+  ],
+  "search_terms": [
+    "language",
+    "speech",
+    "语言",
+    "言语",
+    "langue",
+    "langage",
+    "朗",
+    "lǎng",
+    "VOICE",
+    "MEANING",
+    "COMMUNICATION",
+    "舌",
+    "语"
+  ],
+  "page": "words/language.html",
+  "legacy": {
+    "entry_id": "LB-en-language-001",
+    "source_word": "language",
+    "language": "English",
+    "normalized_form": "language",
+    "pronunciation": "/ˈlæŋɡwɪdʒ/",
+    "phonetic_form": "læŋɡwɪdʒ",
+    "lexical_meaning": {
+      "en": "A structured system used to communicate and interpret meaning.",
+      "zh-Hans": "用于交流和解释意义的结构化系统。"
+    },
+    "aliases": [
+      "speech",
+      "语言",
+      "言语",
+      "langue",
+      "langage",
+      "朗",
+      "lǎng"
+    ],
+    "classification_status": "candidate",
+    "primary_chinese_mapping": {
+      "mapping_id": "MAP-language-primary-lang",
+      "chinese_form": "朗",
+      "pinyin": "lǎng",
+      "role": "primary",
+      "mapping_basis": "author-proposal",
+      "status": "candidate",
+      "identity": "author-idea",
+      "source_verification": {
+        "status": "needs-verification",
+        "source_refs": [
+          "SRC-LB-LANGUAGE"
+        ],
+        "notes": {
+          "en": "Author-proposed calibration mapping; not historical etymology and not reviewed fact.",
+          "zh-Hans": "作者提出的校准映射；不是历史词源，也不是已审核事实。"
+        }
+      },
+      "ai_review": {
+        "status": "not-reviewed",
+        "reviewer": null,
+        "reviewed_at": null,
+        "rationale": {
+          "en": "No G.1 object-level AI review has been completed.",
+          "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+        }
+      }
+    },
+    "secondary_chinese_mappings": [
+      {
+        "mapping_id": "MAP-language-secondary-yuyan",
+        "chinese_form": "语言",
+        "pinyin": "yǔyán",
+        "role": "secondary",
+        "mapping_basis": "lexical-equivalent",
+        "status": "published",
+        "identity": "source-backed-lexical-mapping",
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-LB-LANGUAGE"
+          ],
+          "notes": {
+            "en": "Ordinary Chinese lexical equivalent retained separately from the author proposal.",
+            "zh-Hans": "普通汉语词汇对应，与作者假说分开保留。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "mapping_rationales": [
+      {
+        "rationale_id": "RAT-language-lang",
+        "mapping_ref": "MAP-language-primary-lang",
+        "identity": "author-idea",
+        "status": "candidate",
+        "statement": {
+          "en": "The author associates language with 朗读 and 朗朗上口: language is cognitively linked with being voiced or read aloud.",
+          "zh-Hans": "作者把 language 与“朗读／朗朗上口”联系：语言在认知上与发声、朗读相关。"
+        },
+        "source_verification": {
+          "status": "not-applicable",
+          "source_refs": [
+            "SRC-LB-LANGUAGE"
+          ],
+          "notes": {
+            "en": "This preserves the author's reason for proposing the mapping; it is not an established fact.",
+            "zh-Hans": "此对象保存作者提出映射的理由，不是既成事实。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "historical_etymologies": [
+      {
+        "etymology_id": "ETY-language-001",
+        "identity": "historical-claim",
+        "status": "candidate",
+        "chain": [
+          "English language",
+          "Middle English langage / language",
+          "Old French langage",
+          "Old French langue",
+          "Latin lingua"
+        ],
+        "summary": {
+          "en": "Historical dictionaries trace English language through Middle English and Old French langage, from langue, ultimately Latin lingua (‘tongue; language’).",
+          "zh-Hans": "历史词典将英语 language 追溯为：中古英语 langage／language，经古法语 langage、langue，最终来自拉丁语 lingua（“舌；语言”）。"
+        },
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-AHD-LANGUAGE",
+            "SRC-MED-LANGAGE"
+          ],
+          "notes": {
+            "en": "The lexical-history chain is source-backed. These sources do not support the separate language↔朗 author mapping.",
+            "zh-Hans": "该词汇史链已有来源支持；这些来源不支持独立的 language↔朗 作者映射。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "G.2 completed Source Verification only; object-level AI Review has not been executed.",
+            "zh-Hans": "G.2 仅完成来源核验；尚未执行对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "sound_symbol_hypothesis_refs": [
+      "UNI-L-GLYPH-HISTORY-001",
+      "UNI-L-INHERENT-SEMANTIC-001"
+    ],
+    "other_author_notes": [
+      {
+        "note_id": "NOTE-language-stream",
+        "identity": "author-note",
+        "status": "needs-classification",
+        "text": {
+          "en": "The source page's lang/朗/亮/廊/浪/良/粮/梁/凉/力/量 stream is preserved as author research material pending finer classification.",
+          "zh-Hans": "源页面的 lang／朗／亮／廊／浪／良／粮／梁／凉／力／量联想链作为作者研究材料保留，等待进一步分类。"
+        },
+        "source_verification": {
+          "status": "not-applicable",
+          "source_refs": [
+            "SRC-LB-LANGUAGE"
+          ],
+          "notes": {
+            "en": "Preserved during migration without forcing an evidential interpretation.",
+            "zh-Hans": "迁移时原样保留，不强行赋予证据解释。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "experimental_validation_refs": [],
+    "source_provenance": [
+      "SRC-LB-LANGUAGE"
+    ],
+    "author": "Jinkai Liu｜劉金凱",
+    "version": "source page current / dataset 0.2.0 / G.1 migration / G.2 source verification"
+  },
+  "standard_translation": {
+    "source": "language",
+    "target": "语言",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "TC3-LANGUAGE-SRC-01",
+      "TC3-LANGUAGE-SRC-01",
+      "TC3-LANGUAGE-SRC-01"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-language-modern-standard",
+    "source": {
+      "language": "English",
+      "word": "language",
+      "pronunciation": "/ˈlæŋɡwɪdʒ/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "语言",
+      "pronunciation": "yǔyán"
+    },
+    "gloss": {
+      "en": "A structured system used to communicate and interpret meaning.",
+      "zh-Hans": "用于交流和解释意义的结构化系统。"
+    },
+    "meaning": {
+      "en": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。",
+      "zh-Hans": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping",
+    "rationale": {
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "L1",
+        "form": "lingua",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语层；约前1世纪至后数世纪；义项首见未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-LANGUAGE-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "TONGUE and SPEECH/LANGUAGE",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "TC3-LANGUAGE-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "同一拉丁词的多义；不假造三个先后年代"
+      },
+      {
+        "stage_id": "L2",
+        "form": "langue/lange → langage",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old/Anglo-French",
+          "code": null
+        },
+        "period": {
+          "label": "中世纪；约11–14世纪语言层",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-LANGUAGE-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "舌／语言 → language expression",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "L1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "langage 的派生和英语借入；现代 French langue 是延续形式，不是现代 English 的母词",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-LANGUAGE-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-LANGUAGE-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "langage 的派生和英语借入；现代 French langue 是延续形式，不是现代 English 的母词"
+      },
+      {
+        "stage_id": "L3",
+        "form": "language",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Middle → Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "英语首见14世纪；现代延续",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-LANGUAGE-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "语言／交流符号系统",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-L3",
+            "value": "/ˈlæŋɡwɪdʒ/",
+            "notation": "IPA",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "TC3-LANGUAGE-SRC-01"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "L2",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "范围包括手语等；不要求文字或响亮发声",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-LANGUAGE-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-LANGUAGE-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "范围包括手语等；不要求文字或响亮发声"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-L1",
+        "stage_ref": "L1",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "TONGUE and SPEECH/LANGUAGE",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "TONGUE and SPEECH/LANGUAGE"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-LANGUAGE-01",
+            "family_key": "legacy-language",
+            "target": {
+              "form": "舌",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代器官义；言语代称见古籍转引，先秦/汉语料版本待核",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "舌器官；代指言语",
+                "pos": null,
+                "constraints": [
+                  "器官与行为的转喻不证明共同词源；手语不依赖发声"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-LANGUAGE-01",
+                  "value": "shé",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-LANGUAGE-SRC-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "L1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-LANGUAGE-01",
+              "source_span": "lingua",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for lingua 的两义；非现代所有 language 的默认译法",
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-01",
+                "TC3-LANGUAGE-SRC-02"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：shé 与 lingua/language 没有近似全形",
+              "features": {
+                "onset": "Low：shé 与 lingua/language 没有近似全形",
+                "vowel": "Low：shé 与 lingua/language 没有近似全形",
+                "coda_other_consonants": "Low：shé 与 lingua/language 没有近似全形",
+                "syllables": "Low：shé 与 lingua/language 没有近似全形",
+                "prosody": "Low：shé 与 lingua/language 没有近似全形"
+              },
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-02"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-02"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-02"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "器官与行为的转喻不证明共同词源；手语不依赖发声",
+              "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-LANGUAGE-02",
+            "family_key": "legacy-language",
+            "target": {
+              "form": "言",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；《说文》等转引可追至汉代释义，原版待核",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "说话；说出的话",
+                "pos": null,
+                "constraints": [
+                  "不能把言的字形分析当语言起源证据"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-LANGUAGE-02",
+                  "value": "yán",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-LANGUAGE-SRC-03"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-03"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "L1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-LANGUAGE-02",
+              "source_span": "lingua",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for SPEECH; Medium for abstract language system",
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-01",
+                "TC3-LANGUAGE-SRC-03"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：/j/、/ɛn/ 不配 /l/、/æŋɡwɪdʒ/",
+              "features": {
+                "onset": "Low：/j/、/ɛn/ 不配 /l/、/æŋɡwɪdʒ/",
+                "vowel": "Low：/j/、/ɛn/ 不配 /l/、/æŋɡwɪdʒ/",
+                "coda_other_consonants": "Low：/j/、/ɛn/ 不配 /l/、/æŋɡwɪdʒ/",
+                "syllables": "Low：/j/、/ɛn/ 不配 /l/、/æŋɡwɪdʒ/",
+                "prosody": "Low：/j/、/ɛn/ 不配 /l/、/æŋɡwɪdʒ/"
+              },
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-03"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-03"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-03"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不能把言的字形分析当语言起源证据",
+              "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。 Retain limited",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-L3",
+        "stage_ref": "L3",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "语言／交流符号系统",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "语言／交流符号系统"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-LANGUAGE-03",
+            "family_key": "legacy-language",
+            "target": {
+              "form": "语",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "话、语言；汉语/英语等构式",
+                "pos": null,
+                "constraints": [
+                  "不用 yù 告诉义；单字不是现代语言理论的全定义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-LANGUAGE-03",
+                  "value": "yǔ",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-LANGUAGE-SRC-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "L3",
+              "source_pronunciation_ref": "PR-L3",
+              "target_pronunciation_ref": "ZH-TC3-LANGUAGE-03",
+              "source_span": "language",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High",
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-01",
+                "TC3-LANGUAGE-SRC-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：圆唇前元音与源词结构不同",
+              "features": {
+                "onset": "Low：圆唇前元音与源词结构不同",
+                "vowel": "Low：圆唇前元音与源词结构不同",
+                "coda_other_consonants": "Low：圆唇前元音与源词结构不同",
+                "syllables": "Low：圆唇前元音与源词结构不同",
+                "prosody": "Low：圆唇前元音与源词结构不同"
+              },
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-04"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不用 yù 告诉义；单字不是现代语言理论的全定义",
+              "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-LANGUAGE-04",
+            "family_key": "legacy-language",
+            "target": {
+              "form": "文",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "文字、书面表达；某语言书面形式",
+                "pos": null,
+                "constraints": [
+                  "language 包括没有文字的语言；文并非 lingua 的必经阶段"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-LANGUAGE-04",
+                  "value": "wén",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-LANGUAGE-SRC-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "L3",
+              "source_pronunciation_ref": "PR-L3",
+              "target_pronunciation_ref": "ZH-TC3-LANGUAGE-04",
+              "source_span": "language",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "Medium limited; Low for all communication",
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-01",
+                "TC3-LANGUAGE-SRC-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：仅鼻尾不足以匹配",
+              "features": {
+                "onset": "Low：仅鼻尾不足以匹配",
+                "vowel": "Low：仅鼻尾不足以匹配",
+                "coda_other_consonants": "Low：仅鼻尾不足以匹配",
+                "syllables": "Low：仅鼻尾不足以匹配",
+                "prosody": "Low：仅鼻尾不足以匹配"
+              },
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-05"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "language 包括没有文字的语言；文并非 lingua 的必经阶段",
+              "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。 Retain limited",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-LANGUAGE-05",
+            "family_key": "legacy-language",
+            "target": {
+              "form": "朗",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "声音清楚响亮；朗读中的修饰义",
+                "pos": null,
+                "constraints": [
+                  "手语、低声话语仍是 language；不能从朗读倒推朗=语言"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-LANGUAGE-05",
+                  "value": "lǎng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-LANGUAGE-SRC-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "L3",
+              "source_pronunciation_ref": "PR-L3",
+              "target_pronunciation_ref": "ZH-TC3-LANGUAGE-05",
+              "source_span": "language",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "d-t-n-l same l, no score bonus",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "Low：是发声品质，不是语言系统",
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-01",
+                "TC3-LANGUAGE-SRC-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low whole word / Medium initial fragment：/l/ 与鼻尾近，/æ/ 与 /ɑ/ 不同，余部缺失",
+              "features": {
+                "onset": "Low whole word / Medium initial fragment：/l/ 与鼻尾近，/æ/ 与 /ɑ/ 不同，余部缺失",
+                "vowel": "Low whole word / Medium initial fragment：/l/ 与鼻尾近，/æ/ 与 /ɑ/ 不同，余部缺失",
+                "coda_other_consonants": "Low whole word / Medium initial fragment：/l/ 与鼻尾近，/æ/ 与 /ɑ/ 不同，余部缺失",
+                "syllables": "Low whole word / Medium initial fragment：/l/ 与鼻尾近，/æ/ 与 /ɑ/ 不同，余部缺失",
+                "prosody": "Low whole word / Medium initial fragment：/l/ 与鼻尾近，/æ/ 与 /ɑ/ 不同，余部缺失"
+              },
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-06"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "手语、低声话语仍是 language；不能从朗读倒推朗=语言",
+              "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。 Reject Featured; retain observation",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-LANGUAGE-06",
+            "family_key": "legacy-language",
+            "target": {
+              "form": "狼",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "狼这种动物",
+                "pos": null,
+                "constraints": [
+                  "同样局部近音不产生语言语义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-LANGUAGE-06",
+                  "value": "láng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-LANGUAGE-SRC-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "L3",
+              "source_pronunciation_ref": "PR-L3",
+              "target_pronunciation_ref": "ZH-TC3-LANGUAGE-06",
+              "source_span": "language",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "same l feature",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None",
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-01",
+                "TC3-LANGUAGE-SRC-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low whole word / Medium initial fragment：与朗同节段，声调异",
+              "features": {
+                "onset": "Low whole word / Medium initial fragment：与朗同节段，声调异",
+                "vowel": "Low whole word / Medium initial fragment：与朗同节段，声调异",
+                "coda_other_consonants": "Low whole word / Medium initial fragment：与朗同节段，声调异",
+                "syllables": "Low whole word / Medium initial fragment：与朗同节段，声调异",
+                "prosody": "Low whole word / Medium initial fragment：与朗同节段，声调异"
+              },
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-07"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "同样局部近音不产生语言语义",
+              "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-LANGUAGE-07",
+            "family_key": "legacy-language",
+            "target": {
+              "form": "农",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "农业／从事农业",
+                "pos": null,
+                "constraints": [
+                  "组命中不支持 speech/language"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-LANGUAGE-07",
+                  "value": "nóng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-LANGUAGE-SRC-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "L3",
+              "source_pronunciation_ref": "PR-L3",
+              "target_pronunciation_ref": "ZH-TC3-LANGUAGE-07",
+              "source_span": "language",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "d-t-n-l expansion",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None",
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-01",
+                "TC3-LANGUAGE-SRC-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：l→n 仅组假说，元音亦不同",
+              "features": {
+                "onset": "Low：l→n 仅组假说，元音亦不同",
+                "vowel": "Low：l→n 仅组假说，元音亦不同",
+                "coda_other_consonants": "Low：l→n 仅组假说，元音亦不同",
+                "syllables": "Low：l→n 仅组假说，元音亦不同",
+                "prosody": "Low：l→n 仅组假说，元音亦不同"
+              },
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-08"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "组命中不支持 speech/language",
+              "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-LANGUAGE-08",
+            "family_key": "legacy-language",
+            "target": {
+              "form": "语言",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "表达、交流所用的语言；现代标准翻译",
+                "pos": null,
+                "constraints": [
+                  "语与言的分析不能机械倒推 Latin 的每一历史阶段；不将声音中心的旧释义用于排除手语"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-LANGUAGE-08",
+                  "value": "yǔyán",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-LANGUAGE-SRC-09"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-09"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "L3",
+              "source_pronunciation_ref": "PR-L3",
+              "target_pronunciation_ref": "ZH-TC3-LANGUAGE-08",
+              "source_span": "language",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High",
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-01",
+                "TC3-LANGUAGE-SRC-09"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：两音节全形不近",
+              "features": {
+                "onset": "Low：两音节全形不近",
+                "vowel": "Low：两音节全形不近",
+                "coda_other_consonants": "Low：两音节全形不近",
+                "syllables": "Low：两音节全形不近",
+                "prosody": "Low：两音节全形不近"
+              },
+              "source_refs": [
+                "TC3-LANGUAGE-SRC-09"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-09"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-LANGUAGE-SRC-09"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "语与言的分析不能机械倒推 Latin 的每一历史阶段；不将声音中心的旧释义用于排除手语",
+              "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。 Semantic control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "TC3-LANGUAGE-01",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-L3",
+          "candidate_ref": "TC3-LANGUAGE-03"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+    },
+    "historical_path": "lingua [L1]; langue/lange → langage [L2]; language [L3]",
+    "semantic_path": "Related meaning groups, not a strict dated sequence: TONGUE and SPEECH/LANGUAGE; 舌／语言 → language expression; 语言／交流符号系统",
+    "boundary": {
+      "en": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。",
+      "zh-Hans": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+    }
+  },
+  "featured_mapping": {
+    "source": "Latin lingua: TONGUE / SPEECH polysemy",
+    "target": "舌",
+    "reading": "shé",
+    "candidate_ref": "TC3-LANGUAGE-01",
+    "display_label": "Structural-Semantic Candidate",
+    "status": "Candidate · Phonetic Fit = Low; historical sound not_evaluated",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。",
+      "zh-Hans": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。"
+    },
+    "source_refs": [
+      "TC3-LANGUAGE-SRC-01",
+      "TC3-LANGUAGE-SRC-01",
+      "TC3-LANGUAGE-SRC-01"
+    ]
+  },
+  "structural_semantic_mapping": {
+    "source_stage_refs": [
+      "L1"
+    ],
+    "chinese_candidate_ref": "TC3-LANGUAGE-01",
+    "fit": "High",
+    "phonetic_fit": "Low",
+    "claim": "Parallel organ/speech polysemy, not identical dated development.",
+    "historical_relation": "Not claimed"
+  },
+  "featured_mapping_status": "Candidate",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "tier-c-discovery-batch-3-2026-09-20",
+    "candidates": [
+      {
+        "id": "LANGUAGE-01",
+        "entry": "LANGUAGE",
+        "chinese_form": "舌",
+        "reading": "shé",
+        "chinese_layer": "Modern Mandarin + historical character sense",
+        "chinese_period": "现代器官义；言语代称见古籍转引，先秦/汉语料版本待核",
+        "target_stage": "L1",
+        "comparison_unit": "Latin lingua polysemy: tongue / speech-language",
+        "documented_meaning": "舌器官；代指言语",
+        "semantic_fit": "High for lingua 的两义；非现代所有 language 的默认译法",
+        "phonetic_fit": "Low：shé 与 lingua/language 没有近似全形",
+        "structural_cognitive_fit": "High metonymic parallel；年代先后尚未重建",
+        "consonant_group_relation": "none",
+        "counterevidence": "器官与行为的转喻不证明共同词源；手语不依赖发声",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "M",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/舌",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "L1",
+            "form": "lingua",
+            "language": "Latin",
+            "period": "古典拉丁语层；约前1世纪至后数世纪；义项首见未核",
+            "meaning": "TONGUE and SPEECH/LANGUAGE",
+            "relation": "同一拉丁词的多义；不假造三个先后年代",
+            "mapping": "舌；言（限定言语）",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          }
+        ],
+        "additional_chinese_source": "https://www.shidianguji.com/character/舌"
+      },
+      {
+        "id": "LANGUAGE-02",
+        "entry": "LANGUAGE",
+        "chinese_form": "言",
+        "reading": "yán",
+        "chinese_layer": "Modern Mandarin + historical character sense",
+        "chinese_period": "现代；《说文》等转引可追至汉代释义，原版待核",
+        "target_stage": "L1/L2",
+        "comparison_unit": "whole word",
+        "documented_meaning": "说话；说出的话",
+        "semantic_fit": "High for SPEECH; Medium for abstract language system",
+        "phonetic_fit": "Low：/j/、/ɛn/ 不配 /l/、/æŋɡwɪdʒ/",
+        "structural_cognitive_fit": "Medium：行为与话语结果相联",
+        "consonant_group_relation": "none",
+        "counterevidence": "不能把言的字形分析当语言起源证据",
+        "decision": "Retain limited",
+        "discovery_priority": "Medium",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/言",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "L1",
+            "form": "lingua",
+            "language": "Latin",
+            "period": "古典拉丁语层；约前1世纪至后数世纪；义项首见未核",
+            "meaning": "TONGUE and SPEECH/LANGUAGE",
+            "relation": "同一拉丁词的多义；不假造三个先后年代",
+            "mapping": "舌；言（限定言语）",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          },
+          {
+            "id": "L2",
+            "form": "langue/lange → langage",
+            "language": "Old/Anglo-French",
+            "period": "中世纪；约11–14世纪语言层",
+            "meaning": "舌／语言 → language expression",
+            "relation": "langage 的派生和英语借入；现代 French langue 是延续形式，不是现代 English 的母词",
+            "mapping": "语；可不单独增卡",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          }
+        ]
+      },
+      {
+        "id": "LANGUAGE-03",
+        "entry": "LANGUAGE",
+        "chinese_form": "语",
+        "reading": "yǔ",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "L2/L3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "话、语言；汉语/英语等构式",
+        "semantic_fit": "High",
+        "phonetic_fit": "Low：圆唇前元音与源词结构不同",
+        "structural_cognitive_fit": "Medium：言语/特定语言的义项",
+        "consonant_group_relation": "none",
+        "counterevidence": "不用 yù 告诉义；单字不是现代语言理论的全定义",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/语",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "L2",
+            "form": "langue/lange → langage",
+            "language": "Old/Anglo-French",
+            "period": "中世纪；约11–14世纪语言层",
+            "meaning": "舌／语言 → language expression",
+            "relation": "langage 的派生和英语借入；现代 French langue 是延续形式，不是现代 English 的母词",
+            "mapping": "语；可不单独增卡",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          },
+          {
+            "id": "L3",
+            "form": "language",
+            "language": "Middle → Modern English",
+            "period": "英语首见14世纪；现代延续",
+            "meaning": "语言／交流符号系统",
+            "relation": "范围包括手语等；不要求文字或响亮发声",
+            "mapping": "语；文仅书面层；朗降级",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          }
+        ]
+      },
+      {
+        "id": "LANGUAGE-04",
+        "entry": "LANGUAGE",
+        "chinese_form": "文",
+        "reading": "wén",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "L3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "文字、书面表达；某语言书面形式",
+        "semantic_fit": "Medium limited; Low for all communication",
+        "phonetic_fit": "Low：仅鼻尾不足以匹配",
+        "structural_cognitive_fit": "Medium written-language comparison",
+        "consonant_group_relation": "none",
+        "counterevidence": "language 包括没有文字的语言；文并非 lingua 的必经阶段",
+        "decision": "Retain limited",
+        "discovery_priority": "Medium",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/文",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "L3",
+            "form": "language",
+            "language": "Middle → Modern English",
+            "period": "英语首见14世纪；现代延续",
+            "meaning": "语言／交流符号系统",
+            "relation": "范围包括手语等；不要求文字或响亮发声",
+            "mapping": "语；文仅书面层；朗降级",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          }
+        ]
+      },
+      {
+        "id": "LANGUAGE-05",
+        "entry": "LANGUAGE",
+        "chinese_form": "朗",
+        "reading": "lǎng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "L3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "声音清楚响亮；朗读中的修饰义",
+        "semantic_fit": "Low：是发声品质，不是语言系统",
+        "phonetic_fit": "Low whole word / Medium initial fragment：/l/ 与鼻尾近，/æ/ 与 /ɑ/ 不同，余部缺失",
+        "structural_cognitive_fit": "Low",
+        "consonant_group_relation": "d-t-n-l same l, no score bonus",
+        "counterevidence": "手语、低声话语仍是 language；不能从朗读倒推朗=语言",
+        "decision": "Reject Featured; retain observation",
+        "discovery_priority": "Low",
+        "origin": "legacy calibration",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/朗",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "L3",
+            "form": "language",
+            "language": "Middle → Modern English",
+            "period": "英语首见14世纪；现代延续",
+            "meaning": "语言／交流符号系统",
+            "relation": "范围包括手语等；不要求文字或响亮发声",
+            "mapping": "语；文仅书面层；朗降级",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          }
+        ]
+      },
+      {
+        "id": "LANGUAGE-06",
+        "entry": "LANGUAGE",
+        "chinese_form": "狼",
+        "reading": "láng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "L3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "狼这种动物",
+        "semantic_fit": "None",
+        "phonetic_fit": "Low whole word / Medium initial fragment：与朗同节段，声调异",
+        "structural_cognitive_fit": "None",
+        "consonant_group_relation": "same l feature",
+        "counterevidence": "同样局部近音不产生语言语义",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/狼",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "L3",
+            "form": "language",
+            "language": "Middle → Modern English",
+            "period": "英语首见14世纪；现代延续",
+            "meaning": "语言／交流符号系统",
+            "relation": "范围包括手语等；不要求文字或响亮发声",
+            "mapping": "语；文仅书面层；朗降级",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          }
+        ]
+      },
+      {
+        "id": "LANGUAGE-07",
+        "entry": "LANGUAGE",
+        "chinese_form": "农",
+        "reading": "nóng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "L3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "农业／从事农业",
+        "semantic_fit": "None",
+        "phonetic_fit": "Low：l→n 仅组假说，元音亦不同",
+        "structural_cognitive_fit": "None",
+        "consonant_group_relation": "d-t-n-l expansion",
+        "counterevidence": "组命中不支持 speech/language",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "group expansion control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/农",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "L3",
+            "form": "language",
+            "language": "Middle → Modern English",
+            "period": "英语首见14世纪；现代延续",
+            "meaning": "语言／交流符号系统",
+            "relation": "范围包括手语等；不要求文字或响亮发声",
+            "mapping": "语；文仅书面层；朗降级",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          }
+        ]
+      },
+      {
+        "id": "LANGUAGE-08",
+        "entry": "LANGUAGE",
+        "chinese_form": "语言",
+        "reading": "yǔyán",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "L3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "表达、交流所用的语言；现代标准翻译",
+        "semantic_fit": "High",
+        "phonetic_fit": "Low：两音节全形不近",
+        "structural_cognitive_fit": "None needed",
+        "consonant_group_relation": "none",
+        "counterevidence": "语与言的分析不能机械倒推 Latin 的每一历史阶段；不将声音中心的旧释义用于排除手语",
+        "decision": "Semantic control",
+        "discovery_priority": "Medium",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/语言",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "L3",
+            "form": "language",
+            "language": "Middle → Modern English",
+            "period": "英语首见14世纪；现代延续",
+            "meaning": "语言／交流符号系统",
+            "relation": "范围包括手语等；不要求文字或响亮发声",
+            "mapping": "语；文仅书面层；朗降级",
+            "source": "https://www.merriam-webster.com/dictionary/language"
+          }
+        ]
+      }
+    ],
+    "freeze": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。",
+    "note": "Exact original 39-record pool; active selections follow approved Freeze, not original Discovery winners.",
+    "deep_source_metadata": [],
+    "independent_comparisons": []
+  },
+  "research_provenance": {
+    "status": "Calibration archive, not active evidence",
+    "reason": "舌 shé为Latin lingua器官／言语多义的Structural-Semantic Candidate。Phonetic Fit = Low（现代参照）；历史音not_evaluated。舌／言／语分层比较，不声称相同演变年表；朗降为Research观察。",
+    "old_observations": {
+      "phonetic_observation": [],
+      "semantic_structure": {
+        "concepts": [
+          "VOICE",
+          "MEANING",
+          "COMMUNICATION"
+        ],
+        "relation": "VOICE → MEANING → COMMUNICATION",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-L-GLYPH-HISTORY-001",
+          "type": "letter-symbol-history",
+          "claim": {
+            "en": "Research the proposed path from early alphabetic signs in an Egyptian contact setting through Semitic lamed and Greek lambda to Latin L. The proposed pictorial source of lamed, often linked with an ox-goad or crook, remains a historical reconstruction—not a semantic law.",
+            "zh-Hans": "研究在埃及接触环境中的早期字母符号，经闪米特 lamed、希腊 lambda 到拉丁 L 的提议路径。lamed 的图画来源常与赶牛杖或弯杖联系，但仍属于历史重建，不是语义法则。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-YALE-WADI-EL-HOL",
+            "SRC-ANTIQUITY-EARLY-ALPHABET",
+            "SRC-COLLESS-ALPHABET-L"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-YALE-WADI-EL-HOL",
+            "SRC-ANTIQUITY-EARLY-ALPHABET",
+            "SRC-COLLESS-ALPHABET-L"
+          ]
+        },
+        {
+          "hypothesis_id": "UNI-L-INHERENT-SEMANTIC-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "Research whether modern L or /l/ has a repeatable semantic association across words. Historical glyph evidence is context for a separate object and does not establish this hypothesis.",
+            "zh-Hans": "研究现代字母 L 或 /l/ 音在多个词汇中是否存在可重复的语义关联。历史字形资料属于另一个对象的背景，不能证明本假说。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-COLLESS-ALPHABET-L"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-LB-LANGUAGE",
+            "SRC-COLLESS-ALPHABET-L"
+          ]
+        }
+      ]
+    }
+  },
+  "legacy_migration": {
+    "version": "tier-c-batch3-0.1",
+    "baseline_commit": "16e144fd83c1fe048b3abd84196a0529fe04df3b",
+    "scope": "Exact original record archive. Calibrated hypotheses remain Research, not active Featured or etymological evidence.",
+    "previous_fields": {
+      "title": {
+        "en": "Language · 朗",
+        "zh-Hans": "Language · 语言 · 朗"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-language-primary-lang",
+        "source": {
+          "language": "English",
+          "word": "language",
+          "pronunciation": "/ˈlæŋɡwɪdʒ/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "朗",
+          "pronunciation": "lǎng"
+        },
+        "gloss": {
+          "en": "A structured system used to communicate and interpret meaning.",
+          "zh-Hans": "用于交流和解释意义的结构化系统。"
+        },
+        "meaning": {
+          "en": "A structured system used to communicate and interpret meaning.",
+          "zh-Hans": "用于交流和解释意义的结构化系统。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The author associates language with 朗读 and 朗朗上口: language is cognitively linked with being voiced or read aloud.",
+          "zh-Hans": "作者把 language 与“朗读／朗朗上口”联系：语言在认知上与发声、朗读相关。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "SRC-LB-LANGUAGE",
+          "title": "Language Book · Language",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/language.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-AHD-LANGUAGE",
+          "title": "American Heritage Dictionary · language",
+          "type": "authoritative-dictionary",
+          "url": "https://www.ahdictionary.com/word/search.html?q=language",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-MED-LANGAGE",
+          "title": "Middle English Dictionary · langage",
+          "type": "authoritative-dictionary",
+          "url": "https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED24625",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-YALE-WADI-EL-HOL",
+          "title": "Darnell et al. · Two Early Alphabetic Inscriptions from Wadi el-Hol",
+          "type": "primary-historical-source",
+          "url": "https://nelc.yale.edu/publications/two-early-alphabetic-inscriptions-wadi-el-hol-new-evidence-origin-alphabet-western",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "primary-publication"
+        },
+        {
+          "reference_id": "SRC-ANTIQUITY-EARLY-ALPHABET",
+          "title": "Höflmayer et al. · Early alphabetic writing at Tel Lachish",
+          "type": "scholarly-source",
+          "url": "https://www.cambridge.org/core/journals/antiquity/article/early-alphabetic-writing-in-the-ancient-near-east-the-missing-link-from-tel-lachish/C73F769B7CF3A7E4E2607958A096B7D8",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "scholarly-publication"
+        },
+        {
+          "reference_id": "SRC-COLLESS-ALPHABET-L",
+          "title": "Colless · The Origin of the Alphabet: An Examination of the Goldwasser Hypothesis",
+          "type": "scholarly-source",
+          "url": "https://repositorio.uca.edu.ar/bitstream/123456789/6787/4/origin-alphabet-goldwasser-hypothesis.pdf",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "scholarly-publication"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "The language → 朗 mapping is an author proposal. English historical etymology remains a separate track.",
+          "zh-Hans": "language → 朗 是作者提案；英语历史词源保持独立轨道。"
+        }
+      ],
+      "search_terms": [
+        "language",
+        "speech",
+        "语言",
+        "言语",
+        "langue",
+        "langage",
+        "朗",
+        "lǎng",
+        "VOICE",
+        "MEANING",
+        "COMMUNICATION"
+      ],
+      "historical_relation_status": "Unestablished",
+      "semantic_structure": {
+        "concepts": [
+          "VOICE",
+          "MEANING",
+          "COMMUNICATION"
+        ],
+        "relation": "VOICE → MEANING → COMMUNICATION",
+        "status": "Interpretive"
+      },
+      "phonetic_observation": [],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-L-GLYPH-HISTORY-001",
+          "type": "letter-symbol-history",
+          "claim": {
+            "en": "Research the proposed path from early alphabetic signs in an Egyptian contact setting through Semitic lamed and Greek lambda to Latin L. The proposed pictorial source of lamed, often linked with an ox-goad or crook, remains a historical reconstruction—not a semantic law.",
+            "zh-Hans": "研究在埃及接触环境中的早期字母符号，经闪米特 lamed、希腊 lambda 到拉丁 L 的提议路径。lamed 的图画来源常与赶牛杖或弯杖联系，但仍属于历史重建，不是语义法则。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-YALE-WADI-EL-HOL",
+            "SRC-ANTIQUITY-EARLY-ALPHABET",
+            "SRC-COLLESS-ALPHABET-L"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-YALE-WADI-EL-HOL",
+            "SRC-ANTIQUITY-EARLY-ALPHABET",
+            "SRC-COLLESS-ALPHABET-L"
+          ]
+        },
+        {
+          "hypothesis_id": "UNI-L-INHERENT-SEMANTIC-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "Research whether modern L or /l/ has a repeatable semantic association across words. Historical glyph evidence is context for a separate object and does not establish this hypothesis.",
+            "zh-Hans": "研究现代字母 L 或 /l/ 音在多个词汇中是否存在可重复的语义关联。历史字形资料属于另一个对象的背景，不能证明本假说。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-COLLESS-ALPHABET-L"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-LB-LANGUAGE",
+            "SRC-COLLESS-ALPHABET-L"
+          ]
+        }
+      ]
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping",
+      "structural_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery",
+      "research_provenance"
+    ]
+  }
+}

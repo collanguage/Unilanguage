@@ -46,7 +46,7 @@ test("policy ledger classifies claims and records inaccessible dictionaries as p
 test("priority records retain count and status boundaries", () => {
   assert.equal(dataset.entries.filter((entry) => !["new", "horizon", "horse", "abbreviation","abdominal"].includes(entry.slug)).length, 37);
   const expected = {
-    sky: ["Published", "Candidate", "Unestablished"],
+    sky: ["Published", "Candidate", "Not claimed"],
     universe: ["Published", "Supported", "Not claimed"],
     light: ["Published", "Candidate", "Unestablished"],
     at: ["Published", "Candidate", "Not claimed"],

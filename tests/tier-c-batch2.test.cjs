@@ -3,12 +3,12 @@ const model=require('../js/diachronic-mapping.js'),api=require('../js/language-b
 const candidates=e=>e.diachronic_semantic_mapping.mappings.flatMap(m=>m.candidates);
 const base='e6109656fc350375a9719941f720294afb1db2b2',slugs=['abridge','aliment','acumen','abound'];
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:40e6}).replace(/\r\n/g,'\n');
-const data=require('../data/language-book.v1.0.json'),before=JSON.parse(get('data/language-book.v1.0.json'));
+const current=require('../data/language-book.v1.0.json'),data={...current,entries:current.entries.map(e=>e.legacy_migration?.version==='tier-c-batch3-0.1'?legacyEntry(e):e)},before=JSON.parse(get('data/language-book.v1.0.json'));
 const entries=slugs.map(s=>data.entries.find(e=>e.slug===s));
 test('Tier C Batch 2 only: other 38 records/pages, schema and UI remain unchanged',()=>{
  assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const dir of ['data/entries','words'])for(const f of fs.readdirSync(dir)){
-  if(slugs.some(s=>f===s+'.html'||f===s+'.v1.json'))continue;
+  if([...slugs,'sky','language','advance','generate','absolute'].some(s=>f===s+'.html'||f===s+'.v1.json'))continue;
   const p=dir+'/'+f;if(fs.statSync(p).isFile())assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
  }
  for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/semantic-mapper.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);

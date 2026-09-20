@@ -2,8 +2,8 @@
   "id": "LB-en-absolute-031",
   "slug": "absolute",
   "title": {
-    "en": "absolute · Legacy Website Import",
-    "zh-Hans": "absolute · 旧站导入"
+    "en": "ABSOLUTE · 绝对的／完全的／不受限制的",
+    "zh-Hans": "ABSOLUTE · 绝对的／完全的／不受限制的"
   },
   "languages": [
     {
@@ -23,7 +23,7 @@
     }
   ],
   "primary_mapping": {
-    "mapping_id": "MAP-absolute-primary",
+    "mapping_id": "MAP-absolute-modern-standard",
     "source": {
       "language": "English",
       "word": "absolute",
@@ -31,21 +31,21 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "绝对的／完全的",
-      "pronunciation": "juéduì de / wánquán de"
+      "word": "绝对的／完全的／不受限制的",
+      "pronunciation": "juéduì de / wánquán de / bù shòu xiànzhì de"
     },
     "gloss": {
       "en": "free from qualification, restriction or relation; complete",
       "zh-Hans": "不受条件、限制或关系约束的；完全的"
     },
     "meaning": {
-      "en": "free from qualification, restriction or relation; complete. The standard mapping is independent from the legacy sound hypothesis.",
-      "zh-Hans": "不受条件、限制或关系约束的；完全的。标准词义 Mapping 与旧站声音假说独立。"
+      "en": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。",
+      "zh-Hans": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping",
     "rationale": {
-      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
-      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
     }
   },
   "entry_status": "Reviewed",
@@ -162,13 +162,13 @@
     {
       "observation_id": "PHON-ABSOLUTE-001",
       "claim": {
-        "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
-        "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+        "en": "Research archive / superseded observation: Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+        "zh-Hans": "Research archive / superseded observation: solve 与“炒”chǎo 不构成规律音变下的近似。"
       },
       "status": "Candidate",
       "limitations": {
-        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
-        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+        "en": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+        "zh-Hans": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 表面音近不是规律跨语言音变，也不能证明同源。"
       }
     }
   ],
@@ -179,8 +179,8 @@
       "SOLVE",
       "绝对"
     ],
-    "relation": "absolute → absolve → solve → 绝对",
-    "status": "Interpretive"
+    "relation": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。",
+    "status": "Candidate / scoped comparison; legacy observations in Research"
   },
   "related_words": [
     {
@@ -240,8 +240,8 @@
       "hypothesis_id": "UNI-LEGACY-ABSOLUTE-001",
       "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
       "claim": {
-        "en": "Jinkai Liu’s original note is preserved verbatim: “absolute，绝对。炒 chao。solve 解决即炒炒。”",
-        "zh-Hans": "Jinkai Liu 原始观察逐字保留：“absolute，绝对。炒 chao。solve 解决即炒炒。”"
+        "en": "Research archive / superseded observation: Jinkai Liu’s original note is preserved verbatim: “absolute，绝对。炒 chao。solve 解决即炒炒。”",
+        "zh-Hans": "Research archive / superseded observation: Jinkai Liu 原始观察逐字保留：“absolute，绝对。炒 chao。solve 解决即炒炒。”"
       },
       "status": "Candidate",
       "confidence": "Low",
@@ -312,6 +312,110 @@
       "url": "https://www.merriam-webster.com/dictionary/absolute",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-01",
+      "title": "Approved Freeze source · absolve",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.merriam-webster.com/dictionary/absolve",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-02",
+      "title": "Approved Freeze source · Absolu",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.cnrtl.fr/definition/academie9/Absolu",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-03",
+      "title": "Approved Freeze source · absolute",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.merriam-webster.com/dictionary/absolute",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-04",
+      "title": "Approved Freeze source · 解",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/解",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-05",
+      "title": "Approved Freeze source · 释",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/释",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-06",
+      "title": "Approved Freeze source · 脱",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/脱",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-07",
+      "title": "Approved Freeze source · 全",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/全",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-08",
+      "title": "Approved Freeze source · 炒",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/炒",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-09",
+      "title": "Approved Freeze source · 塑",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/塑",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-10",
+      "title": "Approved Freeze source · 松",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/松",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-11",
+      "title": "Approved Freeze source · 绝对",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/绝对",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-12",
+      "title": "Approved Freeze source · ",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:lat.ls.perseus-eng2-n223/",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ABSOLUTE-SRC-13",
+      "title": "Approved Freeze source · 脱",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.shidianguji.com/character/脱",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
     }
   ],
   "author": "Jinkai Liu",
@@ -329,6 +433,10 @@
     {
       "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
       "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+    },
+    {
+      "en": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。",
+      "zh-Hans": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
     }
   ],
   "search_terms": [
@@ -340,9 +448,13 @@
     "无条件",
     "炒",
     "chao",
-    "unrestricted"
+    "unrestricted",
+    "绝对的／完全的／不受限制的",
+    "解",
+    "脱",
+    "全"
   ],
-  "page": null,
+  "page": "words/absolute.html",
   "legacy": {
     "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
     "source_url": "https://languagesbook.com/glossary/ab-sol-ute%ef%bc%8c%e7%bb%9d%e5%af%b9/",
@@ -362,5 +474,1959 @@
     "ordinal": 8,
     "disposition": "Reviewed",
     "priority_score": 90.8
+  },
+  "standard_translation": {
+    "source": "absolute",
+    "target": "绝对的／完全的／不受限制的",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "TC3-ABSOLUTE-SRC-01",
+      "TC3-ABSOLUTE-SRC-02",
+      "TC3-ABSOLUTE-SRC-03"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-absolute-modern-standard",
+    "source": {
+      "language": "English",
+      "word": "absolute",
+      "pronunciation": "not recorded"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "绝对的／完全的／不受限制的",
+      "pronunciation": "juéduì de / wánquán de / bù shòu xiànzhì de"
+    },
+    "gloss": {
+      "en": "free from qualification, restriction or relation; complete",
+      "zh-Hans": "不受条件、限制或关系约束的；完全的"
+    },
+    "meaning": {
+      "en": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。",
+      "zh-Hans": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping",
+    "rationale": {
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "A1",
+        "form": "solvere → ab-solvere",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语层",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-ABSOLUTE-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "松开／解除；absolvere 还具完成义",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "TC3-ABSOLUTE-SRC-01",
+          "TC3-ABSOLUTE-SRC-12"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "词素派生，不是 English solve → absolute；release/complete 分支共存; Sense groups overlap. No strict semantic chronology is asserted."
+      },
+      {
+        "stage_id": "A2",
+        "form": "absolūtus",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典／后续拉丁语；各技术义首见未全面核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-ABSOLUTE-SRC-02"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "完成的／不受约束的等",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "A1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "Form relationship only: participial derivation / English borrowing. Release, complete and unrestricted senses are not dated successive steps.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-ABSOLUTE-SRC-02",
+              "TC3-ABSOLUTE-SRC-12"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-ABSOLUTE-SRC-02",
+          "TC3-ABSOLUTE-SRC-12"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "absolvere 的过去分词形容词化；不能把每个释义都造成年代阶段; Sense groups overlap. No strict semantic chronology is asserted."
+      },
+      {
+        "stage_id": "A3",
+        "form": "absolut → absolute",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Middle / Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "15世纪起；现代层",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-ABSOLUTE-SRC-03"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "完整、无条件、不受限制；依语境",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "A2",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "Form relationship only: participial derivation / English borrowing. Release, complete and unrestricted senses are not dated successive steps.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-ABSOLUTE-SRC-03",
+              "TC3-ABSOLUTE-SRC-12"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-ABSOLUTE-SRC-03",
+          "TC3-ABSOLUTE-SRC-12"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "现代义群分支；法语 absolu 为平行相关资料，不强插成英语必经祖先; Sense groups overlap. No strict semantic chronology is asserted."
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-A1",
+        "stage_ref": "A1",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "松开／解除；absolvere 还具完成义",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "松开／解除；absolvere 还具完成义"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-ABSOLUTE-01",
+            "family_key": "legacy-absolute",
+            "target": {
+              "form": "解",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代已核；古解开/解决的先后与引申路线 Pending",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "解开束缚；解除、处理解决",
+                "pos": null,
+                "constraints": [
+                  "解除不等于完整或无条件；jiè 押送、xiè 姓等排除"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ABSOLUTE-01",
+                  "value": "jiě",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ABSOLUTE-SRC-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ABSOLUTE-01",
+              "source_span": "solvere → ab-solvere",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for UNBIND/RELEASE；不能直译 modern absolute",
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-01",
+                "TC3-ABSOLUTE-SRC-12",
+                "TC3-ABSOLUTE-SRC-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：与 absolute 全形及 solvere 均无已核近音",
+              "features": {
+                "onset": "Low：与 absolute 全形及 solvere 均无已核近音",
+                "vowel": "Low：与 absolute 全形及 solvere 均无已核近音",
+                "coda_other_consonants": "Low：与 absolute 全形及 solvere 均无已核近音",
+                "syllables": "Low：与 absolute 全形及 solvere 均无已核近音",
+                "prosody": "Low：与 absolute 全形及 solvere 均无已核近音"
+              },
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-04"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "解除不等于完整或无条件；jiè 押送、xiè 姓等排除",
+              "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ABSOLUTE-02",
+            "family_key": "legacy-absolute",
+            "target": {
+              "form": "释",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "放开、释放；消除",
+                "pos": null,
+                "constraints": [
+                  "解释、释疑不等于 complete；排除佛教专称"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ABSOLUTE-02",
+                  "value": "shì",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ABSOLUTE-SRC-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ABSOLUTE-02",
+              "source_span": "solvere → ab-solvere",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none；sh 不临时塞入 z-c-s",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for RELEASE; Low COMPLETE",
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-01",
+                "TC3-ABSOLUTE-SRC-12",
+                "TC3-ABSOLUTE-SRC-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：/ʂ/ 与 Latin spelling s 不足以评近音，全历史音未评",
+              "features": {
+                "onset": "Low：/ʂ/ 与 Latin spelling s 不足以评近音，全历史音未评",
+                "vowel": "Low：/ʂ/ 与 Latin spelling s 不足以评近音，全历史音未评",
+                "coda_other_consonants": "Low：/ʂ/ 与 Latin spelling s 不足以评近音，全历史音未评",
+                "syllables": "Low：/ʂ/ 与 Latin spelling s 不足以评近音，全历史音未评",
+                "prosody": "Low：/ʂ/ 与 Latin spelling s 不足以评近音，全历史音未评"
+              },
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-05"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "解释、释疑不等于 complete；排除佛教专称",
+              "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Retain limited",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ABSOLUTE-03",
+            "family_key": "legacy-absolute",
+            "target": {
+              "form": "脱",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "取下、离开、摆脱；脱略等不拘束语境",
+                "pos": null,
+                "constraints": [
+                  "脱稿的完成不可推广为脱=complete；脱离也可能非自由"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ABSOLUTE-03",
+                  "value": "tuō",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ABSOLUTE-SRC-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ABSOLUTE-03",
+              "source_span": "solvere → ab-solvere",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High physical release; Medium abstract freedom in constructions",
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-01",
+                "TC3-ABSOLUTE-SRC-12",
+                "TC3-ABSOLUTE-SRC-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：不能从 absolute 尾部选 t 就认定根音近",
+              "features": {
+                "onset": "Low：不能从 absolute 尾部选 t 就认定根音近",
+                "vowel": "Low：不能从 absolute 尾部选 t 就认定根音近",
+                "coda_other_consonants": "Low：不能从 absolute 尾部选 t 就认定根音近",
+                "syllables": "Low：不能从 absolute 尾部选 t 就认定根音近",
+                "prosody": "Low：不能从 absolute 尾部选 t 就认定根音近"
+              },
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-06"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "脱稿的完成不可推广为脱=complete；脱离也可能非自由",
+              "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ABSOLUTE-07",
+            "family_key": "legacy-absolute",
+            "target": {
+              "form": "松",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "鬆：放松、松开；不取松树义",
+                "pos": null,
+                "constraints": [
+                  "松弛不等于绝对、完整；松/鬆合并字形不能混证"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ABSOLUTE-07",
+                  "value": "sōng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ABSOLUTE-SRC-10"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-10"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ABSOLUTE-07",
+              "source_span": "solvere → ab-solvere",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "z-c-s same s at genuine solvere unit, not expansion gain",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for LOOSEN",
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-01",
+                "TC3-ABSOLUTE-SRC-12",
+                "TC3-ABSOLUTE-SRC-10"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low vs whole word; Latin 完整读音未评，初始 s 相同不足",
+              "features": {
+                "onset": "Low vs whole word; Latin 完整读音未评，初始 s 相同不足",
+                "vowel": "Low vs whole word; Latin 完整读音未评，初始 s 相同不足",
+                "coda_other_consonants": "Low vs whole word; Latin 完整读音未评，初始 s 相同不足",
+                "syllables": "Low vs whole word; Latin 完整读音未评，初始 s 相同不足",
+                "prosody": "Low vs whole word; Latin 完整读音未评，初始 s 相同不足"
+              },
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-10"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-10"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-10"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "松弛不等于绝对、完整；松/鬆合并字形不能混证",
+              "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Semantic control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-A2",
+        "stage_ref": "A2",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "完成的／不受约束的等",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "完成的／不受约束的等"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-ABSOLUTE-04",
+            "family_key": "legacy-absolute",
+            "target": {
+              "form": "全",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "完整、齐备、全部",
+                "pos": null,
+                "constraints": [
+                  "全体不等于无条件；未找到它从 physical release 演变的证据"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ABSOLUTE-04",
+                  "value": "quán",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ABSOLUTE-SRC-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ABSOLUTE-04",
+              "source_span": "absolūtus",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for COMPLETE; Medium for unrestricted",
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-02",
+                "TC3-ABSOLUTE-SRC-12",
+                "TC3-ABSOLUTE-SRC-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：无全形或历史单位近音",
+              "features": {
+                "onset": "Low：无全形或历史单位近音",
+                "vowel": "Low：无全形或历史单位近音",
+                "coda_other_consonants": "Low：无全形或历史单位近音",
+                "syllables": "Low：无全形或历史单位近音",
+                "prosody": "Low：无全形或历史单位近音"
+              },
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-07"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "全体不等于无条件；未找到它从 physical release 演变的证据",
+              "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-A3",
+        "stage_ref": "A3",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "完整、无条件、不受限制；依语境",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "pending",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "完整、无条件、不受限制；依语境"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-ABSOLUTE-05",
+            "family_key": "legacy-absolute",
+            "target": {
+              "form": "炒",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "翻动加热食物；不含一般解决义",
+                "pos": null,
+                "constraints": [
+                  "炒熟/炒作不能证明解开或不受限；English solve 是相关词而非 absolute 的历史祖先"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ABSOLUTE-05",
+                  "value": "chǎo",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ABSOLUTE-SRC-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A3",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ABSOLUTE-05",
+              "source_span": "absolut → absolute",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "不把 ch 自动算 c，也不以组命中救语义",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None for RELEASE/COMPLETE",
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-03",
+                "TC3-ABSOLUTE-SRC-12",
+                "TC3-ABSOLUTE-SRC-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：现代 solve /sɒlv/ 与 /ʈʂʰau/ 的声母韵母尾音都不同",
+              "features": {
+                "onset": "Low：现代 solve /sɒlv/ 与 /ʈʂʰau/ 的声母韵母尾音都不同",
+                "vowel": "Low：现代 solve /sɒlv/ 与 /ʈʂʰau/ 的声母韵母尾音都不同",
+                "coda_other_consonants": "Low：现代 solve /sɒlv/ 与 /ʈʂʰau/ 的声母韵母尾音都不同",
+                "syllables": "Low：现代 solve /sɒlv/ 与 /ʈʂʰau/ 的声母韵母尾音都不同",
+                "prosody": "Low：现代 solve /sɒlv/ 与 /ʈʂʰau/ 的声母韵母尾音都不同"
+              },
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-08"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "炒熟/炒作不能证明解开或不受限；English solve 是相关词而非 absolute 的历史祖先",
+              "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Reject Featured; retain observation",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ABSOLUTE-06",
+            "family_key": "legacy-absolute",
+            "target": {
+              "form": "塑",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "塑造、泥塑",
+                "pos": null,
+                "constraints": [
+                  "片段可制造假阳性；不谎称与整词高度近音"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ABSOLUTE-06",
+                  "value": "sù",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ABSOLUTE-SRC-09"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-09"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A3",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ABSOLUTE-06",
+              "source_span": "absolut → absolute",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "z-c-s same s fragment; no bonus",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None",
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-03",
+                "TC3-ABSOLUTE-SRC-12",
+                "TC3-ABSOLUTE-SRC-09"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low whole word：只截取 absolute 中 /sə/ 有局部 s/u-like 印象，不是有效根比较",
+              "features": {
+                "onset": "Low whole word：只截取 absolute 中 /sə/ 有局部 s/u-like 印象，不是有效根比较",
+                "vowel": "Low whole word：只截取 absolute 中 /sə/ 有局部 s/u-like 印象，不是有效根比较",
+                "coda_other_consonants": "Low whole word：只截取 absolute 中 /sə/ 有局部 s/u-like 印象，不是有效根比较",
+                "syllables": "Low whole word：只截取 absolute 中 /sə/ 有局部 s/u-like 印象，不是有效根比较",
+                "prosody": "Low whole word：只截取 absolute 中 /sə/ 有局部 s/u-like 印象，不是有效根比较"
+              },
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-09"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-09"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-09"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "片段可制造假阳性；不谎称与整词高度近音",
+              "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ABSOLUTE-08",
+            "family_key": "legacy-absolute",
+            "target": {
+              "form": "绝对",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "无条件、不受限制；完全（按语境）",
+                "pos": null,
+                "constraints": [
+                  "不能把现代术语倒推成 Latin release 的翻译；古其他同形义不并入"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ABSOLUTE-08",
+                  "value": "juéduì",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ABSOLUTE-SRC-11"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-11"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "A3",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ABSOLUTE-08",
+              "source_span": "absolut → absolute",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High modern",
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-03",
+                "TC3-ABSOLUTE-SRC-12",
+                "TC3-ABSOLUTE-SRC-11"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low",
+              "features": {
+                "onset": "Low",
+                "vowel": "Low",
+                "coda_other_consonants": "Low",
+                "syllables": "Low",
+                "prosody": "Low"
+              },
+              "source_refs": [
+                "TC3-ABSOLUTE-SRC-11"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-11"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ABSOLUTE-SRC-11"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不能把现代术语倒推成 Latin release 的翻译；古其他同形义不并入",
+              "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。 Semantic control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-A1",
+          "candidate_ref": "TC3-ABSOLUTE-01"
+        },
+        {
+          "stage_mapping_ref": "SM-A1",
+          "candidate_ref": "TC3-ABSOLUTE-03"
+        },
+        {
+          "stage_mapping_ref": "SM-A2",
+          "candidate_ref": "TC3-ABSOLUTE-04"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+    },
+    "historical_path": "solvere → ab-solvere [A1]; absolūtus [A2]; absolut → absolute [A3]",
+    "semantic_path": "Related meaning groups, not a strict dated sequence: 松开／解除；absolvere 还具完成义; 完成的／不受约束的等; 完整、无条件、不受限制；依语境",
+    "boundary": {
+      "en": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。",
+      "zh-Hans": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "tier-c-discovery-batch-3-2026-09-20",
+    "candidates": [
+      {
+        "id": "ABSOLUTE-01",
+        "entry": "ABSOLUTE",
+        "chinese_form": "解",
+        "reading": "jiě",
+        "chinese_layer": "Modern Mandarin + historical character sense",
+        "chinese_period": "现代已核；古解开/解决的先后与引申路线 Pending",
+        "target_stage": "A1",
+        "comparison_unit": "Latin solvere / absolvere selected release sense",
+        "documented_meaning": "解开束缚；解除、处理解决",
+        "semantic_fit": "High for UNBIND/RELEASE；不能直译 modern absolute",
+        "phonetic_fit": "Low：与 absolute 全形及 solvere 均无已核近音",
+        "structural_cognitive_fit": "High partial parallel physical unbinding / removal-resolution；不是全部→绝对链",
+        "consonant_group_relation": "none",
+        "counterevidence": "解除不等于完整或无条件；jiè 押送、xiè 姓等排除",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/解",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "A1",
+            "form": "solvere → ab-solvere",
+            "language": "Latin",
+            "period": "古典拉丁语层",
+            "meaning": "松开／解除；absolvere 还具完成义",
+            "relation": "词素派生，不是 English solve → absolute；release/complete 分支共存",
+            "mapping": "解、释、脱；松control",
+            "source": "https://www.merriam-webster.com/dictionary/absolve"
+          }
+        ]
+      },
+      {
+        "id": "ABSOLUTE-02",
+        "entry": "ABSOLUTE",
+        "chinese_form": "释",
+        "reading": "shì",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "A1",
+        "comparison_unit": "Latin absolvere release sense",
+        "documented_meaning": "放开、释放；消除",
+        "semantic_fit": "High for RELEASE; Low COMPLETE",
+        "phonetic_fit": "Low：/ʂ/ 与 Latin spelling s 不足以评近音，全历史音未评",
+        "structural_cognitive_fit": "Medium release/removal parallel",
+        "consonant_group_relation": "none；sh 不临时塞入 z-c-s",
+        "counterevidence": "解释、释疑不等于 complete；排除佛教专称",
+        "decision": "Retain limited",
+        "discovery_priority": "Medium",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/释",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "A1",
+            "form": "solvere → ab-solvere",
+            "language": "Latin",
+            "period": "古典拉丁语层",
+            "meaning": "松开／解除；absolvere 还具完成义",
+            "relation": "词素派生，不是 English solve → absolute；release/complete 分支共存",
+            "mapping": "解、释、脱；松control",
+            "source": "https://www.merriam-webster.com/dictionary/absolve"
+          }
+        ]
+      },
+      {
+        "id": "ABSOLUTE-03",
+        "entry": "ABSOLUTE",
+        "chinese_form": "脱",
+        "reading": "tuō",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "A1/A3-cognitive",
+        "comparison_unit": "release → unrestricted cognitive comparison, not full lexical equivalence",
+        "documented_meaning": "取下、离开、摆脱；脱略等不拘束语境",
+        "semantic_fit": "High physical release; Medium abstract freedom in constructions",
+        "phonetic_fit": "Low：不能从 absolute 尾部选 t 就认定根音近",
+        "structural_cognitive_fit": "Medium–High partial removal/freedom parallel；完成只限脱稿构式",
+        "consonant_group_relation": "none",
+        "counterevidence": "脱稿的完成不可推广为脱=complete；脱离也可能非自由",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/脱",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "A1",
+            "form": "solvere → ab-solvere",
+            "language": "Latin",
+            "period": "古典拉丁语层",
+            "meaning": "松开／解除；absolvere 还具完成义",
+            "relation": "词素派生，不是 English solve → absolute；release/complete 分支共存",
+            "mapping": "解、释、脱；松control",
+            "source": "https://www.merriam-webster.com/dictionary/absolve"
+          },
+          {
+            "id": "A3",
+            "form": "absolut → absolute",
+            "language": "Middle / Modern English",
+            "period": "15世纪起；现代层",
+            "meaning": "完整、无条件、不受限制；依语境",
+            "relation": "现代义群分支；法语 absolu 为平行相关资料，不强插成英语必经祖先",
+            "mapping": "绝对为standard；脱仅部分认知比较",
+            "source": "https://www.merriam-webster.com/dictionary/absolute"
+          }
+        ]
+      },
+      {
+        "id": "ABSOLUTE-04",
+        "entry": "ABSOLUTE",
+        "chinese_form": "全",
+        "reading": "quán",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "A2/A3",
+        "comparison_unit": "Latin absolutus complete / modern complete sense",
+        "documented_meaning": "完整、齐备、全部",
+        "semantic_fit": "High for COMPLETE; Medium for unrestricted",
+        "phonetic_fit": "Low：无全形或历史单位近音",
+        "structural_cognitive_fit": "Medium completeness comparison",
+        "consonant_group_relation": "none",
+        "counterevidence": "全体不等于无条件；未找到它从 physical release 演变的证据",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/全",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "A2",
+            "form": "absolūtus",
+            "language": "Latin",
+            "period": "古典／后续拉丁语；各技术义首见未全面核",
+            "meaning": "完成的／不受约束的等",
+            "relation": "absolvere 的过去分词形容词化；不能把每个释义都造成年代阶段",
+            "mapping": "全；其余可 None found within run",
+            "source": "https://www.cnrtl.fr/definition/academie9/Absolu"
+          },
+          {
+            "id": "A3",
+            "form": "absolut → absolute",
+            "language": "Middle / Modern English",
+            "period": "15世纪起；现代层",
+            "meaning": "完整、无条件、不受限制；依语境",
+            "relation": "现代义群分支；法语 absolu 为平行相关资料，不强插成英语必经祖先",
+            "mapping": "绝对为standard；脱仅部分认知比较",
+            "source": "https://www.merriam-webster.com/dictionary/absolute"
+          }
+        ]
+      },
+      {
+        "id": "ABSOLUTE-05",
+        "entry": "ABSOLUTE",
+        "chinese_form": "炒",
+        "reading": "chǎo",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "A1/A3",
+        "comparison_unit": "legacy modern solve comparison, explicitly not an ancestor",
+        "documented_meaning": "翻动加热食物；不含一般解决义",
+        "semantic_fit": "None for RELEASE/COMPLETE",
+        "phonetic_fit": "Low：现代 solve /sɒlv/ 与 /ʈʂʰau/ 的声母韵母尾音都不同",
+        "structural_cognitive_fit": "Low：烹饪完成只是作者比喻",
+        "consonant_group_relation": "不把 ch 自动算 c，也不以组命中救语义",
+        "counterevidence": "炒熟/炒作不能证明解开或不受限；English solve 是相关词而非 absolute 的历史祖先",
+        "decision": "Reject Featured; retain observation",
+        "discovery_priority": "Low",
+        "origin": "legacy calibration",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/炒",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "A1",
+            "form": "solvere → ab-solvere",
+            "language": "Latin",
+            "period": "古典拉丁语层",
+            "meaning": "松开／解除；absolvere 还具完成义",
+            "relation": "词素派生，不是 English solve → absolute；release/complete 分支共存",
+            "mapping": "解、释、脱；松control",
+            "source": "https://www.merriam-webster.com/dictionary/absolve"
+          },
+          {
+            "id": "A3",
+            "form": "absolut → absolute",
+            "language": "Middle / Modern English",
+            "period": "15世纪起；现代层",
+            "meaning": "完整、无条件、不受限制；依语境",
+            "relation": "现代义群分支；法语 absolu 为平行相关资料，不强插成英语必经祖先",
+            "mapping": "绝对为standard；脱仅部分认知比较",
+            "source": "https://www.merriam-webster.com/dictionary/absolute"
+          }
+        ]
+      },
+      {
+        "id": "ABSOLUTE-06",
+        "entry": "ABSOLUTE",
+        "chinese_form": "塑",
+        "reading": "sù",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "A3",
+        "comparison_unit": "arbitrary modern fragment, invalid as etymological root",
+        "documented_meaning": "塑造、泥塑",
+        "semantic_fit": "None",
+        "phonetic_fit": "Low whole word：只截取 absolute 中 /sə/ 有局部 s/u-like 印象，不是有效根比较",
+        "structural_cognitive_fit": "None",
+        "consonant_group_relation": "z-c-s same s fragment; no bonus",
+        "counterevidence": "片段可制造假阳性；不谎称与整词高度近音",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/塑",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "A3",
+            "form": "absolut → absolute",
+            "language": "Middle / Modern English",
+            "period": "15世纪起；现代层",
+            "meaning": "完整、无条件、不受限制；依语境",
+            "relation": "现代义群分支；法语 absolu 为平行相关资料，不强插成英语必经祖先",
+            "mapping": "绝对为standard；脱仅部分认知比较",
+            "source": "https://www.merriam-webster.com/dictionary/absolute"
+          }
+        ]
+      },
+      {
+        "id": "ABSOLUTE-07",
+        "entry": "ABSOLUTE",
+        "chinese_form": "松",
+        "reading": "sōng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "A1",
+        "comparison_unit": "Latin solvere LOOSEN",
+        "documented_meaning": "鬆：放松、松开；不取松树义",
+        "semantic_fit": "High for LOOSEN",
+        "phonetic_fit": "Low vs whole word; Latin 完整读音未评，初始 s 相同不足",
+        "structural_cognitive_fit": "Medium loosening/restriction relaxation",
+        "consonant_group_relation": "z-c-s same s at genuine solvere unit, not expansion gain",
+        "counterevidence": "松弛不等于绝对、完整；松/鬆合并字形不能混证",
+        "decision": "Semantic control",
+        "discovery_priority": "Medium",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/松",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "A1",
+            "form": "solvere → ab-solvere",
+            "language": "Latin",
+            "period": "古典拉丁语层",
+            "meaning": "松开／解除；absolvere 还具完成义",
+            "relation": "词素派生，不是 English solve → absolute；release/complete 分支共存",
+            "mapping": "解、释、脱；松control",
+            "source": "https://www.merriam-webster.com/dictionary/absolve"
+          }
+        ]
+      },
+      {
+        "id": "ABSOLUTE-08",
+        "entry": "ABSOLUTE",
+        "chinese_form": "绝对",
+        "reading": "juéduì",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "A3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "无条件、不受限制；完全（按语境）",
+        "semantic_fit": "High modern",
+        "phonetic_fit": "Low",
+        "structural_cognitive_fit": "None needed",
+        "consonant_group_relation": "none",
+        "counterevidence": "不能把现代术语倒推成 Latin release 的翻译；古其他同形义不并入",
+        "decision": "Semantic control",
+        "discovery_priority": "Medium",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/绝对",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "A3",
+            "form": "absolut → absolute",
+            "language": "Middle / Modern English",
+            "period": "15世纪起；现代层",
+            "meaning": "完整、无条件、不受限制；依语境",
+            "relation": "现代义群分支；法语 absolu 为平行相关资料，不强插成英语必经祖先",
+            "mapping": "绝对为standard；脱仅部分认知比较",
+            "source": "https://www.merriam-webster.com/dictionary/absolute"
+          }
+        ]
+      }
+    ],
+    "freeze": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。",
+    "note": "Exact original 39-record pool; active selections follow approved Freeze, not original Discovery winners.",
+    "deep_source_metadata": [],
+    "independent_comparisons": []
+  },
+  "research_provenance": {
+    "status": "Calibration archive, not active evidence",
+    "reason": "Featured Mapping: Pending。解／脱只比解开、解除、摆脱；全只比完整。Latin release、complete、unrestricted是相关共存义群，不构成已证严格时间直线；物理释放→抽象完整的强叙事撤回。",
+    "old_observations": {
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABSOLUTE-001",
+          "claim": {
+            "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+            "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "ABSOLUTE",
+          "ABSOLVE",
+          "SOLVE",
+          "绝对"
+        ],
+        "relation": "absolute → absolve → solve → 绝对",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABSOLUTE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “absolute，绝对。炒 chao。solve 解决即炒炒。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“absolute，绝对。炒 chao。solve 解决即炒炒。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "absolute",
+            "绝对的／完全的"
+          ],
+          "counterexamples": [
+            "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABSOLUTE-001",
+          "relation": "UNBIND/SET FREE → UNRESTRICTED → ABSOLUTE is the useful historical-semantic chain.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "related_words": [
+        {
+          "word": "absolve",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin absolvere",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABSOLUTE"
+          ]
+        },
+        {
+          "word": "solve",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin solvere",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABSOLUTE"
+          ]
+        },
+        {
+          "word": "炒 chǎo",
+          "language": "Chinese",
+          "relationship_type": "literary mnemonic",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Author comparison or semantic association only; not historical derivation.",
+            "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ]
+    }
+  },
+  "legacy_migration": {
+    "version": "tier-c-batch3-0.1",
+    "baseline_commit": "16e144fd83c1fe048b3abd84196a0529fe04df3b",
+    "scope": "Exact original record archive. Calibrated hypotheses remain Research, not active Featured or etymological evidence.",
+    "previous_fields": {
+      "title": {
+        "en": "absolute · Legacy Website Import",
+        "zh-Hans": "absolute · 旧站导入"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-absolute-primary",
+        "source": {
+          "language": "English",
+          "word": "absolute",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "绝对的／完全的",
+          "pronunciation": "juéduì de / wánquán de"
+        },
+        "gloss": {
+          "en": "free from qualification, restriction or relation; complete",
+          "zh-Hans": "不受条件、限制或关系约束的；完全的"
+        },
+        "meaning": {
+          "en": "free from qualification, restriction or relation; complete. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "不受条件、限制或关系约束的；完全的。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABSOLUTE",
+          "title": "languagesbook.com legacy entry: absolute，绝对。炒 chao。solve 解决即炒炒",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/ab-sol-ute%ef%bc%8c%e7%bb%9d%e5%af%b9/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABSOLUTE",
+          "title": "Merriam-Webster Dictionary: absolute",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/absolute",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 90.8/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 90.8/100 仅用于编辑分流。"
+        },
+        {
+          "en": "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+          "zh-Hans": "需把真实的 absolve／solve 词族与作者的烹饪隐喻分开。"
+        }
+      ],
+      "search_terms": [
+        "absolute",
+        "absolve",
+        "solve",
+        "绝对",
+        "完全",
+        "无条件",
+        "炒",
+        "chao",
+        "unrestricted"
+      ],
+      "page": null,
+      "historical_relation_status": "Not claimed",
+      "semantic_structure": {
+        "concepts": [
+          "ABSOLUTE",
+          "ABSOLVE",
+          "SOLVE",
+          "绝对"
+        ],
+        "relation": "absolute → absolve → solve → 绝对",
+        "status": "Interpretive"
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-ABSOLUTE-001",
+          "claim": {
+            "en": "Solve and 炒 chǎo are not close phonetic equivalents under a regular sound correspondence.",
+            "zh-Hans": "solve 与“炒”chǎo 不构成规律音变下的近似。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
+            "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
+          }
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LEGACY-ABSOLUTE-001",
+          "type": "Original Author Hypothesis / legacy phonetic-semantic observation",
+          "claim": {
+            "en": "Jinkai Liu’s original note is preserved verbatim: “absolute，绝对。炒 chao。solve 解决即炒炒。”",
+            "zh-Hans": "Jinkai Liu 原始观察逐字保留：“absolute，绝对。炒 chao。solve 解决即炒炒。”"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "absolute",
+            "绝对的／完全的"
+          ],
+          "counterexamples": [
+            "Keep the genuine absolve/solve family separate from the author’s cooking metaphor.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
+            "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABSOLUTE",
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      ]
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery",
+      "research_provenance"
+    ]
   }
 }

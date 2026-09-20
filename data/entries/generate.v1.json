@@ -2,8 +2,8 @@
   "id": "LB-en-generate-014",
   "slug": "generate",
   "title": {
-    "en": "generate · Batch 001",
-    "zh-Hans": "generate · 数据扩展 Batch 001"
+    "en": "GENERATE · 产生／生成",
+    "zh-Hans": "GENERATE · 产生／生成"
   },
   "languages": [
     {
@@ -30,7 +30,7 @@
     }
   ],
   "primary_mapping": {
-    "mapping_id": "MAP-generate-primary",
+    "mapping_id": "MAP-generate-modern-standard",
     "source": {
       "language": "English",
       "word": "generate",
@@ -46,13 +46,13 @@
       "zh-Hans": "使某物产生、生成或出现"
     },
     "meaning": {
-      "en": "to bring into existence or produce. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
-      "zh-Hans": "使某物产生、生成或出现。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+      "en": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。",
+      "zh-Hans": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping",
     "rationale": {
-      "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
-      "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
     }
   },
   "entry_status": "Reviewed",
@@ -189,13 +189,13 @@
     {
       "observation_id": "PHON-GENERATE-001",
       "claim": {
-        "en": "gen- and 根 gēn share a rough modern syllabic resemblance and ORIGIN/ROOT semantic overlap; 干 gàn/gān has broader, sense-dependent meanings and weaker overlap.",
-        "zh-Hans": "gen- 与“根”gēn 有有限现代音近，并在 ORIGIN／ROOT 上有语义交集；“干”gàn／gān 义项繁多，重合较弱。"
+        "en": "Research archive / superseded observation: gen- and 根 gēn share a rough modern syllabic resemblance and ORIGIN/ROOT semantic overlap; 干 gàn/gān has broader, sense-dependent meanings and weaker overlap.",
+        "zh-Hans": "Research archive / superseded observation: gen- 与“根”gēn 有有限现代音近，并在 ORIGIN／ROOT 上有语义交集；“干”gàn／gān 义项繁多，重合较弱。"
       },
       "status": "Candidate",
       "limitations": {
-        "en": "Modern spelling or sound resemblance is not a regular sound correspondence and does not prove cognacy.",
-        "zh-Hans": "现代拼写或声音近似不是规律音变，也不能证明同源。"
+        "en": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Modern spelling or sound resemblance is not a regular sound correspondence and does not prove cognacy.",
+        "zh-Hans": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 现代拼写或声音近似不是规律音变，也不能证明同源。"
       }
     }
   ],
@@ -207,8 +207,8 @@
       "ORIGIN",
       "ROOT"
     ],
-    "relation": "CREATE → PRODUCE → BIRTH → ORIGIN → ROOT",
-    "status": "Interpretive"
+    "relation": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。",
+    "status": "Candidate / scoped comparison; legacy observations in Research"
   },
   "related_words": [
     {
@@ -287,8 +287,8 @@
       "hypothesis_id": "UNI-GENERATE-001",
       "type": "Original author phonetic-semantic / consonantal-skeleton hypothesis",
       "claim": {
-        "en": "The author's comparison around 干 gan，gun、gin，gen，generate; generate ↔ 干 gan / 根 gen; 辅音不变规则同样适用于词根的意义;  may support a mnemonic or semantic association without establishing common origin.",
-        "zh-Hans": "作者观察“干 gan，gun、gin，gen，generate。generate ↔ 干 gan / 根 gen。辅音不变规则同样适用于词根的意义。”可作为记忆或语义联想，但不建立共同来源。"
+        "en": "Research archive / superseded observation: The author's comparison around 干 gan，gun、gin，gen，generate; generate ↔ 干 gan / 根 gen; 辅音不变规则同样适用于词根的意义;  may support a mnemonic or semantic association without establishing common origin.",
+        "zh-Hans": "Research archive / superseded observation: 作者观察“干 gan，gun、gin，gen，generate。generate ↔ 干 gan / 根 gen。辅音不变规则同样适用于词根的意义。”可作为记忆或语义联想，但不建立共同来源。"
       },
       "status": "Unestablished",
       "confidence": "Low",
@@ -372,6 +372,94 @@
       "url": "https://www.merriam-webster.com/dictionary/generation",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-01",
+      "title": "Approved Freeze source · indoeurop.html",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.ahdictionary.com/word/indoeurop.html",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-02",
+      "title": "Approved Freeze source · search.html?q=generate",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.ahdictionary.com/word/search.html?q=generate",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-03",
+      "title": "Approved Freeze source · generate",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.merriam-webster.com/dictionary/generate",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-04",
+      "title": "Approved Freeze source · 生",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/生",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-05",
+      "title": "Approved Freeze source · 产",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/产",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-06",
+      "title": "Approved Freeze source · 育",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/育",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-07",
+      "title": "Approved Freeze source · 根",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/根",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-08",
+      "title": "Approved Freeze source · 干",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/干",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-09",
+      "title": "Approved Freeze source · 跟",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/跟",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-10",
+      "title": "Approved Freeze source · 滚",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/滚",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-GENERATE-SRC-11",
+      "title": "Approved Freeze source · 种",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/种",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
     }
   ],
   "author": "Jinkai Liu",
@@ -389,6 +477,10 @@
     {
       "en": "Modern resemblance does not establish generate ← 根/干 or a shared historical root.",
       "zh-Hans": "现代音义近似不能证明 generate 源自“根／干”或共享历史词根。"
+    },
+    {
+      "en": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。",
+      "zh-Hans": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
     }
   ],
   "search_terms": [
@@ -405,9 +497,12 @@
     "root",
     "générer",
     "create",
-    "produce"
+    "produce",
+    "产生／生成",
+    "生",
+    "产"
   ],
-  "page": null,
+  "page": "words/generate.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",
@@ -421,5 +516,2028 @@
     "ordinal": 1,
     "disposition": "Reviewed",
     "priority_score": 90
+  },
+  "standard_translation": {
+    "source": "generate",
+    "target": "产生／生成",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "TC3-GENERATE-SRC-01",
+      "TC3-GENERATE-SRC-02",
+      "TC3-GENERATE-SRC-02",
+      "TC3-GENERATE-SRC-03"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-generate-modern-standard",
+    "source": {
+      "language": "English",
+      "word": "generate",
+      "pronunciation": "/ˈdʒenəreɪt/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "产生／生成",
+      "pronunciation": "chǎnshēng / shēngchéng"
+    },
+    "gloss": {
+      "en": "to bring into existence or produce",
+      "zh-Hans": "使某物产生、生成或出现"
+    },
+    "meaning": {
+      "en": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。",
+      "zh-Hans": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping",
+    "rationale": {
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "G1",
+        "form": "genus, gener-",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语层，精确首见未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-GENERATE-SRC-02"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "birth/descent; family/kind",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "TC3-GENERATE-SRC-02"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "generāre 的派生基础；KIND 不是 generate 后起阶段"
+      },
+      {
+        "stage_id": "G2",
+        "form": "generāre / generāt-",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古典拉丁语层",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-GENERATE-SRC-02"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "BEGET / PRODUCE",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "G1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "动词及分词词干是相关形态，不拆成互相独立发现",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-GENERATE-SRC-02"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-GENERATE-SRC-02"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "动词及分词词干是相关形态，不拆成互相独立发现"
+      },
+      {
+        "stage_id": "G3",
+        "form": "generate",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "English",
+          "code": null
+        },
+        "period": {
+          "label": "1509起所核英语记录；现代层",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-GENERATE-SRC-03"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "使产生、生成；生育义仍存在",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-G3",
+            "value": "/ˈdʒenəreɪt/",
+            "notation": "IPA",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "REF-MW-GENERATE",
+              "REF-MW-GENERATION"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "G2",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "把生育与广义产生并列；不捏造唯一语义年表",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-GENERATE-SRC-03"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-GENERATE-SRC-03"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "把生育与广义产生并列；不捏造唯一语义年表"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-G1",
+        "stage_ref": "G1",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "birth/descent; family/kind",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "pending",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "birth/descent; family/kind"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-GENERATE-04",
+            "family_key": "legacy-generate",
+            "target": {
+              "form": "根",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "植物根；事物来源、根本",
+                "pos": null,
+                "constraints": [
+                  "genus=出身/族类不是植物根；名词来源不等于生产动作"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-GENERATE-04",
+                  "value": "gēn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-GENERATE-SRC-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-GENERATE-SRC-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "G1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-GENERATE-04",
+              "source_span": "genus, gener-",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "legacy g-k-h proposal applies only after source sound layer is fixed",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "Low–Medium cognitive origin; Low BEGET action",
+              "source_refs": [
+                "TC3-GENERATE-SRC-02",
+                "TC3-GENERATE-SRC-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low versus modern /dʒen/：gēn=[kən]，字母 g 不等于英语 /dʒ/；Latin 历史全音值 Pending",
+              "features": {
+                "onset": "Low versus modern /dʒen/：gēn=[kən]，字母 g 不等于英语 /dʒ/；Latin 历史全音值 Pending",
+                "vowel": "Low versus modern /dʒen/：gēn=[kən]，字母 g 不等于英语 /dʒ/；Latin 历史全音值 Pending",
+                "coda_other_consonants": "Low versus modern /dʒen/：gēn=[kən]，字母 g 不等于英语 /dʒ/；Latin 历史全音值 Pending",
+                "syllables": "Low versus modern /dʒen/：gēn=[kən]，字母 g 不等于英语 /dʒ/；Latin 历史全音值 Pending",
+                "prosody": "Low versus modern /dʒen/：gēn=[kən]，字母 g 不等于英语 /dʒ/；Latin 历史全音值 Pending"
+              },
+              "source_refs": [
+                "TC3-GENERATE-SRC-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-07"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "genus=出身/族类不是植物根；名词来源不等于生产动作",
+              "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Retain limited",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-GENERATE-08",
+            "family_key": "legacy-generate",
+            "target": {
+              "form": "种",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "种类、族类；取名词，非 zhòng 种植",
+                "pos": null,
+                "constraints": [
+                  "不是 generate 整词译法；生物分类 rank species 也不等于 genus rank"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-GENERATE-08",
+                  "value": "zhǒng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-GENERATE-SRC-11"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-GENERATE-SRC-11"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "G1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-GENERATE-08",
+              "source_span": "genus, gener-",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for genus KIND only",
+              "source_refs": [
+                "TC3-GENERATE-SRC-02",
+                "TC3-GENERATE-SRC-11"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low；不能用它拼成现代 generate 的声音证据",
+              "features": {
+                "onset": "Low；不能用它拼成现代 generate 的声音证据",
+                "vowel": "Low；不能用它拼成现代 generate 的声音证据",
+                "coda_other_consonants": "Low；不能用它拼成现代 generate 的声音证据",
+                "syllables": "Low；不能用它拼成现代 generate 的声音证据",
+                "prosody": "Low；不能用它拼成现代 generate 的声音证据"
+              },
+              "source_refs": [
+                "TC3-GENERATE-SRC-11"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-11"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-11"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不是 generate 整词译法；生物分类 rank species 也不等于 genus rank",
+              "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Semantic control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-G2",
+        "stage_ref": "G2",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "BEGET / PRODUCE",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "BEGET / PRODUCE"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-GENERATE-01",
+            "family_key": "legacy-generate",
+            "target": {
+              "form": "生",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；古生育/产生义在线材料，具体时序待核",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "出生、生育；产生、发生",
+                "pos": null,
+                "constraints": [
+                  "不是所有生义都适用；同一字多义不是已完成的词义演变年表"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-GENERATE-01",
+                  "value": "shēng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-GENERATE-SRC-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-GENERATE-SRC-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "G2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-GENERATE-01",
+              "source_span": "generāre / generāt-",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none；sh 不机械等同 z-c-s",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High；需逐句区分及物生出与不及物发生",
+              "source_refs": [
+                "TC3-GENERATE-SRC-02",
+                "TC3-GENERATE-SRC-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：/ʂəŋ/ 对现代 /dʒen/ 的部位、韵尾不同；全词更远",
+              "features": {
+                "onset": "Low：/ʂəŋ/ 对现代 /dʒen/ 的部位、韵尾不同；全词更远",
+                "vowel": "Low：/ʂəŋ/ 对现代 /dʒen/ 的部位、韵尾不同；全词更远",
+                "coda_other_consonants": "Low：/ʂəŋ/ 对现代 /dʒen/ 的部位、韵尾不同；全词更远",
+                "syllables": "Low：/ʂəŋ/ 对现代 /dʒen/ 的部位、韵尾不同；全词更远",
+                "prosody": "Low：/ʂəŋ/ 对现代 /dʒen/ 的部位、韵尾不同；全词更远"
+              },
+              "source_refs": [
+                "TC3-GENERATE-SRC-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-04"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不是所有生义都适用；同一字多义不是已完成的词义演变年表",
+              "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-GENERATE-03",
+            "family_key": "legacy-generate",
+            "target": {
+              "form": "育",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "生养；限生育，不含教育的一切义",
+                "pos": null,
+                "constraints": [
+                  "培养已经存在的对象不等于使其产生；教育义排除"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-GENERATE-03",
+                  "value": "yù",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-GENERATE-SRC-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-GENERATE-SRC-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "G2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-GENERATE-03",
+              "source_span": "generāre / generāt-",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for procreate; Medium/Low for all produce",
+              "source_refs": [
+                "TC3-GENERATE-SRC-02",
+                "TC3-GENERATE-SRC-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low：无匹配节段",
+              "features": {
+                "onset": "Low：无匹配节段",
+                "vowel": "Low：无匹配节段",
+                "coda_other_consonants": "Low：无匹配节段",
+                "syllables": "Low：无匹配节段",
+                "prosody": "Low：无匹配节段"
+              },
+              "source_refs": [
+                "TC3-GENERATE-SRC-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-06"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "培养已经存在的对象不等于使其产生；教育义排除",
+              "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Retain limited",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-G3",
+        "stage_ref": "G3",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "使产生、生成；生育义仍存在",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "使产生、生成；生育义仍存在"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-GENERATE-02",
+            "family_key": "legacy-generate",
+            "target": {
+              "form": "产",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "生子、生产、产生",
+                "pos": null,
+                "constraints": [
+                  "身体生育与抽象产生的扩展有研究价值，但首次年代未核"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-GENERATE-02",
+                  "value": "chǎn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-GENERATE-SRC-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-GENERATE-SRC-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "G3",
+              "source_pronunciation_ref": "PR-G3",
+              "target_pronunciation_ref": "ZH-TC3-GENERATE-02",
+              "source_span": "generate",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none；ch 不擅自并入 z-c-s",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for BEGET/PRODUCE",
+              "source_refs": [
+                "TC3-GENERATE-SRC-03",
+                "TC3-GENERATE-SRC-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low whole word; /ʈʂʰan/ 对 /dʒen/ 仅塞擦音和 n 特征有限，清浊送气元音异",
+              "features": {
+                "onset": "Low whole word; /ʈʂʰan/ 对 /dʒen/ 仅塞擦音和 n 特征有限，清浊送气元音异",
+                "vowel": "Low whole word; /ʈʂʰan/ 对 /dʒen/ 仅塞擦音和 n 特征有限，清浊送气元音异",
+                "coda_other_consonants": "Low whole word; /ʈʂʰan/ 对 /dʒen/ 仅塞擦音和 n 特征有限，清浊送气元音异",
+                "syllables": "Low whole word; /ʈʂʰan/ 对 /dʒen/ 仅塞擦音和 n 特征有限，清浊送气元音异",
+                "prosody": "Low whole word; /ʈʂʰan/ 对 /dʒen/ 仅塞擦音和 n 特征有限，清浊送气元音异"
+              },
+              "source_refs": [
+                "TC3-GENERATE-SRC-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-05"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "身体生育与抽象产生的扩展有研究价值，但首次年代未核",
+              "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-GENERATE-05",
+            "family_key": "legacy-generate",
+            "target": {
+              "form": "干",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "幹：做、从事某事；不采用 gān 乾燥",
+                "pos": null,
+                "constraints": [
+                  "旧 gan 未定调和义；乾/干/幹不能混为一个历史语义系统"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-GENERATE-05",
+                  "value": "gàn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-GENERATE-SRC-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-GENERATE-SRC-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "G3",
+              "source_pronunciation_ref": "PR-G3",
+              "target_pronunciation_ref": "ZH-TC3-GENERATE-05",
+              "source_span": "generate",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "拼音 g 不是 English generate 的音系 g",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "Low：做事未必产生对象",
+              "source_refs": [
+                "TC3-GENERATE-SRC-03",
+                "TC3-GENERATE-SRC-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：/kan/ 与 /dʒen/ 声母元音不同，余部缺失",
+              "features": {
+                "onset": "Low：/kan/ 与 /dʒen/ 声母元音不同，余部缺失",
+                "vowel": "Low：/kan/ 与 /dʒen/ 声母元音不同，余部缺失",
+                "coda_other_consonants": "Low：/kan/ 与 /dʒen/ 声母元音不同，余部缺失",
+                "syllables": "Low：/kan/ 与 /dʒen/ 声母元音不同，余部缺失",
+                "prosody": "Low：/kan/ 与 /dʒen/ 声母元音不同，余部缺失"
+              },
+              "source_refs": [
+                "TC3-GENERATE-SRC-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-08"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "旧 gan 未定调和义；乾/干/幹不能混为一个历史语义系统",
+              "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Reject Featured; retain observation",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-GENERATE-06",
+            "family_key": "legacy-generate",
+            "target": {
+              "form": "跟",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "脚跟；跟随",
+                "pos": null,
+                "constraints": [
+                  "物体底部联想仍不能推出生育"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-GENERATE-06",
+                  "value": "gēn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-GENERATE-SRC-09"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-GENERATE-SRC-09"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "G3",
+              "source_pronunciation_ref": "PR-G3",
+              "target_pronunciation_ref": "ZH-TC3-GENERATE-06",
+              "source_span": "generate",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "g group baseline control, not expansion gain",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None for BEGET",
+              "source_refs": [
+                "TC3-GENERATE-SRC-03",
+                "TC3-GENERATE-SRC-09"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low modern source; 与根同音，故任何根的局部近音也适用于跟",
+              "features": {
+                "onset": "Low modern source; 与根同音，故任何根的局部近音也适用于跟",
+                "vowel": "Low modern source; 与根同音，故任何根的局部近音也适用于跟",
+                "coda_other_consonants": "Low modern source; 与根同音，故任何根的局部近音也适用于跟",
+                "syllables": "Low modern source; 与根同音，故任何根的局部近音也适用于跟",
+                "prosody": "Low modern source; 与根同音，故任何根的局部近音也适用于跟"
+              },
+              "source_refs": [
+                "TC3-GENERATE-SRC-09"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-09"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-09"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "物体底部联想仍不能推出生育",
+              "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-GENERATE-07",
+            "family_key": "legacy-generate",
+            "target": {
+              "form": "滚",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "翻滚、旋转移动",
+                "pos": null,
+                "constraints": [
+                  "不能由滚动→动→产生无限延长联想"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-GENERATE-07",
+                  "value": "gǔn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-GENERATE-SRC-10"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-GENERATE-SRC-10"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "G3",
+              "source_pronunciation_ref": "PR-G3",
+              "target_pronunciation_ref": "ZH-TC3-GENERATE-07",
+              "source_span": "generate",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "g group baseline control",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None",
+              "source_refs": [
+                "TC3-GENERATE-SRC-03",
+                "TC3-GENERATE-SRC-10"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：只对旧 raw gun 拼写有表面吸引，非 generate 全音",
+              "features": {
+                "onset": "Low：只对旧 raw gun 拼写有表面吸引，非 generate 全音",
+                "vowel": "Low：只对旧 raw gun 拼写有表面吸引，非 generate 全音",
+                "coda_other_consonants": "Low：只对旧 raw gun 拼写有表面吸引，非 generate 全音",
+                "syllables": "Low：只对旧 raw gun 拼写有表面吸引，非 generate 全音",
+                "prosody": "Low：只对旧 raw gun 拼写有表面吸引，非 generate 全音"
+              },
+              "source_refs": [
+                "TC3-GENERATE-SRC-10"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-10"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-GENERATE-SRC-10"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不能由滚动→动→产生无限延长联想",
+              "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-G2",
+          "candidate_ref": "TC3-GENERATE-01"
+        },
+        {
+          "stage_mapping_ref": "SM-G3",
+          "candidate_ref": "TC3-GENERATE-02"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+    },
+    "historical_path": "genus, gener- [G1]; generāre / generāt- [G2]; generate [G3]",
+    "semantic_path": "Related meaning groups, not a strict dated sequence: birth/descent; family/kind; BEGET / PRODUCE; 使产生、生成；生育义仍存在",
+    "boundary": {
+      "en": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。",
+      "zh-Hans": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "tier-c-discovery-batch-3-2026-09-20",
+    "candidates": [
+      {
+        "id": "GENERATE-01",
+        "entry": "GENERATE",
+        "chinese_form": "生",
+        "reading": "shēng",
+        "chinese_layer": "Modern Mandarin + historical character sense",
+        "chinese_period": "现代；古生育/产生义在线材料，具体时序待核",
+        "target_stage": "G2/G3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "出生、生育；产生、发生",
+        "semantic_fit": "High；需逐句区分及物生出与不及物发生",
+        "phonetic_fit": "Low：/ʂəŋ/ 对现代 /dʒen/ 的部位、韵尾不同；全词更远",
+        "structural_cognitive_fit": "High：BIRTH/ARISE/PRODUCE 义群可比较",
+        "consonant_group_relation": "none；sh 不机械等同 z-c-s",
+        "counterevidence": "不是所有生义都适用；同一字多义不是已完成的词义演变年表",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/生",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "G2",
+            "form": "generāre / generāt-",
+            "language": "Latin",
+            "period": "古典拉丁语层",
+            "meaning": "BEGET / PRODUCE",
+            "relation": "动词及分词词干是相关形态，不拆成互相独立发现",
+            "mapping": "生、产、育",
+            "source": "https://www.ahdictionary.com/word/search.html?q=generate"
+          },
+          {
+            "id": "G3",
+            "form": "generate",
+            "language": "English",
+            "period": "1509起所核英语记录；现代层",
+            "meaning": "使产生、生成；生育义仍存在",
+            "relation": "把生育与广义产生并列；不捏造唯一语义年表",
+            "mapping": "生、产；根/干受限或拒绝",
+            "source": "https://www.merriam-webster.com/dictionary/generate"
+          }
+        ]
+      },
+      {
+        "id": "GENERATE-02",
+        "entry": "GENERATE",
+        "chinese_form": "产",
+        "reading": "chǎn",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "G2/G3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "生子、生产、产生",
+        "semantic_fit": "High for BEGET/PRODUCE",
+        "phonetic_fit": "Low whole word; /ʈʂʰan/ 对 /dʒen/ 仅塞擦音和 n 特征有限，清浊送气元音异",
+        "structural_cognitive_fit": "High：生育与制造的语义并置",
+        "consonant_group_relation": "none；ch 不擅自并入 z-c-s",
+        "counterevidence": "身体生育与抽象产生的扩展有研究价值，但首次年代未核",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/产",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "G2",
+            "form": "generāre / generāt-",
+            "language": "Latin",
+            "period": "古典拉丁语层",
+            "meaning": "BEGET / PRODUCE",
+            "relation": "动词及分词词干是相关形态，不拆成互相独立发现",
+            "mapping": "生、产、育",
+            "source": "https://www.ahdictionary.com/word/search.html?q=generate"
+          },
+          {
+            "id": "G3",
+            "form": "generate",
+            "language": "English",
+            "period": "1509起所核英语记录；现代层",
+            "meaning": "使产生、生成；生育义仍存在",
+            "relation": "把生育与广义产生并列；不捏造唯一语义年表",
+            "mapping": "生、产；根/干受限或拒绝",
+            "source": "https://www.merriam-webster.com/dictionary/generate"
+          }
+        ]
+      },
+      {
+        "id": "GENERATE-03",
+        "entry": "GENERATE",
+        "chinese_form": "育",
+        "reading": "yù",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "G2",
+        "comparison_unit": "whole word",
+        "documented_meaning": "生养；限生育，不含教育的一切义",
+        "semantic_fit": "High for procreate; Medium/Low for all produce",
+        "phonetic_fit": "Low：无匹配节段",
+        "structural_cognitive_fit": "Medium birth/nurture distinction",
+        "consonant_group_relation": "none",
+        "counterevidence": "培养已经存在的对象不等于使其产生；教育义排除",
+        "decision": "Retain limited",
+        "discovery_priority": "Medium",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/育",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "G2",
+            "form": "generāre / generāt-",
+            "language": "Latin",
+            "period": "古典拉丁语层",
+            "meaning": "BEGET / PRODUCE",
+            "relation": "动词及分词词干是相关形态，不拆成互相独立发现",
+            "mapping": "生、产、育",
+            "source": "https://www.ahdictionary.com/word/search.html?q=generate"
+          }
+        ]
+      },
+      {
+        "id": "GENERATE-04",
+        "entry": "GENERATE",
+        "chinese_form": "根",
+        "reading": "gēn",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "G1/G3",
+        "comparison_unit": "Latin gener-/genus semantics; modern initial syllable separately",
+        "documented_meaning": "植物根；事物来源、根本",
+        "semantic_fit": "Low–Medium cognitive origin; Low BEGET action",
+        "phonetic_fit": "Low versus modern /dʒen/：gēn=[kən]，字母 g 不等于英语 /dʒ/；Latin 历史全音值 Pending",
+        "structural_cognitive_fit": "Medium ORIGIN/ROOT metaphor, not identical operation",
+        "consonant_group_relation": "legacy g-k-h proposal applies only after source sound layer is fixed",
+        "counterevidence": "genus=出身/族类不是植物根；名词来源不等于生产动作",
+        "decision": "Retain limited",
+        "discovery_priority": "Medium",
+        "origin": "legacy calibration",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/根",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "G1",
+            "form": "genus, gener-",
+            "language": "Latin",
+            "period": "古典拉丁语层，精确首见未核",
+            "meaning": "birth/descent; family/kind",
+            "relation": "generāre 的派生基础；KIND 不是 generate 后起阶段",
+            "mapping": "种（semantic control）；根仅认知",
+            "source": "https://www.ahdictionary.com/word/search.html?q=generate"
+          },
+          {
+            "id": "G3",
+            "form": "generate",
+            "language": "English",
+            "period": "1509起所核英语记录；现代层",
+            "meaning": "使产生、生成；生育义仍存在",
+            "relation": "把生育与广义产生并列；不捏造唯一语义年表",
+            "mapping": "生、产；根/干受限或拒绝",
+            "source": "https://www.merriam-webster.com/dictionary/generate"
+          }
+        ]
+      },
+      {
+        "id": "GENERATE-05",
+        "entry": "GENERATE",
+        "chinese_form": "干",
+        "reading": "gàn",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "G3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "幹：做、从事某事；不采用 gān 乾燥",
+        "semantic_fit": "Low：做事未必产生对象",
+        "phonetic_fit": "Low：/kan/ 与 /dʒen/ 声母元音不同，余部缺失",
+        "structural_cognitive_fit": "Low",
+        "consonant_group_relation": "拼音 g 不是 English generate 的音系 g",
+        "counterevidence": "旧 gan 未定调和义；乾/干/幹不能混为一个历史语义系统",
+        "decision": "Reject Featured; retain observation",
+        "discovery_priority": "Low",
+        "origin": "legacy calibration",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/干",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "G3",
+            "form": "generate",
+            "language": "English",
+            "period": "1509起所核英语记录；现代层",
+            "meaning": "使产生、生成；生育义仍存在",
+            "relation": "把生育与广义产生并列；不捏造唯一语义年表",
+            "mapping": "生、产；根/干受限或拒绝",
+            "source": "https://www.merriam-webster.com/dictionary/generate"
+          }
+        ]
+      },
+      {
+        "id": "GENERATE-06",
+        "entry": "GENERATE",
+        "chinese_form": "跟",
+        "reading": "gēn",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "G1/G3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "脚跟；跟随",
+        "semantic_fit": "None for BEGET",
+        "phonetic_fit": "Low modern source; 与根同音，故任何根的局部近音也适用于跟",
+        "structural_cognitive_fit": "None",
+        "consonant_group_relation": "g group baseline control, not expansion gain",
+        "counterevidence": "物体底部联想仍不能推出生育",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/跟",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "G1",
+            "form": "genus, gener-",
+            "language": "Latin",
+            "period": "古典拉丁语层，精确首见未核",
+            "meaning": "birth/descent; family/kind",
+            "relation": "generāre 的派生基础；KIND 不是 generate 后起阶段",
+            "mapping": "种（semantic control）；根仅认知",
+            "source": "https://www.ahdictionary.com/word/search.html?q=generate"
+          },
+          {
+            "id": "G3",
+            "form": "generate",
+            "language": "English",
+            "period": "1509起所核英语记录；现代层",
+            "meaning": "使产生、生成；生育义仍存在",
+            "relation": "把生育与广义产生并列；不捏造唯一语义年表",
+            "mapping": "生、产；根/干受限或拒绝",
+            "source": "https://www.merriam-webster.com/dictionary/generate"
+          }
+        ]
+      },
+      {
+        "id": "GENERATE-07",
+        "entry": "GENERATE",
+        "chinese_form": "滚",
+        "reading": "gǔn",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "G3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "翻滚、旋转移动",
+        "semantic_fit": "None",
+        "phonetic_fit": "Low：只对旧 raw gun 拼写有表面吸引，非 generate 全音",
+        "structural_cognitive_fit": "None",
+        "consonant_group_relation": "g group baseline control",
+        "counterevidence": "不能由滚动→动→产生无限延长联想",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/滚",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "G3",
+            "form": "generate",
+            "language": "English",
+            "period": "1509起所核英语记录；现代层",
+            "meaning": "使产生、生成；生育义仍存在",
+            "relation": "把生育与广义产生并列；不捏造唯一语义年表",
+            "mapping": "生、产；根/干受限或拒绝",
+            "source": "https://www.merriam-webster.com/dictionary/generate"
+          }
+        ]
+      },
+      {
+        "id": "GENERATE-08",
+        "entry": "GENERATE",
+        "chinese_form": "种",
+        "reading": "zhǒng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "G1",
+        "comparison_unit": "Latin genus kind/descent basis, not modern verb",
+        "documented_meaning": "种类、族类；取名词，非 zhòng 种植",
+        "semantic_fit": "High for genus KIND only",
+        "phonetic_fit": "Low；不能用它拼成现代 generate 的声音证据",
+        "structural_cognitive_fit": "Medium family/kind comparison",
+        "consonant_group_relation": "none",
+        "counterevidence": "不是 generate 整词译法；生物分类 rank species 也不等于 genus rank",
+        "decision": "Semantic control",
+        "discovery_priority": "Medium",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/种",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "G1",
+            "form": "genus, gener-",
+            "language": "Latin",
+            "period": "古典拉丁语层，精确首见未核",
+            "meaning": "birth/descent; family/kind",
+            "relation": "generāre 的派生基础；KIND 不是 generate 后起阶段",
+            "mapping": "种（semantic control）；根仅认知",
+            "source": "https://www.ahdictionary.com/word/search.html?q=generate"
+          }
+        ]
+      }
+    ],
+    "freeze": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。",
+    "note": "Exact original 39-record pool; active selections follow approved Freeze, not original Discovery winners.",
+    "deep_source_metadata": [
+      [
+        "G0",
+        "*g̑enh₁- (AHD genə-/gen-)",
+        "reconstructed PIE",
+        "史前，重构非文献见证",
+        "BEGET / GIVE BIRTH",
+        "仅作深源 metadata；不强配汉字",
+        "Pending / Not selected",
+        "https://www.ahdictionary.com/word/indoeurop.html"
+      ]
+    ],
+    "independent_comparisons": []
+  },
+  "research_provenance": {
+    "status": "Calibration archive, not active evidence",
+    "reason": "Featured Mapping: Pending。生限生育／产生，产限生育／生产构式；gan/gun/gin/gen、根、干等旧观察保留Raw/Research provenance，不进入历史词源链。",
+    "old_observations": {
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-GENERATE-001",
+          "claim": {
+            "en": "gen- and 根 gēn share a rough modern syllabic resemblance and ORIGIN/ROOT semantic overlap; 干 gàn/gān has broader, sense-dependent meanings and weaker overlap.",
+            "zh-Hans": "gen- 与“根”gēn 有有限现代音近，并在 ORIGIN／ROOT 上有语义交集；“干”gàn／gān 义项繁多，重合较弱。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Modern spelling or sound resemblance is not a regular sound correspondence and does not prove cognacy.",
+            "zh-Hans": "现代拼写或声音近似不是规律音变，也不能证明同源。"
+          }
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "CREATE",
+          "PRODUCE",
+          "BIRTH",
+          "ORIGIN",
+          "ROOT"
+        ],
+        "relation": "CREATE → PRODUCE → BIRTH → ORIGIN → ROOT",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-GENERATE-001",
+          "type": "Original author phonetic-semantic / consonantal-skeleton hypothesis",
+          "claim": {
+            "en": "The author's comparison around 干 gan，gun、gin，gen，generate; generate ↔ 干 gan / 根 gen; 辅音不变规则同样适用于词根的意义;  may support a mnemonic or semantic association without establishing common origin.",
+            "zh-Hans": "作者观察“干 gan，gun、gin，gen，generate。generate ↔ 干 gan / 根 gen。辅音不变规则同样适用于词根的意义。”可作为记忆或语义联想，但不建立共同来源。"
+          },
+          "status": "Unestablished",
+          "confidence": "Low",
+          "supporting_cases": [
+            "generate",
+            "generation",
+            "gen",
+            "genus",
+            "产生"
+          ],
+          "counterexamples": [
+            "Modern resemblance does not establish generate ← 根/干 or a shared historical root.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test sound similarity and semantic fit separately with blinded ratings, explicit negative controls and historical-source review.",
+            "zh-Hans": "用盲法评分、明确负对照与独立词源核验分别检验声音相似度和语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-JL-GENERATE-RAW",
+            "REF-MW-GENERATE",
+            "REF-MW-GENERATION"
+          ]
+        }
+      ],
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-GENERATE-001",
+          "relation": "CREATE → PRODUCE → BIRTH → ORIGIN → ROOT",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "related_words": [
+        {
+          "word": "generation",
+          "language": "English",
+          "relationship_type": "Etymological derivative",
+          "family": "Latin generare / generatio",
+          "relation_to_entry": {
+            "en": "Documented historical relation within the stated family.",
+            "zh-Hans": "在所列词族内有文献支持的历史关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-GENERATE",
+            "REF-MW-GENERATION"
+          ]
+        },
+        {
+          "word": "genus",
+          "language": "Latin/English",
+          "relationship_type": "Historical family",
+          "family": "Latin genus / gener-",
+          "relation_to_entry": {
+            "en": "Documented historical relation within the stated family.",
+            "zh-Hans": "在所列词族内有文献支持的历史关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-GENERATE",
+            "REF-MW-GENERATION"
+          ]
+        },
+        {
+          "word": "根 gēn",
+          "language": "Chinese",
+          "relationship_type": "Phonetic-semantic candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Comparison or association only; not a historical derivation.",
+            "zh-Hans": "仅作比较或联想；不是历史派生关系。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-JL-GENERATE-RAW",
+            "REF-MW-GENERATE",
+            "REF-MW-GENERATION"
+          ]
+        },
+        {
+          "word": "干 gān/gàn",
+          "language": "Chinese",
+          "relationship_type": "Surface phonetic candidate",
+          "family": "independent Sinitic history",
+          "relation_to_entry": {
+            "en": "Comparison or association only; not a historical derivation.",
+            "zh-Hans": "仅作比较或联想；不是历史派生关系。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-JL-GENERATE-RAW",
+            "REF-MW-GENERATE",
+            "REF-MW-GENERATION"
+          ]
+        }
+      ]
+    }
+  },
+  "legacy_migration": {
+    "version": "tier-c-batch3-0.1",
+    "baseline_commit": "16e144fd83c1fe048b3abd84196a0529fe04df3b",
+    "scope": "Exact original record archive. Calibrated hypotheses remain Research, not active Featured or etymological evidence.",
+    "previous_fields": {
+      "title": {
+        "en": "generate · Batch 001",
+        "zh-Hans": "generate · 数据扩展 Batch 001"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-generate-primary",
+        "source": {
+          "language": "English",
+          "word": "generate",
+          "pronunciation": "/ˈdʒenəreɪt/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "产生／生成",
+          "pronunciation": "chǎnshēng / shēngchéng"
+        },
+        "gloss": {
+          "en": "to bring into existence or produce",
+          "zh-Hans": "使某物产生、生成或出现"
+        },
+        "meaning": {
+          "en": "to bring into existence or produce. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+          "zh-Hans": "使某物产生、生成或出现。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+        "rationale": {
+          "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+          "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "REF-JL-GENERATE-RAW",
+          "title": "Jinkai Liu: generate source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-GENERATE",
+          "title": "Merriam-Webster Dictionary: generate",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/generate",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-MW-GENERATION",
+          "title": "Merriam-Webster Dictionary: generation",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/generation",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Reviewed. Priority score 90/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Reviewed。优先分 90/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "Modern resemblance does not establish generate ← 根/干 or a shared historical root.",
+          "zh-Hans": "现代音义近似不能证明 generate 源自“根／干”或共享历史词根。"
+        }
+      ],
+      "search_terms": [
+        "generate",
+        "generation",
+        "gen",
+        "genus",
+        "产生",
+        "生成",
+        "根",
+        "根源",
+        "干",
+        "gan",
+        "root",
+        "générer",
+        "create",
+        "produce"
+      ],
+      "page": null,
+      "historical_relation_status": "Not claimed",
+      "semantic_structure": {
+        "concepts": [
+          "CREATE",
+          "PRODUCE",
+          "BIRTH",
+          "ORIGIN",
+          "ROOT"
+        ],
+        "relation": "CREATE → PRODUCE → BIRTH → ORIGIN → ROOT",
+        "status": "Interpretive"
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-GENERATE-001",
+          "claim": {
+            "en": "gen- and 根 gēn share a rough modern syllabic resemblance and ORIGIN/ROOT semantic overlap; 干 gàn/gān has broader, sense-dependent meanings and weaker overlap.",
+            "zh-Hans": "gen- 与“根”gēn 有有限现代音近，并在 ORIGIN／ROOT 上有语义交集；“干”gàn／gān 义项繁多，重合较弱。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Modern spelling or sound resemblance is not a regular sound correspondence and does not prove cognacy.",
+            "zh-Hans": "现代拼写或声音近似不是规律音变，也不能证明同源。"
+          }
+        }
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-GENERATE-001",
+          "type": "Original author phonetic-semantic / consonantal-skeleton hypothesis",
+          "claim": {
+            "en": "The author's comparison around 干 gan，gun、gin，gen，generate; generate ↔ 干 gan / 根 gen; 辅音不变规则同样适用于词根的意义;  may support a mnemonic or semantic association without establishing common origin.",
+            "zh-Hans": "作者观察“干 gan，gun、gin，gen，generate。generate ↔ 干 gan / 根 gen。辅音不变规则同样适用于词根的意义。”可作为记忆或语义联想，但不建立共同来源。"
+          },
+          "status": "Unestablished",
+          "confidence": "Low",
+          "supporting_cases": [
+            "generate",
+            "generation",
+            "gen",
+            "genus",
+            "产生"
+          ],
+          "counterexamples": [
+            "Modern resemblance does not establish generate ← 根/干 or a shared historical root.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test sound similarity and semantic fit separately with blinded ratings, explicit negative controls and historical-source review.",
+            "zh-Hans": "用盲法评分、明确负对照与独立词源核验分别检验声音相似度和语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-JL-GENERATE-RAW",
+            "REF-MW-GENERATE",
+            "REF-MW-GENERATION"
+          ]
+        }
+      ]
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery",
+      "research_provenance"
+    ]
   }
 }

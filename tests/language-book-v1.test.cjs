@@ -193,8 +193,8 @@ test("Sky shows 盖 as a graded featured candidate while preserving 天空 as st
   assert.equal(sky.primary_mapping.target.word, "天空");
   assert.equal(sky.featured_mapping.target, "盖");
   assert.equal(sky.featured_mapping.reading, "gài");
-  assert.match(sky.featured_mapping.status, /Low confidence/);
-  assert.equal(sky.featured_mapping.historical_relation, "Unestablished");
+  assert.match(sky.featured_mapping.status, /Medium partial sound/);
+  assert.equal(sky.featured_mapping.historical_relation, "Not claimed");
   assert.equal(sky.literary_layer.status, "Published");
   assert.ok(sky.hypotheses.some((item) => item.hypothesis_id === "UNI-SKY-YIJING-002" && item.status === "Speculative/Testable"));
   assert.ok(sky.references.some((item) => item.reference_id === "REF-CTEXT-QIAN"));

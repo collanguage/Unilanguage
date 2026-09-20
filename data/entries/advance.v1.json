@@ -1,0 +1,2369 @@
+{
+  "id": "LB-en-advance-001",
+  "slug": "advance",
+  "title": {
+    "en": "ADVANCE · 前进／推进／进步",
+    "zh-Hans": "ADVANCE · 前进／推进／进步"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "advance",
+      "pronunciation": "/ədˈvæns/"
+    },
+    {
+      "role": "target",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "往",
+      "pronunciation": "wǎng"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-advance-modern-standard",
+    "source": {
+      "language": "English",
+      "word": "advance",
+      "pronunciation": "/ədˈvæns/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "前进／推进／进步",
+      "pronunciation": "qiánjìn / tuījìn / jìnbù"
+    },
+    "gloss": {
+      "en": "To move or bring something forward; to progress or promote development.",
+      "zh-Hans": "向前移动、使某物向前推进，或取得进展、促进发展。"
+    },
+    "meaning": {
+      "en": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。",
+      "zh-Hans": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping",
+    "rationale": {
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Candidate",
+  "mapping_level": "C",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Supported",
+      "confidence": "Medium",
+      "summary": {
+        "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+        "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+      },
+      "items": [
+        {
+          "evidence_id": "ETY-advance-001",
+          "claim": {
+            "en": "Reliable dictionaries trace advance through Middle English and Anglo-French avancer to Vulgar Latin *abantiāre, based on Latin abante. English advancement reflects Anglo-French avancement from avancer + -ment; French avance is deverbal from avancer, and French avancement is avancer + -ment. This source-backed morphology does not contain an independently established historical morpheme vance meaning '前的'.",
+            "zh-Hans": "可靠词典把 advance 经中古英语、盎格鲁法语 avancer 追溯到通俗拉丁语 *abantiāre，其基础为拉丁语 abante。英语 advancement 反映盎格鲁法语 avancement（avancer + -ment）；法语 avance 是由 avancer 逆生的名词，avancement 为 avancer + -ment。该有来源的形态分析不含一个独立且已确立、意为“前的”的历史词素 vance。"
+          },
+          "status": "Supported",
+          "confidence": "High",
+          "chain": [
+            "English advance",
+            "Middle English advauncen / avauncen",
+            "Anglo-French avancer",
+            "Vulgar Latin *abantiāre",
+            "Latin abante (ab + ante: before / in front)"
+          ],
+          "source_refs": [
+            "SRC-MW-ADVANCE",
+            "SRC-MW-ADVANCEMENT",
+            "SRC-CNRTL-AVANCER",
+            "SRC-CNRTL-AVANCE",
+            "SRC-CNRTL-AVANCEMENT"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-MW-ADVANCE",
+        "SRC-MW-ADVANCEMENT",
+        "SRC-CNRTL-AVANCER",
+        "SRC-CNRTL-AVANCE",
+        "SRC-CNRTL-AVANCEMENT"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Unknown",
+      "summary": {
+        "en": "No separate phonetic-semantic observation is recorded.",
+        "zh-Hans": "未记录独立的语音—语义观察。"
+      },
+      "items": [
+        {
+          "evidence_id": "RAT-advance-wang",
+          "claim": {
+            "en": "The proposed mapping compares a shared semantic structure: MOVE → FORWARD / TOWARD A DIRECTION. English advance foregrounds forward motion or progress; Chinese 往 profiles movement toward a destination or direction.",
+            "zh-Hans": "该 mapping 比较共同语义结构：MOVE → FORWARD／TOWARD A DIRECTION。英语 advance 突出向前移动或进展，汉语“往”突出朝目的地或方向移动。"
+          },
+          "status": "Under review",
+          "confidence": "Unknown",
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-CAMBRIDGE-ADVANCE-ZH"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LB-ADVANCE",
+        "SRC-CAMBRIDGE-ADVANCE-ZH"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "Recorded semantic structure: MOVE → FORWARD → TOWARD.",
+        "zh-Hans": "已记录语义结构：MOVE → FORWARD → TOWARD。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Speculative": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+        "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+      },
+      "items": [
+        {
+          "evidence_id": "UNI-VANCE-WANG-001",
+          "claim": {
+            "en": "The author proposes testing whether van/vance and Mandarin wang/往 show a repeatable sound-semantic association around forward movement or direction. No sound change, historical correspondence, or common origin is asserted.",
+            "zh-Hans": "作者提出检验 van／vance 与汉语 wang／往 是否围绕向前移动或方向形成可重复的声音—语义关联；此处不声称已证实音变、历史对应或共同词源。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-MW-ADVANCE",
+            "SRC-CNRTL-AVANCER"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LB-ADVANCE",
+        "SRC-MW-ADVANCE",
+        "SRC-CNRTL-AVANCER"
+      ]
+    }
+  },
+  "phonetic_observation": [],
+  "semantic_structure": {
+    "concepts": [
+      "MOVE",
+      "FORWARD",
+      "TOWARD"
+    ],
+    "relation": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。",
+    "status": "Candidate / scoped comparison; legacy observations in Research"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-VANCE-WANG-001",
+      "type": "sound-semantic",
+      "claim": {
+        "en": "Research archive / superseded observation: The author proposes testing whether van/vance and Mandarin wang/往 show a repeatable sound-semantic association around forward movement or direction. No sound change, historical correspondence, or common origin is asserted.",
+        "zh-Hans": "Research archive / superseded observation: 作者提出检验 van／vance 与汉语 wang／往 是否围绕向前移动或方向形成可重复的声音—语义关联；此处不声称已证实音变、历史对应或共同词源。"
+      },
+      "status": "Untested",
+      "confidence": "low",
+      "supporting_cases": [
+        "SRC-LB-ADVANCE"
+      ],
+      "counterexamples": [],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": "UNI-EXP-ADVANCE-001",
+      "source_refs": [
+        "SRC-LB-ADVANCE",
+        "SRC-MW-ADVANCE",
+        "SRC-CNRTL-AVANCER"
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "experiment_id": "UNI-EXP-ADVANCE-001",
+      "title": {
+        "en": "Future van/vance ↔ wang/往 validation",
+        "zh-Hans": "未来 van／vance ↔ wang／往 验证"
+      },
+      "status": "Untested",
+      "tested_hypotheses": [
+        "UNI-VANCE-WANG-001"
+      ],
+      "design": {
+        "en": "Not tested. A future preregistered design must define the phonetic comparison, semantic categories, sampling frame, controls, annotation and decision rule before data are inspected.",
+        "zh-Hans": "尚未检验。未来必须先预注册语音比较、语义类别、抽样框、控制组、标注方法与判定规则，再查看数据。"
+      },
+      "result": {
+        "en": "Not Tested. No observations, metrics, outcomes or evidential update exist.",
+        "zh-Hans": "Not Tested／尚未检验：没有观察数据、统计量、结果或证据更新。"
+      },
+      "metrics": {},
+      "path": null,
+      "source_refs": [
+        "SRC-LB-ADVANCE"
+      ]
+    }
+  ],
+  "literary_layer": {
+    "status": "Not present",
+    "is_historical_evidence": false,
+    "proposition": null,
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "Literature may explore freely, but it is not historical evidence.",
+      "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "SRC-LB-ADVANCE",
+      "title": "Language Book · Advance",
+      "type": "author-research-record",
+      "url": null,
+      "path": "words/advance.html",
+      "provenance": "project-record"
+    },
+    {
+      "reference_id": "SRC-CAMBRIDGE-ADVANCE-ZH",
+      "title": "Cambridge Dictionary · advance (English–Chinese Simplified)",
+      "type": "authoritative-dictionary",
+      "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/advance",
+      "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-MW-ADVANCE",
+      "title": "Merriam-Webster · advance",
+      "type": "authoritative-dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/advance",
+      "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-MW-ADVANCEMENT",
+      "title": "Merriam-Webster · advancement",
+      "type": "authoritative-dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/advancement",
+      "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-CNRTL-AVANCER",
+      "title": "CNRTL / TLFi · avancer",
+      "type": "authoritative-dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/avancer",
+      "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-CNRTL-AVANCE",
+      "title": "CNRTL / TLFi · avance",
+      "type": "authoritative-dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/avance",
+      "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-CNRTL-AVANCEMENT",
+      "title": "CNRTL / TLFi · avancement",
+      "type": "authoritative-dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/avancement",
+      "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-01",
+      "title": "Approved Freeze source · advance",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.merriam-webster.com/dictionary/advance",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-02",
+      "title": "Approved Freeze source · 1",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.cnrtl.fr/etymologie/avance//1",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-03",
+      "title": "Approved Freeze source · 往",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/往",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-04",
+      "title": "Approved Freeze source · 进",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/进",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-05",
+      "title": "Approved Freeze source · 前",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/前",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-06",
+      "title": "Approved Freeze source · 迈",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/迈",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-07",
+      "title": "Approved Freeze source · 汪",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/汪",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-08",
+      "title": "Approved Freeze source · 湾",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/湾",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-09",
+      "title": "Approved Freeze source · 前进",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.zdic.net/hans/前进",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    },
+    {
+      "reference_id": "TC3-ADVANCE-SRC-10",
+      "title": "Approved Freeze source · 往",
+      "type": "Scoped Discovery / Freeze evidence",
+      "url": "https://www.shidianguji.com/character/往",
+      "path": null,
+      "provenance": "Inherited approved 2026-09-20 research; digital Chinese entries mediated/online. Mainland print edition, page and full quotation Pending."
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "G.3 calibration v0.1 / dataset 0.5.0",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-02",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "The semantic structure MOVE → FORWARD/TOWARD is distinct from both historical etymology and the vance ↔ 往 sound hypothesis.",
+      "zh-Hans": "MOVE → FORWARD/TOWARD 语义结构与历史词源、vance ↔ 往声音假说彼此独立。"
+    },
+    {
+      "en": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。",
+      "zh-Hans": "Current selection is governed by diachronic_semantic_mapping; legacy hypotheses are Research only. Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+    }
+  ],
+  "search_terms": [
+    "advance",
+    "advancement",
+    "avance",
+    "avancer",
+    "avancement",
+    "往",
+    "wǎng",
+    "推进",
+    "前进",
+    "MOVE",
+    "FORWARD",
+    "TOWARD",
+    "前进／推进／进步",
+    "进",
+    "前"
+  ],
+  "page": "words/advance.html",
+  "legacy": {
+    "entry_id": "LB-en-advance-001",
+    "source_word": "advance",
+    "language": "English",
+    "normalized_form": "advance",
+    "pronunciation": "/ədˈvæns/",
+    "phonetic_form": "ədˈvæns",
+    "lexical_meaning": {
+      "en": "To move or bring something forward; to progress or promote development.",
+      "zh-Hans": "向前移动、使某物向前推进，或取得进展、促进发展。"
+    },
+    "aliases": [
+      "advancement",
+      "avance",
+      "avancer",
+      "avancement",
+      "往",
+      "wǎng",
+      "推进",
+      "前进"
+    ],
+    "classification_status": "candidate",
+    "primary_chinese_mapping": {
+      "mapping_id": "MAP-advance-primary-wang",
+      "chinese_form": "往",
+      "pinyin": "wǎng",
+      "role": "primary",
+      "mapping_basis": "author-proposal",
+      "status": "candidate",
+      "identity": "author-idea",
+      "source_verification": {
+        "status": "needs-verification",
+        "source_refs": [
+          "SRC-LB-ADVANCE",
+          "SRC-CAMBRIDGE-ADVANCE-ZH"
+        ],
+        "notes": {
+          "en": "This is the author's selected cross-language research mapping. Cambridge supports ordinary forward-motion translations, but does not establish 往 as a unique primary equivalent or historical relation.",
+          "zh-Hans": "这是作者选择的跨语言研究 mapping。剑桥词典支持通常的向前运动译义，但不确立“往”为唯一主要对应，也不支持历史关系。"
+        }
+      },
+      "ai_review": {
+        "status": "not-reviewed",
+        "reviewer": null,
+        "reviewed_at": null,
+        "rationale": {
+          "en": "This calibration object has not received an object-level AI review.",
+          "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+        }
+      }
+    },
+    "secondary_chinese_mappings": [
+      {
+        "mapping_id": "MAP-advance-secondary-tuijin",
+        "chinese_form": "推进",
+        "pinyin": "tuījìn",
+        "role": "secondary",
+        "mapping_basis": "lexical-equivalent",
+        "status": "published",
+        "identity": "source-backed-lexical-mapping",
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-CAMBRIDGE-ADVANCE-ZH"
+          ],
+          "notes": {
+            "en": "Cambridge uses 推进 in a contextual forward-motion example and lists the broader forward/development senses.",
+            "zh-Hans": "剑桥词典在向前运动的语境例句中使用“推进”，并列出相关的前进／发展义。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This calibration object has not received an object-level AI review.",
+            "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+          }
+        }
+      },
+      {
+        "mapping_id": "MAP-advance-secondary-qianjin",
+        "chinese_form": "前进",
+        "pinyin": "qiánjìn",
+        "role": "secondary",
+        "mapping_basis": "lexical-equivalent",
+        "status": "published",
+        "identity": "source-backed-lexical-mapping",
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-CAMBRIDGE-ADVANCE-ZH"
+          ],
+          "notes": {
+            "en": "Cambridge gives （使）前进 for the forward-motion verb sense.",
+            "zh-Hans": "剑桥词典将向前运动的动词义译为“（使）前进”。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This calibration object has not received an object-level AI review.",
+            "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "mapping_rationales": [
+      {
+        "rationale_id": "RAT-advance-wang",
+        "mapping_ref": "MAP-advance-primary-wang",
+        "identity": "author-idea",
+        "status": "candidate",
+        "statement": {
+          "en": "The proposed mapping compares a shared semantic structure: MOVE → FORWARD / TOWARD A DIRECTION. English advance foregrounds forward motion or progress; Chinese 往 profiles movement toward a destination or direction.",
+          "zh-Hans": "该 mapping 比较共同语义结构：MOVE → FORWARD／TOWARD A DIRECTION。英语 advance 突出向前移动或进展，汉语“往”突出朝目的地或方向移动。"
+        },
+        "source_verification": {
+          "status": "needs-verification",
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-CAMBRIDGE-ADVANCE-ZH"
+          ],
+          "notes": {
+            "en": "The component meanings are documentable, but the decision to make 往 the primary research mapping is the author's analytical proposal.",
+            "zh-Hans": "两个词的相关义项可以记录，但把“往”选作主要研究 mapping 是作者的分析提议。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This calibration object has not received an object-level AI review.",
+            "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "historical_etymologies": [
+      {
+        "etymology_id": "ETY-advance-001",
+        "identity": "historical-claim",
+        "status": "candidate",
+        "chain": [
+          "English advance",
+          "Middle English advauncen / avauncen",
+          "Anglo-French avancer",
+          "Vulgar Latin *abantiāre",
+          "Latin abante (ab + ante: before / in front)"
+        ],
+        "summary": {
+          "en": "Reliable dictionaries trace advance through Middle English and Anglo-French avancer to Vulgar Latin *abantiāre, based on Latin abante. English advancement reflects Anglo-French avancement from avancer + -ment; French avance is deverbal from avancer, and French avancement is avancer + -ment. This source-backed morphology does not contain an independently established historical morpheme vance meaning '前的'.",
+          "zh-Hans": "可靠词典把 advance 经中古英语、盎格鲁法语 avancer 追溯到通俗拉丁语 *abantiāre，其基础为拉丁语 abante。英语 advancement 反映盎格鲁法语 avancement（avancer + -ment）；法语 avance 是由 avancer 逆生的名词，avancement 为 avancer + -ment。该有来源的形态分析不含一个独立且已确立、意为“前的”的历史词素 vance。"
+        },
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-MW-ADVANCE",
+            "SRC-MW-ADVANCEMENT",
+            "SRC-CNRTL-AVANCER",
+            "SRC-CNRTL-AVANCE",
+            "SRC-CNRTL-AVANCEMENT"
+          ],
+          "notes": {
+            "en": "The cited dictionary etymologies agree on the avancer → *abantiare/abante lineage and on the derivational status of avance/avancement. They do not support the author's ad.van.ce or ad.vance.ment segmentation as historical morphology.",
+            "zh-Hans": "所引词典词源一致支持 avancer → *abantiare／abante 的谱系及 avance／avancement 的派生身份；它们不支持把作者的 ad.van.ce 或 ad.vance.ment 切分当作历史形态。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This calibration object has not received an object-level AI review.",
+            "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "sound_symbol_hypothesis_refs": [
+      "UNI-VANCE-WANG-001"
+    ],
+    "other_author_notes": [
+      {
+        "note_id": "NOTE-advance-author-analysis",
+        "identity": "author-note",
+        "status": "classified",
+        "text": {
+          "en": "Author Analysis (preserved verbatim in substance): English advance [ədˈvæns], v., 推进; advancement, n., 推进; proposed segmentations ad.van.ce and ad.vance.ment. French avance / avancement; proposed observation vance, adjective, '前的'. Chinese 往 wǎng. These are author-supplied observations and segmentations, not automatically accepted historical morphology.",
+          "zh-Hans": "Author Analysis／作者分析（实质原样保留）：English advance [ədˈvæns] v. 推进；advancement n. 推进；作者切分 ad.van.ce、ad.vance.ment；French avance／avancement，以及作者提出的 vance a. “前的”观察；Chinese 往 wǎng。这些是作者提供的观察与切分，不自动视为历史形态分析。"
+        },
+        "source_verification": {
+          "status": "disputed",
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-MW-ADVANCE",
+            "SRC-MW-ADVANCEMENT",
+            "SRC-CNRTL-AVANCE",
+            "SRC-CNRTL-AVANCEMENT"
+          ],
+          "notes": {
+            "en": "The author record is authentic as an author analysis. Its proposed segmentation and vance gloss are not supported by the consulted historical dictionaries, which instead analyze the documented forms through avancer and -ment.",
+            "zh-Hans": "该记录作为作者分析本身是真实的；但所提切分与 vance 释义未获已查历史词典支持，词典把相关形式分析为经 avancer 及后缀 -ment 构成。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This calibration object has not received an object-level AI review.",
+            "zh-Hans": "该校准对象尚未接受对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "experimental_validation_refs": [
+      "UNI-EXP-ADVANCE-001"
+    ],
+    "source_provenance": [
+      "SRC-LB-ADVANCE",
+      "SRC-CAMBRIDGE-ADVANCE-ZH",
+      "SRC-MW-ADVANCE",
+      "SRC-MW-ADVANCEMENT",
+      "SRC-CNRTL-AVANCER",
+      "SRC-CNRTL-AVANCE",
+      "SRC-CNRTL-AVANCEMENT"
+    ],
+    "author": "Jinkai Liu｜劉金凱",
+    "version": "G.3 calibration v0.1 / dataset 0.5.0"
+  },
+  "standard_translation": {
+    "source": "advance",
+    "target": "前进／推进／进步",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "TC3-ADVANCE-SRC-01",
+      "TC3-ADVANCE-SRC-02",
+      "TC3-ADVANCE-SRC-01"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-advance-modern-standard",
+    "source": {
+      "language": "English",
+      "word": "advance",
+      "pronunciation": "/ədˈvæns/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "前进／推进／进步",
+      "pronunciation": "qiánjìn / tuījìn / jìnbù"
+    },
+    "gloss": {
+      "en": "To move or bring something forward; to progress or promote development.",
+      "zh-Hans": "向前移动、使某物向前推进，或取得进展、促进发展。"
+    },
+    "meaning": {
+      "en": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。",
+      "zh-Hans": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+    },
+    "mapping_type": "Standard / Modern Semantic Mapping",
+    "rationale": {
+      "en": "Standard semantic mapping; Featured is independently selected.",
+      "zh-Hans": "Standard semantic mapping; Featured is independently selected."
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "V1",
+        "form": "abante; *abantiāre",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin / reconstructed Vulgar Latin",
+          "code": null
+        },
+        "period": {
+          "label": "古代晚期至早期罗曼语；精确年代未核",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-ADVANCE-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "BEFORE / IN FRONT → move forward basis",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "TC3-ADVANCE-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "ab + ante；*abantiāre 为重构派生形式; abante attested; *abantiāre explicitly reconstructed, not an attested quotation."
+      },
+      {
+        "stage_id": "V2",
+        "form": "avancier / avancer",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old/Anglo-French",
+          "code": null
+        },
+        "period": {
+          "label": "12世纪有见证",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-ADVANCE-SRC-02"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "进展及向前移动",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "V1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "TLFi列1155比喻进步，1172–75具体前移：不能声称最早文本必先具体后抽象",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-ADVANCE-SRC-02"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-ADVANCE-SRC-02"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "TLFi列1155比喻进步，1172–75具体前移：不能声称最早文本必先具体后抽象"
+      },
+      {
+        "stage_id": "V3",
+        "form": "avauncen / advauncen → advance",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Middle / Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "中古英语至现代；本轮不强定首见",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "TC3-ADVANCE-SRC-01"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "MOVE FORWARD / PROGRESS / precede in selected contexts",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-V3",
+            "value": "/ədˈvæns/",
+            "notation": "IPA",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "SRC-MW-ADVANCE",
+              "SRC-MW-ADVANCEMENT"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "V2",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "d 是与 Latin ad- 联想有关的改形；van/vance 非独立历史根",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "TC3-ADVANCE-SRC-01"
+            ]
+          }
+        ],
+        "source_refs": [
+          "TC3-ADVANCE-SRC-01"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "d 是与 Latin ad- 联想有关的改形；van/vance 非独立历史根"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-V1",
+        "stage_ref": "V1",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "BEFORE / IN FRONT → move forward basis",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "BEFORE / IN FRONT → move forward basis"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-ADVANCE-03",
+            "family_key": "legacy-advance",
+            "target": {
+              "form": "前",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "空间前方、顺序在先；向前",
+                "pos": null,
+                "constraints": [
+                  "历史单位 abante 的位置义不是所有 modern advance 词性"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ADVANCE-03",
+                  "value": "qián",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ADVANCE-SRC-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ADVANCE-SRC-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "V1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-TC3-ADVANCE-03",
+              "source_span": "abante; *abantiāre",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for BEFORE/IN FRONT",
+              "source_refs": [
+                "TC3-ADVANCE-SRC-01",
+                "TC3-ADVANCE-SRC-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical pronunciation not_evaluated; modern reference Low. Low；Latin abante 未做完整历史音值评分",
+              "features": {
+                "onset": "Low；Latin abante 未做完整历史音值评分",
+                "vowel": "Low；Latin abante 未做完整历史音值评分",
+                "coda_other_consonants": "Low；Latin abante 未做完整历史音值评分",
+                "syllables": "Low；Latin abante 未做完整历史音值评分",
+                "prosody": "Low；Latin abante 未做完整历史音值评分"
+              },
+              "source_refs": [
+                "TC3-ADVANCE-SRC-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-05"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-05"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "历史单位 abante 的位置义不是所有 modern advance 词性",
+              "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-V3",
+        "stage_ref": "V3",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "MOVE FORWARD / PROGRESS / precede in selected contexts",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "MOVE FORWARD / PROGRESS / precede in selected contexts"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "TC3-ADVANCE-01",
+            "family_key": "legacy-advance",
+            "target": {
+              "form": "往",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "去、前往；现代往某方向",
+                "pos": null,
+                "constraints": [
+                  "往后退也成立；历史辞书 wàng 朝向不得与 wǎng 去混用"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ADVANCE-01",
+                  "value": "wǎng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ADVANCE-SRC-03"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ADVANCE-SRC-03"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "V3",
+              "source_pronunciation_ref": "PR-V3",
+              "target_pronunciation_ref": "ZH-TC3-ADVANCE-01",
+              "source_span": "modern advance /væns/ segment; not a historical root",
+              "scope": "syllable",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "v/w 不在已批准四组，independent hypothesis",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "Medium for directed motion; Low–Medium for PROGRESS",
+              "source_refs": [
+                "TC3-ADVANCE-SRC-01",
+                "TC3-ADVANCE-SRC-03"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：现代 /væns/ 对 /wɑŋ/ 有 v/w、n/ŋ、尾 s、元音差；whole word 还多 /əd/",
+              "features": {
+                "onset": "Low：现代 /væns/ 对 /wɑŋ/ 有 v/w、n/ŋ、尾 s、元音差；whole word 还多 /əd/",
+                "vowel": "Low：现代 /væns/ 对 /wɑŋ/ 有 v/w、n/ŋ、尾 s、元音差；whole word 还多 /əd/",
+                "coda_other_consonants": "Low：现代 /væns/ 对 /wɑŋ/ 有 v/w、n/ŋ、尾 s、元音差；whole word 还多 /əd/",
+                "syllables": "Low：现代 /væns/ 对 /wɑŋ/ 有 v/w、n/ŋ、尾 s、元音差；whole word 还多 /əd/",
+                "prosody": "Low：现代 /væns/ 对 /wɑŋ/ 有 v/w、n/ŋ、尾 s、元音差；whole word 还多 /əd/"
+              },
+              "source_refs": [
+                "TC3-ADVANCE-SRC-03"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-03"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-03"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "往后退也成立；历史辞书 wàng 朝向不得与 wǎng 去混用",
+              "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ADVANCE-02",
+            "family_key": "legacy-advance",
+            "target": {
+              "form": "进",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "向前、向上移动或发展",
+                "pos": null,
+                "constraints": [
+                  "进入、进食、进贡义不一并映射；金融预付等义不在本轮"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ADVANCE-02",
+                  "value": "jìn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ADVANCE-SRC-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ADVANCE-SRC-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "V3",
+              "source_pronunciation_ref": "PR-V3",
+              "target_pronunciation_ref": "ZH-TC3-ADVANCE-02",
+              "source_span": "avauncen / advauncen → advance",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High for MOVE FORWARD / PROGRESS",
+              "source_refs": [
+                "TC3-ADVANCE-SRC-01",
+                "TC3-ADVANCE-SRC-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：/tɕin/ 不配 /ədvæns/",
+              "features": {
+                "onset": "Low：/tɕin/ 不配 /ədvæns/",
+                "vowel": "Low：/tɕin/ 不配 /ədvæns/",
+                "coda_other_consonants": "Low：/tɕin/ 不配 /ədvæns/",
+                "syllables": "Low：/tɕin/ 不配 /ədvæns/",
+                "prosody": "Low：/tɕin/ 不配 /ədvæns/"
+              },
+              "source_refs": [
+                "TC3-ADVANCE-SRC-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-04"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-04"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "进入、进食、进贡义不一并映射；金融预付等义不在本轮",
+              "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。 Shortlist",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ADVANCE-04",
+            "family_key": "legacy-advance",
+            "target": {
+              "form": "迈",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "跨步、行走／远行",
+                "pos": null,
+                "constraints": [
+                  "迈步未必进步；古远行义也不必向前领先"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ADVANCE-04",
+                  "value": "mài",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ADVANCE-SRC-06"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ADVANCE-SRC-06"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "V3",
+              "source_pronunciation_ref": "PR-V3",
+              "target_pronunciation_ref": "ZH-TC3-ADVANCE-04",
+              "source_span": "avauncen / advauncen → advance",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none；不能把 /v/ 临时算 b-p-m-f",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "Medium：动作方式更窄",
+              "source_refs": [
+                "TC3-ADVANCE-SRC-01",
+                "TC3-ADVANCE-SRC-06"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：无 v/w/n/s 的有效全形对应",
+              "features": {
+                "onset": "Low：无 v/w/n/s 的有效全形对应",
+                "vowel": "Low：无 v/w/n/s 的有效全形对应",
+                "coda_other_consonants": "Low：无 v/w/n/s 的有效全形对应",
+                "syllables": "Low：无 v/w/n/s 的有效全形对应",
+                "prosody": "Low：无 v/w/n/s 的有效全形对应"
+              },
+              "source_refs": [
+                "TC3-ADVANCE-SRC-06"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-06"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-06"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "迈步未必进步；古远行义也不必向前领先",
+              "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。 Retain limited",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ADVANCE-05",
+            "family_key": "legacy-advance",
+            "target": {
+              "form": "汪",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "水深广、液体聚集",
+                "pos": null,
+                "constraints": [
+                  "不能因水流会运动而转成前进义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ADVANCE-05",
+                  "value": "wāng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ADVANCE-SRC-07"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ADVANCE-SRC-07"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "V3",
+              "source_pronunciation_ref": "PR-V3",
+              "target_pronunciation_ref": "ZH-TC3-ADVANCE-05",
+              "source_span": "avauncen / advauncen → advance",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "v/w independent observation only",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None",
+              "source_refs": [
+                "TC3-ADVANCE-SRC-01",
+                "TC3-ADVANCE-SRC-07"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low：与往同节段；故对 /væns/ 的相似程度并不更差",
+              "features": {
+                "onset": "Low：与往同节段；故对 /væns/ 的相似程度并不更差",
+                "vowel": "Low：与往同节段；故对 /væns/ 的相似程度并不更差",
+                "coda_other_consonants": "Low：与往同节段；故对 /væns/ 的相似程度并不更差",
+                "syllables": "Low：与往同节段；故对 /væns/ 的相似程度并不更差",
+                "prosody": "Low：与往同节段；故对 /væns/ 的相似程度并不更差"
+              },
+              "source_refs": [
+                "TC3-ADVANCE-SRC-07"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-07"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-07"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "不能因水流会运动而转成前进义",
+              "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ADVANCE-06",
+            "family_key": "legacy-advance",
+            "target": {
+              "form": "湾",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "水弯处、海湾",
+                "pos": null,
+                "constraints": [
+                  "声音某维更近却无进步义；不能把停泊说成前进"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ADVANCE-06",
+                  "value": "wān",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ADVANCE-SRC-08"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ADVANCE-SRC-08"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "V3",
+              "source_pronunciation_ref": "PR-V3",
+              "target_pronunciation_ref": "ZH-TC3-ADVANCE-06",
+              "source_span": "avauncen / advauncen → advance",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "v/w independent observation only",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Medium",
+              "rationale": "None",
+              "source_refs": [
+                "TC3-ADVANCE-SRC-01",
+                "TC3-ADVANCE-SRC-08"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low whole word；鼻尾 /n/ 比往的 /ŋ/ 更接近 /væn/，仍缺 s 且 v≠w",
+              "features": {
+                "onset": "Low whole word；鼻尾 /n/ 比往的 /ŋ/ 更接近 /væn/，仍缺 s 且 v≠w",
+                "vowel": "Low whole word；鼻尾 /n/ 比往的 /ŋ/ 更接近 /væn/，仍缺 s 且 v≠w",
+                "coda_other_consonants": "Low whole word；鼻尾 /n/ 比往的 /ŋ/ 更接近 /væn/，仍缺 s 且 v≠w",
+                "syllables": "Low whole word；鼻尾 /n/ 比往的 /ŋ/ 更接近 /væn/，仍缺 s 且 v≠w",
+                "prosody": "Low whole word；鼻尾 /n/ 比往的 /ŋ/ 更接近 /væn/，仍缺 s 且 v≠w"
+              },
+              "source_refs": [
+                "TC3-ADVANCE-SRC-08"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-08"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-08"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "声音某维更近却无进步义；不能把停泊说成前进",
+              "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。 Negative control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          },
+          {
+            "candidate_id": "TC3-ADVANCE-07",
+            "family_key": "legacy-advance",
+            "target": {
+              "form": "前进",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "现代；本轮不据此断定最早书证",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "向前行进／发展",
+                "pos": null,
+                "constraints": [
+                  "与进、前共享语素，只作构式验证，不重复计成功"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-TC3-ADVANCE-07",
+                  "value": "qiánjìn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "TC3-ADVANCE-SRC-09"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "TC3-ADVANCE-SRC-09"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "V3",
+              "source_pronunciation_ref": "PR-V3",
+              "target_pronunciation_ref": "ZH-TC3-ADVANCE-07",
+              "source_span": "avauncen / advauncen → advance",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "none",
+                "version": "Protocol v0.2: candidate generation only, not evidence score"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Medium",
+              "rationale": "High",
+              "source_refs": [
+                "TC3-ADVANCE-SRC-01",
+                "TC3-ADVANCE-SRC-09"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Low",
+              "features": {
+                "onset": "Low",
+                "vowel": "Low",
+                "coda_other_consonants": "Low",
+                "syllables": "Low",
+                "prosody": "Low"
+              },
+              "source_refs": [
+                "TC3-ADVANCE-SRC-09"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-09"
+                ],
+                "locator": null,
+                "note": "Approved online / mediated concrete sense; no upgrade during migration."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "TC3-ADVANCE-SRC-09"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Pending: 未核具体纸本版次、原条和页码"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "与进、前共享语素，只作构式验证，不重复计成功",
+              "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。 Semantic control",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Approved Tier C Batch 3 Freeze. Migration only; no new Discovery or evidence upgrade."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-V3",
+          "candidate_ref": "TC3-ADVANCE-02"
+        },
+        {
+          "stage_mapping_ref": "SM-V1",
+          "candidate_ref": "TC3-ADVANCE-03"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+    },
+    "historical_path": "abante; *abantiāre [V1]; avancier / avancer [V2]; avauncen / advauncen → advance [V3]",
+    "semantic_path": "Related meaning groups, not a strict dated sequence: BEFORE / IN FRONT → move forward basis; 进展及向前移动; MOVE FORWARD / PROGRESS / precede in selected contexts",
+    "boundary": {
+      "en": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。",
+      "zh-Hans": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "research_candidate_discovery": {
+    "run_id": "tier-c-discovery-batch-3-2026-09-20",
+    "candidates": [
+      {
+        "id": "ADVANCE-01",
+        "entry": "ADVANCE",
+        "chinese_form": "往",
+        "reading": "wǎng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "V2/V3",
+        "comparison_unit": "modern advance, especially stressed fragment /væns/ (not a root)",
+        "documented_meaning": "去、前往；现代往某方向",
+        "semantic_fit": "Medium for directed motion; Low–Medium for PROGRESS",
+        "phonetic_fit": "Low：现代 /væns/ 对 /wɑŋ/ 有 v/w、n/ŋ、尾 s、元音差；whole word 还多 /əd/",
+        "structural_cognitive_fit": "Medium motion schema, not necessarily FORWARD",
+        "consonant_group_relation": "v/w 不在已批准四组，independent hypothesis",
+        "counterevidence": "往后退也成立；历史辞书 wàng 朝向不得与 wǎng 去混用",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "legacy calibration",
+        "evidence_type": "M",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/往",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "V2",
+            "form": "avancier / avancer",
+            "language": "Old/Anglo-French",
+            "period": "12世纪有见证",
+            "meaning": "进展及向前移动",
+            "relation": "TLFi列1155比喻进步，1172–75具体前移：不能声称最早文本必先具体后抽象",
+            "mapping": "进；往限运动",
+            "source": "https://www.cnrtl.fr/etymologie/avance//1"
+          },
+          {
+            "id": "V3",
+            "form": "avauncen / advauncen → advance",
+            "language": "Middle / Modern English",
+            "period": "中古英语至现代；本轮不强定首见",
+            "meaning": "MOVE FORWARD / PROGRESS / precede in selected contexts",
+            "relation": "d 是与 Latin ad- 联想有关的改形；van/vance 非独立历史根",
+            "mapping": "进、往；前按单位",
+            "source": "https://www.merriam-webster.com/dictionary/advance"
+          }
+        ],
+        "additional_chinese_source": "https://www.shidianguji.com/character/往"
+      },
+      {
+        "id": "ADVANCE-02",
+        "entry": "ADVANCE",
+        "chinese_form": "进",
+        "reading": "jìn",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "V2/V3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "向前、向上移动或发展",
+        "semantic_fit": "High for MOVE FORWARD / PROGRESS",
+        "phonetic_fit": "Low：/tɕin/ 不配 /ədvæns/",
+        "structural_cognitive_fit": "High as motion/development polysemy; 非已证独立历时顺序",
+        "consonant_group_relation": "none",
+        "counterevidence": "进入、进食、进贡义不一并映射；金融预付等义不在本轮",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/进",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "V2",
+            "form": "avancier / avancer",
+            "language": "Old/Anglo-French",
+            "period": "12世纪有见证",
+            "meaning": "进展及向前移动",
+            "relation": "TLFi列1155比喻进步，1172–75具体前移：不能声称最早文本必先具体后抽象",
+            "mapping": "进；往限运动",
+            "source": "https://www.cnrtl.fr/etymologie/avance//1"
+          },
+          {
+            "id": "V3",
+            "form": "avauncen / advauncen → advance",
+            "language": "Middle / Modern English",
+            "period": "中古英语至现代；本轮不强定首见",
+            "meaning": "MOVE FORWARD / PROGRESS / precede in selected contexts",
+            "relation": "d 是与 Latin ad- 联想有关的改形；van/vance 非独立历史根",
+            "mapping": "进、往；前按单位",
+            "source": "https://www.merriam-webster.com/dictionary/advance"
+          }
+        ]
+      },
+      {
+        "id": "ADVANCE-03",
+        "entry": "ADVANCE",
+        "chinese_form": "前",
+        "reading": "qián",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "V1/V2",
+        "comparison_unit": "Latin abante / French forward sense",
+        "documented_meaning": "空间前方、顺序在先；向前",
+        "semantic_fit": "High for BEFORE/IN FRONT",
+        "phonetic_fit": "Low；Latin abante 未做完整历史音值评分",
+        "structural_cognitive_fit": "Medium spatial/order parallel",
+        "consonant_group_relation": "none",
+        "counterevidence": "历史单位 abante 的位置义不是所有 modern advance 词性",
+        "decision": "Shortlist",
+        "discovery_priority": "High",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/前",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "V1",
+            "form": "abante; *abantiāre",
+            "language": "Latin / reconstructed Vulgar Latin",
+            "period": "古代晚期至早期罗曼语；精确年代未核",
+            "meaning": "BEFORE / IN FRONT → move forward basis",
+            "relation": "ab + ante；*abantiāre 为重构派生形式",
+            "mapping": "前",
+            "source": "https://www.merriam-webster.com/dictionary/advance"
+          },
+          {
+            "id": "V2",
+            "form": "avancier / avancer",
+            "language": "Old/Anglo-French",
+            "period": "12世纪有见证",
+            "meaning": "进展及向前移动",
+            "relation": "TLFi列1155比喻进步，1172–75具体前移：不能声称最早文本必先具体后抽象",
+            "mapping": "进；往限运动",
+            "source": "https://www.cnrtl.fr/etymologie/avance//1"
+          }
+        ]
+      },
+      {
+        "id": "ADVANCE-04",
+        "entry": "ADVANCE",
+        "chinese_form": "迈",
+        "reading": "mài",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "V2/V3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "跨步、行走／远行",
+        "semantic_fit": "Medium：动作方式更窄",
+        "phonetic_fit": "Low：无 v/w/n/s 的有效全形对应",
+        "structural_cognitive_fit": "Medium locomotion; 抽象进步需构式",
+        "consonant_group_relation": "none；不能把 /v/ 临时算 b-p-m-f",
+        "counterevidence": "迈步未必进步；古远行义也不必向前领先",
+        "decision": "Retain limited",
+        "discovery_priority": "Medium",
+        "origin": "semantic retrieval",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/迈",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "V2",
+            "form": "avancier / avancer",
+            "language": "Old/Anglo-French",
+            "period": "12世纪有见证",
+            "meaning": "进展及向前移动",
+            "relation": "TLFi列1155比喻进步，1172–75具体前移：不能声称最早文本必先具体后抽象",
+            "mapping": "进；往限运动",
+            "source": "https://www.cnrtl.fr/etymologie/avance//1"
+          },
+          {
+            "id": "V3",
+            "form": "avauncen / advauncen → advance",
+            "language": "Middle / Modern English",
+            "period": "中古英语至现代；本轮不强定首见",
+            "meaning": "MOVE FORWARD / PROGRESS / precede in selected contexts",
+            "relation": "d 是与 Latin ad- 联想有关的改形；van/vance 非独立历史根",
+            "mapping": "进、往；前按单位",
+            "source": "https://www.merriam-webster.com/dictionary/advance"
+          }
+        ]
+      },
+      {
+        "id": "ADVANCE-05",
+        "entry": "ADVANCE",
+        "chinese_form": "汪",
+        "reading": "wāng",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "V3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "水深广、液体聚集",
+        "semantic_fit": "None",
+        "phonetic_fit": "Low：与往同节段；故对 /væns/ 的相似程度并不更差",
+        "structural_cognitive_fit": "None",
+        "consonant_group_relation": "v/w independent observation only",
+        "counterevidence": "不能因水流会运动而转成前进义",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/汪",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "V3",
+            "form": "avauncen / advauncen → advance",
+            "language": "Middle / Modern English",
+            "period": "中古英语至现代；本轮不强定首见",
+            "meaning": "MOVE FORWARD / PROGRESS / precede in selected contexts",
+            "relation": "d 是与 Latin ad- 联想有关的改形；van/vance 非独立历史根",
+            "mapping": "进、往；前按单位",
+            "source": "https://www.merriam-webster.com/dictionary/advance"
+          }
+        ]
+      },
+      {
+        "id": "ADVANCE-06",
+        "entry": "ADVANCE",
+        "chinese_form": "湾",
+        "reading": "wān",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "V3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "水弯处、海湾",
+        "semantic_fit": "None",
+        "phonetic_fit": "Low whole word；鼻尾 /n/ 比往的 /ŋ/ 更接近 /væn/，仍缺 s 且 v≠w",
+        "structural_cognitive_fit": "None",
+        "consonant_group_relation": "v/w independent observation only",
+        "counterevidence": "声音某维更近却无进步义；不能把停泊说成前进",
+        "decision": "Negative control",
+        "discovery_priority": "Low",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/湾",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "V3",
+            "form": "avauncen / advauncen → advance",
+            "language": "Middle / Modern English",
+            "period": "中古英语至现代；本轮不强定首见",
+            "meaning": "MOVE FORWARD / PROGRESS / precede in selected contexts",
+            "relation": "d 是与 Latin ad- 联想有关的改形；van/vance 非独立历史根",
+            "mapping": "进、往；前按单位",
+            "source": "https://www.merriam-webster.com/dictionary/advance"
+          }
+        ]
+      },
+      {
+        "id": "ADVANCE-07",
+        "entry": "ADVANCE",
+        "chinese_form": "前进",
+        "reading": "qiánjìn",
+        "chinese_layer": "Modern Mandarin",
+        "chinese_period": "现代；本轮不据此断定最早书证",
+        "target_stage": "V2/V3",
+        "comparison_unit": "whole word",
+        "documented_meaning": "向前行进／发展",
+        "semantic_fit": "High",
+        "phonetic_fit": "Low",
+        "structural_cognitive_fit": "High for literal/figurative range",
+        "consonant_group_relation": "none",
+        "counterevidence": "与进、前共享语素，只作构式验证，不重复计成功",
+        "decision": "Semantic control",
+        "discovery_priority": "Medium",
+        "origin": "control",
+        "evidence_type": "O",
+        "evidence_confidence": "Moderate for listed sense; Low/Pending for exact diachronic dating",
+        "historical_relation": "Not claimed",
+        "chinese_source": "https://www.zdic.net/hans/前进",
+        "mainland_paper_entry_status": "Pending: 未核具体纸本版次、原条和页码",
+        "source_stage_metadata": [
+          {
+            "id": "V2",
+            "form": "avancier / avancer",
+            "language": "Old/Anglo-French",
+            "period": "12世纪有见证",
+            "meaning": "进展及向前移动",
+            "relation": "TLFi列1155比喻进步，1172–75具体前移：不能声称最早文本必先具体后抽象",
+            "mapping": "进；往限运动",
+            "source": "https://www.cnrtl.fr/etymologie/avance//1"
+          },
+          {
+            "id": "V3",
+            "form": "avauncen / advauncen → advance",
+            "language": "Middle / Modern English",
+            "period": "中古英语至现代；本轮不强定首见",
+            "meaning": "MOVE FORWARD / PROGRESS / precede in selected contexts",
+            "relation": "d 是与 Latin ad- 联想有关的改形；van/vance 非独立历史根",
+            "mapping": "进、往；前按单位",
+            "source": "https://www.merriam-webster.com/dictionary/advance"
+          }
+        ]
+      }
+    ],
+    "freeze": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。",
+    "note": "Exact original 39-record pool; active selections follow approved Freeze, not original Discovery winners.",
+    "deep_source_metadata": [],
+    "independent_comparisons": []
+  },
+  "research_provenance": {
+    "status": "Calibration archive, not active evidence",
+    "reason": "Featured Mapping: Pending。进／前是直接语义比较；往 wǎng从旧Featured/校准案例降为Research Candidate，限去／前往；声音Low。van/vance不是独立历史根，不因旧选择保留Featured。",
+    "old_observations": {
+      "phonetic_observation": [],
+      "semantic_structure": {
+        "concepts": [
+          "MOVE",
+          "FORWARD",
+          "TOWARD"
+        ],
+        "relation": "MOVE → FORWARD → TOWARD",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-VANCE-WANG-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "The author proposes testing whether van/vance and Mandarin wang/往 show a repeatable sound-semantic association around forward movement or direction. No sound change, historical correspondence, or common origin is asserted.",
+            "zh-Hans": "作者提出检验 van／vance 与汉语 wang／往 是否围绕向前移动或方向形成可重复的声音—语义关联；此处不声称已证实音变、历史对应或共同词源。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-LB-ADVANCE"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": "UNI-EXP-ADVANCE-001",
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-MW-ADVANCE",
+            "SRC-CNRTL-AVANCER"
+          ]
+        }
+      ]
+    }
+  },
+  "legacy_migration": {
+    "version": "tier-c-batch3-0.1",
+    "baseline_commit": "16e144fd83c1fe048b3abd84196a0529fe04df3b",
+    "scope": "Exact original record archive. Calibrated hypotheses remain Research, not active Featured or etymological evidence.",
+    "previous_fields": {
+      "title": {
+        "en": "Advance · 往",
+        "zh-Hans": "Advance · 往"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-advance-primary-wang",
+        "source": {
+          "language": "English",
+          "word": "advance",
+          "pronunciation": "/ədˈvæns/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "往",
+          "pronunciation": "wǎng"
+        },
+        "gloss": {
+          "en": "To move or bring something forward; to progress or promote development.",
+          "zh-Hans": "向前移动、使某物向前推进，或取得进展、促进发展。"
+        },
+        "meaning": {
+          "en": "To move or bring something forward; to progress or promote development.",
+          "zh-Hans": "向前移动、使某物向前推进，或取得进展、促进发展。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The proposed mapping compares a shared semantic structure: MOVE → FORWARD / TOWARD A DIRECTION. English advance foregrounds forward motion or progress; Chinese 往 profiles movement toward a destination or direction.",
+          "zh-Hans": "该 mapping 比较共同语义结构：MOVE → FORWARD／TOWARD A DIRECTION。英语 advance 突出向前移动或进展，汉语“往”突出朝目的地或方向移动。"
+        }
+      },
+      "references": [
+        {
+          "reference_id": "SRC-LB-ADVANCE",
+          "title": "Language Book · Advance",
+          "type": "author-research-record",
+          "url": null,
+          "path": "words/advance.html",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-CAMBRIDGE-ADVANCE-ZH",
+          "title": "Cambridge Dictionary · advance (English–Chinese Simplified)",
+          "type": "authoritative-dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/advance",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-MW-ADVANCE",
+          "title": "Merriam-Webster · advance",
+          "type": "authoritative-dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/advance",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-MW-ADVANCEMENT",
+          "title": "Merriam-Webster · advancement",
+          "type": "authoritative-dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/advancement",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-AVANCER",
+          "title": "CNRTL / TLFi · avancer",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/avancer",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-AVANCE",
+          "title": "CNRTL / TLFi · avance",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/avance",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-AVANCEMENT",
+          "title": "CNRTL / TLFi · avancement",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/avancement",
+          "path": "docs/product/package-g3-advance-calibration-v0.1.md",
+          "provenance": "authoritative-dictionary"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "The semantic structure MOVE → FORWARD/TOWARD is distinct from both historical etymology and the vance ↔ 往 sound hypothesis.",
+          "zh-Hans": "MOVE → FORWARD/TOWARD 语义结构与历史词源、vance ↔ 往声音假说彼此独立。"
+        }
+      ],
+      "search_terms": [
+        "advance",
+        "advancement",
+        "avance",
+        "avancer",
+        "avancement",
+        "往",
+        "wǎng",
+        "推进",
+        "前进",
+        "MOVE",
+        "FORWARD",
+        "TOWARD"
+      ],
+      "historical_relation_status": "Unestablished",
+      "semantic_structure": {
+        "concepts": [
+          "MOVE",
+          "FORWARD",
+          "TOWARD"
+        ],
+        "relation": "MOVE → FORWARD → TOWARD",
+        "status": "Interpretive"
+      },
+      "phonetic_observation": [],
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-VANCE-WANG-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "The author proposes testing whether van/vance and Mandarin wang/往 show a repeatable sound-semantic association around forward movement or direction. No sound change, historical correspondence, or common origin is asserted.",
+            "zh-Hans": "作者提出检验 van／vance 与汉语 wang／往 是否围绕向前移动或方向形成可重复的声音—语义关联；此处不声称已证实音变、历史对应或共同词源。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-LB-ADVANCE"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": "UNI-EXP-ADVANCE-001",
+          "source_refs": [
+            "SRC-LB-ADVANCE",
+            "SRC-MW-ADVANCE",
+            "SRC-CNRTL-AVANCER"
+          ]
+        }
+      ]
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "research_candidate_discovery",
+      "research_provenance"
+    ]
+  }
+}
