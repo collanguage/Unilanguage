@@ -1,0 +1,307 @@
+{
+  "run_id": "tier-c-final-a-discovery-2026-09-20",
+  "entry_id": "LB-en-a-article-029",
+  "slug": "a-indefinite-article",
+  "baseline": "3b9901d47f0cd9d13252e96329b96dded0be972d",
+  "protocol": "Candidate Discovery Protocol v0.2",
+  "mode": "Discovery only",
+  "stage_map": [
+    {
+      "stage_id": "A1",
+      "form": "ān",
+      "language": "Old English",
+      "period": "约450–1100年语言层；非该词首次见证年",
+      "meaning": "ONE：数词一",
+      "operation": "语法化的来源基础",
+      "previous_relation": null,
+      "pronunciation": "Historical IPA not independently verified; keep source spelling ān",
+      "source_refs": [
+        "E1",
+        "E2"
+      ],
+      "mapping": "一 yī / 粤语一 jat1，限数词语义；不拼接现代a声音"
+    },
+    {
+      "stage_id": "A2",
+      "form": "an / a",
+      "language": "Middle English",
+      "period": "约1100–1500；AHD描述early Middle English；精确起点Pending",
+      "meaning": "不定限定功能；与数词用法分化",
+      "operation": "弱读、元音弱化及辅音前n脱落；不是只按字母分配",
+      "previous_relation": "from A1; grammaticalization and conditioned reduction",
+      "pronunciation": "Full historical IPA Pending; no modern IPA back-projection",
+      "source_refs": [
+        "E2"
+      ],
+      "mapping": "一＋量词＋名词：功能结构比较；不要求同年代；可不另增单字"
+    },
+    {
+      "stage_id": "A3",
+      "form": "a / an",
+      "language": "Modern English",
+      "period": "约1500年至今；本轮比较当代标准用法",
+      "meaning": "引入不定个体、类别成员等；不局限于听者/说者均未知",
+      "operation": "共时异形a/an及强弱式，不是两个依次替代的阶段",
+      "previous_relation": "continuation from A2",
+      "pronunciation": "a /ə/, strong /eɪ/; an /ən/, strong /æn/",
+      "source_refs": [
+        "E1",
+        "E3"
+      ],
+      "mapping": "一＋量词／个＋名词仅取适用构式；某为局部语义control"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C01",
+      "chinese_form": "一",
+      "reading": "yī",
+      "chinese_layer": "Modern Mandarin; inherited numeral sense",
+      "chinese_period": "现代读音；古义引文不等于古音",
+      "target_stage": "A1",
+      "documented_meaning": "数词ONE；排除统一、全部等其他义",
+      "semantic_fit": "High at ONE; partial at modern article",
+      "phonetic_fit": "Low modern; historical not_evaluated",
+      "phonetic_rationale": "[i]与/ə,eɪ/不等同；不能将现代yī用作上古音",
+      "evidence_status": "Online sense supported; print/early dating Pending",
+      "source_refs": [
+        "C1"
+      ],
+      "consonant_group_relation": "No applicable onset group",
+      "counterevidence": "无定/类别功能不能只由数词ONE推出",
+      "decision": "Shortlist #2",
+      "discovery_priority": "High",
+      "historical_relation": "Not claimed",
+      "mainland_print_status": "Pending: 未取得《现代汉语词典》《新华字典》《汉语大词典》《汉语大字典》《辞源》具体纸本条目/页码"
+    },
+    {
+      "id": "C02",
+      "chinese_form": "一＋量词＋名词（一个N等）",
+      "reading": "yī＋CL词典式；“一个”语流可读yí ge",
+      "chinese_layer": "Modern Mandarin construction",
+      "chinese_period": "当代；完整语法化年代链Pending",
+      "target_stage": "A2/A3",
+      "documented_meaning": "适用构式中引入一个个体；数词/限定功能须逐例区分",
+      "semantic_fit": "High in selected indefinite NPs; not universal",
+      "phonetic_fit": "Low",
+      "phonetic_rationale": "多成分构式不能被缩成/a/；音节数和辅音均不匹配",
+      "evidence_status": "Online senses + Mainland paper abstract + supplementary research abstract",
+      "source_refs": [
+        "C1",
+        "C2",
+        "P1",
+        "P2"
+      ],
+      "consonant_group_relation": "Not applicable",
+      "counterevidence": "并非所有“一量名”都无定；不主张已形成独立冠词词类或与英语相同年代史",
+      "decision": "Shortlist #1; structural-semantic",
+      "discovery_priority": "High",
+      "historical_relation": "Not claimed",
+      "mainland_print_status": "Pending: 未取得《现代汉语词典》《新华字典》《汉语大词典》《汉语大字典》《辞源》具体纸本条目/页码"
+    },
+    {
+      "id": "C03",
+      "chinese_form": "一（粤语）",
+      "reading": "jat1（粤拼；不标成gaa/gaap）",
+      "chinese_layer": "Dialect: contemporary Guangzhou/Hong Kong Cantonese reference",
+      "chinese_period": "现代粤语参照；地域细分原始方言条目Pending",
+      "target_stage": "A1; A3 only in a documented construction",
+      "documented_meaning": "数词一；量词构式功能不能凭读音继承",
+      "semantic_fit": "High for ONE; article role Pending",
+      "phonetic_fit": "Low",
+      "phonetic_rationale": "jat1有/j/和塞音尾/t/，a无此两项，an尾/n/也不同；声调不等于重音",
+      "evidence_status": "Online Cantonese reading; Mainland dialect print entry/construction Pending",
+      "source_refs": [
+        "C1"
+      ],
+      "consonant_group_relation": "No applicable onset group",
+      "counterevidence": "旧注未指定地点/录音；不能排除其他方言变体，也不能把旧记音认作标准粤语",
+      "decision": "Retain limited; no Featured",
+      "discovery_priority": "Medium",
+      "historical_relation": "Not claimed",
+      "mainland_print_status": "Pending: 未取得《现代汉语词典》《新华字典》《汉语大词典》《汉语大字典》《辞源》具体纸本条目/页码"
+    },
+    {
+      "id": "C04",
+      "chinese_form": "个（個）",
+      "reading": "gè；具体口语轻声ge须按构式",
+      "chinese_layer": "Modern Mandarin classifier",
+      "chinese_period": "现代；页面古例仅mediated，不证明冠词起点",
+      "target_stage": "A3",
+      "documented_meaning": "量词；限“来了个人”等个体化构式",
+      "semantic_fit": "Partial; construction-dependent",
+      "phonetic_fit": "Low",
+      "phonetic_rationale": "/k/为额外声母；局部弱读元音近似不能抵消句法差异",
+      "evidence_status": "Concrete online classifier sense; exact grammatical status Pending",
+      "source_refs": [
+        "C2",
+        "P2"
+      ],
+      "consonant_group_relation": "No g-k-h hit: source a has no /k/",
+      "counterevidence": "不能把一＋个整体功能全部归给个；排除gě自个儿义和古代这/那义",
+      "decision": "Retain limited Research",
+      "discovery_priority": "Medium",
+      "historical_relation": "Not claimed",
+      "mainland_print_status": "Pending: 未取得《现代汉语词典》《新华字典》《汉语大词典》《汉语大字典》《辞源》具体纸本条目/页码"
+    },
+    {
+      "id": "C05",
+      "chinese_form": "甲（旧候选）",
+      "reading": "jiǎ；广东话gaap3，旧记录gaa3未获支持",
+      "chinese_layer": "Modern Mandarin / Cantonese; legacy claim audited",
+      "chinese_period": "现代参照；旧注采集年代/地域未明",
+      "target_stage": "A1/A3 claimed by legacy",
+      "documented_meaning": "甲壳、天干首位等；本轮未发现ONE/indefinite article义",
+      "semantic_fit": "Mismatch",
+      "phonetic_fit": "Low",
+      "phonetic_rationale": "粤语有/k/及/p/尾；普通话有/tɕ/介音；都不等于a/an",
+      "evidence_status": "Online contrary reading/sense evidence; original author hearing unresolved",
+      "source_refs": [
+        "C3"
+      ],
+      "consonant_group_relation": "No applicable source onset group",
+      "counterevidence": "首位/第一不等于数词一，更不等于不定冠词；不得替作者猜成个或其他字",
+      "decision": "Reject current Mapping; retain provenance",
+      "discovery_priority": "None",
+      "historical_relation": "Not claimed",
+      "mainland_print_status": "Pending: 未取得《现代汉语词典》《新华字典》《汉语大词典》《汉语大字典》《辞源》具体纸本条目/页码"
+    },
+    {
+      "id": "K01",
+      "chinese_form": "啊",
+      "reading": "a（轻声语气助词）",
+      "chinese_layer": "Modern Mandarin control",
+      "chinese_period": "现代",
+      "target_stage": "A3 a",
+      "documented_meaning": "句末语气，不是限定词",
+      "semantic_fit": "Mismatch",
+      "phonetic_fit": "Limited surface resemblance only",
+      "phonetic_rationale": "元音单音节有表层兴趣，但/a/不等于弱式/ə/或强式/eɪ/；句法位置不同",
+      "evidence_status": "Online concrete particle sense",
+      "source_refs": [
+        "C5"
+      ],
+      "consonant_group_relation": "Not applicable",
+      "counterevidence": "同为弱读/虚词不证明同类语法功能",
+      "decision": "Sound control; rejected Featured",
+      "discovery_priority": "None",
+      "historical_relation": "Not claimed",
+      "mainland_print_status": "Pending: 未取得《现代汉语词典》《新华字典》《汉语大词典》《汉语大字典》《辞源》具体纸本条目/页码"
+    },
+    {
+      "id": "K02",
+      "chinese_form": "安",
+      "reading": "ān",
+      "chinese_layer": "Modern Mandarin control",
+      "chinese_period": "现代读音、安定义",
+      "target_stage": "A3 an",
+      "documented_meaning": "安定/安全；不取疑问义",
+      "semantic_fit": "Mismatch",
+      "phonetic_fit": "Medium partial against strong an; no semantic support",
+      "phonetic_rationale": "都有鼻音尾/n/；元音/æ/与汉语an有差异且有声调；拼写an相同不等于同音",
+      "evidence_status": "Online concrete sense",
+      "source_refs": [
+        "C6"
+      ],
+      "consonant_group_relation": "Coda /n/ is not an onset group hit",
+      "counterevidence": "不得将尾n套入d-t-n-l；不比较未核Old English IPA",
+      "decision": "Sound control; rejected Featured",
+      "discovery_priority": "None",
+      "historical_relation": "Not claimed",
+      "mainland_print_status": "Pending: 未取得《现代汉语词典》《新华字典》《汉语大词典》《汉语大字典》《辞源》具体纸本条目/页码"
+    },
+    {
+      "id": "K03",
+      "chinese_form": "某",
+      "reading": "mǒu",
+      "chinese_layer": "Modern Mandarin; selected pronominal sense",
+      "chinese_period": "现代；引用古例年代仅属原文metadata",
+      "target_stage": "A3 selected unspecified referent",
+      "documented_meaning": "不明说/不明确指明的人或物",
+      "semantic_fit": "High in selected unspecified contexts; partial overall",
+      "phonetic_fit": "Low",
+      "phonetic_rationale": "/m/与复合韵母不匹配a/an；入b-p-m-f无来源声母支撑",
+      "evidence_status": "Online basic/detailed sense",
+      "source_refs": [
+        "C4"
+      ],
+      "consonant_group_relation": "Not applicable",
+      "counterevidence": "某常意味着特定但不明说；a可有非特指、类指和职业类别义",
+      "decision": "Semantic control; not shortlisted",
+      "discovery_priority": "None",
+      "historical_relation": "Not claimed",
+      "mainland_print_status": "Pending: 未取得《现代汉语词典》《新华字典》《汉语大词典》《汉语大字典》《辞源》具体纸本条目/页码"
+    }
+  ],
+  "counts": {
+    "retained_serious_candidates": 4,
+    "legacy_rejected_candidate": 1,
+    "controls": 3,
+    "total_records": 8
+  },
+  "sources": {
+    "E1": {
+      "title": "Merriam-Webster a, indefinite article section",
+      "url": "https://www.merriam-webster.com/dictionary/a",
+      "access_status": "Direct dictionary entry; homonyms excluded"
+    },
+    "E2": {
+      "title": "American Heritage an¹, Word History",
+      "url": "https://www.ahdictionary.com/word/search.html?q=an",
+      "access_status": "Direct dictionary account; precise first attestation not established"
+    },
+    "E3": {
+      "title": "Oxford a/an pronunciation and usage",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/a_1",
+      "access_status": "Direct modern IPA and usage"
+    },
+    "C1": {
+      "title": "汉典 一：基本/详细解释及音韵方言",
+      "url": "https://www.zdic.net/hans/一",
+      "access_status": "Online entry; not a verified Mainland print edition"
+    },
+    "C2": {
+      "title": "汉典 个：gè量词义",
+      "url": "https://www.zdic.net/hans/个",
+      "access_status": "Online entry and mediated old quotations; print original Pending"
+    },
+    "C3": {
+      "title": "汉典 甲：义项及广东话gaap3",
+      "url": "https://www.zdic.net/hans/甲",
+      "access_status": "Online reading; exact Mainland dialect dictionary page Pending"
+    },
+    "C4": {
+      "title": "汉典 某：mǒu代词义",
+      "url": "https://www.zdic.net/hans/某",
+      "access_status": "Online basic/detailed section only"
+    },
+    "C5": {
+      "title": "汉典 啊：a语气助词义",
+      "url": "https://www.zdic.net/hans/啊",
+      "access_status": "Online detailed section only"
+    },
+    "C6": {
+      "title": "汉典 安：ān安定义",
+      "url": "https://www.zdic.net/hans/安",
+      "access_status": "Online basic/detailed section only"
+    },
+    "P1": {
+      "title": "王珲、吴义诚《数词与定指：以数词“一”为例》，外国语文2024(3):55–64",
+      "url": "https://xb.sisu.edu.cn/docs/2024-06/74381e9491924e30ac9292d454d896d3.pdf",
+      "access_status": "Publisher indexed first page/abstract read; direct full PDF retriever timed out. Author argument, not universal consensus."
+    },
+    "P2": {
+      "title": "Indefinite determiner introducing definite referent: a special use of yi one + classifier in Chinese, Lingua113(12),1169–1184",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0024384102001638",
+      "access_status": "Publisher abstract read; full paper not inspected; supplementary international research"
+    },
+    "P3": {
+      "title": "大陆高校托管《外国语》2024,47(1)论文片段：冠词功能与独立词类之区分",
+      "url": "https://wgyxy.hznu.edu.cn/upload/resources/file/2024/05/21/7831668.pdf",
+      "access_status": "Search-index excerpt only; direct PDF404. Bibliographic identity/full argument Pending; counterevidence lead only"
+    }
+  },
+  "featured_recommendation": "Pending",
+  "status": "Ready for Editorial Freeze",
+  "reason": "Source identity and scoped comparisons are clear; uncertain dialect/grammar evidence remains Research/Pending and does not force a Featured selection."
+}

@@ -2,12 +2,12 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const model=require('../js/diachronic-mapping.js'),api=require('../js/language-book-data.js'),{legacyEntry}=require('./legacy-research-view.cjs');
 const base='16e144fd83c1fe048b3abd84196a0529fe04df3b',slugs=['sky','language','advance','generate','absolute'];
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:40e6}).replace(/\r\n/g,'\n');
-const data=require('../data/language-book.v1.0.json'),before=JSON.parse(get('data/language-book.v1.0.json'));
+const current=require('../data/language-book.v1.0.json'),data={...current,entries:current.entries.map(e=>e.legacy_migration?.version==='tier-c-final-a-0.1'?legacyEntry(e):e)},before=JSON.parse(get('data/language-book.v1.0.json'));
 const es=slugs.map(s=>data.entries.find(e=>e.slug===s)),cs=e=>e.diachronic_semantic_mapping.mappings.flatMap(m=>m.candidates);
 test('Batch 3 scope: all other 37 entries/pages, schema and UI unchanged; exact archive restoration',()=>{
  assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const dir of ['data/entries','words'])for(const f of fs.readdirSync(dir)){
-  if(slugs.some(s=>f===s+'.html'||f===s+'.v1.json'))continue;
+  if([...slugs,'a-indefinite-article'].some(s=>f===s+'.html'||f===s+'.v1.json'))continue;
   const p=dir+'/'+f;if(fs.statSync(p).isFile())assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
  }
  for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/semantic-mapper.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);

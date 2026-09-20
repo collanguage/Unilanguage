@@ -1,6 +1,6 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.43",
+  "version": "1.2.44",
   "dataset_version": "1.2.23",
   "created_at": "2026-09-20",
   "canonical_dataset": "data/language-book.v1.0.json",
@@ -10,14 +10,39 @@
   "candidate_mapping_count": 25,
   "files": [
     {
+      "path": "scripts/build-tier-c-final-a.mjs",
+      "bytes": 6096,
+      "sha256": "1d1ea47ec8ef5e16be54068714714f28782ecd7f8e9f32afe0ae29fe32bb95b1"
+    },
+    {
+      "path": "tests/tier-c-final-a.test.cjs",
+      "bytes": 5441,
+      "sha256": "020774b9e5949ba9f3d2d6b6a8ae1ef93180298bb95fceb10dae762a7181c5f1"
+    },
+    {
+      "path": "words/a-indefinite-article.html",
+      "bytes": 28517,
+      "sha256": "9c22cd70df55510cf3a7ac2178c52525cae114ac2eda344bfff14841dc6ee942"
+    },
+    {
+      "path": "data/review/tier-c-final-a-discovery.json",
+      "bytes": 14792,
+      "sha256": "edbd5d0f13e4b36294333f9bf0131e9ecebc1e16bb0ce2dce34ae866a9437b63"
+    },
+    {
+      "path": "docs/research/tier-c-final-a-freeze.md",
+      "bytes": 828,
+      "sha256": "99f72063c9717c89e38bf268f6fed5e9833ed0dcefe502a9a9350558777a2143"
+    },
+    {
       "path": "scripts/build-tier-c-batch3.mjs",
       "bytes": 5982,
       "sha256": "810c576cbaaa890d71a77e26eebf66a06c39d8b04ac0a67292da2225bb11e306"
     },
     {
       "path": "tests/tier-c-batch3.test.cjs",
-      "bytes": 6591,
-      "sha256": "3a16b7b82a3f104803a5b7d67bd0ea7f767c7682e30b2fefb9473d0028b60d01"
+      "bytes": 6740,
+      "sha256": "94ae94ec4db87c53cf9f270e0f3746e0d9264060ac67e52c58678e3ee95449e1"
     },
     {
       "path": "docs/research/tier-c-batch3-freeze.md",
@@ -46,8 +71,8 @@
     },
     {
       "path": "tests/tier-c-batch2.test.cjs",
-      "bytes": 6573,
-      "sha256": "f0f266e6e6da2c9c19bd7a72011452fd059cf91fb8700357b9349f5d4579d56e"
+      "bytes": 6627,
+      "sha256": "cff61230ddce07bbb36722d813e3176a889ba47b31bfce294007037d26180012"
     },
     {
       "path": "docs/research/tier-c-batch2-freeze.md",
@@ -86,8 +111,8 @@
     },
     {
       "path": "tests/pending-final.test.cjs",
-      "bytes": 7541,
-      "sha256": "bcb7e87380a267e10fa2dcce87de210936e4b4f35e8dc2ed2bc202d4ba861a6a"
+      "bytes": 7585,
+      "sha256": "c93cfd4c158d0eff1e423f8705128d500ee83c0283a356eb25528d772ff26d64"
     },
     {
       "path": "words/media.html",
@@ -126,8 +151,8 @@
     },
     {
       "path": "tests/tier-b-final.test.cjs",
-      "bytes": 6288,
-      "sha256": "62500119369d5f1b2d6730c8480461a0ce57fb1136586cae26a430a7af9e6142"
+      "bytes": 6334,
+      "sha256": "c05f49b91a3f8573efa1038d4a1090d39dfb77af4428f9dfee27d6bf78a008c8"
     },
     {
       "path": "docs/research/tier-b-final-freeze.md",
@@ -156,8 +181,8 @@
     },
     {
       "path": "tests/editorial-migration-batch2.test.cjs",
-      "bytes": 6587,
-      "sha256": "231052a7454b6528b0516aa567aa74071c418de5edde6953e200c21a5ed13243"
+      "bytes": 6633,
+      "sha256": "8253e1b24499860564e31f7aa5870f2dfc9c329bfae6ba101cf52afe558e1068"
     },
     {
       "path": "docs/research/editorial-migration-batch2.md",
@@ -171,8 +196,8 @@
     },
     {
       "path": "tests/family-migration-batch1.test.cjs",
-      "bytes": 5707,
-      "sha256": "4ded615ce884ffa3f8db9af6e80b6409e6710ab0818ea0bc294dbc976612ead1"
+      "bytes": 5753,
+      "sha256": "ba462f89b0af43556b49f8b8224f414feeb2e5053f8e0040dc3ed4ef9a83d7bb"
     },
     {
       "path": "docs/research/family-migration-batch1.md",
@@ -186,13 +211,13 @@
     },
     {
       "path": "tests/legacy-migration.test.cjs",
-      "bytes": 6072,
-      "sha256": "31dbd9010bbe3c93465bfc66f7b0f9a23f97a3dda369c272ab7356bc3a43c2f3"
+      "bytes": 6095,
+      "sha256": "2997eb7420f8fb7eaf4e4e7ffd3ed1d501e1832baf5549b0c35217859fe86183"
     },
     {
       "path": "tests/legacy-research-view.cjs",
-      "bytes": 6206,
-      "sha256": "f60b18d10b5f7fc08685c001d9d5d4019e0c9e64142474f4e322d6269acd4d83"
+      "bytes": 6965,
+      "sha256": "630487828cbe4d62eef7ebf209f14bf631f8d13935860d948250c7c87854d757"
     },
     {
       "path": "docs/research/legacy-migration-pilot-v0.1.md",
@@ -246,13 +271,13 @@
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 3101482,
-      "sha256": "f9efc80eeb55795f11e9c4a1adea540f6504885db21d79053b02c69f973d3b46"
+      "bytes": 3209899,
+      "sha256": "7f20888b609c4257cda6bae7aa74c3f711497efbb446d57406dd99f799484df6"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
-      "bytes": 13977,
-      "sha256": "4ebf1dc96d29749b06ce5619dd9c5682e67b2586d58747d2d87341f2d1351afd"
+      "bytes": 113458,
+      "sha256": "aa3be5d722d0781c63e543b0c3a9e767e3c84a9f73f1394e729940dc493ce5ee"
     },
     {
       "path": "data/entries/aback.v1.json",
@@ -826,8 +851,8 @@
     },
     {
       "path": "sitemap.xml",
-      "bytes": 5189,
-      "sha256": "b2a94c64b0a38f73faeeac89b12093ab281648684e0dbf28f41bdf06b06f2f23"
+      "bytes": 5265,
+      "sha256": "8deaed356b7a2e3859187be18df66c8103b09388ac0be4141959d4619859786d"
     }
   ]
 }
