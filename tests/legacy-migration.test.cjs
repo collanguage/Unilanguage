@@ -6,14 +6,15 @@ const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffe
 const entries=slugs.map(s=>require(`../data/entries/${s}.v1.json`));
 test('only four approved entries migrate; every existing research field survives exactly',()=>{
  const before=JSON.parse(get('data/language-book.v1.0.json'));
- assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)),before.entries.filter(e=>!slugs.includes(e.slug)));
+ const batch=['abbreviate','abbreviation','abdomen','abdominal'];
+ assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)).map(e=>batch.includes(e.slug)?legacyEntry(e):e),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const e of entries){
   assert.deepEqual(legacyEntry(e),before.entries.find(x=>x.slug===e.slug));
   assert.deepEqual(data.entries.find(x=>x.slug===e.slug),e);
   assert.deepEqual(model.validate(e),[]);assert.equal(model.isPilot(e),true);
  }
  for(const dir of ['data/entries','words'])for(const name of fs.readdirSync(dir)){
-  if(slugs.some(s=>name===s+'.v1.json'||name===s+'.html'))continue;
+  if([...slugs,...batch].some(s=>name===s+'.v1.json'||name===s+'.html'))continue; // Batch 1 has its own exact-baseline scope test.
   if(!name.endsWith('.json')&&!name.endsWith('.html'))continue;
   const p=dir+'/'+name;
   assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p).replace(/\r\n/g,'\n'),p);

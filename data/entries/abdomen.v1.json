@@ -60,7 +60,8 @@
       "REF-UT-PINYIN-D",
       "REF-JL-ABDOMEN-RAW",
       "REF-ZDIC-FU"
-    ]
+    ],
+    "candidate_ref": "B1-abdomen-DU"
   },
   "primary_mapping": {
     "mapping_id": "MAP-abdomen-primary-duzi",
@@ -763,5 +764,365 @@
       "part_of_speech": "adjective"
     }
   ],
-  "etymological_family_id": "LATIN-ABDOMEN"
+  "etymological_family_id": "LATIN-ABDOMEN",
+  "standard_translation": {
+    "target": "腹部／腹；日常人体语境：肚子",
+    "terms": [
+      "腹部",
+      "腹",
+      "肚子"
+    ],
+    "part_of_speech": "noun",
+    "status": "Supported",
+    "source_refs": [
+      "REF-CAMBRIDGE-ABDOMEN"
+    ]
+  },
+  "source_audit_pending": [
+    {
+      "title": "现代汉语词典",
+      "status": "pending",
+      "claims": [
+        "肚 modern_meaning",
+        "肚 phonology"
+      ],
+      "reason": "Specific print edition and entry not directly obtained; the existing Mainland digital platform evidence is retained without invented page numbers."
+    },
+    {
+      "title": "新华字典",
+      "status": "pending",
+      "claims": [
+        "肚 modern_meaning",
+        "肚 phonology"
+      ],
+      "reason": "Specific print edition and entry not directly obtained; the existing Mainland digital platform evidence is retained without invented page numbers."
+    }
+  ],
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "LATIN-ABDOMEN",
+        "form": "abdōmen",
+        "variants": [
+          "abdōmin- (oblique stem of the same lexeme)"
+        ],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Latin; narrower dates not recorded in existing research",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "REF-MW-ABDOMEN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "belly / paunch",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "REF-MW-ABDOMEN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Retained to explain semantic development; no Chinese search selected."
+      },
+      {
+        "stage_id": "MODERN",
+        "form": "abdomen",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Modern reference; English first use circa 1541",
+          "start_year": null,
+          "end_year": null,
+          "basis": "attestation",
+          "source_refs": [
+            "REF-MW-ABDOMEN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "body abdomen / belly",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-MODERN",
+            "value": "/ˈæb.də.mən/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "REF-CAMBRIDGE-ABDOMEN"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "LATIN-ABDOMEN",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "English borrowing from Middle French and Latin; deeper Latin origin uncertain.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "REF-MW-ABDOMEN"
+            ]
+          }
+        ],
+        "source_refs": [
+          "REF-CAMBRIDGE-ABDOMEN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-MODERN",
+        "stage_ref": "MODERN",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "body abdomen / belly",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "body abdomen / belly"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "B1-abdomen-DU",
+            "family_key": "LATIN-ABDOMEN:DU4",
+            "target": {
+              "form": "肚",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "腹部；肚子",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-B1-abdomen-DU",
+                  "value": "dù [tu˥˩]",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "REF-ZDIC-DU"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "REF-ZDIC-DU"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MODERN",
+              "source_pronunciation_ref": "PR-MODERN",
+              "target_pronunciation_ref": "ZH-B1-abdomen-DU",
+              "source_span": "abdomen (sound restricted to medial /d/)",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "Low",
+              "rationale": "现代腹部义与肚 dù 有明确交集；声音仅词中 /d/ 与普通话 [t] 局部近似。Low；不是 dom 词根比较。",
+              "source_refs": [
+                "REF-ZDIC-DU"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "现代腹部义与肚 dù 有明确交集；声音仅词中 /d/ 与普通话 [t] 局部近似。Low；不是 dom 词根比较。",
+              "features": {
+                "onset": "English medial /d/ vs Mandarin unaspirated voiceless [t]; neither whole-word homophony nor shared consonant skeleton.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "REF-ZDIC-DU"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "REF-ZDIC-DU"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "REF-ZDIC-DU"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "《现代汉语词典》《新华字典》具体纸本条目未取得；古义、方言和古音不在本候选范围。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "现代腹部义与肚 dù 有明确交集；声音仅词中 /d/ 与普通话 [t] 局部近似。Low；不是 dom 词根比较。",
+              "The stops share coronal place but differ in voicing and phonological system. /b m n/ and Mandarin tone are unmatched, so d-m or d-m-n cannot be claimed as a shared consonantal skeleton."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "现代腹部义与肚 dù 有明确交集；声音仅词中 /d/ 与普通话 [t] 局部近似。Low；不是 dom 词根比较。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Editorial Freeze approved; migration only, no evidence upgrade."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Editorial Freeze approved; migration only, no evidence upgrade."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "B1-abdomen-DU",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-MODERN",
+          "candidate_ref": "B1-abdomen-DU"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "现代腹部义与肚 dù 有明确交集；声音仅词中 /d/ 与普通话 [t] 局部近似。Low；不是 dom 词根比较。"
+    },
+    "historical_path": "Latin abdōmen / abdōmin- → abdomen; deeper Latin origin uncertain",
+    "semantic_path": "BODY PART → modern body-part noun",
+    "boundary": {
+      "en": "现代腹部义与肚 dù 有明确交集；声音仅词中 /d/ 与普通话 [t] 局部近似。Low；不是 dom 词根比较。",
+      "zh-Hans": "现代腹部义与肚 dù 有明确交集；声音仅词中 /d/ 与普通话 [t] 局部近似。Low；不是 dom 词根比较。"
+    }
+  },
+  "legacy_migration": {
+    "version": "batch-1-0.1",
+    "baseline_commit": "8d462232767d89290516dcb5086704a729a36be6",
+    "scope": "Approved four-entry Batch 1. Previous fields are a read-only research archive, not active mappings.",
+    "previous_fields": {
+      "featured_mapping": {
+        "source": "abdomen",
+        "target": "肚",
+        "reading": "dù",
+        "display_label": "Featured phonetic-semantic candidate · 特色音义候选",
+        "status": "Candidate · Low confidence",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "肚 dù is shown first as a concise Chinese body-part candidate. The standard translation remains 腹部 / 肚子, and no common historical origin is claimed.",
+          "zh-Hans": "先展示单字“肚”dù，作为简洁的汉语身体词候选；通用翻译仍是“腹部／肚子”，不主张共同历史来源。"
+        },
+        "source_refs": [
+          "REF-CAMBRIDGE-ABDOMEN",
+          "REF-ZDIC-DU",
+          "REF-UT-PINYIN-D",
+          "REF-JL-ABDOMEN-RAW",
+          "REF-ZDIC-FU"
+        ]
+      }
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "source_audit_pending",
+      "diachronic_semantic_mapping"
+    ]
+  }
 }

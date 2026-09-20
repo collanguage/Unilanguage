@@ -8,8 +8,8 @@ const path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const data=legacyDataset(require('../data/language-book.v1.0.json'));
 const api=require('../js/language-book-data.js');
-const v=require('../data/entries/abbreviate.v1.json');
-const n=require('../data/entries/abbreviation.v1.json');
+const v=legacyEntry(require('../data/entries/abbreviate.v1.json'));
+const n=legacyEntry(require('../data/entries/abbreviation.v1.json'));
 test('Verb and noun have distinct IDs, source words, pages and exact lookup routes',()=>{
  assert.equal(data.entries.length,42);
  assert.equal(n.id,'LB-en-abbreviation-041');assert.notEqual(v.id,n.id);

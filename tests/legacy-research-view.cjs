@@ -10,6 +10,19 @@ const cache=new Map();
 // equal the approved baseline, including every original evidence/status field.
 function legacyEntry(e) {
  if(!e.legacy_migration)return e;
+ if(e.legacy_migration.version==='batch-1-0.1') {
+  assert.ok(['abbreviate','abbreviation','abdomen','abdominal'].includes(e.slug));
+  const b='8d462232767d89290516dcb5086704a729a36be6';
+  assert.equal(e.legacy_migration.baseline_commit,b);
+  const restored=structuredClone(e),a=restored.legacy_migration;
+  const allowed=new Set(['diachronic_semantic_mapping','featured_mapping','standard_translation','source_audit_pending','phonetic_observation']);
+  for(const [k,v] of Object.entries(a.previous_fields)){assert.ok(allowed.has(k));restored[k]=v;}
+  for(const k of a.previously_absent_fields){assert.ok(allowed.has(k));delete restored[k];}
+  delete restored.legacy_migration;
+  const original=JSON.parse(cp.execFileSync('git',['show',`${b}:data/entries/${e.slug}.v1.json`],{cwd:path.resolve(__dirname,'..'),maxBuffer:5e6}));
+  assert.deepEqual(restored,original,'Batch 1 must archive exact original fields and preserve all other research');
+  return restored;
+ }
  assert.ok(scope.has(e.slug),'migration outside approved scope');
  assert.equal(e.legacy_migration.baseline_commit,baseline);
  const restored=structuredClone(e);

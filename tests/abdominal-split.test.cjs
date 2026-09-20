@@ -8,8 +8,8 @@ const path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const data=legacyDataset(require('../data/language-book.v1.0.json'));
 const api=require('../js/language-book-data.js');
-const n=require('../data/entries/abdomen.v1.json');
-const a=require('../data/entries/abdominal.v1.json');
+const n=legacyEntry(require('../data/entries/abdomen.v1.json'));
+const a=legacyEntry(require('../data/entries/abdominal.v1.json'));
 test('Abdominal adjective and abdomen noun have independent routes and word classes',()=>{
  assert.equal(data.entries.length,42);
  for(const q of ['abdominal','abdominale','abdominaux','abdominales','腹部的'])assert.equal(api.lookup(data,q).entry.id,a.id,q);
@@ -35,7 +35,7 @@ test('English and French browse forms have one correct owner and reciprocal page
  }
  for(const e of [n,a]){
   const page=fs.readFileSync(path.join(root,e.page),'utf8');
-  assert.ok(page.includes('<h1>'+e.slug+' ↔ 肚'));
+  assert.ok(page.includes('<h3>'+e.slug+' ↔ 肚'));
   assert.ok(page.includes('href="'+(e===n?'abdominal':'abdomen')+'.html"'));
  }
 });
