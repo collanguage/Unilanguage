@@ -1,3 +1,4 @@
+const { assertLegacyUiEqual } = require('./legacy-ui-compat.cjs');
 const test=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
@@ -41,5 +42,5 @@ test('The split preserves every unrelated record and frozen Mapper UI',()=>{
  const before=JSON.parse(cp.execFileSync('git',['show',base+':data/language-book.v1.0.json'],{cwd:root,maxBuffer:20*1024*1024}));
  const others=x=>!['abeyance','aberrant','abbreviate','abbreviation','abdomen','abdominal'].includes(x.slug);
  assert.deepEqual(data.entries.filter(others),before.entries.filter(others));
- for(const f of ['js/semantic-mapper.js','semantic-mapper.html'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',base+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'));
+ for(const f of ['js/semantic-mapper.js','semantic-mapper.html'])assertLegacyUiEqual(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',base+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'));
 });

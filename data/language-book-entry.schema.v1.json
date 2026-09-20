@@ -3,15 +3,46 @@
   "$id": "https://unilanguage.org/data/language-book-entry.schema.v1.json",
   "title": "Language Book Entry Schema v1.0",
   "type": "object",
-  "required": ["schema_version", "dataset_version", "product", "author", "editorial_policy", "status_enums", "entries"],
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "product",
+    "author",
+    "editorial_policy",
+    "status_enums",
+    "entries"
+  ],
   "properties": {
-    "schema_version": { "const": "1.0.0" },
-    "dataset_version": { "const": "1.2.23" },
-    "product": { "$ref": "#/$defs/localized" },
-    "author": { "const": "Jinkai Liu" },
-    "editorial_policy": { "type": "object", "required": ["publication_boundary", "data_separation", "non_cognacy_position"] },
-    "status_enums": { "type": "object" },
-    "entries": { "type": "array", "minItems": 3, "items": { "$ref": "#/$defs/entry" } }
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "dataset_version": {
+      "const": "1.2.23"
+    },
+    "product": {
+      "$ref": "#/$defs/localized"
+    },
+    "author": {
+      "const": "Jinkai Liu"
+    },
+    "editorial_policy": {
+      "type": "object",
+      "required": [
+        "publication_boundary",
+        "data_separation",
+        "non_cognacy_position"
+      ]
+    },
+    "status_enums": {
+      "type": "object"
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
   },
   "$defs": {
     "diachronicMapping": {
@@ -88,49 +119,136 @@
     },
     "localized": {
       "type": "object",
-      "required": ["en", "zh-Hans"],
-      "properties": { "en": { "type": "string", "minLength": 1 }, "zh-Hans": { "type": "string", "minLength": 1 } },
+      "required": [
+        "en",
+        "zh-Hans"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zh-Hans": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
       "additionalProperties": false
     },
     "statusTrack": {
       "type": "object",
-      "required": ["status", "confidence", "summary", "items", "source_refs"],
+      "required": [
+        "status",
+        "confidence",
+        "summary",
+        "items",
+        "source_refs"
+      ],
       "properties": {
-        "status": { "enum": ["Established", "Supported", "Candidate", "Interpretive", "Under review", "Unestablished", "Rejected", "Not claimed", "Not evaluated"] },
-        "confidence": { "enum": ["High", "Medium", "Low", "Unknown"] },
-        "summary": { "$ref": "#/$defs/localized" },
-        "items": { "type": "array" },
-        "source_refs": { "type": "array", "items": { "type": "string" } }
+        "status": {
+          "enum": [
+            "Established",
+            "Supported",
+            "Candidate",
+            "Interpretive",
+            "Under review",
+            "Unestablished",
+            "Rejected",
+            "Not claimed",
+            "Not evaluated"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "High",
+            "Medium",
+            "Low",
+            "Unknown"
+          ]
+        },
+        "summary": {
+          "$ref": "#/$defs/localized"
+        },
+        "items": {
+          "type": "array"
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       },
       "additionalProperties": false
     },
     "entry": {
       "type": "object",
-      "required": ["id", "slug", "title", "languages", "primary_mapping", "entry_status", "mapping_status", "mapping_level", "historical_relation_status", "evidence", "phonetic_observation", "semantic_structure", "hypotheses", "experiments", "literary_layer", "media", "references", "author", "version", "dates", "editorial_notes", "search_terms"],
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "languages",
+        "primary_mapping",
+        "entry_status",
+        "mapping_status",
+        "mapping_level",
+        "historical_relation_status",
+        "evidence",
+        "phonetic_observation",
+        "semantic_structure",
+        "hypotheses",
+        "experiments",
+        "literary_layer",
+        "media",
+        "references",
+        "author",
+        "version",
+        "dates",
+        "editorial_notes",
+        "search_terms"
+      ],
       "properties": {
         "diachronic_semantic_mapping": {
-          "type": "object",
-          "required": [
-            "historical_path",
-            "semantic_path",
-            "historical_stages",
-            "boundary"
-          ],
-          "properties": {
-            "historical_path": {
-              "type": "string"
+          "oneOf": [
+            {
+              "type": "object",
+              "required": [
+                "historical_path",
+                "semantic_path",
+                "historical_stages",
+                "boundary"
+              ],
+              "properties": {
+                "historical_path": {
+                  "type": "string"
+                },
+                "semantic_path": {
+                  "type": "string"
+                },
+                "historical_stages": {
+                  "type": "array",
+                  "minItems": 1
+                },
+                "mappings": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "#/$defs/diachronicMapping"
+                  }
+                },
+                "semantic_best_path": false,
+                "consonant_constrained_path": false
+              },
+              "not": {
+                "required": [
+                  "model_version"
+                ]
+              }
             },
-            "semantic_path": {
-              "type": "string"
-            },
-            "historical_stages": {
-              "type": "array",
-              "minItems": 1
-            },
-            "mappings": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/diachronicMapping" } },
-            "semantic_best_path": false,
-            "consonant_constrained_path": false
-          }
+            {
+              "$ref": "#/$defs/pilotModel"
+            }
+          ]
         },
         "consonant_group_mapping": {
           "type": "object",
@@ -178,123 +296,425 @@
             }
           }
         },
-        "id": { "type": "string", "minLength": 1 },
-        "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-        "record_kind": { "enum": ["lexical_entry", "named_entity"] },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "record_kind": {
+          "enum": [
+            "lexical_entry",
+            "named_entity"
+          ]
+        },
         "entity_types": {
           "type": "array",
-          "items": { "enum": ["proper_name", "place", "named_entity"] },
+          "items": {
+            "enum": [
+              "proper_name",
+              "place",
+              "named_entity"
+            ]
+          },
           "uniqueItems": true
         },
         "name_analysis": {
           "type": "object",
-          "required": ["tibetan_form", "wylie", "orthography_note", "morphemes", "chinese_name_assessment", "translation_assessments"],
+          "required": [
+            "tibetan_form",
+            "wylie",
+            "orthography_note",
+            "morphemes",
+            "chinese_name_assessment",
+            "translation_assessments"
+          ],
           "properties": {
-            "tibetan_form": { "type": "string", "minLength": 1 },
-            "wylie": { "type": "string", "minLength": 1 },
-            "morphemes": { "type": "array", "minItems": 1 },
-            "translation_assessments": { "type": "array", "minItems": 1 }
+            "tibetan_form": {
+              "type": "string",
+              "minLength": 1
+            },
+            "wylie": {
+              "type": "string",
+              "minLength": 1
+            },
+            "morphemes": {
+              "type": "array",
+              "minItems": 1
+            },
+            "translation_assessments": {
+              "type": "array",
+              "minItems": 1
+            }
           }
         },
-        "title": { "$ref": "#/$defs/localized" },
-        "languages": { "type": "array", "minItems": 2 },
+        "title": {
+          "$ref": "#/$defs/localized"
+        },
+        "languages": {
+          "type": "array",
+          "minItems": 2
+        },
         "primary_mapping": {
           "type": "object",
-          "required": ["mapping_id", "source", "target", "gloss", "meaning", "mapping_type", "rationale"],
+          "required": [
+            "mapping_id",
+            "source",
+            "target",
+            "gloss",
+            "meaning",
+            "mapping_type",
+            "rationale"
+          ],
           "properties": {
-            "mapping_id": { "type": "string" },
-            "source": { "type": "object", "required": ["language", "word", "pronunciation"] },
-            "target": { "type": "object", "required": ["language", "word", "pronunciation"] },
-            "gloss": { "$ref": "#/$defs/localized" },
-            "meaning": { "$ref": "#/$defs/localized" },
-            "mapping_type": { "type": "string", "minLength": 1 },
-            "rationale": { "$ref": "#/$defs/localized" }
+            "mapping_id": {
+              "type": "string"
+            },
+            "source": {
+              "type": "object",
+              "required": [
+                "language",
+                "word",
+                "pronunciation"
+              ]
+            },
+            "target": {
+              "type": "object",
+              "required": [
+                "language",
+                "word",
+                "pronunciation"
+              ]
+            },
+            "gloss": {
+              "$ref": "#/$defs/localized"
+            },
+            "meaning": {
+              "$ref": "#/$defs/localized"
+            },
+            "mapping_type": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rationale": {
+              "$ref": "#/$defs/localized"
+            }
           },
           "additionalProperties": false
         },
-        "entry_status": { "enum": ["Draft", "Reviewed", "Published", "Archived"] },
-        "translation_status": { "enum": ["Supported", "Under review"] },
-        "translation_source_refs": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-        "active_association_status": { "type": "string", "minLength": 1 },
-        "mapping_status": { "enum": ["Candidate", "Reviewed", "Supported", "Rejected"] },
-        "mapping_level": { "enum": ["A", "B", "C", "D", "Unrated"] },
-        "historical_relation_status": { "enum": ["Established", "Supported", "Unestablished", "Rejected", "Not claimed"] },
+        "entry_status": {
+          "enum": [
+            "Draft",
+            "Reviewed",
+            "Published",
+            "Archived"
+          ]
+        },
+        "translation_status": {
+          "enum": [
+            "Supported",
+            "Under review"
+          ]
+        },
+        "translation_source_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "active_association_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mapping_status": {
+          "enum": [
+            "Candidate",
+            "Reviewed",
+            "Supported",
+            "Rejected"
+          ]
+        },
+        "mapping_level": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "Unrated"
+          ]
+        },
+        "historical_relation_status": {
+          "enum": [
+            "Established",
+            "Supported",
+            "Unestablished",
+            "Rejected",
+            "Not claimed"
+          ]
+        },
         "evidence": {
           "type": "object",
-          "required": ["Historical", "Phonetic-Semantic", "Cognitive", "Speculative"],
+          "required": [
+            "Historical",
+            "Phonetic-Semantic",
+            "Cognitive",
+            "Speculative"
+          ],
           "properties": {
-            "Historical": { "$ref": "#/$defs/statusTrack" },
-            "Phonetic-Semantic": { "$ref": "#/$defs/statusTrack" },
-            "Cognitive": { "$ref": "#/$defs/statusTrack" },
-            "Speculative": { "$ref": "#/$defs/statusTrack" }
+            "Historical": {
+              "$ref": "#/$defs/statusTrack"
+            },
+            "Phonetic-Semantic": {
+              "$ref": "#/$defs/statusTrack"
+            },
+            "Cognitive": {
+              "$ref": "#/$defs/statusTrack"
+            },
+            "Speculative": {
+              "$ref": "#/$defs/statusTrack"
+            }
           },
           "additionalProperties": false
         },
-        "phonetic_observation": { "type": "array" },
+        "phonetic_observation": {
+          "type": "array"
+        },
         "query_views": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["terms", "primary_mapping", "featured_mapping"],
+            "required": [
+              "terms",
+              "primary_mapping",
+              "featured_mapping"
+            ],
             "properties": {
-              "terms": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
-              "primary_mapping": { "$ref": "#/$defs/entry/properties/primary_mapping" },
-              "translation_status": { "enum": ["Supported", "Under review"] },
-              "translation_source_refs": { "type": "array", "minItems": 1, "items": { "type": "string" } },
-              "featured_mapping": { "anyOf": [{ "type": "null" }, { "$ref": "#/$defs/entry/properties/featured_mapping" }] }
+              "terms": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "primary_mapping": {
+                "$ref": "#/$defs/entry/properties/primary_mapping"
+              },
+              "translation_status": {
+                "enum": [
+                  "Supported",
+                  "Under review"
+                ]
+              },
+              "translation_source_refs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "featured_mapping": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "$ref": "#/$defs/entry/properties/featured_mapping"
+                  }
+                ]
+              }
             },
             "additionalProperties": false
           }
         },
-        "semantic_structure": { "type": "object", "required": ["concepts", "relation", "status"] },
+        "semantic_structure": {
+          "type": "object",
+          "required": [
+            "concepts",
+            "relation",
+            "status"
+          ]
+        },
         "root_level_mapping": {
           "type": "object",
-          "required": ["version", "translation", "featured_structural_mapping", "latin_decomposition", "semantic_primitives", "chinese_structural_candidates", "geometry_mapping", "traditional_chinese_construction", "whole_candidates", "evidence_boundary"],
+          "required": [
+            "version",
+            "translation",
+            "featured_structural_mapping",
+            "latin_decomposition",
+            "semantic_primitives",
+            "chinese_structural_candidates",
+            "geometry_mapping",
+            "traditional_chinese_construction",
+            "whole_candidates",
+            "evidence_boundary"
+          ],
           "properties": {
-            "version": { "const": "1.0" },
-            "translation": { "type": "object", "required": ["source", "target", "status"] },
+            "version": {
+              "const": "1.0"
+            },
+            "translation": {
+              "type": "object",
+              "required": [
+                "source",
+                "target",
+                "status"
+              ]
+            },
             "featured_structural_mapping": {
               "type": "object",
-              "required": ["source", "target", "reading", "status", "historical_relation", "boundary"],
+              "required": [
+                "source",
+                "target",
+                "reading",
+                "status",
+                "historical_relation",
+                "boundary"
+              ],
               "properties": {
-                "source": { "type": "string", "minLength": 1 },
-                "target": { "type": "string", "minLength": 1 },
-                "reading": { "type": "string", "minLength": 1 },
-                "status": { "type": "string", "minLength": 1 },
-                "historical_relation": { "type": "string", "minLength": 1 },
-                "boundary": { "$ref": "#/$defs/localized" }
+                "source": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "target": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reading": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "historical_relation": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "boundary": {
+                  "$ref": "#/$defs/localized"
+                }
               },
               "additionalProperties": false
             },
-            "latin_decomposition": { "type": "object", "required": ["status", "chain", "components", "modern_verse_note"] },
-            "semantic_primitives": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+            "latin_decomposition": {
+              "type": "object",
+              "required": [
+                "status",
+                "chain",
+                "components",
+                "modern_verse_note"
+              ]
+            },
+            "semantic_primitives": {
+              "type": "array",
+              "minItems": 3,
+              "items": {
+                "type": "string"
+              }
+            },
             "chinese_structural_candidates": {
               "type": "array",
               "minItems": 1,
               "items": {
                 "type": "object",
-                "required": ["character", "reading", "roles", "evidence_status", "candidate_grade", "historical_relation", "note"]
+                "required": [
+                  "character",
+                  "reading",
+                  "roles",
+                  "evidence_status",
+                  "candidate_grade",
+                  "historical_relation",
+                  "note"
+                ]
               }
             },
-            "geometry_mapping": { "type": "object", "required": ["status", "chain", "boundary"] },
-            "traditional_chinese_construction": { "type": "object", "required": ["status", "chain", "boundary"] },
-            "whole_candidates": { "type": "array", "items": { "type": "string" } },
-            "evidence_boundary": { "$ref": "#/$defs/localized" }
+            "geometry_mapping": {
+              "type": "object",
+              "required": [
+                "status",
+                "chain",
+                "boundary"
+              ]
+            },
+            "traditional_chinese_construction": {
+              "type": "object",
+              "required": [
+                "status",
+                "chain",
+                "boundary"
+              ]
+            },
+            "whole_candidates": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "evidence_boundary": {
+              "$ref": "#/$defs/localized"
+            }
           },
           "additionalProperties": false
         },
         "featured_mapping": {
           "type": "object",
-          "required": ["source", "target", "reading", "display_label", "status", "historical_relation", "boundary", "source_refs"],
+          "required": [
+            "source",
+            "target",
+            "reading",
+            "display_label",
+            "status",
+            "historical_relation",
+            "boundary",
+            "source_refs"
+          ],
           "properties": {
-            "source": { "type": "string", "minLength": 1 },
-            "target": { "type": "string", "minLength": 1 },
-            "reading": { "type": "string", "minLength": 1 },
-            "display_label": { "type": "string", "minLength": 1 },
-            "status": { "type": "string", "minLength": 1 },
-            "historical_relation": { "type": "string", "minLength": 1 },
-            "boundary": { "$ref": "#/$defs/localized" },
-            "source_refs": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+            "source": {
+              "type": "string",
+              "minLength": 1
+            },
+            "target": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reading": {
+              "type": "string",
+              "minLength": 1
+            },
+            "display_label": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "type": "string",
+              "minLength": 1
+            },
+            "historical_relation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "boundary": {
+              "$ref": "#/$defs/localized"
+            },
+            "source_refs": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "candidate_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
           },
           "additionalProperties": false
         },
@@ -302,15 +722,45 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["word", "language", "relationship_type", "family", "relation_to_entry", "status", "source_refs"],
+            "required": [
+              "word",
+              "language",
+              "relationship_type",
+              "family",
+              "relation_to_entry",
+              "status",
+              "source_refs"
+            ],
             "properties": {
-              "word": { "type": "string", "minLength": 1 },
-              "language": { "type": "string", "minLength": 1 },
-              "relationship_type": { "type": "string", "minLength": 1 },
-              "family": { "type": "string", "minLength": 1 },
-              "relation_to_entry": { "$ref": "#/$defs/localized" },
-              "status": { "type": "string", "minLength": 1 },
-              "source_refs": { "type": "array", "items": { "type": "string" } }
+              "word": {
+                "type": "string",
+                "minLength": 1
+              },
+              "language": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relationship_type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "family": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relation_to_entry": {
+                "$ref": "#/$defs/localized"
+              },
+              "status": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
             },
             "additionalProperties": false
           }
@@ -319,41 +769,1178 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["association_id", "relation", "status", "is_etymological"],
+            "required": [
+              "association_id",
+              "relation",
+              "status",
+              "is_etymological"
+            ],
             "properties": {
-              "association_id": { "type": "string", "minLength": 1 },
-              "relation": { "type": "string", "minLength": 1 },
-              "status": { "type": "string", "minLength": 1 },
-              "is_etymological": { "type": "boolean" }
+              "association_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "relation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "type": "string",
+                "minLength": 1
+              },
+              "is_etymological": {
+                "type": "boolean"
+              }
             },
             "additionalProperties": false
           }
         },
-        "hypotheses": { "type": "array" },
-        "experiments": { "type": "array" },
-        "literary_layer": { "type": "object", "required": ["status", "is_historical_evidence", "proposition", "essay_prose", "poem_lyrics", "translations", "archival_manuscript_media", "evidence_boundary"], "properties": { "is_historical_evidence": { "const": false } } },
-        "media": { "type": "array" },
-        "references": { "type": "array" },
-        "author": { "const": "Jinkai Liu" },
-        "version": { "type": "string" },
-        "dates": { "type": "object", "required": ["created", "modified", "published"] },
-        "editorial_notes": { "type": "array", "items": { "$ref": "#/$defs/localized" } },
-        "search_terms": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "hypotheses": {
+          "type": "array"
+        },
+        "experiments": {
+          "type": "array"
+        },
+        "literary_layer": {
+          "type": "object",
+          "required": [
+            "status",
+            "is_historical_evidence",
+            "proposition",
+            "essay_prose",
+            "poem_lyrics",
+            "translations",
+            "archival_manuscript_media",
+            "evidence_boundary"
+          ],
+          "properties": {
+            "is_historical_evidence": {
+              "const": false
+            }
+          }
+        },
+        "media": {
+          "type": "array"
+        },
+        "references": {
+          "type": "array"
+        },
+        "author": {
+          "const": "Jinkai Liu"
+        },
+        "version": {
+          "type": "string"
+        },
+        "dates": {
+          "type": "object",
+          "required": [
+            "created",
+            "modified",
+            "published"
+          ]
+        },
+        "editorial_notes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/localized"
+          }
+        },
+        "search_terms": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
         "source": {
           "type": "object",
-          "required": ["type", "author", "status", "normalization", "raw_note"],
+          "required": [
+            "type",
+            "author",
+            "status",
+            "normalization",
+            "raw_note"
+          ],
           "properties": {
-            "type": { "type": "string", "minLength": 1 },
-            "author": { "type": "string", "minLength": 1 },
-            "status": { "type": "string", "minLength": 1 },
-            "normalization": { "type": "string", "minLength": 1 },
-            "raw_note": { "type": "string", "minLength": 1 }
+            "type": {
+              "type": "string",
+              "minLength": 1
+            },
+            "author": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "type": "string",
+              "minLength": 1
+            },
+            "normalization": {
+              "type": "string",
+              "minLength": 1
+            },
+            "raw_note": {
+              "type": "string",
+              "minLength": 1
+            }
           },
           "additionalProperties": false
         },
-        "page": { "type": ["string", "null"] },
-        "legacy": { "type": ["object", "null"] }
+        "page": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "legacy": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
       }
+    },
+    "pilotPeriod": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "start_year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "end_year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "basis": {
+          "enum": [
+            "attestation",
+            "language_period",
+            "modern_reference",
+            "unknown"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "label",
+        "start_year",
+        "end_year",
+        "basis",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    },
+    "pilotPronunciation": {
+      "type": "object",
+      "properties": {
+        "pronunciation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notation": {
+          "enum": [
+            "IPA",
+            "pinyin",
+            "reconstruction",
+            "MC_transcription",
+            "source_notation"
+          ]
+        },
+        "phonological_layer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "period": {
+          "$ref": "#/$defs/pilotPeriod"
+        },
+        "variety": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "system": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "documented",
+            "reconstructed",
+            "editorial_inference",
+            "pending"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "pronunciation_id",
+        "value",
+        "notation",
+        "phonological_layer",
+        "period",
+        "variety",
+        "system",
+        "status",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    },
+    "pilotMeaning": {
+      "type": "object",
+      "properties": {
+        "gloss": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pos": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "gloss",
+        "pos",
+        "constraints"
+      ],
+      "additionalProperties": false
+    },
+    "pilotRelation": {
+      "type": "object",
+      "properties": {
+        "from_stage_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation_type": {
+          "enum": [
+            "borrowing",
+            "derivation",
+            "morphological_component",
+            "sense_continuation",
+            "related_family",
+            "unresolved"
+          ]
+        },
+        "semantic_operation": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "supported",
+                "interpretive",
+                "pending"
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "description",
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "status": {
+          "enum": [
+            "supported",
+            "proposed",
+            "pending",
+            "rejected"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "from_stage_ref",
+        "relation_type",
+        "semantic_operation",
+        "status",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    },
+    "pilotStage": {
+      "type": "object",
+      "properties": {
+        "stage_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "form": {
+          "type": "string",
+          "minLength": 1
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "unit_kind": {
+          "enum": [
+            "word",
+            "phrase",
+            "lemma",
+            "morpheme",
+            "reconstructed_form"
+          ]
+        },
+        "language": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "code": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "code"
+          ],
+          "additionalProperties": false
+        },
+        "period": {
+          "$ref": "#/$defs/pilotPeriod"
+        },
+        "attestation_status": {
+          "enum": [
+            "attested",
+            "reconstructed",
+            "reported",
+            "pending"
+          ]
+        },
+        "meaning": {
+          "$ref": "#/$defs/pilotMeaning"
+        },
+        "pronunciations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pilotPronunciation"
+          },
+          "minItems": 0
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pilotRelation"
+          },
+          "minItems": 0
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "evidence_status": {
+          "enum": [
+            "direct",
+            "mediated",
+            "lead",
+            "pending",
+            "contradicted"
+          ]
+        },
+        "mapping_selection": {
+          "enum": [
+            "selected",
+            "not_selected"
+          ]
+        },
+        "selection_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "stage_id",
+        "form",
+        "variants",
+        "unit_kind",
+        "language",
+        "period",
+        "attestation_status",
+        "meaning",
+        "pronunciations",
+        "relations",
+        "source_refs",
+        "evidence_status",
+        "mapping_selection",
+        "selection_note"
+      ],
+      "additionalProperties": false
+    },
+    "pilotReview": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "proposed",
+            "reviewed"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "reviewer",
+        "date",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "pilotAssessment": {
+      "type": "object",
+      "properties": {
+        "fit": {
+          "enum": [
+            "direct",
+            "partial",
+            "indirect",
+            "mismatch",
+            "not_evaluated"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "High",
+            "Medium",
+            "Low",
+            "Unknown"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "fit",
+        "confidence",
+        "rationale",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    },
+    "pilotPhoneticAssessment": {
+      "type": "object",
+      "properties": {
+        "fit": {
+          "enum": [
+            "strong",
+            "partial",
+            "weak",
+            "mismatch",
+            "not_evaluated"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "High",
+            "Medium",
+            "Low",
+            "Unknown"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "features": {
+          "type": "object",
+          "properties": {
+            "onset": {
+              "type": "string",
+              "minLength": 1
+            },
+            "vowel": {
+              "type": "string",
+              "minLength": 1
+            },
+            "coda_other_consonants": {
+              "type": "string",
+              "minLength": 1
+            },
+            "syllables": {
+              "type": "string",
+              "minLength": 1
+            },
+            "prosody": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "onset",
+            "vowel",
+            "coda_other_consonants",
+            "syllables",
+            "prosody"
+          ],
+          "additionalProperties": false
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "fit",
+        "confidence",
+        "rationale",
+        "features",
+        "source_refs"
+      ],
+      "additionalProperties": false
+    },
+    "pilotEvidence": {
+      "type": "object",
+      "properties": {
+        "claim_scope": {
+          "enum": [
+            "source_sense",
+            "chinese_sense",
+            "source_pronunciation",
+            "chinese_pronunciation",
+            "comparison_inference",
+            "historical_chinese_sense"
+          ]
+        },
+        "status": {
+          "enum": [
+            "direct",
+            "mediated",
+            "lead",
+            "pending",
+            "contradicted"
+          ]
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "claim_scope",
+        "status",
+        "source_refs",
+        "locator",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "pilotCandidate": {
+      "type": "object",
+      "properties": {
+        "candidate_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target": {
+          "type": "object",
+          "properties": {
+            "form": {
+              "type": "string",
+              "minLength": 1
+            },
+            "lexical_layer": {
+              "enum": [
+                "Modern Mandarin",
+                "Classical Chinese",
+                "Historical character sense",
+                "Dialect"
+              ]
+            },
+            "language_variety": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "period": {
+              "$ref": "#/$defs/pilotPeriod"
+            },
+            "meaning": {
+              "$ref": "#/$defs/pilotMeaning"
+            },
+            "pronunciations": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/pilotPronunciation"
+              },
+              "minItems": 0
+            },
+            "source_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "form",
+            "lexical_layer",
+            "language_variety",
+            "period",
+            "meaning",
+            "pronunciations",
+            "source_refs"
+          ],
+          "additionalProperties": false
+        },
+        "comparison": {
+          "type": "object",
+          "properties": {
+            "source_stage_ref": {
+              "type": "string",
+              "minLength": 1
+            },
+            "source_pronunciation_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "target_pronunciation_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "source_span": {
+              "type": "string",
+              "minLength": 1
+            },
+            "scope": {
+              "enum": [
+                "whole_form",
+                "morpheme",
+                "syllable",
+                "semantic_only"
+              ]
+            },
+            "hypothesis": {
+              "type": "object",
+              "properties": {
+                "group": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "hit": {
+                  "type": "boolean"
+                },
+                "position": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "version": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "group",
+                "hit",
+                "position",
+                "version"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "source_stage_ref",
+            "source_pronunciation_ref",
+            "target_pronunciation_ref",
+            "source_span",
+            "scope",
+            "hypothesis"
+          ],
+          "additionalProperties": false
+        },
+        "role": {
+          "enum": [
+            "candidate",
+            "sound_control",
+            "meaning_control"
+          ]
+        },
+        "decision": {
+          "enum": [
+            "proposed",
+            "shortlisted",
+            "reserved",
+            "rejected"
+          ]
+        },
+        "semantic_fit": {
+          "$ref": "#/$defs/pilotAssessment"
+        },
+        "phonetic_fit": {
+          "$ref": "#/$defs/pilotPhoneticAssessment"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pilotEvidence"
+          },
+          "minItems": 1
+        },
+        "historical_relation": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "const": "Not claimed"
+            },
+            "source_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "review_note": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "status",
+            "source_refs",
+            "review_note"
+          ],
+          "additionalProperties": false
+        },
+        "confounds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "discovery_priority": {
+          "enum": [
+            "high",
+            "medium",
+            "low",
+            "none"
+          ]
+        },
+        "decision_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review": {
+          "$ref": "#/$defs/pilotReview"
+        }
+      },
+      "required": [
+        "candidate_id",
+        "family_key",
+        "target",
+        "comparison",
+        "role",
+        "decision",
+        "semantic_fit",
+        "phonetic_fit",
+        "evidence",
+        "historical_relation",
+        "confounds",
+        "discovery_priority",
+        "decision_reason",
+        "review"
+      ],
+      "additionalProperties": false
+    },
+    "pilotMapping": {
+      "type": "object",
+      "properties": {
+        "stage_mapping_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stage_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selection_reasons": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "semantic_change",
+              "phonetic_form_value",
+              "strong_candidate",
+              "protocol_test",
+              "explanatory_value"
+            ]
+          }
+        },
+        "freeze": {
+          "type": "object",
+          "properties": {
+            "version": {
+              "type": "string",
+              "minLength": 1
+            },
+            "meaning_note": {
+              "type": "string",
+              "minLength": 1
+            },
+            "excluded_senses": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "status": {
+              "enum": [
+                "provisional",
+                "editor_reviewed"
+              ]
+            }
+          },
+          "required": [
+            "version",
+            "meaning_note",
+            "excluded_senses",
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "search": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "pending",
+                "none_found",
+                "candidates_recorded"
+              ]
+            },
+            "scope": {
+              "type": "object",
+              "properties": {
+                "lexical_layers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "phonological_layers": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "semantic_seeds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "consonant_hypotheses": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "uniqueItems": true
+                },
+                "note": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "lexical_layers",
+                "phonological_layers",
+                "semantic_seeds",
+                "consonant_hypotheses",
+                "note"
+              ],
+              "additionalProperties": false
+            },
+            "run_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "uniqueItems": true
+            },
+            "stop_reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "status",
+            "scope",
+            "run_refs",
+            "stop_reason"
+          ],
+          "additionalProperties": false
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pilotCandidate"
+          },
+          "minItems": 0
+        },
+        "review": {
+          "$ref": "#/$defs/pilotReview"
+        }
+      },
+      "required": [
+        "stage_mapping_id",
+        "stage_ref",
+        "selection_reasons",
+        "freeze",
+        "search",
+        "candidates",
+        "review"
+      ],
+      "additionalProperties": false
+    },
+    "pilotModel": {
+      "type": "object",
+      "properties": {
+        "model_version": {
+          "const": "0.1"
+        },
+        "historical_stages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pilotStage"
+          },
+          "minItems": 1
+        },
+        "mappings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pilotMapping"
+          },
+          "minItems": 0
+        },
+        "display_selection": {
+          "type": "object",
+          "properties": {
+            "featured_candidate_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "stage_cards": {
+              "type": "array",
+              "maxItems": 3,
+              "items": {
+                "type": "object",
+                "properties": {
+                  "stage_mapping_ref": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "candidate_ref": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "stage_mapping_ref",
+                  "candidate_ref"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "review_status": {
+              "enum": [
+                "proposed",
+                "approved"
+              ]
+            },
+            "reviewer": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "featured_candidate_ref",
+            "stage_cards",
+            "review_status",
+            "reviewer",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "historical_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "semantic_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "boundary": {
+          "type": "object",
+          "required": [
+            "en",
+            "zh-Hans"
+          ],
+          "properties": {
+            "en": {
+              "type": "string",
+              "minLength": 1
+            },
+            "zh-Hans": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "model_version",
+        "historical_stages",
+        "mappings",
+        "display_selection",
+        "historical_path",
+        "semantic_path",
+        "boundary"
+      ],
+      "additionalProperties": false
     }
   }
 }

@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book.v1.0.json"), "utf8"));
 const schema = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book-entry.schema.v1.json"), "utf8"));
+import diachronic from "../js/diachronic-mapping.js";
 const errors = [];
 const check = (value, message) => { if (!value) errors.push(message); };
 const allowed = (group, value, label) => check(dataset.status_enums[group].includes(value), `${label}: invalid ${group} ${value}`);
@@ -49,7 +50,8 @@ for (const entry of dataset.entries) {
     check(hypothesis.hypothesis_id && hypothesis.claim && hypothesis.status && hypothesis.supporting_cases && hypothesis.counterexamples && hypothesis.testability && Object.hasOwn(hypothesis, "experiment_link"), `${entry.id}: incomplete hypothesis`);
   }
   const referenceIds = new Set((entry.references || []).map((item) => item.reference_id));
-  if (entry.diachronic_semantic_mapping) {
+  if (diachronic.isPilot(entry)) errors.push(...diachronic.validate(entry));
+  if (entry.diachronic_semantic_mapping && !diachronic.isPilot(entry)) {
     const diachronic = entry.diachronic_semantic_mapping;
     check(diachronic.historical_path && diachronic.semantic_path && diachronic.boundary, `${entry.id}: incomplete diachronic path`);
     check(diachronic.historical_stages?.length >= 1, `${entry.id}: historical stages required`);

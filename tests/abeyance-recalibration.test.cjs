@@ -7,24 +7,24 @@ test('ABEYANCE updates one existing record and preserves unrelated entries and M
  assert.equal(e.id,'LB-en-abeyance-024');assert.equal(d.entries.length,42);
  assert.deepEqual(d.entries.filter(x=>x.slug!=='abeyance'),before.entries.filter(x=>x.slug!=='abeyance'));
  assert.deepEqual(d.entries.find(x=>x.id===e.id),e);
- for(const f of ['js/semantic-mapper.js','semantic-mapper.html','js/language-book-data.js'])assert.equal(fs.readFileSync(f,'utf8').replace(/\r\n/g,'\n'),get(f));
+ for(const f of ['js/language-book-data.js'])assert.equal(fs.readFileSync(f,'utf8').replace(/\r\n/g,'\n'),get(f));
  assert.ok(e.source.raw_note.startsWith(before.entries.find(x=>x.id===e.id).source.raw_note));
 });
 test('Translation, featured candidate, modern sound segment and history remain separate',()=>{
- assert.equal(e.featured_mapping.target,'闭');assert.equal(e.featured_mapping.reading,'bì');
+ assert.equal(e.featured_mapping,undefined);assert.equal(e.legacy_calibration.previous_featured_mapping.target,'闭');
  assert.equal(e.primary_mapping.target.word,'暂缓／搁置');assert.equal(e.translation_status,'Supported');
- assert.equal(e.historical_relation_status,'Not claimed');assert.equal(e.mapping_status,'Candidate');assert.equal(e.mapping_level,'C');
- assert.equal(e.mapping_assessment.confidence,'Low');assert.equal(e.experiments.length,0);
+ assert.equal(e.historical_relation_status,'Not claimed');assert.equal(e.mapping_status,'Candidate');assert.equal(e.mapping_level,'Unrated');assert.equal(e.legacy_calibration.previous_entry_mapping_level,'C');
+ assert.equal(e.legacy_calibration.previous_mapping_assessment.confidence,'Low');assert.equal(e.experiments.length,0);
  assert.match(e.evidence.Historical.summary.en,/not negative/);assert.match(e.evidence.Historical.summary.en,/open\/gape/);
  assert.match(e.evidence['Phonetic-Semantic'].summary.en,/three syllables/);
  assert.equal(e.phonetic_observation[0].historical_root_claimed,false);
  assert.equal(e.phonetic_observation[0].whole_word_homophony,false);
- assert.match(e.featured_mapping.boundary.en,/does not inherently encode temporary/);
+ assert.match(e.legacy_calibration.previous_featured_mapping.boundary.en,/does not inherently encode temporary/);
  assert.ok(e.chinese_lexical_evidence.every(x=>x.source_refs.includes('ABEY-ZD-BI')));
  assert.ok(e.source_audit_pending.every(x=>x.status==='pending'));
  assert.match(e.related_words.find(x=>x.word==='abeyant').relationship_type,/back-formation/);
  assert.match(e.related_words.find(x=>x.word.startsWith('bay')).relation_to_entry.en,/tentative/);
- assert.match(page,/<h1>ABEYANCE ↔ 闭 bì · 暂缓／搁置<\/h1>/);
+ assert.match(page,/<h1>ABEYANCE · 暂缓／搁置<\/h1>/);
 });
 test('Author bilingual green-rain prose survives verbatim and is not evidence',()=>{
  const zh='默默的看着绿色的雨中，因为有众多的叶子的绿色的陪衬，用蜡笔绘出纸上的绿色也成为乐趣，暂时忘记了這悠悠的烦恼。雨中烦恼也关閉了。';

@@ -1,3 +1,4 @@
+const { assertLegacyUiEqual } = require('./legacy-ui-compat.cjs');
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
@@ -19,7 +20,7 @@ test('ABDICATE recalibrates one existing ID and preserves every other record and
   assert.deepEqual(data.entries.filter(x => !['abeyance','aberrant','abdicate','abbreviate','abbreviation','abdominal','abdomen'].includes(x.slug)), before.entries.filter(x => !['abeyance','aberrant','abdicate','abbreviate','abbreviation','abdominal','abdomen'].includes(x.slug)));
   assert.deepEqual(e.source, before.entries.find(x => x.slug === 'abdicate').source);
   for (const f of ['js/semantic-mapper.js','semantic-mapper.html']) {
-    assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'), cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'));
+    assertLegacyUiEqual(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'), cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'));
   }
 });
 

@@ -183,3 +183,10 @@ Author: Jinkai Liu
 Featured Mapping is selected per entry and may differ from Standard Translation; selection must state whether its strength is phonetic, semantic, cognitive, dialectal, or cultural.
 
 Standard Translation ≠ Featured Mapping ≠ Diachronic Mapping. For ABHOR, `primary_mapping` and entry-level mapping status/assessment describe featured 火. The optional `modern_standard_semantic_mapping` retains 恶 wù with its own status, sense and assessment; `standard_translation` records 憎恶 / 厌恶. `diachronic_semantic_mapping` remains independent. These additive fields are compatible with Schema v1.0. Author-attested usage and independent dialect evidence must be separate; a featured choice does not upgrade either confidence or historical relation.
+
+
+### ABEYANCE pilot · Diachronic Model v0.1
+
+Only ABEYANCE opts into `diachronic_semantic_mapping.model_version = "0.1"`. The existing container and legacy branch remain; other entry objects are unchanged. Typed stages carry source/evidence refs, language and period; stage mappings carry freeze/search status, candidates, separate semantic/phonetic/evidence assessments and controls/rejections. Chinese lexical and pronunciation layers are separate. `not_selected` belongs to a stage without a mapping; `pending` and bounded `none_found` belong to a search. Historical Relation remains Not claimed in this pilot.
+
+`display_selection` references at most one Featured candidate (null = Pending) and 0–3 stage cards. Featured is editorial, not an evidence grade. The page builder resolves these references; legacy renderers use their original paths. Run `node scripts/build-abeyance-pilot.mjs`, dataset builder, schema/semantic validator, tests and product manifest builder. See [source audit](research/abeyance-pilot-v0.1.md). First ABEYANCE pilot; legacy migration requires Jinkai Liu review.

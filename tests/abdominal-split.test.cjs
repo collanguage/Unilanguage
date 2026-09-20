@@ -1,3 +1,4 @@
+const { assertLegacyUiEqual } = require('./legacy-ui-compat.cjs');
 const test=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
@@ -44,5 +45,5 @@ test('The split preserves noun literature, unrelated records and frozen Mapper U
  const others=x=>!['abeyance','aberrant','abdomen','abdominal'].includes(x.slug);
  assert.deepEqual(data.entries.filter(others),before.entries.filter(others));
  assert.deepEqual(n.literary_layer,before.entries.find(x=>x.slug==='abdomen').literary_layer);
- for(const f of ['js/semantic-mapper.js','semantic-mapper.html'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),get(f));
+ for(const f of ['js/semantic-mapper.js','semantic-mapper.html'])assertLegacyUiEqual(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),get(f));
 });

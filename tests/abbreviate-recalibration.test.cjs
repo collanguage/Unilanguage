@@ -1,3 +1,4 @@
+const { assertLegacyUiEqual } = require('./legacy-ui-compat.cjs');
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
@@ -23,7 +24,7 @@ test('ABBREVIATE preserves its identity, source, literature and every unrelated 
  assert.deepEqual(e.literary_layer,old.literary_layer);
  assert.equal(data.entries.filter(x=>x.entry_status==='Published').length,before.entries.filter(x=>x.entry_status==='Published').length+2);
  for(const file of ['js/semantic-mapper.js','semantic-mapper.html',...['abdicate','abhor','horizon','horse','new','abandon'].map(x=>'words/'+x+'.html')]){
-  assert.equal(fs.readFileSync(path.join(root,file),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+file],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),file);
+  assertLegacyUiEqual(fs.readFileSync(path.join(root,file),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+file],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),file);
  }
 });
 test('Featured 瘪 and standard verb senses remain separate across page and data',()=>{

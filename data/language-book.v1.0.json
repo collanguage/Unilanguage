@@ -14528,8 +14528,8 @@
       "id": "LB-en-abeyance-024",
       "slug": "abeyance",
       "title": {
-        "en": "ABEYANCE ↔ 闭 bì · 暂缓／搁置",
-        "zh-Hans": "ABEYANCE ↔ 闭 bì · 暂缓／搁置"
+        "en": "ABEYANCE · 暂缓／搁置 · Featured Mapping: Pending",
+        "zh-Hans": "ABEYANCE · 暂缓／搁置 · 特色映射待选"
       },
       "languages": [
         {
@@ -14546,13 +14546,6 @@
           "name": "Chinese",
           "word": "暂缓／搁置",
           "pronunciation": "zànhuǎn / gēzhì"
-        },
-        {
-          "role": "featured-candidate",
-          "code": "zh-Hans",
-          "name": "Chinese",
-          "word": "闭",
-          "pronunciation": "bì [pi˥˧] (ZDIC transcription)"
         },
         {
           "role": "standard-equivalent-phrase",
@@ -14580,8 +14573,8 @@
           "zh-Hans": "暂时停止、搁置或未生效的状态；常见搭配 in abeyance。"
         },
         "meaning": {
-          "en": "Abeyance is a noun naming temporary suspension, not permanent termination. Featured 闭 bì supplies a partial close/stop association; it is not the standard translation.",
-          "zh-Hans": "abeyance 是表示暂时搁置状态的名词，不等于永久终止。特色“闭 bì”提供关闭／停止的局部联想，不是标准译词。"
+          "en": "Temporary suspension. Featured Mapping: Pending; historical-stage candidates are separately evaluated.",
+          "zh-Hans": "暂时搁置或暂停状态。Featured Mapping: Pending；历史阶段候选独立评估。"
         },
         "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
         "rationale": {
@@ -14591,7 +14584,7 @@
       },
       "entry_status": "Reviewed",
       "mapping_status": "Candidate",
-      "mapping_level": "C",
+      "mapping_level": "Unrated",
       "historical_relation_status": "Not claimed",
       "evidence": {
         "Historical": {
@@ -14926,10 +14919,218 @@
           "url": null,
           "path": null,
           "provenance": "Supplied in this conversation 2026-09-19; both language versions preserved verbatim."
+        },
+        {
+          "reference_id": "ABEY-CNRTL",
+          "title": "CNRTL/TLFi: bayer",
+          "url": "https://www.cnrtl.fr/definition/bayerai",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "Étymologie 1–2; modern Prononc.",
+          "accessed": "2026-09-19",
+          "provenance": "Historical meanings and forms; modern French pronunciation is NOT Old French IPA"
+        },
+        {
+          "reference_id": "ABEY-ACADEMIE",
+          "title": "Académie française: bayer / bâiller",
+          "url": "https://www.dictionnaire-academie.fr/article/DNP1179",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "Dire, Ne pas dire",
+          "accessed": "2026-09-19",
+          "provenance": "Onomatopoeic explanation; no PIE descent inferred"
+        },
+        {
+          "reference_id": "ABEY-AND",
+          "title": "Anglo-Norman Dictionary: abaiance",
+          "url": "https://www.anglo-norman.net/entry/abaiance",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "law, 1410; 1425–26",
+          "accessed": "2026-09-19",
+          "provenance": "Legal state without claimant/owner already in Anglo-Norman"
+        },
+        {
+          "reference_id": "ABEY-WEX",
+          "title": "Cornell LII: abeyance",
+          "url": "https://www.law.cornell.edu/wex/abeyance",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "headword",
+          "accessed": "2026-09-19",
+          "provenance": "Modern legal suspension; not advice for a particular case"
+        },
+        {
+          "reference_id": "ABEY-BA",
+          "title": "识典古籍：巴（标注《汉语大词典》）",
+          "url": "https://www.shidianguji.com/character/巴",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "义项5、11、13",
+          "accessed": "2026-09-19",
+          "provenance": "Mediated electronic entry; original dictionary edition/pages not directly obtained"
+        },
+        {
+          "reference_id": "ABEY-PAN",
+          "title": "识典古籍：盼（标注《汉语大词典》）",
+          "url": "https://www.shidianguji.com/character/盼",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "pàn 义项3",
+          "accessed": "2026-09-19",
+          "provenance": "Mediated entry; ancient bright-eyes sense does not date the desire sense"
+        },
+        {
+          "reference_id": "ABEY-WISH",
+          "title": "曹秀玲、顾建身《汉语愿望表达与愿力调节》",
+          "url": "https://hyxx.ybu.edu.cn/__local/7/C2/B4/B9FFCC77DBF06FCD7ED14B8B6FF_46734805_83316.pdf",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "《汉语学习》2025(6):3–13，pp.3、6、8",
+          "accessed": "2026-09-19",
+          "provenance": "Direct scholarly classification; dictionary definitions partly cite 倒序现代汉语词典, not uniformly 现汉7"
+        },
+        {
+          "reference_id": "ABEY-YUE",
+          "title": "林亦《广西粤方言塞音、塞擦音鼻音化小规律所辖字的考察》",
+          "url": "https://dialects.jnu.edu.cn/_upload/article/files/4c/5b/04d24f9c48caaa0f9d6d0a5190a9/aaa61f39-5630-413f-aa62-50c565bfba4c.pdf",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "《粤语研究》21，pp.54–55、59",
+          "accessed": "2026-09-19",
+          "provenance": "Direct paper: 擘大嘴 [mak7b]; 本字 is author analysis; numerals are tone categories; precise survey locality/date/tone contour pending"
+        },
+        {
+          "reference_id": "ABEY-YISHUI",
+          "title": "《沂水县志》第四章语法",
+          "url": "https://shandong-chorography.org/database/cg5/section/4/article/749/",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "巴巴条",
+          "accessed": "2026-09-19",
+          "provenance": "Official local gazetteer: open / earnest hope; web phonetic symbols corrupted, not used"
+        },
+        {
+          "reference_id": "ABEY-SUFFIX",
+          "title": "宋开玉《明清山东方言后缀“巴”》",
+          "url": "https://www.rxgdyjy.sdu.edu.cn/info/1053/4206.htm",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "institutional research record",
+          "accessed": "2026-09-19",
+          "provenance": "Suffix analysis is a confound; 嘴巴 does not prove standalone 巴 = gape"
+        },
+        {
+          "reference_id": "ABEY-ZD-BAWANG",
+          "title": "汉典：巴望",
+          "url": "https://zdic.net/hans/巴望",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "词语解释（不采用嵌入国语辞典）",
+          "accessed": "2026-09-19",
+          "provenance": "Modern hope sense; no ancient first-attestation claim"
+        },
+        {
+          "reference_id": "ABEY-ZD-BADE",
+          "title": "汉典：巴不得",
+          "url": "https://zdic.net/hans/巴不得",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "词语解释（不采用嵌入国语辞典）",
+          "accessed": "2026-09-19",
+          "provenance": "Eager desire; separate from constituent segmentation and antiquity"
+        },
+        {
+          "reference_id": "ABEY-ZD-PAN",
+          "title": "汉典：盼",
+          "url": "https://zdic.net/hans/盼",
+          "type": "lexicographic / academic reference",
+          "path": null,
+          "locator": "基本解释、详细解释",
+          "accessed": "2026-09-19",
+          "provenance": "pàn hope sense; spelling and meaning separately scoped"
+        },
+        {
+          "reference_id": "ABEY-CONTROL-张",
+          "title": "汉典：张",
+          "url": "https://zdic.net/hans/张",
+          "type": "discovery control",
+          "path": null,
+          "provenance": "Specific digital platform entry inspected; Mainland original dictionary edition/attestation pending",
+          "accessed": "2026-09-19",
+          "locator": "基本/详细解释；不采用嵌入国语辞典"
+        },
+        {
+          "reference_id": "ABEY-CONTROL-开",
+          "title": "汉典：开",
+          "url": "https://zdic.net/hans/开",
+          "type": "discovery control",
+          "path": null,
+          "provenance": "Specific digital platform entry inspected; Mainland original dictionary edition/attestation pending",
+          "accessed": "2026-09-19",
+          "locator": "基本/详细解释；不采用嵌入国语辞典"
+        },
+        {
+          "reference_id": "ABEY-CONTROL-待",
+          "title": "汉典：待",
+          "url": "https://zdic.net/hans/待",
+          "type": "discovery control",
+          "path": null,
+          "provenance": "Specific digital platform entry inspected; Mainland original dictionary edition/attestation pending",
+          "accessed": "2026-09-19",
+          "locator": "基本/详细解释；不采用嵌入国语辞典"
+        },
+        {
+          "reference_id": "ABEY-CONTROL-八",
+          "title": "汉典：八",
+          "url": "https://zdic.net/hans/八",
+          "type": "discovery control",
+          "path": null,
+          "provenance": "Specific digital platform entry inspected; Mainland original dictionary edition/attestation pending",
+          "accessed": "2026-09-19",
+          "locator": "基本/详细解释；不采用嵌入国语辞典"
+        },
+        {
+          "reference_id": "ABEY-CONTROL-慕",
+          "title": "汉典：慕",
+          "url": "https://zdic.net/hans/慕",
+          "type": "discovery control",
+          "path": null,
+          "provenance": "Specific digital platform entry inspected; Mainland original dictionary edition/attestation pending",
+          "accessed": "2026-09-19",
+          "locator": "基本/详细解释；不采用嵌入国语辞典"
+        },
+        {
+          "reference_id": "ABEY-CONTROL-喷",
+          "title": "汉典：喷",
+          "url": "https://zdic.net/hans/喷",
+          "type": "discovery control",
+          "path": null,
+          "provenance": "Specific digital platform entry inspected; Mainland original dictionary edition/attestation pending",
+          "accessed": "2026-09-19",
+          "locator": "基本/详细解释；不采用嵌入国语辞典"
+        },
+        {
+          "reference_id": "ABEY-CONTROL-吠",
+          "title": "汉典：吠",
+          "url": "https://zdic.net/hans/吠",
+          "type": "discovery control",
+          "path": null,
+          "provenance": "Specific digital platform entry inspected; Mainland original dictionary edition/attestation pending",
+          "accessed": "2026-09-19",
+          "locator": "基本/详细解释；不采用嵌入国语辞典"
+        },
+        {
+          "reference_id": "ABEY-PILOT-AUDIT",
+          "title": "ABEYANCE pilot: source audit and bounded discovery run",
+          "url": null,
+          "path": "docs/research/abeyance-pilot-v0.1.md",
+          "type": "research audit",
+          "provenance": "Actual consulted sources, gaps, controls and publication decision; not an experiment"
         }
       ],
       "author": "Jinkai Liu",
-      "version": "ABEYANCE focused legacy recalibration v1.1 / Schema v1.0",
+      "version": "1.1",
       "dates": {
         "created": null,
         "modified": "2026-09-19",
@@ -14968,7 +15169,15 @@
         "en suspens",
         "绿色的雨",
         "雨中烦恼",
-        "green rain"
+        "green rain",
+        "巴望",
+        "巴不得",
+        "盼望",
+        "擘大嘴",
+        "bayer",
+        "baer",
+        "abeiance",
+        "*batare"
       ],
       "page": "words/abeyance.html",
       "legacy": {
@@ -15005,23 +15214,6 @@
         ],
         "is_featured_mapping": false
       },
-      "featured_mapping": {
-        "source": "ABEYANCE",
-        "target": "闭",
-        "reading": "bì",
-        "display_label": "Featured Cognitive / Phonetic-Semantic Candidate · 认知／音义候选",
-        "status": "Candidate · C / Low",
-        "historical_relation": "Not claimed",
-        "boundary": {
-          "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
-          "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
-        },
-        "source_refs": [
-          "ABEY-CAM",
-          "ABEY-ZD-BI",
-          "REF-LANGUAGESBOOK-ABEYANCE"
-        ]
-      },
       "transformation_mapping": {
         "source": "Abstract temporary suspension",
         "target": "Concrete closure / literary closure of worries",
@@ -15030,17 +15222,8 @@
         "lost": "The noun/state grammar and explicit temporary duration are not encoded by 闭 alone",
         "created": "The rain closes worries as an authored image",
         "status": "Candidate",
-        "historical_relation": "Not claimed"
-      },
-      "mapping_assessment": {
-        "rubric": "protocol/protocol.mapping-framework.html#evaluation",
-        "level": "C",
-        "confidence": "Low",
-        "method": "Qualitative editorial reassessment; no experiment, numeric measurement or probability claimed.",
-        "rationale": {
-          "en": "C (Semantic / Cognitive) is retained after reassessment because stop/inactivity has a lexicographic semantic overlap; temporary suspension is only partial, and sound support is weak. This does not establish direct lexical equivalence.",
-          "zh-Hans": "复核后列 C（语义／认知）：停止／不活动具有辞书层面的语义交点，但暂时搁置仅局部适配，语音支持弱。不将 C 视作直接词义等同或实验证实。"
-        }
+        "historical_relation": "Not claimed",
+        "scope": "C-BI only: modern cognitive comparison, not the whole diachronic pilot"
       },
       "source_audit_pending": [
         {
@@ -15102,7 +15285,2402 @@
           "abeyant: in abeyance, back-formation, not generic temporary",
           "bay inlet/bark/architecture require separate senses and qualified histories"
         ],
-        "historical_unit_boundary": "No bey root is asserted; documented Anglo-French units remain in Historical evidence."
+        "historical_unit_boundary": "No bey root is asserted; documented Anglo-French units remain in Historical evidence.",
+        "previous_featured_mapping": {
+          "source": "ABEYANCE",
+          "target": "闭",
+          "reading": "bì",
+          "display_label": "Featured Cognitive / Phonetic-Semantic Candidate · 认知／音义候选",
+          "status": "Candidate · C / Low",
+          "historical_relation": "Not claimed",
+          "boundary": {
+            "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+            "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
+          },
+          "source_refs": [
+            "ABEY-CAM",
+            "ABEY-ZD-BI",
+            "REF-LANGUAGESBOOK-ABEYANCE"
+          ]
+        },
+        "previous_entry_mapping_level": "C",
+        "previous_mapping_assessment": {
+          "rubric": "protocol/protocol.mapping-framework.html#evaluation",
+          "level": "C",
+          "confidence": "Low",
+          "method": "Qualitative editorial reassessment; no experiment, numeric measurement or probability claimed.",
+          "rationale": {
+            "en": "C (Semantic / Cognitive) is retained after reassessment because stop/inactivity has a lexicographic semantic overlap; temporary suspension is only partial, and sound support is weak. This does not establish direct lexical equivalence.",
+            "zh-Hans": "复核后列 C（语义／认知）：停止／不活动具有辞书层面的语义交点，但暂时搁置仅局部适配，语音支持弱。不将 C 视作直接词义等同或实验证实。"
+          }
+        }
+      },
+      "diachronic_semantic_mapping": {
+        "model_version": "0.1",
+        "historical_stages": [
+          {
+            "stage_id": "ABE-A",
+            "form": "*batare",
+            "variants": [],
+            "unit_kind": "reconstructed_form",
+            "language": {
+              "name": "Vulgar Latin",
+              "code": "la"
+            },
+            "period": {
+              "label": "Reconstructed Vulgar Latin; no dated attestation",
+              "start_year": null,
+              "end_year": null,
+              "basis": "unknown",
+              "source_refs": []
+            },
+            "attestation_status": "reconstructed",
+            "meaning": {
+              "gloss": "GAPE / YAWN",
+              "pos": null,
+              "constraints": [
+                "Sense scope is not a claim of successive replacement"
+              ]
+            },
+            "pronunciations": [],
+            "relations": [],
+            "source_refs": [
+              "ABEY-CNRTL",
+              "ABEY-ACADEMIE"
+            ],
+            "evidence_status": "direct",
+            "mapping_selection": "not_selected",
+            "selection_note": "Reconstructed source retained as context; no separate YAWN mapping run, OPEN retrieval belongs to B; historical sound unresolved"
+          },
+          {
+            "stage_id": "ABE-B",
+            "form": "baer / bayer",
+            "variants": [],
+            "unit_kind": "word",
+            "language": {
+              "name": "Old French",
+              "code": "fro"
+            },
+            "period": {
+              "label": "1121–35 open-wide citation; later overlapping senses",
+              "start_year": 1121,
+              "end_year": 1135,
+              "basis": "attestation",
+              "source_refs": [
+                "ABEY-CNRTL"
+              ]
+            },
+            "attestation_status": "reported",
+            "meaning": {
+              "gloss": "OPEN WIDE / OPEN MOUTH",
+              "pos": null,
+              "constraints": [
+                "Sense scope is not a claim of successive replacement"
+              ]
+            },
+            "pronunciations": [],
+            "relations": [
+              {
+                "from_stage_ref": "ABE-A",
+                "relation_type": "derivation",
+                "semantic_operation": {
+                  "type": "continuation",
+                  "description": "Semantic organization; not a proven dated replacement ladder",
+                  "status": "interpretive"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "ABEY-CNRTL"
+                ]
+              }
+            ],
+            "source_refs": [
+              "ABEY-CNRTL"
+            ],
+            "evidence_status": "direct",
+            "mapping_selection": "selected",
+            "selection_note": "Selected for scoped meaning comparison"
+          },
+          {
+            "stage_id": "ABE-C",
+            "form": "baer / bayer",
+            "variants": [],
+            "unit_kind": "word",
+            "language": {
+              "name": "Old French",
+              "code": "fro"
+            },
+            "period": {
+              "label": "ca.1190 figurative attestation",
+              "start_year": 1190,
+              "end_year": 1190,
+              "basis": "attestation",
+              "source_refs": [
+                "ABEY-CNRTL"
+              ]
+            },
+            "attestation_status": "reported",
+            "meaning": {
+              "gloss": "ASPIRE / DESIRE; hopeful expectation, not prediction",
+              "pos": null,
+              "constraints": [
+                "Sense scope is not a claim of successive replacement"
+              ]
+            },
+            "pronunciations": [],
+            "relations": [
+              {
+                "from_stage_ref": "ABE-B",
+                "relation_type": "sense_continuation",
+                "semantic_operation": {
+                  "type": "metaphorization",
+                  "description": "Semantic organization; not a proven dated replacement ladder",
+                  "status": "interpretive"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "ABEY-CNRTL"
+                ]
+              }
+            ],
+            "source_refs": [
+              "ABEY-CNRTL"
+            ],
+            "evidence_status": "direct",
+            "mapping_selection": "selected",
+            "selection_note": "Selected for scoped meaning comparison"
+          },
+          {
+            "stage_id": "ABE-D",
+            "form": "abeiance",
+            "variants": [
+              "abeiaunce",
+              "abiaence"
+            ],
+            "unit_kind": "word",
+            "language": {
+              "name": "Anglo-Norman",
+              "code": "xno"
+            },
+            "period": {
+              "label": "1410;1425–26 legal attestations",
+              "start_year": 1410,
+              "end_year": 1426,
+              "basis": "attestation",
+              "source_refs": [
+                "ABEY-AND"
+              ]
+            },
+            "attestation_status": "reported",
+            "meaning": {
+              "gloss": "Legal suspension: temporarily without claimant or owner",
+              "pos": null,
+              "constraints": [
+                "Sense scope is not a claim of successive replacement"
+              ]
+            },
+            "pronunciations": [],
+            "relations": [
+              {
+                "from_stage_ref": "ABE-C",
+                "relation_type": "unresolved",
+                "semantic_operation": {
+                  "type": "specialization",
+                  "description": "AND verifies the legal sense; exact morphological intermediates from baer/abaer and chronology require further review",
+                  "status": "interpretive"
+                },
+                "status": "pending",
+                "source_refs": [
+                  "ABEY-AND",
+                  "REF-MW-ABEYANCE"
+                ]
+              }
+            ],
+            "source_refs": [
+              "ABEY-AND",
+              "REF-MW-ABEYANCE"
+            ],
+            "evidence_status": "direct",
+            "mapping_selection": "selected",
+            "selection_note": "Selected for scoped meaning comparison"
+          },
+          {
+            "stage_id": "ABE-E",
+            "form": "abeyance",
+            "variants": [],
+            "unit_kind": "word",
+            "language": {
+              "name": "English",
+              "code": "en"
+            },
+            "period": {
+              "label": "Modern use; exact English first sense dates pending",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "ABEY-CAM"
+              ]
+            },
+            "attestation_status": "reported",
+            "meaning": {
+              "gloss": "TEMPORARY SUSPENSION / INACTIVITY",
+              "pos": null,
+              "constraints": [
+                "Sense scope is not a claim of successive replacement"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "PR-ABE-EN",
+                "value": "/əˈbeɪ.əns/",
+                "notation": "IPA",
+                "phonological_layer": "Modern English",
+                "period": {
+                  "label": "Modern reference",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "ABEY-CAM"
+                  ]
+                },
+                "variety": "Dictionary English",
+                "system": "Cambridge IPA",
+                "status": "editorial_inference",
+                "source_refs": [
+                  "ABEY-CAM"
+                ]
+              }
+            ],
+            "relations": [
+              {
+                "from_stage_ref": "ABE-D",
+                "relation_type": "borrowing",
+                "semantic_operation": {
+                  "type": "generalization",
+                  "description": "Semantic organization; not a proven dated replacement ladder",
+                  "status": "interpretive"
+                },
+                "status": "supported",
+                "source_refs": [
+                  "ABEY-CAM",
+                  "ABEY-WEX",
+                  "REF-MW-ABEYANCE"
+                ]
+              }
+            ],
+            "source_refs": [
+              "ABEY-CAM",
+              "ABEY-WEX",
+              "REF-MW-ABEYANCE"
+            ],
+            "evidence_status": "direct",
+            "mapping_selection": "selected",
+            "selection_note": "Selected for scoped meaning comparison"
+          }
+        ],
+        "mappings": [
+          {
+            "stage_mapping_id": "SM-ABE-B",
+            "stage_ref": "ABE-B",
+            "selection_reasons": [
+              "semantic_change",
+              "explanatory_value",
+              "protocol_test"
+            ],
+            "freeze": {
+              "version": "0.2",
+              "meaning_note": "OPEN WIDE / OPEN MOUTH",
+              "excluded_senses": [
+                "Strict antonymization",
+                "Unscoped mouth activity",
+                "Cross-language common origin"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "pending",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin",
+                  "Historical character sense",
+                  "Dialect"
+                ],
+                "phonological_layers": [
+                  "Modern Mandarin",
+                  "Dialect; source notations retained"
+                ],
+                "semantic_seeds": [
+                  "OPEN WIDE / OPEN MOUTH"
+                ],
+                "consonant_hypotheses": [
+                  "b-only baseline",
+                  "b-p-m-f expansion"
+                ],
+                "note": "Bounded Discovery v1 and publication audit; not exhaustive Chinese lexicon"
+              },
+              "run_refs": [
+                "ABEY-PILOT-AUDIT"
+              ],
+              "stop_reason": "Dialect candidate promising; locality, original-character identification and source historical sound unresolved"
+            },
+            "candidates": [
+              {
+                "candidate_id": "C-MAK",
+                "family_key": "擘",
+                "target": {
+                  "form": "擘",
+                  "lexical_layer": "Dialect",
+                  "language_variety": "广西粤语；沿江白话层次、廉州话/桂南平话相关讨论；单个调查点未绑定",
+                  "period": {
+                    "label": "Modern field material discussed in issue 21; exact survey/publication dates pending",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-YUE"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "张大嘴；打开、裂开（大幅度）",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-C-MAK",
+                      "value": "[mak7b]",
+                      "notation": "source_notation",
+                      "phonological_layer": "Dialect",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-YUE"
+                        ]
+                      },
+                      "variety": "广西粤语；沿江白话层次、廉州话/桂南平话相关讨论；单个调查点未绑定",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-YUE"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-YUE"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-B",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-C-MAK",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "direct",
+                  "confidence": "Medium",
+                  "rationale": "论文 pp.55、59 记擘大嘴 [mak7b]；本字为作者推测，精确点位/调值/调查年份 pending。",
+                  "source_refs": [
+                    "ABEY-YUE"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "m differs from French b; labial class only",
+                    "vowel": "a as reported; historical source vowel pending",
+                    "coda_other_consonants": "Final -k has no modern bayer counterpart",
+                    "syllables": "One dialect syllable vs modern French two; Old French assessment pending",
+                    "prosody": "7b is category 下阴入; no contour supplied"
+                  },
+                  "source_refs": [
+                    "ABEY-YUE",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "direct",
+                    "source_refs": [
+                      "ABEY-YUE"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "论文 pp.55、59 记擘大嘴 [mak7b]；本字为作者推测，精确点位/调值/调查年份 pending。"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "direct",
+                    "source_refs": [
+                      "ABEY-YUE"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [
+                  "7b is lower yin entering tone CATEGORY, not IPA contour",
+                  "Author-proposed original character; not independently proved",
+                  "Opening mouth does not imply yawning"
+                ],
+                "discovery_priority": "high",
+                "decision_reason": "论文 pp.55、59 记擘大嘴 [mak7b]；本字为作者推测，精确点位/调值/调查年份 pending。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "CTRL-ABE-B-张",
+                "family_key": "张",
+                "target": {
+                  "form": "张",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-CONTROL-张"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "张开；张口",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-CTRL-ABE-B-张",
+                      "value": "zhāng",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-CONTROL-张"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-CONTROL-张"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-CONTROL-张"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-B",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-CTRL-ABE-B-张",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": false,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "meaning_control",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "direct",
+                  "confidence": "Medium",
+                  "rationale": "Semantic control outside labial group",
+                  "source_refs": [
+                    "ABEY-CONTROL-张"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-CONTROL-张",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-张"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "Semantic control outside labial group"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-张"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "Semantic control outside labial group",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "CTRL-ABE-B-开",
+                "family_key": "开",
+                "target": {
+                  "form": "开",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-CONTROL-开"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "打开",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-CTRL-ABE-B-开",
+                      "value": "kāi",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-CONTROL-开"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-CONTROL-开"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-CONTROL-开"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-B",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-CTRL-ABE-B-开",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": false,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "meaning_control",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "direct",
+                  "confidence": "Medium",
+                  "rationale": "Semantic control outside labial group",
+                  "source_refs": [
+                    "ABEY-CONTROL-开"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-CONTROL-开",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-开"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "Semantic control outside labial group"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-开"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "Semantic control outside labial group",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "C-BA-OPEN",
+                "family_key": "巴",
+                "target": {
+                  "form": "巴",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-BA",
+                      "ABEY-YISHUI",
+                      "ABEY-SUFFIX"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "张开、干裂；巴巴方言开/希望",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-C-BA-OPEN",
+                      "value": "bā",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-BA",
+                          "ABEY-YISHUI",
+                          "ABEY-SUFFIX"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-BA",
+                        "ABEY-YISHUI",
+                        "ABEY-SUFFIX"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-BA",
+                    "ABEY-YISHUI",
+                    "ABEY-SUFFIX"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-B",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-C-BA-OPEN",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "candidate",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "支持一般张开；嘴巴不能证明 GAPE/YAWN。",
+                  "source_refs": [
+                    "ABEY-BA",
+                    "ABEY-YISHUI",
+                    "ABEY-SUFFIX"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-BA",
+                    "ABEY-YISHUI",
+                    "ABEY-SUFFIX",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-BA",
+                      "ABEY-YISHUI",
+                      "ABEY-SUFFIX"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "支持一般张开；嘴巴不能证明 GAPE/YAWN。"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-BA",
+                      "ABEY-YISHUI",
+                      "ABEY-SUFFIX"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "支持一般张开；嘴巴不能证明 GAPE/YAWN。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "REJ-喷",
+                "family_key": "喷",
+                "target": {
+                  "form": "喷",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-CONTROL-喷"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "向外喷出/犬叫",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-REJ-喷",
+                      "value": "pēn",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-CONTROL-喷"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-CONTROL-喷"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-CONTROL-喷"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-B",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-REJ-喷",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "candidate",
+                "decision": "rejected",
+                "semantic_fit": {
+                  "fit": "mismatch",
+                  "confidence": "Medium",
+                  "rationale": "口部动作不等于张口；音组不能补语义。",
+                  "source_refs": [
+                    "ABEY-CONTROL-喷"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-CONTROL-喷",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-喷"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "口部动作不等于张口；音组不能补语义。"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-喷"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "口部动作不等于张口；音组不能补语义。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "REJ-吠",
+                "family_key": "吠",
+                "target": {
+                  "form": "吠",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-CONTROL-吠"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "向外喷出/犬叫",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-REJ-吠",
+                      "value": "fèi",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-CONTROL-吠"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-CONTROL-吠"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-CONTROL-吠"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-B",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-REJ-吠",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "candidate",
+                "decision": "rejected",
+                "semantic_fit": {
+                  "fit": "mismatch",
+                  "confidence": "Medium",
+                  "rationale": "口部动作不等于张口；音组不能补语义。",
+                  "source_refs": [
+                    "ABEY-CONTROL-吠"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-CONTROL-吠",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-吠"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "口部动作不等于张口；音组不能补语义。"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-吠"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "口部动作不等于张口；音组不能补语义。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              }
+            ],
+            "review": {
+              "status": "reviewed",
+              "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+              "date": "2026-09-19",
+              "note": "Research publication with explicit gaps; not independent expert confirmation"
+            }
+          },
+          {
+            "stage_mapping_id": "SM-ABE-C",
+            "stage_ref": "ABE-C",
+            "selection_reasons": [
+              "semantic_change",
+              "explanatory_value",
+              "protocol_test"
+            ],
+            "freeze": {
+              "version": "0.2",
+              "meaning_note": "ASPIRE / DESIRE; hopeful expectation, not prediction",
+              "excluded_senses": [
+                "Strict antonymization",
+                "Unscoped mouth activity",
+                "Cross-language common origin"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin",
+                  "Historical character sense",
+                  "Dialect"
+                ],
+                "phonological_layers": [
+                  "Modern Mandarin",
+                  "Dialect; source notations retained"
+                ],
+                "semantic_seeds": [
+                  "ASPIRE / DESIRE; hopeful expectation, not prediction"
+                ],
+                "consonant_hypotheses": [
+                  "b-only baseline",
+                  "b-p-m-f expansion"
+                ],
+                "note": "Bounded Discovery v1 and publication audit; not exhaustive Chinese lexicon"
+              },
+              "run_refs": [
+                "ABEY-PILOT-AUDIT"
+              ],
+              "stop_reason": "巴 and 盼 shortlisted for desire; historical sound and earliest Chinese desire attestations pending"
+            },
+            "candidates": [
+              {
+                "candidate_id": "C-BA",
+                "family_key": "巴",
+                "target": {
+                  "form": "巴",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-BA",
+                      "ABEY-WISH",
+                      "ABEY-ZD-BAWANG",
+                      "ABEY-ZD-BADE"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "盼望；巴望/巴不得表达愿望",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-C-BA",
+                      "value": "bā",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-BA",
+                          "ABEY-WISH",
+                          "ABEY-ZD-BAWANG",
+                          "ABEY-ZD-BADE"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-BA",
+                        "ABEY-WISH",
+                        "ABEY-ZD-BAWANG",
+                        "ABEY-ZD-BADE"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-BA",
+                    "ABEY-WISH",
+                    "ABEY-ZD-BAWANG",
+                    "ABEY-ZD-BADE"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-C",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-C-BA",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "direct",
+                  "confidence": "Medium",
+                  "rationale": "愿望义强于 OPEN-MOUTH；不通过嘴巴后缀倒推。古义首见和 Old French 音值 pending。",
+                  "source_refs": [
+                    "ABEY-BA",
+                    "ABEY-WISH",
+                    "ABEY-ZD-BAWANG",
+                    "ABEY-ZD-BADE"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "bā begins [p]; modern French [b] differs in voicing",
+                    "vowel": "[a] partial modern-reference overlap",
+                    "coda_other_consonants": "Modern bayer has [j] and second vowel; no whole-form identity",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-BA",
+                    "ABEY-WISH",
+                    "ABEY-ZD-BAWANG",
+                    "ABEY-ZD-BADE",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "direct",
+                    "source_refs": [
+                      "ABEY-BA",
+                      "ABEY-WISH",
+                      "ABEY-ZD-BAWANG",
+                      "ABEY-ZD-BADE"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "愿望义强于 OPEN-MOUTH；不通过嘴巴后缀倒推。古义首见和 Old French 音值 pending。"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-BA",
+                      "ABEY-WISH",
+                      "ABEY-ZD-BAWANG",
+                      "ABEY-ZD-BADE"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [
+                  "Word constructions do not automatically establish every standalone sense",
+                  "Do not transfer OC snake/place reconstruction to desire"
+                ],
+                "discovery_priority": "high",
+                "decision_reason": "愿望义强于 OPEN-MOUTH；不通过嘴巴后缀倒推。古义首见和 Old French 音值 pending。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "C-PAN",
+                "family_key": "盼",
+                "target": {
+                  "form": "盼",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-PAN",
+                      "ABEY-WISH",
+                      "ABEY-ZD-PAN"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "希望、想望；盼望",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-C-PAN",
+                      "value": "pàn",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-PAN",
+                          "ABEY-WISH",
+                          "ABEY-ZD-PAN"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-PAN",
+                        "ABEY-WISH",
+                        "ABEY-ZD-PAN"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-PAN",
+                    "ABEY-WISH",
+                    "ABEY-ZD-PAN"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-C",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-C-PAN",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "candidate",
+                "decision": "shortlisted",
+                "semantic_fit": {
+                  "fit": "direct",
+                  "confidence": "Medium",
+                  "rationale": "C 阶段强语义 p- 候选；古代美目义不能给愿望义定年。",
+                  "source_refs": [
+                    "ABEY-PAN",
+                    "ABEY-WISH",
+                    "ABEY-ZD-PAN"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "pàn begins [pʰ], not French [b]",
+                    "vowel": "a is a limited modern-reference similarity",
+                    "coda_other_consonants": "-n unmatched in modern bayer",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-PAN",
+                    "ABEY-WISH",
+                    "ABEY-ZD-PAN",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "direct",
+                    "source_refs": [
+                      "ABEY-PAN",
+                      "ABEY-WISH",
+                      "ABEY-ZD-PAN"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "C 阶段强语义 p- 候选；古代美目义不能给愿望义定年。"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-PAN",
+                      "ABEY-WISH",
+                      "ABEY-ZD-PAN"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "high",
+                "decision_reason": "C 阶段强语义 p- 候选；古代美目义不能给愿望义定年。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "C-MU",
+                "family_key": "慕",
+                "target": {
+                  "form": "慕",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-CONTROL-慕"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "向往、仰慕",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-C-MU",
+                      "value": "mù",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-CONTROL-慕"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-CONTROL-慕"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-CONTROL-慕"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-C",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-C-MU",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "candidate",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "DESIRE 候选但现代参照音弱；保留不挤入展示。",
+                  "source_refs": [
+                    "ABEY-CONTROL-慕"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-CONTROL-慕",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-慕"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "DESIRE 候选但现代参照音弱；保留不挤入展示。"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-慕"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "DESIRE 候选但现代参照音弱；保留不挤入展示。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "CTRL-ABE-C-八",
+                "family_key": "八",
+                "target": {
+                  "form": "八",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-CONTROL-八"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "数字八",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-CTRL-ABE-C-八",
+                      "value": "bā",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-CONTROL-八"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-CONTROL-八"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-CONTROL-八"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-C",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-CTRL-ABE-C-八",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "sound_control",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "mismatch",
+                  "confidence": "Medium",
+                  "rationale": "Similar bā sound, unrelated numeral meaning",
+                  "source_refs": [
+                    "ABEY-CONTROL-八"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-CONTROL-八",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-八"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "Similar bā sound, unrelated numeral meaning"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-八"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "Similar bā sound, unrelated numeral meaning",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              }
+            ],
+            "review": {
+              "status": "reviewed",
+              "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+              "date": "2026-09-19",
+              "note": "Research publication with explicit gaps; not independent expert confirmation"
+            }
+          },
+          {
+            "stage_mapping_id": "SM-ABE-D",
+            "stage_ref": "ABE-D",
+            "selection_reasons": [
+              "semantic_change",
+              "explanatory_value",
+              "protocol_test"
+            ],
+            "freeze": {
+              "version": "0.2",
+              "meaning_note": "Legal suspension: temporarily without claimant or owner",
+              "excluded_senses": [
+                "Strict antonymization",
+                "Unscoped mouth activity",
+                "Cross-language common origin"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "pending",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin",
+                  "Historical character sense",
+                  "Dialect"
+                ],
+                "phonological_layers": [
+                  "Modern Mandarin",
+                  "Dialect; source notations retained"
+                ],
+                "semantic_seeds": [
+                  "Legal suspension: temporarily without claimant or owner"
+                ],
+                "consonant_hypotheses": [
+                  "b-only baseline",
+                  "b-p-m-f expansion"
+                ],
+                "note": "Bounded Discovery v1 and publication audit; not exhaustive Chinese lexicon"
+              },
+              "run_refs": [
+                "ABEY-PILOT-AUDIT"
+              ],
+              "stop_reason": "待 does not encode legal ownership/title gap; no selected phonetic-semantic mapping"
+            },
+            "candidates": [
+              {
+                "candidate_id": "CTRL-ABE-D-待",
+                "family_key": "待",
+                "target": {
+                  "form": "待",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-CONTROL-待"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "等待",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-CTRL-ABE-D-待",
+                      "value": "dài",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-CONTROL-待"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-CONTROL-待"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-CONTROL-待"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-D",
+                  "source_pronunciation_ref": null,
+                  "target_pronunciation_ref": "PR-CTRL-ABE-D-待",
+                  "source_span": "whole historical form; reliable historical IPA pending",
+                  "scope": "semantic_only",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": false,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "meaning_control",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "等待是组外语义控制，不完整表达法律权属空缺或暂时停用状态。",
+                  "source_refs": [
+                    "ABEY-CONTROL-待"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Historical source IPA pending; modern French [baje] is a labelled comparator only, not Old French evidence",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-CONTROL-待",
+                    "ABEY-CNRTL"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-待"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "Semantic control outside labial group"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "No Old French IPA invented"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-待"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "等待是组外语义控制，不完整表达法律权属空缺或暂时停用状态。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              }
+            ],
+            "review": {
+              "status": "reviewed",
+              "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+              "date": "2026-09-19",
+              "note": "Research publication with explicit gaps; not independent expert confirmation"
+            }
+          },
+          {
+            "stage_mapping_id": "SM-ABE-E",
+            "stage_ref": "ABE-E",
+            "selection_reasons": [
+              "semantic_change",
+              "explanatory_value",
+              "protocol_test"
+            ],
+            "freeze": {
+              "version": "0.2",
+              "meaning_note": "TEMPORARY SUSPENSION / INACTIVITY",
+              "excluded_senses": [
+                "Strict antonymization",
+                "Unscoped mouth activity",
+                "Cross-language common origin"
+              ],
+              "status": "editor_reviewed"
+            },
+            "search": {
+              "status": "candidates_recorded",
+              "scope": {
+                "lexical_layers": [
+                  "Modern Mandarin",
+                  "Historical character sense",
+                  "Dialect"
+                ],
+                "phonological_layers": [
+                  "Modern Mandarin",
+                  "Dialect; source notations retained"
+                ],
+                "semantic_seeds": [
+                  "TEMPORARY SUSPENSION / INACTIVITY"
+                ],
+                "consonant_hypotheses": [
+                  "b-only baseline",
+                  "b-p-m-f expansion"
+                ],
+                "note": "Bounded Discovery v1 and publication audit; not exhaustive Chinese lexicon"
+              },
+              "run_refs": [
+                "ABEY-PILOT-AUDIT"
+              ],
+              "stop_reason": "闭 reserved as modern cognitive candidate, not literal translation"
+            },
+            "candidates": [
+              {
+                "candidate_id": "C-BI",
+                "family_key": "闭",
+                "target": {
+                  "form": "闭",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-ZD-BI"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "关闭、停止",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-C-BI",
+                      "value": "bì",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-ZD-BI"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-ZD-BI"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-ZD-BI"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-E",
+                  "source_pronunciation_ref": "PR-ABE-EN",
+                  "target_pronunciation_ref": "PR-C-BI",
+                  "source_span": "/beɪ/ stressed syllable",
+                  "scope": "syllable",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": true,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "candidate",
+                "decision": "proposed",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "只作现代停止/关闭的认知联想；单字不编码暂时、待恢复及法律悬置。",
+                  "source_refs": [
+                    "ABEY-ZD-BI"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "weak",
+                  "confidence": "Low",
+                  "rationale": "Modern /beɪ/ and bì differ in voicing and vowel; whole word has extra syllables",
+                  "features": {
+                    "onset": "/b/ versus [p]: voicing differs",
+                    "vowel": "/eɪ/ versus /i/",
+                    "coda_other_consonants": "Whole abeyance also contains /ns/",
+                    "syllables": "3 versus 1; comparison restricted to stressed syllable",
+                    "prosody": "Mandarin falling tone is not English stress"
+                  },
+                  "source_refs": [
+                    "ABEY-ZD-BI",
+                    "ABEY-CAM"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-ZD-BI"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "只作现代停止/关闭的认知联想；单字不编码暂时、待恢复及法律悬置。"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "direct",
+                    "source_refs": [
+                      "ABEY-CAM"
+                    ],
+                    "locator": null,
+                    "note": "Modern English reference"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-ZD-BI"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "只作现代停止/关闭的认知联想；单字不编码暂时、待恢复及法律悬置。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              },
+              {
+                "candidate_id": "CTRL-ABE-E-待",
+                "family_key": "待",
+                "target": {
+                  "form": "待",
+                  "lexical_layer": "Modern Mandarin",
+                  "language_variety": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern documented use; earliest desire/open sense not established",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "ABEY-CONTROL-待"
+                    ]
+                  },
+                  "meaning": {
+                    "gloss": "等待",
+                    "pos": null,
+                    "constraints": [
+                      "Only the stated sense; not every use of the character"
+                    ]
+                  },
+                  "pronunciations": [
+                    {
+                      "pronunciation_id": "PR-CTRL-ABE-E-待",
+                      "value": "dài",
+                      "notation": "pinyin",
+                      "phonological_layer": "Modern Mandarin",
+                      "period": {
+                        "label": "Modern reference",
+                        "start_year": null,
+                        "end_year": null,
+                        "basis": "modern_reference",
+                        "source_refs": [
+                          "ABEY-CONTROL-待"
+                        ]
+                      },
+                      "variety": "Modern Mandarin",
+                      "system": "Broad reference transcription; not acoustic measurement",
+                      "status": "documented",
+                      "source_refs": [
+                        "ABEY-CONTROL-待"
+                      ]
+                    }
+                  ],
+                  "source_refs": [
+                    "ABEY-CONTROL-待"
+                  ]
+                },
+                "comparison": {
+                  "source_stage_ref": "ABE-E",
+                  "source_pronunciation_ref": "PR-ABE-EN",
+                  "target_pronunciation_ref": "PR-CTRL-ABE-E-待",
+                  "source_span": "/beɪ/ stressed syllable",
+                  "scope": "syllable",
+                  "hypothesis": {
+                    "group": "b-p-m-f",
+                    "hit": false,
+                    "position": "Exploratory labial-group target; no established cross-language sound law",
+                    "version": "0.2"
+                  }
+                },
+                "role": "meaning_control",
+                "decision": "reserved",
+                "semantic_fit": {
+                  "fit": "partial",
+                  "confidence": "Medium",
+                  "rationale": "等待是组外语义控制，不完整表达法律权属空缺或暂时停用状态。",
+                  "source_refs": [
+                    "ABEY-CONTROL-待"
+                  ]
+                },
+                "phonetic_fit": {
+                  "fit": "not_evaluated",
+                  "confidence": "Low",
+                  "rationale": "Modern /beɪ/ and bì differ in voicing and vowel; whole word has extra syllables",
+                  "features": {
+                    "onset": "Modern Mandarin b=[p], p=[pʰ], m=[m]; group membership alone is not sound fit",
+                    "vowel": "Compare actual vowels; spelling is insufficient",
+                    "coda_other_consonants": "No silent deletion of unmatched segments",
+                    "syllables": "Whole historical form cannot inherit a single Chinese syllable score",
+                    "prosody": "Chinese tone is not French/English stress; dialect category is not contour"
+                  },
+                  "source_refs": [
+                    "ABEY-CONTROL-待",
+                    "ABEY-CAM"
+                  ]
+                },
+                "evidence": [
+                  {
+                    "claim_scope": "chinese_sense",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-待"
+                    ],
+                    "locator": "See reference locators",
+                    "note": "Semantic control outside labial group"
+                  },
+                  {
+                    "claim_scope": "source_pronunciation",
+                    "status": "direct",
+                    "source_refs": [
+                      "ABEY-CAM"
+                    ],
+                    "locator": null,
+                    "note": "Modern English reference"
+                  },
+                  {
+                    "claim_scope": "historical_chinese_sense",
+                    "status": "pending",
+                    "source_refs": [],
+                    "locator": null,
+                    "note": "Original dated Mainland edition/attestation not obtained; modern meaning is not a first-attestation date"
+                  },
+                  {
+                    "claim_scope": "chinese_pronunciation",
+                    "status": "mediated",
+                    "source_refs": [
+                      "ABEY-CONTROL-待"
+                    ],
+                    "locator": "Pronunciation field / paper pp.55,59 for 擘",
+                    "note": "Pinyin or source notation only; dialect tone contour/locality pending"
+                  }
+                ],
+                "historical_relation": {
+                  "status": "Not claimed",
+                  "source_refs": [],
+                  "review_note": "No Chinese cognacy or borrowing claim"
+                },
+                "confounds": [],
+                "discovery_priority": "low",
+                "decision_reason": "等待是组外语义控制，不完整表达法律权属空缺或暂时停用状态。",
+                "review": {
+                  "status": "reviewed",
+                  "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+                  "date": "2026-09-19",
+                  "note": "Research publication with explicit gaps; not independent expert confirmation"
+                }
+              }
+            ],
+            "review": {
+              "status": "reviewed",
+              "reviewer": "AI-assisted pilot review; Jinkai Liu authorized implementation",
+              "date": "2026-09-19",
+              "note": "Research publication with explicit gaps; not independent expert confirmation"
+            }
+          }
+        ],
+        "display_selection": {
+          "featured_candidate_ref": null,
+          "stage_cards": [
+            {
+              "stage_mapping_ref": "SM-ABE-B",
+              "candidate_ref": null
+            },
+            {
+              "stage_mapping_ref": "SM-ABE-C",
+              "candidate_ref": "C-BA"
+            },
+            {
+              "stage_mapping_ref": "SM-ABE-E",
+              "candidate_ref": "C-BI"
+            }
+          ],
+          "review_status": "approved",
+          "reviewer": "AI-assisted editorial execution under Jinkai Liu authorization",
+          "reason": "Featured Mapping: Pending. No candidate yet combines sufficiently scoped phonetic evidence and complete lexical/locality verification. Stage cards may publish research candidates with gaps."
+        },
+        "historical_path": "*batare → baer/bayer (open; desire senses coexist) → Anglo-Norman abeiance (legal) → English abeyance; intermediate derivation under review",
+        "semantic_path": "OPEN → DESIRE (figurative); legal abeyance → modern temporary suspension. No strict antonymization.",
+        "boundary": {
+          "en": "Historical Relation: Not claimed. Featured selection is editorial, not an evidence grade. Missing historical pronunciation stays pending.",
+          "zh-Hans": "不主张与汉语有历史关系。Featured 是编辑选择，不是证据等级。历史音不明则 pending。"
+        }
       }
     },
     {

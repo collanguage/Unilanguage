@@ -1,6 +1,6 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.35",
+  "version": "1.2.36",
   "dataset_version": "1.2.23",
   "created_at": "2026-09-19",
   "canonical_dataset": "data/language-book.v1.0.json",
@@ -9,6 +9,36 @@
   "published_entry_count": 16,
   "candidate_mapping_count": 25,
   "files": [
+    {
+      "path": "js/diachronic-mapping.js",
+      "bytes": 6848,
+      "sha256": "961e9a7878db161152202563f128828b0f3d4300af598aded31cacdb1f1d7ba7"
+    },
+    {
+      "path": "scripts/build-abeyance-pilot.mjs",
+      "bytes": 3069,
+      "sha256": "ab9c0c30245f36e54333fa1eab473c665e56f5397c024e9f87644134980e62a3"
+    },
+    {
+      "path": "tests/diachronic-pilot.test.cjs",
+      "bytes": 3670,
+      "sha256": "7aac94347a235314ad16cbac2c2fdee64fcf0cc8fd99625ae64dd16c42126c9a"
+    },
+    {
+      "path": "tests/legacy-ui-compat.cjs",
+      "bytes": 763,
+      "sha256": "ef75d3b14f7d87fd29c4419aedb37ae753f5e4f01b37d5bfe87bec2213371af5"
+    },
+    {
+      "path": "docs/research/abeyance-pilot-v0.1.md",
+      "bytes": 9860,
+      "sha256": "f1520508c6b992349aebb193d06cb2324228d91a6d923afbb736c97c3e7192a6"
+    },
+    {
+      "path": "docs/research/abeyance-discovery-v1.0.md",
+      "bytes": 39305,
+      "sha256": "297db349a1718fb5cb8130c6ee1cdb2e64e7b626683566a89c142f404e03286d"
+    },
     {
       "path": "_redirects",
       "bytes": 25,
@@ -21,13 +51,13 @@
     },
     {
       "path": "data/language-book-entry.schema.v1.json",
-      "bytes": 15421,
-      "sha256": "48c4f37dd5b5b2a682eb357a6278c3c8cb47cc5fff3dfc578873093292909932"
+      "bytes": 46468,
+      "sha256": "90205469ace3f6d52e9095e05c264be1ef1b969c35fecd35fd3cd49cebbadf51"
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 1210515,
-      "sha256": "e119f510f336f71a66d7fefd4d7b441e0601b9b1493ddd3e08a2640d68990322"
+      "bytes": 1320995,
+      "sha256": "cb6fefb577e361bc97a4796f8049d2a1e51336b57b4520f35f8fe10355ccafcc"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -86,8 +116,8 @@
     },
     {
       "path": "data/entries/abeyance.v1.json",
-      "bytes": 29596,
-      "sha256": "acc316f0d65d3e748def7e1d985952d7bd6bdec0994d5d70fd298a201c7feb19"
+      "bytes": 129764,
+      "sha256": "319abb99925635639b559c5cecf4b47cc3c438946c8ee41e7e85c8eb33a83457"
     },
     {
       "path": "data/entries/abhor.v1.json",
@@ -206,8 +236,8 @@
     },
     {
       "path": "docs/language-book-entry-schema-v1.md",
-      "bytes": 18256,
-      "sha256": "bfe2ae72431ce028fa7c472884e3abe9893717012a369db7dfca32de911ec617"
+      "bytes": 19353,
+      "sha256": "d49a611c2e584d31dfcc253f89889ceaf2a7b04cbc0272358d48f562f84f5c3c"
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
@@ -236,8 +266,8 @@
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 19301,
-      "sha256": "8992837e31d9e0a0e30c457c79d6e8d5a61c1eb23afe713d961db3d75e2e3212"
+      "bytes": 19462,
+      "sha256": "165bcfa9b58d0046b87dfdaf71a5d7a6940f699151d40ffbe08ddcde1b93c552"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
@@ -286,13 +316,13 @@
     },
     {
       "path": "js/semantic-mapper.js",
-      "bytes": 23635,
-      "sha256": "f0eb411ce37b3e4e92e81bafed44b624f343371603b0a5fdab33dd50cd986142"
+      "bytes": 24088,
+      "sha256": "6cd18ab3d9c33db76a2af9b8e4f1c89bf409f8c4312bc16155bcc58abc99bc69"
     },
     {
       "path": "js/search.js",
-      "bytes": 6433,
-      "sha256": "5f3a6e9b76364c1b860c348570a44469613d3b5eb7d3558bafcb604d29e993d9"
+      "bytes": 6536,
+      "sha256": "3f5b9b80ae039449e1409814d829ae6d72488c856b78381067259473de0b723c"
     },
     {
       "path": "js/literary-tabs.js",
@@ -301,18 +331,18 @@
     },
     {
       "path": "semantic-mapper.html",
-      "bytes": 4052,
-      "sha256": "6b7a93bff32a8022b22a38f1c70038d4a7f9aa035c32be7aca3588c834f94636"
+      "bytes": 4101,
+      "sha256": "fbf4fe28f0496e8914d6161871ae55e2270c9befd95db4f26d57dd120c261108"
     },
     {
       "path": "dictionary.html",
-      "bytes": 3802,
-      "sha256": "ce117456bf053899cd7eca5968543b27a42aeb18a518af12215cca1baaa93e82"
+      "bytes": 3851,
+      "sha256": "b42f80cccb17edefe862cdef76d0e484ac87791f6c4239bd1cf54a04eff19ea2"
     },
     {
       "path": "search.html",
-      "bytes": 3929,
-      "sha256": "c9bff3a3ad90ccbbe1dad9d42d24a938c2e4eb559570c19add14a527364234b4"
+      "bytes": 3978,
+      "sha256": "f8839d026104d4911a6f82162c0c510f5f3d8f905103b00f1ad0c00e6a490868"
     },
     {
       "path": "data-foundation.html",
@@ -331,8 +361,8 @@
     },
     {
       "path": "tests/abdominal-split.test.cjs",
-      "bytes": 3103,
-      "sha256": "35dffff8220a9ceb3d0af162cc59013c1b969e59a49410ea2dee2fe12ddbc8d8"
+      "bytes": 3177,
+      "sha256": "de6ad302aa0e4bf6343bb501277f46adf958911917cdb44cdf85291b87e08630"
     },
     {
       "path": "words/abbreviation.html",
@@ -341,18 +371,18 @@
     },
     {
       "path": "tests/abbreviation-split.test.cjs",
-      "bytes": 2864,
-      "sha256": "0f9f267332101e57b08f8d50199dc580d6e690fad3fecbee4fa7588979f5fff3"
+      "bytes": 2938,
+      "sha256": "85fe134818d3fd748b7b827b10b0609890984028ef33f5e63e09b42fc2c391af"
     },
     {
       "path": "words/abeyance.html",
-      "bytes": 11265,
-      "sha256": "3c67bdbf7078c43fc82b3b5362d46be5132ca3cf548c717acf7ee0b943b766cf"
+      "bytes": 39730,
+      "sha256": "99d83b1077ba13903c3e1a63d91e862c6026683673d3ee78674318ed3c715571"
     },
     {
       "path": "tests/abeyance-recalibration.test.cjs",
-      "bytes": 3633,
-      "sha256": "8f76bca48f966769ad7dd444f9732dc079d42cd7ac30cb9ad5ce82429360ed09"
+      "bytes": 3728,
+      "sha256": "7529bcd0fb621884e0f27e2204b7f178f1d40a21106c3a5bab717553170153a0"
     },
     {
       "path": "words/aberrant.html",
@@ -361,8 +391,8 @@
     },
     {
       "path": "tests/aberrant-recalibration.test.cjs",
-      "bytes": 6370,
-      "sha256": "88a3c2af7eb27a101ed2db6079d3929b41b61bbc561f7a3a561150619192b298"
+      "bytes": 6444,
+      "sha256": "62dc493b8450bc425ca47df0e94e814f7ef9d226f74095ae41cf382b5767ca55"
     },
     {
       "path": "protocol/protocol.mapping-framework.html",
@@ -381,8 +411,8 @@
     },
     {
       "path": "tests/abbreviate-recalibration.test.cjs",
-      "bytes": 7045,
-      "sha256": "a1327dbec6a630eefd5453712df34efb50910676ed451cc279fb5e92dedd0bf9"
+      "bytes": 7119,
+      "sha256": "86b6d7edb8af5a749adc96d168167936f5c742c1a1ca004a75dd7151387c6651"
     },
     {
       "path": "words/abdicate.html",
@@ -396,8 +426,8 @@
     },
     {
       "path": "tests/abdicate-recalibration.test.cjs",
-      "bytes": 7281,
-      "sha256": "156a4305af6005c8c1219743f999cd9afb36bf3be286f2cb1f5f60ce1e53ca74"
+      "bytes": 7355,
+      "sha256": "38a484a3746297f6679b0aa619defb4095fd1ef72d7dbfb936c2d363f28a64fb"
     },
     {
       "path": "words/horse.html",
@@ -446,8 +476,8 @@
     },
     {
       "path": "tests/abhor-recalibration.test.cjs",
-      "bytes": 13063,
-      "sha256": "aad3808d62c642c7fbfcc2c52447c2b173f17850d8ab0ccbfcdb3d910b1b2a23"
+      "bytes": 13137,
+      "sha256": "accfba866cdd7140ba7b8782fbe6073668db07f5e7131438c17841a17255c880"
     },
     {
       "path": "words/new.html",
