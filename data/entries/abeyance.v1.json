@@ -2,8 +2,8 @@
   "id": "LB-en-abeyance-024",
   "slug": "abeyance",
   "title": {
-    "en": "abeyance · Legacy Website Import",
-    "zh-Hans": "abeyance · 旧站导入"
+    "en": "ABEYANCE ↔ 闭 bì · 暂缓／搁置",
+    "zh-Hans": "ABEYANCE ↔ 闭 bì · 暂缓／搁置"
   },
   "languages": [
     {
@@ -11,15 +11,30 @@
       "code": "en",
       "name": "English",
       "word": "abeyance",
-      "pronunciation": "not recorded",
-      "part_of_speech": "noun · 名词"
+      "pronunciation": "/əˈbeɪ.əns/",
+      "part_of_speech": "uncountable noun · 不可数名词"
     },
     {
       "role": "standard-translation",
       "code": "zh-Hans",
       "name": "Chinese",
-      "word": "暂缓／中止状态",
-      "pronunciation": "zànhuǎn / zhōngzhǐ"
+      "word": "暂缓／搁置",
+      "pronunciation": "zànhuǎn / gēzhì"
+    },
+    {
+      "role": "featured-candidate",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "闭",
+      "pronunciation": "bì [pi˥˧] (ZDIC transcription)"
+    },
+    {
+      "role": "standard-equivalent-phrase",
+      "code": "fr",
+      "name": "French",
+      "word": "en suspens",
+      "pronunciation": "not recorded",
+      "part_of_speech": "phrase; corresponds to in abeyance"
     }
   ],
   "primary_mapping": {
@@ -27,25 +42,25 @@
     "source": {
       "language": "English",
       "word": "abeyance",
-      "pronunciation": "not recorded"
+      "pronunciation": "/əˈbeɪ.əns/"
     },
     "target": {
       "language": "Chinese",
-      "word": "暂缓／中止状态",
-      "pronunciation": "zànhuǎn / zhōngzhǐ"
+      "word": "暂缓／搁置",
+      "pronunciation": "zànhuǎn / gēzhì"
     },
     "gloss": {
-      "en": "temporary inactivity, suspension or non-use",
-      "zh-Hans": "暂时停止、搁置或不使用的状态"
+      "en": "A state of temporary inactivity or suspension; commonly in abeyance.",
+      "zh-Hans": "暂时停止、搁置或未生效的状态；常见搭配 in abeyance。"
     },
     "meaning": {
-      "en": "temporary inactivity, suspension or non-use. The standard mapping is independent from the legacy sound hypothesis.",
-      "zh-Hans": "暂时停止、搁置或不使用的状态。标准词义 Mapping 与旧站声音假说独立。"
+      "en": "Abeyance is a noun naming temporary suspension, not permanent termination. Featured 闭 bì supplies a partial close/stop association; it is not the standard translation.",
+      "zh-Hans": "abeyance 是表示暂时搁置状态的名词，不等于永久终止。特色“闭 bì”提供关闭／停止的局部联想，不是标准译词。"
     },
     "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
     "rationale": {
-      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
-      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+      "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+      "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
     }
   },
   "entry_status": "Reviewed",
@@ -57,15 +72,15 @@
       "status": "Established",
       "confidence": "High",
       "summary": {
-        "en": "Abeyance entered through Anglo-French abeyaunce, from a verb meaning ‘gape, wait expectantly’; it is not formed from a negative a- plus bey.",
-        "zh-Hans": "abeyance 经盎格鲁法语 abeyaunce 进入英语，源自动词“张口、期待等候”；并非否定前缀 a- 加 bey。"
+        "en": "English abeyance was borrowed from Anglo-French abeyaunce, a succession/ownership term, from abaer/abair plus -ance. The verb contains a- from Latin ad- and baer/baier (gape); MW traces the latter to reconstructed Vulgar Latin *batāre, possibly imitative. This a- is not negative. The historical open/gape image is different from the proposed Chinese close image.",
+        "zh-Hans": "英语 abeyance 借自盎格鲁法语 abeyaunce（继承／权属悬置用语），来自 abaer／abair 加 -ance；动词中的 a- 源于拉丁 ad-，baer／baier 指张口。MW 将后者追至重构通俗拉丁语 *batāre，拟声来源仅为可能。这里的 a- 不是否定；历史上的张开意象不同于候选“闭”的关闭意象。"
       },
       "items": [
         {
           "evidence_id": "HIST-ABEYANCE-001",
           "claim": {
-            "en": "Abeyance entered through Anglo-French abeyaunce, from a verb meaning ‘gape, wait expectantly’; it is not formed from a negative a- plus bey.",
-            "zh-Hans": "abeyance 经盎格鲁法语 abeyaunce 进入英语，源自动词“张口、期待等候”；并非否定前缀 a- 加 bey。"
+            "en": "English abeyance was borrowed from Anglo-French abeyaunce, a succession/ownership term, from abaer/abair plus -ance. The verb contains a- from Latin ad- and baer/baier (gape); MW traces the latter to reconstructed Vulgar Latin *batāre, possibly imitative. This a- is not negative. The historical open/gape image is different from the proposed Chinese close image.",
+            "zh-Hans": "英语 abeyance 借自盎格鲁法语 abeyaunce（继承／权属悬置用语），来自 abaer／abair 加 -ance；动词中的 a- 源于拉丁 ad-，baer／baier 指张口。MW 将后者追至重构通俗拉丁语 *batāre，拟声来源仅为可能。这里的 a- 不是否定；历史上的张开意象不同于候选“闭”的关闭意象。"
           },
           "status": "Established",
           "confidence": "High",
@@ -82,119 +97,121 @@
       "status": "Candidate",
       "confidence": "Low",
       "summary": {
-        "en": "The author compares the written segment bey with 闭 bì. This is a modern surface resemblance, not a regular correspondence.",
-        "zh-Hans": "作者把书写片段 bey 与“闭”bì 比较；这是现代词形音近，不是规律对应。"
+        "en": "Abeyance /əˈbeɪ.əns/ has three syllables and second-syllable stress. Compare only /beɪ/ with 闭 bì [pi˥˧] as transcribed by ZDIC: /b/ and [p] share bilabial stop place/manner but differ in voicing; /eɪ/ is a diphthong, [i] a monophthong. Mandarin fourth tone is lexical; English stress is not that tone. The full word adds /ə/ and /əns/. Partial surface similarity is not homophony.",
+        "zh-Hans": "abeyance /əˈbeɪ.əns/ 为三音节，第二音节重读。只比较 /beɪ/ 与汉典所标闭 bì [pi˥˧]：/b/ 与 [p] 同为双唇塞音，但清浊不同；/eɪ/ 是双元音，[i] 是单元音。普通话去声是词汇声调，英语重音并不等于该声调；整词另有 /ə/ 与 /əns/。只属局部表面音近，不是同音。"
       },
       "items": [
         {
           "evidence_id": "PHONSEM-ABEYANCE-001",
           "claim": {
-            "en": "The author compares the written segment bey with 闭 bì. This is a modern surface resemblance, not a regular correspondence.",
-            "zh-Hans": "作者把书写片段 bey 与“闭”bì 比较；这是现代词形音近，不是规律对应。"
+            "en": "Abeyance /əˈbeɪ.əns/ has three syllables and second-syllable stress. Compare only /beɪ/ with 闭 bì [pi˥˧] as transcribed by ZDIC: /b/ and [p] share bilabial stop place/manner but differ in voicing; /eɪ/ is a diphthong, [i] a monophthong. Mandarin fourth tone is lexical; English stress is not that tone. The full word adds /ə/ and /əns/. Partial surface similarity is not homophony.",
+            "zh-Hans": "abeyance /əˈbeɪ.əns/ 为三音节，第二音节重读。只比较 /beɪ/ 与汉典所标闭 bì [pi˥˧]：/b/ 与 [p] 同为双唇塞音，但清浊不同；/eɪ/ 是双元音，[i] 是单元音。普通话去声是词汇声调，英语重音并不等于该声调；整词另有 /ə/ 与 /əns/。只属局部表面音近，不是同音。"
           },
           "status": "Candidate",
           "confidence": "Low",
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABEYANCE",
-            "REF-MW-ABEYANCE"
+            "ABEY-CAM",
+            "ABEY-ZD-BI"
           ]
         }
       ],
       "source_refs": [
-        "REF-LANGUAGESBOOK-ABEYANCE",
-        "REF-MW-ABEYANCE"
+        "ABEY-CAM",
+        "ABEY-ZD-BI"
       ]
     },
     "Cognitive": {
       "status": "Interpretive",
       "confidence": "Medium",
       "summary": {
-        "en": "SUSPENSION can be remembered as an activity being ‘closed’ for a time.",
-        "zh-Hans": "可把 SUSPENSION 记作一项活动暂时“关闭”。"
+        "en": "ACTIVE → TEMPORARILY INACTIVE ↔ OPEN → CLOSED is an interpretive model. The Chinese stop/end sense supplies a partial semantic overlap, but temporary duration and possible resumption must come from context. Closed worries in green rain are the author’s literary transformation, not a dictionary example of abeyance.",
+        "zh-Hans": "ACTIVE → TEMPORARILY INACTIVE ↔ OPEN → CLOSED 是解释性模型。“闭”的停止义提供局部语义交点，但暂时性及可恢复性需要语境补足。“雨中烦恼也关闭了”属于作者文学转换，不是 abeyance 的辞书例证。"
       },
       "items": [
         {
           "evidence_id": "COG-ABEYANCE-001",
           "claim": {
-            "en": "SUSPENSION can be remembered as an activity being ‘closed’ for a time.",
-            "zh-Hans": "可把 SUSPENSION 记作一项活动暂时“关闭”。"
+            "en": "ACTIVE → TEMPORARILY INACTIVE ↔ OPEN → CLOSED is an interpretive model. The Chinese stop/end sense supplies a partial semantic overlap, but temporary duration and possible resumption must come from context. Closed worries in green rain are the author’s literary transformation, not a dictionary example of abeyance.",
+            "zh-Hans": "ACTIVE → TEMPORARILY INACTIVE ↔ OPEN → CLOSED 是解释性模型。“闭”的停止义提供局部语义交点，但暂时性及可恢复性需要语境补足。“雨中烦恼也关闭了”属于作者文学转换，不是 abeyance 的辞书例证。"
           },
           "status": "Interpretive",
           "confidence": "Medium",
           "source_refs": [
-            "REF-LANGUAGESBOOK-ABEYANCE"
+            "ABEY-CAM",
+            "ABEY-ZD-BI",
+            "ABEY-AUTHOR-20260919"
           ]
         }
       ],
       "source_refs": [
-        "REF-LANGUAGESBOOK-ABEYANCE"
+        "ABEY-CAM",
+        "ABEY-ZD-BI",
+        "ABEY-AUTHOR-20260919"
       ]
     },
     "Speculative": {
-      "status": "Unestablished",
-      "confidence": "High",
+      "status": "Not claimed",
+      "confidence": "Low",
       "summary": {
-        "en": "闭 is a mnemonic translation association, not the source of abeyance.",
-        "zh-Hans": "“闭”是记忆性语义联想，不是 abeyance 的来源。"
+        "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+        "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
       },
       "items": [
         {
           "evidence_id": "SPEC-ABEYANCE-001",
           "claim": {
-            "en": "闭 is a mnemonic translation association, not the source of abeyance.",
-            "zh-Hans": "“闭”是记忆性语义联想，不是 abeyance 的来源。"
+            "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+            "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
           },
-          "status": "Unestablished",
-          "confidence": "High",
-          "source_refs": [
-            "REF-LANGUAGESBOOK-ABEYANCE",
-            "REF-MW-ABEYANCE"
-          ]
+          "status": "Not claimed",
+          "confidence": "Low",
+          "source_refs": []
         }
       ],
-      "source_refs": [
-        "REF-LANGUAGESBOOK-ABEYANCE",
-        "REF-MW-ABEYANCE"
-      ]
+      "source_refs": []
     }
   },
   "phonetic_observation": [
     {
       "observation_id": "PHON-ABEYANCE-001",
       "claim": {
-        "en": "The author compares the written segment bey with 闭 bì. This is a modern surface resemblance, not a regular correspondence.",
-        "zh-Hans": "作者把书写片段 bey 与“闭”bì 比较；这是现代词形音近，不是规律对应。"
+        "en": "Abeyance /əˈbeɪ.əns/ has three syllables and second-syllable stress. Compare only /beɪ/ with 闭 bì [pi˥˧] as transcribed by ZDIC: /b/ and [p] share bilabial stop place/manner but differ in voicing; /eɪ/ is a diphthong, [i] a monophthong. Mandarin fourth tone is lexical; English stress is not that tone. The full word adds /ə/ and /əns/. Partial surface similarity is not homophony.",
+        "zh-Hans": "abeyance /əˈbeɪ.əns/ 为三音节，第二音节重读。只比较 /beɪ/ 与汉典所标闭 bì [pi˥˧]：/b/ 与 [p] 同为双唇塞音，但清浊不同；/eɪ/ 是双元音，[i] 是单元音。普通话去声是词汇声调，英语重音并不等于该声调；整词另有 /ə/ 与 /əns/。只属局部表面音近，不是同音。"
       },
       "status": "Candidate",
       "limitations": {
-        "en": "Surface resemblance is not a regular cross-language sound correspondence and does not prove cognacy.",
-        "zh-Hans": "表面音近不是规律跨语言音变，也不能证明同源。"
-      }
+        "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+        "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
+      },
+      "compared_unit": "modern stressed syllable bey /beɪ/ ↔ 闭 bì",
+      "historical_root_claimed": false,
+      "whole_word_homophony": false
     }
   ],
   "semantic_structure": {
     "concepts": [
-      "ABEYANCE",
-      "ABEYANT",
-      "暂缓",
-      "中止"
+      "ACTIVITY",
+      "TEMPORARY SUSPENSION",
+      "CLOSE",
+      "STOP",
+      "RESUMPTION"
     ],
-    "relation": "abeyance → abeyant → 暂缓 → 中止",
+    "relation": "ACTIVE → TEMPORARILY INACTIVE ↔ OPEN → CLOSED",
     "status": "Interpretive"
   },
   "related_words": [
     {
       "word": "abeyant",
       "language": "English",
-      "relationship_type": "derivative",
+      "relationship_type": "historical back-formation",
       "family": "abeyance family",
       "relation_to_entry": {
-        "en": "Documented relation in the stated historical family.",
-        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+        "en": "Abeyant is an adjective meaning in abeyance, back-formed from abeyance; not merely temporary. Listed as a related word, not an alias for the noun.",
+        "zh-Hans": "abeyant 为形容词，表示处于搁置／暂缓状态，由 abeyance 逆构而来；不泛指“暂时”。作为相关词列出，不充当名词的检索别名。"
       },
       "status": "Established",
       "source_refs": [
-        "REF-MW-ABEYANCE"
+        "ABEY-MW-ADJ"
       ]
     },
     {
@@ -203,20 +220,34 @@
       "relationship_type": "phonetic-semantic candidate",
       "family": "independent Sinitic history",
       "relation_to_entry": {
-        "en": "Author comparison or semantic association only; not historical derivation.",
-        "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+        "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+        "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
       },
       "status": "Interpretive",
       "source_refs": [
-        "REF-LANGUAGESBOOK-ABEYANCE",
-        "REF-MW-ABEYANCE"
+        "ABEY-ZD-BI",
+        "ABEY-CAM"
+      ]
+    },
+    {
+      "word": "bay (inlet / bark)",
+      "language": "English",
+      "relationship_type": "legacy comparison; senses must be separated",
+      "family": "multiple dictionary histories",
+      "relation_to_entry": {
+        "en": "Bay as a sea inlet is a noun; bay as a prolonged bark is a verb (also a barking noun). MW gives a tentative baer connection for the inlet sense and an imitative abaier history for barking. Neither is a modern component of abeyance. Architectural bay is a separate opening-related sense.",
+        "zh-Hans": "bay“海湾”为名词；bay“长声吠叫”为动词（另有吠叫名词义）。MW 对海湾义与 baer 的关系仅标可能，吠叫义经拟声 abaier；二者都不是现代 abeyance 的构词成分。建筑间隔义另属开口相关义项。"
+      },
+      "status": "Under review",
+      "source_refs": [
+        "ABEY-MW-BAY"
       ]
     }
   ],
   "semantic_associations": [
     {
       "association_id": "ASSOC-ABEYANCE-001",
-      "relation": "SUSPENSION can be remembered as an activity being ‘closed’ for a time.",
+      "relation": "TEMPORARY SUSPENSION ↔ contextual temporary closure",
       "status": "Interpretive",
       "is_etymological": false
     }
@@ -232,16 +263,20 @@
       "status": "Candidate",
       "confidence": "Low",
       "supporting_cases": [
-        "abeyance",
-        "暂缓／中止状态"
+        "temporary inactivity",
+        "闭: close / stop",
+        "modern stressed syllable /beɪ/ only"
       ],
       "counterexamples": [
-        "闭 is a mnemonic translation association, not the source of abeyance.",
-        "No regular cross-language sound correspondence has been demonstrated."
+        "/beɪ/ versus [pi˥˧]: vowel, voicing and tone mismatch",
+        "闭 does not inherently mean temporary",
+        "Noun/state versus Chinese closing/stopping verb",
+        "Historical gape/open image is not Chinese close",
+        "No regular sound correspondence or experiment"
       ],
       "testability": {
-        "en": "Test phonetic similarity and semantic fit separately with blinded controls and independent historical review.",
-        "zh-Hans": "以盲法对照和独立词源核验分别测试声音相似度与语义适配。"
+        "en": "Blind-rate meaning and sound separately against unrelated matched syllables and stop/end controls. Do not count abeyant or bay as independent confirmation. No experiment has been run.",
+        "zh-Hans": "分别盲评语义与声音，设置匹配随机音节和停止／结束词作对照；不把 abeyant 或 bay 重复计作独立证据。尚未进行实验。"
       },
       "experiment_link": null,
       "source_refs": [
@@ -254,31 +289,50 @@
     {
       "counterevidence_id": "COUNTER-ABEYANCE-001",
       "statement": {
-        "en": "闭 is a mnemonic translation association, not the source of abeyance.",
-        "zh-Hans": "“闭”是记忆性语义联想，不是 abeyance 的来源。"
+        "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+        "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
       },
       "confidence": "High",
       "source_refs": [
-        "REF-LANGUAGESBOOK-ABEYANCE",
+        "ABEY-CAM",
+        "ABEY-ZD-BI",
         "REF-MW-ABEYANCE"
       ]
     }
   ],
   "experiments": [],
   "literary_layer": {
-    "status": "Preserved from legacy note",
+    "status": "Author text preserved",
     "is_historical_evidence": false,
     "proposition": {
-      "en": "SUSPENSION can be remembered as an activity being ‘closed’ for a time.",
-      "zh-Hans": "可把 SUSPENSION 记作一项活动暂时“关闭”。"
+      "en": "The worries were also closed in the rain.",
+      "zh-Hans": "雨中烦恼也关閉了。"
     },
-    "essay_prose": [],
+    "essay_prose": [
+      {
+        "work_id": "LB-ABEYANCE-GREEN-RAIN-001",
+        "title": {
+          "en": "Green Rain",
+          "zh-Hans": "绿色的雨"
+        },
+        "text": {
+          "en": "I silently watched the green rain. Because of the green background of many leaves, it was fun to draw the green on the paper with crayons. I temporarily forgot about the worries. The worries were also closed in the rain.",
+          "zh-Hans": "默默的看着绿色的雨中，因为有众多的叶子的绿色的陪衬，用蜡笔绘出纸上的绿色也成为乐趣，暂时忘记了這悠悠的烦恼。雨中烦恼也关閉了。"
+        },
+        "status": "Author original preserved verbatim"
+      }
+    ],
     "poem_lyrics": [],
-    "translations": [],
+    "translations": [
+      {
+        "language": "English",
+        "status": "Author-supplied English preserved verbatim; literary wording, not edited dictionary usage"
+      }
+    ],
     "archival_manuscript_media": [],
     "evidence_boundary": {
-      "en": "The legacy image may be developed as literature or mnemonic, but it is not historical evidence.",
-      "zh-Hans": "旧站意象可作为文学或记忆法展开，但不是历史证据。"
+      "en": "Both language versions are the author’s supplied original text. Closing worries is a literary image, not historical evidence or a standard bilingual definition.",
+      "zh-Hans": "中英文均逐字保留作者提供的原文；“关闭烦恼”是文学意象，不是历史证据或标准双语释义。"
     }
   },
   "media": [],
@@ -297,14 +351,62 @@
       "type": "dictionary",
       "url": "https://www.merriam-webster.com/dictionary/abeyance",
       "path": null,
-      "provenance": "external lexicographic reference; accessed 2026-09-01"
+      "provenance": "Specific entry rechecked 2026-09-19; Anglo-French path and separate modern suspension sense."
+    },
+    {
+      "reference_id": "ABEY-CAM",
+      "title": "Cambridge Dictionary: abeyance",
+      "type": "dictionary",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/abeyance",
+      "path": null,
+      "provenance": "Specific entry: noun, IPA, temporary suspension, Chinese gloss; checked 2026-09-19"
+    },
+    {
+      "reference_id": "ABEY-MW-ADJ",
+      "title": "Merriam-Webster: abeyant",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/abeyant",
+      "path": null,
+      "provenance": "Specific adjective and back-formation entry; checked 2026-09-19"
+    },
+    {
+      "reference_id": "ABEY-MW-BAY",
+      "title": "Merriam-Webster: bay",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/bay",
+      "path": null,
+      "provenance": "Separate inlet, bark and architectural senses; preserve perhaps in inlet etymology; checked 2026-09-19"
+    },
+    {
+      "reference_id": "ABEY-ZD-BI",
+      "title": "汉典：闭",
+      "type": "dictionary",
+      "url": "https://zdic.net/hans/闭",
+      "path": null,
+      "provenance": "大陆数字辞书平台；基本／详细解释及音标栏；不以古籍转录冒充直接书证; checked 2026-09-19"
+    },
+    {
+      "reference_id": "ABEY-CAM-FR",
+      "title": "Cambridge English–French: abeyance",
+      "type": "dictionary",
+      "url": "https://dictionary.cambridge.org/dictionary/english-french/abeyance",
+      "path": null,
+      "provenance": "in abeyance → en suspens; phrase equivalent, not historical form; checked 2026-09-19"
+    },
+    {
+      "reference_id": "ABEY-AUTHOR-20260919",
+      "title": "Jinkai Liu: abeyance note and Green Rain",
+      "type": "author-provided manuscript",
+      "url": null,
+      "path": null,
+      "provenance": "Supplied in this conversation 2026-09-19; both language versions preserved verbatim."
     }
   ],
   "author": "Jinkai Liu",
-  "version": "Legacy Website Import Batch 001 / Schema v1.0",
+  "version": "ABEYANCE focused legacy recalibration v1.1 / Schema v1.0",
   "dates": {
     "created": null,
-    "modified": "2026-09-01",
+    "modified": "2026-09-19",
     "published": null
   },
   "editorial_notes": [
@@ -315,20 +417,34 @@
     {
       "en": "闭 is a mnemonic translation association, not the source of abeyance.",
       "zh-Hans": "“闭”是记忆性语义联想，不是 abeyance 的来源。"
+    },
+    {
+      "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+      "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
+    },
+    {
+      "en": "C (Semantic / Cognitive) is retained after reassessment because stop/inactivity has a lexicographic semantic overlap; temporary suspension is only partial, and sound support is weak. This does not establish direct lexical equivalence.",
+      "zh-Hans": "复核后列 C（语义／认知）：停止／不活动具有辞书层面的语义交点，但暂时搁置仅局部适配，语音支持弱。不将 C 视作直接词义等同或实验证实。"
     }
   ],
   "search_terms": [
     "abeyance",
-    "abeyant",
     "暂缓",
     "中止",
     "搁置",
     "闭",
     "閉",
     "bey",
-    "suspension"
+    "suspension",
+    "in abeyance",
+    "held in abeyance",
+    "bì",
+    "en suspens",
+    "绿色的雨",
+    "雨中烦恼",
+    "green rain"
   ],
-  "page": null,
+  "page": "words/abeyance.html",
   "legacy": {
     "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
     "source_url": "https://languagesbook.com/glossary/a-bey-ance%ef%bc%8c%e5%ba%9f%ef%bc%9b%e4%b8%ad%e6%ad%a2/",
@@ -340,13 +456,126 @@
     "type": "author-published legacy website note",
     "author": "Jinkai Liu",
     "status": "Preserved; claims independently classified above",
-    "normalization": "Legacy title/body excerpt retained; punctuation normalized only where needed for readability.",
-    "raw_note": "abeyance，暂缓。闭 bi。bey 与閉 bi 同音。"
+    "normalization": "Legacy raw note and author supplement retained, including disputed spellings, segmentation, glosses and homophony claim. Calibrated interpretations are separate.",
+    "raw_note": "abeyance，暂缓。闭 bi。bey 与閉 bi 同音。\n\n[Author supplement supplied 2026-09-19; raw claims retained]\nabeyance，暂缓。闭bi。bey与閉bi同音\n英语\nabeyance [ə'beiəns] n. 终止\na.bey.ance\na- pref. 不\nabeyant [ə'beiənt] a. 暂时\nbay n. 湾，澳\nbay v. 狗吠声\n漢語\n闭【bi】v. 关闭\n例文\n默默的看着绿色的雨中，因为有众多的叶子的绿色的陪衬，用蜡笔绘出纸上的绿色也成为乐趣，暂时忘记了這悠悠的烦恼。雨中烦恼也关閉了。\n\nI silently watched the green rain. Because of the green background of many leaves, it was fun to draw the green on the paper with crayons. I temporarily forgot about the worries. The worries were also closed in the rain."
   },
   "batch": {
     "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
     "ordinal": 1,
     "disposition": "Candidate",
     "priority_score": 86.3
+  },
+  "translation_status": "Supported",
+  "standard_translation": {
+    "target": "暂缓／搁置",
+    "terms": [
+      "暂缓",
+      "搁置",
+      "暂时中止的状态"
+    ],
+    "part_of_speech": "noun",
+    "source_refs": [
+      "ABEY-CAM"
+    ],
+    "is_featured_mapping": false
+  },
+  "featured_mapping": {
+    "source": "ABEYANCE",
+    "target": "闭",
+    "reading": "bì",
+    "display_label": "Featured Cognitive / Phonetic-Semantic Candidate · 认知／音义候选",
+    "status": "Candidate · C / Low",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "Standard Translation ≠ Featured Mapping ≠ historical etymology. 闭 can mean close or stop, but does not inherently encode temporary suspension. The compared bey /beɪ/ is a modern stressed syllable, not a verified historical root. No homophony or historical relationship with Chinese is claimed.",
+      "zh-Hans": "标准翻译 ≠ 特色映射 ≠ 历史词源。“闭”有关闭、停止等义，但本身不必含“暂时搁置”。比较的 bey /beɪ/ 是现代重读音节，不是已证历史词根；不主张同音或与汉语有历史关系。"
+    },
+    "source_refs": [
+      "ABEY-CAM",
+      "ABEY-ZD-BI",
+      "REF-LANGUAGESBOOK-ABEYANCE"
+    ]
+  },
+  "transformation_mapping": {
+    "source": "Abstract temporary suspension",
+    "target": "Concrete closure / literary closure of worries",
+    "operation": "PAUSE / CLOSE",
+    "preserved": "Reduced current activity",
+    "lost": "The noun/state grammar and explicit temporary duration are not encoded by 闭 alone",
+    "created": "The rain closes worries as an authored image",
+    "status": "Candidate",
+    "historical_relation": "Not claimed"
+  },
+  "mapping_assessment": {
+    "rubric": "protocol/protocol.mapping-framework.html#evaluation",
+    "level": "C",
+    "confidence": "Low",
+    "method": "Qualitative editorial reassessment; no experiment, numeric measurement or probability claimed.",
+    "rationale": {
+      "en": "C (Semantic / Cognitive) is retained after reassessment because stop/inactivity has a lexicographic semantic overlap; temporary suspension is only partial, and sound support is weak. This does not establish direct lexical equivalence.",
+      "zh-Hans": "复核后列 C（语义／认知）：停止／不活动具有辞书层面的语义交点，但暂时搁置仅局部适配，语音支持弱。不将 C 视作直接词义等同或实验证实。"
+    }
+  },
+  "source_audit_pending": [
+    {
+      "title": "现代汉语词典",
+      "status": "pending",
+      "reason": "具体版本及闭词条未直接取得；不引未见页码，不以出版社介绍代替条目。"
+    },
+    {
+      "title": "新华字典",
+      "status": "pending",
+      "reason": "具体版本及闭词条未直接取得；不引未见页码，不以出版社介绍代替条目。"
+    },
+    {
+      "title": "汉语大词典",
+      "status": "pending",
+      "reason": "具体版本及闭词条未直接取得；不引未见页码，不以出版社介绍代替条目。"
+    },
+    {
+      "title": "汉语大字典",
+      "status": "pending",
+      "reason": "具体版本及闭词条未直接取得；不引未见页码，不以出版社介绍代替条目。"
+    },
+    {
+      "title": "辞源",
+      "status": "pending",
+      "reason": "具体版本及闭词条未直接取得；不引未见页码，不以出版社介绍代替条目。"
+    }
+  ],
+  "chinese_lexical_evidence": [
+    {
+      "claim_type": "modern_meaning",
+      "claim": "关、合；结束、停止；堵塞、不通。暂时性不是所有义项共有。",
+      "source_refs": [
+        "ABEY-ZD-BI"
+      ]
+    },
+    {
+      "claim_type": "phonology",
+      "claim": "bì 去声；汉典条目标 [pi˥˧]，此处按该来源记法保留，不混称其他调值。",
+      "source_refs": [
+        "ABEY-ZD-BI"
+      ]
+    },
+    {
+      "claim_type": "orthography",
+      "claim": "简体闭／繁体閉；原文中两种字形均保留。",
+      "source_refs": [
+        "ABEY-ZD-BI"
+      ]
+    }
+  ],
+  "legacy_calibration": {
+    "date": "2026-09-19",
+    "corrections": [
+      "abeyance: temporary suspension, not permanent termination",
+      "a- here comes from ad-, not negative a-",
+      "a.bey.ance is a modern mnemonic segmentation, not verified historical morphology",
+      "bey /beɪ/ and 闭 bì are not homophones",
+      "abeyant: in abeyance, back-formation, not generic temporary",
+      "bay inlet/bark/architecture require separate senses and qualified histories"
+    ],
+    "historical_unit_boundary": "No bey root is asserted; documented Anglo-French units remain in Historical evidence."
   }
 }

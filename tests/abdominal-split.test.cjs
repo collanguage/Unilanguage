@@ -41,7 +41,7 @@ test('The split preserves noun literature, unrelated records and frozen Mapper U
  const base='9db955b35a1af9626e622694ae6b0911dc9f110e';
  const get=f=>cp.execFileSync('git',['show',base+':'+f],{cwd:root,maxBuffer:20*1024*1024,encoding:'utf8'}).replace(/\r\n/g,'\n');
  const before=JSON.parse(get('data/language-book.v1.0.json'));
- const others=x=>!['aberrant','abdomen','abdominal'].includes(x.slug);
+ const others=x=>!['abeyance','aberrant','abdomen','abdominal'].includes(x.slug);
  assert.deepEqual(data.entries.filter(others),before.entries.filter(others));
  assert.deepEqual(n.literary_layer,before.entries.find(x=>x.slug==='abdomen').literary_layer);
  for(const f of ['js/semantic-mapper.js','semantic-mapper.html'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),get(f));

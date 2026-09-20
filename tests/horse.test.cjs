@@ -12,7 +12,7 @@ const baseline='443b57199ecdb6c1c86c777cc09cc8b83ddcc0c2';
 test('HORSE remains additive while the focused ABHOR record may advance independently',()=>{
  const before=JSON.parse(cp.execFileSync('git',['show',baseline+':data/language-book.v1.0.json'],{cwd:root,maxBuffer:12*1024*1024}));
  assert.equal(data.entries.length,42);
- assert.deepEqual(data.entries.filter(x=>!['aberrant','horse','abhor','abdicate','abbreviate','abbreviation','abdominal','abdomen'].includes(x.slug)),before.entries.filter(x=>!['aberrant','abhor','abdicate','abbreviate','abbreviation','abdominal','abdomen'].includes(x.slug)));
+ assert.deepEqual(data.entries.filter(x=>!['abeyance','aberrant','horse','abhor','abdicate','abbreviate','abbreviation','abdominal','abdomen'].includes(x.slug)),before.entries.filter(x=>!['abeyance','aberrant','abhor','abdicate','abbreviate','abbreviation','abdominal','abdomen'].includes(x.slug)));
  assert.deepEqual(data.entries.find(x=>x.slug==='horse'),e);
  for(const f of ['words/horizon.html','data/entries/horizon.v1.json'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),f);
  assert.equal(e.provenance.baseline_horse_entry_count,0);

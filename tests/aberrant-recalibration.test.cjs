@@ -6,7 +6,7 @@ test('ABERRANT recalibration preserves identity and all unrelated data and froze
  const get=f=>cp.execFileSync('git',['show',base+':'+f],{maxBuffer:20*1024*1024,encoding:'utf8'}).replace(/\r\n/g,'\n');
  const before=JSON.parse(get('data/language-book.v1.0.json'));
  assert.equal(d.entries.length,42);assert.equal(e.id,'LB-en-aberrant-011');assert.equal(d.entries.filter(x=>x.slug==='aberrant').length,1);
- assert.deepEqual(d.entries.filter(x=>x.slug!=='aberrant'),before.entries.filter(x=>x.slug!=='aberrant'));
+ assert.deepEqual(d.entries.filter(x=>!['aberrant','abeyance'].includes(x.slug)),before.entries.filter(x=>!['aberrant','abeyance'].includes(x.slug)));
  assert.deepEqual(d.entries.find(x=>x.slug==='aberrant'),e);
  assert.deepEqual(e.source,before.entries.find(x=>x.slug==='aberrant').source);
  for(const f of ['js/semantic-mapper.js','semantic-mapper.html',...['abbreviate','abdicate','abhor','horizon','horse','new','abandon'].map(x=>'words/'+x+'.html')])assert.equal(fs.readFileSync(f,'utf8').replace(/\r\n/g,'\n'),get(f),f);
