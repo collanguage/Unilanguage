@@ -536,7 +536,16 @@ const authoredEntries = fs.existsSync(authoredEntriesDirectory)
       .sort()
       .map((name) => JSON.parse(fs.readFileSync(path.join(authoredEntriesDirectory, name), "utf8")))
   : [];
-entries.push(...authoredEntries);
+// Approved core-entry migrations override their generated record in place.
+// Stable IDs/order/counts remain unchanged; all other authored entries append.
+for (const entry of authoredEntries) {
+  const index = entries.findIndex(existing => existing.id === entry.id);
+  if (index < 0) entries.push(entry);
+  else {
+    if (!['LB-en-universe-001', 'LB-en-man-001'].includes(entry.id)) throw new Error(`Unapproved core override: ${entry.id}`);
+    entries[index] = entry;
+  }
+}
 
 const dataset = {
   schema_version: "1.0.0",

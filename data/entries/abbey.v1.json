@@ -584,6 +584,54 @@
       "url": "https://www.nopss.gov.cn/n1/2019/1216/c418049-31508103.html",
       "path": null,
       "provenance": "全国哲学社会科学工作办公室，2019-12-16；accessed 2026-09-08. 报告引地方志父称材料，用于证明区域与历史变异存在；不用于确定各称谓全国首见年代。"
+    },
+    {
+      "reference_id": "B2-B-MW",
+      "title": "Merriam-Webster: abbey",
+      "type": "dictionary / research",
+      "url": "https://www.merriam-webster.com/dictionary/abbey",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    },
+    {
+      "reference_id": "B2-B-ABBOT",
+      "title": "Merriam-Webster: abbot",
+      "type": "dictionary / research",
+      "url": "https://www.merriam-webster.com/dictionary/abbot",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    },
+    {
+      "reference_id": "B2-B-BA",
+      "title": "汉典：爸",
+      "type": "dictionary / research",
+      "url": "https://zdic.net/hans/爸",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    },
+    {
+      "reference_id": "B2-B-FU",
+      "title": "汉典：父",
+      "type": "dictionary / research",
+      "url": "https://zdic.net/hans/父",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    },
+    {
+      "reference_id": "B2-B-DIE",
+      "title": "汉典：爹",
+      "type": "dictionary / research",
+      "url": "https://zdic.net/hans/爹",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    },
+    {
+      "reference_id": "B2-B-YE",
+      "title": "汉典：爷",
+      "type": "dictionary / research",
+      "url": "https://zdic.net/hans/爷",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
     }
   ],
   "author": "Jinkai Liu",
@@ -795,20 +843,1337 @@
     }
   },
   "featured_mapping": {
-    "source": "abbey",
+    "source": "abbā",
     "target": "爸",
-    "reading": "bà",
-    "display_label": "Root-level phonetic-semantic candidate · 词根音义候选：ABBA ↔ 爸（非整词等义）",
+    "reading": "bà [pa˥˩]",
+    "candidate_ref": "B2-B-BA",
+    "display_label": "Historical-unit Phonetic-Semantic Candidate",
     "status": "Candidate · Low confidence",
     "historical_relation": "Not claimed",
     "boundary": {
-      "en": "Kinship control: recurrent early-child / baby-talk articulatory patterns are an alternative explanation for similar father/mother terms across languages. ABBA ↔ 爸 is a root-level Phonetic-Semantic Candidate, not abbey’s translation and not evidence of Aramaic–Chinese cognacy. Historical Relation: Not claimed. This control is not a demonstrated origin story for this particular pair.",
-      "zh-Hans": "亲属称谓控制：跨语言父母称谓常出现相似的早期儿童／婴儿语发音模式，构成替代解释。ABBA ↔ 爸是词根级音义候选，不是 abbey 的标准翻译，也不是阿拉姆语与汉语历史同源的证据。Historical Relation: Not claimed。控制因素不等于已证明此词对的具体起源。"
+      "en": "Modern abbey = 修道院；historical abbā = father → 爸 bà Candidate。历史来源音值 Pending，不能把转写当 IPA。父／爹／爷分读义留 Research，阿比 Pending。",
+      "zh-Hans": "Modern abbey = 修道院；historical abbā = father → 爸 bà Candidate。历史来源音值 Pending，不能把转写当 IPA。父／爹／爷分读义留 Research，阿比 Pending。"
     },
     "source_refs": [
-      "REF-MW-ABBOT",
-      "REF-ZDIC-BA",
-      "REF-KINSHIP-CONTROL"
+      "B2-B-BA"
+    ]
+  },
+  "source_audit_pending": [
+    {
+      "title": "现代汉语词典",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    },
+    {
+      "title": "新华字典",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    },
+    {
+      "title": "汉语大词典",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    },
+    {
+      "title": "汉语大字典",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    },
+    {
+      "title": "辞源",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    }
+  ],
+  "standard_translation": {
+    "source": "abbey",
+    "target": "修道院",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "B2-B-MW"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-abbey-primary-xiudaoyuan",
+    "source": {
+      "language": "English",
+      "word": "abbey",
+      "pronunciation": "/ˈæbi/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "修道院",
+      "pronunciation": "xiūdàoyuàn"
+    },
+    "gloss": {
+      "en": "A monastery or convent governed by an abbot or abbess; also its buildings or church",
+      "zh-Hans": "由男修道院院长或女修道院院长主持的修道院，也可指其建筑或教堂"
+    },
+    "meaning": {
+      "en": "Standard Translation: abbey → 修道院 / 修院 · Supported. Root Mapping Candidate: ABBA ↔ 爸 bà (FATHER). Kinship control: early-child speech resemblance; historical Aramaic–Chinese relation Not claimed.",
+      "zh-Hans": "标准翻译：abbey → 修道院／修院 · Supported。词根候选：ABBA ↔ 爸 bà（父亲）。亲属称谓控制：早期儿童发音相似；阿拉姆语与汉语历史关系 Not claimed。"
+    },
+    "mapping_type": "Standard Translation · Supported; root candidate separately graded",
+    "rationale": {
+      "en": "The institution meaning and the FATHER root candidate are independently classified. Meaning first, consonant second. The abbey translation does not change to 爸.",
+      "zh-Hans": "机构词义与 FATHER 词根候选分别分级。Meaning first, consonant second.｜先定语义，再验辅音。abbey 的译词不改为爸。"
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "ARAMAIC",
+        "form": "abbā",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Aramaic",
+          "code": null
+        },
+        "period": {
+          "label": "Aramaic historical source; dialect and first attestation Pending",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "B2-B-ABBOT"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "father",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "B2-B-ABBOT"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      },
+      {
+        "stage_id": "LATE-LATIN",
+        "form": "abbās / abbāt-",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Late Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Late Antiquity; exact attestation Pending",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "B2-B-ABBOT"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "religious title / monastic superior",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "ARAMAIC",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "Via Late Greek abbâs; spiritual father/title distinguished from biological father.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "B2-B-ABBOT"
+            ]
+          }
+        ],
+        "source_refs": [
+          "B2-B-ABBOT"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      },
+      {
+        "stage_id": "MEDIEVAL-LATIN",
+        "form": "abbātia",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Medieval Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Medieval Latin; exact attestation Pending",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "B2-B-MW"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "abbacy / abbey",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "LATE-LATIN",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "Institution/office formation from abbāt-; no required Chinese mapping.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "B2-B-MW"
+            ]
+          }
+        ],
+        "source_refs": [
+          "B2-B-MW"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Retained to explain semantic development; no Chinese search selected."
+      },
+      {
+        "stage_id": "MODERN",
+        "form": "abbey",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Modern English; exact dates Pending",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "B2-B-MW"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "monastery / its buildings or church",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-ABBEY",
+            "value": "/ˈæbi/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "B2-B-MW"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "MEDIEVAL-LATIN",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "Via Anglo-French abeie/abbaye and Middle English. English abbot is a related word, not an ancestor.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "B2-B-MW"
+            ]
+          }
+        ],
+        "source_refs": [
+          "B2-B-MW"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-ARAMAIC",
+        "stage_ref": "ARAMAIC",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "father",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin",
+              "Historical character sense"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "father"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "B2-B-BA",
+            "family_key": "legacy-abbey",
+            "target": {
+              "form": "爸",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "口语父亲",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-B2-B-BA",
+                  "value": "bà [pa˥˩]",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "B2-B-BA"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "B2-B-BA"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "ARAMAIC",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-B2-B-BA",
+              "source_span": "abbā",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "Historical abbā = father → 爸 Candidate；不是现代 abbey 的标准翻译。亲属词偶合／儿童发音是替代解释，不是本词对已证明的起源。",
+              "source_refs": [
+                "B2-B-BA"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "B2-B-BA"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "B2-B-BA"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "B2-B-BA"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print dictionary specific edition/entry Pending; no page or quotation asserted."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Historical abbā = father → 爸 Candidate；不是现代 abbey 的标准翻译。亲属词偶合／儿童发音是替代解释，不是本词对已证明的起源。",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Historical abbā = father → 爸 Candidate；不是现代 abbey 的标准翻译。亲属词偶合／儿童发音是替代解释，不是本词对已证明的起源。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+            }
+          },
+          {
+            "candidate_id": "B2-B-FU",
+            "family_key": "legacy-abbey",
+            "target": {
+              "form": "父",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "父亲，不选 fǔ 尊称读法",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-B2-B-FU",
+                  "value": "fù",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "B2-B-FU"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "B2-B-FU"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "ARAMAIC",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-B2-B-FU",
+              "source_span": "abbā",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "Meaning control for father; not an undifferentiated synonym for abbey.",
+              "source_refs": [
+                "B2-B-FU"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "B2-B-FU"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "B2-B-FU"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "B2-B-FU"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print dictionary specific edition/entry Pending; no page or quotation asserted."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Meaning control for father; not an undifferentiated synonym for abbey.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Meaning control for father; not an undifferentiated synonym for abbey.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+            }
+          },
+          {
+            "candidate_id": "B2-B-DIE",
+            "family_key": "legacy-abbey",
+            "target": {
+              "form": "爹",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "父亲，不混入未核方言祖父义",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-B2-B-DIE",
+                  "value": "diē",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "B2-B-DIE"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "B2-B-DIE"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "ARAMAIC",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-B2-B-DIE",
+              "source_span": "abbā",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "Meaning control for father; not an undifferentiated synonym for abbey.",
+              "source_refs": [
+                "B2-B-DIE"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "B2-B-DIE"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "B2-B-DIE"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "B2-B-DIE"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print dictionary specific edition/entry Pending; no page or quotation asserted."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Meaning control for father; not an undifferentiated synonym for abbey.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Meaning control for father; not an undifferentiated synonym for abbey.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+            }
+          },
+          {
+            "candidate_id": "B2-B-YE",
+            "family_key": "legacy-abbey",
+            "target": {
+              "form": "爷",
+              "lexical_layer": "Historical character sense",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "历史父亲义；现代拼音不等于历史读音",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-B2-B-YE",
+                  "value": "yé",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "B2-B-YE"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "B2-B-YE"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "ARAMAIC",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-B2-B-YE",
+              "source_span": "abbā",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "Meaning control for father; not an undifferentiated synonym for abbey.",
+              "source_refs": [
+                "B2-B-YE"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "B2-B-YE"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "B2-B-YE"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "B2-B-YE"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print dictionary specific edition/entry Pending; no page or quotation asserted."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Meaning control for father; not an undifferentiated synonym for abbey.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Meaning control for father; not an undifferentiated synonym for abbey.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+            }
+          },
+          {
+            "candidate_id": "B2-B-ABI",
+            "family_key": "legacy-abbey",
+            "target": {
+              "form": "阿比",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "Original language/form/sense Pending",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [],
+              "source_refs": []
+            },
+            "comparison": {
+              "source_stage_ref": "ARAMAIC",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": null,
+              "source_span": "abbā",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Low",
+              "rationale": "Raw phonetic observation only; original script, language and referent unresolved.",
+              "source_refs": []
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical source pronunciation Pending. Spelling/group membership is not an evaluated sound match.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": []
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print dictionary specific edition/entry Pending; no page or quotation asserted."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Raw phonetic observation only; original script, language and referent unresolved.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Raw phonetic observation only; original script, language and referent unresolved.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-LATE-LATIN",
+        "stage_ref": "LATE-LATIN",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "religious title / monastic superior",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "pending",
+          "scope": {
+            "lexical_layers": [],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "religious title / monastic superior"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-MODERN",
+        "stage_ref": "MODERN",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "monastery / its buildings or church",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "monastery / its buildings or church"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "B2-B-STANDARD",
+            "family_key": "legacy-abbey",
+            "target": {
+              "form": "修道院",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "修道院／修院",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-B2-B-STANDARD",
+                  "value": "xiūdàoyuàn",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": []
+                }
+              ],
+              "source_refs": []
+            },
+            "comparison": {
+              "source_stage_ref": "MODERN",
+              "source_pronunciation_ref": "PR-ABBEY",
+              "target_pronunciation_ref": "ZH-B2-B-STANDARD",
+              "source_span": "abbey",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "Standard translation of the institution; not father.",
+              "source_refs": []
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Low",
+              "rationale": "Existing feature comparison retained; no acoustic measurement.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": []
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Editorial Chinese translation; English institution sense supported by MW. Mainland print entry Pending."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print dictionary specific edition/entry Pending; no page or quotation asserted."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Standard translation of the institution; not father.",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Standard translation of the institution; not father.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "B2-B-BA",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-ARAMAIC",
+          "candidate_ref": "B2-B-BA"
+        },
+        {
+          "stage_mapping_ref": "SM-LATE-LATIN",
+          "candidate_ref": null
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "Modern abbey = 修道院；historical abbā = father → 爸 bà Candidate。历史来源音值 Pending，不能把转写当 IPA。父／爹／爷分读义留 Research，阿比 Pending。"
+    },
+    "historical_path": "Aramaic abbā → Late Greek abbâs → Late Latin abbās / abbāt- → Medieval Latin abbātia → Anglo-French abeie/abbaye → Middle English → abbey",
+    "semantic_path": "FATHER → RELIGIOUS TITLE → OFFICE / INSTITUTION",
+    "boundary": {
+      "en": "Modern abbey = 修道院；historical abbā = father → 爸 bà Candidate。历史来源音值 Pending，不能把转写当 IPA。父／爹／爷分读义留 Research，阿比 Pending。",
+      "zh-Hans": "Modern abbey = 修道院；historical abbā = father → 爸 bà Candidate。历史来源音值 Pending，不能把转写当 IPA。父／爹／爷分读义留 Research，阿比 Pending。"
+    }
+  },
+  "legacy_migration": {
+    "version": "batch-2-0.1",
+    "baseline_commit": "158a2a4839de709569cb309b1966ebb6ff72f9d0",
+    "scope": "Read-only pre-freeze archive; superseded claims are not active evidence or current Featured choices.",
+    "previous_fields": {
+      "references": [
+        {
+          "reference_id": "REF-JL-ABBEY-RAW",
+          "title": "Jinkai Liu: abbey source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; normalized spelling and decoded HTML entities; research ideas preserved"
+        },
+        {
+          "reference_id": "REF-MW-ABBEY",
+          "title": "Merriam-Webster Dictionary: abbey",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/abbey",
+          "path": null,
+          "provenance": "external dictionary; accessed 2026-08-30; independently rechecked 2026-09-07"
+        },
+        {
+          "reference_id": "REF-CAMBRIDGE-ABBEY",
+          "title": "Cambridge Dictionary: abbey",
+          "type": "dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english/abbey",
+          "path": null,
+          "provenance": "external dictionary; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-CNRTL-ABBAYE",
+          "title": "CNRTL/TLFi: étymologie de abbaye",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/abbaye",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-08-30; independently rechecked 2026-09-07"
+        },
+        {
+          "reference_id": "REF-AF-ABBAYE",
+          "title": "Dictionnaire de l’Académie française, 9e édition: abbaye",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/definition/academie9/abbaye",
+          "path": null,
+          "provenance": "Académie française dictionary text via CNRTL; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-AF-ABBE",
+          "title": "Dictionnaire de l’Académie française, 9e édition: abbé",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/definition/academie9/abb%C3%A9",
+          "path": null,
+          "provenance": "Académie française dictionary text via CNRTL; accessed 2026-08-30; independently rechecked 2026-09-07"
+        },
+        {
+          "reference_id": "REF-CNRTL-ABBE",
+          "title": "CNRTL/TLFi: abbé",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/abb%C3%A9",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-08-30; independently rechecked 2026-09-07"
+        },
+        {
+          "reference_id": "REF-AF-ABBESSE",
+          "title": "Dictionnaire de l’Académie française, 9e édition: abbesse",
+          "type": "dictionary",
+          "url": "https://www.cnrtl.fr/definition/academie9/abbesse",
+          "path": null,
+          "provenance": "Académie française dictionary text via CNRTL; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-CNRTL-ABBESSE",
+          "title": "CNRTL/TLFi: étymologie de abbesse",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/abbesse",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-08-30"
+        },
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABBEY",
+          "title": "languagesbook.com legacy entry: abbey",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/abbey/",
+          "path": null,
+          "provenance": "author-published legacy website; source merged without overwriting the independently reviewed record"
+        },
+        {
+          "reference_id": "REF-MW-ABBOT",
+          "title": "Merriam-Webster: abbot",
+          "url": "https://www.merriam-webster.com/dictionary/abbot",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Late Greek abbâs and Aramaic abbā father; English abbot via Old English, not French abbé."
+        },
+        {
+          "reference_id": "REF-ETYMONLINE-ABBEY",
+          "title": "Etymonline: abbey / abbot",
+          "url": "https://www.etymonline.com/word/abbey",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. abbeie/abaïe; Late Latin label; father/my father gloss."
+        },
+        {
+          "reference_id": "REF-KINSHIP-CONTROL",
+          "title": "Hendery and McConvell: Mama and papa in Indigenous Australia",
+          "url": "https://researchers.westernsydney.edu.au/en/publications/mama-and-papa-in-indigenous-australia/",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Research abstract discusses recurrent infant-speech explanation and need for family-specific historical investigation."
+        },
+        {
+          "reference_id": "REF-JAKOBSON-CONTROL",
+          "title": "Roman Jakobson: Why Mama and Papa?",
+          "url": "https://www.degruyterbrill.com/document/doi/10.1515/9783110889598-002/html",
+          "path": null,
+          "type": "research reference",
+          "provenance": "Independently checked 2026-09-07. Bibliographic pointer for future full-text control review; not claimed read in full."
+        },
+        {
+          "reference_id": "REF-ZDIC-BA",
+          "title": "汉典：爸",
+          "type": "mainland digital lexicographic platform",
+          "url": "https://www.zdic.net/hans/爸",
+          "path": null,
+          "provenance": "汉典现行条目；用于爸的现代父称义；平台历史转录不作为首见年代证明；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+        },
+        {
+          "reference_id": "REF-ZDIC-DIE",
+          "title": "汉典：爹",
+          "type": "mainland digital lexicographic platform",
+          "url": "https://www.zdic.net/hans/爹",
+          "path": null,
+          "provenance": "汉典现行条目；用于爹的父称及其他称呼义；不推导全国统一替代时间线；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+        },
+        {
+          "reference_id": "REF-ZDIC-YE",
+          "title": "汉典：爷",
+          "type": "mainland digital lexicographic platform",
+          "url": "https://www.zdic.net/hans/爷",
+          "path": null,
+          "provenance": "汉典现行条目；用于爷的父亲、祖父与尊称等分层义；不推导全国统一替代时间线；accessed 2026-09-08. 汉典为大陆数字辞书平台，不冒充纸本辞书或所转录古籍的校勘本；古籍书证若未直接核对具体整理本，只按平台转录层级使用。"
+        },
+        {
+          "reference_id": "REF-NOPSS-SW-KINSHIP",
+          "title": "《明清以来西南官话区地方志方言俗语集成》中期检查报告",
+          "type": "mainland scholarly project report",
+          "url": "https://www.nopss.gov.cn/n1/2019/1216/c418049-31508103.html",
+          "path": null,
+          "provenance": "全国哲学社会科学工作办公室，2019-12-16；accessed 2026-09-08. 报告引地方志父称材料，用于证明区域与历史变异存在；不用于确定各称谓全国首见年代。"
+        }
+      ],
+      "featured_mapping": {
+        "source": "abbey",
+        "target": "爸",
+        "reading": "bà",
+        "display_label": "Root-level phonetic-semantic candidate · 词根音义候选：ABBA ↔ 爸（非整词等义）",
+        "status": "Candidate · Low confidence",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "Kinship control: recurrent early-child / baby-talk articulatory patterns are an alternative explanation for similar father/mother terms across languages. ABBA ↔ 爸 is a root-level Phonetic-Semantic Candidate, not abbey’s translation and not evidence of Aramaic–Chinese cognacy. Historical Relation: Not claimed. This control is not a demonstrated origin story for this particular pair.",
+          "zh-Hans": "亲属称谓控制：跨语言父母称谓常出现相似的早期儿童／婴儿语发音模式，构成替代解释。ABBA ↔ 爸是词根级音义候选，不是 abbey 的标准翻译，也不是阿拉姆语与汉语历史同源的证据。Historical Relation: Not claimed。控制因素不等于已证明此词对的具体起源。"
+        },
+        "source_refs": [
+          "REF-MW-ABBOT",
+          "REF-ZDIC-BA",
+          "REF-KINSHIP-CONTROL"
+        ]
+      }
+    },
+    "previously_absent_fields": [
+      "source_audit_pending",
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping"
     ]
   }
 }

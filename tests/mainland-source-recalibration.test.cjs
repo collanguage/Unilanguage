@@ -66,7 +66,9 @@ test("priority records retain count and status boundaries", () => {
   const abandon = dataset.entries.find((item) => item.slug === "abandon");
   assert.equal(abandon.featured_mapping.target, "放");
   assert.ok(abandon.consonant_group_mapping.candidates.some((candidate) => candidate.source_unit === "bandon" && candidate.target === "办 / 辦"));
-  assert.equal(dataset.entries.find((item) => item.slug === "abash").featured_mapping.target, "拍");
+  const abash=dataset.entries.find((item) => item.slug === "abash");
+  assert.equal(abash.featured_mapping,undefined); // Batch 2 explicitly leaves Featured Pending.
+  assert.equal(abash.query_views.find(v=>v.terms.includes('bash')).featured_mapping.target,'拍');
 });
 
 test("replacement references are claim-scoped and verified records carry provenance", () => {

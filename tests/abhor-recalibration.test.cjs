@@ -194,7 +194,7 @@ test('Frozen Mapper layout and browse adapter only gain the focused translation/
  const baseline='92154ed5d7ab511df6e70dd69fc2ec38f9e59efa';
  const get=f=>cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n');
  const current=f=>fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n');
- assert.equal(current('js/language-book-data.js'), get('js/language-book-data.js').replace('abhor: "恶"','abhor: "火"').replace('abbreviate: "缩写",', 'abbreviate: "缩写", abbreviation: "缩写形式",').replace('abdomen: "肚子",','abdomen: "肚子", abdominal: "腹部的",'));
+ require('./legacy-ui-compat.cjs').assertLegacyDataEqual(current('js/language-book-data.js'), get('js/language-book-data.js').replace('abhor: "恶"','abhor: "火"').replace('abbreviate: "缩写",', 'abbreviate: "缩写", abbreviation: "缩写形式",').replace('abdomen: "肚子",','abdomen: "肚子", abdominal: "腹部的",'));
  assertLegacyUiEqual(current('js/semantic-mapper.js'), get('js/semantic-mapper.js')
   .replace('const standardGloss = entry.slug === "abdomen" ? "腹部" : mapping.target.word;', 'const standardGloss = entry.standard_translation?.target || (entry.slug === "abdomen" ? "腹部" : mapping.target.word);')
   .replace('escapeHtml(entry.slug === "abdomen" ? standardTranslations : mapping.target.word)','escapeHtml(entry.standard_translation?.target || (entry.slug === "abdomen" ? standardTranslations : mapping.target.word))')

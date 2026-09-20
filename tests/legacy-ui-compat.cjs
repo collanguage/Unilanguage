@@ -8,3 +8,15 @@ function assertLegacyUiEqual(actual, expected, message) {
   assert.equal(normalized, expected, message);
 }
 module.exports = { assertLegacyUiEqual };
+
+// Only the approved query projection and ABASH browse label differ. The active
+// query semantics, immutability and unrelated-entry outputs are tested separately.
+function assertLegacyDataEqual(actual, expected) {
+ const body = /  function queryView\(entry, query\) \{[\s\S]*?\n  \}/;
+ const a=actual.match(body)?.[0], b=expected.match(body)?.[0];
+ assert.ok(a && b);
+ assert.match(a,/delete result\.diachronic_semantic_mapping/);
+ assert.match(a,/normalize\(view\.primary_mapping\.source\.word\)/);
+ assert.equal(actual.replace(a,b).replace('abash: "使窘迫"','abash: "拍"'),expected);
+}
+module.exports.assertLegacyDataEqual=assertLegacyDataEqual;

@@ -4,6 +4,9 @@ const fs = require("node:fs");
 const path = require("node:path");
 const root = path.resolve(__dirname, "..");
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
+const {legacyEntry}=require("./legacy-research-view.cjs");
+// Historical research contract; active Batch 2 behavior has its own regression suite.
+dataset.entries=dataset.entries.map(e=>e.legacy_migration?.version==="batch-2-0.1"?legacyEntry(e):e);
 const dataApi = require(path.join(root, "js/language-book-data.js"));
 
 test("v1 keeps publication, mapping, history and literature independent", () => {

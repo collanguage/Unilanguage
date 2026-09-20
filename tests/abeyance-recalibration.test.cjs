@@ -8,7 +8,7 @@ test('ABEYANCE updates one existing record and preserves unrelated entries and M
  assert.equal(e.id,'LB-en-abeyance-024');assert.equal(d.entries.length,42);
  assert.deepEqual(d.entries.filter(x=>x.slug!=='abeyance'),before.entries.filter(x=>x.slug!=='abeyance'));
  assert.deepEqual(d.entries.find(x=>x.id===e.id),e);
- for(const f of ['js/language-book-data.js'])assert.equal(fs.readFileSync(f,'utf8').replace(/\r\n/g,'\n'),get(f));
+ for(const f of ['js/language-book-data.js'])require('./legacy-ui-compat.cjs').assertLegacyDataEqual(fs.readFileSync(f,'utf8').replace(/\r\n/g,'\n'),get(f));
  assert.ok(e.source.raw_note.startsWith(before.entries.find(x=>x.id===e.id).source.raw_note));
 });
 test('Translation, featured candidate, modern sound segment and history remain separate',()=>{

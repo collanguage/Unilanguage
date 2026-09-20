@@ -1,6 +1,6 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.38",
+  "version": "1.2.39",
   "dataset_version": "1.2.23",
   "created_at": "2026-09-20",
   "canonical_dataset": "data/language-book.v1.0.json",
@@ -10,14 +10,44 @@
   "candidate_mapping_count": 25,
   "files": [
     {
+      "path": "words/man.html",
+      "bytes": 30681,
+      "sha256": "77d094045e6cb8a4858372aa6d12c45ea09f4deff3e3fdd0647a6a6ebf06adec"
+    },
+    {
+      "path": "words/abbey.html",
+      "bytes": 29515,
+      "sha256": "65a763ff11a8c58442611e3b332d45d3e69b1866b3ec6d5500de88bdd4103525"
+    },
+    {
+      "path": "tests/abbey-recalibration.test.cjs",
+      "bytes": 3520,
+      "sha256": "f1b985a506cdae18f0ae9649b48c6683ea374c4ee600f0515d0fa90b180a0893"
+    },
+    {
+      "path": "scripts/build-editorial-migration-batch2.mjs",
+      "bytes": 4223,
+      "sha256": "737adafde4121c0410cd53b12b518921543754d0be1e49ef5fc8d6b5762ead09"
+    },
+    {
+      "path": "tests/editorial-migration-batch2.test.cjs",
+      "bytes": 6304,
+      "sha256": "9614591a355e6cf0b88d1a8d3d9636706d08d5777e3686ce27a83679bac59e2e"
+    },
+    {
+      "path": "docs/research/editorial-migration-batch2.md",
+      "bytes": 3169,
+      "sha256": "7456d7fa8fb5371aba692fc0bfcf59ebbb663788ca706ccf4285a52d7b423473"
+    },
+    {
       "path": "scripts/build-family-migration-batch1.mjs",
       "bytes": 3878,
       "sha256": "bb1ad9c9307e757ea811d7f878fbb7b5438809f154beddae0821d5e2ce9e7a85"
     },
     {
       "path": "tests/family-migration-batch1.test.cjs",
-      "bytes": 5342,
-      "sha256": "4e4383aab2919464e0bc886c0e80ae20d0ffffa5f81d4e10aa4ead8f4f08a2bf"
+      "bytes": 5473,
+      "sha256": "8b95998e459e21582d1a4bb568fe1b0a6a375e1bcad4cbb797192a3421c4f1f3"
     },
     {
       "path": "docs/research/family-migration-batch1.md",
@@ -31,13 +61,13 @@
     },
     {
       "path": "tests/legacy-migration.test.cjs",
-      "bytes": 5902,
-      "sha256": "a9597c6b475931e4d45b48ca987224fb7985af364de482be582421d66a8a78ca"
+      "bytes": 5943,
+      "sha256": "d2a1654909f25e20dd7c8b2fdc479c8ddbe75efdb4aa6b68762f21858d435d5d"
     },
     {
       "path": "tests/legacy-research-view.cjs",
-      "bytes": 2379,
-      "sha256": "507bcf956599e544fcab2a45db205aea4eacf9644a601eeb28dd07fe768036f4"
+      "bytes": 3138,
+      "sha256": "e121ef3a31f6b28fd563b3bfb238de43121ac5ae953494746b397c23503de9bc"
     },
     {
       "path": "docs/research/legacy-migration-pilot-v0.1.md",
@@ -61,8 +91,8 @@
     },
     {
       "path": "tests/legacy-ui-compat.cjs",
-      "bytes": 787,
-      "sha256": "8d63ea3e7edd8226d87766cd50e9614e6ef1cf5ba5b95399a218535febeb4dbb"
+      "bytes": 1441,
+      "sha256": "dcc88d3f9133ec550ff610ae8626de50f37882f184dc73f35e0f4a90b8f454a7"
     },
     {
       "path": "docs/research/abeyance-pilot-v0.1.md",
@@ -91,8 +121,8 @@
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 1542796,
-      "sha256": "fe87fd403592524ad4f8e02d2c9cd1c37adf99aeb5201655c3ed3237ce073c5a"
+      "bytes": 1751152,
+      "sha256": "fa65e5fe41f583b0c50bfb4723df822555f4271dc724677e31befb0b48d77063"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -111,13 +141,13 @@
     },
     {
       "path": "data/entries/abash.v1.json",
-      "bytes": 59258,
-      "sha256": "d80b5c33e2fc88512b219bac04715c23b2d3c2c235784aebc1adbed2d579e196"
+      "bytes": 129686,
+      "sha256": "69e49a47f351a04cc496aca442d1480303450e5bab6b550dfeaf3fdf44f69986"
     },
     {
       "path": "data/entries/abbey.v1.json",
-      "bytes": 39139,
-      "sha256": "c71f7f4cbb517369a82486f26669e3eb60d99478482285e6ebe3310ad0d190be"
+      "bytes": 95217,
+      "sha256": "2c4bb4de92a2a30245057c3c871c072df5e43d7dc8fe171b6dbe388f92341deb"
     },
     {
       "path": "data/entries/abbreviate.v1.json",
@@ -225,6 +255,11 @@
       "sha256": "52d996a666895c644e678532b9dd2bca509173d045e14ae973c9cb5710777626"
     },
     {
+      "path": "data/entries/man.v1.json",
+      "bytes": 28267,
+      "sha256": "bcb78b2d9671e98a5a52e5f68ab36dbe1f1d1405ea4402cf832d4f281448ba0f"
+    },
+    {
       "path": "data/entries/marchand.v1.json",
       "bytes": 14675,
       "sha256": "72e43edb716f6dbbc48ed07f3016e62bb641cb71ec145817758b8395693e6259"
@@ -260,6 +295,11 @@
       "sha256": "100aeea0e7ca8805835e65585a82bdba18504961ef02dd738ff2ef53d816b82d"
     },
     {
+      "path": "data/entries/universe.v1.json",
+      "bytes": 79665,
+      "sha256": "551e56b5acbee6bceec2d27ebec48a6b3d59793d54b1e878524d108de044bcc1"
+    },
+    {
       "path": "data/batches/dataset-expansion-batch-001.v1.json",
       "bytes": 8991,
       "sha256": "2fcc7b7a0617be04dd0af1e65859edaa594da865c117fda5e6162278b335d378"
@@ -276,8 +316,8 @@
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
-      "bytes": 68899,
-      "sha256": "64b6bfd34cc8c5f7fd60f0a841d7fb04063b1d8a9f20728ddc9adbad239fbf4d"
+      "bytes": 69341,
+      "sha256": "c449db6bb218eec3e5feb1d401256e98de8168446ace6c976e7b210a9d800411"
     },
     {
       "path": "docs/dataset-expansion-batch-001.md",
@@ -306,8 +346,8 @@
     },
     {
       "path": "tests/language-book-v1.test.cjs",
-      "bytes": 33653,
-      "sha256": "b041bc4387ee4b154ffadd7b101579a31ec47682b3560876a6b6830903d78397"
+      "bytes": 33901,
+      "sha256": "4df4d899e650186a21e7cdd590aa06b30affc676a11d4b573c4fc31054446dd9"
     },
     {
       "path": "tests/dataset-expansion-batch-001.test.cjs",
@@ -346,8 +386,8 @@
     },
     {
       "path": "js/language-book-data.js",
-      "bytes": 7684,
-      "sha256": "07c96202824c441890182e0b53ea31a1f266c50484d9ffeef4012acbdd48ff8c"
+      "bytes": 8214,
+      "sha256": "725103d7ab701699c5e665bb2c59da670b2e0b4af6e9646666bfa0e9323ece56"
     },
     {
       "path": "js/semantic-mapper.js",
@@ -356,8 +396,8 @@
     },
     {
       "path": "js/search.js",
-      "bytes": 6536,
-      "sha256": "3f5b9b80ae039449e1409814d829ae6d72488c856b78381067259473de0b723c"
+      "bytes": 6548,
+      "sha256": "cd28ab4839d06784024b5b82485c162639779b00d6aff70f1b68be58acfe6942"
     },
     {
       "path": "js/literary-tabs.js",
@@ -416,8 +456,8 @@
     },
     {
       "path": "tests/abeyance-recalibration.test.cjs",
-      "bytes": 3862,
-      "sha256": "ae4784d830c6187c6055263d7a1e138f78e429cb0d127f357a0d16dd753e0c7c"
+      "bytes": 3905,
+      "sha256": "4616aedaf2a26c15ac38360dbb7516213a77385fefd97c3e21bd0e4f305d251e"
     },
     {
       "path": "words/aberrant.html",
@@ -511,8 +551,8 @@
     },
     {
       "path": "tests/abhor-recalibration.test.cjs",
-      "bytes": 13284,
-      "sha256": "7cca7eaaf907a6019ef9b1e0cd26f1dffd9e295e7f02a414a7811a3f8c74f800"
+      "bytes": 13327,
+      "sha256": "025364d205fd8ef696747ed6b59915853887086d76c8f1d70a2a381ad484af99"
     },
     {
       "path": "words/new.html",
@@ -576,8 +616,8 @@
     },
     {
       "path": "tests/mainland-source-recalibration.test.cjs",
-      "bytes": 5272,
-      "sha256": "822bc77ab1a490285d28a99e2791433716ca413a6fd904e425e0de5df99a414c"
+      "bytes": 5435,
+      "sha256": "4bc953d0a30d52f89359aad67fa06c51137a7ce099a4ddc743a3b9333220f38b"
     },
     {
       "path": "words/sky.html",
@@ -591,8 +631,8 @@
     },
     {
       "path": "words/abash.html",
-      "bytes": 21977,
-      "sha256": "b5ed6fc08ada49e75e4fd1e88efb588b593a6fdf90c3a7a790a4a6519879f957"
+      "bytes": 34480,
+      "sha256": "191c245135cc09c211e456735bce832079e1fc412fc75300a52d2eec14032610"
     },
     {
       "path": "words/abdomen.html",
@@ -606,8 +646,8 @@
     },
     {
       "path": "words/universe.html",
-      "bytes": 18279,
-      "sha256": "cf5daa1cc1bb48a10c49d6adff0eff301b270736072920b9890397d5abcb0fd8"
+      "bytes": 29351,
+      "sha256": "f7a94a631d08b46c9953900a47dedc2918fe841a559b0f17cdd50de31045b98a"
     },
     {
       "path": "css/sky-case.css",

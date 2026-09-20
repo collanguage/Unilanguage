@@ -30,7 +30,7 @@
   // term and inside the record itself.
   const PREFERRED_CHINESE_BROWSE_FORMS = {
     sky: "盖", universe: "斡", human: "男", sound: "声", language: "朗", water: "哗", advance: "往", light: "籁", at: "在",
-    "a-indefinite-article": "一", aback: "吃惊地", abandon: "放弃", abash: "拍", abbey: "修道院", abbreviate: "缩写", abbreviation: "缩写形式",
+    "a-indefinite-article": "一", aback: "吃惊地", abandon: "放弃", abash: "使窘迫", abbey: "修道院", abbreviate: "缩写", abbreviation: "缩写形式",
     abdicate: "退位", abdomen: "肚子", abdominal: "腹部的", aberrant: "反常的", abeyance: "暂缓", abhor: "火", abound: "大量存在",
     above: "在……上方", abridge: "缩短", absolute: "绝对的", acumen: "洞察力", aliment: "食物", convent: "女修道院",
     figure: "图形", fil: "线", form: "形式", generate: "产生", marchand: "商人", media: "媒体", montrer: "显示",
@@ -121,7 +121,17 @@
   function queryView(entry, query) {
     const term = normalize(query);
     const view = (entry.query_views || []).find((item) => item.terms.some((value) => normalize(value) === term));
-    return view ? { ...entry, primary_mapping: view.primary_mapping, featured_mapping: view.featured_mapping, ...(view.translation_status ? { translation_status: view.translation_status, translation_source_refs: view.translation_source_refs } : {}) } : entry;
+    if (!view) return entry;
+    const result = { ...entry, primary_mapping: view.primary_mapping, featured_mapping: view.featured_mapping, ...(view.translation_status ? { translation_status: view.translation_status, translation_source_refs: view.translation_source_refs } : {}) };
+    // A distinct query object (e.g. BASH or ABBA) must not inherit the host
+    // word's stage chain, Standard Translation or editorial Featured reference.
+    if (entry.diachronic_semantic_mapping?.model_version === '0.1' &&
+        normalize(view.primary_mapping.source.word) !== normalize(entry.primary_mapping.source.word)) {
+      delete result.diachronic_semantic_mapping;
+      delete result.standard_translation;
+      delete result.modern_standard_semantic_mapping;
+    }
+    return result;
   }
 
   function lookup(dataset, query) {

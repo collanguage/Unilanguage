@@ -6,7 +6,7 @@ const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffe
 const entries=slugs.map(s=>require(`../data/entries/${s}.v1.json`));
 test('only four approved entries migrate; every existing research field survives exactly',()=>{
  const before=JSON.parse(get('data/language-book.v1.0.json'));
- const batch=['abbreviate','abbreviation','abdomen','abdominal'];
+ const batch=['abbreviate','abbreviation','abdomen','abdominal','universe','human','man','abbey','abash'];
  assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)).map(e=>batch.includes(e.slug)?legacyEntry(e):e),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const e of entries){
   assert.deepEqual(legacyEntry(e),before.entries.find(x=>x.slug===e.slug));

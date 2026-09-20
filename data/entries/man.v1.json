@@ -1,0 +1,835 @@
+{
+  "id": "LB-en-man-001",
+  "slug": "human",
+  "title": {
+    "en": "Man · Human",
+    "zh-Hans": "Man · 人 · 男"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "man",
+      "pronunciation": "/mæn/"
+    },
+    {
+      "role": "target",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "男",
+      "pronunciation": "nán"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-man-primary-nan",
+    "source": {
+      "language": "English",
+      "word": "man",
+      "pronunciation": "/mæn/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "男",
+      "pronunciation": "nán"
+    },
+    "gloss": {
+      "en": "Adult male human; generic person/human uses remain context-dependent and separate from 男.",
+      "zh-Hans": "成年男性；人／人类义按语境另记，不混入男的全部义项。"
+    },
+    "meaning": {
+      "en": "Adult male human; generic person/human uses remain context-dependent and separate from 男.",
+      "zh-Hans": "成年男性；人／人类义按语境另记，不混入男的全部义项。"
+    },
+    "mapping_type": "Cross-language semantic candidate",
+    "rationale": {
+      "en": "The author compares the M–N consonant relation in man and 男.",
+      "zh-Hans": "作者比较 man 与“男”中的 M–N 辅音关系。"
+    }
+  },
+  "entry_status": "Published",
+  "mapping_status": "Candidate",
+  "mapping_level": "B",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Not evaluated",
+      "confidence": "Unknown",
+      "summary": {
+        "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+        "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "The M–N relation in man /mæn/ and 男 nán is an author-proposed consonantal comparison.",
+        "zh-Hans": "man /mæn/ 与 男 nán 的 M–N 关系是作者提出的辅音比较。"
+      },
+      "items": [
+        {
+          "evidence_id": "RAT-man-mn",
+          "claim": {
+            "en": "The author compares the M–N consonant relation in man and 男.",
+            "zh-Hans": "作者比较 man 与“男”中的 M–N 辅音关系。"
+          },
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "source_refs": [
+            "SRC-LB-MAN"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LB-MAN"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "Recorded semantic structure: HUMAN → PERSON → MALE.",
+        "zh-Hans": "已记录语义结构：HUMAN → PERSON → MALE。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Speculative": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+        "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+      },
+      "items": [
+        {
+          "evidence_id": "UNI-SOUND-MN-001",
+          "claim": {
+            "en": "M–N correspondence hypothesis",
+            "zh-Hans": "M–N 对应假说"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-LB-MAN",
+            "SRC-HYPOTHESIS-LAB"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LB-MAN",
+        "SRC-HYPOTHESIS-LAB"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-man-001",
+      "claim": {
+        "en": "The M–N relation in man /mæn/ and 男 nán is an author-proposed consonantal comparison.",
+        "zh-Hans": "man /mæn/ 与 男 nán 的 M–N 关系是作者提出的辅音比较。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Modern-form resemblance is not a regular sound correspondence or proof of cognacy.",
+        "zh-Hans": "现代词形近似不是规律音变，也不证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "HUMAN",
+      "PERSON",
+      "MALE"
+    ],
+    "relation": "HUMAN → PERSON → MALE",
+    "status": "Interpretive"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-SOUND-MN-001",
+      "type": "sound-semantic",
+      "claim": {
+        "en": "M–N correspondence hypothesis",
+        "zh-Hans": "M–N 对应假说"
+      },
+      "status": "Untested",
+      "confidence": "low",
+      "supporting_cases": [
+        "SRC-LB-MAN",
+        "SRC-HYPOTHESIS-LAB"
+      ],
+      "counterexamples": [],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "SRC-LB-MAN",
+        "SRC-HYPOTHESIS-LAB"
+      ]
+    }
+  ],
+  "experiments": [],
+  "literary_layer": {
+    "status": "Not present",
+    "is_historical_evidence": false,
+    "proposition": null,
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "Literature may explore freely, but it is not historical evidence.",
+      "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "SRC-LB-MAN",
+      "title": "Language Book · Man",
+      "type": "language-book-page",
+      "url": null,
+      "path": "words/man.html",
+      "provenance": "unknown"
+    },
+    {
+      "reference_id": "SRC-HYPOTHESIS-LAB",
+      "title": "Unilanguage Hypothesis Lab",
+      "type": "project-documentation",
+      "url": null,
+      "path": "hypothesis-lab.html",
+      "provenance": "unknown"
+    },
+    {
+      "reference_id": "B2-M-MW",
+      "title": "Merriam-Webster: man",
+      "type": "dictionary / research",
+      "url": "https://www.merriam-webster.com/dictionary/man",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    },
+    {
+      "reference_id": "B2-M-AHD",
+      "title": "American Heritage: IE man-1",
+      "type": "dictionary / research",
+      "url": "https://ahdictionary.com/word/indoeurop.html",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    },
+    {
+      "reference_id": "B2-M-NAN",
+      "title": "汉典：男",
+      "type": "dictionary / research",
+      "url": "https://zdic.net/hans/男",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    },
+    {
+      "reference_id": "B2-M-BS",
+      "title": "Baxter–Sagart 2014 author reconstruction table",
+      "type": "dictionary / research",
+      "url": "https://sites.lsa.umich.edu/ocbaxtersagart/wp-content/uploads/sites/1415/2025/03/BaxterSagartOCbyMandarinMC2014-09-20.pdf",
+      "path": null,
+      "provenance": "Specific source reviewed in approved Batch 2 Freeze; platform mediation and print-edition Pending retained"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "0.2 / dataset 0.1.0 / G.1 migration",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-02",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "The record preserves the existing man/human calibration case without asserting historical cognacy.",
+      "zh-Hans": "本记录保留既有 man/human 校准案例，不主张历史同源。"
+    }
+  ],
+  "search_terms": [
+    "man",
+    "male",
+    "human",
+    "person",
+    "男",
+    "男人",
+    "男子",
+    "氓",
+    "nán",
+    "HUMAN",
+    "PERSON",
+    "MALE"
+  ],
+  "page": "words/man.html",
+  "legacy": {
+    "entry_id": "LB-en-man-001",
+    "source_word": "man",
+    "language": "English",
+    "normalized_form": "man",
+    "pronunciation": "/mæn/",
+    "phonetic_form": "mæn",
+    "lexical_meaning": {
+      "en": "An adult male human; historically, also a person or human being in some uses.",
+      "zh-Hans": "成年男性；部分历史用法中也可泛指人。"
+    },
+    "aliases": [
+      "male",
+      "human",
+      "person",
+      "男",
+      "男人",
+      "男子",
+      "氓"
+    ],
+    "classification_status": "published",
+    "primary_chinese_mapping": {
+      "mapping_id": "MAP-man-primary-nan",
+      "chinese_form": "男",
+      "pinyin": "nán",
+      "role": "primary",
+      "mapping_basis": "author-proposal",
+      "status": "published",
+      "identity": "author-idea",
+      "source_verification": {
+        "status": "needs-verification",
+        "source_refs": [
+          "SRC-LB-MAN"
+        ],
+        "notes": {
+          "en": "Previously published project mapping retained with its hypothesis identity.",
+          "zh-Hans": "保留此前发布的项目映射及其假说身份。"
+        }
+      },
+      "ai_review": {
+        "status": "not-reviewed",
+        "reviewer": null,
+        "reviewed_at": null,
+        "rationale": {
+          "en": "No G.1 object-level AI review has been completed.",
+          "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+        }
+      }
+    },
+    "secondary_chinese_mappings": [],
+    "mapping_rationales": [
+      {
+        "rationale_id": "RAT-man-mn",
+        "mapping_ref": "MAP-man-primary-nan",
+        "identity": "author-idea",
+        "status": "candidate",
+        "statement": {
+          "en": "The author compares the M–N consonant relation in man and 男.",
+          "zh-Hans": "作者比较 man 与“男”中的 M–N 辅音关系。"
+        },
+        "source_verification": {
+          "status": "not-applicable",
+          "source_refs": [
+            "SRC-LB-MAN"
+          ],
+          "notes": {
+            "en": "This preserves the author's reason for proposing the mapping; it is not an established fact.",
+            "zh-Hans": "此对象保存作者提出映射的理由，不是既成事实。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "historical_etymologies": [],
+    "sound_symbol_hypothesis_refs": [
+      "UNI-SOUND-MN-001"
+    ],
+    "other_author_notes": [],
+    "experimental_validation_refs": [],
+    "source_provenance": [
+      "SRC-LB-MAN",
+      "SRC-HYPOTHESIS-LAB"
+    ],
+    "author": "Jinkai Liu｜劉金凱",
+    "version": "0.2 / dataset 0.1.0 / G.1 migration"
+  },
+  "source_audit_pending": [
+    {
+      "title": "现代汉语词典",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    },
+    {
+      "title": "新华字典",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    },
+    {
+      "title": "汉语大词典",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    },
+    {
+      "title": "汉语大字典",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    },
+    {
+      "title": "辞源",
+      "status": "pending",
+      "claims": [
+        "specific Chinese reading and sense / historical attestation"
+      ],
+      "reason": "Specific edition and entry not obtained; no page asserted."
+    }
+  ],
+  "chinese_historical_research": {
+    "form": "男",
+    "modern": "nán",
+    "middle_chinese": "Baxter transcription nom (not IPA); 泥母 覃韵 平声 那含切",
+    "old_chinese": "Baxter–Sagart 2014 *nˤ[ə]m",
+    "source_refs": [
+      "B2-M-NAN",
+      "B2-M-BS"
+    ],
+    "mainland_print_status": "Pending",
+    "boundary": "Historical reconstructions are not recordings; no nasal-reversal argument for cognacy."
+  },
+  "source_historical_research": {
+    "chain": "AHD IE man-/mon-, extended *manu-/*manw-; Germanic *manna- → Old English man(n) → Middle/Modern English man",
+    "source_refs": [
+      "B2-M-AHD",
+      "B2-M-MW"
+    ],
+    "boundary": "Named reconstruction system. Sanskrit manu is a related branch, not an English ancestor. Chinese history separately recorded."
+  },
+  "standard_translation": {
+    "source": "man",
+    "target": "男",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "B2-M-MW"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-man-primary-nan",
+    "source": {
+      "language": "English",
+      "word": "man",
+      "pronunciation": "/mæn/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "男",
+      "pronunciation": "nán"
+    },
+    "gloss": {
+      "en": "Adult male human; generic person/human uses remain context-dependent and separate from 男.",
+      "zh-Hans": "成年男性；人／人类义按语境另记，不混入男的全部义项。"
+    },
+    "meaning": {
+      "en": "Adult male human; generic person/human uses remain context-dependent and separate from 男.",
+      "zh-Hans": "成年男性；人／人类义按语境另记，不混入男的全部义项。"
+    },
+    "mapping_type": "Cross-language semantic candidate",
+    "rationale": {
+      "en": "The author compares the M–N consonant relation in man and 男.",
+      "zh-Hans": "作者比较 man 与“男”中的 M–N 辅音关系。"
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "OLD-ENGLISH",
+        "form": "man / mon / mann",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old English",
+          "code": null
+        },
+        "period": {
+          "label": "Old English, approximately 450–1150; sense-specific first attestations Pending",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "B2-M-MW"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "human being / male human",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "B2-M-MW"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Retained to explain semantic development; no Chinese search selected."
+      },
+      {
+        "stage_id": "MODERN",
+        "form": "man",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Modern English; exact dates Pending",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "B2-M-MW"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "adult male human; generic human uses recorded separately",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-MAN",
+            "value": "/mæn/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "B2-M-MW"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "OLD-ENGLISH",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_continuation",
+              "description": "Inherited via Middle English. Male and generic-person senses overlap historically; not a simple replacement.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "B2-M-MW"
+            ]
+          }
+        ],
+        "source_refs": [
+          "B2-M-MW"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-MODERN",
+        "stage_ref": "MODERN",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "adult male human; generic human uses recorded separately",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "adult male human; generic human uses recorded separately"
+            ],
+            "consonant_hypotheses": [
+              "UNI-SOUND-MN-001"
+            ],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "B2-M-NAN",
+            "family_key": "legacy-human",
+            "target": {
+              "form": "男",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "男性／男子",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-B2-M-NAN",
+                  "value": "nán [nan˧˥]",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "B2-M-NAN"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "B2-M-NAN"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MODERN",
+              "source_pronunciation_ref": "PR-MAN",
+              "target_pronunciation_ref": "ZH-B2-M-NAN",
+              "source_span": "man",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "UNI-SOUND-MN-001",
+                "hit": false,
+                "position": "Independent M–N hypothesis; not a b-p-m-f or d-t-n-l same-group hit",
+                "version": "Existing independent hypothesis; pending experimental validation"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "男性义语义匹配强于声音；男本身不自动编码成年，也不对应所有泛指人类语境。",
+              "source_refs": [
+                "B2-M-NAN"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Both initials are nasals but differ in place; vowel differs; modern /n/ coda overlaps. No regular historical correspondence established.",
+              "features": {
+                "onset": "/m/ bilabial vs /n/ alveolar",
+                "vowel": "/æ/ vs /a/",
+                "coda_other_consonants": "modern /n/ shared; historical Chinese -m is a different layer",
+                "syllables": "one syllable each",
+                "prosody": "English stress is not Mandarin second tone"
+              },
+              "source_refs": [
+                "B2-M-NAN"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "B2-M-NAN"
+                ],
+                "locator": null,
+                "note": "Existing entry’s scoped dictionary/platform evidence; original print edition audit unchanged. Migration is not new verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "B2-M-NAN"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print dictionary specific edition/entry Pending; no page or quotation asserted."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "男性义语义匹配强于声音；男本身不自动编码成年，也不对应所有泛指人类语境。",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "男性义语义匹配强于声音；男本身不自动编码成年，也不对应所有泛指人类语境。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu",
+              "date": "2026-09-20",
+              "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu",
+          "date": "2026-09-20",
+          "note": "Batch 2 Editorial Freeze approved. Candidate status and Pending evidence retained."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "B2-M-NAN",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-MODERN",
+          "candidate_ref": "B2-M-NAN"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu",
+      "reason": "man ↔ 男 nán 比较现代男性义；语义强于声音。M–N 是独立待验证假说，不归入 b-p-m-f 或 d-t-n-l。"
+    },
+    "historical_path": "AHD IE man-/mon-, extended *manu-/*manw-; Germanic *manna- → Old English man(n) → Middle/Modern English man",
+    "semantic_path": "HUMAN / MALE (overlapping senses, not forced narrowing)",
+    "boundary": {
+      "en": "man ↔ 男 nán 比较现代男性义；语义强于声音。M–N 是独立待验证假说，不归入 b-p-m-f 或 d-t-n-l。",
+      "zh-Hans": "man ↔ 男 nán 比较现代男性义；语义强于声音。M–N 是独立待验证假说，不归入 b-p-m-f 或 d-t-n-l。"
+    }
+  },
+  "featured_mapping": {
+    "source": "man",
+    "target": "男",
+    "reading": "nán [nan˧˥]",
+    "candidate_ref": "B2-M-NAN",
+    "display_label": "Whole-word Phonetic-Semantic Candidate",
+    "status": "Candidate; semantic and phonetic evidence independently graded",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "man ↔ 男 nán 比较现代男性义；语义强于声音。M–N 是独立待验证假说，不归入 b-p-m-f 或 d-t-n-l。",
+      "zh-Hans": "man ↔ 男 nán 比较现代男性义；语义强于声音。M–N 是独立待验证假说，不归入 b-p-m-f 或 d-t-n-l。"
+    },
+    "source_refs": [
+      "B2-M-NAN"
+    ]
+  },
+  "legacy_migration": {
+    "version": "batch-2-0.1",
+    "baseline_commit": "158a2a4839de709569cb309b1966ebb6ff72f9d0",
+    "scope": "Read-only pre-freeze archive; superseded claims are not active evidence or current Featured choices.",
+    "previous_fields": {
+      "primary_mapping": {
+        "mapping_id": "MAP-man-primary-nan",
+        "source": {
+          "language": "English",
+          "word": "man",
+          "pronunciation": "/mæn/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "男",
+          "pronunciation": "nán"
+        },
+        "gloss": {
+          "en": "An adult male human; historically, also a person or human being in some uses.",
+          "zh-Hans": "成年男性；部分历史用法中也可泛指人。"
+        },
+        "meaning": {
+          "en": "An adult male human; historically, also a person or human being in some uses.",
+          "zh-Hans": "成年男性；部分历史用法中也可泛指人。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The author compares the M–N consonant relation in man and 男.",
+          "zh-Hans": "作者比较 man 与“男”中的 M–N 辅音关系。"
+        }
+      },
+      "historical_relation_status": "Unestablished",
+      "references": [
+        {
+          "reference_id": "SRC-LB-MAN",
+          "title": "Language Book · Man",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/man.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-HYPOTHESIS-LAB",
+          "title": "Unilanguage Hypothesis Lab",
+          "type": "project-documentation",
+          "url": null,
+          "path": "hypothesis-lab.html",
+          "provenance": "unknown"
+        }
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "source_audit_pending",
+      "chinese_historical_research",
+      "source_historical_research",
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping",
+      "featured_mapping"
+    ]
+  }
+}

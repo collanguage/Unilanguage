@@ -40,7 +40,8 @@ test('ABBEY page separates hero scopes and all local resources resolve',()=>{
  assert.match(html,/<h1>ABBEY · 修道院<\/h1>/);
  assert.doesNotMatch(html,/<h1>[^<]*abbey\s*↔\s*爸/i);
  assert.match(html,/Root Mapping Candidate: ABBA ↔ 爸 bà/);
- assert.equal((html.match(/<h2>/g)||[]).length,10);
+ assert.equal((html.match(/diachronic-stage-card"/g)||[]).length,2);
+ assert.match(html,/Research archive/);
  for(const [,ref] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
   if(/^(https?:|#)/.test(ref))continue;
   assert.ok(fs.existsSync(path.resolve(path.dirname(file),ref.split(/[?#]/)[0])),ref);
