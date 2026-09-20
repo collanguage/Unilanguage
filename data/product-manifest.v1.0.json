@@ -1,6 +1,6 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.39",
+  "version": "1.2.40",
   "dataset_version": "1.2.23",
   "created_at": "2026-09-20",
   "canonical_dataset": "data/language-book.v1.0.json",
@@ -9,6 +9,21 @@
   "published_entry_count": 16,
   "candidate_mapping_count": 25,
   "files": [
+    {
+      "path": "scripts/build-tier-b-final.mjs",
+      "bytes": 4322,
+      "sha256": "8b1b7156c08ef0bfb2e03b7c70ef98614f27918a2e6fd46b34923eb9b27daa77"
+    },
+    {
+      "path": "tests/tier-b-final.test.cjs",
+      "bytes": 6041,
+      "sha256": "fcda1dff121c4bdd6aa90b630a22aa5e38060a6d27d6acc3b36ded6070f236ec"
+    },
+    {
+      "path": "docs/research/tier-b-final-freeze.md",
+      "bytes": 3829,
+      "sha256": "de8c800a1e9b12e9455a9a54986567b68bbf8593d7a64fae1cf5b1a22fb314d1"
+    },
     {
       "path": "words/man.html",
       "bytes": 30681,
@@ -31,8 +46,8 @@
     },
     {
       "path": "tests/editorial-migration-batch2.test.cjs",
-      "bytes": 6304,
-      "sha256": "9614591a355e6cf0b88d1a8d3d9636706d08d5777e3686ce27a83679bac59e2e"
+      "bytes": 6389,
+      "sha256": "36ff7ed2fef56856cd3724f61339d955f2ac930b2412eee610f56439830a1854"
     },
     {
       "path": "docs/research/editorial-migration-batch2.md",
@@ -46,8 +61,8 @@
     },
     {
       "path": "tests/family-migration-batch1.test.cjs",
-      "bytes": 5473,
-      "sha256": "8b95998e459e21582d1a4bb568fe1b0a6a375e1bcad4cbb797192a3421c4f1f3"
+      "bytes": 5509,
+      "sha256": "91b423ff1369ffdc9b335d2db0a9eb7fbe8aa35f928de0af5ad648d949243d97"
     },
     {
       "path": "docs/research/family-migration-batch1.md",
@@ -61,13 +76,13 @@
     },
     {
       "path": "tests/legacy-migration.test.cjs",
-      "bytes": 5943,
-      "sha256": "d2a1654909f25e20dd7c8b2fdc479c8ddbe75efdb4aa6b68762f21858d435d5d"
+      "bytes": 5961,
+      "sha256": "17400f7ca6a50198538d7f6b3c0bfa7315319cf20f84e6ef87145c60faff8377"
     },
     {
       "path": "tests/legacy-research-view.cjs",
-      "bytes": 3138,
-      "sha256": "e121ef3a31f6b28fd563b3bfb238de43121ac5ae953494746b397c23503de9bc"
+      "bytes": 3890,
+      "sha256": "8962ef42cb1dde85fa04c24d8679e8402e7a086a74a41d123b7bd9e15753d2ee"
     },
     {
       "path": "docs/research/legacy-migration-pilot-v0.1.md",
@@ -121,8 +136,8 @@
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 1751152,
-      "sha256": "fa65e5fe41f583b0c50bfb4723df822555f4271dc724677e31befb0b48d77063"
+      "bytes": 1851396,
+      "sha256": "87a9eb54d3fda117199397d9bc1d9d9ed0d83cb865dc5b098820a39368219dbb"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -246,13 +261,13 @@
     },
     {
       "path": "data/entries/horizon.v1.json",
-      "bytes": 33173,
-      "sha256": "d1051ffcd078a971a4cf1c6571b368f64647e47642eeaa0c0b914c450537a449"
+      "bytes": 88196,
+      "sha256": "b66825019b7f009575417d27c1902b874feeb38b7582ad8261d83617ef50ea99"
     },
     {
       "path": "data/entries/horse.v1.json",
-      "bytes": 25052,
-      "sha256": "52d996a666895c644e678532b9dd2bca509173d045e14ae973c9cb5710777626"
+      "bytes": 61817,
+      "sha256": "643fe3f97ee679dd5dfc1b11683042bf3e582d81ac9d6488daf160d1bdb7062a"
     },
     {
       "path": "data/entries/man.v1.json",
@@ -466,8 +481,8 @@
     },
     {
       "path": "tests/aberrant-recalibration.test.cjs",
-      "bytes": 6721,
-      "sha256": "0db343e9b508b843021748bdb553cd5fd2314cec088106043c5c8f1eb7dc1d4d"
+      "bytes": 6796,
+      "sha256": "d9c234f864d5958f498e70d77adf73ee9fbc2be5822421b4bf8482be882eac3f"
     },
     {
       "path": "protocol/protocol.mapping-framework.html",
@@ -486,8 +501,8 @@
     },
     {
       "path": "tests/abbreviate-recalibration.test.cjs",
-      "bytes": 7237,
-      "sha256": "e4f084db6566e2877852394fcb9d0ab25d70d0c609542a2ba9ffcffc3a94f5b1"
+      "bytes": 7312,
+      "sha256": "6f7485fc83635b76e8a2d3a6a9f3478657d519f3aa1060c76e057a3758573103"
     },
     {
       "path": "words/abdicate.html",
@@ -506,8 +521,8 @@
     },
     {
       "path": "words/horse.html",
-      "bytes": 16646,
-      "sha256": "a96f485b9c735723371cbccf3f0e38f644ff5b77e3652c7e6b1380935e735657"
+      "bytes": 29782,
+      "sha256": "d0cafb139c70edfa06315bbf83fb7125fb721701506b46c3e9c0840824617a5a"
     },
     {
       "path": "docs/research/horse-source-audit-v1.md",
@@ -516,13 +531,13 @@
     },
     {
       "path": "tests/horse.test.cjs",
-      "bytes": 5878,
-      "sha256": "beb09f8b034c6f91112853224fb34ab571bbf0042155d5a498a2f31d6bdff74e"
+      "bytes": 5816,
+      "sha256": "1471a69c610957f759a85390efd8b90b9f837071503ce8515232b309871add01"
     },
     {
       "path": "words/horizon.html",
-      "bytes": 17587,
-      "sha256": "6383f2ebfb5a4123faaea621f59d9d41622d33c207bb1e54237e85069b240d27"
+      "bytes": 28942,
+      "sha256": "f995036af23b862f64dccfac3b9af31eea9bc7b6d7fe344fbbb813c1f1ab03d5"
     },
     {
       "path": "images/horizon-winter-literary.png",
@@ -536,8 +551,8 @@
     },
     {
       "path": "tests/horizon.test.cjs",
-      "bytes": 4813,
-      "sha256": "bfc597477ead94cd1314c34560611ac2cd232600b9f1b5d0d2b16bedb2269a4e"
+      "bytes": 4826,
+      "sha256": "eb4743d378d0185519241160f532abbfb56acb5fafc38ffe1a9f49b55fd7f277"
     },
     {
       "path": "words/abhor.html",

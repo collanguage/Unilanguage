@@ -10,6 +10,18 @@ const cache=new Map();
 // equal the approved baseline, including every original evidence/status field.
 function legacyEntry(e) {
  if(!e.legacy_migration)return e;
+ if(e.legacy_migration.version==='tier-b-final-0.1') {
+  assert.ok(['horizon','horse'].includes(e.slug));
+  const b='dcfc3dc3f6ae5424beb61ef22b6f55ca3ecebde2';
+  assert.equal(e.legacy_migration.baseline_commit,b);
+  const restored=structuredClone(e),a=restored.legacy_migration;
+  for(const [k,v] of Object.entries(a.previous_fields))restored[k]=v;
+  for(const k of a.previously_absent_fields)delete restored[k];
+  delete restored.legacy_migration;
+  const original=JSON.parse(cp.execFileSync('git',['show',`${b}:data/language-book.v1.0.json`],{cwd:path.resolve(__dirname,'..'),maxBuffer:30e6})).entries.find(x=>x.id===e.id);
+  assert.deepEqual(restored,original,'Tier B final archive must exactly restore every baseline field');
+  return restored;
+ }
  if(e.legacy_migration.version==='batch-2-0.1') {
   assert.ok(['universe','human','abbey','abash'].includes(e.slug));
   const b='158a2a4839de709569cb309b1966ebb6ff72f9d0';

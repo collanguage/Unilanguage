@@ -24,7 +24,8 @@ test('ABBREVIATE preserves its identity, source, literature and every unrelated 
  assert.deepEqual(e.source,old.source);
  assert.deepEqual(e.literary_layer,old.literary_layer);
  assert.equal(data.entries.filter(x=>x.entry_status==='Published').length,before.entries.filter(x=>x.entry_status==='Published').length+2);
- for(const file of ['js/semantic-mapper.js','semantic-mapper.html',...['horizon','horse','new'].map(x=>'words/'+x+'.html')]){
+ // HORIZON/HORSE are now covered by exact archive and scope tests in tier-b-final.test.cjs.
+ for(const file of ['js/semantic-mapper.js','semantic-mapper.html',...['new'].map(x=>'words/'+x+'.html')]){
   assertLegacyUiEqual(fs.readFileSync(path.join(root,file),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+file],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),file);
  }
 });

@@ -504,7 +504,10 @@
           "HS-CHEN",
           "HS-FMPRC",
           "HS-NMC"
-        ]
+        ],
+        "source_reading": "mǎ",
+        "target_reading": "wǔ",
+        "historical_relation": "Not claimed"
       },
       {
         "source": "午",
@@ -514,12 +517,20 @@
         "source_refs": [
           "HS-CHEN",
           "HS-SHNU"
-        ]
+        ],
+        "source_reading": "wǔ",
+        "target_reading": "huǒ",
+        "historical_relation": "Not claimed"
       }
     ],
     "historical_boundary": "《论衡》配禽分类不自动等于完整的生年生肖制度。陈文对这一用途区别作专门论证；本条不宣布生肖起源日期。",
     "phonetic_bonus": 0,
-    "historical_bonus": 0
+    "historical_bonus": 0,
+    "display_candidate_refs": [
+      "BF-HS-CULTURAL-WU",
+      "BF-HS-CULTURAL-FIRE"
+    ],
+    "temporal_metadata": "Traditional classification in documented textual/modern usage contexts; not English source-word chronology. Earliest complete zodiac institution not established here."
   },
   "standard_translation_evidence": {
     "status": "Supported",
@@ -560,7 +571,13 @@
       "HS-ABHOR",
       "HS-HORIZON",
       "HS-MW"
-    ]
+    ],
+    "families": {
+      "horizon": "Greek horos / horizein: boundary / delimit",
+      "horse": "Germanic lineage; Old English hors",
+      "abhor": "Latin horrēre / abhorrēre: bristle / shudder / shrink away"
+    },
+    "rule": "No shared HOR = 火 historical root. Future modern sound-semantic clustering may be tested independently; no mutual historical or cultural score promotion."
   },
   "mapping_assessment": {
     "rubric": "Mapping Score v0.2; words/man.html#mapping-score",
@@ -622,16 +639,862 @@
     "source": "horse",
     "target": "马",
     "reading": "mǎ",
-    "display_label": "Standard lexical translation · 标准翻译；文化链另标 Candidate / D",
-    "status": "Supported",
+    "candidate_ref": "BF-HS-MA",
+    "display_label": "Editorially Featured Standard / Modern Lexical Mapping",
+    "status": "Supported (translation only); cultural candidate separately D / Low",
     "historical_relation": "Not claimed",
     "boundary": {
-      "en": "This displayed pair is translation. Mapping Level D applies only to the separate cultural chain 马 → 午 → 火.",
-      "zh-Hans": "此处展示标准翻译；Mapping Level D 只针对另列的文化链马 → 午 → 火。"
+      "en": "Featured 马 mǎ 保留标准动物义。马→午是生肖／地支配属；午→火是另一五行分类。文化链 Candidate / D / Low，与 horse↔火弱声音观察分开；文化加分为零。",
+      "zh-Hans": "Featured 马 mǎ 保留标准动物义。马→午是生肖／地支配属；午→火是另一五行分类。文化链 Candidate / D / Low，与 horse↔火弱声音观察分开；文化加分为零。"
     },
+    "source_refs": [
+      "HS-MA"
+    ]
+  },
+  "source_historical_research": {
+    "germanic_reconstruction": "*harss- (Etymonline notation)",
+    "earlier_origin": "uncertain / not established",
+    "source_refs": [
+      "HS-MW",
+      "HS-ETY"
+    ],
+    "boundary": "Reconstruction is not attested spelling. No link to Greek horos or Latin horrēre; no PIE root forced."
+  },
+  "source_audit_pending": [
+    {
+      "claim": "马／午／火的纸本规范音义、历史字义和古音",
+      "desired_sources": [
+        "现代汉语词典",
+        "新华字典",
+        "汉语大词典",
+        "汉语大字典"
+      ],
+      "status": "pending",
+      "reason": "未取得具体条目；平台已验内容不冒充纸本，不填写未见页码或拟音。"
+    },
+    {
+      "claim": "《论衡》大陆整理本直接校勘；生肖制度的完整起源史",
+      "status": "pending",
+      "reason": "当前借大陆学术研究转引；不将二手书目变成直接核验，也不确立唯一制度起源年代。"
+    }
+  ],
+  "standard_translation": {
+    "source": "horse",
+    "target": "马",
+    "status": "Supported",
+    "is_featured_mapping": true,
     "source_refs": [
       "HS-MA",
       "HS-MW"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-horse-primary",
+    "source": {
+      "language": "English",
+      "word": "horse",
+      "pronunciation": "UK /hɔːs/; US /hɔːrs/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "马",
+      "pronunciation": "mǎ"
+    },
+    "gloss": {
+      "en": "horse; standard lexical translation 马",
+      "zh-Hans": "马（标准词义翻译）"
+    },
+    "meaning": {
+      "en": "A large hoofed mammal used for riding or drawing loads. Standard translation: 马 mǎ (Supported). The cultural chain 马 → 午 → 火 is separately Candidate / D.",
+      "zh-Hans": "可供骑乘、挽载的有蹄哺乳动物。标准翻译：马 mǎ（Supported）；文化链马 → 午 → 火另标 Candidate / D。"
+    },
+    "mapping_type": "Standard lexical translation",
+    "rationale": {
+      "en": "horse → 马 is lexical translation. 马 → 午 uses the conventional branch–animal pairing; 午 → 火 uses a separate five-phase classification. Combining these as a FIRE association is a symbolic mapping, not a definition or etymology.",
+      "zh-Hans": "horse → 马是标准翻译。马 → 午依据通行地支配禽／生肖配属；午 → 火依据另一套五行配属。两套分类相关但不相同，组合后形成 FIRE association，不是词义定义或历史词源。"
+    }
+  },
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "OLD-ENGLISH",
+        "form": "hors",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old English",
+          "code": null
+        },
+        "period": {
+          "label": "Old English, approximately 450–1150; specific first attestation not newly assigned",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "HS-MW",
+            "HS-ETY"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "horse (animal)",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "HS-MW",
+          "HS-ETY"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Independent Germanic lineage retained as a boundary control. No forced Chinese candidate for this source stage."
+      },
+      {
+        "stage_id": "MODERN",
+        "form": "horse",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Modern English",
+          "code": null
+        },
+        "period": {
+          "label": "Modern English reference; via Middle English hors",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "HS-MW",
+            "HS-CAM"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "horse (animal)",
+          "pos": null,
+          "constraints": []
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "PR-HORSE",
+            "value": "UK /hɔːs/; US /hɔːrs/",
+            "notation": "source_notation",
+            "phonological_layer": "Modern English",
+            "period": {
+              "label": "Modern reference; exact documentation date not inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": []
+            },
+            "variety": "Modern English",
+            "system": "Existing entry transcription; see original scoped assessment",
+            "status": "documented",
+            "source_refs": [
+              "HS-CAM"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "OLD-ENGLISH",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_continuation",
+              "description": "Inherited via Middle English hors. Germanic *harss- is the named dictionary reconstruction; deeper origin uncertain. OHG hros is a relative, not a required English ancestor.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "HS-MW",
+              "HS-ETY"
+            ]
+          }
+        ],
+        "source_refs": [
+          "HS-MW",
+          "HS-CAM"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Existing comparison has research value; no new candidate search."
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-MODERN",
+        "stage_ref": "MODERN",
+        "selection_reasons": [
+          "explanatory_value",
+          "phonetic_form_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "horse (animal)",
+          "excluded_senses": [
+            "No transfer of a different stage’s meaning or pronunciation"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Existing documented reference pronunciations only"
+            ],
+            "semantic_seeds": [
+              "horse (animal)"
+            ],
+            "consonant_hypotheses": [],
+            "note": "Bounded migration of existing candidate inventory; not a new Discovery Work search."
+          },
+          "run_refs": [],
+          "stop_reason": "Existing review retained. No forced Chinese winner; unresolved evidence remains Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "BF-HS-MA",
+            "family_key": "legacy-horse",
+            "target": {
+              "form": "马",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "马的动物义",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-BF-HS-MA",
+                  "value": "mǎ",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "HS-MA"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "HS-MA"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MODERN",
+              "source_pronunciation_ref": "PR-HORSE",
+              "target_pronunciation_ref": "ZH-BF-HS-MA",
+              "source_span": "horse",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "Standard / Modern Lexical Mapping。编辑选择展示马；词义支持不等于声音相近或历史同源。",
+              "source_refs": [
+                "HS-MA"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Low",
+              "rationale": "Existing feature comparison retained; no acoustic measurement.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "HS-MA"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "HS-MA"
+                ],
+                "locator": null,
+                "note": "Specific Mainland digital entry within its visible scope; not a print dictionary or directly collated ancient text."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "HS-MA"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print edition/entry not directly obtained; no page or quotation invented."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Standard / Modern Lexical Mapping。编辑选择展示马；词义支持不等于声音相近或历史同源。",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Standard / Modern Lexical Mapping。编辑选择展示马；词义支持不等于声音相近或历史同源。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu (conditional migration authorization)",
+              "date": "2026-09-20",
+              "note": "Focused Freeze found no new blocker; proceeded under explicit authorization. Evidence Pending retained."
+            }
+          },
+          {
+            "candidate_id": "BF-HS-CULTURAL-WU",
+            "family_key": "CHINESE-CULTURAL-ZODIAC",
+            "target": {
+              "form": "午",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "十二地支第七位，通行午马分类中的午",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-BF-HS-CULTURAL-WU",
+                  "value": "wǔ",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "HS-WU"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "HS-WU"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MODERN",
+              "source_pronunciation_ref": "PR-HORSE",
+              "target_pronunciation_ref": "ZH-BF-HS-CULTURAL-WU",
+              "source_span": "horse → 马 (translation); Chinese 马 → 午 (branch–animal classification)",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "indirect",
+              "confidence": "Low",
+              "rationale": "Chinese Cultural Classification：horse 标准译为马；马 → 午是地支配动物／通行生肖分类，不是 English horse 的历史阶段。",
+              "source_refs": [
+                "HS-WU"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Low",
+              "rationale": "Not evaluated: cultural classification supplies zero phonetic or historical bonus.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "HS-WU"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "HS-WU"
+                ],
+                "locator": null,
+                "note": "Specific Mainland digital entry within its visible scope; not a print dictionary or directly collated ancient text."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "HS-WU"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print edition/entry not directly obtained; no page or quotation invented."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "mediated",
+                "source_refs": [
+                  "HS-FMPRC",
+                  "HS-NMC",
+                  "HS-CHEN"
+                ],
+                "locator": null,
+                "note": "Branch–animal pairing supported by Mainland sources. Historical 配禽 and complete birth-year zodiac practice are not interchangeable."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Chinese Cultural Classification：horse 标准译为马；马 → 午是地支配动物／通行生肖分类，不是 English horse 的历史阶段。",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Chinese Cultural Classification：horse 标准译为马；马 → 午是地支配动物／通行生肖分类，不是 English horse 的历史阶段。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu (conditional migration authorization)",
+              "date": "2026-09-20",
+              "note": "Focused Freeze found no new blocker; proceeded under explicit authorization. Evidence Pending retained."
+            }
+          },
+          {
+            "candidate_id": "BF-HS-CULTURAL-FIRE",
+            "family_key": "CHINESE-CULTURAL-FIVE-PHASES",
+            "target": {
+              "form": "火",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "五行分类中的火",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-BF-HS-CULTURAL-FIRE",
+                  "value": "huǒ",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "HS-HUO"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "HS-HUO"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MODERN",
+              "source_pronunciation_ref": "PR-HORSE",
+              "target_pronunciation_ref": "ZH-BF-HS-CULTURAL-FIRE",
+              "source_span": "horse → 马; Chinese 午 → 火 (five-phase classification)",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "indirect",
+              "confidence": "Low",
+              "rationale": "Chinese Cultural Classification：午 → 火属于五行配属。组合 horse → 马 → 午 → 火是文化路径，不是词义定义、自然因果或英语词源。",
+              "source_refs": [
+                "HS-HUO"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Low",
+              "rationale": "Not evaluated: cultural classification supplies zero phonetic or historical bonus.",
+              "features": {
+                "onset": "Not separately evaluated in existing research; no new rating.",
+                "vowel": "Not separately evaluated in existing research; no new rating.",
+                "coda_other_consonants": "Not separately evaluated in existing research; no new rating.",
+                "syllables": "Not separately evaluated in existing research; no new rating.",
+                "prosody": "Not separately evaluated in existing research; no new rating."
+              },
+              "source_refs": [
+                "HS-HUO"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "HS-HUO"
+                ],
+                "locator": null,
+                "note": "Specific Mainland digital entry within its visible scope; not a print dictionary or directly collated ancient text."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "HS-HUO"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print edition/entry not directly obtained; no page or quotation invented."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "mediated",
+                "source_refs": [
+                  "HS-SHNU",
+                  "HS-CHEN"
+                ],
+                "locator": null,
+                "note": "Five-phase correspondence supported as a traditional classification, not physical causation. Paper-mediated classical quotation is not direct collation."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Chinese Cultural Classification：午 → 火属于五行配属。组合 horse → 马 → 午 → 火是文化路径，不是词义定义、自然因果或英语词源。",
+              "Modern Chinese pronunciation is not an ancient reconstruction; resemblance does not establish descent."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Chinese Cultural Classification：午 → 火属于五行配属。组合 horse → 马 → 午 → 火是文化路径，不是词义定义、自然因果或英语词源。",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu (conditional migration authorization)",
+              "date": "2026-09-20",
+              "note": "Focused Freeze found no new blocker; proceeded under explicit authorization. Evidence Pending retained."
+            }
+          },
+          {
+            "candidate_id": "BF-HS-SOUND-FIRE",
+            "family_key": "MODERN-HORSE-FIRE-SOUND-ONLY",
+            "target": {
+              "form": "火",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; historical attestations remain in Research",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": []
+              },
+              "meaning": {
+                "gloss": "燃烧的火，不是马的词义",
+                "pos": null,
+                "constraints": []
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-BF-HS-SOUND-FIRE",
+                  "value": "huǒ [xwɔ˨˩˦]",
+                  "notation": "source_notation",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern reference; exact documentation date not inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": []
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Existing entry transcription; see original scoped assessment",
+                  "status": "documented",
+                  "source_refs": [
+                    "HS-HUO"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "HS-HUO"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MODERN",
+              "source_pronunciation_ref": "PR-HORSE",
+              "target_pronunciation_ref": "ZH-BF-HS-SOUND-FIRE",
+              "source_span": "horse",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "No consonant-group claim",
+                "version": "legacy hypothesis; not validated"
+              }
+            },
+            "role": "sound_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "Low",
+              "rationale": "Independent horse ↔ 火 surface-sound observation only. Culture cannot repair lexical mismatch or increase phonetic/historical support.",
+              "source_refs": [
+                "HS-HUO"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Weak modern surface resemblance: /h/ and /x/ are different voiceless fricatives; /ɔː/ and [wɔ] only partially resemble one another. English final /s/, US /r/, Mandarin /w/ and third tone do not align. Cultural bonus = 0; lexical semantic mismatch stays mismatch.",
+              "features": {
+                "onset": "English /h/ vs Mandarin /x/: different place",
+                "vowel": "English /ɔː/ vs Mandarin /wɔ/: partial resemblance only",
+                "coda_other_consonants": "English /s/ and US /r/ have no Chinese counterparts",
+                "syllables": "one syllable each; entire words compared, no hor = 火 root",
+                "prosody": "Mandarin third tone differs from English stress"
+              },
+              "source_refs": [
+                "HS-CAM",
+                "HS-HUO"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "HS-HUO"
+                ],
+                "locator": null,
+                "note": "Specific Mainland digital entry within its visible scope; not a print dictionary or directly collated ancient text."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "HS-HUO"
+                ],
+                "locator": null,
+                "note": "Editorial comparison; previous qualitative levels and unvalidated component scores remain in original Research fields."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "Mainland print edition/entry not directly obtained; no page or quotation invented."
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence introduced."
+            },
+            "confounds": [
+              "Independent horse ↔ 火 surface-sound observation only. Culture cannot repair lexical mismatch or increase phonetic/historical support.",
+              "Full-word, accent-stratified editorial comparison; no listening or acoustic experiment. Cultural information contributes zero points."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "Independent horse ↔ 火 surface-sound observation only. Culture cannot repair lexical mismatch or increase phonetic/historical support.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Jinkai Liu (conditional migration authorization)",
+              "date": "2026-09-20",
+              "note": "Focused Freeze found no new blocker; proceeded under explicit authorization. Evidence Pending retained."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Jinkai Liu (conditional migration authorization)",
+          "date": "2026-09-20",
+          "note": "Focused Freeze found no new blocker; proceeded under explicit authorization. Evidence Pending retained."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": "BF-HS-MA",
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-MODERN",
+          "candidate_ref": "BF-HS-CULTURAL-WU"
+        },
+        {
+          "stage_mapping_ref": "SM-MODERN",
+          "candidate_ref": "BF-HS-CULTURAL-FIRE"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Jinkai Liu (conditional approval; focused Freeze passed)",
+      "reason": "Featured 马 mǎ 保留标准动物义。马→午是生肖／地支配属；午→火是另一五行分类。文化链 Candidate / D / Low，与 horse↔火弱声音观察分开；文化加分为零。"
+    },
+    "historical_path": "Germanic lineage (Etymonline *harss-, deeper origin uncertain) → Old English hors → Middle English hors → horse",
+    "semantic_path": "HORSE animal → modern HORSE; separate Chinese Cultural Classification: 马 → 午 → 火",
+    "boundary": {
+      "en": "Featured 马 mǎ 保留标准动物义。马→午是生肖／地支配属；午→火是另一五行分类。文化链 Candidate / D / Low，与 horse↔火弱声音观察分开；文化加分为零。",
+      "zh-Hans": "Featured 马 mǎ 保留标准动物义。马→午是生肖／地支配属；午→火是另一五行分类。文化链 Candidate / D / Low，与 horse↔火弱声音观察分开；文化加分为零。"
+    }
+  },
+  "legacy_migration": {
+    "version": "tier-b-final-0.1",
+    "baseline_commit": "dcfc3dc3f6ae5424beb61ef22b6f55ca3ecebde2",
+    "scope": "Read-only research archive. Previous Featured/combined scores are not current selection or historical evidence.",
+    "previous_fields": {
+      "cultural_classification_mapping": {
+        "type": "Chinese Cultural Classification / Symbolic Mapping",
+        "status": "Candidate",
+        "mapping_level": "D",
+        "confidence": "Low",
+        "historical_relation": "Not claimed",
+        "direct_lexical_equivalence": false,
+        "chain": "马 → 午马 → 午 / 火 → FIRE association",
+        "links": [
+          {
+            "source": "马",
+            "target": "午",
+            "system": "Earthly branch–animal / conventional zodiac pairing",
+            "evidence_status": "Supported",
+            "source_refs": [
+              "HS-CHEN",
+              "HS-FMPRC",
+              "HS-NMC"
+            ]
+          },
+          {
+            "source": "午",
+            "target": "火",
+            "system": "Five-phase classification",
+            "evidence_status": "Supported",
+            "source_refs": [
+              "HS-CHEN",
+              "HS-SHNU"
+            ]
+          }
+        ],
+        "historical_boundary": "《论衡》配禽分类不自动等于完整的生年生肖制度。陈文对这一用途区别作专门论证；本条不宣布生肖起源日期。",
+        "phonetic_bonus": 0,
+        "historical_bonus": 0
+      },
+      "cross_entry_control": {
+        "historical_families_distinct": true,
+        "claim": {
+          "en": "ABHOR → 火 is an affective/cognitive Candidate. HORIZON retains its independent boundary etymology and current page mapping. HORSE → 马 → 午 → 火 is Chinese classification. These three paths cannot prove one another or hor = 火.",
+          "zh-Hans": "ABHOR → 火是情绪／认知候选；HORIZON 保持独立的边界词源及当前页面主候选，本任务不改；HORSE → 马 → 午 → 火是中国文化分类。三条路径不能互相证明，也不能证明 hor = 火。"
+        },
+        "source_refs": [
+          "HS-ABHOR",
+          "HS-HORIZON",
+          "HS-MW"
+        ]
+      },
+      "featured_mapping": {
+        "source": "horse",
+        "target": "马",
+        "reading": "mǎ",
+        "display_label": "Standard lexical translation · 标准翻译；文化链另标 Candidate / D",
+        "status": "Supported",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "This displayed pair is translation. Mapping Level D applies only to the separate cultural chain 马 → 午 → 火.",
+          "zh-Hans": "此处展示标准翻译；Mapping Level D 只针对另列的文化链马 → 午 → 火。"
+        },
+        "source_refs": [
+          "HS-MA",
+          "HS-MW"
+        ]
+      }
+    },
+    "previously_absent_fields": [
+      "source_historical_research",
+      "source_audit_pending",
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "diachronic_semantic_mapping"
     ]
   }
 }

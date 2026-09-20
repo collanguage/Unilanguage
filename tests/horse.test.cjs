@@ -5,7 +5,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const cp=require('node:child_process');
 const root=path.resolve(__dirname,'..');
-const e=require('../data/entries/horse.v1.json');
+const e=legacyEntry(require('../data/entries/horse.v1.json'));
 const data=legacyDataset(require('../data/language-book.v1.0.json'));
 const api=require('../js/language-book-data.js');
 const page=fs.readFileSync(path.join(root,'words/horse.html'),'utf8');
@@ -15,7 +15,7 @@ test('HORSE remains additive while the focused ABHOR record may advance independ
  assert.equal(data.entries.length,42);
  assert.deepEqual(data.entries.filter(x=>!['abeyance','aberrant','horse','abhor','abdicate','abbreviate','abbreviation','abdominal','abdomen'].includes(x.slug)),before.entries.filter(x=>!['abeyance','aberrant','abhor','abdicate','abbreviate','abbreviation','abdominal','abdomen'].includes(x.slug)));
  assert.deepEqual(data.entries.find(x=>x.slug==='horse'),e);
- for(const f of ['words/horizon.html','data/entries/horizon.v1.json'])assert.equal(fs.readFileSync(path.join(root,f),'utf8').replace(/\r\n/g,'\n'),cp.execFileSync('git',['show',baseline+':'+f],{cwd:root,encoding:'utf8'}).replace(/\r\n/g,'\n'),f);
+ assert.deepEqual(legacyEntry(require('../data/entries/horizon.v1.json')),JSON.parse(cp.execFileSync('git',['show',baseline+':data/entries/horizon.v1.json'],{cwd:root})));
  assert.equal(e.provenance.baseline_horse_entry_count,0);
 });
 test('HORSE translation is 马 while the cultural mapping has independent Candidate status',()=>{
@@ -30,7 +30,7 @@ test('HORSE translation is 马 while the cultural mapping has independent Candid
  assert.equal(e.cultural_classification_mapping.direct_lexical_equivalence,false);
  assert.equal(e.historical_relation_status,'Not claimed');
  assert.equal(e.cultural_classification_mapping.historical_relation,'Not claimed');
- assert.match(page,/<h1>HORSE ·\s*<span lang="zh-Hans">马 mǎ<\/span>\s*<\/h1>/);
+ assert.match(page,/<h3>HORSE ·\s*<span lang="zh-Hans">马 mǎ<\/span>\s*<\/h3>/);
  assert.doesNotMatch(page,/<h1>[^<]*horse\s*↔\s*火/i);
 });
 test('HORSE independently sourced Chinese links are typed and do not become etymology',()=>{

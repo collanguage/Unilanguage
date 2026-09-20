@@ -13,7 +13,8 @@ test('ABERRANT recalibration preserves identity and all unrelated data and froze
  assert.deepEqual(e.source,before.entries.find(x=>x.slug==='aberrant').source);
  // Four migrated pages are checked against the approved baseline in legacy-migration.test.cjs.
  // ABBREVIATE now has an approved Batch 1 page migration, independently checked in family-migration-batch1.test.cjs.
- for(const f of ['js/semantic-mapper.js','semantic-mapper.html',...['horizon','horse','new'].map(x=>'words/'+x+'.html')])assertLegacyUiEqual(fs.readFileSync(f,'utf8').replace(/\r\n/g,'\n'),get(f),f);
+ // HORIZON/HORSE are now covered by exact archive and scope tests in tier-b-final.test.cjs.
+ for(const f of ['js/semantic-mapper.js','semantic-mapper.html',...['new'].map(x=>'words/'+x+'.html')])assertLegacyUiEqual(fs.readFileSync(f,'utf8').replace(/\r\n/g,'\n'),get(f),f);
 });
 test('Adjective translation and featured historical-unit candidate are independent',()=>{
  assert.equal(e.languages[0].part_of_speech,'adjective · 形容词');assert.equal(e.languages.find(x=>x.word==='err').part_of_speech,'verb · 动词');
