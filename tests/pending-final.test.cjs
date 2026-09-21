@@ -1,17 +1,19 @@
+const {beforeSecondPipeline,stripSecondPipeline,isSecondPipelineFile}=require('./second-pipeline-compat.cjs');
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),cp=require('node:child_process');
 const model=require('../js/diachronic-mapping.js'),api=require('../js/language-book-data.js'),{legacyEntry}=require('./legacy-research-view.cjs');
 const base='be8bc2dcb1d3f517ba41bbaa2dacc8574335565b',slugs=['media','aback','sound'];
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:40e6}).replace(/\r\n/g,'\n');
-const current=require('../data/language-book.v1.0.json'),data={...current,entries:current.entries.map(e=>['tier-c-batch2-0.1','tier-c-batch3-0.1','tier-c-final-a-0.1'].includes(e.legacy_migration?.version)?legacyEntry(e):e)},before=JSON.parse(get('data/language-book.v1.0.json'));
+const current=beforeSecondPipeline(require('../data/language-book.v1.0.json')),data={...current,entries:current.entries.map(e=>['tier-c-batch2-0.1','tier-c-batch3-0.1','tier-c-final-a-0.1'].includes(e.legacy_migration?.version)?legacyEntry(e):e)},before=JSON.parse(get('data/language-book.v1.0.json'));
 const es=slugs.map(s=>data.entries.find(e=>e.slug===s));
 test('Pending batch changes only three entries; other 39 entries and pages/schema remain exact',()=>{
  assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const dir of ['data/entries','words'])for(const f of fs.readdirSync(dir)){
+  if(isSecondPipelineFile(f))continue;
   if([...slugs,'abridge','aliment','acumen','abound','sky','language','advance','generate','absolute','a-indefinite-article'].some(s=>f===s+'.html'||f===s+'.v1.json'))continue;
-  const p=dir+'/'+f;if(fs.statSync(p).isFile())assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
+  const p=dir+'/'+f;if(fs.statSync(p).isFile())assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p),p);
  }
- for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
- const renderer=fs.readFileSync('js/semantic-mapper.js','utf8').replace(/\r\n/g,'\n');
+ for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p),p);
+ const renderer=stripSecondPipeline(fs.readFileSync('js/semantic-mapper.js','utf8').replace(/\r\n/g,'\n'));
  const addition='${entry.legacy_migration?.version === "pending-final-0.1" && !featured ? "<p>Featured Mapping is optional. Pending 是有效研究结果，不是页面错误。</p>" : ""}';
  assert.ok(renderer.includes(addition));assert.equal(renderer.replace(addition,''),get('js/semantic-mapper.js'));
  es.forEach(e=>{assert.deepEqual(legacyEntry(e),before.entries.find(x=>x.id===e.id));assert.deepEqual(model.validate(e),[]);assert.deepEqual(e,require('../data/entries/'+e.slug+'.v1.json'));});

@@ -1,6 +1,7 @@
+const {beforeSecondPipeline,stripSecondPipeline,isSecondPipelineFile}=require('./second-pipeline-compat.cjs');
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),cp=require('node:child_process');
 const model=require('../js/diachronic-mapping.js'),api=require('../js/language-book-data.js');
-const data=require('../data/language-book.v1.0.json'),{legacyEntry}=require('./legacy-research-view.cjs');
+const data=beforeSecondPipeline(require('../data/language-book.v1.0.json')),{legacyEntry}=require('./legacy-research-view.cjs');
 const base='5ed87f6b6d2aa99523368bd26aa4c7d43b8deb3b',slugs=['abandon','abhor','abdicate','aberrant'];
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:30e6});
 const entries=slugs.map(s=>require(`../data/entries/${s}.v1.json`));
@@ -14,10 +15,11 @@ test('only four approved entries migrate; every existing research field survives
   assert.deepEqual(model.validate(e),[]);assert.equal(model.isPilot(e),true);
  }
  for(const dir of ['data/entries','words'])for(const name of fs.readdirSync(dir)){
+  if(isSecondPipelineFile(name))continue;
   if([...slugs,...batch].some(s=>name===s+'.v1.json'||name===s+'.html'))continue; // Batch 1 has its own exact-baseline scope test.
   if(!name.endsWith('.json')&&!name.endsWith('.html'))continue;
   const p=dir+'/'+name;
-  assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p).replace(/\r\n/g,'\n'),p);
+  assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p).replace(/\r\n/g,'\n'),p);
  }
  assert.equal(fs.readFileSync('data/language-book-entry.schema.v1.json','utf8').replace(/\r\n/g,'\n'),get('data/language-book-entry.schema.v1.json').replace(/\r\n/g,'\n'),'no schema expansion needed');
 });

@@ -495,6 +495,18 @@
     {
       "en": "D / Low confidence: this is a created symbolic bridge under the current Mapping Framework. The template also assigns D to created relations. A future benchmark plan does not upgrade it to C.",
       "zh-Hans": "D／低置信度：按现行 Mapping Framework 属于创造的符号桥梁；模板也将创造关系列为 D。未来实验计划不自动将其升为 C。"
+    },
+    {
+      "en": "Counterinterpretation: new → 新 is the standard meaning. 丑牛 does not prove a sound relation or lexical etymology; 丑时 is not objectively the beginning of the day.",
+      "zh-Hans": "Counterinterpretation: new → 新 is the standard meaning. 丑牛 does not prove a sound relation or lexical etymology; 丑时 is not objectively the beginning of the day."
+    },
+    {
+      "en": "Pending: Mainland printed entries, ancient-text collation, period-specific day boundaries, independent phonetic/cultural experiments. Candidate D / Low / Draft remain unchanged.",
+      "zh-Hans": "Pending: Mainland printed entries, ancient-text collation, period-specific day boundaries, independent phonetic/cultural experiments. Candidate D / Low / Draft remain unchanged."
+    },
+    {
+      "en": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity.",
+      "zh-Hans": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity."
     }
   ],
   "search_terms": [
@@ -555,5 +567,67 @@
       "status": "pending",
       "reason": "Historical spellings and etymology verified, but exact Old/Middle English IPA and dated sound-change sequence not verified; modern /njuː/ not projected backward"
     }
-  ]
+  ],
+  "standard_translation": {
+    "target": "新 / 新的",
+    "status": "Frozen editorial scope; source-specific evidence retained"
+  },
+  "featured_mapping_status": "Candidate",
+  "featured_mapping": {
+    "source": "new",
+    "target": "牛",
+    "reading": "niú",
+    "display_label": "Phonetic Candidate",
+    "status": "Candidate",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "new ↔ 牛 niú: limited modern sound observation; 牛 has no ordinary NEW meaning. Semantic fit is weak; culture cannot raise phonetic evidence.",
+      "zh-Hans": "new ↔ 牛 niú: limited modern sound observation; 牛 has no ordinary NEW meaning. Semantic fit is weak; culture cannot raise phonetic evidence."
+    },
+    "source_refs": [
+      "NEW-MW"
+    ]
+  },
+  "semantic_associations": [
+    {
+      "association_id": "CSL-NEW-PHONETIC",
+      "relation": "new ↔ 牛 niú: limited modern sound observation; 牛 has no ordinary NEW meaning. Semantic fit is weak; culture cannot raise phonetic evidence.",
+      "status": "Candidate",
+      "is_etymological": false
+    },
+    {
+      "association_id": "CSL-NEW-CULTURAL",
+      "relation": "牛 → 丑牛 → 时辰: Chinese Cultural Classification. 子时为首；丑时约 01–03 时. Sequence, calendrical day boundary and historical systems are distinct.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "CSL-NEW-AUTHOR",
+      "relation": "“新的开始” is Author’s Cultural/Semantic Interpretation, not the factual start of every traditional day.",
+      "status": "Literary",
+      "is_etymological": false
+    }
+  ],
+  "legacy_migration": {
+    "version": "second-pipeline-0.1",
+    "baseline_commit": "f35857436a743045645c1e8f06afb932bbc4db63",
+    "previous_fields": {
+      "editorial_notes": [
+        {
+          "en": "Schema has no Candidate entry lifecycle: Draft is used; Mapping remains Candidate. Public availability does not certify review.",
+          "zh-Hans": "现行 schema 无 Candidate 词条生命周期，故 entry_status 用 Draft，mapping_status 用 Candidate；页面公开不代表审核通过。"
+        },
+        {
+          "en": "D / Low confidence: this is a created symbolic bridge under the current Mapping Framework. The template also assigns D to created relations. A future benchmark plan does not upgrade it to C.",
+          "zh-Hans": "D／低置信度：按现行 Mapping Framework 属于创造的符号桥梁；模板也将创造关系列为 D。未来实验计划不自动将其升为 C。"
+        }
+      ]
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "featured_mapping_status",
+      "featured_mapping",
+      "semantic_associations"
+    ]
+  }
 }

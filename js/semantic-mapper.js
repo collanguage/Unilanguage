@@ -56,6 +56,12 @@
   }
 
   function renderEntry(entry) {
+    // SECOND-PIPELINE:START
+    if (globalThis.UnilanguageSecondPipeline?.isPilot(entry)) {
+      ui.state.innerHTML = ""; ui.result.hidden = false;
+      ui.result.innerHTML = UnilanguageSecondPipeline.render(entry); return;
+    }
+    // SECOND-PIPELINE:END
     const mapping = entry.primary_mapping;
     const standardGloss = entry.standard_translation?.target || (entry.slug === "abdomen" ? "腹部" : mapping.target.word);
     const standardTranslations = entry.slug === "abdomen" ? "腹部；肚子（口语）" : mapping.gloss["zh-Hans"];

@@ -5,7 +5,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const data = legacyDataset(require('../data/language-book.v1.0.json'));
-const entry = require('../data/entries/new.v1.json');
+const entry = require('./legacy-research-view.cjs').legacyEntry(require('../data/entries/new.v1.json'));
 const api = require('../js/language-book-data.js');
 const page = fs.readFileSync(path.join(root, 'words/new.html'), 'utf8');
 
@@ -72,7 +72,7 @@ test('NEW pronunciation and source audit retain accent differences and pending b
 test('NEW follows master section order and integrates static entry points', () => {
   assert.equal(fs.readFileSync(path.join(root, '_redirects'), 'utf8').trim(), '/new /words/new.html 301');
   const ids = ['literature', 'basic-meaning', 'multilingual', 'etymology', 'mapping', 'justification', 'protocol-references', 'translation-protocol', 'examples', 'community'];
-  const positions = ids.map(id => page.indexOf(`id="${id}"`));
+  const positions = ids.map(id => page.indexOf(`id="${id==='literature'?id:'archive-'+id}"`));
   assert.ok(positions.every((p,i) => p >= 0 && (!i || p > positions[i-1])));
   for (const file of ['index.html', 'english.html', 'chinese.html', 'french.html', 'sitemap.xml']) assert.match(fs.readFileSync(path.join(root,file),'utf8'), /words\/new\.html/);
   assert.match(page, /css\/sky-case\.css/);

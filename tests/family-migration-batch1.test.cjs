@@ -1,17 +1,19 @@
+const {beforeSecondPipeline,stripSecondPipeline,isSecondPipelineFile}=require('./second-pipeline-compat.cjs');
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),cp=require('node:child_process');
 const model=require('../js/diachronic-mapping.js'),api=require('../js/language-book-data.js'),{legacyEntry}=require('./legacy-research-view.cjs');
 const base='8d462232767d89290516dcb5086704a729a36be6',slugs=['abbreviate','abbreviation','abdomen','abdominal'];
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:30e6}).replace(/\r\n/g,'\n');
-const es=slugs.map(s=>require('../data/entries/'+s+'.v1.json')),data=require('../data/language-book.v1.0.json');
+const es=slugs.map(s=>require('../data/entries/'+s+'.v1.json')),data=beforeSecondPipeline(require('../data/language-book.v1.0.json'));
 test('Batch 1 scope: all other entries/pages, schema and Mapper UI remain byte-identical',()=>{
  const before=JSON.parse(get('data/language-book.v1.0.json'));
  const b2=['universe','human','abbey','abash','horizon','horse','media','aback','sound','abridge','aliment','acumen','abound','sky','language','advance','generate','absolute','a-indefinite-article'];
  assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)).map(e=>b2.includes(e.slug)?legacyEntry(e):e),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const dir of ['data/entries','words'])for(const file of fs.readdirSync(dir)){
+  if(isSecondPipelineFile(file))continue;
   if([...slugs,'universe','man','abbey','abash','horizon','horse','media','aback','sound','abridge','aliment','acumen','abound','sky','language','advance','generate','absolute','a-indefinite-article'].some(s=>file===s+'.html'||file===s+'.v1.json'))continue;
-  const p=dir+'/'+file;if(fs.statSync(p).isFile())assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
+  const p=dir+'/'+file;if(fs.statSync(p).isFile())assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p),p);
  }
- for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
+ for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p),p);
  for(const e of es){assert.deepEqual(model.validate(e),[]);assert.deepEqual(data.entries.find(x=>x.id===e.id),e);assert.deepEqual(legacyEntry(e),before.entries.find(x=>x.id===e.id));}
 });
 test('Family stages, semantic-only modern meanings and independent Featured selections',()=>{

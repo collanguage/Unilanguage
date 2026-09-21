@@ -1,0 +1,616 @@
+{
+  "id": "LB-en-water-001",
+  "slug": "water",
+  "title": {
+    "en": "Water · 哗",
+    "zh-Hans": "Water · 水 · 哗"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "water",
+      "pronunciation": "/ˈwɔːtər/"
+    },
+    {
+      "role": "target",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "哗",
+      "pronunciation": "huā"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-water-primary-hua",
+    "source": {
+      "language": "English",
+      "word": "water",
+      "pronunciation": "/ˈwɔːtər/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "哗",
+      "pronunciation": "huā"
+    },
+    "gloss": {
+      "en": "The transparent liquid essential to life; also water as flow, surface and sound.",
+      "zh-Hans": "生命所必需的透明液体；也包括水的流动、表面与声音。"
+    },
+    "meaning": {
+      "en": "The transparent liquid essential to life; also water as flow, surface and sound.",
+      "zh-Hans": "生命所必需的透明液体；也包括水的流动、表面与声音。"
+    },
+    "mapping_type": "Cross-language semantic candidate",
+    "rationale": {
+      "en": "The author links water with 哗/哗哗流水 as an auditory and semantic association.",
+      "zh-Hans": "作者把 water 与“哗／哗哗流水”联系，作为听觉与语义联想。"
+    }
+  },
+  "entry_status": "Reviewed",
+  "mapping_status": "Candidate",
+  "mapping_level": "B",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Not evaluated",
+      "confidence": "Unknown",
+      "summary": {
+        "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+        "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Unknown",
+      "summary": {
+        "en": "No separate phonetic-semantic observation is recorded.",
+        "zh-Hans": "未记录独立的语音—语义观察。"
+      },
+      "items": [
+        {
+          "evidence_id": "RAT-water-hua",
+          "claim": {
+            "en": "The author links water with 哗/哗哗流水 as an auditory and semantic association.",
+            "zh-Hans": "作者把 water 与“哗／哗哗流水”联系，作为听觉与语义联想。"
+          },
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "source_refs": [
+            "SRC-G1-CALIBRATION"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-G1-CALIBRATION"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "Recorded semantic structure: WATER → FLOW → SURFACE → SOUND.",
+        "zh-Hans": "已记录语义结构：WATER → FLOW → SURFACE → SOUND。"
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Speculative": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+        "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+      },
+      "items": [
+        {
+          "evidence_id": "UNI-W-FH-PHONETIC-001",
+          "claim": {
+            "en": "The author proposes that W may correspond with F or H in the water ↔ 哗 comparison. No regular sound change is asserted.",
+            "zh-Hans": "作者提出在 water ↔ 哗 的比较中，W 可能与 F 或 H 对应；此处不声称存在已证实的规律音变。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-G1-CALIBRATION",
+            "SRC-IPA-CHART",
+            "SRC-CAMBRIDGE-COMPARATIVE"
+          ]
+        },
+        {
+          "evidence_id": "UNI-W-WATER-002",
+          "claim": {
+            "en": "W-family enrichment in WATER / WETNESS / WAVE-FLOW semantics",
+            "zh-Hans": "W 词族在水／湿润／波动—流动语义中的富集假说"
+          },
+          "status": "Tested-Inconclusive",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-G1-CALIBRATION",
+        "SRC-IPA-CHART",
+        "SRC-CAMBRIDGE-COMPARATIVE",
+        "SRC-EXP-002-PRIMARY",
+        "SRC-EXP-002-PAGE"
+      ]
+    }
+  },
+  "phonetic_observation": [],
+  "semantic_structure": {
+    "concepts": [
+      "WATER",
+      "FLOW",
+      "SURFACE",
+      "SOUND"
+    ],
+    "relation": "WATER → FLOW → SURFACE → SOUND",
+    "status": "Interpretive"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-W-FH-PHONETIC-001",
+      "type": "consonant-correspondence",
+      "claim": {
+        "en": "The author proposes that W may correspond with F or H in the water ↔ 哗 comparison. No regular sound change is asserted.",
+        "zh-Hans": "作者提出在 water ↔ 哗 的比较中，W 可能与 F 或 H 对应；此处不声称存在已证实的规律音变。"
+      },
+      "status": "Untested",
+      "confidence": "low",
+      "supporting_cases": [
+        "SRC-IPA-CHART",
+        "SRC-CAMBRIDGE-COMPARATIVE"
+      ],
+      "counterexamples": [],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "SRC-G1-CALIBRATION",
+        "SRC-IPA-CHART",
+        "SRC-CAMBRIDGE-COMPARATIVE"
+      ]
+    },
+    {
+      "hypothesis_id": "UNI-W-WATER-002",
+      "type": "initial-consonant-semantics",
+      "claim": {
+        "en": "W-family enrichment in WATER / WETNESS / WAVE-FLOW semantics",
+        "zh-Hans": "W 词族在水／湿润／波动—流动语义中的富集假说"
+      },
+      "status": "Tested-Inconclusive",
+      "confidence": "low",
+      "supporting_cases": [
+        "SRC-EXP-002-PRIMARY",
+        "SRC-EXP-002-PAGE"
+      ],
+      "counterexamples": [],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": "UNI-EXP-002",
+      "source_refs": [
+        "SRC-EXP-002-PRIMARY",
+        "SRC-EXP-002-PAGE"
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "experiment_id": "UNI-EXP-002",
+      "title": {
+        "en": "W → WATER / WETNESS / WAVE-FLOW semantic enrichment",
+        "zh-Hans": "W → 水／湿润／波动—流动语义富集"
+      },
+      "status": "Tested-Inconclusive",
+      "tested_hypotheses": [
+        "UNI-W-WATER-002"
+      ],
+      "design": {
+        "en": "Preregistered W-initial lexical-family enrichment for WATER / WETNESS / WAVE-FLOW semantics against controls.",
+        "zh-Hans": "预注册检验 W 起始词族在水／湿润／波动—流动语义上相对控制组的富集。"
+      },
+      "result": {
+        "en": "Tested-Inconclusive. Direction matched the hypothesis, but uncertainty was wide and the evidence did not establish enrichment or a universal sound law.",
+        "zh-Hans": "检验结果为不确定。方向与假说一致，但不确定性较大，证据未确立富集，更未确立普遍声音法则。"
+      },
+      "metrics": {
+        "w_target": 7,
+        "w_total": 120,
+        "w_rate_percent": 5.83,
+        "control_target": 9,
+        "control_total": 240,
+        "control_rate_percent": 3.75,
+        "risk_ratio": 1.556,
+        "risk_ratio_95_ci": [
+          0.594,
+          4.075
+        ],
+        "risk_difference_percentage_points": 2.08,
+        "risk_difference_95_ci_percentage_points": [
+          -4.12,
+          9.57
+        ],
+        "fisher_two_sided_p": 0.4185
+      },
+      "path": "experiments/002/results.html",
+      "source_refs": [
+        "SRC-EXP-002-PRIMARY",
+        "SRC-EXP-002-PAGE"
+      ]
+    }
+  ],
+  "literary_layer": {
+    "status": "Not present",
+    "is_historical_evidence": false,
+    "proposition": null,
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "Literature may explore freely, but it is not historical evidence.",
+      "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "SRC-EXP-002-PRIMARY",
+      "title": "UNI-EXP-002 frozen primary result",
+      "type": "frozen-experiment",
+      "url": null,
+      "path": "experiments/002/results/primary-result.v1.0.json",
+      "provenance": "unknown"
+    },
+    {
+      "reference_id": "SRC-EXP-002-PAGE",
+      "title": "UNI-EXP-002 public result page",
+      "type": "frozen-experiment",
+      "url": null,
+      "path": "experiments/002/results.html",
+      "provenance": "unknown"
+    },
+    {
+      "reference_id": "SRC-G1-CALIBRATION",
+      "title": "Package G.1 WATER / LANGUAGE author calibration record",
+      "type": "author-research-record",
+      "url": null,
+      "path": "docs/product/package-g1-classification-model-v0.1.md",
+      "provenance": "unknown"
+    },
+    {
+      "reference_id": "SRC-IPA-CHART",
+      "title": "International Phonetic Association · official IPA chart",
+      "type": "official-standard",
+      "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+      "path": "docs/product/package-g2-source-verification-v0.1.md",
+      "provenance": "official-standard"
+    },
+    {
+      "reference_id": "SRC-CAMBRIDGE-COMPARATIVE",
+      "title": "Cambridge · Historical Linguistics / comparative method",
+      "type": "scholarly-source",
+      "url": "https://doi.org/10.1017/9781108344326.020",
+      "path": "docs/product/package-g2-source-verification-v0.1.md",
+      "provenance": "scholarly-publication"
+    },
+    {
+      "reference_id": "SRC-PROTOCOL-MAPPING",
+      "title": "Protocol Book · Multidimensional Mapping Framework",
+      "type": "protocol-page",
+      "url": null,
+      "path": "protocol/protocol.mapping-framework.html",
+      "provenance": "project protocol"
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "G.1 calibration v0.1",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-02",
+    "published": null
+  },
+  "editorial_notes": [
+    {
+      "en": "The water → 哗 mapping and Experiment 002 result remain independently classified.",
+      "zh-Hans": "water → 哗 mapping 与实验 002 结果保持独立分类。"
+    },
+    {
+      "en": "Counterinterpretation: 水 is a translation, not evidence of inherent W meaning. A selected case cannot be counted again as independent validation. Inconclusive means neither supported nor disproved.",
+      "zh-Hans": "Counterinterpretation: 水 is a translation, not evidence of inherent W meaning. A selected case cannot be counted again as independent validation. Inconclusive means neither supported nor disproved."
+    },
+    {
+      "en": "Pending: individual sound observations, W↔F/H verification and Mainland printed entries. The frozen experiment is Inconclusive, not awaiting automatic promotion.",
+      "zh-Hans": "Pending: individual sound observations, W↔F/H verification and Mainland printed entries. The frozen experiment is Inconclusive, not awaiting automatic promotion."
+    },
+    {
+      "en": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity.",
+      "zh-Hans": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity."
+    }
+  ],
+  "search_terms": [
+    "water",
+    "W",
+    "wetness",
+    "wave",
+    "flow",
+    "哗",
+    "huā",
+    "水",
+    "shuǐ",
+    "WATER",
+    "FLOW",
+    "SURFACE",
+    "SOUND"
+  ],
+  "page": "words/water.html",
+  "legacy": {
+    "entry_id": "LB-en-water-001",
+    "source_word": "water",
+    "language": "English",
+    "normalized_form": "water",
+    "pronunciation": "/ˈwɔːtər/",
+    "phonetic_form": "wɔːtər",
+    "lexical_meaning": {
+      "en": "The transparent liquid essential to life; also water as flow, surface and sound.",
+      "zh-Hans": "生命所必需的透明液体；也包括水的流动、表面与声音。"
+    },
+    "aliases": [
+      "W",
+      "wetness",
+      "wave",
+      "flow",
+      "哗",
+      "huā",
+      "水",
+      "shuǐ"
+    ],
+    "classification_status": "candidate",
+    "primary_chinese_mapping": {
+      "mapping_id": "MAP-water-primary-hua",
+      "chinese_form": "哗",
+      "pinyin": "huā",
+      "role": "primary",
+      "mapping_basis": "author-proposal",
+      "status": "candidate",
+      "identity": "author-idea",
+      "source_verification": {
+        "status": "needs-verification",
+        "source_refs": [
+          "SRC-G1-CALIBRATION"
+        ],
+        "notes": {
+          "en": "Author-proposed sound-semantic calibration mapping based on the sound of flowing water; not reviewed fact.",
+          "zh-Hans": "作者基于流水声提出的声音—语义校准映射；不是已审核事实。"
+        }
+      },
+      "ai_review": {
+        "status": "not-reviewed",
+        "reviewer": null,
+        "reviewed_at": null,
+        "rationale": {
+          "en": "No G.1 object-level AI review has been completed.",
+          "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+        }
+      }
+    },
+    "secondary_chinese_mappings": [
+      {
+        "mapping_id": "MAP-water-secondary-shui",
+        "chinese_form": "水",
+        "pinyin": "shuǐ",
+        "role": "secondary",
+        "mapping_basis": "lexical-equivalent",
+        "status": "published",
+        "identity": "source-backed-lexical-mapping",
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-PROTOCOL-MAPPING"
+          ],
+          "notes": {
+            "en": "Ordinary Chinese lexical equivalent included as a separate secondary mapping.",
+            "zh-Hans": "普通汉语词汇对应，作为独立次要 mapping 保存。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "mapping_rationales": [
+      {
+        "rationale_id": "RAT-water-hua",
+        "mapping_ref": "MAP-water-primary-hua",
+        "identity": "author-idea",
+        "status": "candidate",
+        "statement": {
+          "en": "The author links water with 哗/哗哗流水 as an auditory and semantic association.",
+          "zh-Hans": "作者把 water 与“哗／哗哗流水”联系，作为听觉与语义联想。"
+        },
+        "source_verification": {
+          "status": "not-applicable",
+          "source_refs": [
+            "SRC-G1-CALIBRATION"
+          ],
+          "notes": {
+            "en": "This preserves the author's reason for proposing the mapping; it is not an established fact.",
+            "zh-Hans": "此对象保存作者提出映射的理由，不是既成事实。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "historical_etymologies": [],
+    "sound_symbol_hypothesis_refs": [
+      "UNI-W-FH-PHONETIC-001",
+      "UNI-W-WATER-002"
+    ],
+    "other_author_notes": [
+      {
+        "note_id": "NOTE-water-other",
+        "identity": "author-note",
+        "status": "needs-classification",
+        "text": {
+          "en": "Reserved for additional author ideas about water without forcing them into a hypothesis or etymology.",
+          "zh-Hans": "用于继续保存作者关于 water 的其他想法，不强行归入假说或词源。"
+        },
+        "source_verification": {
+          "status": "not-applicable",
+          "source_refs": [
+            "SRC-G1-CALIBRATION"
+          ],
+          "notes": {
+            "en": "Preserved during migration without forcing an evidential interpretation.",
+            "zh-Hans": "迁移时原样保留，不强行赋予证据解释。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "No G.1 object-level AI review has been completed.",
+            "zh-Hans": "尚未完成 G.1 对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "experimental_validation_refs": [
+      "UNI-EXP-002"
+    ],
+    "source_provenance": [
+      "SRC-EXP-002-PRIMARY",
+      "SRC-EXP-002-PAGE",
+      "SRC-G1-CALIBRATION"
+    ],
+    "author": "Jinkai Liu｜劉金凱",
+    "version": "G.1 calibration v0.1"
+  },
+  "standard_translation": {
+    "target": "水",
+    "status": "Frozen editorial scope; source-specific evidence retained"
+  },
+  "featured_mapping_status": "Candidate",
+  "featured_mapping": {
+    "source": "water",
+    "target": "哗",
+    "reading": "huā",
+    "display_label": "Individual Phonetic-Semantic Candidate",
+    "status": "Candidate",
+    "historical_relation": "Not claimed",
+    "boundary": {
+      "en": "water ↔ 哗 huā: individual observation only; 哗 also describes non-water sounds. The legacy B label is not an experiment grade.",
+      "zh-Hans": "water ↔ 哗 huā: individual observation only; 哗 also describes non-water sounds. The legacy B label is not an experiment grade."
+    },
+    "source_refs": [
+      "SRC-EXP-002-PRIMARY"
+    ]
+  },
+  "semantic_associations": [
+    {
+      "association_id": "CSL-WATER-INDIVIDUAL",
+      "relation": "water ↔ 哗 huā: individual observation only; 哗 also describes non-water sounds. The legacy B label is not an experiment grade.",
+      "status": "Candidate",
+      "is_etymological": false
+    },
+    {
+      "association_id": "CSL-WATER-HYPOTHESIS",
+      "relation": "W → WATER / WETNESS / WAVE-FLOW is an experimental hypothesis; W↔F/H remains an untested observation.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "CSL-WATER-EXPERIMENT",
+      "relation": "Experiment 002: Inconclusive (Tested-Inconclusive). Machine exploratory blind annotation, not human double-blind validation. Entry evidence cannot validate the experiment that searches its hypothesis.",
+      "status": "Tested-Inconclusive",
+      "is_etymological": false
+    }
+  ],
+  "legacy_migration": {
+    "version": "second-pipeline-0.1",
+    "baseline_commit": "f35857436a743045645c1e8f06afb932bbc4db63",
+    "previous_fields": {
+      "historical_relation_status": "Unestablished",
+      "editorial_notes": [
+        {
+          "en": "The water → 哗 mapping and Experiment 002 result remain independently classified.",
+          "zh-Hans": "water → 哗 mapping 与实验 002 结果保持独立分类。"
+        }
+      ],
+      "page": null,
+      "references": [
+        {
+          "reference_id": "SRC-EXP-002-PRIMARY",
+          "title": "UNI-EXP-002 frozen primary result",
+          "type": "frozen-experiment",
+          "url": null,
+          "path": "experiments/002/results/primary-result.v1.0.json",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-EXP-002-PAGE",
+          "title": "UNI-EXP-002 public result page",
+          "type": "frozen-experiment",
+          "url": null,
+          "path": "experiments/002/results.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-G1-CALIBRATION",
+          "title": "Package G.1 WATER / LANGUAGE author calibration record",
+          "type": "author-research-record",
+          "url": null,
+          "path": "docs/product/package-g1-classification-model-v0.1.md",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-IPA-CHART",
+          "title": "International Phonetic Association · official IPA chart",
+          "type": "official-standard",
+          "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "official-standard"
+        },
+        {
+          "reference_id": "SRC-CAMBRIDGE-COMPARATIVE",
+          "title": "Cambridge · Historical Linguistics / comparative method",
+          "type": "scholarly-source",
+          "url": "https://doi.org/10.1017/9781108344326.020",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "scholarly-publication"
+        }
+      ]
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "featured_mapping_status",
+      "featured_mapping",
+      "semantic_associations"
+    ]
+  }
+}

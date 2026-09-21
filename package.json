@@ -1,0 +1,11 @@
+{
+  "name": "unilanguage-publication-checks",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "test": "node --test --test-concurrency=1 tests/*.test.cjs",
+    "validate": "node scripts/validate-schema.mjs && node scripts/validate-language-book-v1.mjs",
+    "build": "node scripts/publication-build.mjs"
+  },
+  "devDependencies": {"ajv": "8.17.1"}
+}

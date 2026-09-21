@@ -1,0 +1,2301 @@
+{
+  "baseline_commit": "f35857436a743045645c1e8f06afb932bbc4db63",
+  "version": "0.1",
+  "entries": {
+    "at": {
+      "standard_translation": {
+        "target": "English preposition: location / time / state / relation; 在 / 于 / 向等随语境变化。",
+        "status": "Frozen editorial scope; source-specific evidence retained"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-at-primary-zai",
+        "source": {
+          "language": "English",
+          "word": "at",
+          "pronunciation": "/æt/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "在",
+          "pronunciation": "zài /tsaɪ̯/"
+        },
+        "gloss": {
+          "en": "Location, point or state → presence",
+          "zh-Hans": "位置、点或状态 → 在场／存在"
+        },
+        "meaning": {
+          "en": "A candidate comparison through LOCATION → PRESENCE; not interchangeable in every context.",
+          "zh-Hans": "通过 LOCATION → PRESENCE 建立的候选比较；并非所有语境都可互换。"
+        },
+        "mapping_type": "Limited Structural-Semantic Candidate",
+        "rationale": {
+          "en": "The strongest support is the semantic intersection LOCATION → PRESENCE; /æ/ ↔ /aɪ̯/ is only a limited vowel observation.",
+          "zh-Hans": "最强支持是 LOCATION → PRESENCE 的语义交点；/æ/ ↔ /aɪ̯/ 仅为有限元音观察。"
+        }
+      },
+      "featured_mapping": {
+        "source": "at",
+        "target": "在",
+        "reading": "zài",
+        "display_label": "Limited Structural-Semantic Candidate",
+        "status": "Candidate",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "at ↔ 在 zài: limited location/presence comparison; not unconditional lexical equivalence.",
+          "zh-Hans": "at ↔ 在 zài: limited location/presence comparison; not unconditional lexical equivalence."
+        },
+        "source_refs": [
+          "REF-AHD-AT"
+        ]
+      },
+      "featured_mapping_status": "Candidate",
+      "semantic_associations": [
+        {
+          "association_id": "CSL-AT-STRUCTURAL",
+          "relation": "at ↔ 在 zài: limited location/presence comparison; not unconditional lexical equivalence.",
+          "status": "Candidate",
+          "is_etymological": false
+        },
+        {
+          "association_id": "CSL-AT-LITERARY",
+          "relation": "在 → 爱；爱就是在，爱在，世界就在。Author’s Literary/Semantic Creation, not historical evidence.",
+          "status": "Literary",
+          "is_etymological": false
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Publication, mapping, evidence/historical relation and literature are independent axes.",
+          "zh-Hans": "词条发表、mapping、证据／历史关系与文学层是四条独立状态轴。"
+        },
+        {
+          "en": "Counterinterpretation: at is not always 在; progressive 在 is not at. Presence need not imply love, and love can persist through absence.",
+          "zh-Hans": "Counterinterpretation: at is not always 在; progressive 在 is not at. Presence need not imply love, and love can persist through absence."
+        },
+        {
+          "en": "Pending: Mainland printed dictionary/grammar entries, historical details, old sound tests, manuscript dates and some media provenance.",
+          "zh-Hans": "Pending: Mainland printed dictionary/grammar entries, historical details, old sound tests, manuscript dates and some media provenance."
+        },
+        {
+          "en": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity.",
+          "zh-Hans": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity."
+        }
+      ],
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "English at, Chinese 在 and Chinese 爱 have independent histories. No common origin is claimed.",
+            "zh-Hans": "英语 at、汉语“在”和“爱”各有独立历史；不主张共同来源。"
+          },
+          "items": [],
+          "source_refs": [
+            "REF-AHD-AT",
+            "REF-CUHK-CHAR"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "at /æt/ ↔ 在 zài /tsaɪ̯/ is a candidate vowel and phonetic-semantic observation; /t/ does not correspond regularly to /ts/, and Mandarin tone is unmatched.",
+            "zh-Hans": "at /æt/ ↔ 在 zài /tsaɪ̯/ 是候选元音与语音—语义观察；/t/ 与 /ts/ 不构成规律对应，普通话声调也无对应。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "LOCATION → PRESENCE → RELATION → WORLD",
+            "zh-Hans": "位置 → 在场／存在 → 关系 → 世界"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The comparison is testable but currently untested.",
+            "zh-Hans": "该比较可检验，但目前尚未测试。"
+          },
+          "items": [],
+          "source_refs": []
+        }
+      },
+      "literary_layer": {
+        "status": "Published",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "Love is presence. Where love is, the world is.",
+          "zh-Hans": "爱就是在。爱在，世界就在。"
+        },
+        "essay_prose": [
+          {
+            "work_id": "LB-AT-PROSE-001",
+            "title": {
+              "en": "When I First Met You / Space and a Common Language / Cosmic Prose Poem",
+              "zh-Hans": "第一次遇见你的时候／太空与共通语言／宇宙散文诗"
+            },
+            "page_anchor": "words/at.html#first-meeting"
+          }
+        ],
+        "poem_lyrics": [
+          {
+            "work_id": "LB-AT-LYRICS-001",
+            "title": {
+              "en": "A Beautiful Yearning, in Space",
+              "zh-Hans": "一个美丽的向往，在那太空"
+            },
+            "page_anchor": "words/at.html#lyrics"
+          }
+        ],
+        "translations": [
+          {
+            "language": "English",
+            "status": "Published",
+            "page": "words/at.html"
+          }
+        ],
+        "archival_manuscript_media": [
+          "MEDIA-AT-MS-001",
+          "MEDIA-AT-MS-002"
+        ],
+        "evidence_boundary": {
+          "en": "在 → 爱 is an intentional literary transformation, not etymology or historical evidence.",
+          "zh-Hans": "在 → 爱是有意的文学转换，不是词源或历史证据。"
+        }
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-AT-ZAI-001",
+          "type": "Vowel relation / phonetic-semantic candidate",
+          "claim": {
+            "en": "The modern forms at and 在 may support a limited phonetic-semantic association around location and presence.",
+            "zh-Hans": "现代词形 at 与“在”可能围绕位置与在场形成有限语音—语义联想。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "at /æt/",
+            "在 zài /tsaɪ̯/",
+            "LOCATION → PRESENCE"
+          ],
+          "counterexamples": [
+            "English final /t/ vs Mandarin initial /ts/",
+            "Mandarin lexical tone",
+            "non-identical grammar"
+          ],
+          "testability": {
+            "en": "Test with blinded auditory judgments, corpus-based semantic overlap and explicit negative controls.",
+            "zh-Hans": "可用盲法听辨、语料语义重叠与明确负对照检验。"
+          },
+          "experiment_link": null,
+          "source_refs": []
+        }
+      ],
+      "experiments": [],
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "entry_status": "Published",
+      "references": [
+        {
+          "reference_id": "REF-AHD-AT",
+          "title": "American Heritage Dictionary: at",
+          "type": "dictionary",
+          "url": "https://www.ahdictionary.com/word/search.html?q=at",
+          "path": null,
+          "provenance": "external reference"
+        },
+        {
+          "reference_id": "REF-CUHK-CHAR",
+          "title": "CUHK Multi-function Chinese Character Database",
+          "type": "character database",
+          "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/index.php",
+          "path": null,
+          "provenance": "external reference"
+        },
+        {
+          "reference_id": "REF-LANGUAGESBOOK-AT",
+          "title": "languagesbook.com legacy entry: A，爱在，世界就在",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/a-5/",
+          "path": null,
+          "provenance": "author-published legacy website; source merged without overwriting the published literary record"
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "LOCATION",
+          "PRESENCE",
+          "RELATION",
+          "WORLD"
+        ],
+        "relation": "LOCATION → PRESENCE → RELATION → WORLD",
+        "status": "Interpretive"
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-at-zai-001",
+          "claim": {
+            "en": "at /æt/ ↔ 在 zài /tsaɪ̯/: limited open/front vowel resemblance plus semantic intersection.",
+            "zh-Hans": "at /æt/ ↔ 在 zài /tsaɪ̯/：有限的开放／前部元音听感近似与语义交点。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "English /t/ and Mandarin /ts/ occupy different positions; no regular sound correspondence is established.",
+            "zh-Hans": "英语 /t/ 与普通话 /ts/ 位置不同；未建立规律音变。"
+          }
+        }
+      ],
+      "media": [
+        {
+          "media_id": "MEDIA-AT-ILL-001",
+          "type": "illustration",
+          "path": "images/at-astronaut-pair-illustration.png",
+          "alt": {
+            "en": "Two young astronauts with a blue planet and stars behind them.",
+            "zh-Hans": "两位年轻宇航员，身后是蓝色星球与星空。"
+          },
+          "caption": {
+            "en": "Visual supplied with the literary work.",
+            "zh-Hans": "随文学作品提供的视觉材料。"
+          },
+          "source": "unknown",
+          "provenance": "unknown"
+        },
+        {
+          "media_id": "MEDIA-AT-ILL-002",
+          "type": "illustration",
+          "path": "images/at-galaxy-visual.png",
+          "alt": {
+            "en": "A blue galaxy and dense star field.",
+            "zh-Hans": "蓝色银河与密集星空。"
+          },
+          "caption": {
+            "en": "Literary visual; not scientific evidence. Creation method is unknown.",
+            "zh-Hans": "文学视觉材料；不是科学证据。创作方式未知。"
+          },
+          "source": "unknown",
+          "provenance": "unknown"
+        },
+        {
+          "media_id": "MEDIA-AT-MS-001",
+          "type": "original manuscript",
+          "path": "images/at-original-manuscript-01.png",
+          "alt": {
+            "en": "First page of the original handwritten musical score.",
+            "zh-Hans": "原始手写曲谱第 1 页。"
+          },
+          "caption": {
+            "en": "Author-provided scan; date unknown.",
+            "zh-Hans": "作者提供扫描件；日期未知。"
+          },
+          "source": "Jinkai Liu",
+          "provenance": "author-provided scan"
+        },
+        {
+          "media_id": "MEDIA-AT-MS-002",
+          "type": "original manuscript",
+          "path": "images/at-original-manuscript-02.png",
+          "alt": {
+            "en": "Second page of the original handwritten musical score.",
+            "zh-Hans": "原始手写曲谱第 2 页。"
+          },
+          "caption": {
+            "en": "Author-provided scan; date unknown.",
+            "zh-Hans": "作者提供扫描件；日期未知。"
+          },
+          "source": "Jinkai Liu",
+          "provenance": "author-provided scan"
+        }
+      ],
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "at",
+          "pronunciation": "/æt/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "在",
+          "pronunciation": "zài /tsaɪ̯/"
+        },
+        {
+          "role": "literary-transformation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "爱",
+          "pronunciation": "ài /aɪ̯˥˩/"
+        }
+      ],
+      "title": {
+        "en": "AT · 在 · 爱 | Love Is Presence",
+        "zh-Hans": "AT · 在 · 爱｜爱在，世界就在"
+      }
+    },
+    "figure": {
+      "standard_translation": {
+        "target": "形态 / 形象 / 图示 / 数字 / 人物；figure out = 弄清 / 想出 / 解决。",
+        "status": "Frozen editorial scope; source-specific evidence retained"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-figure-primary",
+        "source": {
+          "language": "English",
+          "word": "figure",
+          "pronunciation": "/ˈfɪɡjər/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "图形／形状",
+          "pronunciation": "túxíng / xíngzhuàng"
+        },
+        "gloss": {
+          "en": "shape, representation, diagram, numeral or notable person, depending on sense",
+          "zh-Hans": "依语境指形状、形象、图表、数字或重要人物"
+        },
+        "meaning": {
+          "en": "shape, representation, diagram, numeral or notable person, depending on sense. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+          "zh-Hans": "依语境指形状、形象、图表、数字或重要人物。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+        "rationale": {
+          "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+          "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+        }
+      },
+      "featured_mapping_status": "Pending",
+      "semantic_associations": [
+        {
+          "association_id": "CSL-FIGURE-SENSES",
+          "relation": "形 xíng: shape; 图 tú: diagram; 象 xiàng: representation; 数 shù: number; person: 人物; bodily figure: 身形/身材/人形.",
+          "status": "Interpretive",
+          "is_etymological": false
+        },
+        {
+          "association_id": "CSL-FIGURE-TRANSFORMATION",
+          "relation": "Concept → Representation → Geometry → Symbol: an illustrative transformation task, NOT historical chronology or a validated universal sequence.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Candidate. Priority score 86.8/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Candidate。优先分 86.8/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "The user observation is preserved as a modern-form/cognitive candidate, not cognacy.",
+          "zh-Hans": "用户观察保留为现代词形／认知候选，不标为同源。"
+        },
+        {
+          "en": "Counterinterpretation: Modern senses need not follow one sequence. Figure/finger resemblance does not establish a historical family; representations may be ambiguous.",
+          "zh-Hans": "Counterinterpretation: Modern senses need not follow one sequence. Figure/finger resemblance does not establish a historical family; representations may be ambiguous."
+        },
+        {
+          "en": "Featured Mapping: Pending. Mainland printed entries, sense dates, comprehension/structure-recovery experiments remain Pending.",
+          "zh-Hans": "Featured Mapping: Pending. Mainland printed entries, sense dates, comprehension/structure-recovery experiments remain Pending."
+        },
+        {
+          "en": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity.",
+          "zh-Hans": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity."
+        }
+      ],
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Figure comes through French/Latin figura ‘form, shape, representation’, related to Latin fingere ‘shape’. Finger is inherited Germanic (Old English finger and cognates). No figure–finger historical family is established.",
+            "zh-Hans": "figure 经法语／拉丁语 figura“形式、形状、表象”而来，与拉丁语 fingere“塑造”相关；finger 是继承的日耳曼词（古英语 finger 及其同源词）。没有建立 figure–finger 历史词族。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-FIGURE-001",
+              "claim": {
+                "en": "Figure comes through French/Latin figura ‘form, shape, representation’, related to Latin fingere ‘shape’. Finger is inherited Germanic (Old English finger and cognates). No figure–finger historical family is established.",
+                "zh-Hans": "figure 经法语／拉丁语 figura“形式、形状、表象”而来，与拉丁语 fingere“塑造”相关；finger 是继承的日耳曼词（古英语 finger 及其同源词）。没有建立 figure–finger 历史词族。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-CNRTL-FIGURE",
+                "REF-MW-FINGER"
+              ]
+            },
+            {
+              "evidence_id": "HIST-FIGURE-CORRECTION-002",
+              "claim": {
+                "en": "The user observation is preserved as a modern-form/cognitive candidate, not cognacy.",
+                "zh-Hans": "用户观察保留为现代词形／认知候选，不标为同源。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-JL-FIGURE-RAW",
+                "REF-CNRTL-FIGURE",
+                "REF-MW-FINGER"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-CNRTL-FIGURE",
+            "REF-MW-FINGER"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "figure and finger share the visible fig-/fi-g sequence but differ in consonant order, pronunciation and history.",
+            "zh-Hans": "figure 与 finger 共享可见的 fig-／fi-g 字母序列，但辅音顺序、读音与词史不同。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-FIGURE-001",
+              "claim": {
+                "en": "figure and finger share the visible fig-/fi-g sequence but differ in consonant order, pronunciation and history.",
+                "zh-Hans": "figure 与 finger 共享可见的 fig-／fi-g 字母序列，但辅音顺序、读音与词史不同。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-JL-FIGURE-RAW",
+                "REF-CNRTL-FIGURE",
+                "REF-MW-FINGER"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-FIGURE-RAW",
+            "REF-CNRTL-FIGURE",
+            "REF-MW-FINGER"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "A finger can point to or trace a figure, creating a useful action-object mnemonic; NUMBER is one sense of figure, not its sole meaning.",
+            "zh-Hans": "手指可指向或描画图形，形成动作—对象记忆联想；NUMBER 只是 figure 的一个义项。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-FIGURE-001",
+              "claim": {
+                "en": "A finger can point to or trace a figure, creating a useful action-object mnemonic; NUMBER is one sense of figure, not its sole meaning.",
+                "zh-Hans": "手指可指向或描画图形，形成动作—对象记忆联想；NUMBER 只是 figure 的一个义项。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-JL-FIGURE-RAW"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-FIGURE-RAW"
+          ]
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The user observation is preserved as a modern-form/cognitive candidate, not cognacy.",
+            "zh-Hans": "用户观察保留为现代词形／认知候选，不标为同源。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-FIGURE-001",
+              "claim": {
+                "en": "The user observation is preserved as a modern-form/cognitive candidate, not cognacy.",
+                "zh-Hans": "用户观察保留为现代词形／认知候选，不标为同源。"
+              },
+              "status": "Candidate",
+              "confidence": "High",
+              "source_refs": [
+                "REF-JL-FIGURE-RAW",
+                "REF-CNRTL-FIGURE",
+                "REF-MW-FINGER"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-FIGURE-RAW",
+            "REF-CNRTL-FIGURE",
+            "REF-MW-FINGER"
+          ]
+        }
+      },
+      "literary_layer": {
+        "status": "Not present",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "A finger can point to or trace a figure, creating a useful action-object mnemonic; NUMBER is one sense of figure, not its sole meaning.",
+          "zh-Hans": "手指可指向或描画图形，形成动作—对象记忆联想；NUMBER 只是 figure 的一个义项。"
+        },
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "This cognitive proposition may be developed literarily, but it is not historical evidence.",
+          "zh-Hans": "该认知命题可作文学展开，但不是历史证据。"
+        }
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-FIGURE-001",
+          "type": "Original author phonetic-semantic / consonantal-skeleton hypothesis",
+          "claim": {
+            "en": "The author's comparison around figure数字，finger;  may support a mnemonic or semantic association without establishing common origin.",
+            "zh-Hans": "作者观察“figure数字，finger。”可作为记忆或语义联想，但不建立共同来源。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "supporting_cases": [
+            "figure",
+            "figurer",
+            "figurative",
+            "finger",
+            "数字"
+          ],
+          "counterexamples": [
+            "The user observation is preserved as a modern-form/cognitive candidate, not cognacy.",
+            "No regular cross-language sound correspondence has been demonstrated."
+          ],
+          "testability": {
+            "en": "Test sound similarity and semantic fit separately with blinded ratings, explicit negative controls and historical-source review.",
+            "zh-Hans": "用盲法评分、明确负对照与独立词源核验分别检验声音相似度和语义适配。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "REF-JL-FIGURE-RAW",
+            "REF-CNRTL-FIGURE",
+            "REF-MW-FINGER"
+          ]
+        }
+      ],
+      "experiments": [],
+      "mapping_status": "Candidate",
+      "mapping_level": "C",
+      "entry_status": "Reviewed",
+      "references": [
+        {
+          "reference_id": "REF-JL-FIGURE-RAW",
+          "title": "Jinkai Liu: figure source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-CNRTL-FIGURE",
+          "title": "CNRTL/TLFi: étymologie de figure",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/figure",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-MW-FINGER",
+          "title": "Merriam-Webster Dictionary: finger",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/finger",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "related_words": [
+        {
+          "word": "figura / fingere",
+          "language": "Latin",
+          "relationship_type": "Historical source family",
+          "family": "figura ← fingere",
+          "relation_to_entry": {
+            "en": "Documented historical relation within the stated family.",
+            "zh-Hans": "在所列词族内有文献支持的历史关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-CNRTL-FIGURE",
+            "REF-MW-FINGER"
+          ]
+        },
+        {
+          "word": "figurative / figurer",
+          "language": "English/French",
+          "relationship_type": "Etymological derivative",
+          "family": "Latin figura / figurare",
+          "relation_to_entry": {
+            "en": "Documented historical relation within the stated family.",
+            "zh-Hans": "在所列词族内有文献支持的历史关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-CNRTL-FIGURE",
+            "REF-MW-FINGER"
+          ]
+        },
+        {
+          "word": "finger",
+          "language": "English",
+          "relationship_type": "Surface similarity / cognitive association",
+          "family": "Germanic inherited word",
+          "relation_to_entry": {
+            "en": "Comparison or association only; not a historical derivation.",
+            "zh-Hans": "仅作比较或联想；不是历史派生关系。"
+          },
+          "status": "Interpretive",
+          "source_refs": [
+            "REF-JL-FIGURE-RAW",
+            "REF-CNRTL-FIGURE",
+            "REF-MW-FINGER"
+          ]
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "CONCEPT",
+          "REPRESENTATION",
+          "GEOMETRY",
+          "SYMBOL"
+        ],
+        "relation": "Concept → Representation → Geometry → Symbol (task example, not historical chronology)",
+        "status": "Interpretive"
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "PHON-FIGURE-001",
+          "claim": {
+            "en": "figure and finger share the visible fig-/fi-g sequence but differ in consonant order, pronunciation and history.",
+            "zh-Hans": "figure 与 finger 共享可见的 fig-／fi-g 字母序列，但辅音顺序、读音与词史不同。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "Modern spelling or sound resemblance is not a regular sound correspondence and does not prove cognacy.",
+            "zh-Hans": "现代拼写或声音近似不是规律音变，也不能证明同源。"
+          }
+        }
+      ],
+      "counterevidence": [
+        {
+          "counterevidence_id": "COUNTER-FIGURE-001",
+          "statement": {
+            "en": "The user observation is preserved as a modern-form/cognitive candidate, not cognacy.",
+            "zh-Hans": "用户观察保留为现代词形／认知候选，不标为同源。"
+          },
+          "confidence": "High",
+          "source_refs": [
+            "REF-JL-FIGURE-RAW",
+            "REF-CNRTL-FIGURE",
+            "REF-MW-FINGER"
+          ]
+        }
+      ],
+      "source": {
+        "type": "author-provided raw research note",
+        "author": "Jinkai Liu",
+        "status": "Preserved; claims independently classified above",
+        "normalization": "Spelling and punctuation normalized only in evaluated fields; raw note retained verbatim here.",
+        "raw_note": "figure数字，finger。"
+      },
+      "media": [],
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "figure",
+          "pronunciation": "/ˈfɪɡjər/",
+          "part_of_speech": "noun/verb · 名词／动词"
+        },
+        {
+          "role": "historically-related-or-compared-form",
+          "code": "fr",
+          "name": "French",
+          "word": "figure",
+          "pronunciation": "not recorded"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "图形／形状",
+          "pronunciation": "túxíng / xíngzhuàng"
+        }
+      ],
+      "title": {
+        "en": "figure · Batch 001",
+        "zh-Hans": "figure · 数据扩展 Batch 001"
+      }
+    },
+    "new": {
+      "standard_translation": {
+        "target": "新 / 新的",
+        "status": "Frozen editorial scope; source-specific evidence retained"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-new-primary-niu",
+        "source": {
+          "language": "English",
+          "word": "new",
+          "pronunciation": "UK /njuː/; US /nuː/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "牛",
+          "pronunciation": "niú"
+        },
+        "gloss": {
+          "en": "new: recently made or begun; standard Chinese translation 新的",
+          "zh-Hans": "新的（标准翻译）；牛为文化候选，不是译词"
+        },
+        "meaning": {
+          "en": "new means 新的; 牛 means cattle/ox/cow according to context. Direct lexical-semantic equivalence: No / unsupported. The proposed bridge is cultural and indirect.",
+          "zh-Hans": "new 的常规译义是新的；牛的基本词义属 cattle／ox／cow 类，依语境区分。直接词义等同：No／unsupported。这里的意义桥梁是间接文化联想。"
+        },
+        "mapping_type": "Phonetic + Cultural-Temporal Candidate",
+        "rationale": {
+          "en": "Original Author Cultural-Temporal Mapping Hypothesis: 牛 → 丑牛 → unfolding nocturnal cycle → renewal/new. “子不代表新” is the author’s mapping choice, not a dictionary definition or a denial of 子-related day boundaries.",
+          "zh-Hans": "作者原创文化—时间映射假说：牛 → 丑牛 → 夜间周期展开 → renewal／new。“子不代表新”是作者本条的映射选择，不是辞书义，也不否认日界与子时的关系。"
+        }
+      },
+      "featured_mapping": {
+        "source": "new",
+        "target": "牛",
+        "reading": "niú",
+        "display_label": "Phonetic Candidate",
+        "status": "Candidate",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "new ↔ 牛 niú: limited modern sound observation; 牛 has no ordinary NEW meaning. Semantic fit is weak; culture cannot raise phonetic evidence.",
+          "zh-Hans": "new ↔ 牛 niú: limited modern sound observation; 牛 has no ordinary NEW meaning. Semantic fit is weak; culture cannot raise phonetic evidence."
+        },
+        "source_refs": [
+          "NEW-MW"
+        ]
+      },
+      "featured_mapping_status": "Candidate",
+      "semantic_associations": [
+        {
+          "association_id": "CSL-NEW-PHONETIC",
+          "relation": "new ↔ 牛 niú: limited modern sound observation; 牛 has no ordinary NEW meaning. Semantic fit is weak; culture cannot raise phonetic evidence.",
+          "status": "Candidate",
+          "is_etymological": false
+        },
+        {
+          "association_id": "CSL-NEW-CULTURAL",
+          "relation": "牛 → 丑牛 → 时辰: Chinese Cultural Classification. 子时为首；丑时约 01–03 时. Sequence, calendrical day boundary and historical systems are distinct.",
+          "status": "Interpretive",
+          "is_etymological": false
+        },
+        {
+          "association_id": "CSL-NEW-AUTHOR",
+          "relation": "“新的开始” is Author’s Cultural/Semantic Interpretation, not the factual start of every traditional day.",
+          "status": "Literary",
+          "is_etymological": false
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Schema has no Candidate entry lifecycle: Draft is used; Mapping remains Candidate. Public availability does not certify review.",
+          "zh-Hans": "现行 schema 无 Candidate 词条生命周期，故 entry_status 用 Draft，mapping_status 用 Candidate；页面公开不代表审核通过。"
+        },
+        {
+          "en": "D / Low confidence: this is a created symbolic bridge under the current Mapping Framework. The template also assigns D to created relations. A future benchmark plan does not upgrade it to C.",
+          "zh-Hans": "D／低置信度：按现行 Mapping Framework 属于创造的符号桥梁；模板也将创造关系列为 D。未来实验计划不自动将其升为 C。"
+        },
+        {
+          "en": "Counterinterpretation: new → 新 is the standard meaning. 丑牛 does not prove a sound relation or lexical etymology; 丑时 is not objectively the beginning of the day.",
+          "zh-Hans": "Counterinterpretation: new → 新 is the standard meaning. 丑牛 does not prove a sound relation or lexical etymology; 丑时 is not objectively the beginning of the day."
+        },
+        {
+          "en": "Pending: Mainland printed entries, ancient-text collation, period-specific day boundaries, independent phonetic/cultural experiments. Candidate D / Low / Draft remain unchanged.",
+          "zh-Hans": "Pending: Mainland printed entries, ancient-text collation, period-specific day boundaries, independent phonetic/cultural experiments. Candidate D / Low / Draft remain unchanged."
+        },
+        {
+          "en": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity.",
+          "zh-Hans": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity."
+        }
+      ],
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "English new continues Middle English newe/new/nywe and Old English nīowe/nīewe/nēowe. Merriam-Webster traces these through Germanic *neuja- to Indo-European *neu̯i̯o-, derived from *neu̯o-. French nouveau continues Latin novellus, a derivative of novus. The Latin base and English word belong to an independently documented Indo-European family; neither is derived from Chinese 牛.",
+            "zh-Hans": "英语 new 承接中古英语 newe／new／nywe 和古英语 nīowe／nīewe／nēowe；Merriam-Webster 上溯至日耳曼语拟构 *neuja- 及印欧语拟构 *neu̯i̯o-、*neu̯o-。法语 nouveau 来自拉丁语 novellus，后者由 novus 派生。拉丁语基础词与英语词的印欧词族关系有独立辞书依据；二者均不据此与牛建立历史关系。"
+          },
+          "items": [
+            {
+              "evidence_id": "NEW-HIST-EN",
+              "claim": {
+                "en": "English new has an independent Germanic / Indo-European history.",
+                "zh-Hans": "英语 new 有独立的日耳曼语／印欧语历史。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "NEW-MW"
+              ]
+            },
+            {
+              "evidence_id": "NEW-HIST-FR",
+              "claim": {
+                "en": "French nouveau derives from Latin novellus, from novus; a Latin derivative, not a borrowing from English new.",
+                "zh-Hans": "法语 nouveau 源于拉丁语 novellus，后者由 novus 派生；不是借自英语 new。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "NEW-FR",
+                "NEW-MW"
+              ]
+            }
+          ],
+          "source_refs": [
+            "NEW-MW",
+            "NEW-FR"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Surface similarity: moderate for UK /njuː/, limited-to-moderate for US /nuː/; qualitative editorial assessment, not a measured distance. Both share /n/. UK /j/ resembles the Mandarin medial; US lacks it. English /uː/ differs from the Mandarin iou rime and its vowel movement. Mandarin rising lexical tone has no lexical-tone counterpart in English.",
+            "zh-Hans": "表面音近：UK /njuː/ 评为中等，US /nuː/ 评为有限至中等；这是定性编辑评估，不是测量分数。共同点是 /n/；英式 /j/ 与普通话介音近似，美式参考读音没有该音。英语 /uː/ 与普通话 iou 韵母及其元音运动不同；普通话阳平也没有英语词汇声调对应。"
+          },
+          "items": [
+            {
+              "evidence_id": "NEW-PHON-001",
+              "claim": {
+                "en": "Surface similarity: moderate for UK /njuː/, limited-to-moderate for US /nuː/; qualitative editorial assessment, not a measured distance. Both share /n/. UK /j/ resembles the Mandarin medial; US lacks it. English /uː/ differs from the Mandarin iou rime and its vowel movement. Mandarin rising lexical tone has no lexical-tone counterpart in English.",
+                "zh-Hans": "表面音近：UK /njuː/ 评为中等，US /nuː/ 评为有限至中等；这是定性编辑评估，不是测量分数。共同点是 /n/；英式 /j/ 与普通话介音近似，美式参考读音没有该音。英语 /uː/ 与普通话 iou 韵母及其元音运动不同；普通话阳平也没有英语词汇声调对应。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "NEW-CAM",
+                "NEW-ZD",
+                "NEW-PINYIN"
+              ]
+            },
+            {
+              "evidence_id": "NEW-SEM-001",
+              "claim": {
+                "en": "new means 新的; 牛 means cattle/ox/cow according to context. Direct lexical-semantic equivalence: No / unsupported. The proposed bridge is cultural and indirect.",
+                "zh-Hans": "new 的常规译义是新的；牛的基本词义属 cattle／ox／cow 类，依语境区分。直接词义等同：No／unsupported。这里的意义桥梁是间接文化联想。"
+              },
+              "status": "Supported",
+              "confidence": "Medium",
+              "source_refs": [
+                "NEW-MW",
+                "NEW-ZD"
+              ]
+            }
+          ],
+          "source_refs": [
+            "NEW-CAM",
+            "NEW-ZD",
+            "NEW-PINYIN",
+            "NEW-MW"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Low",
+          "summary": {
+            "en": "Original Author Cultural-Temporal Mapping Hypothesis: 牛 → 丑牛 → unfolding nocturnal cycle → renewal/new. “子不代表新” is the author’s mapping choice, not a dictionary definition or a denial of 子-related day boundaries.",
+            "zh-Hans": "作者原创文化—时间映射假说：牛 → 丑牛 → 夜间周期展开 → renewal／new。“子不代表新”是作者本条的映射选择，不是辞书义，也不否认日界与子时的关系。"
+          },
+          "items": [
+            {
+              "evidence_id": "NEW-CULT-FACT",
+              "claim": {
+                "en": "Documented context: 子–鼠 and 丑–牛; conventionally 子 23:00–01:00 and 丑 01:00–03:00. A mediated Bintuilu passage distinguishes the earlier and later parts of 子 across days and disputes treating the start of 子 as an automatic date change. This is evidence of a historical discussion, not a universal chronology.",
+                "zh-Hans": "已核验的文化背景：子—鼠、丑—牛；通行换算子时 23:00–01:00、丑时 01:00–03:00。《宾退录》平台转录区分子时前后部分的日期归属，并辨析是否一入子时就换日；这说明存在历史辨析，不能据此宣布历代统一制度。"
+              },
+              "status": "Supported",
+              "confidence": "Medium",
+              "source_refs": [
+                "NEW-ZODIAC",
+                "NEW-HOURS",
+                "NEW-DAY"
+              ]
+            },
+            {
+              "evidence_id": "NEW-CULT-HYP",
+              "claim": {
+                "en": "Original Author Cultural-Temporal Mapping Hypothesis: 牛 → 丑牛 → unfolding nocturnal cycle → renewal/new. “子不代表新” is the author’s mapping choice, not a dictionary definition or a denial of 子-related day boundaries.",
+                "zh-Hans": "作者原创文化—时间映射假说：牛 → 丑牛 → 夜间周期展开 → renewal／new。“子不代表新”是作者本条的映射选择，不是辞书义，也不否认日界与子时的关系。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "NEW-AUTHOR"
+              ]
+            }
+          ],
+          "source_refs": [
+            "NEW-ZODIAC",
+            "NEW-HOURS",
+            "NEW-DAY",
+            "NEW-AUTHOR"
+          ]
+        },
+        "Speculative": {
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "No independent experiment has been run. Nibiru / Anunnaki are excluded from formal evidence and retained only in the archived author note.",
+            "zh-Hans": "尚无独立实验；Nibiru／Anunnaki 不进入正式证据，仅在作者原始笔记留档。"
+          },
+          "items": [],
+          "source_refs": []
+        }
+      },
+      "literary_layer": {
+        "status": "Draft",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "Build bridges between languages, toward an age of spaceflight.",
+          "zh-Hans": "架起语言之间的桥梁，面向未来的宇航时代。"
+        },
+        "essay_prose": [
+          {
+            "work_id": "NEW-LIT-001",
+            "title": {
+              "en": "In My Vineyard",
+              "zh-Hans": "在我的葡萄园"
+            },
+            "text": {
+              "en": "Build bridges between languages, toward a future age of spaceflight. When English or French reaches the ear, I imagine Collanguage turning the phrase into Chinese music, its notes rising and falling. Language Book explores this hope through language and culture. In my vineyard, manna flowers bloom.",
+              "zh-Hans": "架起语言之间的桥梁，让我们面向未来的宇航时代。当英语或法语传来，我想象借助 Collanguage 的规则与想象，把语句转成高低错落、如音乐般的汉语，走向美好的交流。考虑文化的因素，以汉语拼音探索跨语系的语言，是 Language Book 的追寻。在我的葡萄园，玛娜花盛开。"
+            },
+            "page_anchor": "words/new.html#literature"
+          }
+        ],
+        "poem_lyrics": [],
+        "translations": [
+          {
+            "language": "English",
+            "status": "Editorial literary translation"
+          }
+        ],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "A literary aspiration, not a claim that automatic translation or a language law has been validated. The speculative names in the original note are not evidence for etymology or historical relation.",
+          "zh-Hans": "文学愿景不意味着自动翻译能力或语言规律已获验证；原始笔记的推想不构成词源或历史关系证据。"
+        }
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-NEW-NIU-001",
+          "type": "Original Author Cultural-Temporal Mapping Hypothesis",
+          "claim": {
+            "en": "Original Author Cultural-Temporal Mapping Hypothesis: 牛 → 丑牛 → unfolding nocturnal cycle → renewal/new. “子不代表新” is the author’s mapping choice, not a dictionary definition or a denial of 子-related day boundaries.",
+            "zh-Hans": "作者原创文化—时间映射假说：牛 → 丑牛 → 夜间周期展开 → renewal／new。“子不代表新”是作者本条的映射选择，不是辞书义，也不否认日界与子时的关系。"
+          },
+          "status": "Candidate",
+          "confidence": "Low",
+          "mapping_level": "D",
+          "supporting_cases": [
+            "One authored pair: new → 牛; documented cultural context only"
+          ],
+          "counterexamples": [
+            "牛 has no supported standard NEW sense in the consulted lexical entry; print normative entry verification remains pending.",
+            "Independent English etymology; modern resemblance may be accidental.",
+            "Yod-dropping / accent selection changes the comparison.",
+            "Mandarin iou rime and rising tone are unmatched; spelling is not sound.",
+            "The zodiac-to-renewal bridge is authored; cultural facts do not prove cognacy.",
+            "Selecting one attractive pair invites selection bias; English new and French nouveau are not independent etymological replications."
+          ],
+          "testability": {
+            "en": "Pre-register auditory judgments for both English accents and Mandarin; compare matched random pairs, new→新 semantic control, culture-informed versus uninformed listeners, and culturally unrelated sound matches. Test memory benefit separately from sound distance. Deduplicate etymological families; no single-case generalization.",
+            "zh-Hans": "预注册两种英语参考口音与普通话的听辨；设置匹配随机词对、new→新语义对照、知晓／不知晓文化背景的听者，以及无文化联系的音近对照。记忆收益与音系距离分别测试，词源家族去重；不从单例归纳规律。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "NEW-AUTHOR"
+          ]
+        }
+      ],
+      "experiments": [],
+      "cultural_associations": [
+        {
+          "claim": {
+            "en": "A mediated Ming text narrates Shennong / Yandi with an ox head and human body.",
+            "zh-Hans": "明代文献的平台转录有炎帝神农人身牛首叙述。"
+          },
+          "status": "Supported within transcription; edition pending",
+          "source_refs": [
+            "NEW-SHENNONG"
+          ],
+          "is_etymological": false,
+          "boundary": "Narrative tradition only; no linguistic relation to NEW"
+        }
+      ],
+      "mapping_status": "Candidate",
+      "mapping_level": "D",
+      "entry_status": "Draft",
+      "references": [
+        {
+          "reference_id": "NEW-MW",
+          "title": "Merriam-Webster Dictionary: new",
+          "type": "historical dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/new",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; Dictionary word history; reconstructed forms are models, not recordings.",
+          "access_date": "2026-09-13",
+          "scope": [
+            "historical_etymology"
+          ],
+          "locator": "Word History / Etymology",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-FR",
+          "title": "CNRTL / TLFi: nouveau, nouvel, -elle",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/nouvel",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; Indexed dictionary entry text retrieved; direct page body was unavailable. Latin novellus derives from novus.",
+          "access_date": "2026-09-13",
+          "scope": [
+            "historical_etymology"
+          ],
+          "locator": "Étymologie et Histoire",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-CAM",
+          "title": "Cambridge Dictionary: new pronunciation",
+          "type": "pronunciation dictionary",
+          "url": "https://dictionary.cambridge.org/pronunciation/english/new",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; UK and US dictionary reference pronunciations, not every speaker or accent.",
+          "access_date": "2026-09-13",
+          "scope": [
+            "phonology"
+          ],
+          "locator": "UK /njuː/; US /nuː/",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-ZD",
+          "title": "汉典：牛",
+          "type": "mainland digital dictionary",
+          "url": "https://zdic.net/hans/牛",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; 大陆数字辞书平台；仅使用拼音、基本／详细解释及音标栏，不使用其国语辞典栏，不冒充纸本规范辞书。",
+          "access_date": "2026-09-13",
+          "scope": [
+            "modern_meaning",
+            "phonology"
+          ],
+          "locator": "牛 niú；基本／详细解释；音标 niou˧˥",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-PINYIN",
+          "title": "《汉语拼音方案》",
+          "type": "national language scheme via mainland university",
+          "url": "https://yywz.ecnu.edu.cn/1f/56/c30556a335702/page.htm",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; 华东师范大学语言文字工作委员会网页转录；韵母表后规则（5）明确 iou → iu 和 niu（牛）。它支持拼写规则，不单独证明牛的声调。",
+          "access_date": "2026-09-13",
+          "scope": [
+            "orthography"
+          ],
+          "locator": "三、韵母表，规则（5）",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-ZODIAC",
+          "title": "首都博物馆：老北京传统节令风情展",
+          "type": "museum exhibition",
+          "url": "https://www.museum.bj.cn/zlxx/content/2010-12/06/content_21729.htm",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; 博物馆展览说明与生肖图注支持子鼠、丑牛配对；不证明牛有新的词义。",
+          "access_date": "2026-09-13",
+          "scope": [
+            "cultural_attestation"
+          ],
+          "locator": "干支生肖；子鼠、丑牛图注",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-HOURS",
+          "title": "唐诗宋词里的十二时辰",
+          "type": "mainland cultural reference",
+          "url": "https://www.ccdi.gov.cn/lswhn/wenhua/wenyuan/201907/t20190719_27179.html",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; 中央纪委国家监委网站文化文章，2019-07-22；仅用于通行时段换算及子时列首，不据此断言所有时代的日界。",
+          "access_date": "2026-09-13",
+          "scope": [
+            "cultural_attestation"
+          ],
+          "locator": "子时（23点–01点）、丑时（01点–03点）",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-DAY",
+          "title": "《宾退录》：子时分日辨析（识典古籍转录）",
+          "type": "mediated classical text",
+          "url": "https://www.shidianguji.com/mid-page/7620933486225244169",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; [宋]赵与时撰；大陆数字古籍平台中介，转录有明显讹字，底本与校勘版本未确认。只概述子初／子正分日辨析，不复录损坏句文，不推广成全时代制度。",
+          "access_date": "2026-09-13",
+          "scope": [
+            "attestation"
+          ],
+          "locator": "“历家以冬至为一岁之首”段；纸本校勘 pending",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-SHENNONG",
+          "title": "《图像本草蒙筌》（识典古籍转录）",
+          "type": "mediated classical text",
+          "url": "https://www.shidianguji.com/mid-page/7557480168089042982",
+          "path": null,
+          "provenance": "Accessed 2026-09-13; [明]陈嘉谟汇编；可见炎帝神农“人身牛首”叙述，底本版本与图像未核定。仅证明该转录含此叙事，不是人物生理事实或 NEW 的词源证据。",
+          "access_date": "2026-09-13",
+          "scope": [
+            "cultural_attestation"
+          ],
+          "locator": "炎帝神农氏段",
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-AUTHOR",
+          "title": "Jinkai Liu：NEW → 牛原始笔记",
+          "type": "author manuscript",
+          "url": null,
+          "path": null,
+          "provenance": "Accessed 2026-09-13; User-provided manuscript in this task; not independent linguistic evidence.",
+          "access_date": "2026-09-13",
+          "scope": [
+            "author_hypothesis",
+            "literature"
+          ],
+          "locator": null,
+          "verification_status": "Verified within stated boundary"
+        },
+        {
+          "reference_id": "NEW-RUBRIC",
+          "title": "Unilanguage Mapping Framework",
+          "type": "project standard",
+          "url": null,
+          "path": "protocol/protocol.mapping-framework.html",
+          "provenance": "Accessed 2026-09-13; Repository rubric: D covers symbolic/created relations; C covers experimental patterns.",
+          "access_date": "2026-09-13",
+          "scope": [
+            "project_rubric"
+          ],
+          "locator": null,
+          "verification_status": "Verified within stated boundary"
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "NEW",
+          "CATTLE",
+          "ZODIAC",
+          "NIGHT",
+          "RENEWAL"
+        ],
+        "relation": "牛 → 丑牛 → 夜间周期展开 → renewal/new",
+        "status": "Interpretive"
+      },
+      "phonetic_observation": [
+        {
+          "observation_id": "NEW-PHON-SURFACE",
+          "claim": {
+            "en": "Surface similarity: moderate for UK /njuː/, limited-to-moderate for US /nuː/; qualitative editorial assessment, not a measured distance. Both share /n/. UK /j/ resembles the Mandarin medial; US lacks it. English /uː/ differs from the Mandarin iou rime and its vowel movement. Mandarin rising lexical tone has no lexical-tone counterpart in English.",
+            "zh-Hans": "表面音近：UK /njuː/ 评为中等，US /nuː/ 评为有限至中等；这是定性编辑评估，不是测量分数。共同点是 /n/；英式 /j/ 与普通话介音近似，美式参考读音没有该音。英语 /uː/ 与普通话 iou 韵母及其元音运动不同；普通话阳平也没有英语词汇声调对应。"
+          },
+          "status": "Candidate",
+          "limitations": {
+            "en": "No acoustic recordings, listener study or calibrated numeric distance; historical pronunciation is not reconstructed from current spelling.",
+            "zh-Hans": "未采集录音、运行听辨实验或测定数值距离；不由现代拼写倒推历史读音。"
+          },
+          "segments": {
+            "onset": "English /n/ and Mandarin n: shared nasal onset",
+            "glide": "UK /j/ ~ Mandarin i medial; absent in Cambridge US /nuː/",
+            "nucleus": "English /uː/ versus Mandarin iou; descriptive [njoʊ̯˧˥] here normalizes 汉典 niou˧˥, not a narrow measured IPA transcription",
+            "coda": "No consonantal coda; Mandarin has a closing vocalic movement",
+            "tone": "Mandarin 阳平, conventionally 35; English has intonation but no corresponding lexical tone"
+          },
+          "rating": {
+            "UK": "Moderate",
+            "US": "Limited-to-moderate",
+            "method": "Qualitative feature comparison; unvalidated"
+          }
+        }
+      ],
+      "source": {
+        "type": "author manuscript",
+        "author": "Jinkai Liu",
+        "status": "Preserved with explicit recalibration",
+        "normalization": "Simplified Chinese reader prose; niu → niú; Language Book / Unilanguage / Collanguage naming.",
+        "raw_note": "New，新的。牛 niu。丑牛时辰为一天新的开始。English new adj. 新的；French nouveau adj. 新的；Chinese 牛 n.。子鼠丑牛。子不代表新，牛时辰是新的开始。另提及 Nibiru/Anunnaki 与神农氏人身牛头。原始推想仅留档：Not evidence for etymology or historical relation。"
+      },
+      "media": [],
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "new",
+          "pronunciation": "UK /njuː/; US /nuː/ (Cambridge)"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "牛",
+          "pronunciation": "niú (汉典); normative print entry pending"
+        },
+        {
+          "role": "standard-translation",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "新的",
+          "pronunciation": ""
+        },
+        {
+          "role": "comparison",
+          "code": "fr",
+          "name": "French",
+          "word": "nouveau",
+          "pronunciation": "Not transcribed; outside this sound comparison"
+        }
+      ],
+      "title": {
+        "en": "NEW → 牛 niú | A cultural-temporal candidate",
+        "zh-Hans": "NEW → 牛 niú｜文化—时间候选"
+      }
+    },
+    "water": {
+      "standard_translation": {
+        "target": "水",
+        "status": "Frozen editorial scope; source-specific evidence retained"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-water-primary-hua",
+        "source": {
+          "language": "English",
+          "word": "water",
+          "pronunciation": "/ˈwɔːtər/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "哗",
+          "pronunciation": "huā"
+        },
+        "gloss": {
+          "en": "The transparent liquid essential to life; also water as flow, surface and sound.",
+          "zh-Hans": "生命所必需的透明液体；也包括水的流动、表面与声音。"
+        },
+        "meaning": {
+          "en": "The transparent liquid essential to life; also water as flow, surface and sound.",
+          "zh-Hans": "生命所必需的透明液体；也包括水的流动、表面与声音。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The author links water with 哗/哗哗流水 as an auditory and semantic association.",
+          "zh-Hans": "作者把 water 与“哗／哗哗流水”联系，作为听觉与语义联想。"
+        }
+      },
+      "featured_mapping": {
+        "source": "water",
+        "target": "哗",
+        "reading": "huā",
+        "display_label": "Individual Phonetic-Semantic Candidate",
+        "status": "Candidate",
+        "historical_relation": "Not claimed",
+        "boundary": {
+          "en": "water ↔ 哗 huā: individual observation only; 哗 also describes non-water sounds. The legacy B label is not an experiment grade.",
+          "zh-Hans": "water ↔ 哗 huā: individual observation only; 哗 also describes non-water sounds. The legacy B label is not an experiment grade."
+        },
+        "source_refs": [
+          "SRC-EXP-002-PRIMARY"
+        ]
+      },
+      "featured_mapping_status": "Candidate",
+      "semantic_associations": [
+        {
+          "association_id": "CSL-WATER-INDIVIDUAL",
+          "relation": "water ↔ 哗 huā: individual observation only; 哗 also describes non-water sounds. The legacy B label is not an experiment grade.",
+          "status": "Candidate",
+          "is_etymological": false
+        },
+        {
+          "association_id": "CSL-WATER-HYPOTHESIS",
+          "relation": "W → WATER / WETNESS / WAVE-FLOW is an experimental hypothesis; W↔F/H remains an untested observation.",
+          "status": "Interpretive",
+          "is_etymological": false
+        },
+        {
+          "association_id": "CSL-WATER-EXPERIMENT",
+          "relation": "Experiment 002: Inconclusive (Tested-Inconclusive). Machine exploratory blind annotation, not human double-blind validation. Entry evidence cannot validate the experiment that searches its hypothesis.",
+          "status": "Tested-Inconclusive",
+          "is_etymological": false
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "The water → 哗 mapping and Experiment 002 result remain independently classified.",
+          "zh-Hans": "water → 哗 mapping 与实验 002 结果保持独立分类。"
+        },
+        {
+          "en": "Counterinterpretation: 水 is a translation, not evidence of inherent W meaning. A selected case cannot be counted again as independent validation. Inconclusive means neither supported nor disproved.",
+          "zh-Hans": "Counterinterpretation: 水 is a translation, not evidence of inherent W meaning. A selected case cannot be counted again as independent validation. Inconclusive means neither supported nor disproved."
+        },
+        {
+          "en": "Pending: individual sound observations, W↔F/H verification and Mainland printed entries. The frozen experiment is Inconclusive, not awaiting automatic promotion.",
+          "zh-Hans": "Pending: individual sound observations, W↔F/H verification and Mainland printed entries. The frozen experiment is Inconclusive, not awaiting automatic promotion."
+        },
+        {
+          "en": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity.",
+          "zh-Hans": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity."
+        }
+      ],
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Not evaluated",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Unknown",
+          "summary": {
+            "en": "No separate phonetic-semantic observation is recorded.",
+            "zh-Hans": "未记录独立的语音—语义观察。"
+          },
+          "items": [
+            {
+              "evidence_id": "RAT-water-hua",
+              "claim": {
+                "en": "The author links water with 哗/哗哗流水 as an auditory and semantic association.",
+                "zh-Hans": "作者把 water 与“哗／哗哗流水”联系，作为听觉与语义联想。"
+              },
+              "status": "Not evaluated",
+              "confidence": "Unknown",
+              "source_refs": [
+                "SRC-G1-CALIBRATION"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-G1-CALIBRATION"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: WATER → FLOW → SURFACE → SOUND.",
+            "zh-Hans": "已记录语义结构：WATER → FLOW → SURFACE → SOUND。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-W-FH-PHONETIC-001",
+              "claim": {
+                "en": "The author proposes that W may correspond with F or H in the water ↔ 哗 comparison. No regular sound change is asserted.",
+                "zh-Hans": "作者提出在 water ↔ 哗 的比较中，W 可能与 F 或 H 对应；此处不声称存在已证实的规律音变。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-G1-CALIBRATION",
+                "SRC-IPA-CHART",
+                "SRC-CAMBRIDGE-COMPARATIVE"
+              ]
+            },
+            {
+              "evidence_id": "UNI-W-WATER-002",
+              "claim": {
+                "en": "W-family enrichment in WATER / WETNESS / WAVE-FLOW semantics",
+                "zh-Hans": "W 词族在水／湿润／波动—流动语义中的富集假说"
+              },
+              "status": "Tested-Inconclusive",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-EXP-002-PRIMARY",
+                "SRC-EXP-002-PAGE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-G1-CALIBRATION",
+            "SRC-IPA-CHART",
+            "SRC-CAMBRIDGE-COMPARATIVE",
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ]
+        }
+      },
+      "literary_layer": {
+        "status": "Not present",
+        "is_historical_evidence": false,
+        "proposition": null,
+        "essay_prose": [],
+        "poem_lyrics": [],
+        "translations": [],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "Literature may explore freely, but it is not historical evidence.",
+          "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+        }
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-W-FH-PHONETIC-001",
+          "type": "consonant-correspondence",
+          "claim": {
+            "en": "The author proposes that W may correspond with F or H in the water ↔ 哗 comparison. No regular sound change is asserted.",
+            "zh-Hans": "作者提出在 water ↔ 哗 的比较中，W 可能与 F 或 H 对应；此处不声称存在已证实的规律音变。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-IPA-CHART",
+            "SRC-CAMBRIDGE-COMPARATIVE"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-G1-CALIBRATION",
+            "SRC-IPA-CHART",
+            "SRC-CAMBRIDGE-COMPARATIVE"
+          ]
+        },
+        {
+          "hypothesis_id": "UNI-W-WATER-002",
+          "type": "initial-consonant-semantics",
+          "claim": {
+            "en": "W-family enrichment in WATER / WETNESS / WAVE-FLOW semantics",
+            "zh-Hans": "W 词族在水／湿润／波动—流动语义中的富集假说"
+          },
+          "status": "Tested-Inconclusive",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": "UNI-EXP-002",
+          "source_refs": [
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ]
+        }
+      ],
+      "experiments": [
+        {
+          "experiment_id": "UNI-EXP-002",
+          "title": {
+            "en": "W → WATER / WETNESS / WAVE-FLOW semantic enrichment",
+            "zh-Hans": "W → 水／湿润／波动—流动语义富集"
+          },
+          "status": "Tested-Inconclusive",
+          "tested_hypotheses": [
+            "UNI-W-WATER-002"
+          ],
+          "design": {
+            "en": "Preregistered W-initial lexical-family enrichment for WATER / WETNESS / WAVE-FLOW semantics against controls.",
+            "zh-Hans": "预注册检验 W 起始词族在水／湿润／波动—流动语义上相对控制组的富集。"
+          },
+          "result": {
+            "en": "Tested-Inconclusive. Direction matched the hypothesis, but uncertainty was wide and the evidence did not establish enrichment or a universal sound law.",
+            "zh-Hans": "检验结果为不确定。方向与假说一致，但不确定性较大，证据未确立富集，更未确立普遍声音法则。"
+          },
+          "metrics": {
+            "w_target": 7,
+            "w_total": 120,
+            "w_rate_percent": 5.83,
+            "control_target": 9,
+            "control_total": 240,
+            "control_rate_percent": 3.75,
+            "risk_ratio": 1.556,
+            "risk_ratio_95_ci": [
+              0.594,
+              4.075
+            ],
+            "risk_difference_percentage_points": 2.08,
+            "risk_difference_95_ci_percentage_points": [
+              -4.12,
+              9.57
+            ],
+            "fisher_two_sided_p": 0.4185
+          },
+          "path": "experiments/002/results.html",
+          "source_refs": [
+            "SRC-EXP-002-PRIMARY",
+            "SRC-EXP-002-PAGE"
+          ]
+        }
+      ],
+      "mapping_status": "Candidate",
+      "mapping_level": "B",
+      "entry_status": "Reviewed",
+      "references": [
+        {
+          "reference_id": "SRC-EXP-002-PRIMARY",
+          "title": "UNI-EXP-002 frozen primary result",
+          "type": "frozen-experiment",
+          "url": null,
+          "path": "experiments/002/results/primary-result.v1.0.json",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-EXP-002-PAGE",
+          "title": "UNI-EXP-002 public result page",
+          "type": "frozen-experiment",
+          "url": null,
+          "path": "experiments/002/results.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-G1-CALIBRATION",
+          "title": "Package G.1 WATER / LANGUAGE author calibration record",
+          "type": "author-research-record",
+          "url": null,
+          "path": "docs/product/package-g1-classification-model-v0.1.md",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-IPA-CHART",
+          "title": "International Phonetic Association · official IPA chart",
+          "type": "official-standard",
+          "url": "https://www.internationalphoneticassociation.org/content/ipa-chart",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "official-standard"
+        },
+        {
+          "reference_id": "SRC-CAMBRIDGE-COMPARATIVE",
+          "title": "Cambridge · Historical Linguistics / comparative method",
+          "type": "scholarly-source",
+          "url": "https://doi.org/10.1017/9781108344326.020",
+          "path": "docs/product/package-g2-source-verification-v0.1.md",
+          "provenance": "scholarly-publication"
+        },
+        {
+          "reference_id": "SRC-PROTOCOL-MAPPING",
+          "title": "Protocol Book · Multidimensional Mapping Framework",
+          "type": "protocol-page",
+          "url": null,
+          "path": "protocol/protocol.mapping-framework.html",
+          "provenance": "project protocol"
+        }
+      ],
+      "semantic_structure": {
+        "concepts": [
+          "WATER",
+          "FLOW",
+          "SURFACE",
+          "SOUND"
+        ],
+        "relation": "WATER → FLOW → SURFACE → SOUND",
+        "status": "Interpretive"
+      },
+      "phonetic_observation": [],
+      "media": [],
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "water",
+          "pronunciation": "/ˈwɔːtər/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "哗",
+          "pronunciation": "huā"
+        }
+      ],
+      "title": {
+        "en": "Water · 哗",
+        "zh-Hans": "Water · 水 · 哗"
+      }
+    },
+    "namcha-barwa": {
+      "standard_translation": {
+        "target": "南迦巴瓦峰 · Namcha Barwa · གནམ་ལྕགས་འབར་བ། · gnam lcags ’bar ba",
+        "status": "Frozen editorial scope; source-specific evidence retained"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-namcha-barwa-name-forms",
+        "source": {
+          "language": "English / Romanized name",
+          "word": "Namcha Barwa",
+          "pronunciation": "not independently normalized"
+        },
+        "target": {
+          "language": "Chinese name",
+          "word": "南迦巴瓦峰",
+          "pronunciation": "Nánjiābāwǎ Fēng"
+        },
+        "gloss": {
+          "en": "A proper name for the 7,782-metre mountain in Nyingchi, Tibet Autonomous Region, at the eastern end of the Himalayas.",
+          "zh-Hans": "西藏自治区林芝市境内、喜马拉雅山脉东端一座海拔 7782 米山峰的专名。"
+        },
+        "meaning": {
+          "en": "Named-entity correspondence, not an ordinary lexical translation. Tibetan གནམ་ལྕགས་འབར་བ། (gnam lcags ’bar ba) can be read lexically as ‘blazing sky-iron / meteorite’ or, with gnam lcags understood as lightning, ‘blazing lightning.’ The Chinese 南迦巴瓦 is a sound-based transcription, not a semantic translation.",
+          "zh-Hans": "这是专名形式对应，不是普通词汇翻译。藏文 གནམ་ལྕགས་འབར་བ།（gnam lcags ’bar ba）按词面可理解为“燃烧／闪耀的天铁（陨铁）”，若把 gnam lcags 取“雷电／霹雳”义，则可理解为“燃烧／闪耀的雷电”。汉语“南迦巴瓦”属于音译，不是意译。"
+        },
+        "mapping_type": "Named-entity name-form correspondence",
+        "rationale": {
+          "en": "The Romanized and Chinese forms identify the same place. Name-meaning reports are kept as separate, attributed evidence items and are not converted into a phonetic-semantic candidate.",
+          "zh-Hans": "罗马字母形式与汉字形式指向同一地点。名称释义按来源拆分为独立证据项，不转化为语音—语义候选。"
+        }
+      },
+      "featured_mapping_status": "Not applicable",
+      "semantic_associations": [
+        {
+          "association_id": "CSL-NAMCHA-BARWA-IDENTITY",
+          "relation": "Proper-name identity and established public Chinese usage are distinct from verification of a statutory name register; that register remains Pending.",
+          "status": "Interpretive",
+          "is_etymological": false
+        },
+        {
+          "association_id": "CSL-NAMCHA-BARWA-NAME",
+          "relation": "Competing source-attributed name interpretations are retained in Research. Morpheme interpretation is not proof of a unique naming history; poetic imagery supplies no name-etymology evidence.",
+          "status": "Interpretive",
+          "is_etymological": false
+        },
+        {
+          "association_id": "CSL-NAMCHA-BARWA-LITERARY",
+          "relation": "《南迦巴瓦，愿你保留你的容颜》: Chinese = Original Text; English/French = Literary Translation; Tibetan = Translation Draft / Native review pending.",
+          "status": "Literary",
+          "is_etymological": false
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Name-meaning evidence and literary imagery remain strictly separate.",
+          "zh-Hans": "名称释义证据与文学意象严格分层。"
+        },
+        {
+          "en": "‘Battle spear piercing the blue sky’ is retained as a cultural-iconic interpretation, not a literal morpheme-by-morpheme translation.",
+          "zh-Hans": "“直刺蓝天的战矛”作为文化—形象解释保留，不标作逐词素直译。"
+        },
+        {
+          "en": "南迦巴瓦 is assessed as phonetic transcription; its Chinese character meanings are not used to infer Tibetan semantics.",
+          "zh-Hans": "“南迦巴瓦”判定为音译，不以各汉字字义反推藏文语义。"
+        },
+        {
+          "en": "The licensed terrain photograph and the AI-generated literary visualization have separate provenance and evidence status.",
+          "zh-Hans": "授权地貌实拍与 AI 文学视觉图分别记录来源和证据身份。"
+        },
+        {
+          "en": "The Tibetan poem is a translation draft pending native-speaker review; this status does not affect the independently verified Tibetan proper name.",
+          "zh-Hans": "藏文诗歌为待母语者审校的翻译初稿；这一状态不影响已经独立核验的藏文专名。"
+        },
+        {
+          "en": "Counterinterpretation: Chinese transcription characters do not establish Tibetan semantics. A verified place name does not certify the Tibetan poem. A romantic interpretation is not the unique factual etymology.",
+          "zh-Hans": "Counterinterpretation: Chinese transcription characters do not establish Tibetan semantics. A verified place name does not certify the Tibetan poem. A romantic interpretation is not the unique factual etymology."
+        },
+        {
+          "en": "Pending: statutory geographic-name register, unique naming history, local pronunciation/transcription review, Tibetan native-speaker poem review, some sources and height discrepancies.",
+          "zh-Hans": "Pending: statutory geographic-name register, unique naming history, local pronunciation/transcription review, Tibetan native-speaker poem review, some sources and height discrepancies."
+        },
+        {
+          "en": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity.",
+          "zh-Hans": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity."
+        }
+      ],
+      "historical_relation_status": "Not claimed",
+      "evidence": {
+        "Historical": {
+          "status": "Supported",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Authoritative and institutional sources agree on the place identity and commonly report 7,782 metres, but published explanations of the Tibetan name vary and do not establish one exclusive etymology here.",
+            "zh-Hans": "权威及机构来源对地点身份一致，并普遍采用海拔 7782 米；但公开资料对藏语名称的解释不一，本词条不据此确立唯一词源。"
+          },
+          "items": [
+            {
+              "evidence_id": "NAME-NAMCHA-TIBETAN-000",
+              "claim": {
+                "en": "Tibetan-language and academic geographic sources record the name as གནམ་ལྕགས་འབར་བ།, Wylie gnam lcags ’bar ba.",
+                "zh-Hans": "藏文媒体与学术地名资料将名称写作 གནམ་ལྕགས་འབར་བ།，威利转写为 gnam lcags ’bar ba。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-XZXW-TIBETAN-NAMCHA",
+                "REF-KYOTO-TIBET-MAP",
+                "REF-RY-NAMCHA-PLACE"
+              ]
+            },
+            {
+              "evidence_id": "NAME-NAMCHA-LEXICAL-000A",
+              "claim": {
+                "en": "Dictionary evidence supports gnam ‘sky,’ gnam lcags ‘meteoric iron / thunderbolt / lightning,’ and ’bar ba ‘blaze, burn, shine,’ making ‘blazing sky-iron / meteor’ or ‘blazing lightning’ the closest lexical analyses.",
+                "zh-Hans": "词典证据支持 gnam“天空”、gnam lcags“陨铁／霹雳／雷电”、’bar ba“燃烧／闪耀”，因此“燃烧的天铁／陨星”或“燃烧的雷电”是更贴近词面的分析。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-RY-GNAM",
+                "REF-RY-GNAM-LCAGS",
+                "REF-RY-BAR-BA",
+                "REF-PRINCETON-BUDDHISM-NAMCHA"
+              ]
+            },
+            {
+              "evidence_id": "NAME-NAMCHA-SPEAR-001",
+              "claim": {
+                "en": "A Tibet Autonomous Region government page reports the name as meaning ‘a battle spear piercing the blue sky.’",
+                "zh-Hans": "西藏自治区人民政府页面将名称释为“直刺蓝天的战矛”。"
+              },
+              "status": "Supported",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-XIZANG-WINTER-NAMCHA"
+              ]
+            },
+            {
+              "evidence_id": "NAME-NAMCHA-FIRE-002",
+              "claim": {
+                "en": "China Tibet Online reports multiple explanations: ‘lightning burning like fire’ and ‘a long spear piercing the sky’; it connects the latter image with the ‘Battle of Menling’ in the Epic of King Gesar.",
+                "zh-Hans": "中国西藏网明确称其藏语有多种解释：一为“雷电如火燃烧”，一为“直刺天空的长矛”；后者与《格萨尔王传》“门岭一战”的长矛意象相连。"
+              },
+              "status": "Supported",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-TIBET-NAMCHA-NAME"
+              ]
+            },
+            {
+              "evidence_id": "PLACE-NAMCHA-7782-003",
+              "claim": {
+                "en": "The Nyingchi municipal government identifies Namcha Barwa as a 7,782-metre mountain at the eastern end of the Himalayas and the highest mountain in Nyingchi.",
+                "zh-Hans": "林芝市人民政府资料记载：南迦巴瓦峰海拔 7782 米，位于喜马拉雅山脉东端，是林芝市最高山峰。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LINZHI-NAMCHA-GEOGRAPHY"
+              ]
+            },
+            {
+              "evidence_id": "EPITHET-NAMCHA-FATHER-004",
+              "claim": {
+                "en": "A Chinese Academy of Sciences science-communication article records ‘father of mountains’ as a Tibetan epithet alongside the spear-like image; it is treated as an epithet, not a literal decomposition of the name.",
+                "zh-Hans": "中国科学院科普文章在“刺向苍穹的利矛”意象之外，记录其藏语称谓“众山之父”；本词条将其视为称谓，不作为名称字面拆解。"
+              },
+              "status": "Supported",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-CAS-NAMCHA-CANYON"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-XZXW-TIBETAN-NAMCHA",
+            "REF-KYOTO-TIBET-MAP",
+            "REF-RY-NAMCHA-PLACE",
+            "REF-RY-GNAM",
+            "REF-RY-GNAM-LCAGS",
+            "REF-RY-BAR-BA",
+            "REF-PRINCETON-BUDDHISM-NAMCHA",
+            "REF-XIZANG-WINTER-NAMCHA",
+            "REF-TIBET-NAMCHA-NAME",
+            "REF-LINZHI-NAMCHA-GEOGRAPHY",
+            "REF-CAS-NAMCHA-CANYON"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Not claimed",
+          "confidence": "High",
+          "summary": {
+            "en": "This entry records forms of one proper name; it makes no cross-language phonetic-semantic candidate claim.",
+            "zh-Hans": "本词条记录同一专名的不同形式，不提出跨语言语音—语义候选。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Cloud veil, youthful face, forest, lake and song are literary images created by the author around the named place.",
+            "zh-Hans": "云的面纱、青春容颜、森林、湖与歌声是作者围绕该地点专名展开的文学意象。"
+          },
+          "items": [],
+          "source_refs": [
+            "REF-JL-NAMCHA-RAW"
+          ]
+        },
+        "Speculative": {
+          "status": "Not claimed",
+          "confidence": "High",
+          "summary": {
+            "en": "No new etymological, phonetic or historical-origin hypothesis is proposed.",
+            "zh-Hans": "不提出新的词源、语音或历史起源假说。"
+          },
+          "items": [],
+          "source_refs": []
+        }
+      },
+      "literary_layer": {
+        "status": "Published",
+        "is_historical_evidence": false,
+        "proposition": {
+          "en": "Namcha Barwa, may your countenance endure.",
+          "zh-Hans": "南迦巴瓦，愿你保留你的容颜。",
+          "fr": "Namcha Barwa, que ton visage demeure.",
+          "bo": "གནམ་ལྕགས་འབར་བ། ཁྱེད་ཀྱི་ཞལ་རས་རྟག་ཏུ་གནས་པར་སྨོན།"
+        },
+        "essay_prose": [
+          {
+            "work_id": "LB-NAMCHA-PRELUDE-001",
+            "title": {
+              "en": "Garden Prelude",
+              "zh-Hans": "花园序言"
+            },
+            "text": {
+              "zh-Hans": "在花园里，水仙、迎春、春兰、杜鹃花、牡丹、月季，她们同时在春天盛开。和风吹在我的花园内，吹动着花的香气。"
+            },
+            "status": "Published; punctuation and one traditional character normalized"
+          }
+        ],
+        "poem_lyrics": [
+          {
+            "work_id": "LB-NAMCHA-POEM-001",
+            "title": {
+              "en": "Namcha Barwa, May Your Countenance Endure",
+              "zh-Hans": "南迦巴瓦，愿你保留你的容颜",
+              "fr": "Namcha Barwa, que ton visage demeure",
+              "bo": "གནམ་ལྕགས་འབར་བ། ཁྱེད་ཀྱི་ཞལ་རས་རྟག་ཏུ་གནས་པར་སྨོན།"
+            },
+            "text": {
+              "zh-Hans": "看过南迦巴瓦山的一些照片，很喜欢西藏这个藏在漫漫群山中的秀丽山峰。\n\n南迦巴瓦山啊，\n你是我的心里的少男少女，\n是我自己心里的透出熏香味的向往，\n还是我自己那少年时代的持续？\n那美丽是就像我看到那青春的照片，\n那是少年时代的情绪的青涩，\n那不正是你的青春似的树🌳与湖吗？\n有愿望的我想保持一颗爱你的心💕，\n因为我的爱你的光芒，\n将使你的青春的面容总是清秀。\n\n你轻柔的云的面纱，\n你貌似的对我发出尊重的话语，\n可是我却总是希望撕下，\n你的优雅的话语所包围的遮幕，\n总是想看到你的真容，\n在走进你心底的森林的深处，\n我却晓得了你的柔美的如丽水般，\n流淌的心如歌声的，\n在与你温煦话语的对话，\n与你激烈的对抗中，\n我却对你产生了从我的心底，\n流出的一种爱意。",
+              "en": "After seeing photographs of Namcha Barwa, I came to love this beautiful Tibetan peak hidden among range upon range of mountains.\n\nO Namcha Barwa,\nyou are the young men and women within my heart,\nthe longing in me that breathes the fragrance of incense,\nor perhaps the continuation of my own youth.\nThat beauty is like a photograph of youth before my eyes,\nthe tender greenness of a young heart—\nare those not your youthful trees 🌳 and lake?\nI long to keep a heart that loves you 💕,\nfor the radiance of my love for you\nwill keep your youthful countenance forever clear.\n\nYour tender veil of cloud,\nthe reverent words you seem to speak to me—\nand yet I am always longing to tear away\nthe curtain woven around you by your graceful speech,\nalways longing to behold your true face.\nDeep in the forest where I enter your innermost heart,\nI come to know your gentleness, lovely as clear water,\nyour flowing heart, like a song.\nIn our dialogue of warm words,\nin our fierce confrontation,\nthere rises in me, from the bottom of my heart,\na current of love for you.",
+              "fr": "Après avoir vu quelques photographies du Namcha Barwa, j’ai aimé ce beau sommet du Tibet, caché au milieu de chaînes de montagnes sans fin.\n\nÔ Namcha Barwa,\ntu es les jeunes hommes et les jeunes femmes au fond de mon cœur,\nle désir qui, en moi, exhale un parfum d’encens,\nou peut-être la continuité de ma propre jeunesse.\nTa beauté ressemble à une photographie de la jeunesse sous mes yeux,\nà la tendre verdeur des émotions adolescentes —\nne sont-ce pas là tes arbres 🌳 et ton lac, pareils à la jeunesse ?\nJe désire garder un cœur qui t’aime 💕,\ncar la lumière de mon amour pour toi\ngardera toujours limpide ton visage de jeunesse.\n\nTon léger voile de nuages,\nles paroles respectueuses que tu sembles m’adresser —\npourtant, je désire toujours déchirer\nle rideau dont m’entourent tes paroles pleines de grâce,\nje désire toujours contempler ton vrai visage.\nAu plus profond de la forêt où j’entre dans le secret de ton cœur,\nje découvre ta douceur, belle comme une eau claire,\nton cœur qui s’écoule comme un chant.\nDans le dialogue de tes paroles chaleureuses,\ndans l’affrontement ardent avec toi,\nnaît pourtant en moi, du plus profond de mon cœur,\nun courant d’amour pour toi.",
+              "bo": "གནམ་ལྕགས་འབར་བའི་པར་འགའ་ཞིག་མཐོང་རྗེས། བོད་ཀྱི་རི་བོ་རིམ་པའི་ཁྲོད་དུ་སྦས་པའི་རི་བོ་མཛེས་པོ་འདི་ལ་ང་རང་ཧ་ཅང་དགའ།\n\nཀྱེ། གནམ་ལྕགས་འབར་བའི་རི་བོ།\nཁྱེད་ནི་ངའི་སེམས་ཁོང་གི་གཞོན་ནུ་ཕོ་མོ་ཡིན།\nངའི་སེམས་ཀྱི་སྤོས་དྲི་འཐུལ་བའི་རེ་སྨོན་ཡིན།\nཡང་ན་ངའི་ལང་ཚོའི་དུས་ཀྱི་རྒྱུན་མཐུད་ཡིན་ནམ།\nམཛེས་པ་དེ་ནི་ལང་ཚོའི་པར་ཞིག་མཐོང་བ་དང་འདྲ།\nདེ་ནི་གཞོན་དུས་ཀྱི་ཚོར་བ་རྗེན་པ་དེ་ཡིན།\nདེ་དག་ཁྱེད་ཀྱི་ལང་ཚོ་ལྟ་བུའི་ལྗོན་ཤིང 🌳 དང་མཚོ་མ་ཡིན་ནམ།\nརེ་སྨོན་བཅངས་པའི་ངས་ཁྱེད་ལ་བརྩེ་བའི་སེམས 💕 འདི་སྲུང་འདོད།\nཁྱེད་ལ་བཅངས་པའི་ངའི་བརྩེ་བའི་འོད་ཟེར་གྱིས།\nཁྱེད་ཀྱི་ལང་ཚོའི་ཞལ་རས་རྟག་ཏུ་དྭངས་མཛེས་སུ་བྱེད།\n\nཁྱེད་ཀྱི་འཇམ་མཉེན་གྱི་སྤྲིན་པའི་གདོང་ཁེབས།\nཁྱེད་ཀྱིས་ང་ལ་གུས་པའི་སྐད་ཆ་ཞིག་ཤོད་པ་འདྲ།\nའོན་ཀྱང་ངས་རྟག་ཏུ་བཤུ་འདོད་པ་ནི།\nཁྱེད་ཀྱི་མཛེས་ཉམས་ལྡན་པའི་གསུང་གིས་བསྐོར་བའི་ཡོལ་བ་དེ།\nཁྱེད་ཀྱི་ཞལ་རས་ངོ་མ་མཐོང་འདོད།\nཁྱེད་ཀྱི་སེམས་གཏིང་གི་ནགས་ཚལ་ཟབ་སར་བསྐྱོད་སྐབས།\nཆུ་དྭངས་མོ་ལྟ་བུའི་ཁྱེད་ཀྱི་འཇམ་མཛེས་ངས་ཤེས་བྱུང་།\nགླུ་དབྱངས་ལྟར་རྒྱུ་བའི་ཁྱེད་ཀྱི་སེམས།\nཁྱེད་ཀྱི་དྲོད་འཇམ་གྱི་གསུང་དང་གླེང་མོལ་བྱེད་སྐབས།\nཁྱེད་དང་ཛ་དྲག་པོར་འཐབ་རྩོད་བྱེད་སྐབས།\nངའི་སེམས་ཀྱི་གཏིང་ནས།\nཁྱེད་ལ་བཅངས་པའི་བརྩེ་བ་ཞིག་རྒྱུན་དུ་བཞུར།"
+            },
+            "status": "Published Chinese original; English and French literary translations; Tibetan translation draft pending native-speaker review; stanza and line structure preserved"
+          }
+        ],
+        "translations": [
+          {
+            "work_id": "LB-NAMCHA-POEM-001",
+            "language_code": "zh-Hans",
+            "language": "中文",
+            "status": "Original Text",
+            "review_status": "Author original; web punctuation normalized"
+          },
+          {
+            "work_id": "LB-NAMCHA-POEM-001",
+            "language_code": "en",
+            "language": "English",
+            "status": "Literary Translation",
+            "review_status": "Published literary translation"
+          },
+          {
+            "work_id": "LB-NAMCHA-POEM-001",
+            "language_code": "fr",
+            "language": "Français",
+            "status": "Literary Translation",
+            "review_status": "Published literary translation"
+          },
+          {
+            "work_id": "LB-NAMCHA-POEM-001",
+            "language_code": "bo",
+            "language": "བོད་ཡིག",
+            "status": "Translation Draft",
+            "review_status": "Pending line-by-line review by a native Tibetan speaker; not represented as finalized Tibetan poetry"
+          }
+        ],
+        "archival_manuscript_media": [],
+        "evidence_boundary": {
+          "en": "The garden, youth, face, veil, forest, lake, fragrance and love are the author's literary layer. They do not establish the mountain name's etymology or geographic facts.",
+          "zh-Hans": "花园、青春、容颜、面纱、森林、湖、香气与爱意均属作者文学层，不用于确立山名词源或地理事实。"
+        }
+      },
+      "hypotheses": [],
+      "experiments": [],
+      "name_analysis": {
+        "tibetan_form": "གནམ་ལྕགས་འབར་བ།",
+        "wylie": "gnam lcags ’bar ba",
+        "tibetan_pinyin": "Namjagbarwa",
+        "orthography_note": {
+          "en": "Tibet Daily's Tibetan-language site, the Rangjung Yeshe place entry and Kyoto University's academic Tibet map use gnam without a final s. Some secondary web sources print གནམས / gnams; this entry adopts the better-attested གནམ / gnam form and records the variant without treating it as primary.",
+          "zh-Hans": "西藏日报藏文网站、Rangjung Yeshe 地名条目及京都大学学术地图均采用不带词尾 s 的 གནམ / gnam。部分二手网页写作 གནམས / gnams；本条采用证据更充分的 གནམ / gnam，同时记录该异写，不将其作为主写法。"
+        },
+        "morphemes": [
+          {
+            "form": "གནམ",
+            "wylie": "gnam",
+            "meaning": {
+              "en": "sky, heaven, atmosphere",
+              "zh-Hans": "天空、天、苍穹"
+            },
+            "source_refs": [
+              "REF-RY-GNAM"
+            ]
+          },
+          {
+            "form": "ལྕགས",
+            "wylie": "lcags",
+            "meaning": {
+              "en": "iron, metal",
+              "zh-Hans": "铁、金属"
+            },
+            "source_refs": [
+              "REF-RY-GNAM-LCAGS"
+            ]
+          },
+          {
+            "form": "གནམ་ལྕགས",
+            "wylie": "gnam lcags",
+            "meaning": {
+              "en": "sky-iron / meteoric iron; also thunderbolt or lightning",
+              "zh-Hans": "天铁／陨铁；亦可指霹雳、雷电"
+            },
+            "source_refs": [
+              "REF-RY-GNAM-LCAGS"
+            ]
+          },
+          {
+            "form": "འབར་བ",
+            "wylie": "’bar ba",
+            "meaning": {
+              "en": "to blaze, burn, shine or glow",
+              "zh-Hans": "燃烧、闪耀、发光"
+            },
+            "source_refs": [
+              "REF-RY-BAR-BA"
+            ]
+          }
+        ],
+        "chinese_name_assessment": {
+          "form": "南迦巴瓦峰",
+          "type": "phonetic transcription plus geographic classifier",
+          "assessment": {
+            "en": "南迦巴瓦 approximately follows the sound sequence Nam-jag-bar-wa; 峰 adds the Chinese geographic classifier ‘peak.’ The individual Chinese character meanings are not a translation of the Tibetan morphemes.",
+            "zh-Hans": "“南迦巴瓦”大体按 Nam-jag-bar-wa 的音节转写，“峰”补出汉语地理类别。南、迦、巴、瓦各字的汉语字义不用于翻译藏文词素。"
+          }
+        },
+        "translation_assessments": [
+          {
+            "chinese": "雷电如火燃烧",
+            "grade": "closest semantic paraphrase",
+            "literal_match": "partial-to-strong",
+            "analysis": {
+              "en": "Closest among the published Chinese explanations when gnam lcags is read as lightning and ’bar ba as blazing/burning. ‘如火’ is explanatory rather than a separate Tibetan morpheme.",
+              "zh-Hans": "在公开汉语解释中最接近藏文结构：gnam lcags 可取“雷电”，’bar ba 可取“燃烧／闪耀”。其中“如火”是汉语说明性补充，并非另有一个对应藏文词素。"
+            }
+          },
+          {
+            "chinese": "燃烧／闪耀的天铁（陨铁）",
+            "grade": "direct lexical rendering",
+            "literal_match": "strong",
+            "analysis": {
+              "en": "A direct compositional rendering of gnam ‘sky’ + lcags ‘iron/metal’ + ’bar ba ‘blaze/burn/shine.’ Princeton's Dictionary of Buddhism similarly gives ‘Blazing Meteor.’",
+              "zh-Hans": "按 gnam“天”＋lcags“铁／金属”＋’bar ba“燃烧／闪耀”组合出的较直接译法。《普林斯顿佛教辞典》亦将整词释作“Blazing Meteor（燃烧的流星／陨星）”。"
+            }
+          },
+          {
+            "chinese": "直刺蓝天的战矛／直刺天空的长矛",
+            "grade": "cultural-iconic interpretation",
+            "literal_match": "weak",
+            "analysis": {
+              "en": "The Tibetan written form contains no separately identifiable morpheme for spear, battle or piercing. This is best labelled an image associated with the mountain's shape and the Gesar epic tradition, not a literal translation.",
+              "zh-Hans": "藏文词面中没有可分别对应“长矛／战矛”“刺入”的词素。较合理的身份是结合山形与《格萨尔王传》传统形成的形象化文化解释，而非直译。"
+            }
+          },
+          {
+            "chinese": "天上掉下来的石头",
+            "grade": "meteorite-based paraphrase",
+            "literal_match": "partial",
+            "analysis": {
+              "en": "It reflects the ‘sky-iron / meteorite’ sense of gnam lcags, but changes iron/metal to stone and omits ’bar ba ‘blazing.’",
+              "zh-Hans": "它抓住了 gnam lcags“天铁／陨铁”的来源意象，但把“铁／金属”泛化为“石头”，并省略了 ’bar ba“燃烧／闪耀”。"
+            }
+          },
+          {
+            "chinese": "众山之父",
+            "grade": "epithet",
+            "literal_match": "none",
+            "analysis": {
+              "en": "An attested honorific epithet. The written name contains no morpheme meaning mountain, many/all, or father, so it is not a translation of the name.",
+              "zh-Hans": "这是有资料记录的尊称。藏文名称中没有“山”“众”“父”对应词素，因此不是山名字面翻译。"
+            }
+          }
+        ]
+      },
+      "mapping_status": "Reviewed",
+      "mapping_level": "Unrated",
+      "entry_status": "Published",
+      "references": [
+        {
+          "reference_id": "REF-JL-NAMCHA-RAW",
+          "title": "Jinkai Liu: Namcha Barwa prelude and poem raw note",
+          "type": "author literary source",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; raw note preserved below"
+        },
+        {
+          "reference_id": "REF-LINZHI-NAMCHA-GEOGRAPHY",
+          "title": "Nyingchi Municipal People's Government: Namcha Barwa",
+          "type": "government place reference",
+          "url": "https://www.linzhi.gov.cn/linzhi/zmlz/201812/28aa35ef0a164fb8a584b129ae6b0911.shtml",
+          "path": null,
+          "provenance": "official municipal government page; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-XIZANG-WINTER-NAMCHA",
+          "title": "People's Government of Tibet Autonomous Region: Winter tourism begins in Tibet",
+          "type": "government name-meaning report",
+          "url": "https://www.xizang.gov.cn/xwzx_406/bmkx/201812/t20181216_10418.html",
+          "path": null,
+          "provenance": "official regional government page; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-TIBET-NAMCHA-NAME",
+          "title": "China Tibet Online: Namcha Barwa name interpretations",
+          "type": "institutional cultural report",
+          "url": "https://www.tibet.cn/cn/travel/201801/t20180108_5331116.html",
+          "path": null,
+          "provenance": "institutional cultural report; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-CAS-NAMCHA-CANYON",
+          "title": "Chinese Academy of Sciences: Exploring the Yarlung Tsangpo Grand Canyon — glaciers",
+          "type": "scientific institution article",
+          "url": "https://idea.cas.cn/zhhh/dqkxyzyhj/dqkxyzyhj_dqkx/info/2026/554175.html",
+          "path": null,
+          "provenance": "Chinese Academy of Sciences science-communication page; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-XZXW-TIBETAN-NAMCHA",
+          "title": "Tibet Daily Tibetan-language site: གནམ་ལྕགས་འབར་བའི་མཛེས་ལྗོངས།",
+          "type": "Tibetan-language institutional source",
+          "url": "https://m.xzxw.com/tb/html/content_6005062.html",
+          "path": null,
+          "provenance": "Tibet Daily Tibetan-language page; confirms primary Tibetan orthography; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-KYOTO-TIBET-MAP",
+          "title": "Kyoto University: River, Lake and Mountain in Tibet",
+          "type": "academic geographic reference",
+          "url": "https://sinotibetan.zinbun.kyoto-u.ac.jp/maps/1_Map_of_Tibet_%28Japanese_Version%29/Map_Contents_%26_Information%28Japanese_Version%29/River_Lake_Mountain_in_Tibet.pdf",
+          "path": null,
+          "provenance": "academic Tibet map; gives Namcha Barwa / 南迦巴瓦峰 / gnam lcags ’bar ba; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-RY-NAMCHA-PLACE",
+          "title": "Rangjung Yeshe Dictionary: gnam lcags ’bar ba",
+          "type": "Tibetan dictionary place entry",
+          "url": "https://rywiki.tsadra.org/index.php/gnam_lcags_%27bar_ba",
+          "path": null,
+          "provenance": "Tibetan lexicographic resource; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-RY-GNAM",
+          "title": "Rangjung Yeshe Dictionary: gnam",
+          "type": "Tibetan dictionary",
+          "url": "https://rywiki.tsadra.org/index.php/gnam",
+          "path": null,
+          "provenance": "Tibetan lexicographic resource; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-RY-GNAM-LCAGS",
+          "title": "Rangjung Yeshe Dictionary: gnam lcags",
+          "type": "Tibetan dictionary",
+          "url": "https://rywiki.tsadra.org/index.php/gnam_lcags",
+          "path": null,
+          "provenance": "Tibetan lexicographic resource; records meteoric iron, thunderbolt and lightning senses; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-RY-BAR-BA",
+          "title": "Rangjung Yeshe Dictionary: ’bar ba",
+          "type": "Tibetan dictionary",
+          "url": "https://rywiki.tsadra.org/index.php/%27bar_ba",
+          "path": null,
+          "provenance": "Tibetan lexicographic resource; records blaze, burn, shine and glow senses; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-PRINCETON-BUDDHISM-NAMCHA",
+          "title": "The Princeton Dictionary of Buddhism: Gnam lcags bar ba",
+          "type": "academic reference dictionary",
+          "url": "https://journeytothewestresearch.com/wp-content/uploads/2024/11/The-Princeton-Dictionary-of-Buddhism-2014-compressed.pdf",
+          "path": null,
+          "provenance": "academic reference dictionary; translates the Tibetan name as Blazing Meteor; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-COMMONS-NAMCHA-WEST",
+          "title": "Wikimedia Commons: Namcha Barwa from the west",
+          "type": "licensed terrain photograph",
+          "url": "https://commons.wikimedia.org/wiki/File:Namcha_Barwa_from_the_west.jpg",
+          "path": "images/namcha-barwa-west-cherry933.jpg",
+          "provenance": "Cherry933; photographed from Zhibai observation platform on 2008-12-30; CC BY-SA 3.0; accessed 2026-08-31"
+        },
+        {
+          "reference_id": "REF-RUNWAY-NAMCHA",
+          "title": "Runway related creative work",
+          "type": "external creative work",
+          "url": "https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4",
+          "path": null,
+          "provenance": "author-provided link; content not independently verified"
+        }
+      ],
+      "related_words": [],
+      "semantic_structure": {
+        "concepts": [
+          "PLACE",
+          "MOUNTAIN",
+          "PROPER NAME",
+          "CULTURAL INTERPRETATION",
+          "LITERARY IMAGE"
+        ],
+        "relation": "NAMED PLACE → SOURCE-ATTRIBUTED NAME INTERPRETATIONS; NAMED PLACE → AUTHORIAL LITERARY IMAGERY",
+        "status": "Reviewed"
+      },
+      "phonetic_observation": [],
+      "source": {
+        "type": "author-provided literary source and related-media link",
+        "author": "Jinkai Liu",
+        "status": "Published as literature; factual and name-meaning claims independently sourced",
+        "normalization": "Web punctuation normalized; 吹動 normalized to 吹动; obvious typo 情青 normalized to 青春; other idiosyncratic wording and emoji preserved.",
+        "raw_note": "在花园里，水仙，迎春，春兰，杜鹃花、牡丹，月季，她们同时在春天盛开。和风吹在我的花园内，吹動着花的香气。\nRelated media: https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4\n詩歌\n南迦巴瓦，愿你保留你的容颜\n看过南迦巴瓦山的一些照片，很喜欢西藏这个藏在漫漫群山中的秀丽山峰。\n南迦巴瓦山啊，\n你是我的心里的少男少女，\n是我自己心里的透出熏香味的向往，\n还是我自己那少年时代的持续？\n那美丽是就像我看到那青春的照片，\n那是少年时代的情绪的青涩，\n那不正是你的青春似的树🌳与湖吗？\n有愿望的我想保持一颗爱你的心💕，\n因为我的爱你的光芒，\n将使你的情青的面容总是清秀。\n你轻柔的云的面纱，\n你貌似的对我发出尊重的话语，\n可是我却总是希望撕下，\n你的优雅的话语所包围的遮幕，\n总是想看到你的真容，\n在走进你心底的森林的深处，\n我却晓得了你的柔美的如丽水般，\n流淌的心如歌声的，\n在与你温煦话语的对话，\n与你激烈的对抗中，\n我却对你产生了从我的心底，\n流出的一种爱意。"
+      },
+      "media": [
+        {
+          "media_id": "MEDIA-NAMCHA-PHOTO-001",
+          "type": "archival image",
+          "path": "images/namcha-barwa-west-cherry933.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Namcha_Barwa_from_the_west.jpg",
+          "title": {
+            "en": "Namcha Barwa from the west",
+            "zh-Hans": "南迦巴瓦峰西坡实拍"
+          },
+          "alt": {
+            "en": "The steep west face of Namcha Barwa with rock walls, snow gullies and subsidiary ridges under a deep blue sky.",
+            "zh-Hans": "南迦巴瓦峰西坡的陡峭岩壁、冰雪沟槽与复合山脊。"
+          },
+          "caption": {
+            "en": "Verified terrain photograph from Zhibai observation platform; Cherry933, CC BY-SA 3.0.",
+            "zh-Hans": "从直白观景台拍摄的可核验地貌实景；Cherry933，CC BY-SA 3.0。"
+          },
+          "content_status": "verified photograph; geographic evidence",
+          "source": "Cherry933 / Wikimedia Commons",
+          "license": "CC BY-SA 3.0",
+          "provenance": "photographed from Zhibai observation platform, Tibet, China, 2008-12-30; downloaded from Wikimedia Commons on 2026-08-31"
+        },
+        {
+          "media_id": "MEDIA-NAMCHA-LITERARY-001",
+          "type": "generated illustration",
+          "path": "images/namcha-barwa-literary-landscape.png",
+          "title": {
+            "en": "Namcha Barwa literary landscape",
+            "zh-Hans": "南迦巴瓦文学视觉图"
+          },
+          "alt": {
+            "en": "A literary visualization of a cloud-wrapped snowy mountain above forest and a lake.",
+            "zh-Hans": "云雾环绕的雪山、森林与湖面的文学视觉创作。"
+          },
+          "caption": {
+            "en": "AI-generated literary visualization; not a terrain photograph or geographic evidence.",
+            "zh-Hans": "AI 生成的文学视觉图；不是真实地貌照片或地理证据。"
+          },
+          "content_status": "literary visualization; not geographic evidence",
+          "source": "generated for Unilanguage",
+          "provenance": "AI-generated during the Namcha Barwa entry workflow on 2026-08-31; explicitly excluded from factual terrain evidence"
+        },
+        {
+          "media_id": "MEDIA-NAMCHA-RUNWAY-001",
+          "type": "external creative work",
+          "url": "https://app.runwayml.com/creation/231fbe16-d3ae-45e5-92d5-36c416ec9ed4",
+          "title": {
+            "en": "Related creative work on Runway",
+            "zh-Hans": "Runway 相关创作"
+          },
+          "content_status": "not independently verified",
+          "source": "Jinkai Liu",
+          "provenance": "author-provided external link; content not described"
+        }
+      ],
+      "languages": [
+        {
+          "role": "tibetan-name",
+          "code": "bo",
+          "name": "Tibetan",
+          "word": "གནམ་ལྕགས་འབར་བ།",
+          "pronunciation": "Wylie: gnam lcags ’bar ba; Tibetan pinyin: Namjagbarwa"
+        },
+        {
+          "role": "romanized-name",
+          "code": "en",
+          "name": "English / Romanized form",
+          "word": "Namcha Barwa",
+          "pronunciation": "name form; pronunciation not independently normalized"
+        },
+        {
+          "role": "chinese-name",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "南迦巴瓦峰",
+          "pronunciation": "Nánjiābāwǎ Fēng"
+        },
+        {
+          "role": "short-chinese-name",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "南迦巴瓦",
+          "pronunciation": "Nánjiābāwǎ"
+        }
+      ],
+      "title": {
+        "en": "Namcha Barwa · Named Entity / Literary Entry",
+        "zh-Hans": "南迦巴瓦峰｜专名／文学词条"
+      }
+    }
+  }
+}

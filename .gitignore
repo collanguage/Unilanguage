@@ -14,3 +14,7 @@ private-research-packages/
 experiments/**/private-research-package/
 experiments/**/analysis-key*
 experiments/**/identity-map*
+
+# Publication dependencies and clean deployment output
+node_modules/
+dist/

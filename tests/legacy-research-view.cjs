@@ -10,6 +10,19 @@ const cache=new Map();
 // equal the approved baseline, including every original evidence/status field.
 function legacyEntry(e) {
  if(!e.legacy_migration)return e;
+ if(e.legacy_migration.version==='second-pipeline-0.1') {
+  assert.ok(['at','figure','new','water','namcha-barwa'].includes(e.slug));
+  const b='f35857436a743045645c1e8f06afb932bbc4db63';
+  assert.equal(e.legacy_migration.baseline_commit,b);
+  const restored=structuredClone(e),a=restored.legacy_migration;
+  for(const [k,v] of Object.entries(a.previous_fields))restored[k]=v;
+  for(const k of a.previously_absent_fields)delete restored[k];
+  delete restored.legacy_migration;
+  const original=JSON.parse(cp.execFileSync('git',['show',`${b}:data/language-book.v1.0.json`],{cwd:path.resolve(__dirname,'..'),maxBuffer:40e6})).entries.find(x=>x.id===e.id);
+  assert.deepEqual(restored,original,'Second-pipeline archive must exactly restore baseline');
+  return restored;
+ }
+
  if(e.legacy_migration.version==='tier-c-final-a-0.1') {
   assert.ok(['a-indefinite-article'].includes(e.slug));
   const b='3b9901d47f0cd9d13252e96329b96dded0be972d';

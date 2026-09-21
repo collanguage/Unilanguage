@@ -1,15 +1,17 @@
+const {beforeSecondPipeline,stripSecondPipeline,isSecondPipelineFile}=require('./second-pipeline-compat.cjs');
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),cp=require('node:child_process');
 const model=require('../js/diachronic-mapping.js'),api=require('../js/language-book-data.js'),{legacyEntry}=require('./legacy-research-view.cjs');
 const base='3b9901d47f0cd9d13252e96329b96dded0be972d',slug='a-indefinite-article';
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:40e6}).replace(/\r\n/g,'\n');
-const data=require('../data/language-book.v1.0.json'),before=JSON.parse(get('data/language-book.v1.0.json')),e=data.entries.find(x=>x.slug===slug),d=e.diachronic_semantic_mapping,cs=d.mappings.flatMap(m=>m.candidates);
+const data=beforeSecondPipeline(require('../data/language-book.v1.0.json')),before=JSON.parse(get('data/language-book.v1.0.json')),e=data.entries.find(x=>x.slug===slug),d=e.diachronic_semantic_mapping,cs=d.mappings.flatMap(m=>m.candidates);
 test('Final A scope: other 41 entries and all existing pages/schema/shared UI remain unchanged',()=>{
  assert.deepEqual(data.entries.filter(x=>x.slug!==slug),before.entries.filter(x=>x.slug!==slug));assert.deepEqual(legacyEntry(e),before.entries.find(x=>x.slug===slug));
  for(const dir of ['data/entries','words'])for(const f of fs.readdirSync(dir)){
+  if(isSecondPipelineFile(f))continue;
   if(f===slug+'.html'||f===slug+'.v1.json')continue;
-  const p=dir+'/'+f;if(fs.statSync(p).isFile())assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
+  const p=dir+'/'+f;if(fs.statSync(p).isFile())assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p),p);
  }
- for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/semantic-mapper.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
+ for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/semantic-mapper.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p),p);
 });
 test('A Published and Featured Pending are independent; no lexical equivalence inferred',()=>{
  assert.equal(e.featured_mapping_status,'Pending');assert.equal(e.publication_status,'Published');assert.equal(e.entry_status,'Reviewed');assert.equal(model.featured(e),null);assert.equal(e.standard_function.source,'a/an');assert.equal(e.structural_semantic_mapping.lexical_equivalence,false);

@@ -201,13 +201,12 @@
   ],
   "semantic_structure": {
     "concepts": [
-      "SHAPE",
+      "CONCEPT",
       "REPRESENTATION",
-      "NUMBER",
-      "BODY PART",
-      "POINTING"
+      "GEOMETRY",
+      "SYMBOL"
     ],
-    "relation": "SHAPE → REPRESENTATION → NUMBER → BODY PART → POINTING",
+    "relation": "Concept → Representation → Geometry → Symbol (task example, not historical chronology)",
     "status": "Interpretive"
   },
   "related_words": [
@@ -260,8 +259,14 @@
   ],
   "semantic_associations": [
     {
-      "association_id": "ASSOC-FIGURE-001",
-      "relation": "SHAPE → REPRESENTATION → NUMBER → BODY PART → POINTING",
+      "association_id": "CSL-FIGURE-SENSES",
+      "relation": "形 xíng: shape; 图 tú: diagram; 象 xiàng: representation; 数 shù: number; person: 人物; bodily figure: 身形/身材/人形.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "CSL-FIGURE-TRANSFORMATION",
+      "relation": "Concept → Representation → Geometry → Symbol: an illustrative transformation task, NOT historical chronology or a validated universal sequence.",
       "status": "Interpretive",
       "is_etymological": false
     }
@@ -373,6 +378,18 @@
     {
       "en": "The user observation is preserved as a modern-form/cognitive candidate, not cognacy.",
       "zh-Hans": "用户观察保留为现代词形／认知候选，不标为同源。"
+    },
+    {
+      "en": "Counterinterpretation: Modern senses need not follow one sequence. Figure/finger resemblance does not establish a historical family; representations may be ambiguous.",
+      "zh-Hans": "Counterinterpretation: Modern senses need not follow one sequence. Figure/finger resemblance does not establish a historical family; representations may be ambiguous."
+    },
+    {
+      "en": "Featured Mapping: Pending. Mainland printed entries, sense dates, comprehension/structure-recovery experiments remain Pending.",
+      "zh-Hans": "Featured Mapping: Pending. Mainland printed entries, sense dates, comprehension/structure-recovery experiments remain Pending."
+    },
+    {
+      "en": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity.",
+      "zh-Hans": "Historical Relation: Not claimed. Literary / cultural / transformation / experimental / proper-name layers are independently scoped; schema validity is not evidence validity."
     }
   ],
   "search_terms": [
@@ -389,7 +406,7 @@
     "representation",
     "point"
   ],
-  "page": null,
+  "page": "words/figure.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",
@@ -403,5 +420,50 @@
     "ordinal": 7,
     "disposition": "Candidate",
     "priority_score": 86.8
+  },
+  "standard_translation": {
+    "target": "形态 / 形象 / 图示 / 数字 / 人物；figure out = 弄清 / 想出 / 解决。",
+    "status": "Frozen editorial scope; source-specific evidence retained"
+  },
+  "featured_mapping_status": "Pending",
+  "legacy_migration": {
+    "version": "second-pipeline-0.1",
+    "baseline_commit": "f35857436a743045645c1e8f06afb932bbc4db63",
+    "previous_fields": {
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-FIGURE-001",
+          "relation": "SHAPE → REPRESENTATION → NUMBER → BODY PART → POINTING",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Candidate. Priority score 86.8/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Candidate。优先分 86.8/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "The user observation is preserved as a modern-form/cognitive candidate, not cognacy.",
+          "zh-Hans": "用户观察保留为现代词形／认知候选，不标为同源。"
+        }
+      ],
+      "page": null,
+      "semantic_structure": {
+        "concepts": [
+          "SHAPE",
+          "REPRESENTATION",
+          "NUMBER",
+          "BODY PART",
+          "POINTING"
+        ],
+        "relation": "SHAPE → REPRESENTATION → NUMBER → BODY PART → POINTING",
+        "status": "Interpretive"
+      }
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "featured_mapping_status"
+    ]
   }
 }

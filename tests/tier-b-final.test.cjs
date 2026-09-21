@@ -1,16 +1,18 @@
+const {beforeSecondPipeline,stripSecondPipeline,isSecondPipelineFile}=require('./second-pipeline-compat.cjs');
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),cp=require('node:child_process'),crypto=require('node:crypto');
 const model=require('../js/diachronic-mapping.js'),api=require('../js/language-book-data.js'),{legacyEntry}=require('./legacy-research-view.cjs');
 const base='dcfc3dc3f6ae5424beb61ef22b6f55ca3ecebde2',slugs=['horizon','horse'];
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:30e6}).replace(/\r\n/g,'\n');
-const data=require('../data/language-book.v1.0.json'),before=JSON.parse(get('data/language-book.v1.0.json'));
+const data=beforeSecondPipeline(require('../data/language-book.v1.0.json')),before=JSON.parse(get('data/language-book.v1.0.json'));
 const es=slugs.map(s=>data.entries.find(e=>e.slug===s));
 test('Final batch changes exactly two records and preserves other pages, schema and UI',()=>{
  assert.deepEqual(data.entries.filter(e=>!slugs.includes(e.slug)).map(e=>["media","aback","sound","abridge","aliment","acumen","abound","sky","language","advance","generate","absolute","a-indefinite-article"].includes(e.slug)?legacyEntry(e):e),before.entries.filter(e=>!slugs.includes(e.slug)));
  for(const dir of ['data/entries','words'])for(const file of fs.readdirSync(dir)){
+  if(isSecondPipelineFile(file))continue;
   if([...slugs,"media","aback","sound","abridge","aliment","acumen","abound","sky","language","advance","generate","absolute","a-indefinite-article"].some(s=>file===s+'.html'||file===s+'.v1.json'))continue;
-  const p=dir+'/'+file;if(fs.statSync(p).isFile())assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
+  const p=dir+'/'+file;if(fs.statSync(p).isFile())assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p),p);
  }
- for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),get(p),p);
+ for(const p of ['data/language-book-entry.schema.v1.json','js/diachronic-mapping.js','js/language-book-data.js','js/search.js','semantic-mapper.html','dictionary.html','search.html'])assert.equal(stripSecondPipeline(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n')),get(p),p);
  es.forEach(e=>{assert.deepEqual(legacyEntry(e),before.entries.find(x=>x.id===e.id));assert.deepEqual(model.validate(e),[]);assert.deepEqual(e,require('../data/entries/'+e.slug+'.v1.json'));});
 });
 test('HORIZON separates DELIMIT Featured from modern translation and visual fire',()=>{

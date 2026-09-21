@@ -1,6 +1,6 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.44",
+  "version": "1.2.45",
   "dataset_version": "1.2.23",
   "created_at": "2026-09-20",
   "canonical_dataset": "data/language-book.v1.0.json",
@@ -10,14 +10,99 @@
   "candidate_mapping_count": 25,
   "files": [
     {
+      "path": "tests/second-pipeline-compat.cjs",
+      "bytes": 700,
+      "sha256": "bf439ed82da072f7cfcb5ff4f3b3870a7797b4b7c201d6a699100869dfa4ff0c"
+    },
+    {
+      "path": "docs/research/second-pipeline-migration-v0.1.md",
+      "bytes": 4055,
+      "sha256": "f877145a518a324c3337c557a5887ff3d996e206bd91f07e2746384ed3dc8659"
+    },
+    {
+      "path": "js/second-pipeline.js",
+      "bytes": 2971,
+      "sha256": "8c423618fe199527ce25c1c5f52b51b133771bef40a0883770c0376e1aa0715b"
+    },
+    {
+      "path": "scripts/build-second-pipeline.mjs",
+      "bytes": 2810,
+      "sha256": "4cf440028ef7e7acb9fdd9a6cfc77582f2f67275ae5f155a53d08e824bd3dc4c"
+    },
+    {
+      "path": "scripts/validate-second-pipeline.mjs",
+      "bytes": 2646,
+      "sha256": "d5a8da3b29eb1d55dddb299c60aa14157b718b48fee4566c3e34e08113298452"
+    },
+    {
+      "path": "scripts/validate-schema.mjs",
+      "bytes": 564,
+      "sha256": "486121f715a21281c61da99bde38bf7f91e5d3a80b9ff05b9197891d6b6d5eb4"
+    },
+    {
+      "path": "scripts/publication-build.mjs",
+      "bytes": 1408,
+      "sha256": "783b740094c4fb9679ffb3c94384197c2c2bea88de4f38a88b88e98a69de4620"
+    },
+    {
+      "path": "tests/second-pipeline.test.cjs",
+      "bytes": 6582,
+      "sha256": "48fcfe926ea889dcd5b54ad03e6a13a1f4afabbf4647adb129ae09b7c634424b"
+    },
+    {
+      "path": "data/review/second-pipeline-freeze.v1.json",
+      "bytes": 115603,
+      "sha256": "df719cc721baa36c76a13fcd8a371c1b8cfcb1b27b1cdc9bcc4bf31ae976dda3"
+    },
+    {
+      "path": "data/review/second-pipeline-page-fragments.v1.json",
+      "bytes": 73527,
+      "sha256": "d0c70f66072531594c1069d5ed16cbcb9aba71d11ebd5231bcdabbae68d2cfe0"
+    },
+    {
+      "path": "docs/research/second-pipeline-final-freeze.md",
+      "bytes": 13564,
+      "sha256": "0176e514f75963009e2dfebd45ee5d2210abfed7bf6f47bd268ca549f7559580"
+    },
+    {
+      "path": "words/at.html",
+      "bytes": 42137,
+      "sha256": "382f65f16649dcbc1ee4ffb003953f65a2f7f190790dfe505a89480b673892be"
+    },
+    {
+      "path": "words/figure.html",
+      "bytes": 15440,
+      "sha256": "3021447c0f3ee03c49f10eb6efc8ae6c85398492241c7da3f1e5ad718c2378f2"
+    },
+    {
+      "path": "words/water.html",
+      "bytes": 15165,
+      "sha256": "f28d347397e5474c881750f9977ee4fae77ab6b58a5dc8b0c9815d1dbae83c2c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 375,
+      "sha256": "2a927454387669834c217bbbcb650380f9f89c0bb0a52e0d836e0b2cd66a5bcc"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 1263,
+      "sha256": "56636b01cefae904785de36517b4b93a5bc8e8d4584275264460a9e0e80eb882"
+    },
+    {
+      "path": "netlify.toml",
+      "bytes": 119,
+      "sha256": "674f160abedc7161d5965b4a0f9ba9d1fe2ba254f8b45b9924cc3a29d6d76357"
+    },
+    {
       "path": "scripts/build-tier-c-final-a.mjs",
       "bytes": 6096,
       "sha256": "1d1ea47ec8ef5e16be54068714714f28782ecd7f8e9f32afe0ae29fe32bb95b1"
     },
     {
       "path": "tests/tier-c-final-a.test.cjs",
-      "bytes": 5441,
-      "sha256": "020774b9e5949ba9f3d2d6b6a8ae1ef93180298bb95fceb10dae762a7181c5f1"
+      "bytes": 5655,
+      "sha256": "778f24571202e1d3223a825916537f239340a1833e5cae99ffc3c631fded2f5d"
     },
     {
       "path": "words/a-indefinite-article.html",
@@ -41,8 +126,8 @@
     },
     {
       "path": "tests/tier-c-batch3.test.cjs",
-      "bytes": 6740,
-      "sha256": "94ae94ec4db87c53cf9f270e0f3746e0d9264060ac67e52c58678e3ee95449e1"
+      "bytes": 6954,
+      "sha256": "520535f276a360062b8cb154a74a2d826bbc0a8a0c81e241fe45dbafad576a72"
     },
     {
       "path": "docs/research/tier-c-batch3-freeze.md",
@@ -71,8 +156,8 @@
     },
     {
       "path": "tests/tier-c-batch2.test.cjs",
-      "bytes": 6627,
-      "sha256": "cff61230ddce07bbb36722d813e3176a889ba47b31bfce294007037d26180012"
+      "bytes": 6841,
+      "sha256": "29672907417bb72cc62544d2f3333f5e4aa8a0113011534637c7083f852de332"
     },
     {
       "path": "docs/research/tier-c-batch2-freeze.md",
@@ -111,8 +196,8 @@
     },
     {
       "path": "tests/pending-final.test.cjs",
-      "bytes": 7585,
-      "sha256": "c93cfd4c158d0eff1e423f8705128d500ee83c0283a356eb25528d772ff26d64"
+      "bytes": 7820,
+      "sha256": "3143c8a2bf8b6bc6a8f9d0c73d962353e03b12ad9fc50ca308361f5a02919b55"
     },
     {
       "path": "words/media.html",
@@ -151,8 +236,8 @@
     },
     {
       "path": "tests/tier-b-final.test.cjs",
-      "bytes": 6334,
-      "sha256": "c05f49b91a3f8573efa1038d4a1090d39dfb77af4428f9dfee27d6bf78a008c8"
+      "bytes": 6551,
+      "sha256": "2f1ca41a75e676d68ca1b20438c41aedb79d27b276b74a0f2704d6a42eebf371"
     },
     {
       "path": "docs/research/tier-b-final-freeze.md",
@@ -181,8 +266,8 @@
     },
     {
       "path": "tests/editorial-migration-batch2.test.cjs",
-      "bytes": 6633,
-      "sha256": "8253e1b24499860564e31f7aa5870f2dfc9c329bfae6ba101cf52afe558e1068"
+      "bytes": 6850,
+      "sha256": "281d7b9902c690af0aac21f9041d75ae1c6d3a1e4a297221e8230c42dc8fb61f"
     },
     {
       "path": "docs/research/editorial-migration-batch2.md",
@@ -196,8 +281,8 @@
     },
     {
       "path": "tests/family-migration-batch1.test.cjs",
-      "bytes": 5753,
-      "sha256": "ba462f89b0af43556b49f8b8224f414feeb2e5053f8e0040dc3ed4ef9a83d7bb"
+      "bytes": 5970,
+      "sha256": "0a81968865999205a4159e05e3e2548045bc1c9a0e057048f4a06c7139b2216b"
     },
     {
       "path": "docs/research/family-migration-batch1.md",
@@ -211,13 +296,13 @@
     },
     {
       "path": "tests/legacy-migration.test.cjs",
-      "bytes": 6095,
-      "sha256": "2997eb7420f8fb7eaf4e4e7ffd3ed1d501e1832baf5549b0c35217859fe86183"
+      "bytes": 6291,
+      "sha256": "2d8fe18c493e4b7057e755a71c906ec7eb28b9991d0ae4e9b10e19da88dcbc34"
     },
     {
       "path": "tests/legacy-research-view.cjs",
-      "bytes": 6965,
-      "sha256": "630487828cbe4d62eef7ebf209f14bf631f8d13935860d948250c7c87854d757"
+      "bytes": 7737,
+      "sha256": "f6fe2dfe023b6662ea727ce34f0bb8216a92098826ffda0f2f37df38bb20fa4e"
     },
     {
       "path": "docs/research/legacy-migration-pilot-v0.1.md",
@@ -241,8 +326,8 @@
     },
     {
       "path": "tests/legacy-ui-compat.cjs",
-      "bytes": 1441,
-      "sha256": "dcc88d3f9133ec550ff610ae8626de50f37882f184dc73f35e0f4a90b8f454a7"
+      "bytes": 1521,
+      "sha256": "585b4720843e147a692f9746ece00c8a4a97937b1773ae87da37eeb87c62af0a"
     },
     {
       "path": "docs/research/abeyance-pilot-v0.1.md",
@@ -271,8 +356,8 @@
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 3209899,
-      "sha256": "7f20888b609c4257cda6bae7aa74c3f711497efbb446d57406dd99f799484df6"
+      "bytes": 3232402,
+      "sha256": "88e96cdb2c9f7f1974179f8b8e8a7472ac4ea176617b497c0380ac508d0ceba0"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -375,14 +460,19 @@
       "sha256": "850bb4b155ec4ba3e38bce0c669778a27cb88bbec85a5acd281a35f253877a0e"
     },
     {
+      "path": "data/entries/at.v1.json",
+      "bytes": 14585,
+      "sha256": "105b5e455827751f2da00eb4a4b8fe9ab8f39d612c584146dab5568e0853ea63"
+    },
+    {
       "path": "data/entries/convent.v1.json",
       "bytes": 17696,
       "sha256": "f351ef1fee05a0da3a88c615be3493d9714a02fee8b88eab930dc5131fbda0fd"
     },
     {
       "path": "data/entries/figure.v1.json",
-      "bytes": 14567,
-      "sha256": "5113145888568e44573f76014ad62a80879dce4dba09b88383ce9568a2c60aca"
+      "bytes": 17668,
+      "sha256": "3d73a5addfc8ab215c6c2d00c05e43c138d4015ff006368c6a1ed7044ba8e83a"
     },
     {
       "path": "data/entries/fil.v1.json",
@@ -436,13 +526,13 @@
     },
     {
       "path": "data/entries/namcha-barwa.v1.json",
-      "bytes": 33978,
-      "sha256": "6c6726809c0807a681a9a27445a0a184f4a506463abf5055a33d4b81441ebb08"
+      "bytes": 40968,
+      "sha256": "ffa92c91b3fc4888fef1880033a5aec5326b8705dfde751b003e1f3794940b24"
     },
     {
       "path": "data/entries/new.v1.json",
-      "bytes": 26273,
-      "sha256": "19974a21f4d7a25368e137cc750f6b2e0024b3a60dae474842df7d8ffd9d8b80"
+      "bytes": 30232,
+      "sha256": "22d13c13c62da86cc5789ad05a28d41b074cf43c4e89087465de028a184f583f"
     },
     {
       "path": "data/entries/press.v1.json",
@@ -470,6 +560,11 @@
       "sha256": "551e56b5acbee6bceec2d27ebec48a6b3d59793d54b1e878524d108de044bcc1"
     },
     {
+      "path": "data/entries/water.v1.json",
+      "bytes": 21381,
+      "sha256": "c678d4d40d1a7349cb23fff9f0759e7aff7a31c8989849cd6a4be78d58997cd2"
+    },
+    {
       "path": "data/batches/dataset-expansion-batch-001.v1.json",
       "bytes": 8991,
       "sha256": "2fcc7b7a0617be04dd0af1e65859edaa594da865c117fda5e6162278b335d378"
@@ -486,8 +581,8 @@
     },
     {
       "path": "scripts/build-language-book-v1.mjs",
-      "bytes": 69420,
-      "sha256": "db240c760e43c141a65fc772a3899d111cce5487991c5c046a95320cb5af8813"
+      "bytes": 69455,
+      "sha256": "2d4798ffdb20d32bc34714146f8545b97a19568ba3634ad9e02fa0cb73a58c1c"
     },
     {
       "path": "docs/dataset-expansion-batch-001.md",
@@ -511,13 +606,13 @@
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 19521,
-      "sha256": "9d211eef47acbc2c04d3e1353ad1f5a2240ad6e6510b2531671a84d3659da305"
+      "bytes": 19611,
+      "sha256": "15a37621b21393469dc4ff9688caeb0b906e046d1d50b24522f72e3eda00ec2c"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
-      "bytes": 33955,
-      "sha256": "1294210acbbca202c8000dc500801217d556b900b16794e6b4278c87f35bf173"
+      "bytes": 33977,
+      "sha256": "dab9d24d026d95eba2f2f922b531482af21ef44a60e52dd56da2f38581acc595"
     },
     {
       "path": "tests/dataset-expansion-batch-001.test.cjs",
@@ -561,13 +656,13 @@
     },
     {
       "path": "js/semantic-mapper.js",
-      "bytes": 24305,
-      "sha256": "8a18459f9532aa1b2503fb56b64bfb3d4ee80a81f5676693531dffd5c74fe27c"
+      "bytes": 24565,
+      "sha256": "3734b1f809cb618ba87b5bc10d3a5ddd00dd52a49f7861d2ce91175f575f47d3"
     },
     {
       "path": "js/search.js",
-      "bytes": 6548,
-      "sha256": "cd28ab4839d06784024b5b82485c162639779b00d6aff70f1b68be58acfe6942"
+      "bytes": 6706,
+      "sha256": "34bd997a41c22166562522704613d0c1cf822d6fe0e6b124201818285f4487f3"
     },
     {
       "path": "js/literary-tabs.js",
@@ -576,18 +671,18 @@
     },
     {
       "path": "semantic-mapper.html",
-      "bytes": 4110,
-      "sha256": "66b93179896d75b17c08dfa363d962748145800139c09a12db33527eaf8103b5"
+      "bytes": 4165,
+      "sha256": "fd1190caaa202fdd85eb6dd8bd5ea2c513e9baf08b5177437d8b0e9b0c23a690"
     },
     {
       "path": "dictionary.html",
-      "bytes": 3860,
-      "sha256": "def029c21c4adfe875c8882cd67a9db31e2273b8d69184fabbe65413c159133d"
+      "bytes": 3915,
+      "sha256": "68bab6107d61d6444ccddc83e547526e34f1fd50ee940180c72e4110aae1bfd4"
     },
     {
       "path": "search.html",
-      "bytes": 3987,
-      "sha256": "51296bf59a2f9a44d1d9028174fb85878895616d0fa949056756b684da823b11"
+      "bytes": 4042,
+      "sha256": "1fa7f469c5fb3c64a15162022077f3191e5a047b3901715ac6d233940d458af5"
     },
     {
       "path": "data-foundation.html",
@@ -636,8 +731,8 @@
     },
     {
       "path": "tests/aberrant-recalibration.test.cjs",
-      "bytes": 6796,
-      "sha256": "d9c234f864d5958f498e70d77adf73ee9fbc2be5822421b4bf8482be882eac3f"
+      "bytes": 6758,
+      "sha256": "8e788ee377a7b0d3a533abc92242dfbc2d9df03054eada4f3aeb3a71013b15e5"
     },
     {
       "path": "protocol/protocol.mapping-framework.html",
@@ -656,8 +751,8 @@
     },
     {
       "path": "tests/abbreviate-recalibration.test.cjs",
-      "bytes": 7312,
-      "sha256": "6f7485fc83635b76e8a2d3a6a9f3478657d519f3aa1060c76e057a3758573103"
+      "bytes": 7274,
+      "sha256": "e12cca5e0eb8080631b5d3e830be8aedc53f3f47b98f9a13d6bf76d3768e7f4a"
     },
     {
       "path": "words/abdicate.html",
@@ -726,8 +821,8 @@
     },
     {
       "path": "words/new.html",
-      "bytes": 16027,
-      "sha256": "21189e6e36071af96523ea3db024fdac4dbcacf2a7d7cc87daf35b370a6c532b"
+      "bytes": 34173,
+      "sha256": "819ea6b653e86bf2d67679096c5ee2a9db2fc892bcebbaa5ac256c4e3d7274d8"
     },
     {
       "path": "docs/research/new-niu-source-audit-v1.md",
@@ -736,8 +831,8 @@
     },
     {
       "path": "tests/new-niu.test.cjs",
-      "bytes": 4717,
-      "sha256": "339f14d81dc4b4f2aeaf45533e7880ccf211c1a17ca4c90a10a09a89a39deb4e"
+      "bytes": 4800,
+      "sha256": "6acc2fa2084f1306c064c061285fe5fc15d21ba14c7151c78481e0fda1192143"
     },
     {
       "path": "english.html",
@@ -826,8 +921,8 @@
     },
     {
       "path": "words/namcha-barwa.html",
-      "bytes": 24266,
-      "sha256": "1749d5700cf0e66374b0a85b6a76ac0f206845474b98a2c1bb612d0b5cd58eea"
+      "bytes": 48407,
+      "sha256": "ad43b7767fd13165e04d3d87891fab25c95c76d9245dcbb361bac1018f6f1225"
     },
     {
       "path": "css/namcha-barwa.css",
@@ -851,8 +946,8 @@
     },
     {
       "path": "sitemap.xml",
-      "bytes": 5265,
-      "sha256": "8deaed356b7a2e3859187be18df66c8103b09388ac0be4141959d4619859786d"
+      "bytes": 5384,
+      "sha256": "bda1cb40f8032161c2172e607589ae6baa13598b57fd6965c6a2cf35355f2d04"
     }
   ]
 }
