@@ -1,0 +1,35 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import render from '../js/second-pipeline.js';
+import {validateFinalStructural,finalStructuralSlugs} from './validate-final-structural.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const data=JSON.parse(read('data/language-book.v1.0.json'));
+const errors=validateFinalStructural(data);if(errors.length)throw Error(errors.join('\n'));
+const fragment=JSON.parse(read('data/review/final-structural-page-fragments.v1.json')).light;
+const template=read('templates/language-template.html');
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const examples={form:['The clay took a new form.','黏土呈现出新的形状。'],sign:['Smoke can be a sign of fire.','烟可能是起火的迹象。'],press:['Press the button.','按下按钮。'],above:['The lamp is above the table.','灯在桌子的上方。'],light:['The room is filled with light.','房间里充满了光。']};
+for(const slug of finalStructuralSlugs){
+ const e=data.entries.find(x=>x.slug===slug),r=e.research_candidate_discovery;
+ const sections=[];
+ const section=(title,body)=>sections.push(`<section class="word-section section"><h2>${title}</h2>${body}</section>`);
+ section('① Literary Introduction / Author Observation（作者原始观察）',slug==='light'?'<p>《如光天籁》 · Jinkai Liu. <a href="#literary">Read the complete Chinese original and English literary translation →</a></p><p>Author’s Literary / Semantic Creation. Literary freedom ≠ historical evidence.</p>':`<details><summary>Original observation · 原始观察</summary><p>${esc(e.source?.raw_note||'See the original source record in Research / Evidence.')}</p><p>Preserved as author provenance, not newly endorsed etymology.</p></details>`);
+ section('② Basic Meaning（基本词义）',`<p><strong>${esc(e.standard_translation.target)}</strong></p><p>Context and sense determine the translation.</p>`);
+ section('③ Multilingual Mapping（多语言对应）',`<p>${esc(e.primary_mapping.source.word)} → ${esc(e.standard_translation.target)}. Modern semantic comparison; Historical Relation: Not claimed.</p>`);
+ section('④ Etymology（词源）',`<p>${esc(r.historical_path)}</p><details><summary>Historical / lexical branches</summary><ol>${r.stages.map(s=>`<li>${esc(s.form)} · ${esc(s.language)} · ${esc(s.approximate_period)}: ${esc(s.meaning)}.</li>`).join('')}</ol><p>These are explicitly scoped branches and comparisons. Transformation arrows below are not historical chronology.</p></details>`);
+ section('⑤ Multidimensional Mapping（多维映射）',render.render(e,'../'));
+ section('⑥ Mapping Justification（映射论证）',`<p>Meaning and structural fit are independent of phonetic resemblance. No Featured winner is selected. Mainland print evidence remains Pending.</p><p>${esc(r.controls[0])}</p><p><a href="../data/entries/${slug}.v1.json">Full record / reversible provenance</a> · <a href="../docs/research/final-structural-freeze.md">Focused review and freeze</a></p>${slug==='light'?'<p>Entry Status · 词条状态: Published · 已发表. Mapping Status · 映射状态: Candidate · 候选. Literary Status · 文学状态: Published · 已发表.</p><p>Original prose, including cultural and spiritual assertions, remains author interpretation rather than independently verified factual evidence.</p>'+fragment.literary:''}`);
+ section('⑦ Protocol References（协议依据）',`<p><a href="../protocol/protocol.mapping-framework.html">Mapping Framework</a> · <a href="../protocol/protocol.${slug==='above'?'space':'sound'}.html">${slug==='above'?'Space':'Sound'} Protocol</a>. Protocol relation ≠ lexical etymology.</p>${slug==='form'?'<p><a href="figure.html">FIGURE</a> provides a related representation example; it does not establish the history of FORM.</p>':''}`);
+ section('⑧ Translation Protocol（UTP）',`<p>Translate the selected sense first: ${esc(e.standard_translation.target)}. A literary or structural comparison never replaces the ordinary meaning automatically.</p>`);
+ section('⑨ Examples（例句）',`<p>${esc(examples[slug][0])}</p><p>${esc(examples[slug][1])}</p><p>Editorial illustration, not an early attestation.</p>`);
+ section('⑩ Community（社区共创）','<p>Contribute precise dictionary entries, independent evidence or counterexamples. Pending is a valid research result.</p>');
+ let head=template.split('<main class="word-page">')[0].replace('Language Book Template · Unilanguage',`${slug.toUpperCase()} · Unilanguage`);
+ if(slug==='light')head=head.replace('</head>','<link rel="stylesheet" href="../css/sky-case.css"><link rel="stylesheet" href="../css/bilingual-layout.css"></head>');
+ head=head.replace('</head>','<style>.second-pipeline{overflow-wrap:anywhere}.second-pipeline>h2{display:none}.csl-layer{padding:1rem;border:1px solid #ccd5dc;border-radius:8px;margin:1rem 0}.csl-research pre{font-size:.82rem}.literary-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.4rem}.literary-pair p{overflow-wrap:anywhere}@media(max-width:640px){.literary-pair{grid-template-columns:1fr}}</style></head>');
+ const html=head+`<main class="word-page"><section class="word-hero hero"><p>Language Book · ${esc(r.primary_pipeline)}</p><h1>${slug.toUpperCase()}</h1><p>Featured Mapping: Pending · Historical Relation: Not claimed</p></section>\n${sections.join('\n')}<div class="back-link"><a href="../dictionary.html">← Back to Language Book</a></div></main><footer class="footer"><p>Unilanguage · Final Tier D Batch 2 · 1.2.47</p></footer></body></html>\n`;
+ const target=path.join(root,e.page);
+ if(process.argv.includes('--check')){if(read(e.page)!==html)throw Error(`${e.page}: stale generated page`);}else fs.writeFileSync(target,html);
+}
+console.log('Final structural pages: 5 · template retained · literary section preserved · editorial gate PASS');

@@ -38,8 +38,8 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "按压／压",
-      "pronunciation": "ànyā / yā"
+      "word": "按 / 压",
+      "pronunciation": "àn / yā; cuīcù / bīpò"
     },
     "gloss": {
       "en": "to exert steady force; pressure or a pressing device",
@@ -49,10 +49,10 @@
       "en": "to exert steady force; pressure or a pressing device. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
       "zh-Hans": "施加持续的力；压力或施压装置。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "mapping_type": "Standard sense-specific mapping; research candidates separately graded",
     "rationale": {
-      "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
-      "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+      "en": "Standard meaning is separate from Featured selection. Structural and literary observations do not establish common origin.",
+      "zh-Hans": "标准义独立于 Featured 选择；结构和文学观察不证明同源。"
     }
   },
   "entry_status": "Reviewed",
@@ -64,8 +64,8 @@
       "status": "Established",
       "confidence": "High",
       "summary": {
-        "en": "English press comes through Anglo-French presser from Latin pressare, an intensive/frequentative of premere ‘press’. French presser follows the same Latin path; pression is from Latin pressio/pressum, likewise from premere. This is a genuine historical family.",
-        "zh-Hans": "英语 press 经盎格鲁法语 presser 来自拉丁语 pressare（premere“压”的加强／反复形式）；法语 presser 同源，pression 来自拉丁语 pressio／pressum，也基于 premere。这是真实历史词族。"
+        "en": "Latin premere / its frequentative pressare → Anglo-French presser → English press. French pression is a related nominal branch, not an obligatory ancestor. The enlistment homograph (press into service) has a separate prest history and is outside this selected lexical identity.",
+        "zh-Hans": "Latin premere / its frequentative pressare → Anglo-French presser → English press. French pression is a related nominal branch, not an obligatory ancestor. The enlistment homograph (press into service) has a separate prest history and is outside this selected lexical identity."
       },
       "items": [
         {
@@ -101,7 +101,10 @@
       "source_refs": [
         "REF-MW-PRESS",
         "REF-CNRTL-PRESSION",
-        "REF-CNRTL-PRESSER"
+        "REF-CNRTL-PRESSER",
+        "FS-PRESS",
+        "FS-PRESSER",
+        "FS-PRESSION"
       ]
     },
     "Phonetic-Semantic": {
@@ -208,12 +211,10 @@
   ],
   "semantic_structure": {
     "concepts": [
-      "PRESS",
-      "PRESSURE",
-      "FORCE",
-      "COMPRESSION"
+      "PHYSICAL",
+      "ABSTRACT"
     ],
-    "relation": "PRESS → PRESSURE → FORCE → COMPRESSION",
+    "relation": "压 yā / 逼 bī / 催 cuī compare constraint and urging by sense. Physical Force → Constraint / Urgency is an interpretive transformation, NOT verified chronology or necessary causation.",
     "status": "Interpretive"
   },
   "related_words": [
@@ -286,8 +287,14 @@
   ],
   "semantic_associations": [
     {
-      "association_id": "ASSOC-PRESS-001",
-      "relation": "PRESS → PRESSURE → FORCE → COMPRESSION",
+      "association_id": "FINAL-PRESS-PHYSICAL",
+      "relation": "按 àn / 压 yā compare hand contact and applied pressure. Force, pressure and compression are related but are not interchangeable physical quantities or outcomes.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "FINAL-PRESS-ABSTRACT",
+      "relation": "压 yā / 逼 bī / 催 cuī compare constraint and urging by sense. Physical Force → Constraint / Urgency is an interpretive transformation, NOT verified chronology or necessary causation.",
       "status": "Interpretive",
       "is_etymological": false
     }
@@ -392,6 +399,62 @@
       "url": "https://www.cnrtl.fr/etymologie/presser",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "FS-PRESS",
+      "title": "PRESS — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/press",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-PRESSER",
+      "title": "PRESSER — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/presser",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-PRESSION",
+      "title": "PRESSION — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/pression",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-ZDIC-压",
+      "title": "汉典 压 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/压",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-按",
+      "title": "汉典 按 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/按",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-逼",
+      "title": "汉典 逼 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/逼",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-催",
+      "title": "汉典 催 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/催",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
     }
   ],
   "author": "Jinkai Liu",
@@ -409,6 +472,18 @@
     {
       "en": "The strong result is lexical-semantic and within the English/French Latin family; no English/French–Chinese cognacy is proposed.",
       "zh-Hans": "强结论是词义对应及英法内部的拉丁词族关系；不提出英法词与汉语同源。"
+    },
+    {
+      "en": "Final Tier D Batch 2: Transformation / Structural-Semantic; Ready to migrate with Pending layer.",
+      "zh-Hans": "Final Tier D Batch 2: Transformation / Structural-Semantic; Ready to migrate with Pending layer."
+    },
+    {
+      "en": "Featured Mapping: Pending. Semantic research value is independent of phonetic resemblance. Mainland print evidence remains Pending.",
+      "zh-Hans": "Featured Mapping: Pending。语义研究价值独立于声音相似；大陆纸本条目继续 Pending。"
+    },
+    {
+      "en": "Transformation Mapping ≠ diachronic chronology. Protocol relation ≠ lexical etymology. Literary freedom ≠ historical evidence. Historical Relation: Not claimed.",
+      "zh-Hans": "转换映射不等于历时顺序；协议关系不等于词源；文学自由不等于历史证据；不主张跨语言历史关系。"
     }
   ],
   "search_terms": [
@@ -422,9 +497,12 @@
     "迫",
     "施加",
     "force",
-    "compression"
+    "compression",
+    "按",
+    "逼",
+    "催"
   ],
-  "page": null,
+  "page": "words/press.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",
@@ -438,5 +516,397 @@
     "ordinal": 9,
     "disposition": "Reviewed",
     "priority_score": 86.4
+  },
+  "standard_translation": {
+    "target": "按 / 压；催促 / 逼迫（依语境）；本条聚焦施力动词",
+    "status": "Frozen sense-specific semantic scope; not historical equivalence"
+  },
+  "featured_mapping_status": "Pending",
+  "research_candidate_discovery": {
+    "reviewer": "Codex focused research under conditional user authorization",
+    "freeze_status": "Ready to migrate with Pending layer",
+    "primary_pipeline": "Transformation / Structural-Semantic",
+    "historical_path": "Latin premere / its frequentative pressare → Anglo-French presser → English press. French pression is a related nominal branch, not an obligatory ancestor. The enlistment homograph (press into service) has a separate prest history and is outside this selected lexical identity.",
+    "stages": [
+      {
+        "stage_id": "PRESS-1",
+        "form": "premere / pressare",
+        "language": "Latin",
+        "approximate_period": "Antiquity",
+        "meaning": "press / squeeze / harass; related base and frequentative",
+        "source_refs": [
+          "FS-PRESS",
+          "FS-PRESSER",
+          "FS-PRESSION"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "PRESS-2",
+        "form": "presser",
+        "language": "Old / Anglo-French",
+        "approximate_period": "Medieval",
+        "meaning": "press / compress / urge",
+        "source_refs": [
+          "FS-PRESS",
+          "FS-PRESSER",
+          "FS-PRESSION"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "PRESS-3",
+        "form": "press",
+        "language": "English",
+        "approximate_period": "14th century onward for selected verb",
+        "meaning": "apply force / urge / insist",
+        "source_refs": [
+          "FS-PRESS",
+          "FS-PRESSER",
+          "FS-PRESSION"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      }
+    ],
+    "candidates": [
+      {
+        "chinese_form": "压",
+        "reading": "yā",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "press",
+        "meaning": "apply pressure / constrain; not yà in 压根儿",
+        "semantic_fit": "High within pressure sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-压",
+          "FS-PRESS"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "按",
+        "reading": "àn",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "press",
+        "meaning": "press with the hand / hold down",
+        "semantic_fit": "High within contact sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-按",
+          "FS-PRESS"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "逼",
+        "reading": "bī",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "press",
+        "meaning": "compel / constrain",
+        "semantic_fit": "High within coercion sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-逼",
+          "FS-PRESS"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "催",
+        "reading": "cuī",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "press",
+        "meaning": "urge / hurry",
+        "semantic_fit": "High within urgency sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-催",
+          "FS-PRESS"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      }
+    ],
+    "controls": [
+      "CNRTL records an abstract presser attestation around 1160 and a fruit-compressing use around 1200; those attestations do not support a simple physical-first French chronology.",
+      "Press the button does not entail fear or urgency.",
+      "peur/怕 concerns fear, not the lexical meaning or ancestry of press."
+    ],
+    "rejected": [
+      "peur / 怕 as the historical basis of press",
+      "physical → abstract as a demonstrated strict chronology"
+    ],
+    "pending": [
+      "Featured Mapping: Pending",
+      "Mainland large print dictionaries: specific edition/entry/page not directly obtained; Pending",
+      "Historical Chinese pronunciation and dating: not inferred from modern pinyin"
+    ],
+    "shortlist": [
+      "压",
+      "按",
+      "逼"
+    ],
+    "historical_relation": "Not claimed"
+  },
+  "legacy_migration": {
+    "version": "final-structural-0.1",
+    "baseline_commit": "c0cab379544cc6f55db6daecb6e3a694347415e9",
+    "previous_fields": {
+      "primary_mapping": {
+        "mapping_id": "MAP-press-primary",
+        "source": {
+          "language": "English",
+          "word": "press",
+          "pronunciation": "/pres/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "按压／压",
+          "pronunciation": "ànyā / yā"
+        },
+        "gloss": {
+          "en": "to exert steady force; pressure or a pressing device",
+          "zh-Hans": "施加持续的力；压力或施压装置"
+        },
+        "meaning": {
+          "en": "to exert steady force; pressure or a pressing device. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+          "zh-Hans": "施加持续的力；压力或施压装置。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+        "rationale": {
+          "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+          "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+        }
+      },
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "English press comes through Anglo-French presser from Latin pressare, an intensive/frequentative of premere ‘press’. French presser follows the same Latin path; pression is from Latin pressio/pressum, likewise from premere. This is a genuine historical family.",
+            "zh-Hans": "英语 press 经盎格鲁法语 presser 来自拉丁语 pressare（premere“压”的加强／反复形式）；法语 presser 同源，pression 来自拉丁语 pressio／pressum，也基于 premere。这是真实历史词族。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-PRESS-001",
+              "claim": {
+                "en": "English press comes through Anglo-French presser from Latin pressare, an intensive/frequentative of premere ‘press’. French presser follows the same Latin path; pression is from Latin pressio/pressum, likewise from premere. This is a genuine historical family.",
+                "zh-Hans": "英语 press 经盎格鲁法语 presser 来自拉丁语 pressare（premere“压”的加强／反复形式）；法语 presser 同源，pression 来自拉丁语 pressio／pressum，也基于 premere。这是真实历史词族。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-PRESS",
+                "REF-CNRTL-PRESSION",
+                "REF-CNRTL-PRESSER"
+              ]
+            },
+            {
+              "evidence_id": "HIST-PRESS-CORRECTION-002",
+              "claim": {
+                "en": "The strong result is lexical-semantic and within the English/French Latin family; no English/French–Chinese cognacy is proposed.",
+                "zh-Hans": "强结论是词义对应及英法内部的拉丁词族关系；不提出英法词与汉语同源。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-JL-PRESS-RAW",
+                "REF-MW-PRESS",
+                "REF-CNRTL-PRESSION",
+                "REF-CNRTL-PRESSER"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-PRESS",
+            "REF-CNRTL-PRESSION",
+            "REF-CNRTL-PRESSER"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Interpretive",
+          "confidence": "Low",
+          "summary": {
+            "en": "The Chinese mapping 压 yā is semantically strong but not phonetically close to press/pression; 迫 pò has partial semantic overlap in compulsion, not a demonstrated sound relation.",
+            "zh-Hans": "汉语“压”yā 与 press／pression 语义对应强，但声音并不近；“迫”pò 在强迫义上部分重合，也没有已证音系关系。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-PRESS-001",
+              "claim": {
+                "en": "The Chinese mapping 压 yā is semantically strong but not phonetically close to press/pression; 迫 pò has partial semantic overlap in compulsion, not a demonstrated sound relation.",
+                "zh-Hans": "汉语“压”yā 与 press／pression 语义对应强，但声音并不近；“迫”pò 在强迫义上部分重合，也没有已证音系关系。"
+              },
+              "status": "Interpretive",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-JL-PRESS-RAW",
+                "REF-MW-PRESS",
+                "REF-CNRTL-PRESSION",
+                "REF-CNRTL-PRESSER"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-PRESS-RAW",
+            "REF-MW-PRESS",
+            "REF-CNRTL-PRESSION",
+            "REF-CNRTL-PRESSER"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "FORCE → CONTACT → COMPRESSION → PRESSURE is a stable comparable semantic structure.",
+            "zh-Hans": "FORCE → CONTACT → COMPRESSION → PRESSURE 是稳定的可比较语义结构。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-PRESS-001",
+              "claim": {
+                "en": "FORCE → CONTACT → COMPRESSION → PRESSURE is a stable comparable semantic structure.",
+                "zh-Hans": "FORCE → CONTACT → COMPRESSION → PRESSURE 是稳定的可比较语义结构。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-JL-PRESS-RAW"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-PRESS-RAW"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "Low",
+          "summary": {
+            "en": "The strong result is lexical-semantic and within the English/French Latin family; no English/French–Chinese cognacy is proposed.",
+            "zh-Hans": "强结论是词义对应及英法内部的拉丁词族关系；不提出英法词与汉语同源。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-PRESS-001",
+              "claim": {
+                "en": "The strong result is lexical-semantic and within the English/French Latin family; no English/French–Chinese cognacy is proposed.",
+                "zh-Hans": "强结论是词义对应及英法内部的拉丁词族关系；不提出英法词与汉语同源。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-JL-PRESS-RAW",
+                "REF-MW-PRESS",
+                "REF-CNRTL-PRESSION",
+                "REF-CNRTL-PRESSER"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-PRESS-RAW",
+            "REF-MW-PRESS",
+            "REF-CNRTL-PRESSION",
+            "REF-CNRTL-PRESSER"
+          ]
+        }
+      },
+      "semantic_structure": {
+        "concepts": [
+          "PRESS",
+          "PRESSURE",
+          "FORCE",
+          "COMPRESSION"
+        ],
+        "relation": "PRESS → PRESSURE → FORCE → COMPRESSION",
+        "status": "Interpretive"
+      },
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-PRESS-001",
+          "relation": "PRESS → PRESSURE → FORCE → COMPRESSION",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "REF-JL-PRESS-RAW",
+          "title": "Jinkai Liu: press source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-PRESS",
+          "title": "Merriam-Webster Dictionary: press",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/press",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-PRESSION",
+          "title": "CNRTL/TLFi: étymologie de pression",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/pression",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-PRESSER",
+          "title": "CNRTL/TLFi: étymologie de presser",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/presser",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Reviewed. Priority score 86.4/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Reviewed。优先分 86.4/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "The strong result is lexical-semantic and within the English/French Latin family; no English/French–Chinese cognacy is proposed.",
+          "zh-Hans": "强结论是词义对应及英法内部的拉丁词族关系；不提出英法词与汉语同源。"
+        }
+      ],
+      "search_terms": [
+        "press",
+        "pressure",
+        "pression",
+        "presser",
+        "按压",
+        "压",
+        "压力",
+        "迫",
+        "施加",
+        "force",
+        "compression"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "featured_mapping_status",
+      "research_candidate_discovery"
+    ]
   }
 }

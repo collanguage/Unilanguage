@@ -3,6 +3,7 @@ const data=require('../data/language-book.v1.0.json'),model=require('../js/diach
 const scope=['convent','fil','marchand','montrer'],base='1388f4283b37179b4d5eaddc93257333ce21e1c8';
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:40e6}).replace(/\r\n/g,'\n');
 test('Final lexical scope: four records only; all other 38 and schema unchanged',()=>{
+ const data=require('./final-structural-compat.cjs').beforeFinalStructural(require('../data/language-book.v1.0.json'));
  const old=JSON.parse(get('data/language-book.v1.0.json'));
  assert.deepEqual(data.entries.filter(e=>!scope.includes(e.slug)),old.entries.filter(e=>!scope.includes(e.slug)));
  assert.equal(data.entries.length,42);

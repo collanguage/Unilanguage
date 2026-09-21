@@ -10,6 +10,19 @@ const cache=new Map();
 // equal the approved baseline, including every original evidence/status field.
 function legacyEntry(e) {
  if(!e.legacy_migration)return e;
+ if(e.legacy_migration.version==='final-structural-0.1') {
+  assert.ok(['form','sign','press','above','light'].includes(e.slug));
+  const b='c0cab379544cc6f55db6daecb6e3a694347415e9';
+  assert.equal(e.legacy_migration.baseline_commit,b);
+  const restored=structuredClone(e),a=restored.legacy_migration;
+  Object.assign(restored,a.previous_fields);
+  for(const k of a.previously_absent_fields)delete restored[k];
+  delete restored.legacy_migration;
+  if(!cache.has(b))cache.set(b,JSON.parse(cp.execFileSync('git',['show',`${b}:data/language-book.v1.0.json`],{cwd:path.resolve(__dirname,'..'),maxBuffer:40e6})));
+  assert.deepEqual(restored,cache.get(b).entries.find(x=>x.id===e.id),'Final structural archive must exactly restore baseline');
+  return restored;
+ }
+
  if(e.legacy_migration.version==='final-lexical-0.1') {
   assert.ok(['convent','fil','marchand','montrer'].includes(e.slug));
   const b='1388f4283b37179b4d5eaddc93257333ce21e1c8';

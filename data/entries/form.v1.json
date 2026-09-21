@@ -38,8 +38,8 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "形式／形状",
-      "pronunciation": "xíngshì / xíngzhuàng"
+      "word": "形状 / 形式 / 结构",
+      "pronunciation": "xíngzhuàng / xíngshì / jiégòu"
     },
     "gloss": {
       "en": "shape, structure, arrangement; to give shape",
@@ -49,10 +49,10 @@
       "en": "shape, structure, arrangement; to give shape. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
       "zh-Hans": "形状、结构、构成方式；使成形。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "mapping_type": "Standard sense-specific mapping; research candidates separately graded",
     "rationale": {
-      "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
-      "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+      "en": "Standard meaning is separate from Featured selection. Structural and literary observations do not establish common origin.",
+      "zh-Hans": "标准义独立于 Featured 选择；结构和文学观察不证明同源。"
     }
   },
   "entry_status": "Reviewed",
@@ -64,8 +64,8 @@
       "status": "Established",
       "confidence": "High",
       "summary": {
-        "en": "Form comes through Anglo-French from Latin forma ‘form, shape, beauty’. Farm comes through Anglo-French ferme/fermer from Latin firmare/firmus ‘make firm, fixed’; they are not the same immediate word family.",
-        "zh-Hans": "form 经盎格鲁法语来自拉丁语 forma“形式、形状、美”；farm 经盎格鲁法语 ferme／fermer 上溯拉丁语 firmare／firmus“使固定、牢固”。二者不属于同一直接词族。"
+        "en": "Latin forma → Anglo-French furme/forme → Middle English forme → English form. Farm instead follows ferme/fermer ← Latin firmare/firmus; it is not a stage in this form lineage.",
+        "zh-Hans": "Latin forma → Anglo-French furme/forme → Middle English forme → English form. Farm instead follows ferme/fermer ← Latin firmare/firmus; it is not a stage in this form lineage."
       },
       "items": [
         {
@@ -98,7 +98,9 @@
       ],
       "source_refs": [
         "REF-MW-FORM",
-        "REF-MW-FARM"
+        "REF-MW-FARM",
+        "FS-FORM",
+        "FS-FARM"
       ]
     },
     "Phonetic-Semantic": {
@@ -201,12 +203,10 @@
   ],
   "semantic_structure": {
     "concepts": [
-      "FORM",
-      "SHAPE",
-      "STRUCTURE",
-      "WORD FORMATION"
+      "SENSES",
+      "TRANSFORMATION"
     ],
-    "relation": "FORM → SHAPE → STRUCTURE → WORD FORMATION",
+    "relation": "Abstract → Concrete → Shape → Structure is an illustrative design operation, NOT a historical chronology or a universal semantic law.",
     "status": "Interpretive"
   },
   "related_words": [
@@ -259,8 +259,14 @@
   ],
   "semantic_associations": [
     {
-      "association_id": "ASSOC-FORM-001",
-      "relation": "FORM → SHAPE → STRUCTURE → WORD FORMATION",
+      "association_id": "FINAL-FORM-SENSES",
+      "relation": "形 xíng = shape; 型 xíng = model/mould; 式 shì = pattern/format; 体 tǐ = body or mode in a specific construction. No single character covers all senses.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "FINAL-FORM-TRANSFORMATION",
+      "relation": "Abstract → Concrete → Shape → Structure is an illustrative design operation, NOT a historical chronology or a universal semantic law.",
       "status": "Interpretive",
       "is_etymological": false
     }
@@ -355,6 +361,54 @@
       "url": "https://www.merriam-webster.com/dictionary/farm",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "FS-FORM",
+      "title": "FORM — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/form",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-FARM",
+      "title": "FARM — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/farm",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-ZDIC-形",
+      "title": "汉典 形 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/形",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-型",
+      "title": "汉典 型 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/型",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-式",
+      "title": "汉典 式 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/式",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-体",
+      "title": "汉典 体 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/体",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
     }
   ],
   "author": "Jinkai Liu",
@@ -372,6 +426,18 @@
     {
       "en": "Farm’s modern agricultural sense developed from fixed rent/lease and leased land, not from Latin forma.",
       "zh-Hans": "farm 的现代农业义由固定租金／租赁及所租土地发展而来，不源自拉丁语 forma。"
+    },
+    {
+      "en": "Final Tier D Batch 2: Transformation / Structural-Semantic; Ready to migrate with Pending layer.",
+      "zh-Hans": "Final Tier D Batch 2: Transformation / Structural-Semantic; Ready to migrate with Pending layer."
+    },
+    {
+      "en": "Featured Mapping: Pending. Semantic research value is independent of phonetic resemblance. Mainland print evidence remains Pending.",
+      "zh-Hans": "Featured Mapping: Pending。语义研究价值独立于声音相似；大陆纸本条目继续 Pending。"
+    },
+    {
+      "en": "Transformation Mapping ≠ diachronic chronology. Protocol relation ≠ lexical etymology. Literary freedom ≠ historical evidence. Historical Relation: Not claimed.",
+      "zh-Hans": "转换映射不等于历时顺序；协议关系不等于词源；文学自由不等于历史证据；不主张跨语言历史关系。"
     }
   ],
   "search_terms": [
@@ -385,9 +451,13 @@
     "构词",
     "构词形式",
     "structure",
-    "shape"
+    "shape",
+    "形",
+    "型",
+    "式",
+    "体"
   ],
-  "page": null,
+  "page": "words/form.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",
@@ -401,5 +471,378 @@
     "ordinal": 2,
     "disposition": "Candidate",
     "priority_score": 89
+  },
+  "standard_translation": {
+    "target": "形状 / 形式 / 结构；form a shape = 形成 / 塑造（依义项）",
+    "status": "Frozen sense-specific semantic scope; not historical equivalence"
+  },
+  "featured_mapping_status": "Pending",
+  "research_candidate_discovery": {
+    "reviewer": "Codex focused research under conditional user authorization",
+    "freeze_status": "Ready to migrate with Pending layer",
+    "primary_pipeline": "Transformation / Structural-Semantic",
+    "historical_path": "Latin forma → Anglo-French furme/forme → Middle English forme → English form. Farm instead follows ferme/fermer ← Latin firmare/firmus; it is not a stage in this form lineage.",
+    "stages": [
+      {
+        "stage_id": "FORM-1",
+        "form": "Latin forma",
+        "language": "Latin",
+        "approximate_period": "Antiquity",
+        "meaning": "form / shape / beauty",
+        "source_refs": [
+          "FS-FORM",
+          "FS-FARM"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "FORM-2",
+        "form": "furme / forme",
+        "language": "Anglo-French / Middle English",
+        "approximate_period": "Medieval; English attested 13th century",
+        "meaning": "shape / form",
+        "source_refs": [
+          "FS-FORM",
+          "FS-FARM"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "FORM-3",
+        "form": "form",
+        "language": "Modern English",
+        "approximate_period": "Present day",
+        "meaning": "shape / arrangement / mode; verb give shape",
+        "source_refs": [
+          "FS-FORM",
+          "FS-FARM"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      }
+    ],
+    "candidates": [
+      {
+        "chinese_form": "形",
+        "reading": "xíng",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "form",
+        "meaning": "shape / visible form",
+        "semantic_fit": "High",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-形",
+          "FS-FORM"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "型",
+        "reading": "xíng",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "form",
+        "meaning": "model / mould / type",
+        "semantic_fit": "High within model sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-型",
+          "FS-FORM"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "式",
+        "reading": "shì",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "form",
+        "meaning": "pattern / prescribed format",
+        "semantic_fit": "High within pattern sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-式",
+          "FS-FORM"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "体",
+        "reading": "tǐ",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "form",
+        "meaning": "body / mode / organized whole",
+        "semantic_fit": "Limited; construction-dependent",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-体",
+          "FS-FORM"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      }
+    ],
+    "controls": [
+      "A tax form is a 表格, not simply 形.",
+      "A form of government concerns organization; a human form concerns shape.",
+      "farm/form resemblance does not override their separately documented immediate sources."
+    ],
+    "rejected": [
+      "farm as historical ancestor of form; preserved as Raw Research observation"
+    ],
+    "pending": [
+      "Featured Mapping: Pending",
+      "Mainland large print dictionaries: specific edition/entry/page not directly obtained; Pending",
+      "Historical Chinese pronunciation and dating: not inferred from modern pinyin"
+    ],
+    "shortlist": [
+      "形",
+      "型",
+      "式"
+    ],
+    "historical_relation": "Not claimed"
+  },
+  "legacy_migration": {
+    "version": "final-structural-0.1",
+    "baseline_commit": "c0cab379544cc6f55db6daecb6e3a694347415e9",
+    "previous_fields": {
+      "primary_mapping": {
+        "mapping_id": "MAP-form-primary",
+        "source": {
+          "language": "English",
+          "word": "form",
+          "pronunciation": "/fɔːrm/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "形式／形状",
+          "pronunciation": "xíngshì / xíngzhuàng"
+        },
+        "gloss": {
+          "en": "shape, structure, arrangement; to give shape",
+          "zh-Hans": "形状、结构、构成方式；使成形"
+        },
+        "meaning": {
+          "en": "shape, structure, arrangement; to give shape. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+          "zh-Hans": "形状、结构、构成方式；使成形。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+        "rationale": {
+          "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+          "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+        }
+      },
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Form comes through Anglo-French from Latin forma ‘form, shape, beauty’. Farm comes through Anglo-French ferme/fermer from Latin firmare/firmus ‘make firm, fixed’; they are not the same immediate word family.",
+            "zh-Hans": "form 经盎格鲁法语来自拉丁语 forma“形式、形状、美”；farm 经盎格鲁法语 ferme／fermer 上溯拉丁语 firmare／firmus“使固定、牢固”。二者不属于同一直接词族。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-FORM-001",
+              "claim": {
+                "en": "Form comes through Anglo-French from Latin forma ‘form, shape, beauty’. Farm comes through Anglo-French ferme/fermer from Latin firmare/firmus ‘make firm, fixed’; they are not the same immediate word family.",
+                "zh-Hans": "form 经盎格鲁法语来自拉丁语 forma“形式、形状、美”；farm 经盎格鲁法语 ferme／fermer 上溯拉丁语 firmare／firmus“使固定、牢固”。二者不属于同一直接词族。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-FORM",
+                "REF-MW-FARM"
+              ]
+            },
+            {
+              "evidence_id": "HIST-FORM-CORRECTION-002",
+              "claim": {
+                "en": "Farm’s modern agricultural sense developed from fixed rent/lease and leased land, not from Latin forma.",
+                "zh-Hans": "farm 的现代农业义由固定租金／租赁及所租土地发展而来，不源自拉丁语 forma。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-JL-FORM-RAW",
+                "REF-MW-FORM",
+                "REF-MW-FARM"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-FORM",
+            "REF-MW-FARM"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "form and farm are close in modern spelling and may merge in some accents, but similarity is not evidence of a shared form/shape root.",
+            "zh-Hans": "form 与 farm 现代拼写接近，在部分口音中可能更近，但不能据此建立共享“形／形式”词根。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-FORM-001",
+              "claim": {
+                "en": "form and farm are close in modern spelling and may merge in some accents, but similarity is not evidence of a shared form/shape root.",
+                "zh-Hans": "form 与 farm 现代拼写接近，在部分口音中可能更近，但不能据此建立共享“形／形式”词根。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-JL-FORM-RAW",
+                "REF-MW-FORM",
+                "REF-MW-FARM"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-FORM-RAW",
+            "REF-MW-FORM",
+            "REF-MW-FARM"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "FORM/SHAPE → STRUCTURE → WORD FORMATION preserves the author's ‘构词形式’ insight as a semantic note.",
+            "zh-Hans": "FORM／SHAPE → STRUCTURE → WORD FORMATION 保留作者“构词形式”的语义观察。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-FORM-001",
+              "claim": {
+                "en": "FORM/SHAPE → STRUCTURE → WORD FORMATION preserves the author's ‘构词形式’ insight as a semantic note.",
+                "zh-Hans": "FORM／SHAPE → STRUCTURE → WORD FORMATION 保留作者“构词形式”的语义观察。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-JL-FORM-RAW"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-FORM-RAW"
+          ]
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Farm’s modern agricultural sense developed from fixed rent/lease and leased land, not from Latin forma.",
+            "zh-Hans": "farm 的现代农业义由固定租金／租赁及所租土地发展而来，不源自拉丁语 forma。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-FORM-001",
+              "claim": {
+                "en": "Farm’s modern agricultural sense developed from fixed rent/lease and leased land, not from Latin forma.",
+                "zh-Hans": "farm 的现代农业义由固定租金／租赁及所租土地发展而来，不源自拉丁语 forma。"
+              },
+              "status": "Candidate",
+              "confidence": "High",
+              "source_refs": [
+                "REF-JL-FORM-RAW",
+                "REF-MW-FORM",
+                "REF-MW-FARM"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-FORM-RAW",
+            "REF-MW-FORM",
+            "REF-MW-FARM"
+          ]
+        }
+      },
+      "semantic_structure": {
+        "concepts": [
+          "FORM",
+          "SHAPE",
+          "STRUCTURE",
+          "WORD FORMATION"
+        ],
+        "relation": "FORM → SHAPE → STRUCTURE → WORD FORMATION",
+        "status": "Interpretive"
+      },
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-FORM-001",
+          "relation": "FORM → SHAPE → STRUCTURE → WORD FORMATION",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "REF-JL-FORM-RAW",
+          "title": "Jinkai Liu: form source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-FORM",
+          "title": "Merriam-Webster Dictionary: form",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/form",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-MW-FARM",
+          "title": "Merriam-Webster Dictionary: farm",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/farm",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Candidate. Priority score 89/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Candidate。优先分 89/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "Farm’s modern agricultural sense developed from fixed rent/lease and leased land, not from Latin forma.",
+          "zh-Hans": "farm 的现代农业义由固定租金／租赁及所租土地发展而来，不源自拉丁语 forma。"
+        }
+      ],
+      "search_terms": [
+        "form",
+        "forme",
+        "formation",
+        "formal",
+        "farm",
+        "形式",
+        "形状",
+        "构词",
+        "构词形式",
+        "structure",
+        "shape"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "featured_mapping_status",
+      "research_candidate_discovery"
+    ]
   }
 }

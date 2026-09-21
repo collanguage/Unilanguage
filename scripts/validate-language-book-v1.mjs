@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import {validateFinalStructural} from "./validate-final-structural.mjs";
 import {validateEditorial} from "./validate-second-pipeline.mjs";
 import {validateFinalLexical} from "./validate-final-lexical.mjs";
 import path from "node:path";
@@ -8,7 +9,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book.v1.0.json"), "utf8"));
 const schema = JSON.parse(fs.readFileSync(path.join(root, "data", "language-book-entry.schema.v1.json"), "utf8"));
 import diachronic from "../js/diachronic-mapping.js";
-const errors = [...validateEditorial(dataset), ...validateFinalLexical(dataset)];
+const errors = [...validateEditorial(dataset), ...validateFinalLexical(dataset), ...validateFinalStructural(dataset)];
 const check = (value, message) => { if (!value) errors.push(message); };
 const allowed = (group, value, label) => check(dataset.status_enums[group].includes(value), `${label}: invalid ${group} ${value}`);
 const ids = new Set();

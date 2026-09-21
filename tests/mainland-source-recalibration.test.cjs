@@ -48,7 +48,7 @@ test("priority records retain count and status boundaries", () => {
   const expected = {
     sky: ["Published", "Candidate", "Not claimed"],
     universe: ["Published", "Supported", "Not claimed"],
-    light: ["Published", "Candidate", "Unestablished"],
+    light: ["Published", "Candidate", "Not claimed"], // Final structural freeze: no cross-language claim; no promotion.
     at: ["Published", "Candidate", "Not claimed"],
     abandon: ["Published", "Supported", "Not claimed"],
     abash: ["Published", "Candidate", "Not claimed"],

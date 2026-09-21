@@ -1,0 +1,1305 @@
+{
+  "id": "LB-en-light-001",
+  "slug": "light",
+  "title": {
+    "en": "Light · 籁 · 如光天籁",
+    "zh-Hans": "Light · 光 · 籁 · 如光天籁"
+  },
+  "languages": [
+    {
+      "role": "source",
+      "code": "en",
+      "name": "English",
+      "word": "light",
+      "pronunciation": "/laɪt/"
+    },
+    {
+      "role": "standard-translation",
+      "code": "zh-Hans",
+      "name": "Chinese",
+      "word": "光",
+      "pronunciation": "guāng"
+    }
+  ],
+  "primary_mapping": {
+    "mapping_id": "MAP-light-primary-lai",
+    "source": {
+      "language": "English",
+      "word": "light",
+      "pronunciation": "/laɪt/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "光 / 光亮（brightness noun",
+      "pronunciation": "guāng / guāngliàng"
+    },
+    "gloss": {
+      "en": "Visible illumination, brightness, or something that illuminates.",
+      "zh-Hans": "可见的光、明亮状态或照明之物。"
+    },
+    "meaning": {
+      "en": "The brightness noun denotes visible illumination. 籁 is retained only as a separate cross-modal research candidate.",
+      "zh-Hans": "brightness 名词指光；籁只保留为独立跨模态研究候选。"
+    },
+    "mapping_type": "Standard sense-specific mapping; research candidates separately graded",
+    "rationale": {
+      "en": "Standard meaning is separate from Featured selection. Structural and literary observations do not establish common origin.",
+      "zh-Hans": "标准义独立于 Featured 选择；结构和文学观察不证明同源。"
+    }
+  },
+  "entry_status": "Published",
+  "mapping_status": "Candidate",
+  "mapping_level": "B",
+  "historical_relation_status": "Not claimed",
+  "evidence": {
+    "Historical": {
+      "status": "Supported",
+      "confidence": "Medium",
+      "summary": {
+        "en": "English light (brightness) ← Middle English light ← Old English lēoht/līht, inherited Germanic; deeper reconstructed *leuk- family. French lumière ← Christian Latin luminaria (plural of luminare), related to lumen. Latin lux is a related family member, NOT an intermediate ancestor of lumière. Chinese 籁 has its own instrument/sound senses.",
+        "zh-Hans": "English light (brightness) ← Middle English light ← Old English lēoht/līht, inherited Germanic; deeper reconstructed *leuk- family. French lumière ← Christian Latin luminaria (plural of luminare), related to lumen. Latin lux is a related family member, NOT an intermediate ancestor of lumière. Chinese 籁 has its own instrument/sound senses."
+      },
+      "items": [
+        {
+          "evidence_id": "ETY-light-english-001",
+          "claim": {
+            "en": "The brightness noun is inherited through Germanic and is not a Latin borrowing. The homographic not-heavy adjective belongs to PIE *legwh- and is out of scope.",
+            "zh-Hans": "表示光明的名词经日耳曼语传承，并非拉丁语借词；同形的“重量轻”形容词属于 PIE *legwh-，不在本条范围内。"
+          },
+          "status": "Supported",
+          "confidence": "High",
+          "chain": [
+            "English light 'brightness'",
+            "Old English lēoht / līht",
+            "Proto-Germanic *leuhtam / *leukhtam",
+            "PIE *leuk- 'light, brightness'"
+          ],
+          "source_refs": [
+            "SRC-AHD-LIGHT",
+            "SRC-AHD-LEUK"
+          ]
+        },
+        {
+          "evidence_id": "ETY-light-latin-001",
+          "claim": {
+            "en": "French lumière follows the luminaria/luminare/lumen line. Latin lux is a related family member, not an intermediate stage in lumière.",
+            "zh-Hans": "法语 lumière 沿 luminaria／luminare／lumen 谱系发展；拉丁语 lux 是相关词族成员，不是 lumière 的中间环节。"
+          },
+          "status": "Supported",
+          "confidence": "High",
+          "chain": [
+            "French lumière",
+            "Christian Latin luminaria / luminare",
+            "Latin lumen 'light'",
+            "PIE *leuk- 'light, brightness'"
+          ],
+          "source_refs": [
+            "SRC-CNRTL-LUMIERE",
+            "SRC-CNRTL-LUMEN",
+            "SRC-AHD-LEUK",
+            "FS-LUMIERE",
+            "FS-LAROUSSE"
+          ]
+        },
+        {
+          "evidence_id": "ETY-light-lai-001",
+          "claim": {
+            "en": "The Chinese word belongs to an instrument-and-sound history. No historical cognacy or borrowing with English light is established.",
+            "zh-Hans": "汉语“籟／籁”属于乐器—声音历史系统；没有证据证明其与英语 light 历史同源或存在借词关系。"
+          },
+          "status": "Under review",
+          "confidence": "Medium",
+          "chain": [
+            "籁 / 籟: separate instrument and sound senses; no strict chronology asserted"
+          ],
+          "source_refs": [
+            "SRC-CUHK-LAI",
+            "SRC-CTEXT-LAI",
+            "FS-ZDIC-籁"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-AHD-LIGHT",
+        "SRC-AHD-LEUK",
+        "SRC-CNRTL-LUMIERE",
+        "SRC-CNRTL-LUMEN",
+        "SRC-CUHK-LAI",
+        "SRC-CTEXT-LAI",
+        "FS-LIGHT",
+        "FS-LUMIERE",
+        "FS-LAROUSSE"
+      ]
+    },
+    "Phonetic-Semantic": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "light /laɪt/ and 籁 lài show limited segmental resemblance; brightness and sound differ. French lumière /ly.mjɛʁ/ is a separate, weaker phonetic observation. No Featured winner or historical relation follows.",
+        "zh-Hans": "light /laɪt/ and 籁 lài show limited segmental resemblance; brightness and sound differ. French lumière /ly.mjɛʁ/ is a separate, weaker phonetic observation. No Featured winner or historical relation follows."
+      },
+      "items": [
+        {
+          "evidence_id": "RAT-light-lai",
+          "claim": {
+            "en": "The modern forms share an approximate /laɪ/ sequence, while their lexical meanings differ. This motivates a testable LIGHT ↔ SOUND/MUSIC cross-modal comparison rather than an etymological claim.",
+            "zh-Hans": "两个现代读音共享近似 /laɪ/ 序列，但直接词义不同；这支持提出可检验的 LIGHT ↔ SOUND／MUSIC 跨模态比较，而不是词源主张。"
+          },
+          "status": "Under review",
+          "confidence": "Unknown",
+          "source_refs": [
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-CUHK-LAI"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LIGHT-CANDIDATE",
+        "SRC-CUHK-LAI"
+      ]
+    },
+    "Cognitive": {
+      "status": "Interpretive",
+      "confidence": "Medium",
+      "summary": {
+        "en": "The author’s LIGHT ↔ SOUND / MUSIC association is literary motivation, not a validated cognitive law.",
+        "zh-Hans": "The author’s LIGHT ↔ SOUND / MUSIC association is literary motivation, not a validated cognitive law."
+      },
+      "items": [],
+      "source_refs": []
+    },
+    "Speculative": {
+      "status": "Candidate",
+      "confidence": "Low",
+      "summary": {
+        "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+        "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+      },
+      "items": [
+        {
+          "evidence_id": "UNI-LIGHT-LAI-001",
+          "claim": {
+            "en": "Test whether the modern resemblance between light /laɪt/ and 籁 lài /laɪ̯⁵¹/ strengthens a LIGHT ↔ SOUND/MUSIC association. No translation equivalence, sound law, borrowing or common origin is asserted.",
+            "zh-Hans": "检验 light /laɪt/ 与“籁” lài /laɪ̯⁵¹/ 的现代近音是否会增强 LIGHT ↔ SOUND／MUSIC 联想；本假说不主张翻译等值、音变规律、借词或共同词源。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-LIGHT-CROSSMODAL-RECORD",
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-RUGUANG-TIANLAI"
+          ]
+        },
+        {
+          "evidence_id": "UNI-L-LIGHT-CLUSTER-001",
+          "claim": {
+            "en": "Test whether L-initial light/brightness words occur above a language-specific baseline after etymological-family deduplication. The four motivating surface positives collapse to one PIE *leuk- family at the deepest level.",
+            "zh-Hans": "在进行词源家族去重后，检验 L 起首的光／明亮词是否高于各语言基线。四个表面正例在最深层均归入同一 PIE *leuk- 词族。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "source_refs": [
+            "SRC-L-LIGHT-CLUSTER-RECORD",
+            "SRC-LIGHT-ETYMOLOGY",
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE"
+          ]
+        }
+      ],
+      "source_refs": [
+        "SRC-LIGHT-CROSSMODAL-RECORD",
+        "SRC-LIGHT-CANDIDATE",
+        "SRC-RUGUANG-TIANLAI",
+        "SRC-L-LIGHT-CLUSTER-RECORD",
+        "SRC-LIGHT-ETYMOLOGY",
+        "SRC-AHD-LEUK",
+        "SRC-CNRTL-LUMIERE"
+      ]
+    }
+  },
+  "phonetic_observation": [
+    {
+      "observation_id": "PHON-light-001",
+      "claim": {
+        "en": "light /laɪt/ ↔ 籁 lài shares an approximate /laɪ/ sequence; lexical meanings differ.",
+        "zh-Hans": "light /laɪt/ ↔ 籁 lài 共享近似 /laɪ/ 音序，但直接词义不同。"
+      },
+      "status": "Candidate",
+      "limitations": {
+        "en": "Modern-form resemblance is not a regular sound correspondence or proof of cognacy.",
+        "zh-Hans": "现代词形近似不是规律音变，也不证明同源。"
+      }
+    }
+  ],
+  "semantic_structure": {
+    "concepts": [
+      "LEXICAL",
+      "HYPOTHESIS",
+      "LITERARY"
+    ],
+    "relation": "《如光天籁》 by Jinkai Liu remains Author’s Literary / Semantic Creation. LIGHT ↔ SOUND / MUSIC is free artistic interpretation, not historical or experimental evidence.",
+    "status": "Interpretive"
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "UNI-LIGHT-LAI-001",
+      "type": "sound-semantic",
+      "claim": {
+        "en": "Test whether the modern resemblance between light /laɪt/ and 籁 lài /laɪ̯⁵¹/ strengthens a LIGHT ↔ SOUND/MUSIC association. No translation equivalence, sound law, borrowing or common origin is asserted.",
+        "zh-Hans": "检验 light /laɪt/ 与“籁” lài /laɪ̯⁵¹/ 的现代近音是否会增强 LIGHT ↔ SOUND／MUSIC 联想；本假说不主张翻译等值、音变规律、借词或共同词源。"
+      },
+      "status": "Untested",
+      "confidence": "low",
+      "supporting_cases": [],
+      "counterexamples": [
+        "Literature is motivation only and cannot validate the hypothesis or substitute for experimental results."
+      ],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": "UNI-EXP-LIGHT-001",
+      "source_refs": [
+        "SRC-LIGHT-CROSSMODAL-RECORD",
+        "SRC-LIGHT-CANDIDATE",
+        "SRC-RUGUANG-TIANLAI"
+      ]
+    },
+    {
+      "hypothesis_id": "UNI-L-LIGHT-CLUSTER-001",
+      "type": "initial-consonant-semantics",
+      "claim": {
+        "en": "Test whether L-initial light/brightness words occur above a language-specific baseline after etymological-family deduplication. The four motivating surface positives collapse to one PIE *leuk- family at the deepest level.",
+        "zh-Hans": "在进行词源家族去重后，检验 L 起首的光／明亮词是否高于各语言基线。四个表面正例在最深层均归入同一 PIE *leuk- 词族。"
+      },
+      "status": "Untested",
+      "confidence": "low",
+      "supporting_cases": [
+        "SRC-AHD-LEUK",
+        "SRC-CNRTL-LUMIERE",
+        "SRC-L-LIGHT-CLUSTER-RECORD"
+      ],
+      "counterexamples": [
+        "Literature is motivation only and cannot validate the hypothesis or substitute for experimental results."
+      ],
+      "testability": {
+        "en": "See the linked record for testability limits.",
+        "zh-Hans": "可检验性边界见关联记录。"
+      },
+      "experiment_link": null,
+      "source_refs": [
+        "SRC-L-LIGHT-CLUSTER-RECORD",
+        "SRC-LIGHT-ETYMOLOGY",
+        "SRC-AHD-LEUK",
+        "SRC-CNRTL-LUMIERE"
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "experiment_id": "UNI-EXP-LIGHT-001",
+      "title": {
+        "en": "Future Light–籁 cross-modal forced-choice study",
+        "zh-Hans": "未来 Light–籁 跨模态强制选择实验"
+      },
+      "status": "Untested",
+      "tested_hypotheses": [
+        "UNI-LIGHT-LAI-001"
+      ],
+      "design": {
+        "en": "Not tested. A preregistered design will compare spoken /laɪ/ or /laɪt/ with matched controls while separating sound, spelling, familiarity, Mandarin tone and English final /t/.",
+        "zh-Hans": "尚未检验。未来预注册设计将比较 /laɪ/ 或 /laɪt/ 与匹配控制，并分离声音、拼写、熟悉度、普通话声调及英语词尾 /t/。"
+      },
+      "result": {
+        "en": "Not Tested. No observations, metrics, outcomes or evidential update exist.",
+        "zh-Hans": "Not Tested／尚未检验：没有观察数据、统计量、结果或证据更新。"
+      },
+      "metrics": {},
+      "path": null,
+      "source_refs": [
+        "SRC-LIGHT-EXPERIMENT-PLAN",
+        "SRC-LIGHT-CANDIDATE"
+      ]
+    }
+  ],
+  "literary_layer": {
+    "status": "Published",
+    "is_historical_evidence": false,
+    "proposition": {
+      "en": "Sound, music, light and inner vision transform into one another in 《如光天籁》.",
+      "zh-Hans": "《如光天籁》让声音、音乐、光与内在视觉彼此转换。"
+    },
+    "essay_prose": [],
+    "poem_lyrics": [],
+    "translations": [],
+    "archival_manuscript_media": [],
+    "evidence_boundary": {
+      "en": "Literature may explore freely, but it is not historical evidence.",
+      "zh-Hans": "文学可以自由展开，但不属于历史证据。"
+    }
+  },
+  "media": [],
+  "references": [
+    {
+      "reference_id": "SRC-LB-LIGHT",
+      "title": "Language Book · Light → 籁",
+      "type": "language-book-page",
+      "url": null,
+      "path": "words/light.html",
+      "provenance": "unknown"
+    },
+    {
+      "reference_id": "SRC-LIGHT-CANDIDATE",
+      "title": "LIGHT → 籁 mapping Candidate",
+      "type": "author-research-record",
+      "url": null,
+      "path": "data/candidates/light-lai.v0.1.json",
+      "provenance": "project-record"
+    },
+    {
+      "reference_id": "SRC-LIGHT-ETYMOLOGY",
+      "title": "LIGHT / lumière / lumen / lux / 籁 etymology bundle",
+      "type": "author-research-record",
+      "url": null,
+      "path": "data/evidence/etymology/light-lai.v0.1.json",
+      "provenance": "project-record"
+    },
+    {
+      "reference_id": "SRC-LIGHT-CROSSMODAL-RECORD",
+      "title": "Sound↔Light Cross-modal Hypothesis v0.1",
+      "type": "author-research-record",
+      "url": null,
+      "path": "data/hypotheses/sound-light-cross-modal.v0.1.json",
+      "provenance": "project-record"
+    },
+    {
+      "reference_id": "SRC-L-LIGHT-CLUSTER-RECORD",
+      "title": "L-Light Semantic Cluster Hypothesis v0.1",
+      "type": "author-research-record",
+      "url": null,
+      "path": "data/hypotheses/l-light-semantic-cluster.v0.1.json",
+      "provenance": "project-record"
+    },
+    {
+      "reference_id": "SRC-LIGHT-EXPERIMENT-PLAN",
+      "title": "Light–籁 cross-modal experiment plan v0.1",
+      "type": "author-research-record",
+      "url": null,
+      "path": "data/experiments/plans/light-lai-cross-modal.v0.1.json",
+      "provenance": "project-record"
+    },
+    {
+      "reference_id": "SRC-RUGUANG-TIANLAI",
+      "title": "《如光天籁》 selected literary source material",
+      "type": "author-research-record",
+      "url": null,
+      "path": "data/sources/literary/ru-guang-tian-lai.v0.1.json",
+      "provenance": "project-record"
+    },
+    {
+      "reference_id": "SRC-AHD-LIGHT",
+      "title": "American Heritage Dictionary · light",
+      "type": "authoritative-dictionary",
+      "url": "https://www.ahdictionary.com/word/search.html?q=light",
+      "path": "data/evidence/etymology/light-lai.v0.1.json",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-AHD-LEUK",
+      "title": "American Heritage Dictionary · Indo-European root leuk-",
+      "type": "authoritative-dictionary",
+      "url": "https://www.ahdictionary.com/word/indoeurop.html",
+      "path": "data/evidence/etymology/light-lai.v0.1.json",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-CNRTL-LUMIERE",
+      "title": "CNRTL / TLFi · lumière",
+      "type": "authoritative-dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/lumiere",
+      "path": "data/evidence/etymology/light-lai.v0.1.json",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-CNRTL-LUMEN",
+      "title": "CNRTL / TLFi · lumen",
+      "type": "authoritative-dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/lumen",
+      "path": "data/evidence/etymology/light-lai.v0.1.json",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-CUHK-LAI",
+      "title": "CUHK Multi-function Chinese Character Database · 籟",
+      "type": "authoritative-dictionary",
+      "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E7%B1%9F",
+      "path": "data/evidence/etymology/light-lai.v0.1.json",
+      "provenance": "authoritative-dictionary"
+    },
+    {
+      "reference_id": "SRC-CTEXT-LAI",
+      "title": "Chinese Text Project · 籟",
+      "type": "primary-historical-source",
+      "url": "https://ctext.org/dictionary.pl?char=%E7%B1%9F&if=gb",
+      "path": "data/evidence/etymology/light-lai.v0.1.json",
+      "provenance": "primary-publication"
+    },
+    {
+      "reference_id": "FS-LIGHT",
+      "title": "LIGHT — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.ahdictionary.com/word/search.html?q=light",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-LUMIERE",
+      "title": "LUMIERE — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.dictionnaire-academie.fr/article/A9L1339",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-LAROUSSE",
+      "title": "LAROUSSE — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.larousse.fr/dictionnaires/francais/lumi%C3%A8re/48043",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-ZDIC-光",
+      "title": "汉典 光 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/光",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-籁",
+      "title": "汉典 籁 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/籁",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    }
+  ],
+  "author": "Jinkai Liu",
+  "version": "G.4 Candidate v0.1 / dataset 0.6.0 / retain_without_promotion",
+  "dates": {
+    "created": null,
+    "modified": "2026-09-02",
+    "published": "2026-08-30"
+  },
+  "editorial_notes": [
+    {
+      "en": "The published literary layer does not promote the light ↔ 籁 candidate or prove etymology.",
+      "zh-Hans": "已发表的文学层不升级 light ↔ 籁 候选，也不证明词源。"
+    },
+    {
+      "en": "Final Tier D Batch 2: Literary with independent lexical / hypothesis layers; Ready to migrate with Pending layer.",
+      "zh-Hans": "Final Tier D Batch 2: Literary with independent lexical / hypothesis layers; Ready to migrate with Pending layer."
+    },
+    {
+      "en": "Featured Mapping: Pending. Semantic research value is independent of phonetic resemblance. Mainland print evidence remains Pending.",
+      "zh-Hans": "Featured Mapping: Pending。语义研究价值独立于声音相似；大陆纸本条目继续 Pending。"
+    },
+    {
+      "en": "Transformation Mapping ≠ diachronic chronology. Protocol relation ≠ lexical etymology. Literary freedom ≠ historical evidence. Historical Relation: Not claimed.",
+      "zh-Hans": "转换映射不等于历时顺序；协议关系不等于词源；文学自由不等于历史证据；不主张跨语言历史关系。"
+    }
+  ],
+  "search_terms": [
+    "light",
+    "籁",
+    "籟",
+    "lài",
+    "LIGHT",
+    "BRIGHTNESS",
+    "SOUND",
+    "INNER VISION",
+    "光"
+  ],
+  "page": "words/light.html",
+  "legacy": {
+    "entry_id": "LB-en-light-001",
+    "source_word": "light",
+    "language": "English",
+    "normalized_form": "light",
+    "pronunciation": "/laɪt/",
+    "phonetic_form": "laɪt",
+    "lexical_meaning": {
+      "en": "Visible illumination, brightness, or something that illuminates.",
+      "zh-Hans": "可见的光、明亮状态或照明之物。"
+    },
+    "aliases": [
+      "籁",
+      "籟",
+      "lài"
+    ],
+    "classification_status": "candidate",
+    "primary_chinese_mapping": {
+      "mapping_id": "MAP-light-primary-lai",
+      "chinese_form": "籁",
+      "pinyin": "lài",
+      "role": "primary",
+      "mapping_basis": "author-proposal",
+      "status": "candidate",
+      "identity": "author-idea",
+      "source_verification": {
+        "status": "needs-verification",
+        "source_refs": [
+          "SRC-LIGHT-CANDIDATE",
+          "SRC-LB-LIGHT"
+        ],
+        "notes": {
+          "en": "This is the author's selected research mapping, retained without promotion. It is not an ordinary lexical translation or historical cognate claim.",
+          "zh-Hans": "这是作者选择并保留、但不升级的研究 mapping；它不是普通词典翻译，也不是历史同源主张。"
+        }
+      },
+      "ai_review": {
+        "status": "not-reviewed",
+        "reviewer": null,
+        "reviewed_at": null,
+        "rationale": {
+          "en": "This Candidate object has not received object-level AI review.",
+          "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+        }
+      }
+    },
+    "secondary_chinese_mappings": [],
+    "mapping_rationales": [
+      {
+        "rationale_id": "RAT-light-lai",
+        "mapping_ref": "MAP-light-primary-lai",
+        "identity": "author-idea",
+        "status": "candidate",
+        "statement": {
+          "en": "The modern forms share an approximate /laɪ/ sequence, while their lexical meanings differ. This motivates a testable LIGHT ↔ SOUND/MUSIC cross-modal comparison rather than an etymological claim.",
+          "zh-Hans": "两个现代读音共享近似 /laɪ/ 序列，但直接词义不同；这支持提出可检验的 LIGHT ↔ SOUND／MUSIC 跨模态比较，而不是词源主张。"
+        },
+        "source_verification": {
+          "status": "needs-verification",
+          "source_refs": [
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-CUHK-LAI"
+          ],
+          "notes": {
+            "en": "The component pronunciations and meanings are documentable; the cross-modal comparison remains an author proposal.",
+            "zh-Hans": "相关读音与词义可以记录，但跨模态比较仍是作者提议。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This Candidate object has not received object-level AI review.",
+            "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "historical_etymologies": [
+      {
+        "etymology_id": "ETY-light-english-001",
+        "identity": "historical-claim",
+        "status": "candidate",
+        "chain": [
+          "English light 'brightness'",
+          "Old English lēoht / līht",
+          "Proto-Germanic *leuhtam / *leukhtam",
+          "PIE *leuk- 'light, brightness'"
+        ],
+        "summary": {
+          "en": "The brightness noun is inherited through Germanic and is not a Latin borrowing. The homographic not-heavy adjective belongs to PIE *legwh- and is out of scope.",
+          "zh-Hans": "表示光明的名词经日耳曼语传承，并非拉丁语借词；同形的“重量轻”形容词属于 PIE *legwh-，不在本条范围内。"
+        },
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-AHD-LIGHT",
+            "SRC-AHD-LEUK"
+          ],
+          "notes": {
+            "en": "The brightness noun is inherited through Germanic and is not a Latin borrowing. The homographic not-heavy adjective belongs to PIE *legwh- and is out of scope.",
+            "zh-Hans": "表示光明的名词经日耳曼语传承，并非拉丁语借词；同形的“重量轻”形容词属于 PIE *legwh-，不在本条范围内。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This Candidate object has not received object-level AI review.",
+            "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+          }
+        }
+      },
+      {
+        "etymology_id": "ETY-light-latin-001",
+        "identity": "historical-claim",
+        "status": "candidate",
+        "chain": [
+          "French lumière",
+          "Christian Latin luminaria / luminare",
+          "Latin lumen 'light'",
+          "Latin lux 'light'",
+          "PIE *leuk- 'light, brightness'"
+        ],
+        "summary": {
+          "en": "French lumière follows the luminaria/luminare/lumen line. Latin lux is a related family member, not an intermediate stage in lumière.",
+          "zh-Hans": "法语 lumière 沿 luminaria／luminare／lumen 谱系发展；拉丁语 lux 是相关词族成员，不是 lumière 的中间环节。"
+        },
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-CNRTL-LUMIERE",
+            "SRC-CNRTL-LUMEN",
+            "SRC-AHD-LEUK"
+          ],
+          "notes": {
+            "en": "French lumière follows the luminaria/luminare/lumen line. Latin lux is a related family member, not an intermediate stage in lumière.",
+            "zh-Hans": "法语 lumière 沿 luminaria／luminare／lumen 谱系发展；拉丁语 lux 是相关词族成员，不是 lumière 的中间环节。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This Candidate object has not received object-level AI review.",
+            "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+          }
+        }
+      },
+      {
+        "etymology_id": "ETY-light-lai-001",
+        "identity": "historical-claim",
+        "status": "candidate",
+        "chain": [
+          "籟: 從竹，賴聲",
+          "三孔龠: three-holed wind instrument",
+          "sound from apertures",
+          "人籟 / 地籟 / 天籟 / 萬籟"
+        ],
+        "summary": {
+          "en": "The Chinese word belongs to an instrument-and-sound history. No historical cognacy or borrowing with English light is established.",
+          "zh-Hans": "汉语“籟／籁”属于乐器—声音历史系统；没有证据证明其与英语 light 历史同源或存在借词关系。"
+        },
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-CUHK-LAI",
+            "SRC-CTEXT-LAI"
+          ],
+          "notes": {
+            "en": "The Chinese word belongs to an instrument-and-sound history. No historical cognacy or borrowing with English light is established.",
+            "zh-Hans": "汉语“籟／籁”属于乐器—声音历史系统；没有证据证明其与英语 light 历史同源或存在借词关系。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This Candidate object has not received object-level AI review.",
+            "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "sound_symbol_hypothesis_refs": [
+      "UNI-LIGHT-LAI-001",
+      "UNI-L-LIGHT-CLUSTER-001"
+    ],
+    "other_author_notes": [
+      {
+        "note_id": "NOTE-light-literary-interpretation",
+        "identity": "author-note",
+        "status": "classified",
+        "text": {
+          "en": "《如光天籁》 repeatedly transforms sound, music, light and inner vision into one another. Its selected passages are Literary / Cognitive Interpretation only and are excluded from historical evidence.",
+          "zh-Hans": "《如光天籁》反复在声音、音乐、光与内在视觉之间转换；所选片段仅归为 Literary／Cognitive Interpretation，不进入历史证据。"
+        },
+        "source_verification": {
+          "status": "source-backed",
+          "source_refs": [
+            "SRC-RUGUANG-TIANLAI"
+          ],
+          "notes": {
+            "en": "The source record preserves the selected user-provided passages and their evidence boundary.",
+            "zh-Hans": "来源记录保存了用户提供的选段及其证据边界。"
+          }
+        },
+        "ai_review": {
+          "status": "not-reviewed",
+          "reviewer": null,
+          "reviewed_at": null,
+          "rationale": {
+            "en": "This Candidate object has not received object-level AI review.",
+            "zh-Hans": "该 Candidate 对象尚未接受对象级 AI 审核。"
+          }
+        }
+      }
+    ],
+    "experimental_validation_refs": [
+      "UNI-EXP-LIGHT-001"
+    ],
+    "source_provenance": [
+      "SRC-LB-LIGHT",
+      "SRC-LIGHT-CANDIDATE",
+      "SRC-LIGHT-ETYMOLOGY",
+      "SRC-LIGHT-CROSSMODAL-RECORD",
+      "SRC-L-LIGHT-CLUSTER-RECORD",
+      "SRC-LIGHT-EXPERIMENT-PLAN",
+      "SRC-RUGUANG-TIANLAI",
+      "SRC-AHD-LIGHT",
+      "SRC-AHD-LEUK",
+      "SRC-CNRTL-LUMIERE",
+      "SRC-CNRTL-LUMEN",
+      "SRC-CUHK-LAI",
+      "SRC-CTEXT-LAI"
+    ],
+    "author": "Jinkai Liu｜劉金凱",
+    "version": "G.4 Candidate v0.1 / dataset 0.6.0 / retain_without_promotion"
+  },
+  "standard_translation": {
+    "target": "光 / 光亮（brightness noun；不含“重量轻”同形词）",
+    "status": "Frozen sense-specific semantic scope; not historical equivalence"
+  },
+  "featured_mapping_status": "Pending",
+  "semantic_associations": [
+    {
+      "association_id": "FINAL-LIGHT-LEXICAL",
+      "relation": "English light → 光 guāng is the brightness sense. French lumière is a separate Romance form; lux is related, not a link inserted into its derivation.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "FINAL-LIGHT-HYPOTHESIS",
+      "relation": "light /laɪt/ ↔ 籁 lài: limited segmental resemblance, English final /t/ and Mandarin tone differ; brightness and sound differ. lumière /ly.mjɛʁ/ ↔ 籁 is weaker. L→光 remains Untested / Pending; poetry is motivation, not a result.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "FINAL-LIGHT-LITERARY",
+      "relation": "《如光天籁》 by Jinkai Liu remains Author’s Literary / Semantic Creation. LIGHT ↔ SOUND / MUSIC is free artistic interpretation, not historical or experimental evidence.",
+      "status": "Interpretive",
+      "is_etymological": false
+    }
+  ],
+  "research_candidate_discovery": {
+    "reviewer": "Codex focused research under conditional user authorization",
+    "freeze_status": "Ready to migrate with Pending layer",
+    "primary_pipeline": "Literary with independent lexical / hypothesis layers",
+    "historical_path": "English light (brightness) ← Middle English light ← Old English lēoht/līht, inherited Germanic; deeper reconstructed *leuk- family. French lumière ← Christian Latin luminaria (plural of luminare), related to lumen. Latin lux is a related family member, NOT an intermediate ancestor of lumière. Chinese 籁 has its own instrument/sound senses.",
+    "stages": [
+      {
+        "stage_id": "LIGHT-1",
+        "form": "lēoht / līht → light",
+        "language": "Old / Middle / Modern English",
+        "approximate_period": "Old English before 1100; later inherited forms",
+        "meaning": "brightness / illumination",
+        "source_refs": [
+          "FS-LIGHT",
+          "FS-LUMIERE",
+          "FS-LAROUSSE"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "LIGHT-2",
+        "form": "luminaria / luminare → lumière",
+        "language": "Christian Latin / French",
+        "approximate_period": "Late Antiquity / French attested 11th century",
+        "meaning": "light; separate Romance lineage",
+        "source_refs": [
+          "FS-LIGHT",
+          "FS-LUMIERE",
+          "FS-LAROUSSE"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "LIGHT-3",
+        "form": "籁 / 籟",
+        "language": "Chinese",
+        "approximate_period": "Historical instrument sense; present-day sound usage",
+        "meaning": "instrument / sound; independent comparison",
+        "source_refs": [
+          "FS-LIGHT",
+          "FS-LUMIERE",
+          "FS-LAROUSSE"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      }
+    ],
+    "candidates": [
+      {
+        "chinese_form": "光",
+        "reading": "guāng",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "modern English light / modern French lumière separately",
+        "meaning": "light / brightness",
+        "semantic_fit": "High: standard semantic mapping",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-光",
+          "FS-LIGHT"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "籁",
+        "reading": "lài",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "modern English light / modern French lumière separately",
+        "meaning": "instrument / sound, as in 天籁 / 万籁",
+        "semantic_fit": "Low lexical; interpretive cross-modal bridge",
+        "phonetic_fit": "Limited for light /laɪt/ versus lài /laɪ̯51/; Low for lumière /ly.mjɛʁ/. No regular correspondence.",
+        "structural_fit": "Interpretive cross-modal association only",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-籁",
+          "FS-LIGHT"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Research candidate / Not selected Featured"
+      }
+    ],
+    "controls": [
+      "籁 denotes instrument/sound, not the normal Chinese word for visible light.",
+      "light has final /t/; lài has lexical tone. lumière has a different syllable structure and vowels.",
+      "English light and French/Latin light words are not independent positive trials once family membership is controlled."
+    ],
+    "rejected": [
+      "lux as an intermediate ancestor of lumière",
+      "poetry as historical or experimental proof",
+      "lumière ↔ 籁 as a strong phonetic match"
+    ],
+    "pending": [
+      "Featured Mapping: Pending",
+      "Mainland large print dictionaries: specific edition/entry/page not directly obtained; Pending",
+      "Historical Chinese pronunciation and dating: not inferred from modern pinyin",
+      "L→光 hypothesis: Untested / Pending",
+      "Cross-modal experiment: Untested; no metrics or outcome",
+      "籁 historical senses: mediated online confirmation; mainland print historical edition Pending"
+    ],
+    "shortlist": [
+      "光",
+      "籁"
+    ],
+    "historical_relation": "Not claimed"
+  },
+  "legacy_migration": {
+    "version": "final-structural-0.1",
+    "baseline_commit": "c0cab379544cc6f55db6daecb6e3a694347415e9",
+    "previous_fields": {
+      "languages": [
+        {
+          "role": "source",
+          "code": "en",
+          "name": "English",
+          "word": "light",
+          "pronunciation": "/laɪt/"
+        },
+        {
+          "role": "target",
+          "code": "zh-Hans",
+          "name": "Chinese",
+          "word": "籁",
+          "pronunciation": "lài"
+        }
+      ],
+      "primary_mapping": {
+        "mapping_id": "MAP-light-primary-lai",
+        "source": {
+          "language": "English",
+          "word": "light",
+          "pronunciation": "/laɪt/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "籁",
+          "pronunciation": "lài"
+        },
+        "gloss": {
+          "en": "Visible illumination, brightness, or something that illuminates.",
+          "zh-Hans": "可见的光、明亮状态或照明之物。"
+        },
+        "meaning": {
+          "en": "Visible illumination, brightness, or something that illuminates.",
+          "zh-Hans": "可见的光、明亮状态或照明之物。"
+        },
+        "mapping_type": "Cross-language semantic candidate",
+        "rationale": {
+          "en": "The modern forms share an approximate /laɪ/ sequence, while their lexical meanings differ. This motivates a testable LIGHT ↔ SOUND/MUSIC cross-modal comparison rather than an etymological claim.",
+          "zh-Hans": "两个现代读音共享近似 /laɪ/ 序列，但直接词义不同；这支持提出可检验的 LIGHT ↔ SOUND／MUSIC 跨模态比较，而不是词源主张。"
+        }
+      },
+      "historical_relation_status": "Unestablished",
+      "evidence": {
+        "Historical": {
+          "status": "Supported",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Historical word histories are evaluated independently from the cross-language mapping.",
+            "zh-Hans": "各语言的历史词源独立于跨语言 mapping 评估。"
+          },
+          "items": [
+            {
+              "evidence_id": "ETY-light-english-001",
+              "claim": {
+                "en": "The brightness noun is inherited through Germanic and is not a Latin borrowing. The homographic not-heavy adjective belongs to PIE *legwh- and is out of scope.",
+                "zh-Hans": "表示光明的名词经日耳曼语传承，并非拉丁语借词；同形的“重量轻”形容词属于 PIE *legwh-，不在本条范围内。"
+              },
+              "status": "Supported",
+              "confidence": "High",
+              "chain": [
+                "English light 'brightness'",
+                "Old English lēoht / līht",
+                "Proto-Germanic *leuhtam / *leukhtam",
+                "PIE *leuk- 'light, brightness'"
+              ],
+              "source_refs": [
+                "SRC-AHD-LIGHT",
+                "SRC-AHD-LEUK"
+              ]
+            },
+            {
+              "evidence_id": "ETY-light-latin-001",
+              "claim": {
+                "en": "French lumière follows the luminaria/luminare/lumen line. Latin lux is a related family member, not an intermediate stage in lumière.",
+                "zh-Hans": "法语 lumière 沿 luminaria／luminare／lumen 谱系发展；拉丁语 lux 是相关词族成员，不是 lumière 的中间环节。"
+              },
+              "status": "Supported",
+              "confidence": "High",
+              "chain": [
+                "French lumière",
+                "Christian Latin luminaria / luminare",
+                "Latin lumen 'light'",
+                "Latin lux 'light'",
+                "PIE *leuk- 'light, brightness'"
+              ],
+              "source_refs": [
+                "SRC-CNRTL-LUMIERE",
+                "SRC-CNRTL-LUMEN",
+                "SRC-AHD-LEUK"
+              ]
+            },
+            {
+              "evidence_id": "ETY-light-lai-001",
+              "claim": {
+                "en": "The Chinese word belongs to an instrument-and-sound history. No historical cognacy or borrowing with English light is established.",
+                "zh-Hans": "汉语“籟／籁”属于乐器—声音历史系统；没有证据证明其与英语 light 历史同源或存在借词关系。"
+              },
+              "status": "Supported",
+              "confidence": "High",
+              "chain": [
+                "籟: 從竹，賴聲",
+                "三孔龠: three-holed wind instrument",
+                "sound from apertures",
+                "人籟 / 地籟 / 天籟 / 萬籟"
+              ],
+              "source_refs": [
+                "SRC-CUHK-LAI",
+                "SRC-CTEXT-LAI"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-AHD-LIGHT",
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE",
+            "SRC-CNRTL-LUMEN",
+            "SRC-CUHK-LAI",
+            "SRC-CTEXT-LAI"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "light /laɪt/ ↔ 籁 lài shares an approximate /laɪ/ sequence; lexical meanings differ.",
+            "zh-Hans": "light /laɪt/ ↔ 籁 lài 共享近似 /laɪ/ 音序，但直接词义不同。"
+          },
+          "items": [
+            {
+              "evidence_id": "RAT-light-lai",
+              "claim": {
+                "en": "The modern forms share an approximate /laɪ/ sequence, while their lexical meanings differ. This motivates a testable LIGHT ↔ SOUND/MUSIC cross-modal comparison rather than an etymological claim.",
+                "zh-Hans": "两个现代读音共享近似 /laɪ/ 序列，但直接词义不同；这支持提出可检验的 LIGHT ↔ SOUND／MUSIC 跨模态比较，而不是词源主张。"
+              },
+              "status": "Under review",
+              "confidence": "Unknown",
+              "source_refs": [
+                "SRC-LIGHT-CANDIDATE",
+                "SRC-CUHK-LAI"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-CUHK-LAI"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "Recorded semantic structure: LIGHT → BRIGHTNESS → SOUND → INNER VISION.",
+            "zh-Hans": "已记录语义结构：LIGHT → BRIGHTNESS → SOUND → INNER VISION。"
+          },
+          "items": [],
+          "source_refs": []
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "Author hypotheses remain independently graded and testable; they are not historical proof.",
+            "zh-Hans": "作者假说保持独立分级与可检验性，不作为历史证明。"
+          },
+          "items": [
+            {
+              "evidence_id": "UNI-LIGHT-LAI-001",
+              "claim": {
+                "en": "Test whether the modern resemblance between light /laɪt/ and 籁 lài /laɪ̯⁵¹/ strengthens a LIGHT ↔ SOUND/MUSIC association. No translation equivalence, sound law, borrowing or common origin is asserted.",
+                "zh-Hans": "检验 light /laɪt/ 与“籁” lài /laɪ̯⁵¹/ 的现代近音是否会增强 LIGHT ↔ SOUND／MUSIC 联想；本假说不主张翻译等值、音变规律、借词或共同词源。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-LIGHT-CROSSMODAL-RECORD",
+                "SRC-LIGHT-CANDIDATE",
+                "SRC-RUGUANG-TIANLAI"
+              ]
+            },
+            {
+              "evidence_id": "UNI-L-LIGHT-CLUSTER-001",
+              "claim": {
+                "en": "Test whether L-initial light/brightness words occur above a language-specific baseline after etymological-family deduplication. The four motivating surface positives collapse to one PIE *leuk- family at the deepest level.",
+                "zh-Hans": "在进行词源家族去重后，检验 L 起首的光／明亮词是否高于各语言基线。四个表面正例在最深层均归入同一 PIE *leuk- 词族。"
+              },
+              "status": "Untested",
+              "confidence": "low",
+              "source_refs": [
+                "SRC-L-LIGHT-CLUSTER-RECORD",
+                "SRC-LIGHT-ETYMOLOGY",
+                "SRC-AHD-LEUK",
+                "SRC-CNRTL-LUMIERE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "SRC-LIGHT-CROSSMODAL-RECORD",
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-RUGUANG-TIANLAI",
+            "SRC-L-LIGHT-CLUSTER-RECORD",
+            "SRC-LIGHT-ETYMOLOGY",
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE"
+          ]
+        }
+      },
+      "semantic_structure": {
+        "concepts": [
+          "LIGHT",
+          "BRIGHTNESS",
+          "SOUND",
+          "INNER VISION"
+        ],
+        "relation": "LIGHT → BRIGHTNESS → SOUND → INNER VISION",
+        "status": "Interpretive"
+      },
+      "hypotheses": [
+        {
+          "hypothesis_id": "UNI-LIGHT-LAI-001",
+          "type": "sound-semantic",
+          "claim": {
+            "en": "Test whether the modern resemblance between light /laɪt/ and 籁 lài /laɪ̯⁵¹/ strengthens a LIGHT ↔ SOUND/MUSIC association. No translation equivalence, sound law, borrowing or common origin is asserted.",
+            "zh-Hans": "检验 light /laɪt/ 与“籁” lài /laɪ̯⁵¹/ 的现代近音是否会增强 LIGHT ↔ SOUND／MUSIC 联想；本假说不主张翻译等值、音变规律、借词或共同词源。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-RUGUANG-TIANLAI"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": "UNI-EXP-LIGHT-001",
+          "source_refs": [
+            "SRC-LIGHT-CROSSMODAL-RECORD",
+            "SRC-LIGHT-CANDIDATE",
+            "SRC-RUGUANG-TIANLAI"
+          ]
+        },
+        {
+          "hypothesis_id": "UNI-L-LIGHT-CLUSTER-001",
+          "type": "initial-consonant-semantics",
+          "claim": {
+            "en": "Test whether L-initial light/brightness words occur above a language-specific baseline after etymological-family deduplication. The four motivating surface positives collapse to one PIE *leuk- family at the deepest level.",
+            "zh-Hans": "在进行词源家族去重后，检验 L 起首的光／明亮词是否高于各语言基线。四个表面正例在最深层均归入同一 PIE *leuk- 词族。"
+          },
+          "status": "Untested",
+          "confidence": "low",
+          "supporting_cases": [
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE",
+            "SRC-L-LIGHT-CLUSTER-RECORD"
+          ],
+          "counterexamples": [],
+          "testability": {
+            "en": "See the linked record for testability limits.",
+            "zh-Hans": "可检验性边界见关联记录。"
+          },
+          "experiment_link": null,
+          "source_refs": [
+            "SRC-L-LIGHT-CLUSTER-RECORD",
+            "SRC-LIGHT-ETYMOLOGY",
+            "SRC-AHD-LEUK",
+            "SRC-CNRTL-LUMIERE"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "SRC-LB-LIGHT",
+          "title": "Language Book · Light → 籁",
+          "type": "language-book-page",
+          "url": null,
+          "path": "words/light.html",
+          "provenance": "unknown"
+        },
+        {
+          "reference_id": "SRC-LIGHT-CANDIDATE",
+          "title": "LIGHT → 籁 mapping Candidate",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/candidates/light-lai.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-LIGHT-ETYMOLOGY",
+          "title": "LIGHT / lumière / lumen / lux / 籁 etymology bundle",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-LIGHT-CROSSMODAL-RECORD",
+          "title": "Sound↔Light Cross-modal Hypothesis v0.1",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/hypotheses/sound-light-cross-modal.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-L-LIGHT-CLUSTER-RECORD",
+          "title": "L-Light Semantic Cluster Hypothesis v0.1",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/hypotheses/l-light-semantic-cluster.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-LIGHT-EXPERIMENT-PLAN",
+          "title": "Light–籁 cross-modal experiment plan v0.1",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/experiments/plans/light-lai-cross-modal.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-RUGUANG-TIANLAI",
+          "title": "《如光天籁》 selected literary source material",
+          "type": "author-research-record",
+          "url": null,
+          "path": "data/sources/literary/ru-guang-tian-lai.v0.1.json",
+          "provenance": "project-record"
+        },
+        {
+          "reference_id": "SRC-AHD-LIGHT",
+          "title": "American Heritage Dictionary · light",
+          "type": "authoritative-dictionary",
+          "url": "https://www.ahdictionary.com/word/search.html?q=light",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-AHD-LEUK",
+          "title": "American Heritage Dictionary · Indo-European root leuk-",
+          "type": "authoritative-dictionary",
+          "url": "https://www.ahdictionary.com/word/indoeurop.html",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-LUMIERE",
+          "title": "CNRTL / TLFi · lumière",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/lumiere",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CNRTL-LUMEN",
+          "title": "CNRTL / TLFi · lumen",
+          "type": "authoritative-dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/lumen",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CUHK-LAI",
+          "title": "CUHK Multi-function Chinese Character Database · 籟",
+          "type": "authoritative-dictionary",
+          "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E7%B1%9F",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "authoritative-dictionary"
+        },
+        {
+          "reference_id": "SRC-CTEXT-LAI",
+          "title": "Chinese Text Project · 籟",
+          "type": "primary-historical-source",
+          "url": "https://ctext.org/dictionary.pl?char=%E7%B1%9F&if=gb",
+          "path": "data/evidence/etymology/light-lai.v0.1.json",
+          "provenance": "primary-publication"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "The published literary layer does not promote the light ↔ 籁 candidate or prove etymology.",
+          "zh-Hans": "已发表的文学层不升级 light ↔ 籁 候选，也不证明词源。"
+        }
+      ],
+      "search_terms": [
+        "light",
+        "籁",
+        "籟",
+        "lài",
+        "LIGHT",
+        "BRIGHTNESS",
+        "SOUND",
+        "INNER VISION"
+      ]
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "featured_mapping_status",
+      "semantic_associations",
+      "research_candidate_discovery"
+    ]
+  }
+}

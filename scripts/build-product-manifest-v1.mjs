@@ -9,6 +9,7 @@ const authoredEntryFiles = fs.readdirSync(path.join(root, "data", "entries"))
   .sort()
   .map((name) => `data/entries/${name}`);
 const files = [
+  "scripts/validate-final-structural.mjs", "scripts/build-final-structural.mjs", "tests/final-structural.test.cjs", "tests/final-structural-compat.cjs", "data/review/final-structural-freeze.v1.json", "data/review/final-structural-page-fragments.v1.json", "docs/research/final-structural-freeze.md", "words/form.html", "words/sign.html", "words/press.html", "words/above.html",
   "scripts/prepare-publication-output.mjs", "tests/publication-output.test.cjs",
   "scripts/build-final-lexical.mjs", "scripts/validate-final-lexical.mjs", "tests/final-lexical.test.cjs", "tests/final-lexical-compat.cjs", "data/review/final-lexical-freeze.v1.json", "data/review/final-lexical-discovery.v1.json", "docs/research/final-lexical-freeze.md", "words/convent.html", "words/fil.html", "words/marchand.html", "words/montrer.html",
   "tests/second-pipeline-compat.cjs", "docs/research/second-pipeline-migration-v0.1.md",
@@ -68,7 +69,7 @@ const records = files.map((file) => {
 const dataset = JSON.parse(fs.readFileSync(path.join(root, "data/language-book.v1.0.json"), "utf8"));
 const manifest = {
   product: "Unilanguage Language Book + Semantic Mapper",
-  version: "1.2.46", dataset_version: dataset.dataset_version, created_at: "2026-09-20",
+  version: "1.2.47", dataset_version: dataset.dataset_version, created_at: "2026-09-20",
   canonical_dataset: "data/language-book.v1.0.json",
   canonical_schema: "data/language-book-entry.schema.v1.json",
   entry_count: dataset.entries.length,
@@ -78,4 +79,4 @@ const manifest = {
 };
 fs.writeFileSync(path.join(root, "data", "product-manifest.v1.0.json"), `${JSON.stringify(manifest, null, 2)}\n`);
 fs.writeFileSync(path.join(root, "data", "product-checksums.v1.0.sha256"), `${records.map((record) => `${record.sha256}  ${record.path}`).join("\n")}\n`);
-console.log(`Product manifest v1.2.46 written · ${records.length} files`);
+console.log(`Product manifest v1.2.47 written · ${records.length} files`);

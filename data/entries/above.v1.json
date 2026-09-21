@@ -31,8 +31,8 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "在……上方／高于",
-      "pronunciation": "zài…shàngfāng / gāoyú"
+      "word": "在……上方 / 高于 / 超过（依关系与语境）",
+      "pronunciation": "zài…shàngfāng / gāoyú / chāoguò"
     },
     "gloss": {
       "en": "in or to a higher place or position than",
@@ -42,10 +42,10 @@
       "en": "in or to a higher place or position than. The standard mapping is independent from the legacy sound hypothesis.",
       "zh-Hans": "位于或移向比参照物更高的位置。标准词义 Mapping 与旧站声音假说独立。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+    "mapping_type": "Standard sense-specific mapping; research candidates separately graded",
     "rationale": {
-      "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
-      "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+      "en": "Standard meaning is separate from Featured selection. Structural and literary observations do not establish common origin.",
+      "zh-Hans": "标准义独立于 Featured 选择；结构和文学观察不证明同源。"
     }
   },
   "entry_status": "Reviewed",
@@ -57,8 +57,8 @@
       "status": "Established",
       "confidence": "High",
       "summary": {
-        "en": "Above is inherited from Old English abufan/onbufan, a Germanic formation. Over is a semantic and historically related Germanic comparison, but Chinese 上 is not a historical cognate.",
-        "zh-Hans": "above 继承自古英语 abufan／onbufan，属日耳曼构词；over 是语义上相关且有日耳曼词史联系的比较词，但汉语“上”并非历史同源。"
+        "en": "Old English abufan (a- + bufan; bufan from be- + ufan) → Middle English above/aboven → above. Over is a related Germanic comparison, not an intervening ancestor.",
+        "zh-Hans": "Old English abufan (a- + bufan; bufan from be- + ufan) → Middle English above/aboven → above. Over is a related Germanic comparison, not an intervening ancestor."
       },
       "items": [
         {
@@ -75,7 +75,8 @@
         }
       ],
       "source_refs": [
-        "REF-MW-ABOVE"
+        "REF-MW-ABOVE",
+        "FS-ABOVE"
       ]
     },
     "Phonetic-Semantic": {
@@ -174,12 +175,10 @@
   ],
   "semantic_structure": {
     "concepts": [
-      "ABOVE",
-      "OVER",
-      "上",
-      "上面"
+      "RELATION",
+      "PROTOCOL"
     ],
-    "relation": "above → over → 上 → 上面",
+    "relation": "Interface to SPACE / UP / DOWN / RELATION: ABOVE is a relative-position relation; UP may indicate direction. Protocol relation ≠ historical etymology. OVER is not interchangeable in every construction.",
     "status": "Interpretive"
   },
   "related_words": [
@@ -215,8 +214,14 @@
   ],
   "semantic_associations": [
     {
-      "association_id": "ASSOC-ABOVE-001",
-      "relation": "UP/HIGHER THAN is a stable spatial schema shared by above, over and 上方.",
+      "association_id": "FINAL-ABOVE-RELATION",
+      "relation": "ABOVE(x,y) compares x with a reference y: 在……之上 / 高于. 上 shàng is a sense-specific comparison; Mandarin construction matters.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "FINAL-ABOVE-PROTOCOL",
+      "relation": "Interface to SPACE / UP / DOWN / RELATION: ABOVE is a relative-position relation; UP may indicate direction. Protocol relation ≠ historical etymology. OVER is not interchangeable in every construction.",
       "status": "Interpretive",
       "is_etymological": false
     }
@@ -298,6 +303,22 @@
       "url": "https://www.merriam-webster.com/dictionary/above",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "FS-ABOVE",
+      "title": "ABOVE — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/above",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-ZDIC-上",
+      "title": "汉典 上 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/上",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
     }
   ],
   "author": "Jinkai Liu",
@@ -315,6 +336,18 @@
     {
       "en": "Shared spatial meaning is not proof of shared historical origin.",
       "zh-Hans": "共享空间意义不能证明共享历史来源。"
+    },
+    {
+      "en": "Final Tier D Batch 2: Space Protocol Primitive; Ready to migrate with Pending layer.",
+      "zh-Hans": "Final Tier D Batch 2: Space Protocol Primitive; Ready to migrate with Pending layer."
+    },
+    {
+      "en": "Featured Mapping: Pending. Semantic research value is independent of phonetic resemblance. Mainland print evidence remains Pending.",
+      "zh-Hans": "Featured Mapping: Pending。语义研究价值独立于声音相似；大陆纸本条目继续 Pending。"
+    },
+    {
+      "en": "Transformation Mapping ≠ diachronic chronology. Protocol relation ≠ lexical etymology. Literary freedom ≠ historical evidence. Historical Relation: Not claimed.",
+      "zh-Hans": "转换映射不等于历时顺序；协议关系不等于词源；文学自由不等于历史证据；不主张跨语言历史关系。"
     }
   ],
   "search_terms": [
@@ -325,9 +358,10 @@
     "上方",
     "高于",
     "higher",
-    "up"
+    "up",
+    "在……之上"
   ],
-  "page": null,
+  "page": "words/above.html",
   "legacy": {
     "batch_id": "LEGACY-WEBSITE-IMPORT-BATCH-001",
     "source_url": "https://languagesbook.com/glossary/ab-ove%ef%bc%8c%e4%b8%8a%e9%9d%a2/",
@@ -347,5 +381,327 @@
     "ordinal": 7,
     "disposition": "Reviewed",
     "priority_score": 88.7
+  },
+  "standard_translation": {
+    "target": "在……上方 / 高于 / 超过（依关系与语境）",
+    "status": "Frozen sense-specific semantic scope; not historical equivalence"
+  },
+  "featured_mapping_status": "Pending",
+  "research_candidate_discovery": {
+    "reviewer": "Codex focused research under conditional user authorization",
+    "freeze_status": "Ready to migrate with Pending layer",
+    "primary_pipeline": "Space Protocol Primitive",
+    "historical_path": "Old English abufan (a- + bufan; bufan from be- + ufan) → Middle English above/aboven → above. Over is a related Germanic comparison, not an intervening ancestor.",
+    "stages": [
+      {
+        "stage_id": "ABOVE-1",
+        "form": "abufan",
+        "language": "Old English",
+        "approximate_period": "Before 12th century",
+        "meaning": "above / higher location",
+        "source_refs": [
+          "FS-ABOVE"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "ABOVE-2",
+        "form": "above / aboven",
+        "language": "Middle English",
+        "approximate_period": "Medieval",
+        "meaning": "higher location; relational use",
+        "source_refs": [
+          "FS-ABOVE"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "ABOVE-3",
+        "form": "above",
+        "language": "Modern English",
+        "approximate_period": "Present day",
+        "meaning": "higher than in location, rank or quantity",
+        "source_refs": [
+          "FS-ABOVE"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      }
+    ],
+    "candidates": [
+      {
+        "chinese_form": "上",
+        "reading": "shàng",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "above",
+        "meaning": "higher location; not shǎng tone category",
+        "semantic_fit": "High within spatial sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-上",
+          "FS-ABOVE"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "在……之上",
+        "reading": "zài…zhī shàng",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "above",
+        "meaning": "relative higher location",
+        "semantic_fit": "High within relation",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-上",
+          "FS-ABOVE"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "高于",
+        "reading": "gāoyú",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "above",
+        "meaning": "higher than; selected scalar comparisons",
+        "semantic_fit": "High within comparison",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-上",
+          "FS-ABOVE"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      }
+    ],
+    "controls": [
+      "A lamp above a table need not touch it; a book on the table may do so.",
+      "above suspicion is not a literal higher coordinate.",
+      "UP direction and ABOVE relative position are not the same grammatical operation."
+    ],
+    "rejected": [
+      "above → over → 上 as a historical ancestry chain",
+      "forced phonetic winner"
+    ],
+    "pending": [
+      "Featured Mapping: Pending",
+      "Mainland large print dictionaries: specific edition/entry/page not directly obtained; Pending",
+      "Historical Chinese pronunciation and dating: not inferred from modern pinyin"
+    ],
+    "shortlist": [
+      "上",
+      "在……之上",
+      "高于"
+    ],
+    "historical_relation": "Not claimed"
+  },
+  "legacy_migration": {
+    "version": "final-structural-0.1",
+    "baseline_commit": "c0cab379544cc6f55db6daecb6e3a694347415e9",
+    "previous_fields": {
+      "primary_mapping": {
+        "mapping_id": "MAP-above-primary",
+        "source": {
+          "language": "English",
+          "word": "above",
+          "pronunciation": "not recorded"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "在……上方／高于",
+          "pronunciation": "zài…shàngfāng / gāoyú"
+        },
+        "gloss": {
+          "en": "in or to a higher place or position than",
+          "zh-Hans": "位于或移向比参照物更高的位置"
+        },
+        "meaning": {
+          "en": "in or to a higher place or position than. The standard mapping is independent from the legacy sound hypothesis.",
+          "zh-Hans": "位于或移向比参照物更高的位置。标准词义 Mapping 与旧站声音假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded legacy hypothesis",
+        "rationale": {
+          "en": "Ordinary meaning is primary; word history, sound comparison, cognition and speculation are evaluated on separate tracks.",
+          "zh-Hans": "普通词义为主；词史、声音比较、认知与推测分轨评价。"
+        }
+      },
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Above is inherited from Old English abufan/onbufan, a Germanic formation. Over is a semantic and historically related Germanic comparison, but Chinese 上 is not a historical cognate.",
+            "zh-Hans": "above 继承自古英语 abufan／onbufan，属日耳曼构词；over 是语义上相关且有日耳曼词史联系的比较词，但汉语“上”并非历史同源。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-ABOVE-001",
+              "claim": {
+                "en": "Above is inherited from Old English abufan/onbufan, a Germanic formation. Over is a semantic and historically related Germanic comparison, but Chinese 上 is not a historical cognate.",
+                "zh-Hans": "above 继承自古英语 abufan／onbufan，属日耳曼构词；over 是语义上相关且有日耳曼词史联系的比较词，但汉语“上”并非历史同源。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-ABOVE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-ABOVE"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "No English–Chinese phonetic claim is needed for the standard spatial mapping above ↔ 上方.",
+            "zh-Hans": "标准空间映射 above ↔ 上方不需要英汉语音主张。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-ABOVE-001",
+              "claim": {
+                "en": "No English–Chinese phonetic claim is needed for the standard spatial mapping above ↔ 上方.",
+                "zh-Hans": "标准空间映射 above ↔ 上方不需要英汉语音主张。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOVE",
+                "REF-MW-ABOVE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE",
+            "REF-MW-ABOVE"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "UP/HIGHER THAN is a stable spatial schema shared by above, over and 上方.",
+            "zh-Hans": "UP／HIGHER THAN 是 above、over 与“上方”共享的稳定空间图式。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-ABOVE-001",
+              "claim": {
+                "en": "UP/HIGHER THAN is a stable spatial schema shared by above, over and 上方.",
+                "zh-Hans": "UP／HIGHER THAN 是 above、over 与“上方”共享的稳定空间图式。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOVE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE"
+          ]
+        },
+        "Speculative": {
+          "status": "Unestablished",
+          "confidence": "High",
+          "summary": {
+            "en": "Shared spatial meaning is not proof of shared historical origin.",
+            "zh-Hans": "共享空间意义不能证明共享历史来源。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-ABOVE-001",
+              "claim": {
+                "en": "Shared spatial meaning is not proof of shared historical origin.",
+                "zh-Hans": "共享空间意义不能证明共享历史来源。"
+              },
+              "status": "Unestablished",
+              "confidence": "High",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOVE",
+                "REF-MW-ABOVE"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-LANGUAGESBOOK-ABOVE",
+            "REF-MW-ABOVE"
+          ]
+        }
+      },
+      "semantic_structure": {
+        "concepts": [
+          "ABOVE",
+          "OVER",
+          "上",
+          "上面"
+        ],
+        "relation": "above → over → 上 → 上面",
+        "status": "Interpretive"
+      },
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-ABOVE-001",
+          "relation": "UP/HIGHER THAN is a stable spatial schema shared by above, over and 上方.",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "REF-LANGUAGESBOOK-ABOVE",
+          "title": "languagesbook.com legacy entry: above，上面。上 over",
+          "type": "legacy author publication",
+          "url": "https://languagesbook.com/glossary/ab-ove%ef%bc%8c%e4%b8%8a%e9%9d%a2/",
+          "path": null,
+          "provenance": "author-published legacy website; imported 2026-09-01; original observation preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-ABOVE",
+          "title": "Merriam-Webster Dictionary: above",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/above",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Legacy Batch 001 disposition: Reviewed; priority 88.7/100 is editorial triage only.",
+          "zh-Hans": "旧站 Batch 001 归类：Reviewed；优先分 88.7/100 仅用于编辑分流。"
+        },
+        {
+          "en": "Shared spatial meaning is not proof of shared historical origin.",
+          "zh-Hans": "共享空间意义不能证明共享历史来源。"
+        }
+      ],
+      "search_terms": [
+        "above",
+        "over",
+        "上",
+        "上面",
+        "上方",
+        "高于",
+        "higher",
+        "up"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "featured_mapping_status",
+      "research_candidate_discovery"
+    ]
   }
 }

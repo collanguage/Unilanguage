@@ -38,8 +38,8 @@
     },
     "target": {
       "language": "Chinese",
-      "word": "符号／标记",
-      "pronunciation": "fúhào / biāojì"
+      "word": "标记 / 符号 / 迹象",
+      "pronunciation": "biāojì / fúhào / jìxiàng"
     },
     "gloss": {
       "en": "a mark, token or gesture that conveys meaning",
@@ -49,10 +49,10 @@
       "en": "a mark, token or gesture that conveys meaning. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
       "zh-Hans": "传达意义的符号、标记或动作。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "mapping_type": "Standard sense-specific mapping; research candidates separately graded",
     "rationale": {
-      "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
-      "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+      "en": "Standard meaning is separate from Featured selection. Structural and literary observations do not establish common origin.",
+      "zh-Hans": "标准义独立于 Featured 选择；结构和文学观察不证明同源。"
     }
   },
   "entry_status": "Reviewed",
@@ -64,8 +64,8 @@
       "status": "Established",
       "confidence": "High",
       "summary": {
-        "en": "Sign belongs to the Latin signum/signare ‘mark, token’ family. Cognitive/cognition belongs to Latin cognoscere/cognitio ‘know, knowledge’, with the gnosc-/gno- KNOW family. These are separate historical clusters.",
-        "zh-Hans": "sign 属拉丁语 signum／signare“标记、符号”词族；cognitive／cognition 属拉丁语 cognoscere／cognitio“认识、知识”及 gnosc-／gno- KNOW 词族。两者是不同的历史簇。"
+        "en": "Noun: Latin signum → Anglo-French signe → Middle English signe → sign. Verb: Latin signare, derived from signum, → Anglo-French signer → English sign. Cognition follows Latin cognitio; the observed ign/ogn strings do not establish a shared root here. Deeper signum etymology remains uncertain.",
+        "zh-Hans": "Noun: Latin signum → Anglo-French signe → Middle English signe → sign. Verb: Latin signare, derived from signum, → Anglo-French signer → English sign. Cognition follows Latin cognitio; the observed ign/ogn strings do not establish a shared root here. Deeper signum etymology remains uncertain."
       },
       "items": [
         {
@@ -101,7 +101,9 @@
       "source_refs": [
         "REF-MW-SIGN",
         "REF-CNRTL-COGNITION",
-        "REF-CNRTL-COGNITIF"
+        "REF-CNRTL-COGNITIF",
+        "FS-SIGN",
+        "FS-COGNITION"
       ]
     },
     "Phonetic-Semantic": {
@@ -208,13 +210,10 @@
   ],
   "semantic_structure": {
     "concepts": [
-      "SIGN",
-      "MARK",
-      "KNOW",
-      "COGNITION",
-      "RECOGNITION"
+      "SENSES",
+      "SYMBOLIC"
     ],
-    "relation": "SIGN → MARK → KNOW → COGNITION → RECOGNITION",
+    "relation": "Concept → Mark → Symbol → Meaning models a representation/interpretation task. It is NOT the historical order of sign senses.",
     "status": "Interpretive"
   },
   "related_words": [
@@ -269,8 +268,14 @@
   ],
   "semantic_associations": [
     {
-      "association_id": "ASSOC-SIGN-001",
-      "relation": "SIGN → MARK → KNOW → COGNITION → RECOGNITION",
+      "association_id": "FINAL-SIGN-SENSES",
+      "relation": "标 biāo / 记 jì: mark; 符 fú: conventional symbol; 征 zhēng (徵): indication. 象 xiàng is a representation comparison, not a universal translation.",
+      "status": "Interpretive",
+      "is_etymological": false
+    },
+    {
+      "association_id": "FINAL-SIGN-SYMBOLIC",
+      "relation": "Concept → Mark → Symbol → Meaning models a representation/interpretation task. It is NOT the historical order of sign senses.",
       "status": "Interpretive",
       "is_etymological": false
     }
@@ -375,6 +380,62 @@
       "url": "https://www.cnrtl.fr/etymologie/cognitif",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "FS-SIGN",
+      "title": "SIGN — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/sign",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-COGNITION",
+      "title": "COGNITION — focused dictionary verification",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/definition/cognitions",
+      "path": null,
+      "provenance": "Concrete online entry reviewed 2026-09-20; supports only its scoped lexical/history claim"
+    },
+    {
+      "reference_id": "FS-ZDIC-记",
+      "title": "汉典 记 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/记",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-标",
+      "title": "汉典 标 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/标",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-符",
+      "title": "汉典 符 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/符",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-象",
+      "title": "汉典 象 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/象",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
+    },
+    {
+      "reference_id": "FS-ZDIC-征",
+      "title": "汉典 征 — basic/detailed senses only",
+      "type": "online dictionary; mediated Chinese evidence",
+      "url": "https://zdic.net/hans/征",
+      "path": null,
+      "provenance": "Online basic/detailed section; NOT a verified mainland print edition or page. Mainland print entry Pending; Taiwan 國語辭典 section not used as mainland evidence."
     }
   ],
   "author": "Jinkai Liu",
@@ -392,6 +453,18 @@
     {
       "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
       "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+    },
+    {
+      "en": "Final Tier D Batch 2: Transformation / Symbolic; Ready to migrate with Pending layer.",
+      "zh-Hans": "Final Tier D Batch 2: Transformation / Symbolic; Ready to migrate with Pending layer."
+    },
+    {
+      "en": "Featured Mapping: Pending. Semantic research value is independent of phonetic resemblance. Mainland print evidence remains Pending.",
+      "zh-Hans": "Featured Mapping: Pending。语义研究价值独立于声音相似；大陆纸本条目继续 Pending。"
+    },
+    {
+      "en": "Transformation Mapping ≠ diachronic chronology. Protocol relation ≠ lexical etymology. Literary freedom ≠ historical evidence. Historical Relation: Not claimed.",
+      "zh-Hans": "转换映射不等于历时顺序；协议关系不等于词源；文学自由不等于历史证据；不主张跨语言历史关系。"
     }
   ],
   "search_terms": [
@@ -409,9 +482,14 @@
     "标记",
     "ign",
     "ogn",
-    "gnoscere"
+    "gnoscere",
+    "记",
+    "标",
+    "符",
+    "象",
+    "征"
   ],
-  "page": null,
+  "page": "words/sign.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",
@@ -425,5 +503,417 @@
     "ordinal": 4,
     "disposition": "Candidate",
     "priority_score": 89.6
+  },
+  "standard_translation": {
+    "target": "标记 / 符号 / 迹象；sign a name = 签名（依义项）",
+    "status": "Frozen sense-specific semantic scope; not historical equivalence"
+  },
+  "featured_mapping_status": "Pending",
+  "research_candidate_discovery": {
+    "reviewer": "Codex focused research under conditional user authorization",
+    "freeze_status": "Ready to migrate with Pending layer",
+    "primary_pipeline": "Transformation / Symbolic",
+    "historical_path": "Noun: Latin signum → Anglo-French signe → Middle English signe → sign. Verb: Latin signare, derived from signum, → Anglo-French signer → English sign. Cognition follows Latin cognitio; the observed ign/ogn strings do not establish a shared root here. Deeper signum etymology remains uncertain.",
+    "stages": [
+      {
+        "stage_id": "SIGN-1",
+        "form": "signum / signare",
+        "language": "Latin",
+        "approximate_period": "Antiquity; noun and derived verb",
+        "meaning": "mark, token / mark, sign",
+        "source_refs": [
+          "FS-SIGN",
+          "FS-COGNITION"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "SIGN-2",
+        "form": "signe / signer",
+        "language": "Anglo-French",
+        "approximate_period": "Medieval",
+        "meaning": "sign / mark",
+        "source_refs": [
+          "FS-SIGN",
+          "FS-COGNITION"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      },
+      {
+        "stage_id": "SIGN-3",
+        "form": "sign",
+        "language": "English",
+        "approximate_period": "13th century onward; current senses separately scoped",
+        "meaning": "mark / indication / conventional symbol; sign a name",
+        "source_refs": [
+          "FS-SIGN",
+          "FS-COGNITION"
+        ],
+        "boundary": "No one-character-per-stage rule; listed branches/comparisons are not a single chain."
+      }
+    ],
+    "candidates": [
+      {
+        "chinese_form": "记",
+        "reading": "jì",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "sign",
+        "meaning": "mark / notation in 记号; not every remembering sense",
+        "semantic_fit": "Limited",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-记",
+          "FS-SIGN"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "标",
+        "reading": "biāo",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "sign",
+        "meaning": "mark / identifying marker",
+        "semantic_fit": "High within mark sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-标",
+          "FS-SIGN"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "符",
+        "reading": "fú",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "sign",
+        "meaning": "conventional symbol, as in 符号",
+        "semantic_fit": "High within symbol sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-符",
+          "FS-SIGN"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "象",
+        "reading": "xiàng",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "sign",
+        "meaning": "representation / image",
+        "semantic_fit": "Limited; not every sign is an image",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-象",
+          "FS-SIGN"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      },
+      {
+        "chinese_form": "征",
+        "reading": "zhēng",
+        "chinese_layer": "Modern Mandarin, present day; historical attestations not newly dated",
+        "source_unit": "sign",
+        "meaning": "indication, as in 征兆/特征 (traditional 徵)",
+        "semantic_fit": "High within indication sense",
+        "phonetic_fit": "Low; no sound-based selection",
+        "structural_fit": "Sense-specific comparison; not a universal transformation",
+        "evidence_status": "Mediated online lexical support; mainland print entry Pending",
+        "source_refs": [
+          "FS-ZDIC-征",
+          "FS-SIGN"
+        ],
+        "consonant_group": "Not applicable: no group-derived evidence score",
+        "historical_relation": "Not claimed",
+        "decision": "Retain sense-specific semantic comparison; Not selected Featured"
+      }
+    ],
+    "controls": [
+      "Smoke may be a sign of fire without being a designed symbol.",
+      "Sign your name requires 签名, not a blanket substitution with 象 or 符.",
+      "cognition/ign/ogn spelling is not evidence that cognoscere is an ancestor of sign."
+    ],
+    "rejected": [
+      "ign/ogn as an established shared sign/cognition root",
+      "象 as a whole-word equivalent for every sense"
+    ],
+    "pending": [
+      "Featured Mapping: Pending",
+      "Mainland large print dictionaries: specific edition/entry/page not directly obtained; Pending",
+      "Historical Chinese pronunciation and dating: not inferred from modern pinyin"
+    ],
+    "shortlist": [
+      "记",
+      "标",
+      "符"
+    ],
+    "historical_relation": "Not claimed"
+  },
+  "legacy_migration": {
+    "version": "final-structural-0.1",
+    "baseline_commit": "c0cab379544cc6f55db6daecb6e3a694347415e9",
+    "previous_fields": {
+      "primary_mapping": {
+        "mapping_id": "MAP-sign-primary",
+        "source": {
+          "language": "English",
+          "word": "sign",
+          "pronunciation": "/saɪn/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "符号／标记",
+          "pronunciation": "fúhào / biāojì"
+        },
+        "gloss": {
+          "en": "a mark, token or gesture that conveys meaning",
+          "zh-Hans": "传达意义的符号、标记或动作"
+        },
+        "meaning": {
+          "en": "a mark, token or gesture that conveys meaning. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+          "zh-Hans": "传达意义的符号、标记或动作。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+        "rationale": {
+          "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+          "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+        }
+      },
+      "evidence": {
+        "Historical": {
+          "status": "Established",
+          "confidence": "High",
+          "summary": {
+            "en": "Sign belongs to the Latin signum/signare ‘mark, token’ family. Cognitive/cognition belongs to Latin cognoscere/cognitio ‘know, knowledge’, with the gnosc-/gno- KNOW family. These are separate historical clusters.",
+            "zh-Hans": "sign 属拉丁语 signum／signare“标记、符号”词族；cognitive／cognition 属拉丁语 cognoscere／cognitio“认识、知识”及 gnosc-／gno- KNOW 词族。两者是不同的历史簇。"
+          },
+          "items": [
+            {
+              "evidence_id": "HIST-SIGN-001",
+              "claim": {
+                "en": "Sign belongs to the Latin signum/signare ‘mark, token’ family. Cognitive/cognition belongs to Latin cognoscere/cognitio ‘know, knowledge’, with the gnosc-/gno- KNOW family. These are separate historical clusters.",
+                "zh-Hans": "sign 属拉丁语 signum／signare“标记、符号”词族；cognitive／cognition 属拉丁语 cognoscere／cognitio“认识、知识”及 gnosc-／gno- KNOW 词族。两者是不同的历史簇。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-MW-SIGN",
+                "REF-CNRTL-COGNITION",
+                "REF-CNRTL-COGNITIF"
+              ]
+            },
+            {
+              "evidence_id": "HIST-SIGN-CORRECTION-002",
+              "claim": {
+                "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+                "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+              },
+              "status": "Established",
+              "confidence": "High",
+              "source_refs": [
+                "REF-JL-SIGN-RAW",
+                "REF-MW-SIGN",
+                "REF-CNRTL-COGNITION",
+                "REF-CNRTL-COGNITIF"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-MW-SIGN",
+            "REF-CNRTL-COGNITION",
+            "REF-CNRTL-COGNITIF"
+          ]
+        },
+        "Phonetic-Semantic": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "The written sequences ign/ogn/gn are not interchangeable morphemes. In sign the g is silent in the modern base form, while cognitive has /gn/ distributed by its Latin morphology and modern pronunciation.",
+            "zh-Hans": "书写序列 ign／ogn／gn 不是可互换语素；现代 sign 的 g 不发音，而 cognitive 中相关字母受拉丁形态和现代读音制约。"
+          },
+          "items": [
+            {
+              "evidence_id": "PHONSEM-SIGN-001",
+              "claim": {
+                "en": "The written sequences ign/ogn/gn are not interchangeable morphemes. In sign the g is silent in the modern base form, while cognitive has /gn/ distributed by its Latin morphology and modern pronunciation.",
+                "zh-Hans": "书写序列 ign／ogn／gn 不是可互换语素；现代 sign 的 g 不发音，而 cognitive 中相关字母受拉丁形态和现代读音制约。"
+              },
+              "status": "Candidate",
+              "confidence": "Low",
+              "source_refs": [
+                "REF-JL-SIGN-RAW",
+                "REF-MW-SIGN",
+                "REF-CNRTL-COGNITION",
+                "REF-CNRTL-COGNITIF"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-SIGN-RAW",
+            "REF-MW-SIGN",
+            "REF-CNRTL-COGNITION",
+            "REF-CNRTL-COGNITIF"
+          ]
+        },
+        "Cognitive": {
+          "status": "Interpretive",
+          "confidence": "Medium",
+          "summary": {
+            "en": "A sign can cue recognition and knowledge, so SIGN/MARK → RECOGNIZE → KNOW is a legitimate semantic bridge, not an etymology.",
+            "zh-Hans": "符号可触发辨认与认知，因此 SIGN／MARK → RECOGNIZE → KNOW 是合理语义桥，而不是词源链。"
+          },
+          "items": [
+            {
+              "evidence_id": "COG-SIGN-001",
+              "claim": {
+                "en": "A sign can cue recognition and knowledge, so SIGN/MARK → RECOGNIZE → KNOW is a legitimate semantic bridge, not an etymology.",
+                "zh-Hans": "符号可触发辨认与认知，因此 SIGN／MARK → RECOGNIZE → KNOW 是合理语义桥，而不是词源链。"
+              },
+              "status": "Interpretive",
+              "confidence": "Medium",
+              "source_refs": [
+                "REF-JL-SIGN-RAW"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-SIGN-RAW"
+          ]
+        },
+        "Speculative": {
+          "status": "Candidate",
+          "confidence": "Low",
+          "summary": {
+            "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+            "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+          },
+          "items": [
+            {
+              "evidence_id": "SPEC-SIGN-001",
+              "claim": {
+                "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+                "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+              },
+              "status": "Candidate",
+              "confidence": "High",
+              "source_refs": [
+                "REF-JL-SIGN-RAW",
+                "REF-MW-SIGN",
+                "REF-CNRTL-COGNITION",
+                "REF-CNRTL-COGNITIF"
+              ]
+            }
+          ],
+          "source_refs": [
+            "REF-JL-SIGN-RAW",
+            "REF-MW-SIGN",
+            "REF-CNRTL-COGNITION",
+            "REF-CNRTL-COGNITIF"
+          ]
+        }
+      },
+      "semantic_structure": {
+        "concepts": [
+          "SIGN",
+          "MARK",
+          "KNOW",
+          "COGNITION",
+          "RECOGNITION"
+        ],
+        "relation": "SIGN → MARK → KNOW → COGNITION → RECOGNITION",
+        "status": "Interpretive"
+      },
+      "semantic_associations": [
+        {
+          "association_id": "ASSOC-SIGN-001",
+          "relation": "SIGN → MARK → KNOW → COGNITION → RECOGNITION",
+          "status": "Interpretive",
+          "is_etymological": false
+        }
+      ],
+      "references": [
+        {
+          "reference_id": "REF-JL-SIGN-RAW",
+          "title": "Jinkai Liu: sign source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-SIGN",
+          "title": "Merriam-Webster Dictionary: sign",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/sign",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-COGNITION",
+          "title": "CNRTL/TLFi: étymologie de cognition",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/cognition",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-COGNITIF",
+          "title": "CNRTL/TLFi: étymologie de cognitif",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/cognitif",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Candidate. Priority score 89.6/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Candidate。优先分 89.6/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "signum and cognoscere are not merged into one root; ign/ogn are treated as an authorial consonantal-skeleton hypothesis only.",
+          "zh-Hans": "不把 signum 与 cognoscere 合并成一个词根；ign／ogn 只作为作者辅音骨架假说保留。"
+        }
+      ],
+      "search_terms": [
+        "sign",
+        "signe",
+        "signal",
+        "signature",
+        "cognitive",
+        "cognition",
+        "recognize",
+        "recognition",
+        "认知",
+        "认识",
+        "符号",
+        "标记",
+        "ign",
+        "ogn",
+        "gnoscere"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "featured_mapping_status",
+      "research_candidate_discovery"
+    ]
   }
 }

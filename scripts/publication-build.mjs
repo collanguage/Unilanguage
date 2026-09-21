@@ -9,6 +9,8 @@ execFileSync(process.execPath,['scripts/build-second-pipeline.mjs','--check'],{s
 execFileSync(process.execPath,['--test','--test-name-pattern=Final lexical gate|Final lexical REJECTS|Final lexical reader','tests/final-lexical.test.cjs'],{stdio:'inherit'});
 execFileSync(process.execPath,['scripts/build-final-lexical.mjs','--check'],{stdio:'inherit'});
 execFileSync(process.execPath,['--test','tests/publication-output.test.cjs'],{stdio:'inherit'});
+execFileSync(process.execPath,['--test','--test-name-pattern=Final structural gate|Final structural REJECTS|Final structural reader','tests/final-structural.test.cjs'],{stdio:'inherit'});
+execFileSync(process.execPath,['scripts/build-final-structural.mjs','--check'],{stdio:'inherit'});
 // Publish only tracked files; ignored private research and dependencies never ship.
 const files=execFileSync('git',['ls-files','-z'],{encoding:'utf8'}).split('\0').filter(Boolean);
 const out=preparePublicationOutput(process.cwd());
