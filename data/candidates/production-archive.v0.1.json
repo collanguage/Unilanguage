@@ -1,0 +1,118 @@
+{
+  "batch_id": "PRODUCTION-ARCHIVE-001",
+  "created_at": "2026-09-21",
+  "created_by": "Production acceptance authorized by Jinkai Liu; normalized by Codex",
+  "review_status": "candidate",
+  "source_note": "Canonical Candidate Corpus v0.1; editorial intake approval is not Reviewed/Published/Proven. Legacy corpus is unchanged. Archive is separate.",
+  "records": [
+    {
+      "candidate_id": "RQ-d6832f467fc7",
+      "source_word": "gan",
+      "normalized_form": "gan",
+      "review_status": "archived",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-001-freeze.v0.1.json#RQ-d6832f467fc7",
+      "blockers": [
+        "作者若提供具体source语言、原句、读音可重新路由；无需为了生产批次数量搜索"
+      ],
+      "baseline_record": {
+        "pipeline": "1 — Lexical–Diachronic",
+        "why": "Negative/weak identity case, deliberately not forced into a word or root",
+        "standard": "未确定：无语言、词性、声调及可核source lexical identity",
+        "ipa": "Not established; raw romanization only",
+        "stages": [],
+        "history": null,
+        "freeze": "暂存原文，不把gan命名成真实拉丁/日耳曼词根；gān干燥与gàn做不同，不能自动切成generate来源。",
+        "candidates": [],
+        "controls": [
+          {
+            "form": "干",
+            "reading": "gān",
+            "role": "reading/sense control",
+            "reason": "干燥/盾等义不可与gàn做事混用",
+            "status": "Control only; not a mapping candidate",
+            "historical_relation": "Not claimed",
+            "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+          },
+          {
+            "form": "干",
+            "reading": "gàn",
+            "role": "reading/sense control",
+            "reason": "做不自动等于生育/产生；未确定source不能比较",
+            "status": "Control only; not a mapping candidate",
+            "historical_relation": "Not claimed",
+            "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+          },
+          {
+            "form": "生",
+            "reading": "shēng",
+            "role": "conditional semantic control",
+            "reason": "仅当将来明确source为produce/beget才相关；本轮不将其算gan候选",
+            "status": "Control only; not a mapping candidate",
+            "historical_relation": "Not claimed",
+            "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+          }
+        ],
+        "counterexamples": [
+          "无语言和词性时不能从无声调gan选择任意汉字义。",
+          "generate的历史资料不能为所有gan/gun/gin串提供词源身份。"
+        ],
+        "shortlist": [],
+        "featured": "Pending",
+        "status": "Archive",
+        "pending": [
+          "作者若提供具体source语言、原句、读音可重新路由；无需为了生产批次数量搜索"
+        ],
+        "candidate_id": "RQ-d6832f467fc7",
+        "source_form": "gan",
+        "source_language": "Undetermined raw romanization",
+        "historical_relation": "Not claimed",
+        "publication_status": "Research only; no canonical entry",
+        "benchmark_eligibility": "Benchmark-ineligible after exposure",
+        "author_observation": {
+          "original": [
+            "干 gan，gun、gin，gen，generate。"
+          ],
+          "status": "B — author root/co-occurrence observation; exact raw span below, no uniquely aligned Chinese target. Expanded inventory wording preserved separately.",
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/language-book.v1.0.json",
+              "json_pointer": "/entries/32/source/raw_note",
+              "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+              "origin_type": "repository raw-note"
+            }
+          ],
+          "imported_expanded_wording_preserved": [
+            "干 gan，gun、gin，gen，generate。generate ↔ 干 gan / 根 gen。辅音不变规则同样适用于词根的意义。"
+          ]
+        },
+        "imported_prior_observation": [
+          "干; contextual proposal, reading/sense unresolved"
+        ],
+        "prior_hypotheses": [
+          "g-k-h (provisional spelling only) generation hypothesis; group hit ≠ evidence"
+        ],
+        "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+        "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+        "adjudicated_provenance_status": {
+          "status": "B",
+          "reason": "Original author sound/root/co-occurrence observation exists; no uniquely aligned Chinese target for this exact source identity. Do not borrow nearby word gloss or turn pinyin into an independent source word.",
+          "explicit_author_target": []
+        },
+        "previous_status": "Archive / insufficient value",
+        "structural_fit": "Not assessable: source identity unresolved.",
+        "featured_type": "None selected / Pending",
+        "semantic_fit": "Not assessable",
+        "phonetic_fit": "Not assessable",
+        "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+        "entry_gate": "Archive only; raw source retained",
+        "controls_counterexamples_frozen": true,
+        "rejected": [],
+        "archive_reason": "B-class raw root/co-occurrence observation, not a uniquely identified source-to-Chinese lexical pair. Language, source pronunciation and sense unresolved. Preserve original raw span and expanded editorial wording separately. No new search."
+      }
+    }
+  ]
+}

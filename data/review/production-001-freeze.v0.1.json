@@ -1,0 +1,1347 @@
+{
+  "version": "Production Batch 001 Final Editorial Freeze v0.1",
+  "timestamp": "2026-09-21T17:25:02.259311+00:00",
+  "basis": "Jinkai Liu approved research; this final freeze is submitted for review before intake",
+  "records": [
+    {
+      "pipeline": "2 — Structural-Semantic",
+      "why": "Duration / moment / occasion separation; semantic baseline without expecting a sound winner",
+      "standard": "时间；具体时刻/次数须按语境另译",
+      "ipa": "/taɪm/",
+      "stages": [
+        [
+          "T1",
+          "Old English tīma",
+          "before 1100",
+          "有限时段、持续时间"
+        ],
+        [
+          "T2",
+          "English time",
+          "late Middle English–present",
+          "连续时间、时点与次数等不同用法；本项只研究时间"
+        ]
+      ],
+      "history": "https://www.etymonline.com/word/time",
+      "freeze": "时与期分别表示一般时间和限定时段；段仅在一段时间等构式比较。停止于古英语及现代义；不把更深重建当跨语言证据。",
+      "candidates": [
+        {
+          "form": "时",
+          "reading": "shí",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "T1/T2",
+          "meaning": "时间、时刻",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "/t/与sh不相同；/aɪm/与shi韵尾不合",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "Not a whole-word substitute in every construction",
+          "evidence": {
+            "url": "https://zdic.net/hans/时",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "期",
+          "reading": "qī",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "T1",
+          "meaning": "规定或限定的一段时间",
+          "semantic_fit": "High for bounded period",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "/t/与q、韵核及/m/尾均不匹配",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "不用 jī 周年义；不能覆盖所有 time",
+          "evidence": {
+            "url": "https://zdic.net/hans/期",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "段",
+          "reading": "duàn",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "T1/T2 construction",
+          "meaning": "事物或时间的一节",
+          "semantic_fit": "Medium; construction-scoped",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "t/d组命中但/aɪm/≠/uan/，m/n不同",
+          "generation_method": "expansion",
+          "consonant_group": "d-t-n-l",
+          "disposition": "Retained",
+          "counterevidence": "一段时间中的量词/分段结构，不等于 time",
+          "evidence": {
+            "url": "https://zdic.net/hans/段",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "controls": [
+        {
+          "form": "钛",
+          "reading": "tài",
+          "role": "phonetic",
+          "reason": "tai仅对应time部分声音，金属义无关",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "时期",
+          "reading": "shí qī",
+          "role": "semantic",
+          "reason": "适合period，不覆盖times=次数",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        }
+      ],
+      "counterexamples": [
+        "three times 是三次，不是三个时。",
+        "a time of hardship 是时期，不是一个钟点。"
+      ],
+      "shortlist": [
+        "时",
+        "期"
+      ],
+      "featured": "Pending",
+      "status": "Ready with Featured Pending",
+      "pending": [
+        "古英语具体文本日期及大陆纸本书证；不影响限定现代语义proposal"
+      ],
+      "candidate_id": "RQ-417206bbfa07",
+      "source_form": "time",
+      "source_language": "English",
+      "historical_relation": "Not claimed",
+      "publication_status": "Research only; no canonical entry",
+      "benchmark_eligibility": "Benchmark-ineligible after exposure",
+      "author_observation": {
+        "original": [],
+        "status": "No verbatim author observation in inventory; do not attribute imported extraction to Jinkai Liu",
+        "provenance": [
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-e-batch-001.v0.2.json",
+            "json_pointer": "/records/0",
+            "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+            "origin_type": "Codex prior extraction; not a verbatim author quote"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-f-review-queue.v0.1.json",
+            "json_pointer": "/records/0",
+            "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-g-decision-register.v0.1.json",
+            "json_pointer": "/records/0",
+            "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+          }
+        ]
+      },
+      "imported_prior_observation": [
+        "时间 · temps"
+      ],
+      "prior_hypotheses": [],
+      "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+      "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+      "adjudicated_provenance_status": {
+        "status": "D",
+        "reason": "Package E declares created_by Codex extraction; target is an editorial bilingual/protocol gloss. No original author pair located; this target-instance permanently excluded.",
+        "explicit_author_target": []
+      },
+      "previous_status": "Featured Pending",
+      "structural_fit": "High for duration vs bounded period; 段 only construction-level. Protocol TIME is an analytical category, not a PIE or Chinese etymon.",
+      "featured_type": "None selected / Pending",
+      "semantic_fit": "High for frozen, sense-specific shortlist only",
+      "phonetic_fit": "Low; unchanged",
+      "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+      "entry_gate": "Eligible for later canonical candidate intake, NOT created or published",
+      "controls_counterexamples_frozen": true,
+      "rejected": []
+    },
+    {
+      "pipeline": "2 — Structural-Semantic",
+      "why": "Test correction of imported container schema against actual containment restriction sense",
+      "standard": "控制、抑制、限制扩散（一般限制义；不可数名词）；容纳/包含仅在另列的contain/容器结构层使用",
+      "ipa": "/kənˈteɪnmənt/",
+      "stages": [
+        [
+          "C1",
+          "Latin continēre",
+          "Classical Latin",
+          "持在一起、容纳"
+        ],
+        [
+          "C2",
+          "Old French contenir → English contain",
+          "medieval; English c.1300 onward",
+          "约束/控制与包含义并存"
+        ],
+        [
+          "C3",
+          "containment",
+          "17th century–present",
+          "contain派生名词；现代限制扩散义另列"
+        ]
+      ],
+      "history": "https://www.etymonline.com/word/contain",
+      "freeze": "Primary sense fixed to general restraint/prevention of spread. 遏 è maps to restraint (C2/C3); 容 róng maps only to containing/holding (C1/C2); 困 kùn remains Not selected. Do not force all three into one meaning.",
+      "candidates": [
+        {
+          "form": "容",
+          "reading": "róng",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "C1 / C2 contain",
+          "meaning": "容纳、盛",
+          "semantic_fit": "High for container; Low for restraining spread",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "与kənteɪn全词差异大",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "容纳不等于控制火势、疫情的蔓延",
+          "evidence": {
+            "url": "https://zdic.net/hans/容",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "遏",
+          "reading": "è",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "C2/C3",
+          "meaning": "阻止、抑制",
+          "semantic_fit": "High for restraint",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "无相应辅音或音节轮廓",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "Not a whole-word substitute in every construction",
+          "evidence": {
+            "url": "https://zdic.net/hans/遏",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "困",
+          "reading": "kùn",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "C3 trial",
+          "meaning": "围困、陷入困境",
+          "semantic_fit": "Medium/Low",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "只与非重读kən粗近，忽略teɪnmənt",
+          "generation_method": "expansion",
+          "consonant_group": "g-k-h",
+          "disposition": "Not selected",
+          "counterevidence": "围困对象≠所有containment；特定义域不泛化",
+          "evidence": {
+            "url": "https://zdic.net/hans/困",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "controls": [
+        {
+          "form": "肯",
+          "reading": "kěn",
+          "role": "phonetic",
+          "reason": "仅非重读首音节近似，允肯不是containment",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "控制",
+          "reading": "kòng zhì",
+          "role": "semantic",
+          "reason": "现代限制sense很强，不代表容器几何或同源",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        }
+      ],
+      "counterexamples": [
+        "containment of a fire 不是对火的宽容。",
+        "container capacity 与 containment policy 不能同义评分。"
+      ],
+      "shortlist": [
+        "遏",
+        "容"
+      ],
+      "featured": "Pending",
+      "status": "Ready with Featured Pending",
+      "pending": [
+        "Named Mainland print dictionary entries remain Pending. Nuclear containment structure, plasma confinement and political-policy detail excluded from this intake, not unresolved blockers for the selected general sense."
+      ],
+      "extra_sources": [
+        "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/containment"
+      ],
+      "candidate_id": "RQ-e83d95e92d32",
+      "source_form": "containment",
+      "source_language": "English",
+      "historical_relation": "Not claimed",
+      "publication_status": "Research only; no canonical entry",
+      "benchmark_eligibility": "Benchmark-ineligible after exposure",
+      "author_observation": {
+        "original": [],
+        "status": "No verbatim author observation in inventory; do not attribute imported extraction to Jinkai Liu",
+        "provenance": [
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-e-batch-001.v0.2.json",
+            "json_pointer": "/records/3",
+            "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+            "origin_type": "Codex prior extraction; not a verbatim author quote"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-f-review-queue.v0.1.json",
+            "json_pointer": "/records/3",
+            "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-g-decision-register.v0.1.json",
+            "json_pointer": "/records/3",
+            "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+          }
+        ]
+      },
+      "imported_prior_observation": [
+        "容纳／包含 · contenance／inclusion"
+      ],
+      "prior_hypotheses": [],
+      "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+      "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+      "adjudicated_provenance_status": {
+        "status": "D",
+        "reason": "Package E declares created_by Codex extraction; target is an editorial bilingual/protocol gloss. No original author pair located; this target-instance permanently excluded.",
+        "explicit_author_target": []
+      },
+      "previous_status": "Needs Targeted Verification",
+      "structural_fit": "High for inside/boundary relations as an analytical model; restraint additionally requires preventing spread. Container/inside/enclose/boundary are NOT four ancestors.",
+      "featured_type": "None selected / Pending",
+      "semantic_fit": "High for frozen, sense-specific shortlist only",
+      "phonetic_fit": "Low; unchanged",
+      "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+      "entry_gate": "Eligible for later canonical candidate intake, NOT created or published",
+      "controls_counterexamples_frozen": true,
+      "lexical_identity": {
+        "contain": "English verb: have within / include; also restrain or prevent spreading",
+        "containment": "English noun derived from contain + -ment; keep under control/within limits",
+        "container": "Related derivative meaning an entity that holds contents, not a historical ancestor of containment"
+      },
+      "targeted_sources": [
+        "https://www.collinsdictionary.com/dictionary/english/containment",
+        "https://www.ahdictionary.com/word/search.html?q=contain",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/contain"
+      ],
+      "rejected": [
+        {
+          "form": "困",
+          "disposition": "Not selected",
+          "reason": "围困对象≠所有containment；特定义域不泛化"
+        }
+      ]
+    },
+    {
+      "pipeline": "1 — Lexical–Diachronic",
+      "why": "Motion and emotional effect permit a bounded structural comparison",
+      "standard": "移动；搬动；使感动（分sense）",
+      "ipa": "/muːv/",
+      "stages": [
+        [
+          "M1",
+          "Latin movēre",
+          "Classical Latin",
+          "使运动、移动"
+        ],
+        [
+          "M2",
+          "Old French movoir / Anglo-French mover",
+          "medieval",
+          "移动、使运动"
+        ],
+        [
+          "M3",
+          "English move",
+          "late 13th century–present",
+          "物理移动与情感触动；本轮不规定二者首次出现先后"
+        ]
+      ],
+      "history": "https://www.etymonline.com/word/move",
+      "freeze": "拟以动为Structural-Semantic Candidate：身体运动与情感触动平行。不是两种语言共同历史演变。",
+      "candidates": [
+        {
+          "form": "移",
+          "reading": "yí",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "M1/M3 physical",
+          "meaning": "移动、更换位置",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "无/m/及/v/对应",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "Not a whole-word substitute in every construction",
+          "evidence": {
+            "url": "https://zdic.net/hans/移",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "动",
+          "reading": "dòng",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "M3 physical/emotional",
+          "meaning": "离开静止；使感情变化",
+          "semantic_fit": "High; separate senses",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "/m/与d、/uːv/与ong不近",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "不是所有move构式都用单字动",
+          "evidence": {
+            "url": "https://zdic.net/hans/动",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "搬",
+          "reading": "bān",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "M3 transitive/relocation",
+          "meaning": "移动、迁移",
+          "semantic_fit": "High within scope",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "m/b唇音组但鼻音/塞音不同，韵尾v/n不同",
+          "generation_method": "expansion",
+          "consonant_group": "b-p-m-f",
+          "disposition": "Retained",
+          "counterevidence": "搬重物/搬家适用；被诗感动不译搬",
+          "evidence": {
+            "url": "https://zdic.net/hans/搬",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "controls": [
+        {
+          "form": "木",
+          "reading": "mù",
+          "role": "phonetic",
+          "reason": "m/u部分近似但木材不是移动；缺/v/",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "移动",
+          "reading": "yí dòng",
+          "role": "semantic",
+          "reason": "位置变化标准义，声音弱",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        }
+      ],
+      "counterexamples": [
+        "The speech moved me 不能译演说搬了我。",
+        "move a resolution 为提出议案，本批不纳入动的全义claim。"
+      ],
+      "shortlist": [
+        "动",
+        "移",
+        "搬"
+      ],
+      "featured": "动 dòng",
+      "status": "Ready for canonical candidate entry",
+      "pending": [
+        "具体古汉语动的感情义首证与大陆纸本定位；本proposal仅使用已见现代双义"
+      ],
+      "extra_sources": [
+        "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/move"
+      ],
+      "candidate_id": "RQ-680eb4dd434f",
+      "source_form": "move",
+      "source_language": "English",
+      "historical_relation": "Not claimed",
+      "publication_status": "Research only; no canonical entry",
+      "benchmark_eligibility": "Benchmark-ineligible after exposure",
+      "author_observation": {
+        "original": [],
+        "status": "No verbatim author observation in inventory; do not attribute imported extraction to Jinkai Liu",
+        "provenance": [
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-e-batch-001.v0.2.json",
+            "json_pointer": "/records/5",
+            "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+            "origin_type": "Codex prior extraction; not a verbatim author quote"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-f-review-queue.v0.1.json",
+            "json_pointer": "/records/5",
+            "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-g-decision-register.v0.1.json",
+            "json_pointer": "/records/5",
+            "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+          }
+        ]
+      },
+      "imported_prior_observation": [
+        "移动 · déplacer／bouger"
+      ],
+      "prior_hypotheses": [],
+      "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+      "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+      "adjudicated_provenance_status": {
+        "status": "D",
+        "reason": "Package E declares created_by Codex extraction; target is an editorial bilingual/protocol gloss. No original author pair located; this target-instance permanently excluded.",
+        "explicit_author_target": []
+      },
+      "previous_status": "Ready for Editorial Freeze",
+      "structural_fit": "High: motion and emotional effect in separately attested modern senses; shared historical chronology Not claimed.",
+      "featured_type": "Structural-Semantic Candidate",
+      "semantic_fit": "High for frozen, sense-specific shortlist only",
+      "phonetic_fit": "Low; unchanged",
+      "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+      "entry_gate": "Eligible for later canonical candidate intake, NOT created or published",
+      "controls_counterexamples_frozen": true,
+      "rejected": []
+    },
+    {
+      "pipeline": "1 — Lexical–Diachronic",
+      "why": "Exchange vs alteration; preserve a semantic parallel without inventing common chronology",
+      "standard": "改变/变化；交换/更换（分sense）",
+      "ipa": "/tʃeɪndʒ/",
+      "stages": [
+        [
+          "G1",
+          "Late Latin cambiare",
+          "Late Latin",
+          "交换、易货"
+        ],
+        [
+          "G2",
+          "Old French changier",
+          "medieval",
+          "改变、交换"
+        ],
+        [
+          "G3",
+          "English change",
+          "c.1200–present",
+          "改变、替换；名词零钱独立限制"
+        ]
+      ],
+      "history": "https://www.etymonline.com/word/change",
+      "freeze": "易具有交换/改变双义，作为结构语义平行proposal；声音Low。不采用更深弯曲→交换的确定叙事。",
+      "candidates": [
+        {
+          "form": "易",
+          "reading": "yì",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "G1/G3",
+          "meaning": "交换、改变",
+          "semantic_fit": "High for paired senses",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "英语塞擦音及尾音与yì不匹配",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "不用容易义；不能当口语全构式直接替换",
+          "evidence": {
+            "url": "https://zdic.net/hans/易",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "换",
+          "reading": "huàn",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "G1/G3",
+          "meaning": "交换、更改",
+          "semantic_fit": "High for replacement/exchange",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "起始音、元音与尾辅音不合",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "change colour 可为变色，不必存在对象交换",
+          "evidence": {
+            "url": "https://zdic.net/hans/换",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "controls": [
+        {
+          "form": "称",
+          "reading": "chēng",
+          "role": "phonetic",
+          "reason": "字母ch不是英语/tʃ/全同；称呼不是改变",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "改变",
+          "reading": "gǎi biàn",
+          "role": "semantic",
+          "reason": "alteration强，但不是所有change包括零钱",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        }
+      ],
+      "counterexamples": [
+        "keep the change 的change是零钱。",
+        "change colour 不要求互换两个物体。"
+      ],
+      "shortlist": [
+        "易",
+        "换"
+      ],
+      "featured": "易 yì",
+      "status": "Ready for canonical candidate entry",
+      "pending": [
+        "中文双义年代序列Pending；不要求它与欧洲历史同步"
+      ],
+      "candidate_id": "RQ-6c9011e4d1cb",
+      "source_form": "change",
+      "source_language": "English",
+      "historical_relation": "Not claimed",
+      "publication_status": "Research only; no canonical entry",
+      "benchmark_eligibility": "Benchmark-ineligible after exposure",
+      "author_observation": {
+        "original": [],
+        "status": "No verbatim author observation in inventory; do not attribute imported extraction to Jinkai Liu",
+        "provenance": [
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-e-batch-001.v0.2.json",
+            "json_pointer": "/records/6",
+            "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+            "origin_type": "Codex prior extraction; not a verbatim author quote"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-f-review-queue.v0.1.json",
+            "json_pointer": "/records/6",
+            "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-g-decision-register.v0.1.json",
+            "json_pointer": "/records/6",
+            "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+          }
+        ]
+      },
+      "imported_prior_observation": [
+        "改变／变化 · changer／changement"
+      ],
+      "prior_hypotheses": [],
+      "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+      "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+      "adjudicated_provenance_status": {
+        "status": "D",
+        "reason": "Package E declares created_by Codex extraction; target is an editorial bilingual/protocol gloss. No original author pair located; this target-instance permanently excluded.",
+        "explicit_author_target": []
+      },
+      "previous_status": "Ready for Editorial Freeze",
+      "structural_fit": "High: exchange and alteration polysemy; matching chronological development Not claimed.",
+      "featured_type": "Structural-Semantic Candidate",
+      "semantic_fit": "High for frozen, sense-specific shortlist only",
+      "phonetic_fit": "Low; unchanged",
+      "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+      "entry_gate": "Eligible for later canonical candidate intake, NOT created or published",
+      "controls_counterexamples_frozen": true,
+      "rejected": []
+    },
+    {
+      "pipeline": "2 — Structural-Semantic",
+      "why": "Region / edge / limit distinction, plus a limited labial-group test",
+      "standard": "边界 / 界限",
+      "ipa": "/ˈbaʊndəri/",
+      "stages": [
+        [
+          "B1",
+          "Old French bonde / English bound noun",
+          "12th–14th century",
+          "界限、界标；不是bind过去式"
+        ],
+        [
+          "B2",
+          "English boundary",
+          "1620s–present",
+          "界限或分隔区域的标记/线"
+        ]
+      ],
+      "history": "https://www.etymonline.com/word/boundary",
+      "freeze": "界作为区域分隔和限制结构；畔只保留田界/边侧。boundary不是bound跳跃义的派生。",
+      "candidates": [
+        {
+          "form": "界",
+          "reading": "jiè",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "B1/B2",
+          "meaning": "区域边限、分界",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "首音、韵母和音节数不合",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "Not a whole-word substitute in every construction",
+          "evidence": {
+            "url": "https://zdic.net/hans/界",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "边",
+          "reading": "biān",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "B2",
+          "meaning": "外缘、地区交界",
+          "semantic_fit": "High for edge",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "英语b有声与汉语b不送气不同；/aʊnd/与ian不合",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "在身边可仅表示旁侧，不等于boundary",
+          "evidence": {
+            "url": "https://zdic.net/hans/边",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "畔",
+          "reading": "pàn",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "B1/B2 restricted",
+          "meaning": "田界、边侧",
+          "semantic_fit": "High for field boundary; Medium overall",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "b/p组近但送气、韵母及d/后续音节不同",
+          "generation_method": "expansion",
+          "consonant_group": "b-p-m-f",
+          "disposition": "Retained",
+          "counterevidence": "河畔不必是行政边界；不能全义替换界",
+          "evidence": {
+            "url": "https://zdic.net/hans/畔",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "controls": [
+        {
+          "form": "棒",
+          "reading": "bàng",
+          "role": "phonetic",
+          "reason": "b和鼻尾粗近，棒不是界线",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "界限",
+          "reading": "jiè xiàn",
+          "role": "semantic",
+          "reason": "强语义，不因此提高声音分",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        }
+      ],
+      "counterexamples": [
+        "bound as tied 不进入boundary名词来源链。",
+        "河畔表示附近，不必划分两地。"
+      ],
+      "shortlist": [
+        "界",
+        "边",
+        "畔"
+      ],
+      "featured": "Pending",
+      "status": "Ready with Featured Pending",
+      "pending": [
+        "更深bodina/Gaulish来源仍不确定；大陆纸本田界书证Pending"
+      ],
+      "candidate_id": "RQ-aa23b583d404",
+      "source_form": "boundary",
+      "source_language": "English",
+      "historical_relation": "Not claimed",
+      "publication_status": "Research only; no canonical entry",
+      "benchmark_eligibility": "Benchmark-ineligible after exposure",
+      "author_observation": {
+        "original": [],
+        "status": "No verbatim author observation in inventory; do not attribute imported extraction to Jinkai Liu",
+        "provenance": [
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-e-batch-001.v0.2.json",
+            "json_pointer": "/records/10",
+            "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+            "origin_type": "Codex prior extraction; not a verbatim author quote"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-f-review-queue.v0.1.json",
+            "json_pointer": "/records/10",
+            "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-g-decision-register.v0.1.json",
+            "json_pointer": "/records/10",
+            "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+          }
+        ]
+      },
+      "imported_prior_observation": [
+        "边界 · limite／frontière"
+      ],
+      "prior_hypotheses": [],
+      "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+      "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+      "adjudicated_provenance_status": {
+        "status": "D",
+        "reason": "Package E declares created_by Codex extraction; target is an editorial bilingual/protocol gloss. No original author pair located; this target-instance permanently excluded.",
+        "explicit_author_target": []
+      },
+      "previous_status": "Ready for Editorial Freeze",
+      "structural_fit": "High: regional separation and limits; field-edge 畔 is narrower.",
+      "featured_type": "None selected / Pending",
+      "semantic_fit": "High for frozen, sense-specific shortlist only",
+      "phonetic_fit": "Low; unchanged",
+      "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+      "entry_gate": "Eligible for later canonical candidate intake, NOT created or published",
+      "controls_counterexamples_frozen": true,
+      "rejected": []
+    },
+    {
+      "pipeline": "2 — Structural-Semantic",
+      "why": "Route versus traversal action; keeps uncertain deeper etymology explicit",
+      "standard": "小路 / 路径 / 途径（依sense）",
+      "ipa": "/pɑːθ/ (UK), /pæθ/ (US)",
+      "stages": [
+        [
+          "P1",
+          "Old English paþ / pæþ",
+          "before 1100",
+          "步行形成的路、通道"
+        ],
+        [
+          "P2",
+          "English path",
+          "present",
+          "实体小路或路线；抽象途径作结构比较，不补首次年代"
+        ]
+      ],
+      "history": "https://www.etymonline.com/word/path",
+      "freeze": "径jìng对应小路；途tú对应路程/途径。path更深来源争议不用于推进中文同源。",
+      "candidates": [
+        {
+          "form": "径",
+          "reading": "jìng",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "P1/P2",
+          "meaning": "小路、道路或方法",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "/p/与j及韵尾不相似",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "仅jìng小路义；不用jīng历史经过义混读",
+          "evidence": {
+            "url": "https://zdic.net/hans/径",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "途",
+          "reading": "tú",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "P2",
+          "meaning": "道路",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "英语/p/及/θ/无相应映射",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "图论/计算机专义需另核",
+          "evidence": {
+            "url": "https://zdic.net/hans/途",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "步",
+          "reading": "bù",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "P1 trial",
+          "meaning": "行走、一步",
+          "semantic_fit": "Low for noun route",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "p/b组但元音和θ不同",
+          "generation_method": "expansion",
+          "consonant_group": "b-p-m-f",
+          "disposition": "Semantic mismatch rejected",
+          "counterevidence": "走路动作/单位不是路本身",
+          "evidence": {
+            "url": "https://zdic.net/hans/步",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "controls": [
+        {
+          "form": "帕",
+          "reading": "pà",
+          "role": "phonetic",
+          "reason": "/p/和开元音部分近；缺θ；帕巾不是path",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "小路",
+          "reading": "xiǎo lù",
+          "role": "semantic",
+          "reason": "physical path很强，声音弱",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        }
+      ],
+      "counterexamples": [
+        "path是可走的路线，不是一次step。",
+        "Iranian借词解释存在争议，不作为已证深源。"
+      ],
+      "shortlist": [
+        "径",
+        "途"
+      ],
+      "featured": "Pending",
+      "status": "Ready with Featured Pending",
+      "pending": [
+        "抽象path首次年代；更深词源；计算机/数学分支不纳入本freeze"
+      ],
+      "candidate_id": "RQ-844c76097b97",
+      "source_form": "path",
+      "source_language": "English",
+      "historical_relation": "Not claimed",
+      "publication_status": "Research only; no canonical entry",
+      "benchmark_eligibility": "Benchmark-ineligible after exposure",
+      "author_observation": {
+        "original": [],
+        "status": "No verbatim author observation in inventory; do not attribute imported extraction to Jinkai Liu",
+        "provenance": [
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-e-batch-001.v0.2.json",
+            "json_pointer": "/records/14",
+            "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+            "origin_type": "Codex prior extraction; not a verbatim author quote"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-f-review-queue.v0.1.json",
+            "json_pointer": "/records/14",
+            "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+          },
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/candidates/package-g-decision-register.v0.1.json",
+            "json_pointer": "/records/14",
+            "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+          }
+        ]
+      },
+      "imported_prior_observation": [
+        "路径／道路 · chemin／trajet"
+      ],
+      "prior_hypotheses": [],
+      "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+      "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+      "adjudicated_provenance_status": {
+        "status": "D",
+        "reason": "Package E declares created_by Codex extraction; target is an editorial bilingual/protocol gloss. No original author pair located; this target-instance permanently excluded.",
+        "explicit_author_target": []
+      },
+      "previous_status": "Ready for Editorial Freeze",
+      "structural_fit": "High: physical route / way of proceeding; no invented chronology for abstract senses.",
+      "featured_type": "None selected / Pending",
+      "semantic_fit": "High for frozen, sense-specific shortlist only",
+      "phonetic_fit": "Low; unchanged",
+      "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+      "entry_gate": "Eligible for later canonical candidate intake, NOT created or published",
+      "controls_counterexamples_frozen": true,
+      "rejected": [
+        {
+          "form": "步",
+          "disposition": "Semantic mismatch rejected",
+          "reason": "走路动作/单位不是路本身"
+        }
+      ]
+    },
+    {
+      "pipeline": "1 — Lexical–Diachronic",
+      "why": "L hypothesis test with explicit lexeme/cluster separation",
+      "standard": "发光的、反射光而明亮的／明亮的（形容词；限定物理光义）",
+      "ipa": "/ˈluːmɪnəs/",
+      "stages": [
+        [
+          "L1",
+          "Latin lumen / luminis → luminosus",
+          "Latin",
+          "光；充满光/发亮"
+        ],
+        [
+          "L2",
+          "English luminous",
+          "early 15th century–present",
+          "发光或明亮"
+        ]
+      ],
+      "history": "https://www.etymonline.com/word/luminous",
+      "freeze": "亮 liàng / 明 míng retained for brightness; 朗 lǎng remains a limited Research candidate and outside shortlist. None is a whole-word phonetic match. Featured Pending. Reflected brightness is within dictionary sense, so it is not by itself a rejection; the emitting-only reading remains narrower.",
+      "candidates": [
+        {
+          "form": "亮",
+          "reading": "liàng",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "L2",
+          "meaning": "明、有光",
+          "semantic_fit": "High for bright",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "只有/l/相同，/uːmɪnəs/和iang不合",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "可符合反光/明亮义；不能据此推断自身发光。声音只有/l/局部相似。",
+          "evidence": {
+            "url": "https://zdic.net/hans/亮",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "明",
+          "reading": "míng",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "L2",
+          "meaning": "亮、清楚",
+          "semantic_fit": "High for bright",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "不是l起首；不能挑英语内部m当词首相同",
+          "generation_method": "semantic",
+          "consonant_group": "None",
+          "disposition": "Retained",
+          "counterevidence": "Not a whole-word substitute in every construction",
+          "evidence": {
+            "url": "https://zdic.net/hans/明",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "朗",
+          "reading": "lǎng",
+          "chinese_layer": "Modern Mandarin; modern reading, no reconstructed historical pronunciation",
+          "approximate_period": "Present-day usage; older citations only where separately noted",
+          "target_stage": "L2",
+          "meaning": "明亮、光线充足",
+          "semantic_fit": "Medium; scoped brightness",
+          "phonetic_fit": "Low",
+          "phonetic_reason": "仅/l/相同，其余音节不匹配",
+          "generation_method": "expansion",
+          "consonant_group": "same-onset L hypothesis; not group validation",
+          "disposition": "Retained",
+          "counterevidence": "朗读的声音清楚义不等于发光",
+          "evidence": {
+            "url": "https://zdic.net/hans/朗",
+            "section": "基本解释 / 详细解释; 國語辭典 not used as Mainland evidence",
+            "status": "Online lexical support; not print-dictionary verification"
+          },
+          "mainland_evidence": "Online resource; named Mainland print dictionary entry/page Pending",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "controls": [
+        {
+          "form": "鹿",
+          "reading": "lù",
+          "role": "phonetic",
+          "reason": "/lu/局部近，动物义不支持light",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "发光的",
+          "reading": "fā guāng de",
+          "role": "semantic",
+          "reason": "标准译义强而声音不匹配",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        }
+      ],
+      "counterexamples": [
+        "L开头的词不都指光；鹿lù也不支持L必然光义。",
+        "多个同族light词不能重复算独立统计支持。"
+      ],
+      "shortlist": [
+        "亮",
+        "明"
+      ],
+      "featured": "Pending",
+      "status": "Ready with Featured Pending",
+      "pending": [
+        "Mainland print entry references Pending; deeper reconstruction not needed for this selected modern sense. L→光 remains Untested outside the accepted lexical claim; LIGHT literary layer supplies no evidence."
+      ],
+      "extra_sources": [
+        "https://www.collinsdictionary.com/dictionary/english-chinese/luminous"
+      ],
+      "candidate_id": "RQ-894dc4c4c357",
+      "source_form": "luminous",
+      "source_language": "English",
+      "historical_relation": "Not claimed",
+      "publication_status": "Research only; no canonical entry",
+      "benchmark_eligibility": "Benchmark-ineligible after exposure",
+      "author_observation": {
+        "original": [],
+        "status": "No verbatim author observation in inventory; do not attribute imported extraction to Jinkai Liu",
+        "provenance": [
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/hypotheses/l-light-semantic-cluster.v0.1.json",
+            "json_pointer": "/positive_observations/4",
+            "file_sha256": "8805a5791307ef86daf7c2c9c08c6362b8dd3dfc5c244af9f5e632551cb95ef6",
+            "origin_type": "repository experimental motivation/control"
+          }
+        ]
+      },
+      "imported_prior_observation": [],
+      "prior_hypotheses": [
+        "UNI-L-LIGHT-CLUSTER-001: Untested"
+      ],
+      "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+      "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+      "adjudicated_provenance_status": {
+        "status": "E",
+        "reason": "L-hypothesis positive motivation/derivative record has no explicit Chinese target or author quote; classify provenance uncertain rather than invent authorship.",
+        "explicit_author_target": []
+      },
+      "previous_status": "Needs Targeted Verification",
+      "structural_fit": "Medium: brightness correspondence; no experiment validation, no literary proof.",
+      "featured_type": "None selected / Pending",
+      "semantic_fit": "High for frozen, sense-specific shortlist only",
+      "phonetic_fit": "Low; unchanged",
+      "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+      "entry_gate": "Eligible for later canonical candidate intake, NOT created or published",
+      "controls_counterexamples_frozen": true,
+      "lexical_identity": {
+        "luminous": "English adjective, Latin luminosus from lumen/luminis; not a derivation from modern English light",
+        "light": "Brightness noun / bright adjective have an Old English history; light meaning not heavy is a different lexical identity",
+        "relation_boundary": "Luminous and brightness-light may be historically related at a deeper Indo-European family level; this is not direct descent, not a Chinese cognacy claim, and not evidence for a universal L hypothesis."
+      },
+      "targeted_sources": [
+        "https://www.collinsdictionary.com/dictionary/english/luminous",
+        "https://www.collinsdictionary.com/dictionary/english/light"
+      ],
+      "rejected": []
+    },
+    {
+      "pipeline": "1 — Lexical–Diachronic",
+      "why": "Negative/weak identity case, deliberately not forced into a word or root",
+      "standard": "未确定：无语言、词性、声调及可核source lexical identity",
+      "ipa": "Not established; raw romanization only",
+      "stages": [],
+      "history": null,
+      "freeze": "暂存原文，不把gan命名成真实拉丁/日耳曼词根；gān干燥与gàn做不同，不能自动切成generate来源。",
+      "candidates": [],
+      "controls": [
+        {
+          "form": "干",
+          "reading": "gān",
+          "role": "reading/sense control",
+          "reason": "干燥/盾等义不可与gàn做事混用",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "干",
+          "reading": "gàn",
+          "role": "reading/sense control",
+          "reason": "做不自动等于生育/产生；未确定source不能比较",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        },
+        {
+          "form": "生",
+          "reading": "shēng",
+          "role": "conditional semantic control",
+          "reason": "仅当将来明确source为produce/beget才相关；本轮不将其算gan候选",
+          "status": "Control only; not a mapping candidate",
+          "historical_relation": "Not claimed",
+          "evidence": "Analyst scope counterexample; no historical claim; specialist lexical verification Pending"
+        }
+      ],
+      "counterexamples": [
+        "无语言和词性时不能从无声调gan选择任意汉字义。",
+        "generate的历史资料不能为所有gan/gun/gin串提供词源身份。"
+      ],
+      "shortlist": [],
+      "featured": "Pending",
+      "status": "Archive",
+      "pending": [
+        "作者若提供具体source语言、原句、读音可重新路由；无需为了生产批次数量搜索"
+      ],
+      "candidate_id": "RQ-d6832f467fc7",
+      "source_form": "gan",
+      "source_language": "Undetermined raw romanization",
+      "historical_relation": "Not claimed",
+      "publication_status": "Research only; no canonical entry",
+      "benchmark_eligibility": "Benchmark-ineligible after exposure",
+      "author_observation": {
+        "original": [
+          "干 gan，gun、gin，gen，generate。"
+        ],
+        "status": "B — author root/co-occurrence observation; exact raw span below, no uniquely aligned Chinese target. Expanded inventory wording preserved separately.",
+        "provenance": [
+          {
+            "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+            "path": "data/language-book.v1.0.json",
+            "json_pointer": "/entries/32/source/raw_note",
+            "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+            "origin_type": "repository raw-note"
+          }
+        ],
+        "imported_expanded_wording_preserved": [
+          "干 gan，gun、gin，gen，generate。generate ↔ 干 gan / 根 gen。辅音不变规则同样适用于词根的意义。"
+        ]
+      },
+      "imported_prior_observation": [
+        "干; contextual proposal, reading/sense unresolved"
+      ],
+      "prior_hypotheses": [
+        "g-k-h (provisional spelling only) generation hypothesis; group hit ≠ evidence"
+      ],
+      "evidence_boundary": "Modern English vs modern Mandarin comparison; historical orthography is not historical IPA. Online basic definitions support senses, not cognacy. Named Mainland print editions and independently checked early attestations remain Pending.",
+      "reader_proposal": "Standard meaning + Featured (or Pending) + at most 1–3 scoped mappings; full controls in Research. Proposal only, not a page.",
+      "adjudicated_provenance_status": {
+        "status": "B",
+        "reason": "Original author sound/root/co-occurrence observation exists; no uniquely aligned Chinese target for this exact source identity. Do not borrow nearby word gloss or turn pinyin into an independent source word.",
+        "explicit_author_target": []
+      },
+      "previous_status": "Archive / insufficient value",
+      "structural_fit": "Not assessable: source identity unresolved.",
+      "featured_type": "None selected / Pending",
+      "semantic_fit": "Not assessable",
+      "phonetic_fit": "Not assessable",
+      "evidence_status": "Online lexical support; underlying historical summaries inherited; Mainland print entries and precise first attestations Pending. No confidence upgrade from editorial freeze.",
+      "entry_gate": "Archive only; raw source retained",
+      "controls_counterexamples_frozen": true,
+      "rejected": [],
+      "archive_reason": "B-class raw root/co-occurrence observation, not a uniquely identified source-to-Chinese lexical pair. Language, source pronunciation and sense unresolved. Preserve original raw span and expanded editorial wording separately. No new search."
+    }
+  ]
+}
