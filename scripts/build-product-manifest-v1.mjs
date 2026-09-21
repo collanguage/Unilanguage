@@ -9,6 +9,7 @@ const authoredEntryFiles = fs.readdirSync(path.join(root, "data", "entries"))
   .sort()
   .map((name) => `data/entries/${name}`);
 const files = [
+  "scripts/prepare-publication-output.mjs", "tests/publication-output.test.cjs",
   "scripts/build-final-lexical.mjs", "scripts/validate-final-lexical.mjs", "tests/final-lexical.test.cjs", "tests/final-lexical-compat.cjs", "data/review/final-lexical-freeze.v1.json", "data/review/final-lexical-discovery.v1.json", "docs/research/final-lexical-freeze.md", "words/convent.html", "words/fil.html", "words/marchand.html", "words/montrer.html",
   "tests/second-pipeline-compat.cjs", "docs/research/second-pipeline-migration-v0.1.md",
   "js/second-pipeline.js", "scripts/build-second-pipeline.mjs", "scripts/validate-second-pipeline.mjs", "scripts/validate-schema.mjs", "scripts/publication-build.mjs", "tests/second-pipeline.test.cjs", "data/review/second-pipeline-freeze.v1.json", "data/review/second-pipeline-page-fragments.v1.json", "docs/research/second-pipeline-final-freeze.md", "words/at.html", "words/figure.html", "words/water.html", "package.json", "pnpm-lock.yaml", "netlify.toml",

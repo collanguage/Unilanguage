@@ -10,6 +10,16 @@
   "candidate_mapping_count": 25,
   "files": [
     {
+      "path": "scripts/prepare-publication-output.mjs",
+      "bytes": 694,
+      "sha256": "9da024b8631b26a88204817ea40ff02fb52941f148f2f9b45679debbfe121b3d"
+    },
+    {
+      "path": "tests/publication-output.test.cjs",
+      "bytes": 1916,
+      "sha256": "35b04abed040c202b29753a3a588382663d220a07322636475e8d59d664de258"
+    },
+    {
       "path": "scripts/build-final-lexical.mjs",
       "bytes": 6447,
       "sha256": "e6b506d05b4840be37c34dfa897e176f29926f77db78f71d33387882218cc333"
@@ -96,8 +106,8 @@
     },
     {
       "path": "scripts/publication-build.mjs",
-      "bytes": 1680,
-      "sha256": "5a6ab1bdca11efb22dfa6faddf00256b0cbd57ee1c75ddc5625b9b46ea8536bd"
+      "bytes": 1806,
+      "sha256": "3b873ae5375a4f0705e607115d623903e53e1693cf5f7d2b23ba8680416c8042"
     },
     {
       "path": "tests/second-pipeline.test.cjs",
