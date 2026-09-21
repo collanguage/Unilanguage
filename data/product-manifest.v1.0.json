@@ -1,6 +1,6 @@
 {
   "product": "Unilanguage Language Book + Semantic Mapper",
-  "version": "1.2.45",
+  "version": "1.2.46",
   "dataset_version": "1.2.23",
   "created_at": "2026-09-20",
   "canonical_dataset": "data/language-book.v1.0.json",
@@ -10,9 +10,64 @@
   "candidate_mapping_count": 25,
   "files": [
     {
+      "path": "scripts/build-final-lexical.mjs",
+      "bytes": 6447,
+      "sha256": "e6b506d05b4840be37c34dfa897e176f29926f77db78f71d33387882218cc333"
+    },
+    {
+      "path": "scripts/validate-final-lexical.mjs",
+      "bytes": 1774,
+      "sha256": "2e4c03d2d17c39bf9f995d9545122e4a1a987472bf150ba69da431e39154bd6a"
+    },
+    {
+      "path": "tests/final-lexical.test.cjs",
+      "bytes": 4975,
+      "sha256": "c9935bfd038b6436f198054d2762e8077ee2ffae1e2425e3109731eed817abb7"
+    },
+    {
+      "path": "tests/final-lexical-compat.cjs",
+      "bytes": 273,
+      "sha256": "75587436a8aa933ec983265c4c331c7e461545adb58d55183426f1a3bd0e6cf6"
+    },
+    {
+      "path": "data/review/final-lexical-freeze.v1.json",
+      "bytes": 249274,
+      "sha256": "5bad75ecdf2a60d7e2798a86cf0168749f77b32c10506d1cf18e1f61bdf84d4b"
+    },
+    {
+      "path": "data/review/final-lexical-discovery.v1.json",
+      "bytes": 112064,
+      "sha256": "4601201b3133a2a127f139ad76201c8c5f52a4aa14094e07ba00ea3ec40d9cf1"
+    },
+    {
+      "path": "docs/research/final-lexical-freeze.md",
+      "bytes": 9234,
+      "sha256": "0335360556db1cd41b6df3c93ff64c3481a69d58300b4b7951f8b0ac716a688f"
+    },
+    {
+      "path": "words/convent.html",
+      "bytes": 10823,
+      "sha256": "d12ff6747c25d834b1e2bd3f008d9459c95b9e23014e358f0da0410341c96e3d"
+    },
+    {
+      "path": "words/fil.html",
+      "bytes": 10449,
+      "sha256": "517559d5408b4d231751be374a4570fd989e0a8b5cbe7e7573b367902bcf5583"
+    },
+    {
+      "path": "words/marchand.html",
+      "bytes": 10502,
+      "sha256": "e8c6b873eeeb045145e2c354c2c8b10392e84f0410d022d93510f9229087a0c4"
+    },
+    {
+      "path": "words/montrer.html",
+      "bytes": 10922,
+      "sha256": "6d3ca24aa94532f533c4dd0d8a16cc9c41fc058a8411c4fc09b63c0b781b8bf8"
+    },
+    {
       "path": "tests/second-pipeline-compat.cjs",
-      "bytes": 700,
-      "sha256": "bf439ed82da072f7cfcb5ff4f3b3870a7797b4b7c201d6a699100869dfa4ff0c"
+      "bytes": 814,
+      "sha256": "7d7de8b57d005a054eebb71a1b8c562dd156a2a27fd913c6ab4ac9d7f86c53f0"
     },
     {
       "path": "docs/research/second-pipeline-migration-v0.1.md",
@@ -41,13 +96,13 @@
     },
     {
       "path": "scripts/publication-build.mjs",
-      "bytes": 1408,
-      "sha256": "783b740094c4fb9679ffb3c94384197c2c2bea88de4f38a88b88e98a69de4620"
+      "bytes": 1680,
+      "sha256": "5a6ab1bdca11efb22dfa6faddf00256b0cbd57ee1c75ddc5625b9b46ea8536bd"
     },
     {
       "path": "tests/second-pipeline.test.cjs",
-      "bytes": 6582,
-      "sha256": "48fcfe926ea889dcd5b54ad03e6a13a1f4afabbf4647adb129ae09b7c634424b"
+      "bytes": 6792,
+      "sha256": "5b32e6b695b7e84cf270cdd1aa0759b137c057ceb160261852885f1b238241f0"
     },
     {
       "path": "data/review/second-pipeline-freeze.v1.json",
@@ -301,8 +356,8 @@
     },
     {
       "path": "tests/legacy-research-view.cjs",
-      "bytes": 7737,
-      "sha256": "f6fe2dfe023b6662ea727ce34f0bb8216a92098826ffda0f2f37df38bb20fa4e"
+      "bytes": 8492,
+      "sha256": "2975db2dc236d21a2454ade6b6be3a95dd11b055e52a595c3c72eb2c8850a35b"
     },
     {
       "path": "docs/research/legacy-migration-pilot-v0.1.md",
@@ -356,8 +411,8 @@
     },
     {
       "path": "data/language-book.v1.0.json",
-      "bytes": 3232402,
-      "sha256": "88e96cdb2c9f7f1974179f8b8e8a7472ac4ea176617b497c0380ac508d0ceba0"
+      "bytes": 3447115,
+      "sha256": "e3b1d32f41a464968206becc13c6aab1f9bb10ec6ddf40e41cf906e2d58a9c82"
     },
     {
       "path": "data/entries/a-indefinite-article.v1.json",
@@ -466,8 +521,8 @@
     },
     {
       "path": "data/entries/convent.v1.json",
-      "bytes": 17696,
-      "sha256": "f351ef1fee05a0da3a88c615be3493d9714a02fee8b88eab930dc5131fbda0fd"
+      "bytes": 67784,
+      "sha256": "5fd8e37f87d8a10c22fa5cb7b023880451a5efccd615ecdba30a1167de13f9a7"
     },
     {
       "path": "data/entries/figure.v1.json",
@@ -476,8 +531,8 @@
     },
     {
       "path": "data/entries/fil.v1.json",
-      "bytes": 14951,
-      "sha256": "7cfd0d7e51fd4c25f93636f3139a89b89562b2c71c3597b6e3e522fda3ff9378"
+      "bytes": 62413,
+      "sha256": "b9098abdcbdebb9f9d623bc11e3395d7a40fd628dda135bd966d15cf5232d993"
     },
     {
       "path": "data/entries/form.v1.json",
@@ -511,8 +566,8 @@
     },
     {
       "path": "data/entries/marchand.v1.json",
-      "bytes": 14675,
-      "sha256": "72e43edb716f6dbbc48ed07f3016e62bb641cb71ec145817758b8395693e6259"
+      "bytes": 64533,
+      "sha256": "a054eb23b3a6b4772d8779a4896645336d2d09825767aa09ac067e354afc4612"
     },
     {
       "path": "data/entries/media.v1.json",
@@ -521,8 +576,8 @@
     },
     {
       "path": "data/entries/montrer.v1.json",
-      "bytes": 14937,
-      "sha256": "7a6693fda0365373ef6f29ee671513d3007e6b7307b565ea4a4add32b0ba7d09"
+      "bytes": 63310,
+      "sha256": "e1918f5faeb21fba76325eda6093b5a10c4efe30b84482c19b2efe4818440eb1"
     },
     {
       "path": "data/entries/namcha-barwa.v1.json",
@@ -606,8 +661,8 @@
     },
     {
       "path": "scripts/validate-language-book-v1.mjs",
-      "bytes": 19611,
-      "sha256": "15a37621b21393469dc4ff9688caeb0b906e046d1d50b24522f72e3eda00ec2c"
+      "bytes": 19717,
+      "sha256": "0f5c2ec1ac0289d9c4c4ed7663e408a5867cfdca32d9f6ef6e15baf027287193"
     },
     {
       "path": "tests/language-book-v1.test.cjs",
@@ -946,8 +1001,8 @@
     },
     {
       "path": "sitemap.xml",
-      "bytes": 5384,
-      "sha256": "bda1cb40f8032161c2172e607589ae6baa13598b57fd6965c6a2cf35355f2d04"
+      "bytes": 5625,
+      "sha256": "938bf4cd1e6156f9ae5633a71b7222b9ed2caa7bd683ac03a592d27e791df9e0"
     }
   ]
 }

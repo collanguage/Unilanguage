@@ -2,8 +2,8 @@
   "id": "LB-fr-fil-filiere-fille-019",
   "slug": "fil",
   "title": {
-    "en": "fil · Batch 001",
-    "zh-Hans": "fil · 数据扩展 Batch 001"
+    "en": "FIL · 线／丝（依语境）",
+    "zh-Hans": "FIL · 线／丝（依语境）"
   },
   "languages": [
     {
@@ -46,10 +46,10 @@
       "zh-Hans": "线、丝或细长条状物"
     },
     "meaning": {
-      "en": "thread, wire or a long thin strand. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
-      "zh-Hans": "线、丝或细长条状物。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+      "en": "fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。 Featured Mapping: Pending.",
+      "zh-Hans": "fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。 Featured Mapping: Pending."
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured Pending",
     "rationale": {
       "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
       "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
@@ -208,13 +208,11 @@
   ],
   "semantic_structure": {
     "concepts": [
-      "THREAD",
-      "LINE",
-      "SEQUENCE",
-      "CHANNEL",
-      "DAUGHTER/GIRL"
+      "THREAD / FILAMENT; literal and figurative uses",
+      "THREAD / fine strand; figurative continuity",
+      "THREAD / WIRE / FILAMENT; contextual LINE / CONTINUITY"
     ],
-    "relation": "THREAD → LINE → SEQUENCE → CHANNEL → DAUGHTER/GIRL",
+    "relation": "fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。",
     "status": "Interpretive"
   },
   "related_words": [
@@ -376,6 +374,78 @@
       "url": "https://www.cnrtl.fr/etymologie/fille",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "FLB-FL-CN",
+      "title": "CNRTL/TLFi: fil",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/lexicographie/fil",
+      "path": null,
+      "provenance": "Focused review 2026-09-20: specific online entry/history; some CNRTL history retrieved through indexed entry text. No fabricated historical IPA."
+    },
+    {
+      "reference_id": "FLB-FL-DER",
+      "title": "CNRTL/TLFi: filière",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/fili%C3%A8re",
+      "path": null,
+      "provenance": "Focused review 2026-09-20: specific online entry/history; some CNRTL history retrieved through indexed entry text. No fabricated historical IPA."
+    },
+    {
+      "reference_id": "FLB-FL-NEG",
+      "title": "Académie française: fille",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/definition/academie9/fille",
+      "path": null,
+      "provenance": "Focused review 2026-09-20: specific online entry/history; some CNRTL history retrieved through indexed entry text. No fabricated historical IPA."
+    },
+    {
+      "reference_id": "FLB-FL-REVIEW",
+      "title": "Final Tier D Batch 1 — focused Discovery and editorial freeze",
+      "type": "editorial research",
+      "url": null,
+      "path": "docs/research/final-lexical-freeze.md",
+      "provenance": "Codex delegated review; approved conditional implementation scope, not independent historical proof."
+    },
+    {
+      "reference_id": "FLB-FL-ZH-01",
+      "title": "汉典：线（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/线",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-FL-ZH-02",
+      "title": "汉典：丝（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/丝",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-FL-ZH-03",
+      "title": "汉典：缕（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/缕",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-FL-ZH-04",
+      "title": "汉典：肥（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/肥",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-FL-ZH-05",
+      "title": "Editorial semantic control: 细丝",
+      "type": "editorial comparison",
+      "url": null,
+      "path": "docs/research/final-lexical-freeze.md",
+      "provenance": "Transparent standard-translation/compositional control; dedicated printed entry Pending."
     }
   ],
   "author": "Jinkai Liu",
@@ -393,6 +463,10 @@
     {
       "en": "Fille is a negative calibration: similar spelling does not make it part of the fil ‘thread’ family.",
       "zh-Hans": "fille 是负校准案例：拼写相似不使它成为 fil“线”词族成员。"
+    },
+    {
+      "en": "Final Tier D Batch 1: fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。 大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。",
+      "zh-Hans": "Final Tier D Batch 1: fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。 大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
     }
   ],
   "search_terms": [
@@ -408,9 +482,10 @@
     "thread",
     "line",
     "sector",
-    "daughter"
+    "daughter",
+    "缕"
   ],
-  "page": null,
+  "page": "words/fil.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",
@@ -424,5 +499,1088 @@
     "ordinal": 6,
     "disposition": "Reviewed",
     "priority_score": 90
+  },
+  "standard_translation": {
+    "source": "fil",
+    "target": "线／丝（依语境）",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "FLB-FL-CN"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-fil-primary",
+    "source": {
+      "language": "French",
+      "word": "fil",
+      "pronunciation": "/fil/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "线／丝",
+      "pronunciation": "xiàn / sī"
+    },
+    "gloss": {
+      "en": "thread, wire or a long thin strand",
+      "zh-Hans": "线、丝或细长条状物"
+    },
+    "meaning": {
+      "en": "thread, wire or a long thin strand. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+      "zh-Hans": "线、丝或细长条状物。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "rationale": {
+      "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+      "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "FL1",
+        "form": "filum",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Classical Latin",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-FL-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "THREAD / FILAMENT; literal and figurative uses",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "FLB-FL-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Historical bridge only; Chinese Mapping: Not selected"
+      },
+      {
+        "stage_id": "FL2",
+        "form": "fil",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Old French",
+          "code": null
+        },
+        "period": {
+          "label": "12th century attestations; sequence/continuity already medieval",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-FL-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "THREAD / fine strand; figurative continuity",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "FL1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "Documented source relation; no claim of Chinese contact or parallel chronology.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "FLB-FL-CN"
+            ]
+          }
+        ],
+        "source_refs": [
+          "FLB-FL-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Historical bridge only; Chinese Mapping: Not selected"
+      },
+      {
+        "stage_id": "FL3",
+        "form": "fil",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "French",
+          "code": null
+        },
+        "period": {
+          "label": "Modern reference",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-FL-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "THREAD / WIRE / FILAMENT; contextual LINE / CONTINUITY",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "FL3-IPA",
+            "value": "/fil/",
+            "notation": "IPA",
+            "phonological_layer": "Modern French",
+            "period": {
+              "label": "Modern dictionary reference",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-FL-CN"
+              ]
+            },
+            "variety": "French",
+            "system": "CNRTL/TLFi transcription; not reconstructed Latin",
+            "status": "documented",
+            "source_refs": [
+              "FLB-FL-CN"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "FL2",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_continuation",
+              "description": "Documented source relation; no claim of Chinese contact or parallel chronology.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "FLB-FL-CN"
+            ]
+          }
+        ],
+        "source_refs": [
+          "FLB-FL-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Useful semantic comparison"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-FL3",
+        "stage_ref": "FL3",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "THREAD / WIRE / FILAMENT; contextual LINE / CONTINUITY",
+          "excluded_senses": [
+            "fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Modern reference only"
+            ],
+            "semantic_seeds": [
+              "THREAD / WIRE / FILAMENT; contextual LINE / CONTINUITY"
+            ],
+            "consonant_hypotheses": [
+              "b-p-m-f"
+            ],
+            "note": "One focused pass: three serious candidates + two controls per entry. No exhaustive dialect or reconstructed-sound search."
+          },
+          "run_refs": [
+            "FLB-FL-REVIEW"
+          ],
+          "stop_reason": "Bound reached; no forced Featured. Paper sources and historical phonetics remain Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "FLB-FL-C01",
+            "family_key": "final-lexical-fil",
+            "target": {
+              "form": "线",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-FL-ZH-01"
+                ]
+              },
+              "meaning": {
+                "gloss": "细长柔软的丝、棉、麻、金属等制成物",
+                "pos": null,
+                "constraints": [
+                  "几何线、线路等另按构式；不覆盖 fil 全部隐喻"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-FL-C01",
+                  "value": "xiàn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-FL-ZH-01"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-FL-ZH-01"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-FL-ZH-01"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "FL3",
+              "source_pronunciation_ref": "FL3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-FL-C01",
+              "source_span": "fil",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "细长柔软的丝、棉、麻、金属等制成物；几何线、线路等另按构式；不覆盖 fil 全部隐喻",
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-01"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "/f/ versus Mandarin x /ɕ/; /i/ versus /jɛn/; final /l/ versus /n/; both one syllable but no close match.",
+              "features": {
+                "onset": "/f/ versus Mandarin x /ɕ/; /i/ versus /jɛn/; final /l/ versus /n/; both one syllable but no close match.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-01"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-FL-ZH-01"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-FL-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "几何线、线路等另按构式；不覆盖 fil 全部隐喻",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-FL-C02",
+            "family_key": "final-lexical-fil",
+            "target": {
+              "form": "丝",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-FL-ZH-02"
+                ]
+              },
+              "meaning": {
+                "gloss": "蚕丝；丝状细物",
+                "pos": null,
+                "constraints": [
+                  "蚕丝是材料子类，不能把每个 fil 译为丝"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-FL-C02",
+                  "value": "sī",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-FL-ZH-02"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-FL-ZH-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-FL-ZH-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "FL3",
+              "source_pronunciation_ref": "FL3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-FL-C02",
+              "source_span": "fil",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "蚕丝；丝状细物；蚕丝是材料子类，不能把每个 fil 译为丝",
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-02"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "/f/ versus /s/; French /i/ differs from Mandarin syllabic apical vowel; final /l/ absent.",
+              "features": {
+                "onset": "/f/ versus /s/; French /i/ differs from Mandarin syllabic apical vowel; final /l/ absent.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-02"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-FL-ZH-02"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-FL-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "蚕丝是材料子类，不能把每个 fil 译为丝",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-FL-C03",
+            "family_key": "final-lexical-fil",
+            "target": {
+              "form": "缕",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-FL-ZH-03"
+                ]
+              },
+              "meaning": {
+                "gloss": "线；细长线状物",
+                "pos": null,
+                "constraints": [
+                  "名词义，不把“一缕”的量词功能无条件移给 fil"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-FL-C03",
+                  "value": "lǚ",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-FL-ZH-03"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-FL-ZH-03"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-FL-ZH-03"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "FL3",
+              "source_pronunciation_ref": "FL3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-FL-C03",
+              "source_span": "fil",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "线；细长线状物；名词义，不把“一缕”的量词功能无条件移给 fil",
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-03"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Mandarin initial /l/ is not French final /l/ correspondence; /y/ differs from /i/; /f/ absent.",
+              "features": {
+                "onset": "Mandarin initial /l/ is not French final /l/ correspondence; /y/ differs from /i/; /f/ absent.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-03"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-FL-ZH-03"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-FL-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "名词义，不把“一缕”的量词功能无条件移给 fil",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "名词义，不把“一缕”的量词功能无条件移给 fil",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-FL-C04",
+            "family_key": "final-lexical-fil",
+            "target": {
+              "form": "肥",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-FL-ZH-04"
+                ]
+              },
+              "meaning": {
+                "gloss": "脂肪多；肥胖",
+                "pos": null,
+                "constraints": [
+                  "同 f 声母不提供 THREAD 语义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-FL-C04",
+                  "value": "féi",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-FL-ZH-04"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-FL-ZH-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-FL-ZH-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "FL3",
+              "source_pronunciation_ref": "FL3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-FL-C04",
+              "source_span": "fil",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "High",
+              "rationale": "脂肪多；肥胖；同 f 声母不提供 THREAD 语义",
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "Shared /f/ only; /ei/ differs from /i/; French /l/ unmatched.",
+              "features": {
+                "onset": "Shared /f/ only; /ei/ differs from /i/; French /l/ unmatched.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-FL-ZH-04"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-FL-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "同 f 声母不提供 THREAD 语义",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "同 f 声母不提供 THREAD 语义",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-FL-C05",
+            "family_key": "final-lexical-fil",
+            "target": {
+              "form": "细丝",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-FL-ZH-05"
+                ]
+              },
+              "meaning": {
+                "gloss": "细的丝状物",
+                "pos": null,
+                "constraints": [
+                  "组合义；只覆盖细丝子类，不覆盖金属丝及所有 figurative fil"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-FL-C05",
+                  "value": "xì sī",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-FL-ZH-05"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "editorial_inference",
+                  "source_refs": [
+                    "FLB-FL-ZH-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-FL-ZH-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "FL3",
+              "source_pronunciation_ref": "FL3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-FL-C05",
+              "source_span": "fil",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "细的丝状物；组合义；只覆盖细丝子类，不覆盖金属丝及所有 figurative fil",
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Two Mandarin syllables versus one French; /f/ and final /l/ unmatched.",
+              "features": {
+                "onset": "Two Mandarin syllables versus one French; /f/ and final /l/ unmatched.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-FL-CN",
+                "FLB-FL-ZH-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-FL-ZH-05"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-FL-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "组合义；只覆盖细丝子类，不覆盖金属丝及所有 figurative fil",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "组合义；只覆盖细丝子类，不覆盖金属丝及所有 figurative fil",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Codex — delegated focused review",
+          "date": "2026-09-20",
+          "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-FL3",
+          "candidate_ref": "FLB-FL-C01"
+        },
+        {
+          "stage_mapping_ref": "SM-FL3",
+          "candidate_ref": "FLB-FL-C02"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Codex — conditional implementation authorized by Jinkai Liu",
+      "reason": "Ready to migrate with Featured Pending. Semantic comparisons are not Featured winners."
+    },
+    "historical_path": "filum → fil → fil",
+    "semantic_path": "Source meanings are scoped per stage, not a universal linear semantic chronology.",
+    "boundary": {
+      "en": "fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。",
+      "zh-Hans": "fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。"
+    }
+  },
+  "research_candidate_discovery": {
+    "protocol": "Candidate Discovery Protocol v0.2",
+    "status": "Ready to migrate with Featured Pending",
+    "serious_candidate_count": 3,
+    "control_count": 2,
+    "shortlist": [
+      "线",
+      "丝"
+    ],
+    "rejected_claims": [
+      "fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。"
+    ],
+    "pending": [
+      "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。",
+      "Historical IPA and Chinese diachronic attestation not invented."
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Codex — delegated focused review",
+      "date": "2026-09-20",
+      "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+    },
+    "source_refs": [
+      "FLB-FL-REVIEW"
+    ]
+  },
+  "legacy_migration": {
+    "version": "final-lexical-0.1",
+    "baseline_commit": "1388f4283b37179b4d5eaddc93257333ce21e1c8",
+    "scope": "Four-entry focused review; original research preserved without endorsement.",
+    "previous_fields": {
+      "title": {
+        "en": "fil · Batch 001",
+        "zh-Hans": "fil · 数据扩展 Batch 001"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-fil-primary",
+        "source": {
+          "language": "French",
+          "word": "fil",
+          "pronunciation": "/fil/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "线／丝",
+          "pronunciation": "xiàn / sī"
+        },
+        "gloss": {
+          "en": "thread, wire or a long thin strand",
+          "zh-Hans": "线、丝或细长条状物"
+        },
+        "meaning": {
+          "en": "thread, wire or a long thin strand. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+          "zh-Hans": "线、丝或细长条状物。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+        "rationale": {
+          "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+          "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+        }
+      },
+      "semantic_structure": {
+        "concepts": [
+          "THREAD",
+          "LINE",
+          "SEQUENCE",
+          "CHANNEL",
+          "DAUGHTER/GIRL"
+        ],
+        "relation": "THREAD → LINE → SEQUENCE → CHANNEL → DAUGHTER/GIRL",
+        "status": "Interpretive"
+      },
+      "references": [
+        {
+          "reference_id": "REF-JL-FIL-RAW",
+          "title": "Jinkai Liu: fil source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-CNRTL-FIL",
+          "title": "CNRTL/TLFi: étymologie de fil",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/fil",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-FILIERE",
+          "title": "CNRTL/TLFi: étymologie de filière",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/fili%C3%A8re",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-FILLE",
+          "title": "CNRTL/TLFi: étymologie de fille",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/fille",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Reviewed. Priority score 90/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Reviewed。优先分 90/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "Fille is a negative calibration: similar spelling does not make it part of the fil ‘thread’ family.",
+          "zh-Hans": "fille 是负校准案例：拼写相似不使它成为 fil“线”词族成员。"
+        }
+      ],
+      "search_terms": [
+        "fil",
+        "filière",
+        "filiere",
+        "fille",
+        "filament",
+        "线",
+        "丝",
+        "行业",
+        "女孩",
+        "thread",
+        "line",
+        "sector",
+        "daughter"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "diachronic_semantic_mapping",
+      "research_candidate_discovery"
+    ]
   }
 }

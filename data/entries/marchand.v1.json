@@ -2,8 +2,8 @@
   "id": "LB-fr-marchand-march-021",
   "slug": "marchand",
   "title": {
-    "en": "marchand · Batch 001",
-    "zh-Hans": "marchand · 数据扩展 Batch 001"
+    "en": "MARCHAND · 商人／商贩",
+    "zh-Hans": "MARCHAND · 商人／商贩"
   },
   "languages": [
     {
@@ -46,10 +46,10 @@
       "zh-Hans": "商人、商贩；商业的"
     },
     "meaning": {
-      "en": "merchant, trader; commercial. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
-      "zh-Hans": "商人、商贩；商业的。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+      "en": "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。 Featured Mapping: Pending.",
+      "zh-Hans": "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。 Featured Mapping: Pending."
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured Pending",
     "rationale": {
       "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
       "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
@@ -208,13 +208,11 @@
   ],
   "semantic_structure": {
     "concepts": [
-      "COMMERCE",
-      "MERCHANT",
-      "MARKET",
-      "WALK",
-      "TRAVEL"
+      "MARKET / COMMERCE",
+      "TO TRADE / TRADING PERSON",
+      "MERCHANT / DEALER (noun); trading (adjective separately)"
     ],
-    "relation": "COMMERCE → MERCHANT → MARKET → WALK → TRAVEL",
+    "relation": "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。",
     "status": "Interpretive"
   },
   "related_words": [
@@ -360,6 +358,70 @@
       "url": "https://www.merriam-webster.com/dictionary/march",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "FLB-MA-CN",
+      "title": "CNRTL/TLFi: marchand / marchande",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/definition/marchande",
+      "path": null,
+      "provenance": "Focused review 2026-09-20: specific online entry/history; some CNRTL history retrieved through indexed entry text. No fabricated historical IPA."
+    },
+    {
+      "reference_id": "FLB-MA-NEG",
+      "title": "CNRTL/TLFi: marcher",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/etymologie/marcher",
+      "path": null,
+      "provenance": "Focused review 2026-09-20: specific online entry/history; some CNRTL history retrieved through indexed entry text. No fabricated historical IPA."
+    },
+    {
+      "reference_id": "FLB-MA-REVIEW",
+      "title": "Final Tier D Batch 1 — focused Discovery and editorial freeze",
+      "type": "editorial research",
+      "url": null,
+      "path": "docs/research/final-lexical-freeze.md",
+      "provenance": "Codex delegated review; approved conditional implementation scope, not independent historical proof."
+    },
+    {
+      "reference_id": "FLB-MA-ZH-01",
+      "title": "汉典：商（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/商",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-MA-ZH-02",
+      "title": "汉典：贩（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/贩",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-MA-ZH-03",
+      "title": "汉典：贸（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/贸",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-MA-ZH-04",
+      "title": "汉典：马（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/马",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-MA-ZH-05",
+      "title": "Editorial semantic control: 商人",
+      "type": "editorial comparison",
+      "url": null,
+      "path": "docs/research/final-lexical-freeze.md",
+      "provenance": "Transparent standard-translation/compositional control; dedicated printed entry Pending."
     }
   ],
   "author": "Jinkai Liu",
@@ -377,6 +439,10 @@
     {
       "en": "Merchant/trade meaning comes from the market/merx family, not from walking.",
       "zh-Hans": "商人／贸易义来自 market／merx 商业词族，不来自“行走”。"
+    },
+    {
+      "en": "Final Tier D Batch 1: marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。 大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。",
+      "zh-Hans": "Final Tier D Batch 1: marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。 大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
     }
   ],
   "search_terms": [
@@ -392,9 +458,12 @@
     "行走",
     "贸易",
     "commerce",
-    "travelling merchant"
+    "travelling merchant",
+    "商",
+    "贩",
+    "贸"
   ],
-  "page": null,
+  "page": "words/marchand.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",
@@ -408,5 +477,1134 @@
     "ordinal": 8,
     "disposition": "Candidate",
     "priority_score": 89.5
+  },
+  "standard_translation": {
+    "source": "marchand",
+    "target": "商人／商贩",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "FLB-MA-CN"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-marchand-primary",
+    "source": {
+      "language": "French",
+      "word": "marchand",
+      "pronunciation": "/maʁ.ʃɑ̃/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "商人／商贩",
+      "pronunciation": "shāngrén / shāngfàn"
+    },
+    "gloss": {
+      "en": "merchant, trader; commercial",
+      "zh-Hans": "商人、商贩；商业的"
+    },
+    "meaning": {
+      "en": "merchant, trader; commercial. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+      "zh-Hans": "商人、商贩；商业的。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "rationale": {
+      "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+      "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "MA1",
+        "form": "mercatus",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Classical Latin",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-MA-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "MARKET / COMMERCE",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "FLB-MA-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Useful semantic comparison"
+      },
+      {
+        "stage_id": "MA2",
+        "form": "*mercatare / *mercatantem",
+        "variants": [],
+        "unit_kind": "reconstructed_form",
+        "language": {
+          "name": "Reconstructed Vulgar Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Pre-Romance reconstruction; not a dated attestation",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-MA-CN"
+          ]
+        },
+        "attestation_status": "reconstructed",
+        "meaning": {
+          "gloss": "TO TRADE / TRADING PERSON",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "MA1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "Documented source relation; no claim of Chinese contact or parallel chronology.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "FLB-MA-CN"
+            ]
+          }
+        ],
+        "source_refs": [
+          "FLB-MA-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Historical bridge only; Chinese Mapping: Not selected"
+      },
+      {
+        "stage_id": "MA3",
+        "form": "marchand",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "French",
+          "code": null
+        },
+        "period": {
+          "label": "Late 10th-century marchedant; modern spelling documented later → present",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-MA-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "MERCHANT / DEALER (noun); trading (adjective separately)",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [
+          {
+            "pronunciation_id": "MA3-IPA",
+            "value": "/maʀʃɑ̃/",
+            "notation": "IPA",
+            "phonological_layer": "Modern French",
+            "period": {
+              "label": "Modern dictionary reference",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MA-CN"
+              ]
+            },
+            "variety": "French",
+            "system": "CNRTL/TLFi transcription; not reconstructed Latin",
+            "status": "documented",
+            "source_refs": [
+              "FLB-MA-CN"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "from_stage_ref": "MA2",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "Documented source relation; no claim of Chinese contact or parallel chronology.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "FLB-MA-CN"
+            ]
+          }
+        ],
+        "source_refs": [
+          "FLB-MA-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Useful semantic comparison"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-MA1",
+        "stage_ref": "MA1",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "MARKET / COMMERCE",
+          "excluded_senses": [
+            "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Modern reference only"
+            ],
+            "semantic_seeds": [
+              "MARKET / COMMERCE"
+            ],
+            "consonant_hypotheses": [
+              "b-p-m-f"
+            ],
+            "note": "One focused pass: three serious candidates + two controls per entry. No exhaustive dialect or reconstructed-sound search."
+          },
+          "run_refs": [
+            "FLB-MA-REVIEW"
+          ],
+          "stop_reason": "Bound reached; no forced Featured. Paper sources and historical phonetics remain Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "FLB-MA-C03",
+            "family_key": "final-lexical-marchand",
+            "target": {
+              "form": "贸",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-MA-ZH-03"
+                ]
+              },
+              "meaning": {
+                "gloss": "交换财物的商业活动",
+                "pos": null,
+                "constraints": [
+                  "TRADE 动作，不是 MERCHANT 人物；不取贸然义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-MA-C03",
+                  "value": "mào",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-MA-ZH-03"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-MA-ZH-03"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-MA-ZH-03"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MA1",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-FLB-MA-C03",
+              "source_span": "mercatus",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "交换财物的商业活动；TRADE 动作，不是 MERCHANT 人物；不取贸然义",
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-03"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Latin pronunciation not frozen; modern marchand starts /m/ but /au/ does not match the whole French form.",
+              "features": {
+                "onset": "Latin pronunciation not frozen; modern marchand starts /m/ but /au/ does not match the whole French form.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-03"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-MA-ZH-03"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-MA-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "TRADE 动作，不是 MERCHANT 人物；不取贸然义",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Codex — delegated focused review",
+          "date": "2026-09-20",
+          "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+        }
+      },
+      {
+        "stage_mapping_id": "SM-MA3",
+        "stage_ref": "MA3",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "MERCHANT / DEALER (noun); trading (adjective separately)",
+          "excluded_senses": [
+            "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Modern reference only"
+            ],
+            "semantic_seeds": [
+              "MERCHANT / DEALER (noun); trading (adjective separately)"
+            ],
+            "consonant_hypotheses": [
+              "b-p-m-f"
+            ],
+            "note": "One focused pass: three serious candidates + two controls per entry. No exhaustive dialect or reconstructed-sound search."
+          },
+          "run_refs": [
+            "FLB-MA-REVIEW"
+          ],
+          "stop_reason": "Bound reached; no forced Featured. Paper sources and historical phonetics remain Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "FLB-MA-C01",
+            "family_key": "final-lexical-marchand",
+            "target": {
+              "form": "商",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-MA-ZH-01"
+                ]
+              },
+              "meaning": {
+                "gloss": "商人；做买卖的人",
+                "pos": null,
+                "constraints": [
+                  "排除商朝、商数、商量；现代 noun 义不证明 marcher 来源"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-MA-C01",
+                  "value": "shāng",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-MA-ZH-01"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-MA-ZH-01"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-MA-ZH-01"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MA3",
+              "source_pronunciation_ref": "MA3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-MA-C01",
+              "source_span": "marchand",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "商人；做买卖的人；排除商朝、商数、商量；现代 noun 义不证明 marcher 来源",
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-01"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "French noninitial /ʃɑ̃/ partially resembles /ʂɑŋ/; /ʃ/ is not /ʂ/, nasal vowel is not /ŋ/ coda, and /maʁ/ is unmatched.",
+              "features": {
+                "onset": "French noninitial /ʃɑ̃/ partially resembles /ʂɑŋ/; /ʃ/ is not /ʂ/, nasal vowel is not /ŋ/ coda, and /maʁ/ is unmatched.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-01"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-MA-ZH-01"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-MA-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "排除商朝、商数、商量；现代 noun 义不证明 marcher 来源",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-MA-C02",
+            "family_key": "final-lexical-marchand",
+            "target": {
+              "form": "贩",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-MA-ZH-02"
+                ]
+              },
+              "meaning": {
+                "gloss": "买进货物再卖出的商人",
+                "pos": null,
+                "constraints": [
+                  "常偏小商贩；并非所有 marchand 都是摊贩"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-MA-C02",
+                  "value": "fàn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-MA-ZH-02"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-MA-ZH-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-MA-ZH-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MA3",
+              "source_pronunciation_ref": "MA3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-MA-C02",
+              "source_span": "marchand",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "买进货物再卖出的商人；常偏小商贩；并非所有 marchand 都是摊贩",
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-02"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Initial /m/ versus /f/ is a generation group only; /an/ differs from French nasal /ɑ̃/ and /maʁʃ/ remains unmatched.",
+              "features": {
+                "onset": "Initial /m/ versus /f/ is a generation group only; /an/ differs from French nasal /ɑ̃/ and /maʁʃ/ remains unmatched.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-02"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-MA-ZH-02"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-MA-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "常偏小商贩；并非所有 marchand 都是摊贩",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-MA-C04",
+            "family_key": "final-lexical-marchand",
+            "target": {
+              "form": "马",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-MA-ZH-04"
+                ]
+              },
+              "meaning": {
+                "gloss": "马这种动物",
+                "pos": null,
+                "constraints": [
+                  "商人骑马不是 MERCHANT 的字义"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-MA-C04",
+                  "value": "mǎ",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-MA-ZH-04"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-MA-ZH-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-MA-ZH-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MA3",
+              "source_pronunciation_ref": "MA3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-MA-C04",
+              "source_span": "marchand",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": "b-p-m-f",
+                "hit": true,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "High",
+              "rationale": "马这种动物；商人骑马不是 MERCHANT 的字义",
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-04"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "partial",
+              "confidence": "Low",
+              "rationale": "Initial /m/ and low vowel are local resemblance; French /ʁʃɑ̃/ absent; tone not French prosody.",
+              "features": {
+                "onset": "Initial /m/ and low vowel are local resemblance; French /ʁʃɑ̃/ absent; tone not French prosody.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-04"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-MA-ZH-04"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-MA-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "商人骑马不是 MERCHANT 的字义",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "商人骑马不是 MERCHANT 的字义",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-MA-C05",
+            "family_key": "final-lexical-marchand",
+            "target": {
+              "form": "商人",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-MA-ZH-05"
+                ]
+              },
+              "meaning": {
+                "gloss": "从事商业买卖的人",
+                "pos": null,
+                "constraints": [
+                  "标准语义对照，不据翻译相合自动 Featured"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-MA-C05",
+                  "value": "shāng rén",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-MA-ZH-05"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "editorial_inference",
+                  "source_refs": [
+                    "FLB-MA-ZH-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-MA-ZH-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "MA3",
+              "source_pronunciation_ref": "MA3-IPA",
+              "target_pronunciation_ref": "ZH-FLB-MA-C05",
+              "source_span": "marchand",
+              "scope": "whole_form",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "从事商业买卖的人；标准语义对照，不据翻译相合自动 Featured",
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-05"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "weak",
+              "confidence": "Low",
+              "rationale": "Only the noninitial French /ʃɑ̃/ has limited overlap with shang; ren has no counterpart.",
+              "features": {
+                "onset": "Only the noninitial French /ʃɑ̃/ has limited overlap with shang; ren has no counterpart.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-MA-CN",
+                "FLB-MA-ZH-05"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-MA-ZH-05"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-MA-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "标准语义对照，不据翻译相合自动 Featured",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "标准语义对照，不据翻译相合自动 Featured",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Codex — delegated focused review",
+          "date": "2026-09-20",
+          "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-MA3",
+          "candidate_ref": "FLB-MA-C01"
+        },
+        {
+          "stage_mapping_ref": "SM-MA1",
+          "candidate_ref": "FLB-MA-C03"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Codex — conditional implementation authorized by Jinkai Liu",
+      "reason": "Ready to migrate with Featured Pending. Semantic comparisons are not Featured winners."
+    },
+    "historical_path": "mercatus → *mercatare / *mercatantem → marchand",
+    "semantic_path": "Source meanings are scoped per stage, not a universal linear semantic chronology.",
+    "boundary": {
+      "en": "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。",
+      "zh-Hans": "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。"
+    }
+  },
+  "research_candidate_discovery": {
+    "protocol": "Candidate Discovery Protocol v0.2",
+    "status": "Ready to migrate with Featured Pending",
+    "serious_candidate_count": 3,
+    "control_count": 2,
+    "shortlist": [
+      "贸",
+      "商",
+      "贩"
+    ],
+    "rejected_claims": [
+      "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。"
+    ],
+    "pending": [
+      "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。",
+      "Historical IPA and Chinese diachronic attestation not invented."
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Codex — delegated focused review",
+      "date": "2026-09-20",
+      "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+    },
+    "source_refs": [
+      "FLB-MA-REVIEW"
+    ]
+  },
+  "legacy_migration": {
+    "version": "final-lexical-0.1",
+    "baseline_commit": "1388f4283b37179b4d5eaddc93257333ce21e1c8",
+    "scope": "Four-entry focused review; original research preserved without endorsement.",
+    "previous_fields": {
+      "title": {
+        "en": "marchand · Batch 001",
+        "zh-Hans": "marchand · 数据扩展 Batch 001"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-marchand-primary",
+        "source": {
+          "language": "French",
+          "word": "marchand",
+          "pronunciation": "/maʁ.ʃɑ̃/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "商人／商贩",
+          "pronunciation": "shāngrén / shāngfàn"
+        },
+        "gloss": {
+          "en": "merchant, trader; commercial",
+          "zh-Hans": "商人、商贩；商业的"
+        },
+        "meaning": {
+          "en": "merchant, trader; commercial. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+          "zh-Hans": "商人、商贩；商业的。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+        "rationale": {
+          "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+          "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+        }
+      },
+      "semantic_structure": {
+        "concepts": [
+          "COMMERCE",
+          "MERCHANT",
+          "MARKET",
+          "WALK",
+          "TRAVEL"
+        ],
+        "relation": "COMMERCE → MERCHANT → MARKET → WALK → TRAVEL",
+        "status": "Interpretive"
+      },
+      "references": [
+        {
+          "reference_id": "REF-JL-MARCHAND-RAW",
+          "title": "Jinkai Liu: marchand source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-CNRTL-MARCHAND",
+          "title": "CNRTL/TLFi: étymologie de marchand",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/marchande",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-MARCHER",
+          "title": "CNRTL/TLFi: étymologie de marcher",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/marcher",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-MW-MARCH",
+          "title": "Merriam-Webster Dictionary: march",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/march",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Candidate. Priority score 89.5/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Candidate。优先分 89.5/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "Merchant/trade meaning comes from the market/merx family, not from walking.",
+          "zh-Hans": "商人／贸易义来自 market／merx 商业词族，不来自“行走”。"
+        }
+      ],
+      "search_terms": [
+        "marchand",
+        "marchande",
+        "merchant",
+        "marché",
+        "market",
+        "march",
+        "marcher",
+        "商人",
+        "商贩",
+        "行走",
+        "贸易",
+        "commerce",
+        "travelling merchant"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "diachronic_semantic_mapping",
+      "research_candidate_discovery"
+    ]
   }
 }

@@ -1,9 +1,12 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),cp=require('node:child_process');
-const data=require('../data/language-book.v1.0.json'),renderer=require('../js/second-pipeline.js'),api=require('../js/language-book-data.js');
+// Historical scope checks use the reversible archive; active new records have their own exact baseline tests.
+const actual=require('../data/language-book.v1.0.json');
+const data=actual,renderer=require('../js/second-pipeline.js'),api=require('../js/language-book-data.js');
 const scope=['at','figure','new','water','namcha-barwa'],base='f35857436a743045645c1e8f06afb932bbc4db63';
 const get=p=>cp.execFileSync('git',['show',base+':'+p],{encoding:'utf8',maxBuffer:40e6}).replace(/\r\n/g,'\n');
 let cachedOriginal;const baseline=()=>cachedOriginal ||= JSON.parse(get('data/language-book.v1.0.json'));
 test('Second pipeline changes only five entries; unchanged schema and experiments',()=>{
+ const data=require('./final-lexical-compat.cjs').beforeFinalLexical(actual);
  assert.equal(data.entries.length,42);
  assert.deepEqual(data.entries.filter(e=>!scope.includes(e.slug)),baseline().entries.filter(e=>!scope.includes(e.slug)));
  assert.equal(fs.readFileSync('data/language-book-entry.schema.v1.json','utf8').replace(/\r\n/g,'\n'),get('data/language-book-entry.schema.v1.json'));

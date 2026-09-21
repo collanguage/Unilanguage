@@ -5,6 +5,8 @@ import {execFileSync} from 'node:child_process';
 for(const script of ['validate-schema.mjs','validate-language-book-v1.mjs'])execFileSync(process.execPath,[`scripts/${script}`],{stdio:'inherit'});
 execFileSync(process.execPath,['--test','--test-name-pattern=Layer 1|Editorial validator|Frozen schema-valid|Reader/Mapper|Static pages','tests/second-pipeline.test.cjs'],{stdio:'inherit'});
 execFileSync(process.execPath,['scripts/build-second-pipeline.mjs','--check'],{stdio:'inherit'});
+execFileSync(process.execPath,['--test','--test-name-pattern=Final lexical gate|Final lexical REJECTS|Final lexical reader','tests/final-lexical.test.cjs'],{stdio:'inherit'});
+execFileSync(process.execPath,['scripts/build-final-lexical.mjs','--check'],{stdio:'inherit'});
 // Publish only tracked files; ignored private research and dependencies never ship.
 const files=execFileSync('git',['ls-files','-z'],{encoding:'utf8'}).split('\0').filter(Boolean);
 const out=path.resolve('dist');

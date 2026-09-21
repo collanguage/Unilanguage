@@ -2,8 +2,8 @@
   "id": "LB-en-convent-convention-023",
   "slug": "convent",
   "title": {
-    "en": "convent · Batch 001",
-    "zh-Hans": "convent · 数据扩展 Batch 001"
+    "en": "CONVENT · 修道院／女修道院",
+    "zh-Hans": "CONVENT · 修道院／女修道院"
   },
   "languages": [
     {
@@ -46,10 +46,10 @@
       "zh-Hans": "宗教团体（尤指女修会）或其居所"
     },
     "meaning": {
-      "en": "a religious community, especially of women, or its residence. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
-      "zh-Hans": "宗教团体（尤指女修会）或其居所。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+      "en": "convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。 Featured Mapping: Pending.",
+      "zh-Hans": "convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。 Featured Mapping: Pending."
     },
-    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "mapping_type": "Standard / Modern Semantic Mapping; Featured Pending",
     "rationale": {
       "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
       "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
@@ -215,13 +215,12 @@
   ],
   "semantic_structure": {
     "concepts": [
-      "COME TOGETHER",
-      "ASSEMBLY",
-      "RELIGIOUS COMMUNITY",
-      "AGREEMENT",
-      "CUSTOM"
+      "COME TOGETHER / MEET",
+      "ASSEMBLY / GATHERING",
+      "RELIGIOUS COMMUNITY / ITS DWELLING",
+      "COMMUNITY / HOUSE OF A RELIGIOUS ORDER, especially nuns"
     ],
-    "relation": "COME TOGETHER → ASSEMBLY → RELIGIOUS COMMUNITY → AGREEMENT → CUSTOM",
+    "relation": "convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。",
     "status": "Interpretive"
   },
   "related_words": [
@@ -413,6 +412,78 @@
       "url": "https://www.cnrtl.fr/etymologie/convention",
       "path": null,
       "provenance": "external lexicographic reference; accessed 2026-09-01"
+    },
+    {
+      "reference_id": "FLB-CV-MW",
+      "title": "Merriam-Webster: convent",
+      "type": "dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/convent",
+      "path": null,
+      "provenance": "Focused review 2026-09-20: specific online entry/history; some CNRTL history retrieved through indexed entry text. No fabricated historical IPA."
+    },
+    {
+      "reference_id": "FLB-CV-CN",
+      "title": "CNRTL/TLFi: couvent",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/lexicographie/couvent",
+      "path": null,
+      "provenance": "Focused review 2026-09-20: specific online entry/history; some CNRTL history retrieved through indexed entry text. No fabricated historical IPA."
+    },
+    {
+      "reference_id": "FLB-CV-FAM",
+      "title": "CNRTL/TLFi: convention",
+      "type": "dictionary",
+      "url": "https://www.cnrtl.fr/definition/convention",
+      "path": null,
+      "provenance": "Focused review 2026-09-20: specific online entry/history; some CNRTL history retrieved through indexed entry text. No fabricated historical IPA."
+    },
+    {
+      "reference_id": "FLB-CV-REVIEW",
+      "title": "Final Tier D Batch 1 — focused Discovery and editorial freeze",
+      "type": "editorial research",
+      "url": null,
+      "path": "docs/research/final-lexical-freeze.md",
+      "provenance": "Codex delegated review; approved conditional implementation scope, not independent historical proof."
+    },
+    {
+      "reference_id": "FLB-CV-ZH-01",
+      "title": "汉典：会（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/会",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-CV-ZH-02",
+      "title": "汉典：聚（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/聚",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-CV-ZH-03",
+      "title": "汉典：合（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/合",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-CV-ZH-04",
+      "title": "汉典：困（基本／详细解释）",
+      "type": "online dictionary",
+      "url": "https://zdic.net/hans/困",
+      "path": null,
+      "provenance": "Modern reading and scoped sense; mediated online reference. Printed Mainland edition/page and earliest attestation Pending; excludes 國語辭典 section."
+    },
+    {
+      "reference_id": "FLB-CV-ZH-05",
+      "title": "Editorial semantic control: 修道院",
+      "type": "editorial comparison",
+      "url": null,
+      "path": "docs/research/final-lexical-freeze.md",
+      "provenance": "Transparent standard-translation/compositional control; dedicated printed entry Pending."
     }
   ],
   "author": "Jinkai Liu",
@@ -430,6 +501,10 @@
     {
       "en": "The ‘custom from monastery’ chain is historically inaccurate; both branches independently extend the shared ‘come together’ base.",
       "zh-Hans": "“习俗来自修道院”的链条在历史上不准确；两支分别从共享的“共同来到／会合”基础扩展。"
+    },
+    {
+      "en": "Final Tier D Batch 1: convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。 大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。",
+      "zh-Hans": "Final Tier D Batch 1: convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。 大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
     }
   ],
   "search_terms": [
@@ -445,9 +520,12 @@
     "协议",
     "agreement",
     "assembly",
-    "come together"
+    "come together",
+    "会",
+    "聚",
+    "合"
   ],
-  "page": null,
+  "page": "words/convent.html",
   "legacy": null,
   "source": {
     "type": "author-provided raw research note",
@@ -461,5 +539,1144 @@
     "ordinal": 10,
     "disposition": "Reviewed",
     "priority_score": 90
+  },
+  "standard_translation": {
+    "source": "convent",
+    "target": "修道院／女修道院",
+    "status": "Supported",
+    "is_featured_mapping": false,
+    "source_refs": [
+      "FLB-CV-MW"
+    ]
+  },
+  "modern_standard_semantic_mapping": {
+    "mapping_id": "MAP-convent-primary",
+    "source": {
+      "language": "English",
+      "word": "convent",
+      "pronunciation": "/ˈkɒnvent/"
+    },
+    "target": {
+      "language": "Chinese",
+      "word": "修道院／女修道院",
+      "pronunciation": "xiūdàoyuàn / nǚxiūdàoyuàn"
+    },
+    "gloss": {
+      "en": "a religious community, especially of women, or its residence",
+      "zh-Hans": "宗教团体（尤指女修会）或其居所"
+    },
+    "meaning": {
+      "en": "a religious community, especially of women, or its residence. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+      "zh-Hans": "宗教团体（尤指女修会）或其居所。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+    },
+    "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+    "rationale": {
+      "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+      "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+    }
+  },
+  "featured_mapping_status": "Pending",
+  "publication_status": "Published",
+  "diachronic_semantic_mapping": {
+    "model_version": "0.1",
+    "historical_stages": [
+      {
+        "stage_id": "CV1",
+        "form": "convenire",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Classical Latin; exact first attestation not frozen",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-CV-MW",
+            "FLB-CV-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "COME TOGETHER / MEET",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [],
+        "relations": [],
+        "source_refs": [
+          "FLB-CV-MW",
+          "FLB-CV-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Historical bridge only; Chinese Mapping: Not selected"
+      },
+      {
+        "stage_id": "CV2",
+        "form": "conventus",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Classical Latin",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-CV-MW",
+            "FLB-CV-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "ASSEMBLY / GATHERING",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "CV1",
+            "relation_type": "derivation",
+            "semantic_operation": {
+              "type": "derivation",
+              "description": "Documented source relation; no claim of Chinese contact or parallel chronology.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-CN"
+            ]
+          }
+        ],
+        "source_refs": [
+          "FLB-CV-MW",
+          "FLB-CV-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "selected",
+        "selection_note": "Useful semantic comparison"
+      },
+      {
+        "stage_id": "CV3",
+        "form": "conventus",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "Ecclesiastical / Medieval Latin",
+          "code": null
+        },
+        "period": {
+          "label": "Christian and Medieval Latin",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-CV-MW",
+            "FLB-CV-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "RELIGIOUS COMMUNITY / ITS DWELLING",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "CV2",
+            "relation_type": "sense_continuation",
+            "semantic_operation": {
+              "type": "sense_continuation",
+              "description": "Documented source relation; no claim of Chinese contact or parallel chronology.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-CN"
+            ]
+          }
+        ],
+        "source_refs": [
+          "FLB-CV-MW",
+          "FLB-CV-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Historical bridge only; Chinese Mapping: Not selected"
+      },
+      {
+        "stage_id": "CV4",
+        "form": "convent (via Anglo-French; Middle English covent)",
+        "variants": [],
+        "unit_kind": "lemma",
+        "language": {
+          "name": "English",
+          "code": null
+        },
+        "period": {
+          "label": "Middle English from 13th century → present",
+          "start_year": null,
+          "end_year": null,
+          "basis": "language_period",
+          "source_refs": [
+            "FLB-CV-MW",
+            "FLB-CV-CN"
+          ]
+        },
+        "attestation_status": "attested",
+        "meaning": {
+          "gloss": "COMMUNITY / HOUSE OF A RELIGIOUS ORDER, especially nuns",
+          "pos": null,
+          "constraints": [
+            "No family member inserted as an ancestor. Meanings may coexist."
+          ]
+        },
+        "pronunciations": [],
+        "relations": [
+          {
+            "from_stage_ref": "CV3",
+            "relation_type": "borrowing",
+            "semantic_operation": {
+              "type": "borrowing",
+              "description": "Documented source relation; no claim of Chinese contact or parallel chronology.",
+              "status": "supported"
+            },
+            "status": "supported",
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-CN"
+            ]
+          }
+        ],
+        "source_refs": [
+          "FLB-CV-MW",
+          "FLB-CV-CN"
+        ],
+        "evidence_status": "mediated",
+        "mapping_selection": "not_selected",
+        "selection_note": "Historical bridge only; Chinese Mapping: Not selected"
+      }
+    ],
+    "mappings": [
+      {
+        "stage_mapping_id": "SM-CV2",
+        "stage_ref": "CV2",
+        "selection_reasons": [
+          "explanatory_value"
+        ],
+        "freeze": {
+          "version": "0.1",
+          "meaning_note": "ASSEMBLY / GATHERING",
+          "excluded_senses": [
+            "convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。"
+          ],
+          "status": "editor_reviewed"
+        },
+        "search": {
+          "status": "candidates_recorded",
+          "scope": {
+            "lexical_layers": [
+              "Modern Mandarin"
+            ],
+            "phonological_layers": [
+              "Modern reference only"
+            ],
+            "semantic_seeds": [
+              "ASSEMBLY / GATHERING"
+            ],
+            "consonant_hypotheses": [
+              "g-k-h"
+            ],
+            "note": "One focused pass: three serious candidates + two controls per entry. No exhaustive dialect or reconstructed-sound search."
+          },
+          "run_refs": [
+            "FLB-CV-REVIEW"
+          ],
+          "stop_reason": "Bound reached; no forced Featured. Paper sources and historical phonetics remain Pending."
+        },
+        "candidates": [
+          {
+            "candidate_id": "FLB-CV-C01",
+            "family_key": "final-lexical-convent",
+            "target": {
+              "form": "会",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-CV-ZH-01"
+                ]
+              },
+              "meaning": {
+                "gloss": "聚集；会合；集会",
+                "pos": null,
+                "constraints": [
+                  "会合义，不取 kuài 会计；泛集会不是女修道院"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-CV-C01",
+                  "value": "huì",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-CV-ZH-01"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-CV-ZH-01"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-CV-ZH-01"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "CV2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-FLB-CV-C01",
+              "source_span": "conventus",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "g-k-h",
+                "hit": true,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "聚集；会合；集会；会合义，不取 kuài 会计；泛集会不是女修道院",
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-01",
+                "FLB-CV-CN"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Historical Latin pronunciation Pending; modern English convent /k/ and Mandarin h /x/ differ in manner; remaining syllables do not align.",
+              "features": {
+                "onset": "Historical Latin pronunciation Pending; modern English convent /k/ and Mandarin h /x/ differ in manner; remaining syllables do not align.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-01",
+                "FLB-CV-CN"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-CV-ZH-01"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-CV-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "会合义，不取 kuài 会计；泛集会不是女修道院",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-CV-C02",
+            "family_key": "final-lexical-convent",
+            "target": {
+              "form": "聚",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-CV-ZH-02"
+                ]
+              },
+              "meaning": {
+                "gloss": "聚集；集合",
+                "pos": null,
+                "constraints": [
+                  "行为与聚集结果须区分；不是宗教机构名"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-CV-C02",
+                  "value": "jù",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-CV-ZH-02"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-CV-ZH-02"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-CV-ZH-02"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "CV2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-FLB-CV-C02",
+              "source_span": "conventus",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "shortlisted",
+            "semantic_fit": {
+              "fit": "direct",
+              "confidence": "High",
+              "rationale": "聚集；集合；行为与聚集结果须区分；不是宗教机构名",
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-02",
+                "FLB-CV-CN"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Modern j /tɕ/ differs from convent /k/; rounded Mandarin vowel and English vowels differ; no whole-form similarity.",
+              "features": {
+                "onset": "Modern j /tɕ/ differs from convent /k/; rounded Mandarin vowel and English vowels differ; no whole-form similarity.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-02",
+                "FLB-CV-CN"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-CV-ZH-02"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-CV-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "行为与聚集结果须区分；不是宗教机构名",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-CV-C03",
+            "family_key": "final-lexical-convent",
+            "target": {
+              "form": "合",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-CV-ZH-03"
+                ]
+              },
+              "meaning": {
+                "gloss": "合拢；聚合",
+                "pos": null,
+                "constraints": [
+                  "不取 gě 容量单位；物体合并不必是人的集会"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-CV-C03",
+                  "value": "hé",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-CV-ZH-03"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-CV-ZH-03"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-CV-ZH-03"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "CV2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-FLB-CV-C03",
+              "source_span": "conventus",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "g-k-h",
+                "hit": true,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "candidate",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "合拢；聚合；不取 gě 容量单位；物体合并不必是人的集会",
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-03",
+                "FLB-CV-CN"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Modern h /x/ vs /k/ is only a group feature, not a phonetic match; no remaining segment alignment.",
+              "features": {
+                "onset": "Modern h /x/ vs /k/ is only a group feature, not a phonetic match; no remaining segment alignment.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-03",
+                "FLB-CV-CN"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-CV-ZH-03"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-CV-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "不取 gě 容量单位；物体合并不必是人的集会",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "medium",
+            "decision_reason": "不取 gě 容量单位；物体合并不必是人的集会",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-CV-C04",
+            "family_key": "final-lexical-convent",
+            "target": {
+              "form": "困",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-CV-ZH-04"
+                ]
+              },
+              "meaning": {
+                "gloss": "困住；困难",
+                "pos": null,
+                "constraints": [
+                  "闭居或受困不能证明 ASSEMBLY"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-CV-C04",
+                  "value": "kùn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-CV-ZH-04"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "documented",
+                  "source_refs": [
+                    "FLB-CV-ZH-04"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-CV-ZH-04"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "CV2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-FLB-CV-C04",
+              "source_span": "conventus",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": "g-k-h",
+                "hit": true,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "sound_control",
+            "decision": "rejected",
+            "semantic_fit": {
+              "fit": "mismatch",
+              "confidence": "High",
+              "rationale": "困住；困难；闭居或受困不能证明 ASSEMBLY",
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-04",
+                "FLB-CV-CN"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Modern /kʰ/ and /k/ plus nasal ending give limited surface interest; convent has an extra syllable; no Latin assessment.",
+              "features": {
+                "onset": "Modern /kʰ/ and /k/ plus nasal ending give limited surface interest; convent has an extra syllable; no Latin assessment.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-04",
+                "FLB-CV-CN"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "mediated",
+                "source_refs": [
+                  "FLB-CV-ZH-04"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-CV-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "闭居或受困不能证明 ASSEMBLY",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "闭居或受困不能证明 ASSEMBLY",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          },
+          {
+            "candidate_id": "FLB-CV-C05",
+            "family_key": "final-lexical-convent",
+            "target": {
+              "form": "修道院",
+              "lexical_layer": "Modern Mandarin",
+              "language_variety": "Modern Mandarin",
+              "period": {
+                "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                "start_year": null,
+                "end_year": null,
+                "basis": "modern_reference",
+                "source_refs": [
+                  "FLB-CV-ZH-05"
+                ]
+              },
+              "meaning": {
+                "gloss": "宗教团体的居所",
+                "pos": null,
+                "constraints": [
+                  "现代语义强；相对一般 ASSEMBLY 过窄，不可倒推"
+                ]
+              },
+              "pronunciations": [
+                {
+                  "pronunciation_id": "ZH-FLB-CV-C05",
+                  "value": "xiūdàoyuàn",
+                  "notation": "pinyin",
+                  "phonological_layer": "Modern Mandarin",
+                  "period": {
+                    "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                    "start_year": null,
+                    "end_year": null,
+                    "basis": "modern_reference",
+                    "source_refs": [
+                      "FLB-CV-ZH-05"
+                    ]
+                  },
+                  "variety": "Modern Mandarin",
+                  "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                  "status": "editorial_inference",
+                  "source_refs": [
+                    "FLB-CV-ZH-05"
+                  ]
+                }
+              ],
+              "source_refs": [
+                "FLB-CV-ZH-05"
+              ]
+            },
+            "comparison": {
+              "source_stage_ref": "CV2",
+              "source_pronunciation_ref": null,
+              "target_pronunciation_ref": "ZH-FLB-CV-C05",
+              "source_span": "conventus",
+              "scope": "semantic_only",
+              "hypothesis": {
+                "group": null,
+                "hit": false,
+                "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+                "version": "Candidate Discovery Protocol v0.2"
+              }
+            },
+            "role": "meaning_control",
+            "decision": "reserved",
+            "semantic_fit": {
+              "fit": "partial",
+              "confidence": "Medium",
+              "rationale": "宗教团体的居所；现代语义强；相对一般 ASSEMBLY 过窄，不可倒推",
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-05",
+                "FLB-CV-CN"
+              ]
+            },
+            "phonetic_fit": {
+              "fit": "not_evaluated",
+              "confidence": "Unknown",
+              "rationale": "Four Mandarin syllables versus two English syllables; no systematic alignment.",
+              "features": {
+                "onset": "Four Mandarin syllables versus two English syllables; no systematic alignment.",
+                "vowel": "See segment comparison; no historical vowel inferred.",
+                "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+                "syllables": "Whole form compared; a matching substring does not replace the rest.",
+                "prosody": "Mandarin lexical tone is not French accent or English stress."
+              },
+              "source_refs": [
+                "FLB-CV-MW",
+                "FLB-CV-ZH-05",
+                "FLB-CV-CN"
+              ]
+            },
+            "evidence": [
+              {
+                "claim_scope": "chinese_sense",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-CV-ZH-05"
+                ],
+                "locator": null,
+                "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+              },
+              {
+                "claim_scope": "comparison_inference",
+                "status": "lead",
+                "source_refs": [
+                  "FLB-CV-REVIEW"
+                ],
+                "locator": null,
+                "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+              },
+              {
+                "claim_scope": "chinese_sense",
+                "status": "pending",
+                "source_refs": [],
+                "locator": null,
+                "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+              }
+            ],
+            "historical_relation": {
+              "status": "Not claimed",
+              "source_refs": [],
+              "review_note": "No independent cross-language historical evidence."
+            },
+            "confounds": [
+              "现代语义强；相对一般 ASSEMBLY 过窄，不可倒推",
+              "Phonetic group hit does not change meaning or evidence scores."
+            ],
+            "discovery_priority": "none",
+            "decision_reason": "现代语义强；相对一般 ASSEMBLY 过窄，不可倒推",
+            "review": {
+              "status": "reviewed",
+              "reviewer": "Codex — delegated focused review",
+              "date": "2026-09-20",
+              "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+            }
+          }
+        ],
+        "review": {
+          "status": "reviewed",
+          "reviewer": "Codex — delegated focused review",
+          "date": "2026-09-20",
+          "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+        }
+      }
+    ],
+    "display_selection": {
+      "featured_candidate_ref": null,
+      "stage_cards": [
+        {
+          "stage_mapping_ref": "SM-CV2",
+          "candidate_ref": "FLB-CV-C01"
+        },
+        {
+          "stage_mapping_ref": "SM-CV2",
+          "candidate_ref": "FLB-CV-C02"
+        }
+      ],
+      "review_status": "approved",
+      "reviewer": "Codex — conditional implementation authorized by Jinkai Liu",
+      "reason": "Ready to migrate with Featured Pending. Semantic comparisons are not Featured winners."
+    },
+    "historical_path": "convenire → conventus → conventus → convent (via Anglo-French; Middle English covent)",
+    "semantic_path": "Source meanings are scoped per stage, not a universal linear semantic chronology.",
+    "boundary": {
+      "en": "convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。",
+      "zh-Hans": "convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。"
+    }
+  },
+  "research_candidate_discovery": {
+    "protocol": "Candidate Discovery Protocol v0.2",
+    "status": "Ready to migrate with Featured Pending",
+    "serious_candidate_count": 3,
+    "control_count": 2,
+    "shortlist": [
+      "会",
+      "聚"
+    ],
+    "rejected_claims": [
+      "convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。"
+    ],
+    "pending": [
+      "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。",
+      "Historical IPA and Chinese diachronic attestation not invented."
+    ],
+    "review": {
+      "status": "reviewed",
+      "reviewer": "Codex — delegated focused review",
+      "date": "2026-09-20",
+      "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+    },
+    "source_refs": [
+      "FLB-CV-REVIEW"
+    ]
+  },
+  "legacy_migration": {
+    "version": "final-lexical-0.1",
+    "baseline_commit": "1388f4283b37179b4d5eaddc93257333ce21e1c8",
+    "scope": "Four-entry focused review; original research preserved without endorsement.",
+    "previous_fields": {
+      "title": {
+        "en": "convent · Batch 001",
+        "zh-Hans": "convent · 数据扩展 Batch 001"
+      },
+      "primary_mapping": {
+        "mapping_id": "MAP-convent-primary",
+        "source": {
+          "language": "English",
+          "word": "convent",
+          "pronunciation": "/ˈkɒnvent/"
+        },
+        "target": {
+          "language": "Chinese",
+          "word": "修道院／女修道院",
+          "pronunciation": "xiūdàoyuàn / nǚxiūdàoyuàn"
+        },
+        "gloss": {
+          "en": "a religious community, especially of women, or its residence",
+          "zh-Hans": "宗教团体（尤指女修会）或其居所"
+        },
+        "meaning": {
+          "en": "a religious community, especially of women, or its residence. This ordinary mapping is independent from the author's cross-language sound/root hypothesis.",
+          "zh-Hans": "宗教团体（尤指女修会）或其居所。普通词义 Mapping 与作者跨语言声音／词根假说独立。"
+        },
+        "mapping_type": "Standard lexical/semantic mapping with separately graded research hypothesis",
+        "rationale": {
+          "en": "The primary mapping follows ordinary meaning; historical and phonetic claims are evaluated on separate tracks.",
+          "zh-Hans": "主要 Mapping 依据普通词义；历史关系与语音主张在独立轨道评价。"
+        }
+      },
+      "semantic_structure": {
+        "concepts": [
+          "COME TOGETHER",
+          "ASSEMBLY",
+          "RELIGIOUS COMMUNITY",
+          "AGREEMENT",
+          "CUSTOM"
+        ],
+        "relation": "COME TOGETHER → ASSEMBLY → RELIGIOUS COMMUNITY → AGREEMENT → CUSTOM",
+        "status": "Interpretive"
+      },
+      "references": [
+        {
+          "reference_id": "REF-JL-CONVENT-RAW",
+          "title": "Jinkai Liu: convent source/raw research note",
+          "type": "author research note",
+          "url": null,
+          "path": null,
+          "provenance": "author-provided in conversation; preserved independently from evaluation"
+        },
+        {
+          "reference_id": "REF-MW-CONVENT",
+          "title": "Merriam-Webster Dictionary: convent",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/convent",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-MW-CONVENTION",
+          "title": "Merriam-Webster Dictionary: convention",
+          "type": "dictionary",
+          "url": "https://www.merriam-webster.com/dictionary/convention",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-COUVENT",
+          "title": "CNRTL/TLFi: étymologie de couvent/convent",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/couvent",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        },
+        {
+          "reference_id": "REF-CNRTL-CONVENTION",
+          "title": "CNRTL/TLFi: étymologie de convention",
+          "type": "historical dictionary",
+          "url": "https://www.cnrtl.fr/etymologie/convention",
+          "path": null,
+          "provenance": "external lexicographic reference; accessed 2026-09-01"
+        }
+      ],
+      "editorial_notes": [
+        {
+          "en": "Batch disposition: Reviewed. Priority score 90/100 is editorial triage, not a scientific measurement.",
+          "zh-Hans": "批次归类：Reviewed。优先分 90/100 仅用于编辑分流，不是科学测量。"
+        },
+        {
+          "en": "The ‘custom from monastery’ chain is historically inaccurate; both branches independently extend the shared ‘come together’ base.",
+          "zh-Hans": "“习俗来自修道院”的链条在历史上不准确；两支分别从共享的“共同来到／会合”基础扩展。"
+        }
+      ],
+      "search_terms": [
+        "convent",
+        "convention",
+        "convene",
+        "convenir",
+        "couvent",
+        "修道院",
+        "女修道院",
+        "习俗",
+        "惯例",
+        "协议",
+        "agreement",
+        "assembly",
+        "come together"
+      ],
+      "page": null
+    },
+    "previously_absent_fields": [
+      "standard_translation",
+      "modern_standard_semantic_mapping",
+      "featured_mapping_status",
+      "publication_status",
+      "diachronic_semantic_mapping",
+      "research_candidate_discovery"
+    ]
   }
 }

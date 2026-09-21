@@ -1,0 +1,2763 @@
+{
+  "version": "0.2",
+  "entries": [
+    {
+      "slug": "convent",
+      "id": "LB-en-convent-convention-023",
+      "before_stages": 0,
+      "before_mappings": 0,
+      "after_stages": 4,
+      "after_mappings": 1,
+      "candidates": [
+        {
+          "candidate_id": "FLB-CV-C01",
+          "family_key": "final-lexical-convent",
+          "target": {
+            "form": "会",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-CV-ZH-01"
+              ]
+            },
+            "meaning": {
+              "gloss": "聚集；会合；集会",
+              "pos": null,
+              "constraints": [
+                "会合义，不取 kuài 会计；泛集会不是女修道院"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-CV-C01",
+                "value": "huì",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-CV-ZH-01"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-CV-ZH-01"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-CV-ZH-01"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "CV2",
+            "source_pronunciation_ref": null,
+            "target_pronunciation_ref": "ZH-FLB-CV-C01",
+            "source_span": "conventus",
+            "scope": "semantic_only",
+            "hypothesis": {
+              "group": "g-k-h",
+              "hit": true,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "direct",
+            "confidence": "High",
+            "rationale": "聚集；会合；集会；会合义，不取 kuài 会计；泛集会不是女修道院",
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-01",
+              "FLB-CV-CN"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "not_evaluated",
+            "confidence": "Unknown",
+            "rationale": "Historical Latin pronunciation Pending; modern English convent /k/ and Mandarin h /x/ differ in manner; remaining syllables do not align.",
+            "features": {
+              "onset": "Historical Latin pronunciation Pending; modern English convent /k/ and Mandarin h /x/ differ in manner; remaining syllables do not align.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-01",
+              "FLB-CV-CN"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-CV-ZH-01"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-CV-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "会合义，不取 kuài 会计；泛集会不是女修道院",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-CV-C02",
+          "family_key": "final-lexical-convent",
+          "target": {
+            "form": "聚",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-CV-ZH-02"
+              ]
+            },
+            "meaning": {
+              "gloss": "聚集；集合",
+              "pos": null,
+              "constraints": [
+                "行为与聚集结果须区分；不是宗教机构名"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-CV-C02",
+                "value": "jù",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-CV-ZH-02"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-CV-ZH-02"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-CV-ZH-02"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "CV2",
+            "source_pronunciation_ref": null,
+            "target_pronunciation_ref": "ZH-FLB-CV-C02",
+            "source_span": "conventus",
+            "scope": "semantic_only",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "direct",
+            "confidence": "High",
+            "rationale": "聚集；集合；行为与聚集结果须区分；不是宗教机构名",
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-02",
+              "FLB-CV-CN"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "not_evaluated",
+            "confidence": "Unknown",
+            "rationale": "Modern j /tɕ/ differs from convent /k/; rounded Mandarin vowel and English vowels differ; no whole-form similarity.",
+            "features": {
+              "onset": "Modern j /tɕ/ differs from convent /k/; rounded Mandarin vowel and English vowels differ; no whole-form similarity.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-02",
+              "FLB-CV-CN"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-CV-ZH-02"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-CV-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "行为与聚集结果须区分；不是宗教机构名",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-CV-C03",
+          "family_key": "final-lexical-convent",
+          "target": {
+            "form": "合",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-CV-ZH-03"
+              ]
+            },
+            "meaning": {
+              "gloss": "合拢；聚合",
+              "pos": null,
+              "constraints": [
+                "不取 gě 容量单位；物体合并不必是人的集会"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-CV-C03",
+                "value": "hé",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-CV-ZH-03"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-CV-ZH-03"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-CV-ZH-03"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "CV2",
+            "source_pronunciation_ref": null,
+            "target_pronunciation_ref": "ZH-FLB-CV-C03",
+            "source_span": "conventus",
+            "scope": "semantic_only",
+            "hypothesis": {
+              "group": "g-k-h",
+              "hit": true,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "reserved",
+          "semantic_fit": {
+            "fit": "partial",
+            "confidence": "Medium",
+            "rationale": "合拢；聚合；不取 gě 容量单位；物体合并不必是人的集会",
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-03",
+              "FLB-CV-CN"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "not_evaluated",
+            "confidence": "Unknown",
+            "rationale": "Modern h /x/ vs /k/ is only a group feature, not a phonetic match; no remaining segment alignment.",
+            "features": {
+              "onset": "Modern h /x/ vs /k/ is only a group feature, not a phonetic match; no remaining segment alignment.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-03",
+              "FLB-CV-CN"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-CV-ZH-03"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-CV-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "不取 gě 容量单位；物体合并不必是人的集会",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "不取 gě 容量单位；物体合并不必是人的集会",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-CV-C04",
+          "family_key": "final-lexical-convent",
+          "target": {
+            "form": "困",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-CV-ZH-04"
+              ]
+            },
+            "meaning": {
+              "gloss": "困住；困难",
+              "pos": null,
+              "constraints": [
+                "闭居或受困不能证明 ASSEMBLY"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-CV-C04",
+                "value": "kùn",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-CV-ZH-04"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-CV-ZH-04"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-CV-ZH-04"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "CV2",
+            "source_pronunciation_ref": null,
+            "target_pronunciation_ref": "ZH-FLB-CV-C04",
+            "source_span": "conventus",
+            "scope": "semantic_only",
+            "hypothesis": {
+              "group": "g-k-h",
+              "hit": true,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "sound_control",
+          "decision": "rejected",
+          "semantic_fit": {
+            "fit": "mismatch",
+            "confidence": "High",
+            "rationale": "困住；困难；闭居或受困不能证明 ASSEMBLY",
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-04",
+              "FLB-CV-CN"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "not_evaluated",
+            "confidence": "Unknown",
+            "rationale": "Modern /kʰ/ and /k/ plus nasal ending give limited surface interest; convent has an extra syllable; no Latin assessment.",
+            "features": {
+              "onset": "Modern /kʰ/ and /k/ plus nasal ending give limited surface interest; convent has an extra syllable; no Latin assessment.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-04",
+              "FLB-CV-CN"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-CV-ZH-04"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-CV-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "闭居或受困不能证明 ASSEMBLY",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "none",
+          "decision_reason": "闭居或受困不能证明 ASSEMBLY",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-CV-C05",
+          "family_key": "final-lexical-convent",
+          "target": {
+            "form": "修道院",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-CV-ZH-05"
+              ]
+            },
+            "meaning": {
+              "gloss": "宗教团体的居所",
+              "pos": null,
+              "constraints": [
+                "现代语义强；相对一般 ASSEMBLY 过窄，不可倒推"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-CV-C05",
+                "value": "xiūdàoyuàn",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-CV-ZH-05"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "editorial_inference",
+                "source_refs": [
+                  "FLB-CV-ZH-05"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-CV-ZH-05"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "CV2",
+            "source_pronunciation_ref": null,
+            "target_pronunciation_ref": "ZH-FLB-CV-C05",
+            "source_span": "conventus",
+            "scope": "semantic_only",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "meaning_control",
+          "decision": "reserved",
+          "semantic_fit": {
+            "fit": "partial",
+            "confidence": "Medium",
+            "rationale": "宗教团体的居所；现代语义强；相对一般 ASSEMBLY 过窄，不可倒推",
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-05",
+              "FLB-CV-CN"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "not_evaluated",
+            "confidence": "Unknown",
+            "rationale": "Four Mandarin syllables versus two English syllables; no systematic alignment.",
+            "features": {
+              "onset": "Four Mandarin syllables versus two English syllables; no systematic alignment.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-CV-MW",
+              "FLB-CV-ZH-05",
+              "FLB-CV-CN"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "lead",
+              "source_refs": [
+                "FLB-CV-ZH-05"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-CV-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "现代语义强；相对一般 ASSEMBLY 过窄，不可倒推",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "none",
+          "decision_reason": "现代语义强；相对一般 ASSEMBLY 过窄，不可倒推",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        }
+      ],
+      "status": "Ready to migrate with Featured Pending",
+      "boundary": "convent 与 convention 共享 convenire 来源，但 conventio 是独立分支；“习俗从修道院而来”被拒绝。会／聚只比较历史 ASSEMBLY，不能替代现代修道院义。"
+    },
+    {
+      "slug": "fil",
+      "id": "LB-fr-fil-filiere-fille-019",
+      "before_stages": 0,
+      "before_mappings": 0,
+      "after_stages": 3,
+      "after_mappings": 1,
+      "candidates": [
+        {
+          "candidate_id": "FLB-FL-C01",
+          "family_key": "final-lexical-fil",
+          "target": {
+            "form": "线",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-FL-ZH-01"
+              ]
+            },
+            "meaning": {
+              "gloss": "细长柔软的丝、棉、麻、金属等制成物",
+              "pos": null,
+              "constraints": [
+                "几何线、线路等另按构式；不覆盖 fil 全部隐喻"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-FL-C01",
+                "value": "xiàn",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-FL-ZH-01"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-FL-ZH-01"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-FL-ZH-01"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "FL3",
+            "source_pronunciation_ref": "FL3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-FL-C01",
+            "source_span": "fil",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "direct",
+            "confidence": "High",
+            "rationale": "细长柔软的丝、棉、麻、金属等制成物；几何线、线路等另按构式；不覆盖 fil 全部隐喻",
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-01"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "/f/ versus Mandarin x /ɕ/; /i/ versus /jɛn/; final /l/ versus /n/; both one syllable but no close match.",
+            "features": {
+              "onset": "/f/ versus Mandarin x /ɕ/; /i/ versus /jɛn/; final /l/ versus /n/; both one syllable but no close match.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-01"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-FL-ZH-01"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-FL-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "几何线、线路等另按构式；不覆盖 fil 全部隐喻",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-FL-C02",
+          "family_key": "final-lexical-fil",
+          "target": {
+            "form": "丝",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-FL-ZH-02"
+              ]
+            },
+            "meaning": {
+              "gloss": "蚕丝；丝状细物",
+              "pos": null,
+              "constraints": [
+                "蚕丝是材料子类，不能把每个 fil 译为丝"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-FL-C02",
+                "value": "sī",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-FL-ZH-02"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-FL-ZH-02"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-FL-ZH-02"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "FL3",
+            "source_pronunciation_ref": "FL3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-FL-C02",
+            "source_span": "fil",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "partial",
+            "confidence": "Medium",
+            "rationale": "蚕丝；丝状细物；蚕丝是材料子类，不能把每个 fil 译为丝",
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-02"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "/f/ versus /s/; French /i/ differs from Mandarin syllabic apical vowel; final /l/ absent.",
+            "features": {
+              "onset": "/f/ versus /s/; French /i/ differs from Mandarin syllabic apical vowel; final /l/ absent.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-02"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-FL-ZH-02"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-FL-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "蚕丝是材料子类，不能把每个 fil 译为丝",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-FL-C03",
+          "family_key": "final-lexical-fil",
+          "target": {
+            "form": "缕",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-FL-ZH-03"
+              ]
+            },
+            "meaning": {
+              "gloss": "线；细长线状物",
+              "pos": null,
+              "constraints": [
+                "名词义，不把“一缕”的量词功能无条件移给 fil"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-FL-C03",
+                "value": "lǚ",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-FL-ZH-03"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-FL-ZH-03"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-FL-ZH-03"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "FL3",
+            "source_pronunciation_ref": "FL3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-FL-C03",
+            "source_span": "fil",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "reserved",
+          "semantic_fit": {
+            "fit": "direct",
+            "confidence": "High",
+            "rationale": "线；细长线状物；名词义，不把“一缕”的量词功能无条件移给 fil",
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-03"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "Mandarin initial /l/ is not French final /l/ correspondence; /y/ differs from /i/; /f/ absent.",
+            "features": {
+              "onset": "Mandarin initial /l/ is not French final /l/ correspondence; /y/ differs from /i/; /f/ absent.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-03"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-FL-ZH-03"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-FL-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "名词义，不把“一缕”的量词功能无条件移给 fil",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "名词义，不把“一缕”的量词功能无条件移给 fil",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-FL-C04",
+          "family_key": "final-lexical-fil",
+          "target": {
+            "form": "肥",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-FL-ZH-04"
+              ]
+            },
+            "meaning": {
+              "gloss": "脂肪多；肥胖",
+              "pos": null,
+              "constraints": [
+                "同 f 声母不提供 THREAD 语义"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-FL-C04",
+                "value": "féi",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-FL-ZH-04"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-FL-ZH-04"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-FL-ZH-04"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "FL3",
+            "source_pronunciation_ref": "FL3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-FL-C04",
+            "source_span": "fil",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": "b-p-m-f",
+              "hit": true,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "sound_control",
+          "decision": "rejected",
+          "semantic_fit": {
+            "fit": "mismatch",
+            "confidence": "High",
+            "rationale": "脂肪多；肥胖；同 f 声母不提供 THREAD 语义",
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-04"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "partial",
+            "confidence": "Low",
+            "rationale": "Shared /f/ only; /ei/ differs from /i/; French /l/ unmatched.",
+            "features": {
+              "onset": "Shared /f/ only; /ei/ differs from /i/; French /l/ unmatched.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-04"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-FL-ZH-04"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-FL-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "同 f 声母不提供 THREAD 语义",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "none",
+          "decision_reason": "同 f 声母不提供 THREAD 语义",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-FL-C05",
+          "family_key": "final-lexical-fil",
+          "target": {
+            "form": "细丝",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-FL-ZH-05"
+              ]
+            },
+            "meaning": {
+              "gloss": "细的丝状物",
+              "pos": null,
+              "constraints": [
+                "组合义；只覆盖细丝子类，不覆盖金属丝及所有 figurative fil"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-FL-C05",
+                "value": "xì sī",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-FL-ZH-05"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "editorial_inference",
+                "source_refs": [
+                  "FLB-FL-ZH-05"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-FL-ZH-05"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "FL3",
+            "source_pronunciation_ref": "FL3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-FL-C05",
+            "source_span": "fil",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "meaning_control",
+          "decision": "reserved",
+          "semantic_fit": {
+            "fit": "partial",
+            "confidence": "Medium",
+            "rationale": "细的丝状物；组合义；只覆盖细丝子类，不覆盖金属丝及所有 figurative fil",
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-05"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "Two Mandarin syllables versus one French; /f/ and final /l/ unmatched.",
+            "features": {
+              "onset": "Two Mandarin syllables versus one French; /f/ and final /l/ unmatched.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-FL-CN",
+              "FLB-FL-ZH-05"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "lead",
+              "source_refs": [
+                "FLB-FL-ZH-05"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-FL-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "组合义；只覆盖细丝子类，不覆盖金属丝及所有 figurative fil",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "none",
+          "decision_reason": "组合义；只覆盖细丝子类，不覆盖金属丝及所有 figurative fil",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        }
+      ],
+      "status": "Ready to migrate with Featured Pending",
+      "boundary": "fil < filum；filière 是 fil 的派生词，不是祖先。fille < filia，不能把 DAUGHTER/GIRL 接到 THREAD 时间链。线／丝／缕各有范围限制。"
+    },
+    {
+      "slug": "marchand",
+      "id": "LB-fr-marchand-march-021",
+      "before_stages": 0,
+      "before_mappings": 0,
+      "after_stages": 3,
+      "after_mappings": 2,
+      "candidates": [
+        {
+          "candidate_id": "FLB-MA-C03",
+          "family_key": "final-lexical-marchand",
+          "target": {
+            "form": "贸",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MA-ZH-03"
+              ]
+            },
+            "meaning": {
+              "gloss": "交换财物的商业活动",
+              "pos": null,
+              "constraints": [
+                "TRADE 动作，不是 MERCHANT 人物；不取贸然义"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MA-C03",
+                "value": "mào",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MA-ZH-03"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-MA-ZH-03"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MA-ZH-03"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MA1",
+            "source_pronunciation_ref": null,
+            "target_pronunciation_ref": "ZH-FLB-MA-C03",
+            "source_span": "mercatus",
+            "scope": "semantic_only",
+            "hypothesis": {
+              "group": "b-p-m-f",
+              "hit": true,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "partial",
+            "confidence": "Medium",
+            "rationale": "交换财物的商业活动；TRADE 动作，不是 MERCHANT 人物；不取贸然义",
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-03"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "not_evaluated",
+            "confidence": "Unknown",
+            "rationale": "Latin pronunciation not frozen; modern marchand starts /m/ but /au/ does not match the whole French form.",
+            "features": {
+              "onset": "Latin pronunciation not frozen; modern marchand starts /m/ but /au/ does not match the whole French form.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-03"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-MA-ZH-03"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MA-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "TRADE 动作，不是 MERCHANT 人物；不取贸然义",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-MA-C01",
+          "family_key": "final-lexical-marchand",
+          "target": {
+            "form": "商",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MA-ZH-01"
+              ]
+            },
+            "meaning": {
+              "gloss": "商人；做买卖的人",
+              "pos": null,
+              "constraints": [
+                "排除商朝、商数、商量；现代 noun 义不证明 marcher 来源"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MA-C01",
+                "value": "shāng",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MA-ZH-01"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-MA-ZH-01"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MA-ZH-01"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MA3",
+            "source_pronunciation_ref": "MA3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MA-C01",
+            "source_span": "marchand",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "direct",
+            "confidence": "High",
+            "rationale": "商人；做买卖的人；排除商朝、商数、商量；现代 noun 义不证明 marcher 来源",
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-01"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "partial",
+            "confidence": "Low",
+            "rationale": "French noninitial /ʃɑ̃/ partially resembles /ʂɑŋ/; /ʃ/ is not /ʂ/, nasal vowel is not /ŋ/ coda, and /maʁ/ is unmatched.",
+            "features": {
+              "onset": "French noninitial /ʃɑ̃/ partially resembles /ʂɑŋ/; /ʃ/ is not /ʂ/, nasal vowel is not /ŋ/ coda, and /maʁ/ is unmatched.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-01"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-MA-ZH-01"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MA-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "排除商朝、商数、商量；现代 noun 义不证明 marcher 来源",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-MA-C02",
+          "family_key": "final-lexical-marchand",
+          "target": {
+            "form": "贩",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MA-ZH-02"
+              ]
+            },
+            "meaning": {
+              "gloss": "买进货物再卖出的商人",
+              "pos": null,
+              "constraints": [
+                "常偏小商贩；并非所有 marchand 都是摊贩"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MA-C02",
+                "value": "fàn",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MA-ZH-02"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-MA-ZH-02"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MA-ZH-02"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MA3",
+            "source_pronunciation_ref": "MA3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MA-C02",
+            "source_span": "marchand",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": "b-p-m-f",
+              "hit": true,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "partial",
+            "confidence": "Medium",
+            "rationale": "买进货物再卖出的商人；常偏小商贩；并非所有 marchand 都是摊贩",
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-02"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "Initial /m/ versus /f/ is a generation group only; /an/ differs from French nasal /ɑ̃/ and /maʁʃ/ remains unmatched.",
+            "features": {
+              "onset": "Initial /m/ versus /f/ is a generation group only; /an/ differs from French nasal /ɑ̃/ and /maʁʃ/ remains unmatched.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-02"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-MA-ZH-02"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MA-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "常偏小商贩；并非所有 marchand 都是摊贩",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-MA-C04",
+          "family_key": "final-lexical-marchand",
+          "target": {
+            "form": "马",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MA-ZH-04"
+              ]
+            },
+            "meaning": {
+              "gloss": "马这种动物",
+              "pos": null,
+              "constraints": [
+                "商人骑马不是 MERCHANT 的字义"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MA-C04",
+                "value": "mǎ",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MA-ZH-04"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-MA-ZH-04"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MA-ZH-04"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MA3",
+            "source_pronunciation_ref": "MA3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MA-C04",
+            "source_span": "marchand",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": "b-p-m-f",
+              "hit": true,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "sound_control",
+          "decision": "rejected",
+          "semantic_fit": {
+            "fit": "mismatch",
+            "confidence": "High",
+            "rationale": "马这种动物；商人骑马不是 MERCHANT 的字义",
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-04"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "partial",
+            "confidence": "Low",
+            "rationale": "Initial /m/ and low vowel are local resemblance; French /ʁʃɑ̃/ absent; tone not French prosody.",
+            "features": {
+              "onset": "Initial /m/ and low vowel are local resemblance; French /ʁʃɑ̃/ absent; tone not French prosody.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-04"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-MA-ZH-04"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MA-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "商人骑马不是 MERCHANT 的字义",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "none",
+          "decision_reason": "商人骑马不是 MERCHANT 的字义",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-MA-C05",
+          "family_key": "final-lexical-marchand",
+          "target": {
+            "form": "商人",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MA-ZH-05"
+              ]
+            },
+            "meaning": {
+              "gloss": "从事商业买卖的人",
+              "pos": null,
+              "constraints": [
+                "标准语义对照，不据翻译相合自动 Featured"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MA-C05",
+                "value": "shāng rén",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MA-ZH-05"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "editorial_inference",
+                "source_refs": [
+                  "FLB-MA-ZH-05"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MA-ZH-05"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MA3",
+            "source_pronunciation_ref": "MA3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MA-C05",
+            "source_span": "marchand",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "meaning_control",
+          "decision": "reserved",
+          "semantic_fit": {
+            "fit": "direct",
+            "confidence": "High",
+            "rationale": "从事商业买卖的人；标准语义对照，不据翻译相合自动 Featured",
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-05"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "Only the noninitial French /ʃɑ̃/ has limited overlap with shang; ren has no counterpart.",
+            "features": {
+              "onset": "Only the noninitial French /ʃɑ̃/ has limited overlap with shang; ren has no counterpart.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MA-CN",
+              "FLB-MA-ZH-05"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MA-ZH-05"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MA-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "标准语义对照，不据翻译相合自动 Featured",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "none",
+          "decision_reason": "标准语义对照，不据翻译相合自动 Featured",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        }
+      ],
+      "status": "Ready to migrate with Featured Pending",
+      "boundary": "marchand 属商业来源；*mercatare / *mercatantem 是重建形式，星号必须保留。marcher 的行走来源独立；旅行商人的场景不是派生证明。贸对应 TRADE，商／贩对应 MERCHANT，不能混同动作与人物。"
+    },
+    {
+      "slug": "montrer",
+      "id": "LB-fr-montrer-monitor-018",
+      "before_stages": 0,
+      "before_mappings": 0,
+      "after_stages": 3,
+      "after_mappings": 1,
+      "candidates": [
+        {
+          "candidate_id": "FLB-MO-C01",
+          "family_key": "final-lexical-montrer",
+          "target": {
+            "form": "示",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MO-ZH-01"
+              ]
+            },
+            "meaning": {
+              "gloss": "表明；把事物拿出或指出使人知道",
+              "pos": null,
+              "constraints": [
+                "取显示义；不将祭祀字源或古读 qí 倒推比较"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MO-C01",
+                "value": "shì",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MO-ZH-01"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-MO-ZH-01"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MO-ZH-01"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MO3",
+            "source_pronunciation_ref": "MO3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MO-C01",
+            "source_span": "montrer",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "direct",
+            "confidence": "High",
+            "rationale": "表明；把事物拿出或指出使人知道；取显示义；不将祭祀字源或古读 qí 倒推比较",
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-01"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "/m/ versus Mandarin /ʂ/; /ɔ̃,e/ versus apical vowel; /tʀ/ unmatched; two source syllables versus one.",
+            "features": {
+              "onset": "/m/ versus Mandarin /ʂ/; /ɔ̃,e/ versus apical vowel; /tʀ/ unmatched; two source syllables versus one.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-01"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-MO-ZH-01"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MO-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "取显示义；不将祭祀字源或古读 qí 倒推比较",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-MO-C02",
+          "family_key": "final-lexical-montrer",
+          "target": {
+            "form": "显",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MO-ZH-02"
+              ]
+            },
+            "meaning": {
+              "gloss": "表现；露出",
+              "pos": null,
+              "constraints": [
+                "显得明显与使别人看见的及物行为不完全相同"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MO-C02",
+                "value": "xiǎn",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MO-ZH-02"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-MO-ZH-02"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MO-ZH-02"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MO3",
+            "source_pronunciation_ref": "MO3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MO-C02",
+            "source_span": "montrer",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "shortlisted",
+          "semantic_fit": {
+            "fit": "partial",
+            "confidence": "Medium",
+            "rationale": "表现；露出；显得明显与使别人看见的及物行为不完全相同",
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-02"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "/m/ versus /ɕ/; /jɛn/ is not /ɔ̃/; /tʀe/ unmatched.",
+            "features": {
+              "onset": "/m/ versus /ɕ/; /jɛn/ is not /ɔ̃/; /tʀe/ unmatched.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-02"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-MO-ZH-02"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MO-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "显得明显与使别人看见的及物行为不完全相同",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "Semantic shortlist only; Featured remains Pending.",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-MO-C03",
+          "family_key": "final-lexical-montrer",
+          "target": {
+            "form": "指",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MO-ZH-03"
+              ]
+            },
+            "meaning": {
+              "gloss": "指向；点明、告知",
+              "pos": null,
+              "constraints": [
+                "只对 POINT OUT，不把所有 SHOW 都理解为指手势"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MO-C03",
+                "value": "zhǐ",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MO-ZH-03"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-MO-ZH-03"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MO-ZH-03"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MO3",
+            "source_pronunciation_ref": "MO3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MO-C03",
+            "source_span": "montrer",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "candidate",
+          "decision": "reserved",
+          "semantic_fit": {
+            "fit": "partial",
+            "confidence": "Medium",
+            "rationale": "指向；点明、告知；只对 POINT OUT，不把所有 SHOW 都理解为指手势",
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-03"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "/m/ versus /ʈʂ/; no shared vowel sequence; /tʀ/ not a Mandarin initial correspondence.",
+            "features": {
+              "onset": "/m/ versus /ʈʂ/; no shared vowel sequence; /tʀ/ not a Mandarin initial correspondence.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-03"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-MO-ZH-03"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MO-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "只对 POINT OUT，不把所有 SHOW 都理解为指手势",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "medium",
+          "decision_reason": "只对 POINT OUT，不把所有 SHOW 都理解为指手势",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-MO-C04",
+          "family_key": "final-lexical-montrer",
+          "target": {
+            "form": "梦",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MO-ZH-04"
+              ]
+            },
+            "meaning": {
+              "gloss": "睡眠中的梦",
+              "pos": null,
+              "constraints": [
+                "梦中看见不能证明 MAKE VISIBLE"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MO-C04",
+                "value": "mèng",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MO-ZH-04"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "documented",
+                "source_refs": [
+                  "FLB-MO-ZH-04"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MO-ZH-04"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MO3",
+            "source_pronunciation_ref": "MO3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MO-C04",
+            "source_span": "montrer",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": "b-p-m-f",
+              "hit": true,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "sound_control",
+          "decision": "rejected",
+          "semantic_fit": {
+            "fit": "mismatch",
+            "confidence": "High",
+            "rationale": "睡眠中的梦；梦中看见不能证明 MAKE VISIBLE",
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-04"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "partial",
+            "confidence": "Low",
+            "rationale": "Shared /m/ and broad nasal association only; /əŋ/ not /ɔ̃/; /tʀe/ absent.",
+            "features": {
+              "onset": "Shared /m/ and broad nasal association only; /əŋ/ not /ɔ̃/; /tʀe/ absent.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-04"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "mediated",
+              "source_refs": [
+                "FLB-MO-ZH-04"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MO-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "梦中看见不能证明 MAKE VISIBLE",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "none",
+          "decision_reason": "梦中看见不能证明 MAKE VISIBLE",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        },
+        {
+          "candidate_id": "FLB-MO-C05",
+          "family_key": "final-lexical-montrer",
+          "target": {
+            "form": "展示",
+            "lexical_layer": "Modern Mandarin",
+            "language_variety": "Modern Mandarin",
+            "period": {
+              "label": "Modern Mandarin reference; no historical Chinese date inferred",
+              "start_year": null,
+              "end_year": null,
+              "basis": "modern_reference",
+              "source_refs": [
+                "FLB-MO-ZH-05"
+              ]
+            },
+            "meaning": {
+              "gloss": "把事物陈列出来供观看",
+              "pos": null,
+              "constraints": [
+                "对应陈示义，不自动覆盖 montrer 全部义项"
+              ]
+            },
+            "pronunciations": [
+              {
+                "pronunciation_id": "ZH-FLB-MO-C05",
+                "value": "zhǎn shì",
+                "notation": "pinyin",
+                "phonological_layer": "Modern Mandarin",
+                "period": {
+                  "label": "Modern Mandarin reference; no historical Chinese date inferred",
+                  "start_year": null,
+                  "end_year": null,
+                  "basis": "modern_reference",
+                  "source_refs": [
+                    "FLB-MO-ZH-05"
+                  ]
+                },
+                "variety": "Modern Mandarin",
+                "system": "Hanyu Pinyin; not IPA or historical reconstruction",
+                "status": "editorial_inference",
+                "source_refs": [
+                  "FLB-MO-ZH-05"
+                ]
+              }
+            ],
+            "source_refs": [
+              "FLB-MO-ZH-05"
+            ]
+          },
+          "comparison": {
+            "source_stage_ref": "MO3",
+            "source_pronunciation_ref": "MO3-IPA",
+            "target_pronunciation_ref": "ZH-FLB-MO-C05",
+            "source_span": "montrer",
+            "scope": "whole_form",
+            "hypothesis": {
+              "group": null,
+              "hit": false,
+              "position": "Modern onset candidate-generation feature only; no inferred historical sound correspondence",
+              "version": "Candidate Discovery Protocol v0.2"
+            }
+          },
+          "role": "meaning_control",
+          "decision": "reserved",
+          "semantic_fit": {
+            "fit": "direct",
+            "confidence": "High",
+            "rationale": "把事物陈列出来供观看；对应陈示义，不自动覆盖 montrer 全部义项",
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-05"
+            ]
+          },
+          "phonetic_fit": {
+            "fit": "weak",
+            "confidence": "Low",
+            "rationale": "No aligned /mɔ̃tʀe/ sequence despite two syllables.",
+            "features": {
+              "onset": "No aligned /mɔ̃tʀe/ sequence despite two syllables.",
+              "vowel": "See segment comparison; no historical vowel inferred.",
+              "coda_other_consonants": "Unmatched segments remain explicit in rationale.",
+              "syllables": "Whole form compared; a matching substring does not replace the rest.",
+              "prosody": "Mandarin lexical tone is not French accent or English stress."
+            },
+            "source_refs": [
+              "FLB-MO-CN",
+              "FLB-MO-ZH-05"
+            ]
+          },
+          "evidence": [
+            {
+              "claim_scope": "chinese_sense",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MO-ZH-05"
+              ],
+              "locator": null,
+              "note": "Scoped modern online sense / explicit editorial control, not direct paper verification."
+            },
+            {
+              "claim_scope": "comparison_inference",
+              "status": "lead",
+              "source_refs": [
+                "FLB-MO-REVIEW"
+              ],
+              "locator": null,
+              "note": "Independent semantic/phonetic comparison; no common-origin evidence."
+            },
+            {
+              "claim_scope": "chinese_sense",
+              "status": "pending",
+              "source_refs": [],
+              "locator": null,
+              "note": "大陆大型纸本辞书的具体版本、页码、原始书证及历史音值未取得，保持 Pending。汉典基本/详细解释只作为在线转引，不冒充纸本核验；不采用其台湾国语辞典栏目。"
+            }
+          ],
+          "historical_relation": {
+            "status": "Not claimed",
+            "source_refs": [],
+            "review_note": "No independent cross-language historical evidence."
+          },
+          "confounds": [
+            "对应陈示义，不自动覆盖 montrer 全部义项",
+            "Phonetic group hit does not change meaning or evidence scores."
+          ],
+          "discovery_priority": "none",
+          "decision_reason": "对应陈示义，不自动覆盖 montrer 全部义项",
+          "review": {
+            "status": "reviewed",
+            "reviewer": "Codex — delegated focused review",
+            "date": "2026-09-20",
+            "note": "Focused Discovery + Freeze under Jinkai Liu’s explicit conditional migration authorization; not a claim of a separate human review of these new results."
+          }
+        }
+      ],
+      "status": "Ready to migrate with Featured Pending",
+      "boundary": "montrer 延续 monstrare；monstrare 由 monstrum 构成，与 monere 有较深拉丁词族关系。monitor 经 Latin monitor / monere，是旁支而不是 montrer 的祖先或直接后代。SHOW、WARN、WATCH 不排成一条假的年代链。"
+    }
+  ]
+}

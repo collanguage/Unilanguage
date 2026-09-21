@@ -1,0 +1,34 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import model from '../js/diachronic-mapping.js';
+import {validateFinalLexical,finalLexicalSlugs} from './validate-final-lexical.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const data=JSON.parse(fs.readFileSync(path.join(root,'data/language-book.v1.0.json'),'utf8'));
+const errors=validateFinalLexical(data);if(errors.length)throw Error(errors.join('\n'));
+const template=fs.readFileSync(path.join(root,'templates/language-template.html'),'utf8');
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const examples={convent:['She lives in a convent.','她住在一所修道院。'],fil:['Un fil de cuivre.','一根铜丝。'],marchand:['Un marchand de fruits.','一位水果商贩。'],montrer:['Montrez-moi le chemin.','请给我指路。']};
+const raw={convent:'convent，convention。习俗从修道院而来？',fil:'fil线，filiere行业，fille女孩。',marchand:'marchand商人，march行走。',montrer:'montrer显示，monitor监视器。'};
+for(const slug of finalLexicalSlugs){
+ const e=data.entries.find(x=>x.slug===slug),d=e.diachronic_semantic_mapping;
+ const sections=[];
+ const section=(title,body,id='')=>sections.push(`<section class="word-section section"${id?` id="${id}"`:''}><h2>${title}</h2>${body}</section>`);
+ section('① Literary Introduction / Author Observation（作者原始观察）',`<details><summary>Original observation · 原始观察（不是已核词源）</summary><p>${esc(raw[slug])}</p><p>Retained as research provenance. No literary work is added here.</p></details>`);
+ section('② Basic Meaning（基本词义）',`<p><strong>Standard Translation: ${esc(e.standard_translation.target)}</strong></p><p>${esc(e.primary_mapping.gloss?.en)}</p><p>Lexical identity: ${esc(e.primary_mapping.source.language)} ${esc(e.primary_mapping.source.word)}.</p>`);
+ section('③ Multilingual Mapping（多语言对应）',`<p>${esc(slug)} → ${esc(e.standard_translation.target)}. Context determines the translation; this is not a historical cognacy claim.</p>`);
+ section('④ Etymology（词源）',`<p>${esc(d.boundary['zh-Hans'])}</p><details><summary>Historical stages / 完整历史基础</summary><ol>${d.historical_stages.map(s=>`<li><strong>${esc(s.form)}</strong> — ${esc(s.language.name)}; ${esc(s.period.label)}. ${esc(s.meaning.gloss)}. Evidence: ${esc(s.evidence_status)}; ${esc(s.attestation_status)}. ${s.mapping_selection==='not_selected'?'Chinese Mapping: Not selected.':''}</li>`).join('')}</ol></details>`);
+ section('⑤ Multidimensional Mapping（多维映射）',`<p><strong>Featured Mapping: Pending</strong></p><p>This is a valid research state. The following semantic comparisons are not selected Featured mappings.</p>${model.renderCards(e,'#research-evidence')}`);
+ const candidates=d.mappings.flatMap(m=>m.candidates);
+ const rows=candidates.map(c=>`<tr><td>${esc(c.target.form)} ${esc(c.target.pronunciations[0].value)}</td><td>${esc(c.comparison.source_stage_ref)} · ${esc(c.target.meaning.gloss)}</td><td>${esc(c.role)} / ${esc(c.decision)}</td><td>${esc(c.semantic_fit.fit)} — ${esc(c.semantic_fit.rationale)}</td><td>${esc(c.phonetic_fit.fit)} — ${esc(c.phonetic_fit.rationale)}</td><td>${esc(c.target.meaning.constraints.join('; '))}</td></tr>`).join('');
+ section('⑥ Mapping Justification（映射论证）',`<p>Meaning first. Consonant-group hit ≠ evidence score. Historical Relation: Not claimed.</p><p>Modern Chinese senses: mediated online evidence. Mainland print editions/pages and earliest attestations: Pending. Historical pronunciation: Pending where no source transcription is recorded.</p><details id="research-evidence"><summary>Research / Evidence — candidates, controls and counterexamples</summary><div class="table-wrap"><table><thead><tr><th>Chinese reading</th><th>Stage / sense</th><th>Role / decision</th><th>Semantic fit</th><th>Phonetic fit</th><th>Limits</th></tr></thead><tbody>${rows}</tbody></table></div><p>${esc(d.boundary['zh-Hans'])}</p><p>${esc(e.research_candidate_discovery.pending.join(' '))}</p><ul>${e.references.filter(r=>r.reference_id.startsWith('FLB-')).map(r=>`<li>${r.url?`<a href="${esc(r.url)}">${esc(r.title)}</a>`:esc(r.title)} — ${esc(r.provenance)}</li>`).join('')}</ul><p><a href="../data/entries/${slug}.v1.json">Full record and original research archive</a> · <a href="../docs/research/final-lexical-freeze.md">Focused Discovery / Freeze</a></p></details>`);
+ section('⑦ Protocol References（协议依据）','<p><a href="../protocol/protocol.mapping-framework.html">Mapping Framework</a> · <a href="../protocol/protocol.sound.html">Sound Protocol</a>. Candidate generation is not historical proof.</p>');
+ section('⑧ Translation Protocol（UTP）',`<p>Translate the actual modern sense first: ${esc(e.standard_translation.target)}. Historical-stage comparisons and rejected observations must not replace the normal translation.</p>`);
+ section('⑨ Examples（例句）',`<p>${esc(examples[slug][0])}</p><p>${esc(examples[slug][1])}</p><p class="small">Editorial illustration, not a historical attestation.</p>`);
+ section('⑩ Community（社区共创）','<p>Future contributions may supply a precise printed dictionary entry or independently supported sound comparison. Pending is not permission to invent evidence.</p>');
+ const head=template.split('<main class="word-page">')[0].replace('Language Book Template · Unilanguage',`${slug.toUpperCase()} · Unilanguage`);
+ const html=head+`<main class="word-page"><section class="word-hero hero"><p class="word-category">Language Book · Focused Lexical Review</p><h1>${slug.toUpperCase()}</h1><p>${esc(e.standard_translation.target)}</p><p><strong>Featured Mapping: Pending</strong></p><p>Historical Relation: Not claimed</p></section>\n${sections.join('\n')}<div class="back-link"><a href="../dictionary.html">← Back to Language Book</a></div></main><footer class="footer"><p>Unilanguage · Final Tier D Batch 1 · 1.2.46</p></footer></body></html>\n`;
+ const target=path.join(root,e.page);
+ if(process.argv.includes('--check')){if(fs.readFileSync(target,'utf8')!==html)throw Error(`${e.page}: stale generated page`);}else fs.writeFileSync(target,html);
+}
+console.log('Final lexical pages: four · existing template and model · Featured Pending');
