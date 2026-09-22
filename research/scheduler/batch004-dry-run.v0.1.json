@@ -1,0 +1,4414 @@
+{
+  "scheduler_version": "0.1",
+  "mode": "dry_run",
+  "timestamp": "2026-09-22T15:14:42.706Z",
+  "batch_name": "Production Batch 004 — proposal only",
+  "queue_snapshot": {
+    "snapshot_id": "PRODUCTION-SCHEDULER-DRY-004",
+    "scheduling_view_sha256": "86b295d1886e6d126a459d15ef9f9dbc7625b931f6edee715cb2e1dc758b3fcc",
+    "item_rows": 181,
+    "research_objects": 149,
+    "sources": [
+      {
+        "file": "production-research-batch-003/selection-manifest.json",
+        "sha256": "a6762911805cb564dcf1e54337de35d57f80de1dfe8e92041a94c7420e2d9d51"
+      },
+      {
+        "file": "production-research-queue-batch-001/isolation-manifest.json",
+        "sha256": "0ca9c5a39f18950daec85ed48ff6b83baaafc1174432cf0be38e7eb388a330d3"
+      },
+      {
+        "file": "production-pipeline-v0.1/deduplicated-candidate-inventory.json",
+        "sha256": "0b87becf8820c3049935d7abbbbf564ffb2a0c8295c91b7181280bae5e573137"
+      },
+      {
+        "file": "data/language-book.v1.0.json",
+        "sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5"
+      },
+      {
+        "file": "data/candidates/production-corpus.v0.1.json",
+        "sha256": "a641ad6857a07521bb6ee000c54a12735d5a56721c824eb0e7fbf14c6b3d41f0"
+      },
+      {
+        "file": "data/candidates/production-archive.v0.1.json",
+        "sha256": "7f0a5ad631b064717119cd6edc22058cf8ffefcf558096d54b6285494c768ce9"
+      },
+      {
+        "file": "research/observations/registry.v0.1.json",
+        "sha256": "1d47a59acf637425e6dcfaf472f551f2578b0131b5866007f1c9622ff6ff05a1"
+      }
+    ]
+  },
+  "rules": {
+    "batch_size": 8,
+    "preferred_slots": {
+      "human": 4,
+      "ai": 2,
+      "control_or_uncertain": 2
+    },
+    "ranking": "Human oldest-receipt; otherwise persisted queue order then stable object ID. Separate dimensions are descriptive; no aggregate score.",
+    "backfill": "Alternate approved pipelines; no quota fabrication"
+  },
+  "selection": [
+    {
+      "research_object_id": "RQ-101dda206cb9",
+      "candidate_ids": [
+        "RQ-101dda206cb9"
+      ],
+      "source_form": "bound",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: bound; scope is the recorded context",
+      "meaning_context": "Author comparison or semantic association only; not historical derivation.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-101dda206cb9",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-101dda206cb9"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 50,
+      "created_at": null,
+      "sampling_role": "control_or_uncertain",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/22/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "why_selected": "Control/uncertainty allocation; preserve negative research value",
+      "task_status": "dry_run_proposal",
+      "stop_at": "Editorial Freeze Proposal",
+      "requires_review_by": "Jinkai Liu",
+      "dispatch_allowed": false
+    },
+    {
+      "research_object_id": "RQ-562d6cb07a1c",
+      "candidate_ids": [
+        "RQ-562d6cb07a1c"
+      ],
+      "source_form": "law",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: law; scope is the recorded context",
+      "meaning_context": "rule",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-562d6cb07a1c",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-562d6cb07a1c"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 95,
+      "created_at": null,
+      "sampling_role": "control_or_uncertain",
+      "provenance": [
+        {
+          "source_location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/negative_controls/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "why_selected": "Control/uncertainty allocation; preserve negative research value",
+      "task_status": "dry_run_proposal",
+      "stop_at": "Editorial Freeze Proposal",
+      "requires_review_by": "Jinkai Liu",
+      "dispatch_allowed": false
+    },
+    {
+      "research_object_id": "RQ-73a0d89d12dc",
+      "candidate_ids": [
+        "RQ-73a0d89d12dc"
+      ],
+      "source_form": "abashed",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: abashed; scope is the recorded context",
+      "meaning_context": "Derivative of the related word abash, not of violent-hit bash.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-73a0d89d12dc",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-73a0d89d12dc"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 28,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/12/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "why_selected": "Unfilled composition slots; pipeline-balanced backfill in persisted queue order",
+      "task_status": "dry_run_proposal",
+      "stop_at": "Editorial Freeze Proposal",
+      "requires_review_by": "Jinkai Liu",
+      "dispatch_allowed": false
+    },
+    {
+      "research_object_id": "RQ-9132e6719bd4",
+      "candidate_ids": [
+        "RQ-9132e6719bd4"
+      ],
+      "source_form": "meaning",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: meaning; scope is the recorded context",
+      "meaning_context": "What a sign, word, act or structure conveys or makes interpretable.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-9132e6719bd4",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-9132e6719bd4"
+      ],
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Low",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 2,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "why_selected": "Unfilled composition slots; pipeline-balanced backfill in persisted queue order",
+      "task_status": "dry_run_proposal",
+      "stop_at": "Editorial Freeze Proposal",
+      "requires_review_by": "Jinkai Liu",
+      "dispatch_allowed": false
+    },
+    {
+      "research_object_id": "RQ-2070e35dd27a",
+      "candidate_ids": [
+        "RQ-2070e35dd27a"
+      ],
+      "source_form": "horror",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: horror; scope is the recorded context",
+      "meaning_context": "Latin horror ← horrēre",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-2070e35dd27a",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-2070e35dd27a"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 43,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/21/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "why_selected": "Unfilled composition slots; pipeline-balanced backfill in persisted queue order",
+      "task_status": "dry_run_proposal",
+      "stop_at": "Editorial Freeze Proposal",
+      "requires_review_by": "Jinkai Liu",
+      "dispatch_allowed": false
+    },
+    {
+      "research_object_id": "RQ-7894011e782d",
+      "candidate_ids": [
+        "RQ-7894011e782d"
+      ],
+      "source_form": "up",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: up; scope is the recorded context",
+      "meaning_context": "Toward or in a higher position.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-7894011e782d",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-7894011e782d"
+      ],
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Low",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 8,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/8",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/8",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/8",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "why_selected": "Unfilled composition slots; pipeline-balanced backfill in persisted queue order",
+      "task_status": "dry_run_proposal",
+      "stop_at": "Editorial Freeze Proposal",
+      "requires_review_by": "Jinkai Liu",
+      "dispatch_allowed": false
+    },
+    {
+      "research_object_id": "RQ-248f91f7b08f",
+      "candidate_ids": [
+        "RQ-248f91f7b08f"
+      ],
+      "source_form": "horrid",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: horrid; scope is the recorded context",
+      "meaning_context": "Latin horridus ← horrēre",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-248f91f7b08f",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-248f91f7b08f"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 45,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/21/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "why_selected": "Unfilled composition slots; pipeline-balanced backfill in persisted queue order",
+      "task_status": "dry_run_proposal",
+      "stop_at": "Editorial Freeze Proposal",
+      "requires_review_by": "Jinkai Liu",
+      "dispatch_allowed": false
+    },
+    {
+      "research_object_id": "RQ-a5233aa38dc4",
+      "candidate_ids": [
+        "RQ-a5233aa38dc4"
+      ],
+      "source_form": "inside",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: inside; scope is the recorded context",
+      "meaning_context": "In or into an interior area.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-a5233aa38dc4",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-a5233aa38dc4"
+      ],
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Low",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 11,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/11",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/11",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/11",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "why_selected": "Unfilled composition slots; pipeline-balanced backfill in persisted queue order",
+      "task_status": "dry_run_proposal",
+      "stop_at": "Editorial Freeze Proposal",
+      "requires_review_by": "Jinkai Liu",
+      "dispatch_allowed": false
+    }
+  ],
+  "deferred": [
+    {
+      "research_object_id": "RQ-417206bbfa07",
+      "candidate_ids": [
+        "RQ-417206bbfa07"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-0dea99561b74",
+      "candidate_ids": [
+        "RQ-0dea99561b74"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-e83d95e92d32",
+      "candidate_ids": [
+        "RQ-e83d95e92d32"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-85c25b0fa6c8",
+      "candidate_ids": [
+        "RQ-85c25b0fa6c8"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-680eb4dd434f",
+      "candidate_ids": [
+        "RQ-680eb4dd434f"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-6c9011e4d1cb",
+      "candidate_ids": [
+        "RQ-6c9011e4d1cb"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-dbf7cb31b8cd",
+      "candidate_ids": [
+        "RQ-dbf7cb31b8cd"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-b65f93683aec",
+      "candidate_ids": [
+        "RQ-b65f93683aec"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-aa23b583d404",
+      "candidate_ids": [
+        "RQ-aa23b583d404"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-844c76097b97",
+      "candidate_ids": [
+        "RQ-844c76097b97"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-d1284f734a30",
+      "candidate_ids": [
+        "RQ-d1284f734a30"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-63f75c562c69",
+      "candidate_ids": [
+        "RQ-63f75c562c69"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-c6096ae58707",
+      "candidate_ids": [
+        "RQ-c6096ae58707"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-040e7684eae8",
+      "candidate_ids": [
+        "RQ-040e7684eae8"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-e5e6ea810203",
+      "candidate_ids": [
+        "RQ-e5e6ea810203"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-90acba772e82",
+      "candidate_ids": [
+        "RQ-90acba772e82"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-183450e589a1",
+      "candidate_ids": [
+        "RQ-183450e589a1"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-3a1ad22da6f2",
+      "candidate_ids": [
+        "RQ-3a1ad22da6f2"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-a9bb19aae5dd",
+      "candidate_ids": [
+        "RQ-a9bb19aae5dd"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-3bc4cb89f8a2",
+      "candidate_ids": [
+        "RQ-3bc4cb89f8a2"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-01521ad9475c",
+      "candidate_ids": [
+        "RQ-01521ad9475c"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-09d0af9122ba",
+      "candidate_ids": [
+        "RQ-09d0af9122ba"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-9bdfd82a8591",
+      "candidate_ids": [
+        "RQ-9bdfd82a8591"
+      ],
+      "source_form": "brief/brevity",
+      "source_language": "English",
+      "lexical_identity": null,
+      "meaning_context": "Documented relation in the stated historical family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-9bdfd82a8591",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-9bdfd82a8591"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 29,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/14/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-47f9715b135f",
+      "candidate_ids": [
+        "RQ-47f9715b135f"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-888fe23776e0",
+      "candidate_ids": [
+        "RQ-888fe23776e0"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-db54474bc146",
+      "candidate_ids": [
+        "RQ-db54474bc146"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-28b26472d4ea",
+      "candidate_ids": [
+        "RQ-28b26472d4ea"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-a6ac0e502bf5",
+      "candidate_ids": [
+        "RQ-a6ac0e502bf5"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-a196e825dad3",
+      "candidate_ids": [
+        "RQ-a196e825dad3"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-0f0d0fd17f79",
+      "candidate_ids": [
+        "RQ-0f0d0fd17f79"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-af2b8b2ba6de",
+      "candidate_ids": [
+        "RQ-af2b8b2ba6de"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-3b1aa95bfa96",
+      "candidate_ids": [
+        "RQ-3b1aa95bfa96"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-db6d161470d3",
+      "candidate_ids": [
+        "RQ-db6d161470d3"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-4d0490178c6d",
+      "candidate_ids": [
+        "RQ-4d0490178c6d"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-9eb125208c11",
+      "candidate_ids": [
+        "RQ-9eb125208c11"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-54f735ecd5d8",
+      "candidate_ids": [
+        "RQ-54f735ecd5d8"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-1090854284ca",
+      "candidate_ids": [
+        "RQ-1090854284ca"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-e7057fd7ff8e",
+      "candidate_ids": [
+        "RQ-e7057fd7ff8e"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-8dcded683e44",
+      "candidate_ids": [
+        "RQ-8dcded683e44"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-28ba498012dd",
+      "candidate_ids": [
+        "RQ-28ba498012dd"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-59f44e597f8c",
+      "candidate_ids": [
+        "RQ-59f44e597f8c"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-aa43773b0cfc",
+      "candidate_ids": [
+        "RQ-aa43773b0cfc"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-3e6dba56acfa",
+      "candidate_ids": [
+        "RQ-3e6dba56acfa"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-6e8760b2c429",
+      "candidate_ids": [
+        "RQ-6e8760b2c429"
+      ],
+      "source_form": "convene / convenir",
+      "source_language": "English/French",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-6e8760b2c429",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-6e8760b2c429"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single source-language identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 60,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/28/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single source-language identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-4ce52e696191",
+      "candidate_ids": [
+        "RQ-4ce52e696191"
+      ],
+      "source_form": "figura / fingere",
+      "source_language": "Latin",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-4ce52e696191",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-4ce52e696191"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 62,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/29/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-7e3b70d344ba",
+      "candidate_ids": [
+        "RQ-7e3b70d344ba"
+      ],
+      "source_form": "figurative / figurer",
+      "source_language": "English/French",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-7e3b70d344ba",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-7e3b70d344ba"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single source-language identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 63,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/29/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single source-language identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-3cc1a6f3b3cd",
+      "candidate_ids": [
+        "RQ-3cc1a6f3b3cd"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-b64261ae16a1",
+      "candidate_ids": [
+        "RQ-b64261ae16a1"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-0d3877658122",
+      "candidate_ids": [
+        "RQ-0d3877658122"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-d80c1187f467",
+      "candidate_ids": [
+        "RQ-d80c1187f467"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-75a075d7d64b",
+      "candidate_ids": [
+        "RQ-75a075d7d64b"
+      ],
+      "source_form": "formation",
+      "source_language": "English/French",
+      "lexical_identity": "English/French lexical item: formation; scope is the recorded context",
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-75a075d7d64b",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-75a075d7d64b"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "single source-language identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 69,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/31/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing single source-language identity"
+    },
+    {
+      "research_object_id": "RQ-0011753d4522",
+      "candidate_ids": [
+        "RQ-0011753d4522"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-e66fb94d1cbb",
+      "candidate_ids": [
+        "RQ-e66fb94d1cbb"
+      ],
+      "source_form": "genus",
+      "source_language": "Latin/English",
+      "lexical_identity": "Latin/English lexical item: genus; scope is the recorded context",
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-e66fb94d1cbb",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-e66fb94d1cbb"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "single source-language identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 72,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/32/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing single source-language identity"
+    },
+    {
+      "research_object_id": "RQ-078f6e6554a3",
+      "candidate_ids": [
+        "RQ-078f6e6554a3"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-0de2d0a3cb1c",
+      "candidate_ids": [
+        "RQ-0de2d0a3cb1c"
+      ],
+      "source_form": "marché / merchant",
+      "source_language": "French/English",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-0de2d0a3cb1c",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-0de2d0a3cb1c"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single source-language identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 74,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/35/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single source-language identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-0ebe34d43494",
+      "candidate_ids": [
+        "RQ-0ebe34d43494"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-81536c5a85c5",
+      "candidate_ids": [
+        "RQ-81536c5a85c5"
+      ],
+      "source_form": "medium",
+      "source_language": "English/Latin",
+      "lexical_identity": "English/Latin lexical item: medium; scope is the recorded context",
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-81536c5a85c5",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-81536c5a85c5"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "single source-language identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 76,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/36/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing single source-language identity"
+    },
+    {
+      "research_object_id": "RQ-90ef2643d6d8",
+      "candidate_ids": [
+        "RQ-90ef2643d6d8"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-21fa97e2c9c4",
+      "candidate_ids": [
+        "RQ-21fa97e2c9c4"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-62fece106c20",
+      "candidate_ids": [
+        "RQ-62fece106c20"
+      ],
+      "source_form": "monstrare / monstrum",
+      "source_language": "Latin",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-62fece106c20",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-62fece106c20"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 80,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/37/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-13aa802df994",
+      "candidate_ids": [
+        "RQ-13aa802df994"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-7b50f1aefcf3",
+      "candidate_ids": [
+        "RQ-7b50f1aefcf3"
+      ],
+      "source_form": "monstre / monster",
+      "source_language": "French/English",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-7b50f1aefcf3",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-7b50f1aefcf3"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single source-language identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 82,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/37/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single source-language identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-27ff8838c9f6",
+      "candidate_ids": [
+        "RQ-27ff8838c9f6"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-1d05f238da56",
+      "candidate_ids": [
+        "RQ-1d05f238da56"
+      ],
+      "source_form": "presser / pression",
+      "source_language": "French",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-1d05f238da56",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-1d05f238da56"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 84,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/40/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-c53a802e339e",
+      "candidate_ids": [
+        "RQ-c53a802e339e"
+      ],
+      "source_form": "signal / signature",
+      "source_language": "English/French",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-c53a802e339e",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-c53a802e339e"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single source-language identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 85,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/41/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single source-language identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-0d9ebeb78d6f",
+      "candidate_ids": [
+        "RQ-0d9ebeb78d6f"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-6b9058f863a9",
+      "candidate_ids": [
+        "RQ-6b9058f863a9"
+      ],
+      "source_form": "recognize / reconnaître",
+      "source_language": "English/French",
+      "lexical_identity": null,
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-6b9058f863a9",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-6b9058f863a9"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "single source-language identity",
+          "single lexical/root identity"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 87,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/41/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, single source-language identity, single lexical/root identity"
+    },
+    {
+      "research_object_id": "RQ-b94add260ee7",
+      "candidate_ids": [
+        "RQ-b94add260ee7"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-703e21934bd6",
+      "candidate_ids": [
+        "RQ-703e21934bd6"
+      ],
+      "source_form": "lumen",
+      "source_language": "Latin",
+      "lexical_identity": null,
+      "meaning_context": null,
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-703e21934bd6",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-703e21934bd6"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "meaning_context"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 89,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/positive_observations/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, meaning_context"
+    },
+    {
+      "research_object_id": "RQ-b65bcd03ddb5",
+      "candidate_ids": [
+        "RQ-b65bcd03ddb5"
+      ],
+      "source_form": "lux",
+      "source_language": "Latin",
+      "lexical_identity": null,
+      "meaning_context": null,
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-b65bcd03ddb5",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-b65bcd03ddb5"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "meaning_context"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 90,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/positive_observations/3",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, meaning_context"
+    },
+    {
+      "research_object_id": "RQ-894dc4c4c357",
+      "candidate_ids": [
+        "RQ-894dc4c4c357"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-d37d33cbb9f6",
+      "candidate_ids": [
+        "RQ-d37d33cbb9f6"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-5495c81598e1",
+      "candidate_ids": [
+        "RQ-5495c81598e1"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-5cabd8d5d1ac",
+      "candidate_ids": [
+        "RQ-5cabd8d5d1ac"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-4d9a99ebe809",
+      "candidate_ids": [
+        "RQ-4d9a99ebe809"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-7eedca23db83",
+      "candidate_ids": [
+        "RQ-7eedca23db83"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-e497a72a7645",
+      "candidate_ids": [
+        "RQ-e497a72a7645"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-d67cd23637c0",
+      "candidate_ids": [
+        "RQ-d67cd23637c0"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-d6832f467fc7",
+      "candidate_ids": [
+        "RQ-d6832f467fc7"
+      ],
+      "reason": "Archive: explicit human reopen required (not implemented by Scheduler)"
+    },
+    {
+      "research_object_id": "RQ-f0fcca879770",
+      "candidate_ids": [
+        "RQ-f0fcca879770"
+      ],
+      "reason": "Duplicate research scope; existing object retained"
+    },
+    {
+      "research_object_id": "RQ-7099b3d020aa",
+      "candidate_ids": [
+        "RQ-7099b3d020aa"
+      ],
+      "reason": "Duplicate research scope; existing object retained"
+    },
+    {
+      "research_object_id": "RQ-03184c441b37",
+      "candidate_ids": [
+        "RQ-03184c441b37"
+      ],
+      "reason": "Duplicate research scope; existing object retained"
+    },
+    {
+      "research_object_id": "RQ-7c7d4d742b0d",
+      "candidate_ids": [
+        "RQ-7c7d4d742b0d"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-7444cf06e7b0",
+      "candidate_ids": [
+        "RQ-7444cf06e7b0"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-cb063392464e",
+      "candidate_ids": [
+        "RQ-cb063392464e"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-f512afb4860a",
+      "candidate_ids": [
+        "RQ-f512afb4860a"
+      ],
+      "source_form": "pression",
+      "source_language": "French",
+      "lexical_identity": null,
+      "meaning_context": null,
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-f512afb4860a",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-f512afb4860a"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "meaning_context"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 107,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/40/source/raw_note",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, meaning_context"
+    },
+    {
+      "research_object_id": "RQ-42042c6885b9",
+      "candidate_ids": [
+        "RQ-42042c6885b9"
+      ],
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-6bd40435dc34",
+      "candidate_ids": [
+        "RQ-6bd40435dc34"
+      ],
+      "source_form": "clearly",
+      "source_language": "English",
+      "lexical_identity": null,
+      "meaning_context": null,
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-6bd40435dc34",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-6bd40435dc34"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "meaning_context"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 109,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/33/source/raw_note",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, meaning_context"
+    },
+    {
+      "research_object_id": "RQ-635ef1c7e0d1",
+      "candidate_ids": [
+        "RQ-635ef1c7e0d1"
+      ],
+      "source_form": "六十四卦",
+      "source_language": "Chinese",
+      "lexical_identity": null,
+      "meaning_context": null,
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-635ef1c7e0d1",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-635ef1c7e0d1"
+      ],
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "meaning_context"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 110,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/0/source/raw_note",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, meaning_context"
+    },
+    {
+      "research_object_id": "RQ-62412ae88f1e",
+      "candidate_ids": [
+        "RQ-62412ae88f1e"
+      ],
+      "source_form": "神农氏人身牛头",
+      "source_language": "Chinese",
+      "lexical_identity": null,
+      "meaning_context": null,
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-62412ae88f1e",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-62412ae88f1e"
+      ],
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Provenance/Identity Queue",
+        "missing": [
+          "lexical_identity",
+          "meaning_context"
+        ],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 111,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/39/source/raw_note",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Provenance/Identity Queue: missing lexical_identity, meaning_context"
+    },
+    {
+      "research_object_id": "RQ-18210665f1be",
+      "candidate_ids": [
+        "RQ-18210665f1be"
+      ],
+      "reason": "Archive: explicit human reopen required (not implemented by Scheduler)"
+    },
+    {
+      "research_object_id": "RQ-e5b9fa065562",
+      "candidate_ids": [
+        "RQ-e5b9fa065562"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-e473fe88b59a",
+      "candidate_ids": [
+        "RQ-e473fe88b59a"
+      ],
+      "reason": "Duplicate research scope; existing object retained"
+    },
+    {
+      "research_object_id": "legacy:LB-en-sky-001",
+      "candidate_ids": [
+        "legacy:LB-en-sky-001"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-sound-001",
+      "candidate_ids": [
+        "legacy:LB-en-sound-001"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-a-article-029",
+      "candidate_ids": [
+        "legacy:LB-en-a-article-029"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-aback-032",
+      "candidate_ids": [
+        "legacy:LB-en-aback-032"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abandon-033",
+      "candidate_ids": [
+        "legacy:LB-en-abandon-033"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abash-034",
+      "candidate_ids": [
+        "legacy:LB-en-abash-034"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abbey-010",
+      "candidate_ids": [
+        "legacy:LB-en-abbey-010"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abbreviate-035",
+      "candidate_ids": [
+        "legacy:LB-en-abbreviate-035"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abbreviation-041",
+      "candidate_ids": [
+        "legacy:LB-en-abbreviation-041"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abdicate-036",
+      "candidate_ids": [
+        "legacy:LB-en-abdicate-036"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abdomen-012",
+      "candidate_ids": [
+        "legacy:LB-en-abdomen-012"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abdominal-042",
+      "candidate_ids": [
+        "legacy:LB-en-abdominal-042"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-aberrant-011",
+      "candidate_ids": [
+        "legacy:LB-en-aberrant-011"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abeyance-024",
+      "candidate_ids": [
+        "legacy:LB-en-abeyance-024"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abhor-037",
+      "candidate_ids": [
+        "legacy:LB-en-abhor-037"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abound-025",
+      "candidate_ids": [
+        "legacy:LB-en-abound-025"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-above-030",
+      "candidate_ids": [
+        "legacy:LB-en-above-030"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-abridge-026",
+      "candidate_ids": [
+        "legacy:LB-en-abridge-026"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-absolute-031",
+      "candidate_ids": [
+        "legacy:LB-en-absolute-031"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-acumen-027",
+      "candidate_ids": [
+        "legacy:LB-en-acumen-027"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-aliment-028",
+      "candidate_ids": [
+        "legacy:LB-en-aliment-028"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-convent-convention-023",
+      "candidate_ids": [
+        "legacy:LB-en-convent-convention-023"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-figure-finger-020",
+      "candidate_ids": [
+        "legacy:LB-en-figure-finger-020"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-fr-fil-filiere-fille-019",
+      "candidate_ids": [
+        "legacy:LB-fr-fil-filiere-fille-019"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-form-015",
+      "candidate_ids": [
+        "legacy:LB-en-form-015"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-generate-014",
+      "candidate_ids": [
+        "legacy:LB-en-generate-014"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-horizon-039",
+      "candidate_ids": [
+        "legacy:LB-en-horizon-039"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-fr-marchand-march-021",
+      "candidate_ids": [
+        "legacy:LB-fr-marchand-march-021"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-media-016",
+      "candidate_ids": [
+        "legacy:LB-en-media-016"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-fr-montrer-monitor-018",
+      "candidate_ids": [
+        "legacy:LB-fr-montrer-monitor-018"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-place-namcha-barwa-013",
+      "candidate_ids": [
+        "legacy:LB-place-namcha-barwa-013"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-new-038",
+      "candidate_ids": [
+        "legacy:LB-en-new-038"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-press-pression-022",
+      "candidate_ids": [
+        "legacy:LB-en-press-pression-022"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "legacy:LB-en-sign-cognition-017",
+      "candidate_ids": [
+        "legacy:LB-en-sign-cognition-017"
+      ],
+      "reason": "Already processed / review pending"
+    },
+    {
+      "research_object_id": "RQ-da2ec7508828",
+      "candidate_ids": [
+        "RQ-da2ec7508828"
+      ],
+      "source_form": "outside",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: outside; scope is the recorded context",
+      "meaning_context": "Beyond or not within a boundary.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-da2ec7508828",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-da2ec7508828"
+      ],
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Low",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 12,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/12",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/12",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/12",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-915ffd347135",
+      "candidate_ids": [
+        "RQ-915ffd347135"
+      ],
+      "source_form": "source",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: source; scope is the recorded context",
+      "meaning_context": "A point or entity from which something begins or comes.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-915ffd347135",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-915ffd347135"
+      ],
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Low",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 13,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/13",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/13",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/13",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-7bd33d4b300d",
+      "candidate_ids": [
+        "RQ-7bd33d4b300d"
+      ],
+      "source_form": "goal",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: goal; scope is the recorded context",
+      "meaning_context": "A destination or intended result of movement or action.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-7bd33d4b300d",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-7bd33d4b300d"
+      ],
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "High",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Low",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 15,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/15",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/15",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/15",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-041cc56344db",
+      "candidate_ids": [
+        "RQ-041cc56344db"
+      ],
+      "source_form": "abhorrent",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: abhorrent; scope is the recorded context",
+      "meaning_context": "Latin abhorrent-/abhorrens, participle of abhorrēre",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-041cc56344db",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-041cc56344db"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 46,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/21/related_words/3",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-3978979a16e0",
+      "candidate_ids": [
+        "RQ-3978979a16e0"
+      ],
+      "source_form": "abhorrence",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: abhorrence; scope is the recorded context",
+      "meaning_context": "English abhor noun family; standard spelling",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-3978979a16e0",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-3978979a16e0"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 47,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/21/related_words/4",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-da051df304a5",
+      "candidate_ids": [
+        "RQ-da051df304a5"
+      ],
+      "source_form": "abundance",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: abundance; scope is the recorded context",
+      "meaning_context": "Documented relation in the stated historical family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-da051df304a5",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-da051df304a5"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 49,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/22/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-7d4d73843bb4",
+      "candidate_ids": [
+        "RQ-7d4d73843bb4"
+      ],
+      "source_form": "absolve",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: absolve; scope is the recorded context",
+      "meaning_context": "Documented relation in the stated historical family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-7d4d73843bb4",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-7d4d73843bb4"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 53,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/25/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-ef7527e20941",
+      "candidate_ids": [
+        "RQ-ef7527e20941"
+      ],
+      "source_form": "acuity",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: acuity; scope is the recorded context",
+      "meaning_context": "Documented relation in the stated historical family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-ef7527e20941",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-ef7527e20941"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 56,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/26/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-98fb49ffa66b",
+      "candidate_ids": [
+        "RQ-98fb49ffa66b"
+      ],
+      "source_form": "alimentary",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: alimentary; scope is the recorded context",
+      "meaning_context": "Documented relation in the stated historical family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-98fb49ffa66b",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-98fb49ffa66b"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 57,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/27/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-baf644cb462c",
+      "candidate_ids": [
+        "RQ-baf644cb462c"
+      ],
+      "source_form": "alimenter",
+      "source_language": "French",
+      "lexical_identity": "French lexical item: alimenter; scope is the recorded context",
+      "meaning_context": "Documented relation in the stated historical family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-baf644cb462c",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-baf644cb462c"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 58,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/27/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-c7fe2748656a",
+      "candidate_ids": [
+        "RQ-c7fe2748656a"
+      ],
+      "source_form": "couvent",
+      "source_language": "French",
+      "lexical_identity": "French lexical item: couvent; scope is the recorded context",
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-c7fe2748656a",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-c7fe2748656a"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 61,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/28/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-31a9fccf8a5e",
+      "candidate_ids": [
+        "RQ-31a9fccf8a5e"
+      ],
+      "source_form": "forme",
+      "source_language": "French",
+      "lexical_identity": "French lexical item: forme; scope is the recorded context",
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-31a9fccf8a5e",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-31a9fccf8a5e"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 68,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/31/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-68b3017cc6be",
+      "candidate_ids": [
+        "RQ-68b3017cc6be"
+      ],
+      "source_form": "generation",
+      "source_language": "English",
+      "lexical_identity": "English lexical item: generation; scope is the recorded context",
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-68b3017cc6be",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-68b3017cc6be"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 71,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/32/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    },
+    {
+      "research_object_id": "RQ-c6e4c0019ec1",
+      "candidate_ids": [
+        "RQ-c6e4c0019ec1"
+      ],
+      "source_form": "média",
+      "source_language": "French",
+      "lexical_identity": "French lexical item: média; scope is the recorded context",
+      "meaning_context": "Documented historical relation within the stated family.",
+      "origin_composition": {
+        "label": "unknown provenance",
+        "types": [
+          "unknown"
+        ],
+        "observations": [
+          {
+            "observation_id": "inventory:RQ-c6e4c0019ec1",
+            "origin_type": "unknown",
+            "author": null
+          }
+        ]
+      },
+      "observation_ids": [
+        "inventory:RQ-c6e4c0019ec1"
+      ],
+      "primary_pipeline": "Lexical–Diachronic",
+      "priority_dimensions": {
+        "Research Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Evidence Availability": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Protocol Relevance": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Novelty": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Counterexample Value": {
+          "rating": "Unknown",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Product/Mapper Value": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Research Risk": {
+          "rating": "Medium",
+          "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+        },
+        "Provenance Confidence": {
+          "rating": "Low",
+          "rationale": "Traceable repository extraction; original authorship not authenticated."
+        }
+      },
+      "source_identity_gate": {
+        "status": "Pass",
+        "missing": [],
+        "scope": "Intake completeness only; not independent lexical/etymological verification"
+      },
+      "benchmark_holdout_status": "Cleared against supplied exclusion snapshot; production-exposed, not blind-eligible",
+      "input_channels": [
+        "research_queue"
+      ],
+      "queue_order": 78,
+      "created_at": null,
+      "sampling_role": "ordinary",
+      "provenance": [
+        {
+          "source_location": "data/language-book.v1.0.json#/entries/36/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        }
+      ],
+      "reason": "Eligible; deferred by eight-item capacity and transparent composition/backfill order"
+    }
+  ],
+  "holdout_exclusions": [],
+  "benchmark_exclusions": [
+    {
+      "research_object_id": "RQ-0dea99561b74",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-e5e6ea810203",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-90acba772e82",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-183450e589a1",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-3a1ad22da6f2",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-a9bb19aae5dd",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-3bc4cb89f8a2",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-01521ad9475c",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-09d0af9122ba",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-47f9715b135f",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-888fe23776e0",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-db54474bc146",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-28b26472d4ea",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-a6ac0e502bf5",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-a196e825dad3",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-0f0d0fd17f79",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-af2b8b2ba6de",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-3b1aa95bfa96",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-db6d161470d3",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-4d0490178c6d",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-9eb125208c11",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-54f735ecd5d8",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-1090854284ca",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-e7057fd7ff8e",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-8dcded683e44",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-28ba498012dd",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-59f44e597f8c",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-b64261ae16a1",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-d80c1187f467",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-078f6e6554a3",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-0ebe34d43494",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-21fa97e2c9c4",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-13aa802df994",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-0d9ebeb78d6f",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-b94add260ee7",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-7eedca23db83",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-e497a72a7645",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-d67cd23637c0",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-7c7d4d742b0d",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-7444cf06e7b0",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-cb063392464e",
+      "reason": "Frozen benchmark exclusion"
+    },
+    {
+      "research_object_id": "RQ-42042c6885b9",
+      "reason": "Frozen benchmark exclusion"
+    }
+  ],
+  "composition": {
+    "human": 0,
+    "ai": 0,
+    "control_or_uncertain": 2,
+    "unknown": 8,
+    "note": "Composition dimensions can overlap; observations are not relabeled to fill quotas."
+  },
+  "shortfall": 0,
+  "worker_runs": 0,
+  "registry_mutations": 0,
+  "publication_allowed": false
+}
