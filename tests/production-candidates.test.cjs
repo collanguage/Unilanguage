@@ -8,7 +8,7 @@ const data=require('../js/language-book-data.js');
 const candidatesAPI=require('../js/production-candidate-data.js');
 const active=read('data/candidates/production-corpus.v0.1.json');
 const archive=read('data/candidates/production-archive.v0.1.json');
-test('Production 7+1 intake passes separate structural/editorial gate',async()=>{
+test('Production 14+2 intake passes separate structural/editorial gate',async()=>{
  const {validateProduction}=await import('../scripts/validate-production-candidates.mjs');
  assert.deepEqual(validateProduction(active,archive),[]);
 });

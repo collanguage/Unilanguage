@@ -22,7 +22,7 @@
       return { kind: "unknown", entry: null, candidates: [] };
     const candidates = corpus.records.filter((r) => r.review_status === "candidate" &&
       r.publication_status === "not_published" &&
-      [r.source_word, r.normalized_form, ...(r.baseline_record?.candidates || []).filter(c => c.disposition === "Retained").map(c => c.form)]
+      [r.source_word, r.normalized_form, ...(r.baseline_record?.candidates || []).filter(c => ["Retained", "retained"].includes(c.disposition)).map(c => c.form)]
         .some(form => normalize(form) === term));
     return { kind: candidates.length ? "candidate" : "unknown", entry: null, candidates };
   }

@@ -3,7 +3,7 @@
   "created_at": "2026-09-21",
   "created_by": "Production acceptance authorized by Jinkai Liu; normalized by Codex",
   "review_status": "candidate",
-  "source_note": "Canonical Candidate Corpus v0.1; editorial intake approval is not Reviewed/Published/Proven. Legacy corpus is unchanged. Archive is separate.",
+  "source_note": "Canonical Candidate Corpus v0.1; editorial intake approval is not Reviewed/Published/Proven. Legacy corpus is unchanged. Archive is separate. Batch 002 accepted: 7 additional candidates; neither Reviewed nor Published.",
   "records": [
     {
       "candidate_id": "RQ-417206bbfa07",
@@ -1338,6 +1338,1825 @@
           "https://www.collinsdictionary.com/dictionary/english/light"
         ],
         "rejected": []
+      }
+    },
+    {
+      "candidate_id": "RQ-b65f93683aec",
+      "source_word": "down",
+      "normalized_form": "down",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Candidate",
+      "candidate_mapping": "下 xià",
+      "source_provenance": "data/review/production-002-freeze.v0.1.json#RQ-b65f93683aec",
+      "blockers": [
+        "Chinese historical dating not established; retain modern comparison only.",
+        "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-b65f93683aec",
+        "source_form": "down",
+        "source_language": "English",
+        "source_pronunciation": "/daʊn/",
+        "pronunciation_basis": "Broad modern English transcription aligned to dictionary pronunciation; not historical IPA",
+        "standard_meaning": "向下／在下方（空间义）；降低（程度义）；本批不处理羽绒名词",
+        "primary_pipeline": "Cultural–Structural–Literary",
+        "secondary_layers": [
+          "Spatial / Protocol",
+          "Lexical history"
+        ],
+        "author_observation": {
+          "original": [],
+          "imported_editorial_observations": [
+            "{\"candidate_id\": \"CAND-en-down-001\", \"source_word\": \"down\", \"normalized_form\": \"down\", \"lexical_meaning\": {\"en\": \"Toward or in a lower position.\", \"zh-Hans\": \"朝向或处于更低位置。\"}, \"candidate_mapping\": \"下／向下 · bas／vers le bas\", \"source_provenance\": \"protocol/protocol.space.html#direction\", \"blockers\": [\"part-of-speech and context review\", \"external lexical citations\"], \"review_status\": \"candidate\"}"
+          ],
+          "proposed_mapping_as_intaken": [
+            "下／向下 · bas／vers le bas"
+          ],
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/candidates/package-e-batch-001.v0.2.json",
+              "json_pointer": "/records/9",
+              "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+              "origin_type": "Codex prior extraction; not a verbatim author quote"
+            },
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/candidates/package-f-review-queue.v0.1.json",
+              "json_pointer": "/records/9",
+              "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+            },
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/candidates/package-g-decision-register.v0.1.json",
+              "json_pointer": "/records/9",
+              "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+            }
+          ],
+          "attribution_status": "No verbatim author statement in selected record; imported editorial/research material only",
+          "production_decision": "保留既有编辑提取的下/向下，仅限空间；不计为作者原创复现。"
+        },
+        "historical_stages": [
+          {
+            "stage_id": "D1",
+            "source_form": "of dūne / adūne / dūne",
+            "language": "Old English",
+            "approximate_period": "before 12th century",
+            "meaning_freeze": "off the hill → downward expression",
+            "relation": "phrase contraction; hill noun is a component, not the meaning of every modern down",
+            "source_refs": [
+              "MW-down"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "D2",
+            "source_form": "doun → down",
+            "language": "Middle → Modern English",
+            "approximate_period": "Middle English onward",
+            "meaning_freeze": "lower position/direction; lower degree; separate present-day sense branches",
+            "relation": "lexical continuation; no dates assigned to each metaphor",
+            "source_refs": [
+              "MW-down"
+            ],
+            "chinese_mapping_required": false
+          }
+        ],
+        "candidates": [
+          {
+            "form": "下",
+            "reading": "xià",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "D2",
+            "documented_meaning": "低处；由高处往低处",
+            "semantic_fit": "High",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/ɕja/ vs /daʊn/: onset, nucleus and coda differ",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-下"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "下次/下棋并不对应 down；down the street 也不必垂直向下",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "High"
+          },
+          {
+            "form": "低",
+            "reading": "dī",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "D2",
+            "documented_meaning": "高度、程度较小",
+            "semantic_fit": "High, state/scale only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "Mandarin /t/ differs in voicing from /d/; /i/ and no nasal coda differ",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-低"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "状态形容词，不能替代所有方向副词",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "落",
+            "reading": "luò",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "D2",
+            "documented_meaning": "向下掉落",
+            "semantic_fit": "Medium",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/l/ is only a project d-t-n-l feature relative to /d/; rhyme differs",
+            "structural_fit": "Medium",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-落"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "增加下落事件，不能译静态 down below",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "蹲",
+            "reading": "dūn",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "D2",
+            "documented_meaning": "屈膝降低身体并保持姿势",
+            "semantic_fit": "Low–Medium",
+            "phonetic_fit": "Medium, partial only",
+            "phonetic_reason": "/tuən/ shares nasal coda and similar stop place; /d/ voicing and vowel trajectory differ",
+            "structural_fit": "Medium",
+            "generation_method": "phonetic expansion",
+            "disposition": "not selected",
+            "evidence": {
+              "source_refs": [
+                "ZH-蹲"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "蹲是具体姿态；down不编码屈膝",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Low"
+          },
+          {
+            "form": "塌",
+            "reading": "tā",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "D2",
+            "documented_meaning": "倒下、下陷",
+            "semantic_fit": "Medium, collapse context only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/tʰa/ vs /daʊn/: aspiration, diphthong and nasal coda differ",
+            "structural_fit": "Medium",
+            "generation_method": "phonetic expansion",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-塌"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "只适用于塌落子情境；不是一般down",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Low"
+          }
+        ],
+        "controls": [
+          {
+            "form": "刀",
+            "reading": "dāo",
+            "type": "phonetic",
+            "expected_boundary": "刀具与向下无语义对应；共享近似开头也不够",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Medium, partial",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          },
+          {
+            "form": "向下",
+            "reading": "xiàng xià",
+            "type": "semantic",
+            "expected_boundary": "方向强而声音弱；仍需参照系",
+            "semantic_fit": "High",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          }
+        ],
+        "counterexamples": [
+          "down the street 可以译沿街，不蕴含高度下降。",
+          "goose down 是另一个来源的羽绒名词，不进入空间链。"
+        ],
+        "shortlist": [
+          "下",
+          "低",
+          "落"
+        ],
+        "featured_type": "Structural-Semantic Candidate",
+        "featured_is_evidence_grade": false,
+        "status": "Ready for canonical candidate entry",
+        "proposal_reason": "价值在参照点与高低关系的分层，不在同音；塌仅Research，不列Featured。",
+        "pending": [
+          "Chinese historical dating not established; retain modern comparison only.",
+          "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+        ],
+        "historical_relation": "Not claimed",
+        "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+        "research_status": "Final Editorial Freeze accepted for candidate intake by Jinkai Liu; not lexical Reviewed/Published",
+        "publication_status": "Not published; candidate intake only",
+        "evidence_promotion": false,
+        "hypothesis_result": "Untested / Pending; no experimental support inferred",
+        "evidence_status": "Scope-limited online verification; paper evidence Pending",
+        "semantic_baseline": [
+          "下",
+          "低",
+          "落"
+        ],
+        "expansion_ledger": [
+          {
+            "candidate": "蹲",
+            "group": "d-t-n-l",
+            "disposition": "not selected",
+            "reason": "蹲是具体姿态；down不编码屈膝"
+          },
+          {
+            "candidate": "塌",
+            "group": "d-t-n-l",
+            "disposition": "retained",
+            "reason": "只适用于塌落子情境；不是一般down"
+          }
+        ],
+        "expansion_policy": "Modern source-initial consonant only; project letter groups are retrieval labels, not sound laws. No evidence score bonus.",
+        "source_refs": [
+          "MW-down"
+        ],
+        "previous_status": "Ready for Editorial Freeze",
+        "featured": "下 xià",
+        "phonetic_fit": "Low",
+        "evidence_boundary": "Editorial acceptance does not promote evidence; Structural fit ≠ phonetic fit; all original controls, uncertainties and dispositions preserved."
+      }
+    },
+    {
+      "candidate_id": "RQ-040e7684eae8",
+      "source_word": "one",
+      "normalized_form": "one",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-002-freeze.v0.1.json#RQ-040e7684eae8",
+      "blockers": [
+        "Article a/an and pronoun histories are outside this item; no automatic transfer from legacy A.",
+        "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-040e7684eae8",
+        "source_form": "one",
+        "source_language": "English",
+        "source_pronunciation": "/wʌn/",
+        "pronunciation_basis": "Broad modern English transcription aligned to dictionary pronunciation; not historical IPA",
+        "standard_meaning": "一（基数词）；单一／一个（依构式）；泛指代词另列不纳入本批目标",
+        "primary_pipeline": "Lexical–Diachronic",
+        "secondary_layers": [
+          "Numeral / grammatical contrast"
+        ],
+        "author_observation": {
+          "original": [],
+          "imported_editorial_observations": [
+            "{\"word\": \"one\", \"language\": \"English\", \"relationship_type\": \"historical family\", \"family\": \"Old English ān\", \"relation_to_entry\": {\"en\": \"Documented relation in the stated historical family.\", \"zh-Hans\": \"在所列历史词族内有文献支持的关系。\"}, \"status\": \"Established\", \"source_refs\": [\"REF-MW-A\"]}"
+          ],
+          "proposed_mapping_as_intaken": [],
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/language-book.v1.0.json",
+              "json_pointer": "/entries/9/related_words/1",
+              "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+              "origin_type": "repository related-word claim; not new research"
+            }
+          ],
+          "attribution_status": "No verbatim author statement in selected record; imported editorial/research material only",
+          "production_decision": "无原始作者Mapping；保留one与a/an相关的导入线索，经义项隔离。"
+        },
+        "historical_stages": [
+          {
+            "stage_id": "O1",
+            "source_form": "ān",
+            "language": "Old English",
+            "approximate_period": "before 12th century",
+            "meaning_freeze": "one / single numeral unit",
+            "relation": "attested ancestor",
+            "source_refs": [
+              "MW-one"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "O2",
+            "source_form": "on / an → one",
+            "language": "Middle → Modern English",
+            "approximate_period": "Middle English onward",
+            "meaning_freeze": "numeral one; modern pronoun uses are separate senses",
+            "relation": "inherited numeral; indefinite article related, not identical modern function",
+            "source_refs": [
+              "MW-one"
+            ],
+            "chinese_mapping_required": false
+          }
+        ],
+        "candidates": [
+          {
+            "form": "一",
+            "reading": "yī",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "O1/O2",
+            "documented_meaning": "最小正整数；一个单位",
+            "semantic_fit": "High, numeral",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/i/ vs /wʌn/: no matching nucleus or nasal coda",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-一"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "one泛指人、替代名词时不能逐词译一",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "High"
+          },
+          {
+            "form": "独",
+            "reading": "dú",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "O2",
+            "documented_meaning": "独自、单独",
+            "semantic_fit": "Medium",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/tu/ differs from /wʌn/",
+            "structural_fit": "Medium",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-独"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "独带孤立/单独，不是纯数值",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "单",
+            "reading": "dān",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "O2",
+            "documented_meaning": "一个、单个，与双/复相对",
+            "semantic_fit": "Medium–High, single only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/tan/ shares /n/ but onset and nucleus differ",
+            "structural_fit": "Medium",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-单"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "固定dān；不使用shàn/chán；单数不等于所有one",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          }
+        ],
+        "controls": [
+          {
+            "form": "弯",
+            "reading": "wān",
+            "type": "phonetic",
+            "expected_boundary": "弯曲不是数值一",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Medium, partial",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          },
+          {
+            "form": "第一",
+            "reading": "dì yī",
+            "type": "semantic boundary",
+            "expected_boundary": "序数第一不等于基数one；only number-one context",
+            "semantic_fit": "Medium",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          }
+        ],
+        "counterexamples": [
+          "one can... 的one可泛指人。",
+          "the red one 可译红色的那个，不必出现一。"
+        ],
+        "shortlist": [
+          "一",
+          "单"
+        ],
+        "featured_type": "Not selected",
+        "featured_is_evidence_grade": false,
+        "status": "Ready with Featured Pending",
+        "proposal_reason": "数词映射清楚，但无额外声音或结构研究价值要求强选Featured。",
+        "pending": [
+          "Article a/an and pronoun histories are outside this item; no automatic transfer from legacy A.",
+          "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+        ],
+        "historical_relation": "Not claimed",
+        "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+        "research_status": "Final Editorial Freeze accepted for candidate intake by Jinkai Liu; not lexical Reviewed/Published",
+        "publication_status": "Not published; candidate intake only",
+        "evidence_promotion": false,
+        "hypothesis_result": "Untested / Pending; no experimental support inferred",
+        "evidence_status": "Scope-limited online verification; paper evidence Pending",
+        "semantic_baseline": [
+          "一",
+          "独",
+          "单"
+        ],
+        "expansion_ledger": [],
+        "expansion_policy": "Modern source-initial consonant only; project letter groups are retrieval labels, not sound laws. No evidence score bonus.",
+        "expansion_not_run_reason": "/w/ outside stated groups; numeral semantic baseline sufficient",
+        "source_refs": [
+          "MW-one"
+        ],
+        "previous_status": "Featured Pending",
+        "featured": "Pending",
+        "phonetic_fit": "No Featured; per-candidate values preserved",
+        "evidence_boundary": "Editorial acceptance does not promote evidence; Structural fit ≠ phonetic fit; all original controls, uncertainties and dispositions preserved."
+      }
+    },
+    {
+      "candidate_id": "RQ-3e6dba56acfa",
+      "source_word": "convention",
+      "normalized_form": "convention",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-002-freeze.v0.1.json#RQ-3e6dba56acfa",
+      "blockers": [
+        "French/English records may later be split by lexical identity; keep English primary and French source/comparison explicit.",
+        "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-3e6dba56acfa",
+        "source_form": "convention",
+        "source_language": "English",
+        "source_pronunciation": "/kənˈvenʃən/",
+        "pronunciation_basis": "Broad modern English transcription aligned to dictionary pronunciation; not historical IPA",
+        "standard_meaning": "惯例／约定／协议；大会（分别依义项）",
+        "primary_pipeline": "Lexical–Diachronic",
+        "secondary_layers": [
+          "Social / structural convention"
+        ],
+        "author_observation": {
+          "original": [],
+          "imported_editorial_observations": [
+            "{\"word\": \"convention\", \"language\": \"English/French\", \"relationship_type\": \"Historical relative\", \"family\": \"Latin conventio ← convenire\", \"relation_to_entry\": {\"en\": \"Documented historical relation within the stated family.\", \"zh-Hans\": \"在所列词族内有文献支持的历史关系。\"}, \"status\": \"Established\", \"source_refs\": [\"REF-MW-CONVENT\", \"REF-MW-CONVENTION\", \"REF-CNRTL-COUVENT\", \"REF-CNRTL-CONVENTION\"]}"
+          ],
+          "proposed_mapping_as_intaken": [],
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/language-book.v1.0.json",
+              "json_pointer": "/entries/28/related_words/0",
+              "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+              "origin_type": "repository related-word claim; not new research"
+            }
+          ],
+          "attribution_status": "No verbatim author statement in selected record; imported editorial/research material only",
+          "production_decision": "无作者直接Mapping；删去不适用于本记录的泛化文学标签，非删除原始资料。"
+        },
+        "historical_stages": [
+          {
+            "stage_id": "C1",
+            "source_form": "conventio ← convenire",
+            "language": "Latin",
+            "approximate_period": "Classical Latin",
+            "meaning_freeze": "assembly and agreement/pact branches",
+            "relation": "Latin derivation; branches are not a demonstrated chronology",
+            "source_refs": [
+              "CN-convention",
+              "MW-convention"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "C2",
+            "source_form": "convention / convencion",
+            "language": "French",
+            "approximate_period": "agreement attested before 1350; assembly 15th century",
+            "meaning_freeze": "agreement and assembly; later conventional arrangements",
+            "relation": "French borrowing/semantic branches; date is attestation, not invention",
+            "source_refs": [
+              "CN-convention"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "C3",
+            "source_form": "convention",
+            "language": "English",
+            "approximate_period": "15th century onward",
+            "meaning_freeze": "agreement, assembly, accepted custom",
+            "relation": "Middle French OR Latin source; no asserted single borrowing route",
+            "source_refs": [
+              "MW-convention"
+            ],
+            "chinese_mapping_required": false
+          }
+        ],
+        "candidates": [
+          {
+            "form": "约",
+            "reading": "yuē",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "C1/C2/C3",
+            "documented_meaning": "共同议定、应遵守的条款",
+            "semantic_fit": "High, agreement only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/ɥe/ vs multi-syllable /kənˈvenʃən/: no systematic alignment",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-约"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "不是大会，也不是所有习俗；非yāo",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "High"
+          },
+          {
+            "form": "会",
+            "reading": "huì",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "C1/C3",
+            "documented_meaning": "聚集、会议",
+            "semantic_fit": "High, assembly only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/xweɪ/ vs source word; no matching syllable structure",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-会"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "非kuài；不能把会见等都译convention",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "惯",
+            "reading": "guàn",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "C3",
+            "documented_meaning": "习惯、惯常",
+            "semantic_fit": "Medium",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/kwan/ partial unstressed /kən/ resemblance cannot represent whole word",
+            "structural_fit": "Medium",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-惯"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "惯作字根；惯例比单字更自然；社会共同规则不限个人习惯",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "合",
+            "reading": "hé",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "C1",
+            "documented_meaning": "聚合、会合、相合",
+            "semantic_fit": "Medium",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/xɤ/ vs /k/: project g-k-h hit only",
+            "structural_fit": "Medium",
+            "generation_method": "phonetic expansion",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-合"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "只比come-together组成语义；不作现代惯例翻译",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "格",
+            "reading": "gé",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "C3",
+            "documented_meaning": "规格、格式范围内的规则",
+            "semantic_fit": "Low–Medium",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/kɤ/ approximates one onset, not word sound",
+            "structural_fit": "Low",
+            "generation_method": "phonetic expansion",
+            "disposition": "not selected",
+            "evidence": {
+              "source_refs": [
+                "ZH-格"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "格式只是某类约定；单字格过宽",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          }
+        ],
+        "controls": [
+          {
+            "form": "坑",
+            "reading": "kēng",
+            "type": "phonetic",
+            "expected_boundary": "与开头局部近似不产生agreement语义",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          },
+          {
+            "form": "大会",
+            "reading": "dà huì",
+            "type": "semantic",
+            "expected_boundary": "assembly义强；不能覆盖treaty/custom",
+            "semantic_fit": "High",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          }
+        ],
+        "counterexamples": [
+          "international convention可指公约，不必指会场大会。",
+          "社会惯例可为默契，不是人人曾签合同。"
+        ],
+        "shortlist": [
+          "约",
+          "会",
+          "惯"
+        ],
+        "featured_type": "Not selected",
+        "featured_is_evidence_grade": false,
+        "status": "Ready with Featured Pending",
+        "proposal_reason": "三个现代义项应分列；无单字覆盖整词，无需Featured。",
+        "pending": [
+          "French/English records may later be split by lexical identity; keep English primary and French source/comparison explicit.",
+          "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+        ],
+        "historical_relation": "Not claimed",
+        "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+        "research_status": "Final Editorial Freeze accepted for candidate intake by Jinkai Liu; not lexical Reviewed/Published",
+        "publication_status": "Not published; candidate intake only",
+        "evidence_promotion": false,
+        "hypothesis_result": "Untested / Pending; no experimental support inferred",
+        "evidence_status": "Scope-limited online verification; paper evidence Pending",
+        "semantic_baseline": [
+          "约",
+          "会",
+          "惯"
+        ],
+        "expansion_ledger": [
+          {
+            "candidate": "合",
+            "group": "g-k-h",
+            "disposition": "retained",
+            "reason": "只比come-together组成语义；不作现代惯例翻译"
+          },
+          {
+            "candidate": "格",
+            "group": "g-k-h",
+            "disposition": "not selected",
+            "reason": "格式只是某类约定；单字格过宽"
+          }
+        ],
+        "expansion_policy": "Modern source-initial consonant only; project letter groups are retrieval labels, not sound laws. No evidence score bonus.",
+        "source_refs": [
+          "CN-convention",
+          "MW-convention"
+        ],
+        "previous_status": "Featured Pending",
+        "featured": "Pending",
+        "phonetic_fit": "No Featured; per-candidate values preserved",
+        "evidence_boundary": "Editorial acceptance does not promote evidence; Structural fit ≠ phonetic fit; all original controls, uncertainties and dispositions preserved."
+      }
+    },
+    {
+      "candidate_id": "RQ-90ef2643d6d8",
+      "source_word": "middle",
+      "normalized_form": "middle",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-002-freeze.v0.1.json#RQ-90ef2643d6d8",
+      "blockers": [
+        "Do not adjudicate reserved MAD target; its appearance in raw wording is not a historical edge.",
+        "Original note wording preserved; no new pre-AI target eligibility decision.",
+        "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-90ef2643d6d8",
+        "source_form": "middle",
+        "source_language": "English",
+        "source_pronunciation": "/ˈmɪdəl/",
+        "pronunciation_basis": "Broad modern English transcription aligned to dictionary pronunciation; not historical IPA",
+        "standard_meaning": "中间／中央／中部；中等（尺度）；middle position不自动等于中介",
+        "primary_pipeline": "Lexical–Diachronic",
+        "secondary_layers": [
+          "Between / central structural comparison"
+        ],
+        "author_observation": {
+          "original": [
+            "media，middle，mad。media / middle / 媒 / 中间。"
+          ],
+          "imported_editorial_observations": [
+            "{\"word\": \"middle\", \"language\": \"English\", \"relationship_type\": \"Deep historical cognate\", \"family\": \"Germanic mid-; deeper Indo-European relation to Latin medius\", \"relation_to_entry\": {\"en\": \"Documented historical relation within the stated family.\", \"zh-Hans\": \"在所列词族内有文献支持的历史关系。\"}, \"status\": \"Established\", \"source_refs\": [\"REF-MW-MEDIUM\", \"REF-MW-MIDDLE\", \"REF-CNRTL-MEDIA\"]}"
+          ],
+          "proposed_mapping_as_intaken": [
+            "中间; raw context also includes 媒"
+          ],
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/language-book.v1.0.json",
+              "json_pointer": "/entries/36/related_words/1",
+              "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+              "origin_type": "repository related-word claim; not new research"
+            },
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/language-book.v1.0.json",
+              "json_pointer": "/entries/36/source/raw_note",
+              "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+              "origin_type": "repository raw-note"
+            }
+          ],
+          "attribution_status": "Repository raw-note attribution; not a newly authenticated pre-AI target",
+          "production_decision": "原文原样保存；中间保留，媒限制到中介角色，不进入Featured；这是候选身份限缩，不裁定作者当初必然主张middle=媒。"
+        },
+        "historical_stages": [
+          {
+            "stage_id": "M1",
+            "source_form": "middel; related midde",
+            "language": "Old English",
+            "approximate_period": "before 12th century",
+            "meaning_freeze": "middle / central position",
+            "relation": "Germanic lineage",
+            "source_refs": [
+              "MW-middle"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "M2",
+            "source_form": "middel → middle",
+            "language": "Middle → Modern English",
+            "approximate_period": "Middle English onward",
+            "meaning_freeze": "central, intermediate, amid",
+            "relation": "continuation; present senses not sequential timeline",
+            "source_refs": [
+              "MW-middle"
+            ],
+            "chinese_mapping_required": false
+          }
+        ],
+        "candidates": [
+          {
+            "form": "中间",
+            "reading": "zhōng jiān",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "M1/M2",
+            "documented_meaning": "两端或两者之间的位置",
+            "semantic_fit": "High",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/ʈʂʊŋ tɕjɛn/ differs in onset, rhyme and syllables",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-中间"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "不要求精确几何中点；非zhòng",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "High"
+          },
+          {
+            "form": "中央",
+            "reading": "zhōng yāng",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "M2",
+            "documented_meaning": "中心或中部位置",
+            "semantic_fit": "High, center only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "source /m/ does not match initial /ʈʂ/",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-中央"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "中央政府义不是middle的通译",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "居中",
+            "reading": "jū zhōng",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "M2",
+            "documented_meaning": "位在中间；也可居间调解",
+            "semantic_fit": "Medium–High, construction",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/tɕy ʈʂʊŋ/ differs throughout",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-居中"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "调解义不能倒推所有middle均为媒介",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "媒",
+            "reading": "méi",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "M2",
+            "documented_meaning": "使双方发生关系的人或事物",
+            "semantic_fit": "Low for generic middle; Medium for intermediary schema",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "same /m/ only; /eɪ/ vs /ɪdəl/",
+            "structural_fit": "Medium",
+            "generation_method": "phonetic expansion",
+            "disposition": "not selected",
+            "evidence": {
+              "source_refs": [
+                "ZH-媒"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "角色性中介不等于几何/时间中间；MEDIA的选择不能迁入本词",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "半",
+            "reading": "bàn",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "M2",
+            "documented_meaning": "二分之一",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "b-p-m-f feature uses /p/ vs /m/; other segments differ",
+            "structural_fit": "Low",
+            "generation_method": "phonetic expansion",
+            "disposition": "semantic mismatch",
+            "evidence": {
+              "source_refs": [
+                "ZH-半"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "half不是middle；中间不保证一半",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          }
+        ],
+        "controls": [
+          {
+            "form": "米",
+            "reading": "mǐ",
+            "type": "phonetic",
+            "expected_boundary": "同/m/而米粮与middle无关",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          },
+          {
+            "form": "中点",
+            "reading": "zhōng diǎn",
+            "type": "semantic boundary",
+            "expected_boundary": "仅精确点位；不得替代middle class等",
+            "semantic_fit": "High, geometric point",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          }
+        ],
+        "counterexamples": [
+          "in the middle of the night 不是媒体/媒介。",
+          "middle与Latin medius可属深层相关家族，不是media直接生出middle。"
+        ],
+        "shortlist": [
+          "中间",
+          "中央",
+          "居中"
+        ],
+        "featured_type": "Not selected",
+        "featured_is_evidence_grade": false,
+        "status": "Ready with Featured Pending",
+        "proposal_reason": "中间的语义可保留；媒只留受限中介结构Research，不能代替普通middle。",
+        "pending": [
+          "Do not adjudicate reserved MAD target; its appearance in raw wording is not a historical edge.",
+          "Original note wording preserved; no new pre-AI target eligibility decision.",
+          "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+        ],
+        "historical_relation": "Not claimed",
+        "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+        "research_status": "Final Editorial Freeze accepted for candidate intake by Jinkai Liu; not lexical Reviewed/Published",
+        "publication_status": "Not published; candidate intake only",
+        "evidence_promotion": false,
+        "hypothesis_result": "Untested / Pending; no experimental support inferred",
+        "evidence_status": "Scope-limited online verification; paper evidence Pending",
+        "related_family": {
+          "forms": [
+            "Germanic mid-",
+            "Latin medius"
+          ],
+          "relation": "deeper historical family, not direct descent",
+          "source_refs": [
+            "OUP-mid"
+          ],
+          "chinese_relation": "Not claimed"
+        },
+        "semantic_baseline": [
+          "中间",
+          "中央",
+          "居中"
+        ],
+        "expansion_ledger": [
+          {
+            "candidate": "媒",
+            "group": "b-p-m-f",
+            "disposition": "not selected",
+            "reason": "角色性中介不等于几何/时间中间；MEDIA的选择不能迁入本词"
+          },
+          {
+            "candidate": "半",
+            "group": "b-p-m-f",
+            "disposition": "semantic mismatch",
+            "reason": "half不是middle；中间不保证一半"
+          }
+        ],
+        "expansion_policy": "Modern source-initial consonant only; project letter groups are retrieval labels, not sound laws. No evidence score bonus.",
+        "source_refs": [
+          "MW-middle",
+          "OUP-mid"
+        ],
+        "previous_status": "Featured Pending",
+        "featured": "Pending",
+        "phonetic_fit": "No Featured; per-candidate values preserved",
+        "evidence_boundary": "Editorial acceptance does not promote evidence; Structural fit ≠ phonetic fit; all original controls, uncertainties and dispositions preserved."
+      }
+    },
+    {
+      "candidate_id": "RQ-27ff8838c9f6",
+      "source_word": "pressure",
+      "normalized_form": "pressure",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Candidate",
+      "candidate_mapping": "压力 yālì",
+      "source_provenance": "data/review/production-002-freeze.v0.1.json#RQ-27ff8838c9f6",
+      "blockers": [
+        "Earliest Chinese metaphor dates not verified; no diachronic Chinese claim.",
+        "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-27ff8838c9f6",
+        "source_form": "pressure",
+        "source_language": "English",
+        "source_pronunciation": "/ˈpreʃə(r)/",
+        "pronunciation_basis": "Broad modern English transcription aligned to dictionary pronunciation; not historical IPA",
+        "standard_meaning": "压力（一般压迫/负担）；压强（物理量F/A）；施压（动词）",
+        "primary_pipeline": "Cultural–Structural–Literary",
+        "secondary_layers": [
+          "Transformation: contact/force versus constraint",
+          "Lexical history"
+        ],
+        "author_observation": {
+          "original": [],
+          "imported_editorial_observations": [
+            "{\"word\": \"pressure\", \"language\": \"English\", \"relationship_type\": \"Etymological derivative\", \"family\": \"Latin premere / pressus\", \"relation_to_entry\": {\"en\": \"Documented historical relation within the stated family.\", \"zh-Hans\": \"在所列词族内有文献支持的历史关系。\"}, \"status\": \"Established\", \"source_refs\": [\"REF-MW-PRESS\", \"REF-CNRTL-PRESSION\", \"REF-CNRTL-PRESSER\"]}"
+          ],
+          "proposed_mapping_as_intaken": [],
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/language-book.v1.0.json",
+              "json_pointer": "/entries/40/related_words/0",
+              "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+              "origin_type": "repository related-word claim; not new research"
+            }
+          ],
+          "attribution_status": "No verbatim author statement in selected record; imported editorial/research material only",
+          "production_decision": "无作者直接汉字观察；保留导入premere/pressus家族线索并独立核验。"
+        },
+        "historical_stages": [
+          {
+            "stage_id": "P1",
+            "source_form": "pressura ← pressus / premere",
+            "language": "Latin / Late Latin",
+            "approximate_period": "Antiquity / Late Latin",
+            "meaning_freeze": "pressing, pressure",
+            "relation": "derivation",
+            "source_refs": [
+              "MW-pressure"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "P2",
+            "source_form": "pressure",
+            "language": "Anglo-French → Middle English",
+            "approximate_period": "English noun attested 14th century",
+            "meaning_freeze": "pressure / pressing noun",
+            "relation": "borrowing; no exact Anglo-French date supplied",
+            "source_refs": [
+              "MW-pressure"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "P3",
+            "source_form": "pressure",
+            "language": "Modern English",
+            "approximate_period": "contemporary senses; verb recorded 1911",
+            "meaning_freeze": "physical contact/force, physical quantity, coercion/burden",
+            "relation": "parallel sense map, not claimed historical sequence",
+            "source_refs": [
+              "MW-pressure"
+            ],
+            "chinese_mapping_required": false
+          }
+        ],
+        "candidates": [
+          {
+            "form": "压力",
+            "reading": "yā lì",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "P2/P3",
+            "documented_meaning": "物体受作用力；威逼制伏或负担",
+            "semantic_fit": "High, scoped",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/ja li/ vs /preʃə/: no robust sound match",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-压力"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "F/A技术义优先明确压强；勿称所有领域压力都不合法",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "High"
+          },
+          {
+            "form": "压强",
+            "reading": "yā qiáng",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "P3",
+            "documented_meaning": "单位面积的力",
+            "semantic_fit": "High, physics",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/ja tɕʰjaŋ/ differs from source",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-压强",
+                "CAAC-pressure"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "不能译peer pressure；force和F/A不是同一量",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "High"
+          },
+          {
+            "form": "迫",
+            "reading": "pò",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "P3",
+            "documented_meaning": "逼迫、压迫",
+            "semantic_fit": "High, coercive only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/pʰwɔ/ shares stop place with /p/ but omits /r/ and rest of word",
+            "structural_fit": "Medium",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-迫"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "非pǎi；不是气压数值或所有负担",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "逼",
+            "reading": "bī",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "P3",
+            "documented_meaning": "强迫、威逼",
+            "semantic_fit": "High, coercive only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/pi/ vs /pr/: cluster and vowel mismatch; b-p-m-f hit alone",
+            "structural_fit": "Medium",
+            "generation_method": "phonetic expansion",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-逼"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "强制色彩可能比social pressure更重",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "扶",
+            "reading": "fú",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "P3",
+            "documented_meaning": "扶持、支撑",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/f/ in project group but differs from /pr/",
+            "structural_fit": "Low",
+            "generation_method": "phonetic expansion",
+            "disposition": "semantic mismatch",
+            "evidence": {
+              "source_refs": [
+                "ZH-扶"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "有接触力不等于压力语义；不能靠物理因果补词义",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          }
+        ],
+        "controls": [
+          {
+            "form": "谱",
+            "reading": "pǔ",
+            "type": "phonetic",
+            "expected_boundary": "同唇音附近但谱表并非pressure",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          },
+          {
+            "form": "负担",
+            "reading": "fù dān",
+            "type": "semantic",
+            "expected_boundary": "心理/事务压力强，不能译F/A",
+            "semantic_fit": "High, burden",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          }
+        ],
+        "counterexamples": [
+          "物理量pressure译压强时不可把力的牛顿值当作帕斯卡值。",
+          "peer pressure不要求真实身体接触；转换图不是因果定律或词源时间线。"
+        ],
+        "shortlist": [
+          "压力",
+          "压强",
+          "迫"
+        ],
+        "featured_type": "Structural-Semantic Candidate",
+        "featured_is_evidence_grade": false,
+        "status": "Ready for canonical candidate entry",
+        "proposal_reason": "可作有限Structural/Transformation Candidate；展示物理—社会概念对照，不声称双方相同历时路线。",
+        "pending": [
+          "Earliest Chinese metaphor dates not verified; no diachronic Chinese claim.",
+          "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+        ],
+        "historical_relation": "Not claimed",
+        "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+        "research_status": "Final Editorial Freeze accepted for candidate intake by Jinkai Liu; not lexical Reviewed/Published",
+        "publication_status": "Not published; candidate intake only",
+        "evidence_promotion": false,
+        "hypothesis_result": "Untested / Pending; no experimental support inferred",
+        "evidence_status": "Scope-limited online verification; paper evidence Pending",
+        "semantic_baseline": [
+          "压力",
+          "压强",
+          "迫"
+        ],
+        "expansion_ledger": [
+          {
+            "candidate": "逼",
+            "group": "b-p-m-f",
+            "disposition": "retained",
+            "reason": "强制色彩可能比social pressure更重"
+          },
+          {
+            "candidate": "扶",
+            "group": "b-p-m-f",
+            "disposition": "semantic mismatch",
+            "reason": "有接触力不等于压力语义；不能靠物理因果补词义"
+          }
+        ],
+        "expansion_policy": "Modern source-initial consonant only; project letter groups are retrieval labels, not sound laws. No evidence score bonus.",
+        "source_refs": [
+          "MW-pressure"
+        ],
+        "previous_status": "Ready for Editorial Freeze",
+        "featured": "压力 yālì",
+        "phonetic_fit": "Low",
+        "evidence_boundary": "Editorial acceptance does not promote evidence; Structural fit ≠ phonetic fit; all original controls, uncertainties and dispositions preserved."
+      }
+    },
+    {
+      "candidate_id": "RQ-d37d33cbb9f6",
+      "source_word": "illuminate",
+      "normalized_form": "illuminate",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-002-freeze.v0.1.json#RQ-d37d33cbb9f6",
+      "blockers": [
+        "L hypothesis remains Untested; no new experiment.",
+        "Chinese metaphor chronology and print entries Pending.",
+        "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-d37d33cbb9f6",
+        "source_form": "illuminate",
+        "source_language": "English",
+        "source_pronunciation": "/ɪˈluːmɪneɪt/",
+        "pronunciation_basis": "Broad modern English transcription aligned to dictionary pronunciation; not historical IPA",
+        "standard_meaning": "照亮／照明；阐明／启迪（分别依义项）",
+        "primary_pipeline": "Lexical–Diachronic",
+        "secondary_layers": [
+          "Light→understanding structural comparison",
+          "L-hypothesis negative/dependence control"
+        ],
+        "author_observation": {
+          "original": [],
+          "imported_editorial_observations": [
+            "{\"item\": \"illuminate\", \"language\": \"English\", \"immediate_family_id\": \"latin_lumen_descendants\", \"deep_family_id\": \"pie_leuk\", \"count_as_surface\": false, \"exclusion_reason\": \"derivative already represented and not surface-L-initial\"}"
+          ],
+          "proposed_mapping_as_intaken": [],
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/hypotheses/l-light-semantic-cluster.v0.1.json",
+              "json_pointer": "/positive_observations/5",
+              "file_sha256": "8805a5791307ef86daf7c2c9c08c6362b8dd3dfc5c244af9f5e632551cb95ef6",
+              "origin_type": "repository experimental motivation/control"
+            }
+          ],
+          "attribution_status": "No verbatim author statement in selected record; imported editorial/research material only",
+          "production_decision": "保留实验排除注记，未新降级作者观察；不借LIGHT文学或LUMINOUS证据升级。"
+        },
+        "historical_stages": [
+          {
+            "stage_id": "I1",
+            "source_form": "illuminare / illuminatus ← lumen",
+            "language": "Latin",
+            "approximate_period": "Classical Latin; medieval senses also documented",
+            "meaning_freeze": "light up; medieval spiritual/intellectual illumination",
+            "relation": "derivation; lumen is basis, not interchangeable with lux",
+            "source_refs": [
+              "MW-illuminate"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "I2",
+            "source_form": "illuminaten",
+            "language": "Middle English",
+            "approximate_period": "15th century",
+            "meaning_freeze": "spiritually enlighten among earliest English record",
+            "relation": "borrowing from Latin participial form; not first physical then abstract in English",
+            "source_refs": [
+              "MW-illuminate"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "I3",
+            "source_form": "illuminate",
+            "language": "Modern English",
+            "approximate_period": "contemporary",
+            "meaning_freeze": "light physically / clarify / enlighten",
+            "relation": "sense branches, no fabricated chronology",
+            "source_refs": [
+              "MW-illuminate"
+            ],
+            "chinese_mapping_required": false
+          }
+        ],
+        "candidates": [
+          {
+            "form": "照明",
+            "reading": "zhào míng",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "I1/I3",
+            "documented_meaning": "用光源照亮",
+            "semantic_fit": "High, physical",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/ʈʂɑʊ mɪŋ/ vs /ɪluːmɪneɪt/; shared /m/ incidental",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-照明"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "常见名词用法；不能不管句法直接代换动词",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "照亮",
+            "reading": "zhào liàng",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "I1/I3",
+            "documented_meaning": "使明亮",
+            "semantic_fit": "High, physical",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "internal /l/ is not source-initial /ɪ/ or whole-word match",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-照亮"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "文学照亮心灵不能充作已核历史证据",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "阐明",
+            "reading": "chǎn míng",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "I2/I3",
+            "documented_meaning": "讲清、说明",
+            "semantic_fit": "High, intellectual clarity",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "word forms have no defensible phonetic alignment",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-阐明"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "精神启迪不总是论证阐明；按具体对象选译",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          }
+        ],
+        "controls": [
+          {
+            "form": "衣",
+            "reading": "yī",
+            "type": "phonetic",
+            "expected_boundary": "共享近似初元音不构成光义",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          },
+          {
+            "form": "光",
+            "reading": "guāng",
+            "type": "semantic boundary",
+            "expected_boundary": "光是名词层；不等于使照亮的动词",
+            "semantic_fit": "High, noun light only",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          }
+        ],
+        "counterexamples": [
+          "illuminate an argument 可是阐明论证，不表示发光。",
+          "同lumen家族的多个派生词不能算多个独立L→光实验支持。"
+        ],
+        "shortlist": [
+          "照亮",
+          "阐明"
+        ],
+        "featured_type": "Not selected",
+        "featured_is_evidence_grade": false,
+        "status": "Ready with Featured Pending",
+        "proposal_reason": "物理与理解义清楚；原始L实验材料不是作者Mapping，且本词非表层L开头。",
+        "pending": [
+          "L hypothesis remains Untested; no new experiment.",
+          "Chinese metaphor chronology and print entries Pending.",
+          "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+        ],
+        "historical_relation": "Not claimed",
+        "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+        "research_status": "Final Editorial Freeze accepted for candidate intake by Jinkai Liu; not lexical Reviewed/Published",
+        "publication_status": "Not published; candidate intake only",
+        "evidence_promotion": false,
+        "hypothesis_result": "Untested / Pending; no experimental support inferred",
+        "evidence_status": "Scope-limited online verification; paper evidence Pending",
+        "semantic_baseline": [
+          "照明",
+          "照亮",
+          "阐明"
+        ],
+        "expansion_ledger": [],
+        "expansion_policy": "Modern source-initial consonant only; project letter groups are retrieval labels, not sound laws. No evidence score bonus.",
+        "expansion_not_run_reason": "Vowel initial; L-hypothesis internal segment is not an onset-group search license",
+        "source_refs": [
+          "MW-illuminate"
+        ],
+        "previous_status": "Featured Pending",
+        "featured": "Pending",
+        "phonetic_fit": "No Featured; per-candidate values preserved",
+        "evidence_boundary": "Editorial acceptance does not promote evidence; Structural fit ≠ phonetic fit; all original controls, uncertainties and dispositions preserved."
+      }
+    },
+    {
+      "candidate_id": "RQ-5495c81598e1",
+      "source_word": "love",
+      "normalized_form": "love",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-002-freeze.v0.1.json#RQ-5495c81598e1",
+      "blockers": [
+        "Exact literary source is not present in this selected intake record; do not import or invent a poem.",
+        "Historical Chinese 怜爱 sense citation needs Mainland edition verification.",
+        "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-5495c81598e1",
+        "source_form": "love",
+        "source_language": "English",
+        "source_pronunciation": "/lʌv/",
+        "pronunciation_basis": "Broad modern English transcription aligned to dictionary pronunciation; not historical IPA",
+        "standard_meaning": "爱／喜爱；恋爱等具体关系需看语境",
+        "primary_pipeline": "Cultural–Structural–Literary",
+        "secondary_layers": [
+          "Lexical history",
+          "L-hypothesis negative control; optional literary layer"
+        ],
+        "author_observation": {
+          "original": [],
+          "imported_editorial_observations": [
+            "{\"item\": \"love\", \"deep_family_id\": \"pie_leubh\", \"meaning\": \"affection\"}"
+          ],
+          "proposed_mapping_as_intaken": [],
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/hypotheses/l-light-semantic-cluster.v0.1.json",
+              "json_pointer": "/negative_controls/0",
+              "file_sha256": "8805a5791307ef86daf7c2c9c08c6362b8dd3dfc5c244af9f5e632551cb95ef6",
+              "origin_type": "repository experimental motivation/control"
+            }
+          ],
+          "attribution_status": "No verbatim author statement in selected record; imported editorial/research material only",
+          "production_decision": "本条无作者原话；保留导入L-negative角色，不能把模板文学标签当实际作品。"
+        },
+        "historical_stages": [
+          {
+            "stage_id": "V1",
+            "source_form": "lufu",
+            "language": "Old English",
+            "approximate_period": "before 12th century",
+            "meaning_freeze": "love / affection",
+            "relation": "Germanic lineage; no light-family edge",
+            "source_refs": [
+              "MW-love"
+            ],
+            "chinese_mapping_required": false
+          },
+          {
+            "stage_id": "V2",
+            "source_form": "love",
+            "language": "Middle → Modern English",
+            "approximate_period": "Middle English onward",
+            "meaning_freeze": "affection, liking; verb related",
+            "relation": "continuation; not presence→love historical chain",
+            "source_refs": [
+              "MW-love"
+            ],
+            "chinese_mapping_required": false
+          }
+        ],
+        "candidates": [
+          {
+            "form": "爱",
+            "reading": "ài",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "V1/V2",
+            "documented_meaning": "爱慕、喜爱、珍惜等适用义",
+            "semantic_fit": "High",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/aɪ/ vs /lʌv/: onset and coda absent",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-爱"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "零分love及固定搭配不全部等于爱",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "High"
+          },
+          {
+            "form": "恋",
+            "reading": "liàn",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "V2",
+            "documented_meaning": "爱恋、留恋",
+            "semantic_fit": "Medium–High, attachment",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "same /l/ only; /jɛn/ vs /ʌv/",
+            "structural_fit": "Medium",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-恋"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "更偏恋慕/留恋；不覆盖所有喜欢",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "喜爱",
+            "reading": "xǐ ài",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "V2",
+            "documented_meaning": "喜欢、爱好",
+            "semantic_fit": "High, liking",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "/ɕi aɪ/ has no robust match",
+            "structural_fit": "High",
+            "generation_method": "semantic retrieval",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-喜爱"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "可能弱于亲密或伦理层的love",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "怜",
+            "reading": "lián",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "V1/V2",
+            "documented_meaning": "爱惜；怜悯（另义）",
+            "semantic_fit": "Medium–High, cherish only",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "same /l/ but nucleus and coda differ",
+            "structural_fit": "Medium",
+            "generation_method": "phonetic expansion",
+            "disposition": "retained",
+            "evidence": {
+              "source_refs": [
+                "ZH-怜"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "爱惜义可比；不可把怜悯一律译love；古例仅网络转录",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          },
+          {
+            "form": "乐",
+            "reading": "lè",
+            "chinese_layer": "Modern Mandarin / modern written Chinese",
+            "approximate_period": "Contemporary usage; no dated Chinese semantic chronology claimed",
+            "target_stage": "V2",
+            "documented_meaning": "快乐、乐于",
+            "semantic_fit": "Low–Medium",
+            "phonetic_fit": "Low",
+            "phonetic_reason": "shares /l/; no /v/, vowel differs",
+            "structural_fit": "Low",
+            "generation_method": "phonetic expansion",
+            "disposition": "not selected",
+            "evidence": {
+              "source_refs": [
+                "ZH-乐"
+              ],
+              "status": "Online entry supports scoped reading/sense; print-dictionary Pending",
+              "mainland_status": "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+            },
+            "counterevidence": "偏愉悦；古文喜好义另读yào，不能把yào义配lè声音",
+            "historical_relation": "Not claimed",
+            "discovery_priority": "Medium"
+          }
+        ],
+        "controls": [
+          {
+            "form": "路",
+            "reading": "lù",
+            "type": "phonetic",
+            "expected_boundary": "同/l/而道路无爱义",
+            "semantic_fit": "Low",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          },
+          {
+            "form": "钟爱",
+            "reading": "zhōng ài",
+            "type": "semantic",
+            "expected_boundary": "深爱义强但比普通love更强，声音弱",
+            "semantic_fit": "High, strong affection",
+            "phonetic_fit": "Low",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          }
+        ],
+        "counterexamples": [
+          "I love this food 可译喜欢，不必指恋爱。",
+          "爱与在的作者文学桥梁不能证明love词源，也不能拯救L→光普遍命题。"
+        ],
+        "shortlist": [
+          "爱",
+          "恋",
+          "怜"
+        ],
+        "featured_type": "Not selected",
+        "featured_is_evidence_grade": false,
+        "status": "Ready with Featured Pending",
+        "proposal_reason": "作为L初音非光语义的反例仍有研究价值；爱/恋/怜各有范围，无须选Featured。",
+        "pending": [
+          "Exact literary source is not present in this selected intake record; do not import or invent a poem.",
+          "Historical Chinese 怜爱 sense citation needs Mainland edition verification.",
+          "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+        ],
+        "historical_relation": "Not claimed",
+        "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+        "research_status": "Final Editorial Freeze accepted for candidate intake by Jinkai Liu; not lexical Reviewed/Published",
+        "publication_status": "Not published; candidate intake only",
+        "evidence_promotion": false,
+        "hypothesis_result": "Untested / Pending; no experimental support inferred",
+        "evidence_status": "Scope-limited online verification; paper evidence Pending",
+        "semantic_baseline": [
+          "爱",
+          "恋",
+          "喜爱"
+        ],
+        "expansion_ledger": [
+          {
+            "candidate": "怜",
+            "group": "d-t-n-l",
+            "disposition": "retained",
+            "reason": "爱惜义可比；不可把怜悯一律译love；古例仅网络转录"
+          },
+          {
+            "candidate": "乐",
+            "group": "d-t-n-l",
+            "disposition": "not selected",
+            "reason": "偏愉悦；古文喜好义另读yào，不能把yào义配lè声音"
+          }
+        ],
+        "expansion_policy": "Modern source-initial consonant only; project letter groups are retrieval labels, not sound laws. No evidence score bonus.",
+        "source_refs": [
+          "MW-love"
+        ],
+        "previous_status": "Featured Pending",
+        "featured": "Pending",
+        "phonetic_fit": "No Featured; per-candidate values preserved",
+        "evidence_boundary": "Editorial acceptance does not promote evidence; Structural fit ≠ phonetic fit; all original controls, uncertainties and dispositions preserved."
       }
     }
   ]

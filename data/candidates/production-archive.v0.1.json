@@ -3,7 +3,7 @@
   "created_at": "2026-09-21",
   "created_by": "Production acceptance authorized by Jinkai Liu; normalized by Codex",
   "review_status": "candidate",
-  "source_note": "Canonical Candidate Corpus v0.1; editorial intake approval is not Reviewed/Published/Proven. Legacy corpus is unchanged. Archive is separate.",
+  "source_note": "Canonical Candidate Corpus v0.1; editorial intake approval is not Reviewed/Published/Proven. Legacy corpus is unchanged. Archive is separate. Batch 002 accepted: CUN archived with provenance unresolved.",
   "records": [
     {
       "candidate_id": "RQ-d6832f467fc7",
@@ -112,6 +112,137 @@
         "controls_counterexamples_frozen": true,
         "rejected": [],
         "archive_reason": "B-class raw root/co-occurrence observation, not a uniquely identified source-to-Chinese lexical pair. Language, source pronunciation and sense unresolved. Preserve original raw span and expanded editorial wording separately. No new search."
+      }
+    },
+    {
+      "candidate_id": "RQ-18210665f1be",
+      "source_word": "cun",
+      "normalized_form": "cun",
+      "review_status": "archived",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-002-freeze.v0.1.json#RQ-18210665f1be",
+      "blockers": [
+        "Source language / lexical identity / spelling / pronunciation unresolved; reopen only with identifiable original context.",
+        "Only targeted request needed later: source language, full word/context, original dated note. No broad multilingual guessing.",
+        "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-18210665f1be",
+        "source_form": "cun",
+        "source_language": "Unresolved",
+        "source_pronunciation": "Unknown",
+        "pronunciation_basis": "Unknown: do not infer language from roman letters",
+        "standard_meaning": "Unresolved：来源语言、词性、词义均不能由该字符串确定",
+        "primary_pipeline": "Lexical–Diachronic",
+        "secondary_layers": [
+          "Identity quarantine / negative case"
+        ],
+        "author_observation": {
+          "original": [
+            "cun，存。"
+          ],
+          "imported_editorial_observations": [],
+          "proposed_mapping_as_intaken": [
+            "存"
+          ],
+          "provenance": [
+            {
+              "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+              "path": "data/batches/legacy-website-import-batch-001.v1.json",
+              "json_pointer": "/research_queue/0/raw_note",
+              "file_sha256": "7ab743966449987f0df7c50faecf9b5250791d82c817cdd6205c53d2e7b907b7",
+              "origin_type": "repository raw-note"
+            }
+          ],
+          "attribution_status": "Repository raw-note attribution; not a newly authenticated pre-AI target",
+          "production_decision": "保留原文“cun，存。”；作者/来源身份沿用unresolved，不升级A、不归档删除。"
+        },
+        "historical_stages": [],
+        "candidates": [],
+        "controls": [
+          {
+            "form": "cun = 存的拼音",
+            "reading": "cún",
+            "type": "identity counterinterpretation",
+            "expected_boundary": "可能只是转写；不能证明存在一个外语source词",
+            "semantic_fit": "Not scoreable",
+            "phonetic_fit": "Not scoreable",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          },
+          {
+            "form": "cun = 英语或其他语言词根",
+            "reading": "Unknown",
+            "type": "identity counterinterpretation",
+            "expected_boundary": "缺乏作者上下文和可定位词项；禁止补造语言、读音或义项",
+            "semantic_fit": "Not scoreable",
+            "phonetic_fit": "Not scoreable",
+            "evidence_status": "Research diagnostic example; not a promoted mapping; print-dictionary Pending",
+            "historical_relation": "Not claimed"
+          }
+        ],
+        "counterexamples": [
+          "罗马字串与汉字拼音相似，不自动构成跨语言Mapping。",
+          "查到任意语言同拼写词也不能证明是原记录所指。"
+        ],
+        "shortlist": [],
+        "featured_type": "Not selected",
+        "featured_is_evidence_grade": false,
+        "status": "Archive / Provenance unresolved",
+        "proposal_reason": "Archived after one targeted verification; preserve raw observation and provenance, do not infer source from 存.",
+        "pending": [
+          "Source language / lexical identity / spelling / pronunciation unresolved; reopen only with identifiable original context.",
+          "Only targeted request needed later: source language, full word/context, original dated note. No broad multilingual guessing.",
+          "Pending：本轮未取得《现代汉语词典》《新华字典》《汉语大词典》等具体版次条目影印；汉典网络条目不替代纸本核验。"
+        ],
+        "historical_relation": "Not claimed",
+        "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+        "research_status": "Final Editorial Freeze accepted for candidate intake by Jinkai Liu; not lexical Reviewed/Published",
+        "publication_status": "Not published; candidate intake only",
+        "evidence_promotion": false,
+        "hypothesis_result": "Untested / Pending; no experimental support inferred",
+        "evidence_status": "Lexical identity and provenance unresolved; not scoreable",
+        "semantic_baseline": [],
+        "expansion_ledger": [],
+        "expansion_policy": "Modern source-initial consonant only; project letter groups are retrieval labels, not sound laws. No evidence score bonus.",
+        "expansion_not_run_reason": "Lexical identity unknown",
+        "source_refs": [],
+        "previous_status": "Needs Targeted Verification",
+        "featured": "Pending",
+        "provenance_verification": {
+          "scope": "Single targeted provenance verification; no semantic/phonetic reverse inference or broad discovery",
+          "original_wording": "cun，存。",
+          "source_url": "https://languagesbook.com/glossary/%e6%9d%91%ef%bc%8c%e5%ad%98/",
+          "decoded_url_title": "村，存",
+          "earliest_repository_commit": "30bdc93",
+          "repository_date": "2026-09-01",
+          "source_location": "data/batches/legacy-website-import-batch-001.v1.json#/research_queue/0",
+          "repository_context": {
+            "candidate_id": "LWB001-Q01",
+            "source_url": "https://languagesbook.com/glossary/%e6%9d%91%ef%bc%8c%e5%ad%98/",
+            "raw_note": "cun，存。",
+            "priority_score": 54.5,
+            "processing_status": "deferred",
+            "final_record_ids": [],
+            "disposition": "Research Queue",
+            "reason": "The legacy title does not identify a sufficiently clear English headword and sense for a unified lexical record."
+          },
+          "current_page_access": "Web tool inaccessible; independent direct HTTP returned 406 Not Acceptable on 2026-09-22",
+          "source_language": "Unresolved",
+          "lexical_identity": "Unresolved",
+          "spelling": "Recorded roman string cun; page slug 村，存; neither normalized into an assumed foreign word",
+          "pronunciation": "Unknown source pronunciation; Chinese 存 cún is not evidence of a source pronunciation",
+          "observation_type": "Unresolved raw note; foreign word/root/phonetic notation/transcription error cannot be discriminated",
+          "author_attribution": "Preserve repository-attributed raw observation; no fresh authentication of original webpage author/date",
+          "result": "Archive / Provenance unresolved",
+          "archive_reason": "No identifiable source language, lexical sense, or pronunciation in accessible original-linked material. Stop after one targeted pass.",
+          "historical_relation": "Not claimed"
+        },
+        "archive_reason": "No identifiable source language, lexical sense, or pronunciation in accessible original-linked material. Stop after one targeted pass.",
+        "phonetic_fit": "No Featured; per-candidate values preserved",
+        "evidence_boundary": "Editorial acceptance does not promote evidence; Structural fit ≠ phonetic fit; all original controls, uncertainties and dispositions preserved."
       }
     }
   ]
