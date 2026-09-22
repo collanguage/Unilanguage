@@ -1,0 +1,74 @@
+{
+  "version": "0.1",
+  "at": "2026-09-22T15:01:24.293Z",
+  "repository_commit": "cc45d5541b2c9ab76564f5a5d353ea3ce44cefd7",
+  "inputs": [
+    {
+      "path": "data/language-book.v1.0.json",
+      "sha256": "c02cbbab38d0af6838f1bc477388e10f6260f72fd55b567cc83eca5b2b08b441"
+    },
+    {
+      "path": "data/candidates/production-corpus.v0.1.json",
+      "sha256": "ac01e1c82632a826f4f9bea05d8e8766460e97f9b7eef860015d3127e69b5fc0"
+    },
+    {
+      "path": "data/candidates/production-archive.v0.1.json",
+      "sha256": "21f16e5bd6794efdb020e4de1fb3ed9c83f744809650cf0ffce30f8681effb6e"
+    }
+  ],
+  "observation_count": 66,
+  "origins": {
+    "jinkai_original": 0,
+    "contributor": 0,
+    "ai_discovery": 14,
+    "unknown": 52
+  },
+  "object_count": 109,
+  "mapping_count": 51,
+  "missing_raw_notes": [
+    {
+      "id": "legacy:LB-en-universe-001",
+      "reason": "No source.raw_note; no original note invented"
+    },
+    {
+      "id": "legacy:LB-en-man-001",
+      "reason": "No source.raw_note; no original note invented"
+    },
+    {
+      "id": "legacy:LB-en-language-001",
+      "reason": "No source.raw_note; no original note invented"
+    },
+    {
+      "id": "legacy:LB-en-water-001",
+      "reason": "No source.raw_note; no original note invented"
+    },
+    {
+      "id": "legacy:LB-en-advance-001",
+      "reason": "No source.raw_note; no original note invented"
+    },
+    {
+      "id": "legacy:LB-en-light-001",
+      "reason": "No source.raw_note; no original note invented"
+    },
+    {
+      "id": "legacy:LB-en-at-003",
+      "reason": "No source.raw_note; no original note invented"
+    },
+    {
+      "id": "legacy:LB-en-horse-040",
+      "reason": "No source.raw_note; no original note invented"
+    },
+    {
+      "id": "RQ-894dc4c4c357",
+      "reason": "No original or imported observation text; AI result linked separately"
+    }
+  ],
+  "holdouts_imported": 0,
+  "benchmark_packages_read": 0,
+  "boundary": "Migration is repository-text preservation, not authentication of original authorship. No historical unexposed state is inferred. Different source occurrences remain separate; no claim of independent origin.",
+  "corpus_counts": {
+    "legacy": 42,
+    "active": 14,
+    "archive": 2
+  }
+}

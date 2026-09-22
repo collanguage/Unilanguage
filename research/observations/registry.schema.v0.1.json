@@ -1,0 +1,633 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "0.1"
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "at": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "const": "ingest"
+              },
+              "payload": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "observation_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "origin_type": {
+                    "enum": [
+                      "jinkai_original",
+                      "contributor",
+                      "ai_discovery",
+                      "unknown"
+                    ]
+                  },
+                  "author": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "original_text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_form": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_language": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "proposed_mapping": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "reasoning_raw": {
+                    "type": "string"
+                  },
+                  "created_at": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "source_date": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "provenance": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "source_location": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "attribution_basis": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "authorship_verified": {
+                        "type": "boolean"
+                      },
+                      "intake_mode": {
+                        "enum": [
+                          "migration",
+                          "non_llm",
+                          "ai_research"
+                        ]
+                      },
+                      "repository_commit": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "intake_authorization": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "source_location",
+                      "attribution_basis",
+                      "authorship_verified",
+                      "intake_mode"
+                    ]
+                  },
+                  "ai_exposure_status": {
+                    "enum": [
+                      "unexposed",
+                      "exposed_to_ai",
+                      "post_ai_observation",
+                      "unknown"
+                    ]
+                  },
+                  "research_status": {
+                    "enum": [
+                      "queued",
+                      "research",
+                      "freeze_proposal",
+                      "accepted_reference",
+                      "archived"
+                    ]
+                  },
+                  "linked_candidate_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "linked_mapping_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "uniqueItems": true
+                  },
+                  "holdout_status": {
+                    "enum": [
+                      "not_eligible",
+                      "reserved",
+                      "revealed"
+                    ]
+                  },
+                  "historical_relation": {
+                    "const": "Not claimed"
+                  },
+                  "evidence_status": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "ai_discovery": {
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "run_reference": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "model": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "generation_method": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "input_scope": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "candidate": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "independence_status": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "controls": {
+                            "type": "array"
+                          },
+                          "counterexamples": {
+                            "type": "array"
+                          }
+                        },
+                        "required": [
+                          "run_reference",
+                          "model",
+                          "generation_method",
+                          "input_scope",
+                          "candidate",
+                          "independence_status",
+                          "controls",
+                          "counterexamples"
+                        ]
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "observation_id",
+                  "origin_type",
+                  "author",
+                  "original_text",
+                  "source_form",
+                  "source_language",
+                  "proposed_mapping",
+                  "reasoning_raw",
+                  "created_at",
+                  "source_date",
+                  "provenance",
+                  "ai_exposure_status",
+                  "research_status",
+                  "linked_candidate_ids",
+                  "linked_mapping_ids",
+                  "holdout_status",
+                  "historical_relation",
+                  "evidence_status",
+                  "ai_discovery"
+                ]
+              },
+              "previous_hash": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "hash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "at",
+              "actor",
+              "kind",
+              "payload",
+              "previous_hash",
+              "hash"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "at": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "const": "object"
+              },
+              "payload": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "kind": {
+                    "enum": [
+                      "candidate",
+                      "mapping"
+                    ]
+                  },
+                  "source_ref": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "id",
+                  "kind",
+                  "source_ref"
+                ]
+              },
+              "previous_hash": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "hash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "at",
+              "actor",
+              "kind",
+              "payload",
+              "previous_hash",
+              "hash"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "at": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "const": "normalize"
+              },
+              "payload": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "observation_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "normalized": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "observation_id",
+                  "normalized"
+                ]
+              },
+              "previous_hash": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "hash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "at",
+              "actor",
+              "kind",
+              "payload",
+              "previous_hash",
+              "hash"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "at": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "const": "link"
+              },
+              "payload": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "observation_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "object_id": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "observation_id",
+                  "object_id"
+                ]
+              },
+              "previous_hash": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "hash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "at",
+              "actor",
+              "kind",
+              "payload",
+              "previous_hash",
+              "hash"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "at": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "const": "exposure"
+              },
+              "payload": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "observation_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "unexposed",
+                      "exposed_to_ai",
+                      "post_ai_observation",
+                      "unknown"
+                    ]
+                  }
+                },
+                "required": [
+                  "observation_id",
+                  "status"
+                ]
+              },
+              "previous_hash": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "hash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "at",
+              "actor",
+              "kind",
+              "payload",
+              "previous_hash",
+              "hash"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "at": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "const": "reveal"
+              },
+              "payload": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "observation_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "authorization_ref": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "observation_id",
+                  "authorization_ref"
+                ]
+              },
+              "previous_hash": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "hash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "at",
+              "actor",
+              "kind",
+              "payload",
+              "previous_hash",
+              "hash"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "at": {
+                "type": "string",
+                "minLength": 1
+              },
+              "actor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "const": "research"
+              },
+              "payload": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "observation_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "observation_id",
+                  "status"
+                ]
+              },
+              "previous_hash": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "hash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "at",
+              "actor",
+              "kind",
+              "payload",
+              "previous_hash",
+              "hash"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "version",
+    "events"
+  ]
+}
