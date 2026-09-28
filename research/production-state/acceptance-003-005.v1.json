@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "accepted_at": "2026-09-28T02:57:19.501207+00:00",
+  "approved_by": "Jinkai Liu",
+  "approval_source": "Explicit user instruction: Batch 003 + 005 — Final Acceptance",
+  "scope": "Candidate intake only; no Reviewed/Published/Evidence promotion",
+  "batches": [
+    {
+      "batch_id": "production-003",
+      "status": "accepted_as_candidates",
+      "accepted": true,
+      "candidate_ids": [
+        "RQ-e5b9fa065562",
+        "RQ-85c25b0fa6c8",
+        "RQ-dbf7cb31b8cd",
+        "RQ-63f75c562c69",
+        "RQ-c6096ae58707",
+        "RQ-aa43773b0cfc",
+        "RQ-0d3877658122",
+        "RQ-4d9a99ebe809"
+      ],
+      "source_forms": [
+        "wave",
+        "knowledge",
+        "exist",
+        "direction",
+        "translation",
+        "acute",
+        "filament",
+        "long"
+      ],
+      "proposal_path": "research/production-state/pending/production-003/research-records.json",
+      "review_required_by": "Jinkai Liu",
+      "acceptance_record": "data/review/production-003-freeze.v0.1.json"
+    },
+    {
+      "batch_id": "production-005",
+      "status": "accepted_as_candidates",
+      "accepted": true,
+      "candidate_ids": [
+        "RQ-041cc56344db",
+        "RQ-da2ec7508828",
+        "RQ-3978979a16e0",
+        "RQ-915ffd347135",
+        "RQ-da051df304a5",
+        "RQ-7bd33d4b300d",
+        "RQ-7d4d73843bb4",
+        "RQ-ef7527e20941"
+      ],
+      "source_forms": [
+        "abhorrent",
+        "outside",
+        "abhorrence",
+        "source",
+        "abundance",
+        "goal",
+        "absolve",
+        "acuity"
+      ],
+      "proposal_path": "research/production-state/pending/production-005/research-report.json",
+      "review_required_by": "Jinkai Liu",
+      "acceptance_record": "data/review/production-005-freeze.v0.1.json"
+    }
+  ]
+}

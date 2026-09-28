@@ -2,15 +2,15 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),os=require('node:os');
 const root=path.resolve(__dirname,'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
-test('Durable state resolves 42/20/2/2, two pending batches and six eligible objects',async()=>{
+test('Durable state resolves 42/36/2/2, no pending batches and six eligible objects',async()=>{
  const {validateState,deriveState}=await import('../scripts/production-state.mjs');
  assert.deepEqual(validateState(root),[]);
  const m=deriveState(root,'2026-09-28T00:00:00.000Z');
- assert.equal(m.legacy_corpus.count,42);assert.equal(m.active_candidate_corpus.count,20);
+ assert.equal(m.legacy_corpus.count,42);assert.equal(m.active_candidate_corpus.count,36);
  assert.equal(m.archive_count,2);assert.equal(m.control_count,2);
  assert.equal(m.observation_registry.count,66);assert.equal(m.eligible_queue_count,6);
  assert.equal(m.provenance_review_queue_count,19);
- assert.deepEqual(m.pending_freeze_batches.map(b=>[b.batch_id,b.count]),[['production-003',8],['production-005',8]]);
+ assert.deepEqual(m.pending_freeze_batches.map(b=>[b.batch_id,b.count]),[]);
  assert.deepEqual(m.runtime_external_work_dependencies,[]);
 });
 test('Repository snapshot excludes every pending and reserved identity without exposing targets',async()=>{
@@ -43,7 +43,7 @@ test('State validator rejects pending loss and unauthorized evidence/content cha
   fs.writeFileSync(evidence,fs.readFileSync(evidence,'utf8').replace(/\r?\n/g,'\r\n'));
   assert.deepEqual(validateState(temp),[],'Git CRLF checkout must preserve the integrity contract');
   const p=path.join(temp,'research/production-state/pending-batches.v1.json'),original=fs.readFileSync(p);
-  const d=JSON.parse(original);d.batches.pop();fs.writeFileSync(p,JSON.stringify(d));
+  const d=JSON.parse(original);d.next_action='unauthorized change';fs.writeFileSync(p,JSON.stringify(d));
   assert.ok(validateState(temp).some(e=>/stale/.test(e)));fs.writeFileSync(p,original);
   const corpus=path.join(temp,'data/candidates/production-corpus.v0.1.json');
   const c=JSON.parse(fs.readFileSync(corpus));c.records[0].publication_status='published';fs.writeFileSync(corpus,JSON.stringify(c));

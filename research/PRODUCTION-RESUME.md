@@ -8,17 +8,17 @@ new linguistic findings or accept pending proposals.
 ## Current checkpoint
 
 - Legacy: **42** (`data/language-book.v1.0.json`).
-- Active Production: **20** (`data/candidates/production-corpus.v0.1.json`).
+- Active Production: **36** (10 Featured Candidates; 26 Featured Pending) (`data/candidates/production-corpus.v0.1.json`).
 - Archives: **2** (`data/candidates/production-archive.v0.1.json`).
 - Controls: **2**, not Active/Archive (`research/controls/production-004.v0.1.json`).
 - Registry: **66**, 52 unknown + 14 AI; no newly authenticated human origin.
-- Last accepted Production batch: **004**.
-- Pending: **003 (8) and 005 (8)**, awaiting Jinkai Liu; preserved under
-  `research/production-state/pending/`. Pending storage is NOT acceptance.
+- Last acceptance: **003 + 005**, explicitly approved by Jinkai Liu.
+- Review backlog: **0**. Original 003/005 proposals remain unchanged under
+  `research/production-state/pending/`; acceptance is recorded separately in
+  `research/production-state/acceptance-003-005.v1.json` and the approved freezes.
 - Eligible unprocessed queue: **6**. Identity/provenance queue: **19**.
 - Benchmark: **Designed / Frozen / Execution Pending Isolated Evaluator**.
-- Next action: Jinkai Liu reviews pending proposals; **do not start another
-  batch under this consolidation authorization**.
+- Next action: await Jinkai Liu authorization; **do not start another batch**.
 
 ## Authorities and interfaces
 
@@ -34,7 +34,7 @@ new linguistic findings or accept pending proposals.
 | Current snapshot generation | `scripts/prepare-scheduler-snapshot.mjs` (repository files only) |
 | Selection and audit | `scripts/queue-scheduler.mjs`, `scripts/run-queue-scheduler.mjs` |
 | Evidence and research history | `research/production-state/evidence/`; imported documents are historical records, not current instructions |
-| Approved freezes | `data/review/production-001-freeze.v0.1.json`, `production-002-freeze.v0.1.json`, `production-004-freeze.v0.1.json` |
+| Approved freezes | `data/review/production-001-freeze.v0.1.json`, `production-002-freeze.v0.1.json`, `production-004-freeze.v0.1.json`, `production-003-freeze.v0.1.json`, `production-005-freeze.v0.1.json` |
 | State integrity / no conclusion changes | `scripts/production-state.mjs`, `research/production-state/preservation-lock.v1.json` |
 | Asset decisions | `research/production-state/asset-inventory.v1.json` |
 | Intentionally external/private material | `research/production-state/external-assets.v1.json` |

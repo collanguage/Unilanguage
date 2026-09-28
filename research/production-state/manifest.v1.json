@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "assembled_at": "2026-09-28T02:43:24.285Z",
+  "assembled_at": "2026-09-28T02:57:40.760Z",
   "legacy_corpus": {
     "version": "1.0",
     "path": "data/language-book.v1.0.json",
@@ -9,7 +9,7 @@
   "active_candidate_corpus": {
     "version": "0.1",
     "path": "data/candidates/production-corpus.v0.1.json",
-    "count": 20,
+    "count": 36,
     "status": "candidate; not Reviewed/Published"
   },
   "archive_count": 2,
@@ -23,21 +23,8 @@
     }
   },
   "scheduler_version": "0.1",
-  "last_accepted_batch": "Production 004",
-  "pending_freeze_batches": [
-    {
-      "batch_id": "production-003",
-      "status": "awaiting_jinkai_review",
-      "count": 8,
-      "proposal_path": "research/production-state/pending/production-003/research-records.json"
-    },
-    {
-      "batch_id": "production-005",
-      "status": "awaiting_jinkai_review",
-      "count": 8,
-      "proposal_path": "research/production-state/pending/production-005/research-report.json"
-    }
-  ],
+  "last_accepted_batch": "Production 003 + 005",
+  "pending_freeze_batches": [],
   "eligible_queue_count": 6,
   "provenance_review_queue_count": 19,
   "benchmark_status": "Designed / Frozen / Execution Pending Isolated Evaluator",
@@ -58,7 +45,7 @@
       "sha256": "688974d3e5f5c452864efd8046408f55c6a9c283883f373e07da40c14738701b"
     },
     "validate-production-candidates.mjs": {
-      "sha256": "a9519973fd38c4367a1f7f5d8af97602964c57076090c60e79195fa79575e7ad"
+      "sha256": "0a70ecd401d96a37098de3edad0fc56eaa853c080172e740270b7f69b3500be9"
     },
     "validate-observation-registry.mjs": {
       "sha256": "23183a197e6a044c0d11b6e1d29d88437349307e0b21832d5c7a3a16af094cbc"
@@ -67,10 +54,10 @@
       "sha256": "064ace0dd404e7d3bceee2409ba69257bf8e1511a9c7c73c59720ad02f79cdb9"
     },
     "validate-production-004.mjs": {
-      "sha256": "acc735dcb8c98d57a816973649b8c6a4a4d9fd1f25cc6fbaadd65efdac523239"
+      "sha256": "4fc1ed05c2967cca9c93a49e3e98aaaae3de745736a48736f9f15f93535dfbaf"
     },
     "production-state.mjs": {
-      "sha256": "2d83ed305c981b5541c029b85505401d651f2cdeafb6ea14fa24a30c4c0bc889"
+      "sha256": "206fb5176bd650e5b2bf54e6cac9b58a13527912649a090c908ac104579c01e3"
     }
   },
   "input_hashes": [
@@ -86,7 +73,7 @@
     },
     {
       "file": "research/production-state/pending-batches.v1.json",
-      "sha256": "dbe3798d416e110cbbc8b0924f66a3193537a9130a9a602d88b29926666dd124",
+      "sha256": "24c985b3446e1252a3d79ad52d4b8ad9836552aceb9f5782e9a5c8c45dc6bea0",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -96,7 +83,7 @@
     },
     {
       "file": "data/candidates/production-corpus.v0.1.json",
-      "sha256": "154973d377dede9a20f5725db672922336cf826594479823a8774be8b6628a92",
+      "sha256": "dc5a3c2ee0f6bdd1f14574cf129784c1ae44aeee69b0f838b98ed6692dd480fe",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -116,11 +103,11 @@
     },
     {
       "file": "research/scheduler/production-completions.v0.1.json",
-      "sha256": "68a67eed4bbfe6a93f5adf5d87b9054e00fa2f268edfe71fa266e68e3827e820",
+      "sha256": "fdd184b42c5b6aaac3a329dbe63a45f2d3761db90fafb84bdbc0262bdbf63ba0",
       "hash_algorithm": "sha256-utf8-lf"
     }
   ],
-  "next_action": "Review pending batches 003 and 005. No new research dispatch authorized by consolidation.",
+  "next_action": "Acceptance complete; await Jinkai Liu authorization before any new production batch. Six eligible and nineteen identity/provenance items remain unchanged.",
   "automatic_dispatch": false,
   "review_gate": "Jinkai Liu",
   "runtime_external_work_dependencies": [],

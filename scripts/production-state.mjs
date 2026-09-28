@@ -25,7 +25,7 @@ export function deriveState(root,at) {
   archive_count:read('data/candidates/production-archive.v0.1.json').records.length,
   control_count:read('research/controls/production-004.v0.1.json').records.length,
   observation_registry:{version:'0.1',count:registry.observations.length,origins:registry.observations.reduce((a,r)=>(a[r.origin_type]=(a[r.origin_type]||0)+1,a),{})},
-  scheduler_version:'0.1',last_accepted_batch:'Production 004',
+  scheduler_version:'0.1',last_accepted_batch:pending.last_accepted_batch || 'Production 004',
   pending_freeze_batches:pending.batches.map(b=>({batch_id:b.batch_id,status:b.status,count:b.candidate_ids.length,proposal_path:b.proposal_path})),
   eligible_queue_count:audit.selection.length+audit.deferred.filter(r=>r.reason.startsWith('Eligible;')).length,
   provenance_review_queue_count:audit.deferred.filter(r=>r.reason.startsWith('Provenance/Identity Queue:')).length,

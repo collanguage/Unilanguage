@@ -12,7 +12,7 @@ export function validateAcceptance(freeze,active,controls,completions,policy) {
  check(policy.stop_at==='Editorial Freeze Proposal' && policy.reviewer==='Jinkai Liu','Review gate bypass');
  check(isDeepStrictEqual(policy.forbidden,['featured_final_approval','reviewed','published','holdout_release','author_attribution']),'Forbidden powers changed');
  check(isDeepStrictEqual(policy.family_reuse_metrics,['historical_research_reused','sources_reused','new_research_avoided','conclusion_inheritance_blocked']),'Reuse metrics missing');
- check(completions.records.length===8,'Completed controls must not be rescheduled');
+ check(completions.records.filter(r=>freeze.records.some(f=>f.candidate_id===r.candidate_id)).length===8,'Completed controls must not be rescheduled');
  for(const r of freeze.records){
   check(r.origin==='unknown provenance' && r.author_observation.author===null && r.authenticated_author_observation===null,'Unknown provenance promoted');
   check(r.historical_relation==='Not claimed' && r.candidates.every(c=>c.historical_relation==='Not claimed'),'Relation promoted');
