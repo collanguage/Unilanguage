@@ -38,11 +38,8 @@ test('Snapshot preparation from foreign cwd consumes completion ledger without s
  const cwd=fs.mkdtempSync(path.join(os.tmpdir(),'unilanguage-snapshot-'));
  const write=(name,data)=>{const p=path.join(cwd,name);fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,JSON.stringify(data));};
  try{
-  write('production-research-batch-003/selection-manifest.json',{reserved_ids:[],prior_discovery_exclusions:[],processed_production_forms:[],selected:[]});
-  write('production-research-queue-batch-001/isolation-manifest.json',{excluded_inventory_ids:{}});
-  write('production-pipeline-v0.1/deduplicated-candidate-inventory.json',{candidates:[]});
   const output=path.join(cwd,'snapshot.json');
-  execFileSync(process.execPath,[path.join(root,'scripts/prepare-scheduler-snapshot.mjs'),cwd,output],{cwd});
+  execFileSync(process.execPath,[path.join(root,'scripts/prepare-scheduler-snapshot.mjs'),output],{cwd});
   const snapshot=JSON.parse(fs.readFileSync(output));
   for(const r of read('research/scheduler/production-completions.v0.1.json').records)assert.ok(snapshot.exclusions.completed_ids.includes(r.candidate_id));
   assert.equal(snapshot.selection,undefined);

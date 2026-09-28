@@ -1,0 +1,150 @@
+[
+  {
+    "candidate_id": "RQ-e5b9fa065562",
+    "form": "wave",
+    "location": "data/batches/dataset-expansion-batch-001.v1.json#/deferred_queue/0/raw_note",
+    "file_hash_matches_intake": true,
+    "current_pointed_record": "wave / water ↔ 水 / w; w 形状与水语义假说。"
+  },
+  {
+    "candidate_id": "RQ-85c25b0fa6c8",
+    "form": "knowledge",
+    "location": "data/candidates/package-e-batch-001.v0.2.json#/records/4",
+    "file_hash_matches_intake": true,
+    "current_pointed_record": {
+      "candidate_id": "CAND-en-knowledge-001",
+      "source_word": "knowledge",
+      "normalized_form": "knowledge",
+      "lexical_meaning": {
+        "en": "Understanding or information acquired through learning or experience.",
+        "zh-Hans": "通过学习或经验获得的理解或信息。"
+      },
+      "candidate_mapping": "知识 · connaissance／savoir",
+      "source_provenance": "AGENTS.md",
+      "blockers": [
+        "French noun/verb boundary",
+        "external lexical citations"
+      ],
+      "review_status": "candidate"
+    }
+  },
+  {
+    "candidate_id": "RQ-dbf7cb31b8cd",
+    "form": "exist",
+    "location": "data/candidates/package-e-batch-001.v0.2.json#/records/7",
+    "file_hash_matches_intake": true,
+    "current_pointed_record": {
+      "candidate_id": "CAND-en-exist-001",
+      "source_word": "exist",
+      "normalized_form": "exist",
+      "lexical_meaning": {
+        "en": "To have being or reality.",
+        "zh-Hans": "具有存在或现实状态。"
+      },
+      "candidate_mapping": "存在 · exister",
+      "source_provenance": "AGENTS.md",
+      "blockers": [
+        "external lexical citations",
+        "protocol relation review"
+      ],
+      "review_status": "candidate"
+    }
+  },
+  {
+    "candidate_id": "RQ-63f75c562c69",
+    "form": "direction",
+    "location": "data/candidates/package-e-batch-001.v0.2.json#/records/17",
+    "file_hash_matches_intake": true,
+    "current_pointed_record": {
+      "candidate_id": "CAND-en-direction-001",
+      "source_word": "direction",
+      "normalized_form": "direction",
+      "lexical_meaning": {
+        "en": "The course along which something moves or faces.",
+        "zh-Hans": "事物移动或朝向的路线。"
+      },
+      "candidate_mapping": "方向 · direction",
+      "source_provenance": "protocol/protocol.space.html#direction",
+      "blockers": [
+        "spatial/instruction sense separation",
+        "external lexical citations"
+      ],
+      "review_status": "candidate"
+    }
+  },
+  {
+    "candidate_id": "RQ-c6096ae58707",
+    "form": "translation",
+    "location": "data/candidates/package-e-batch-001.v0.2.json#/records/18",
+    "file_hash_matches_intake": true,
+    "current_pointed_record": {
+      "candidate_id": "CAND-en-translation-001",
+      "source_word": "translation",
+      "normalized_form": "translation",
+      "lexical_meaning": {
+        "en": "The process or result of expressing content in another language.",
+        "zh-Hans": "用另一种语言表达内容的过程或结果。"
+      },
+      "candidate_mapping": "翻译 · traduction",
+      "source_provenance": "translation-protocol.html",
+      "blockers": [
+        "process/result distinction",
+        "external lexical citations"
+      ],
+      "review_status": "candidate"
+    }
+  },
+  {
+    "candidate_id": "RQ-aa43773b0cfc",
+    "form": "acute",
+    "location": "data/language-book.v1.0.json#/entries/26/related_words/0",
+    "file_hash_matches_intake": true,
+    "current_pointed_record": {
+      "word": "acute",
+      "language": "English",
+      "relationship_type": "historical relative",
+      "family": "Latin acuere/acutus",
+      "relation_to_entry": {
+        "en": "Documented relation in the stated historical family.",
+        "zh-Hans": "在所列历史词族内有文献支持的关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-MW-ACUMEN"
+      ]
+    }
+  },
+  {
+    "candidate_id": "RQ-0d3877658122",
+    "form": "filament",
+    "location": "data/language-book.v1.0.json#/entries/30/related_words/1",
+    "file_hash_matches_intake": true,
+    "current_pointed_record": {
+      "word": "filament",
+      "language": "French/English",
+      "relationship_type": "Historical thread family",
+      "family": "Latin filum / filamentum",
+      "relation_to_entry": {
+        "en": "Documented historical relation within the stated family.",
+        "zh-Hans": "在所列词族内有文献支持的历史关系。"
+      },
+      "status": "Established",
+      "source_refs": [
+        "REF-CNRTL-FIL",
+        "REF-CNRTL-FILIERE",
+        "REF-CNRTL-FILLE"
+      ]
+    }
+  },
+  {
+    "candidate_id": "RQ-4d9a99ebe809",
+    "form": "long",
+    "location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/negative_controls/4",
+    "file_hash_matches_intake": true,
+    "current_pointed_record": {
+      "item": "long",
+      "deep_family_id": "pie_del_1",
+      "meaning": "great length or duration"
+    }
+  }
+]

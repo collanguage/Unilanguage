@@ -1,3 +1,5 @@
+> Current totals: 20 Active Production Candidates + 2 Archives; 2 additional Control records live under research/controls. Batch 004 acceptance is recorded in docs/research/production-004-acceptance.md. Below, Batch 001/002 counts describe their historical acceptance. Current recovery authority: research/PRODUCTION-RESUME.md.
+
 # Production Candidate Corpus v0.1
 
 Accepted by Jinkai Liu's Batch 001 and Batch 002 Acceptance instructions. Fourteen active candidate records and two separate archived observations. This is candidate intake approval, not lexical review, publication approval or proof.

@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "at": "2026-09-28T02:44:56.475Z",
+  "status": "PASS",
+  "method": "Copied only repository tracked/pending-addition files plus installed package dependencies into independent temporary Git checkout. No Work output tree or private package mounted/copied.",
+  "source_tree_sha256": "9b4a962130ac3b20bde835bb81dcc001505def0e2a1bcb95916095f371c711e3",
+  "source_file_count": 473,
+  "dependency_source": "Existing node_modules copied as standard dependency cache; fresh checkout uses pinned package install",
+  "temporary_checkout": "C:\\Users\\Jinkai\\AppData\\Local\\Temp\\unilanguage-recovery-ukaI9n",
+  "commands": [
+    {
+      "args": [
+        "scripts/validate-schema.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "Full JSON Schema 2020-12: PASS (42 entries)\n",
+      "output_sha256": "c9eb8ab78f6371d7349850b831c59be981ccb744af1d0716f26bc20ae4b8b29d"
+    },
+    {
+      "args": [
+        "scripts/validate-language-book-v1.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "Language Book Entry Schema v1.0: VALID\n42 entries · 4 independent evidence tracks each · 16 published entries\n",
+      "output_sha256": "66a44fb28bdecb5bf383a01fa58747ad31463860dacc724800e5fa533f65f54f"
+    },
+    {
+      "args": [
+        "scripts/validate-production-candidates.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "Production import structure + Evidence/Editorial gate PASS: 20 Candidate, 2 Archive; 0 Reviewed/Published promotions.\n",
+      "output_sha256": "a046ade4d3477199a94ab3e2a86708b4b6b7d4229fed3da585988fb67cf9a3fb"
+    },
+    {
+      "args": [
+        "scripts/validate-observation-registry.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "Observation schema + Evidence/Editorial gate PASS {\"observations\":66,\"origins\":{\"unknown\":52,\"ai_discovery\":14},\"objects\":109,\"production_tasks\":0}\n",
+      "output_sha256": "c1c0a5f48d392a8eef0877af20caf9be8e685cd0e09058f35b15a49fc50b0480"
+    },
+    {
+      "args": [
+        "scripts/validate-queue-scheduler.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "Scheduler schema + editorial audit PASS: 8 proposals; 141 deferred; 0 workers/acceptance/publication.\n",
+      "output_sha256": "caa38ccfc67381a7a960ae374b38fb54872f1c19fccf4988961030045d2f4189"
+    },
+    {
+      "args": [
+        "scripts/validate-production-004.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "Batch 004 acceptance / evidence / scheduler policy PASS: 6 Active + 2 Control\n",
+      "output_sha256": "d36bbf67f6a6c02e9c37dc80ffbc0e3e0d3493431f75aeddd8956dbfe0c501c1"
+    },
+    {
+      "args": [
+        "scripts/production-state.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "Production state PASS: repository-only inputs, preserved conclusions, pending/holdout boundaries\n",
+      "output_sha256": "aa014b07fd6e06fca7abe74b089f5e80d888b311a5c1e27b11a9532ca68ea3a5"
+    },
+    {
+      "args": [
+        "scripts/prepare-scheduler-snapshot.mjs",
+        "C:\\Users\\Jinkai\\AppData\\Local\\Temp\\unilanguage-recovery-ukaI9n\\recovery-snapshot.json"
+      ],
+      "exit_code": 0,
+      "output_tail": "Repository-only snapshot: 181 rows; no research executed\n",
+      "output_sha256": "ea6d7215e10c2245b389ee8b7dd666ba0bcbc281ff838ec3c229b740927c386a"
+    },
+    {
+      "args": [
+        "scripts/run-queue-scheduler.mjs",
+        "C:\\Users\\Jinkai\\AppData\\Local\\Temp\\unilanguage-recovery-ukaI9n\\recovery-snapshot.json",
+        "C:\\Users\\Jinkai\\AppData\\Local\\Temp\\unilanguage-recovery-ukaI9n\\recovery-audit.json"
+      ],
+      "exit_code": 0,
+      "output_tail": "{\n  \"selected\": [\n    {\n      \"id\": \"RQ-98fb49ffa66b\",\n      \"source\": \"alimentary\"\n    },\n    {\n      \"id\": \"RQ-baf644cb462c\",\n      \"source\": \"alimenter\"\n    },\n    {\n      \"id\": \"RQ-c7fe2748656a\",\n      \"source\": \"couvent\"\n    },\n    {\n      \"id\": \"RQ-31a9fccf8a5e\",\n      \"source\": \"forme\"\n    },\n    {\n      \"id\": \"RQ-68b3017cc6be\",\n      \"source\": \"generation\"\n    },\n    {\n      \"id\": \"RQ-c6e4c0019ec1\",\n      \"source\": \"média\"\n    }\n  ],\n  \"deferred\": 143,\n  \"composition\": {\n    \"human\": 0,\n    \"ai\": 0,\n    \"control_or_uncertain\": 0,\n    \"unknown\": 6,\n    \"note\": \"Composition dimensions can overlap; observations are not relabeled to fill quotas.\"\n  },\n  \"worker_runs\": 0\n}\n",
+      "output_sha256": "84b6a559bb466858b4956b7a909f951ffc80b8162869802785b94cb0a33ebdd9"
+    },
+    {
+      "args": [
+        "scripts/run-tests.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "Featured is structural; modern sound Low and historical sound unevaluated (0.1157ms)\n✔ ABOUND has separate overflow and abundance cards; 满 and 蹦 are not Featured (0.1246ms)\n✔ All 28 Discovery records remain exact; no promotion of group hits or historical claims (0.8947ms)\n✔ Deterministic pages/data; reader budget; all 22 migrations and lookup remain valid (233.4912ms)\n✔ Batch 3 scope: all other 37 entries/pages, schema and UI unchanged; exact archive restoration (2736.3056ms)\n✔ SKY modern sound Candidate is independent from reconstructed COVER research (0.2509ms)\n✔ LANGUAGE 舌 is structural lingua polysemy, with independent Low modern sound (0.1176ms)\n✔ ADVANCE 往 is Research only, 进 and 前 are reader semantic mappings (0.1513ms)\n✔ GENERATE Raw sound strings are archived, 生/产 stages stay distinct (0.1198ms)\n✔ ABSOLUTE sense branches never assert strict RELEASE to COMPLETE chronology (0.1383ms)\n✔ All 39 original records retained; Pending statuses and evidence remain independent (1.9075ms)\n✔ Deterministic build, reader budget, literary preservation, all 27 migrations validate (225.0238ms)\n✔ Final A scope: other 41 entries and all existing pages/schema/shared UI remain unchanged (2867.1146ms)\n✔ A Published and Featured Pending are independent; no lexical equivalence inferred (0.2559ms)\n✔ ONE is a historical semantic comparison; modern a/an are coexisting forms (0.1272ms)\n✔ 甲 current readings corrected; rejected raw provenance and 安 control preserved (0.2149ms)\n✔ All eight research records retained, group expansion N/A, counterexamples and evidence Pending (0.8635ms)\n✔ a/an route to article, AT unchanged, two reader cards and deterministic builds; 28/42 migrated (218.2284ms)\nℹ tests 308\nℹ suites 0\nℹ pass 308\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 68611.1269\n",
+      "output_sha256": "248808fac947a602b6891a20be0fb2a75a9b583811eef61ca43db3e260eaffba"
+    },
+    {
+      "args": [
+        "scripts/publication-build.mjs"
+      ],
+      "exit_code": 0,
+      "output_tail": "ctory without moving its contents (2.3746ms)\nℹ tests 3\nℹ suites 0\nℹ pass 3\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 85.4693\nFull JSON Schema 2020-12: PASS (42 entries)\n✔ Final structural gate: schema, editorial contract and independent Pending states (177.5391ms)\n✔ Final structural REJECTS farm ancestry (19.3015ms)\n✔ Final structural REJECTS transformation promoted to chronology (17.397ms)\n✔ Final structural REJECTS cognition ancestor of sign (16.0837ms)\n✔ Final structural REJECTS symbolic operation promoted to fact (17.0266ms)\n✔ Final structural REJECTS physical-first chronology (15.8972ms)\n✔ Final structural REJECTS pressure implies fear (16.1356ms)\n✔ Final structural REJECTS protocol as etymology (14.6616ms)\n✔ Final structural REJECTS unconditional above equals up (14.5739ms)\n✔ Final structural REJECTS lux as intermediate (23.7311ms)\n✔ Final structural REJECTS poem as historical evidence (14.3674ms)\n✔ Final structural REJECTS L hypothesis supported (14.9493ms)\n✔ Final structural REJECTS untested experiment supported (13.7554ms)\n✔ Final structural REJECTS poetry validates phonetics (15.4623ms)\n✔ Final structural REJECTS Pending print evidence upgraded (18.3215ms)\n✔ Final structural REJECTS forced Featured (14.1274ms)\n✔ Final structural REJECTS common origin (13.3398ms)\n✔ Final structural REJECTS archive erased (15.4503ms)\n✔ Final structural REJECTS stale external LIGHT evidence chain (1.5272ms)\n✔ Final structural reader: five pages, Mapper, search and intact literature (6.9919ms)\nℹ tests 20\nℹ suites 0\nℹ pass 20\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 574.3287\nFinal structural pages: 5 · template retained · literary section preserved · editorial gate PASS\nPublication build passed: 473 tracked files; schema + evidence/editorial gates.\n",
+      "output_sha256": "ad5e37a7776f1f3a7bcdd12f5f1f47d7c7109930a1afec657ac45c56d6b231a3"
+    }
+  ],
+  "counts": {
+    "legacy": 42,
+    "active": 20,
+    "archive": 2,
+    "controls": 2,
+    "observations": 66,
+    "pending_batches": [
+      {
+        "batch_id": "production-003",
+        "status": "awaiting_jinkai_review",
+        "count": 8,
+        "proposal_path": "research/production-state/pending/production-003/research-records.json"
+      },
+      {
+        "batch_id": "production-005",
+        "status": "awaiting_jinkai_review",
+        "count": 8,
+        "proposal_path": "research/production-state/pending/production-005/research-report.json"
+      }
+    ],
+    "eligible": 6,
+    "identity_pending": 19
+  },
+  "dry_run": {
+    "selected": 6,
+    "worker_runs": 0,
+    "publication_allowed": false
+  },
+  "next_action": "Review pending batches 003 and 005. No new research dispatch authorized by consolidation.",
+  "remaining_external_dependencies": [
+    "Node/package runtime installation",
+    "Private benchmark/holdout contents intentionally external; not required for Production scheduling",
+    "Research sources and Jinkai review needed only when separately authorized future work starts"
+  ],
+  "limitations": "Filesystem fixture validates code dependencies, not OS sandboxing of a hostile process. No isolated benchmark evaluator is claimed. Temporary fixture is retained for inspection.",
+  "git_history": "Full independent git clone --no-local; historical compatibility tests require complete Git history.",
+  "preliminary_attempts": [
+    {
+      "result": "failed fixture setup",
+      "cause": "Dereferencing pnpm top-level junction omitted dependency resolution closure",
+      "resolution": "Copy resolved installed package dependency closure; do not treat as missing production data"
+    },
+    {
+      "result": "failed compatibility tests in history-free fixture",
+      "cause": "Historical regression tests require prior Git commits",
+      "resolution": "Full independent Git clone; documented recovery requirement"
+    }
+  ],
+  "post_fixture_check": "Added CRLF integrity assertion; focused production-state suite 5/5 passed. No production logic changed after successful fixture."
+}

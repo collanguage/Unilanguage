@@ -1,0 +1,1037 @@
+[
+  {
+    "candidate_id": "RQ-e5b9fa065562",
+    "source_word_form": "wave",
+    "language": "English",
+    "authors_original_observations": [
+      "wave / water ↔ 水 / w; w 形状与水语义假说。"
+    ],
+    "imported_observations": [],
+    "proposed_chinese_mapping": [
+      "水 / w; W shape observation, not a standard translation"
+    ],
+    "possible_historical_root_unit": [],
+    "possible_mapping_type": [
+      "Experimental link / individual observation"
+    ],
+    "related_word_family": [],
+    "existing_protocol_hypothesis": [
+      "UNI-EXP-002: W→WATER/WETNESS/WAVE-FLOW; result Inconclusive; no analysis rerun or new outcome"
+    ],
+    "literary_cultural_layer": [],
+    "evidence_status": "Intake only; no new evidence verification or promotion",
+    "research_status": "Proposed queue / awaiting Jinkai Liu review",
+    "historical_relation": "Not claimed",
+    "provenance": [
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/batches/dataset-expansion-batch-001.v1.json",
+        "json_pointer": "/deferred_queue/0/raw_note",
+        "file_sha256": "0dbf661737519931db3ad0f889025d77b0b3cecbaa08c32dc9ccab0cdaf5e27e",
+        "origin_type": "repository raw-note"
+      }
+    ],
+    "legacy_candidate_ids": [
+      "B001-Q01"
+    ],
+    "existing_host_entries": [],
+    "queue_position": 24,
+    "primary_pipeline": "Pipeline 2 — Cultural–Structural–Literary",
+    "generation_feature": "W hypothesis",
+    "planned_test_role": "experimental-link task; frozen Experiment 002 unaffected",
+    "priority_band": "High",
+    "priority_dimensions": {
+      "Research Value": {
+        "rating": "High",
+        "rationale": "Tests a bounded unresolved unit; does not revisit the host canonical decision."
+      },
+      "Evidence Availability": {
+        "rating": "Medium",
+        "rationale": "Availability of repository source pointers, not evidence validity; unknown lexical identity reduces availability."
+      },
+      "Protocol Relevance": {
+        "rating": "High",
+        "rationale": "Targets the stated protocol/control boundary, not a positive result."
+      },
+      "Candidate Novelty": {
+        "rating": "Medium",
+        "rationale": "Novelty relative to queue packaging only; no claim of a newly discovered linguistic relation."
+      },
+      "Counterexample Value": {
+        "rating": "Medium",
+        "rationale": "Sampling role chosen before research; observed phonetic/semantic fit remains unevaluated."
+      },
+      "Product / Mapper Value": {
+        "rating": "High",
+        "rationale": "Potential independent sense/query coverage; does not authorize a page or canonical promotion."
+      },
+      "Research Risk": {
+        "rating": "High",
+        "rationale": "Polysemy, uncertain language, family dependence or literary/experimental evidence leakage; not subtracted into a total."
+      }
+    },
+    "priority_reason": "Diversity/control quota plus independent dimensions; no weighted total. This is an editorial recommendation, not an evidence grade.",
+    "first_worker_action": "Freeze the new unit/sense; inspect existing source pointers and counterexamples; no change to host canonical entry."
+  },
+  {
+    "candidate_id": "RQ-85c25b0fa6c8",
+    "source_word_form": "knowledge",
+    "language": "English",
+    "authors_original_observations": [],
+    "imported_observations": [
+      "{\"candidate_id\": \"CAND-en-knowledge-001\", \"source_word\": \"knowledge\", \"normalized_form\": \"knowledge\", \"lexical_meaning\": {\"en\": \"Understanding or information acquired through learning or experience.\", \"zh-Hans\": \"通过学习或经验获得的理解或信息。\"}, \"candidate_mapping\": \"知识 · connaissance／savoir\", \"source_provenance\": \"AGENTS.md\", \"blockers\": [\"French noun/verb boundary\", \"external lexical citations\"], \"review_status\": \"candidate\"}"
+    ],
+    "proposed_chinese_mapping": [
+      "知识 · connaissance／savoir"
+    ],
+    "possible_historical_root_unit": [],
+    "possible_mapping_type": [
+      "Structural / cultural intake"
+    ],
+    "related_word_family": [],
+    "existing_protocol_hypothesis": [],
+    "literary_cultural_layer": [],
+    "evidence_status": "Intake only; no new evidence verification or promotion",
+    "research_status": "Unscheduled intake; owner review pending",
+    "historical_relation": "Not claimed",
+    "provenance": [
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-e-batch-001.v0.2.json",
+        "json_pointer": "/records/4",
+        "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+        "origin_type": "Codex prior extraction; not a verbatim author quote"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-f-review-queue.v0.1.json",
+        "json_pointer": "/records/4",
+        "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-g-decision-register.v0.1.json",
+        "json_pointer": "/records/4",
+        "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+      }
+    ],
+    "legacy_candidate_ids": [
+      "CAND-en-knowledge-001"
+    ],
+    "existing_host_entries": [],
+    "prior_status_packets": [
+      {
+        "path": "data/candidates/package-f-review-queue.v0.1.json",
+        "source_word": "knowledge",
+        "intake_status": null,
+        "decision": null,
+        "publication_gate": null,
+        "source_verification": [
+          {
+            "verification_id": "CAND-en-knowledge-001-SRC-PROJECT",
+            "source_type": "project-primary-source",
+            "title": "Unilanguage project source: AGENTS.md",
+            "locator": "AGENTS.md",
+            "url": "AGENTS.md",
+            "specific_location": "document-level occurrence",
+            "accessed_at": "2026-08-30",
+            "version_info": "Package E baseline commit 1a06dfd",
+            "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+            "supports": [
+              "candidate inclusion in this fixed 19-record review queue",
+              "project-internal semantic context"
+            ],
+            "does_not_support": [
+              "external lexical equivalence",
+              "shared etymology",
+              "phonetic correspondence",
+              "publication readiness"
+            ]
+          },
+          {
+            "verification_id": "CAND-en-knowledge-001-SRC-CAM-ZH",
+            "source_type": "authoritative-bilingual-dictionary",
+            "title": "Cambridge Dictionary: knowledge — English–Mandarin Chinese",
+            "locator": "headword “knowledge”; reviewer-selected sense: information or understanding acquired through learning or experience",
+            "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/knowledge",
+            "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+            "accessed_at": "2026-08-30",
+            "version_info": "live web edition; no stable release number displayed",
+            "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “知识”.",
+            "supports": [
+              "ordinary lexical comparison for the selected sense",
+              "Mandarin Chinese candidate form(s): 知识"
+            ],
+            "does_not_support": [
+              "The page does not establish unrestricted equivalence across every sense of “knowledge”.",
+              "common origin, borrowing, or regular sound correspondence",
+              "the Unilanguage protocol mapping level"
+            ]
+          },
+          {
+            "verification_id": "CAND-en-knowledge-001-SRC-CAM-FR",
+            "source_type": "authoritative-bilingual-dictionary",
+            "title": "Cambridge Dictionary: knowledge — English–French",
+            "locator": "headword “knowledge”; reviewer-selected sense: information or understanding acquired through learning or experience",
+            "url": "https://dictionary.cambridge.org/dictionary/english-french/knowledge",
+            "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+            "accessed_at": "2026-08-30",
+            "version_info": "live web edition; no stable release number displayed",
+            "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “connaissance／savoir”.",
+            "supports": [
+              "ordinary lexical comparison for the selected sense",
+              "French candidate form(s): connaissance／savoir"
+            ],
+            "does_not_support": [
+              "The page does not establish unrestricted equivalence across every sense of “knowledge”.",
+              "common origin, borrowing, or regular sound correspondence",
+              "the Unilanguage protocol mapping level"
+            ]
+          }
+        ]
+      },
+      {
+        "path": "data/candidates/package-g-decision-register.v0.1.json",
+        "source_word": "knowledge",
+        "intake_status": "candidate",
+        "decision": "pending",
+        "publication_gate": "not_eligible",
+        "source_verification": []
+      }
+    ],
+    "primary_pipeline": "Pipeline 2 — Cultural–Structural–Literary",
+    "priority_band": "Archive / Later",
+    "priority_dimensions": {
+      "Research Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Evidence Availability": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Protocol Relevance": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Candidate Novelty": {
+        "rating": "Low",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Counterexample Value": {
+        "rating": "Unknown",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Product / Mapper Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Research Risk": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      }
+    },
+    "priority_reason": "Bounded first batch; retained without rejection or promotion."
+  },
+  {
+    "candidate_id": "RQ-dbf7cb31b8cd",
+    "source_word_form": "exist",
+    "language": "English",
+    "authors_original_observations": [],
+    "imported_observations": [
+      "{\"candidate_id\": \"CAND-en-exist-001\", \"source_word\": \"exist\", \"normalized_form\": \"exist\", \"lexical_meaning\": {\"en\": \"To have being or reality.\", \"zh-Hans\": \"具有存在或现实状态。\"}, \"candidate_mapping\": \"存在 · exister\", \"source_provenance\": \"AGENTS.md\", \"blockers\": [\"external lexical citations\", \"protocol relation review\"], \"review_status\": \"candidate\"}"
+    ],
+    "proposed_chinese_mapping": [
+      "存在 · exister"
+    ],
+    "possible_historical_root_unit": [],
+    "possible_mapping_type": [
+      "Structural / cultural intake"
+    ],
+    "related_word_family": [],
+    "existing_protocol_hypothesis": [],
+    "literary_cultural_layer": [],
+    "evidence_status": "Intake only; no new evidence verification or promotion",
+    "research_status": "Unscheduled intake; owner review pending",
+    "historical_relation": "Not claimed",
+    "provenance": [
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-e-batch-001.v0.2.json",
+        "json_pointer": "/records/7",
+        "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+        "origin_type": "Codex prior extraction; not a verbatim author quote"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-f-review-queue.v0.1.json",
+        "json_pointer": "/records/7",
+        "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-g-decision-register.v0.1.json",
+        "json_pointer": "/records/7",
+        "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+      }
+    ],
+    "legacy_candidate_ids": [
+      "CAND-en-exist-001"
+    ],
+    "existing_host_entries": [],
+    "prior_status_packets": [
+      {
+        "path": "data/candidates/package-f-review-queue.v0.1.json",
+        "source_word": "exist",
+        "intake_status": null,
+        "decision": null,
+        "publication_gate": null,
+        "source_verification": [
+          {
+            "verification_id": "CAND-en-exist-001-SRC-PROJECT",
+            "source_type": "project-primary-source",
+            "title": "Unilanguage project source: AGENTS.md",
+            "locator": "AGENTS.md",
+            "url": "AGENTS.md",
+            "specific_location": "document-level occurrence",
+            "accessed_at": "2026-08-30",
+            "version_info": "Package E baseline commit 1a06dfd",
+            "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+            "supports": [
+              "candidate inclusion in this fixed 19-record review queue",
+              "project-internal semantic context"
+            ],
+            "does_not_support": [
+              "external lexical equivalence",
+              "shared etymology",
+              "phonetic correspondence",
+              "publication readiness"
+            ]
+          },
+          {
+            "verification_id": "CAND-en-exist-001-SRC-CAM-ZH",
+            "source_type": "authoritative-bilingual-dictionary",
+            "title": "Cambridge Dictionary: exist — English–Mandarin Chinese",
+            "locator": "headword “exist”; reviewer-selected sense: have objective reality or being",
+            "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/exist",
+            "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+            "accessed_at": "2026-08-30",
+            "version_info": "live web edition; no stable release number displayed",
+            "verifiable_content": "The page permits verification of the verb headword, sense boundaries, and candidate Mandarin Chinese rendering “存在”.",
+            "supports": [
+              "ordinary lexical comparison for the selected sense",
+              "Mandarin Chinese candidate form(s): 存在"
+            ],
+            "does_not_support": [
+              "The page does not establish unrestricted equivalence across every sense of “exist”.",
+              "common origin, borrowing, or regular sound correspondence",
+              "the Unilanguage protocol mapping level"
+            ]
+          },
+          {
+            "verification_id": "CAND-en-exist-001-SRC-CAM-FR",
+            "source_type": "authoritative-bilingual-dictionary",
+            "title": "Cambridge Dictionary: exist — English–French",
+            "locator": "headword “exist”; reviewer-selected sense: have objective reality or being",
+            "url": "https://dictionary.cambridge.org/dictionary/english-french/exist",
+            "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+            "accessed_at": "2026-08-30",
+            "version_info": "live web edition; no stable release number displayed",
+            "verifiable_content": "The page permits verification of the verb headword, sense boundaries, and candidate French rendering “exister”.",
+            "supports": [
+              "ordinary lexical comparison for the selected sense",
+              "French candidate form(s): exister"
+            ],
+            "does_not_support": [
+              "The page does not establish unrestricted equivalence across every sense of “exist”.",
+              "common origin, borrowing, or regular sound correspondence",
+              "the Unilanguage protocol mapping level"
+            ]
+          }
+        ]
+      },
+      {
+        "path": "data/candidates/package-g-decision-register.v0.1.json",
+        "source_word": "exist",
+        "intake_status": "candidate",
+        "decision": "pending",
+        "publication_gate": "not_eligible",
+        "source_verification": []
+      }
+    ],
+    "primary_pipeline": "Pipeline 2 — Cultural–Structural–Literary",
+    "priority_band": "Archive / Later",
+    "priority_dimensions": {
+      "Research Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Evidence Availability": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Protocol Relevance": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Candidate Novelty": {
+        "rating": "Low",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Counterexample Value": {
+        "rating": "Unknown",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Product / Mapper Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Research Risk": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      }
+    },
+    "priority_reason": "Bounded first batch; retained without rejection or promotion."
+  },
+  {
+    "candidate_id": "RQ-63f75c562c69",
+    "source_word_form": "direction",
+    "language": "English",
+    "authors_original_observations": [],
+    "imported_observations": [
+      "{\"candidate_id\": \"CAND-en-direction-001\", \"source_word\": \"direction\", \"normalized_form\": \"direction\", \"lexical_meaning\": {\"en\": \"The course along which something moves or faces.\", \"zh-Hans\": \"事物移动或朝向的路线。\"}, \"candidate_mapping\": \"方向 · direction\", \"source_provenance\": \"protocol/protocol.space.html#direction\", \"blockers\": [\"spatial/instruction sense separation\", \"external lexical citations\"], \"review_status\": \"candidate\"}",
+      "{\"word\": \"direction\", \"language\": \"English\", \"relationship_type\": \"negative control\", \"family\": \"Latin dīrigere / regere\", \"relation_to_entry\": {\"en\": \"From Latin dīrēctiō, via dīrēctus, participle of dīrigere.\", \"zh-Hans\": \"来自 Latin dīrēctiō，经 dīrēctus（dīrigere 的分词）；非 DIC-/DICT-。\"}, \"status\": \"Established\", \"source_refs\": [\"ABD-DIRECTION\"]}"
+    ],
+    "proposed_chinese_mapping": [
+      "方向 · direction"
+    ],
+    "possible_historical_root_unit": [],
+    "possible_mapping_type": [
+      "Structural / cultural intake"
+    ],
+    "related_word_family": [
+      {
+        "host_entry": "abdicate",
+        "source_form": "direction",
+        "relationship_type": "negative control",
+        "family_as_recorded": "Latin dīrigere / regere",
+        "repository_status": "Established",
+        "source_refs": [
+          "ABD-DIRECTION"
+        ],
+        "source_catalog": [
+          {
+            "reference_id": "ABD-DIRECTION",
+            "title": "American Heritage Dictionary: direction",
+            "type": "lexicographic / linguistic reference",
+            "url": "https://ahdictionary.com/word/search.html?q=direction",
+            "path": null,
+            "claim_scope": [
+              "etymology"
+            ],
+            "locator": "dīrēctiō / dīrigere",
+            "accessed": "2026-09-14",
+            "provenance": "Specific entry or publisher/institution-hosted text checked; paraphrased, not a full reproduction."
+          }
+        ],
+        "intake_family_status": "Possible family / unverified; source scope must be checked before active historical edge",
+        "provenance": {
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "path": "data/language-book.v1.0.json",
+          "json_pointer": "/entries/16/related_words/4",
+          "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5"
+        }
+      }
+    ],
+    "existing_protocol_hypothesis": [],
+    "literary_cultural_layer": [],
+    "evidence_status": "Intake only; no new evidence verification or promotion",
+    "research_status": "Unscheduled intake; owner review pending",
+    "historical_relation": "Not claimed",
+    "provenance": [
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-e-batch-001.v0.2.json",
+        "json_pointer": "/records/17",
+        "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+        "origin_type": "Codex prior extraction; not a verbatim author quote"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-f-review-queue.v0.1.json",
+        "json_pointer": "/records/17",
+        "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-g-decision-register.v0.1.json",
+        "json_pointer": "/records/17",
+        "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/language-book.v1.0.json",
+        "json_pointer": "/entries/16/related_words/4",
+        "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+        "origin_type": "repository related-word claim; not new research"
+      }
+    ],
+    "legacy_candidate_ids": [
+      "CAND-en-direction-001"
+    ],
+    "existing_host_entries": [
+      "abdicate"
+    ],
+    "prior_status_packets": [
+      {
+        "path": "data/candidates/package-f-review-queue.v0.1.json",
+        "source_word": "direction",
+        "intake_status": null,
+        "decision": null,
+        "publication_gate": null,
+        "source_verification": [
+          {
+            "verification_id": "CAND-en-direction-001-SRC-PROJECT",
+            "source_type": "project-primary-source",
+            "title": "Unilanguage project source: protocol/protocol.space.html",
+            "locator": "protocol/protocol.space.html#direction",
+            "url": "protocol/protocol.space.html",
+            "specific_location": "direction",
+            "accessed_at": "2026-08-30",
+            "version_info": "Package E baseline commit 1a06dfd",
+            "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+            "supports": [
+              "candidate inclusion in this fixed 19-record review queue",
+              "project-internal semantic context"
+            ],
+            "does_not_support": [
+              "external lexical equivalence",
+              "shared etymology",
+              "phonetic correspondence",
+              "publication readiness"
+            ]
+          },
+          {
+            "verification_id": "CAND-en-direction-001-SRC-CAM-ZH",
+            "source_type": "authoritative-bilingual-dictionary",
+            "title": "Cambridge Dictionary: direction — English–Mandarin Chinese",
+            "locator": "headword “direction”; reviewer-selected sense: the course toward which something moves or faces",
+            "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/direction",
+            "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+            "accessed_at": "2026-08-30",
+            "version_info": "live web edition; no stable release number displayed",
+            "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “方向”.",
+            "supports": [
+              "ordinary lexical comparison for the selected sense",
+              "Mandarin Chinese candidate form(s): 方向"
+            ],
+            "does_not_support": [
+              "The page does not establish unrestricted equivalence across every sense of “direction”.",
+              "common origin, borrowing, or regular sound correspondence",
+              "the Unilanguage protocol mapping level"
+            ]
+          },
+          {
+            "verification_id": "CAND-en-direction-001-SRC-CAM-FR",
+            "source_type": "authoritative-bilingual-dictionary",
+            "title": "Cambridge Dictionary: direction — English–French",
+            "locator": "headword “direction”; reviewer-selected sense: the course toward which something moves or faces",
+            "url": "https://dictionary.cambridge.org/dictionary/english-french/direction",
+            "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+            "accessed_at": "2026-08-30",
+            "version_info": "live web edition; no stable release number displayed",
+            "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “direction”.",
+            "supports": [
+              "ordinary lexical comparison for the selected sense",
+              "French candidate form(s): direction"
+            ],
+            "does_not_support": [
+              "The page does not establish unrestricted equivalence across every sense of “direction”.",
+              "common origin, borrowing, or regular sound correspondence",
+              "the Unilanguage protocol mapping level"
+            ]
+          }
+        ]
+      },
+      {
+        "path": "data/candidates/package-g-decision-register.v0.1.json",
+        "source_word": "direction",
+        "intake_status": "candidate",
+        "decision": "pending",
+        "publication_gate": "not_eligible",
+        "source_verification": []
+      }
+    ],
+    "primary_pipeline": "Pipeline 2 — Cultural–Structural–Literary",
+    "priority_band": "Archive / Later",
+    "priority_dimensions": {
+      "Research Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Evidence Availability": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Protocol Relevance": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Candidate Novelty": {
+        "rating": "Low",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Counterexample Value": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Product / Mapper Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Research Risk": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      }
+    },
+    "priority_reason": "Bounded first batch; retained without rejection or promotion."
+  },
+  {
+    "candidate_id": "RQ-c6096ae58707",
+    "source_word_form": "translation",
+    "language": "English",
+    "authors_original_observations": [],
+    "imported_observations": [
+      "{\"candidate_id\": \"CAND-en-translation-001\", \"source_word\": \"translation\", \"normalized_form\": \"translation\", \"lexical_meaning\": {\"en\": \"The process or result of expressing content in another language.\", \"zh-Hans\": \"用另一种语言表达内容的过程或结果。\"}, \"candidate_mapping\": \"翻译 · traduction\", \"source_provenance\": \"translation-protocol.html\", \"blockers\": [\"process/result distinction\", \"external lexical citations\"], \"review_status\": \"candidate\"}"
+    ],
+    "proposed_chinese_mapping": [
+      "翻译 · traduction"
+    ],
+    "possible_historical_root_unit": [],
+    "possible_mapping_type": [
+      "Structural / cultural intake"
+    ],
+    "related_word_family": [],
+    "existing_protocol_hypothesis": [],
+    "literary_cultural_layer": [],
+    "evidence_status": "Intake only; no new evidence verification or promotion",
+    "research_status": "Unscheduled intake; owner review pending",
+    "historical_relation": "Not claimed",
+    "provenance": [
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-e-batch-001.v0.2.json",
+        "json_pointer": "/records/18",
+        "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+        "origin_type": "Codex prior extraction; not a verbatim author quote"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-f-review-queue.v0.1.json",
+        "json_pointer": "/records/18",
+        "file_sha256": "47631d8ace4b145478c5cf7eca99c1684846d84a458055a2c55ddf48affaaf9a"
+      },
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-g-decision-register.v0.1.json",
+        "json_pointer": "/records/18",
+        "file_sha256": "e4ed2ab317228db6af8556ed5007b0b7fa183fd8a3cb2304fbecbca0418375f9"
+      }
+    ],
+    "legacy_candidate_ids": [
+      "CAND-en-translation-001"
+    ],
+    "existing_host_entries": [],
+    "prior_status_packets": [
+      {
+        "path": "data/candidates/package-f-review-queue.v0.1.json",
+        "source_word": "translation",
+        "intake_status": null,
+        "decision": null,
+        "publication_gate": null,
+        "source_verification": [
+          {
+            "verification_id": "CAND-en-translation-001-SRC-PROJECT",
+            "source_type": "project-primary-source",
+            "title": "Unilanguage project source: translation-protocol.html",
+            "locator": "translation-protocol.html",
+            "url": "translation-protocol.html",
+            "specific_location": "document-level occurrence",
+            "accessed_at": "2026-08-30",
+            "version_info": "Package E baseline commit 1a06dfd",
+            "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+            "supports": [
+              "candidate inclusion in this fixed 19-record review queue",
+              "project-internal semantic context"
+            ],
+            "does_not_support": [
+              "external lexical equivalence",
+              "shared etymology",
+              "phonetic correspondence",
+              "publication readiness"
+            ]
+          },
+          {
+            "verification_id": "CAND-en-translation-001-SRC-CAM-ZH",
+            "source_type": "authoritative-bilingual-dictionary",
+            "title": "Cambridge Dictionary: translation — English–Mandarin Chinese",
+            "locator": "headword “translation”; reviewer-selected sense: the process or product of expressing content in another language",
+            "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/translation",
+            "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+            "accessed_at": "2026-08-30",
+            "version_info": "live web edition; no stable release number displayed",
+            "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “翻译／译文”.",
+            "supports": [
+              "ordinary lexical comparison for the selected sense",
+              "Mandarin Chinese candidate form(s): 翻译／译文"
+            ],
+            "does_not_support": [
+              "The page does not establish unrestricted equivalence across every sense of “translation”.",
+              "common origin, borrowing, or regular sound correspondence",
+              "the Unilanguage protocol mapping level"
+            ]
+          },
+          {
+            "verification_id": "CAND-en-translation-001-SRC-CAM-FR",
+            "source_type": "authoritative-bilingual-dictionary",
+            "title": "Cambridge Dictionary: translation — English–French",
+            "locator": "headword “translation”; reviewer-selected sense: the process or product of expressing content in another language",
+            "url": "https://dictionary.cambridge.org/dictionary/english-french/translation",
+            "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+            "accessed_at": "2026-08-30",
+            "version_info": "live web edition; no stable release number displayed",
+            "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “traduction”.",
+            "supports": [
+              "ordinary lexical comparison for the selected sense",
+              "French candidate form(s): traduction"
+            ],
+            "does_not_support": [
+              "The page does not establish unrestricted equivalence across every sense of “translation”.",
+              "common origin, borrowing, or regular sound correspondence",
+              "the Unilanguage protocol mapping level"
+            ]
+          }
+        ]
+      },
+      {
+        "path": "data/candidates/package-g-decision-register.v0.1.json",
+        "source_word": "translation",
+        "intake_status": "candidate",
+        "decision": "pending",
+        "publication_gate": "not_eligible",
+        "source_verification": []
+      }
+    ],
+    "primary_pipeline": "Pipeline 2 — Cultural–Structural–Literary",
+    "priority_band": "Archive / Later",
+    "priority_dimensions": {
+      "Research Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Evidence Availability": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Protocol Relevance": {
+        "rating": "High",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Candidate Novelty": {
+        "rating": "Low",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Counterexample Value": {
+        "rating": "Unknown",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Product / Mapper Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Research Risk": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      }
+    },
+    "priority_reason": "Bounded first batch; retained without rejection or promotion."
+  },
+  {
+    "candidate_id": "RQ-aa43773b0cfc",
+    "source_word_form": "acute",
+    "language": "English",
+    "authors_original_observations": [],
+    "imported_observations": [
+      "{\"word\": \"acute\", \"language\": \"English\", \"relationship_type\": \"historical relative\", \"family\": \"Latin acuere/acutus\", \"relation_to_entry\": {\"en\": \"Documented relation in the stated historical family.\", \"zh-Hans\": \"在所列历史词族内有文献支持的关系。\"}, \"status\": \"Established\", \"source_refs\": [\"REF-MW-ACUMEN\"]}"
+    ],
+    "proposed_chinese_mapping": [],
+    "possible_historical_root_unit": [],
+    "possible_mapping_type": [
+      "Possible lexical family; unverified"
+    ],
+    "related_word_family": [
+      {
+        "host_entry": "acumen",
+        "source_form": "acute",
+        "relationship_type": "historical relative",
+        "family_as_recorded": "Latin acuere/acutus",
+        "repository_status": "Established",
+        "source_refs": [
+          "REF-MW-ACUMEN"
+        ],
+        "source_catalog": [
+          {
+            "reference_id": "REF-MW-ACUMEN",
+            "title": "Merriam-Webster Dictionary: acumen",
+            "type": "dictionary",
+            "url": "https://www.merriam-webster.com/dictionary/acumen",
+            "path": null,
+            "provenance": "external lexicographic reference; accessed 2026-09-01"
+          }
+        ],
+        "intake_family_status": "Possible family / unverified; source scope must be checked before active historical edge",
+        "provenance": {
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "path": "data/language-book.v1.0.json",
+          "json_pointer": "/entries/26/related_words/0",
+          "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5"
+        }
+      }
+    ],
+    "existing_protocol_hypothesis": [],
+    "literary_cultural_layer": [],
+    "evidence_status": "Intake only; no new evidence verification or promotion",
+    "research_status": "Unscheduled intake; owner review pending",
+    "historical_relation": "Not claimed",
+    "provenance": [
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/language-book.v1.0.json",
+        "json_pointer": "/entries/26/related_words/0",
+        "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+        "origin_type": "repository related-word claim; not new research"
+      }
+    ],
+    "legacy_candidate_ids": [],
+    "existing_host_entries": [
+      "acumen"
+    ],
+    "primary_pipeline": "Pipeline 1 — Lexical–Diachronic",
+    "priority_band": "Archive / Later",
+    "priority_dimensions": {
+      "Research Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Evidence Availability": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Protocol Relevance": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Candidate Novelty": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Counterexample Value": {
+        "rating": "Unknown",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Product / Mapper Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Research Risk": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      }
+    },
+    "priority_reason": "Bounded first batch; retained without rejection or promotion."
+  },
+  {
+    "candidate_id": "RQ-0d3877658122",
+    "source_word_form": "filament",
+    "language": "French/English",
+    "authors_original_observations": [],
+    "imported_observations": [
+      "{\"word\": \"filament\", \"language\": \"French/English\", \"relationship_type\": \"Historical thread family\", \"family\": \"Latin filum / filamentum\", \"relation_to_entry\": {\"en\": \"Documented historical relation within the stated family.\", \"zh-Hans\": \"在所列词族内有文献支持的历史关系。\"}, \"status\": \"Established\", \"source_refs\": [\"REF-CNRTL-FIL\", \"REF-CNRTL-FILIERE\", \"REF-CNRTL-FILLE\"]}"
+    ],
+    "proposed_chinese_mapping": [],
+    "possible_historical_root_unit": [],
+    "possible_mapping_type": [
+      "Possible lexical family; unverified"
+    ],
+    "related_word_family": [
+      {
+        "host_entry": "fil",
+        "source_form": "filament",
+        "relationship_type": "Historical thread family",
+        "family_as_recorded": "Latin filum / filamentum",
+        "repository_status": "Established",
+        "source_refs": [
+          "REF-CNRTL-FIL",
+          "REF-CNRTL-FILIERE",
+          "REF-CNRTL-FILLE"
+        ],
+        "source_catalog": [
+          {
+            "reference_id": "REF-CNRTL-FIL",
+            "title": "CNRTL/TLFi: étymologie de fil",
+            "type": "historical dictionary",
+            "url": "https://www.cnrtl.fr/etymologie/fil",
+            "path": null,
+            "provenance": "external lexicographic reference; accessed 2026-09-01"
+          },
+          {
+            "reference_id": "REF-CNRTL-FILIERE",
+            "title": "CNRTL/TLFi: étymologie de filière",
+            "type": "historical dictionary",
+            "url": "https://www.cnrtl.fr/etymologie/fili%C3%A8re",
+            "path": null,
+            "provenance": "external lexicographic reference; accessed 2026-09-01"
+          },
+          {
+            "reference_id": "REF-CNRTL-FILLE",
+            "title": "CNRTL/TLFi: étymologie de fille",
+            "type": "historical dictionary",
+            "url": "https://www.cnrtl.fr/etymologie/fille",
+            "path": null,
+            "provenance": "external lexicographic reference; accessed 2026-09-01"
+          }
+        ],
+        "intake_family_status": "Possible family / unverified; source scope must be checked before active historical edge",
+        "provenance": {
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "path": "data/language-book.v1.0.json",
+          "json_pointer": "/entries/30/related_words/1",
+          "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5"
+        }
+      }
+    ],
+    "existing_protocol_hypothesis": [],
+    "literary_cultural_layer": [],
+    "evidence_status": "Intake only; no new evidence verification or promotion",
+    "research_status": "Unscheduled intake; owner review pending",
+    "historical_relation": "Not claimed",
+    "provenance": [
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/language-book.v1.0.json",
+        "json_pointer": "/entries/30/related_words/1",
+        "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+        "origin_type": "repository related-word claim; not new research"
+      }
+    ],
+    "legacy_candidate_ids": [],
+    "existing_host_entries": [
+      "fil"
+    ],
+    "primary_pipeline": "Pipeline 1 — Lexical–Diachronic",
+    "priority_band": "Archive / Later",
+    "priority_dimensions": {
+      "Research Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Evidence Availability": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Protocol Relevance": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Candidate Novelty": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Counterexample Value": {
+        "rating": "Unknown",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Product / Mapper Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Research Risk": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      }
+    },
+    "priority_reason": "Bounded first batch; retained without rejection or promotion."
+  },
+  {
+    "candidate_id": "RQ-4d9a99ebe809",
+    "source_word_form": "long",
+    "language": "English",
+    "authors_original_observations": [],
+    "imported_observations": [
+      "{\"item\": \"long\", \"deep_family_id\": \"pie_del_1\", \"meaning\": \"great length or duration\"}"
+    ],
+    "proposed_chinese_mapping": [],
+    "possible_historical_root_unit": [],
+    "possible_mapping_type": [
+      "Possible lexical family; unverified"
+    ],
+    "related_word_family": [
+      {
+        "declared_deep_family": "pie_del_1",
+        "status": "Imported hypothesis grouping; independent claim-scoped source check pending",
+        "count_as_independent_confirmation": false
+      }
+    ],
+    "existing_protocol_hypothesis": [
+      "UNI-L-LIGHT-CLUSTER-001: Untested"
+    ],
+    "literary_cultural_layer": [],
+    "evidence_status": "Intake only; no new evidence verification or promotion",
+    "research_status": "Unscheduled intake; owner review pending",
+    "historical_relation": "Not claimed",
+    "provenance": [
+      {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/hypotheses/l-light-semantic-cluster.v0.1.json",
+        "json_pointer": "/negative_controls/4",
+        "file_sha256": "8805a5791307ef86daf7c2c9c08c6362b8dd3dfc5c244af9f5e632551cb95ef6",
+        "origin_type": "repository experimental motivation/control"
+      }
+    ],
+    "legacy_candidate_ids": [],
+    "existing_host_entries": [],
+    "primary_pipeline": "Pipeline 1 — Lexical–Diachronic",
+    "priority_band": "Archive / Later",
+    "priority_dimensions": {
+      "Research Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Evidence Availability": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Protocol Relevance": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Candidate Novelty": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Counterexample Value": {
+        "rating": "Unknown",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Product / Mapper Value": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      },
+      "Research Risk": {
+        "rating": "Medium",
+        "rationale": "Provisional ordinal triage from recorded identity/source pointers and route; not a measured linguistic assessment. Composite identities carry higher review risk."
+      }
+    },
+    "priority_reason": "Bounded first batch; retained without rejection or promotion."
+  }
+]

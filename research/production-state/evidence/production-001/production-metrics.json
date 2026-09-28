@@ -1,0 +1,81 @@
+{
+  "candidates_processed": 8,
+  "ready_for_freeze": 4,
+  "featured_pending_primary_status": 1,
+  "targeted_verification_needed": 2,
+  "archived": 1,
+  "featured_pending_field_total": 6,
+  "serious_candidate_records_considered": 20,
+  "retained_scoped_candidate_records": 18,
+  "average_serious_candidates_per_entry": 2.5,
+  "controls": 17,
+  "counterexamples": 16,
+  "expansion_added": 6,
+  "expansion_retained": 4,
+  "expansion_not_selected": 1,
+  "expansion_semantic_mismatch_rejected": 1,
+  "expansion_evidence_failure": 0,
+  "old_author_observations_newly_downgraded": 0,
+  "old_author_observation_restriction_reaffirmed": [
+    "gan: identity/reading ambiguity; prior raw/rejected status not counted again"
+  ],
+  "imported_editorial_glosses_scope_corrected": [
+    "containment: 容纳/包含 is not the general restraint sense"
+  ],
+  "useful_new_to_selected_record_forms": [
+    {
+      "source": "time",
+      "forms": [
+        "期",
+        "段"
+      ]
+    },
+    {
+      "source": "containment",
+      "forms": [
+        "遏"
+      ]
+    },
+    {
+      "source": "move",
+      "forms": [
+        "搬"
+      ]
+    },
+    {
+      "source": "change",
+      "forms": [
+        "易",
+        "换"
+      ]
+    },
+    {
+      "source": "boundary",
+      "forms": [
+        "畔"
+      ]
+    },
+    {
+      "source": "path",
+      "forms": [
+        "途"
+      ]
+    },
+    {
+      "source": "luminous",
+      "forms": [
+        "亮",
+        "明",
+        "朗"
+      ]
+    },
+    {
+      "source": "gan",
+      "forms": []
+    }
+  ],
+  "novelty_definition": "New relative only to selected inventory proposed_chinese_mapping strings; NOT globally new to author/project and not independent rediscovery.",
+  "causal_limit": "Manual bounded production pass; baseline/expansion labels are generation categories, not preregistered experimental arms. Retention is scope-specific research retention, NOT Featured acceptance or precision improvement.",
+  "next_batch_recommendation": "Keep 8; do not expand to 10–15 before editorial review of two targeted cases and external-source/identity intake.",
+  "new_useful_candidates_discovered_local": 11
+}

@@ -1,0 +1,1311 @@
+[
+  {
+    "candidate_id": "RQ-041cc56344db",
+    "source_form": "abhorrent",
+    "origin": "unknown",
+    "records": [
+      {
+        "location": {
+          "source_location": "data/language-book.v1.0.json#/entries/21/related_words/3",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "word": "abhorrent",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin horrēre",
+          "relation_to_entry": {
+            "en": "Latin abhorrent-/abhorrens, participle of abhorrēre",
+            "zh-Hans": "Latin abhorrent-/abhorrens, participle of abhorrēre；历史词族关联，不是独立跨语言样本。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "ABHOR-MW-ABHORRENT"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "candidate_id": "RQ-da2ec7508828",
+    "source_form": "outside",
+    "origin": "unknown",
+    "records": [
+      {
+        "location": {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/12",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-outside-001",
+          "source_word": "outside",
+          "normalized_form": "outside",
+          "lexical_meaning": {
+            "en": "Beyond or not within a boundary.",
+            "zh-Hans": "位于边界之外或不在内部。"
+          },
+          "candidate_mapping": "外面／外部 · extérieur／dehors",
+          "source_provenance": "protocol/protocol.space.html#containment",
+          "blockers": [
+            "part-of-speech review",
+            "external lexical citations"
+          ],
+          "review_status": "candidate"
+        }
+      },
+      {
+        "location": {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/12",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-outside-001",
+          "source_word": "outside",
+          "normalized_form": "outside",
+          "baseline_record": {
+            "lexical_meaning": {
+              "en": "Beyond or not within a boundary.",
+              "zh-Hans": "位于边界之外或不在内部。"
+            },
+            "candidate_mapping": "外面／外部 · extérieur／dehors",
+            "source_provenance": "protocol/protocol.space.html#containment",
+            "blockers": [
+              "part-of-speech review",
+              "external lexical citations"
+            ]
+          },
+          "scoped_analysis": {
+            "part_of_speech": "preposition/adverb/noun/adjective",
+            "selected_sense": "beyond or not within a boundary",
+            "reviewed_candidate_mapping": "外面／外部 · à l’extérieur／dehors／extérieur",
+            "mapping_type": "lexical-equivalent-candidate",
+            "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+          },
+          "source_verification": [
+            {
+              "verification_id": "CAND-en-outside-001-SRC-PROJECT",
+              "source_type": "project-primary-source",
+              "title": "Unilanguage project source: protocol/protocol.space.html",
+              "locator": "protocol/protocol.space.html#containment",
+              "url": "protocol/protocol.space.html",
+              "specific_location": "containment",
+              "accessed_at": "2026-08-30",
+              "version_info": "Package E baseline commit 1a06dfd",
+              "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+              "supports": [
+                "candidate inclusion in this fixed 19-record review queue",
+                "project-internal semantic context"
+              ],
+              "does_not_support": [
+                "external lexical equivalence",
+                "shared etymology",
+                "phonetic correspondence",
+                "publication readiness"
+              ]
+            },
+            {
+              "verification_id": "CAND-en-outside-001-SRC-CAM-ZH",
+              "source_type": "authoritative-bilingual-dictionary",
+              "title": "Cambridge Dictionary: outside — English–Mandarin Chinese",
+              "locator": "headword “outside”; reviewer-selected sense: beyond or not within a boundary",
+              "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/outside",
+              "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+              "accessed_at": "2026-08-30",
+              "version_info": "live web edition; no stable release number displayed",
+              "verifiable_content": "The page permits verification of the preposition/adverb/noun/adjective headword, sense boundaries, and candidate Mandarin Chinese rendering “外面／外部”.",
+              "supports": [
+                "ordinary lexical comparison for the selected sense",
+                "Mandarin Chinese candidate form(s): 外面／外部"
+              ],
+              "does_not_support": [
+                "The page does not establish unrestricted equivalence across every sense of “outside”.",
+                "common origin, borrowing, or regular sound correspondence",
+                "the Unilanguage protocol mapping level"
+              ]
+            },
+            {
+              "verification_id": "CAND-en-outside-001-SRC-CAM-FR",
+              "source_type": "authoritative-bilingual-dictionary",
+              "title": "Cambridge Dictionary: outside — English–French",
+              "locator": "headword “outside”; reviewer-selected sense: beyond or not within a boundary",
+              "url": "https://dictionary.cambridge.org/dictionary/english-french/outside",
+              "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+              "accessed_at": "2026-08-30",
+              "version_info": "live web edition; no stable release number displayed",
+              "verifiable_content": "The page permits verification of the preposition/adverb/noun/adjective headword, sense boundaries, and candidate French rendering “à l’extérieur／dehors／extérieur”.",
+              "supports": [
+                "ordinary lexical comparison for the selected sense",
+                "French candidate form(s): à l’extérieur／dehors／extérieur"
+              ],
+              "does_not_support": [
+                "The page does not establish unrestricted equivalence across every sense of “outside”.",
+                "common origin, borrowing, or regular sound correspondence",
+                "the Unilanguage protocol mapping level"
+              ]
+            }
+          ],
+          "evidence_tracks": {
+            "linguistic_etymological": {
+              "status": "partial",
+              "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+              "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+            },
+            "phonetic": {
+              "status": "not_assessed",
+              "supports": "No phonetic evidence is used for this candidate.",
+              "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+            },
+            "semantic_cognitive": {
+              "status": "partial",
+              "supports": "The project source places the concept in an internal semantic framework.",
+              "limits": "Project framework text is not independent empirical cognitive evidence."
+            },
+            "speculative_association": {
+              "status": "not_supported",
+              "supports": "No speculative association is required for the ordinary lexical comparison.",
+              "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+            }
+          },
+          "provisional_assessment": {
+            "review_status": "needs_evidence",
+            "confidence": "medium",
+            "mapping_level": "B",
+            "level_is_provisional": true,
+            "reason": "The proposed forms differ by part of speech and syntactic environment.",
+            "publication_status": "not_published",
+            "automatic_publication_allowed": false
+          },
+          "counterexamples_uncertainties_conflicts": [
+            "The proposed forms differ by part of speech and syntactic environment.",
+            "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+            "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+          ],
+          "human_review": {
+            "reviewer": null,
+            "reviewed_at": null,
+            "decision": null,
+            "rationale": null,
+            "checklist": [
+              {
+                "item": "Confirm all three source locators open and match the recorded headword/sense.",
+                "complete": false
+              },
+              {
+                "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+                "complete": false
+              },
+              {
+                "item": "Confirm Chinese and French forms with context-sensitive examples.",
+                "complete": false
+              },
+              {
+                "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+                "complete": false
+              },
+              {
+                "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+                "complete": false
+              },
+              {
+                "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+                "complete": false
+              }
+            ],
+            "allowed_decisions": [
+              "reviewed",
+              "rejected",
+              "needs_evidence"
+            ],
+            "publish_requires_separate_gate": true
+          }
+        }
+      },
+      {
+        "location": {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/12",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-outside-001",
+          "source_word": "outside",
+          "normalized_form": "outside",
+          "package_f_source": {
+            "package": "Package F — Candidate Source Verification + Human Review",
+            "package_version": "0.1.0",
+            "intake_status": "needs_evidence",
+            "provisional_reason": "The proposed forms differ by part of speech and syntactic environment.",
+            "source_verification_count": 3,
+            "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-outside-001"
+          },
+          "evidence_completeness": {
+            "status": "blocked_evidence_gap",
+            "checks": [
+              {
+                "check_id": "fixed_candidate_identity",
+                "label": "Candidate ID and source word match the fixed Package E/F queue.",
+                "complete": true,
+                "basis": "CAND-en-outside-001"
+              },
+              {
+                "check_id": "traceable_source_packet",
+                "label": "At least three source verifications include locators, limits, access dates, and version details.",
+                "complete": true,
+                "basis": "3 source verifications"
+              },
+              {
+                "check_id": "four_evidence_tracks",
+                "label": "The four evidence tracks are present and separately labeled.",
+                "complete": true,
+                "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+              },
+              {
+                "check_id": "counterevidence_retained",
+                "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+                "complete": true,
+                "basis": "3 retained statements"
+              },
+              {
+                "check_id": "sense_and_part_of_speech_resolved",
+                "label": "The sense and part of speech have no unresolved Package F blocker.",
+                "complete": false,
+                "basis": "The proposed forms differ by part of speech and syntactic environment."
+              },
+              {
+                "check_id": "signed_human_confirmation",
+                "label": "A named human reviewer completed and signed all review checks.",
+                "complete": false,
+                "basis": "No human reviewer or signature is recorded."
+              }
+            ],
+            "missing_required_checks": [
+              "sense_and_part_of_speech_resolved",
+              "signed_human_confirmation"
+            ],
+            "reviewed_eligible": false,
+            "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+          },
+          "decision_record": {
+            "decision_id": "DEC-CAND-en-outside-001-001",
+            "status": "pending",
+            "status_reason": "Package F records an unresolved evidence gap: The proposed forms differ by part of speech and syntactic environment. This is an inherited preparation status, not a signed human decision.",
+            "reason_codes": [
+              "package_f_evidence_gap_unresolved"
+            ],
+            "rationale": null,
+            "remediation_required": [
+              "The proposed forms differ by part of speech and syntactic environment.",
+              "part-of-speech review",
+              "external lexical citations"
+            ],
+            "reviewer": null,
+            "decided_at": null,
+            "evidence_standard": "Package G reviewed-evidence standard v0.1",
+            "checklist": [
+              {
+                "check_id": "source_availability_confirmed",
+                "label": "Confirm every required source locator is available and matches the recorded sense.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "sense_and_part_of_speech_confirmed",
+                "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "bilingual_context_confirmed",
+                "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "counterevidence_reviewed",
+                "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "evidence_tracks_confirmed",
+                "label": "Confirm all four evidence-track labels and their stated limitations.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "claim_boundary_confirmed",
+                "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+                "complete": false,
+                "evidence_reference": null
+              }
+            ]
+          },
+          "publication_gate": {
+            "eligibility_status": "not_eligible",
+            "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+            "checklist": [
+              {
+                "check_id": "signed_reviewed_decision",
+                "label": "A named human reviewer signed a Reviewed decision.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "reviewed_gate_passed",
+                "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "canonical_record_prepared",
+                "label": "A normalized canonical record and provenance references were prepared.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "canonical_validation_passed",
+                "label": "Canonical schema, dataset, and regression validation passed.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "release_audit_linked",
+                "label": "The release change is linked to the review decision and audit history.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "explicit_publication_approval",
+                "label": "A named human publisher explicitly approved publication.",
+                "complete": false,
+                "evidence_reference": null
+              }
+            ],
+            "approval": {
+              "publisher": null,
+              "approved_at": null,
+              "rationale": null,
+              "release_commit": null
+            },
+            "publication_status": "not_published",
+            "automatic_promotion_allowed": false
+          },
+          "audit_log": [
+            {
+              "event_id": "AUD-CAND-en-outside-001-001",
+              "occurred_at": "2026-08-30",
+              "event_type": "decision_gate_initialized",
+              "actor": {
+                "actor_type": "system",
+                "actor_id": "package-g-builder"
+              },
+              "from_state": {
+                "intake_status": "needs_evidence",
+                "decision_status": null,
+                "publication_status": "not_published"
+              },
+              "to_state": {
+                "intake_status": "needs_evidence",
+                "decision_status": "pending",
+                "publication_status": "not_published"
+              },
+              "reason_code": "package_f_evidence_gap_unresolved",
+              "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+              "source_references": [
+                "data/candidates/package-f-review-queue.v0.1.json#CAND-en-outside-001"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "candidate_id": "RQ-3978979a16e0",
+    "source_form": "abhorrence",
+    "origin": "unknown",
+    "records": [
+      {
+        "location": {
+          "source_location": "data/language-book.v1.0.json#/entries/21/related_words/4",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "word": "abhorrence",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin horrēre",
+          "relation_to_entry": {
+            "en": "English abhor noun family; standard spelling",
+            "zh-Hans": "English abhor noun family; standard spelling；历史词族关联，不是独立跨语言样本。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "ABHOR-MW-ABHORRENCE"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "candidate_id": "RQ-915ffd347135",
+    "source_form": "source",
+    "origin": "unknown",
+    "records": [
+      {
+        "location": {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/13",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-source-001",
+          "source_word": "source",
+          "normalized_form": "source",
+          "lexical_meaning": {
+            "en": "A point or entity from which something begins or comes.",
+            "zh-Hans": "某事物开始或来源的点或实体。"
+          },
+          "candidate_mapping": "来源／源头 · source",
+          "source_provenance": "protocol/protocol.space.html#movement",
+          "blockers": [
+            "literal/metaphorical sense separation",
+            "external lexical citations"
+          ],
+          "review_status": "candidate"
+        }
+      },
+      {
+        "location": {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/13",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-source-001",
+          "source_word": "source",
+          "normalized_form": "source",
+          "baseline_record": {
+            "lexical_meaning": {
+              "en": "A point or entity from which something begins or comes.",
+              "zh-Hans": "某事物开始或来源的点或实体。"
+            },
+            "candidate_mapping": "来源／源头 · source",
+            "source_provenance": "protocol/protocol.space.html#movement",
+            "blockers": [
+              "literal/metaphorical sense separation",
+              "external lexical citations"
+            ]
+          },
+          "scoped_analysis": {
+            "part_of_speech": "noun",
+            "selected_sense": "a place, person, or thing from which something originates",
+            "reviewed_candidate_mapping": "来源／源头 · source",
+            "mapping_type": "lexical-equivalent-candidate",
+            "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+          },
+          "source_verification": [
+            {
+              "verification_id": "CAND-en-source-001-SRC-PROJECT",
+              "source_type": "project-primary-source",
+              "title": "Unilanguage project source: protocol/protocol.space.html",
+              "locator": "protocol/protocol.space.html#movement",
+              "url": "protocol/protocol.space.html",
+              "specific_location": "movement",
+              "accessed_at": "2026-08-30",
+              "version_info": "Package E baseline commit 1a06dfd",
+              "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+              "supports": [
+                "candidate inclusion in this fixed 19-record review queue",
+                "project-internal semantic context"
+              ],
+              "does_not_support": [
+                "external lexical equivalence",
+                "shared etymology",
+                "phonetic correspondence",
+                "publication readiness"
+              ]
+            },
+            {
+              "verification_id": "CAND-en-source-001-SRC-CAM-ZH",
+              "source_type": "authoritative-bilingual-dictionary",
+              "title": "Cambridge Dictionary: source — English–Mandarin Chinese",
+              "locator": "headword “source”; reviewer-selected sense: a place, person, or thing from which something originates",
+              "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/source",
+              "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+              "accessed_at": "2026-08-30",
+              "version_info": "live web edition; no stable release number displayed",
+              "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “来源／源头”.",
+              "supports": [
+                "ordinary lexical comparison for the selected sense",
+                "Mandarin Chinese candidate form(s): 来源／源头"
+              ],
+              "does_not_support": [
+                "The page does not establish unrestricted equivalence across every sense of “source”.",
+                "common origin, borrowing, or regular sound correspondence",
+                "the Unilanguage protocol mapping level"
+              ]
+            },
+            {
+              "verification_id": "CAND-en-source-001-SRC-CAM-FR",
+              "source_type": "authoritative-bilingual-dictionary",
+              "title": "Cambridge Dictionary: source — English–French",
+              "locator": "headword “source”; reviewer-selected sense: a place, person, or thing from which something originates",
+              "url": "https://dictionary.cambridge.org/dictionary/english-french/source",
+              "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+              "accessed_at": "2026-08-30",
+              "version_info": "live web edition; no stable release number displayed",
+              "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “source”.",
+              "supports": [
+                "ordinary lexical comparison for the selected sense",
+                "French candidate form(s): source"
+              ],
+              "does_not_support": [
+                "The page does not establish unrestricted equivalence across every sense of “source”.",
+                "common origin, borrowing, or regular sound correspondence",
+                "the Unilanguage protocol mapping level"
+              ]
+            }
+          ],
+          "evidence_tracks": {
+            "linguistic_etymological": {
+              "status": "supported",
+              "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+              "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+            },
+            "phonetic": {
+              "status": "not_assessed",
+              "supports": "No phonetic evidence is used for this candidate.",
+              "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+            },
+            "semantic_cognitive": {
+              "status": "partial",
+              "supports": "The project source places the concept in an internal semantic framework.",
+              "limits": "Project framework text is not independent empirical cognitive evidence."
+            },
+            "speculative_association": {
+              "status": "not_supported",
+              "supports": "No speculative association is required for the ordinary lexical comparison.",
+              "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+            }
+          },
+          "provisional_assessment": {
+            "review_status": "candidate",
+            "confidence": "medium",
+            "mapping_level": "B",
+            "level_is_provisional": true,
+            "reason": "Literal origin and informational-source senses are related but not interchangeable in every context.",
+            "publication_status": "not_published",
+            "automatic_publication_allowed": false
+          },
+          "counterexamples_uncertainties_conflicts": [
+            "Literal origin and informational-source senses are related but not interchangeable in every context.",
+            "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+            "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+          ],
+          "human_review": {
+            "reviewer": null,
+            "reviewed_at": null,
+            "decision": null,
+            "rationale": null,
+            "checklist": [
+              {
+                "item": "Confirm all three source locators open and match the recorded headword/sense.",
+                "complete": false
+              },
+              {
+                "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+                "complete": false
+              },
+              {
+                "item": "Confirm Chinese and French forms with context-sensitive examples.",
+                "complete": false
+              },
+              {
+                "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+                "complete": false
+              },
+              {
+                "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+                "complete": false
+              },
+              {
+                "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+                "complete": false
+              }
+            ],
+            "allowed_decisions": [
+              "reviewed",
+              "rejected",
+              "needs_evidence"
+            ],
+            "publish_requires_separate_gate": true
+          }
+        }
+      },
+      {
+        "location": {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/13",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-source-001",
+          "source_word": "source",
+          "normalized_form": "source",
+          "package_f_source": {
+            "package": "Package F — Candidate Source Verification + Human Review",
+            "package_version": "0.1.0",
+            "intake_status": "candidate",
+            "provisional_reason": "Literal origin and informational-source senses are related but not interchangeable in every context.",
+            "source_verification_count": 3,
+            "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-source-001"
+          },
+          "evidence_completeness": {
+            "status": "awaiting_human_confirmation",
+            "checks": [
+              {
+                "check_id": "fixed_candidate_identity",
+                "label": "Candidate ID and source word match the fixed Package E/F queue.",
+                "complete": true,
+                "basis": "CAND-en-source-001"
+              },
+              {
+                "check_id": "traceable_source_packet",
+                "label": "At least three source verifications include locators, limits, access dates, and version details.",
+                "complete": true,
+                "basis": "3 source verifications"
+              },
+              {
+                "check_id": "four_evidence_tracks",
+                "label": "The four evidence tracks are present and separately labeled.",
+                "complete": true,
+                "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+              },
+              {
+                "check_id": "counterevidence_retained",
+                "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+                "complete": true,
+                "basis": "3 retained statements"
+              },
+              {
+                "check_id": "sense_and_part_of_speech_resolved",
+                "label": "The sense and part of speech have no unresolved Package F blocker.",
+                "complete": true,
+                "basis": "Package F marks the source packet Candidate-ready for human review."
+              },
+              {
+                "check_id": "signed_human_confirmation",
+                "label": "A named human reviewer completed and signed all review checks.",
+                "complete": false,
+                "basis": "No human reviewer or signature is recorded."
+              }
+            ],
+            "missing_required_checks": [
+              "signed_human_confirmation"
+            ],
+            "reviewed_eligible": false,
+            "eligibility_reason": "The source packet is prepared, but the unsigned human checklist blocks Reviewed."
+          },
+          "decision_record": {
+            "decision_id": "DEC-CAND-en-source-001-001",
+            "status": "pending",
+            "status_reason": "The Package F source packet is prepared, but no named human reviewer has signed a decision or completed the evidence-standard checklist.",
+            "reason_codes": [
+              "awaiting_human_review"
+            ],
+            "rationale": null,
+            "remediation_required": [],
+            "reviewer": null,
+            "decided_at": null,
+            "evidence_standard": "Package G reviewed-evidence standard v0.1",
+            "checklist": [
+              {
+                "check_id": "source_availability_confirmed",
+                "label": "Confirm every required source locator is available and matches the recorded sense.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "sense_and_part_of_speech_confirmed",
+                "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "bilingual_context_confirmed",
+                "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "counterevidence_reviewed",
+                "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "evidence_tracks_confirmed",
+                "label": "Confirm all four evidence-track labels and their stated limitations.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "claim_boundary_confirmed",
+                "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+                "complete": false,
+                "evidence_reference": null
+              }
+            ]
+          },
+          "publication_gate": {
+            "eligibility_status": "not_eligible",
+            "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+            "checklist": [
+              {
+                "check_id": "signed_reviewed_decision",
+                "label": "A named human reviewer signed a Reviewed decision.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "reviewed_gate_passed",
+                "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "canonical_record_prepared",
+                "label": "A normalized canonical record and provenance references were prepared.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "canonical_validation_passed",
+                "label": "Canonical schema, dataset, and regression validation passed.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "release_audit_linked",
+                "label": "The release change is linked to the review decision and audit history.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "explicit_publication_approval",
+                "label": "A named human publisher explicitly approved publication.",
+                "complete": false,
+                "evidence_reference": null
+              }
+            ],
+            "approval": {
+              "publisher": null,
+              "approved_at": null,
+              "rationale": null,
+              "release_commit": null
+            },
+            "publication_status": "not_published",
+            "automatic_promotion_allowed": false
+          },
+          "audit_log": [
+            {
+              "event_id": "AUD-CAND-en-source-001-001",
+              "occurred_at": "2026-08-30",
+              "event_type": "decision_gate_initialized",
+              "actor": {
+                "actor_type": "system",
+                "actor_id": "package-g-builder"
+              },
+              "from_state": {
+                "intake_status": "candidate",
+                "decision_status": null,
+                "publication_status": "not_published"
+              },
+              "to_state": {
+                "intake_status": "candidate",
+                "decision_status": "pending",
+                "publication_status": "not_published"
+              },
+              "reason_code": "awaiting_human_review",
+              "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+              "source_references": [
+                "data/candidates/package-f-review-queue.v0.1.json#CAND-en-source-001"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "candidate_id": "RQ-da051df304a5",
+    "source_form": "abundance",
+    "origin": "unknown",
+    "records": [
+      {
+        "location": {
+          "source_location": "data/language-book.v1.0.json#/entries/22/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "word": "abundance",
+          "language": "English",
+          "relationship_type": "historical derivative",
+          "family": "Latin abundare/abundantia",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABOUND"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "candidate_id": "RQ-7bd33d4b300d",
+    "source_form": "goal",
+    "origin": "unknown",
+    "records": [
+      {
+        "location": {
+          "source_location": "data/candidates/package-e-batch-001.v0.2.json#/records/15",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-goal-001",
+          "source_word": "goal",
+          "normalized_form": "goal",
+          "lexical_meaning": {
+            "en": "A destination or intended result of movement or action.",
+            "zh-Hans": "移动或行动的目的地或预期结果。"
+          },
+          "candidate_mapping": "目标／目的 · but／objectif",
+          "source_provenance": "protocol/protocol.space.html#movement",
+          "blockers": [
+            "destination/objective sense separation",
+            "external lexical citations"
+          ],
+          "review_status": "candidate"
+        }
+      },
+      {
+        "location": {
+          "source_location": "data/candidates/package-f-review-queue.v0.1.json#/records/15",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-goal-001",
+          "source_word": "goal",
+          "normalized_form": "goal",
+          "baseline_record": {
+            "lexical_meaning": {
+              "en": "A destination or intended result of movement or action.",
+              "zh-Hans": "移动或行动的目的地或预期结果。"
+            },
+            "candidate_mapping": "目标／目的 · but／objectif",
+            "source_provenance": "protocol/protocol.space.html#movement",
+            "blockers": [
+              "destination/objective sense separation",
+              "external lexical citations"
+            ]
+          },
+          "scoped_analysis": {
+            "part_of_speech": "noun",
+            "selected_sense": "an intended result or a destination in a movement schema",
+            "reviewed_candidate_mapping": "目标／目的 · but／objectif",
+            "mapping_type": "lexical-equivalent-candidate",
+            "claim_boundary": "A cross-language lexical candidate for the selected sense only; not evidence of shared etymology or universal semantic identity."
+          },
+          "source_verification": [
+            {
+              "verification_id": "CAND-en-goal-001-SRC-PROJECT",
+              "source_type": "project-primary-source",
+              "title": "Unilanguage project source: protocol/protocol.space.html",
+              "locator": "protocol/protocol.space.html#movement",
+              "url": "protocol/protocol.space.html",
+              "specific_location": "movement",
+              "accessed_at": "2026-08-30",
+              "version_info": "Package E baseline commit 1a06dfd",
+              "verifiable_content": "The project source contains the concept or protocol role from which Package E extracted this candidate.",
+              "supports": [
+                "candidate inclusion in this fixed 19-record review queue",
+                "project-internal semantic context"
+              ],
+              "does_not_support": [
+                "external lexical equivalence",
+                "shared etymology",
+                "phonetic correspondence",
+                "publication readiness"
+              ]
+            },
+            {
+              "verification_id": "CAND-en-goal-001-SRC-CAM-ZH",
+              "source_type": "authoritative-bilingual-dictionary",
+              "title": "Cambridge Dictionary: goal — English–Mandarin Chinese",
+              "locator": "headword “goal”; reviewer-selected sense: an intended result or a destination in a movement schema",
+              "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/goal",
+              "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+              "accessed_at": "2026-08-30",
+              "version_info": "live web edition; no stable release number displayed",
+              "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate Mandarin Chinese rendering “目标／目的”.",
+              "supports": [
+                "ordinary lexical comparison for the selected sense",
+                "Mandarin Chinese candidate form(s): 目标／目的"
+              ],
+              "does_not_support": [
+                "The page does not establish unrestricted equivalence across every sense of “goal”.",
+                "common origin, borrowing, or regular sound correspondence",
+                "the Unilanguage protocol mapping level"
+              ]
+            },
+            {
+              "verification_id": "CAND-en-goal-001-SRC-CAM-FR",
+              "source_type": "authoritative-bilingual-dictionary",
+              "title": "Cambridge Dictionary: goal — English–French",
+              "locator": "headword “goal”; reviewer-selected sense: an intended result or a destination in a movement schema",
+              "url": "https://dictionary.cambridge.org/dictionary/english-french/goal",
+              "specific_location": "headword, part-of-speech label, sense divisions, translations, and examples",
+              "accessed_at": "2026-08-30",
+              "version_info": "live web edition; no stable release number displayed",
+              "verifiable_content": "The page permits verification of the noun headword, sense boundaries, and candidate French rendering “but／objectif”.",
+              "supports": [
+                "ordinary lexical comparison for the selected sense",
+                "French candidate form(s): but／objectif"
+              ],
+              "does_not_support": [
+                "The page does not establish unrestricted equivalence across every sense of “goal”.",
+                "common origin, borrowing, or regular sound correspondence",
+                "the Unilanguage protocol mapping level"
+              ]
+            }
+          ],
+          "evidence_tracks": {
+            "linguistic_etymological": {
+              "status": "partial",
+              "supports": "Bilingual dictionary evidence supports at least part of the selected lexical comparison.",
+              "limits": "Lexical equivalence is not cognacy. No historical transmission chain or comparative-etymological evidence was found or claimed."
+            },
+            "phonetic": {
+              "status": "not_assessed",
+              "supports": "No phonetic evidence is used for this candidate.",
+              "limits": "Surface resemblance, if any, must not affect review status without a separately documented phonetic analysis."
+            },
+            "semantic_cognitive": {
+              "status": "partial",
+              "supports": "The project source places the concept in an internal semantic framework.",
+              "limits": "Project framework text is not independent empirical cognitive evidence."
+            },
+            "speculative_association": {
+              "status": "not_supported",
+              "supports": "No speculative association is required for the ordinary lexical comparison.",
+              "limits": "Any broader sound-symbolic, universal, metaphorical, or shared-origin claim remains unsupported."
+            }
+          },
+          "provisional_assessment": {
+            "review_status": "needs_evidence",
+            "confidence": "medium",
+            "mapping_level": "B",
+            "level_is_provisional": true,
+            "reason": "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source.",
+            "publication_status": "not_published",
+            "automatic_publication_allowed": false
+          },
+          "counterexamples_uncertainties_conflicts": [
+            "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source.",
+            "Translations vary by part of speech, collocation, register, and context; the listed forms are not interchangeable in every sentence.",
+            "No cited source supports a common etymology or general phonetic law across English, Chinese, and French."
+          ],
+          "human_review": {
+            "reviewer": null,
+            "reviewed_at": null,
+            "decision": null,
+            "rationale": null,
+            "checklist": [
+              {
+                "item": "Confirm all three source locators open and match the recorded headword/sense.",
+                "complete": false
+              },
+              {
+                "item": "Confirm part of speech and split the record if forms cross grammatical categories.",
+                "complete": false
+              },
+              {
+                "item": "Confirm Chinese and French forms with context-sensitive examples.",
+                "complete": false
+              },
+              {
+                "item": "Review counterexamples, uncertainty, and conflicting evidence without deleting them.",
+                "complete": false
+              },
+              {
+                "item": "Confirm the evidence-track labels and non-cognacy boundary.",
+                "complete": false
+              },
+              {
+                "item": "Record a signed decision: reviewed, rejected, or needs_evidence.",
+                "complete": false
+              }
+            ],
+            "allowed_decisions": [
+              "reviewed",
+              "rejected",
+              "needs_evidence"
+            ],
+            "publish_requires_separate_gate": true
+          }
+        }
+      },
+      {
+        "location": {
+          "source_location": "data/candidates/package-g-decision-register.v0.1.json#/records/15",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "candidate_id": "CAND-en-goal-001",
+          "source_word": "goal",
+          "normalized_form": "goal",
+          "package_f_source": {
+            "package": "Package F — Candidate Source Verification + Human Review",
+            "package_version": "0.1.0",
+            "intake_status": "needs_evidence",
+            "provisional_reason": "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source.",
+            "source_verification_count": 3,
+            "source_record_locator": "data/candidates/package-f-review-queue.v0.1.json#CAND-en-goal-001"
+          },
+          "evidence_completeness": {
+            "status": "blocked_evidence_gap",
+            "checks": [
+              {
+                "check_id": "fixed_candidate_identity",
+                "label": "Candidate ID and source word match the fixed Package E/F queue.",
+                "complete": true,
+                "basis": "CAND-en-goal-001"
+              },
+              {
+                "check_id": "traceable_source_packet",
+                "label": "At least three source verifications include locators, limits, access dates, and version details.",
+                "complete": true,
+                "basis": "3 source verifications"
+              },
+              {
+                "check_id": "four_evidence_tracks",
+                "label": "The four evidence tracks are present and separately labeled.",
+                "complete": true,
+                "basis": "linguistic_etymological, phonetic, semantic_cognitive, speculative_association"
+              },
+              {
+                "check_id": "counterevidence_retained",
+                "label": "Counterexamples, uncertainty, and conflicts remain visible.",
+                "complete": true,
+                "basis": "3 retained statements"
+              },
+              {
+                "check_id": "sense_and_part_of_speech_resolved",
+                "label": "The sense and part of speech have no unresolved Package F blocker.",
+                "complete": false,
+                "basis": "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source."
+              },
+              {
+                "check_id": "signed_human_confirmation",
+                "label": "A named human reviewer completed and signed all review checks.",
+                "complete": false,
+                "basis": "No human reviewer or signature is recorded."
+              }
+            ],
+            "missing_required_checks": [
+              "sense_and_part_of_speech_resolved",
+              "signed_human_confirmation"
+            ],
+            "reviewed_eligible": false,
+            "eligibility_reason": "An inherited Package F evidence gap and the unsigned human checklist block Reviewed."
+          },
+          "decision_record": {
+            "decision_id": "DEC-CAND-en-goal-001-001",
+            "status": "pending",
+            "status_reason": "Package F records an unresolved evidence gap: Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source. This is an inherited preparation status, not a signed human decision.",
+            "reason_codes": [
+              "package_f_evidence_gap_unresolved"
+            ],
+            "rationale": null,
+            "remediation_required": [
+              "Dictionaries support the intended-result sense, but not automatic equivalence with a physical destination. The two senses must be split or explicitly linked by a cognitive source.",
+              "destination/objective sense separation",
+              "external lexical citations"
+            ],
+            "reviewer": null,
+            "decided_at": null,
+            "evidence_standard": "Package G reviewed-evidence standard v0.1",
+            "checklist": [
+              {
+                "check_id": "source_availability_confirmed",
+                "label": "Confirm every required source locator is available and matches the recorded sense.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "sense_and_part_of_speech_confirmed",
+                "label": "Confirm a single reviewable sense and part of speech, or document an explicit split.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "bilingual_context_confirmed",
+                "label": "Confirm the Chinese and French forms with context-sensitive examples.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "counterevidence_reviewed",
+                "label": "Review and retain counterexamples, uncertainty, and conflicting evidence.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "evidence_tracks_confirmed",
+                "label": "Confirm all four evidence-track labels and their stated limitations.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "claim_boundary_confirmed",
+                "label": "Confirm that lexical equivalence is not presented as cognacy or a universal law.",
+                "complete": false,
+                "evidence_reference": null
+              }
+            ]
+          },
+          "publication_gate": {
+            "eligibility_status": "not_eligible",
+            "eligibility_reason": "A signed Reviewed decision, completed release checklist, and explicit publication approval are absent.",
+            "checklist": [
+              {
+                "check_id": "signed_reviewed_decision",
+                "label": "A named human reviewer signed a Reviewed decision.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "reviewed_gate_passed",
+                "label": "Every Reviewed evidence-standard check passed without an unresolved blocker.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "canonical_record_prepared",
+                "label": "A normalized canonical record and provenance references were prepared.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "canonical_validation_passed",
+                "label": "Canonical schema, dataset, and regression validation passed.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "release_audit_linked",
+                "label": "The release change is linked to the review decision and audit history.",
+                "complete": false,
+                "evidence_reference": null
+              },
+              {
+                "check_id": "explicit_publication_approval",
+                "label": "A named human publisher explicitly approved publication.",
+                "complete": false,
+                "evidence_reference": null
+              }
+            ],
+            "approval": {
+              "publisher": null,
+              "approved_at": null,
+              "rationale": null,
+              "release_commit": null
+            },
+            "publication_status": "not_published",
+            "automatic_promotion_allowed": false
+          },
+          "audit_log": [
+            {
+              "event_id": "AUD-CAND-en-goal-001-001",
+              "occurred_at": "2026-08-30",
+              "event_type": "decision_gate_initialized",
+              "actor": {
+                "actor_type": "system",
+                "actor_id": "package-g-builder"
+              },
+              "from_state": {
+                "intake_status": "needs_evidence",
+                "decision_status": null,
+                "publication_status": "not_published"
+              },
+              "to_state": {
+                "intake_status": "needs_evidence",
+                "decision_status": "pending",
+                "publication_status": "not_published"
+              },
+              "reason_code": "package_f_evidence_gap_unresolved",
+              "rationale": "Initialized governance fields without making, signing, or publishing a human decision.",
+              "source_references": [
+                "data/candidates/package-f-review-queue.v0.1.json#CAND-en-goal-001"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "candidate_id": "RQ-7d4d73843bb4",
+    "source_form": "absolve",
+    "origin": "unknown",
+    "records": [
+      {
+        "location": {
+          "source_location": "data/language-book.v1.0.json#/entries/25/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "word": "absolve",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin absolvere",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ABSOLUTE"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "candidate_id": "RQ-ef7527e20941",
+    "source_form": "acuity",
+    "origin": "unknown",
+    "records": [
+      {
+        "location": {
+          "source_location": "data/language-book.v1.0.json#/entries/26/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c"
+        },
+        "original_record": {
+          "word": "acuity",
+          "language": "English",
+          "relationship_type": "historical relative",
+          "family": "Latin acuere/acuitas",
+          "relation_to_entry": {
+            "en": "Documented relation in the stated historical family.",
+            "zh-Hans": "在所列历史词族内有文献支持的关系。"
+          },
+          "status": "Established",
+          "source_refs": [
+            "REF-MW-ACUMEN"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "assembled_at": "2026-09-28T02:43:24.285Z",
+  "legacy_corpus": {
+    "version": "1.0",
+    "path": "data/language-book.v1.0.json",
+    "count": 42
+  },
+  "active_candidate_corpus": {
+    "version": "0.1",
+    "path": "data/candidates/production-corpus.v0.1.json",
+    "count": 20,
+    "status": "candidate; not Reviewed/Published"
+  },
+  "archive_count": 2,
+  "control_count": 2,
+  "observation_registry": {
+    "version": "0.1",
+    "count": 66,
+    "origins": {
+      "unknown": 52,
+      "ai_discovery": 14
+    }
+  },
+  "scheduler_version": "0.1",
+  "last_accepted_batch": "Production 004",
+  "pending_freeze_batches": [
+    {
+      "batch_id": "production-003",
+      "status": "awaiting_jinkai_review",
+      "count": 8,
+      "proposal_path": "research/production-state/pending/production-003/research-records.json"
+    },
+    {
+      "batch_id": "production-005",
+      "status": "awaiting_jinkai_review",
+      "count": 8,
+      "proposal_path": "research/production-state/pending/production-005/research-report.json"
+    }
+  ],
+  "eligible_queue_count": 6,
+  "provenance_review_queue_count": 19,
+  "benchmark_status": "Designed / Frozen / Execution Pending Isolated Evaluator",
+  "benchmark_reservations": 42,
+  "holdout_status": "No populated future holdout registered in supplied state; private custodian must update opaque exclusions before new intake",
+  "registered_holdout_ids": 0,
+  "private_assets_manifest": "research/production-state/external-assets.v1.json",
+  "latest_production_commit": {
+    "mode": "resolve from Git history, avoiding self-referential commit hash",
+    "command": "git log -1 --format=%H -- research/production-state/manifest.v1.json",
+    "previous_production_commit": "02f85acd14aeff8ef8da2d2714afcd3f078ae690"
+  },
+  "validator_versions": {
+    "validate-schema.mjs": {
+      "sha256": "486121f715a21281c61da99bde38bf7f91e5d3a80b9ff05b9197891d6b6d5eb4"
+    },
+    "validate-language-book-v1.mjs": {
+      "sha256": "688974d3e5f5c452864efd8046408f55c6a9c283883f373e07da40c14738701b"
+    },
+    "validate-production-candidates.mjs": {
+      "sha256": "a9519973fd38c4367a1f7f5d8af97602964c57076090c60e79195fa79575e7ad"
+    },
+    "validate-observation-registry.mjs": {
+      "sha256": "23183a197e6a044c0d11b6e1d29d88437349307e0b21832d5c7a3a16af094cbc"
+    },
+    "validate-queue-scheduler.mjs": {
+      "sha256": "064ace0dd404e7d3bceee2409ba69257bf8e1511a9c7c73c59720ad02f79cdb9"
+    },
+    "validate-production-004.mjs": {
+      "sha256": "acc735dcb8c98d57a816973649b8c6a4a4d9fd1f25cc6fbaadd65efdac523239"
+    },
+    "production-state.mjs": {
+      "sha256": "2d83ed305c981b5541c029b85505401d651f2cdeafb6ea14fa24a30c4c0bc889"
+    }
+  },
+  "input_hashes": [
+    {
+      "file": "research/production-state/queue-seed.v1.json",
+      "sha256": "a71ef8432bb6448d8b59daf8d0f59f740fd8c587d5323b3fcb267c879c7842d4",
+      "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "research/production-state/reservations.v1.json",
+      "sha256": "81f6edef6fe329a9772f2183ae1c0db6d5b67ccb5396eb844cd9cdfe38d6ec39",
+      "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "research/production-state/pending-batches.v1.json",
+      "sha256": "dbe3798d416e110cbbc8b0924f66a3193537a9130a9a602d88b29926666dd124",
+      "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "data/language-book.v1.0.json",
+      "sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+      "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "data/candidates/production-corpus.v0.1.json",
+      "sha256": "154973d377dede9a20f5725db672922336cf826594479823a8774be8b6628a92",
+      "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "data/candidates/production-archive.v0.1.json",
+      "sha256": "206da661ba7b4757434febccdcb15876376c151509f8c91acda8dbb838886c78",
+      "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "research/controls/production-004.v0.1.json",
+      "sha256": "899e69a55a72ae1402e99687d2407b9ce567c15880143552de3f855e69e350bd",
+      "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "research/observations/registry.v0.1.json",
+      "sha256": "1d47a59acf637425e6dcfaf472f551f2578b0131b5866007f1c9622ff6ff05a1",
+      "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "research/scheduler/production-completions.v0.1.json",
+      "sha256": "68a67eed4bbfe6a93f5adf5d87b9054e00fa2f268edfe71fa266e68e3827e820",
+      "hash_algorithm": "sha256-utf8-lf"
+    }
+  ],
+  "next_action": "Review pending batches 003 and 005. No new research dispatch authorized by consolidation.",
+  "automatic_dispatch": false,
+  "review_gate": "Jinkai Liu",
+  "runtime_external_work_dependencies": [],
+  "private_recovery": "Private benchmark contents cannot be recovered from Git; custodian backup required. Production scheduling does not read them."
+}

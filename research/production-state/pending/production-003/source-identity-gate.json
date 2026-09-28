@@ -1,0 +1,160 @@
+{
+  "policy": "Unknown source identity stops discovery; missing deep etymology or print citation alone does not make a known lexical identity unknown",
+  "records": [
+    {
+      "result": "Pass",
+      "source_form": "wave",
+      "source_language": "English",
+      "lexical_identity": "English noun/verb wave; excludes capitalized Navy acronym Wave",
+      "meaning_context": "名词：波、波浪；动词：挥动/招手。水只限已有 literary/metonymic sense，不能覆盖全部 wave。",
+      "provenance_locator": {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/batches/dataset-expansion-batch-001.v1.json",
+        "json_pointer": "/deferred_queue/0/raw_note",
+        "file_sha256": "0dbf661737519931db3ad0f889025d77b0b3cecbaa08c32dc9ccab0cdaf5e27e",
+        "origin_type": "repository raw-note"
+      },
+      "identity_source": [
+        "MW-wave"
+      ],
+      "unknown_identity_reconstructed_from_chinese": false,
+      "candidate_id": "RQ-e5b9fa065562"
+    },
+    {
+      "result": "Pass",
+      "source_form": "knowledge",
+      "source_language": "English",
+      "lexical_identity": "English noun knowledge, not French savoir verb",
+      "meaning_context": "知识；具体知晓/了解须按构式，不把所有 awareness 都翻成知识。",
+      "provenance_locator": {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-e-batch-001.v0.2.json",
+        "json_pointer": "/records/4",
+        "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+        "origin_type": "Codex prior extraction; not a verbatim author quote"
+      },
+      "identity_source": [
+        "MW-knowledge"
+      ],
+      "unknown_identity_reconstructed_from_chinese": false,
+      "candidate_id": "RQ-85c25b0fa6c8"
+    },
+    {
+      "result": "Pass",
+      "source_form": "exist",
+      "source_language": "English",
+      "lexical_identity": "English intransitive verb exist",
+      "meaning_context": "存在；特定构式可译有；生存/维持生活另限 animate/context。",
+      "provenance_locator": {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-e-batch-001.v0.2.json",
+        "json_pointer": "/records/7",
+        "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+        "origin_type": "Codex prior extraction; not a verbatim author quote"
+      },
+      "identity_source": [
+        "MW-exist"
+      ],
+      "unknown_identity_reconstructed_from_chinese": false,
+      "candidate_id": "RQ-dbf7cb31b8cd"
+    },
+    {
+      "result": "Pass",
+      "source_form": "direction",
+      "source_language": "English",
+      "lexical_identity": "English noun direction; spatial focus, management/instruction secondary",
+      "meaning_context": "空间方向/朝向；指导、指示另列。",
+      "provenance_locator": {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-e-batch-001.v0.2.json",
+        "json_pointer": "/records/17",
+        "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+        "origin_type": "Codex prior extraction; not a verbatim author quote"
+      },
+      "identity_source": [
+        "MW-direction"
+      ],
+      "unknown_identity_reconstructed_from_chinese": false,
+      "candidate_id": "RQ-63f75c562c69"
+    },
+    {
+      "result": "Pass",
+      "source_form": "translation",
+      "source_language": "English",
+      "lexical_identity": "English noun translation; process/result separated",
+      "meaning_context": "语言转换过程=翻译；结果=译文；几何平移为独立现代技术义。",
+      "provenance_locator": {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/candidates/package-e-batch-001.v0.2.json",
+        "json_pointer": "/records/18",
+        "file_sha256": "e69f5242e57b794a47f5c62545e2e0312e702d673db8267c265b3cbf61164d6c",
+        "origin_type": "Codex prior extraction; not a verbatim author quote"
+      },
+      "identity_source": [
+        "MW-translation"
+      ],
+      "unknown_identity_reconstructed_from_chinese": false,
+      "candidate_id": "RQ-c6096ae58707"
+    },
+    {
+      "result": "Pass",
+      "source_form": "acute",
+      "source_language": "English",
+      "lexical_identity": "English adjective acute; physical, mental, medical and angle senses separated",
+      "meaning_context": "尖锐的/敏锐的；急性的/严重的按义项；锐角仅角度义。",
+      "provenance_locator": {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/language-book.v1.0.json",
+        "json_pointer": "/entries/26/related_words/0",
+        "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+        "origin_type": "repository related-word claim; not new research"
+      },
+      "identity_source": [
+        "MW-acute"
+      ],
+      "unknown_identity_reconstructed_from_chinese": false,
+      "candidate_id": "RQ-aa43773b0cfc"
+    },
+    {
+      "result": "Pass",
+      "source_form": "filament",
+      "source_language": "French/English",
+      "lexical_identity": "English filament noun primary; French filament noun independently identified",
+      "meaning_context": "细丝/丝状物；灯丝、花丝等按专业 sense。",
+      "provenance_locator": {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/language-book.v1.0.json",
+        "json_pointer": "/entries/30/related_words/1",
+        "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
+        "origin_type": "repository related-word claim; not new research"
+      },
+      "identity_source": [
+        "MW-filament"
+      ],
+      "unknown_identity_reconstructed_from_chinese": false,
+      "candidate_id": "RQ-0d3877658122"
+    },
+    {
+      "result": "Pass",
+      "source_form": "long",
+      "source_language": "English",
+      "lexical_identity": "English adjective/adverb long length/duration; verb long for segregated",
+      "meaning_context": "长的/长时间；本条不以 long for=渴望 为主对象。",
+      "provenance_locator": {
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "path": "data/hypotheses/l-light-semantic-cluster.v0.1.json",
+        "json_pointer": "/negative_controls/4",
+        "file_sha256": "8805a5791307ef86daf7c2c9c08c6362b8dd3dfc5c244af9f5e632551cb95ef6",
+        "origin_type": "repository experimental motivation/control"
+      },
+      "identity_source": [
+        "MW-long"
+      ],
+      "unknown_identity_reconstructed_from_chinese": false,
+      "candidate_id": "RQ-4d9a99ebe809"
+    }
+  ],
+  "passed": 8,
+  "failed": 0,
+  "original_author_attribution_limit": "Identity verification is not author-target provenance certification."
+}

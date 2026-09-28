@@ -1,0 +1,46 @@
+{
+  "run": "Production Batch 005",
+  "timestamp": "2026-09-28T02:26:33.887Z",
+  "status": "PASS",
+  "errors": [],
+  "selection_reproducible": true,
+  "research_reports": 8,
+  "origin_updates": 0,
+  "canonical_acceptances": 0,
+  "publication": 0,
+  "benchmark_run": false,
+  "hidden_target_packages_read_this_run": false,
+  "blind_evaluation_claimed": false,
+  "repository_integrity": [
+    {
+      "file": "data/language-book.v1.0.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/candidates/production-corpus.v0.1.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/candidates/production-archive.v0.1.json",
+      "unchanged": true
+    },
+    {
+      "file": "research/observations/registry.v0.1.json",
+      "unchanged": true
+    },
+    {
+      "file": "research/scheduler/production-completions.v0.1.json",
+      "unchanged": true
+    }
+  ],
+  "remaining_eligible_after_review_pending_overlay": 6,
+  "overlay_applied_to_repository": false,
+  "next_run_requires_overlay_merge": true,
+  "validators_run": [
+    "Production import structure + Evidence/Editorial gate",
+    "Observation schema + Evidence/Editorial gate",
+    "Scheduler saved audit",
+    "Current selection reproducibility + research artifact boundaries"
+  ],
+  "limitation": "Artifact checks verify scope and declared evidence boundaries, not truth of every linguistic assessment. Review remains human."
+}

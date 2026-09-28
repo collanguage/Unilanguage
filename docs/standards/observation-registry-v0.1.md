@@ -1,3 +1,5 @@
+> Current state/resume authority: `research/PRODUCTION-RESUME.md`. The counts and scheduler-readiness statements below describe the original Registry migration, not current production totals.
+
 # Observation Registry v0.1
 
 Queue/Research infrastructure only. No entry schema change, candidate acceptance,

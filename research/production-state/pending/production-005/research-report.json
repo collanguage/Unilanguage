@@ -1,0 +1,1111 @@
+{
+  "batch": "Production Batch 005",
+  "created_at": "2026-09-28T02:26:07.049826+00:00",
+  "not_benchmark_batch_005": true,
+  "scope": "Proposal only; no canonical acceptance",
+  "entries": [
+    {
+      "candidate_id": "RQ-041cc56344db",
+      "source_form": "ABHORRENT",
+      "source_language": "English",
+      "origin": "unknown",
+      "author_observation": "No authenticated author wording recovered; exact imported records in original-observations.json. Do not attribute to Jinkai Liu.",
+      "ai_research_result": "支持词族记录；限制任何从 ABHOR 继承的汉语结论。",
+      "source_identity": "Pass; lexical senses scoped below",
+      "primary_pipeline": "Lexical–Diachronic",
+      "standard_meaning": "可憎的、令人厌恶的；与……相悖的（另义）",
+      "source_pronunciation": "MW respelling: əb-ˈhȯr-ənt / -ˈhär-",
+      "pronunciation_note": "MW respelling, NOT IPA. No invented historical IPA or Chinese reconstruction.",
+      "historical_stages": [
+        {
+          "form": "Latin abhorrēre / abhorrens",
+          "period": "古典拉丁语；不指定精确首见年",
+          "meaning_relation": "动词及其现在分词，词族依据，不是汉语比较结论",
+          "source": "https://www.merriam-webster.com/dictionary/abhorrent"
+        },
+        {
+          "form": "English abhorrent",
+          "period": "1599 首见（MW所收义）至现代",
+          "meaning_relation": "形容词；令人反感 / 不相容，另有感到反感的用法",
+          "source": "https://www.merriam-webster.com/dictionary/abhorrent"
+        }
+      ],
+      "source_evidence": [
+        "https://www.merriam-webster.com/dictionary/abhorrent"
+      ],
+      "candidates": [
+        {
+          "chinese_form": "可憎",
+          "reading": "kě zēng",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "modern repugnant",
+          "documented_meaning": "令人厌恶；憎的读音为 zēng",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/憎"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "厌恶",
+          "reading": "yàn wù",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "feeling/showing dislike",
+          "documented_meaning": "须区分感受者与引发感受的对象，不能自动当致使形容词",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/厌"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "limited alternative"
+        },
+        {
+          "chinese_form": "相悖",
+          "reading": "xiāng bèi",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "contrary/inconsistent sense",
+          "documented_meaning": "仅相悖/不相容义；不可覆盖所有 repugnant",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Pending exact Chinese entry; standard semantic proposal only",
+          "evidence": [],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        }
+      ],
+      "semantic_controls": [
+        "令人厌恶的：直接但声音弱",
+        "不相容的：只对应 contrary 义"
+      ],
+      "phonetic_controls": [
+        "火 huǒ：仅部分 h 与元音联想，非厌恶义",
+        "憨 hān：局部 h，语义不符"
+      ],
+      "controls_note": "Controls are analytic comparisons, not additional serious candidates or gold benchmark items; local sound resemblance is explicitly weak.",
+      "counterexamples": [
+        "abhorrent behaviour 与 abhorrent of X 的施事/感受角色不同。",
+        "与 ABHOR 同族不意味着 火 或 骇 自动适用本形容词。"
+      ],
+      "expansion": [],
+      "shortlist": [
+        "可憎",
+        "相悖"
+      ],
+      "featured_proposal": "Pending",
+      "featured_type": null,
+      "featured_phonetic_fit": null,
+      "evidence_status": "Source dictionary verified; Chinese online support partial; paper/historical attestations Pending",
+      "pending": [
+        "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+        "Original authorship unknown; no provenance upgrade",
+        "No historical Chinese pronunciation reconstruction attempted"
+      ],
+      "family_reuse": "ABHOR 的 Latin abhorrēre family 指针；现代形容词义重新核验。",
+      "old_observation_disposition": "支持词族记录；限制任何从 ABHOR 继承的汉语结论。",
+      "historical_relation": "Not claimed",
+      "final_status": "Featured Pending",
+      "review_status": "Editorial Freeze Proposal — awaiting Jinkai Liu",
+      "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+      "reviewed": false,
+      "published": false
+    },
+    {
+      "candidate_id": "RQ-da2ec7508828",
+      "source_form": "OUTSIDE",
+      "source_language": "English",
+      "origin": "unknown",
+      "author_observation": "No authenticated author wording recovered; exact imported records in original-observations.json. Do not attribute to Jinkai Liu.",
+      "ai_research_result": "保留既有外部/外面释义；限制把空间关系概括为全部现代义。",
+      "source_identity": "Pass; lexical senses scoped below",
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "standard_meaning": "外面 / 外部；在……外（依词性与构式）",
+      "source_pronunciation": "MW respelling: ˌau̇t-ˈsīd; ˈau̇t-ˌsīd",
+      "pronunciation_note": "MW respelling, NOT IPA. No invented historical IPA or Chinese reconstruction.",
+      "historical_stages": [
+        {
+          "form": "English out + side / outside",
+          "period": "晚期中古英语；MW noun首见15世纪",
+          "meaning_relation": "英语复合形式；名词、形容词、副词、介词分别处理",
+          "source": "https://www.merriam-webster.com/dictionary/outside"
+        },
+        {
+          "form": "Modern outside",
+          "period": "现代英语",
+          "meaning_relation": "边界之外的区域/关系；其他习语另列",
+          "source": "https://www.merriam-webster.com/dictionary/outside"
+        }
+      ],
+      "source_evidence": [
+        "https://www.merriam-webster.com/dictionary/outside",
+        "https://www.etymonline.com/word/outside"
+      ],
+      "candidates": [
+        {
+          "chinese_form": "外",
+          "reading": "wài",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "exterior relation",
+          "documented_meaning": "以内外边界为参照的外部关系；不主张所有 outside 都逐词译外",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/外"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "外部",
+          "reading": "wài bù",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "exterior region",
+          "documented_meaning": "区域/部分名词，不等于介词所有构式",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/外"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "以外",
+          "reading": "yǐ wài",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "beyond/excluding boundary",
+          "documented_meaning": "构式依赖，可为范围排除，不预设实体容器",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/外"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        }
+      ],
+      "semantic_controls": [
+        "外面：地点名词",
+        "在……之外：关系构式"
+      ],
+      "phonetic_controls": [
+        "歪 wāi：局部双元音联想，非 exterior",
+        "赛 sài：局部 /saɪ/ 相近，非 outside"
+      ],
+      "controls_note": "Controls are analytic comparisons, not additional serious candidates or gold benchmark items; local sound resemblance is explicitly weak.",
+      "counterexamples": [
+        "outside chance 不是空间外部的直接翻译。",
+        "静态在外不等于走出去；出不是所有 outside 的替换。"
+      ],
+      "expansion": [],
+      "shortlist": [
+        "外",
+        "外部",
+        "以外"
+      ],
+      "featured_proposal": "外 wài",
+      "featured_type": "Structural-Semantic Candidate",
+      "featured_phonetic_fit": "Low",
+      "evidence_status": "Source dictionary verified; Chinese online support partial; paper/historical attestations Pending",
+      "pending": [
+        "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+        "Original authorship unknown; no provenance upgrade",
+        "No historical Chinese pronunciation reconstruction attempted"
+      ],
+      "family_reuse": "INSIDE/CONTAINMENT 仅结构问题复用；本批独立核验 outside 与 外。",
+      "old_observation_disposition": "保留既有外部/外面释义；限制把空间关系概括为全部现代义。",
+      "historical_relation": "Not claimed",
+      "final_status": "Ready for Editorial Freeze",
+      "review_status": "Editorial Freeze Proposal — awaiting Jinkai Liu",
+      "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+      "reviewed": false,
+      "published": false
+    },
+    {
+      "candidate_id": "RQ-3978979a16e0",
+      "source_form": "ABHORRENCE",
+      "source_language": "English",
+      "origin": "unknown",
+      "author_observation": "No authenticated author wording recovered; exact imported records in original-observations.json. Do not attribute to Jinkai Liu.",
+      "ai_research_result": "保留 family 标识；拒绝把形态关系变成逐步年代事实。",
+      "source_identity": "Pass; lexical senses scoped below",
+      "primary_pipeline": "Lexical–Diachronic",
+      "standard_meaning": "厌恶 / 憎恶（情感或状态）；令人厌恶之物（另义）",
+      "source_pronunciation": "MW respelling: əb-ˈhȯr-ən(t)s",
+      "pronunciation_note": "MW respelling, NOT IPA. No invented historical IPA or Chinese reconstruction.",
+      "historical_stages": [
+        {
+          "form": "abhorr(ent) + -ence",
+          "period": "英语构词分析；不指定独立前后首见顺序",
+          "meaning_relation": "MW 所列构词关系",
+          "source": "https://www.merriam-webster.com/dictionary/abhorrence"
+        },
+        {
+          "form": "English abhorrence",
+          "period": "1592 首见至现代",
+          "meaning_relation": "厌恶状态/行为；另可指被厌恶的对象",
+          "source": "https://www.merriam-webster.com/dictionary/abhorrence"
+        }
+      ],
+      "source_evidence": [
+        "https://www.merriam-webster.com/dictionary/abhorrence"
+      ],
+      "candidates": [
+        {
+          "chinese_form": "厌恶",
+          "reading": "yàn wù",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "repugnance state",
+          "documented_meaning": "作情感名词或名词性构式，不限于动词",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/厌"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "憎恶",
+          "reading": "zēng wù",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "strong dislike",
+          "documented_meaning": "情感强度适合，但须标词性/构式",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/憎"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "反感",
+          "reading": "fǎn gǎn",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "repugnance",
+          "documented_meaning": "通常强度较弱；不能无条件替换强烈憎恶",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Pending exact Chinese entry; standard semantic proposal only",
+          "evidence": [],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "limited alternative"
+        }
+      ],
+      "semantic_controls": [
+        "强烈厌恶：情感名词构式",
+        "憎恶之情：保留状态角色"
+      ],
+      "phonetic_controls": [
+        "火 huǒ：h 局部特征不能给出 disgust",
+        "痕 hén：h+n 局部相似但为痕迹"
+      ],
+      "controls_note": "Controls are analytic comparisons, not additional serious candidates or gold benchmark items; local sound resemblance is explicitly weak.",
+      "counterexamples": [
+        "MW abhorrence 首见1592，abhorrent 首见1599；词典首见不支持机械的先形容词后名词时间线。",
+        "被厌恶之物不是厌恶者的情感本身。"
+      ],
+      "expansion": [
+        {
+          "chinese_form": "恨",
+          "reading": "hèn",
+          "group_feature": "g-k-h: source internal h only",
+          "outcome": "not selected",
+          "reason": "怨恨/仇恨与反感相邻但不等价；不足以替换已有语义候选",
+          "evidence": [
+            "https://zdic.net/hans/恨"
+          ],
+          "semantic_fit": "Limited",
+          "phonetic_fit": "Low overall; partial feature only",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "shortlist": [
+        "厌恶",
+        "憎恶"
+      ],
+      "featured_proposal": "Pending",
+      "featured_type": null,
+      "featured_phonetic_fit": null,
+      "evidence_status": "Source dictionary verified; Chinese online support partial; paper/historical attestations Pending",
+      "pending": [
+        "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+        "Original authorship unknown; no provenance upgrade",
+        "No historical Chinese pronunciation reconstruction attempted"
+      ],
+      "family_reuse": "与 ABHOR/ABHORRENT 共用拉丁家族背景；本名词构词和义项独立。",
+      "old_observation_disposition": "保留 family 标识；拒绝把形态关系变成逐步年代事实。",
+      "historical_relation": "Not claimed",
+      "final_status": "Featured Pending",
+      "review_status": "Editorial Freeze Proposal — awaiting Jinkai Liu",
+      "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+      "reviewed": false,
+      "published": false
+    },
+    {
+      "candidate_id": "RQ-915ffd347135",
+      "source_form": "SOURCE",
+      "source_language": "English",
+      "origin": "unknown",
+      "author_observation": "No authenticated author wording recovered; exact imported records in original-observations.json. Do not attribute to Jinkai Liu.",
+      "ai_research_result": "来源/源头的旧释义得到支持；不能归为已认证的人工作者原创。",
+      "source_identity": "Pass; lexical senses scoped below",
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "standard_meaning": "来源 / 源头；消息来源（指定义）",
+      "source_pronunciation": "MW respelling: ˈsȯrs",
+      "pronunciation_note": "MW respelling, NOT IPA. No invented historical IPA or Chinese reconstruction.",
+      "historical_stages": [
+        {
+          "form": "Latin surgere → Anglo-French surdre / surse",
+          "period": "拉丁语至中古法语时期",
+          "meaning_relation": "涌起/出现；surse 源泉来自分词形式",
+          "source": "https://www.merriam-webster.com/dictionary/source"
+        },
+        {
+          "form": "Middle English sours → source",
+          "period": "14世纪至现代",
+          "meaning_relation": "起源、供给来源、水源等；不是所有现代用法都必须经过单一隐喻年代链",
+          "source": "https://www.merriam-webster.com/dictionary/source"
+        }
+      ],
+      "source_evidence": [
+        "https://www.merriam-webster.com/dictionary/source"
+      ],
+      "candidates": [
+        {
+          "chinese_form": "源",
+          "reading": "yuán",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "water origin / abstract origin",
+          "documented_meaning": "水源与事物根由均有独立汉语词义支持",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/源"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "本",
+          "reading": "běn",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "origin/basis",
+          "documented_meaning": "根本或根据；不覆盖消息提供者等所有 source",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Pending exact Chinese entry; standard semantic proposal only",
+          "evidence": [],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "泉",
+          "reading": "quán",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "spring",
+          "documented_meaning": "只对应泉水/水源义，不等于所有抽象来源",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Pending exact Chinese entry; standard semantic proposal only",
+          "evidence": [],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "limited alternative"
+        }
+      ],
+      "semantic_controls": [
+        "来源：直接标准义",
+        "源头：水流和起源层"
+      ],
+      "phonetic_controls": [
+        "锁 suǒ：s 与圆唇元音局部相似，非 origin",
+        "索 suǒ：检索动作不等于来源名词"
+      ],
+      "controls_note": "Controls are analytic comparisons, not additional serious candidates or gold benchmark items; local sound resemblance is explicitly weak.",
+      "counterexamples": [
+        "追溯的溯是寻找源头的动作，不是 source 名词本身。",
+        "现代 source 可为资料/信息提供者，不能由水泉意象覆盖所有角色。"
+      ],
+      "expansion": [
+        {
+          "chinese_form": "溯",
+          "reading": "sù",
+          "group_feature": "s/s local feature; no full-word match",
+          "outcome": "not selected",
+          "reason": "寻源动作不是来源本身",
+          "evidence": [
+            "https://zdic.net/hans/溯"
+          ],
+          "semantic_fit": "Limited",
+          "phonetic_fit": "Low overall; partial feature only",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "shortlist": [
+        "源",
+        "本"
+      ],
+      "featured_proposal": "源 yuán",
+      "featured_type": "Structural-Semantic Candidate",
+      "featured_phonetic_fit": "Low",
+      "evidence_status": "Source dictionary verified; Chinese online support partial; paper/historical attestations Pending",
+      "pending": [
+        "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+        "Original authorship unknown; no provenance upgrade",
+        "No historical Chinese pronunciation reconstruction attempted"
+      ],
+      "family_reuse": "SOURCE Protocol 指针作为问题入口；词典与汉语条目本批独立核验。",
+      "old_observation_disposition": "来源/源头的旧释义得到支持；不能归为已认证的人工作者原创。",
+      "historical_relation": "Not claimed",
+      "final_status": "Ready for Editorial Freeze",
+      "review_status": "Editorial Freeze Proposal — awaiting Jinkai Liu",
+      "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+      "reviewed": false,
+      "published": false
+    },
+    {
+      "candidate_id": "RQ-da051df304a5",
+      "source_form": "ABUNDANCE",
+      "source_language": "English",
+      "origin": "unknown",
+      "author_observation": "No authenticated author wording recovered; exact imported records in original-observations.json. Do not attribute to Jinkai Liu.",
+      "ai_research_result": "支持 Latin family；限制继承 ABUNDANCE 为英文 ABOUND 直接构词的推断。",
+      "source_identity": "Pass; lexical senses scoped below",
+      "primary_pipeline": "Lexical–Diachronic",
+      "standard_meaning": "大量 / 丰富 / 充裕（依对象）",
+      "source_pronunciation": "MW respelling: ə-ˈbən-dən(t)s",
+      "pronunciation_note": "MW respelling, NOT IPA. No invented historical IPA or Chinese reconstruction.",
+      "historical_stages": [
+        {
+          "form": "Latin abundāre family / abundantia",
+          "period": "拉丁语",
+          "meaning_relation": "overflow / plentiful，名词 abundantia；是词族背景",
+          "source": "https://www.merriam-webster.com/dictionary/abundance"
+        },
+        {
+          "form": "Anglo-French abundance → Middle English aboundaunce",
+          "period": "中古时期；英语14世纪首见",
+          "meaning_relation": "借入名词，并非因英文 abound 存在就直接推导",
+          "source": "https://www.merriam-webster.com/dictionary/abundance"
+        },
+        {
+          "form": "Modern abundance",
+          "period": "现代",
+          "meaning_relation": "量多/充裕；不要求液体或溢出",
+          "source": "https://www.merriam-webster.com/dictionary/abundance"
+        }
+      ],
+      "source_evidence": [
+        "https://www.merriam-webster.com/dictionary/abundance",
+        "https://www.merriam-webster.com/dictionary/abound"
+      ],
+      "candidates": [
+        {
+          "chinese_form": "丰",
+          "reading": "fēng",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "plenty",
+          "documented_meaning": "取丰富、盛多义，不取风采或姓名义",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/丰"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "裕",
+          "reading": "yù",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "ample supply",
+          "documented_meaning": "充裕；范围与财富/供应有关，不泛化所有计数",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/裕"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "limited alternative"
+        },
+        {
+          "chinese_form": "溢",
+          "reading": "yì",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "Latin overflow family stage",
+          "documented_meaning": "液体溢出对应早期词族语义；现代大量不必溢出",
+          "semantic_fit": "High for restricted stage",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/溢"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        }
+      ],
+      "semantic_controls": [
+        "大量：量的表达",
+        "充裕：供应充分"
+      ],
+      "phonetic_controls": [
+        "奔 bēn：b+n 局部接近，运动非数量",
+        "笨 bèn：b+n 局部接近，语义无关"
+      ],
+      "controls_note": "Controls are analytic comparisons, not additional serious candidates or gold benchmark items; local sound resemblance is explicitly weak.",
+      "counterexamples": [
+        "an abundance of errors 不必是好事，也没有物理溢出。",
+        "膨是体积胀大；单个物体变大不等于数量丰富。"
+      ],
+      "expansion": [
+        {
+          "chinese_form": "膨",
+          "reading": "péng",
+          "group_feature": "b-p-m-f: stressed b compared with p",
+          "outcome": "semantic mismatch",
+          "reason": "体积膨胀不证明数量/供应丰富",
+          "evidence": [
+            "https://zdic.net/hans/膨"
+          ],
+          "semantic_fit": "Low/mismatch",
+          "phonetic_fit": "Low overall; partial feature only",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "shortlist": [
+        "丰",
+        "溢"
+      ],
+      "featured_proposal": "Pending",
+      "featured_type": null,
+      "featured_phonetic_fit": null,
+      "evidence_status": "Source dictionary verified; Chinese online support partial; paper/historical attestations Pending",
+      "pending": [
+        "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+        "Original authorship unknown; no provenance upgrade",
+        "No historical Chinese pronunciation reconstruction attempted"
+      ],
+      "family_reuse": "ABOUND 的拉丁 overflow 词族问题复用并重新核验；不继承其 mapping。",
+      "old_observation_disposition": "支持 Latin family；限制继承 ABUNDANCE 为英文 ABOUND 直接构词的推断。",
+      "historical_relation": "Not claimed",
+      "final_status": "Featured Pending",
+      "review_status": "Editorial Freeze Proposal — awaiting Jinkai Liu",
+      "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+      "reviewed": false,
+      "published": false
+    },
+    {
+      "candidate_id": "RQ-7bd33d4b300d",
+      "source_form": "GOAL",
+      "source_language": "English",
+      "origin": "unknown",
+      "author_observation": "No authenticated author wording recovered; exact imported records in original-observations.json. Do not attribute to Jinkai Liu.",
+      "ai_research_result": "保留目标/目的释义，缩窄终点与意图的等价范围。",
+      "source_identity": "Pass; lexical senses scoped below",
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "standard_meaning": "目标 / 目的；终点（运动或行程指定义）",
+      "source_pronunciation": "MW respelling: ˈgōl",
+      "pronunciation_note": "MW respelling, NOT IPA. No invented historical IPA or Chinese reconstruction.",
+      "historical_stages": [
+        {
+          "form": "Middle English gol",
+          "period": "中古英语",
+          "meaning_relation": "边界/界限；更深来源不作推定",
+          "source": "https://www.merriam-webster.com/dictionary/goal"
+        },
+        {
+          "form": "English goal",
+          "period": "MW 首见1531至现代",
+          "meaning_relation": "终点、目标及体育球门/得分义；不虚构单线义项顺序",
+          "source": "https://www.merriam-webster.com/dictionary/goal"
+        }
+      ],
+      "source_evidence": [
+        "https://www.merriam-webster.com/dictionary/goal"
+      ],
+      "candidates": [
+        {
+          "chinese_form": "目标",
+          "reading": "mù biāo",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "intended objective",
+          "documented_meaning": "意图指向对象，与偶然结果不同",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Pending exact Chinese entry; standard semantic proposal only",
+          "evidence": [],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "目的",
+          "reading": "mù dì",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "intended end",
+          "documented_meaning": "行动所要达成者；不覆盖球门实体",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Pending exact Chinese entry; standard semantic proposal only",
+          "evidence": [],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "limited alternative"
+        },
+        {
+          "chinese_form": "终点",
+          "reading": "zhōng diǎn",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "finish/destination",
+          "documented_meaning": "行程/比赛终止位置，不是所有意图目标",
+          "semantic_fit": "High for restricted sense",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Pending exact Chinese entry; standard semantic proposal only",
+          "evidence": [],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        }
+      ],
+      "semantic_controls": [
+        "目的地：空间目的地",
+        "意图达到的结果：抽象目标"
+      ],
+      "phonetic_controls": [
+        "够 gòu：局部 g+圆唇韵，足够不是目标",
+        "钩 gōu：局部音似，钩子不是目的"
+      ],
+      "controls_note": "Controls are analytic comparisons, not additional serious candidates or gold benchmark items; local sound resemblance is explicitly weak.",
+      "counterexamples": [
+        "偶然停止的位置不是自动成为原定 goal。",
+        "goal 的体育装置/得分义不能全部译目的。"
+      ],
+      "expansion": [
+        {
+          "chinese_form": "够",
+          "reading": "gòu",
+          "group_feature": "g-k-h: g feature",
+          "outcome": "semantic mismatch",
+          "reason": "足够不是意向终点",
+          "evidence": [
+            "https://zdic.net/hans/够"
+          ],
+          "semantic_fit": "Low/mismatch",
+          "phonetic_fit": "Low overall; partial feature only",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "shortlist": [
+        "目标",
+        "终点"
+      ],
+      "featured_proposal": "Pending",
+      "featured_type": null,
+      "featured_phonetic_fit": null,
+      "evidence_status": "Source dictionary verified; Chinese online support partial; paper/historical attestations Pending",
+      "pending": [
+        "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+        "Original authorship unknown; no provenance upgrade",
+        "No historical Chinese pronunciation reconstruction attempted"
+      ],
+      "family_reuse": "movement Protocol 的 source/goal 角色问题复用；词源不与 SOURCE 共享。",
+      "old_observation_disposition": "保留目标/目的释义，缩窄终点与意图的等价范围。",
+      "historical_relation": "Not claimed",
+      "final_status": "Featured Pending",
+      "review_status": "Editorial Freeze Proposal — awaiting Jinkai Liu",
+      "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+      "reviewed": false,
+      "published": false
+    },
+    {
+      "candidate_id": "RQ-7d4d73843bb4",
+      "source_form": "ABSOLVE",
+      "source_language": "English",
+      "origin": "unknown",
+      "author_observation": "No authenticated author wording recovered; exact imported records in original-observations.json. Do not attribute to Jinkai Liu.",
+      "ai_research_result": "保留真实 historical relative；不恢复 release→complete→absolute 的过强严格叙事。",
+      "source_identity": "Pass; lexical senses scoped below",
+      "primary_pipeline": "Lexical–Diachronic",
+      "standard_meaning": "免除（责任/义务）；宣告无罪/赦免罪过（依构式和语境）",
+      "source_pronunciation": "MW respelling: əb-ˈzälv / -ˈsälv / -ˈzȯlv / -ˈsȯlv",
+      "pronunciation_note": "MW respelling, NOT IPA. No invented historical IPA or Chinese reconstruction.",
+      "historical_stages": [
+        {
+          "form": "Latin ab- + solvere / absolvere",
+          "period": "拉丁语",
+          "meaning_relation": "release / acquit / finish / complete 为已列义项，不排严格年代线",
+          "source": "https://www.merriam-webster.com/dictionary/absolve"
+        },
+        {
+          "form": "Middle English absolven → absolve",
+          "period": "15世纪至现代",
+          "meaning_relation": "责任、义务、过错或宗教赦罪；各角色区别",
+          "source": "https://www.merriam-webster.com/dictionary/absolve"
+        }
+      ],
+      "source_evidence": [
+        "https://www.merriam-webster.com/dictionary/absolve"
+      ],
+      "candidates": [
+        {
+          "chinese_form": "免",
+          "reading": "miǎn",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "release from obligation",
+          "documented_meaning": "免除责任/义务；不能泛化为判定清白",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/免"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "赦",
+          "reading": "shè",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "pardon/remission",
+          "documented_meaning": "减免罪罚，不等于所有宣告无罪",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/赦"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "limited alternative"
+        },
+        {
+          "chinese_form": "解",
+          "reading": "jiě",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "loosen/release historical component",
+          "documented_meaning": "解除束缚义；非 jiè/xiè，非全部现代 absolve",
+          "semantic_fit": "High for restricted stage",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/解"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        }
+      ],
+      "semantic_controls": [
+        "免除责任：指定现代构式",
+        "宣告无罪：指定无责/无罪语境"
+      ],
+      "phonetic_controls": [
+        "梭 suō：局部 s 音近而非赦免",
+        "索 suǒ：局部 s，词义不能凭音推断"
+      ],
+      "controls_note": "Controls are analytic comparisons, not additional serious candidates or gold benchmark items; local sound resemblance is explicitly weak.",
+      "counterexamples": [
+        "被赦免可仍有罪；判定无罪与赦罪不等价。",
+        "ABSOLUTE 与 ABSOLVE 共享来源不意味着现代中文翻译共享。"
+      ],
+      "expansion": [],
+      "shortlist": [
+        "免",
+        "解"
+      ],
+      "featured_proposal": "Pending",
+      "featured_type": null,
+      "featured_phonetic_fit": null,
+      "evidence_status": "Source dictionary verified; Chinese online support partial; paper/historical attestations Pending",
+      "pending": [
+        "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+        "Original authorship unknown; no provenance upgrade",
+        "No historical Chinese pronunciation reconstruction attempted"
+      ],
+      "family_reuse": "ABSOLUTE 的 Latin absolvere 参考复用；现代动词义独立核验。",
+      "old_observation_disposition": "保留真实 historical relative；不恢复 release→complete→absolute 的过强严格叙事。",
+      "historical_relation": "Not claimed",
+      "final_status": "Featured Pending",
+      "review_status": "Editorial Freeze Proposal — awaiting Jinkai Liu",
+      "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+      "reviewed": false,
+      "published": false
+    },
+    {
+      "candidate_id": "RQ-ef7527e20941",
+      "source_form": "ACUITY",
+      "source_language": "English",
+      "origin": "unknown",
+      "author_observation": "No authenticated author wording recovered; exact imported records in original-observations.json. Do not attribute to Jinkai Liu.",
+      "ai_research_result": "支持 family link；明确 acumen 不是 acuity 的英语祖先。",
+      "source_identity": "Pass; lexical senses scoped below",
+      "primary_pipeline": "Lexical–Diachronic",
+      "standard_meaning": "敏锐程度 / 敏锐性；视觉锐度等依感官限定",
+      "source_pronunciation": "MW respelling: ə-ˈkyü-ət-ē",
+      "pronunciation_note": "MW respelling, NOT IPA. No invented historical IPA or Chinese reconstruction.",
+      "historical_stages": [
+        {
+          "form": "Latin acuere / Medieval Latin acuitas",
+          "period": "拉丁语至中古拉丁语",
+          "meaning_relation": "尖锐/锐度词族，非 English acumen 的派生",
+          "source": "https://www.merriam-webster.com/dictionary/acuity"
+        },
+        {
+          "form": "French acuité → English acuity",
+          "period": "中古法语关系；MW英语首见约1549",
+          "meaning_relation": "知觉锐度；现代可限定视觉、听觉等",
+          "source": "https://www.merriam-webster.com/dictionary/acuity"
+        }
+      ],
+      "source_evidence": [
+        "https://www.merriam-webster.com/dictionary/acuity"
+      ],
+      "candidates": [
+        {
+          "chinese_form": "锐",
+          "reading": "ruì",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "sharpness / perceptual sharpness",
+          "documented_meaning": "尖锐与感觉灵敏均有词义支持；仍不自动继承 ACUMEN Featured",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "High in specified sense",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/锐"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "敏",
+          "reading": "mǐn",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "sensitivity / perception",
+          "documented_meaning": "敏锐/反应灵敏；速度与分辨能力不同",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Online lexical support",
+          "evidence": [
+            "https://zdic.net/hans/敏"
+          ],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "shortlist"
+        },
+        {
+          "chinese_form": "清晰度",
+          "reading": "qīng xī dù",
+          "chinese_layer": "Modern Mandarin",
+          "period": "现代用法；未独立冻结古代首见年代",
+          "source_unit": "visual clarity subset",
+          "documented_meaning": "日常视觉描述；不宣称为全部专业 acuity 的规范译名",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "phonetic_rationale": "现代英语完整形式与所列普通话词形在声母/韵母或音节数上差异明显；不以单个组命中加分。",
+          "structural_fit": "Limited",
+          "evidence_status": "Pending exact Chinese entry; standard semantic proposal only",
+          "evidence": [],
+          "mainland_paper": "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+          "historical_relation": "Not claimed",
+          "generation": "semantic retrieval",
+          "status": "retained in research set",
+          "priority": "limited alternative"
+        }
+      ],
+      "semantic_controls": [
+        "敏锐程度：感知层",
+        "视觉锐度：特定感官层；专业汉语来源仍待核"
+      ],
+      "phonetic_controls": [
+        "酷 kù：局部 k/u 相似，无锐度义",
+        "哭 kū：局部 k/u 相似，无敏锐义"
+      ],
+      "controls_note": "Controls are analytic comparisons, not additional serious candidates or gold benchmark items; local sound resemblance is explicitly weak.",
+      "counterexamples": [
+        "反应快不保证能分辨细节；快不能覆盖 acuity。",
+        "医疗场景的 patient acuity 另有义项，本批不作为感官锐度研究。"
+      ],
+      "expansion": [
+        {
+          "chinese_form": "快",
+          "reading": "kuài",
+          "group_feature": "g-k-h: medial k feature, not initial vowel",
+          "outcome": "semantic mismatch",
+          "reason": "快速不是知觉锐度",
+          "evidence": [
+            "https://zdic.net/hans/快"
+          ],
+          "semantic_fit": "Low/mismatch",
+          "phonetic_fit": "Low overall; partial feature only",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "shortlist": [
+        "锐",
+        "敏"
+      ],
+      "featured_proposal": "Pending",
+      "featured_type": null,
+      "featured_phonetic_fit": null,
+      "evidence_status": "Source dictionary verified; Chinese online support partial; paper/historical attestations Pending",
+      "pending": [
+        "Pending: 未取得大陆大型纸本辞书具体条目；网上基本/详细解释不冒充纸本核验。",
+        "Original authorship unknown; no provenance upgrade",
+        "No historical Chinese pronunciation reconstruction attempted"
+      ],
+      "family_reuse": "ACUMEN 的 Latin acu- 词族背景；不继承 Featured 或证据等级。",
+      "old_observation_disposition": "支持 family link；明确 acumen 不是 acuity 的英语祖先。",
+      "historical_relation": "Not claimed",
+      "final_status": "Featured Pending",
+      "review_status": "Editorial Freeze Proposal — awaiting Jinkai Liu",
+      "benchmark_eligibility": "Benchmark-ineligible after production exposure",
+      "reviewed": false,
+      "published": false
+    }
+  ]
+}

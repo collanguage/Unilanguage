@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "batches": [
+    {
+      "batch_id": "production-003",
+      "status": "awaiting_jinkai_review",
+      "accepted": false,
+      "candidate_ids": [
+        "RQ-e5b9fa065562",
+        "RQ-85c25b0fa6c8",
+        "RQ-dbf7cb31b8cd",
+        "RQ-63f75c562c69",
+        "RQ-c6096ae58707",
+        "RQ-aa43773b0cfc",
+        "RQ-0d3877658122",
+        "RQ-4d9a99ebe809"
+      ],
+      "source_forms": [
+        "wave",
+        "knowledge",
+        "exist",
+        "direction",
+        "translation",
+        "acute",
+        "filament",
+        "long"
+      ],
+      "proposal_path": "research/production-state/pending/production-003/research-records.json",
+      "review_required_by": "Jinkai Liu"
+    },
+    {
+      "batch_id": "production-005",
+      "status": "awaiting_jinkai_review",
+      "accepted": false,
+      "candidate_ids": [
+        "RQ-041cc56344db",
+        "RQ-da2ec7508828",
+        "RQ-3978979a16e0",
+        "RQ-915ffd347135",
+        "RQ-da051df304a5",
+        "RQ-7bd33d4b300d",
+        "RQ-7d4d73843bb4",
+        "RQ-ef7527e20941"
+      ],
+      "source_forms": [
+        "abhorrent",
+        "outside",
+        "abhorrence",
+        "source",
+        "abundance",
+        "goal",
+        "absolve",
+        "acuity"
+      ],
+      "proposal_path": "research/production-state/pending/production-005/research-report.json",
+      "review_required_by": "Jinkai Liu"
+    }
+  ],
+  "next_action": "Review pending batches 003 and 005. No new research dispatch authorized by consolidation."
+}

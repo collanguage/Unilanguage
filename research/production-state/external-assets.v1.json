@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "benchmark_execution": "Pending isolated evaluator; do not run benchmark or benchmark Batch 005",
+  "packages": [
+    {
+      "package_id": "current_outputs/author-mapping-provenance-recovery-v0.1",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 37,
+      "aggregate_sha256": "edb4e2b4b3a9cbfc9fbcf5741d6f8b97cbaa2ce32ff02e21e58c756b207a6b94",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/author-target-adjudication-v0.1",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 20,
+      "aggregate_sha256": "fa21d88a5ed7a82e1f3af430933433966cef297b25b41189a7aad23935f41311",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/benchmark-calibration-pilot-001",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 17,
+      "aggregate_sha256": "385f28f8882e730118a93011e9a13a38cb1752e47c92bf8c32479a0f1999f2be",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/candidate-discovery-benchmark-v0.1",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 26,
+      "aggregate_sha256": "c27cccd3833db352cff70cb4cc9b0bb4a15ea0f8d5e1e76152374a5012f03a60",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/production-discovery-batch-001",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 5,
+      "aggregate_sha256": "f1b9debac72a379fab7e3b1704c991e6d92e70462cf9b4c346df366848805787",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/production-discovery-batch-001-freeze",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 5,
+      "aggregate_sha256": "dc3a02810f69ac17adc43086b951b3eee5ca75c8c31f645b700e38d1a24ec309",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/production-discovery-batch-002",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 18,
+      "aggregate_sha256": "2e9e62e3fd951faed684014830ca0d07a9f713e3408db907d649b10c05b6052e",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/production-discovery-batch-003",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 47,
+      "aggregate_sha256": "861de136bb6f5b5b49b3cf55cf5e6baaa1b32aa03bf5ea29ed32d699b7d84aef",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/production-discovery-batch-004",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 61,
+      "aggregate_sha256": "64f6b127aa9cc71aa111ea8af7ee6052c1a5ab5b2dd788a5445b7be33a163984",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/production-discovery-batch-005-preparation",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 14,
+      "aggregate_sha256": "af5859dbaf3958d2e4c2dd44cd3f313ce2b1ebc99f4a1a5ce321c1269b156a48",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_outputs/production-pipeline-v0.1",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 9,
+      "aggregate_sha256": "11ed9acfd2454aa14fb683b5993d54b71270ab750355a77c96638f1ec5d8fe40",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    },
+    {
+      "package_id": "current_work/private-audit-tools",
+      "version": "inventory-at-2026-09-28T02:36:46.484382+00:00",
+      "exists_at_audit": true,
+      "file_count": 109,
+      "aggregate_sha256": "c424d8ca4140953a301359d2942640f552341c810fb74e5503c4f28f1f22c56f",
+      "algorithm": "SHA256(JSON compact sorted [opaque asset ID, file SHA256] pairs); IDs = SHA256(root label/relative path) first20",
+      "status": "External custodian only; no target contents imported",
+      "recovery_requirement": "Restore original private package from custodian backup; checksum cannot reconstruct contents. Do not put targets in public Git or Production worker context."
+    }
+  ],
+  "raw_inventory": "Full raw notes and author adjudication retained externally because target-bearing records cannot safely be imported wholesale. Safe queue projection retained in Git.",
+  "future_holdout": "No current private future holdout package registered. New custodian intake must persist private backup plus opaque public reservations."
+}

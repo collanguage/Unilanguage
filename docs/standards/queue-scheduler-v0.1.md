@@ -1,3 +1,5 @@
+> Current production authority: `research/PRODUCTION-RESUME.md` and `research/production-state/manifest.v1.json`. Scheduler v0.1 is the approved default selector. The initial dry-run narrative below is historical. Snapshot preparation now reads repository-only state; old OUTPUTS_DIR invocation is removed.
+
 # Human–AI Queue Scheduler v0.1 — dry run
 
 Approved scope: planning infrastructure and a real eight-item Production Batch
@@ -93,7 +95,7 @@ audit. The validator replays the exact snapshot and independently checks
 exclusions, identity/pipeline and review/dispatch boundaries.
 
 ```text
-node scripts/prepare-scheduler-snapshot.mjs OUTPUTS_DIR NEW_SNAPSHOT_FILE
+node scripts/prepare-scheduler-snapshot.mjs NEW_SNAPSHOT_FILE
 node scripts/run-queue-scheduler.mjs SANITIZED_SNAPSHOT NEW_AUDIT_FILE
 node scripts/validate-queue-scheduler.mjs
 node --test tests/queue-scheduler.test.cjs
