@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "accepted_at": "2026-09-28T17:25:51.931849+00:00",
+  "approved_by": "Jinkai Liu",
+  "approval_source": "Explicit user instruction: Production-006 — Final Editorial Acceptance",
+  "scope": "Candidate intake only; no Reviewed/Published/Evidence promotion; no deploy",
+  "baseline_commit": "fbb4e53923d2a800b8b22f92f2caf81fa8820f09",
+  "proposal_manifest": "research/production-state/pending/production-006/manifest.json",
+  "proposal_manifest_sha256": "ea79b9c8d46104198d9782d5ed1b29c13f4abf3cc8689c6158ab324a77f482f9",
+  "freeze_record": "data/review/production-006-freeze.v0.1.json",
+  "candidate_ids": [
+    "RQ-98fb49ffa66b",
+    "RQ-635ef1c7e0d1",
+    "RQ-baf644cb462c",
+    "RQ-62412ae88f1e",
+    "RQ-c7fe2748656a",
+    "RQ-31a9fccf8a5e",
+    "RQ-68b3017cc6be",
+    "RQ-c6e4c0019ec1"
+  ],
+  "before_counts": {
+    "active": 36,
+    "featured": 10,
+    "pending": 26
+  },
+  "after_counts": {
+    "active": 44,
+    "featured": 12,
+    "pending": 32,
+    "archives": 2,
+    "controls": 2,
+    "review_backlog": 0
+  }
+}

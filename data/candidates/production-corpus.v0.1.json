@@ -13727,6 +13727,591 @@
           "published": false
         }
       }
+    },
+    {
+      "candidate_id": "RQ-98fb49ffa66b",
+      "source_word": "alimentary",
+      "normalized_form": "alimentary",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-006-freeze.v0.1.json#RQ-98fb49ffa66b",
+      "blockers": [
+        "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-98fb49ffa66b",
+        "source_form": "alimentary",
+        "source_language": "English",
+        "origin": "unknown",
+        "author": null,
+        "standard_meaning": "营养的／与营养有关的；供养、维持生计的（限定义）。",
+        "primary_pipeline": "Lexical–Diachronic",
+        "featured": "Pending",
+        "mapping_type": "Not selected",
+        "phonetic_fit": "Low",
+        "semantic_fit": "See unchanged sense-specific research section; no new rating",
+        "historical_relation": "Not claimed",
+        "status": "Ready with Featured Pending",
+        "pending": [
+          "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+        ],
+        "editorial_boundary": "Retain frozen sense boundaries and candidates; no new Featured or evidence promotion.",
+        "research_record": {
+          "candidate_id": "RQ-98fb49ffa66b",
+          "source_form": "alimentary",
+          "source_language": "English",
+          "primary_pipeline": "Lexical–Diachronic",
+          "origin": "unknown",
+          "author": null,
+          "source_identity": "Pass; exact scope in report.md",
+          "featured_proposal": "Pending",
+          "mapping_type": "Not selected",
+          "phonetic_fit": "Low",
+          "status": "Featured Pending",
+          "historical_relation": "Not claimed",
+          "accepted": false,
+          "reviewed": false,
+          "published": false,
+          "evidence_report": "report.md",
+          "evidence_section": 1,
+          "benchmark_status": "Benchmark-ineligible after production exposure",
+          "exposure_recorded_at": "2026-09-28T16:35:19.358Z"
+        },
+        "research_section": "1. alimentary — English adjective\n\nStandard: 营养的／与营养有关的；供养、维持生计的（限定义）。\n\nHistory: Latin alimentum/alimentarius; French alimentaire and New Latin alimentarius as borrowing sources for English alimentary, first recorded 1608. Preserve adjective identity; no forced stages for every spelling.\n\nSource: https://www.merriam-webster.com/dictionary/alimentary\n\nCandidates: 营养的 yíngyǎng de (nutrition adjective, Semantic High); 养 yǎng (nourish/sustain conceptual unit, Medium, not adjective equivalence); 供养的 gōngyǎng de (maintenance sense only, Medium). Chinese 养 online entry: https://zdic.net/hans/养 . Other exact phrase entries Pending.\n\nControls: 食物 shíwù has food meaning but noun/adjective mismatch; 阿 ā shares an onset segment without meaning. Strong counterexample: alimentary canal = 消化道, not a mechanically translated “养管”. ALIMENT family evidence can locate sources, not transfer its Chinese candidate or Featured.\n\nRecommendation: **Featured Pending**. No consonant expansion appropriate for this vowel-initial whole word; do not invent a sliced historical unit.\n",
+        "original_observation": {
+          "candidate_id": "RQ-98fb49ffa66b",
+          "origin": "unknown",
+          "author": null,
+          "source_location": "data/language-book.v1.0.json#/entries/27/related_words/0",
+          "original_value": {
+            "word": "alimentary",
+            "language": "English",
+            "relationship_type": "derivative",
+            "family": "Latin alimentum",
+            "relation_to_entry": {
+              "en": "Documented relation in the stated historical family.",
+              "zh-Hans": "在所列历史词族内有文献支持的关系。"
+            },
+            "status": "Established",
+            "source_refs": [
+              "REF-MW-ALIMENT"
+            ]
+          }
+        },
+        "evidence_status": "Unchanged from frozen proposal; unresolved evidence remains Pending"
+      }
+    },
+    {
+      "candidate_id": "RQ-635ef1c7e0d1",
+      "source_word": "六十四卦",
+      "normalized_form": "六十四卦",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-006-freeze.v0.1.json#RQ-635ef1c7e0d1",
+      "blockers": [
+        "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification.",
+        "Formation dating / underlying textual or iconographic edition: Pending as scoped in frozen research section."
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-635ef1c7e0d1",
+        "source_form": "六十四卦",
+        "source_language": "Chinese",
+        "origin": "unknown",
+        "author": null,
+        "standard_meaning": "《周易》六十四卦、卦画及相关文字；not a foreign lexical item requiring a Chinese equivalent.",
+        "primary_pipeline": "Cultural–Structural–Literary",
+        "featured": "Pending",
+        "mapping_type": "Cultural / Structural Research Object",
+        "phonetic_fit": "Not applicable",
+        "semantic_fit": "See unchanged sense-specific research section; no new rating",
+        "historical_relation": "Not claimed",
+        "status": "Ready with Featured Pending",
+        "pending": [
+          "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification.",
+          "Formation dating / underlying textual or iconographic edition: Pending as scoped in frozen research section."
+        ],
+        "editorial_boundary": "Cultural / Structural Research Object. No writing-system origin proof, no all-writing-from-trigrams claim, no cross-civilization historical evidence.",
+        "research_record": {
+          "candidate_id": "RQ-635ef1c7e0d1",
+          "source_form": "六十四卦",
+          "source_language": "Chinese",
+          "primary_pipeline": "Cultural–Structural–Literary",
+          "origin": "unknown",
+          "author": null,
+          "source_identity": "Pass; exact scope in report.md",
+          "featured_proposal": "Pending",
+          "mapping_type": "Not selected",
+          "phonetic_fit": "Not applicable",
+          "status": "Featured Pending",
+          "historical_relation": "Not claimed",
+          "accepted": false,
+          "reviewed": false,
+          "published": false,
+          "evidence_report": "report.md",
+          "evidence_section": 2,
+          "benchmark_status": "Benchmark-ineligible after production exposure",
+          "exposure_recorded_at": "2026-09-28T16:35:19.358Z"
+        },
+        "research_section": "2. 六十四卦 — Chinese cultural/symbolic object\n\nStandard identity: 《周易》六十四卦、卦画及相关文字；not a foreign lexical item requiring a Chinese equivalent.\n\nOriginal imported observation includes “六十四卦图是我们的另一种文字。所有卦象都是从乾卦而来。” Attribution remains unknown. Preserve wording, but separate literary interpretation from historical assertion.\n\nSources: received 《系辞》 structural account, https://p2.hbtv.com.cn/pcms/explorer/files/guoxue/zy.pdf (indexed text); modern symbol inventory https://www.unicode.org/charts/PDF/U4DC0.pdf . Unicode evidence establishes encoding only. Ancient formation dating remains unadjudicated.\n\nSerious interpretations: (1) six binary positions yield 64 combinations, a structural calculation; (2) a cultural symbolic repertoire; (3) “another writing” as literary interpretation. None establishes full language-writing equivalence or a universal historical derivation from 乾. No artificial Chinese candidate list or phonetic rating for this same-language object.\n\nControls: encoding a symbol does not establish a writing system; constructing all combinations from one starting pattern does not establish historical origin. Different interpretative traditions must not be collapsed into chronology.\n\nRecommendation: **Featured Pending**, retain Cultural–Structural–Literary research object; reject unsupported factual upgrade, not the original note. Consonant expansion not applicable.\n",
+        "original_observation": {
+          "candidate_id": "RQ-635ef1c7e0d1",
+          "origin": "unknown",
+          "author": null,
+          "source_location": "data/language-book.v1.0.json#/entries/0/source/raw_note",
+          "original_value": "英语：sky n. 天；汉语：盖【gai】n.。六十四卦图是我们的另一种文字。所有卦象都是从乾卦而来。附乾卦原文、坤卦标题、天字字源说明、盖天说、《敕勒歌》，以及站在山上仰望白云、房屋如舢板与邮轮、大地母亲的肌肤与骨骼、蓝天是被盖的文学段落。原稿另将卫星、电离层和平流层并置为所仰望的盖天结构；编辑版将古代模型、现代大气层与地球外部空间分开说明。"
+        },
+        "evidence_status": "Unchanged from frozen proposal; unresolved evidence remains Pending"
+      }
+    },
+    {
+      "candidate_id": "RQ-baf644cb462c",
+      "source_word": "alimenter",
+      "normalized_form": "alimenter",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-006-freeze.v0.1.json#RQ-baf644cb462c",
+      "blockers": [
+        "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-baf644cb462c",
+        "source_form": "alimenter",
+        "source_language": "French",
+        "origin": "unknown",
+        "author": null,
+        "standard_meaning": "供给食物／养活；供应；引申持续支撑、助长。",
+        "primary_pipeline": "Lexical–Diachronic",
+        "featured": "Pending",
+        "mapping_type": "Not selected",
+        "phonetic_fit": "Low",
+        "semantic_fit": "See unchanged sense-specific research section; no new rating",
+        "historical_relation": "Not claimed",
+        "status": "Ready with Featured Pending",
+        "pending": [
+          "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+        ],
+        "editorial_boundary": "Retain frozen sense boundaries and candidates; no new Featured or evidence promotion.",
+        "research_record": {
+          "candidate_id": "RQ-baf644cb462c",
+          "source_form": "alimenter",
+          "source_language": "French",
+          "primary_pipeline": "Lexical–Diachronic",
+          "origin": "unknown",
+          "author": null,
+          "source_identity": "Pass; exact scope in report.md",
+          "featured_proposal": "Pending",
+          "mapping_type": "Not selected",
+          "phonetic_fit": "Low",
+          "status": "Featured Pending",
+          "historical_relation": "Not claimed",
+          "accepted": false,
+          "reviewed": false,
+          "published": false,
+          "evidence_report": "report.md",
+          "evidence_section": 3,
+          "benchmark_status": "Benchmark-ineligible after production exposure",
+          "exposure_recorded_at": "2026-09-28T16:35:19.358Z"
+        },
+        "research_section": "3. alimenter — French transitive verb\n\nStandard: 供给食物／养活；供应；引申持续支撑、助长。\n\nHistory: Latin alimentare attested from fourth century per TLFi; medieval French nourishment and provision of necessities; modern technical/figurative uses recorded separately. Do not claim all extensions occurred in a single ordered chain.\n\nSource: https://www.cnrtl.fr/definition/alimenter (indexed TLFi article; some direct page requests empty).\n\nCandidates: 养 yǎng (living recipient, High); 供 gōng (supply necessities/input, High); 助长 zhùzhǎng (limited figurative construction, Medium, negative connotation not always shared). https://zdic.net/hans/养 ; https://zdic.net/hans/供 . 助长 item-specific evidence Pending. Fix gōng, not gòng.\n\nControls: 供给 gōngjǐ, semantic strong/sound weak; 阿 ā, sound-only segment. Counterexample: alimenter une machine or une polémique is not feeding a person. ALIMENT family locator reused, modern verb and adjective conclusions independent.\n\nRecommendation: **Featured Pending**. Consonant expansion not applicable to vowel-initial whole form without a justified comparison unit.\n",
+        "original_observation": {
+          "candidate_id": "RQ-baf644cb462c",
+          "origin": "unknown",
+          "author": null,
+          "source_location": "data/language-book.v1.0.json#/entries/27/related_words/1",
+          "original_value": {
+            "word": "alimenter",
+            "language": "French",
+            "relationship_type": "historical family",
+            "family": "French/Latin aliment",
+            "relation_to_entry": {
+              "en": "Documented relation in the stated historical family.",
+              "zh-Hans": "在所列历史词族内有文献支持的关系。"
+            },
+            "status": "Established",
+            "source_refs": [
+              "REF-MW-ALIMENT"
+            ]
+          }
+        },
+        "evidence_status": "Unchanged from frozen proposal; unresolved evidence remains Pending"
+      }
+    },
+    {
+      "candidate_id": "RQ-62412ae88f1e",
+      "source_word": "神农氏人身牛头",
+      "normalized_form": "神农氏人身牛头",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-006-freeze.v0.1.json#RQ-62412ae88f1e",
+      "blockers": [
+        "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification.",
+        "Formation dating / underlying textual or iconographic edition: Pending as scoped in frozen research section."
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-62412ae88f1e",
+        "source_form": "神农氏人身牛头",
+        "source_language": "Chinese",
+        "origin": "unknown",
+        "author": null,
+        "standard_meaning": "神农人身牛首传说；not literal biological or historical fact.",
+        "primary_pipeline": "Cultural–Structural–Literary",
+        "featured": "Pending",
+        "mapping_type": "Chinese Cultural / Mythological Observation",
+        "phonetic_fit": "Not applicable",
+        "semantic_fit": "See unchanged sense-specific research section; no new rating",
+        "historical_relation": "Not claimed",
+        "status": "Ready with Featured Pending",
+        "pending": [
+          "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification.",
+          "Formation dating / underlying textual or iconographic edition: Pending as scoped in frozen research section."
+        ],
+        "editorial_boundary": "Chinese Cultural / Mythological Observation. Traditional textual/iconographic account is not biological/historical fact; no proof of cross-civilization contact or linguistic common origin. Underlying image evidence Pending.",
+        "research_record": {
+          "candidate_id": "RQ-62412ae88f1e",
+          "source_form": "神农氏人身牛头",
+          "source_language": "Chinese",
+          "primary_pipeline": "Cultural–Structural–Literary",
+          "origin": "unknown",
+          "author": null,
+          "source_identity": "Pass; exact scope in report.md",
+          "featured_proposal": "Pending",
+          "mapping_type": "Not selected",
+          "phonetic_fit": "Not applicable",
+          "status": "Featured Pending",
+          "historical_relation": "Not claimed",
+          "accepted": false,
+          "reviewed": false,
+          "published": false,
+          "evidence_report": "report.md",
+          "evidence_section": 4,
+          "benchmark_status": "Benchmark-ineligible after production exposure",
+          "exposure_recorded_at": "2026-09-28T16:35:19.358Z"
+        },
+        "research_section": "4. 神农氏人身牛头 — cultural tradition\n\nStandard identity: 神农人身牛首传说；not literal biological or historical fact.\n\nSource reopened: https://www.shidianguji.com/mid-page/7557480168089042982 . 明代陈嘉谟《图像本草蒙筌》digital transcription explicitly attests 人身牛首. Underlying edition/image not independently checked; Pending. This dates the inspected attestation, not the origin of the tradition.\n\nOriginal NEW raw-note context also mentions Nibiru/Anunnaki. Preserve as imported raw speculation with unknown author. No independent evidence found here linking those traditions; do not promote to historical contact, common origin or English new etymology.\n\nSerious interpretations: attested mythic description; cultural human/animal composite imagery. Controls: mythic anatomy is not biological evidence; shared bull imagery is not evidence of contact. No forced lexical mapping or sound score.\n\nRecommendation: **Featured Pending**, retain cultural record and the negative-evidence boundary. Reuse NEW source locator only; no inherited Featured. Expansion not applicable.\n",
+        "original_observation": {
+          "candidate_id": "RQ-62412ae88f1e",
+          "origin": "unknown",
+          "author": null,
+          "source_location": "data/language-book.v1.0.json#/entries/39/source/raw_note",
+          "original_value": "New，新的。牛 niu。丑牛时辰为一天新的开始。English new adj. 新的；French nouveau adj. 新的；Chinese 牛 n.。子鼠丑牛。子不代表新，牛时辰是新的开始。另提及 Nibiru/Anunnaki 与神农氏人身牛头。原始推想仅留档：Not evidence for etymology or historical relation。"
+        },
+        "evidence_status": "Unchanged from frozen proposal; unresolved evidence remains Pending"
+      }
+    },
+    {
+      "candidate_id": "RQ-c7fe2748656a",
+      "source_word": "couvent",
+      "normalized_form": "couvent",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-006-freeze.v0.1.json#RQ-c7fe2748656a",
+      "blockers": [
+        "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-c7fe2748656a",
+        "source_form": "couvent",
+        "source_language": "French",
+        "origin": "unknown",
+        "author": null,
+        "standard_meaning": "修道院／修会会院；宗教共同体（转喻）；旧女子宗教寄宿学校义另列。Exclude homographic couver conjugation.",
+        "primary_pipeline": "Lexical–Diachronic",
+        "featured": "Pending",
+        "mapping_type": "Not selected",
+        "phonetic_fit": "Low",
+        "semantic_fit": "See unchanged sense-specific research section; no new rating",
+        "historical_relation": "Not claimed",
+        "status": "Ready with Featured Pending",
+        "pending": [
+          "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+        ],
+        "editorial_boundary": "Retain frozen sense boundaries and candidates; no new Featured or evidence promotion.",
+        "research_record": {
+          "candidate_id": "RQ-c7fe2748656a",
+          "source_form": "couvent",
+          "source_language": "French",
+          "primary_pipeline": "Lexical–Diachronic",
+          "origin": "unknown",
+          "author": null,
+          "source_identity": "Pass; exact scope in report.md",
+          "featured_proposal": "Pending",
+          "mapping_type": "Not selected",
+          "phonetic_fit": "Low",
+          "status": "Featured Pending",
+          "historical_relation": "Not claimed",
+          "accepted": false,
+          "reviewed": false,
+          "published": false,
+          "evidence_report": "report.md",
+          "evidence_section": 5,
+          "benchmark_status": "Benchmark-ineligible after production exposure",
+          "exposure_recorded_at": "2026-09-28T16:35:19.358Z"
+        },
+        "research_section": "5. couvent — French masculine noun\n\nStandard: 修道院／修会会院；宗教共同体（转喻）；旧女子宗教寄宿学校义另列。Exclude homographic couver conjugation.\n\nHistory: convenire assembling family; Latin conventus / ecclesiastical conventum are the differing citation forms preserved in consulted dictionaries; Old French convent/cuvent, twelfth century; modern community/residence senses. Do not silently merge all modern institution meanings with the assembly stage.\n\nSources: https://www.dictionnaire-academie.fr/article/A9C4710 ; https://www.cnrtl.fr/lexicographie/couvent (indexed TLFi).\n\nCandidates: 修道院 xiūdàoyuàn (residence, High); 会众 huìzhòng (community, Medium, institutional scope limited); 聚 jù (historical assembling operation, Medium, not modern building translation). Individual Mainland Chinese paper/entry verification remains Pending.\n\nControls: 宗教共同体, semantic strong/sound weak; 口 kǒu, onset-only mismatch. Expansion: 宫 gōng via g-k-h, rejected semantic mismatch—partial religious-building overlap is not convent identity. Counterexample: couvent can house men; English female-associated usage must not be imposed on French.\n\nRecommendation: **Featured Pending**. CONVENT family research reusable, Chinese conclusions not inherited.\n",
+        "original_observation": {
+          "candidate_id": "RQ-c7fe2748656a",
+          "origin": "unknown",
+          "author": null,
+          "source_location": "data/language-book.v1.0.json#/entries/28/related_words/2",
+          "original_value": {
+            "word": "couvent",
+            "language": "French",
+            "relationship_type": "Historical cognate/borrowing family",
+            "family": "Latin conventus",
+            "relation_to_entry": {
+              "en": "Documented historical relation within the stated family.",
+              "zh-Hans": "在所列词族内有文献支持的历史关系。"
+            },
+            "status": "Established",
+            "source_refs": [
+              "REF-MW-CONVENT",
+              "REF-MW-CONVENTION",
+              "REF-CNRTL-COUVENT",
+              "REF-CNRTL-CONVENTION"
+            ]
+          }
+        },
+        "evidence_status": "Unchanged from frozen proposal; unresolved evidence remains Pending"
+      }
+    },
+    {
+      "candidate_id": "RQ-31a9fccf8a5e",
+      "source_word": "forme",
+      "normalized_form": "forme",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Candidate",
+      "candidate_mapping": "形 xíng",
+      "source_provenance": "data/review/production-006-freeze.v0.1.json#RQ-31a9fccf8a5e",
+      "blockers": [
+        "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-31a9fccf8a5e",
+        "source_form": "forme",
+        "source_language": "French",
+        "origin": "unknown",
+        "author": null,
+        "standard_meaning": "形状／形态；形式、体能状态等另义。Exclude former verb inflections.",
+        "primary_pipeline": "Lexical–Diachronic",
+        "featured": "形 xíng",
+        "mapping_type": "Limited Structural-Semantic Candidate",
+        "phonetic_fit": "Low",
+        "semantic_fit": "High",
+        "historical_relation": "Not claimed",
+        "status": "Ready for canonical candidate entry",
+        "pending": [
+          "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+        ],
+        "editorial_boundary": "shape / external form only; excludes être en forme and other senses; Semantic Fit High; Phonetic Fit Low.",
+        "research_record": {
+          "candidate_id": "RQ-31a9fccf8a5e",
+          "source_form": "forme",
+          "source_language": "French",
+          "primary_pipeline": "Lexical–Diachronic",
+          "origin": "unknown",
+          "author": null,
+          "source_identity": "Pass; exact scope in report.md",
+          "featured_proposal": "形 xíng",
+          "mapping_type": "Structural-Semantic Candidate",
+          "phonetic_fit": "Low",
+          "status": "Ready for Editorial Freeze",
+          "historical_relation": "Not claimed",
+          "accepted": false,
+          "reviewed": false,
+          "published": false,
+          "evidence_report": "report.md",
+          "evidence_section": 6,
+          "benchmark_status": "Benchmark-ineligible after production exposure",
+          "exposure_recorded_at": "2026-09-28T16:35:19.358Z"
+        },
+        "research_section": "6. forme — French feminine noun\n\nStandard: 形状／形态；形式、体能状态等另义。Exclude former verb inflections.\n\nHistory: Latin forma → French forme (eleventh century per Académie). No speculative deeper origin or forced Abstract→Concrete chronology.\n\nSource: https://www.dictionnaire-academie.fr/article/A9F1288\n\nCandidates: 形 xíng (external configuration, High); 型 xíng (mould/model sense, Medium); 式 shì (formal arrangement/manner sense, Medium). 形 evidence: https://zdic.net/hans/形 and https://zdic.net/hans/形状 . 型/式 exact scoped entry verification Pending.\n\nControls: 形状 xíngzhuàng semantic baseline, weak sound; 风 fēng phonetic-onset/meaning mismatch. Expansion: 方 fāng via b-p-m-f not selected; square is only one shape, not general form. Counterexample: être en forme concerns fitness, not “有形”.\n\nRecommendation: **Featured Candidate = 形 xíng**, Structural-Semantic, external-configuration sense only; Phonetic Low. This is independently proposed from French sense evidence, not inherited English FORM Featured. Requires Jinkai review.\n",
+        "original_observation": {
+          "candidate_id": "RQ-31a9fccf8a5e",
+          "origin": "unknown",
+          "author": null,
+          "source_location": "data/language-book.v1.0.json#/entries/31/related_words/0",
+          "original_value": {
+            "word": "forme",
+            "language": "French",
+            "relationship_type": "Historical cognate/borrowing family",
+            "family": "Latin forma",
+            "relation_to_entry": {
+              "en": "Documented historical relation within the stated family.",
+              "zh-Hans": "在所列词族内有文献支持的历史关系。"
+            },
+            "status": "Established",
+            "source_refs": [
+              "REF-MW-FORM",
+              "REF-MW-FARM"
+            ]
+          }
+        },
+        "evidence_status": "Unchanged from frozen proposal; unresolved evidence remains Pending"
+      }
+    },
+    {
+      "candidate_id": "RQ-68b3017cc6be",
+      "source_word": "generation",
+      "normalized_form": "generation",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Pending",
+      "candidate_mapping": "Pending",
+      "source_provenance": "data/review/production-006-freeze.v0.1.json#RQ-68b3017cc6be",
+      "blockers": [
+        "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-68b3017cc6be",
+        "source_form": "generation",
+        "source_language": "English",
+        "origin": "unknown",
+        "author": null,
+        "standard_meaning": "产生／生成；生育；一代／世代；技术代次。Not French génération.",
+        "primary_pipeline": "Lexical–Diachronic",
+        "featured": "Pending",
+        "mapping_type": "Not selected",
+        "phonetic_fit": "Low",
+        "semantic_fit": "See unchanged sense-specific research section; no new rating",
+        "historical_relation": "Not claimed",
+        "status": "Ready with Featured Pending",
+        "pending": [
+          "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+        ],
+        "editorial_boundary": "Retain frozen sense boundaries and candidates; no new Featured or evidence promotion.",
+        "research_record": {
+          "candidate_id": "RQ-68b3017cc6be",
+          "source_form": "generation",
+          "source_language": "English",
+          "primary_pipeline": "Lexical–Diachronic",
+          "origin": "unknown",
+          "author": null,
+          "source_identity": "Pass; exact scope in report.md",
+          "featured_proposal": "Pending",
+          "mapping_type": "Not selected",
+          "phonetic_fit": "Low",
+          "status": "Featured Pending",
+          "historical_relation": "Not claimed",
+          "accepted": false,
+          "reviewed": false,
+          "published": false,
+          "evidence_report": "report.md",
+          "evidence_section": 7,
+          "benchmark_status": "Benchmark-ineligible after production exposure",
+          "exposure_recorded_at": "2026-09-28T16:35:19.358Z"
+        },
+        "research_section": "7. generation — English noun\n\nStandard: 产生／生成；生育；一代／世代；技术代次。Not French génération.\n\nHistory: Latin generare/generatio; Anglo-French generacion and Latin sources for Middle English generacioun, English first use fourteenth century per MW. Modern senses are separate, not a fabricated temporal chain.\n\nSource: https://www.merriam-webster.com/dictionary/generation\n\nCandidates: 生 shēng (birth/coming into being, High); 代 dài (cohort/descent/device generation, High); 生成 shēngchéng (production, High). Candidate-specific Chinese paper lexicographic evidence Pending; semantic proposals do not pretend to be completed deep verification.\n\nControls: 世代 shìdài semantic strong/sound weak; 根 gēn superficially resembles gen spelling but does not establish English /dʒ/ correspondence. Counterexample: power generation means 发电, not 世代; third generation is not three acts of birth.\n\nRecommendation: **Featured Pending**. GENERATE family can be reused; gan/gun/gin/gen root speculation is not restored. No g-k-h expansion merely from the letter g.\n",
+        "original_observation": {
+          "candidate_id": "RQ-68b3017cc6be",
+          "origin": "unknown",
+          "author": null,
+          "source_location": "data/language-book.v1.0.json#/entries/32/related_words/0",
+          "original_value": {
+            "word": "generation",
+            "language": "English",
+            "relationship_type": "Etymological derivative",
+            "family": "Latin generare / generatio",
+            "relation_to_entry": {
+              "en": "Documented historical relation within the stated family.",
+              "zh-Hans": "在所列词族内有文献支持的历史关系。"
+            },
+            "status": "Established",
+            "source_refs": [
+              "REF-MW-GENERATE",
+              "REF-MW-GENERATION"
+            ]
+          }
+        },
+        "evidence_status": "Unchanged from frozen proposal; unresolved evidence remains Pending"
+      }
+    },
+    {
+      "candidate_id": "RQ-c6e4c0019ec1",
+      "source_word": "média",
+      "normalized_form": "média",
+      "review_status": "candidate",
+      "publication_status": "not_published",
+      "featured_mapping_status": "Candidate",
+      "candidate_mapping": "媒 méi",
+      "source_provenance": "data/review/production-006-freeze.v0.1.json#RQ-c6e4c0019ec1",
+      "blockers": [
+        "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+      ],
+      "baseline_record": {
+        "candidate_id": "RQ-c6e4c0019ec1",
+        "source_form": "média",
+        "source_language": "French",
+        "origin": "unknown",
+        "author": null,
+        "standard_meaning": "媒体／传播媒介；singular un média, plural médias.",
+        "primary_pipeline": "Lexical–Diachronic",
+        "featured": "媒 méi",
+        "mapping_type": "Limited Structural-Semantic Candidate",
+        "phonetic_fit": "Low",
+        "semantic_fit": "Medium–High",
+        "historical_relation": "Not claimed",
+        "status": "Ready for canonical candidate entry",
+        "pending": [
+          "Mainland large paper-dictionary exact entries / editions / pages: Pending; online evidence is not paper verification."
+        ],
+        "editorial_boundary": "intermediary / connecting structure only; matchmaker is not directly equivalent to mass media; Semantic Fit Medium–High; Phonetic Fit Low.",
+        "research_record": {
+          "candidate_id": "RQ-c6e4c0019ec1",
+          "source_form": "média",
+          "source_language": "French",
+          "primary_pipeline": "Lexical–Diachronic",
+          "origin": "unknown",
+          "author": null,
+          "source_identity": "Pass; exact scope in report.md",
+          "featured_proposal": "媒 méi",
+          "mapping_type": "Structural-Semantic Candidate",
+          "phonetic_fit": "Low",
+          "status": "Ready for Editorial Freeze",
+          "historical_relation": "Not claimed",
+          "accepted": false,
+          "reviewed": false,
+          "published": false,
+          "evidence_report": "report.md",
+          "evidence_section": 8,
+          "benchmark_status": "Benchmark-ineligible after production exposure",
+          "exposure_recorded_at": "2026-09-28T16:35:19.358Z"
+        },
+        "research_section": "8. média — French masculine noun\n\nStandard: 媒体／传播媒介；singular un média, plural médias.\n\nHistory: twentieth-century shortening/borrowing of American English mass media. Latin medium/media is remote family background through English, not a direct French donor or French plural rule.\n\nSource: https://www.dictionnaire-academie.fr/article/A9M1495\n\nCandidates: 媒体 méitǐ (communication medium, High); 媒 méi (connecting/intermediating entity, Medium–High in communication scope); 传播媒介 chuánbō méijiè (phrase equivalent, High). Chinese evidence: https://zdic.net/hans/媒 basic/detailed sections explicitly distinguish matchmaker and connecting entity. Paper-edition verification remains Pending.\n\nControls: 传播工具 semantic strong/sound weak; 煤 méi same Chinese sound but coal is irrelevant. Expansion: 模 mó via b-p-m-f rejected semantic mismatch (model/mould, not communication medium). 媒 itself came from semantic retrieval, not credited as expansion-added.\n\nRecommendation: **Featured Candidate = 媒 méi**, limited Structural-Semantic comparison in intermediary/communication sense; Phonetic Low, only partial initial resemblance. French evidence assessed separately from legacy MEDIA. Counterexamples: Latin media plural versus French média singular; matchmaker is not a mass medium.\n",
+        "original_observation": {
+          "candidate_id": "RQ-c6e4c0019ec1",
+          "origin": "unknown",
+          "author": null,
+          "source_location": "data/language-book.v1.0.json#/entries/36/related_words/2",
+          "original_value": {
+            "word": "média",
+            "language": "French",
+            "relationship_type": "Borrowing/abbreviation family",
+            "family": "mass-média; Latin media",
+            "relation_to_entry": {
+              "en": "Documented historical relation within the stated family.",
+              "zh-Hans": "在所列词族内有文献支持的历史关系。"
+            },
+            "status": "Established",
+            "source_refs": [
+              "REF-MW-MEDIUM",
+              "REF-MW-MIDDLE",
+              "REF-CNRTL-MEDIA"
+            ]
+          }
+        },
+        "evidence_status": "Unchanged from frozen proposal; unresolved evidence remains Pending"
+      }
     }
   ]
 }

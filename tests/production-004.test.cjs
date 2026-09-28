@@ -13,7 +13,7 @@ test('Batch 004 intake preserves six candidates, two controls, unknown origins a
 });
 test('Candidate lookup exposes new candidates without controls or publication',()=>{
  const api=require('../js/production-candidate-data.js'),a=read('data/candidates/production-corpus.v0.1.json');
- assert.equal(a.records.length,36);
+ assert.equal(a.records.length,44);
  for(const form of ['abashed','horror','horrid','meaning','up','inside','上','内'])assert.equal(api.lookupCandidates(a,form).kind,'candidate');
  for(const form of ['bound','law'])assert.equal(api.lookupCandidates(a,form).kind,'unknown');
 });

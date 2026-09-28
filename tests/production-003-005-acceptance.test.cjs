@@ -18,7 +18,7 @@ test('003/005 acceptance preserves all frozen research and limits Featured to ap
    assert.equal(a.review_status,'candidate');assert.equal(a.publication_status,'not_published');
   }
  }
- assert.equal(active.records.length,36);assert.equal(active.records.filter(r=>r.featured_mapping_status==='Pending').length,26);
+ assert.equal(active.records.length,44);assert.equal(active.records.filter(r=>r.featured_mapping_status==='Pending').length,32);
 });
 test('Existing twenty candidate records remain unchanged by appended acceptance',()=>{
  const old=JSON.parse(execFileSync('git',['show','53507311c5a5048d46f66f593d067d7f5904901a:data/candidates/production-corpus.v0.1.json'],{cwd:root,encoding:'utf8',maxBuffer:20*1024*1024}));
@@ -32,8 +32,9 @@ test('Accepted sixteen are completed, not pending or dispatchable; other queues 
  const ids=acceptance.batches.flatMap(b=>b.candidate_ids);
  assert.equal(ids.length,16);
  for(const id of ids){assert.ok(s.exclusions.completed_ids.includes(id));assert.ok(!a.selection.some(t=>t.candidate_ids.includes(id)));}
- assert.deepEqual(read('research/production-state/pending-batches.v1.json').batches,[]);
- assert.equal(a.selection.length+a.deferred.filter(r=>r.reason.startsWith('Eligible;')).length,12);
+ const pending=read('research/production-state/pending-batches.v1.json').batches.flatMap(b=>b.candidate_ids);
+ assert.ok(ids.every(id=>!pending.includes(id)));
+ assert.equal(a.selection.length+a.deferred.filter(r=>r.reason.startsWith('Eligible;')).length,4);
  assert.equal(a.deferred.filter(r=>r.reason.startsWith('Provenance/Identity Queue:')).length,13);
  assert.equal(a.worker_runs,0);
 });

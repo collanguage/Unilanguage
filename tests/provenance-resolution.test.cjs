@@ -7,7 +7,11 @@ test('Resolution preserves previous Registry event prefix and all linguistic cor
  const r=read(folder+'resolution.json');
  const old=p=>JSON.parse(execFileSync('git',['show',r.baseline_commit+':'+p],{cwd:root,encoding:'utf8',maxBuffer:64*1024*1024}));
  assertAppendOnly(old('research/observations/registry.v0.1.json'),read('research/observations/registry.v0.1.json'));
- for(const p of ['data/language-book.v1.0.json','data/candidates/production-corpus.v0.1.json','data/candidates/production-archive.v0.1.json','research/controls/production-004.v0.1.json'])
+ const corpusPath='data/candidates/production-corpus.v0.1.json';
+ const before=old(corpusPath),current=read(corpusPath);
+ // Later editorial acceptance may append candidates; every prior record and envelope remains intact.
+ assert.deepEqual({...current,records:current.records.slice(0,before.records.length)},before);
+ for(const p of ['data/language-book.v1.0.json','data/candidates/production-archive.v0.1.json','research/controls/production-004.v0.1.json'])
   assert.deepEqual(read(p),old(p));
 });
 test('Nineteen imported scopes resolve exact sources, preserve raw text and do not infer authors or targets',async()=>{
@@ -30,7 +34,7 @@ test('Only six identity rows change eligibility; thirteen compound identities st
  const old=JSON.parse(execFileSync('git',['show',resolution.baseline_commit+':research/production-state/queue-seed.v1.json'],{cwd:root,encoding:'utf8',maxBuffer:10*1024*1024}));
  const audited=new Set(resolution.records.map(x=>x.candidate_id));
  assert.deepEqual(now.items.filter(x=>!audited.has(x.candidate_id)),old.items.filter(x=>!audited.has(x.candidate_id)));
- const a=schedule(prepareSnapshot({root,at:'regression'}));
+ const a=schedule(read(folder+'queue-snapshot.json')); // Historical audit checkpoint stays immutable as production advances.
  assert.equal(a.selection.length,8);assert.equal(a.deferred.filter(x=>x.reason.startsWith('Eligible;')).length,4);
  assert.equal(a.deferred.filter(x=>x.reason.startsWith('Provenance/Identity Queue:')).length,13);
  for(const r of resolution.records.filter(x=>x.identity_status!=='Pass'))assert.ok(a.deferred.some(x=>x.research_object_id===r.candidate_id&&x.reason.startsWith('Provenance/Identity Queue:')));
