@@ -17,6 +17,7 @@ export function prepareSnapshot({root,at}) {
   const controls=read('research/controls/production-004.v0.1.json');
   const registry=read('research/observations/registry.v0.1.json');
   const completions=read('research/scheduler/production-completions.v0.1.json');
+  const identities=read('research/observations/mixed-form-resolution-v1/resolution.json');
   if(!Array.isArray(reservations.benchmark_ids)||!Array.isArray(reservations.holdout_ids)||!Array.isArray(pending.batches))throw Error('Missing reservation/pending state; fail closed');
   const pendingIds=new Set(pending.batches.filter(b=>b.status==='awaiting_jinkai_review').flatMap(b=>b.candidate_ids));
   const reserved=new Set([...reservations.benchmark_ids,...reservations.holdout_ids]);
@@ -29,6 +30,22 @@ export function prepareSnapshot({root,at}) {
   const projected=registryQueueProjection(registry).map(x=>({...x,input_channel:x.observations.some(o=>o.origin_type==='ai_discovery')?'ai_discovery_pool':'observation_registry'}));
   for(const item of projected)if(pendingIds.has(item.candidate_id))item.research_status='review_pending';
   items.push(...projected);
+  // Explicit identity adjudication only: retain original observations and map
+  // their links to object-specific metadata, never to a parent's mixed form.
+  const descriptors=new Map(identities.objects.map(o=>[o.id,o.queue_descriptor]));
+  const superseded=new Map(identities.parents.filter(p=>p.superseded).map(p=>[p.candidate_id,p.child_object_ids]));
+  const tainted=id=>reserved.has(id)||identities.objects.some(o=>o.id===id&&reserved.has(o.parent_candidate_id));
+  for(const o of identities.objects)if(!items.some(x=>x.research_object_id===o.id))items.push({...o.queue_descriptor});
+  for(let i=0;i<items.length;i++){
+    const item=items[i],id=item.research_object_id;
+    if(tainted(id)||item.ai_exposure_status==='unexposed'||['reserved','future_holdout'].includes(item.holdout_status)){
+      items[i]={candidate_id:item.candidate_id,research_object_id:id,input_channel:item.input_channel,holdout_status:'reserved',alias_ids:identities.objects.filter(o=>o.id===id).map(o=>o.parent_candidate_id)};
+      continue;
+    }
+    if(superseded.has(id)){items[i]={...item,duplicate_of:superseded.get(id).join(',')};continue;}
+    const d=descriptors.get(id);
+    if(d)items[i]={...item,...d,observations:item.observations,observation_ids:item.observation_ids,holdout_status:item.holdout_status,ai_exposure_status:item.ai_exposure_status,provenance:[...(item.provenance||[]),...(d.provenance||[])],research_status:pendingIds.has(id)?'review_pending':item.research_status};
+  }
   return {version:'0.1',snapshot_id:`PRODUCTION-QUEUE-${at}`,batch_name:'Production selection — proposal only',captured_at:at,sources,
     exclusions:{benchmark_ids:reservations.benchmark_ids,holdout_ids:reservations.holdout_ids,
       completed_ids:[...new Set([...seed.prior_processed_ids,...completions.records.map(x=>x.candidate_id),...active.records.map(x=>x.candidate_id),...controls.records.map(x=>x.candidate_id),...legacy.entries.map(x=>`legacy:${x.id}`)])],

@@ -16,11 +16,11 @@ new linguistic findings or accept pending proposals.
 - Review backlog: **0** (Production 006 accepted). Original 003/005 proposals remain unchanged under
   `research/production-state/pending/`; acceptance is recorded separately in
   `research/production-state/acceptance-003-005.v1.json` and the approved freezes.
-- Eligible unprocessed queue: **4**. Identity/provenance queue: **13**.
+- Eligible unprocessed queue: **17**. Identity/provenance queue: **5** (scoped pending); historical-only objects: **4**.
 - Benchmark: **Designed / Frozen / Execution Pending Isolated Evaluator**.
 - Next action: await Jinkai Liu instruction; **do not start another batch**.
 
-Provenance audit: observations/provenance-resolution-v1/REPORT.md. All 19 scopes are imported/author-unknown; 6 now pass intake identity, 13 remain composite. Registry gained 19 scoped imports, not independent discoveries. Saved Scheduler output is dry-run only.
+Historical provenance-audit checkpoint: observations/provenance-resolution-v1/REPORT.md. At that checkpoint all 19 scopes were imported/author-unknown; 6 passed intake identity and 13 remained composite. The later mixed-form resolution below supersedes those queue counts. Registry gained 19 scoped imports, not independent discoveries. Saved Scheduler output is dry-run only.
 
 Production 006 acceptance: `production-state/acceptance-006.v1.json`; approved freeze: `data/review/production-006-freeze.v0.1.json`. Original proposal files remain immutable historical records with their original unaccepted status; the acceptance record supersedes their workflow status.
 
@@ -69,7 +69,7 @@ node scripts/run-queue-scheduler.mjs /absolute/path/to/new-snapshot.json /absolu
 
 The last two commands are **dry run only**. Output paths must be new files;
 relative paths resolve against checkout root. The old OUTPUTS_DIR argument
-is intentionally rejected. Four eligible objects remain; eight Production 006 records are excluded as accepted candidates.
+is intentionally rejected. Seventeen eligible objects remain; eight Production 006 records are excluded as accepted candidates.
 No research is dispatched without separate authorization. Historical Batch 004 snapshots
 remain immutable and replayable.
 
@@ -142,3 +142,9 @@ dry-run selection without any Work folder. It cannot recover intentionally exter
 private benchmark contents or original authentication evidence that was never
 recorded. New research still needs source access and human review; Git does not
 replace those services or prove linguistic claims.
+
+## Mixed-form identity resolution v1.0
+
+`observations/mixed-form-resolution-v1/resolution.json` is the identity-only overlay over the unchanged queue seed. Thirteen original observations remain immutable; 23 scoped objects comprise 19 new, one linked existing (pression), and three retained pending identities. Four Latin units are historical-only and require separate research scope; five unresolved scopes (formation, genus, medium, signal, signature) remain gated. No family relation or Mapping/Evidence conclusion is inherited. Registry uses append-only object/link/normalize events; no new authorship.
+
+`observations/mixed-form-resolution-v1/scheduler-dry-run.json` is a suggestion only, not a started batch. Next research needs Jinkai Liu authorization.

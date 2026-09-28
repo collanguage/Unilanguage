@@ -2,14 +2,14 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),os=require('node:os');
 const root=path.resolve(__dirname,'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
-test('Durable state resolves 42/44/2/2, no review-pending proposals and four eligible objects',async()=>{
+test('Durable state resolves 42/44/2/2, no review-pending proposals and seventeen eligible objects',async()=>{
  const {validateState,deriveState}=await import('../scripts/production-state.mjs');
  assert.deepEqual(validateState(root),[]);
  const m=deriveState(root,'2026-09-28T00:00:00.000Z');
  assert.equal(m.legacy_corpus.count,42);assert.equal(m.active_candidate_corpus.count,44);
  assert.equal(m.archive_count,2);assert.equal(m.control_count,2);
- assert.equal(m.observation_registry.count,85);assert.equal(m.eligible_queue_count,4);
- assert.equal(m.provenance_review_queue_count,13);
+ assert.equal(m.observation_registry.count,85);assert.equal(m.eligible_queue_count,17);
+ assert.equal(m.provenance_review_queue_count,5);
  assert.deepEqual(m.pending_freeze_batches.map(b=>[b.batch_id,b.count]),[]);
  assert.deepEqual(m.runtime_external_work_dependencies,[]);
 });

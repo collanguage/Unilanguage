@@ -34,8 +34,8 @@ test('Accepted sixteen are completed, not pending or dispatchable; other queues 
  for(const id of ids){assert.ok(s.exclusions.completed_ids.includes(id));assert.ok(!a.selection.some(t=>t.candidate_ids.includes(id)));}
  const pending=read('research/production-state/pending-batches.v1.json').batches.flatMap(b=>b.candidate_ids);
  assert.ok(ids.every(id=>!pending.includes(id)));
- assert.equal(a.selection.length+a.deferred.filter(r=>r.reason.startsWith('Eligible;')).length,4);
- assert.equal(a.deferred.filter(r=>r.reason.startsWith('Provenance/Identity Queue:')).length,13);
+ assert.equal(a.selection.length+a.deferred.filter(r=>r.reason.startsWith('Eligible;')).length,17);
+ assert.equal(a.deferred.filter(r=>r.reason.startsWith('Provenance/Identity Queue:')).length,5);
  assert.equal(a.worker_runs,0);
 });
 test('003/005 evidence gate rejects evidence promotion and loss of frozen limits',async()=>{

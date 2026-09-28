@@ -99,9 +99,9 @@ test('AI Discovery pool joins human queue through the same association layer, ar
 });
 test('Migration preserves exact source text, 42+14+2 and valid associations',async()=>{
  const {validateRegistry}=await import('../scripts/validate-observation-registry.mjs');const report=validateRegistry(root);
- assert.equal(report.observations,85);assert.deepEqual(report.origins,{unknown:71,ai_discovery:14});assert.equal(report.production_tasks,19);
+ assert.equal(report.observations,85);assert.deepEqual(report.origins,{unknown:71,ai_discovery:14});assert.equal(report.production_tasks,38);
  const m=await modulePromise,state=m.replay(m.loadRegistry(path.join(root,'research/observations/registry.v0.1.json')));
- assert.equal(state.objects.filter(x=>x.kind==='candidate').length,77);
+ assert.equal(state.objects.filter(x=>x.kind==='candidate').length,96);
  assert.equal(state.objects.filter(x=>x.kind==='mapping').length,51);
  assert.ok(state.observations.every(x=>x.review_status==='unreviewed' && x.publication_status==='not_published'));
 });

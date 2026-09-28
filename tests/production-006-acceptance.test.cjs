@@ -23,7 +23,7 @@ test('006 is completed and excluded without dispatch or acceptance of new object
  const {deriveState,validateState}=await import('../scripts/production-state.mjs');
  assert.deepEqual(validateState(root),[]);
  const state=deriveState(root,'006-regression');
- assert.deepEqual(state.pending_freeze_batches,[]);assert.equal(state.eligible_queue_count,4);assert.equal(state.provenance_review_queue_count,13);
+ assert.deepEqual(state.pending_freeze_batches,[]);assert.equal(state.eligible_queue_count,17);assert.equal(state.provenance_review_queue_count,5);
  assert.equal(state.automatic_dispatch,false);
 });
 test('006 editorial gate rejects sense expansion, cultural upgrades and provenance promotion',async()=>{

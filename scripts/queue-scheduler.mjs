@@ -97,6 +97,7 @@ export function schedule(snapshot,{batchSize=PRODUCTION_POLICY.batch_size,timest
     else if(items.some(x=>x.research_status==='research'))denial='Research already in progress';
     else if(items.some(x=>x.research_status!=='queued'))denial='Research status unresolved; intake review required';
     else if(items.some(x=>x.duplicate_of))denial='Duplicate research scope; existing object retained';
+    else if(items.some(x=>x.temporal_status==='historical-only'))denial='Historical-only unit: separate scoped research authorization required';
     else if(items.some(x=>!['exposed_to_ai','post_ai_observation'].includes(x.ai_exposure_status)))denial='Exposure status unknown; intake decision required';
     if(denial){deferred.push({research_object_id:id,candidate_ids:ids,reason:denial});continue;}
     const item=items[0], composition=origins(items);

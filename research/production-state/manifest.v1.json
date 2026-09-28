@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "assembled_at": "2026-09-28T17:26:09.358Z",
+  "assembled_at": "2026-09-28T18:14:20.825Z",
   "legacy_corpus": {
     "version": "1.0",
     "path": "data/language-book.v1.0.json",
@@ -25,8 +25,17 @@
   "scheduler_version": "0.1",
   "last_accepted_batch": "Production 006",
   "pending_freeze_batches": [],
-  "eligible_queue_count": 4,
-  "provenance_review_queue_count": 13,
+  "eligible_queue_count": 17,
+  "provenance_review_queue_count": 5,
+  "identity_resolution_counts": {
+    "parent_observations": 13,
+    "objects": 23,
+    "new": 19,
+    "linked_existing": 1,
+    "retained_pending": 3,
+    "historical_only": 4,
+    "identity_pending": 5
+  },
   "benchmark_status": "Designed / Frozen / Execution Pending Isolated Evaluator",
   "benchmark_reservations": 42,
   "holdout_status": "No populated future holdout registered in supplied state; private custodian must update opaque exclusions before new intake",
@@ -57,7 +66,13 @@
       "sha256": "4fc1ed05c2967cca9c93a49e3e98aaaae3de745736a48736f9f15f93535dfbaf"
     },
     "production-state.mjs": {
-      "sha256": "206fb5176bd650e5b2bf54e6cac9b58a13527912649a090c908ac104579c01e3"
+      "sha256": "f87a63a4d34415d30a51253303cce3e85a0711b40ab535123305586899a67776"
+    },
+    "prepare-scheduler-snapshot.mjs": {
+      "sha256": "aa87f009bb1df17e4611e2cb53fbfad9fbb72e191ce4b74534b07f097aaca2e6"
+    },
+    "queue-scheduler.mjs": {
+      "sha256": "59eb4fd4d7cddf9aaa4d40db4b891af6ddc3c372b2ac180238ede14a13fe1644"
     }
   },
   "input_hashes": [
@@ -73,7 +88,7 @@
     },
     {
       "file": "research/production-state/pending-batches.v1.json",
-      "sha256": "4d8b5377936eea9a0fb4f4379c2019a9f5ded6aec5435c938dceb4e73c987ad5",
+      "sha256": "9a1a1b1ae4e64b2ac08e0f69aa026f87cf0c04b728d932f9b0224dcc9bce029d",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -98,16 +113,21 @@
     },
     {
       "file": "research/observations/registry.v0.1.json",
-      "sha256": "62970e1208a890d7505e45f4a4f85d39861dcf64378614238bcb6209ebbefa31",
+      "sha256": "23617f33fde5fc55f3e2eff86c69fd63fb7c055e34316d6fb2e813cb8a9e546d",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
       "file": "research/scheduler/production-completions.v0.1.json",
       "sha256": "3a10ab3e21080d1e4dad5911790fe6bd1080d69fd622ca2efea37d91225da050",
       "hash_algorithm": "sha256-utf8-lf"
+    },
+    {
+      "file": "research/observations/mixed-form-resolution-v1/resolution.json",
+      "sha256": "2cb2c00ba9f81a046cd5d4e735d884a7ab631cdd15e4485fcde9eb07b046fe05",
+      "hash_algorithm": "sha256-utf8-lf"
     }
   ],
-  "next_action": "Await Jinkai Liu instruction; 4 eligible and 13 identity/provenance objects remain. Do not automatically start another batch.",
+  "next_action": "Identity resolution complete at intake scope: 17 eligible, 5 scoped identity pending, 4 historical-only. Review saved dry-run selection; no research authorized.",
   "automatic_dispatch": false,
   "review_gate": "Jinkai Liu",
   "runtime_external_work_dependencies": [],

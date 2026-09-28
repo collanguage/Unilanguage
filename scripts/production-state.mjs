@@ -18,7 +18,7 @@ export function deriveState(root,at) {
  const registry=replay(read('research/observations/registry.v0.1.json'));
  const lock=read('research/production-state/preservation-lock.v1.json');
  const versions={};
- for(const name of ['validate-schema.mjs','validate-language-book-v1.mjs','validate-production-candidates.mjs','validate-observation-registry.mjs','validate-queue-scheduler.mjs','validate-production-004.mjs','production-state.mjs'])versions[name]={sha256:digest(fs.readFileSync(path.join(root,'scripts',name)))};
+ for(const name of ['validate-schema.mjs','validate-language-book-v1.mjs','validate-production-candidates.mjs','validate-observation-registry.mjs','validate-queue-scheduler.mjs','validate-production-004.mjs','production-state.mjs','prepare-scheduler-snapshot.mjs','queue-scheduler.mjs'])versions[name]={sha256:digest(fs.readFileSync(path.join(root,'scripts',name)))};
  return {version:STATE_VERSION,assembled_at:at,
   legacy_corpus:{version:'1.0',path:'data/language-book.v1.0.json',count:read('data/language-book.v1.0.json').entries.length},
   active_candidate_corpus:{version:'0.1',path:'data/candidates/production-corpus.v0.1.json',count:read('data/candidates/production-corpus.v0.1.json').records.length,status:'candidate; not Reviewed/Published'},
@@ -29,6 +29,7 @@ export function deriveState(root,at) {
   pending_freeze_batches:pending.batches.map(b=>({batch_id:b.batch_id,status:b.status,count:b.candidate_ids.length,proposal_path:b.proposal_path})),
   eligible_queue_count:audit.selection.length+audit.deferred.filter(r=>r.reason.startsWith('Eligible;')).length,
   provenance_review_queue_count:audit.deferred.filter(r=>r.reason.startsWith('Provenance/Identity Queue:')).length,
+  identity_resolution_counts:read('research/observations/mixed-form-resolution-v1/resolution.json').counts,
   benchmark_status:'Designed / Frozen / Execution Pending Isolated Evaluator',
   benchmark_reservations:snapshot.exclusions.benchmark_ids.length,
   holdout_status:read('research/production-state/reservations.v1.json').holdout_status,
