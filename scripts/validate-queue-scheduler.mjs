@@ -23,7 +23,7 @@ export function validateSchedulerAudit(snapshot,audit) {
   return errors;
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)) {
-  const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+  const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
   const input=read('research/scheduler/batch004-input.v0.1.json'),audit=read('research/scheduler/batch004-dry-run.v0.1.json');
   const errors=validateSchedulerAudit(input,audit);
   if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}

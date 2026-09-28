@@ -1,0 +1,177 @@
+{
+  "timestamp": "2026-09-28T01:19:58.937396+00:00",
+  "scheduler_version": "0.1",
+  "selection_unchanged": true,
+  "selection_hash": "053bb96cc7798e3d2062d730065732bf8ba0d1d74551c0eda8e3dd45429ef4c0",
+  "queue_snapshot": {
+    "snapshot_id": "PRODUCTION-SCHEDULER-DRY-004",
+    "scheduling_view_sha256": "86b295d1886e6d126a459d15ef9f9dbc7625b931f6edee715cb2e1dc758b3fcc",
+    "item_rows": 181,
+    "research_objects": 149,
+    "sources": [
+      {
+        "file": "production-research-batch-003/selection-manifest.json",
+        "sha256": "a6762911805cb564dcf1e54337de35d57f80de1dfe8e92041a94c7420e2d9d51"
+      },
+      {
+        "file": "production-research-queue-batch-001/isolation-manifest.json",
+        "sha256": "0ca9c5a39f18950daec85ed48ff6b83baaafc1174432cf0be38e7eb388a330d3"
+      },
+      {
+        "file": "production-pipeline-v0.1/deduplicated-candidate-inventory.json",
+        "sha256": "0b87becf8820c3049935d7abbbbf564ffb2a0c8295c91b7181280bae5e573137"
+      },
+      {
+        "file": "data/language-book.v1.0.json",
+        "sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5"
+      },
+      {
+        "file": "data/candidates/production-corpus.v0.1.json",
+        "sha256": "a641ad6857a07521bb6ee000c54a12735d5a56721c824eb0e7fbf14c6b3d41f0"
+      },
+      {
+        "file": "data/candidates/production-archive.v0.1.json",
+        "sha256": "7f0a5ad631b064717119cd6edc22058cf8ffefcf558096d54b6285494c768ce9"
+      },
+      {
+        "file": "research/observations/registry.v0.1.json",
+        "sha256": "1d47a59acf637425e6dcfaf472f551f2578b0131b5866007f1c9622ff6ff05a1"
+      }
+    ]
+  },
+  "selected_count": 8,
+  "deferred_count": 141,
+  "deferred_reason_counts": {
+    "Already processed / review pending": 60,
+    "Frozen benchmark exclusion": 42,
+    "Provenance/Identity Queue: missing lexical_identity, single lexical/root identity": 4,
+    "Provenance/Identity Queue: missing lexical_identity, single source-language identity, single lexical/root identity": 6,
+    "Provenance/Identity Queue: missing single source-language identity": 3,
+    "Provenance/Identity Queue: missing lexical_identity, meaning_context": 6,
+    "Archive: explicit human reopen required (not implemented by Scheduler)": 2,
+    "Duplicate research scope; existing object retained": 4,
+    "Eligible; deferred by eight-item capacity and transparent composition/backfill order": 14
+  },
+  "research_outcomes": [
+    {
+      "candidate_id": "RQ-101dda206cb9",
+      "entry": "BOUND",
+      "status": "Control / Negative",
+      "source_identity_gate": "Conditional: English form confirmed; original intended homonym unresolved. Four research scopes separated; control use safe, single-sense entry acceptance not authorized",
+      "primary_pipeline": "Lexical–Diachronic",
+      "reuse": "No inherited mapping"
+    },
+    {
+      "candidate_id": "RQ-562d6cb07a1c",
+      "entry": "LAW",
+      "status": "Control / Negative",
+      "source_identity_gate": "Pass: research scope confirmed",
+      "primary_pipeline": "Lexical–Diachronic",
+      "reuse": "Imported negative-control role retained; no target-package access"
+    },
+    {
+      "candidate_id": "RQ-73a0d89d12dc",
+      "entry": "ABASHED",
+      "status": "Featured Pending",
+      "source_identity_gate": "Pass: research scope confirmed",
+      "primary_pipeline": "Lexical–Diachronic",
+      "reuse": "ABASH → ABASHED: verified historical references reused; no Chinese conclusion inherited"
+    },
+    {
+      "candidate_id": "RQ-9132e6719bd4",
+      "entry": "MEANING",
+      "status": "Featured Pending",
+      "source_identity_gate": "Pass: research scope confirmed",
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "reuse": "No inherited Featured; raw package gloss preserved as unauthenticated intake"
+    },
+    {
+      "candidate_id": "RQ-2070e35dd27a",
+      "entry": "HORROR",
+      "status": "Featured Pending",
+      "source_identity_gate": "Pass: research scope confirmed",
+      "primary_pipeline": "Lexical–Diachronic",
+      "reuse": "ABHOR/horrēre reference bundle reused; horror modern noun evaluated independently"
+    },
+    {
+      "candidate_id": "RQ-7894011e782d",
+      "entry": "UP",
+      "status": "Ready for Editorial Freeze",
+      "source_identity_gate": "Pass: research scope confirmed",
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "reuse": "Space Protocol interface reused conceptually; not a shared etymology"
+    },
+    {
+      "candidate_id": "RQ-248f91f7b08f",
+      "entry": "HORRID",
+      "status": "Featured Pending",
+      "source_identity_gate": "Pass: research scope confirmed",
+      "primary_pipeline": "Lexical–Diachronic",
+      "reuse": "horrēre bundle reused; Latin horridus and modern adjective independently verified"
+    },
+    {
+      "candidate_id": "RQ-a5233aa38dc4",
+      "entry": "INSIDE",
+      "status": "Ready for Editorial Freeze",
+      "source_identity_gate": "Pass: research scope confirmed",
+      "primary_pipeline": "Cultural–Structural–Literary",
+      "reuse": "CONTAINMENT identity boundary reused as structural contrast; no lexical genealogy or Featured inherited"
+    }
+  ],
+  "origin_updates": 0,
+  "unknown_provenance_effect": "Prevents authorship/rediscovery claims, not source-word research. 1 ambiguous homograph scope; not proof unknown provenance caused it. Human/AI origin-composition balancing remains untested on real mixed-origin inputs.",
+  "family_reuse": {
+    "historical_bundle_types": 2,
+    "historical_reuse_edges": 3,
+    "structural_boundary_bundle_types": 1,
+    "structural_reuse_edges": 1,
+    "edges": [
+      "ABASH → ABASHED",
+      "horrēre / ABHOR references → HORROR",
+      "horrēre / ABHOR references → HORRID",
+      "CONTAINMENT scope boundary → INSIDE"
+    ],
+    "independent_evidence_bundle_rebuilds_avoided": 4,
+    "time_saved": "Not measured; no hours or percentage claimed",
+    "caveat": "4 reuse edges, not four new independent experiments; modern senses/Chinese evaluations still separately performed"
+  },
+  "benchmark_policy": "Existing cleared ID/exclusion snapshot only; no hidden target content opened; no benchmark score",
+  "recommendation": "Default selection source: yes, under existing review gate. Next batch: 8, not 10–12 yet. No new scheduler/algorithm implementation in this run.",
+  "acceptance": {
+    "active": 6,
+    "control": 2,
+    "archive": 0,
+    "next_batch_started": false
+  },
+  "family_reuse_measurements": {
+    "historical_research_reused": [
+      "ABASH -> ABASHED",
+      "horrore/horrere-family -> HORROR",
+      "horrere-family -> HORRID"
+    ],
+    "sources_reused": [
+      {
+        "target": "ABASHED",
+        "basis": "MW abash + CNRTL ebahir, rechecked"
+      },
+      {
+        "target": "HORROR",
+        "basis": "ABHOR/horrere source bundle, modern noun independently checked"
+      },
+      {
+        "target": "HORRID",
+        "basis": "horrere source bundle, horridus and adjective independently checked"
+      },
+      {
+        "target": "INSIDE",
+        "basis": "CONTAINMENT scope boundary, structural contrast only"
+      }
+    ],
+    "new_research_avoided": "Four existing-basis reconstruction opportunities reused; no measured duration or percentage",
+    "conclusion_inheritance_blocked": [
+      "ABASH Featured not inherited",
+      "ABHOR Featured/Evidence not inherited by HORROR/HORRID",
+      "CONTAINMENT Featured not inherited by INSIDE"
+    ]
+  }
+}

@@ -1,8 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=fileURLToPath(new URL('..',import.meta.url));
 import {schedule} from './queue-scheduler.mjs';
 
-const [input,output]=process.argv.slice(2);
+const [inputArg,outputArg]=process.argv.slice(2);
+const input=inputArg && path.resolve(root,inputArg),output=outputArg && path.resolve(root,outputArg);
 if(!input||!output)throw Error('Usage: run-queue-scheduler.mjs SANITIZED_SNAPSHOT NEW_AUDIT_FILE (dry run only)');
 const snapshot=JSON.parse(fs.readFileSync(input,'utf8'));
 const audit=schedule(snapshot);

@@ -3,9 +3,11 @@
   "private": true,
   "packageManager": "pnpm@11.19.0",
   "scripts": {
-    "test": "node --test --test-concurrency=1 tests/*.test.cjs",
-    "validate": "node scripts/validate-schema.mjs && node scripts/validate-language-book-v1.mjs && node scripts/validate-production-candidates.mjs && node scripts/validate-observation-registry.mjs && node scripts/validate-queue-scheduler.mjs",
+    "test": "node scripts/run-tests.mjs",
+    "validate": "node scripts/validate-schema.mjs && node scripts/validate-language-book-v1.mjs && node scripts/validate-production-candidates.mjs && node scripts/validate-observation-registry.mjs && node scripts/validate-queue-scheduler.mjs && node scripts/validate-production-004.mjs",
     "build": "node scripts/publication-build.mjs"
   },
-  "devDependencies": {"ajv": "8.17.1"}
+  "devDependencies": {
+    "ajv": "8.17.1"
+  }
 }

@@ -18,7 +18,9 @@ export function prepareSnapshot({outputs,root,at}) {
   const registry=read(root,'research/observations/registry.v0.1.json');
   const benchmark_ids=[...new Set([...prior.reserved_ids,...Object.keys(isolation.excluded_inventory_ids)])];
   const completedForms=new Set([...prior.prior_discovery_exclusions,...prior.processed_production_forms,...prior.selected.map(x=>x.source_form)].map(x=>x.toLowerCase()));
-  const completed_ids=[...active.records.map(x=>x.candidate_id),...prior.selected.map(x=>x.candidate_id),...legacy.entries.map(x=>`legacy:${x.id}`)];
+  const completions=read(root,'research/scheduler/production-completions.v0.1.json');
+  for(const record of completions.records)completedForms.add(record.source_form.toLowerCase());
+  const completed_ids=[...completions.records.map(x=>x.candidate_id),...active.records.map(x=>x.candidate_id),...prior.selected.map(x=>x.candidate_id),...legacy.entries.map(x=>`legacy:${x.id}`)];
   const archive_ids=archive.records.map(x=>x.candidate_id),items=[];
   const dimensionKey={'Novelty':'Candidate Novelty','Product/Mapper Value':'Product / Mapper Value'};
   inventory.candidates.forEach((r,index)=>{
@@ -47,7 +49,7 @@ export function prepareSnapshot({outputs,root,at}) {
   // stay excluded. A future active AI observation uses the same API.
   const projected=registryQueueProjection(registry);
   items.push(...projected.map(x=>({...x,input_channel:x.observations.some(o=>o.origin_type==='ai_discovery')?'ai_discovery_pool':'observation_registry'})));
-  const snapshot={version:'0.1',snapshot_id:'PRODUCTION-SCHEDULER-DRY-004',captured_at:at,sources,
+  const snapshot={version:'0.1',snapshot_id:`PRODUCTION-QUEUE-${at}`,batch_name:'Production selection — proposal only',captured_at:at,sources,
     exclusions:{benchmark_ids,holdout_ids:[],completed_ids:[...new Set(completed_ids)],archive_ids:[...new Set(archive_ids)]},items,
     scope_notes:[
       'Frozen reservation IDs inherited conservatively from approved Production isolation manifest; no hidden packages opened.',
@@ -59,9 +61,11 @@ export function prepareSnapshot({outputs,root,at}) {
   return snapshot;
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)) {
-  const [outputs,out]=process.argv.slice(2);
+  const [outputsArg,outArg]=process.argv.slice(2);
+  const root=fileURLToPath(new URL('..',import.meta.url));
+  const outputs=outputsArg && path.resolve(root,outputsArg),out=outArg && path.resolve(root,outArg);
   if(!outputs||!out)throw Error('Usage: prepare-scheduler-snapshot.mjs OUTPUTS_DIR NEW_SNAPSHOT_FILE');
-  const snapshot=prepareSnapshot({outputs,root:process.cwd(),at:new Date().toISOString()});
+  const snapshot=prepareSnapshot({outputs,root:fileURLToPath(new URL('..',import.meta.url)),at:new Date().toISOString()});
   fs.mkdirSync(path.dirname(out),{recursive:true});
   fs.writeFileSync(out,JSON.stringify(snapshot,null,2)+'\n',{flag:'wx'});
   console.log(`Sanitized snapshot: ${snapshot.items.length} rows; no research executed`);

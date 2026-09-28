@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+export const PRODUCTION_POLICY=Object.freeze(JSON.parse(fs.readFileSync(new URL('../research/scheduler/production-policy.v0.1.json',import.meta.url),'utf8')));
 import {digest, replay} from './observation-registry.mjs';
 
 export const SCHEDULER_VERSION='0.1';
@@ -68,7 +70,7 @@ function origins(items) {
 
 // Pure, dry-run-only planner: no tools, filesystem writes, registry mutation,
 // research calls, evidence writes, holdout release or acceptance capability.
-export function schedule(snapshot,{batchSize=8,timestamp=new Date().toISOString()}={}) {
+export function schedule(snapshot,{batchSize=PRODUCTION_POLICY.batch_size,timestamp=new Date().toISOString()}={}) {
   if(batchSize!==8)throw Error('v0.1 dry run is fixed at eight; explicit future policy revision required');
   if(!snapshot?.exclusions || !Array.isArray(snapshot.items))throw Error('Exclusion manifest and queue snapshot required');
   for(const k of ['benchmark_ids','holdout_ids','completed_ids','archive_ids'])if(!Array.isArray(snapshot.exclusions[k]))throw Error(`Missing ${k}; fail closed`);
@@ -136,7 +138,7 @@ export function schedule(snapshot,{batchSize=8,timestamp=new Date().toISOString(
   // Vacant quotas are not invented. Alternate existing pipelines for backfill.
   while(selected.length<batchSize){const before=selected.length;for(const p of pipelines)pick(eligible.filter(x=>x.primary_pipeline===p),1,'Unfilled composition slots; pipeline-balanced backfill in persisted queue order');if(selected.length===before)break;}
   for(const x of eligible)if(!selectedIds.has(x.research_object_id))deferred.push({...x,reason:'Eligible; deferred by eight-item capacity and transparent composition/backfill order'});
-  return {scheduler_version:SCHEDULER_VERSION,mode:'dry_run',timestamp,batch_name:'Production Batch 004 — proposal only',
+  return {scheduler_version:SCHEDULER_VERSION,mode:'dry_run',timestamp,batch_name:snapshot.batch_name||'Production Batch 004 — proposal only',
     queue_snapshot:{snapshot_id:snapshot.snapshot_id,scheduling_view_sha256:digest({eligible,deferred}),item_rows:snapshot.items.length,research_objects:groups.size,sources:snapshot.sources||[]},
     rules:{batch_size:8,preferred_slots:{human:4,ai:2,control_or_uncertain:2},ranking:'Human oldest-receipt; otherwise persisted queue order then stable object ID. Separate dimensions are descriptive; no aggregate score.',backfill:'Alternate approved pipelines; no quota fabrication'},
     selection:selected,deferred,

@@ -1,0 +1,524 @@
+{
+  "version": "0.1",
+  "record_type": "Control / Negative Research Records",
+  "not_archive": true,
+  "not_active": true,
+  "records": [
+    {
+      "entry": "BOUND",
+      "candidate_id": "RQ-101dda206cb9",
+      "source_language": "English",
+      "primary_pipeline": "Lexical–Diachronic",
+      "origin": "unknown provenance",
+      "authenticated_author_observation": null,
+      "imported_observations": [
+        {
+          "location": "data/language-book.v1.0.json#/entries/22/related_words/1",
+          "record": {
+            "word": "bound",
+            "language": "English",
+            "relationship_type": "surface similarity",
+            "family": "separate Germanic/French histories",
+            "relation_to_entry": {
+              "en": "Author comparison or semantic association only; not historical derivation.",
+              "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+            },
+            "status": "Interpretive",
+            "source_refs": [
+              "REF-LANGUAGESBOOK-ABOUND",
+              "REF-MW-ABOUND"
+            ]
+          },
+          "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5"
+        }
+      ],
+      "ai_research_origin": "AI research in this task; NOT attribution of imported observations",
+      "standard_meaning": "按 identity 分为：被绑/受约束；驶往/准备去；跳跃；边界/界限。禁止合为一个标准义。",
+      "source_identity_gate": "Conditional: English form confirmed; original intended homonym unresolved. Four research scopes separated; control use safe, single-sense entry acceptance not authorized",
+      "historical_stages": [
+        {
+          "stage_id": "B1",
+          "source_form": "bound / bounden ← bind",
+          "language": "English / Middle English",
+          "approximate_period": "medieval → modern",
+          "meaning": "binding/result state",
+          "relation": "bind 的屈折结果；不是 abound 的 root",
+          "source_refs": [
+            "MW-bound"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "B2",
+          "source_form": "bound ← boun ← búinn",
+          "language": "English / Middle English / Old Norse",
+          "approximate_period": "medieval → modern",
+          "meaning": "ready / destined / going toward",
+          "relation": "独立 ready/destination 分支",
+          "source_refs": [
+            "MW-bound"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "B3",
+          "source_form": "bound ← bond / bondir",
+          "language": "English / French",
+          "approximate_period": "early modern English; French earlier",
+          "meaning": "leap / rebound",
+          "relation": "独立跳跃分支；深源 *bombitire 只按词典重建标记",
+          "source_refs": [
+            "MW-bound"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "B4",
+          "source_form": "bound ← bounde / bodne ← bodina",
+          "language": "English / Anglo-French / Medieval Latin",
+          "approximate_period": "medieval → modern",
+          "meaning": "limit / boundary",
+          "relation": "独立界限分支；不连到 bind",
+          "source_refs": [
+            "MW-bound"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        }
+      ],
+      "candidates": [
+        {
+          "chinese_form": "绑",
+          "reading": "bǎng",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "捆缚",
+          "target_stage": "B1",
+          "semantic_fit": "High (被绑状态需构式)",
+          "phonetic_fit": "Limited",
+          "structural_fit": "Medium",
+          "counterevidence": "绑是动作；bound 可为结果或义务；不能覆盖其他三支",
+          "source_refs": [
+            "ZD-绑"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "semantic retrieval",
+          "disposition": "retained",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "Not used to generate this row; no evidence bonus",
+          "form": "绑"
+        },
+        {
+          "chinese_form": "界",
+          "reading": "jiè",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "边限",
+          "target_stage": "B4",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "counterevidence": "不是 be bound to 的目的地或必然义",
+          "source_refs": [
+            "ZD-界"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "semantic retrieval",
+          "disposition": "retained",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "Not used to generate this row; no evidence bonus",
+          "form": "界"
+        },
+        {
+          "chinese_form": "蹦",
+          "reading": "bèng",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "跳跃",
+          "target_stage": "B3",
+          "semantic_fit": "High within leap",
+          "phonetic_fit": "Limited",
+          "structural_fit": "Medium",
+          "counterevidence": "元音、鼻尾与 /aʊnd/ 不同；不能用绑的语义证明蹦",
+          "source_refs": [
+            "ZD-蹦"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "semantic retrieval",
+          "disposition": "retained",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "Not used to generate this row; no evidence bonus",
+          "form": "蹦"
+        },
+        {
+          "chinese_form": "赴",
+          "reading": "fù",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "前往",
+          "target_stage": "B2",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "structural_fit": "Medium",
+          "counterevidence": "赴为动作；bound for 可表示意图/朝向，不保证已到达",
+          "source_refs": [
+            "ZD-赴"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "semantic retrieval",
+          "disposition": "retained",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "Not used to generate this row; no evidence bonus",
+          "form": "赴"
+        },
+        {
+          "chinese_form": "绊",
+          "reading": "bàn",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "束缚/牵制（羁绊）",
+          "target_stage": "B1 restraint",
+          "semantic_fit": "High within restraint",
+          "phonetic_fit": "Limited",
+          "structural_fit": "Medium",
+          "counterevidence": "词条确有束缚义，不仅绊倒；不能覆盖 B2/B3/B4，也不证明历史音对应",
+          "source_refs": [
+            "ZD-绊"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "phonetic expansion",
+          "disposition": "retained",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "b-p-m-f; retrieval feature only",
+          "form": "绊"
+        }
+      ],
+      "controls": [
+        {
+          "form": "棒",
+          "reading": "bàng",
+          "type": "phonetic",
+          "reason": "声母/鼻尾局部相似；棍棒不等于四个目标义",
+          "status": "Control only; not evidence for etymology",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "磅",
+          "reading": "bàng",
+          "type": "phonetic",
+          "reason": "重量单位，不是 bound 的历史单位",
+          "status": "Control only; not evidence for etymology",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "约束",
+          "reading": "yuēshù",
+          "type": "semantic",
+          "reason": "限制义强，声音弱",
+          "status": "Control only; not evidence for etymology",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "边界",
+          "reading": "biānjiè",
+          "type": "semantic",
+          "reason": "仅 B4 强，不覆盖其他 identity",
+          "status": "Control only; not evidence for etymology",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "shortlist": [
+        "绑 @ B1",
+        "界 @ B4",
+        "蹦 @ B3",
+        "绊 @ B1 restraint"
+      ],
+      "status": "Control / Negative",
+      "featured_proposal": "Pending",
+      "freeze_proposal": "保留为同形多源和 ABOUND 错误拆词的 control。四支独立展示于 Research；不将当前含糊 raw context 擅定为其中一支，也不创建四个新任务。",
+      "counterexamples": [
+        "abound 不能拆成 a + 本词任何 bound 来证明同源。",
+        "bound for London 与 hands bound 的语法和来源不同。"
+      ],
+      "phonetic_evaluation": "现代 bound /baʊnd/ 对 bǎng、bèng：英语浊塞音与普通话不送气 /p/ 不是相同音值；/aʊnd/ 对 /ɑŋ, əŋ/ 韵母和辅音尾不同。fù 的 b-p-m-f group hit 仅生成特征；赴来自语义基线，不计扩展新增。",
+      "reuse": "No inherited mapping",
+      "pending": [
+        "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+        "Original authorship remains unknown; no attribution update proposed"
+      ],
+      "historical_relation": "Not claimed",
+      "review_status": "research_control",
+      "benchmark_status": "Benchmark-ineligible after production exposure",
+      "publication_allowed": false,
+      "acceptance_allowed": false,
+      "source_refs": [
+        "MW-bound"
+      ],
+      "evidence_summary": "Source dictionary research verified within stated scope; Chinese online support is row-specific; historical Chinese dating and print references remain Pending.",
+      "shortlist_is_editorial_proposal": true,
+      "source_form": "bound",
+      "featured": "Pending",
+      "featured_type": "Pending",
+      "phonetic_fit": "See independent candidate evaluations",
+      "author_observation": {
+        "status": "unknown provenance",
+        "author": null,
+        "original_records": [
+          {
+            "location": "data/language-book.v1.0.json#/entries/22/related_words/1",
+            "record": {
+              "word": "bound",
+              "language": "English",
+              "relationship_type": "surface similarity",
+              "family": "separate Germanic/French histories",
+              "relation_to_entry": {
+                "en": "Author comparison or semantic association only; not historical derivation.",
+                "zh-Hans": "仅为作者比较或语义联想；不是历史派生。"
+              },
+              "status": "Interpretive",
+              "source_refs": [
+                "REF-LANGUAGESBOOK-ABOUND",
+                "REF-MW-ABOUND"
+              ]
+            },
+            "file_sha256": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5"
+          }
+        ]
+      },
+      "acceptance_status": "Control / Negative",
+      "evidence_status": "Source dictionary research verified within stated scope; Chinese online support is row-specific; historical Chinese dating and print references remain Pending.",
+      "editorial_acceptance": {
+        "approved_by": "Jinkai Liu",
+        "scope": "Candidate/control intake only; not Reviewed/Published/Proven"
+      }
+    },
+    {
+      "entry": "LAW",
+      "candidate_id": "RQ-562d6cb07a1c",
+      "source_language": "English",
+      "primary_pipeline": "Lexical–Diachronic",
+      "origin": "unknown provenance",
+      "authenticated_author_observation": null,
+      "imported_observations": [
+        {
+          "location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/negative_controls/2",
+          "record": {
+            "item": "law",
+            "deep_family_id": "pie_legh",
+            "meaning": "rule"
+          },
+          "file_sha256": "8805a5791307ef86daf7c2c9c08c6362b8dd3dfc5c244af9f5e632551cb95ef6"
+        }
+      ],
+      "ai_research_origin": "AI research in this task; NOT attribution of imported observations",
+      "standard_meaning": "法律/法则；本批以规范规则为主，不把科学定律或习惯义无差别并入。",
+      "source_identity_gate": "Pass: research scope confirmed",
+      "historical_stages": [
+        {
+          "stage_id": "L1",
+          "source_form": "lagu / lǫg",
+          "language": "Old English / Old Norse",
+          "approximate_period": "medieval",
+          "meaning": "law / rules",
+          "relation": "英语借入斯堪的纳维亚形式；不属于 LIGHT 词源",
+          "source_refs": [
+            "MW-law"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "L2",
+          "source_form": "law",
+          "language": "English",
+          "approximate_period": "modern",
+          "meaning": "rule / legal system / regularity",
+          "relation": "多义范围并列，不造严格时间顺序",
+          "source_refs": [
+            "MW-law"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        }
+      ],
+      "candidates": [
+        {
+          "chinese_form": "法",
+          "reading": "fǎ",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "法律/规范",
+          "target_stage": "L2",
+          "semantic_fit": "High for legal rule",
+          "phonetic_fit": "Low",
+          "structural_fit": "Medium",
+          "counterevidence": "办法、法国等同字义不参与",
+          "source_refs": [
+            "ZD-法"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "semantic retrieval",
+          "disposition": "retained",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "Not used to generate this row; no evidence bonus",
+          "form": "法"
+        },
+        {
+          "chinese_form": "律",
+          "reading": "lǜ",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "规则/条文",
+          "target_stage": "L2",
+          "semantic_fit": "High scoped",
+          "phonetic_fit": "Limited",
+          "structural_fit": "Medium",
+          "counterevidence": "law /l/ 与 lǜ 声母相近，元音明显不同；乐律不是所有 law",
+          "source_refs": [
+            "ZD-律"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "semantic retrieval",
+          "disposition": "retained",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "Not used to generate this row; no evidence bonus",
+          "form": "律"
+        },
+        {
+          "chinese_form": "规",
+          "reading": "guī",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "法则/章程",
+          "target_stage": "L2",
+          "semantic_fit": "Medium–High",
+          "phonetic_fit": "Low",
+          "structural_fit": "Medium",
+          "counterevidence": "规则比成文法律宽，不等同一切 law",
+          "source_refs": [
+            "ZD-规"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "semantic retrieval",
+          "disposition": "retained",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "Not used to generate this row; no evidence bonus",
+          "form": "规"
+        },
+        {
+          "chinese_form": "令",
+          "reading": "lìng",
+          "chinese_layer": "Modern Mandarin",
+          "chinese_period": "modern; historical attestations not dated by this run",
+          "documented_sense": "命令",
+          "target_stage": "L2",
+          "semantic_fit": "Medium–Low",
+          "phonetic_fit": "Limited",
+          "structural_fit": "Low",
+          "counterevidence": "命令不必是法律；d-t-n-l 扩展不能补语义缺口",
+          "source_refs": [
+            "ZD-令"
+          ],
+          "evidence_status": "Online lexical support",
+          "mainland_print_status": "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+          "generation_method": "phonetic expansion",
+          "disposition": "not selected",
+          "historical_relation": "Not claimed",
+          "consonant_group_feature": "d-t-n-l; retrieval feature only",
+          "form": "令"
+        }
+      ],
+      "controls": [
+        {
+          "form": "捞",
+          "reading": "lāo",
+          "type": "phonetic",
+          "reason": "近 /l/ 起首和低元音；捞取与规则无关",
+          "status": "Control only; not evidence for etymology",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "老",
+          "reading": "lǎo",
+          "type": "phonetic",
+          "reason": "声音局部相近；年老不是法律",
+          "status": "Control only; not evidence for etymology",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "法律",
+          "reading": "fǎlǜ",
+          "type": "semantic",
+          "reason": "标准法律义，不是新同源论据",
+          "status": "Control only; not evidence for etymology",
+          "historical_relation": "Not claimed"
+        },
+        {
+          "form": "规则",
+          "reading": "guīzé",
+          "type": "semantic",
+          "reason": "一般规则强，但范围宽于法律",
+          "status": "Control only; not evidence for etymology",
+          "historical_relation": "Not claimed"
+        }
+      ],
+      "shortlist": [
+        "法",
+        "律"
+      ],
+      "status": "Control / Negative",
+      "featured_proposal": "Pending",
+      "freeze_proposal": "保留 LAW 作为 L→光假说的负面语义样本，同时保留真实法律义。一个负例不足以推翻整个统计假说，不能把它解释成潜在光义来挽救假说。",
+      "counterexamples": [
+        "law 的 L 起首不能推出 light meaning。",
+        "scientific law 不等于某次行政命令。"
+      ],
+      "phonetic_evaluation": "现代 /lɔː/（口音有变体）与 lǜ 仅 /l/ 较接近；/y/ 与后元音差异大。律已由意义产生，不算扩展收益。",
+      "reuse": "Imported negative-control role retained; no target-package access",
+      "pending": [
+        "Pending: 《现代汉语词典》《汉语大词典》《汉语大字典》等具体纸本条目/版本页码未取得；不伪造书证。",
+        "Original authorship remains unknown; no attribution update proposed"
+      ],
+      "historical_relation": "Not claimed",
+      "review_status": "research_control",
+      "benchmark_status": "Benchmark-ineligible after production exposure",
+      "publication_allowed": false,
+      "acceptance_allowed": false,
+      "source_refs": [
+        "MW-law"
+      ],
+      "evidence_summary": "Source dictionary research verified within stated scope; Chinese online support is row-specific; historical Chinese dating and print references remain Pending.",
+      "shortlist_is_editorial_proposal": true,
+      "source_form": "law",
+      "featured": "Pending",
+      "featured_type": "Pending",
+      "phonetic_fit": "See independent candidate evaluations",
+      "author_observation": {
+        "status": "unknown provenance",
+        "author": null,
+        "original_records": [
+          {
+            "location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/negative_controls/2",
+            "record": {
+              "item": "law",
+              "deep_family_id": "pie_legh",
+              "meaning": "rule"
+            },
+            "file_sha256": "8805a5791307ef86daf7c2c9c08c6362b8dd3dfc5c244af9f5e632551cb95ef6"
+          }
+        ]
+      },
+      "acceptance_status": "Control / Negative",
+      "evidence_status": "Source dictionary research verified within stated scope; Chinese online support is row-specific; historical Chinese dating and print references remain Pending.",
+      "editorial_acceptance": {
+        "approved_by": "Jinkai Liu",
+        "scope": "Candidate/control intake only; not Reviewed/Published/Proven"
+      }
+    }
+  ]
+}

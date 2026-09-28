@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "status": "Default Production Batch Selector",
+  "approved_by": "Jinkai Liu",
+  "batch_size": 8,
+  "stop_at": "Editorial Freeze Proposal",
+  "reviewer": "Jinkai Liu",
+  "forbidden": [
+    "featured_final_approval",
+    "reviewed",
+    "published",
+    "holdout_release",
+    "author_attribution"
+  ],
+  "origin_policy": "Human notes priority with preserved contributor/AI/control allocations; never invent origins to fill quotas",
+  "original_note_policy": "Preserve original → freeze provenance → explicit exposure/holdout decision → queue",
+  "family_reuse_metrics": [
+    "historical_research_reused",
+    "sources_reused",
+    "new_research_avoided",
+    "conclusion_inheritance_blocked"
+  ],
+  "efficiency_claim": "No saved-time percentages without measured data",
+  "automatic_dispatch": false
+}

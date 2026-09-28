@@ -9,7 +9,7 @@ const freeze = read('data/review/production-002-freeze.v0.1.json');
 const api = require('../js/production-candidate-data.js');
 
 test('Batch002 intake preserves fourteen candidates, two archives and independent statuses', () => {
- assert.equal(active.records.length, 14);
+ assert.equal(active.records.filter(r => /production-00[12]-freeze/.test(r.source_provenance)).length, 14);
  assert.equal(archive.records.length, 2);
  assert.equal(read('data/language-book.v1.0.json').entries.length, 42);
  for (const r of freeze.records) {
