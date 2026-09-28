@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "assembled_at": "2026-09-28T02:57:40.760Z",
+  "assembled_at": "2026-09-28T15:15:30.969Z",
   "legacy_corpus": {
     "version": "1.0",
     "path": "data/language-book.v1.0.json",
@@ -16,17 +16,17 @@
   "control_count": 2,
   "observation_registry": {
     "version": "0.1",
-    "count": 66,
+    "count": 85,
     "origins": {
-      "unknown": 52,
+      "unknown": 71,
       "ai_discovery": 14
     }
   },
   "scheduler_version": "0.1",
   "last_accepted_batch": "Production 003 + 005",
   "pending_freeze_batches": [],
-  "eligible_queue_count": 6,
-  "provenance_review_queue_count": 19,
+  "eligible_queue_count": 12,
+  "provenance_review_queue_count": 13,
   "benchmark_status": "Designed / Frozen / Execution Pending Isolated Evaluator",
   "benchmark_reservations": 42,
   "holdout_status": "No populated future holdout registered in supplied state; private custodian must update opaque exclusions before new intake",
@@ -48,7 +48,7 @@
       "sha256": "0a70ecd401d96a37098de3edad0fc56eaa853c080172e740270b7f69b3500be9"
     },
     "validate-observation-registry.mjs": {
-      "sha256": "23183a197e6a044c0d11b6e1d29d88437349307e0b21832d5c7a3a16af094cbc"
+      "sha256": "e9f60d38884570d6694387608d8a4878c6a7049d87c9c6e87917db6a041711d9"
     },
     "validate-queue-scheduler.mjs": {
       "sha256": "064ace0dd404e7d3bceee2409ba69257bf8e1511a9c7c73c59720ad02f79cdb9"
@@ -63,7 +63,7 @@
   "input_hashes": [
     {
       "file": "research/production-state/queue-seed.v1.json",
-      "sha256": "a71ef8432bb6448d8b59daf8d0f59f740fd8c587d5323b3fcb267c879c7842d4",
+      "sha256": "f1a3622602c1f1d2e91f882af900663d4b3587171f54fed91cd51ecf14f258b7",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "file": "research/production-state/pending-batches.v1.json",
-      "sha256": "24c985b3446e1252a3d79ad52d4b8ad9836552aceb9f5782e9a5c8c45dc6bea0",
+      "sha256": "a1d2290375336fd8ab8de0136b3e43526e2c05f0cd1a8ba273225bcee012c7dc",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "file": "research/observations/registry.v0.1.json",
-      "sha256": "1d47a59acf637425e6dcfaf472f551f2578b0131b5866007f1c9622ff6ff05a1",
+      "sha256": "62970e1208a890d7505e45f4a4f85d39861dcf64378614238bcb6209ebbefa31",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -107,7 +107,7 @@
       "hash_algorithm": "sha256-utf8-lf"
     }
   ],
-  "next_action": "Acceptance complete; await Jinkai Liu authorization before any new production batch. Six eligible and nineteen identity/provenance items remain unchanged.",
+  "next_action": "Provenance resolution completed: await Jinkai Liu review of 8-item dry-run proposal; no research authorized. 12 eligible and 13 composite identity items remain.",
   "automatic_dispatch": false,
   "review_gate": "Jinkai Liu",
   "runtime_external_work_dependencies": [],

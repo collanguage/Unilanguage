@@ -11,14 +11,16 @@ new linguistic findings or accept pending proposals.
 - Active Production: **36** (10 Featured Candidates; 26 Featured Pending) (`data/candidates/production-corpus.v0.1.json`).
 - Archives: **2** (`data/candidates/production-archive.v0.1.json`).
 - Controls: **2**, not Active/Archive (`research/controls/production-004.v0.1.json`).
-- Registry: **66**, 52 unknown + 14 AI; no newly authenticated human origin.
+- Registry: **85**, 71 unknown + 14 AI; no newly authenticated human origin.
 - Last acceptance: **003 + 005**, explicitly approved by Jinkai Liu.
 - Review backlog: **0**. Original 003/005 proposals remain unchanged under
   `research/production-state/pending/`; acceptance is recorded separately in
   `research/production-state/acceptance-003-005.v1.json` and the approved freezes.
-- Eligible unprocessed queue: **6**. Identity/provenance queue: **19**.
+- Eligible unprocessed queue: **12**. Identity/provenance queue: **13**.
 - Benchmark: **Designed / Frozen / Execution Pending Isolated Evaluator**.
 - Next action: await Jinkai Liu authorization; **do not start another batch**.
+
+Provenance audit: observations/provenance-resolution-v1/REPORT.md. All 19 scopes are imported/author-unknown; 6 now pass intake identity, 13 remain composite. Registry gained 19 scoped imports, not independent discoveries. Saved Scheduler output is dry-run only.
 
 ## Authorities and interfaces
 
@@ -65,8 +67,8 @@ node scripts/run-queue-scheduler.mjs /absolute/path/to/new-snapshot.json /absolu
 
 The last two commands are **dry run only**. Output paths must be new files;
 relative paths resolve against checkout root. The old OUTPUTS_DIR argument
-is intentionally rejected. Only six eligible objects currently exist; do not
-invent two items to fill an eight-item batch. Historical Batch 004 snapshots
+is intentionally rejected. Twelve eligible objects currently exist; the provenance-resolution dry run proposes eight.
+No research is dispatched without separate authorization. Historical Batch 004 snapshots
 remain immutable and replayable.
 
 `node scripts/production-state.mjs` validates the manifest, preserved imports,

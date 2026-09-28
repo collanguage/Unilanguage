@@ -5579,6 +5579,1588 @@
       },
       "previous_hash": "8a07c39236f749fbc6494ae2ac03cfd3112a17c69d759d96ffb86aa3b7052468",
       "hash": "f9199c3ecded0d19e8262a094a80bb960cd81dd064bcd9bdae4008323847603b"
+    },
+    {
+      "sequence": 293,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-9bdfd82a8591",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"brief/brevity\",\"language\":\"English\",\"relationship_type\":\"historical relatives\",\"family\":\"Latin brevis\",\"relation_to_entry\":{\"en\":\"Documented relation in the stated historical family.\",\"zh-Hans\":\"在所列历史词族内有文献支持的关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-ABBREVIATE\"]}",
+        "source_form": "brief/brevity",
+        "source_language": "English",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/14/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "f9199c3ecded0d19e8262a094a80bb960cd81dd064bcd9bdae4008323847603b",
+      "hash": "e7779891308b54e5cdd7dfb4c199e571fdc2376053b80cc4df67a4cb39e0e946"
+    },
+    {
+      "sequence": 294,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-9bdfd82a8591",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/14/related_words/2"
+      },
+      "previous_hash": "e7779891308b54e5cdd7dfb4c199e571fdc2376053b80cc4df67a4cb39e0e946",
+      "hash": "b640c546fff45aba79941cdd17d85413dea7e0cc1d3a1c4d9a4b305f9e6b56e3"
+    },
+    {
+      "sequence": 295,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-9bdfd82a8591",
+        "object_id": "RQ-9bdfd82a8591"
+      },
+      "previous_hash": "b640c546fff45aba79941cdd17d85413dea7e0cc1d3a1c4d9a4b305f9e6b56e3",
+      "hash": "fb9cb5293af4db73a98961a04726939d007a1a172b4f60a7bf690fb9de9f8be1"
+    },
+    {
+      "sequence": 296,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-9bdfd82a8591",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented relation in the stated historical family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/14/related_words/2",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "fb9cb5293af4db73a98961a04726939d007a1a172b4f60a7bf690fb9de9f8be1",
+      "hash": "e7c4870764ba1b152d75d1a9d4435d5d1a9d8479ead0d4b3ade5549865fccbaa"
+    },
+    {
+      "sequence": 297,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-6e8760b2c429",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"convene / convenir\",\"language\":\"English/French\",\"relationship_type\":\"Shared base family\",\"family\":\"Latin convenire\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-CONVENT\",\"REF-MW-CONVENTION\",\"REF-CNRTL-COUVENT\",\"REF-CNRTL-CONVENTION\"]}",
+        "source_form": "convene / convenir",
+        "source_language": "English/French",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/28/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "e7c4870764ba1b152d75d1a9d4435d5d1a9d8479ead0d4b3ade5549865fccbaa",
+      "hash": "bf0d81f2081e31626703a05eea04d6ded3dc53b18e5e2c5218f59f087890a909"
+    },
+    {
+      "sequence": 298,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-6e8760b2c429",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/28/related_words/1"
+      },
+      "previous_hash": "bf0d81f2081e31626703a05eea04d6ded3dc53b18e5e2c5218f59f087890a909",
+      "hash": "46d8f28d97c04260a954599e79e0928349d216b5543f7b27674094f25e17fc5a"
+    },
+    {
+      "sequence": 299,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-6e8760b2c429",
+        "object_id": "RQ-6e8760b2c429"
+      },
+      "previous_hash": "46d8f28d97c04260a954599e79e0928349d216b5543f7b27674094f25e17fc5a",
+      "hash": "714b09fe7a1319875ab695bb14d906447d7e8062716af514289f4b95b89a8ce5"
+    },
+    {
+      "sequence": 300,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-6e8760b2c429",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/28/related_words/1",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "714b09fe7a1319875ab695bb14d906447d7e8062716af514289f4b95b89a8ce5",
+      "hash": "901617d16f3ee77cb27068c6aac7fffee29885a9d76e4c41ad7dc7eae72cec82"
+    },
+    {
+      "sequence": 301,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-4ce52e696191",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"figura / fingere\",\"language\":\"Latin\",\"relationship_type\":\"Historical source family\",\"family\":\"figura ← fingere\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-CNRTL-FIGURE\",\"REF-MW-FINGER\"]}",
+        "source_form": "figura / fingere",
+        "source_language": "Latin",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/29/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "901617d16f3ee77cb27068c6aac7fffee29885a9d76e4c41ad7dc7eae72cec82",
+      "hash": "b4185850cecac6bb9a33770002ed607e424e8d0b3e7bc0921e98f4787d9486cb"
+    },
+    {
+      "sequence": 302,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-4ce52e696191",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/29/related_words/0"
+      },
+      "previous_hash": "b4185850cecac6bb9a33770002ed607e424e8d0b3e7bc0921e98f4787d9486cb",
+      "hash": "9a76179343ce0ae738c417d79b1e9f12ac311a153d816df82cd4038d857712a5"
+    },
+    {
+      "sequence": 303,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-4ce52e696191",
+        "object_id": "RQ-4ce52e696191"
+      },
+      "previous_hash": "9a76179343ce0ae738c417d79b1e9f12ac311a153d816df82cd4038d857712a5",
+      "hash": "6c96d0e3f4d15204a762f063728fcb574840eef37882dde659b2e5a43f636661"
+    },
+    {
+      "sequence": 304,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-4ce52e696191",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/29/related_words/0",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "6c96d0e3f4d15204a762f063728fcb574840eef37882dde659b2e5a43f636661",
+      "hash": "f10963632b48af7f2c520425bdb416237d06e3bcf55979e7cb9e077ff7a95747"
+    },
+    {
+      "sequence": 305,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-7e3b70d344ba",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"figurative / figurer\",\"language\":\"English/French\",\"relationship_type\":\"Etymological derivative\",\"family\":\"Latin figura / figurare\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-CNRTL-FIGURE\",\"REF-MW-FINGER\"]}",
+        "source_form": "figurative / figurer",
+        "source_language": "English/French",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/29/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "f10963632b48af7f2c520425bdb416237d06e3bcf55979e7cb9e077ff7a95747",
+      "hash": "d812084727e3eb0c57c2f3b0d1f381cd3e0be3051fe888a18a07f19c30cbc465"
+    },
+    {
+      "sequence": 306,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-7e3b70d344ba",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/29/related_words/1"
+      },
+      "previous_hash": "d812084727e3eb0c57c2f3b0d1f381cd3e0be3051fe888a18a07f19c30cbc465",
+      "hash": "ebb918bb4fd847f598bbb326b7db2dcc54817c032984b9c1185af83208af831d"
+    },
+    {
+      "sequence": 307,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-7e3b70d344ba",
+        "object_id": "RQ-7e3b70d344ba"
+      },
+      "previous_hash": "ebb918bb4fd847f598bbb326b7db2dcc54817c032984b9c1185af83208af831d",
+      "hash": "72af5f186392f401466181b7b87b20b57792c8fcf5ad2def769a312bbffef54e"
+    },
+    {
+      "sequence": 308,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-7e3b70d344ba",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/29/related_words/1",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "72af5f186392f401466181b7b87b20b57792c8fcf5ad2def769a312bbffef54e",
+      "hash": "eaaad5c9660fd30543ab296879f9e7860d45c936c7660aa95ba96ba755d845c9"
+    },
+    {
+      "sequence": 309,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-75a075d7d64b",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"formation\",\"language\":\"English/French\",\"relationship_type\":\"Etymological derivative\",\"family\":\"Latin forma / formare\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-FORM\",\"REF-MW-FARM\"]}",
+        "source_form": "formation",
+        "source_language": "English/French",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/31/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "eaaad5c9660fd30543ab296879f9e7860d45c936c7660aa95ba96ba755d845c9",
+      "hash": "d1bbf0408200410e70e018551cb704ad29d65ccc8152eea17321ada2a129cd91"
+    },
+    {
+      "sequence": 310,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-75a075d7d64b",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/31/related_words/1"
+      },
+      "previous_hash": "d1bbf0408200410e70e018551cb704ad29d65ccc8152eea17321ada2a129cd91",
+      "hash": "404c4f8b8a0b19f708897609573909ab5b70d2c9a2a9cda231775bcea5fc4c95"
+    },
+    {
+      "sequence": 311,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-75a075d7d64b",
+        "object_id": "RQ-75a075d7d64b"
+      },
+      "previous_hash": "404c4f8b8a0b19f708897609573909ab5b70d2c9a2a9cda231775bcea5fc4c95",
+      "hash": "9389f1c649fce9dd6cb79ad2eb4c9719adb4c8fdfc2f01a9c487d9d1667baf9f"
+    },
+    {
+      "sequence": 312,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-75a075d7d64b",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/31/related_words/1",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "9389f1c649fce9dd6cb79ad2eb4c9719adb4c8fdfc2f01a9c487d9d1667baf9f",
+      "hash": "7d7cd2fe71f6638d189814ebb3c18ce98b874701ff75cbcbcfa7bd709e16af27"
+    },
+    {
+      "sequence": 313,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-e66fb94d1cbb",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"genus\",\"language\":\"Latin/English\",\"relationship_type\":\"Historical family\",\"family\":\"Latin genus / gener-\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-GENERATE\",\"REF-MW-GENERATION\"]}",
+        "source_form": "genus",
+        "source_language": "Latin/English",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/32/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "7d7cd2fe71f6638d189814ebb3c18ce98b874701ff75cbcbcfa7bd709e16af27",
+      "hash": "8114ab0aa9e814dc4e20255e420ff156549a3d814a5fed29294c7eddccbfc51e"
+    },
+    {
+      "sequence": 314,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-e66fb94d1cbb",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/32/related_words/1"
+      },
+      "previous_hash": "8114ab0aa9e814dc4e20255e420ff156549a3d814a5fed29294c7eddccbfc51e",
+      "hash": "db5ac0235c5b7dc54d367cf406f63dc564fd5688aff1c77f33d56fa4f3e0f0f6"
+    },
+    {
+      "sequence": 315,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-e66fb94d1cbb",
+        "object_id": "RQ-e66fb94d1cbb"
+      },
+      "previous_hash": "db5ac0235c5b7dc54d367cf406f63dc564fd5688aff1c77f33d56fa4f3e0f0f6",
+      "hash": "c3f7a21874ed139d3d21e19668c89ac99d5192656b69d9d9710a01277cbd572e"
+    },
+    {
+      "sequence": 316,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-e66fb94d1cbb",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/32/related_words/1",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "c3f7a21874ed139d3d21e19668c89ac99d5192656b69d9d9710a01277cbd572e",
+      "hash": "73700b059d3d379fd6788bafc0379e760479bd7e24d0eb4d7370037f788715fe"
+    },
+    {
+      "sequence": 317,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-0de2d0a3cb1c",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"marché / merchant\",\"language\":\"French/English\",\"relationship_type\":\"Commerce family\",\"family\":\"Latin mercatus / merx path\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-CNRTL-MARCHAND\",\"REF-CNRTL-MARCHER\",\"REF-MW-MARCH\"]}",
+        "source_form": "marché / merchant",
+        "source_language": "French/English",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/35/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "73700b059d3d379fd6788bafc0379e760479bd7e24d0eb4d7370037f788715fe",
+      "hash": "916a548a497f78c53965c030d7c97361081926dd25cc5a9c5c05cad2421fe3d8"
+    },
+    {
+      "sequence": 318,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-0de2d0a3cb1c",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/35/related_words/0"
+      },
+      "previous_hash": "916a548a497f78c53965c030d7c97361081926dd25cc5a9c5c05cad2421fe3d8",
+      "hash": "e94306f40442f8bf113be5a0b43634997308f1f4e84fd59b0c316e292dd70d3c"
+    },
+    {
+      "sequence": 319,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-0de2d0a3cb1c",
+        "object_id": "RQ-0de2d0a3cb1c"
+      },
+      "previous_hash": "e94306f40442f8bf113be5a0b43634997308f1f4e84fd59b0c316e292dd70d3c",
+      "hash": "661f54fbf280adc5386b0fa079159e71e0f6f04bb56955dcf78b823fc067fce2"
+    },
+    {
+      "sequence": 320,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-0de2d0a3cb1c",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/35/related_words/0",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "661f54fbf280adc5386b0fa079159e71e0f6f04bb56955dcf78b823fc067fce2",
+      "hash": "c8f4add0e824541824350d23c2d93d3981bd56230c1a4760d6ad001fe5ccee52"
+    },
+    {
+      "sequence": 321,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-81536c5a85c5",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"medium\",\"language\":\"English/Latin\",\"relationship_type\":\"Direct inflectional family\",\"family\":\"Latin medius / medium / media\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-MEDIUM\",\"REF-MW-MIDDLE\",\"REF-CNRTL-MEDIA\"]}",
+        "source_form": "medium",
+        "source_language": "English/Latin",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/36/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "c8f4add0e824541824350d23c2d93d3981bd56230c1a4760d6ad001fe5ccee52",
+      "hash": "0f0a1540090d01e645b4762aadc0eab7667fc1df43792b0e497f206a68548dbc"
+    },
+    {
+      "sequence": 322,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-81536c5a85c5",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/36/related_words/0"
+      },
+      "previous_hash": "0f0a1540090d01e645b4762aadc0eab7667fc1df43792b0e497f206a68548dbc",
+      "hash": "9653cbde82dacedd57894d225c443b9f7cdcdde69ea2295837d98a624d21ca94"
+    },
+    {
+      "sequence": 323,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-81536c5a85c5",
+        "object_id": "RQ-81536c5a85c5"
+      },
+      "previous_hash": "9653cbde82dacedd57894d225c443b9f7cdcdde69ea2295837d98a624d21ca94",
+      "hash": "21fa8885c05f8dd175ed68c23181acd39f4b7d9d0639c46ab3e54da460770ecd"
+    },
+    {
+      "sequence": 324,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-81536c5a85c5",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/36/related_words/0",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "21fa8885c05f8dd175ed68c23181acd39f4b7d9d0639c46ab3e54da460770ecd",
+      "hash": "e30d184aa9f04a2da240c8329f4a6e7986fdeaebc2fec91a8efabdf70a26c0b6"
+    },
+    {
+      "sequence": 325,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-62fece106c20",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"monstrare / monstrum\",\"language\":\"Latin\",\"relationship_type\":\"Historical source path\",\"family\":\"monstrare ← monstrum\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-CNRTL-MONTRER\",\"REF-CNRTL-MONITEUR\"]}",
+        "source_form": "monstrare / monstrum",
+        "source_language": "Latin",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/37/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "e30d184aa9f04a2da240c8329f4a6e7986fdeaebc2fec91a8efabdf70a26c0b6",
+      "hash": "5c1ddfbb6eb7e52a58e676992d1a88689b3ea565b967a68d094134326e701007"
+    },
+    {
+      "sequence": 326,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-62fece106c20",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/37/related_words/0"
+      },
+      "previous_hash": "5c1ddfbb6eb7e52a58e676992d1a88689b3ea565b967a68d094134326e701007",
+      "hash": "3aaa77801c9d69733565132a63e339ec877441e5ac3d8dd20ae5320e2ba725c8"
+    },
+    {
+      "sequence": 327,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-62fece106c20",
+        "object_id": "RQ-62fece106c20"
+      },
+      "previous_hash": "3aaa77801c9d69733565132a63e339ec877441e5ac3d8dd20ae5320e2ba725c8",
+      "hash": "b81cb4a30757b3bf8661ef85cef34c1f78decbbe6f8b39ed325bc86889f1d2ce"
+    },
+    {
+      "sequence": 328,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-62fece106c20",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/37/related_words/0",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "b81cb4a30757b3bf8661ef85cef34c1f78decbbe6f8b39ed325bc86889f1d2ce",
+      "hash": "918b4652973d32e5e1630d021c4aadfb2497d626a01004442f3622912b452e2d"
+    },
+    {
+      "sequence": 329,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-7b50f1aefcf3",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"monstre / monster\",\"language\":\"French/English\",\"relationship_type\":\"Historical family through monstrum\",\"family\":\"Latin monstrum\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-CNRTL-MONTRER\",\"REF-CNRTL-MONITEUR\"]}",
+        "source_form": "monstre / monster",
+        "source_language": "French/English",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/37/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "918b4652973d32e5e1630d021c4aadfb2497d626a01004442f3622912b452e2d",
+      "hash": "130b8b14b9e1b353fc0731604f75443c8b04a11acf05d3a8f11e4a05b6577b38"
+    },
+    {
+      "sequence": 330,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-7b50f1aefcf3",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/37/related_words/2"
+      },
+      "previous_hash": "130b8b14b9e1b353fc0731604f75443c8b04a11acf05d3a8f11e4a05b6577b38",
+      "hash": "eb088300a938f060ad946f7a13016c1ad8d03734b32278995d0157085f771a09"
+    },
+    {
+      "sequence": 331,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-7b50f1aefcf3",
+        "object_id": "RQ-7b50f1aefcf3"
+      },
+      "previous_hash": "eb088300a938f060ad946f7a13016c1ad8d03734b32278995d0157085f771a09",
+      "hash": "eb5ddadd8636787fce439ed4d6643d445dd682dd0e65b0de907776b35c2d9b5d"
+    },
+    {
+      "sequence": 332,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-7b50f1aefcf3",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/37/related_words/2",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "eb5ddadd8636787fce439ed4d6643d445dd682dd0e65b0de907776b35c2d9b5d",
+      "hash": "77f5cacb472d2c57ab8dd1eb21b9b3ee549fc4aa8a66b03e036b3b6297751c31"
+    },
+    {
+      "sequence": 333,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-1d05f238da56",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"presser / pression\",\"language\":\"French\",\"relationship_type\":\"Historical cognate/borrowing family\",\"family\":\"Latin pressare / pressio / premere\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-PRESS\",\"REF-CNRTL-PRESSION\",\"REF-CNRTL-PRESSER\"]}",
+        "source_form": "presser / pression",
+        "source_language": "French",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/40/related_words/1",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "77f5cacb472d2c57ab8dd1eb21b9b3ee549fc4aa8a66b03e036b3b6297751c31",
+      "hash": "6fcf2af24cd31f45f5478946bc5c9fb1c26d66f9cee63de869d51a0f1e50bd3a"
+    },
+    {
+      "sequence": 334,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-1d05f238da56",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/40/related_words/1"
+      },
+      "previous_hash": "6fcf2af24cd31f45f5478946bc5c9fb1c26d66f9cee63de869d51a0f1e50bd3a",
+      "hash": "d3c9724f1b34e3a909fd90bbeca018e5c633f275a78b8d7ec58460d953ac24b0"
+    },
+    {
+      "sequence": 335,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-1d05f238da56",
+        "object_id": "RQ-1d05f238da56"
+      },
+      "previous_hash": "d3c9724f1b34e3a909fd90bbeca018e5c633f275a78b8d7ec58460d953ac24b0",
+      "hash": "13cb5b93127b8056dcfef63d7bd8d8c9dd310e682e5597ad84a71a9c22e78e94"
+    },
+    {
+      "sequence": 336,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-1d05f238da56",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/40/related_words/1",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "13cb5b93127b8056dcfef63d7bd8d8c9dd310e682e5597ad84a71a9c22e78e94",
+      "hash": "dd8085b4d09d4a1c39b95fc92d933017a85b724e5b441d05b6395b2ddc7a3466"
+    },
+    {
+      "sequence": 337,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-c53a802e339e",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"signal / signature\",\"language\":\"English/French\",\"relationship_type\":\"Etymological derivatives\",\"family\":\"Latin signum / signare\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-SIGN\",\"REF-CNRTL-COGNITION\",\"REF-CNRTL-COGNITIF\"]}",
+        "source_form": "signal / signature",
+        "source_language": "English/French",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/41/related_words/0",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "dd8085b4d09d4a1c39b95fc92d933017a85b724e5b441d05b6395b2ddc7a3466",
+      "hash": "bfd12f3049b06125f996d41672f0dce40dc404a8b373004cb319c90db6ca7dde"
+    },
+    {
+      "sequence": 338,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-c53a802e339e",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/41/related_words/0"
+      },
+      "previous_hash": "bfd12f3049b06125f996d41672f0dce40dc404a8b373004cb319c90db6ca7dde",
+      "hash": "28b7dd99a6acb2124e87779108b444ed1edec694e0bdd6e2b2cd4ddee048d68d"
+    },
+    {
+      "sequence": 339,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-c53a802e339e",
+        "object_id": "RQ-c53a802e339e"
+      },
+      "previous_hash": "28b7dd99a6acb2124e87779108b444ed1edec694e0bdd6e2b2cd4ddee048d68d",
+      "hash": "b7c37c382cbb0de5f96445fb41188bdcb6ecc0f48e45e1796c9c657c40e8a78f"
+    },
+    {
+      "sequence": 340,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-c53a802e339e",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/41/related_words/0",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "b7c37c382cbb0de5f96445fb41188bdcb6ecc0f48e45e1796c9c657c40e8a78f",
+      "hash": "0b8522d07db338ebde4e69b212c3568cd7804460c13ad789fbe6d6fc0e30d912"
+    },
+    {
+      "sequence": 341,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-6b9058f863a9",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"word\":\"recognize / reconnaître\",\"language\":\"English/French\",\"relationship_type\":\"KNOW cluster derivative\",\"family\":\"Latin recognoscere\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-SIGN\",\"REF-CNRTL-COGNITION\",\"REF-CNRTL-COGNITIF\"]}",
+        "source_form": "recognize / reconnaître",
+        "source_language": "English/French",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/41/related_words/2",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "0b8522d07db338ebde4e69b212c3568cd7804460c13ad789fbe6d6fc0e30d912",
+      "hash": "1955fb417b25fa3a0cbeb83f057a4bb3086f5acb301826a7157f0254fa5db7b0"
+    },
+    {
+      "sequence": 342,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-6b9058f863a9",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/41/related_words/2"
+      },
+      "previous_hash": "1955fb417b25fa3a0cbeb83f057a4bb3086f5acb301826a7157f0254fa5db7b0",
+      "hash": "e67b089fad50b969a6aae599293516b71bb5591f5946e7e9d17b5e4b9c99858a"
+    },
+    {
+      "sequence": 343,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-6b9058f863a9",
+        "object_id": "RQ-6b9058f863a9"
+      },
+      "previous_hash": "e67b089fad50b969a6aae599293516b71bb5591f5946e7e9d17b5e4b9c99858a",
+      "hash": "b0741f5db457f0bf7dfe41e6acf74c843f96add7c2040058a67e93983d316388"
+    },
+    {
+      "sequence": 344,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-6b9058f863a9",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/41/related_words/2",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "b0741f5db457f0bf7dfe41e6acf74c843f96add7c2040058a67e93983d316388",
+      "hash": "307cd584316a5492dfd87da3793ba1f0627dcb74ce5c3df428a328c3b0b2c9d3"
+    },
+    {
+      "sequence": 345,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-703e21934bd6",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"item\":\"lumen\",\"language\":\"Latin\",\"immediate_family_id\":\"latin_lumen_descendants\",\"deep_family_id\":\"pie_leuk\",\"count_as_surface\":true}",
+        "source_form": "lumen",
+        "source_language": "Latin",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/positive_observations/2",
+          "repository_commit": "04f652a89a4a2e37b94e72890beaeafc738db35e",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "307cd584316a5492dfd87da3793ba1f0627dcb74ce5c3df428a328c3b0b2c9d3",
+      "hash": "ec8b30938174efbd1630bb949a64735d56f62d0db8482ba41ed6c16bb2343813"
+    },
+    {
+      "sequence": 346,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-703e21934bd6",
+        "kind": "candidate",
+        "source_ref": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/positive_observations/2"
+      },
+      "previous_hash": "ec8b30938174efbd1630bb949a64735d56f62d0db8482ba41ed6c16bb2343813",
+      "hash": "27b4f660f1acb632a2aca579bfc26235426030cc1ab4070002f18676e8e4de0d"
+    },
+    {
+      "sequence": 347,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-703e21934bd6",
+        "object_id": "RQ-703e21934bd6"
+      },
+      "previous_hash": "27b4f660f1acb632a2aca579bfc26235426030cc1ab4070002f18676e8e4de0d",
+      "hash": "02c13fb8265dbb0ccd3c1dddd947e5e7f8ae22f91e5de02b7e9ff91a5416438b"
+    },
+    {
+      "sequence": 348,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-703e21934bd6",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-08-30T19:02:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Pass",
+          "lexical_identity": "Latin noun lumen, as explicitly listed in the frozen LIGHT source family",
+          "meaning_context": "Latin lumen 'light'; recorded LIGHT family context only, no new etymology verification.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/5",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "02c13fb8265dbb0ccd3c1dddd947e5e7f8ae22f91e5de02b7e9ff91a5416438b",
+      "hash": "9b62bf76a607b89b79bebb51977d49f8187bda2ad2cb2d68ef440fb231dc329a"
+    },
+    {
+      "sequence": 349,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-b65bcd03ddb5",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "{\"item\":\"lux\",\"language\":\"Latin\",\"immediate_family_id\":\"latin_lux_lumen_family\",\"deep_family_id\":\"pie_leuk\",\"count_as_surface\":true}",
+        "source_form": "lux",
+        "source_language": "Latin",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/positive_observations/3",
+          "repository_commit": "04f652a89a4a2e37b94e72890beaeafc738db35e",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "9b62bf76a607b89b79bebb51977d49f8187bda2ad2cb2d68ef440fb231dc329a",
+      "hash": "af0fd3735f82dc895620f16020fb941a62f6646d7427dc247915ba46d02d1e1b"
+    },
+    {
+      "sequence": 350,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-b65bcd03ddb5",
+        "kind": "candidate",
+        "source_ref": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/positive_observations/3"
+      },
+      "previous_hash": "af0fd3735f82dc895620f16020fb941a62f6646d7427dc247915ba46d02d1e1b",
+      "hash": "7350a892ad5a0c13840b8fa87dfb28ace39247aee50aec7f8bf79138fd467b53"
+    },
+    {
+      "sequence": 351,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-b65bcd03ddb5",
+        "object_id": "RQ-b65bcd03ddb5"
+      },
+      "previous_hash": "7350a892ad5a0c13840b8fa87dfb28ace39247aee50aec7f8bf79138fd467b53",
+      "hash": "ec253b5f62a016a108e3db1a23f299c26e98d0665b18fb00f254cf8fbe323293"
+    },
+    {
+      "sequence": 352,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-b65bcd03ddb5",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-08-30T19:02:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Pass",
+          "lexical_identity": "Latin noun lux, distinct from the French lumière form",
+          "meaning_context": "Related Latin LIGHT family member; not an intermediate ancestor of lumière. Frozen LIGHT evidence boundary.",
+          "identity_evidence": "docs/research/final-structural-freeze.md:150-152",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "ec253b5f62a016a108e3db1a23f299c26e98d0665b18fb00f254cf8fbe323293",
+      "hash": "4de68804d1faf70845bbe8709f02c1a0adf448eae53a2b0eebd4ebe9cf60f55a"
+    },
+    {
+      "sequence": 353,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-f512afb4860a",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "press压力，pression。exercée施加。peur怕……",
+        "source_form": "pression",
+        "source_language": "French",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/40/source/raw_note",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "4de68804d1faf70845bbe8709f02c1a0adf448eae53a2b0eebd4ebe9cf60f55a",
+      "hash": "035d4e1993264dbf3f4eed6d872e15b107c76440e538764170d2e0e306cde161"
+    },
+    {
+      "sequence": 354,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-f512afb4860a",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/40/source/raw_note"
+      },
+      "previous_hash": "035d4e1993264dbf3f4eed6d872e15b107c76440e538764170d2e0e306cde161",
+      "hash": "3186e2bb49216178942335f04f757ac6823ebc3f1ace00358188103c0b510d4b"
+    },
+    {
+      "sequence": 355,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-f512afb4860a",
+        "object_id": "RQ-f512afb4860a"
+      },
+      "previous_hash": "3186e2bb49216178942335f04f757ac6823ebc3f1ace00358188103c0b510d4b",
+      "hash": "62c2bf79bb75188e6afa839a5f3f901433eb1886ed3f57fae5de99c988b3111a"
+    },
+    {
+      "sequence": 356,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-f512afb4860a",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [
+            "OBS-accdf2b34eed2364721b8dfc"
+          ],
+          "independent_observation": false,
+          "identity_status": "Pass",
+          "lexical_identity": "French lexical form pression, in the preserved press/pression note",
+          "meaning_context": "Recorded alongside press压力; pressure nominal context. Specific senses await research.",
+          "identity_evidence": "docs/research/final-structural-freeze.md:85-87",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "62c2bf79bb75188e6afa839a5f3f901433eb1886ed3f57fae5de99c988b3111a",
+      "hash": "3e56c8cdb5af171c15d87658e2d53866609c15e05b7baf06b50eefb3db2ed004"
+    },
+    {
+      "sequence": 357,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-6bd40435dc34",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "horizon，地平线。《看远方的地平线》。地平线也是火，太阳升起来的地方，hor-，zone，只是一个合成词。distance／French distance：-tance 对应一趟的趟 tang，这趟不远。冬天颜色、明亮轻快、靓丽静洁；立春日看远方地平线；花朵悄悄顶出；到地平线的距离不远。亮靓 liang，儿化音 liar；英语 clearly。",
+        "source_form": "clearly",
+        "source_language": "English",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/33/source/raw_note",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "3e56c8cdb5af171c15d87658e2d53866609c15e05b7baf06b50eefb3db2ed004",
+      "hash": "8e8b0b81ccfc94ce0c60403be36cb046999a58e401a585bc24b0d2f13e240bb2"
+    },
+    {
+      "sequence": 358,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-6bd40435dc34",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/33/source/raw_note"
+      },
+      "previous_hash": "8e8b0b81ccfc94ce0c60403be36cb046999a58e401a585bc24b0d2f13e240bb2",
+      "hash": "88a5995e406d8b1bbe826bc4a0781d6e743de3ef085a97d312b99b3b5811deb7"
+    },
+    {
+      "sequence": 359,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-6bd40435dc34",
+        "object_id": "RQ-6bd40435dc34"
+      },
+      "previous_hash": "88a5995e406d8b1bbe826bc4a0781d6e743de3ef085a97d312b99b3b5811deb7",
+      "hash": "8f60a607c01a0453341ccbb459f131d2d6a672dd16b5e2a108631603899a270a"
+    },
+    {
+      "sequence": 360,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-6bd40435dc34",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [
+            "OBS-aa6607b3d00450809816ddcb"
+          ],
+          "independent_observation": false,
+          "identity_status": "Pass",
+          "lexical_identity": "English form clearly, explicitly named as English in the raw note",
+          "meaning_context": "Mentioned in the preserved 亮靓 / brightness-language observation; target sense not yet adjudicated. No Chinese equivalent inferred.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/33/source/raw_note",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "8f60a607c01a0453341ccbb459f131d2d6a672dd16b5e2a108631603899a270a",
+      "hash": "caaea314621fdbbbd2f4bd1bd943485726e68ed6b3bf30b895eda2e9fcdc2b2c"
+    },
+    {
+      "sequence": 361,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-635ef1c7e0d1",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "英语：sky n. 天；汉语：盖【gai】n.。六十四卦图是我们的另一种文字。所有卦象都是从乾卦而来。附乾卦原文、坤卦标题、天字字源说明、盖天说、《敕勒歌》，以及站在山上仰望白云、房屋如舢板与邮轮、大地母亲的肌肤与骨骼、蓝天是被盖的文学段落。原稿另将卫星、电离层和平流层并置为所仰望的盖天结构；编辑版将古代模型、现代大气层与地球外部空间分开说明。",
+        "source_form": "六十四卦",
+        "source_language": "Chinese",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/0/source/raw_note",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "caaea314621fdbbbd2f4bd1bd943485726e68ed6b3bf30b895eda2e9fcdc2b2c",
+      "hash": "a99013c7d81175ecef18f04b9a915b086f3ee072e2403c3cd74b662676ae0d1e"
+    },
+    {
+      "sequence": 362,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-635ef1c7e0d1",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/0/source/raw_note"
+      },
+      "previous_hash": "a99013c7d81175ecef18f04b9a915b086f3ee072e2403c3cd74b662676ae0d1e",
+      "hash": "d9a66a50fed830aae2d348f64ff7df03e24aeb2748fbfba1666ecb89a7a38e5e"
+    },
+    {
+      "sequence": 363,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-635ef1c7e0d1",
+        "object_id": "RQ-635ef1c7e0d1"
+      },
+      "previous_hash": "d9a66a50fed830aae2d348f64ff7df03e24aeb2748fbfba1666ecb89a7a38e5e",
+      "hash": "7e3b82bdf8231e855e40543c7b60222357564e452c30f454673984f57c9a0036"
+    },
+    {
+      "sequence": 364,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-635ef1c7e0d1",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [
+            "OBS-c026773731c186c5a8be542e"
+          ],
+          "independent_observation": false,
+          "identity_status": "Pass",
+          "lexical_identity": "Chinese cultural topic 六十四卦, not an English lexical item",
+          "meaning_context": "Preserved claim: 六十四卦图是我们的另一种文字。Cultural/structural observation only; not validated here.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/0/source/raw_note",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "7e3b82bdf8231e855e40543c7b60222357564e452c30f454673984f57c9a0036",
+      "hash": "ba33ed352976fce8c4eae356913597b710d1472f2b6659956b147df04513886c"
+    },
+    {
+      "sequence": 365,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "ingest",
+      "payload": {
+        "observation_id": "OBS-PROV-62412ae88f1e",
+        "origin_type": "unknown",
+        "author": null,
+        "original_text": "New，新的。牛 niu。丑牛时辰为一天新的开始。English new adj. 新的；French nouveau adj. 新的；Chinese 牛 n.。子鼠丑牛。子不代表新，牛时辰是新的开始。另提及 Nibiru/Anunnaki 与神农氏人身牛头。原始推想仅留档：Not evidence for etymology or historical relation。",
+        "source_form": "神农氏人身牛头",
+        "source_language": "Chinese",
+        "proposed_mapping": null,
+        "reasoning_raw": "",
+        "created_at": "2026-09-28T15:12:53.995Z",
+        "source_date": null,
+        "provenance": {
+          "source_location": "data/language-book.v1.0.json#/entries/39/source/raw_note",
+          "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+          "authorship_verified": false,
+          "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+          "intake_mode": "migration"
+        },
+        "ai_exposure_status": "exposed_to_ai",
+        "research_status": "queued",
+        "linked_candidate_ids": [],
+        "linked_mapping_ids": [],
+        "holdout_status": "not_eligible",
+        "historical_relation": "Not claimed",
+        "evidence_status": "Pending",
+        "ai_discovery": null
+      },
+      "previous_hash": "ba33ed352976fce8c4eae356913597b710d1472f2b6659956b147df04513886c",
+      "hash": "57359a3ff862f58e046f4adc300538a249c42dd5ba9facb041141f7a087a1250"
+    },
+    {
+      "sequence": 366,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "object",
+      "payload": {
+        "id": "RQ-62412ae88f1e",
+        "kind": "candidate",
+        "source_ref": "data/language-book.v1.0.json#/entries/39/source/raw_note"
+      },
+      "previous_hash": "57359a3ff862f58e046f4adc300538a249c42dd5ba9facb041141f7a087a1250",
+      "hash": "2db8aeff45697c81a06427d16d43e4d06836d13d7d92c8c5608637506c766ef3"
+    },
+    {
+      "sequence": 367,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "link",
+      "payload": {
+        "observation_id": "OBS-PROV-62412ae88f1e",
+        "object_id": "RQ-62412ae88f1e"
+      },
+      "previous_hash": "2db8aeff45697c81a06427d16d43e4d06836d13d7d92c8c5608637506c766ef3",
+      "hash": "ae15b868474f30df7001cc475d9e861f9000fb5751d85799cc955a6dd7cec506"
+    },
+    {
+      "sequence": 368,
+      "at": "2026-09-28T15:12:53.995Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-62412ae88f1e",
+        "normalized": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [
+            "OBS-26861cd08f4da4e786675279"
+          ],
+          "independent_observation": false,
+          "identity_status": "Pass",
+          "lexical_identity": "Chinese cultural narrative 神农氏人身牛头",
+          "meaning_context": "Recorded narrative in NEW raw note; cultural interpretation, not a biological or etymological fact.",
+          "identity_evidence": "docs/research/new-niu-source-audit-v1.md:61-80",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      "previous_hash": "ae15b868474f30df7001cc475d9e861f9000fb5751d85799cc955a6dd7cec506",
+      "hash": "4c97145a1ac4ebd3d4b8cedb5b4863791d7c237e14c6f6a2957b6f364344e036"
+    },
+    {
+      "sequence": 369,
+      "at": "2026-09-28T15:15:30.672Z",
+      "actor": "provenance_resolution",
+      "kind": "normalize",
+      "payload": {
+        "observation_id": "OBS-PROV-703e21934bd6",
+        "normalized": {
+          "identity_evidence": "data/language-book.v1.0.json#/entries/7",
+          "correction_of": "data/language-book.v1.0.json#/entries/5",
+          "reason": "Locator correction during pre-commit audit: LIGHT is entries/7; original raw text and attribution unchanged."
+        }
+      },
+      "previous_hash": "4c97145a1ac4ebd3d4b8cedb5b4863791d7c237e14c6f6a2957b6f364344e036",
+      "hash": "4e898b57d067bef8010a7283cbe3b83213c395620d1d1749bff091d829026639"
     }
   ]
 }

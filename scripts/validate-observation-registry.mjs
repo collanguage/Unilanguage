@@ -17,11 +17,13 @@ export function validateRegistry(root) {
     if(input.path==='data/candidates/production-corpus.v0.1.json') protectedInput.records=protectedInput.records.slice(0,14);
     if(digest(protectedInput) !== input.sha256) throw Error(`Protected corpus changed: ${input.path}`);
   }
+  const resolution=JSON.parse(fs.readFileSync(root+'/research/observations/provenance-resolution-v1/resolution.json','utf8'));
+  const allowedFiles=[...report.inputs.map(x=>x.path),...resolution.input_files];
   for(const r of state.observations) {
     if(r.holdout_status === 'reserved' || r.ai_exposure_status === 'unexposed') throw Error('Private/unexposed observations must not enter tracked registry');
     if(r.provenance.intake_mode === 'migration') {
       const [file,pointer]=r.provenance.source_location.split('#');
-      if(!report.inputs.some(x=>x.path===file)) throw Error('Migration outside allowlisted corpus');
+      if(!allowedFiles.includes(file)) throw Error('Migration outside allowlisted corpus');
       let raw=JSON.parse(fs.readFileSync(`${root}/${file}`,'utf8'));
       for(const part of pointer.slice(1).split('/'))raw=raw[part.replaceAll('~1','/').replaceAll('~0','~')];
       if((typeof raw === 'string'?raw:JSON.stringify(raw)) !== r.original_text) throw Error(`Original text mismatch: ${r.observation_id}`);
@@ -29,7 +31,7 @@ export function validateRegistry(root) {
   }
   const resolve=ref=>{
     const [file,pointer]=ref.split('#');
-    if(!report.inputs.some(x=>x.path===file) || !pointer?.startsWith('/'))throw Error('Object reference outside allowlist');
+    if(!allowedFiles.includes(file) || !pointer?.startsWith('/'))throw Error('Object reference outside allowlist');
     let value=JSON.parse(fs.readFileSync(`${root}/${file}`,'utf8'));
     for(const part of pointer.slice(1).split('/'))value=value?.[part.replaceAll('~1','/').replaceAll('~0','~')];
     if(value===undefined)throw Error(`Unresolved object reference ${ref}`);
