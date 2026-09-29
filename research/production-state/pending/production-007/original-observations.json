@@ -1,0 +1,258 @@
+[
+  {
+    "observation_id": "OBS-PROV-9bdfd82a8591",
+    "origin_type": "unknown",
+    "author": null,
+    "original_text": "{\"word\":\"brief/brevity\",\"language\":\"English\",\"relationship_type\":\"historical relatives\",\"family\":\"Latin brevis\",\"relation_to_entry\":{\"en\":\"Documented relation in the stated historical family.\",\"zh-Hans\":\"在所列历史词族内有文献支持的关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-ABBREVIATE\"]}",
+    "source_form": "brief/brevity",
+    "source_language": "English",
+    "proposed_mapping": null,
+    "reasoning_raw": "",
+    "created_at": "2026-09-28T15:12:53.995Z",
+    "source_date": null,
+    "provenance": {
+      "source_location": "data/language-book.v1.0.json#/entries/14/related_words/2",
+      "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+      "authorship_verified": false,
+      "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+      "intake_mode": "migration"
+    },
+    "ai_exposure_status": "exposed_to_ai",
+    "research_status": "queued",
+    "linked_candidate_ids": [
+      "RQ-9bdfd82a8591",
+      "RO-b55c66366400",
+      "RO-a02875b96b25"
+    ],
+    "linked_mapping_ids": [],
+    "holdout_status": "not_eligible",
+    "historical_relation": "Not claimed",
+    "evidence_status": "Pending",
+    "ai_discovery": null,
+    "normalizations": [
+      {
+        "at": "2026-09-28T15:12:53.995Z",
+        "actor": "provenance_resolution",
+        "value": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented relation in the stated historical family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/14/related_words/2",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      {
+        "at": "2026-09-28T18:12:44.104Z",
+        "actor": "identity_resolution",
+        "value": {
+          "identity_resolution": "legacy-mixed-form-v1",
+          "research_object_ids": [
+            "RO-b55c66366400",
+            "RO-a02875b96b25"
+          ],
+          "original_preserved": true,
+          "attribution": "Imported legacy / author unknown",
+          "relation_not_inferred": true
+        }
+      }
+    ],
+    "review_status": "unreviewed",
+    "publication_status": "not_published"
+  },
+  {
+    "observation_id": "OBS-PROV-6e8760b2c429",
+    "origin_type": "unknown",
+    "author": null,
+    "original_text": "{\"word\":\"convene / convenir\",\"language\":\"English/French\",\"relationship_type\":\"Shared base family\",\"family\":\"Latin convenire\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-CONVENT\",\"REF-MW-CONVENTION\",\"REF-CNRTL-COUVENT\",\"REF-CNRTL-CONVENTION\"]}",
+    "source_form": "convene / convenir",
+    "source_language": "English/French",
+    "proposed_mapping": null,
+    "reasoning_raw": "",
+    "created_at": "2026-09-28T15:12:53.995Z",
+    "source_date": null,
+    "provenance": {
+      "source_location": "data/language-book.v1.0.json#/entries/28/related_words/1",
+      "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+      "authorship_verified": false,
+      "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+      "intake_mode": "migration"
+    },
+    "ai_exposure_status": "exposed_to_ai",
+    "research_status": "queued",
+    "linked_candidate_ids": [
+      "RQ-6e8760b2c429",
+      "RO-349a36e2d5b1",
+      "RO-6798a8742e69"
+    ],
+    "linked_mapping_ids": [],
+    "holdout_status": "not_eligible",
+    "historical_relation": "Not claimed",
+    "evidence_status": "Pending",
+    "ai_discovery": null,
+    "normalizations": [
+      {
+        "at": "2026-09-28T15:12:53.995Z",
+        "actor": "provenance_resolution",
+        "value": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/28/related_words/1",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      {
+        "at": "2026-09-28T18:12:44.104Z",
+        "actor": "identity_resolution",
+        "value": {
+          "identity_resolution": "legacy-mixed-form-v1",
+          "research_object_ids": [
+            "RO-349a36e2d5b1",
+            "RO-6798a8742e69"
+          ],
+          "original_preserved": true,
+          "attribution": "Imported legacy / author unknown",
+          "relation_not_inferred": true
+        }
+      }
+    ],
+    "review_status": "unreviewed",
+    "publication_status": "not_published"
+  },
+  {
+    "observation_id": "OBS-PROV-7e3b70d344ba",
+    "origin_type": "unknown",
+    "author": null,
+    "original_text": "{\"word\":\"figurative / figurer\",\"language\":\"English/French\",\"relationship_type\":\"Etymological derivative\",\"family\":\"Latin figura / figurare\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-CNRTL-FIGURE\",\"REF-MW-FINGER\"]}",
+    "source_form": "figurative / figurer",
+    "source_language": "English/French",
+    "proposed_mapping": null,
+    "reasoning_raw": "",
+    "created_at": "2026-09-28T15:12:53.995Z",
+    "source_date": null,
+    "provenance": {
+      "source_location": "data/language-book.v1.0.json#/entries/29/related_words/1",
+      "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+      "authorship_verified": false,
+      "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+      "intake_mode": "migration"
+    },
+    "ai_exposure_status": "exposed_to_ai",
+    "research_status": "queued",
+    "linked_candidate_ids": [
+      "RQ-7e3b70d344ba",
+      "RO-3c1170d0f544",
+      "RO-1971e60b519d"
+    ],
+    "linked_mapping_ids": [],
+    "holdout_status": "not_eligible",
+    "historical_relation": "Not claimed",
+    "evidence_status": "Pending",
+    "ai_discovery": null,
+    "normalizations": [
+      {
+        "at": "2026-09-28T15:12:53.995Z",
+        "actor": "provenance_resolution",
+        "value": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/29/related_words/1",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      {
+        "at": "2026-09-28T18:12:44.104Z",
+        "actor": "identity_resolution",
+        "value": {
+          "identity_resolution": "legacy-mixed-form-v1",
+          "research_object_ids": [
+            "RO-3c1170d0f544",
+            "RO-1971e60b519d"
+          ],
+          "original_preserved": true,
+          "attribution": "Imported legacy / author unknown",
+          "relation_not_inferred": true
+        }
+      }
+    ],
+    "review_status": "unreviewed",
+    "publication_status": "not_published"
+  },
+  {
+    "observation_id": "OBS-PROV-0de2d0a3cb1c",
+    "origin_type": "unknown",
+    "author": null,
+    "original_text": "{\"word\":\"marché / merchant\",\"language\":\"French/English\",\"relationship_type\":\"Commerce family\",\"family\":\"Latin mercatus / merx path\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-CNRTL-MARCHAND\",\"REF-CNRTL-MARCHER\",\"REF-MW-MARCH\"]}",
+    "source_form": "marché / merchant",
+    "source_language": "French/English",
+    "proposed_mapping": null,
+    "reasoning_raw": "",
+    "created_at": "2026-09-28T15:12:53.995Z",
+    "source_date": null,
+    "provenance": {
+      "source_location": "data/language-book.v1.0.json#/entries/35/related_words/0",
+      "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+      "authorship_verified": false,
+      "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+      "intake_mode": "migration"
+    },
+    "ai_exposure_status": "exposed_to_ai",
+    "research_status": "queued",
+    "linked_candidate_ids": [
+      "RQ-0de2d0a3cb1c",
+      "RO-25416ffffb38",
+      "RO-74fae5c5c0ad"
+    ],
+    "linked_mapping_ids": [],
+    "holdout_status": "not_eligible",
+    "historical_relation": "Not claimed",
+    "evidence_status": "Pending",
+    "ai_discovery": null,
+    "normalizations": [
+      {
+        "at": "2026-09-28T15:12:53.995Z",
+        "actor": "provenance_resolution",
+        "value": {
+          "resolution": "I",
+          "source_version_date": "2026-09-20T21:36:01-04:00",
+          "parent_observation_ids": [],
+          "independent_observation": false,
+          "identity_status": "Unresolved composite identity",
+          "lexical_identity": null,
+          "meaning_context": "Documented historical relation within the stated family.",
+          "identity_evidence": "data/language-book.v1.0.json#/entries/35/related_words/0",
+          "scope": "Provenance/identity only; no evidence or author promotion"
+        }
+      },
+      {
+        "at": "2026-09-28T18:12:44.104Z",
+        "actor": "identity_resolution",
+        "value": {
+          "identity_resolution": "legacy-mixed-form-v1",
+          "research_object_ids": [
+            "RO-25416ffffb38",
+            "RO-74fae5c5c0ad"
+          ],
+          "original_preserved": true,
+          "attribution": "Imported legacy / author unknown",
+          "relation_not_inferred": true
+        }
+      }
+    ],
+    "review_status": "unreviewed",
+    "publication_status": "not_published"
+  }
+]

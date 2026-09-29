@@ -9,7 +9,7 @@ test('006 preserves original proposals and existing corpus; acceptance is separa
  for(const [file,hash] of Object.entries(read(prefix+'manifest.json').files))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,prefix+file),'utf8').replace(/\r\n/g,'\n')).digest('hex'),hash);
  const proposal=read(prefix+'research-report.json');
  assert.equal(proposal.accepted,false);assert.equal(freeze.approved_by,'Jinkai Liu');
- assert.equal(active.records.length,44);assert.equal(active.records.filter(r=>r.featured_mapping_status==='Candidate').length,12);
+ assert.equal(active.records.length,52);assert.equal(active.records.filter(r=>r.featured_mapping_status==='Candidate').length,13);
  for(const f of freeze.records){
   assert.deepEqual(f.research_record,proposal.entries.find(x=>x.candidate_id===f.candidate_id));
   assert.equal(f.origin,'unknown');assert.equal(f.author,null);assert.equal(f.historical_relation,'Not claimed');
@@ -23,7 +23,7 @@ test('006 is completed and excluded without dispatch or acceptance of new object
  const {deriveState,validateState}=await import('../scripts/production-state.mjs');
  assert.deepEqual(validateState(root),[]);
  const state=deriveState(root,'006-regression');
- assert.deepEqual(state.pending_freeze_batches,[]);assert.equal(state.eligible_queue_count,17);assert.equal(state.provenance_review_queue_count,5);
+ assert.deepEqual(state.pending_freeze_batches.map(b=>[b.batch_id,b.count]),[]);assert.equal(state.eligible_queue_count,9);assert.equal(state.provenance_review_queue_count,5);
  assert.equal(state.automatic_dispatch,false);
 });
 test('006 editorial gate rejects sense expansion, cultural upgrades and provenance promotion',async()=>{

@@ -8,15 +8,15 @@ new linguistic findings or accept pending proposals.
 ## Current checkpoint
 
 - Legacy: **42** (`data/language-book.v1.0.json`).
-- Active Production: **44** (12 Featured Candidates; 32 Featured Pending) (`data/candidates/production-corpus.v0.1.json`).
+- Active Production: **52** (13 Featured Candidates; 39 Featured Pending) (`data/candidates/production-corpus.v0.1.json`).
 - Archives: **2** (`data/candidates/production-archive.v0.1.json`).
 - Controls: **2**, not Active/Archive (`research/controls/production-004.v0.1.json`).
 - Registry: **85**, 71 unknown + 14 AI; no newly authenticated human origin.
-- Last acceptance: **006**, explicitly approved by Jinkai Liu.
-- Review backlog: **0** (Production 006 accepted). Original 003/005 proposals remain unchanged under
+- Last acceptance: **007**, explicitly approved by Jinkai Liu.
+- Review backlog: **0** (Production 007 accepted). Original 003/005 proposals remain unchanged under
   `research/production-state/pending/`; acceptance is recorded separately in
   `research/production-state/acceptance-003-005.v1.json` and the approved freezes.
-- Eligible unprocessed queue: **17**. Identity/provenance queue: **5** (scoped pending); historical-only objects: **4**.
+- Eligible unprocessed queue: **9**. Identity/provenance queue: **5** (scoped pending); historical-only objects: **4**.
 - Benchmark: **Designed / Frozen / Execution Pending Isolated Evaluator**.
 - Next action: await Jinkai Liu instruction; **do not start another batch**.
 
@@ -148,3 +148,5 @@ replace those services or prove linguistic claims.
 `observations/mixed-form-resolution-v1/resolution.json` is the identity-only overlay over the unchanged queue seed. Thirteen original observations remain immutable; 23 scoped objects comprise 19 new, one linked existing (pression), and three retained pending identities. Four Latin units are historical-only and require separate research scope; five unresolved scopes (formation, genus, medium, signal, signature) remain gated. No family relation or Mapping/Evidence conclusion is inherited. Registry uses append-only object/link/normalize events; no new authorship.
 
 `observations/mixed-form-resolution-v1/scheduler-dry-run.json` is a suggestion only, not a started batch. Next research needs Jinkai Liu authorization.
+
+Production 007 acceptance: production-state/acceptance-007.v1.json; freeze: data/review/production-007-freeze.v0.1.json. Original proposal records remain immutable and are superseded only in workflow status. No deployment authorized.

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-28T20:00:50.935642+00:00",
+  "validation_command": "pnpm validate",
+  "validation_exit_code": 0,
+  "regression_command": "node scripts/run-tests.mjs",
+  "tests": 325,
+  "passed": 325,
+  "failed": 0,
+  "new_proposal_tests": 3,
+  "scope": "Structural/editorial regression checks, not independent linguistic adjudication",
+  "corpus_acceptance": false,
+  "commit": false,
+  "push": false,
+  "deploy": false
+}

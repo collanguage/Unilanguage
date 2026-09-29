@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "previous_production_commit": "02f85acd14aeff8ef8da2d2714afcd3f078ae690",
+  "previous_production_commit": "1bb4925f2af120401fd72bf5356eb5bd5981a1a1",
   "unchanged_files": {
     "data/language-book.v1.0.json": "e656ac1de84381f2f0c3fa5a0ca91f5186b7869664ceaf3b00293979c16c4af5",
-    "data/candidates/production-corpus.v0.1.json": "1b7933bf5df176997008ba80217f5d98cbb9d3a64564eb60197a92cb82d6494b",
+    "data/candidates/production-corpus.v0.1.json": "0216b0930c471b81acdd6891d08d83b97c1650132de970fc678be08fbb84828b",
     "data/candidates/production-archive.v0.1.json": "206da661ba7b4757434febccdcb15876376c151509f8c91acda8dbb838886c78",
     "research/observations/registry.v0.1.json": "23617f33fde5fc55f3e2eff86c69fd63fb7c055e34316d6fb2e813cb8a9e546d",
     "research/controls/production-004.v0.1.json": "899e69a55a72ae1402e99687d2407b9ce567c15880143552de3f855e69e350bd",
@@ -19,7 +19,9 @@
     "data/hypotheses/l-light-semantic-cluster.v0.1.json": "6ff069b67234138ae7be7cb667038dcd56198122108f09ac9879f5e483a8cefe",
     "data/review/production-006-freeze.v0.1.json": "89367fe013b9763f83786540e376e8e499924ba2bb73c5a236a476f95da12ba1",
     "research/production-state/acceptance-006.v1.json": "c2bc792881a822bd7602c227feb0715373c4d8adea12e647a0c7c703457ba80a",
-    "research/observations/mixed-form-resolution-v1/resolution.json": "2cb2c00ba9f81a046cd5d4e735d884a7ab631cdd15e4485fcde9eb07b046fe05"
+    "research/observations/mixed-form-resolution-v1/resolution.json": "2cb2c00ba9f81a046cd5d4e735d884a7ab631cdd15e4485fcde9eb07b046fe05",
+    "data/review/production-007-freeze.v0.1.json": "3624153a6faf13464f17f367e6fdbdfdb8482d0832b0871aa4e9eec27fc5a54b",
+    "research/production-state/acceptance-007.v1.json": "e69ae7dadcc5cc2be741c6f38a62d05b7067816cadf626c892cae7857f1e63ad"
   },
   "imported_files": {
     "research/production-state/pending/production-003/research-records.json": "3d8a2c4d686000a76a99eaa4a94db4bd79d6fb7cb473e1fabe6ce7f84ee840c3",
@@ -70,7 +72,14 @@
     "research/production-state/pending/production-006/manifest.json": "ea79b9c8d46104198d9782d5ed1b29c13f4abf3cc8689c6158ab324a77f482f9",
     "research/observations/mixed-form-resolution-v1/queue-snapshot.json": "fab00825c830e587a2cb5bdb790290ceed3e5545187eb2a15835513d3f1b4acb",
     "research/observations/mixed-form-resolution-v1/scheduler-dry-run.json": "c067267178eb286a3afb8594b21419112b82a2706079d9204468711458bc93df",
-    "research/observations/mixed-form-resolution-v1/REPORT.md": "a555b5405dc6b7193a217533a31032c9a1a2cd6ed2d5ba46eb07b862dd1f5bbd"
+    "research/observations/mixed-form-resolution-v1/REPORT.md": "a555b5405dc6b7193a217533a31032c9a1a2cd6ed2d5ba46eb07b862dd1f5bbd",
+    "research/production-state/pending/production-007/manifest.json": "da61af7f66ff2ea289c5412c89d5fed300be13420b0e4a8ae2634b1a6bba61a9",
+    "research/production-state/pending/production-007/original-observations.json": "decd6856173f0be43697ec72aa25ea257ef4f0edc0fa59887f1352e304b1ec95",
+    "research/production-state/pending/production-007/queue-snapshot.json": "fab00825c830e587a2cb5bdb790290ceed3e5545187eb2a15835513d3f1b4acb",
+    "research/production-state/pending/production-007/report.md": "351d78f8ab48f4b7961af5c239e9228f3246fe0057af6ad01536fc2ae06b9ae0",
+    "research/production-state/pending/production-007/research-report.json": "8d7519ffa7f63afeb4b45b9da11520f6e18309f829acd041f80d2a5f8a29102e",
+    "research/production-state/pending/production-007/selection.json": "c067267178eb286a3afb8594b21419112b82a2706079d9204468711458bc93df",
+    "research/production-state/pending/production-007/validation.json": "83fec47ee892a8e8325860287d25c425c54c23043c22c68ee1240f14b53c5624"
   },
   "hash_algorithm": "sha256-utf8-lf",
   "authorized_revisions": [
@@ -89,6 +98,12 @@
       "previous_sha256": "1d47a59acf637425e6dcfaf472f551f2578b0131b5866007f1c9622ff6ff05a1",
       "current_sha256": "62970e1208a890d7505e45f4a4f85d39861dcf64378614238bcb6209ebbefa31",
       "resolution_record": "research/observations/provenance-resolution-v1/resolution.json"
+    },
+    {
+      "at": "2026-09-29T16:00:59.658550+00:00",
+      "approval": "Jinkai Liu Production-007 acceptance",
+      "record": "research/production-state/acceptance-007.v1.json",
+      "scope": "Append eight candidates; existing 44 and original proposals unchanged"
     }
   ]
 }

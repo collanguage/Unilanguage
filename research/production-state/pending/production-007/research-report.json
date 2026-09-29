@@ -1,0 +1,149 @@
+{
+  "batch": "production-007",
+  "baseline_commit": "1bb4925f2af120401fd72bf5356eb5bd5981a1a1",
+  "status": "awaiting_jinkai_review",
+  "mode": "Production; not blind evaluation",
+  "common": {
+    "origin": "Imported legacy / author unknown",
+    "author": null,
+    "author_observation": "Four imported parent observations contain family pointers, not authenticated author Chinese targets. Original snapshots preserved separately.",
+    "candidate_origin": "AI analysis in this production run; not an independent author observation",
+    "historical_relation": "Not claimed",
+    "accepted": false,
+    "reviewed": false,
+    "published": false,
+    "phonetic_fit": "Low",
+    "chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+    "mainland_evidence_status": "Online lexical leads; exact large paper dictionary entry/edition/page Pending. Zdic aggregates multiple sources and is not proof of Mainland paper verification.",
+    "benchmark_status": "Benchmark-ineligible after production exposure",
+    "primary_pipeline": "Lexical–Diachronic",
+    "score_definition": "Qualitative editorial judgments for the stated sense, not measurements. Phonetic Low means no defensible whole-form match; initial fragments do not increase score. Structural comparisons do not establish chronology."
+  },
+  "entries": [
+    {
+      "candidate_id": "RO-b55c66366400", "source_form": "brief", "language": "English", "pos": "adjective", "pronunciation": "/briːf/",
+      "standard_meaning": "简短的；短暂的",
+      "historical_stages": ["Latin brevis: short", "Anglo-French bref/brief", "Middle English bref/breve", "Modern adjective: short duration/extent; concise"],
+      "source": "https://www.merriam-webster.com/dictionary/brief",
+      "candidates": [
+        {"form":"简短","reading":"jiǎn duǎn","sense":"篇幅或表达不长","target":"modern concise adjective","semantic":"High","structural":"Medium","source":"https://zdic.net/hans/简短","evidence":"Online lexical support; paper Pending","limit":"Not legal brief or brief someone"},
+        {"form":"短暂","reading":"duǎn zàn","sense":"持续时间短","target":"modern duration adjective","semantic":"High","structural":"Medium","source":"https://zdic.net/hans/短暂","evidence":"Online basic lexical section; paper Pending","limit":"Use Mandarin zàn; aggregator regional reading not transferred"},
+        {"form":"简洁","reading":"jiǎn jié","sense":"表达简明扼要","target":"concise expression","semantic":"High","structural":"Medium","source":"https://www.zdic.net/hans/簡潔","evidence":"Online lexical support; paper Pending","limit":"Not all short answers are well expressed"}
+      ],
+      "controls": ["鄙 bǐ: initial-fragment sound control, not shortness", "冗长 rǒng cháng: semantic opposite"],
+      "counterexample": "legal brief 是法律文书；brief someone 是告知要点，不能套用形容词候选。",
+      "featured": "Pending", "status": "Featured Pending", "mapping_type": "Scoped semantic comparisons",
+      "rejected_featured": "瘪 biě: indirect deflation/compression analogy; no direct concise/time-short meaning. Do not inherit ABBREVIATE Featured.",
+      "expansion": {"generated":1,"retained":0,"not_selected":1,"semantic_mismatch":0,"evidence_failure":0,"form":"瘪 biě","group":"b-p-m-f initial feature only","scope":"Family-informed bounded trial, not blind discovery"}
+    },
+    {
+      "candidate_id":"RO-a02875b96b25","source_form":"brevity","language":"English","pos":"noun","pronunciation":"/ˈbrɛvəti/",
+      "standard_meaning":"简洁；简短／短暂的性质",
+      "historical_stages":["Latin brevis: short","Latin brevitas: shortness","English brevity: duration or concise-expression quality"],
+      "source":"https://ahdictionary.com/word/search.html?q=brevity",
+      "candidates":[
+        {"form":"简洁","reading":"jiǎn jié","sense":"表达简明","target":"concise-expression quality","semantic":"High","structural":"Medium","source":"https://www.zdic.net/hans/簡潔","evidence":"Online lexical support; paper Pending","limit":"Nominal construction depends on sentence"},
+        {"form":"简短","reading":"jiǎn duǎn","sense":"篇幅不长","target":"shortness of expression","semantic":"High","structural":"Medium","source":"https://zdic.net/hans/简短","evidence":"Online lexical support; paper Pending","limit":"Not a written brief as an object"},
+        {"form":"短暂","reading":"duǎn zàn","sense":"时间短","target":"duration quality","semantic":"High","structural":"Medium","source":"https://zdic.net/hans/短暂","evidence":"Online basic lexical section; paper Pending","limit":"brevity of life does not mean concise writing"}
+      ],
+      "controls":["卑 bēi: initial-fragment control, not brevity","冗长 rǒng cháng: semantic opposite"],
+      "counterexample":"brevity of life → 生命短暂；不能统一译为言简意赅。",
+      "featured":"Pending","status":"Featured Pending","mapping_type":"Scoped nominal semantic comparisons",
+      "rejected_featured":"瘪 biě does not directly express nominal brevity; family resemblance cannot transfer a Featured.",
+      "expansion":{"generated":1,"retained":0,"not_selected":1,"semantic_mismatch":0,"evidence_failure":0,"form":"瘪 biě","group":"b-p-m-f initial feature only","scope":"Separate object-level trial; same form as brief trial"}
+    },
+    {
+      "candidate_id":"RO-349a36e2d5b1","source_form":"convene","language":"English","pos":"transitive/intransitive verb","pronunciation":"/kənˈviːn/",
+      "standard_meaning":"召集；集合",
+      "historical_stages":["Latin convenire: assemble","Medieval Latin convenire","Middle English convene","Modern assemble / cause to assemble / summon before tribunal"],
+      "source":"https://www.merriam-webster.com/dictionary/convene",
+      "candidates":[
+        {"form":"聚","reading":"jù","sense":"集合、会合","target":"assembly historical/modern scope","semantic":"High","structural":"Medium","source":"https://zdic.net/hans/聚","evidence":"Online basic and verb senses; paper Pending","limit":"聚财 does not mean convene money"},
+        {"form":"召集","reading":"zhào jí","sense":"通知人们聚集","target":"modern causative assembly","semantic":"High","structural":"Medium","source":"https://zdic.net/hans/召集","evidence":"Online lexical support; paper Pending","limit":"Not suitability; legal summons needs context"},
+        {"form":"合","reading":"hé","sense":"会聚","target":"historical come-together comparison","semantic":"Medium–High","structural":"Medium","source":"https://zdic.net/hans/合","evidence":"Online assemble sense; paper Pending","limit":"Does not import modern French suitability"}
+      ],
+      "controls":["昆 kūn: onset-fragment control; not assemble","适合 shì hé: related-family false friend"],
+      "counterexample":"convene a council 是召集会议，不是会议合适。",
+      "featured":"Pending","status":"Featured Pending","mapping_type":"Scoped semantic/stage comparisons"
+    },
+    {
+      "candidate_id":"RO-6798a8742e69","source_form":"convenir","language":"French","pos":"intransitive verb; à/de/que/impersonal constructions","pronunciation":"/kɔ̃vəniʁ/",
+      "standard_meaning":"适合；商定／同意；承认（按构式）",
+      "historical_stages":["Latin convenire: come together, fit, agree; semantic range not strict chronology","Old French covenir, attested 11th century","French convenir influenced by venir; construction-specific modern meanings"],
+      "source":"https://www.dictionnaire-academie.fr/article/A9C4082",
+      "candidates":[
+        {"form":"合","reading":"hé","sense":"适合、相合；另有聚合义","target":"modern suitability plus separate Latin assembly comparison","semantic":"High (scoped)","structural":"High","source":"https://zdic.net/hans/合","evidence":"Online fit/assemble senses; paper Pending","limit":"Not admission; not gě capacity unit; no Chinese semantic chronology claimed"},
+        {"form":"同意","reading":"tóng yì","sense":"表示赞同","target":"agreement construction","semantic":"High (scoped)","structural":"Medium","source":"https://zdic.net/hans/同意","evidence":"Ordinary usage candidate; direct Mainland entry retrieval Pending","limit":"Not all admission or suitability constructions"},
+        {"form":"承认","reading":"chéng rèn","sense":"认可事实","target":"convenir de/que admission","semantic":"High (scoped)","structural":"Medium","source":"https://zdic.net/hans/承认","evidence":"Online lexical support; paper Pending","limit":"Not gathering"}
+      ],
+      "controls":["困 kùn: initial-fragment control; not suitability","召集 zhào jí: English false-friend control"],
+      "counterexample":"Ce vêtement me convient 是衣服适合我；Je conviens que… 是我承认……，不是聚集。",
+      "featured":"合 hé","status":"Ready for Editorial Freeze","mapping_type":"Limited Structural-Semantic Candidate",
+      "featured_scope":"Suitability / fitting-together comparison. Latin assembly and Chinese 聚合 are separately labelled polysemy comparison, not shared evolution or whole-word equivalence."
+    },
+    {
+      "candidate_id":"RO-3c1170d0f544","source_form":"figurative","language":"English","pos":"adjective; rhetoric and art senses separate","pronunciation":"/ˈfɪɡjərətɪv/",
+      "standard_meaning":"比喻性的；象征性的；具象的（美术）",
+      "historical_stages":["Latin figurare / figuratus: shape or represent","Medieval Latin figurativus","Middle English figuratif: symbolic representation","Modern rhetoric/art senses; no mandatory transformation sequence"],
+      "source":"https://www.merriam-webster.com/dictionary/figurative",
+      "candidates":[
+        {"form":"比喻","reading":"bǐ yù","sense":"借相似关系表达","target":"rhetorical sense, 比喻性的","semantic":"High (scoped)","structural":"High","source":"https://zdic.net/hans/比喻","evidence":"Online lexical support; paper Pending","limit":"Figurative language is broader than one trope"},
+        {"form":"象征","reading":"xiàng zhēng","sense":"借具体事物表示意义","target":"emblematic sense","semantic":"High (scoped)","structural":"High","source":"https://zdic.net/hans/象征","evidence":"Online lexical support; paper Pending","limit":"Not every figurative phrase is symbolic"},
+        {"form":"具象","reading":"jù xiàng","sense":"以可辨认物象表现","target":"representational art","semantic":"High (scoped)","structural":"Medium","source":"https://cafa.com.cn/cn/figures/article/details/8320606","evidence":"Mainland art practitioner usage supports art scope; dictionary entry Pending","limit":"Not general figurative speech"}
+      ],
+      "controls":["非 fēi: initial-fragment control; negation alone is not figurative","字面的 zì miàn de: contrast control"],
+      "counterexample":"figurative painting 可指具象绘画，不能一律译比喻绘画。",
+      "featured":"Pending","status":"Featured Pending","mapping_type":"Sense-specific rhetorical/art comparisons"
+    },
+    {
+      "candidate_id":"RO-1971e60b519d","source_form":"figurer","language":"French","pos":"transitive/intransitive/pronominal verb","pronunciation":"/fiɡyʁe/",
+      "standard_meaning":"描绘／表示；列于／出现于；想象（se figurer）",
+      "historical_stages":["Latin figura family base","Latin figurare: shape, represent, imagine","French figurer, attested 11th century","Modern construction branches: representation, inclusion, imagination; not strict chronology"],
+      "source":"https://www.dictionnaire-academie.fr/article/A9F0736",
+      "candidates":[
+        {"form":"描绘","reading":"miáo huì","sense":"以图画或语言表现","target":"transitive depiction","semantic":"High (scoped)","structural":"High","source":"https://zdic.net/hans/描绘","evidence":"Online lexical support; paper Pending","limit":"Not name inclusion on a list"},
+        {"form":"象征","reading":"xiàng zhēng","sense":"借形象表示","target":"symbolic representation","semantic":"High (scoped)","structural":"High","source":"https://zdic.net/hans/象征","evidence":"Online lexical support; paper Pending","limit":"Not every depiction is symbolic"},
+        {"form":"想象","reading":"xiǎng xiàng","sense":"在头脑中形成形象","target":"pronominal se figurer","semantic":"High (scoped)","structural":"Medium","source":"https://zdic.net/hans/想象","evidence":"Online lexical support; paper Pending","limit":"Do not drop pronominal/construction boundary"}
+      ],
+      "controls":["飞 fēi: first-fragment control; flying is unrelated","列在 liè zài: high-semantic/low-sound construction control"],
+      "counterexample":"Son nom figure sur la liste → 名字列在名单上；不是比喻或想象。",
+      "featured":"Pending","status":"Featured Pending","mapping_type":"Construction-specific semantic comparisons"
+    },
+    {
+      "candidate_id":"RO-25416ffffb38","source_form":"marché","language":"French","pos":"masculine noun; not marcher past participle","pronunciation":"/maʁʃe/",
+      "standard_meaning":"市场／集市；交易／协议",
+      "historical_stages":["Latin mercatus: market/trade","Early French marched, attested 10th century","Modern marché: venue/system of exchange or commercial agreement"],
+      "source":"https://www.dictionnaire-academie.fr/article/A9M1054",
+      "candidates":[
+        {"form":"市场","reading":"shì chǎng","sense":"买卖场所或交易领域","target":"place/economic market","semantic":"High (scoped)","structural":"Medium","source":"https://zdic.net/hans/市场","evidence":"Online lexical support; paper Pending","limit":"Not the trader"},
+        {"form":"交易","reading":"jiāo yì","sense":"买卖交换","target":"commercial transaction","semantic":"High (scoped)","structural":"Medium","source":"https://zdic.net/hans/交易","evidence":"Online lexical support; paper Pending","limit":"Not a venue"},
+        {"form":"集市","reading":"jí shì","sense":"集中买卖的场所","target":"concrete market","semantic":"High (scoped)","structural":"Medium","source":"https://zdic.net/hans/集市","evidence":"Usage proposal; dedicated entry verification Pending","limit":"Narrower than financial market"}
+      ],
+      "controls":["马 mǎ: initial-fragment control, not market","商人 shāng rén: participant/place category control"],
+      "counterexample":"marché conclu 指成交；marché financier 不必是赶集场所；merchant 是人。",
+      "featured":"Pending","status":"Featured Pending","mapping_type":"Place/transaction semantic comparisons"
+    },
+    {
+      "candidate_id":"RO-74fae5c5c0ad","source_form":"merchant","language":"English","pos":"noun trader scope; adjective boundary noted","pronunciation":"/ˈmɜːrtʃənt/",
+      "standard_meaning":"商人；贸易商",
+      "historical_stages":["Latin mercari trade, merx commerce family","Vulgar Latin *mercatare / *mercatans participial route; reconstructed forms marked","Anglo-French and Middle English marchant","Modern trader noun"],
+      "source":"https://www.merriam-webster.com/dictionary/merchant",
+      "candidates":[
+        {"form":"商人","reading":"shāng rén","sense":"从事买卖的人","target":"trader noun","semantic":"High","structural":"Medium","source":"https://www.zdic.net/hans/商人","evidence":"Indexed online entry; repeated full retrieval intermittent, exact paper entry Pending","limit":"Not marketplace or every adjective use"},
+        {"form":"贾","reading":"gǔ","sense":"经商者（书面词义）","target":"trader comparison","semantic":"High (scoped)","structural":"Medium","source":"https://zdic.net/hans/贾","evidence":"Online literary lexical sense; paper Pending","limit":"Not surname jiǎ; Chinese chronology not inferred"},
+        {"form":"商贩","reading":"shāng fàn","sense":"买卖者，常偏小本流动经营","target":"restricted small-trader subset","semantic":"Medium","structural":"Medium","source":"https://zdic.net/hans/商贩","evidence":"Online lexical support; paper Pending","limit":"Too narrow for many large merchants"}
+      ],
+      "controls":["马 mǎ: initial-fragment control, not trader","市场 shì chǎng: place/person category control"],
+      "counterexample":"merchant ship 是商船，不是商人船；商贩不能覆盖全部大型贸易商。",
+      "featured":"Pending","status":"Featured Pending","mapping_type":"Agent noun semantic comparisons"
+    }
+  ],
+  "family_reuse": {
+    "families":4,"independent_modern_reviews":8,"time_saving":"Not measured",
+    "pairs":["brief/brevity: brevis family reused, adjective/noun scopes independent","convene/convenir: convenire source reused, English assembly versus French suitability/agreement/admission","figurative/figurer: figura/figurare source reused, figurativus derivation versus French verb constructions","marché/merchant: commerce family reused, mercatus noun versus participial agent route"],
+    "limitations":"Imported family pointers supported within stated scope. Old MW FINGER and MARCH/MARCHER locators do not establish these entire pairs. Entry-specific dictionary evidence used instead; no original records rewritten.",
+    "conclusion_inheritance":false
+  },
+  "metrics":{"processed":8,"serious_candidates":24,"average_serious_candidates":3,"controls":16,"ready_for_editorial_freeze":1,"featured_pending":7,"expansion_generated_pairs":2,"expansion_distinct_forms":1,"expansion_retained":0,"expansion_not_selected":2,"expansion_semantic_mismatch":0,"expansion_evidence_failure":0,"expansion_not_run_objects":6,"precision_claim":false},
+  "audit":{"resampled":false,"hidden_target_access":false,"registry_changed":false,"corpus_changed":false,"raw_text_changed":false,"stop_at":"Jinkai Liu Review Gate"}
+}

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "assembled_at": "2026-09-28T18:14:20.825Z",
+  "assembled_at": "2026-09-29T16:01:00.959Z",
   "legacy_corpus": {
     "version": "1.0",
     "path": "data/language-book.v1.0.json",
@@ -9,7 +9,7 @@
   "active_candidate_corpus": {
     "version": "0.1",
     "path": "data/candidates/production-corpus.v0.1.json",
-    "count": 44,
+    "count": 52,
     "status": "candidate; not Reviewed/Published"
   },
   "archive_count": 2,
@@ -23,9 +23,9 @@
     }
   },
   "scheduler_version": "0.1",
-  "last_accepted_batch": "Production 006",
+  "last_accepted_batch": "Production 007",
   "pending_freeze_batches": [],
-  "eligible_queue_count": 17,
+  "eligible_queue_count": 9,
   "provenance_review_queue_count": 5,
   "identity_resolution_counts": {
     "parent_observations": 13,
@@ -44,7 +44,7 @@
   "latest_production_commit": {
     "mode": "resolve from Git history, avoiding self-referential commit hash",
     "command": "git log -1 --format=%H -- research/production-state/manifest.v1.json",
-    "previous_production_commit": "02f85acd14aeff8ef8da2d2714afcd3f078ae690"
+    "previous_production_commit": "1bb4925f2af120401fd72bf5356eb5bd5981a1a1"
   },
   "validator_versions": {
     "validate-schema.mjs": {
@@ -54,7 +54,7 @@
       "sha256": "688974d3e5f5c452864efd8046408f55c6a9c283883f373e07da40c14738701b"
     },
     "validate-production-candidates.mjs": {
-      "sha256": "71ddeba0b9e1d4b560b30e13478e2d88f7c84a6f51bc1e58596a53c84b857803"
+      "sha256": "a8131bc8d188fd9935fee02d53cb4ebd43b4ed2fb44d7e087f890ba5b4a2135f"
     },
     "validate-observation-registry.mjs": {
       "sha256": "e9f60d38884570d6694387608d8a4878c6a7049d87c9c6e87917db6a041711d9"
@@ -88,7 +88,7 @@
     },
     {
       "file": "research/production-state/pending-batches.v1.json",
-      "sha256": "9a1a1b1ae4e64b2ac08e0f69aa026f87cf0c04b728d932f9b0224dcc9bce029d",
+      "sha256": "59c04ce8ac95359a9b33680adfb4b31f857e9f537d99c6eed7edff142f33da51",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -98,7 +98,7 @@
     },
     {
       "file": "data/candidates/production-corpus.v0.1.json",
-      "sha256": "1b7933bf5df176997008ba80217f5d98cbb9d3a64564eb60197a92cb82d6494b",
+      "sha256": "0216b0930c471b81acdd6891d08d83b97c1650132de970fc678be08fbb84828b",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "file": "research/scheduler/production-completions.v0.1.json",
-      "sha256": "3a10ab3e21080d1e4dad5911790fe6bd1080d69fd622ca2efea37d91225da050",
+      "sha256": "f9238277c20384a993bb4e0746d215934d69b6d678ead5a6c6077a1fad5e4177",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -127,7 +127,7 @@
       "hash_algorithm": "sha256-utf8-lf"
     }
   ],
-  "next_action": "Identity resolution complete at intake scope: 17 eligible, 5 scoped identity pending, 4 historical-only. Review saved dry-run selection; no research authorized.",
+  "next_action": "Production 007 accepted. Await Jinkai Liu instruction; do not start next batch or deploy.",
   "automatic_dispatch": false,
   "review_gate": "Jinkai Liu",
   "runtime_external_work_dependencies": [],

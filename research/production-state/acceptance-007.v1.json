@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "accepted_at": "2026-09-29T16:00:59.658550+00:00",
+  "approved_by": "Jinkai Liu",
+  "scope": "Candidate intake only; no Reviewed/Published/Evidence promotion; no deploy",
+  "baseline_commit": "1bb4925f2af120401fd72bf5356eb5bd5981a1a1",
+  "proposal_manifest": "research/production-state/pending/production-007/manifest.json",
+  "proposal_manifest_sha256": "da61af7f66ff2ea289c5412c89d5fed300be13420b0e4a8ae2634b1a6bba61a9",
+  "freeze_record": "data/review/production-007-freeze.v0.1.json",
+  "candidate_ids": [
+    "RO-b55c66366400",
+    "RO-a02875b96b25",
+    "RO-349a36e2d5b1",
+    "RO-6798a8742e69",
+    "RO-3c1170d0f544",
+    "RO-1971e60b519d",
+    "RO-25416ffffb38",
+    "RO-74fae5c5c0ad"
+  ],
+  "before_counts": {
+    "active": 44,
+    "featured": 12,
+    "pending": 32
+  },
+  "after_counts": {
+    "active": 52,
+    "featured": 13,
+    "pending": 39,
+    "archives": 2,
+    "controls": 2,
+    "review_backlog": 0
+  },
+  "integrity_metadata_correction": {
+    "file": "validation.json",
+    "old_checksum": "4cdba8cbe106a9dfc435790a128d0c7e81aec00c8f88487e59cdf0efa060aa28",
+    "corrected_checksum": "83fec47ee892a8e8325860287d25c425c54c23043c22c68ee1240f14b53c5624",
+    "reason": "Prior validation log used raw CRLF bytes although manifest declares sha256-utf8-lf. Content unchanged; corrected algorithm only."
+  }
+}

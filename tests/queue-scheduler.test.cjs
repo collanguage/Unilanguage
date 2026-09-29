@@ -82,7 +82,7 @@ test('Real dry run is replayable with eight proposals, no corpus acceptance or r
  const {schedule}=await mod,root=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
  const input=read('research/scheduler/batch004-input.v0.1.json'),audit=read('research/scheduler/batch004-dry-run.v0.1.json');
  assert.deepEqual(schedule(input,{timestamp:audit.timestamp}),audit);assert.equal(audit.selection.length,8);assert.ok(audit.deferred.length>=5);assert.equal(audit.worker_runs,0);
- assert.equal(read('data/language-book.v1.0.json').entries.length,42);assert.equal(read('data/candidates/production-corpus.v0.1.json').records.length,44);assert.equal(read('data/candidates/production-archive.v0.1.json').records.length,2);
+ assert.equal(read('data/language-book.v1.0.json').entries.length,42);assert.equal(read('data/candidates/production-corpus.v0.1.json').records.length,52);assert.equal(read('data/candidates/production-archive.v0.1.json').records.length,2);
 });
 test('Independent Scheduler audit rejects dispatch, review, exclusion and selection tampering',async()=>{
  const {schedule}=await mod,{validateSchedulerAudit}=await import('../scripts/validate-queue-scheduler.mjs');

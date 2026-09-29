@@ -16,7 +16,7 @@ test('Mixed identity resolution is append-only, preserves authorship and all ori
 test('Split identities do not duplicate existing objects; historical and ambiguous scopes remain gated',async()=>{
  const {schedule}=await import('../scripts/queue-scheduler.mjs');const {prepareSnapshot}=await import('../scripts/prepare-scheduler-snapshot.mjs');
  const audit=schedule(prepareSnapshot({root,at:'test'}));
- assert.equal(audit.selection.length+audit.deferred.filter(x=>x.reason.startsWith('Eligible;')).length,17);
+ assert.equal(audit.selection.length+audit.deferred.filter(x=>x.reason.startsWith('Eligible;')).length,9);
  assert.equal(audit.deferred.filter(x=>x.reason.startsWith('Provenance/Identity')).length,5);
  assert.equal(audit.deferred.filter(x=>x.reason.startsWith('Historical-only')).length,4);
  for(const p of resolution.parents.filter(x=>x.superseded))assert.ok(audit.deferred.some(x=>x.research_object_id===p.candidate_id&&x.reason.startsWith('Duplicate')));
