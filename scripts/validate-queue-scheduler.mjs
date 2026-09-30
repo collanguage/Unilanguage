@@ -19,7 +19,8 @@ export function validateSchedulerAudit(snapshot,audit) {
     check(DIMENSIONS.every(d=>t.priority_dimensions[d]?.rating && t.priority_dimensions[d]?.rationale),'Missing dimension');
     check(!('featured' in t) && !('publication_status' in t) && !('evidence' in t),'Scheduler cannot adjudicate content');
   }
-  check(isDeepStrictEqual(schedule(snapshot,{timestamp:audit.timestamp}),audit),'Audit is not reproducible from frozen queue snapshot');
+  // Legacy records are replayed without retroactively changing their task contract.
+  check(isDeepStrictEqual(schedule(snapshot,{timestamp:audit.timestamp,workerMethod:audit.worker_method_version ?? null}),audit),'Audit is not reproducible from frozen queue snapshot');
   return errors;
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)) {

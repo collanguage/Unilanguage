@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-30",
+  "status": "Depth Freeze Proposal; Awaiting Jinkai Liu Review",
+  "reused_proposal_sha256": "9cfc1c1c74113031bf1941dec6f934c3131b55d3854bec12b47400a570fda43b",
+  "review_file": "REVIEW-2026-09-30.md",
+  "review_sha256": "156a336141a0826963b13cd3d2d3e7ca1da94e0ebf11d07b41c250a0bdf7a3a5",
+  "calibration_reused_without_research": true,
+  "lexical_depth_counts": {
+    "D1": 0,
+    "D2": 8
+  },
+  "primary_D4_preserved": [
+    "source",
+    "pressure"
+  ],
+  "entries": [
+    {
+      "entry": "convenir",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "合 hé",
+      "scope": "FIT / BE SUITABLE only",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "move",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "动 dòng",
+      "scope": "physical movement; Protocol not historical proof",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "change",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "易 yì",
+      "scope": "ALTER / EXCHANGE; excludes EASY",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "forme",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "形 xíng",
+      "scope": "shape / external form only",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "média",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "媒 méi",
+      "scope": "limited intermediary/connective comparison; not mass-media lexical equivalence",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "long",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "长 cháng",
+      "scope": "spatial / temporal extension; excludes zhǎng and long for",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "source",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "源 yuán",
+      "scope": "physical source / origin lexical subclaim only",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "pressure",
+      "depth": "D2",
+      "featured_action": "Narrow",
+      "featured_form": "压力 yālì",
+      "scope": "physical and abstract pressure; terminology scoped",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    }
+  ],
+  "scope_addendum": {
+    "pressure": "Technical physical pressure/force equivalence excluded; narrowing proposal only.",
+    "change": "MW verifies Latin cambiare, not the exact Late Latin qualification; finer period Pending.",
+    "long": "New Du Fu locator does not resolve the original Li He passage."
+  },
+  "checks": {
+    "mechanical_validator": "passed",
+    "targeted_depth_tests": {
+      "passed": 15,
+      "failed": 0
+    },
+    "protected_tracked_content_differences": [],
+    "comparison_normalizes_CRLF_only": true,
+    "corpus_sha256": "f499faf7c1edc105a045f4fd6fae965b0b3f7096bff6c63efa350ab3e2153405",
+    "full_suite": "Not rerun in this research-only continuation; see dated prior verification separately"
+  },
+  "canonical_writeback": false,
+  "commit": false,
+  "push": false,
+  "deploy": false,
+  "production_008": false
+}

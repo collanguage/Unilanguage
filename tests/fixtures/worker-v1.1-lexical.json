@@ -1,0 +1,146 @@
+{
+  "worker_method_version": "1.1",
+  "candidate_id": "fixture-lexical",
+  "primary_pipeline": "Lexical–Diachronic",
+  "status": "Editorial Freeze Proposal",
+  "corpus_writeback": false,
+  "review_by": "Jinkai Liu",
+  "source_identity": {
+    "source_form": "synthetic-form",
+    "source_language": "Synthetic source",
+    "lexical_identity": "synthetic verb",
+    "meaning_context": "movement",
+    "provenance": "test fixture only"
+  },
+  "author_observation": "None; synthetic test data",
+  "ai_research_result": "Synthetic demonstration of output contract, not actual research",
+  "has_lexical_historical_claims": false,
+  "featured_summary": {
+    "form": "例",
+    "scope": "synthetic movement only",
+    "mapping_ref": 0,
+    "role": "reader-facing summary, not research object",
+    "status": "Candidate"
+  },
+  "depth_status": "D3",
+  "visible_pending": [
+    "Historical attestations and pronunciation not available in synthetic fixture."
+  ],
+  "evidence_boundaries": [
+    "No historical attestation; no historical relationship claim"
+  ],
+  "depth_record": {
+    "version": "1.1",
+    "status": "Depth Freeze Proposal",
+    "corpus_writeback": false,
+    "sources": {},
+    "entries": [
+      {
+        "candidate_id": "fixture-lexical",
+        "entry": "synthetic-form",
+        "status": "Depth Freeze Proposal",
+        "source_stages": [
+          {
+            "id": "s-modern",
+            "form": "synthetic-form",
+            "language": "Synthetic source",
+            "period": "modern",
+            "meaning": "synthetic movement",
+            "pronunciation": "Pending",
+            "source_refs": [],
+            "evidence_status": "fixture only",
+            "coexisting_senses": [],
+            "documented_semantic_change": "Pending",
+            "chronology_confidence": "unknown"
+          }
+        ],
+        "chinese_stages": [
+          {
+            "id": "c-modern",
+            "form": "例",
+            "language": "Chinese (synthetic test use)",
+            "period": "modern",
+            "meaning": "synthetic comparison; not a lexical claim",
+            "source_refs": [],
+            "evidence_status": "fixture only"
+          }
+        ],
+        "chinese_coverage": {
+          "modern_mandarin": {
+            "status": "Pending",
+            "detail": "Historical attestations and pronunciation not available in synthetic fixture.",
+            "source_refs": []
+          },
+          "historical_senses": {
+            "status": "Pending",
+            "detail": "Historical attestations and pronunciation not available in synthetic fixture.",
+            "source_refs": []
+          },
+          "middle_chinese": {
+            "status": "Pending",
+            "detail": "Historical attestations and pronunciation not available in synthetic fixture.",
+            "source_refs": []
+          },
+          "old_chinese": {
+            "status": "Pending",
+            "detail": "Historical attestations and pronunciation not available in synthetic fixture.",
+            "source_refs": []
+          },
+          "character_history_phonetic_series": {
+            "status": "Pending",
+            "detail": "Historical attestations and pronunciation not available in synthetic fixture.",
+            "source_refs": []
+          },
+          "dialect": {
+            "status": "Pending",
+            "detail": "Historical attestations and pronunciation not available in synthetic fixture.",
+            "source_refs": []
+          }
+        },
+        "mappings": [
+          {
+            "source_ref": "s-modern",
+            "chinese_ref": "c-modern",
+            "status": "comparison",
+            "unit": "synthetic movement only",
+            "semantic_fit": "High",
+            "phonetic_fit": "Low",
+            "structural_fit": "Medium",
+            "phonetic_rationale": "Independent synthetic assessment only",
+            "evidence": [],
+            "counterevidence": "No historical claims supported by this fixture",
+            "historical_relation": "Not claimed",
+            "review": "requires editorial/evidence review"
+          }
+        ],
+        "featured": {
+          "form": "例",
+          "scope": "synthetic movement only",
+          "mapping_ref": 0,
+          "role": "reader-facing summary, not research object",
+          "status": "Candidate"
+        },
+        "relations": [
+          {
+            "kind": "unknown chronology",
+            "confirmed_chronology": false,
+            "description": "Synthetic modern units cannot establish chronology",
+            "source_refs": []
+          }
+        ],
+        "remaining_pending": [
+          "Historical attestations and pronunciation not available in synthetic fixture."
+        ],
+        "visible_pending": [
+          "Historical attestations and pronunciation not available in synthetic fixture."
+        ],
+        "lexical_subclaim_depth_proposal": "D3",
+        "d1_gate": {
+          "reason": "Modern fixture only; no historical foundation"
+        },
+        "historical_relation": "Not claimed",
+        "review_gate": "Jinkai Liu; no corpus writeback"
+      }
+    ]
+  }
+}

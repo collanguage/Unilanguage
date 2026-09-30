@@ -1,0 +1,1699 @@
+{
+  "version": "1.1",
+  "audit_date": "2026-09-29",
+  "basis_commit": "31d074804a0c37c9ce1f16ac43921fe5849df6bb",
+  "corpus_sha256": "f499faf7c1edc105a045f4fd6fae965b0b3f7096bff6c63efa350ab3e2153405",
+  "scope": "52 accepted records only; no new research; approved calibration separately referenced",
+  "counts": {
+    "D1": 0,
+    "D2": 33,
+    "D3": 0,
+    "D4": 19,
+    "D5": 0
+  },
+  "classification_note": "D2 sufficient means source history adequate to identify frozen comparison, not fully verified chronology. D4 is not exemption for lexical claims. No category quota.",
+  "rows": [
+    {
+      "candidate_id": "RQ-417206bbfa07",
+      "entry": "time",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "2 — Structural-Semantic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/0",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/0/baseline_record/stages",
+      "source_history_excerpt": [
+        [
+          "T1",
+          "Old English tīma",
+          "before 1100",
+          "有限时段、持续时间"
+        ],
+        [
+          "T2",
+          "English time",
+          "late Middle English–present",
+          "连续时间、时点与次数等不同用法；本项只研究时间"
+        ]
+      ],
+      "reason": "Primary scope = 时间/时点/次数的 Protocol/结构研究；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-e83d95e92d32",
+      "entry": "containment",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "2 — Structural-Semantic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/1",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/1/baseline_record/stages",
+      "source_history_excerpt": [
+        [
+          "C1",
+          "Latin continēre",
+          "Classical Latin",
+          "持在一起、容纳"
+        ],
+        [
+          "C2",
+          "Old French contenir → English contain",
+          "medieval; English c.1300 onward",
+          "约束/控制与包含义并存"
+        ],
+        [
+          "C3",
+          "containment",
+          "17th century–present",
+          "contain派生名词；现代限制扩散义另列"
+        ]
+      ],
+      "reason": "Primary scope = 限制与空间容纳结构分开；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-680eb4dd434f",
+      "entry": "move",
+      "classification": "D2",
+      "featured_unchanged": "动 dòng",
+      "primary_pipeline_unchanged": "1 — Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/2",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/2/baseline_record/stages",
+      "source_history_excerpt": [
+        [
+          "M1",
+          "Latin movēre",
+          "Classical Latin",
+          "使运动、移动"
+        ],
+        [
+          "M2",
+          "Old French movoir / Anglo-French mover",
+          "medieval",
+          "移动、使运动"
+        ],
+        [
+          "M3",
+          "English move",
+          "late 13th century–present",
+          "物理移动与情感触动；本轮不规定二者首次出现先后"
+        ]
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "动：物理移动与情感触动的中文历史义分别取证；不预设先后。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-6c9011e4d1cb",
+      "entry": "change",
+      "classification": "D2",
+      "featured_unchanged": "易 yì",
+      "primary_pipeline_unchanged": "1 — Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/3",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/3/baseline_record/stages",
+      "source_history_excerpt": [
+        [
+          "G1",
+          "Late Latin cambiare",
+          "Late Latin",
+          "交换、易货"
+        ],
+        [
+          "G2",
+          "Old French changier",
+          "medieval",
+          "改变、交换"
+        ],
+        [
+          "G3",
+          "English change",
+          "c.1200–present",
+          "改变、替换；名词零钱独立限制"
+        ]
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "易：交换与改变的古义关系；排除容易义。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-aa23b583d404",
+      "entry": "boundary",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "2 — Structural-Semantic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/4",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/4/baseline_record/stages",
+      "source_history_excerpt": [
+        [
+          "B1",
+          "Old French bonde / English bound noun",
+          "12th–14th century",
+          "界限、界标；不是bind过去式"
+        ],
+        [
+          "B2",
+          "English boundary",
+          "1620s–present",
+          "界限或分隔区域的标记/线"
+        ]
+      ],
+      "reason": "Primary scope = 区域界限的结构比较；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-844c76097b97",
+      "entry": "path",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "2 — Structural-Semantic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/5",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/5/baseline_record/stages",
+      "source_history_excerpt": [
+        [
+          "P1",
+          "Old English paþ / pæþ",
+          "before 1100",
+          "步行形成的路、通道"
+        ],
+        [
+          "P2",
+          "English path",
+          "present",
+          "实体小路或路线；抽象途径作结构比较，不补首次年代"
+        ]
+      ],
+      "reason": "Primary scope = 实体路径/抽象途径的结构比较；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-894dc4c4c357",
+      "entry": "luminous",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "1 — Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/6",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/6/baseline_record/stages",
+      "source_history_excerpt": [
+        [
+          "L1",
+          "Latin lumen / luminis → luminosus",
+          "Latin",
+          "光；充满光/发亮"
+        ],
+        [
+          "L2",
+          "English luminous",
+          "early 15th century–present",
+          "发光或明亮"
+        ]
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "明亮/发光汉语单位的历史证据；不借 LIGHT 文学或 L 假说。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-b65f93683aec",
+      "entry": "down",
+      "classification": "D4",
+      "featured_unchanged": "下 xià",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/7",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/7/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "D1",
+          "source_form": "of dūne / adūne / dūne",
+          "language": "Old English",
+          "approximate_period": "before 12th century",
+          "meaning_freeze": "off the hill → downward expression",
+          "relation": "phrase contraction; hill noun is a component, not the meaning of every modern down",
+          "source_refs": [
+            "MW-down"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "D2",
+          "source_form": "doun → down",
+          "language": "Middle → Modern English",
+          "approximate_period": "Middle English onward",
+          "meaning_freeze": "lower position/direction; lower degree; separate present-day sense branches",
+          "relation": "lexical continuation; no dates assigned to each metaphor",
+          "source_refs": [
+            "MW-down"
+          ],
+          "chinese_mapping_required": false
+        }
+      ],
+      "reason": "Primary scope = 空间方向 primitive；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-040e7684eae8",
+      "entry": "one",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/8",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/8/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "O1",
+          "source_form": "ān",
+          "language": "Old English",
+          "approximate_period": "before 12th century",
+          "meaning_freeze": "one / single numeral unit",
+          "relation": "attested ancestor",
+          "source_refs": [
+            "MW-one"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "O2",
+          "source_form": "on / an → one",
+          "language": "Middle → Modern English",
+          "approximate_period": "Middle English onward",
+          "meaning_freeze": "numeral one; modern pronoun uses are separate senses",
+          "relation": "inherited numeral; indefinite article related, not identical modern function",
+          "source_refs": [
+            "MW-one"
+          ],
+          "chinese_mapping_required": false
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "一的数词历史层；不继承不定冠词结构结论。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-3e6dba56acfa",
+      "entry": "convention",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/9",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/9/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "C1",
+          "source_form": "conventio ← convenire",
+          "language": "Latin",
+          "approximate_period": "Classical Latin",
+          "meaning_freeze": "assembly and agreement/pact branches",
+          "relation": "Latin derivation; branches are not a demonstrated chronology",
+          "source_refs": [
+            "CN-convention",
+            "MW-convention"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "C2",
+          "source_form": "convention / convencion",
+          "language": "French",
+          "approximate_period": "agreement attested before 1350; assembly 15th century",
+          "meaning_freeze": "agreement and assembly; later conventional arrangements",
+          "relation": "French borrowing/semantic branches; date is attestation, not invention",
+          "source_refs": [
+            "CN-convention"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "C3",
+          "source_form": "convention",
+          "language": "English",
+          "approximate_period": "15th century onward",
+          "meaning_freeze": "agreement, assembly, accepted custom",
+          "relation": "Middle French OR Latin source; no asserted single borrowing route",
+          "source_refs": [
+            "MW-convention"
+          ],
+          "chinese_mapping_required": false
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "集合/协议/惯例分支与汉语古义各自核验。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-90ef2643d6d8",
+      "entry": "middle",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/10",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/10/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "M1",
+          "source_form": "middel; related midde",
+          "language": "Old English",
+          "approximate_period": "before 12th century",
+          "meaning_freeze": "middle / central position",
+          "relation": "Germanic lineage",
+          "source_refs": [
+            "MW-middle"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "M2",
+          "source_form": "middel → middle",
+          "language": "Middle → Modern English",
+          "approximate_period": "Middle English onward",
+          "meaning_freeze": "central, intermediate, amid",
+          "relation": "continuation; present senses not sequential timeline",
+          "source_refs": [
+            "MW-middle"
+          ],
+          "chinese_mapping_required": false
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "中/间的历史位置关系；不混 media/mad。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-27ff8838c9f6",
+      "entry": "pressure",
+      "classification": "D4",
+      "featured_unchanged": "压力 yālì",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/11",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/11/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "P1",
+          "source_form": "pressura ← pressus / premere",
+          "language": "Latin / Late Latin",
+          "approximate_period": "Antiquity / Late Latin",
+          "meaning_freeze": "pressing, pressure",
+          "relation": "derivation",
+          "source_refs": [
+            "MW-pressure"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "P2",
+          "source_form": "pressure",
+          "language": "Anglo-French → Middle English",
+          "approximate_period": "English noun attested 14th century",
+          "meaning_freeze": "pressure / pressing noun",
+          "relation": "borrowing; no exact Anglo-French date supplied",
+          "source_refs": [
+            "MW-pressure"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "P3",
+          "source_form": "pressure",
+          "language": "Modern English",
+          "approximate_period": "contemporary senses; verb recorded 1911",
+          "meaning_freeze": "physical contact/force, physical quantity, coercion/burden",
+          "relation": "parallel sense map, not claimed historical sequence",
+          "source_refs": [
+            "MW-pressure"
+          ],
+          "chinese_mapping_required": false
+        }
+      ],
+      "reason": "Primary scope = 物理/抽象压力结构比较；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-d37d33cbb9f6",
+      "entry": "illuminate",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/12",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/12/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "I1",
+          "source_form": "illuminare / illuminatus ← lumen",
+          "language": "Latin",
+          "approximate_period": "Classical Latin; medieval senses also documented",
+          "meaning_freeze": "light up; medieval spiritual/intellectual illumination",
+          "relation": "derivation; lumen is basis, not interchangeable with lux",
+          "source_refs": [
+            "MW-illuminate"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "I2",
+          "source_form": "illuminaten",
+          "language": "Middle English",
+          "approximate_period": "15th century",
+          "meaning_freeze": "spiritually enlighten among earliest English record",
+          "relation": "borrowing from Latin participial form; not first physical then abstract in English",
+          "source_refs": [
+            "MW-illuminate"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "I3",
+          "source_form": "illuminate",
+          "language": "Modern English",
+          "approximate_period": "contemporary",
+          "meaning_freeze": "light physically / clarify / enlighten",
+          "relation": "sense branches, no fabricated chronology",
+          "source_refs": [
+            "MW-illuminate"
+          ],
+          "chinese_mapping_required": false
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "光照与智识/精神启明分开；补中文实际年代。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-5495c81598e1",
+      "entry": "love",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/13",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/13/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "V1",
+          "source_form": "lufu",
+          "language": "Old English",
+          "approximate_period": "before 12th century",
+          "meaning_freeze": "love / affection",
+          "relation": "Germanic lineage; no light-family edge",
+          "source_refs": [
+            "MW-love"
+          ],
+          "chinese_mapping_required": false
+        },
+        {
+          "stage_id": "V2",
+          "source_form": "love",
+          "language": "Middle → Modern English",
+          "approximate_period": "Middle English onward",
+          "meaning_freeze": "affection, liking; verb related",
+          "relation": "continuation; not presence→love historical chain",
+          "source_refs": [
+            "MW-love"
+          ],
+          "chinese_mapping_required": false
+        }
+      ],
+      "reason": "Primary scope = 情感/文学层分离；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-73a0d89d12dc",
+      "entry": "abashed",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/14",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/14/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "A1",
+          "source_form": "baer / esbaer / esbahir → abair",
+          "language": "Old French / Anglo-French",
+          "approximate_period": "medieval",
+          "meaning": "张口/惊愕相关历史基础",
+          "relation": "复用 ABASH 引文；不得加入 violent-hit BASH → 拍",
+          "source_refs": [
+            "MW-abash",
+            "CNRTL-ebahir"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "A2",
+          "source_form": "abaissen / abaschen → abash",
+          "language": "Middle English / English",
+          "approximate_period": "14th century onward",
+          "meaning": "失去镇定/使窘迫",
+          "relation": "借入后英语动词；现代及物义单列",
+          "source_refs": [
+            "MW-abash"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "A3",
+          "source_form": "abashed",
+          "language": "English",
+          "approximate_period": "14th century onward; modern focus",
+          "meaning": "窘迫的结果状态",
+          "relation": "分词/形容词，不继承 ABASH Featured",
+          "source_refs": [
+            "MW-abashed"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "羞窘/惊愕中文古义分开；不继承 ABASH Featured。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-9132e6719bd4",
+      "entry": "meaning",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/15",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/15/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "M1",
+          "source_form": "mǣnan → menen → mean",
+          "language": "Old English / Middle English / English",
+          "approximate_period": "Old English → modern",
+          "meaning": "intend / have in mind / signify",
+          "relation": "不是 mean=average 的 medianus 分支",
+          "source_refs": [
+            "MW-mean"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "M2",
+          "source_form": "meaning (noun)",
+          "language": "English",
+          "approximate_period": "14th century onward",
+          "meaning": "表达内容/意图/意义",
+          "relation": "结构比较层：表达者、载体、解释；不宣称严格历史次序",
+          "source_refs": [
+            "MW-meaning"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        }
+      ],
+      "reason": "Primary scope = 意义/意图 Protocol 比较；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-2070e35dd27a",
+      "entry": "horror",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/16",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/16/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "H1",
+          "source_form": "horrēre / horror",
+          "language": "Latin",
+          "approximate_period": "ancient Latin; exact attestation not frozen",
+          "meaning": "竖立/发抖与恐惧、厌恶相关语义",
+          "relation": "派生关系；并列词义不等于已证明的单线演变",
+          "source_refs": [
+            "MW-horror",
+            "MW-abhor"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "H2",
+          "source_form": "horrour → horror",
+          "language": "Anglo-French / Middle English / English",
+          "approximate_period": "medieval; English 14th century onward",
+          "meaning": "恐惧/令人恐惧的事物",
+          "relation": "借入路径；ABHOR 是相关支，不是必经祖先",
+          "source_refs": [
+            "MW-horror"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "发抖/恐惧/厌恶候选古义；不恢复 HOR=火。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-7894011e782d",
+      "entry": "up",
+      "classification": "D4",
+      "featured_unchanged": "上 shàng",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/17",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/17/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "U1",
+          "source_form": "ūp / uppe → up",
+          "language": "Old English / Middle English / English",
+          "approximate_period": "before 12th century onward",
+          "meaning": "向高处/处于高位",
+          "relation": "位置和方向来源并列；Protocol 非重建词源",
+          "source_refs": [
+            "MW-up"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "U2",
+          "source_form": "up (spatial uses)",
+          "language": "English",
+          "approximate_period": "modern",
+          "meaning": "higher position / upward path",
+          "relation": "本批 Protocol scope；其他短语动词用法在边界外",
+          "source_refs": [
+            "MW-up"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        }
+      ],
+      "reason": "Primary scope = 空间方向/位置 primitive；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-248f91f7b08f",
+      "entry": "horrid",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/18",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/18/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "R1",
+          "source_form": "horrēre → horridus",
+          "language": "Latin",
+          "approximate_period": "ancient Latin",
+          "meaning": "粗硬/竖立、令人发抖/可怕",
+          "relation": "派生为形容词，非 modern horror → horrid",
+          "source_refs": [
+            "MW-horrid"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "R2",
+          "source_form": "horrid",
+          "language": "English",
+          "approximate_period": "late 16th century onward; modern focus",
+          "meaning": "令人害怕、厌恶、很不愉快",
+          "relation": "现代 sense 单独核验",
+          "source_refs": [
+            "MW-horrid"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "粗硬/可怕/令人不快各义中文证据；不继承 horror。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-a5233aa38dc4",
+      "entry": "inside",
+      "classification": "D4",
+      "featured_unchanged": "内 nèi",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/19",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/19/baseline_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "I1",
+          "source_form": "ynneside / in + side",
+          "language": "Middle English",
+          "approximate_period": "late 14th century",
+          "meaning": "身体内部部分",
+          "relation": "组合构词；不得把 Latin contain 当祖先",
+          "source_refs": [
+            "ETY-inside"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        },
+        {
+          "stage_id": "I2",
+          "source_form": "inside",
+          "language": "English",
+          "approximate_period": "c.1500 general interior; modern spatial focus",
+          "meaning": "内部区域/处于或进入其内",
+          "relation": "现代结构比较；INNER REGION 不等于 CONTROL",
+          "source_refs": [
+            "ETY-inside",
+            "MW-inside"
+          ],
+          "chinese_mapping": "See scoped candidate rows; unfilled stages remain Not selected"
+        }
+      ],
+      "reason": "Primary scope = 内部/包含关系；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-e5b9fa065562",
+      "entry": "wave",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/20",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/20/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "W1",
+          "source_form": "wafian",
+          "source_language": "Old English",
+          "approximate_period": "before c.1100",
+          "historical_meaning": "wave with the hands",
+          "relation": "Recorded ancestor of English verb; not WATER root",
+          "kind": "historical",
+          "source_refs": [
+            "MW-wave"
+          ]
+        },
+        {
+          "stage_id": "W2",
+          "source_form": "wave",
+          "source_language": "English",
+          "approximate_period": "verb attested 14th c.; noun water ridge attested 1526; modern other senses",
+          "historical_meaning": "oscillatory motion, water-surface ridge, gesture, physical/figurative wave",
+          "relation": "Modern sense branches, not asserted strict chronology",
+          "kind": "modern sense bundle",
+          "source_refs": [
+            "MW-wave"
+          ]
+        }
+      ],
+      "reason": "Primary scope = 波动结构与实验假说分离；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-85c25b0fa6c8",
+      "entry": "knowledge",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/21",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/21/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "K1",
+          "source_form": "knowlege / knowlechen / knowen",
+          "source_language": "Middle English",
+          "approximate_period": "14th c. noun attestation",
+          "historical_meaning": "knowing/acknowledgement",
+          "relation": "Recorded English derivation; no know+ledge folk split",
+          "kind": "historical",
+          "source_refs": [
+            "MW-knowledge"
+          ]
+        },
+        {
+          "stage_id": "K2",
+          "source_form": "knowledge",
+          "source_language": "Modern English",
+          "approximate_period": "modern",
+          "historical_meaning": "acquired knowledge / awareness of a fact",
+          "relation": "Separate current roles, not one obligatory Chinese noun",
+          "kind": "modern senses",
+          "source_refs": [
+            "MW-knowledge"
+          ]
+        }
+      ],
+      "reason": "Primary scope = 知识/知晓 Protocol；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-dbf7cb31b8cd",
+      "entry": "exist",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/22",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/22/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "E1",
+          "source_form": "ex(s)istere",
+          "source_language": "Latin",
+          "approximate_period": "Classical Latin; precise earliest citation not fixed",
+          "historical_meaning": "appear / come into being",
+          "relation": "ex- + sistere; whole form does not simply mean stand",
+          "kind": "historical",
+          "source_refs": [
+            "MW-exist"
+          ]
+        },
+        {
+          "stage_id": "E2",
+          "source_form": "exsistere / exister / exist",
+          "source_language": "Late Latin / Middle French / English",
+          "approximate_period": "Late Latin → Middle French; English attested 1570",
+          "historical_meaning": "have real being / be present; modern exist",
+          "relation": "Borrowing and semantic history as reported; no Chinese chronology inferred",
+          "kind": "historical",
+          "source_refs": [
+            "MW-exist"
+          ]
+        }
+      ],
+      "reason": "Primary scope = 存在/出现的结构研究；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-63f75c562c69",
+      "entry": "direction",
+      "classification": "D4",
+      "featured_unchanged": "向 xiàng",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/23",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/23/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "D1",
+          "source_form": "dīrigere → dīrēctiō",
+          "source_language": "Latin",
+          "approximate_period": "Latin; exact attestation not fixed",
+          "historical_meaning": "direct / arrangement",
+          "relation": "Latin participial/nominal derivation; not dic-/dict-",
+          "kind": "historical",
+          "source_refs": [
+            "AHD-direction"
+          ]
+        },
+        {
+          "stage_id": "D2",
+          "source_form": "direction",
+          "source_language": "Middle/Modern English",
+          "approximate_period": "Middle English arrangement; modern spatial/guidance senses",
+          "historical_meaning": "course/orientation vs guidance/instructions",
+          "relation": "Sense branches; do not impose spatial-first timeline",
+          "kind": "modern sense bundle",
+          "source_refs": [
+            "AHD-direction",
+            "MW-direction"
+          ]
+        }
+      ],
+      "reason": "Primary scope = 方向关系；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-c6096ae58707",
+      "entry": "translation",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/24",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/24/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "T1",
+          "source_form": "transferre / translātus",
+          "source_language": "Latin",
+          "approximate_period": "Classical Latin; exact attestations not fixed",
+          "historical_meaning": "carry/transfer and translate",
+          "relation": "Historical unit via translate: not inferred from modern spelling alone",
+          "kind": "historical",
+          "source_refs": [
+            "MW-translate"
+          ]
+        },
+        {
+          "stage_id": "T2",
+          "source_form": "translater / translate; translation",
+          "source_language": "Anglo-French / Middle English / English",
+          "approximate_period": "English translate and translation attested 14th c.",
+          "historical_meaning": "render between languages",
+          "relation": "Verb family path attested; exact independent noun borrowing path Pending",
+          "kind": "historical",
+          "source_refs": [
+            "MW-translate",
+            "MW-translation"
+          ]
+        },
+        {
+          "stage_id": "T3",
+          "source_form": "translation",
+          "source_language": "Modern English",
+          "approximate_period": "modern technical senses; dates Pending",
+          "historical_meaning": "geometric translation / transfer of representation",
+          "relation": "Independent sense comparison, not forced chronology",
+          "kind": "modern technical sense",
+          "source_refs": [
+            "MW-translation"
+          ]
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "译与搬运/转移义的范围和中文史料；不伪造共同转变。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-aa43773b0cfc",
+      "entry": "acute",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/25",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/25/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "A1",
+          "source_form": "acuere → acūtus",
+          "source_language": "Latin",
+          "approximate_period": "Classical Latin",
+          "historical_meaning": "sharpened/pointed, discerning, violent onset; angle sense",
+          "relation": "Latin already polysemous; not a single dated semantic ladder",
+          "kind": "historical",
+          "source_refs": [
+            "MW-acute"
+          ]
+        },
+        {
+          "stage_id": "A2",
+          "source_form": "acute",
+          "source_language": "Middle/Modern English",
+          "approximate_period": "14th c. English attestation, medical severity first cited; modern polysemy",
+          "historical_meaning": "sharp/sensitive/intense/rapid-onset/acute-angle",
+          "relation": "English sense branches; do not borrow acumen chronology",
+          "kind": "modern sense bundle",
+          "source_refs": [
+            "MW-acute"
+          ]
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "锐/尖的物理和感知义历史；不覆盖急性病。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-0d3877658122",
+      "entry": "filament",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/26",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/26/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "F1",
+          "source_form": "filare → filamentum",
+          "source_language": "Late / Medieval Latin",
+          "approximate_period": "late/medieval; exact dates Pending",
+          "historical_meaning": "spin → thread-like formation",
+          "relation": "MW historical derivation; CNRTL Latin borrowing agrees on filamentum, detailed formation not over-unified",
+          "kind": "historical",
+          "source_refs": [
+            "MW-filament",
+            "CN-filament"
+          ]
+        },
+        {
+          "stage_id": "F2",
+          "source_form": "filament",
+          "source_language": "Middle French / English",
+          "approximate_period": "French earliest citation Pending; English 1594",
+          "historical_meaning": "thread / slender threadlike object or part",
+          "relation": "Borrowing into English; modern specialist branches not ancestry",
+          "kind": "historical",
+          "source_refs": [
+            "MW-filament",
+            "CN-filament",
+            "CN-filament-pron"
+          ]
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "丝/纤维古义与材料限制；不能把所有细长结构当蚕丝。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-4d9a99ebe809",
+      "entry": "long",
+      "classification": "D2",
+      "featured_unchanged": "长 cháng",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/27",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/27/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "stage_id": "G1",
+          "source_form": "long / lang",
+          "source_language": "Old English / Middle English",
+          "approximate_period": "before 12th c. attestation",
+          "historical_meaning": "great length; inherited adjective",
+          "relation": "Related Germanic forms; Latin longus is a relative, not English direct ancestor",
+          "kind": "historical",
+          "source_refs": [
+            "MW-long"
+          ]
+        },
+        {
+          "stage_id": "G2",
+          "source_form": "long",
+          "source_language": "Modern English",
+          "approximate_period": "modern",
+          "historical_meaning": "great spatial extent or duration",
+          "relation": "Synchronic space/time comparison; no claimed Chinese chronological parallel",
+          "kind": "modern sense bundle",
+          "source_refs": [
+            "MW-long"
+          ]
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "长 cháng：空间与时间长度的历史单位；不混 zhǎng 或 long for。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-041cc56344db",
+      "entry": "abhorrent",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/28",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/28/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "form": "Latin abhorrēre / abhorrens",
+          "period": "古典拉丁语；不指定精确首见年",
+          "meaning_relation": "动词及其现在分词，词族依据，不是汉语比较结论",
+          "source": "https://www.merriam-webster.com/dictionary/abhorrent"
+        },
+        {
+          "form": "English abhorrent",
+          "period": "1599 首见（MW所收义）至现代",
+          "meaning_relation": "形容词；令人反感 / 不相容，另有感到反感的用法",
+          "source": "https://www.merriam-webster.com/dictionary/abhorrent"
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "反感/不相容的中文单位与形容词角色。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-da2ec7508828",
+      "entry": "outside",
+      "classification": "D4",
+      "featured_unchanged": "外 wài",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/29",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/29/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "form": "English out + side / outside",
+          "period": "晚期中古英语；MW noun首见15世纪",
+          "meaning_relation": "英语复合形式；名词、形容词、副词、介词分别处理",
+          "source": "https://www.merriam-webster.com/dictionary/outside"
+        },
+        {
+          "form": "Modern outside",
+          "period": "现代英语",
+          "meaning_relation": "边界之外的区域/关系；其他习语另列",
+          "source": "https://www.merriam-webster.com/dictionary/outside"
+        }
+      ],
+      "reason": "Primary scope = 外部关系；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-3978979a16e0",
+      "entry": "abhorrence",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/30",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/30/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "form": "abhorr(ent) + -ence",
+          "period": "英语构词分析；不指定独立前后首见顺序",
+          "meaning_relation": "MW 所列构词关系",
+          "source": "https://www.merriam-webster.com/dictionary/abhorrence"
+        },
+        {
+          "form": "English abhorrence",
+          "period": "1592 首见至现代",
+          "meaning_relation": "厌恶状态/行为；另可指被厌恶的对象",
+          "source": "https://www.merriam-webster.com/dictionary/abhorrence"
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "厌恶状态/对象与中文名词化构式的历史证据。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-915ffd347135",
+      "entry": "source",
+      "classification": "D4",
+      "featured_unchanged": "源 yuán",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/31",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/31/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "form": "Latin surgere → Anglo-French surdre / surse",
+          "period": "拉丁语至中古法语时期",
+          "meaning_relation": "涌起/出现；surse 源泉来自分词形式",
+          "source": "https://www.merriam-webster.com/dictionary/source"
+        },
+        {
+          "form": "Middle English sours → source",
+          "period": "14世纪至现代",
+          "meaning_relation": "起源、供给来源、水源等；不是所有现代用法都必须经过单一隐喻年代链",
+          "source": "https://www.merriam-webster.com/dictionary/source"
+        }
+      ],
+      "reason": "Primary scope = 来源/源泉的结构比较；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-da051df304a5",
+      "entry": "abundance",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/32",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/32/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "form": "Latin abundāre family / abundantia",
+          "period": "拉丁语",
+          "meaning_relation": "overflow / plentiful，名词 abundantia；是词族背景",
+          "source": "https://www.merriam-webster.com/dictionary/abundance"
+        },
+        {
+          "form": "Anglo-French abundance → Middle English aboundaunce",
+          "period": "中古时期；英语14世纪首见",
+          "meaning_relation": "借入名词，并非因英文 abound 存在就直接推导",
+          "source": "https://www.merriam-webster.com/dictionary/abundance"
+        },
+        {
+          "form": "Modern abundance",
+          "period": "现代",
+          "meaning_relation": "量多/充裕；不要求液体或溢出",
+          "source": "https://www.merriam-webster.com/dictionary/abundance"
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "充溢/丰盛古义关系，不继承 ABOUND 映射。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-7bd33d4b300d",
+      "entry": "goal",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/33",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/33/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "form": "Middle English gol",
+          "period": "中古英语",
+          "meaning_relation": "边界/界限；更深来源不作推定",
+          "source": "https://www.merriam-webster.com/dictionary/goal"
+        },
+        {
+          "form": "English goal",
+          "period": "MW 首见1531至现代",
+          "meaning_relation": "终点、目标及体育球门/得分义；不虚构单线义项顺序",
+          "source": "https://www.merriam-webster.com/dictionary/goal"
+        }
+      ],
+      "reason": "Primary scope = 目标/终点结构；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-7d4d73843bb4",
+      "entry": "absolve",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/34",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/34/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "form": "Latin ab- + solvere / absolvere",
+          "period": "拉丁语",
+          "meaning_relation": "release / acquit / finish / complete 为已列义项，不排严格年代线",
+          "source": "https://www.merriam-webster.com/dictionary/absolve"
+        },
+        {
+          "form": "Middle English absolven → absolve",
+          "period": "15世纪至现代",
+          "meaning_relation": "责任、义务、过错或宗教赦罪；各角色区别",
+          "source": "https://www.merriam-webster.com/dictionary/absolve"
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "解脱/赦免/完成分支的中文历史义；不造单线。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-ef7527e20941",
+      "entry": "acuity",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/35",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/35/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        {
+          "form": "Latin acuere / Medieval Latin acuitas",
+          "period": "拉丁语至中古拉丁语",
+          "meaning_relation": "尖锐/锐度词族，非 English acumen 的派生",
+          "source": "https://www.merriam-webster.com/dictionary/acuity"
+        },
+        {
+          "form": "French acuité → English acuity",
+          "period": "中古法语关系；MW英语首见约1549",
+          "meaning_relation": "知觉锐度；现代可限定视觉、听觉等",
+          "source": "https://www.merriam-webster.com/dictionary/acuity"
+        }
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "感官锐度与锐/敏的中文历史构式。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-98fb49ffa66b",
+      "entry": "alimentary",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/36",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/36/baseline_record/research_section",
+      "source_history_excerpt": " Latin alimentum/alimentarius; French alimentaire and New Latin alimentarius as borrowing sources for English alimentary, first recorded 1608. Preserve adjective identity; no forced stages for every spelling.",
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "养的滋养/供养义与形容词范围，消化道反例保留。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-635ef1c7e0d1",
+      "entry": "六十四卦",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/37",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/37/baseline_record/research_section",
+      "source_history_excerpt": "Cultural/structural prose; no mandatory lexical history",
+      "reason": "Primary scope = 文化/符号组合对象；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-baf644cb462c",
+      "entry": "alimenter",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/38",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/38/baseline_record/research_section",
+      "source_history_excerpt": " Latin alimentare attested from fourth century per TLFi; medieval French nourishment and provision of necessities; modern technical/figurative uses recorded separately. Do not claim all extensions occurred in a single ordered chain.",
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "养/供及技术/抽象供给的汉语历史层。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-62412ae88f1e",
+      "entry": "神农氏人身牛头",
+      "classification": "D4",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Cultural–Structural–Literary",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/39",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/39/baseline_record/research_section",
+      "source_history_excerpt": "Cultural/structural prose; no mandatory lexical history",
+      "reason": "Primary scope = 神话图像/文本传统对象；不要求完整词源链，已有 lexical claims 仍需独立证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "No mandatory full lexical upgrade; review historical subclaims only if asserted.",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-c7fe2748656a",
+      "entry": "couvent",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/40",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/40/baseline_record/research_section",
+      "source_history_excerpt": " convenire assembling family; Latin conventus / ecclesiastical conventum are the differing citation forms preserved in consulted dictionaries; Old French convent/cuvent, twelfth century; modern community/residence senses. Do not silently merge all modern institution meanings with the assembly stage.",
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "聚集/共同体/建筑中文比较分层。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-31a9fccf8a5e",
+      "entry": "forme",
+      "classification": "D2",
+      "featured_unchanged": "形 xíng",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/41",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/41/baseline_record/research_section",
+      "source_history_excerpt": " Latin forma → French forme (eleventh century per Académie). No speculative deeper origin or forced Abstract→Concrete chronology.",
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "形：外部形态古义及形/型/式区分；不扩展到体能状态。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-68b3017cc6be",
+      "entry": "generation",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/42",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/42/baseline_record/research_section",
+      "source_history_excerpt": " Latin generare/generatio; Anglo-French generacion and Latin sources for Middle English generacioun, English first use fourteenth century per MW. Modern senses are separate, not a fabricated temporal chain.",
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "生/代/生成各义历史与单位差异。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RQ-c6e4c0019ec1",
+      "entry": "média",
+      "classification": "D2",
+      "featured_unchanged": "媒 méi",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/43",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/43/baseline_record/research_section",
+      "source_history_excerpt": " twentieth-century shortening/borrowing of American English mass media. Latin medium/media is remote family background through English, not a direct French donor or French plural rule.",
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Chinese candidate senses/readings retained from baseline; no sufficient bilateral historical ledger demonstrated for D1.",
+      "upgrade_scope": "媒：媒人/中介/传播单位的汉语历史界限；法语单数路径独立。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RO-b55c66366400",
+      "entry": "brief",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/44",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/44/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        "Latin brevis: short",
+        "Anglo-French bref/brief",
+        "Middle English bref/breve",
+        "Modern adjective: short duration/extent; concise"
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "upgrade_scope": "短暂/简短/简洁的历史单位，排除法律名词与动词。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RO-a02875b96b25",
+      "entry": "brevity",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/45",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/45/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        "Latin brevis: short",
+        "Latin brevitas: shortness",
+        "English brevity: duration or concise-expression quality"
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "upgrade_scope": "短时/简洁性质的中文构式，不继承 brief。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RO-349a36e2d5b1",
+      "entry": "convene",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/46",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/46/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        "Latin convenire: assemble",
+        "Medieval Latin convenire",
+        "Middle English convene",
+        "Modern assemble / cause to assemble / summon before tribunal"
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "upgrade_scope": "聚/会/召集的历史单位；不移入法语适宜义。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RO-6798a8742e69",
+      "entry": "convenir",
+      "classification": "D2",
+      "featured_unchanged": "合 hé",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/47",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/47/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        "Latin convenire: come together, fit, agree; semantic range not strict chronology",
+        "Old French covenir, attested 11th century",
+        "French convenir influenced by venir; construction-specific modern meanings"
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "upgrade_scope": "沿已批准校准记录补合的年代与转变证据；acknowledgement 不强配合。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RO-3c1170d0f544",
+      "entry": "figurative",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/48",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/48/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        "Latin figurare / figuratus: shape or represent",
+        "Medieval Latin figurativus",
+        "Middle English figuratif: symbolic representation",
+        "Modern rhetoric/art senses; no mandatory transformation sequence"
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "upgrade_scope": "比喻/象征/具象的中文历史层，不合并修辞和美术。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RO-1971e60b519d",
+      "entry": "figurer",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/49",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/49/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        "Latin figura family base",
+        "Latin figurare: shape, represent, imagine",
+        "French figurer, attested 11th century",
+        "Modern construction branches: representation, inclusion, imagination; not strict chronology"
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "upgrade_scope": "描绘/象征/想象的历史单位，保留 se figurer 构式。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RO-25416ffffb38",
+      "entry": "marché",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/50",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/50/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        "Latin mercatus: market/trade",
+        "Early French marched, attested 10th century",
+        "Modern marché: venue/system of exchange or commercial agreement"
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "upgrade_scope": "市场/交易/集市汉语史料，场所和协议分开。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    },
+    {
+      "candidate_id": "RO-74fae5c5c0ad",
+      "entry": "merchant",
+      "classification": "D2",
+      "featured_unchanged": "Pending",
+      "primary_pipeline_unchanged": "Lexical–Diachronic",
+      "record_locator": "data\\candidates\\production-corpus.v0.1.json#/records/51",
+      "source_history_locator": "data\\candidates\\production-corpus.v0.1.json#/records/51/baseline_record/research_record/historical_stages",
+      "source_history_excerpt": [
+        "Latin mercari trade, merx commerce family",
+        "Vulgar Latin *mercatare / *mercatans participial route; reconstructed forms marked",
+        "Anglo-French and Middle English marchant",
+        "Modern trader noun"
+      ],
+      "reason": "已有源语历史节点/范围和来源，足以识别当前限定比较；中文候选未形成同等深度的历史单位及证据。",
+      "remaining_source_limit": "Existing dates/first attestations and paper verification retain their frozen Pending; this audit is not renewed verification.",
+      "chinese_depth_basis": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "upgrade_scope": "商人/贾 gǔ历史义；不混姓氏 jiǎ 或 marketplace。",
+      "origin_policy": "No author reattribution; imported/unknown provenance is not authenticated Human Original.",
+      "changes_to_candidate_status": "None"
+    }
+  ]
+}

@@ -43,7 +43,7 @@ test('Only six identity rows change eligibility; thirteen compound identities st
 test('Saved dry run is reproducible and cannot be mistaken for research execution',async()=>{
  const {schedule}=await import('../scripts/queue-scheduler.mjs');
  const s=read(folder+'queue-snapshot.json'),a=read(folder+'scheduler-dry-run.json');
- assert.deepEqual(schedule(s,{timestamp:a.timestamp}),a);
+ assert.deepEqual(schedule(s,{timestamp:a.timestamp,workerMethod:a.worker_method_version ?? null}),a);
  assert.equal(a.worker_runs,0);assert.equal(a.registry_mutations,0);
  for(const t of a.selection){assert.equal(t.dispatch_allowed,false);assert.equal(t.requires_review_by,'Jinkai Liu');}
 });

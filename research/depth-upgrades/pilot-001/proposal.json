@@ -1,0 +1,2089 @@
+{
+  "version": "1.1",
+  "pilot": "depth-upgrade-001",
+  "created_at": "2026-09-29",
+  "status": "Depth Freeze Proposal",
+  "corpus_writeback": false,
+  "basis_commit": "31d074804a0c37c9ce1f16ac43921fe5849df6bb",
+  "corpus_sha256": "f499faf7c1edc105a045f4fd6fae965b0b3f7096bff6c63efa350ab3e2153405",
+  "calibration_sha256": "75b4d2947b5f6d44d4c0600464e48781a808e3f4404e9932a0cf8e7c4aa76c10",
+  "sources": {
+    "move": {
+      "url": "https://www.merriam-webster.com/dictionary/move",
+      "scope": "Dictionary etymology and modern senses; not an inspected historical manuscript."
+    },
+    "change": {
+      "url": "https://www.merriam-webster.com/dictionary/change",
+      "scope": "Dictionary etymology and modern senses; not an inspected historical manuscript."
+    },
+    "long": {
+      "url": "https://www.merriam-webster.com/dictionary/long",
+      "scope": "Dictionary etymology and modern senses; not an inspected historical manuscript."
+    },
+    "source": {
+      "url": "https://www.merriam-webster.com/dictionary/source",
+      "scope": "Dictionary etymology and modern senses; not an inspected historical manuscript."
+    },
+    "pressure": {
+      "url": "https://www.merriam-webster.com/dictionary/pressure",
+      "scope": "Dictionary etymology and modern senses; not an inspected historical manuscript."
+    },
+    "forme": {
+      "url": "https://www.dictionnaire-academie.fr/article/A9F1288",
+      "scope": "French dictionary: Latin forma; external form distinct from fitness."
+    },
+    "media": {
+      "url": "https://www.dictionnaire-academie.fr/article/A9M1495",
+      "scope": "20th-century borrowing/abbreviation from American English mass media; not direct French borrowing from Latin."
+    },
+    "dong": {
+      "url": "https://zdic.net/hans/動",
+      "scope": "Mixed dictionary aggregator, historical quotations and rhyme-book leads. Not a verified Mainland print edition. 國語辭典 section is not Mainland evidence."
+    },
+    "yi": {
+      "url": "https://zdic.net/hans/易",
+      "scope": "Mixed dictionary aggregator, historical quotations and rhyme-book leads. Not a verified Mainland print edition. 國語辭典 section is not Mainland evidence."
+    },
+    "xing": {
+      "url": "https://zdic.net/hans/形",
+      "scope": "Mixed dictionary aggregator, historical quotations and rhyme-book leads. Not a verified Mainland print edition. 國語辭典 section is not Mainland evidence."
+    },
+    "mei": {
+      "url": "https://zdic.net/hans/媒",
+      "scope": "Mixed dictionary aggregator, historical quotations and rhyme-book leads. Not a verified Mainland print edition. 國語辭典 section is not Mainland evidence."
+    },
+    "chang": {
+      "url": "https://zdic.net/hans/長",
+      "scope": "Mixed dictionary aggregator, historical quotations and rhyme-book leads. Not a verified Mainland print edition. 國語辭典 section is not Mainland evidence."
+    },
+    "yuan": {
+      "url": "https://zdic.net/hans/源",
+      "scope": "Mixed dictionary aggregator, historical quotations and rhyme-book leads. Not a verified Mainland print edition. 國語辭典 section is not Mainland evidence."
+    },
+    "ya": {
+      "url": "https://zdic.net/hans/壓",
+      "scope": "Mixed dictionary aggregator, historical quotations and rhyme-book leads. Not a verified Mainland print edition. 國語辭典 section is not Mainland evidence."
+    },
+    "g物": {
+      "url": "https://www.chinesethought.cn/shuyu_show.aspx?shuyu_id=3706",
+      "scope": "Mainland scholarly terminology project, 感物 entry quoting 禮記樂記: emotional movement; transmitted text layer, not earliest inscription."
+    },
+    "OE": {
+      "url": "https://www.germanic-lexicon-project.org/html/oe_bosworthtoller/b0619.html",
+      "scope": "Bosworth–Toller p619 LANG adjective: extent and duration citations. Work/edition/manuscript dates are distinct."
+    },
+    "OEadv": {
+      "url": "https://www.germanic-lexicon-project.org/html/oe_bosworthtoller/b0620.html",
+      "scope": "LANGE adverb and LANG-NESS derivative provide separate family comparisons, not substituted adjective attestations."
+    },
+    "Tang": {
+      "url": "https://www.shidianguji.com/book/CADAL02060667/chapter/1l5g96e3jsg8m",
+      "scope": "Mainland digital-text lead for Li He long-night wording. Search excerpt located; fetched body did not expose target passage: direct passage verification Pending."
+    },
+    "pressure-paper": {
+      "url": "https://www.iop.cas.cn/kxcb/kpwz/ywjzzl/200908/P020090809436353843928.pdf",
+      "scope": "Mainland IOP-hosted Cao Zexian pressure terminology article. Indexed text distinguishes Chinese terminology; PDF text retrieval unstable; exact passage/page Pending. Not evidence of ancient 壓力 compound."
+    },
+    "BS": {
+      "url": "https://sites.lsa.umich.edu/ocbaxtersagart/wp-content/uploads/sites/1415/2025/03/BaxterSagartOCbyMandarinMC2014-09-20.pdf",
+      "scope": "Baxter–Sagart 2014 reconstruction table: 動 printed p25, 形 p127; reconstruction is model-dependent, not recorded speech."
+    },
+    "calibration": {
+      "url": "research/calibration/convenir-depth-v1/REPORT.md",
+      "scope": "Reused approved research only; source details and alternatives preserved in original report; no repeat discovery."
+    }
+  },
+  "entries": [
+    {
+      "candidate_id": "RO-6798a8742e69",
+      "entry": "convenir",
+      "primary_depth_before": "D2",
+      "primary_depth_after_proposal": "D2",
+      "lexical_subclaim_depth_proposal": "D2",
+      "status": "Depth Freeze Proposal",
+      "featured": {
+        "form": "合 hé",
+        "scope": "FIT / BE SUITABLE only",
+        "mapping_ref": 0,
+        "role": "reader-facing summary, not research object",
+        "status": "Candidate"
+      },
+      "source_stages": [
+        {
+          "id": "L1",
+          "form": "convenīre",
+          "language": "Latin",
+          "period": "Classical Latin, dictionary citations c.3rd–1st BCE",
+          "meaning": "COME TOGETHER",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "L2",
+          "form": "convenīre",
+          "language": "Latin",
+          "period": "Classical Latin; coexisting senses",
+          "meaning": "FIT / AGREE",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "F1",
+          "form": "covenir",
+          "language": "Old French",
+          "period": "11th-century dictionary overview",
+          "meaning": "SUIT / necessity",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "F2",
+          "form": "convenir",
+          "language": "French",
+          "period": "13th-century reported attestation; original archive Pending",
+          "meaning": "ACKNOWLEDGE",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "F3",
+          "form": "convenir à",
+          "language": "Modern French",
+          "period": "Modern",
+          "meaning": "BE SUITABLE",
+          "pronunciation": "/kɔ̃v(ə)niʁ/",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "F4",
+          "form": "convenir de/que",
+          "language": "Modern French",
+          "period": "Modern",
+          "meaning": "AGREE / ACKNOWLEDGE, construction-dependent",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        }
+      ],
+      "chinese_stages": [
+        {
+          "id": "C1",
+          "form": "合",
+          "language": "Chinese",
+          "period": "Transmitted late pre-imperial texts",
+          "meaning": "gather / join",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C2",
+          "form": "合于",
+          "language": "Chinese",
+          "period": "Transmitted Zhuangzi text layer",
+          "meaning": "conform to a standard",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C3",
+          "form": "合 / 合适",
+          "language": "Chinese",
+          "period": "Modern Mandarin",
+          "meaning": "fit / suitability",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "modern only",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C4",
+          "form": "聚 / 會",
+          "language": "Chinese",
+          "period": "Shuowen transmitted dictionary layer, Eastern Han",
+          "meaning": "assembly",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C5",
+          "form": "宜",
+          "language": "Chinese",
+          "period": "Transmitted pre-imperial texts",
+          "meaning": "appropriate",
+          "source_refs": [
+            "calibration"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        }
+      ],
+      "mappings": [
+        {
+          "source_ref": "F3",
+          "chinese_ref": "C3",
+          "status": "comparison",
+          "unit": "suitability",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "calibration"
+          ],
+          "counterevidence": "Not acknowledgement or every de/que construction.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "L1",
+          "chinese_ref": "C1",
+          "status": "comparison",
+          "unit": "joining",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "calibration"
+          ],
+          "counterevidence": "Does not date a join-to-agree transition.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "L1",
+          "chinese_ref": "C4",
+          "status": "comparison",
+          "unit": "assembly",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "calibration"
+          ],
+          "counterevidence": "聚/會 cannot cover suitability.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "L2",
+          "chinese_ref": "C2",
+          "status": "comparison",
+          "unit": "correspondence",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "calibration"
+          ],
+          "counterevidence": "Conformity is not contractual agreement.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "F3",
+          "chinese_ref": "C5",
+          "status": "comparison",
+          "unit": "appropriateness",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "calibration"
+          ],
+          "counterevidence": "宜 does not express gathering.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "F2",
+          "chinese_ref": null,
+          "status": "Pending",
+          "unit": "acknowledgement",
+          "semantic_fit": "Pending",
+          "phonetic_fit": "Low",
+          "structural_fit": "Pending",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "calibration"
+          ],
+          "counterevidence": "承认 is a modern control; no verified 合 historical acknowledgement mapping.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        }
+      ],
+      "chinese_coverage": {
+        "modern_mandarin": {
+          "status": "recorded",
+          "detail": "合 hé; 聚 jù; 会 huì; 宜 yí",
+          "source_refs": [
+            "calibration"
+          ]
+        },
+        "historical_senses": {
+          "status": "partial",
+          "detail": "Reuse all calibrated semantic units; 同/协 remain limited leads",
+          "source_refs": [
+            "calibration"
+          ]
+        },
+        "middle_chinese": {
+          "status": "partial",
+          "detail": "Rhyme-book/online transcription where stated; exact Mainland edition Pending.",
+          "source_refs": [
+            "calibration"
+          ]
+        },
+        "old_chinese": {
+          "status": "partial",
+          "detail": "Reused: 合 MC hop, OC *m-kˤop (Baxter–Sagart2014); 宜 ngje/*ŋ(r)aj. Other alternate historical readings Pending; no French correspondence established. Other serious candidates without verified reconstructions remain Pending.",
+          "source_refs": [
+            "calibration"
+          ]
+        },
+        "character_history_phonetic_series": {
+          "status": "partial",
+          "detail": "合: Shuowen interpretation is not Shang graph proof Early graph/inscription identifiers and Mainland palaeographic adjudication Pending.",
+          "source_refs": [
+            "calibration"
+          ]
+        },
+        "dialect": {
+          "status": "Not applicable",
+          "detail": "No dialect claim is used in this scoped pilot.",
+          "source_refs": []
+        }
+      },
+      "phonetic_history": "Reused: 合 MC hop, OC *m-kˤop (Baxter–Sagart2014); 宜 ngje/*ŋ(r)aj. Other alternate historical readings Pending; no French correspondence established.",
+      "relations": [
+        {
+          "kind": "attested coexistence",
+          "confirmed_chronology": false,
+          "description": "Latin gathering/fitting coexist; no COME TOGETHER→AGREE→SUIT timeline.",
+          "source_refs": [
+            "calibration"
+          ]
+        }
+      ],
+      "remaining_pending": [
+        "Original calibration historical-edition and early-graph gaps remain",
+        "Agreement Chinese construction and dated continuity Pending"
+      ],
+      "visible_pending": [
+        "Original calibration historical-edition and early-graph gaps remain",
+        "Agreement Chinese construction and dated continuity Pending"
+      ],
+      "d1_gate": {
+        "decision": "D2",
+        "reason": "Reformatting alone adds no evidence. Calibrated broad bilateral network still has unverified Chinese units; no automatic D1.",
+        "review": "requires editorial/evidence review"
+      },
+      "historical_relation": "Not claimed",
+      "origin": "Preserve accepted provenance; no re-attribution",
+      "research_origin": "AI research; separate from original observation",
+      "review_gate": "Jinkai Liu; no corpus writeback"
+    },
+    {
+      "candidate_id": "RQ-680eb4dd434f",
+      "entry": "move",
+      "primary_depth_before": "D2",
+      "primary_depth_after_proposal": "D2",
+      "lexical_subclaim_depth_proposal": "D2",
+      "status": "Depth Freeze Proposal",
+      "featured": {
+        "form": "动 dòng",
+        "scope": "physical movement; Protocol not historical proof",
+        "mapping_ref": 0,
+        "role": "reader-facing summary, not research object",
+        "status": "Candidate"
+      },
+      "source_stages": [
+        {
+          "id": "S1",
+          "form": "movēre",
+          "language": "Latin",
+          "period": "Latin donor; precise attestation Pending",
+          "meaning": "move",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "move"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S2",
+          "form": "mover / moveir",
+          "language": "Anglo-French",
+          "period": "Medieval; exact dated citation Pending",
+          "meaning": "move",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "move"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S3",
+          "form": "move",
+          "language": "Middle English",
+          "period": "13th-century verb dating in dictionary",
+          "meaning": "physical movement",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "move"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S4",
+          "form": "move",
+          "language": "Modern English",
+          "period": "Modern coexisting senses",
+          "meaning": "physical displacement / affect emotionally",
+          "pronunciation": "/muːv/",
+          "source_refs": [
+            "move"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        }
+      ],
+      "chinese_stages": [
+        {
+          "id": "C1",
+          "form": "動",
+          "language": "Chinese",
+          "period": "Transmitted pre-imperial Hanfeizi layer",
+          "meaning": "physical motion",
+          "source_refs": [
+            "dong"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C2",
+          "form": "動 / 心之動",
+          "language": "Chinese",
+          "period": "Liji Yueji transmitted early-imperial compilation; underlying layers older",
+          "meaning": "emotional activation",
+          "source_refs": [
+            "g物"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C3",
+          "form": "动",
+          "language": "Chinese",
+          "period": "Modern Mandarin",
+          "meaning": "move / be moved",
+          "source_refs": [
+            "dong"
+          ],
+          "evidence_status": "modern only",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        }
+      ],
+      "mappings": [
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C1",
+          "status": "comparison",
+          "unit": "physical motion",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "move",
+            "dong"
+          ],
+          "counterevidence": "Protocol MOVE is not Latin or Chinese reconstruction.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S4",
+          "chinese_ref": "C2",
+          "status": "comparison",
+          "unit": "emotional movement",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "move",
+            "g物"
+          ],
+          "counterevidence": "Modern English against ancient Chinese does not prove parallel dated change.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S1",
+          "chinese_ref": null,
+          "status": "Pending",
+          "unit": "earliest Latin affective stage",
+          "semantic_fit": "Pending",
+          "phonetic_fit": "Low",
+          "structural_fit": "Pending",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "move"
+          ],
+          "counterevidence": "Latin emotional attestation not directly verified.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        }
+      ],
+      "chinese_coverage": {
+        "modern_mandarin": {
+          "status": "recorded",
+          "detail": "dòng /tʊŋ˥˩/",
+          "source_refs": [
+            "dong",
+            "g物"
+          ]
+        },
+        "historical_senses": {
+          "status": "partial",
+          "detail": "Physical and emotional historical nodes separate",
+          "source_refs": [
+            "dong",
+            "g物"
+          ]
+        },
+        "middle_chinese": {
+          "status": "partial",
+          "detail": "Rhyme-book/online transcription where stated; exact Mainland edition Pending.",
+          "source_refs": [
+            "dong",
+            "g物"
+          ]
+        },
+        "old_chinese": {
+          "status": "partial",
+          "detail": "動 MC duwngX; BS2014 OC *[Cə-m-]tˤoŋʔ (p25). Reconstruction, not observed ancient pronunciation. Historical French/Latin sound documentation Pending. Other serious candidates without verified reconstructions remain Pending.",
+          "source_refs": [
+            "BS"
+          ]
+        },
+        "character_history_phonetic_series": {
+          "status": "partial",
+          "detail": "Shuowen 从力重声 is a lexicographic analysis Early graph/inscription identifiers and Mainland palaeographic adjudication Pending.",
+          "source_refs": [
+            "dong",
+            "g物"
+          ]
+        },
+        "dialect": {
+          "status": "Not applicable",
+          "detail": "No dialect claim is used in this scoped pilot.",
+          "source_refs": []
+        }
+      },
+      "phonetic_history": "動 MC duwngX; BS2014 OC *[Cə-m-]tˤoŋʔ (p25). Reconstruction, not observed ancient pronunciation. Historical French/Latin sound documentation Pending.",
+      "relations": [
+        {
+          "kind": "unknown chronology",
+          "confirmed_chronology": false,
+          "description": "Ancient Chinese emotional usage is real textual evidence; neither side gets an invented direction/date.",
+          "source_refs": [
+            "move"
+          ]
+        }
+      ],
+      "remaining_pending": [
+        "Latin affective-stage attestation/date",
+        "Chinese physical-motion source edition",
+        "Directional physical→emotional development unproved"
+      ],
+      "visible_pending": [
+        "Latin affective-stage attestation/date",
+        "Chinese physical-motion source edition",
+        "Directional physical→emotional development unproved"
+      ],
+      "d1_gate": {
+        "decision": "D2",
+        "reason": "Chinese emotional evidence strengthened, but paired source emotional stage and physical Chinese edition still incomplete.",
+        "review": "requires editorial/evidence review"
+      },
+      "historical_relation": "Not claimed",
+      "origin": "Preserve accepted provenance; no re-attribution",
+      "research_origin": "AI research; separate from original observation",
+      "review_gate": "Jinkai Liu; no corpus writeback"
+    },
+    {
+      "candidate_id": "RQ-6c9011e4d1cb",
+      "entry": "change",
+      "primary_depth_before": "D2",
+      "primary_depth_after_proposal": "D2",
+      "lexical_subclaim_depth_proposal": "D2",
+      "status": "Depth Freeze Proposal",
+      "featured": {
+        "form": "易 yì",
+        "scope": "ALTER / EXCHANGE; excludes EASY",
+        "mapping_ref": 0,
+        "role": "reader-facing summary, not research object",
+        "status": "Candidate"
+      },
+      "source_stages": [
+        {
+          "id": "S1",
+          "form": "cambiare",
+          "language": "Late Latin",
+          "period": "Late Latin dictionary attribution",
+          "meaning": "exchange",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "change"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S2",
+          "form": "changer",
+          "language": "Anglo-French",
+          "period": "Medieval; exact date Pending",
+          "meaning": "change",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "change"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S3",
+          "form": "change",
+          "language": "Middle English",
+          "period": "13th-century verb",
+          "meaning": "alter / substitute",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "change"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S4",
+          "form": "change",
+          "language": "Modern English",
+          "period": "Modern",
+          "meaning": "alter / exchange",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "change"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        }
+      ],
+      "chinese_stages": [
+        {
+          "id": "C1",
+          "form": "易",
+          "language": "Chinese",
+          "period": "Transmitted Mengzi / early texts; original edition Pending",
+          "meaning": "exchange / replace",
+          "source_refs": [
+            "yi"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C2",
+          "form": "易",
+          "language": "Chinese",
+          "period": "Qing Fang Bao 狱中杂记, dictionary quotation",
+          "meaning": "alter a statement",
+          "source_refs": [
+            "yi"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C3",
+          "form": "易",
+          "language": "Chinese",
+          "period": "Modern Mandarin",
+          "meaning": "alter / exchange, not easy",
+          "source_refs": [
+            "yi"
+          ],
+          "evidence_status": "modern only",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        }
+      ],
+      "mappings": [
+        {
+          "source_ref": "S4",
+          "chinese_ref": "C3",
+          "status": "comparison",
+          "unit": "alter/exchange",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "change",
+            "yi"
+          ],
+          "counterevidence": "Modern 易 often in compounds; not interchangeable in all change constructions.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S1",
+          "chinese_ref": "C1",
+          "status": "comparison",
+          "unit": "exchange",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "change",
+            "yi"
+          ],
+          "counterevidence": "Dates differ; no borrowing inference.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C2",
+          "status": "comparison",
+          "unit": "alteration",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "change",
+            "yi"
+          ],
+          "counterevidence": "Later Chinese quote does not establish first use.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        }
+      ],
+      "chinese_coverage": {
+        "modern_mandarin": {
+          "status": "recorded",
+          "detail": "yì /i˥˩/",
+          "source_refs": [
+            "yi"
+          ]
+        },
+        "historical_senses": {
+          "status": "partial",
+          "detail": "Exchange and alteration quotations; not one dated progression",
+          "source_refs": [
+            "yi"
+          ]
+        },
+        "middle_chinese": {
+          "status": "partial",
+          "detail": "Rhyme-book/online transcription where stated; exact Mainland edition Pending.",
+          "source_refs": [
+            "yi"
+          ]
+        },
+        "old_chinese": {
+          "status": "Pending",
+          "detail": "No unverified reconstruction filled in; named verified models separately recorded.",
+          "source_refs": []
+        },
+        "character_history_phonetic_series": {
+          "status": "partial",
+          "detail": "Graph interpretations contested; no lizard/sun-moon origin adopted Early graph/inscription identifiers and Mainland palaeographic adjudication Pending.",
+          "source_refs": [
+            "yi"
+          ]
+        },
+        "dialect": {
+          "status": "Not applicable",
+          "detail": "No dialect claim is used in this scoped pilot.",
+          "source_refs": []
+        }
+      },
+      "phonetic_history": "Online rhyme records have 羊益切 (entering) and 以豉切 (departing). Sense-specific assignment and OC reconstruction Pending; modern homophony cannot collapse historical readings.",
+      "relations": [
+        {
+          "kind": "unknown chronology",
+          "confirmed_chronology": false,
+          "description": "Exchange and alteration compared as nodes; no claimed Celtic→Chinese or same semantic progression.",
+          "source_refs": [
+            "change"
+          ]
+        }
+      ],
+      "remaining_pending": [
+        "Exact Chinese historical editions and dated senses",
+        "易 change/exchange vs easy historical reading assignment",
+        "Graph-origin controversy; not settled from modern graphic components"
+      ],
+      "visible_pending": [
+        "Exact Chinese historical editions and dated senses",
+        "易 change/exchange vs easy historical reading assignment",
+        "Graph-origin controversy; not settled from modern graphic components"
+      ],
+      "d1_gate": {
+        "decision": "D2",
+        "reason": "Chinese entries are usable historical leads but exact sense-specific historical reading and textual verification remain incomplete.",
+        "review": "requires editorial/evidence review"
+      },
+      "historical_relation": "Not claimed",
+      "origin": "Preserve accepted provenance; no re-attribution",
+      "research_origin": "AI research; separate from original observation",
+      "review_gate": "Jinkai Liu; no corpus writeback"
+    },
+    {
+      "candidate_id": "RQ-31a9fccf8a5e",
+      "entry": "forme",
+      "primary_depth_before": "D2",
+      "primary_depth_after_proposal": "D2",
+      "lexical_subclaim_depth_proposal": "D2",
+      "status": "Depth Freeze Proposal",
+      "featured": {
+        "form": "形 xíng",
+        "scope": "shape / external form only",
+        "mapping_ref": 0,
+        "role": "reader-facing summary, not research object",
+        "status": "Candidate"
+      },
+      "source_stages": [
+        {
+          "id": "S1",
+          "form": "forma",
+          "language": "Latin",
+          "period": "Latin dictionary donor; first attestation not determined",
+          "meaning": "form / shape",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "forme"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S2",
+          "form": "forme",
+          "language": "French",
+          "period": "11th-century dictionary overview",
+          "meaning": "form",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "forme"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S3",
+          "form": "forme",
+          "language": "Modern French",
+          "period": "Modern coexisting senses",
+          "meaning": "external configuration; fitness distinct",
+          "pronunciation": "/fɔʁm/",
+          "source_refs": [
+            "forme"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        }
+      ],
+      "chinese_stages": [
+        {
+          "id": "C1",
+          "form": "形",
+          "language": "Chinese",
+          "period": "Transmitted Yijing text; layer dating not resolved",
+          "meaning": "formed configuration",
+          "source_refs": [
+            "xing"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C2",
+          "form": "形",
+          "language": "Chinese",
+          "period": "Eastern Han Shuowen transmitted dictionary",
+          "meaning": "shape/form lexicographic sense",
+          "source_refs": [
+            "xing"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C3",
+          "form": "形",
+          "language": "Chinese",
+          "period": "Modern Mandarin",
+          "meaning": "external form",
+          "source_refs": [
+            "xing"
+          ],
+          "evidence_status": "modern only",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        }
+      ],
+      "mappings": [
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C3",
+          "status": "comparison",
+          "unit": "external configuration",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "forme",
+            "xing"
+          ],
+          "counterevidence": "être en forme is not external 形.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S1",
+          "chinese_ref": "C1",
+          "status": "comparison",
+          "unit": "form / configuration",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "forme",
+            "xing"
+          ],
+          "counterevidence": "Broad philosophical formation does not equal every Latin forma sense.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S2",
+          "chinese_ref": "C2",
+          "status": "comparison",
+          "unit": "form",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "forme",
+            "xing"
+          ],
+          "counterevidence": "Dictionary gloss is not proof of identical semantic histories.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        }
+      ],
+      "chinese_coverage": {
+        "modern_mandarin": {
+          "status": "recorded",
+          "detail": "xíng /ɕiŋ˧˥/",
+          "source_refs": [
+            "xing"
+          ]
+        },
+        "historical_senses": {
+          "status": "partial",
+          "detail": "Formation/body/external figure must remain distinct",
+          "source_refs": [
+            "xing"
+          ]
+        },
+        "middle_chinese": {
+          "status": "partial",
+          "detail": "Rhyme-book/online transcription where stated; exact Mainland edition Pending.",
+          "source_refs": [
+            "xing"
+          ]
+        },
+        "old_chinese": {
+          "status": "partial",
+          "detail": "形 MC heng / 户经切, OC *[ɢ]ˤeŋ in BS2014 p127; model reconstruction. No regular relation to French /fɔʁm/. Other serious candidates without verified reconstructions remain Pending.",
+          "source_refs": [
+            "BS"
+          ]
+        },
+        "character_history_phonetic_series": {
+          "status": "partial",
+          "detail": "Early inscriptions Pending; do not infer history from simplified form Early graph/inscription identifiers and Mainland palaeographic adjudication Pending.",
+          "source_refs": [
+            "xing"
+          ]
+        },
+        "dialect": {
+          "status": "Not applicable",
+          "detail": "No dialect claim is used in this scoped pilot.",
+          "source_refs": []
+        }
+      },
+      "phonetic_history": "形 MC heng / 户经切, OC *[ɢ]ˤeŋ in BS2014 p127; model reconstruction. No regular relation to French /fɔʁm/.",
+      "relations": [
+        {
+          "kind": "unknown chronology",
+          "confirmed_chronology": false,
+          "description": "External form versus bodily fitness is modern polysemy, not an ordered shape→fitness chronology.",
+          "source_refs": [
+            "forme"
+          ]
+        }
+      ],
+      "remaining_pending": [
+        "Yijing layer/edition and Shuowen exact entry verification",
+        "Earliest graph and phonetic-series interpretation"
+      ],
+      "visible_pending": [
+        "Yijing layer/edition and Shuowen exact entry verification",
+        "Earliest graph and phonetic-series interpretation"
+      ],
+      "d1_gate": {
+        "decision": "D2",
+        "reason": "Modern summary secure within scope; Chinese ancient form/conformation unit still needs precise text-layer adjudication.",
+        "review": "requires editorial/evidence review"
+      },
+      "historical_relation": "Not claimed",
+      "origin": "Preserve accepted provenance; no re-attribution",
+      "research_origin": "AI research; separate from original observation",
+      "review_gate": "Jinkai Liu; no corpus writeback"
+    },
+    {
+      "candidate_id": "RQ-c6e4c0019ec1",
+      "entry": "média",
+      "primary_depth_before": "D2",
+      "primary_depth_after_proposal": "D2",
+      "lexical_subclaim_depth_proposal": "D2",
+      "status": "Depth Freeze Proposal",
+      "featured": {
+        "form": "媒 méi",
+        "scope": "limited intermediary/connective comparison; not mass-media lexical equivalence",
+        "mapping_ref": 0,
+        "role": "reader-facing summary, not research object",
+        "status": "Candidate"
+      },
+      "source_stages": [
+        {
+          "id": "S1",
+          "form": "medium / media",
+          "language": "Latin",
+          "period": "Remote historical family, not direct French donor",
+          "meaning": "middle/intermediate unit",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "media"
+          ],
+          "evidence_status": "remote relation; exact route evidence Pending",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S2",
+          "form": "mass media",
+          "language": "American English",
+          "period": "20th-century French borrowing context",
+          "meaning": "means of mass communication",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "media"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S3",
+          "form": "média",
+          "language": "French",
+          "period": "20th century to modern",
+          "meaning": "communication medium; singular noun",
+          "pronunciation": "/medja/",
+          "source_refs": [
+            "media"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        }
+      ],
+      "chinese_stages": [
+        {
+          "id": "C1",
+          "form": "媒",
+          "language": "Chinese",
+          "period": "Shijing 氓 transmitted pre-imperial poem layer",
+          "meaning": "marriage intermediary",
+          "source_refs": [
+            "mei"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C2",
+          "form": "媒",
+          "language": "Chinese",
+          "period": "Modern Mandarin",
+          "meaning": "intermediary / medium-like structure",
+          "source_refs": [
+            "mei"
+          ],
+          "evidence_status": "modern only",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        }
+      ],
+      "mappings": [
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C2",
+          "status": "comparison",
+          "unit": "intermediary function",
+          "semantic_fit": "Medium–High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "media",
+            "mei"
+          ],
+          "counterevidence": "媒人 is not a mass medium.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S2",
+          "chinese_ref": "C1",
+          "status": "comparison",
+          "unit": "third-party mediation structural comparison",
+          "semantic_fit": "Medium",
+          "phonetic_fit": "Low",
+          "structural_fit": "Medium",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "media",
+            "mei"
+          ],
+          "counterevidence": "Marriage mediation and mass communication have different participants/functions.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S1",
+          "chinese_ref": null,
+          "status": "Pending",
+          "unit": "middle→modern-media historical bridge",
+          "semantic_fit": "Pending",
+          "phonetic_fit": "Low",
+          "structural_fit": "Pending",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "media"
+          ],
+          "counterevidence": "Remote unit does not supply Chinese chronological evidence.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        }
+      ],
+      "chinese_coverage": {
+        "modern_mandarin": {
+          "status": "recorded",
+          "detail": "méi /mei˧˥/",
+          "source_refs": [
+            "mei"
+          ]
+        },
+        "historical_senses": {
+          "status": "partial",
+          "detail": "Matchmaking ancient; broad intermediary extension not dated here",
+          "source_refs": [
+            "mei"
+          ]
+        },
+        "middle_chinese": {
+          "status": "partial",
+          "detail": "Rhyme-book/online transcription where stated; exact Mainland edition Pending.",
+          "source_refs": [
+            "mei"
+          ]
+        },
+        "old_chinese": {
+          "status": "Pending",
+          "detail": "No unverified reconstruction filled in; named verified models separately recorded.",
+          "source_refs": []
+        },
+        "character_history_phonetic_series": {
+          "status": "partial",
+          "detail": "Shuowen/phonetic-series analysis requires exact edition; not romantic graph etymology Early graph/inscription identifiers and Mainland palaeographic adjudication Pending.",
+          "source_refs": [
+            "mei"
+          ]
+        },
+        "dialect": {
+          "status": "Not applicable",
+          "detail": "No dialect claim is used in this scoped pilot.",
+          "source_refs": []
+        }
+      },
+      "phonetic_history": "媒 MC 莫杯切, 明母灰韵平声; exact reconstruction/OC Pending. /medja/ versus méi not a demonstrated sound correspondence.",
+      "relations": [
+        {
+          "kind": "unknown chronology",
+          "confirmed_chronology": false,
+          "description": "French mass-media borrowing and Chinese marriage mediation are separate paths, not a fabricated single chain.",
+          "source_refs": [
+            "media"
+          ]
+        }
+      ],
+      "remaining_pending": [
+        "Non-marital 媒 historical attestations and modern 媒体 formation dates",
+        "Exact Latin→English sense history beyond direct French donor",
+        "Mainland historical lexicography"
+      ],
+      "visible_pending": [
+        "Non-marital 媒 historical attestations and modern 媒体 formation dates",
+        "Exact Latin→English sense history beyond direct French donor",
+        "Mainland historical lexicography"
+      ],
+      "d1_gate": {
+        "decision": "D2",
+        "reason": "Chinese bridge beyond matchmaker lacks dated independent attestation; maintain limited structural summary, D2.",
+        "review": "requires editorial/evidence review"
+      },
+      "historical_relation": "Not claimed",
+      "origin": "Preserve accepted provenance; no re-attribution",
+      "research_origin": "AI research; separate from original observation",
+      "review_gate": "Jinkai Liu; no corpus writeback"
+    },
+    {
+      "candidate_id": "RQ-4d9a99ebe809",
+      "entry": "long",
+      "primary_depth_before": "D2",
+      "primary_depth_after_proposal": "D2",
+      "lexical_subclaim_depth_proposal": "D2",
+      "status": "Depth Freeze Proposal",
+      "featured": {
+        "form": "长 cháng",
+        "scope": "spatial / temporal extension; excludes zhǎng and long for",
+        "mapping_ref": 0,
+        "role": "reader-facing summary, not research object",
+        "status": "Candidate"
+      },
+      "source_stages": [
+        {
+          "id": "S1",
+          "form": "lang / long",
+          "language": "Old English adjective",
+          "period": "Old English texts quoted by BT; precise manuscript dating Pending",
+          "meaning": "extent and duration",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "OE"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S1b",
+          "form": "long",
+          "language": "Middle English",
+          "period": "Middle English continuation reported by dictionary; specific manuscript Pending",
+          "meaning": "spatial and temporal length",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "long"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S2",
+          "form": "long",
+          "language": "Modern English",
+          "period": "Modern",
+          "meaning": "spatial and temporal length",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "long"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S3",
+          "form": "lange",
+          "language": "Old English adverb",
+          "period": "Old English cited corpus",
+          "meaning": "duration",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "OEadv"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        }
+      ],
+      "chinese_stages": [
+        {
+          "id": "C1",
+          "form": "長",
+          "language": "Chinese",
+          "period": "Mengzi transmitted pre-imperial text, dictionary quotation",
+          "meaning": "cloth length",
+          "source_refs": [
+            "chang"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C2",
+          "form": "長夜",
+          "language": "Chinese",
+          "period": "Tang Li He poem; direct passage retrieval Pending",
+          "meaning": "long night / duration",
+          "source_refs": [
+            "Tang"
+          ],
+          "evidence_status": "Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C3",
+          "form": "长",
+          "language": "Chinese",
+          "period": "Modern Mandarin",
+          "meaning": "spatial/time extent",
+          "source_refs": [
+            "chang"
+          ],
+          "evidence_status": "modern only",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        }
+      ],
+      "mappings": [
+        {
+          "source_ref": "S2",
+          "chinese_ref": "C3",
+          "status": "comparison",
+          "unit": "space/time extension",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "long",
+            "chang"
+          ],
+          "counterevidence": "Not zhǎng growth/elder, not verb longing.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S1",
+          "chinese_ref": "C1",
+          "status": "comparison",
+          "unit": "spatial extension",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "OE",
+            "chang"
+          ],
+          "counterevidence": "Source dates not Chinese dates.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S1",
+          "chinese_ref": "C2",
+          "status": "comparison",
+          "unit": "temporal extension",
+          "semantic_fit": "Pending",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "OE",
+            "Tang"
+          ],
+          "counterevidence": "Chinese passage remains a retrieval lead, not verified base text.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C3",
+          "status": "comparison",
+          "unit": "duration across grammatical units",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "Medium",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "OEadv",
+            "chang"
+          ],
+          "counterevidence": "Adverb and adjective not interchangeable morphological evidence.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        }
+      ],
+      "chinese_coverage": {
+        "modern_mandarin": {
+          "status": "recorded",
+          "detail": "cháng /ʈʂʰɑŋ˧˥/",
+          "source_refs": [
+            "chang"
+          ]
+        },
+        "historical_senses": {
+          "status": "partial",
+          "detail": "Separate space and duration nodes; duration source still Pending",
+          "source_refs": [
+            "chang"
+          ]
+        },
+        "middle_chinese": {
+          "status": "partial",
+          "detail": "Rhyme-book/online transcription where stated; exact Mainland edition Pending.",
+          "source_refs": [
+            "chang"
+          ]
+        },
+        "old_chinese": {
+          "status": "Pending",
+          "detail": "No unverified reconstruction filled in; named verified models separately recorded.",
+          "source_refs": []
+        },
+        "character_history_phonetic_series": {
+          "status": "partial",
+          "detail": "Long-hair/elder graph accounts cannot silently import zhǎng history Early graph/inscription identifiers and Mainland palaeographic adjudication Pending.",
+          "source_refs": [
+            "chang"
+          ]
+        },
+        "dialect": {
+          "status": "Not applicable",
+          "detail": "No dialect claim is used in this scoped pilot.",
+          "source_refs": []
+        }
+      },
+      "phonetic_history": "cháng MC 直良切 澄母陽韵平声; zhǎng 知丈切 excluded. OC and exact edition Pending. OE pronunciations not supplied from spelling.",
+      "relations": [
+        {
+          "kind": "attested coexistence",
+          "confirmed_chronology": false,
+          "description": "OE adjective already has space/time uses in dictionary quotations. This is coexistence, not proof of when metaphor originated.",
+          "source_refs": [
+            "OE",
+            "long",
+            "OEadv"
+          ]
+        }
+      ],
+      "remaining_pending": [
+        "Direct Mainland verification of Chinese time-length passage",
+        "Mengzi exact edition/page",
+        "Shared space→time chronological direction not established"
+      ],
+      "visible_pending": [
+        "Direct Mainland verification of Chinese time-length passage",
+        "Mengzi exact edition/page",
+        "Shared space→time chronological direction not established"
+      ],
+      "d1_gate": {
+        "decision": "D2",
+        "reason": "Strongest structural parallel, but the scoped Chinese temporal historical node still lacks direct passage verification; D2 for this run.",
+        "review": "requires editorial/evidence review"
+      },
+      "historical_relation": "Not claimed",
+      "origin": "Preserve accepted provenance; no re-attribution",
+      "research_origin": "AI research; separate from original observation",
+      "review_gate": "Jinkai Liu; no corpus writeback"
+    },
+    {
+      "candidate_id": "RQ-915ffd347135",
+      "entry": "source",
+      "primary_depth_before": "D4",
+      "primary_depth_after_proposal": "D4",
+      "lexical_subclaim_depth_proposal": "D2",
+      "status": "Depth Freeze Proposal",
+      "featured": {
+        "form": "源 yuán",
+        "scope": "physical source / origin lexical subclaim only",
+        "mapping_ref": 0,
+        "role": "reader-facing summary, not research object",
+        "status": "Candidate"
+      },
+      "source_stages": [
+        {
+          "id": "S1",
+          "form": "surgere",
+          "language": "Latin",
+          "period": "Latin donor family",
+          "meaning": "rise",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "source"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S2",
+          "form": "surse",
+          "language": "Anglo-French",
+          "period": "Medieval; exact cited date Pending",
+          "meaning": "spring / source",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "source"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S2b",
+          "form": "sours",
+          "language": "Middle English",
+          "period": "14th-century noun dating",
+          "meaning": "source / origin",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "source"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S3",
+          "form": "source",
+          "language": "Modern English",
+          "period": "Modern",
+          "meaning": "spring / origin",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "source"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        }
+      ],
+      "chinese_stages": [
+        {
+          "id": "C1",
+          "form": "源",
+          "language": "Chinese",
+          "period": "Liji transmitted layer; dictionary quotation",
+          "meaning": "water source",
+          "source_refs": [
+            "yuan"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C2",
+          "form": "源",
+          "language": "Chinese",
+          "period": "Hanfeizi / Ban Gu attributed quotations in mixed dictionary",
+          "meaning": "abstract origin",
+          "source_refs": [
+            "yuan"
+          ],
+          "evidence_status": "Pending: quotations in 國語辭典 need independent Mainland verification",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C3",
+          "form": "源 / 来源",
+          "language": "Chinese",
+          "period": "Modern Mandarin",
+          "meaning": "origin",
+          "source_refs": [
+            "yuan"
+          ],
+          "evidence_status": "modern only",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        }
+      ],
+      "mappings": [
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C3",
+          "status": "comparison",
+          "unit": "origin",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "source",
+            "yuan"
+          ],
+          "counterevidence": "Modern 来源 compound is not automatically ancient 源.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S2",
+          "chinese_ref": "C1",
+          "status": "comparison",
+          "unit": "spring/source",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "source",
+            "yuan"
+          ],
+          "counterevidence": "English first-use label already includes origin; cannot assert English began solely physical.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C2",
+          "status": "comparison",
+          "unit": "abstract source",
+          "semantic_fit": "Pending",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "source",
+            "yuan"
+          ],
+          "counterevidence": "Ancient Chinese abstract quotation still needs independent verification.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        }
+      ],
+      "chinese_coverage": {
+        "modern_mandarin": {
+          "status": "recorded",
+          "detail": "yuán /ɥɛn˧˥/",
+          "source_refs": [
+            "yuan"
+          ]
+        },
+        "historical_senses": {
+          "status": "partial",
+          "detail": "Water and abstract-source nodes separated",
+          "source_refs": [
+            "yuan"
+          ]
+        },
+        "middle_chinese": {
+          "status": "partial",
+          "detail": "Rhyme-book/online transcription where stated; exact Mainland edition Pending.",
+          "source_refs": [
+            "yuan"
+          ]
+        },
+        "old_chinese": {
+          "status": "Pending",
+          "detail": "No unverified reconstruction filled in; named verified models separately recorded.",
+          "source_refs": []
+        },
+        "character_history_phonetic_series": {
+          "status": "partial",
+          "detail": "从水原声 is received lexicographic analysis; graph differentiation Pending Early graph/inscription identifiers and Mainland palaeographic adjudication Pending.",
+          "source_refs": [
+            "yuan"
+          ]
+        },
+        "dialect": {
+          "status": "Not applicable",
+          "detail": "No dialect claim is used in this scoped pilot.",
+          "source_refs": []
+        }
+      },
+      "phonetic_history": "Historical source-specific MC/OC readings Pending; no historical pronunciation filled from modern yuán.",
+      "relations": [
+        {
+          "kind": "unknown chronology",
+          "confirmed_chronology": false,
+          "description": "Source rising/spring and abstract origin are related units; first-use dates do not establish a universal physical-first path.",
+          "source_refs": [
+            "source"
+          ]
+        }
+      ],
+      "remaining_pending": [
+        "Mainland direct verification of ancient abstract 源",
+        "原/源 graph differentiation",
+        "No strict spring→abstract chronology established"
+      ],
+      "visible_pending": [
+        "Mainland direct verification of ancient abstract 源",
+        "原/源 graph differentiation",
+        "No strict spring→abstract chronology established"
+      ],
+      "d1_gate": {
+        "decision": "D2",
+        "reason": "D4 primary preserved; lexical subclaim D2 until Chinese abstract historical node is verified.",
+        "review": "requires editorial/evidence review"
+      },
+      "historical_relation": "Not claimed",
+      "origin": "Preserve accepted provenance; no re-attribution",
+      "research_origin": "AI research; separate from original observation",
+      "review_gate": "Jinkai Liu; no corpus writeback"
+    },
+    {
+      "candidate_id": "RQ-27ff8838c9f6",
+      "entry": "pressure",
+      "primary_depth_before": "D4",
+      "primary_depth_after_proposal": "D4",
+      "lexical_subclaim_depth_proposal": "D2",
+      "status": "Depth Freeze Proposal",
+      "featured": {
+        "form": "压力 yālì",
+        "scope": "physical and abstract pressure; terminology scoped",
+        "mapping_ref": 0,
+        "role": "reader-facing summary, not research object",
+        "status": "Candidate"
+      },
+      "source_stages": [
+        {
+          "id": "S1",
+          "form": "premere",
+          "language": "Latin",
+          "period": "Latin; exact attestation Pending",
+          "meaning": "press",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "pressure"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S1b",
+          "form": "pressura",
+          "language": "Latin",
+          "period": "Latin pressing noun; Late Latin donor stage reported by dictionary",
+          "meaning": "pressing / pressure",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "pressure"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S2",
+          "form": "pressure",
+          "language": "Middle English via Anglo-French",
+          "period": "14th-century noun dating",
+          "meaning": "pressing condition",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "pressure"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        },
+        {
+          "id": "S3",
+          "form": "pressure",
+          "language": "Modern English",
+          "period": "Modern",
+          "meaning": "physical / social / psychological pressure",
+          "pronunciation": "Pending",
+          "source_refs": [
+            "pressure"
+          ],
+          "evidence_status": "dictionary-supported",
+          "coexisting_senses": "Only senses listed for this unit; relation to other units is not automatically chronological.",
+          "documented_semantic_change": "Pending; donor/borrowing sequence does not by itself date internal semantic change.",
+          "chronology_confidence": "Form transmission dictionary-supported; semantic transition order unconfirmed."
+        }
+      ],
+      "chinese_stages": [
+        {
+          "id": "C1",
+          "form": "壓",
+          "language": "Chinese",
+          "period": "Eastern Han Shuowen / Guoyu transmitted references",
+          "meaning": "collapse / physical pressing",
+          "source_refs": [
+            "ya"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C2",
+          "form": "壓",
+          "language": "Chinese",
+          "period": "Gongyang transmitted 文公14年, dictionary quotation",
+          "meaning": "coercion by greater state",
+          "source_refs": [
+            "ya"
+          ],
+          "evidence_status": "historical quotation lead; edition Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        },
+        {
+          "id": "C3",
+          "form": "压力",
+          "language": "Chinese",
+          "period": "Modern Mandarin",
+          "meaning": "physical / psychological constraint",
+          "source_refs": [
+            "pressure-paper"
+          ],
+          "evidence_status": "modern term; exact history Pending",
+          "documented_semantic_development": "Node evidence only; directional development Pending."
+        }
+      ],
+      "mappings": [
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C3",
+          "status": "comparison",
+          "unit": "abstract pressure",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "pressure",
+            "pressure-paper"
+          ],
+          "counterevidence": "Physical terminology: pressure is often 压强; 压力 may denote force. Not unit-equivalent across contexts.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S1",
+          "chinese_ref": "C1",
+          "status": "comparison",
+          "unit": "physical pressing",
+          "semantic_fit": "High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "pressure",
+            "ya"
+          ],
+          "counterevidence": "Ancient 壓 is not proof of ancient 压力 compound.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        },
+        {
+          "source_ref": "S3",
+          "chinese_ref": "C2",
+          "status": "comparison",
+          "unit": "coercive force structural comparison",
+          "semantic_fit": "Medium–High",
+          "phonetic_fit": "Low",
+          "structural_fit": "High",
+          "phonetic_rationale": "No independently established regular historical sound correspondence; semantic strength gives no phonetic credit.",
+          "evidence": [
+            "pressure",
+            "ya"
+          ],
+          "counterevidence": "Ancient political coercion does not derive from modern physics term.",
+          "historical_relation": "Not claimed",
+          "review": "requires editorial/evidence review"
+        }
+      ],
+      "chinese_coverage": {
+        "modern_mandarin": {
+          "status": "recorded",
+          "detail": "压 yā /ja˥/; 压力 yālì",
+          "source_refs": [
+            "ya"
+          ]
+        },
+        "historical_senses": {
+          "status": "partial",
+          "detail": "Ancient physical/coercive 壓 versus modern compound kept separate",
+          "source_refs": [
+            "ya"
+          ]
+        },
+        "middle_chinese": {
+          "status": "partial",
+          "detail": "Rhyme-book/online transcription where stated; exact Mainland edition Pending.",
+          "source_refs": [
+            "ya"
+          ]
+        },
+        "old_chinese": {
+          "status": "Pending",
+          "detail": "No unverified reconstruction filled in; named verified models separately recorded.",
+          "source_refs": []
+        },
+        "character_history_phonetic_series": {
+          "status": "partial",
+          "detail": "Shuowen 从土厌声 analysis; palaeographic evidence Pending Early graph/inscription identifiers and Mainland palaeographic adjudication Pending.",
+          "source_refs": [
+            "ya"
+          ]
+        },
+        "dialect": {
+          "status": "Not applicable",
+          "detail": "No dialect claim is used in this scoped pilot.",
+          "source_refs": []
+        }
+      },
+      "phonetic_history": "壓 MC 烏甲切 影母狎韵入声; OC and compound historical pronunciation Pending. No sound-pattern inference from pressure.",
+      "relations": [
+        {
+          "kind": "unknown chronology",
+          "confirmed_chronology": false,
+          "description": "Early coercion sense and modern physics vocabulary are not a confirmed sequential transition.",
+          "source_refs": [
+            "pressure"
+          ]
+        }
+      ],
+      "remaining_pending": [
+        "压力 compound formation and abstract-extension chronology",
+        "Precise Mainland terminology passage/page",
+        "Chinese early coercion quotation edition"
+      ],
+      "visible_pending": [
+        "压力 compound formation and abstract-extension chronology",
+        "Precise Mainland terminology passage/page",
+        "Chinese early coercion quotation edition"
+      ],
+      "d1_gate": {
+        "decision": "D2",
+        "reason": "D4 primary preserved; lexical subclaim D2 because historical 压力 compound and terminology evidence remain incomplete.",
+        "review": "requires editorial/evidence review"
+      },
+      "historical_relation": "Not claimed",
+      "origin": "Preserve accepted provenance; no re-attribution",
+      "research_origin": "AI research; separate from original observation",
+      "review_gate": "Jinkai Liu; no corpus writeback"
+    }
+  ],
+  "depth_counts": {
+    "scoped_D1": 0,
+    "scoped_D2": 8,
+    "primary_D2": 6,
+    "primary_D4": 2
+  },
+  "machine_boundary": "Structure validation cannot certify historical truth or grant D1; editorial/evidence review required."
+}

@@ -18,13 +18,14 @@ export function deriveState(root,at) {
  const registry=replay(read('research/observations/registry.v0.1.json'));
  const lock=read('research/production-state/preservation-lock.v1.json');
  const versions={};
- for(const name of ['validate-schema.mjs','validate-language-book-v1.mjs','validate-production-candidates.mjs','validate-observation-registry.mjs','validate-queue-scheduler.mjs','validate-production-004.mjs','production-state.mjs','prepare-scheduler-snapshot.mjs','queue-scheduler.mjs'])versions[name]={sha256:digest(fs.readFileSync(path.join(root,'scripts',name)))};
+ for(const name of ['validate-schema.mjs','validate-language-book-v1.mjs','validate-production-candidates.mjs','validate-observation-registry.mjs','validate-queue-scheduler.mjs','validate-production-004.mjs','production-state.mjs','prepare-scheduler-snapshot.mjs','queue-scheduler.mjs','production-worker.mjs','validate-diachronic-depth.mjs'])versions[name]={sha256:digest(fs.readFileSync(path.join(root,'scripts',name)))};
  return {version:STATE_VERSION,assembled_at:at,
   legacy_corpus:{version:'1.0',path:'data/language-book.v1.0.json',count:read('data/language-book.v1.0.json').entries.length},
   active_candidate_corpus:{version:'0.1',path:'data/candidates/production-corpus.v0.1.json',count:read('data/candidates/production-corpus.v0.1.json').records.length,status:'candidate; not Reviewed/Published'},
   archive_count:read('data/candidates/production-archive.v0.1.json').records.length,
   control_count:read('research/controls/production-004.v0.1.json').records.length,
   observation_registry:{version:'0.1',count:registry.observations.length,origins:registry.observations.reduce((a,r)=>(a[r.origin_type]=(a[r.origin_type]||0)+1,a),{})},
+  worker_method:{version:'1.1',instructions:'research/methods/diachronic-depth-v1.1/WORKER.md',depth_freeze:'research/depth-upgrades/pilot-001/acceptance.json',corpus_writeback:false},
   scheduler_version:'0.1',last_accepted_batch:pending.last_accepted_batch || 'Production 004',
   pending_freeze_batches:pending.batches.map(b=>({batch_id:b.batch_id,status:b.status,count:b.candidate_ids.length,proposal_path:b.proposal_path})),
   eligible_queue_count:audit.selection.length+audit.deferred.filter(r=>r.reason.startsWith('Eligible;')).length,

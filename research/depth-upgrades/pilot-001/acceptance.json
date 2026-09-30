@@ -1,0 +1,125 @@
+{
+  "version": "1.1",
+  "status": "Depth Freeze approved; no active corpus writeback",
+  "approved_by": "Jinkai Liu",
+  "approval_basis": "User instruction: Diachronic Depth v1.1 — Production Integration",
+  "recorded_at": "2026-09-30",
+  "depth_counts": {
+    "D1": 0,
+    "D2": 8
+  },
+  "entries": [
+    {
+      "entry": "convenir",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "合 hé",
+      "scope": "FIT / BE SUITABLE only",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "move",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "动 dòng",
+      "scope": "physical movement; Protocol not historical proof",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "change",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "易 yì",
+      "scope": "ALTER / EXCHANGE; excludes EASY",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "forme",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "形 xíng",
+      "scope": "shape / external form only",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "média",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "媒 méi",
+      "scope": "limited intermediary/connective comparison; not mass-media lexical equivalence",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "long",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "长 cháng",
+      "scope": "spatial / temporal extension; excludes zhǎng and long for",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "source",
+      "depth": "D2",
+      "featured_action": "Keep",
+      "featured_form": "源 yuán",
+      "scope": "physical source / origin lexical subclaim only",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false
+    },
+    {
+      "entry": "pressure",
+      "depth": "D2",
+      "featured_action": "Narrow",
+      "featured_form": "压力 yālì",
+      "scope": "ordinary/abstract pressure and explicitly qualified physical pressing only",
+      "phonetic_fit": "Low",
+      "historical_relation": "Not claimed",
+      "writeback": false,
+      "excluded_claims": [
+        "technical pressure = force = 压力; quantitative pressure terminology requires separate scope (压强)",
+        "ancient coercion establishes history of the modern physics term"
+      ]
+    }
+  ],
+  "corpus_writeback": false,
+  "production_008_started": false,
+  "preserved_inputs": {
+    "data/candidates/production-corpus.v0.1.json": {
+      "original_sha256": "f499faf7c1edc105a045f4fd6fae965b0b3f7096bff6c63efa350ab3e2153405",
+      "lf_sha256": "0216b0930c471b81acdd6891d08d83b97c1650132de970fc678be08fbb84828b"
+    },
+    "research/calibration/convenir-depth-v1/REPORT.md": {
+      "original_sha256": "75b4d2947b5f6d44d4c0600464e48781a808e3f4404e9932a0cf8e7c4aa76c10",
+      "lf_sha256": "75b4d2947b5f6d44d4c0600464e48781a808e3f4404e9932a0cf8e7c4aa76c10"
+    }
+  },
+  "frozen_artifacts": {
+    "research/depth-upgrades/pilot-001/proposal.json": {
+      "sha256_at_acceptance": "9cfc1c1c74113031bf1941dec6f934c3131b55d3854bec12b47400a570fda43b",
+      "lf_sha256": "801445dc6e1d21d62a646376a9a99ed4ce3274deaa11a0e7ae627402a559557c"
+    },
+    "research/depth-upgrades/pilot-001/REVIEW-2026-09-30.md": {
+      "sha256_at_acceptance": "156a336141a0826963b13cd3d2d3e7ca1da94e0ebf11d07b41c250a0bdf7a3a5",
+      "lf_sha256": "156a336141a0826963b13cd3d2d3e7ca1da94e0ebf11d07b41c250a0bdf7a3a5"
+    },
+    "research/depth-upgrades/pilot-001/review-verification-2026-09-30.json": {
+      "sha256_at_acceptance": "5d24a92bbe41c5ff13be50e750b5c11414b13e4f61cb2e0ab0d4a3fec3042a73",
+      "lf_sha256": "5d24a92bbe41c5ff13be50e750b5c11414b13e4f61cb2e0ab0d4a3fec3042a73"
+    }
+  },
+  "checksum_policy": "Original byte hashes retained. LF-normalized checksums only accommodate Git CRLF/LF checkout; no content normalization.",
+  "precedence": "September 30 review clarifications supersede earlier proposal wording within this approved depth overlay only; original artifacts and Active corpus remain unchanged."
+}

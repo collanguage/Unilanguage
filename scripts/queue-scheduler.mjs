@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {workerContract, WORKER_METHOD_VERSION} from './production-worker.mjs';
 export const PRODUCTION_POLICY=Object.freeze(JSON.parse(fs.readFileSync(new URL('../research/scheduler/production-policy.v0.1.json',import.meta.url),'utf8')));
 import {digest, replay} from './observation-registry.mjs';
 
@@ -70,7 +71,8 @@ function origins(items) {
 
 // Pure, dry-run-only planner: no tools, filesystem writes, registry mutation,
 // research calls, evidence writes, holdout release or acceptance capability.
-export function schedule(snapshot,{batchSize=PRODUCTION_POLICY.batch_size,timestamp=new Date().toISOString()}={}) {
+export function schedule(snapshot,{batchSize=PRODUCTION_POLICY.batch_size,timestamp=new Date().toISOString(),workerMethod=WORKER_METHOD_VERSION}={}) {
+  if (![null, WORKER_METHOD_VERSION].includes(workerMethod)) throw Error('Unsupported Worker method');
   if(batchSize!==8)throw Error('v0.1 dry run is fixed at eight; explicit future policy revision required');
   if(!snapshot?.exclusions || !Array.isArray(snapshot.items))throw Error('Exclusion manifest and queue snapshot required');
   for(const k of ['benchmark_ids','holdout_ids','completed_ids','archive_ids'])if(!Array.isArray(snapshot.exclusions[k]))throw Error(`Missing ${k}; fail closed`);
@@ -127,7 +129,7 @@ export function schedule(snapshot,{batchSize=PRODUCTION_POLICY.batch_size,timest
   const selected=[],selectedIds=new Set();
   const pick=(pool,n,reason)=>{
     for(const x of pool){if(n===0||selected.length===batchSize)break;if(selectedIds.has(x.research_object_id))continue;
-      selected.push({...x,why_selected:reason,task_status:'dry_run_proposal',stop_at:'Editorial Freeze Proposal',requires_review_by:'Jinkai Liu',dispatch_allowed:false});selectedIds.add(x.research_object_id);n--;}
+      selected.push({...x,...(workerMethod ? {worker_contract:workerContract(x.primary_pipeline)} : {}),why_selected:reason,task_status:'dry_run_proposal',stop_at:'Editorial Freeze Proposal',requires_review_by:'Jinkai Liu',dispatch_allowed:false});selectedIds.add(x.research_object_id);n--;}
   };
   const human=x=>x.origin_composition.types.some(t=>['jinkai_original','contributor'].includes(t));
   const ai=x=>x.origin_composition.types.includes('ai_discovery');
@@ -142,6 +144,7 @@ export function schedule(snapshot,{batchSize=PRODUCTION_POLICY.batch_size,timest
   return {scheduler_version:SCHEDULER_VERSION,mode:'dry_run',timestamp,batch_name:snapshot.batch_name||'Production Batch 004 — proposal only',
     queue_snapshot:{snapshot_id:snapshot.snapshot_id,scheduling_view_sha256:digest({eligible,deferred}),item_rows:snapshot.items.length,research_objects:groups.size,sources:snapshot.sources||[]},
     rules:{batch_size:8,preferred_slots:{human:4,ai:2,control_or_uncertain:2},ranking:'Human oldest-receipt; otherwise persisted queue order then stable object ID. Separate dimensions are descriptive; no aggregate score.',backfill:'Alternate approved pipelines; no quota fabrication'},
+    ...(workerMethod ? {worker_method_version:workerMethod} : {}),
     selection:selected,deferred,
     holdout_exclusions:deferred.filter(x=>/Holdout|holdout|Exposure/.test(x.reason)).map(x=>({research_object_id:x.research_object_id,reason:x.reason})),
     benchmark_exclusions:deferred.filter(x=>x.reason==='Frozen benchmark exclusion').map(x=>({research_object_id:x.research_object_id,reason:x.reason})),

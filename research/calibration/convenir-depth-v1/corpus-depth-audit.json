@@ -1,0 +1,945 @@
+{
+  "version": "convenir-depth-audit-v1",
+  "as_of_commit": "31d074804a0c37c9ce1f16ac43921fe5849df6bb",
+  "created_at": "2026-09-29T16:26:44.610797+00:00",
+  "input": "data/candidates/production-corpus.v0.1.json",
+  "input_sha256": "f499faf7c1edc105a045f4fd6fae965b0b3f7096bff6c63efa350ab3e2153405",
+  "active_count": 52,
+  "records_with_stage_array": 44,
+  "records_with_prose_section": 8,
+  "corpus_mutated": false,
+  "rows": [
+    {
+      "candidate_id": "RQ-417206bbfa07",
+      "source_form": "time",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.stages",
+          "count": 2,
+          "element_types": [
+            "list"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-e83d95e92d32",
+      "source_form": "containment",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.stages",
+          "count": 3,
+          "element_types": [
+            "list"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-680eb4dd434f",
+      "source_form": "move",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.stages",
+          "count": 3,
+          "element_types": [
+            "list"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-6c9011e4d1cb",
+      "source_form": "change",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.stages",
+          "count": 3,
+          "element_types": [
+            "list"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-aa23b583d404",
+      "source_form": "boundary",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.stages",
+          "count": 2,
+          "element_types": [
+            "list"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-844c76097b97",
+      "source_form": "path",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.stages",
+          "count": 2,
+          "element_types": [
+            "list"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-894dc4c4c357",
+      "source_form": "luminous",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.stages",
+          "count": 2,
+          "element_types": [
+            "list"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-b65f93683aec",
+      "source_form": "down",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-040e7684eae8",
+      "source_form": "one",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-3e6dba56acfa",
+      "source_form": "convention",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-90ef2643d6d8",
+      "source_form": "middle",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-27ff8838c9f6",
+      "source_form": "pressure",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-d37d33cbb9f6",
+      "source_form": "illuminate",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-5495c81598e1",
+      "source_form": "love",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-73a0d89d12dc",
+      "source_form": "abashed",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-9132e6719bd4",
+      "source_form": "meaning",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-2070e35dd27a",
+      "source_form": "horror",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-7894011e782d",
+      "source_form": "up",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-248f91f7b08f",
+      "source_form": "horrid",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-a5233aa38dc4",
+      "source_form": "inside",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-e5b9fa065562",
+      "source_form": "wave",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-85c25b0fa6c8",
+      "source_form": "knowledge",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-dbf7cb31b8cd",
+      "source_form": "exist",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-63f75c562c69",
+      "source_form": "direction",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-c6096ae58707",
+      "source_form": "translation",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-aa43773b0cfc",
+      "source_form": "acute",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-0d3877658122",
+      "source_form": "filament",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-4d9a99ebe809",
+      "source_form": "long",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-041cc56344db",
+      "source_form": "abhorrent",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-da2ec7508828",
+      "source_form": "outside",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-3978979a16e0",
+      "source_form": "abhorrence",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-915ffd347135",
+      "source_form": "source",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-da051df304a5",
+      "source_form": "abundance",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-7bd33d4b300d",
+      "source_form": "goal",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-7d4d73843bb4",
+      "source_form": "absolve",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-ef7527e20941",
+      "source_form": "acuity",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        },
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 2,
+          "element_types": [
+            "dict"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-98fb49ffa66b",
+      "source_form": "alimentary",
+      "featured_status": "Pending",
+      "source_stage_arrays": [],
+      "has_prose_research_section": true,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-635ef1c7e0d1",
+      "source_form": "六十四卦",
+      "featured_status": "Pending",
+      "source_stage_arrays": [],
+      "has_prose_research_section": true,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-baf644cb462c",
+      "source_form": "alimenter",
+      "featured_status": "Pending",
+      "source_stage_arrays": [],
+      "has_prose_research_section": true,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-62412ae88f1e",
+      "source_form": "神农氏人身牛头",
+      "featured_status": "Pending",
+      "source_stage_arrays": [],
+      "has_prose_research_section": true,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-c7fe2748656a",
+      "source_form": "couvent",
+      "featured_status": "Pending",
+      "source_stage_arrays": [],
+      "has_prose_research_section": true,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-31a9fccf8a5e",
+      "source_form": "forme",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [],
+      "has_prose_research_section": true,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-68b3017cc6be",
+      "source_form": "generation",
+      "featured_status": "Pending",
+      "source_stage_arrays": [],
+      "has_prose_research_section": true,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RQ-c6e4c0019ec1",
+      "source_form": "média",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [],
+      "has_prose_research_section": true,
+      "has_research_common_chinese_layer": null,
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RO-b55c66366400",
+      "source_form": "brief",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 4,
+          "element_types": [
+            "str"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RO-a02875b96b25",
+      "source_form": "brevity",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "str"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RO-349a36e2d5b1",
+      "source_form": "convene",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 4,
+          "element_types": [
+            "str"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RO-6798a8742e69",
+      "source_form": "convenir",
+      "featured_status": "Candidate",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "str"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RO-3c1170d0f544",
+      "source_form": "figurative",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 4,
+          "element_types": [
+            "str"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RO-1971e60b519d",
+      "source_form": "figurer",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 4,
+          "element_types": [
+            "str"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RO-25416ffffb38",
+      "source_form": "marché",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 3,
+          "element_types": [
+            "str"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    },
+    {
+      "candidate_id": "RO-74fae5c5c0ad",
+      "source_form": "merchant",
+      "featured_status": "Pending",
+      "source_stage_arrays": [
+        {
+          "path": "baseline_record.research_record.historical_stages",
+          "count": 4,
+          "element_types": [
+            "str"
+          ]
+        }
+      ],
+      "has_prose_research_section": false,
+      "has_research_common_chinese_layer": "Modern Mandarin unless explicitly marked literary lexical sense; no Chinese chronology inferred",
+      "assessment_scope": "Representation-only audit; no linguistic re-adjudication. Array presence is not evidence sufficiency."
+    }
+  ]
+}

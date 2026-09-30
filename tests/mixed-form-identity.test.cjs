@@ -22,7 +22,7 @@ test('Split identities do not duplicate existing objects; historical and ambiguo
  for(const p of resolution.parents.filter(x=>x.superseded))assert.ok(audit.deferred.some(x=>x.research_object_id===p.candidate_id&&x.reason.startsWith('Duplicate')));
  assert.equal([...audit.selection,...audit.deferred].filter(x=>x.research_object_id==='RQ-f512afb4860a').length,1);
  for(const t of audit.selection){assert.equal(t.origin_composition.label,'unknown provenance');assert.equal(t.dispatch_allowed,false);}
- const saved=read(folder+'scheduler-dry-run.json');assert.deepEqual(schedule(read(folder+'queue-snapshot.json'),{timestamp:saved.timestamp}),saved);
+ const saved=read(folder+'scheduler-dry-run.json');assert.deepEqual(schedule(read(folder+'queue-snapshot.json'),{timestamp:saved.timestamp,workerMethod:saved.worker_method_version ?? null}),saved);
 });
 test('Parent benchmark and holdout exclusions taint children without leaking forms',async()=>{
  const {prepareSnapshot}=await import('../scripts/prepare-scheduler-snapshot.mjs');const {schedule}=await import('../scripts/queue-scheduler.mjs');

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "assembled_at": "2026-09-29T16:01:00.959Z",
+  "assembled_at": "2026-09-30T18:17:37.106Z",
   "legacy_corpus": {
     "version": "1.0",
     "path": "data/language-book.v1.0.json",
@@ -21,6 +21,12 @@
       "unknown": 71,
       "ai_discovery": 14
     }
+  },
+  "worker_method": {
+    "version": "1.1",
+    "instructions": "research/methods/diachronic-depth-v1.1/WORKER.md",
+    "depth_freeze": "research/depth-upgrades/pilot-001/acceptance.json",
+    "corpus_writeback": false
   },
   "scheduler_version": "0.1",
   "last_accepted_batch": "Production 007",
@@ -60,19 +66,25 @@
       "sha256": "e9f60d38884570d6694387608d8a4878c6a7049d87c9c6e87917db6a041711d9"
     },
     "validate-queue-scheduler.mjs": {
-      "sha256": "064ace0dd404e7d3bceee2409ba69257bf8e1511a9c7c73c59720ad02f79cdb9"
+      "sha256": "9eccf1775f3c349eb2ccef971adbc265e9e887eb32888027243edbc07cc04a5a"
     },
     "validate-production-004.mjs": {
       "sha256": "4fc1ed05c2967cca9c93a49e3e98aaaae3de745736a48736f9f15f93535dfbaf"
     },
     "production-state.mjs": {
-      "sha256": "f87a63a4d34415d30a51253303cce3e85a0711b40ab535123305586899a67776"
+      "sha256": "c4b37b3e9ffcb7daacbf40bc5c603cc4a335876182954c0b883cb92a606dc3e2"
     },
     "prepare-scheduler-snapshot.mjs": {
       "sha256": "aa87f009bb1df17e4611e2cb53fbfad9fbb72e191ce4b74534b07f097aaca2e6"
     },
     "queue-scheduler.mjs": {
-      "sha256": "59eb4fd4d7cddf9aaa4d40db4b891af6ddc3c372b2ac180238ede14a13fe1644"
+      "sha256": "5541375216ed31e02c2214c37c117a4af8637fdf11fe9bb71b8cf07d4579cd8d"
+    },
+    "production-worker.mjs": {
+      "sha256": "248aec16ede9085732d292d7c0fd0d579724b7868a89725e51a11fb5d0772e47"
+    },
+    "validate-diachronic-depth.mjs": {
+      "sha256": "74d785915f22250332f814db68190e0035dc05a07ec29edd263c18c61c8d4592"
     }
   },
   "input_hashes": [

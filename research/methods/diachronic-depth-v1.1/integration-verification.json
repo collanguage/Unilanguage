@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-30",
+  "worker_method": "1.1",
+  "scheduler_selection_policy": "0.1 unchanged",
+  "tests": {
+    "command": "pnpm test",
+    "passed": 353,
+    "failed": 0,
+    "first_run": "352/353: existing ABHOR builder changed checkout CRLF/LF only; full rerun 353/353 without website content changes"
+  },
+  "validators": {
+    "command": "pnpm validate",
+    "result": "PASS"
+  },
+  "synthetic_fixture": "tests/fixtures/worker-v1.1-lexical.json",
+  "implementation": [
+    "scripts/production-worker.mjs",
+    "scripts/queue-scheduler.mjs",
+    "scripts/validate-diachronic-depth.mjs",
+    "research/methods/diachronic-depth-v1.1/WORKER.md"
+  ],
+  "acceptance": "research/depth-upgrades/pilot-001/acceptance.json",
+  "preservation": {
+    "legacy": 42,
+    "active_candidates": 52,
+    "archives": 2,
+    "controls": 2,
+    "corpus_writeback": false,
+    "entry_schema_changed": false,
+    "website_content_changed": false,
+    "old_scheduler_audits_changed": false
+  },
+  "production_008_started": false,
+  "deployment": false,
+  "next_action": "Await Jinkai Liu authorization for first new v1.1 batch; integration does not dispatch research."
+}

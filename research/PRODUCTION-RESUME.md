@@ -26,6 +26,14 @@ Production 006 acceptance: `production-state/acceptance-006.v1.json`; approved f
 
 ## Authorities and interfaces
 
+Approved research method overlay (2026-09-29):
+`research/methods/diachronic-depth-v1.1/STANDARD.md`.
+Lexical research now checks source and Chinese historical units before selecting
+an optional Featured summary. The 52-record audit and proposed upgrade queue in
+that directory do not change corpus acceptance, Scheduler eligibility or evidence
+grades. Validator changes are a specification, not implemented enforcement.
+Do not dispatch upgrades or Production-008 without Jinkai Liu instruction.
+
 | Responsibility | Repository authority |
 |---|---|
 | Raw origins, immutable text, exposure and links | `research/observations/registry.v0.1.json`, schema alongside; `scripts/observation-registry.mjs` |
@@ -150,3 +158,26 @@ replace those services or prove linguistic claims.
 `observations/mixed-form-resolution-v1/scheduler-dry-run.json` is a suggestion only, not a started batch. Next research needs Jinkai Liu authorization.
 
 Production 007 acceptance: production-state/acceptance-007.v1.json; freeze: data/review/production-007-freeze.v0.1.json. Original proposal records remain immutable and are superseded only in workflow status. No deployment authorized.
+
+## Diachronic Depth v1.1 — production integration
+
+Top-8 research freeze is approved in `research/depth-upgrades/pilot-001/acceptance.json`.
+It preserves the original proposal and September 30 review; D1=0 / D2=8 for
+lexical subclaims. PRESSURE scope is Narrow in the approved research overlay.
+SOURCE/PRESSURE primary D4 remains unchanged. No writeback to the 52 Active
+records, no new batch and no publication occurred.
+
+New Scheduler tasks default to `worker_method_version=1.1` and carry the actual
+Worker contract from `scripts/production-worker.mjs`. Read
+`research/methods/diachronic-depth-v1.1/WORKER.md` before research. Missing Chinese
+historical evidence is visible Pending; Featured is scoped summary. D1 requires
+bilateral referenced historical declarations and still needs editorial review.
+
+Validate a future Worker output with `node scripts/production-worker.mjs OUTPUT.json`.
+`pnpm validate` checks durable pilot boundaries; `pnpm test` checks the task/output
+contract with synthetic data and replays old Scheduler audits without modifying
+those records. Old byte checksums remain recorded; separate LF-normalized hashes
+permit Git checkout recovery without accepting content changes.
+
+Production-008 remains paused until Jinkai Liu authorizes it. No further Top-8
+research is needed for this integration; corpus upgrades require separate approval.
