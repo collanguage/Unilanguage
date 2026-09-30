@@ -56,6 +56,16 @@
   }
 
   function renderEntry(entry) {
+    // ABHOR-READER:START
+    if (globalThis.UnilanguageAbhorReader?.isEntry(entry)) {
+      ui.state.innerHTML = ""; ui.result.hidden = false;
+      ui.result.innerHTML = UnilanguageAbhorReader.render(entry, "mapper")
+        + `<details class="source-note"><summary>Research tracks / source history · 独立研究轨与源语词史</summary>${Object.entries(entry.evidence).map(([name, track]) => evidenceCard(name, track)).join("")}</details>`
+        + `<details class="source-note"><summary>Counterexamples / Literature · 反例与文学层</summary>${entry.counterevidence.map(c => `<p>${localized(c.statement)}</p>`).join("")}<p>${localized(entry.literary_layer.proposition)}</p><p>${localized(entry.literary_layer.evidence_boundary)}</p></details>`
+        + `<details class="source-note"><summary>Sources / original observations · 来源与原始观察</summary>${referencesCard(entry)}</details>`;
+      return;
+    }
+    // ABHOR-READER:END
     // SECOND-PIPELINE:START
     if (globalThis.UnilanguageSecondPipeline?.isPilot(entry)) {
       ui.state.innerHTML = ""; ui.result.hidden = false;
