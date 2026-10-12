@@ -1,0 +1,545 @@
+{
+  "worker_method_version": "1.1",
+  "candidate_id": "RO-d8483f029f91",
+  "primary_pipeline": "Lexical–Diachronic",
+  "status": "Editorial Freeze Proposal",
+  "corpus_writeback": false,
+  "review_by": "Jinkai Liu",
+  "source_identity": {
+    "source_form": "reconnaître",
+    "source_language": "French",
+    "lexical_identity": "French infinitive verb: reconnaître; modern",
+    "meaning_context": "identify / acknowledge / gratitude constructions",
+    "provenance": "Imported legacy / author unknown; no authenticated human or AI authorship inferred. See immutable Registry observations OBS-PROV-6b9058f863a9."
+  },
+  "author_observation": "Imported legacy / author unknown; no authenticated human or AI authorship inferred. See immutable Registry observations OBS-PROV-6b9058f863a9.",
+  "observation_references": [
+    "OBS-PROV-6b9058f863a9"
+  ],
+  "ai_research_result": "辨识、承认、感激按构式分开；谢仅对应 gratitude 层，历史桥梁 Pending。",
+  "featured_summary": {
+    "form": "Pending"
+  },
+  "depth_status": "D2",
+  "visible_pending": [
+    "Chinese exact print edition/page and textual variants Pending; digital transcriptions only",
+    "Old Chinese reconstruction and period-aligned phonetic comparison Pending",
+    "Dated Chinese semantic-development links Pending; no shared chronology claimed"
+  ],
+  "evidence_boundaries": [
+    "Mainland-first access via 汉典 does not make embedded dictionary transcriptions independently checked Mainland print evidence.",
+    "Every Old Chinese reconstruction remains Pending; fanqie/rhyme labels are documentary leads, not reconstructed IPA.",
+    "Phonetic expansion was not run as a systematic retrieval experiment in this bounded depth run. Do not report zero retained as experimental efficacy.",
+    "Featured proposals are new editorial recommendations, not automatically inherited or approved."
+  ],
+  "has_lexical_historical_claims": true,
+  "depth_record": {
+    "version": "1.1",
+    "status": "Depth Freeze Proposal",
+    "corpus_writeback": false,
+    "sources": {
+      "fr-monstre": {
+        "url": "https://www.dictionnaire-academie.fr/article/A9M2727",
+        "scope": "MONSTRE, Académie 9e: XII century, Latin monstrum; modern senses including monstre sacré."
+      },
+      "en-monster": {
+        "url": "https://www.merriam-webster.com/dictionary/monster",
+        "scope": "Middle English/Anglo-French/Latin transmission; noun first-known 14th century, adjective 1837, sense-specific."
+      },
+      "fr-presser": {
+        "url": "https://www.cnrtl.fr/etymologie/press%C3%A9",
+        "scope": "TLFi PRESSER: ca1160 torment, ca1200 olives/crowd; 1557 urgency. Latin pressare intensive of premere. Accessed via inflected URL."
+      },
+      "fr-pression": {
+        "url": "https://www.dictionnaire-academie.fr/article/A9P4189",
+        "scope": "PRESSION: XIII century, Latin pressio from pressum/premere; modern physical and technical pressure."
+      },
+      "en-recognize": {
+        "url": "https://www.merriam-webster.com/dictionary/recognize",
+        "scope": "Anglo-French reconois-/reconoistre and Latin recognoscere. 1537 first-known formal acknowledgement sense, not all senses."
+      },
+      "fr-reconnaitre": {
+        "url": "https://www.cnrtl.fr/definition/reconnaisse",
+        "scope": "TLFi RECONNAÎTRE accessible inflected entry: Latin recognoscere, late 10th-century reconnostre; identification, acknowledgement, gratitude constructions."
+      },
+      "lumen": {
+        "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:lat.ls.perseus-eng2-n27193/",
+        "scope": "Lewis & Short lūmen: classical light/lamp and transferred clarity senses; Cic. Div. 2.42.91; De orat. 2.86.353. Lexicographic order is not dated chronology."
+      },
+      "lux": {
+        "url": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionary-entries.atlas_v1:lat.ls.perseus-eng2-n27303/",
+        "scope": "Lewis & Short lux: sunlight/day; Cic. Div. 1.3.6; Caes. BG 1.22; public view and life. Retrieved via urllib after browser extraction failure; not the SI unit."
+      },
+      "zh-怪": {
+        "url": "https://www.zdic.net/hans/怪",
+        "scope": "《说文》卷十：異也，从心圣聲。 古壞切；数字音系表见母怪韵去声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-妖": {
+        "url": "https://www.zdic.net/hans/妖",
+        "scope": "《说文》𡝩卷十二：巧也；女子笑貌，从女芺聲；段注区分䄏。 於喬切；影母宵韵平声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-兆": {
+        "url": "https://www.zdic.net/hans/兆",
+        "scope": "《说文》𠧞卷三：龟灼裂占卜；兆为省形。 治小切；澄母小韵上声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-按": {
+        "url": "https://www.zdic.net/hans/按",
+        "scope": "《说文》卷十二：下也，从手安聲。 烏旰切；影母翰韵去声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-迫": {
+        "url": "https://www.zdic.net/hans/迫",
+        "scope": "《说文》卷二：近也，从辵白聲；《康熙》引《广韵》急也及《前汉书》外迫公事。 博陌切；帮母陌韵入声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-挤": {
+        "url": "https://www.zdic.net/hans/挤",
+        "scope": "《说文》擠卷十二：排也，从手齊聲；段注引排而坠。 子計切；完整中古分析 Pending",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-认": {
+        "url": "https://www.zdic.net/hans/認",
+        "scope": "《康熙》認引《玉篇》识认、《增韵》辨识及《后汉书》卓茂认马。 而振切／而證切；日母震／证韵去声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-识": {
+        "url": "https://www.zdic.net/hans/識",
+        "scope": "《说文》識卷三：常也，一曰知也，从言戠聲；段注对常字有校释争议。 賞職切；书母职韵入声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-谢": {
+        "url": "https://www.zdic.net/hans/謝",
+        "scope": "《说文》謝及段注：辞去；拜赐曰谢为另一层说明，从言射聲。 辭夜切；邪母禡韵去声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-光": {
+        "url": "https://www.zdic.net/hans/光",
+        "scope": "《说文》卷十：明也，火在人上为传统构形解释。 古皇切／古黃切；见母唐韵平声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-明": {
+        "url": "https://www.zdic.net/hans/明",
+        "scope": "《说文》朙卷七：照也，从月囧；明为另一字形。 武兵切；明母庚韵平声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-灯": {
+        "url": "https://www.zdic.net/hans/灯",
+        "scope": "燈／灯／鐙须分开；网页说文转列鐙，不能直接当现代灯起源证据。 中古燈的专门条目 Pending",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-昼": {
+        "url": "https://www.zdic.net/hans/昼",
+        "scope": "《说文》晝卷三：与夜分界，从畫省、从日。 陟救切；完整中古/上古重建 Pending",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-压": {
+        "url": "https://www.zdic.net/hans/壓",
+        "scope": "《说文》壓卷十三：壞也／塞補，从土厭聲；段注讨论壓／厭区别。 烏狎切；音系表烏甲切，影母狎韵入声",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-压力": {
+        "url": "https://www.zdic.net/hans/壓",
+        "scope": "Only 壓 character history; compound formation and terminology history explicitly Pending.",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      },
+      "zh-压强": {
+        "url": "https://www.zdic.net/hans/壓",
+        "scope": "Only 壓 character history; compound formation and terminology history explicitly Pending.",
+        "limitations": "Digital dictionary transcription accessed in this research session. Original print edition/page, palaeography and reconstructed phonology not independently verified."
+      }
+    },
+    "entries": [
+      {
+        "candidate_id": "RO-d8483f029f91",
+        "entry": "reconnaître",
+        "status": "Depth Freeze Proposal",
+        "historical_relation": "Not claimed",
+        "review_gate": "Jinkai Liu; no corpus writeback",
+        "source_stages": [
+          {
+            "id": "s0",
+            "form": "recognoscere",
+            "language": "Latin",
+            "period": "Classical / later / medieval strata distinguished",
+            "meaning": "recall / review; later acknowledgement and rights usage",
+            "evidence_status": "dictionary-supported; historical assessment remains editorial",
+            "pronunciation": "Pending: historical reconstruction/IPA not independently checked; dictionary Latin quantity marks retained where provided",
+            "source_refs": [
+              "fr-reconnaitre"
+            ],
+            "coexisting_senses": "recall / review; later acknowledgement and rights usage",
+            "documented_semantic_change": "Dated attestations only as stated. Dictionary sense order is not a confirmed chronological chain.",
+            "chronology_confidence": "Source dictionary dates recorded; full semantic-development chronology Pending"
+          },
+          {
+            "id": "s1",
+            "form": "reconnostre",
+            "language": "Old French",
+            "period": "Late 10th century; later spellings documented",
+            "meaning": "identify on seeing again",
+            "evidence_status": "dictionary-supported; historical assessment remains editorial",
+            "pronunciation": "Pending: historical reconstruction/IPA not independently checked; dictionary Latin quantity marks retained where provided",
+            "source_refs": [
+              "fr-reconnaitre"
+            ],
+            "coexisting_senses": "identify on seeing again",
+            "documented_semantic_change": "Dated attestations only as stated. Dictionary sense order is not a confirmed chronological chain.",
+            "chronology_confidence": "Source dictionary dates recorded; full semantic-development chronology Pending"
+          },
+          {
+            "id": "s2",
+            "form": "reconnaître",
+            "language": "French",
+            "period": "Modern; spelling from 1835 dictionary history",
+            "meaning": "identify / acknowledge / gratitude constructions",
+            "evidence_status": "dictionary-supported; historical assessment remains editorial",
+            "pronunciation": "Pending: historical reconstruction/IPA not independently checked; dictionary Latin quantity marks retained where provided",
+            "source_refs": [
+              "fr-reconnaitre"
+            ],
+            "coexisting_senses": "identify / acknowledge / gratitude constructions",
+            "documented_semantic_change": "Dated attestations only as stated. Dictionary sense order is not a confirmed chronological chain.",
+            "chronology_confidence": "Source dictionary dates recorded; full semantic-development chronology Pending"
+          }
+        ],
+        "chinese_stages": [
+          {
+            "id": "c0m",
+            "form": "认",
+            "language": "Chinese",
+            "period": "Modern Mandarin",
+            "meaning": "辨认、承认",
+            "evidence_status": "sense-scoped semantic comparison",
+            "source_refs": [
+              "zh-认"
+            ]
+          },
+          {
+            "id": "c0h",
+            "form": "认",
+            "language": "Chinese",
+            "period": "Historical lexicographic layer; see named work; exact edition/chronology Pending",
+            "meaning": "《康熙》認引《玉篇》识认、《增韵》辨识及《后汉书》卓茂认马。",
+            "evidence_status": "digital transcription lead, not independently checked original edition",
+            "source_refs": [
+              "zh-认"
+            ]
+          },
+          {
+            "id": "c1m",
+            "form": "识",
+            "language": "Chinese",
+            "period": "Modern Mandarin",
+            "meaning": "认识、辨识",
+            "evidence_status": "sense-scoped semantic comparison",
+            "source_refs": [
+              "zh-识"
+            ]
+          },
+          {
+            "id": "c1h",
+            "form": "识",
+            "language": "Chinese",
+            "period": "Historical lexicographic layer; see named work; exact edition/chronology Pending",
+            "meaning": "《说文》識卷三：常也，一曰知也，从言戠聲；段注对常字有校释争议。",
+            "evidence_status": "digital transcription lead, not independently checked original edition",
+            "source_refs": [
+              "zh-识"
+            ]
+          },
+          {
+            "id": "c2m",
+            "form": "谢",
+            "language": "Chinese",
+            "period": "Modern Mandarin",
+            "meaning": "致谢、辞谢",
+            "evidence_status": "sense-scoped semantic comparison",
+            "source_refs": [
+              "zh-谢"
+            ]
+          },
+          {
+            "id": "c2h",
+            "form": "谢",
+            "language": "Chinese",
+            "period": "Historical lexicographic layer; see named work; exact edition/chronology Pending",
+            "meaning": "《说文》謝及段注：辞去；拜赐曰谢为另一层说明，从言射聲。",
+            "evidence_status": "digital transcription lead, not independently checked original edition",
+            "source_refs": [
+              "zh-谢"
+            ]
+          }
+        ],
+        "chinese_coverage": {
+          "modern_mandarin": {
+            "status": "recorded",
+            "detail": "Sense-scoped comparison, not unrestricted lexical equivalence.",
+            "source_refs": [
+              "zh-认",
+              "zh-识",
+              "zh-谢"
+            ]
+          },
+          "historical_senses": {
+            "status": "partial",
+            "detail": "Candidate-specific digital transcription leads recorded; exact edition and semantic development Pending.",
+            "source_refs": [
+              "zh-认",
+              "zh-识",
+              "zh-谢"
+            ]
+          },
+          "middle_chinese": {
+            "status": "partial",
+            "detail": "Fanqie/rhyme leads individually recorded; no invented reconstruction.",
+            "source_refs": [
+              "zh-认",
+              "zh-识",
+              "zh-谢"
+            ]
+          },
+          "old_chinese": {
+            "status": "Pending",
+            "detail": "System/version and lexical matching not independently established.",
+            "source_refs": [
+              "zh-认",
+              "zh-识",
+              "zh-谢"
+            ]
+          },
+          "character_history_phonetic_series": {
+            "status": "partial",
+            "detail": "Traditional dictionary analysis distinguished from modern palaeographic confirmation.",
+            "source_refs": [
+              "zh-认",
+              "zh-识",
+              "zh-谢"
+            ]
+          },
+          "dialect": {
+            "status": "Not applicable",
+            "detail": "No dialect-dependent claim proposed.",
+            "source_refs": []
+          }
+        },
+        "mappings": [
+          {
+            "source_ref": "s2",
+            "phonetic_fit": "Low",
+            "structural_fit": "Medium–High",
+            "phonetic_rationale": "No strong modern sound match. Historical fanqie is a documentary lead, not reconstructed IPA or evidence of shared origin.",
+            "counterevidence": "辨认与承认早期次序未核；不声称说文已收認；reconnaissant 的感激义、侦察义不能统一译认；不继承英语 Featured。",
+            "evidence": [
+              "fr-reconnaitre",
+              "zh-认"
+            ],
+            "historical_relation": "Not claimed",
+            "review": "requires editorial/evidence review",
+            "source_unit": "identify / acknowledge",
+            "chinese_ref": "c0m",
+            "status": "comparison",
+            "semantic_fit": "High",
+            "unit": "identify / acknowledge ↔ 辨认、承认; limited sense only"
+          },
+          {
+            "source_ref": "s2",
+            "phonetic_fit": "Pending",
+            "structural_fit": "Medium–High",
+            "phonetic_rationale": "No strong modern sound match. Historical fanqie is a documentary lead, not reconstructed IPA or evidence of shared origin.",
+            "counterevidence": "辨认与承认早期次序未核；不声称说文已收認；reconnaissant 的感激义、侦察义不能统一译认；不继承英语 Featured。",
+            "evidence": [
+              "fr-reconnaitre",
+              "zh-认"
+            ],
+            "historical_relation": "Not claimed",
+            "review": "requires editorial/evidence review",
+            "source_unit": "identify / acknowledge",
+            "chinese_ref": "c0h",
+            "status": "comparison",
+            "semantic_fit": "Medium",
+            "unit": "Historical-stage comparison: identify / acknowledge ↔ 《康熙》認引《玉篇》识认、《增韵》辨识及《后汉书》卓茂认马。"
+          },
+          {
+            "source_ref": "s1",
+            "phonetic_fit": "Low",
+            "structural_fit": "Medium",
+            "phonetic_rationale": "No strong modern sound match. Historical fanqie is a documentary lead, not reconstructed IPA or evidence of shared origin.",
+            "counterevidence": "排除 zhì；校勘争议未裁定；reconnaissant 的感激义、侦察义不能统一译认；不继承英语 Featured。",
+            "evidence": [
+              "fr-reconnaitre",
+              "zh-识"
+            ],
+            "historical_relation": "Not claimed",
+            "review": "requires editorial/evidence review",
+            "source_unit": "identify on seeing again",
+            "chinese_ref": "c1m",
+            "status": "comparison",
+            "semantic_fit": "Medium",
+            "unit": "identify on seeing again ↔ 认识、辨识; limited sense only"
+          },
+          {
+            "source_ref": "s1",
+            "phonetic_fit": "Pending",
+            "structural_fit": "Medium",
+            "phonetic_rationale": "No strong modern sound match. Historical fanqie is a documentary lead, not reconstructed IPA or evidence of shared origin.",
+            "counterevidence": "排除 zhì；校勘争议未裁定；reconnaissant 的感激义、侦察义不能统一译认；不继承英语 Featured。",
+            "evidence": [
+              "fr-reconnaitre",
+              "zh-识"
+            ],
+            "historical_relation": "Not claimed",
+            "review": "requires editorial/evidence review",
+            "source_unit": "identify on seeing again",
+            "chinese_ref": "c1h",
+            "status": "comparison",
+            "semantic_fit": "Medium",
+            "unit": "Historical-stage comparison: identify on seeing again ↔ 《说文》識卷三：常也，一曰知也，从言戠聲；段注对常字有校释争议。"
+          },
+          {
+            "source_ref": "s2",
+            "phonetic_fit": "Low",
+            "structural_fit": "Medium",
+            "phonetic_rationale": "No strong modern sound match. Historical fanqie is a documentary lead, not reconstructed IPA or evidence of shared origin.",
+            "counterevidence": "仅比感激构式，不覆盖辨认；不按注释顺序定年；reconnaissant 的感激义、侦察义不能统一译认；不继承英语 Featured。",
+            "evidence": [
+              "fr-reconnaitre",
+              "zh-谢"
+            ],
+            "historical_relation": "Not claimed",
+            "review": "requires editorial/evidence review",
+            "source_unit": "gratitude constructions only",
+            "chinese_ref": "c2m",
+            "status": "comparison",
+            "semantic_fit": "Medium",
+            "unit": "gratitude constructions only ↔ 致谢、辞谢; limited sense only"
+          },
+          {
+            "source_ref": "s2",
+            "phonetic_fit": "Pending",
+            "structural_fit": "Medium",
+            "phonetic_rationale": "No strong modern sound match. Historical fanqie is a documentary lead, not reconstructed IPA or evidence of shared origin.",
+            "counterevidence": "仅比感激构式，不覆盖辨认；不按注释顺序定年；reconnaissant 的感激义、侦察义不能统一译认；不继承英语 Featured。",
+            "evidence": [
+              "fr-reconnaitre",
+              "zh-谢"
+            ],
+            "historical_relation": "Not claimed",
+            "review": "requires editorial/evidence review",
+            "source_unit": "gratitude constructions only",
+            "chinese_ref": "c2h",
+            "status": "comparison",
+            "semantic_fit": "Medium",
+            "unit": "Historical-stage comparison: gratitude constructions only ↔ 《说文》謝及段注：辞去；拜赐曰谢为另一层说明，从言射聲。"
+          }
+        ],
+        "featured": {
+          "form": "Pending"
+        },
+        "relations": [
+          {
+            "kind": "attested coexistence",
+            "confirmed_chronology": false,
+            "description": "Multiple dictionary senses; their presentation order does not prove chronology.",
+            "source_refs": [
+              "fr-reconnaitre"
+            ]
+          },
+          {
+            "kind": "editorial structural comparison",
+            "confirmed_chronology": false,
+            "description": "辨识、承认、感激按构式分开；谢仅对应 gratitude 层，历史桥梁 Pending。",
+            "source_refs": [
+              "fr-reconnaitre",
+              "zh-认",
+              "zh-识",
+              "zh-谢"
+            ]
+          }
+        ],
+        "remaining_pending": [
+          "Chinese exact print edition/page and textual variants Pending; digital transcriptions only",
+          "Old Chinese reconstruction and period-aligned phonetic comparison Pending",
+          "Dated Chinese semantic-development links Pending; no shared chronology claimed"
+        ],
+        "visible_pending": [
+          "Chinese exact print edition/page and textual variants Pending; digital transcriptions only",
+          "Old Chinese reconstruction and period-aligned phonetic comparison Pending",
+          "Dated Chinese semantic-development links Pending; no shared chronology claimed"
+        ],
+        "lexical_subclaim_depth_proposal": "D2",
+        "d1_gate": {
+          "reason": "Source foundation available. Chinese textual/graph identity, historical phonology and semantic-development assessment remain partial, insufficient for bilateral D1."
+        },
+        "candidate_table": [
+          {
+            "candidate": "认",
+            "modern_pronunciation": "rèn",
+            "modern_meaning": "辨认、承认",
+            "historical_sense": "《康熙》認引《玉篇》识认、《增韵》辨识及《后汉书》卓茂认马。",
+            "middle_chinese": "而振切／而證切；日母震／证韵去声",
+            "old_chinese": "Pending: reconstruction system and edition not independently verified",
+            "character_history": "Traditional analysis above where available; palaeographic assessment Pending",
+            "dialect": "Not applicable to present bounded claim",
+            "source_refs": [
+              "zh-认"
+            ],
+            "status": "serious candidate"
+          },
+          {
+            "candidate": "识",
+            "modern_pronunciation": "shí",
+            "modern_meaning": "认识、辨识",
+            "historical_sense": "《说文》識卷三：常也，一曰知也，从言戠聲；段注对常字有校释争议。",
+            "middle_chinese": "賞職切；书母职韵入声",
+            "old_chinese": "Pending: reconstruction system and edition not independently verified",
+            "character_history": "Traditional analysis above where available; palaeographic assessment Pending",
+            "dialect": "Not applicable to present bounded claim",
+            "source_refs": [
+              "zh-识"
+            ],
+            "status": "serious candidate"
+          },
+          {
+            "candidate": "谢",
+            "modern_pronunciation": "xiè",
+            "modern_meaning": "致谢、辞谢",
+            "historical_sense": "《说文》謝及段注：辞去；拜赐曰谢为另一层说明，从言射聲。",
+            "middle_chinese": "辭夜切；邪母禡韵去声",
+            "old_chinese": "Pending: reconstruction system and edition not independently verified",
+            "character_history": "Traditional analysis above where available; palaeographic assessment Pending",
+            "dialect": "Not applicable to present bounded claim",
+            "source_refs": [
+              "zh-谢"
+            ],
+            "status": "serious candidate"
+          }
+        ],
+        "controls": [
+          {
+            "type": "sense boundary",
+            "observation": "reconnaissant 的感激义、侦察义不能统一译认；不继承英语 Featured。",
+            "outcome": "Reject unrestricted equivalence; preserve bounded comparisons"
+          },
+          {
+            "type": "false family / evidence promotion",
+            "observation": "Shared family, Chinese gloss or L-group hit does not establish cross-language history.",
+            "outcome": "Historical Relation Not claimed"
+          }
+        ],
+        "expansion": {
+          "performed": false,
+          "generated": 0,
+          "retained": 0,
+          "not_selected": 0,
+          "semantic_mismatch": 0,
+          "evidence_failure": 0,
+          "reason": "Optional systematic expansion not run; this is not a zero-retention experimental result."
+        }
+      }
+    ]
+  },
+  "editorial_action": "Accept with Featured Pending (proposal only)"
+}

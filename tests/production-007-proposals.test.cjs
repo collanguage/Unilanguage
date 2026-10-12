@@ -32,6 +32,6 @@ test('007 pending children cannot be selected again; corpus and Registry remain 
  const {prepareSnapshot}=await import('../scripts/prepare-scheduler-snapshot.mjs'),{schedule}=await import('../scripts/queue-scheduler.mjs');
  const a=schedule(prepareSnapshot({root,at:'test'}));
  for(const e of r.entries)assert.ok(!a.selection.some(s=>s.research_object_id===e.candidate_id));
- assert.equal(a.selection.length+a.deferred.filter(d=>d.reason.startsWith('Eligible;')).length,9);
+ assert.equal(a.selection.length+a.deferred.filter(d=>d.reason.startsWith('Eligible;')).length,1);
  assert.equal(a.worker_runs,0);assert.equal(a.publication_allowed,false);
 });

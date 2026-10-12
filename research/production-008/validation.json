@@ -1,0 +1,16 @@
+{
+  "record_date": "2026-10-12",
+  "scope": "Production-008 proposal and review reservation; no corpus acceptance",
+  "worker_output_contract": {"method": "1.1", "outputs": 8, "passed": 8},
+  "pnpm_validate": "passed",
+  "pnpm_test": {"tests": 357, "passed": 357, "failed": 0, "skipped": 0},
+  "first_run": "352/357; five assertions still expected the previous 9 eligible / 0 pending checkpoint. Updated those state assertions to 1 eligible / 8 pending; existing corpus and evidence-preservation assertions retained. Full rerun passed.",
+  "new_regressions": [
+    "Exact frozen Scheduler selection and eight v1.1 outputs",
+    "Reject D1 promotion without bilateral evidence, missing Featured scope and false chronology",
+    "Checksums and immutable scoped Observation copies",
+    "Pending review excludes repeat dispatch without Active acceptance"
+  ],
+  "limitations": "Mechanical validation is not historical truth or editorial approval. No live website testing/deploy needed or performed; no reader-facing changes.",
+  "git_action": "No commit or push; awaiting Jinkai Liu review"
+}

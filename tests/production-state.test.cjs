@@ -2,15 +2,15 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),os=require('node:os');
 const root=path.resolve(__dirname,'..');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
-test('Durable state resolves 42/52/2/2, no review-pending proposals and nine eligible objects',async()=>{
+test('Durable state resolves 42/54/2/2, six review-pending proposals and one eligible object',async()=>{
  const {validateState,deriveState}=await import('../scripts/production-state.mjs');
  assert.deepEqual(validateState(root),[]);
  const m=deriveState(root,'2026-09-28T00:00:00.000Z');
- assert.equal(m.legacy_corpus.count,42);assert.equal(m.active_candidate_corpus.count,52);
+ assert.equal(m.legacy_corpus.count,42);assert.equal(m.active_candidate_corpus.count,54);
  assert.equal(m.archive_count,2);assert.equal(m.control_count,2);
- assert.equal(m.observation_registry.count,85);assert.equal(m.eligible_queue_count,9);
+ assert.equal(m.observation_registry.count,85);assert.equal(m.eligible_queue_count,1);
  assert.equal(m.provenance_review_queue_count,5);
- assert.deepEqual(m.pending_freeze_batches.map(b=>[b.batch_id,b.count]),[]);
+ assert.deepEqual(m.pending_freeze_batches.map(b=>[b.batch_id,b.count]),[['production-008',6]]);
  assert.deepEqual(m.runtime_external_work_dependencies,[]);
 });
 test('Repository snapshot excludes every pending and reserved identity without exposing targets',async()=>{

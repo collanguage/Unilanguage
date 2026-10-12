@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "accepted_at": "2026-10-12T19:03:54.354Z",
+  "approved_by": "Jinkai Liu",
+  "authority": "Explicit current user request; referenced conversation 6ab00120-2340-83e9-b4d5-e82719357add.",
+  "scope": "Two limited Structural-Semantic Featured Candidates only",
+  "baseline_commit": "d3fb6ae8717d7c5ad833c3e2b4f8aeb3dfd0551e",
+  "freeze_record": "data/review/production-008-freeze.v0.1.json",
+  "proposal_path": "research/production-008/proposal.json",
+  "editorial_decision": "research/production-008/editorial-decision-2026-10-12.json",
+  "preserved_proposal_hashes": {
+    "queue-snapshot.json": "7dc7a9f12b9c22a3ef0536813651a727e53216798b435e9533e24647ea00caa0",
+    "selection-audit.json": "e63527468abf9c8c8ebd11d6c2c38bf1e3d887299054dc47813d6957980b38c0",
+    "research-notes.json": "bff884451001147d003b740874d573fbe10cef0f42a0718b5824e95cf4f33573",
+    "observations.json": "1371287ba120aa27922b1bf740f9235252268ce32a965b252fbf5bd856b527d7",
+    "proposal.json": "5759a57a22a98eb881a1bdc1ec258e52047947b69d25d353ab2a18a496fe8801",
+    "outputs/monstre.json": "ffe5321d583f481cc1b8c8e143761350854dd27fb3b934f26badf2ac5addfe43",
+    "outputs/monster.json": "b8479ebd4ffc7d7bd0a37b4fed02923e3228aed3add6be6df3d37a7e1983652c",
+    "outputs/presser.json": "c2b845e7628d25b8bd2361a0cebb2c192454ebb41f99a441835b9dc18457556a",
+    "outputs/recognize.json": "807ecdf2da37b226b35c09f010518aa8074ceba64a43c29b81fdbf6b3563eb60",
+    "outputs/reconnaître.json": "bbf24aa67daa412eaa5846169c50e40bf77c11376655ce4de4081bbbe9f32362",
+    "outputs/lumen.json": "f50ae3754f1e0d7e9d65e223a1d170da976fae31fc75c049709215a7b92926d8",
+    "outputs/lux.json": "4780a85ddcaade346688d61b2638f56d868bbee1f7694cf1142000d74d3534ed",
+    "outputs/pression.json": "f50f37f6f7d1f48d758690313106c6fd877536b743d3b1ca19069f94d48ae035",
+    "REVIEW.md": "13165d19c5854d745e7862e41d0ef40b72ec2ea38955b4e3e499e4546a3188a0",
+    "editorial-decision-2026-10-12.json": "28e9eac07ce7a6273a178a99fa1568fee4f031bf891ff08b7933ffae56183e47"
+  },
+  "candidate_ids": [
+    "RO-57310e87d84a",
+    "RO-6ef2f72df212"
+  ],
+  "remaining_pending_ids": [
+    "RO-9ef3accd69c8",
+    "RO-c8100d9fe102",
+    "RO-d8483f029f91",
+    "RQ-703e21934bd6",
+    "RQ-b65bcd03ddb5",
+    "RQ-f512afb4860a"
+  ],
+  "scheduler_order": [
+    "monstre",
+    "monster",
+    "presser",
+    "recognize",
+    "reconnaître",
+    "lumen",
+    "lux",
+    "pression"
+  ],
+  "before_counts": {
+    "legacy": 42,
+    "active": 52,
+    "archives": 2,
+    "controls": 2,
+    "review_backlog": 8,
+    "eligible": 1,
+    "identity_pending": 5
+  },
+  "after_counts": {
+    "legacy": 42,
+    "active": 54,
+    "archives": 2,
+    "controls": 2,
+    "review_backlog": 6,
+    "eligible": 1,
+    "identity_pending": 5
+  },
+  "preserved_active_prefix": {
+    "record_count": 52,
+    "sha256_utf8_lf": "0216b0930c471b81acdd6891d08d83b97c1650132de970fc678be08fbb84828b",
+    "serialization": "JSON.stringify(document with first 52 records, null, 2) + LF; envelope unchanged"
+  },
+  "commit_authorized": false,
+  "push_authorized": false,
+  "deploy_authorized": false,
+  "production_009_experiment_authorized": false,
+  "storage_status": "Local uncommitted acceptance; explicitly external to committed Git state until separately authorized",
+  "next_gate": "Jinkai Liu next approval gate: six Production-008 objects remain Pending; local partial intake awaits separate commit/push/deploy authorization. No automatic acceptance or Production-009."
+}

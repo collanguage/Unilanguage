@@ -113,7 +113,16 @@ export function validatePilotFiles() {
     ['data/candidates/production-corpus.v0.1.json', doc.corpus_sha256],
     ['research/calibration/convenir-depth-v1/REPORT.md', doc.calibration_sha256]
   ]) {
-    const bytes = fs.readFileSync(path.join(root, file));
+    let bytes = fs.readFileSync(path.join(root, file));
+    // Later authorized intake must preserve the exact historical 52-record prefix.
+    if (file === 'data/candidates/production-corpus.v0.1.json') {
+      const intake = JSON.parse(fs.readFileSync(path.join(root, 'research/production-state/acceptance-008.v1.json'), 'utf8'));
+      const original = JSON.parse(bytes);
+      original.records = original.records.slice(0, intake.preserved_active_prefix.record_count);
+      bytes = Buffer.from(JSON.stringify(original, null, 2) + '\n');
+      if (createHash('sha256').update(bytes).digest('hex') !== intake.preserved_active_prefix.sha256_utf8_lf)
+        result.errors.push('Authorized intake changed historical corpus prefix');
+    }
     const hash = createHash('sha256').update(bytes).digest('hex');
     // Original byte hashes remain in the frozen proposal. A separate acceptance
     // record provides LF-normalized checksums for cross-platform Git recovery.

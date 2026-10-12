@@ -1,0 +1,110 @@
+{
+  "record_version": "1.0",
+  "batch_id": "production-008",
+  "record_date": "2026-10-12",
+  "timezone": "America/Toronto",
+  "decision_maker": "Jinkai Liu",
+  "authority": "Explicit user instruction in current Codex chat; referenced conversation 6ab00120-2340-83e9-b4d5-e82719357add supplies context.",
+  "status": "featured_editorial_decision_recorded_awaiting_separate_active_corpus_authorization",
+  "scope": "Two Featured Candidate editorial decisions only; no batch/corpus acceptance or publication authorization.",
+  "entries": [
+    {
+      "source_form": "monstre",
+      "research_object_id": "RO-9ef3accd69c8",
+      "featured_decision": "Pending",
+      "depth": "D2",
+      "historical_relation": "Not claimed",
+      "provenance": "Imported legacy / author unknown"
+    },
+    {
+      "source_form": "monster",
+      "research_object_id": "RO-c8100d9fe102",
+      "featured_decision": "Pending",
+      "depth": "D2",
+      "historical_relation": "Not claimed",
+      "provenance": "Imported legacy / author unknown"
+    },
+    {
+      "source_form": "presser",
+      "research_object_id": "RO-57310e87d84a",
+      "featured_decision": "Approved limited Structural-Semantic Featured Candidate",
+      "depth": "D2",
+      "historical_relation": "Not claimed",
+      "provenance": "Imported legacy / author unknown",
+      "mapping": "迫 pò",
+      "scope": "催迫／紧迫 only; excludes squeezing fruit, buttons and crowding",
+      "modern_phonetic_fit": "Low"
+    },
+    {
+      "source_form": "recognize",
+      "research_object_id": "RO-6ef2f72df212",
+      "featured_decision": "Approved limited Structural-Semantic Featured Candidate",
+      "depth": "D2",
+      "historical_relation": "Not claimed",
+      "provenance": "Imported legacy / author unknown",
+      "mapping": "认 rèn",
+      "scope": "identify a previously known entity / acknowledge; excludes unrestricted specialized constructions",
+      "modern_phonetic_fit": "Low"
+    },
+    {
+      "source_form": "reconnaître",
+      "research_object_id": "RO-d8483f029f91",
+      "featured_decision": "Pending",
+      "depth": "D2",
+      "historical_relation": "Not claimed",
+      "provenance": "Imported legacy / author unknown"
+    },
+    {
+      "source_form": "lumen",
+      "research_object_id": "RQ-703e21934bd6",
+      "featured_decision": "Pending",
+      "depth": "D2",
+      "historical_relation": "Not claimed",
+      "provenance": "Imported legacy / author unknown"
+    },
+    {
+      "source_form": "lux",
+      "research_object_id": "RQ-b65bcd03ddb5",
+      "featured_decision": "Pending",
+      "depth": "D2",
+      "historical_relation": "Not claimed",
+      "provenance": "Imported legacy / author unknown"
+    },
+    {
+      "source_form": "pression",
+      "research_object_id": "RQ-f512afb4860a",
+      "featured_decision": "Pending",
+      "depth": "D2",
+      "historical_relation": "Not claimed",
+      "provenance": "Imported legacy / author unknown"
+    }
+  ],
+  "accepted_into_active_corpus": false,
+  "corpus_writeback_authorized": false,
+  "commit_authorized": false,
+  "push_authorized": false,
+  "deploy_authorized": false,
+  "production_009_experiment_authorized": false,
+  "next_gate": "Explicit separate authorization for Active Corpus acceptance, specifying scope; commit, push and deploy each require explicit authorization.",
+  "frozen_proposal_remains_historical": true,
+  "proposal_status_note": "awaiting_jinkai_review remains unchanged in the frozen proposal; this separate record resolves only the two Featured decisions, not corpus acceptance.",
+  "benchmark_eligibility": "All eight remain production-exposed and benchmark-ineligible.",
+  "basis_sha256_utf8_lf": {
+    "REVIEW.md": "13165d19c5854d745e7862e41d0ef40b72ec2ea38955b4e3e499e4546a3188a0",
+    "proposal.json": "5759a57a22a98eb881a1bdc1ec258e52047947b69d25d353ab2a18a496fe8801",
+    "freeze-manifest.json": "d901d1d5634ed258d40b189f4ed9b48490043a7ed21a62a05a613d6c277f53b8"
+  },
+  "repository_checkpoint": {
+    "branch": "main",
+    "local_sha": "d3fb6ae8717d7c5ad833c3e2b4f8aeb3dfd0551e",
+    "remote_sha": "d3fb6ae8717d7c5ad833c3e2b4f8aeb3dfd0551e",
+    "ahead": 0,
+    "behind": 0
+  },
+  "corpus_counts_unchanged": {
+    "legacy": 42,
+    "active": 52,
+    "archives": 2,
+    "controls": 2
+  }
+}

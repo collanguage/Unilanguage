@@ -1,0 +1,353 @@
+{
+  "source": "research/observations/registry.v0.1.json",
+  "status": "read-only scoped copy; original unchanged",
+  "observations": [
+    {
+      "observation_id": "OBS-PROV-7b50f1aefcf3",
+      "origin_type": "unknown",
+      "author": null,
+      "original_text": "{\"word\":\"monstre / monster\",\"language\":\"French/English\",\"relationship_type\":\"Historical family through monstrum\",\"family\":\"Latin monstrum\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-CNRTL-MONTRER\",\"REF-CNRTL-MONITEUR\"]}",
+      "source_form": "monstre / monster",
+      "source_language": "French/English",
+      "proposed_mapping": null,
+      "reasoning_raw": "",
+      "created_at": "2026-09-28T15:12:53.995Z",
+      "source_date": null,
+      "provenance": {
+        "source_location": "data/language-book.v1.0.json#/entries/37/related_words/2",
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "authorship_verified": false,
+        "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+        "intake_mode": "migration"
+      },
+      "ai_exposure_status": "exposed_to_ai",
+      "research_status": "queued",
+      "linked_candidate_ids": [
+        "RQ-7b50f1aefcf3",
+        "RO-9ef3accd69c8",
+        "RO-c8100d9fe102"
+      ],
+      "linked_mapping_ids": [],
+      "holdout_status": "not_eligible",
+      "historical_relation": "Not claimed",
+      "evidence_status": "Pending",
+      "ai_discovery": null,
+      "normalizations": [
+        {
+          "at": "2026-09-28T15:12:53.995Z",
+          "actor": "provenance_resolution",
+          "value": {
+            "resolution": "I",
+            "source_version_date": "2026-09-20T21:36:01-04:00",
+            "parent_observation_ids": [],
+            "independent_observation": false,
+            "identity_status": "Unresolved composite identity",
+            "lexical_identity": null,
+            "meaning_context": "Documented historical relation within the stated family.",
+            "identity_evidence": "data/language-book.v1.0.json#/entries/37/related_words/2",
+            "scope": "Provenance/identity only; no evidence or author promotion"
+          }
+        },
+        {
+          "at": "2026-09-28T18:12:44.104Z",
+          "actor": "identity_resolution",
+          "value": {
+            "identity_resolution": "legacy-mixed-form-v1",
+            "research_object_ids": [
+              "RO-9ef3accd69c8",
+              "RO-c8100d9fe102"
+            ],
+            "original_preserved": true,
+            "attribution": "Imported legacy / author unknown",
+            "relation_not_inferred": true
+          }
+        }
+      ],
+      "review_status": "unreviewed",
+      "publication_status": "not_published"
+    },
+    {
+      "observation_id": "OBS-PROV-1d05f238da56",
+      "origin_type": "unknown",
+      "author": null,
+      "original_text": "{\"word\":\"presser / pression\",\"language\":\"French\",\"relationship_type\":\"Historical cognate/borrowing family\",\"family\":\"Latin pressare / pressio / premere\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-PRESS\",\"REF-CNRTL-PRESSION\",\"REF-CNRTL-PRESSER\"]}",
+      "source_form": "presser / pression",
+      "source_language": "French",
+      "proposed_mapping": null,
+      "reasoning_raw": "",
+      "created_at": "2026-09-28T15:12:53.995Z",
+      "source_date": null,
+      "provenance": {
+        "source_location": "data/language-book.v1.0.json#/entries/40/related_words/1",
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "authorship_verified": false,
+        "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+        "intake_mode": "migration"
+      },
+      "ai_exposure_status": "exposed_to_ai",
+      "research_status": "queued",
+      "linked_candidate_ids": [
+        "RQ-1d05f238da56",
+        "RO-57310e87d84a",
+        "RQ-f512afb4860a"
+      ],
+      "linked_mapping_ids": [],
+      "holdout_status": "not_eligible",
+      "historical_relation": "Not claimed",
+      "evidence_status": "Pending",
+      "ai_discovery": null,
+      "normalizations": [
+        {
+          "at": "2026-09-28T15:12:53.995Z",
+          "actor": "provenance_resolution",
+          "value": {
+            "resolution": "I",
+            "source_version_date": "2026-09-20T21:36:01-04:00",
+            "parent_observation_ids": [],
+            "independent_observation": false,
+            "identity_status": "Unresolved composite identity",
+            "lexical_identity": null,
+            "meaning_context": "Documented historical relation within the stated family.",
+            "identity_evidence": "data/language-book.v1.0.json#/entries/40/related_words/1",
+            "scope": "Provenance/identity only; no evidence or author promotion"
+          }
+        },
+        {
+          "at": "2026-09-28T18:12:44.104Z",
+          "actor": "identity_resolution",
+          "value": {
+            "identity_resolution": "legacy-mixed-form-v1",
+            "research_object_ids": [
+              "RO-57310e87d84a",
+              "RQ-f512afb4860a"
+            ],
+            "original_preserved": true,
+            "attribution": "Imported legacy / author unknown",
+            "relation_not_inferred": true
+          }
+        }
+      ],
+      "review_status": "unreviewed",
+      "publication_status": "not_published"
+    },
+    {
+      "observation_id": "OBS-PROV-6b9058f863a9",
+      "origin_type": "unknown",
+      "author": null,
+      "original_text": "{\"word\":\"recognize / reconnaître\",\"language\":\"English/French\",\"relationship_type\":\"KNOW cluster derivative\",\"family\":\"Latin recognoscere\",\"relation_to_entry\":{\"en\":\"Documented historical relation within the stated family.\",\"zh-Hans\":\"在所列词族内有文献支持的历史关系。\"},\"status\":\"Established\",\"source_refs\":[\"REF-MW-SIGN\",\"REF-CNRTL-COGNITION\",\"REF-CNRTL-COGNITIF\"]}",
+      "source_form": "recognize / reconnaître",
+      "source_language": "English/French",
+      "proposed_mapping": null,
+      "reasoning_raw": "",
+      "created_at": "2026-09-28T15:12:53.995Z",
+      "source_date": null,
+      "provenance": {
+        "source_location": "data/language-book.v1.0.json#/entries/41/related_words/2",
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "authorship_verified": false,
+        "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+        "intake_mode": "migration"
+      },
+      "ai_exposure_status": "exposed_to_ai",
+      "research_status": "queued",
+      "linked_candidate_ids": [
+        "RQ-6b9058f863a9",
+        "RO-6ef2f72df212",
+        "RO-d8483f029f91"
+      ],
+      "linked_mapping_ids": [],
+      "holdout_status": "not_eligible",
+      "historical_relation": "Not claimed",
+      "evidence_status": "Pending",
+      "ai_discovery": null,
+      "normalizations": [
+        {
+          "at": "2026-09-28T15:12:53.995Z",
+          "actor": "provenance_resolution",
+          "value": {
+            "resolution": "I",
+            "source_version_date": "2026-09-20T21:36:01-04:00",
+            "parent_observation_ids": [],
+            "independent_observation": false,
+            "identity_status": "Unresolved composite identity",
+            "lexical_identity": null,
+            "meaning_context": "Documented historical relation within the stated family.",
+            "identity_evidence": "data/language-book.v1.0.json#/entries/41/related_words/2",
+            "scope": "Provenance/identity only; no evidence or author promotion"
+          }
+        },
+        {
+          "at": "2026-09-28T18:12:44.104Z",
+          "actor": "identity_resolution",
+          "value": {
+            "identity_resolution": "legacy-mixed-form-v1",
+            "research_object_ids": [
+              "RO-6ef2f72df212",
+              "RO-d8483f029f91"
+            ],
+            "original_preserved": true,
+            "attribution": "Imported legacy / author unknown",
+            "relation_not_inferred": true
+          }
+        }
+      ],
+      "review_status": "unreviewed",
+      "publication_status": "not_published"
+    },
+    {
+      "observation_id": "OBS-PROV-703e21934bd6",
+      "origin_type": "unknown",
+      "author": null,
+      "original_text": "{\"item\":\"lumen\",\"language\":\"Latin\",\"immediate_family_id\":\"latin_lumen_descendants\",\"deep_family_id\":\"pie_leuk\",\"count_as_surface\":true}",
+      "source_form": "lumen",
+      "source_language": "Latin",
+      "proposed_mapping": null,
+      "reasoning_raw": "",
+      "created_at": "2026-09-28T15:12:53.995Z",
+      "source_date": null,
+      "provenance": {
+        "source_location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/positive_observations/2",
+        "repository_commit": "04f652a89a4a2e37b94e72890beaeafc738db35e",
+        "authorship_verified": false,
+        "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+        "intake_mode": "migration"
+      },
+      "ai_exposure_status": "exposed_to_ai",
+      "research_status": "queued",
+      "linked_candidate_ids": [
+        "RQ-703e21934bd6"
+      ],
+      "linked_mapping_ids": [],
+      "holdout_status": "not_eligible",
+      "historical_relation": "Not claimed",
+      "evidence_status": "Pending",
+      "ai_discovery": null,
+      "normalizations": [
+        {
+          "at": "2026-09-28T15:12:53.995Z",
+          "actor": "provenance_resolution",
+          "value": {
+            "resolution": "I",
+            "source_version_date": "2026-08-30T19:02:01-04:00",
+            "parent_observation_ids": [],
+            "independent_observation": false,
+            "identity_status": "Pass",
+            "lexical_identity": "Latin noun lumen, as explicitly listed in the frozen LIGHT source family",
+            "meaning_context": "Latin lumen 'light'; recorded LIGHT family context only, no new etymology verification.",
+            "identity_evidence": "data/language-book.v1.0.json#/entries/5",
+            "scope": "Provenance/identity only; no evidence or author promotion"
+          }
+        },
+        {
+          "at": "2026-09-28T15:15:30.672Z",
+          "actor": "provenance_resolution",
+          "value": {
+            "identity_evidence": "data/language-book.v1.0.json#/entries/7",
+            "correction_of": "data/language-book.v1.0.json#/entries/5",
+            "reason": "Locator correction during pre-commit audit: LIGHT is entries/7; original raw text and attribution unchanged."
+          }
+        }
+      ],
+      "review_status": "unreviewed",
+      "publication_status": "not_published"
+    },
+    {
+      "observation_id": "OBS-PROV-b65bcd03ddb5",
+      "origin_type": "unknown",
+      "author": null,
+      "original_text": "{\"item\":\"lux\",\"language\":\"Latin\",\"immediate_family_id\":\"latin_lux_lumen_family\",\"deep_family_id\":\"pie_leuk\",\"count_as_surface\":true}",
+      "source_form": "lux",
+      "source_language": "Latin",
+      "proposed_mapping": null,
+      "reasoning_raw": "",
+      "created_at": "2026-09-28T15:12:53.995Z",
+      "source_date": null,
+      "provenance": {
+        "source_location": "data/hypotheses/l-light-semantic-cluster.v0.1.json#/positive_observations/3",
+        "repository_commit": "04f652a89a4a2e37b94e72890beaeafc738db35e",
+        "authorship_verified": false,
+        "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+        "intake_mode": "migration"
+      },
+      "ai_exposure_status": "exposed_to_ai",
+      "research_status": "queued",
+      "linked_candidate_ids": [
+        "RQ-b65bcd03ddb5"
+      ],
+      "linked_mapping_ids": [],
+      "holdout_status": "not_eligible",
+      "historical_relation": "Not claimed",
+      "evidence_status": "Pending",
+      "ai_discovery": null,
+      "normalizations": [
+        {
+          "at": "2026-09-28T15:12:53.995Z",
+          "actor": "provenance_resolution",
+          "value": {
+            "resolution": "I",
+            "source_version_date": "2026-08-30T19:02:01-04:00",
+            "parent_observation_ids": [],
+            "independent_observation": false,
+            "identity_status": "Pass",
+            "lexical_identity": "Latin noun lux, distinct from the French lumière form",
+            "meaning_context": "Related Latin LIGHT family member; not an intermediate ancestor of lumière. Frozen LIGHT evidence boundary.",
+            "identity_evidence": "docs/research/final-structural-freeze.md:150-152",
+            "scope": "Provenance/identity only; no evidence or author promotion"
+          }
+        }
+      ],
+      "review_status": "unreviewed",
+      "publication_status": "not_published"
+    },
+    {
+      "observation_id": "OBS-PROV-f512afb4860a",
+      "origin_type": "unknown",
+      "author": null,
+      "original_text": "press压力，pression。exercée施加。peur怕……",
+      "source_form": "pression",
+      "source_language": "French",
+      "proposed_mapping": null,
+      "reasoning_raw": "",
+      "created_at": "2026-09-28T15:12:53.995Z",
+      "source_date": null,
+      "provenance": {
+        "source_location": "data/language-book.v1.0.json#/entries/40/source/raw_note",
+        "repository_commit": "278885aeab182d11fd48ba0bc06a4348c6f4190c",
+        "authorship_verified": false,
+        "attribution_basis": "Git-tracked import is explicit. Generator code, repository author labels and editorial summaries do not independently authenticate authorship of this exact observation. No AI or human attribution inferred.",
+        "intake_mode": "migration"
+      },
+      "ai_exposure_status": "exposed_to_ai",
+      "research_status": "queued",
+      "linked_candidate_ids": [
+        "RQ-f512afb4860a"
+      ],
+      "linked_mapping_ids": [],
+      "holdout_status": "not_eligible",
+      "historical_relation": "Not claimed",
+      "evidence_status": "Pending",
+      "ai_discovery": null,
+      "normalizations": [
+        {
+          "at": "2026-09-28T15:12:53.995Z",
+          "actor": "provenance_resolution",
+          "value": {
+            "resolution": "I",
+            "source_version_date": "2026-09-20T21:36:01-04:00",
+            "parent_observation_ids": [
+              "OBS-accdf2b34eed2364721b8dfc"
+            ],
+            "independent_observation": false,
+            "identity_status": "Pass",
+            "lexical_identity": "French lexical form pression, in the preserved press/pression note",
+            "meaning_context": "Recorded alongside press压力; pressure nominal context. Specific senses await research.",
+            "identity_evidence": "docs/research/final-structural-freeze.md:85-87",
+            "scope": "Provenance/identity only; no evidence or author promotion"
+          }
+        }
+      ],
+      "review_status": "unreviewed",
+      "publication_status": "not_published"
+    }
+  ]
+}

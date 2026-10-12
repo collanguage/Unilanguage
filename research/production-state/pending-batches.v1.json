@@ -1,7 +1,22 @@
 {
   "version": "1.0",
-  "batches": [],
-  "last_accepted_batch": "Production 007",
-  "acceptance_record": "research/production-state/acceptance-007.v1.json",
-  "next_action": "Production 007 accepted. Await Jinkai Liu instruction; do not start next batch or deploy."
+  "batches": [
+    {
+      "batch_id": "production-008",
+      "status": "awaiting_jinkai_review",
+      "accepted": false,
+      "candidate_ids": [
+        "RO-9ef3accd69c8",
+        "RO-c8100d9fe102",
+        "RO-d8483f029f91",
+        "RQ-703e21934bd6",
+        "RQ-b65bcd03ddb5",
+        "RQ-f512afb4860a"
+      ],
+      "proposal_path": "research/production-008/proposal.json"
+    }
+  ],
+  "last_accepted_batch": "Production 008 (partial: presser, recognize)",
+  "acceptance_record": "research/production-state/acceptance-008.v1.json",
+  "next_action": "Jinkai Liu next approval gate: six Production-008 objects remain Pending; local partial intake awaits separate commit/push/deploy authorization. No automatic acceptance or Production-009."
 }

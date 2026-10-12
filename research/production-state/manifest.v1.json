@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "assembled_at": "2026-09-30T18:17:37.106Z",
+  "assembled_at": "2026-10-12T19:03:59.154Z",
   "legacy_corpus": {
     "version": "1.0",
     "path": "data/language-book.v1.0.json",
@@ -9,7 +9,7 @@
   "active_candidate_corpus": {
     "version": "0.1",
     "path": "data/candidates/production-corpus.v0.1.json",
-    "count": 52,
+    "count": 54,
     "status": "candidate; not Reviewed/Published"
   },
   "archive_count": 2,
@@ -29,9 +29,16 @@
     "corpus_writeback": false
   },
   "scheduler_version": "0.1",
-  "last_accepted_batch": "Production 007",
-  "pending_freeze_batches": [],
-  "eligible_queue_count": 9,
+  "last_accepted_batch": "Production 008 (partial: presser, recognize)",
+  "pending_freeze_batches": [
+    {
+      "batch_id": "production-008",
+      "status": "awaiting_jinkai_review",
+      "count": 6,
+      "proposal_path": "research/production-008/proposal.json"
+    }
+  ],
+  "eligible_queue_count": 1,
   "provenance_review_queue_count": 5,
   "identity_resolution_counts": {
     "parent_observations": 13,
@@ -60,7 +67,7 @@
       "sha256": "688974d3e5f5c452864efd8046408f55c6a9c283883f373e07da40c14738701b"
     },
     "validate-production-candidates.mjs": {
-      "sha256": "a8131bc8d188fd9935fee02d53cb4ebd43b4ed2fb44d7e087f890ba5b4a2135f"
+      "sha256": "ff788165b5def1aa118884eb97c37aa38b6ceac9a73fb42b59ef7f5a74b2b1cf"
     },
     "validate-observation-registry.mjs": {
       "sha256": "e9f60d38884570d6694387608d8a4878c6a7049d87c9c6e87917db6a041711d9"
@@ -84,7 +91,7 @@
       "sha256": "248aec16ede9085732d292d7c0fd0d579724b7868a89725e51a11fb5d0772e47"
     },
     "validate-diachronic-depth.mjs": {
-      "sha256": "74d785915f22250332f814db68190e0035dc05a07ec29edd263c18c61c8d4592"
+      "sha256": "de207b3f95be3fa9764cc5468519a8c265caf1d9401ccc839e38dc27c3f1f7d8"
     }
   },
   "input_hashes": [
@@ -100,7 +107,7 @@
     },
     {
       "file": "research/production-state/pending-batches.v1.json",
-      "sha256": "59c04ce8ac95359a9b33680adfb4b31f857e9f537d99c6eed7edff142f33da51",
+      "sha256": "f35ed367135c2f659f58dd6c6773ec38e83ac82cdae2fd4e0e3e4496f1d857e3",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -110,7 +117,7 @@
     },
     {
       "file": "data/candidates/production-corpus.v0.1.json",
-      "sha256": "0216b0930c471b81acdd6891d08d83b97c1650132de970fc678be08fbb84828b",
+      "sha256": "303c5f486bcef6b14164462c1bbbb39b05091a7bb323ce1921d229d828866dd3",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -130,7 +137,7 @@
     },
     {
       "file": "research/scheduler/production-completions.v0.1.json",
-      "sha256": "f9238277c20384a993bb4e0746d215934d69b6d678ead5a6c6077a1fad5e4177",
+      "sha256": "3dc77eca7146581687dd7a7f3b67f55d4a875d6ef030ef7960c6fe3a5028335a",
       "hash_algorithm": "sha256-utf8-lf"
     },
     {
@@ -139,7 +146,7 @@
       "hash_algorithm": "sha256-utf8-lf"
     }
   ],
-  "next_action": "Production 007 accepted. Await Jinkai Liu instruction; do not start next batch or deploy.",
+  "next_action": "Jinkai Liu next approval gate: six Production-008 objects remain Pending; local partial intake awaits separate commit/push/deploy authorization. No automatic acceptance or Production-009.",
   "automatic_dispatch": false,
   "review_gate": "Jinkai Liu",
   "runtime_external_work_dependencies": [],

@@ -13,12 +13,12 @@ new linguistic findings or accept pending proposals.
 - Controls: **2**, not Active/Archive (`research/controls/production-004.v0.1.json`).
 - Registry: **85**, 71 unknown + 14 AI; no newly authenticated human origin.
 - Last acceptance: **007**, explicitly approved by Jinkai Liu.
-- Review backlog: **0** (Production 007 accepted). Original 003/005 proposals remain unchanged under
+- Review backlog: **8** (Production 008 proposals at `research/production-008/proposal.json`; not accepted). Original 003/005 proposals remain unchanged under
   `research/production-state/pending/`; acceptance is recorded separately in
   `research/production-state/acceptance-003-005.v1.json` and the approved freezes.
-- Eligible unprocessed queue: **9**. Identity/provenance queue: **5** (scoped pending); historical-only objects: **4**.
+- Eligible unprocessed queue: **1**. Identity/provenance queue: **5** (scoped pending); historical-only objects: **4**.
 - Benchmark: **Designed / Frozen / Execution Pending Isolated Evaluator**.
-- Next action: await Jinkai Liu instruction; **do not start another batch**.
+- Next action: Jinkai Liu review Production 008; **do not accept automatically or start another batch**.
 
 Historical provenance-audit checkpoint: observations/provenance-resolution-v1/REPORT.md. At that checkpoint all 19 scopes were imported/author-unknown; 6 passed intake identity and 13 remained composite. The later mixed-form resolution below supersedes those queue counts. Registry gained 19 scoped imports, not independent discoveries. Saved Scheduler output is dry-run only.
 
@@ -31,8 +31,9 @@ Approved research method overlay (2026-09-29):
 Lexical research now checks source and Chinese historical units before selecting
 an optional Featured summary. The 52-record audit and proposed upgrade queue in
 that directory do not change corpus acceptance, Scheduler eligibility or evidence
-grades. Validator changes are a specification, not implemented enforcement.
-Do not dispatch upgrades or Production-008 without Jinkai Liu instruction.
+grades. The subsequent production integration below implements mechanical checks;
+historical truth remains subject to evidence/editorial review.
+Production-008 was subsequently authorized and now awaits review; no further dispatch.
 
 | Responsibility | Repository authority |
 |---|---|
@@ -179,5 +180,15 @@ contract with synthetic data and replays old Scheduler audits without modifying
 those records. Old byte checksums remain recorded; separate LF-normalized hashes
 permit Git checkout recovery without accepting content changes.
 
-Production-008 remains paused until Jinkai Liu authorizes it. No further Top-8
-research is needed for this integration; corpus upgrades require separate approval.
+Production-008 research is complete as an unaccepted proposal at
+`research/production-008/REVIEW.md`. Eight native v1.1 records propose D2; two
+limited Featured summaries and six Featured Pending. The frozen Scheduler
+selection was not replaced. Review by Jinkai Liu is the next action; no automatic
+acceptance or Production-009. No further Top-8 research is needed for the prior
+integration; corpus upgrades require separate approval.
+
+## Production-008 limited intake — 2026-10-12
+
+Current checkpoint supersedes historical totals above: 42 Legacy / 54 Active (15 Featured Candidate, 39 Featured Pending) / 2 Archives / 2 Controls; six pending review, one eligible, five identity pending. Only presser→迫 pò (催迫／紧迫) and recognize→认 rèn (identify a previously known entity / acknowledge) accepted. D2, modern Phonetic Fit Low, Historical Relation Not claimed and Imported legacy / author unknown preserved. Scheduler order and original proposal/decision/outputs unchanged. Separate acceptance: production-state/acceptance-008.v1.json.
+
+Storage is local and uncommitted, explicitly external to committed Git state pending separate authorization. No commit, push, deploy or Production-009 experiment authorized. Six other entries remain Pending. Stop at the next approval gate.

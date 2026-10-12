@@ -1,0 +1,58 @@
+{
+  "batch_id": "production-008",
+  "status": "awaiting_jinkai_review",
+  "accepted": false,
+  "worker_method_version": "1.1",
+  "selection_audit": "research/production-008/selection-audit.json",
+  "selection_frozen_at": "2026-10-01T15:43:58.161Z",
+  "record_completed_date": "2026-10-12",
+  "candidate_ids": [
+    "RO-9ef3accd69c8",
+    "RO-c8100d9fe102",
+    "RO-57310e87d84a",
+    "RO-6ef2f72df212",
+    "RO-d8483f029f91",
+    "RQ-703e21934bd6",
+    "RQ-b65bcd03ddb5",
+    "RQ-f512afb4860a"
+  ],
+  "outputs": [
+    "research/production-008/outputs/monstre.json",
+    "research/production-008/outputs/monster.json",
+    "research/production-008/outputs/presser.json",
+    "research/production-008/outputs/recognize.json",
+    "research/production-008/outputs/reconnaître.json",
+    "research/production-008/outputs/lumen.json",
+    "research/production-008/outputs/lux.json",
+    "research/production-008/outputs/pression.json"
+  ],
+  "depth_counts": {
+    "D1": 0,
+    "D2": 8,
+    "D3": 0,
+    "D4": 0,
+    "D5": 0
+  },
+  "publication_allowed": false,
+  "corpus_writeback": false,
+  "family_reuse": [
+    "monstre/monster: Latin monstrum node reused; modern French/English senses independent.",
+    "presser/pression: premere base reused; intensive verb versus deverbal noun remain separate.",
+    "recognize/reconnaître: recognoscere transmission sources reused; gratitude and specialized English usage distinguished.",
+    "lumen/lux: same lexicographic resource reused; noun identities and semantic inventories independent. No measured time-savings claim."
+  ],
+  "selection_execution": "User authorized research from frozen dry-run selection; dry-run audit remains unchanged. No second Scheduler selection.",
+  "exposure": "All eight production-exposed; benchmark-ineligible. Unknown origin preserved.",
+  "corpus_counts_unchanged": {
+    "legacy": 42,
+    "active": 52,
+    "archives": 2,
+    "controls": 2
+  },
+  "method_limits": [
+    "Mainland-first access via 汉典 does not make embedded dictionary transcriptions independently checked Mainland print evidence.",
+    "Every Old Chinese reconstruction remains Pending; fanqie/rhyme labels are documentary leads, not reconstructed IPA.",
+    "Phonetic expansion was not run as a systematic retrieval experiment in this bounded depth run. Do not report zero retained as experimental efficacy.",
+    "Featured proposals are new editorial recommendations, not automatically inherited or approved."
+  ]
+}

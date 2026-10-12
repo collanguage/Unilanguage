@@ -71,7 +71,13 @@ test('accepted depth research preserves frozen artifacts across Git line endings
   assert.deepEqual(a.depth_counts,{D1:0,D2:8});
   assert.equal(a.entries.length,8);
   assert.equal(a.entries.find(e=>e.entry==='pressure').featured_action,'Narrow');
-  for(const [p,h] of Object.entries({...a.preserved_inputs,...a.frozen_artifacts}))
-    assert.equal(crypto.createHash('sha256').update(read(p).toString('utf8').replace(/\r\n/g,'\n')).digest('hex'),h.lf_sha256,p);
-  assert.equal(JSON.parse(read('data/candidates/production-corpus.v0.1.json')).records.length,52);
+  for(const [p,h] of Object.entries({...a.preserved_inputs,...a.frozen_artifacts})) {
+    let text=read(p).toString('utf8').replace(/\r\n/g,'\n');
+    if(p==='data/candidates/production-corpus.v0.1.json'){
+      const historical=JSON.parse(text);historical.records=historical.records.slice(0,52);
+      text=JSON.stringify(historical,null,2)+'\n';
+    }
+    assert.equal(crypto.createHash('sha256').update(text).digest('hex'),h.lf_sha256,p);
+  }
+  assert.equal(JSON.parse(read('data/candidates/production-corpus.v0.1.json')).records.length,54);
 });

@@ -11,8 +11,14 @@ const base = '31d074804a0c37c9ce1f16ac43921fe5849df6bb';
 const text = p => fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n');
 const before = p => cp.execFileSync('git',['show',`${base}:${p}`],{encoding:'utf8',maxBuffer:50e6}).replace(/\r\n/g,'\n');
 test('reader pilot preserves all canonical research, schema and unrelated word pages',()=>{
-  for(const p of cp.execFileSync('git',['ls-files','data','words'],{encoding:'utf8'}).trim().split('\n')) {
+  for(const p of cp.execFileSync('git',['ls-tree','-r','--name-only',base,'--','data','words'],{encoding:'utf8'}).trim().split('\n')) {
     if(p==='words/abhor.html')continue;
+    if(p==='data/candidates/production-corpus.v0.1.json'){
+      const old=JSON.parse(before(p)),current=JSON.parse(text(p));
+      current.records=current.records.slice(0,old.records.length);
+      assert.deepEqual(current,old,'Later authorized intake preserves the entire reader-pilot corpus prefix');
+      continue;
+    }
     assert.equal(text(p),before(p),p);
   }
 });
