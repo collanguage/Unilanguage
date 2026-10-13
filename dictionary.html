@@ -13,13 +13,13 @@
       <header class="hero">
         <p class="eyebrow">Language Book Data Foundation · 语言书数据基础</p>
         <h1>Dictionary</h1>
-        <p class="subtitle">Layered word records from one canonical dataset · 来自单一 canonical dataset 的分层词条</p>
+        <p class="subtitle">Language Book entries and separate production candidates · 旧词条与独立生产候选</p>
         <div class="pair"><div><p class="label">English</p><p>This index and Semantic Mapper read the same versioned evidence layer. A smaller dataset with clear provenance is preferred to unsupported scale.</p></div><div lang="zh-Hans"><p class="label">中文</p><p>本目录与 Semantic Mapper 读取同一版本化证据层。宁可数据规模较小、来源清楚，也不以未经支持的映射凑数量。</p></div></div>
       </header>
       <section class="section">
         <div class="pair"><div><label class="label" for="dictSearch">Filter classified and public entries · 筛选分类与公开词条</label><input id="dictSearch" aria-label="Dictionary search" style="width:100%;padding:16px;border-radius:12px;border:1px solid var(--line);background:var(--deep);color:var(--text);font-size:1rem" placeholder="at, 在, 爱, love, presence, light, 籁..." /></div><div><p class="label">Product entry · 产品入口</p><a class="btn" href="semantic-mapper.html">Enter a word · 输入一个词 →</a><p id="dictMessage" class="small" aria-live="polite"></p></div></div>
         <p class="boundary"><strong>Status separation · 状态分离：</strong> Published entries and mapping classifications are separate axes. LIGHT is Published while light → 籁 remains Candidate. AT · 在 · 爱 is a Published Literary Entry while at ↔ 在 remains Candidate and historical common origin is not claimed. Both now come from the same v1.0 schema without sharing evidence status. · 公开词条与映射分类属于不同状态轴：LIGHT 已发表而 light → 籁 仍为 Candidate；AT · 在 · 爱是已发表文学词条，而 at ↔ 在仍为 Candidate，且不主张历史同源。二者现由同一 v1.0 schema 提供，但不共享证据状态。</p>
-        <div class="cards" id="dictionaryGrid" aria-live="polite"><article class="card"><h2>Loading reviewed entries · 正在加载已审核词条</h2></article></div>
+        <div class="cards" id="dictionaryGrid" aria-live="polite"><article class="card"><h2>Loading entries and candidates · 正在加载词条与候选</h2></article></div>
         <noscript><p class="boundary">JavaScript is required for the generated index. The canonical JSON remains available at <a href="data/language-book.v1.0.json">language-book.v1.0.json</a>. · 生成目录需要 JavaScript；canonical JSON 仍可直接查看。</p></noscript>
       </section>
     </main>
@@ -27,6 +27,7 @@
     <!-- ABHOR-READER:START --><script src="js/abhor-reader-layers.js?v=1.0.1"></script><!-- ABHOR-READER:END -->
 <script src="js/second-pipeline.js?v=1.2.47"></script>
 <script src="js/diachronic-mapping.js?v=1.2.37"></script>
-<script src="js/language-book-data.js?v=1.2.35"></script><script src="js/search.js?v=1.2.37-abhor1"></script>
+<script src="js/language-book-data.js?v=1.2.35"></script>
+<script src="js/production-candidate-data.js?v=1.0.1"></script><script src="js/search.js?v=1.2.38-production008"></script>
   </body>
 </html>

@@ -56,6 +56,7 @@ test('Search aliases and dictionary card expose the candidate with correct trans
  for(const q of ['aberrant','err','error','erreur','讹','错讹','errāre','errare']){assert.equal(api.lookup(d,q).entry.id,e.id,q);assert.equal(api.lookup(d,q).entry.page,'words/aberrant.html');}
  const els={dictSearch:{value:'aberrant'},dictMessage:{},dictionaryGrid:{}};
  const ctx={window:{},document:{getElementById:id=>els[id],addEventListener:()=>{}},UnilanguageData:{...api,loadDataset:async()=>d}};
+ ctx.UnilanguageCandidates = {...require('../js/production-candidate-data.js'), loadSources:async()=>({dataset:await ctx.UnilanguageData.loadDataset(),corpus:{batch_id:'PRODUCTION-CANDIDATE-001',records:[]}})};
  vm.runInNewContext(fs.readFileSync('js/search.js','utf8'),ctx);await ctx.window.filterDictionary();const out=els.dictionaryGrid.innerHTML;
  assert.match(out,/ABERRANT ↔ 讹 <small>é<\/small> · 反常的／偏离常规的/);assert.match(out,/Standard translation · 通用翻译：<\/strong> 反常的／偏离常规的/);assert.match(out,/words\/aberrant.html/);assert.match(out,/ERROR/);
  for(const id of ['literature','basic-meaning','multilingual','etymology','mapping','justification','protocol','utp','examples','community','references'])assert.ok(page.includes('id="'+id+'"'));

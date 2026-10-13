@@ -1,7 +1,8 @@
 (function () {
   "use strict";
   const ui = { form: document.querySelector("#mapperForm"), input: document.querySelector("#mapperInput"), state: document.querySelector("#mapperState"), result: document.querySelector("#mapperResult"), version: document.querySelector("#datasetVersion"), languageGroups: document.querySelector("#languageBrowseGroups") };
-  let dataset;
+  let dataset, sources;
+  const production = globalThis.UnilanguageCandidates;
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
   const localized = (value) => value ? `${escapeHtml(value.en)}<span lang="zh-Hans">${escapeHtml(value["zh-Hans"])}</span>` : "Unknown · 未知";
   const layer = (letter, title, description, content) => `<section class="classification-layer"><div class="layer-label">${letter}</div><div class="layer-content"><h3>${title}</h3><p class="layer-description">${description}</p>${content}</div></section>`;
@@ -120,33 +121,55 @@
   function renderUnknown(query, suggestions) {
     ui.result.hidden = true;
     const buttons = suggestions.length ? `<div class="suggestions">${suggestions.map((entry) => `<button type="button" data-query="${escapeHtml(entry.primary_mapping.source.word)}">${escapeHtml(entry.primary_mapping.source.word)}</button>`).join("")}</div>` : "";
-    ui.state.innerHTML = `<div class="empty-state"><p class="mapper-kicker">No schema or classified word record · 暂无 schema／分类词条</p><h2>“${escapeHtml(query)}” is not in dataset v${escapeHtml(dataset.dataset_version)}.</h2><p>No result is generated from missing data. · 不根据缺失数据临时生成结论。</p>${buttons}</div>`;
+    ui.state.innerHTML = `<div class="empty-state"><p class="mapper-kicker">No schema or classified word record · 暂无 schema／分类词条</p><h2>No active production candidate or Language Book record for “${escapeHtml(query)}”.</h2><p>No result is generated from missing data. Pending research objects outside Active Corpus are not resolved here or promoted. · 缺失数据不生成结论；Active 以外的 Pending 研究对象不在此升级。</p>${buttons}</div>`;
     ui.state.querySelectorAll("[data-query]").forEach((button) => button.addEventListener("click", () => runLookup(button.dataset.query)));
   }
 
   function renderLanguageBrowse() {
-    const groups = UnilanguageData.languageForms(dataset);
-    ui.languageGroups.innerHTML = groups.map((group) => `<section class="language-group" aria-labelledby="language-${escapeHtml(group.code)}"><h3 id="language-${escapeHtml(group.code)}"><span>${escapeHtml(group.label)}</span><small>${escapeHtml(group.sortLabel)}</small></h3><div class="language-form-list">${group.forms.map((form) => `<button type="button" data-language-form="${escapeHtml(form.term)}" title="${escapeHtml(form.role)} · ${escapeHtml(form.slug)}">${escapeHtml(form.term)}</button>`).join("")}</div></section>`).join("");
+    const groups = dataset ? UnilanguageData.languageForms(dataset) : [];
+    // Existing browse forms use the same resolver as typed queries. Add independent source identities.
+    for (const record of production.activeRecords(sources.corpus)) {
+      const code = ({English:"en", French:"fr"})[record.baseline_record?.source_language];
+      const group = groups.find(g => g.code === code);
+      if (group && !group.forms.some(f => UnilanguageData.normalize(f.term) === UnilanguageData.normalize(record.source_word)))
+        group.forms.push({term:record.source_word, role:"production candidate", slug:record.candidate_id});
+    }
+    for (const group of groups.filter(g => g.code !== "zh-Hans")) group.forms.sort((a,b) => a.term.localeCompare(b.term, group.code));
+    ui.languageGroups.innerHTML = groups.map((group) => `<section class="language-group" aria-labelledby="language-${escapeHtml(group.code)}"><h3 id="language-${escapeHtml(group.code)}"><span>${escapeHtml(group.label)}</span><small>${escapeHtml(group.sortLabel)}</small></h3><div class="language-form-list">${group.forms.map((form) => `<button type="button" data-language-form="${escapeHtml(form.term)}" title="${escapeHtml(production.resolve(dataset, sources.corpus, form.term).candidateId || form.slug)} · ${escapeHtml(form.role)}">${escapeHtml(form.term)}</button>`).join("")}</div></section>`).join("");
     ui.languageGroups.querySelectorAll("[data-language-form]").forEach((button) => button.addEventListener("click", () => runLookup(button.dataset.languageForm)));
   }
 
-  function runLookup(raw) {
+
+  function runLookup(raw, selection = {}) {
     const query = String(raw ?? ui.input.value).trim(); ui.input.value = query;
-    if (!query) { ui.result.hidden = true; ui.state.innerHTML = '<div class="empty-state"><p>Enter a recorded form. · 请输入已记录形式。</p></div>'; return; }
-    const result = UnilanguageData.lookup(dataset, query); if (result.kind === "exact") renderEntry(result.entry); else renderUnknown(query, result.suggestions);
-    const url = new URL(window.location.href); url.searchParams.set("q", query); history.replaceState(null, "", url);
+    const result = production.resolve(dataset, sources.corpus, query, selection);
+    ui.result.hidden = true; ui.result.innerHTML = ""; ui.state.innerHTML = "";
+    if (result.kind === "candidate") {
+      ui.result.hidden = false; ui.result.innerHTML = production.renderCandidate(result.entry);
+      if (result.related.length) ui.result.innerHTML += `<details><summary>Related Language Book records · 关联旧词条</summary>${production.renderChoices(result.related,query)}</details>`;
+    } else if (result.kind === "legacy") {
+      renderEntry(result.entry); ui.result.innerHTML = production.legacyNotice(result.entry, query) + ui.result.innerHTML;
+      if (result.matchType === "related-form-exact" && sources.corpus && !production.lookupCandidates(sources.corpus, query).candidates.length)
+        ui.result.innerHTML = `<p class="boundary">No active production candidate for “${escapeHtml(query)}”. · 此查询无 Active 生产候选；旧词条状态不代表此研究对象已批准。</p>` + ui.result.innerHTML;
+    } else if (result.kind === "ambiguous") ui.state.innerHTML = production.renderChoices(result.choices, query);
+    else if (result.kind === "invalid-identity") ui.state.innerHTML = '<div class="empty-state"><h2>Recorded identity unavailable · 指定身份不可用</h2><p>No substitution is made for this domain / ID. · 不替换成其他词条。</p></div>';
+    else if (result.kind === "empty") ui.state.innerHTML = '<div class="empty-state"><p>Enter a recorded form. · 请输入已记录形式。</p></div>';
+    else renderUnknown(query, result.suggestions);
+    ui.state.insertAdjacentHTML("afterbegin", production.availability(sources));
+    const identity = sources.candidateError && !selection.domain ? {} : ["candidate","legacy"].includes(result.kind) ? result : selection;
+    const url = new URL(production.mapperUrl(query, identity), window.location.href); history.replaceState(null, "", url);
   }
 
   async function init() {
     try {
-      dataset = await UnilanguageData.loadDataset();
-      const published = dataset.entries.filter((entry) => entry.entry_status === "Published").length;
-      const candidates = dataset.entries.filter((entry) => entry.mapping_status === "Candidate").length;
-      ui.version.textContent = `Dataset v${dataset.dataset_version} · Entry Schema ${dataset.schema_version} · ${published} published entries / ${candidates} candidate mappings`;
+      sources = await production.loadSources(); dataset = sources.dataset;
+      const published = (dataset?.entries || []).filter(entry => entry.entry_status === "Published").length;
+      ui.version.textContent = `Language Book v${dataset?.dataset_version || "unavailable"} · ${published} published entries · ${sources.corpus ? production.activeRecords(sources.corpus).length : "unavailable"} separate production candidates (candidate / not_published)`;
       renderLanguageBrowse();
-      ui.form.addEventListener("submit", (event) => { event.preventDefault(); runLookup(); });
-      const query = new URL(window.location.href).searchParams.get("q"); runLookup(query || "at");
-    } catch (error) { ui.state.innerHTML = `<div class="empty-state error"><h2>Dataset unavailable · 数据暂不可用</h2><p>${escapeHtml(error.message)}</p></div>`; }
+      ui.form.addEventListener("submit", event => { event.preventDefault(); runLookup(); });
+      const params = new URL(window.location.href).searchParams;
+      runLookup(params.has("q") ? params.get("q") : "at", {domain:params.get("domain"), candidateId:params.get("candidateId"), legacyId:params.get("legacyId")});
+    } catch (error) { ui.result.hidden = true; ui.state.innerHTML = `<div class="empty-state error"><h2>Dataset unavailable · 数据暂不可用</h2><p>${escapeHtml(error.message)}</p></div>`; }
   }
   init();
 })();

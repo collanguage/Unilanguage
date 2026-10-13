@@ -42,14 +42,15 @@ test('generated ABHOR reader matches shared renderer, original research outside 
 test('Dictionary summary uses standard identity and never labels fire as translation',async()=>{
   const elements={dictionaryGrid:{innerHTML:''},dictSearch:{value:'abhor',addEventListener(){}},dictMessage:{textContent:''}};
   const context={UnilanguageData:{...api,loadDataset:async()=>dataset},UnilanguageAbhorReader:reader,window:{},document:{getElementById:id=>elements[id]||null,addEventListener(){}}};
-  vm.runInNewContext(text('js/search.js'),context);await context.window.filterDictionary();
+  context.UnilanguageCandidates = {...require('../js/production-candidate-data.js'), loadSources:async()=>({dataset:await context.UnilanguageData.loadDataset(),corpus:{batch_id:'PRODUCTION-CANDIDATE-001',records:[]}})};
+ vm.runInNewContext(text('js/search.js'),context);await context.window.filterDictionary();
   const out=elements.dictionaryGrid.innerHTML;
   assert.match(out,/Modern Standard Mapping: 恶 wù/);assert.match(out,/HORRĒRE → 骇 hài/);
   assert.match(out,/作者方言观察：火 huǒ · Author-attested · Independent evidence Pending/);
   assert.doesNotMatch(out,/Standard translation[^<]*火|<h2>[^<]*Featured: 火/);
 });
 test('shared renderer changes are only the bounded ABHOR branch and cache hooks',()=>{
-  const strip=s=>s.replace(/    \/\/ ABHOR-READER:START\n[\s\S]*?    \/\/ ABHOR-READER:END\n/,'')
+  const strip=s=>require('./production-008-mapper-compat.cjs').beforeMapperIntegration(s).replace(/    \/\/ ABHOR-READER:START\n[\s\S]*?    \/\/ ABHOR-READER:END\n/,'')
     .replace(/\/\* ABHOR-READER:START \*\/.*?\/\* ABHOR-READER:END \*\/ /g,'')
     .replace(/<!-- ABHOR-READER:START -->[\s\S]*?<!-- ABHOR-READER:END -->\n/g,'')
     .replace(/(js\/(?:search|semantic-mapper)\.js\?v=1\.2\.37)-abhor1/g,'$1');

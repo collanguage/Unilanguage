@@ -91,6 +91,7 @@ test('Aliases resolve to the single recalibrated entry and public word page',()=
 test('Dictionary rendered card names 瘪 as featured and never as standard translation',async()=>{
  const elements={dictSearch:{value:'abbreviate'},dictMessage:{},dictionaryGrid:{}};
  const context={window:{},document:{getElementById:id=>elements[id],addEventListener:()=>{}},UnilanguageData:{...api,loadDataset:async()=>data}};
+ context.UnilanguageCandidates = {...require('../js/production-candidate-data.js'), loadSources:async()=>({dataset:await context.UnilanguageData.loadDataset(),corpus:{batch_id:'PRODUCTION-CANDIDATE-001',records:[]}})};
  vm.runInNewContext(fs.readFileSync(path.join(root,'js/search.js'),'utf8'),context);
  await context.window.filterDictionary();
  const out=elements.dictionaryGrid.innerHTML;
