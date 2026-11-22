@@ -45,6 +45,11 @@
     const candidates = records.filter(r => candidateForms(r).includes(term));
     const primary = visible.filter(e => primaryForms(e).includes(term));
     const aliases = visible.filter(e => legacy.searchableForms(e).includes(term));
+    // Some recorded language forms are not duplicated in search_terms. Use
+    // them as a fallback while preserving primary and production precedence.
+    const recorded = visible.filter(e => (e.languages || []).some(form =>
+      [form.word, ...String(form.word ?? "").split(/[／/]/)].map(normalize).includes(term)));
+    const related = aliases.length ? aliases : recorded;
     const candidateChoice = r => ({domain: "candidate", candidateId: r.candidate_id, entry: r,
       matchType: [r.source_word, r.normalized_form].map(normalize).includes(term) ? "source-exact" : "retained-exact"});
     const legacyChoice = e => ({domain: "legacy", legacyId: e.id, entry: legacy.queryView(e, term),
@@ -53,24 +58,26 @@
     if (!term) return {...result, kind: "empty"};
     if (selection.domain) {
       const chosen = selection.domain === "candidate" ? candidates.find(r => r.candidate_id === selection.candidateId)
-        : selection.domain === "legacy" ? aliases.find(e => e.id === selection.legacyId) : null;
+        : selection.domain === "legacy" ? [...primary, ...aliases, ...recorded].find(e => e.id === selection.legacyId) : null;
       if (!chosen) return {...result, kind: "invalid-identity"};
       const choice = selection.domain === "candidate" ? candidateChoice(chosen) : legacyChoice(chosen);
-      return {...result, ...choice, kind: choice.domain, related: selection.domain === "candidate" ? aliases.map(legacyChoice) : []};
+      return {...result, ...choice, kind: choice.domain, related: selection.domain === "candidate" ? related.map(legacyChoice) : []};
     }
     const source = candidates.filter(r => [r.source_word, r.normalized_form].map(normalize).includes(term));
     // A source candidate outranks a legacy alias, but primary/retained conflicts require a choice.
     const choices = source.length ? [...source.map(candidateChoice), ...primary.map(legacyChoice)]
       : candidates.length ? [...candidates.map(candidateChoice), ...primary.map(legacyChoice)]
-      : (primary.length ? primary : aliases).map(legacyChoice);
+      : (primary.length ? primary : related).map(legacyChoice);
     if (choices.length > 1) return {...result, kind: "ambiguous", choices};
     if (choices.length === 1) return {...result, ...choices[0], kind: choices[0].domain,
-      related: choices[0].domain === "candidate" ? aliases.map(legacyChoice) : []};
+      related: choices[0].domain === "candidate" ? related.map(legacyChoice) : []};
     return {...result, suggestions: dataset ? legacy.lookup(dataset, query).suggestions : []};
   }
 
   function mapperUrl(query, identity = {}) {
     const params = new URLSearchParams({q: String(query ?? "")});
+    const language = globalThis.UnilanguageInterface?.language;
+    if (language) params.set("ui", language);
     if (identity.domain) params.set("domain", identity.domain);
     if (identity.candidateId) params.set("candidateId", identity.candidateId);
     if (identity.legacyId) params.set("legacyId", identity.legacyId);
