@@ -729,3 +729,16 @@ footer{
 .symbol-preview span { z-index:1; }
 .symbol-preview[data-relation="above"] span { transform:translateY(-43px); }
 .symbol-preview[data-relation="beside"] span { transform:translateX(49px); }
+
+.book-visually-hidden {
+  position:absolute;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  clip-path:inset(50%);
+  white-space:nowrap;
+}
+.symbol-preview[hidden] { display:none; }
+#symbol-unavailable { margin-top:16px; }
+
+.book-v1 .book-guides { list-style:none; margin-bottom:16px; }
