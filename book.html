@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Language Book · Unilanguage</title>
+<title>Language Book Explorer · Unilanguage</title>
 <link rel="stylesheet" href="css/style.css">
+<script defer src="js/language-book-data.js"></script>
+<script defer src="js/book-explorer.js"></script>
 </head>
 
-<body>
+<body class="book-v1">
+<a class="book-skip" href="#main">Skip to content</a>
 
 <header>
   <div class="logo">
@@ -18,26 +21,73 @@
     </div>
   </div>
 
-  <div class="lang">
+  <nav class="book-nav" aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <span>|</span>
     <a href="search.html">Search</a>
-    <span>|</span>
     <a href="dictionary.html">Dictionary</a>
-    <span>|</span>
     <a href="graph.html">Graph</a>
-    <span>|</span>
     <a href="protocol.html">Protocol</a>
-    <span>|</span>
-    <a href="hypothesis-lab.html">Hypothesis Lab · 假说实验室</a>
-  </div>
+    <a href="hypothesis-lab.html">Hypothesis Lab · <span lang="zh-Hans">假说实验室</span></a>
+  </nav>
 </header>
 
-<main class="page">
+<main class="page" id="main" tabindex="-1">
 
   <section class="page-title">
-    <h1>Language Book</h1>
-    <p>语言书 · vocabulary, etymology, semantic mapping, protocol rules and literary explanation.</p>
+    <h1>Language Book Explorer</h1>
+    <p><span lang="zh-Hans">语言书</span> · Vocabulary, etymology, semantic mapping, protocol rules and literary explanation.</p>
+  </section>
+
+  <section class="panel book-section" id="explorer" aria-labelledby="explorer-title">
+    <h2 id="explorer-title">Search and compare</h2>
+    <p>Find recorded English, Chinese and French forms. Compare their meanings, proposed mappings and evidence side by side.</p>
+    <p id="book-status" role="status"></p>
+    <div id="book-controls" hidden>
+      <div class="book-fields" role="search" aria-label="Language Book search">
+        <div>
+          <label for="book-query">Word or recorded form</label>
+          <input type="search" id="book-query" placeholder="sky, 天空, ciel" autocomplete="off">
+        </div>
+        <div>
+          <label for="book-language">Search language</label>
+          <select id="book-language">
+            <option value="">All languages and aliases</option>
+            <option value="en" lang="en">English</option>
+            <option value="zh-Hans" lang="zh-Hans">中文</option>
+            <option value="fr" lang="fr">Français</option>
+          </select>
+        </div>
+      </div>
+      <details class="book-matches">
+        <summary>Matching records</summary>
+        <p>Choose a record to place it on the left.</p>
+        <ul id="book-results"></ul>
+      </details>
+      <div class="book-fields" aria-label="Semantic comparison" role="group">
+        <div>
+          <label for="book-left">Left record</label>
+          <select id="book-left"><option value="">Choose a record</option></select>
+        </div>
+        <div>
+          <label for="book-right">Right record</label>
+          <select id="book-right"><option value="">Choose a record</option></select>
+        </div>
+      </div>
+      <div id="book-comparison" class="book-list"></div>
+    </div>
+    <noscript><p>Interactive comparison requires JavaScript. <a href="dictionary.html">Browse the Dictionary</a> or read the published entries below.</p></noscript>
+  </section>
+
+  <section class="panel book-section" aria-labelledby="learning-title">
+    <h2 id="learning-title">Learn with Unilanguage</h2>
+    <nav class="book-nav" aria-label="Learning">
+      <a href="semantic-mapper.html">Semantic Mapper</a>
+      <a href="protocol.html">Protocol Book</a>
+      <a href="translation-protocol.html">UTP Lab</a>
+      <a href="graph.html">Knowledge Graph</a>
+      <a href="evidence-and-references.html">Evidence and references</a>
+      <a href="space-language.html">Space Language Initiative</a>
+    </nav>
   </section>
 
   <section class="cards">
@@ -195,121 +245,6 @@
 <footer>
   <p>Unilanguage Protocol v1.0 · Language Book</p>
 </footer>
-
-<style>
-.book-section,
-.sample-entry{
-  max-width:1180px;
-  margin:42px auto 0;
-  padding:38px;
-}
-
-.book-section h2,
-.sample-entry h2{
-  font-family:Georgia,serif;
-  color:#ffd46b;
-  font-size:34px;
-  margin-bottom:28px;
-}
-
-.book-list{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:22px;
-}
-
-.book-item{
-  padding:24px;
-  border-radius:18px;
-  border:1px solid rgba(0,170,255,.35);
-  background:rgba(0,40,100,.32);
-}
-
-.book-item strong{
-  display:block;
-  font-size:20px;
-  color:white;
-  margin-bottom:10px;
-}
-
-.book-item p{
-  color:#c8d9ff;
-  line-height:1.7;
-}
-
-.entry-head{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:20px;
-  border-bottom:1px solid rgba(255,255,255,.1);
-  padding-bottom:18px;
-  margin-bottom:24px;
-}
-
-.entry-head h3{
-  font-family:Georgia,serif;
-  font-size:40px;
-  color:white;
-}
-
-.entry-head p{
-  color:#c8d9ff;
-  margin-top:6px;
-}
-
-.entry-head span{
-  color:#061225;
-  background:#d4af37;
-  padding:10px 18px;
-  border-radius:20px;
-  font-weight:700;
-}
-
-.literary{
-  font-size:21px;
-  line-height:1.8;
-  color:#f2e6c8;
-  margin-bottom:28px;
-  font-family:Georgia,serif;
-}
-
-.entry-grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:18px;
-  margin-bottom:28px;
-}
-
-.entry-grid div{
-  padding:20px;
-  border-radius:16px;
-  border:1px solid rgba(0,170,255,.28);
-  background:rgba(0,40,100,.24);
-}
-
-.entry-grid strong{
-  display:block;
-  color:#ffd46b;
-  margin-bottom:8px;
-}
-
-.entry-grid p{
-  color:#d8e6ff;
-}
-
-@media(max-width:900px){
-  .book-list,
-  .entry-grid{
-    grid-template-columns:1fr;
-  }
-
-  .entry-head{
-    flex-direction:column;
-    align-items:flex-start;
-  }
-}
-</style>
 
 </body>
 </html>
