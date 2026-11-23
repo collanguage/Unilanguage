@@ -42,6 +42,7 @@ async function run() {
     await page.locator(".reader-guide").getByText("探索 Unilanguage", { exact: true }).waitFor();
     await navigation.getByRole("link", { name: "学习导览", exact: true }).click();
     await page.waitForURL("**/book.html?ui=zh-Hans#learning-title");
+    await page.locator(".reader-original").getByText(/浏览器操作界面为英文/).waitFor();
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
 
     await page.locator(".book-guides").getByRole("link", { name: /Protocol Book/ }).click();
@@ -73,13 +74,60 @@ async function run() {
     assert.equal(new URL(page.url()).searchParams.get("legacyId"), result.searchParams.get("legacyId"));
 
     await navigation.getByRole("link", { name: "航天共通语言计划", exact: true }).click();
-    await page.getByRole("heading", { name: /共通符号创造实验室/ }).waitFor();
-    await page.getByRole("combobox", { name: /拟表达的关系/ }).selectOption("inside");
-    await page.getByRole("combobox", { name: /标记/ }).selectOption("▲");
-    assert.match(await page.locator('#symbol-description [lang="zh-Hans"]').innerText(), /三角形在方框内部/);
-    assert.match(await page.locator('#symbol-description [lang="en"]').innerText(), /Triangle inside a frame/);
-    await page.setViewportSize({ width: 1280, height: 900 });
-    await navigation.getByRole("button", { name: "English" }).click();
+    const english = navigation.getByRole("button", { name: "English" });
+    const relation = page.locator("#symbol-relation");
+    const mark = page.locator("#symbol-mark");
+    const status = page.getByRole("status");
+    await page.getByRole("heading", { name: "航天共通语言计划", exact: true }).waitFor();
+    await page.getByRole("navigation", { name: "主导航", exact: true }).waitFor();
+    const contents = page.getByRole("navigation", { name: "计划页面目录", exact: true });
+    await contents.getByRole("link", { name: "共同研究与讨论", exact: true }).waitFor();
+    assert.match(await page.title(), /^航天共通语言计划/);
+    assert.equal(await page.locator("html").getAttribute("lang"), "zh-Hans");
+    const chineseRelation = page.getByRole("combobox", { name: "拟表达的关系", exact: true });
+    await chineseRelation.selectOption("inside");
+    await page.getByRole("combobox", { name: "标记", exact: true }).selectOption("▲");
+    assert.deepEqual(await relation.locator("option").allTextContents(), ["上方", "内部", "旁侧"]);
+    assert.deepEqual(await mark.locator("option").allTextContents(), ["圆点", "三角形", "十字形"]);
+    assert.match(await status.innerText(), /三角形在方框内部/);
+    assert.doesNotMatch(await status.innerText(), /Triangle/);
+    const chineseTree = await page.locator("main").ariaSnapshot();
+    assert.match(chineseTree, /请选择空间关系和标记/);
+    assert.match(chineseTree, /无需注册或提交资料/);
+    assert.match(chineseTree, /楔形文字字符表（英文原件）/);
+    assert.doesNotMatch(chineseTree, /Community Research|Choose a relation|Keep notes offline|Cuneiform chart/);
+    for (const width of [320, 390, 1280]) {
+      await page.setViewportSize({ width, height: 844 });
+      for (const code of ["en", "zh-Hans"]) {
+        const button = code === "en" ? english : chinese;
+        await button.focus();
+        await page.keyboard.press("Enter");
+        assert.equal(await button.getAttribute("aria-pressed"), "true");
+        assert.equal(await page.locator("html").getAttribute("lang"), code);
+        assert.ok(await page.evaluate(() => document.documentElement.scrollWidth === innerWidth));
+      }
+    }
+    await relation.evaluate((select) => {
+      select.selectedIndex = -1;
+      select.dispatchEvent(new Event("change"));
+    });
+    assert.match(await status.innerText(), /^无法显示预览/);
+    await english.click();
+    assert.match(await status.innerText(), /^Preview unavailable/);
+    assert.doesNotMatch(await status.innerText(), /无法显示预览/);
+    await page.getByRole("navigation", { name: "Initiative sections", exact: true }).waitFor();
+    await page.getByRole("combobox", { name: "Proposed relation", exact: true }).selectOption("inside");
+    assert.equal(await mark.inputValue(), "▲");
+    assert.match(await status.innerText(), /Triangle inside a frame/);
+    assert.deepEqual(await relation.locator("option").allTextContents(), ["Above", "Inside", "Beside"]);
+    const englishTree = await page.locator("main").ariaSnapshot();
+    assert.match(englishTree, /Choose a relation and a marker/);
+    assert.match(englishTree, /Keep notes offline/);
+    assert.match(englishTree, /Cuneiform chart/);
+    assert.doesNotMatch(englishTree, /共同研究与讨论|请选择空间关系和标记|英文原件/);
+    await page.reload();
+    assert.equal(await english.getAttribute("aria-pressed"), "true");
+    await page.getByRole("heading", { name: "Space Language Initiative", exact: true }).waitFor();
     await navigation.getByRole("link", { name: "Home", exact: true }).click();
     assert.equal(new URL(page.url()).searchParams.get("ui"), "en");
     await page.locator(".reader-guide").getByText("Explore Unilanguage", { exact: true }).waitFor();
@@ -89,8 +137,13 @@ async function run() {
     await withoutScripts.locator(".reader-guide").getByText("Explore Unilanguage", { exact: true }).waitFor();
     await withoutScripts.locator(".reader-guide").getByText("探索 Unilanguage", { exact: true }).waitFor();
     assert.equal(await withoutScripts.getByRole("button", { name: "简体中文" }).count(), 0);
+    await withoutScripts.goto(base + "/space-language.html?ui=zh-Hans");
+    await withoutScripts.getByRole("heading", { name: /Space Language Initiative.*航天共通语言计划/ }).waitFor();
+    await withoutScripts.getByText(/如果无法使用控件/).waitFor();
+    await withoutScripts.getByText(/If the controls are unavailable/).waitFor();
+    assert.equal(await withoutScripts.getByRole("combobox").count(), 0);
     assert.ok(requests.every((request) => request.startsWith(base)));
-    console.log("PASS: keyboard language selection, reader interface routes, nested archive, French Mapper lookup and reload, mobile and desktop layouts, bilingual Space Initiative, no-script fallback.");
+    console.log("PASS: keyboard language selection, reader interface routes, nested archive, French Mapper lookup and reload, mobile and desktop layouts, fully localized Space Initiative with accessible options and feedback, no-script bilingual fallback.");
   } finally {
     if (browser) await browser.close();
     server.close();

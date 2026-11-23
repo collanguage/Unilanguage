@@ -3,6 +3,9 @@
 
   const buttons = document.querySelectorAll("[data-reader-language]");
   const picker = document.querySelector(".reader-language");
+  const root = document.documentElement;
+  const fullPage = root.hasAttribute("data-reader-full-page");
+  const translatedText = document.querySelectorAll("[data-reader-en][data-reader-zh]");
   const validLanguages = new Set(["en", "zh-Hans"]);
   const preferenceKey = "unilanguage-reader-language";
   let language;
@@ -16,7 +19,7 @@
     } catch {
       // The URL carries the preference when storage is unavailable.
     }
-    return null;
+    return fullPage ? "en" : null;
   }
 
   function updateLink(anchor) {
@@ -39,7 +42,13 @@
   }
 
   function apply() {
-    document.documentElement.dataset.readerLanguage = language || "";
+    root.dataset.readerLanguage = language || "";
+    if (fullPage) root.lang = language;
+    for (const element of translatedText) {
+      const text = language === "zh-Hans" ? element.dataset.readerZh : element.dataset.readerEn;
+      if (element.textContent !== text) element.textContent = text;
+      element.lang = language;
+    }
     for (const button of buttons) {
       button.setAttribute("aria-pressed", String(button.dataset.readerLanguage === language));
     }

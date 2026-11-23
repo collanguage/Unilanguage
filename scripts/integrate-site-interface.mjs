@@ -8,7 +8,10 @@ const destinations = [
   ["book.html#learning-title", "Learning", "学习导览"],
   ["space-language.html", "Space Language Initiative", "航天共通语言计划"],
 ];
-const bilingualPages = new Set(["book.html", "space-language.html"]);
+const bookScope = [
+  "The language setting applies to the shared navigation. The Explorer controls are in English, and entry and source text retain their recorded languages.",
+  "语言设置适用于共享导航。浏览器操作界面为英文，词条和来源文字保留收录时的语言。",
+];
 
 function escapeHtml(value) {
   const entities = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" };
@@ -61,7 +64,9 @@ export function integrateSiteInterface(name, html) {
     ? '<aside class="reader-guide" aria-labelledby="reader-guide-title"><p id="reader-guide-title"><strong>' +
       bilingual(...guide.heading) + '</strong></p><p>' + bilingual(...guide.text) + '</p></aside>'
     : "";
-  const notes = bilingualPages.has(name) ? "" : overview + originalMaterial(html);
+  const notes = name === "space-language.html" ? "" :
+    name === "book.html" ? '<p class="reader-original">' + bilingual(...bookScope) + '</p>' :
+    overview + originalMaterial(html);
   let output = html.replace(main[0], () => main[0] + navigation + notes);
   output = output.replace(/<\/head>/i, '<link rel="stylesheet" href="' + base + 'css/reader-interface.css">\n' +
     '<script defer src="' + base + 'js/reader-language.js"></script>\n</head>');

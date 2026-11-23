@@ -63,6 +63,8 @@
   clip-path: inset(50%);
   white-space: nowrap;
 }
+[data-reader-language="en"] [data-reader-copy][lang="zh-Hans"],
+[data-reader-language="zh-Hans"] [data-reader-copy][lang="en"],
 [data-reader-language="en"] [data-reader-text] > :is([lang="zh-Hans"], .reader-separator),
 [data-reader-language="zh-Hans"] [data-reader-text] > :is([lang="en"], .reader-separator) {
   display: none;
