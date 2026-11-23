@@ -81,17 +81,42 @@
         element("a", text, parent).href = href;
     }
 
+    function nonEmptyText(value) {
+        return typeof value === "string" && value.trim() ? value : "";
+    }
+
+    function recordedField(value) {
+        const text = nonEmptyText(value);
+        return /^(?:undefined|null|\[object Object\])$/i.test(text.trim()) ? "" : text;
+    }
+
+    function notRecorded() {
+        return t("Not recorded", "未记录");
+    }
+
     function statusLabel(value) {
-        return value ? t(value, statuses[value] ?? value) : t("Not recorded", "未记录");
+        const status = recordedField(value);
+        return status ? t(status, statuses[status] ?? status) : notRecorded();
+    }
+
+    function mappingLabel(source, target) {
+        return (source || notRecorded()) + " → " + (target || notRecorded());
+    }
+
+    function row(card, field, label, values) {
+        const paragraph = element("p", [label, ...values].join(" · "), card);
+        paragraph.dataset.bookField = field;
     }
 
     function recordedText(record, fallback = "") {
         const code = locale();
-        const value = record[code];
+        const value = nonEmptyText(record?.[code]);
+        const english = nonEmptyText(record?.en);
+        const chinese = nonEmptyText(record?.["zh-Hans"]);
         // Some Chinese slots repeat the English source verbatim.
-        const untranslated = code === "zh-Hans" && value === record.en && !/\p{Script=Han}/u.test(value || "");
+        const untranslated = code === "zh-Hans" && value === english && !/\p{Script=Han}/u.test(value || "");
         if (value && !untranslated) return { text: value, code };
-        return { text: record.en || record["zh-Hans"] || fallback, code: record.en ? "en" : "zh-Hans" };
+        return { text: english || chinese || fallback, code: english || !chinese ? "en" : "zh-Hans" };
     }
 
     function showResearch(record, parent) {
@@ -129,30 +154,50 @@
             if (!formsInLanguage.length) element("span", t("No recorded form", "未收录该语言的词形"), list);
             for (const form of formsInLanguage) {
                 const line = element("div", "", list);
-                element("span", form.word, line).lang = code;
-                if (form.pronunciation && form.pronunciation !== "unknown") line.append(" " + form.pronunciation);
-                const role = form.role.replaceAll("-", " ");
-                line.append(" · " + t(role, roles[form.role] ?? role));
+                const word = nonEmptyText(form.word);
+                if (word) element("span", word, line).lang = code;
+                else line.append(notRecorded());
+                const reading = recordedField(form.pronunciation);
+                if (reading && !/^(?:unknown|not recorded)$/i.test(reading)) line.append(" " + reading);
+                else if (/^not recorded$/i.test(reading)) line.append(" · " + t("Pronunciation not recorded", "读音未记录"));
+                const role = recordedField(form.role);
+                if (role) line.append(" · " + t(role.replaceAll("-", " "), roles[role] ?? role.replaceAll("-", " ")));
             }
         }
 
-        showResearch(entry.primary_mapping.gloss, card);
+        const primary = entry.primary_mapping;
+        showResearch(primary?.gloss, card);
         const translation = entry.standard_translation;
-        if (translation) {
-            element("p", t("Standard translation", "通用译义") + " · " + translation.source + " → " + translation.target + " · " + statusLabel(translation.status), card);
-        }
+        const translationStatus = recordedField(translation?.status) || recordedField(entry.translation_status);
+        const source = recordedField(translation?.source) || recordedField(primary?.source?.word);
+        // Legacy records with a separate translation status use the primary pair in the Mapper.
+        // An incomplete explicit translation must not borrow a possibly unrelated mapping target.
+        const target = recordedField(translation?.target) ||
+            (!translation && translationStatus ? recordedField(primary?.target?.word) : "");
+        const translationValues = target || recordedField(translation?.source)
+            ? [mappingLabel(source, target), statusLabel(translationStatus)]
+            : [notRecorded(), ...(translationStatus ? [statusLabel(translationStatus)] : [])];
+        row(card, "translation", t("Standard translation", "通用译义"), translationValues);
+
         const featured = entry.featured_mapping;
-        if (featured || entry.featured_mapping_status) {
-            const mapping = featured ? featured.source + " → " + featured.target + " · " : "";
-            element("p", t("Featured mapping", "精选映射") + " · " + mapping + statusLabel(featured?.status || entry.featured_mapping_status), card);
-        }
+        const featuredSource = recordedField(featured?.source);
+        const featuredTarget = recordedField(featured?.target);
+        const featuredStatus = recordedField(featured?.status) || recordedField(entry.featured_mapping_status);
+        const featuredValues = featuredSource || featuredTarget
+            ? [mappingLabel(featuredSource, featuredTarget), statusLabel(featuredStatus)]
+            : [statusLabel(featuredStatus)];
+        row(card, "featured", t("Featured mapping", "精选映射"), featuredValues);
+
         const structure = entry.semantic_structure;
-        element("p", t("Semantic structure", "语义结构") + " · " + structure.relation + " · " + statusLabel(structure.status), card);
-        element("p", [
+        row(card, "structure", t("Semantic structure", "语义结构"), [
+            recordedField(structure?.relation) || notRecorded(), statusLabel(structure?.status),
+        ]);
+        const grades = element("p", [
             t("Entry", "词条") + " · " + statusLabel(entry.entry_status),
             t("Mapping", "映射") + " · " + statusLabel(entry.mapping_status),
             t("Historical relation", "历史关系") + " · " + statusLabel(entry.historical_relation_status),
         ].join(" | "), card);
+        grades.dataset.bookField = "statuses";
         const evidence = element("details", "", card);
         evidence.open = evidenceOpen;
         element("summary", t("Evidence by category", "按类别查看证据"), evidence);
@@ -160,12 +205,15 @@
             "Each category has its own status and confidence. A candidate mapping does not establish a historical relation.",
             "各证据类别分别记录状态和置信度。候选映射不代表历史关系已经确立。",
         ), evidence);
-        for (const [category, record] of Object.entries(entry.evidence)) {
+        for (const [category, record] of Object.entries(entry.evidence ?? {})) {
             const group = element("section", "", evidence);
-            const grade = t(record.confidence + " confidence", "置信度：" + (confidence[record.confidence] ?? record.confidence));
-            element("h4", t(category, categories[category] ?? category) + " · " + statusLabel(record.status) + " · " + grade, group);
-            showResearch(record.summary, group);
-            const sources = data.resolveSources(entry, [...new Set(record.source_refs)]);
+            const recordedGrade = recordedField(record?.confidence);
+            const grade = recordedGrade
+                ? t(recordedGrade + " confidence", "置信度：" + (confidence[recordedGrade] ?? recordedGrade))
+                : t("Confidence: not recorded", "置信度：未记录");
+            element("h4", t(category, categories[category] ?? category) + " · " + statusLabel(record?.status) + " · " + grade, group);
+            showResearch(record?.summary, group);
+            const sources = data.resolveSources(entry, [...new Set(record?.source_refs ?? [])]);
             if (sources.length) {
                 element("p", t("Sources · Original titles", "来源 · 标题保留原文"), group);
                 const list = element("ul", "", group);
@@ -177,8 +225,11 @@
             }
         }
         link(t("Read Language Book entry", "阅读语言书词条"), entry.page, element("p", "", card));
-        const mapper = new URLSearchParams({ q: entry.primary_mapping.source.word });
-        link(t("Open in Semantic Mapper", "在语义映射器中打开"), "semantic-mapper.html?" + mapper, element("p", "", card));
+        const mapperSource = recordedField(primary?.source?.word);
+        if (mapperSource) {
+            const mapper = new URLSearchParams({ q: mapperSource });
+            link(t("Open in Semantic Mapper", "在语义映射器中打开"), "semantic-mapper.html?" + mapper, element("p", "", card));
+        }
     }
 
     function compare() {

@@ -213,6 +213,69 @@ async function run() {
     await failedBook.getByRole("status").filter({ hasText: /The Explorer could not load/ }).waitFor();
     await failedBook.locator("#book-recovery").getByRole("link", { name: "Browse the Dictionary" }).waitFor();
     await failedBook.close();
+    const scanBook = await browser.newPage();
+    await scanBook.goto(base + "/book.html?ui=zh-Hans");
+    const canonical = require("../data/language-book.v1.0.json").entries.filter(entry =>
+        entry.mapping_status !== "Rejected" && entry.classification_status !== "rejected");
+    const scanLeft = scanBook.locator("#book-left");
+    await scanLeft.waitFor();
+    assert.equal(await scanLeft.locator("option").count(), canonical.length + 1);
+    await scanBook.locator("#book-right").selectOption("");
+    const scannedFields = scanBook.locator("#book-comparison article [data-book-field], #book-comparison article details h4");
+    for (const [language, button] of [["zh-Hans", "简体中文"], ["en", "English"]]) {
+        await scanBook.getByRole("button", { name: button, exact: true }).click();
+        for (const entry of canonical) {
+            await scanLeft.selectOption(entry.id);
+            await scanBook.locator("#book-comparison details summary").click();
+            const fields = await scannedFields.allTextContents();
+            const fixedField = scanBook.locator('[data-book-field="translation"]');
+            const translation = entry.standard_translation;
+            if (translation?.target || entry.translation_status) {
+                const pair = (translation?.source || entry.primary_mapping.source.word) + " → " +
+                    (translation?.target || entry.primary_mapping.target.word);
+                assert.ok((await fixedField.innerText()).includes(pair), entry.slug + " translation pair");
+            }
+            assert.equal(fields.length, 4 + Object.keys(entry.evidence).length, entry.slug);
+            // Check generated fields and heading metadata, never archival summaries or source titles.
+            for (const field of fields) {
+                assert.doesNotMatch(field, /(?:^|[·→|]\s*)(?:undefined|null|\[object Object\])(?=\s*(?:[·→|]|$))/i,
+                    language + " " + entry.slug);
+            }
+            if (entry.slug === "above") {
+                assert.match(await fixedField.innerText(), /above → 在……上方 \/ 高于 \/ 超过（依关系与语境）/);
+            }
+            if (["abdominal", "abeyance"].includes(entry.slug)) {
+                assert.match(await fixedField.innerText(), language === "en" ? /Supported$/ : /有依据支持$/);
+            }
+        }
+    }
+    console.log("PASS: scanned " + canonical.length + " comparison records with evidence in both interface languages.");
+    await scanBook.close();
+
+    const sparseBook = await browser.newPage();
+    const sky = structuredClone(canonical.find(entry => entry.slug === "sky"));
+    sky.standard_translation = { source: sky.primary_mapping.source.word, target: null, status: {} };
+    sky.featured_mapping = { source: {}, target: "盖", status: null };
+    delete sky.featured_mapping_status;
+    sky.semantic_structure = { relation: {}, status: "Not applicable" };
+    sky.mapping_status = null;
+    sky.evidence.Historical.confidence = {};
+    await sparseBook.route("**/data/language-book.v1.0.json", route =>
+        route.fulfill({ json: { entries: [sky] } }));
+    await sparseBook.goto(base + "/book.html?ui=zh-Hans");
+    const sparse = sparseBook.locator("#book-comparison article");
+    await sparse.waitFor();
+    await sparse.locator("summary").click();
+    for (const [button, missing, notApplicable] of [["简体中文", "未记录", "不适用"], ["English", "Not recorded", "Not applicable"]]) {
+        await sparseBook.getByRole("button", { name: button, exact: true }).click();
+        assert.ok((await sparse.locator('[data-book-field="translation"]').innerText()).includes("sky → " + missing));
+        assert.ok((await sparse.locator('[data-book-field="featured"]').innerText()).includes(missing + " → 盖"));
+        assert.ok((await sparse.locator('[data-book-field="structure"]').innerText()).includes(missing + " · " + notApplicable));
+        assert.ok((await sparse.locator('[data-book-field="statuses"]').innerText()).includes(missing));
+        assert.match(await sparse.locator("h4").first().innerText(), button === "English" ? /Confidence: not recorded/ : /置信度：未记录/);
+    }
+    await sparseBook.close();
+
     const withoutScripts = await browser.newPage({ javaScriptEnabled: false });
     await withoutScripts.goto(base);
     await withoutScripts.locator(".reader-guide").getByText("Explore Unilanguage", { exact: true }).waitFor();
