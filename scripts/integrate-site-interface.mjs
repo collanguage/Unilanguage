@@ -9,8 +9,8 @@ const destinations = [
   ["space-language.html", "Space Language Initiative", "航天共通语言计划"],
 ];
 const bookScope = [
-  "The language setting applies to the shared navigation. The Explorer controls are in English, and entry and source text retain their recorded languages.",
-  "语言设置适用于共享导航。浏览器操作界面为英文，词条和来源文字保留收录时的语言。",
+  "The interface and learning guides follow your language selection. Recorded forms, source titles and research text without a translation remain in their original languages.",
+  "操作界面和学习导览随语言切换。已收录词形、来源标题及缺少译文的研究内容保留原文。",
 ];
 
 function escapeHtml(value) {

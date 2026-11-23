@@ -42,10 +42,75 @@ async function run() {
     await page.locator(".reader-guide").getByText("探索 Unilanguage", { exact: true }).waitFor();
     await navigation.getByRole("link", { name: "学习导览", exact: true }).click();
     await page.waitForURL("**/book.html?ui=zh-Hans#learning-title");
-    await page.locator(".reader-original").getByText(/浏览器操作界面为英文/).waitFor();
+    await page.locator(".reader-original").getByText(/操作界面和学习导览随语言切换/).waitFor();
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
 
-    await page.locator(".book-guides").getByRole("link", { name: /Protocol Book/ }).click();
+    const explorer = page.locator("#explorer");
+    const bookQuery = page.locator("#book-query");
+    const filter = page.locator("#book-language");
+    const left = page.locator("#book-left");
+    const right = page.locator("#book-right");
+    const bookStatus = page.locator("#book-status");
+    const resultButtons = page.locator("#book-results button");
+    await page.getByRole("searchbox", { name: "词或已收录形式", exact: true }).waitFor();
+    await page.getByRole("combobox", { name: "检索语言", exact: true }).waitFor();
+    assert.match(await page.title(), /^语言书浏览器/);
+    assert.equal(await page.locator("html").getAttribute("lang"), "zh-Hans");
+    assert.equal(await bookQuery.getAttribute("placeholder"), "例如：sky、天空、ciel");
+    for (const [code, value] of [["en", "sound"], ["zh-Hans", "天空"], ["fr", "ciel"]]) {
+        await filter.selectOption(code);
+        await bookQuery.fill(value);
+        assert.match(await bookStatus.innerText(), /条匹配词条/);
+        assert.ok(await resultButtons.count());
+    }
+    await resultButtons.first().focus();
+    await page.keyboard.press("Enter");
+    assert.equal(await page.evaluate(() => document.activeElement.id), "book-left");
+    const selected = [await left.inputValue(), await right.inputValue()];
+    assert.notEqual(selected[0], selected[1]);
+    const firstEvidence = page.locator("#book-comparison details").first();
+    await firstEvidence.locator("summary").click();
+    assert.match(await firstEvidence.innerText(), /历史 · 已确立 · 置信度：高/);
+    await firstEvidence.getByRole("link", { name: "Merriam-Webster Dictionary: sky", exact: true }).waitFor();
+    const englishPicker = navigation.getByRole("button", { name: "English" });
+    await englishPicker.focus();
+    await page.keyboard.press("Enter");
+    await page.getByRole("heading", { name: "Language Book Explorer", exact: true }).waitFor();
+    assert.match(await page.title(), /^Language Book Explorer/);
+    assert.equal(await page.locator("html").getAttribute("lang"), "en");
+    await page.getByRole("searchbox", { name: "Word or recorded form", exact: true }).waitFor();
+    await page.getByRole("combobox", { name: "Search language", exact: true }).waitFor();
+    assert.equal(await bookQuery.inputValue(), "ciel");
+    assert.equal(await filter.inputValue(), "fr");
+    assert.deepEqual([await left.inputValue(), await right.inputValue()], selected);
+    assert.equal(await firstEvidence.getAttribute("open"), "");
+    assert.match(await firstEvidence.innerText(), /Historical · Established · High confidence/);
+    for (const width of [320, 390, 1280]) {
+        await page.setViewportSize({ width, height: 844 });
+        for (const button of [chinese, englishPicker]) {
+            await button.click();
+            assert.ok(await page.evaluate(() => document.documentElement.scrollWidth === innerWidth));
+        }
+    }
+    await bookQuery.fill("ciel");
+    assert.match(await bookStatus.innerText(), /1 record/);
+    await bookQuery.fill("no-such-record");
+    assert.match(await bookStatus.innerText(), /No matching records/);
+    assert.equal(await resultButtons.count(), 0);
+    await right.selectOption("");
+    await explorer.getByText("Choose a right record to compare.", { exact: true }).waitFor();
+    await chinese.click();
+    assert.match(await bookStatus.innerText(), /没有匹配词条/);
+    await explorer.getByText("请选择右侧词条。", { exact: true }).waitFor();
+    await bookQuery.fill("above");
+    await filter.selectOption("en");
+    await resultButtons.first().click();
+    await firstEvidence.locator("summary").click();
+    await firstEvidence.getByText(/英文原文/).first().waitFor();
+    await page.reload();
+    await page.getByRole("heading", { name: "语言书浏览器", exact: true }).waitFor();
+    assert.equal(await chinese.getAttribute("aria-pressed"), "true");
+    await page.locator(".book-guides").getByRole("link", { name: "协议书", exact: true }).click();
     await page.getByRole("heading", { name: "语义协议", exact: true }).waitFor();
     await page.locator(".reader-guide").getByText(/可从「空间」一章/).waitFor();
     const chapter = page.locator('main a[href*="protocol.space.html"]').first();
@@ -54,7 +119,7 @@ async function run() {
     await page.getByText("页面原有资料", { exact: true }).waitFor();
     assert.match(await page.locator(".reader-original").innerText(), /原页面标注语言/);
     await navigation.getByRole("link", { name: "学习导览", exact: true }).click();
-    await page.locator(".book-guides").getByRole("link", { name: /UTP Lab/ }).click();
+    await page.locator(".book-guides").getByRole("link", { name: "翻译协议实验室", exact: true }).click();
     await page.getByRole("heading", { name: "翻译协议实验室", exact: true }).waitFor();
 
     await navigation.getByRole("link", { name: "语义映射器", exact: true }).click();
@@ -132,6 +197,22 @@ async function run() {
     assert.equal(new URL(page.url()).searchParams.get("ui"), "en");
     await page.locator(".reader-guide").getByText("Explore Unilanguage", { exact: true }).waitFor();
     assert.deepEqual(errors, []);
+    const failedBook = await browser.newPage();
+    let releaseDataset;
+    const pendingDataset = new Promise(resolve => { releaseDataset = resolve; });
+    await failedBook.route("**/data/language-book.v1.0.json", async route => {
+        await pendingDataset;
+        await route.fulfill({ status: 503 });
+    });
+    await failedBook.goto(base + "/book.html?ui=zh-Hans");
+    await failedBook.getByRole("status").filter({ hasText: "正在加载语言书…" }).waitFor();
+    releaseDataset();
+    await failedBook.getByRole("status").filter({ hasText: /无法加载语言书浏览器/ }).waitFor();
+    await failedBook.locator("#book-recovery").getByRole("link", { name: "浏览词典" }).waitFor();
+    await failedBook.getByRole("button", { name: "English" }).click();
+    await failedBook.getByRole("status").filter({ hasText: /The Explorer could not load/ }).waitFor();
+    await failedBook.locator("#book-recovery").getByRole("link", { name: "Browse the Dictionary" }).waitFor();
+    await failedBook.close();
     const withoutScripts = await browser.newPage({ javaScriptEnabled: false });
     await withoutScripts.goto(base);
     await withoutScripts.locator(".reader-guide").getByText("Explore Unilanguage", { exact: true }).waitFor();
@@ -142,8 +223,13 @@ async function run() {
     await withoutScripts.getByText(/如果无法使用控件/).waitFor();
     await withoutScripts.getByText(/If the controls are unavailable/).waitFor();
     assert.equal(await withoutScripts.getByRole("combobox").count(), 0);
+    await withoutScripts.goto(base + "/book.html?ui=zh-Hans");
+    await withoutScripts.getByRole("heading", { name: /Language Book Explorer.*语言书浏览器/ }).waitFor();
+    await withoutScripts.getByText(/Interactive search and comparison require JavaScript/).waitFor();
+    await withoutScripts.getByText(/交互检索和比较需要 JavaScript/).waitFor();
+    assert.equal(await withoutScripts.getByRole("searchbox").count(), 0);
     assert.ok(requests.every((request) => request.startsWith(base)));
-    console.log("PASS: keyboard language selection, reader interface routes, nested archive, French Mapper lookup and reload, mobile and desktop layouts, fully localized Space Initiative with accessible options and feedback, no-script bilingual fallback.");
+    console.log("PASS: bilingual Explorer search, comparison, evidence and recovery; keyboard language selection, reader interface routes, nested archive, French Mapper lookup and reload, mobile and desktop layouts, fully localized Space Initiative with accessible options and feedback, no-script bilingual fallback.");
   } finally {
     if (browser) await browser.close();
     server.close();

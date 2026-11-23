@@ -46,13 +46,15 @@
     if (fullPage) root.lang = language;
     for (const element of translatedText) {
       const text = language === "zh-Hans" ? element.dataset.readerZh : element.dataset.readerEn;
-      if (element.textContent !== text) element.textContent = text;
+      if (element.matches("input")) element.placeholder = text;
+      else if (element.textContent !== text) element.textContent = text;
       element.lang = language;
     }
     for (const button of buttons) {
       button.setAttribute("aria-pressed", String(button.dataset.readerLanguage === language));
     }
     updateLinks(document);
+    document.dispatchEvent(new Event("reader-language-change"));
   }
 
   function select(nextLanguage) {
