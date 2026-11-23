@@ -69,3 +69,33 @@
 [data-reader-language="zh-Hans"] [data-reader-text] > :is([lang="en"], .reader-separator) {
   display: none;
 }
+
+.reader-utilities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1rem;
+  min-width: 0;
+}
+
+[data-mapper-reader] .mapper-hero > *,
+[data-mapper-reader] .language-form-list button {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+[data-mapper-reader] .language-form-list button {
+  max-width: 100%;
+}
+
+@media (max-width: 680px) {
+  [data-mapper-reader] .mapper-form {
+    padding: clamp(12px, 4vw, 24px);
+  }
+  [data-mapper-reader] .entry-header h2 :is(small, .headline-translation) {
+    white-space: normal;
+  }
+  [data-mapper-reader] .mapper-result,
+  [data-mapper-reader] .empty-state {
+    overflow-wrap: anywhere;
+  }
+}

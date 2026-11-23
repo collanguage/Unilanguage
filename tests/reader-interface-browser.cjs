@@ -144,7 +144,7 @@ async function run() {
     const mark = page.locator("#symbol-mark");
     const status = page.getByRole("status");
     await page.getByRole("heading", { name: "航天共通语言计划", exact: true }).waitFor();
-    await page.getByRole("navigation", { name: "主导航", exact: true }).waitFor();
+    await page.getByRole("navigation", { name: "相关资源", exact: true }).waitFor();
     const contents = page.getByRole("navigation", { name: "计划页面目录", exact: true });
     await contents.getByRole("link", { name: "共同研究与讨论", exact: true }).waitFor();
     assert.match(await page.title(), /^航天共通语言计划/);
@@ -197,6 +197,42 @@ async function run() {
     assert.equal(new URL(page.url()).searchParams.get("ui"), "en");
     await page.locator(".reader-guide").getByText("Explore Unilanguage", { exact: true }).waitFor();
     assert.deepEqual(errors, []);
+    const auditPage = await browser.newPage({ viewport: { width: 320, height: 844 } });
+    const auditPages = ["index", "book", "space-language", "semantic-mapper", "protocol", "translation-protocol",
+        "hypothesis-lab", "dictionary", "search", "data-foundation", "evidence-and-references", "graph"];
+    for (const name of auditPages) {
+        const destination = base + "/" + name + ".html?ui=zh-Hans";
+        await auditPage.goto(destination + (name === "semantic-mapper" ? "&q=not-a-record" : ""));
+        await auditPage.locator('.reader-language button[aria-pressed="true"]').waitFor();
+        assert.match(await auditPage.title(), /\p{Script=Han}/u, name);
+        const destinations = await auditPage.locator("body > header nav a, .reader-navigation a").evaluateAll(links =>
+            links.map(link => { const url = new URL(link.href); return url.pathname + url.hash; }));
+        assert.equal(new Set(destinations).size, destinations.length, name + " duplicated navigation destination");
+        assert.equal(await auditPage.locator("main h1").count(), 1, name);
+        assert.equal(await auditPage.evaluate(() => document.documentElement.scrollWidth), 320, name);
+        if (name === "graph") await auditPage.getByRole("heading", { name: "知识图谱", exact: true }).waitFor();
+        if (name === "semantic-mapper") {
+            const missing = auditPage.locator("#mapperState h2");
+            await missing.getByText(/未找到与「not-a-record」匹配/).waitFor();
+            assert.match(await auditPage.locator("#datasetVersion").innerText(), /已发表词条/);
+            const frame = () => auditPage.locator(".mapper-hero").evaluate(el => el.scrollWidth <= el.clientWidth + 1);
+            for (const width of [320, 390, 1280]) {
+                await auditPage.setViewportSize({ width, height: 844 });
+                assert.ok(await frame(), "Mapper form overflow at " + width);
+            }
+            await auditPage.getByRole("button", { name: "English", exact: true }).click();
+            await missing.getByText(/No active production candidate or Language Book record/).waitFor();
+            assert.equal(await auditPage.locator("#mapperInput").inputValue(), "not-a-record");
+            await auditPage.getByRole("button", { name: "简体中文", exact: true }).click();
+            await auditPage.locator(".skip-link").focus();
+            await auditPage.keyboard.press("Enter");
+            assert.equal(await auditPage.evaluate(() => document.activeElement.id), "mapperForm");
+            await auditPage.setViewportSize({ width: 320, height: 844 });
+        }
+    }
+    console.log("PASS: audited 10 guided pages plus Book and Space at 320px, including Mapper languages and responsive lookup.");
+    await auditPage.close();
+
     const failedBook = await browser.newPage();
     let releaseDataset;
     const pendingDataset = new Promise(resolve => { releaseDataset = resolve; });

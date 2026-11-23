@@ -45,6 +45,7 @@
     root.dataset.readerLanguage = language || "";
     if (fullPage) root.lang = language;
     for (const element of translatedText) {
+      if (!language) continue;
       const text = language === "zh-Hans" ? element.dataset.readerZh : element.dataset.readerEn;
       if (element.matches("input")) element.placeholder = text;
       else if (element.textContent !== text) element.textContent = text;

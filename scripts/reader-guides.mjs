@@ -73,6 +73,7 @@ export const readerGuides = {
 };
 
 export const readerHeadings = {
+  "graph.html": ["Knowledge Graph", "知识图谱"],
   "protocol.html": ["Semantic Protocol", "语义协议"],
   "translation-protocol.html": ["UTP Lab", "翻译协议实验室"],
   "hypothesis-lab.html": ["Hypothesis Lab", "假说实验室"],
