@@ -71,9 +71,32 @@ function originalMaterial(html) {
     '</strong> ' + bilingual(...scope) + '</p>';
 }
 
+// Repair obsolete links in the published copy of archived pages.
+function repairArchiveLinks(name, html) {
+  if (["english.html", "chinese.html", "french.html"].includes(name)) {
+    return html.replace(/href="dictionary\.html#(language|human|universe)"/g, (_, entry) =>
+      'href="words/' + (entry === "human" ? "man" : entry) + '.html"');
+  }
+  if (name === "protocol/protocol.mapping-framework.html") {
+    return html.replaceAll("sky.html#sky-discovery", "sky.html#archive-sky-discovery")
+      .replaceAll("sky.html#sky-transformation", "sky.html#archive-sky-transformation")
+      .replaceAll("universe.html#etymology", "universe.html#historical");
+  }
+  if (name === "words/language.html") {
+    return html.replace('<a href="human.html">Human</a>', '<a href="man.html">Human</a>')
+      .replace('<a href="knowledge.html">Knowledge</a>', 'Knowledge')
+      .replace('<a href="time.html">Time</a>', 'Time');
+  }
+  if (name === "words/media.html") {
+    return html.replace('<a href="../protocol/protocol.meaning.html">Meaning Protocol</a>', 'Meaning Protocol');
+  }
+  return html;
+}
+
 // Add the reader interface to the publication copy without editing frozen research HTML.
 export function integrateSiteInterface(name, html) {
   if (!name.endsWith(".html") || name.startsWith("templates/") || html.includes("data-reader-navigation")) return html;
+  html = repairArchiveLinks(name, html);
   const main = html.match(/<main\b[^>]*>/i);
   if (!main || !/<\/head>/i.test(html)) return html;
   const prefix = path.posix.relative(path.posix.dirname(name), ".");
@@ -178,4 +201,14 @@ export function integrateMapperMessages(source) {
     '语言书版本：${escapeHtml(dataset?.dataset_version || "不可用")} · 已发表词条 ${published} 条 · 独立生产候选：${sources.corpus ? production.activeRecords(sources.corpus).length : "不可用"}（未发表）',
     mapperText,
   ));
+}
+
+
+// The legacy Search script is archived. Preserve the reader preference on its
+// built-in page shortcuts in the publication copy.
+export function integrateSearchNavigation(source) {
+  const original = "route ? route.page : production.mapperUrl(query)";
+  if (!source.includes(original)) throw new Error("Search shortcut changed");
+  return source.replace(original,
+    "route ? (globalThis.UnilanguageInterface?.url(route.page) ?? route.page) : production.mapperUrl(query)");
 }

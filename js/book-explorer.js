@@ -227,7 +227,7 @@
         link(t("Read Language Book entry", "阅读语言书词条"), entry.page, element("p", "", card));
         const mapperSource = recordedField(primary?.source?.word);
         if (mapperSource) {
-            const mapper = new URLSearchParams({ q: mapperSource });
+            const mapper = new URLSearchParams({ q: mapperSource, domain: "legacy", legacyId: entry.id });
             link(t("Open in Semantic Mapper", "在语义映射器中打开"), "semantic-mapper.html?" + mapper, element("p", "", card));
         }
     }

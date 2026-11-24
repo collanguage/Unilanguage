@@ -22,18 +22,24 @@
     return fullPage ? "en" : null;
   }
 
-  function updateLink(anchor) {
-    const href = anchor.getAttribute("href");
-    if (!language || !href || href.startsWith("#") || anchor.hasAttribute("download")) return;
+  function readerUrl(href) {
+    if (!language || !href || href.startsWith("#")) return href;
     let target;
     try {
       target = new URL(href, location.href);
     } catch {
-      return;
+      return href;
     }
-    if (target.origin !== location.origin || !target.pathname.endsWith(".html")) return;
+    if (target.origin !== location.origin || !target.pathname.endsWith(".html")) return href;
     target.searchParams.set("ui", language);
-    anchor.href = target.href;
+    return target.href;
+  }
+
+  function updateLink(anchor) {
+    if (anchor.hasAttribute("download")) return;
+    const href = anchor.getAttribute("href");
+    const target = readerUrl(href);
+    if (target !== href) anchor.href = target;
   }
 
   function updateLinks(root) {
@@ -72,7 +78,7 @@
   }
 
   // Mapper links and lookup history share the current reader preference.
-  window.UnilanguageInterface = { get language() { return language; } };
+  window.UnilanguageInterface = { get language() { return language; }, url: readerUrl };
   language = preference();
   for (const button of buttons) {
     button.addEventListener("click", () => select(button.dataset.readerLanguage));

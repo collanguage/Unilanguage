@@ -107,6 +107,23 @@ async function run() {
     await resultButtons.first().click();
     await firstEvidence.locator("summary").click();
     await firstEvidence.getByText(/英文原文/).first().waitFor();
+    const mapperLink = page.locator("#book-comparison").getByRole("link", { name: "在语义映射器中打开" }).first();
+    const selectedLink = new URL(await mapperLink.getAttribute("href"));
+    const expectedId = await left.inputValue();
+    assert.equal(selectedLink.searchParams.get("domain"), "legacy");
+    assert.equal(selectedLink.searchParams.get("legacyId"), expectedId);
+    assert.equal(selectedLink.searchParams.get("ui"), "zh-Hans");
+    await mapperLink.click();
+    await page.locator("#mapperResult").waitFor();
+    await page.goBack();
+    await page.getByRole("heading", { name: "语言书浏览器", exact: true }).waitFor();
+    assert.equal(await chinese.getAttribute("aria-pressed"), "true");
+    await page.goForward();
+    await page.locator("#mapperResult").waitFor();
+    assert.equal(new URL(page.url()).searchParams.get("legacyId"), expectedId);
+    assert.equal(new URL(page.url()).searchParams.get("ui"), "zh-Hans");
+    await page.goBack();
+    await page.getByRole("heading", { name: "语言书浏览器", exact: true }).waitFor();
     await page.reload();
     await page.getByRole("heading", { name: "语言书浏览器", exact: true }).waitFor();
     assert.equal(await chinese.getAttribute("aria-pressed"), "true");
@@ -159,6 +176,8 @@ async function run() {
     const chineseTree = await page.locator("main").ariaSnapshot();
     assert.match(chineseTree, /请选择空间关系和标记/);
     assert.match(chineseTree, /无需注册或提交资料/);
+    assert.match(chineseTree, /语言偏好保存在当前浏览器/);
+    assert.match(chineseTree, /网址中包含查询文字/);
     assert.match(chineseTree, /楔形文字字符表（英文原件）/);
     assert.doesNotMatch(chineseTree, /Community Research|Choose a relation|Keep notes offline|Cuneiform chart/);
     for (const width of [320, 390, 1280]) {
@@ -232,6 +251,46 @@ async function run() {
     }
     console.log("PASS: audited 10 guided pages plus Book and Space at 320px, including Mapper languages and responsive lookup.");
     await auditPage.close();
+
+    const lookup = await browser.newPage();
+    await lookup.addInitScript(() => {
+        Object.defineProperty(window, "localStorage", { get() { throw new Error("Storage unavailable"); } });
+    });
+    await lookup.goto(base + "/search.html?ui=zh-Hans");
+    await lookup.locator("#searchInput").fill("spatial");
+    await lookup.locator("#searchInput").press("Enter");
+    await lookup.waitForURL("**/protocol/protocol.space.html?ui=zh-Hans");
+    assert.equal(await lookup.getByRole("button", { name: "简体中文" }).getAttribute("aria-pressed"), "true");
+    await lookup.close();
+
+    const graph = await browser.newPage();
+    await graph.goto(base + "/graph.html?ui=zh-Hans");
+    for (const [selector, destination] of [
+        [".center-node", "language"], [".node-universe", "universe"],
+        [".node-human", "man"], [".node-symbol", "sign"],
+    ]) {
+        const url = new URL(await graph.locator(selector).getAttribute("href"));
+        assert.equal(url.pathname, "/words/" + destination + ".html");
+        assert.equal(url.searchParams.get("ui"), "zh-Hans");
+        assert.ok((await graph.request.get(url.href)).ok());
+    }
+    for (const selector of [".node-ai", ".node-knowledge"]) {
+        assert.equal(await graph.locator(selector).getAttribute("href"), null);
+        assert.equal(await graph.locator(selector).getAttribute("tabindex"), null);
+    }
+    await graph.goto(base + "/book.html?ui=zh-Hans");
+    const sample = graph.getByRole("link", { name: "阅读 LANGUAGE 词条 →" });
+    await sample.click();
+    await graph.waitForURL("**/words/language.html?ui=zh-Hans");
+    await graph.locator('a[href*="man.html"]').filter({ hasText: "Human" }).waitFor({ state: "attached" });
+    assert.equal(await graph.locator('a[href*="knowledge.html"], a[href*="time.html"]').count(), 0);
+    await graph.goto(base + "/protocol/protocol.mapping-framework.html?ui=zh-Hans");
+    const discovery = graph.locator('a[href*="#archive-sky-discovery"]').first();
+    const discoveryUrl = new URL(await discovery.getAttribute("href"));
+    assert.equal(discoveryUrl.searchParams.get("ui"), "zh-Hans");
+    await graph.goto(discoveryUrl.href);
+    await graph.locator("#archive-sky-discovery").waitFor({ state: "attached" });
+    await graph.close();
 
     const failedBook = await browser.newPage();
     let releaseDataset;
@@ -328,7 +387,7 @@ async function run() {
     await withoutScripts.getByText(/交互检索和比较需要 JavaScript/).waitFor();
     assert.equal(await withoutScripts.getByRole("searchbox").count(), 0);
     assert.ok(requests.every((request) => request.startsWith(base)));
-    console.log("PASS: bilingual Explorer search, comparison, evidence and recovery; keyboard language selection, reader interface routes, nested archive, French Mapper lookup and reload, mobile and desktop layouts, fully localized Space Initiative with accessible options and feedback, no-script bilingual fallback.");
+    console.log("PASS: bilingual Explorer search, comparison, legacy identity, navigation history, graph links and recovery; keyboard language selection, reader interface routes, nested archive, French Mapper lookup and reload, mobile and desktop layouts, fully localized Space Initiative with accessible options and feedback, no-script bilingual fallback.");
   } finally {
     if (browser) await browser.close();
     server.close();
