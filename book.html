@@ -1,43 +1,129 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en" data-reader-full-page>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Language Book · Unilanguage</title>
+<title data-reader-en="Language Book Explorer · Unilanguage" data-reader-zh="语言书浏览器 · Unilanguage">Language Book Explorer · 语言书浏览器 · Unilanguage</title>
 <link rel="stylesheet" href="css/style.css">
+<script defer src="js/language-book-data.js"></script>
+<script defer src="js/book-explorer.js"></script>
 </head>
 
-<body>
+<body class="book-v1">
+<a class="book-skip" href="#main"><span data-reader-text><span lang="en">Skip to content</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">跳到正文</span></span></a>
 
 <header>
   <div class="logo">
     <div class="logo-mark">U</div>
     <div class="logo-text">
       <h3>Unilanguage</h3>
-      <p>Language Book</p>
+      <p><span data-reader-text><span lang="en">Language Book</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">语言书</span></span></p>
     </div>
   </div>
 
-  <div class="lang">
-    <a href="index.html">Home</a>
-    <span>|</span>
-    <a href="search.html">Search</a>
-    <span>|</span>
-    <a href="dictionary.html">Dictionary</a>
-    <span>|</span>
-    <a href="graph.html">Graph</a>
-    <span>|</span>
-    <a href="protocol.html">Protocol</a>
-    <span>|</span>
-    <a href="hypothesis-lab.html">Hypothesis Lab · 假说实验室</a>
-  </div>
+  <nav class="book-nav" aria-labelledby="book-main-nav">
+    <span class="book-visually-hidden" id="book-main-nav"><span data-reader-text><span lang="en">Main navigation</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">主导航</span></span></span>
+    <a href="index.html"><span data-reader-text><span lang="en">Home</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">首页</span></span></a>
+    <a href="search.html"><span data-reader-text><span lang="en">Search</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">检索</span></span></a>
+    <a href="dictionary.html"><span data-reader-text><span lang="en">Dictionary</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词典</span></span></a>
+    <a href="graph.html"><span data-reader-text><span lang="en">Graph</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">知识图谱</span></span></a>
+    <a href="protocol.html"><span data-reader-text><span lang="en">Protocol</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">协议</span></span></a>
+    <a href="hypothesis-lab.html"><span data-reader-text><span lang="en">Hypothesis Lab</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">假说实验室</span></span></a>
+  </nav>
 </header>
 
-<main class="page">
+<main class="page" id="main" tabindex="-1">
 
   <section class="page-title">
-    <h1>Language Book</h1>
-    <p>语言书 · vocabulary, etymology, semantic mapping, protocol rules and literary explanation.</p>
+    <h1><span data-reader-text><span lang="en">Language Book Explorer</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">语言书浏览器</span></span></h1>
+    <p><span data-reader-text><span lang="en">Vocabulary, etymology, semantic mapping, protocol rules and literary explanation.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词汇、语源、语义映射、协议规则和文学讲解。</span></span></p>
+  </section>
+
+  <section class="panel book-section" id="explorer" aria-labelledby="explorer-title">
+    <h2 id="explorer-title"><span data-reader-text><span lang="en">Search and compare</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">检索与比较</span></span></h2>
+    <p><span data-reader-text><span lang="en">Find recorded English, Chinese and French forms. Compare their meanings, proposed mappings and evidence side by side.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">查找已收录的英、汉、法语词形，并排比较词义、拟议映射和证据。</span></span></p>
+    <p id="book-status" role="status" aria-atomic="true"></p>
+    <p id="book-recovery" hidden><a href="dictionary.html"><span data-reader-text><span lang="en">Browse the Dictionary</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">浏览词典</span></span></a></p>
+    <div id="book-controls" hidden>
+      <div class="book-fields" role="search" aria-labelledby="book-search-label">
+        <span class="book-visually-hidden" id="book-search-label"><span data-reader-text><span lang="en">Language Book search</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">语言书检索</span></span></span>
+        <div>
+          <label for="book-query"><span data-reader-text><span lang="en">Word or recorded form</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词或已收录形式</span></span></label>
+          <input type="search" id="book-query" placeholder="sky, 天空, ciel" data-reader-en="e.g. sky, 天空, ciel" data-reader-zh="例如：sky、天空、ciel" autocomplete="off">
+        </div>
+        <div>
+          <label for="book-language"><span data-reader-text><span lang="en">Search language</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">检索语言</span></span></label>
+          <select id="book-language">
+            <option value="" data-reader-en="All languages and aliases" data-reader-zh="所有语言及别名">All languages and aliases</option>
+            <option value="en" data-reader-en="English" data-reader-zh="英语">English</option>
+            <option value="zh-Hans" data-reader-en="Chinese" data-reader-zh="汉语">中文</option>
+            <option value="fr" data-reader-en="French" data-reader-zh="法语">Français</option>
+          </select>
+        </div>
+      </div>
+      <details class="book-matches">
+        <summary><span data-reader-text><span lang="en">Matching records</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">匹配词条</span></span></summary>
+        <p><span data-reader-text><span lang="en">Choose a record to place it on the left.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">选择一条记录，将其放到左侧比较栏。</span></span></p>
+        <ul id="book-results"></ul>
+      </details>
+      <div class="book-fields" aria-labelledby="book-comparison-label" role="group">
+        <span class="book-visually-hidden" id="book-comparison-label"><span data-reader-text><span lang="en">Semantic comparison</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">语义比较</span></span></span>
+        <div>
+          <label for="book-left"><span data-reader-text><span lang="en">Left record</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">左侧词条</span></span></label>
+          <select id="book-left"><option value="" data-reader-en="Choose a record" data-reader-zh="请选择词条">Choose a record</option></select>
+        </div>
+        <div>
+          <label for="book-right"><span data-reader-text><span lang="en">Right record</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">右侧词条</span></span></label>
+          <select id="book-right"><option value="" data-reader-en="Choose a record" data-reader-zh="请选择词条">Choose a record</option></select>
+        </div>
+      </div>
+      <div id="book-comparison" class="book-list"></div>
+    </div>
+    <noscript>
+      <p lang="en">Interactive search and comparison require JavaScript. <a href="dictionary.html">Browse the Dictionary</a> or read the published entries below.</p>
+      <p lang="zh-Hans">交互检索和比较需要 JavaScript。可<a href="dictionary.html">浏览词典</a>，也可阅读下方已发表词条。</p>
+    </noscript>
+  </section>
+
+  <section class="panel book-section" aria-labelledby="learning-title">
+    <h2 id="learning-title"><span data-reader-text><span lang="en">Learn with Unilanguage</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">学习导览</span></span></h2>
+    <nav aria-labelledby="learning-title">
+      <ul class="book-list book-guides">
+        <li class="book-item">
+          <h3><a href="semantic-mapper.html"><span data-reader-text><span lang="en">Semantic Mapper</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">语义映射器</span></span></a></h3>
+          <p lang="en" data-reader-copy>Type a recorded form or choose one from the English, Chinese and French indexes. Check whether the result is a Language Book record or an unpublished production candidate. The translation, proposed mapping, historical relationship and experiment each have their own status.</p>
+          <p lang="zh-Hans" data-reader-copy>输入已收录的词形，或从英、汉、法索引中选择一项。先核对结果是语言书词条，还是尚未出版的候选记录。通用译义、拟议的映射、历史关系和实验各有独立状态。</p>
+        </li>
+        <li class="book-item">
+          <h3><a href="protocol.html"><span data-reader-text><span lang="en">Protocol Book</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">协议书</span></span></a></h3>
+          <p lang="en" data-reader-copy>Read how Unilanguage describes sound, space and semantic mappings. Start with Space for the SKY case, then use the mapping framework to see how the project records a mapping and its support. The theory chapters describe the project’s framework. Check the linked evidence before applying any historical claim.</p>
+          <p lang="zh-Hans" data-reader-copy>了解 Unilanguage 如何描述声音、空间和语义映射。可从「空间」一章中的 SKY 案例开始，再读映射框架，了解项目如何记录映射及其依据。理论章节介绍项目采用的框架；引用历史主张前，请核查对应证据。</p>
+        </li>
+        <li class="book-item">
+          <h3><a href="translation-protocol.html"><span data-reader-text><span lang="en">UTP Lab</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">翻译协议实验室</span></span></a></h3>
+          <p lang="en" data-reader-copy>Read the SKY evaluation to see how a proposed translation handles meaning and context. Compare the evaluation criteria with the linked Language Book entry and the Space chapter. A translation evaluation supports conclusions about the cases it examines.</p>
+          <p lang="zh-Hans" data-reader-copy>阅读 SKY 翻译评测，了解译法如何处理词义和语境。可把评测标准与对应语言书词条和「空间」章节对照阅读。翻译评测所得的结论适用于实际评测的案例。</p>
+        </li>
+        <li class="book-item">
+          <h3><a href="hypothesis-lab.html"><span data-reader-text><span lang="en">Hypothesis Lab</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">假说实验室</span></span></a></h3>
+          <p lang="en" data-reader-copy>Choose a registered hypothesis, read its prediction and evidence track, then open the linked design or result. A preregistration documents a planned test. An inconclusive result leaves the tested claim unresolved.</p>
+          <p lang="zh-Hans" data-reader-copy>选择一条已登记的假说，先阅读预测及其证据类别，再打开所链接的研究设计或结果。预注册记录计划实施的检验。若实验结果不确定，该主张仍未得到确证。</p>
+        </li>
+        <li class="book-item">
+          <h3><a href="graph.html"><span data-reader-text><span lang="en"><span data-reader-text><span lang="en">Knowledge Graph</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">知识图谱</span></span></span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">知识图谱</span></span></a></h3>
+          <p lang="en" data-reader-copy>Follow links among recorded concepts and project pages. Use the relevant Language Book entry and evidence references to check what a connection represents.</p>
+          <p lang="zh-Hans" data-reader-copy>沿图谱浏览已收录概念及相关项目页面。请查阅对应的语言书词条和证据引文，核对每条连接所代表的关系。</p>
+        </li>
+        <li class="book-item">
+          <h3><a href="evidence-and-references.html"><span data-reader-text><span lang="en">Evidence and references</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">证据与参考资料</span></span></a></h3>
+          <p lang="en" data-reader-copy>Use this guide to check a source’s provenance and the exact claim it supports. Keep documented lexical history, phonetic and semantic observations, and speculative claims distinct when citing a record.</p>
+          <p lang="zh-Hans" data-reader-copy>用本页查看如何核对资料出处，以及资料具体支持哪项主张。引用记录时，请分别说明有文献依据的词汇史、语音与语义观察，以及推测性主张。</p>
+        </li>
+      </ul>
+    </nav>
+    <p lang="en" data-reader-copy>The notes above summarize the linked pages. Some research and archival passages are available in their original languages.</p>
+    <p lang="zh-Hans" data-reader-copy>上面的导览概述了各页面的内容。部分研究和存档段落仅提供原文。</p>
+    <p><a href="space-language.html"><span data-reader-text><span lang="en">Space Language Initiative</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">航天共通语言计划</span></span></a></p>
   </section>
 
   <section class="cards">
@@ -45,30 +131,27 @@
     <div class="card">
       <div class="card-icon">📚</div>
       <div>
-        <h2>Dictionary</h2>
-        <h3>词汇系统</h3>
-        <p>Browse multilingual entries and semantic fields.</p>
-        <a href="dictionary.html">Open →</a>
+        <h2><span data-reader-text><span lang="en">Dictionary</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词典</span></span></h2>
+        <p><span data-reader-text><span lang="en">Browse multilingual entries and semantic fields.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">浏览多语词条和语义领域。</span></span></p>
+        <a href="dictionary.html"><span data-reader-text><span lang="en">Open Dictionary →</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">打开词典 →</span></span></a>
       </div>
     </div>
 
     <div class="card">
       <div class="card-icon">🌐</div>
       <div>
-        <h2>Knowledge Graph</h2>
-        <h3>知识图谱</h3>
-        <p>See how meanings connect across languages and concepts.</p>
-        <a href="graph.html">Open →</a>
+        <h2><span data-reader-text><span lang="en">Knowledge Graph</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">知识图谱</span></span></h2>
+        <p><span data-reader-text><span lang="en">See how meanings connect across languages and concepts.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">查看词义如何跨语言和概念相互关联。</span></span></p>
+        <a href="graph.html"><span data-reader-text><span lang="en">Open Knowledge Graph →</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">打开知识图谱 →</span></span></a>
       </div>
     </div>
 
     <div class="card">
       <div class="card-icon">📜</div>
       <div>
-        <h2>Protocol</h2>
-        <h3>语义协议</h3>
-        <p>Read the rules behind semantic encoding and reconstruction.</p>
-        <a href="protocol.html">Open →</a>
+        <h2><span data-reader-text><span lang="en">Protocol</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">协议</span></span></h2>
+        <p><span data-reader-text><span lang="en">Read the rules behind semantic encoding and reconstruction.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">了解语义编码和重构所依据的规则。</span></span></p>
+        <a href="protocol.html"><span data-reader-text><span lang="en">Open Protocol →</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">打开协议 →</span></span></a>
       </div>
     </div>
 
@@ -76,31 +159,30 @@
 
   <section class="panel book-section">
 
-    <h2>Editorial Policy · 编辑原则</h2>
-    <p class="literary">“词条可以发表，假说必须标级，文学可以自由展开，证据必须独立核验。”</p>
-    <p>An entry may be published; a hypothesis must be graded; literature may explore freely; evidence must be evaluated independently.</p>
+    <h2><span data-reader-text><span lang="en">Editorial Policy</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">编辑原则</span></span></h2>
+    <p class="literary"><span data-reader-text><span lang="en">An entry may be published; a hypothesis must be graded; literature may explore freely; evidence must be evaluated independently.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">“词条可以发表，假说必须标级，文学可以自由展开，证据必须独立核验。”</span></span></p>
 
   </section>
 
   <section class="panel book-section">
 
-    <h2>Published Entries · 已发表词条</h2>
+    <h2><span data-reader-text><span lang="en">Published Entries</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">已发表词条</span></span></h2>
 
     <div class="book-list">
       <div class="book-item">
-        <strong>Entry 001 · Sky</strong>
-        <p>Entry: Published · Mapping sky ↔ 盖: Candidate / Experimental · Historical Cognacy: Not established.</p>
-        <a href="words/sky.html">Open Sky →</a>
+        <strong><span data-reader-text><span lang="en">Entry 001 · Sky</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词条 001 · Sky</span></span></strong>
+        <p><span data-reader-text><span lang="en">Entry: Published · Mapping sky ↔ 盖: Candidate / Experimental · Historical Cognacy: Not established.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词条已发表。sky ↔ 盖为候选／实验性映射。历史同源关系尚未确立。</span></span></p>
+        <a href="words/sky.html"><span data-reader-text><span lang="en">Open Sky →</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">打开 Sky →</span></span></a>
       </div>
       <div class="book-item">
-        <strong>Entry 002 · Light</strong>
-        <p>Entry: Published · Mapping light → 籁: Candidate · Literary Mapping: 《如光天籁》 by Jinkai Liu, Published.</p>
-        <a href="words/light.html">Open Light / 《如光天籁》 →</a>
+        <strong><span data-reader-text><span lang="en">Entry 002 · Light</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词条 002 · Light</span></span></strong>
+        <p><span data-reader-text><span lang="en">Entry: Published · Mapping light → 籁: Candidate · Literary Mapping: 《如光天籁》 by Jinkai Liu, Published.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词条已发表。light → 籁为候选映射。Jinkai Liu 的文学映射《如光天籁》已发表。</span></span></p>
+        <a href="words/light.html"><span data-reader-text><span lang="en">Open Light / 《如光天籁》 →</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">打开 Light／《如光天籁》 →</span></span></a>
       </div>
       <div class="book-item">
-        <strong>Entry 003 · AT · 在 · 爱</strong>
-        <p>Entry: Published · at /æt/ ↔ 在 zài /tsaɪ̯/: Candidate phonetic-semantic observation · Historical Relation: Unestablished · Literary Layer by Jinkai Liu: Published.</p>
-        <a href="words/at.html">Open AT · 在 · 爱 / Love Is Presence →</a>
+        <strong><span data-reader-text><span lang="en">Entry 003 · AT · 在 · 爱</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词条 003 · AT · 在 · 爱</span></span></strong>
+        <p><span data-reader-text><span lang="en">Entry: Published · at /æt/ ↔ 在 zài /tsaɪ̯/: Candidate phonetic-semantic observation · Historical Relation: Unestablished · Literary Layer by Jinkai Liu: Published.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词条已发表。at /æt/ ↔ 在 zài /tsaɪ̯/ 为候选语音—语义观察。历史关系尚未确立。Jinkai Liu 的文学内容已发表。</span></span></p>
+        <a href="words/at.html"><span data-reader-text><span lang="en">Open AT · 在 · 爱 / Love Is Presence →</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">打开 AT · 在 · 爱／Love Is Presence →</span></span></a>
       </div>
     </div>
 
@@ -108,38 +190,38 @@
 
   <section class="panel book-section">
 
-    <h2>Book Structure · 语言书结构</h2>
+    <h2><span data-reader-text><span lang="en">Book Structure</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">语言书结构</span></span></h2>
 
     <div class="book-list">
 
       <div class="book-item">
-        <strong>1. Word Entry · 词条</strong>
-        <p>Each word contains English, Chinese, French, pronunciation, category and semantic meaning.</p>
+        <strong><span data-reader-text><span lang="en">1. Word Entry</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">1. 词条</span></span></strong>
+        <p><span data-reader-text><span lang="en">Each word contains English, Chinese, French, pronunciation, category and semantic meaning.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词条记录英、汉、法语形式、读音、类别及语义。</span></span></p>
       </div>
 
       <div class="book-item">
-        <strong>2. Etymology · 语源</strong>
-        <p>Trace the origin of words through English, French, Latin, Chinese and other language layers.</p>
+        <strong><span data-reader-text><span lang="en">2. Etymology</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">2. 语源</span></span></strong>
+        <p><span data-reader-text><span lang="en">Trace the origin of words through English, French, Latin, Chinese and other language layers.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">从英语、法语、拉丁语、汉语等语言层面追溯词源。</span></span></p>
       </div>
 
       <div class="book-item">
-        <strong>3. Semantic Mapping · 语义映射</strong>
-        <p>Connect words through sound, image, direction, culture and meaning fields.</p>
+        <strong><span data-reader-text><span lang="en">3. Semantic Mapping</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">3. 语义映射</span></span></strong>
+        <p><span data-reader-text><span lang="en">Connect words through sound, image, direction, culture and meaning fields.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">通过声音、意象、方向、文化和语义领域联系词语。</span></span></p>
       </div>
 
       <div class="book-item">
-        <strong>4. Protocol Rules · 协议规则</strong>
-        <p>Explain how meaning is encoded, transmitted and reconstructed across systems.</p>
+        <strong><span data-reader-text><span lang="en">4. Protocol Rules</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">4. 协议规则</span></span></strong>
+        <p><span data-reader-text><span lang="en">Explain how meaning is encoded, transmitted and reconstructed across systems.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">说明意义如何在不同系统之间编码、传递和重构。</span></span></p>
       </div>
 
       <div class="book-item">
-        <strong>5. Literary Explanation · 文学讲解</strong>
-        <p>Each word may begin with a poetic sentence, then unfold into linguistic analysis.</p>
+        <strong><span data-reader-text><span lang="en">5. Literary Explanation</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">5. 文学讲解</span></span></strong>
+        <p><span data-reader-text><span lang="en">Each word may begin with a poetic sentence, then unfold into linguistic analysis.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">词条可从一句诗意的文字展开，再进入语言分析。</span></span></p>
       </div>
 
       <div class="book-item">
-        <strong>6. Media Layer · 媒体层</strong>
-        <p>Future entries may include images, music, video explanation and AI narration.</p>
+        <strong><span data-reader-text><span lang="en">6. Media Layer</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">6. 媒体层</span></span></strong>
+        <p><span data-reader-text><span lang="en">Future entries may include images, music, video explanation and AI narration.</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">日后的词条可能包含图片、音乐、视频讲解和 AI 旁白。</span></span></p>
       </div>
 
     </div>
@@ -148,168 +230,54 @@
 
   <section class="panel sample-entry">
 
-    <h2>Sample Entry · 示例词条</h2>
+    <h2><span data-reader-text><span lang="en">Sample Entry</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">示例词条</span></span></h2>
 
     <div class="entry-head">
       <div>
-        <h3>LANGUAGE</h3>
-        <p>English · 语言 · Langue</p>
+        <h3 lang="en">LANGUAGE</h3>
+        <p><span lang="en">English</span> · <span lang="zh-Hans">语言</span> · <span lang="fr">Langue</span></p>
       </div>
-      <span>Core Concept</span>
+      <span class="book-concept"><span data-reader-text><span lang="en">Core Concept</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">核心概念</span></span></span>
     </div>
 
-    <p class="literary">
+    <p><span data-reader-text><span lang="en">Literary excerpt · English original</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">文学引文 · 英文原文</span></span></p>
+    <p class="literary" lang="en">
       “Language is the bridge between minds, but meaning is the universe beneath the bridge.”
     </p>
 
     <div class="entry-grid">
 
       <div>
-        <strong>English</strong>
-        <p>Language / Speech</p>
+        <strong><span data-reader-text><span lang="en">English</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">英语</span></span></strong>
+        <p lang="en">Language / Speech</p>
       </div>
 
       <div>
-        <strong>Chinese</strong>
-        <p>语言 / 言语</p>
+        <strong><span data-reader-text><span lang="en">Chinese</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">汉语</span></span></strong>
+        <p lang="zh-Hans">语言 / 言语</p>
       </div>
 
       <div>
-        <strong>French</strong>
-        <p>Langue / Langage</p>
+        <strong><span data-reader-text><span lang="en">French</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">法语</span></span></strong>
+        <p lang="fr">Langue / Langage</p>
       </div>
 
       <div>
-        <strong>Semantic Field</strong>
-        <p>Symbol · Sound · Meaning · Human · Culture</p>
+        <strong><span data-reader-text><span lang="en">Semantic Field</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">语义领域</span></span></strong>
+        <p><span data-reader-text><span lang="en">Symbol · Sound · Meaning · Human · Culture</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">符号 · 声音 · 意义 · 人 · 文化</span></span></p>
       </div>
 
     </div>
 
-    <a class="btn" href="dictionary.html#language">Open in Dictionary →</a>
+    <a class="btn" href="words/language.html"><span data-reader-text><span lang="en">Read the LANGUAGE entry →</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">阅读 LANGUAGE 词条 →</span></span></a>
 
   </section>
 
 </main>
 
 <footer>
-  <p>Unilanguage Protocol v1.0 · Language Book</p>
+  <p><span data-reader-text><span lang="en">Unilanguage Protocol v1.0 · Language Book</span><span class="reader-separator" aria-hidden="true"> · </span><span lang="zh-Hans">Unilanguage 协议 v1.0 · 语言书</span></span></p>
 </footer>
-
-<style>
-.book-section,
-.sample-entry{
-  max-width:1180px;
-  margin:42px auto 0;
-  padding:38px;
-}
-
-.book-section h2,
-.sample-entry h2{
-  font-family:Georgia,serif;
-  color:#ffd46b;
-  font-size:34px;
-  margin-bottom:28px;
-}
-
-.book-list{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:22px;
-}
-
-.book-item{
-  padding:24px;
-  border-radius:18px;
-  border:1px solid rgba(0,170,255,.35);
-  background:rgba(0,40,100,.32);
-}
-
-.book-item strong{
-  display:block;
-  font-size:20px;
-  color:white;
-  margin-bottom:10px;
-}
-
-.book-item p{
-  color:#c8d9ff;
-  line-height:1.7;
-}
-
-.entry-head{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:20px;
-  border-bottom:1px solid rgba(255,255,255,.1);
-  padding-bottom:18px;
-  margin-bottom:24px;
-}
-
-.entry-head h3{
-  font-family:Georgia,serif;
-  font-size:40px;
-  color:white;
-}
-
-.entry-head p{
-  color:#c8d9ff;
-  margin-top:6px;
-}
-
-.entry-head span{
-  color:#061225;
-  background:#d4af37;
-  padding:10px 18px;
-  border-radius:20px;
-  font-weight:700;
-}
-
-.literary{
-  font-size:21px;
-  line-height:1.8;
-  color:#f2e6c8;
-  margin-bottom:28px;
-  font-family:Georgia,serif;
-}
-
-.entry-grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:18px;
-  margin-bottom:28px;
-}
-
-.entry-grid div{
-  padding:20px;
-  border-radius:16px;
-  border:1px solid rgba(0,170,255,.28);
-  background:rgba(0,40,100,.24);
-}
-
-.entry-grid strong{
-  display:block;
-  color:#ffd46b;
-  margin-bottom:8px;
-}
-
-.entry-grid p{
-  color:#d8e6ff;
-}
-
-@media(max-width:900px){
-  .book-list,
-  .entry-grid{
-    grid-template-columns:1fr;
-  }
-
-  .entry-head{
-    flex-direction:column;
-    align-items:flex-start;
-  }
-}
-</style>
 
 </body>
 </html>

@@ -3,6 +3,7 @@ import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {preparePublicationOutput} from './prepare-publication-output.mjs';
 import {publicationFileAllowed} from './publication-file-policy.mjs';
+import {integrateSiteInterface, integrateMapperMessages, integrateSearchNavigation} from './integrate-site-interface.mjs';
 // Both validators are hard publication gates. Do not generate a new freeze here.
 for(const script of ['validate-schema.mjs','validate-language-book-v1.mjs','validate-production-candidates.mjs','validate-observation-registry.mjs','validate-queue-scheduler.mjs'])execFileSync(process.execPath,[`scripts/${script}`],{stdio:'inherit'});
 execFileSync(process.execPath,['--test','--test-name-pattern=Layer 1|Editorial validator|Frozen schema-valid|Reader/Mapper|Static pages','tests/second-pipeline.test.cjs'],{stdio:'inherit'});
@@ -19,6 +20,11 @@ for(const name of files){
  if(!publicationFileAllowed(name))continue;
  if(name.startsWith('dist/')||name.startsWith('.publication-backup-')||name.startsWith('node_modules/')||name.split('/').includes('..'))throw Error(`Unsafe deployment path: ${name}`);
  if(!fs.existsSync(name))throw Error(`Missing tracked artifact: ${name}`);
- const dest=path.join(out,name);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(name,dest);
+ const dest=path.join(out,name);
+ fs.mkdirSync(path.dirname(dest),{recursive:true});
+ if(name.endsWith('.html'))fs.writeFileSync(dest,integrateSiteInterface(name,fs.readFileSync(name,'utf8')));
+ else if(name==='js/semantic-mapper.js')fs.writeFileSync(dest,integrateMapperMessages(fs.readFileSync(name,'utf8')));
+ else if(name==='js/search.js')fs.writeFileSync(dest,integrateSearchNavigation(fs.readFileSync(name,'utf8')));
+ else fs.copyFileSync(name,dest);
 }
 console.log(`Publication build passed: ${files.length} tracked files; schema + evidence/editorial gates.`);
